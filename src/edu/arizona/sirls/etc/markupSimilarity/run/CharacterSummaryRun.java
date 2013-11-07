@@ -4,6 +4,8 @@ import java.io.File;
 import java.util.LinkedList;
 import java.util.List;
 
+import com.google.inject.Inject;
+
 import edu.arizona.sirls.etc.markupSimilarity.algorithm.character.ISimilarityCalculator;
 import edu.arizona.sirls.etc.markupSimilarity.io.IResultPresenter;
 import edu.arizona.sirls.etc.markupSimilarity.io.ITreatmentReader;
@@ -18,6 +20,7 @@ public class CharacterSummaryRun implements IRun {
 	private ISimilarityCalculator similarityCalculator;
 	private IResultPresenter resultPresenter;
 
+	@Inject
 	public CharacterSummaryRun(ITreatmentReader reader, 
 			File input, ISimilarityCalculator similarityCalculator, 
 			IResultPresenter resultPresenter) {
