@@ -1,6 +1,6 @@
 package edu.arizona.sirls.etc.markupSimilarity.io;
 
-public class SimilarityResult {
+public class SimilarityResult implements Comparable<SimilarityResult> {
 
 	private Object a;
 	private Object b;
@@ -68,6 +68,13 @@ public class SimilarityResult {
 			return "similarity_" + score.getAlgorithm().getSimpleName() + "(" +
 					a.toString() + ", " + b.toString() + ")" +
 					" = " + score.getSimilarity();
+	}
+
+	@Override
+	public int compareTo(SimilarityResult o) {
+		if(this.getaLabel().compareTo(o.getbLabel()) == 0)
+			return this.getbLabel().compareTo(o.getbLabel());
+		return this.getaLabel().compareTo(o.getbLabel());
 	}
 	
 

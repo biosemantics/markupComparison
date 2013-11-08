@@ -24,9 +24,10 @@ import org.apache.lucene.store.RAMDirectory;
 import org.apache.lucene.util.BytesRef;
 import org.apache.lucene.util.Version;
 
+import edu.arizona.sirls.etc.markupSimilarity.algorithm.ISimilarity;
 import edu.arizona.sirls.etc.markupSimilarity.io.Score;
 
-public class CosineSimilarityCalculator implements ISimilarityCalculator {
+public class CosineSimilarity implements ISimilarity<String> {
 
 	@Override
 	public Score getSimilarity(String a, String b) {

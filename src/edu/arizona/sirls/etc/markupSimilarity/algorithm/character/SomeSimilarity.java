@@ -1,9 +1,10 @@
 package edu.arizona.sirls.etc.markupSimilarity.algorithm.character;
 
+import edu.arizona.sirls.etc.markupSimilarity.algorithm.ISimilarity;
 import edu.arizona.sirls.etc.markupSimilarity.io.Score;
 
 
-public class SomeSimilarityCalculator implements ISimilarityCalculator {
+public class SomeSimilarity implements ISimilarity<edu.arizona.sirls.etc.markupSimilarity.model.Character> {
 
 	@Override
 	public Score getSimilarity(edu.arizona.sirls.etc.markupSimilarity.model.Character a, 

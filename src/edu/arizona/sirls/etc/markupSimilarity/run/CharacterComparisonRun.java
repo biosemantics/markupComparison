@@ -6,7 +6,7 @@ import java.util.List;
 
 import com.google.inject.Inject;
 
-import edu.arizona.sirls.etc.markupSimilarity.algorithm.character.ISimilarityCalculator;
+import edu.arizona.sirls.etc.markupSimilarity.algorithm.ISimilarity;
 import edu.arizona.sirls.etc.markupSimilarity.io.IResultPresenter;
 import edu.arizona.sirls.etc.markupSimilarity.io.ITreatmentReader;
 import edu.arizona.sirls.etc.markupSimilarity.io.Score;
@@ -21,16 +21,16 @@ public class CharacterComparisonRun implements IRun {
 
 	private ITreatmentReader reader;
 	private File input;
-	private ISimilarityCalculator similarityCalculator;
+	private ISimilarity<edu.arizona.sirls.etc.markupSimilarity.model.Character> similarity;
 	private IResultPresenter resultPresenter;
 
 	@Inject
 	public CharacterComparisonRun(ITreatmentReader reader, 
-			File input, ISimilarityCalculator similarityCalculator, 
+			File input, ISimilarity<edu.arizona.sirls.etc.markupSimilarity.model.Character> similarity, 
 			IResultPresenter resultPresenter) {
 		this.reader = reader;
 		this.input = input;
-		this.similarityCalculator = similarityCalculator;
+		this.similarity = similarity;
 		this.resultPresenter = resultPresenter;
 	}
 	
@@ -55,7 +55,7 @@ public class CharacterComparisonRun implements IRun {
 				edu.arizona.sirls.etc.markupSimilarity.model.Character a = characters.get(i);
 				for(int j=i+1; j<characters.size(); j++) { 
 					edu.arizona.sirls.etc.markupSimilarity.model.Character b = characters.get(j);
-					Score score = similarityCalculator.getSimilarity(a, b);
+					Score score = similarity.getSimilarity(a, b);
 					results.add(new SimilarityResult(a, null, b, null, score));
 				}
 			}
