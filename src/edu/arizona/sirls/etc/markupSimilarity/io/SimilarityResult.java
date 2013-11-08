@@ -72,9 +72,9 @@ public class SimilarityResult implements Comparable<SimilarityResult> {
 
 	@Override
 	public int compareTo(SimilarityResult o) {
-		if(this.getaLabel().compareTo(o.getbLabel()) == 0)
+		if(this.getaLabel().compareTo(o.getaLabel()) == 0)
 			return this.getbLabel().compareTo(o.getbLabel());
-		return this.getaLabel().compareTo(o.getbLabel());
+		return this.getaLabel().compareTo(o.getaLabel());
 	}
 	
 

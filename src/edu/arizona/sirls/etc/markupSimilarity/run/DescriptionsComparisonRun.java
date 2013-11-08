@@ -49,7 +49,7 @@ public class DescriptionsComparisonRun implements IRun {
 	@Override
 	public void run() {
 		try {
-			ListeningExecutorService executorService = MoreExecutors.listeningDecorator(Executors.newCachedThreadPool());
+			ListeningExecutorService executorService = MoreExecutors.listeningDecorator(Executors.newFixedThreadPool(10));//.newCachedThreadPool());
 			
 			//read input
 			DescriptionsFileList descriptionsFileList = reader.read(input);	
@@ -70,9 +70,11 @@ public class DescriptionsComparisonRun implements IRun {
 			// calculate number of calculations
 			int size = iterationList.size();
 			int numberOfCalculations = (size-1) * size / 2;
-			CountDownLatch calculationsLatch = new CountDownLatch(numberOfCalculations);
+			System.out.println("Need " + numberOfCalculations + " calculations");
+			final CountDownLatch calculationsLatch = new CountDownLatch(numberOfCalculations);
 			
 			// calculate
+			int x=0;
 			Map<Future<Score>, SimilarityResult> futureScoreResults = new HashMap<Future<Score>, SimilarityResult>();
 			for(int i=0; i<iterationList.size(); i++) {
 				TreatmentRoot a = iterationList.get(i);
@@ -81,12 +83,20 @@ public class DescriptionsComparisonRun implements IRun {
 					SimilarityCalculation<TreatmentRoot> calculation = new SimilarityCalculation<TreatmentRoot>(similarity, a, b);
 					ListenableFuture<Score> futureScore = executorService.submit(calculation);
 					futureScoreResults.put(futureScore, new SimilarityResult(a, treatmentRootsMap.get(a), b, treatmentRootsMap.get(b), null));
+					futureScore.addListener(new Runnable() {
+						@Override
+						public void run() {
+							calculationsLatch.countDown();
+							System.out.println(calculationsLatch.getCount());
+						} 
+					}, executorService);
 				}
-			}			
+			}
+			System.out.println("all calculations have been submitted - await for completion...");
+				
 			//present results when calculations have finished
 			calculationsLatch.await();
 			executorService.shutdown();
-			
 			List<SimilarityResult> results = new LinkedList<SimilarityResult>();
 			for(Future<Score> futureScore : futureScoreResults.keySet()) {
 				SimilarityResult result = futureScoreResults.get(futureScore);
