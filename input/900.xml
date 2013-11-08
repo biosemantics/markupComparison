@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>33.</number>
+  <species_name>Artemisia globularia</species_name>
+  <authority>Chamisso ex Besser</authority>
+  <place_of_publication>Nouv. Mém. Soc. Imp. Naturalistes Moscou 3: 64. 1833</place_of_publication>
+  <synonym_of_species_name>Ajania globularia (Besser) Poljakov; Artemisia norvegica Fries subsp. globularia (Besser) H. M. Hall &amp; Clements</synonym_of_species_name>
+  <description>
+    <statement id="900.txt-0">
+      <text>Perennials, (3–)5–16(–30) cm (cespitose), faintly aromatic (not rhizomatous, taproots stout, caudices simple or branched, proximal branches clothed with persistent leaf bases).</text>
+      <structure id="o18675" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="3" to="5" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_size" from="16" to="30" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="16" to_unit="cm" />
+        <character name="odor" value="aromatic" modifier="faintly" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="900.txt-1">
+      <text>Stems 1–5, erect, whitish gray, densely tomentose.</text>
+      <structure id="o18676" name="stem">
+        <character char_type="range_value" name="count" from="1" to="5" />
+        <character name="orientation" value="erect" />
+        <character name="coloration" value="gray" modifier="whitish" />
+        <character name="pubescence" value="tomentose" modifier="densely" />
+      </structure>
+    </statement>
+    <statement id="900.txt-2">
+      <text>Leaves mostly basal (cauline 1–4), greenish to whitish green;</text>
+      <structure id="o18677" name="leaf">
+        <character name="insertion_or_position" value="basal" modifier="mostly" />
+        <character char_type="range_value" name="coloration" from="greenish" to="whitish-green" />
+        <character name="coloration" value="greenish" />
+        <character name="coloration" value="green" modifier="whitish" />
+      </structure>
+    </statement>
+    <statement id="900.txt-3">
+      <text>blades (basal) 1–4.5 × 0.6–1.5 cm, 1–2-ternately to palmately lobed (flowering-stem blades 3-lobed), faces sparsely hairy.</text>
+      <structure id="o18678" name="blade">
+        <character char_type="range_value" name="length" from="1" from_unit="cm" to="4.5" to_unit="cm" />
+        <character char_type="range_value" name="width" from="0.6" from_unit="cm" to="1.5" to_unit="cm" />
+        <character name="shape" value="lobed" modifier="1-2-ternately palmately" />
+      </structure>
+      <structure id="o18679" name="face">
+        <character name="pubescence" value="hairy" modifier="sparsely" />
+      </structure>
+    </statement>
+    <statement id="900.txt-4">
+      <text>Heads (2–20, peduncles 0 or to 25 mm) in subcapitate to capitate arrays 2–3 × 2–3 cm.</text>
+      <structure id="o18680" name="head" />
+      <structure id="o18681" name="array">
+        <character char_type="range_value" name="architecture" from="subcapitate" to="capitate" />
+        <character name="architecture" value="subcapitate" />
+        <character name="architecture" value="capitate" />
+        <character char_type="range_value" name="length" from="2" from_unit="cm" to="3" to_unit="cm" />
+        <character char_type="range_value" name="width" from="2" from_unit="cm" to="3" to_unit="cm" />
+      </structure>
+      <relation id="r1978" name="in" from="o18680" to="o18681" negation="false" />
+    </statement>
+    <statement id="900.txt-5">
+      <text>Involucres campanulate or hemispheric, 3.5–6 × 6–11 mm.</text>
+      <structure id="o18682" name="involucre">
+        <character name="shape" value="campanulate" />
+        <character name="shape" value="hemispheric" />
+        <character char_type="range_value" name="length" from="3.5" from_unit="mm" to="6" to_unit="mm" />
+        <character char_type="range_value" name="width" from="6" from_unit="mm" to="11" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="900.txt-6">
+      <text>Phyllaries lanceolate (margins brown), pilose.</text>
+      <structure id="o18683" name="phyllary">
+        <character name="shape" value="lanceolate" />
+        <character name="pubescence" value="pilose" />
+      </structure>
+    </statement>
+    <statement id="900.txt-7">
+      <text>Florets:</text>
+      <structure id="o18684" name="floret" />
+    </statement>
+    <statement id="900.txt-8">
+      <text>pistillate 9–10;</text>
+      <structure id="o18685" name="floret" constraint="pistillate">
+        <character char_type="range_value" name="count" from="9" to="10" />
+      </structure>
+    </statement>
+    <statement id="900.txt-9">
+      <text>bisexual 20–30;</text>
+      <structure id="o18686" name="floret" constraint="bisexual">
+        <character char_type="range_value" name="count" from="20" to="30" />
+      </structure>
+    </statement>
+    <statement id="900.txt-10">
+      <text>corollas yellow or reddish black, 2–3 mm, sometimes glandular.</text>
+      <structure id="o18687" name="corolla">
+        <character name="coloration" value="yellow" />
+        <character name="coloration" value="black" modifier="reddish" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="3" to_unit="mm" />
+        <character name="architecture_or_exudation_or_pubescence" value="glandular" modifier="sometimes" />
+      </structure>
+    </statement>
+    <statement id="900.txt-11">
+      <text>Cypselae oblong, 1.5–2.5 mm, (apices flattened) glabrous.</text>
+      <structure id="o18688" name="cypsela">
+        <character name="shape" value="oblong" />
+        <character char_type="range_value" name="size" from="1.5" from_unit="mm" to="2.5" to_unit="mm" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Subspecies 2 (2 in the flora):</number_of_infrataxa>
+  <general_distribution>nw North America</general_distribution>
+  <general_distribution>Asia.</general_distribution>
+  <couplet>1.Corollas reddish black; cypselae ca. 2.5 mm, margins with relatively narrow ribs.33a. Artemisia globularia subsp. globularia</couplet>
+  <couplet>1.Corollas yellow; cypselae 1.5–2 mm, margins with relatively broad ribs.33b. Artemisia globularia subsp. lutea</couplet>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

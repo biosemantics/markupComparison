@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>59c.</number>
+  <variety_name>Cirsium fontinale (Greene) Jepson var. obispoense</variety_name>
+  <authority>J. T. Howell</authority>
+  <place_of_publication>Leafl. W. Bot. 2: 71. 1938</place_of_publication>
+  <common_name>Chorro Creek bog thistle</common_name>
+  <description>
+    <statement id="166.txt-0">
+      <text>Basal leaves:</text>
+      <structure id="o1872" name="leaf" constraint="basal" />
+    </statement>
+    <statement id="166.txt-1">
+      <text>longer spines 5–9 mm;</text>
+      <structure id="o1873" name="spine" constraint="longer">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="9" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="166.txt-2">
+      <text>distal faces more densely glandular than tomentose.</text>
+      <structure id="o1874" name="face" constraint="distal">
+        <character name="architecture_or_exudation_or_pubescence" value="more densely glandular than tomentose" />
+      </structure>
+    </statement>
+    <statement id="166.txt-3">
+      <text>Cauline leaves:</text>
+      <structure id="o1875" name="leaf" constraint="cauline" />
+    </statement>
+    <statement id="166.txt-4">
+      <text>longer spines 4–7 mm.</text>
+      <structure id="o1876" name="spine" constraint="longer">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="166.txt-5">
+      <text>Distalmost stem bracts tightly subtending heads or separated from them.</text>
+      <structure id="o1877" name="bract" constraint="distalmost stem">
+        <character name="arrangement" value="separated" constraint="from them" constraintid="o1879" />
+      </structure>
+      <structure id="o1878" name="head" constraint="subtending" />
+      <structure id="o1879" name="them" />
+    </statement>
+    <statement id="166.txt-6">
+      <text>Phyllaries 70–120, 28–38 of them reflexed;</text>
+      <structure id="o1880" name="phyllary">
+        <character char_type="range_value" name="count" from="70" to="120" />
+        <character char_type="range_value" name="count" from="28" to="38" constraint="of them" constraintid="o1881" />
+      </structure>
+      <structure id="o1881" name="them">
+        <character name="orientation" value="reflexed" />
+      </structure>
+    </statement>
+    <statement id="166.txt-7">
+      <text>apical spines 2–3 mm;</text>
+      <structure id="o1882" name="spine" constraint="apical">
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="3" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="166.txt-8">
+      <text>marginal spines usually absent.</text>
+      <structure id="o1883" name="spine" constraint="marginal">
+        <character name="presence" value="absent" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="166.txt-9">
+      <text>Cypselae 3.8–4 mm.</text>
+      <structure id="o1884" name="cypsela">
+        <character char_type="range_value" name="size" from="3.8" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="166.txt-10">
+      <text>2 n = 34.</text>
+      <structure id="o1885" name="chromosome">
+        <character name="count" value="34" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>winter</flowering_time>
+  <flowering_time>dec</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jan</flowering_time>
+  <flowering_time>feb</flowering_time>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>serpentine seeps</habitat>
+  <habitat>coastal live oak woodlands</habitat>
+  <habitat>grasslands</habitat>
+  <habitat>riparian areas</habitat>
+  <conservation>of conservation concern;</conservation>
+  <elevation>40–300 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <discussion>Variety obispoense is known only from the southern Santa Lucia and San Luis ranges of San Luis Obispo County.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

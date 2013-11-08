@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Gnaphalium palustre</species_name>
+  <authority>Nuttall</authority>
+  <place_of_publication>Trans. Amer. Philos. Soc., n. s. 7: 403. 1841</place_of_publication>
+  <common_name>Western marsh cudweed</common_name>
+  <synonym_of_species_name>Filaginella palustris (Nuttall) Holub; Gnaphalium palustre var. nanum Jepson; G. heteroides Klatt</synonym_of_species_name>
+  <description>
+    <statement id="708.txt-0">
+      <text>Annuals, (1–)3–15(–30) cm;</text>
+    </statement>
+    <statement id="708.txt-1">
+      <text>taprooted or fibrous-rooted.</text>
+      <structure id="o14786" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="1" to="3" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_size" from="15" to="30" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="3" from_unit="cm" to="15" to_unit="cm" />
+        <character name="life_style" value="annual" />
+        <character name="architecture" value="taprooted" />
+        <character name="architecture" value="fibrous-rooted" />
+      </structure>
+    </statement>
+    <statement id="708.txt-2">
+      <text>Stems commonly with decumbent branches produced from bases, densely or loosely and persistently woolly-tomentose.</text>
+      <structure id="o14787" name="stem">
+        <character name="pubescence" value="woolly-tomentose" modifier="persistently" />
+      </structure>
+      <structure id="o14788" name="branch">
+        <character name="habit" value="decumbent" />
+      </structure>
+      <relation id="r1593" name="with" from="o14787" to="o14788" negation="false" modifier="commonly" />
+      <structure id="o14789" name="base" />
+      <relation id="r1594" name="produced from" from="o14787" to="o14789" negation="false" />
+    </statement>
+    <statement id="708.txt-3">
+      <text>Leaf blades spatulate to oblanceolate-oblong, 1–3.5 cm × 3–8(–10) mm.</text>
+      <structure id="o14790" name="blade" constraint="leaf">
+        <character char_type="range_value" name="shape" from="spatulate" to="oblanceolate-oblong" />
+        <character name="shape" value="spatulate" />
+        <character name="shape" value="oblanceolate-oblong" />
+        <character char_type="range_value" name="length" from="1" from_unit="cm" to="3.5" to_unit="cm" />
+        <character char_type="range_value" name="atypical_width" from="8" to="10" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="width" from="3" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="708.txt-4">
+      <text>Bracts subtending heads oblanceolate to obovate, 4–12 × 1.5–4 mm, shorter than or surpassing glomerules.</text>
+      <structure id="o14791" name="bract">
+        <character char_type="range_value" name="shape" from="oblanceolate" to="obovate" />
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="obovate" />
+        <character char_type="range_value" name="length" from="4" from_unit="mm" to="12" to_unit="mm" />
+        <character char_type="range_value" name="width" from="1.5" from_unit="mm" to="4" to_unit="mm" />
+        <character name="size" value="shorter" constraint="than or surpassing glomerules" constraintid="o14793" />
+      </structure>
+      <structure id="o14792" name="head" />
+      <relation id="r1595" name="subtending" from="o14791" to="o14792" negation="false" />
+      <structure id="o14793" name="glomerule">
+        <character name="comparison" value="surpassing" />
+      </structure>
+    </statement>
+    <statement id="708.txt-5">
+      <text>Heads in capitate glomerules (at stem tips and in distalmost axils).</text>
+      <structure id="o14794" name="head" />
+      <structure id="o14795" name="glomerule">
+        <character name="architecture_or_shape" value="capitate" />
+      </structure>
+      <relation id="r1596" name="in" from="o14794" to="o14795" negation="false" />
+    </statement>
+    <statement id="708.txt-6">
+      <text>Involucres 2.5–4 mm.</text>
+      <structure id="o14796" name="involucre">
+        <character char_type="range_value" name="size" from="2.5" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="708.txt-7">
+      <text>Phyllaries brownish, bases woolly, the inner narrowly oblong with white (opaque), blunt apices.</text>
+      <structure id="o14797" name="phyllary">
+        <character name="coloration" value="brownish" />
+      </structure>
+      <structure id="o14798" name="base">
+        <character name="pubescence" value="woolly" />
+        <character name="position" value="inner" modifier="narrowly" />
+        <character name="shape" value="oblong" constraint="with apices" constraintid="o14799" />
+      </structure>
+      <structure id="o14799" name="apex">
+        <character name="coloration" value="white" />
+        <character name="shape" value="blunt" />
+      </structure>
+    </statement>
+    <statement id="708.txt-8">
+      <text>2 n = 14.</text>
+      <structure id="o14800" name="chromosome">
+        <character name="count" value="14" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>may</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <habitat>arroyos</habitat>
+  <habitat>sandy streambeds</habitat>
+  <habitat>pond edges</habitat>
+  <habitat>potholes</habitat>
+  <habitat>other moist, open sites</habitat>
+  <elevation>100–2900 m;</elevation>
+  <ca_distribution>Alta.</ca_distribution>
+  <ca_distribution>B.C.</ca_distribution>
+  <ca_distribution>Sask.</ca_distribution>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>Nebr.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>N.Dak.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>S.Dak.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <global_distribution>Mexico.</global_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

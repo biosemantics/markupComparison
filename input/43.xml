@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>12.</number>
+  <genus_name>CARDUUS</genus_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 820. 1753; Gen. Pl. ed. 5, 358. 1754</place_of_publication>
+  <common_name>Plumeless thistle, chardon</common_name>
+  <derivation>From ancient name of thistlelike plant</derivation>
+  <author_of_tribe_genus>David J. Keil</author_of_tribe_genus>
+  <description>
+    <statement id="43.txt-0">
+      <text>Annuals or biennials [perennials], 30–200(–400) cm , spiny, ± tomentose, sometimes glabrate.</text>
+      <structure id="o8491" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="200" to="400" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="30" from_unit="cm" to="200" to_unit="cm" />
+        <character name="architecture_or_shape" value="spiny" />
+        <character name="pubescence" value="tomentose" modifier="±" />
+        <character name="pubescence" value="glabrate" modifier="sometimes" />
+        <character name="life_style" value="annual" />
+        <character name="life_style" value="biennial" />
+      </structure>
+    </statement>
+    <statement id="43.txt-1">
+      <text>Stems erect, simple to much branched, (spiny-winged) .</text>
+      <structure id="o8493" name="stem">
+        <character name="orientation" value="erect" />
+        <character char_type="range_value" name="architecture" from="simple" to="much branched" />
+        <character name="architecture" value="simple" />
+        <character name="architecture" value="branched" modifier="much" />
+      </structure>
+    </statement>
+    <statement id="43.txt-2">
+      <text>Leaves basal and cauline;</text>
+    </statement>
+    <statement id="43.txt-3">
+      <text>petiolate or sessile;</text>
+      <structure id="o8494" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="architecture" value="petiolate" />
+        <character name="architecture" value="sessile" />
+      </structure>
+    </statement>
+    <statement id="43.txt-4">
+      <text>blade margins spiny dentate, often 1–2-pinnately lobed, faces glabrous or hairy, eglandular.</text>
+      <structure id="o8495" name="margin" constraint="blade">
+        <character name="architecture_or_shape" value="spiny dentate" />
+        <character name="shape" value="lobed" modifier="often 1-2-pinnately" />
+      </structure>
+      <structure id="o8496" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="hairy" />
+        <character name="architecture" value="eglandular" />
+      </structure>
+    </statement>
+    <statement id="43.txt-5">
+      <text>Heads discoid, borne singly or 2–20 in dense clusters or corymbiform arrays.</text>
+      <structure id="o8497" name="head">
+        <character name="shape_or_architecture" value="discoid" />
+        <character name="arrangement" value="singly" />
+        <character char_type="range_value" name="count" from="2" to="20" constraint="in clusters" constraintid="o8498" />
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <structure id="o8498" name="cluster">
+        <character name="texture" value="dense" />
+      </structure>
+    </statement>
+    <statement id="43.txt-6">
+      <text>Involucres cylindric to spheric.</text>
+      <structure id="o8499" name="involucre">
+        <character char_type="range_value" name="shape" from="cylindric" to="spheric" />
+        <character name="shape" value="cylindric" />
+        <character name="shape" value="spheric" />
+      </structure>
+    </statement>
+    <statement id="43.txt-7">
+      <text>Phyllaries many in 7–10+ series, linear to broadly ovate, bases appressed, margins entire, apices ascending to spreading or reflexed, acute, spine-tipped.</text>
+      <structure id="o8500" name="phyllary">
+        <character name="count" value="many" constraint="in series" constraintid="o8501" />
+        <character char_type="range_value" name="shape" from="linear" to="broadly ovate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="ovate" modifier="broadly" />
+      </structure>
+      <structure id="o8501" name="series">
+        <character char_type="range_value" name="count" from="7" to="10" upper_restricted="false" />
+      </structure>
+      <structure id="o8502" name="base">
+        <character name="orientation" value="appressed" />
+      </structure>
+      <structure id="o8503" name="margin">
+        <character name="shape" value="entire" />
+      </structure>
+      <structure id="o8504" name="apex">
+        <character char_type="range_value" name="orientation" from="ascending" to="spreading or reflexed" />
+        <character name="orientation" value="ascending" />
+        <character name="orientation" value="spreading" />
+        <character name="orientation" value="reflexed" />
+        <character name="shape" value="acute" />
+      </structure>
+    </statement>
+    <statement id="43.txt-8">
+      <text>Receptacles flat, epaleate, bearing setiform scales (“flattened bristles”).</text>
+      <structure id="o8505" name="receptacle">
+        <character name="shape" value="flat" />
+        <character name="architecture" value="epaleate" />
+      </structure>
+      <structure id="o8506" name="scale">
+        <character name="shape" value="setiform" />
+      </structure>
+    </statement>
+    <statement id="43.txt-9">
+      <text>Florets several–many;</text>
+      <structure id="o8507" name="floret">
+        <character char_type="range_value" name="count" from="several" to="many" />
+      </structure>
+    </statement>
+    <statement id="43.txt-10">
+      <text>corollas white to pink or purple, ± bilateral, tubes long, slender, throats short, campanulate, abruptly expanded from tubes, lobes linear;</text>
+      <structure id="o8508" name="corolla">
+        <character char_type="range_value" name="coloration" from="white" to="pink or purple" />
+        <character name="coloration" value="white" />
+        <character name="coloration" value="pink" />
+        <character name="coloration" value="purple" />
+        <character name="arrangement" value="bilateral" modifier="±" />
+      </structure>
+      <structure id="o8509" name="tube">
+        <character name="size" value="slender" />
+      </structure>
+      <structure id="o8510" name="throat">
+        <character name="size" value="short" />
+        <character name="shape" value="campanulate" />
+        <character name="size" value="expanded" modifier="abruptly" constraint="from tubes" constraintid="o8511" />
+      </structure>
+      <structure id="o8511" name="tube" />
+      <structure id="o8512" name="lobe">
+        <character name="arrangement_or_shape" value="linear" />
+      </structure>
+    </statement>
+    <statement id="43.txt-11">
+      <text>anther bases sharply short-tailed, apical appendages oblong;</text>
+      <structure id="o8513" name="base" constraint="anther">
+        <character name="shape" value="short-tailed" modifier="sharply" />
+      </structure>
+      <structure id="o8514" name="appendage" constraint="apical">
+        <character name="shape" value="oblong" />
+      </structure>
+    </statement>
+    <statement id="43.txt-12">
+      <text>style branches:</text>
+      <structure id="o8515" name="branch" constraint="style" />
+    </statement>
+    <statement id="43.txt-13">
+      <text>fused portions with slightly, minutely puberulent, swollen basal nodes, distally papillate or glabrous, distinct portions very short.</text>
+      <structure id="o8516" name="portion" constraint="fused">
+        <character name="pubescence" value="papillate" modifier="distally" />
+        <character name="pubescence" value="glabrous" modifier="distally" />
+      </structure>
+      <structure id="o8517" name="node" constraint="basal">
+        <character name="pubescence" value="puberulent" modifier="slightly minutely" />
+        <character name="shape" value="swollen" />
+      </structure>
+      <relation id="r1006" name="with" from="o8516" to="o8517" negation="false" />
+      <structure id="o8518" name="portion">
+        <character name="fusion" value="distinct" />
+        <character name="size" value="short" modifier="very" />
+      </structure>
+    </statement>
+    <statement id="43.txt-14">
+      <text>Cypselae ovoid, slightly compressed, faces smooth , glabrous, attachment scars slightly lateral;</text>
+      <structure id="o8519" name="cypsela">
+        <character name="shape" value="ovoid" />
+        <character name="shape" value="compressed" modifier="slightly" />
+      </structure>
+      <structure id="o8520" name="face">
+        <character name="architecture_or_relief" value="smooth" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+      <structure id="o8521" name="scar" constraint="attachment">
+        <character name="insertion_or_position" value="lateral" modifier="slightly" />
+      </structure>
+    </statement>
+    <statement id="43.txt-15">
+      <text>pappi persistent or falling in rings , of many minutely barbed, basally connate bristles or setiform, minutely barbed scales (“minutely flattened bristles”).</text>
+      <structure id="o8522" name="pappus">
+        <character name="duration" value="persistent" />
+        <character name="orientation" value="falling" constraint="in rings" constraintid="o8523" />
+      </structure>
+      <structure id="o8523" name="ring" />
+      <structure id="o8524" name="bristle">
+        <character name="count" value="many" />
+        <character name="architecture" value="barbed" modifier="minutely" />
+        <character name="fusion" value="connate" modifier="basally" />
+      </structure>
+      <structure id="o8525" name="scale">
+        <character name="shape" value="setiform" />
+        <character name="architecture" value="barbed" modifier="minutely" />
+        <character name="count" value="many" />
+        <character name="architecture" value="barbed" modifier="minutely" />
+        <character name="fusion" value="connate" modifier="basally" />
+      </structure>
+      <relation id="r1007" name="consist_of" from="o8522" to="o8524" negation="false" />
+      <relation id="r1008" name="consist_of" from="o8522" to="o8525" negation="false" />
+    </statement>
+    <statement id="43.txt-16">
+      <text>x = 8, 9, 10, 11, 13.</text>
+      <structure id="o8526" name="chromosome">
+        <character name="count" value="8" />
+        <character name="count" value="9" />
+        <character name="count" value="10" />
+        <character name="count" value="11" />
+        <character name="count" value="13" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species ca. 90 (5 in the flora):</number_of_infrataxa>
+  <introduced>introduced;</introduced>
+  <general_distribution>Eurasia</general_distribution>
+  <general_distribution>Africa.</general_distribution>
+  <references>SELECTED REFERENCES Batra, S. W. T., J. R. Coulson, P. H. Dunn, and P. E. Boldt. 1981. Insects and Fungi Associated with Carduus Thistles (Compositae). Washington. [U.S.D.A. Techn. Bull. 1616.] Desrochers, A. M. , J. F. Bain, and S. I. Warwick. 1988. A biosystematic study of the Carduus nutans complex in Canada. Canad. J. Bot. 66: 1621–1631. Desrochers, A. M., J. F. Bain, and S. I. Warwick. 1988b. The biology of Canadian weeds. 89. Carduus nutans L. and Carduus acanthoides L. Canad. J. Plant Sci. 68: 1053–1068. Franco, J. do A. 1976. Carduus. In: T. G. Tutin et al., eds. 1964–1980. Flora Europaea. 5 vols. Cambridge. Vol. 4, pp. 220–232. Kazmi, S. M. A. 1964. Revision der Gattung Carduus (Compositae). Teil II. Mitt. Bot. Staatssaml. München 5: 279–550.</references>
+  <key>1.Phyllary appendages 2–7 mm wide, usually wider than appressed bases; peduncles often elongate, distally wingless; heads often nodding, usually borne singly or in leafy corymbiform arrays; involucres 20–70 mm diam.3. Carduus nutans</key>
+  <key>1.Phyllary appendages 0.5–1.5 mm wide, usually narrower than appressed bases; peduncles short, if present, usually winged throughout or wingless only near tip; heads erect, 1–many, often clustered at branch tips; involucres 7–30 mm diam.</key>
+  <key>2.Involucres spheric or hemispheric.</key>
+  <key>3.Corollas 13–20 mm; heads 18–25 mm; involucres 14–20 mm; abaxial leaf faces glabrate except for long, curled, septate hairs along veins1. Carduus acanthoides</key>
+  <key>3.Corollas 11–16 mm; heads 15–18 mm; involucres 12–17 mm; abaxial leaf faces sparsely to densely tomentose with fine, nonseptate hairs and often with curled, septate hairs along veins as well2. Carduus crispus</key>
+  <key>2.Involucres cylindric or narrowly ellipsoid.</key>
+  <key>4.Heads 1–5 at ends of branches; phyllaries not scarious-margined, ± persistently tomentose, distally scabrous on margins and faces4. Carduus pycnocephalus</key>
+  <key>4.Heads 5–20 at ends of branches; phyllaries scarious-margined, glabrous or spar- ingly tomentose, distally ciliolate or glabrous5. Carduus tenuiflorus</key>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

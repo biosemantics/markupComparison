@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>4.</number>
+  <species_name>Sonchus palustris</species_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 793. 1753</place_of_publication>
+  <common_name>Marsh sow-thistle</common_name>
+  <description>
+    <statement id="381.txt-0">
+      <text>Perennials , 100–150(–350+) cm.</text>
+      <structure id="o7270" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="150" to="350" from_unit="cm" to_unit="cm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="100" from_unit="cm" to="150" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="381.txt-1">
+      <text>Stem bases hard, sometimes ± woody.</text>
+      <structure id="o7271" name="base" constraint="stem">
+        <character name="texture" value="hard" />
+        <character name="texture" value="woody" modifier="sometimes ±" />
+      </structure>
+    </statement>
+    <statement id="381.txt-2">
+      <text>Leaves:</text>
+      <structure id="o7272" name="leaf" />
+    </statement>
+    <statement id="381.txt-4">
+      <text>Peduncles usually setose- to stipitate-glandular.</text>
+      <structure id="o7273" name="peduncle">
+        <character name="architecture_or_exudation_or_pubescence" value="setose-to-stipitate-glandular" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="381.txt-5">
+      <text>Involucres 9–13+ mm.</text>
+      <structure id="o7274" name="involucre">
+        <character char_type="range_value" name="size" from="9" from_unit="mm" to="13" to_unit="mm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="381.txt-6">
+      <text>Phyllaries sparsely to densely setose- to stipitate-glandular.</text>
+      <structure id="o7275" name="phyllary">
+        <character name="architecture_or_exudation_or_pubescence" value="setose-to-stipitate-glandular" modifier="sparsely densely" />
+      </structure>
+    </statement>
+    <statement id="381.txt-7">
+      <text>Corollas:</text>
+      <structure id="o7276" name="corolla" />
+    </statement>
+    <statement id="381.txt-8">
+      <text>ligules ± equaling tubes.</text>
+      <structure id="o7277" name="ligule" />
+      <structure id="o7278" name="tube">
+        <character name="comparison" value="equaling" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="381.txt-9">
+      <text>Cypselae stramineous, oblong to ellipsoid, 3.5–4 mm, ribs 4–5 on each face, faces transversely rugulose or tuberculate across and between ribs;</text>
+      <structure id="o7279" name="cypsela">
+        <character name="coloration" value="stramineous" />
+        <character char_type="range_value" name="shape" from="oblong" to="ellipsoid" />
+        <character name="shape" value="oblong" />
+        <character name="shape" value="ellipsoid" />
+        <character char_type="range_value" name="size" from="3.5" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+      <structure id="o7280" name="rib">
+        <character char_type="range_value" name="count" from="4" to="5" constraint="on face" constraintid="o7281" />
+      </structure>
+      <structure id="o7281" name="face" />
+      <structure id="o7282" name="face">
+        <character name="relief" value="rugulose" modifier="transversely" />
+        <character name="relief" value="tuberculate" modifier="transversely" constraint="across and between ribs" constraintid="o7283" />
+      </structure>
+      <structure id="o7283" name="rib" />
+    </statement>
+    <statement id="381.txt-10">
+      <text>pappi 7–9 mm.</text>
+      <structure id="o7284" name="pappus">
+        <character char_type="range_value" name="size" from="7" from_unit="mm" to="9" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="381.txt-11">
+      <text>2 n = 18.</text>
+      <structure id="o7285" name="chromosome">
+        <character name="count" value="18" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>disturbed</habitat>
+  <habitat>marshy sites</habitat>
+  <habitat>wet roadside ditches on peaty sand</habitat>
+  <habitat>railroad ditches</habitat>
+  <habitat>wet fields</habitat>
+  <elevation>0–100 m;</elevation>
+  <introduced>introduced;</introduced>
+  <ca_distribution>Ont.</ca_distribution>
+  <global_distribution>Europe.</global_distribution>
+  <discussion>Sonchus palustris was found in Ontario by D. F. Brunton and C. W. Crompton (1993) in the Ottawa area, and by J. K. Morton and J. M. Venn (1995) in the Waterloo region.</discussion>
+  <discussion>The plants in the flora area are subsp. palustris. Subspecies sosnowskyi (Schchian) Boulos, from a single location in the southern Caucasus of eastern Europe, differs primarily in having glabrous stems, peduncles, and heads.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

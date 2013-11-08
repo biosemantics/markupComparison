@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>18.</number>
+  <species_name>Malacothrix torreyi</species_name>
+  <authority>A. Gray</authority>
+  <place_of_publication>Proc. Amer. Acad. Arts 9: 213. 1874</place_of_publication>
+  <common_name>Torrey’s desertdandelion</common_name>
+  <description>
+    <statement id="490.txt-0">
+      <text>Annuals, (5–)10–25(–40) cm.</text>
+      <structure id="o9840" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="5" to="10" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_size" from="25" to="40" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="25" to_unit="cm" />
+        <character name="life_style" value="annual" />
+      </structure>
+    </statement>
+    <statement id="490.txt-1">
+      <text>Stems 1–5+, erect to ascending, branched from bases and distally, sparsely leafy, usually ± stipitate-glandular, sometimes sparsely arachnose or glabrous (sometimes glaucous).</text>
+      <structure id="o9841" name="stem">
+        <character char_type="range_value" name="count" from="1" to="5" upper_restricted="false" />
+        <character char_type="range_value" name="orientation" from="erect" to="ascending" />
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="ascending" />
+        <character name="architecture_or_shape" value="branched" constraint="from bases" constraintid="o9842" />
+        <character name="architecture" value="leafy" modifier="sparsely" />
+        <character name="pubescence" value="stipitate-glandular" modifier="usually ±" />
+        <character name="pubescence" value="arachnose" modifier="sometimes sparsely" />
+        <character name="pubescence" value="glabrous" modifier="sometimes sparsely" />
+      </structure>
+      <structure id="o9842" name="base" />
+    </statement>
+    <statement id="490.txt-2">
+      <text>Cauline leaves:</text>
+      <structure id="o9843" name="leaf" constraint="cauline" />
+    </statement>
+    <statement id="490.txt-3">
+      <text>proximal obovate to oblong, usually pinnately lobed (lobes 3–8 pairs, oblong or triangular to linear, apices obtuse to acute), ± fleshy, ultimate margins dentate, faces usually glabrous, sometimes sparsely arachnose;</text>
+      <structure id="o9844" name="leaf" constraint="proximal cauline">
+        <character name="shape" value="obovate" />
+        <character name="shape" value="oblong" />
+        <character name="shape" value="lobed" modifier="usually pinnately" />
+        <character name="texture" value="fleshy" modifier="±" />
+      </structure>
+      <structure id="o9845" name="margin" constraint="ultimate">
+        <character name="shape" value="dentate" />
+      </structure>
+      <structure id="o9846" name="face">
+        <character name="pubescence" value="glabrous" modifier="usually" />
+        <character name="pubescence" value="arachnose" modifier="sometimes sparsely" />
+      </structure>
+    </statement>
+    <statement id="490.txt-4">
+      <text>distal reduced (± elliptic, then pinnately lobed, to linear, bases narrowly cuneate, margins usually dentate, sometimes entire).</text>
+      <structure id="o9847" name="leaf" constraint="distal cauline">
+        <character name="size" value="reduced" />
+      </structure>
+    </statement>
+    <statement id="490.txt-5">
+      <text>Calyculi of 8–12+, lance-ovate to lanceolate bractlets, hyaline margins 0.5–0.2 mm wide (faces sometimes stipitate-glandular).</text>
+      <structure id="o9848" name="calyculus" />
+      <structure id="o9849" name="bractlet">
+        <character char_type="range_value" name="count" from="8" to="12" upper_restricted="false" />
+        <character char_type="range_value" name="shape" from="lance-ovate" to="lanceolate" />
+        <character name="shape" value="lance-ovate" />
+        <character name="shape" value="lanceolate" />
+      </structure>
+      <relation id="r1138" name="consist_of" from="o9848" to="o9849" negation="false" />
+      <structure id="o9850" name="margin">
+        <character name="coloration" value="hyaline" />
+        <character char_type="range_value" name="size" from="0.5" from_unit="mm" to="0.2" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="490.txt-6">
+      <text>Involucres ± campanulate, 8–14 × 4–5 mm.</text>
+      <structure id="o9851" name="involucre">
+        <character name="shape" value="campanulate" modifier="±" />
+        <character char_type="range_value" name="length" from="8" from_unit="mm" to="14" to_unit="mm" />
+        <character char_type="range_value" name="width" from="4" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="490.txt-7">
+      <text>Phyllaries 12–20+ in 2–3 series, lance-oblong to lance-linear (apices acuminate), hyaline margins 0.05–0.3 mm wide, faces glabrous or stipitate-glandular.</text>
+      <structure id="o9852" name="phyllary">
+        <character char_type="range_value" name="count" from="12" to="20" upper_restricted="false" constraint="in series" constraintid="o9853" />
+        <character char_type="range_value" name="shape" from="lance-oblong" to="lance-linear" />
+        <character name="shape" value="lance-oblong" />
+        <character name="shape" value="lance-linear" />
+      </structure>
+      <structure id="o9853" name="series">
+        <character char_type="range_value" name="count" from="2" to="3" />
+      </structure>
+      <structure id="o9854" name="margin">
+        <character name="coloration" value="hyaline" />
+        <character char_type="range_value" name="size" from="0.05" from_unit="mm" to="0.3" to_unit="mm" />
+      </structure>
+      <structure id="o9855" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="stipitate-glandular" />
+      </structure>
+    </statement>
+    <statement id="490.txt-8">
+      <text>Receptacles sparsely bristly.</text>
+      <structure id="o9856" name="receptacle">
+        <character name="pubescence" value="bristly" modifier="sparsely" />
+      </structure>
+    </statement>
+    <statement id="490.txt-9">
+      <text>Florets 58–93;</text>
+      <structure id="o9857" name="floret">
+        <character char_type="range_value" name="count" from="58" to="93" />
+      </structure>
+    </statement>
+    <statement id="490.txt-10">
+      <text>corollas medium yellow, 14–20 mm;</text>
+      <structure id="o9858" name="corolla">
+        <character name="coloration" value="yellow" />
+        <character char_type="range_value" name="size" from="14" from_unit="mm" to="20" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="490.txt-11">
+      <text>outer ligules exserted 7–10 mm.</text>
+      <structure id="o9859" name="ligule" constraint="outer">
+        <character name="position" value="exserted" />
+        <character char_type="range_value" name="size" from="7" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="490.txt-12">
+      <text>Cypselae cylindro-fusiform, 2.5–4 mm, ribs extending to or beyond apices, 5 more prominent than others (often winglike);</text>
+      <structure id="o9860" name="cypsela">
+        <character name="shape" value="cylindro-fusiform" />
+        <character char_type="range_value" name="size" from="2.5" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+      <structure id="o9861" name="rib">
+        <character name="count" value="5" />
+        <character name="prominence" value="prominent" modifier="more" constraint="than others" constraintid="o9863" />
+      </structure>
+      <structure id="o9862" name="apex" />
+      <relation id="r1139" name="beyond" from="o9861" to="o9862" negation="false" />
+      <structure id="o9863" name="other" />
+    </statement>
+    <statement id="490.txt-13">
+      <text>pappi persistent, of 12–15 blunt teeth plus 0–6 bristles.</text>
+      <structure id="o9864" name="pappus">
+        <character name="duration" value="persistent" />
+      </structure>
+      <structure id="o9865" name="tooth">
+        <character char_type="range_value" name="count" from="12" to="15" />
+        <character name="shape" value="blunt" />
+        <character char_type="range_value" name="count" from="0" to="6" />
+      </structure>
+      <relation id="r1140" name="consist_of" from="o9864" to="o9865" negation="false" />
+      <structure id="o9866" name="bristle" />
+    </statement>
+    <statement id="490.txt-14">
+      <text>Pollen 70–100% 3-porate.</text>
+      <structure id="o9867" name="pollen">
+        <character name="architecture" value="3-porate" modifier="70-100%" />
+      </structure>
+    </statement>
+    <statement id="490.txt-15">
+      <text>2 n = 14.</text>
+      <structure id="o9868" name="chromosome">
+        <character name="count" value="14" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <habitat>coarse soils</habitat>
+  <habitat>dry sagebrush slopes</habitat>
+  <habitat>artemisia-atriplex-tetradymia associations</habitat>
+  <habitat>juniper grasslands</habitat>
+  <habitat>pinyon-juniper woodlands</habitat>
+  <elevation>700–2000 m;</elevation>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <discussion>Malacothrix torreyi grows primarily in the Great Basin Desert (in the Inyo Mountains and Modoc Plateau, California), and throughout the Intermountain Region in Arizona (Grand Canyon Plateau), Nevada (Central Great Basin, Uintah and Henry mountains, Flaming Gorge area near Pyramid Lake), Utah (northern), Idaho (Snake River Plateau), Wyoming (Ft. Steele, Green River), and Oregon (Steen Mountains, Owyhee Desert).</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

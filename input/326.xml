@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>9.</number>
+  <species_name>Taraxacum trigonolobum</species_name>
+  <authority>Dahlstedt</authority>
+  <place_of_publication>Ark. Bot. 20A(1): 8, fig. 5. 1926</place_of_publication>
+  <description>
+    <statement id="326.txt-0">
+      <text>Plants 8–41(–56.5 in fruit) cm;</text>
+      <structure id="o5971" name="whole_organism">
+        <character char_type="range_value" name="size" from="8" from_unit="cm" to="41" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="326.txt-1">
+      <text>taproots seldom branched.</text>
+      <structure id="o5972" name="taproot">
+        <character name="architecture_or_shape" value="branched" modifier="seldom" />
+      </structure>
+    </statement>
+    <statement id="326.txt-2">
+      <text>Stems 1–5, ascending to erect, purplish, glabrous or glabrescent proximally, ± densely villous distally.</text>
+      <structure id="o5973" name="stem">
+        <character char_type="range_value" name="count" from="1" to="5" />
+        <character char_type="range_value" name="orientation" from="ascending" to="erect" />
+        <character name="orientation" value="ascending" />
+        <character name="orientation" value="erect" />
+        <character name="coloration" value="purplish" />
+        <character name="pubescence" value="glabrous" modifier="proximally" />
+        <character name="pubescence" value="glabrescent" modifier="proximally" />
+        <character name="pubescence" value="villous" modifier="± densely ; distally" />
+      </structure>
+    </statement>
+    <statement id="326.txt-3">
+      <text>Leaves fewer than 10, horizontal or patent to ± erect;</text>
+      <structure id="o5974" name="leaf">
+        <character name="count" value="10]" modifier="fewer than" />
+        <character name="orientation" value="horizontal" />
+        <character name="orientation" value="patent" />
+        <character name="orientation" value="erect" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="326.txt-4">
+      <text>petioles widely winged;</text>
+      <structure id="o5975" name="petiole">
+        <character name="architecture" value="winged" modifier="widely" />
+      </structure>
+    </statement>
+    <statement id="326.txt-6">
+      <text>Calyculi 14–20, appressed (to spreading), often pale green, ovate to elliptic-ovate bractlets in 2–3 series, 5–8 × 2.8–4.5 mm, margins narrowly white, scarious (occasionally outer ± ciliate), apices acuminate to caudate, some strongly horned, tips dark-scarious.</text>
+      <structure id="o5976" name="calyculus">
+        <character char_type="range_value" name="count" from="14" to="20" />
+        <character name="orientation" value="appressed" />
+        <character name="coloration" value="green" modifier="often;pale" />
+      </structure>
+      <structure id="o5977" name="bractlet">
+        <character char_type="range_value" name="shape" from="ovate" to="elliptic-ovate" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="elliptic-ovate" />
+        <character char_type="range_value" name="length" from="5" from_unit="mm" to="8" to_unit="mm" />
+        <character char_type="range_value" name="width" from="2.8" from_unit="mm" to="4.5" to_unit="mm" />
+      </structure>
+      <structure id="o5978" name="series">
+        <character char_type="range_value" name="count" from="2" to="3" />
+      </structure>
+      <relation id="r755" name="in" from="o5977" to="o5978" negation="false" />
+      <structure id="o5979" name="margin">
+        <character name="coloration" value="white" modifier="narrowly" />
+        <character name="texture" value="scarious" />
+      </structure>
+      <structure id="o5980" name="apex">
+        <character char_type="range_value" name="shape" from="acuminate" to="caudate" />
+        <character name="shape" value="acuminate" />
+        <character name="shape" value="caudate" />
+        <character name="shape" value="horned" modifier="strongly" />
+      </structure>
+      <structure id="o5981" name="tip">
+        <character name="texture" value="dark-scarious" />
+      </structure>
+    </statement>
+    <statement id="326.txt-7">
+      <text>Involucres dark green, ± glaucous, broadly campanulate, 15–20 mm.</text>
+      <structure id="o5982" name="involucre">
+        <character name="coloration" value="green" modifier="dark" />
+        <character name="coating" value="glaucous" modifier="±" />
+        <character name="shape" value="campanulate" modifier="broadly" />
+        <character char_type="range_value" name="size" from="15" from_unit="mm" to="20" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="326.txt-8">
+      <text>Phyllaries 14–20 in 2 series, lanceolate, 2.1–2.8 mm wide, margins ± narrowly scarious (wider proximally, or not in outer series), apices strongly horned, tips purplish with dark center, scarious, ± erose.</text>
+      <structure id="o5983" name="phyllary">
+        <character char_type="range_value" name="count" from="14" to="20" constraint="in series" constraintid="o5984" />
+        <character name="shape" value="lanceolate" />
+        <character char_type="range_value" name="size" from="2.1" from_unit="mm" to="2.8" to_unit="mm" />
+      </structure>
+      <structure id="o5984" name="series">
+        <character name="count" value="2" />
+      </structure>
+      <structure id="o5985" name="margin">
+        <character name="texture" value="scarious" modifier="± narrowly" />
+      </structure>
+      <structure id="o5986" name="apex">
+        <character name="shape" value="horned" modifier="strongly" />
+      </structure>
+      <structure id="o5987" name="tip">
+        <character name="texture" value="scarious" />
+        <character name="shape_or_relief" value="erose" modifier="±" />
+      </structure>
+      <structure id="o5988" name="center">
+        <character name="coloration" value="purplish with dark" />
+      </structure>
+    </statement>
+    <statement id="326.txt-9">
+      <text>Florets 120–150;</text>
+      <structure id="o5989" name="floret">
+        <character char_type="range_value" name="count" from="120" to="150" />
+      </structure>
+    </statement>
+    <statement id="326.txt-10">
+      <text>corollas yellow, outer grayish-purplish striped abaxially, 19–25 × 1.3–2.3 mm.</text>
+      <structure id="o5990" name="corolla">
+        <character name="coloration" value="yellow" />
+        <character name="position" value="outer" />
+        <character name="coloration" value="striped" modifier="abaxially;grayish-purplish" />
+        <character char_type="range_value" name="length" from="19" from_unit="mm" to="25" to_unit="mm" />
+        <character char_type="range_value" name="width" from="1.3" from_unit="mm" to="2.3" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="326.txt-12">
+      <text>pappi yellowish or cream to white, 7–8 mm.</text>
+      <structure id="o5991" name="pappus">
+        <character char_type="range_value" name="coloration" from="cream" to="white" />
+        <character name="coloration" value="yellowish" />
+        <character name="coloration" value="cream" />
+        <character name="coloration" value="white" />
+        <character char_type="range_value" name="size" from="7" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>herbaceous vegetation</habitat>
+  <habitat>lakeshores</habitat>
+  <habitat>moist banks</habitat>
+  <habitat>alluvial shores</habitat>
+  <habitat>moist meadows</habitat>
+  <habitat>moist heaths</habitat>
+  <habitat>grassy cliff tops</habitat>
+  <elevation>0–600 m;</elevation>
+  <us_distribution>Alaska</us_distribution>
+  <global_distribution>Russian Far East (Kamchatka).</global_distribution>
+  <discussion>Taraxacum trigonolobum is known only from the Aleutian Islands and islands of the Bering Sea, on the American side. It is probably the taxonomically weakest entity that I am recognizing in this complex, but its distribution and leaf morphology, among other attributes, are distinctive enough for recognition at the present time.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

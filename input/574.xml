@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>75.</number>
+  <genus_name>GLYPTOPLEURA</genus_name>
+  <authority>D. C. Eaton</authority>
+  <place_of_publication>in S. Watson, Botany (Fortieth Parallel), 207, plate 20, figs. 11–18. 1871</place_of_publication>
+  <common_name />
+  <derivation>Greek glyptos , carved, and pleura , rib, alluding to cypselae</derivation>
+  <author_of_tribe_genus>David J. Keil</author_of_tribe_genus>
+  <description>
+    <statement id="574.txt-0">
+      <text>Annuals, 1–6 cm (low-growing, densely cespitose, herbage glabrous);</text>
+    </statement>
+    <statement id="574.txt-1">
+      <text>taprooted.</text>
+      <structure id="o11820" name="whole_organism">
+        <character char_type="range_value" name="size" from="1" from_unit="cm" to="6" to_unit="cm" />
+        <character name="life_style" value="annual" />
+        <character name="architecture" value="taprooted" />
+      </structure>
+    </statement>
+    <statement id="574.txt-2">
+      <text>Stems 1–25+, ± prostrate, simple or branched, glabrous.</text>
+      <structure id="o11821" name="stem">
+        <character char_type="range_value" name="count" from="1" to="25" upper_restricted="false" />
+        <character name="orientation" value="prostrate" modifier="±" />
+        <character name="architecture" value="simple" />
+        <character name="architecture" value="branched" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="574.txt-3">
+      <text>Leaves basal and cauline, crowded;</text>
+    </statement>
+    <statement id="574.txt-4">
+      <text>petiolate or sessile;</text>
+      <structure id="o11822" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="architecture" value="crowded" />
+        <character name="architecture" value="petiolate" />
+        <character name="architecture" value="sessile" />
+      </structure>
+    </statement>
+    <statement id="574.txt-5">
+      <text>basal blades ± oblanceolate, margins dentate or pinnately lobed and crustose-denticulate, cauline progressively reduced to oblanceolate, crustose-denticulate bracts.</text>
+      <structure id="o11823" name="blade" constraint="basal">
+        <character name="shape" value="oblanceolate" modifier="±" />
+      </structure>
+      <structure id="o11824" name="margin">
+        <character name="shape" value="dentate" />
+        <character name="shape" value="lobed" modifier="pinnately" />
+        <character name="shape" value="crustose-denticulate" />
+        <character name="insertion_or_position" value="cauline" modifier="progressively" />
+        <character name="size" value="reduced" />
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="crustose-denticulate" />
+      </structure>
+      <structure id="o11825" name="bract" />
+    </statement>
+    <statement id="574.txt-6">
+      <text>Heads (1–3) borne singly or 2–3 in bract axils.</text>
+      <structure id="o11826" name="head">
+        <character char_type="range_value" name="atypical_count" from="1" to="3" />
+        <character name="arrangement" value="singly" />
+        <character char_type="range_value" name="count" from="2" to="3" constraint="in bract axils" constraintid="o11827" />
+      </structure>
+      <structure id="o11827" name="axil" constraint="bract" />
+    </statement>
+    <statement id="574.txt-7">
+      <text>Peduncles not distally inflated, often bracteate.</text>
+      <structure id="o11828" name="peduncle">
+        <character name="shape" value="inflated" modifier="not distally" />
+        <character name="architecture" value="bracteate" modifier="often" />
+      </structure>
+    </statement>
+    <statement id="574.txt-8">
+      <text>Calyculi of 5–8, linear to oblanceolate bractlets in ± 1 series, apices expanded, crustose-denticulate.</text>
+      <structure id="o11829" name="calyculus" />
+      <structure id="o11830" name="bractlet">
+        <character char_type="range_value" name="count" from="5" to="8" />
+        <character char_type="range_value" name="shape" from="linear" to="oblanceolate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="oblanceolate" />
+      </structure>
+      <relation id="r1378" name="consist_of" from="o11829" to="o11830" negation="false" />
+      <structure id="o11831" name="series">
+        <character name="count" value="1" modifier="±" />
+      </structure>
+      <relation id="r1379" name="in" from="o11830" to="o11831" negation="false" />
+      <structure id="o11832" name="apex">
+        <character name="size" value="expanded" />
+        <character name="shape" value="crustose-denticulate" />
+      </structure>
+    </statement>
+    <statement id="574.txt-9">
+      <text>Involucres cylindric to urceolate, 3–8+ mm diam.</text>
+      <structure id="o11833" name="involucre">
+        <character char_type="range_value" name="shape" from="cylindric" to="urceolate" />
+        <character name="shape" value="cylindric" />
+        <character name="shape" value="urceolate" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="8" to_unit="mm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="574.txt-10">
+      <text>Phyllaries 5–8+ in 1–2 series, commonly purplish-tinged, linear, equal, margins scarious, apices acute.</text>
+      <structure id="o11834" name="phyllary">
+        <character char_type="range_value" name="count" from="5" to="8" upper_restricted="false" constraint="in series" constraintid="o11835" />
+        <character name="coloration" value="tinged" modifier="commonly;purplish" />
+        <character name="arrangement_or_shape" value="linear" />
+        <character name="size" value="equal" />
+      </structure>
+      <structure id="o11835" name="series">
+        <character char_type="range_value" name="count" from="1" to="2" />
+      </structure>
+      <structure id="o11836" name="margin">
+        <character name="texture" value="scarious" />
+      </structure>
+      <structure id="o11837" name="apex">
+        <character name="shape" value="acute" />
+      </structure>
+    </statement>
+    <statement id="574.txt-11">
+      <text>Receptacles ± flat, smooth, glabrous, epaleate.</text>
+      <structure id="o11838" name="receptacle">
+        <character name="shape" value="flat" modifier="±" />
+        <character name="architecture_or_relief" value="smooth" />
+        <character name="pubescence" value="glabrous" />
+        <character name="architecture" value="epaleate" />
+      </structure>
+    </statement>
+    <statement id="574.txt-12">
+      <text>Florets 7–18;</text>
+      <structure id="o11839" name="floret">
+        <character char_type="range_value" name="count" from="7" to="18" />
+      </structure>
+    </statement>
+    <statement id="574.txt-13">
+      <text>corollas white to pale yellow, becoming pink-purple (especially when dry).</text>
+      <structure id="o11840" name="corolla">
+        <character char_type="range_value" name="coloration" from="white" to="pale-yellow" />
+        <character name="coloration" value="white" />
+        <character name="coloration" value="yellow" modifier="pale" />
+        <character name="coloration" value="purple" modifier="becoming;pink" />
+      </structure>
+    </statement>
+    <statement id="574.txt-14">
+      <text>Cypselae straw-colored or light brown, subcylindric or slightly flattened, often curved, abruptly beaked, obtusely 4–5-angled, ribs transversely roughened, alternating with 5 rows of pits, glabrous or minutely puberulent;</text>
+      <structure id="o11841" name="cypsela">
+        <character name="coloration" value="colored" modifier="straw" />
+        <character name="coloration" value="brown" modifier="light" />
+        <character name="shape" value="subcylindric" />
+        <character name="shape" value="flattened" modifier="slightly" />
+        <character name="shape" value="curved" modifier="often" />
+        <character name="shape" value="beaked" modifier="abruptly" />
+        <character name="shape" value="4-5-angled" modifier="obtusely" />
+      </structure>
+      <structure id="o11842" name="rib">
+        <character name="texture" value="roughened" modifier="transversely" />
+        <character name="arrangement" value="alternating" constraint="with rows" constraintid="o11843" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="puberulent" modifier="minutely" />
+      </structure>
+      <structure id="o11843" name="row">
+        <character name="count" value="5" />
+      </structure>
+      <structure id="o11844" name="pit" />
+      <relation id="r1380" name="part_of" from="o11843" to="o11844" negation="false" />
+    </statement>
+    <statement id="574.txt-15">
+      <text>pappi falling (outer, individually) or ± persistent (inner, connate at bases in easily fractured rings), of 50–80+, white, barbellulate to smooth bristles in 3–4+ series.</text>
+      <structure id="o11845" name="pappus">
+        <character name="orientation" value="falling" />
+        <character name="duration" value="persistent" modifier="±" />
+      </structure>
+      <structure id="o11846" name="bristle">
+        <character char_type="range_value" name="count" from="50" to="80" upper_restricted="false" />
+        <character name="coloration" value="white" />
+        <character char_type="range_value" name="architecture" from="barbellulate" to="smooth" />
+        <character name="architecture" value="barbellulate" />
+        <character name="architecture" value="smooth" />
+      </structure>
+      <relation id="r1381" name="consist_of" from="o11845" to="o11846" negation="false" />
+      <structure id="o11847" name="series">
+        <character char_type="range_value" name="count" from="3" to="4" upper_restricted="false" />
+      </structure>
+      <relation id="r1382" name="in" from="o11846" to="o11847" negation="false" />
+    </statement>
+    <statement id="574.txt-16">
+      <text>x = 9.</text>
+      <structure id="o11848" name="chromosome">
+        <character name="count" value="9" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species 2 (2 in the flora):</number_of_infrataxa>
+  <general_distribution>w United States.</general_distribution>
+  <discussion>A molecular phylogenetic investigation by J. Lee et. al (2003) provided evidence that Glyptopleura is part of a primarily western North American radiation in Cichorieae. That study did not resolve the relationship of Glyptopleura to other genera within the radiation.</discussion>
+  <key>1.Ligules 4–10 mm, equaling involucres or exserted 1–5 mm1. Glyptopleura marginata</key>
+  <key>1.Ligules 15–25 mm, exserted 10–20 mm2. Glyptopleura setulosa</key>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

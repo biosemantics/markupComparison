@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>4b.</number>
+  <subspecies_name>Stephanomeria exigua Nuttall subsp. coronaria</subspecies_name>
+  <authority>(Greene) Gottlieb</authority>
+  <place_of_publication>Madroño 21: 474. 1972</place_of_publication>
+  <common_name>Small crown wirelettuce</common_name>
+  <synonym_of_subspecies_name>Stephanomeria coronaria Greene, Bull. Calif. Acad. Sci. 1: 194. 1885; S. exigua var. coronaria (Greene) Jepson</synonym_of_subspecies_name>
+  <description>
+    <statement id="554.txt-0">
+      <text>Heads borne singly or clustered along branches.</text>
+      <structure id="o11417" name="head">
+        <character name="arrangement" value="clustered" constraint="along branches" constraintid="o11418" />
+      </structure>
+      <structure id="o11418" name="branch" />
+    </statement>
+    <statement id="554.txt-1">
+      <text>Peduncles 2–5 mm, glabrous or puberulent .</text>
+      <structure id="o11419" name="peduncle">
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="5" to_unit="mm" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="puberulent" />
+      </structure>
+    </statement>
+    <statement id="554.txt-2">
+      <text>Calyculi of appressed bractlets.</text>
+      <structure id="o11420" name="calyculus" />
+      <structure id="o11421" name="bractlet">
+        <character name="orientation" value="appressed" />
+      </structure>
+      <relation id="r1308" name="consist_of" from="o11420" to="o11421" negation="false" />
+    </statement>
+    <statement id="554.txt-3">
+      <text>Involucres glabrous or puberulent.</text>
+      <structure id="o11422" name="involucre">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="puberulent" />
+      </structure>
+    </statement>
+    <statement id="554.txt-4">
+      <text>Florets 5–11.</text>
+      <structure id="o11423" name="floret">
+        <character char_type="range_value" name="count" from="5" to="11" />
+      </structure>
+    </statement>
+    <statement id="554.txt-5">
+      <text>Cypselae 2.3–3.1 mm;</text>
+      <structure id="o11424" name="cypsela">
+        <character char_type="range_value" name="size" from="2.3" from_unit="mm" to="3.1" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="554.txt-6">
+      <text>pappi of 7–20 bristles (widened bases persistent, bases connate in groups of 2–4, bristles plumose on distal 60–85%).</text>
+      <structure id="o11425" name="pappus" />
+      <structure id="o11426" name="bristle">
+        <character char_type="range_value" name="count" from="7" to="20" />
+      </structure>
+      <relation id="r1309" name="consist_of" from="o11425" to="o11426" negation="false" />
+    </statement>
+    <statement id="554.txt-7">
+      <text>2 n = 16.</text>
+      <structure id="o11427" name="chromosome">
+        <character name="count" value="16" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <habitat>equable sites along california coast</habitat>
+  <habitat>sandy meadows in south coast ranges</habitat>
+  <habitat>sandy soils of central valley, openings in yellow pine forest</habitat>
+  <habitat>volcanic soils in eastern sierra nevada</habitat>
+  <habitat>sandy, limestone</habitat>
+  <habitat>or volcanic soils in sagebrush deserts</habitat>
+  <elevation>0–2800 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <discussion>Subspecies coronaria occupies the widest range of habitats of any annual stephanomeria, and it shows striking morphologic variability for some characters including number of florets, lengths and widths of corollas, numbers and plumosity of pappus bristles, and degree of “bumpiness” of faces of the cypselae. Populations from the eastern slopes of the Sierra Nevada in California to the mountains of Nevada, central Oregon, and Idaho vary most evidently toward subsp. exigua, native to the deserts, in having heads on longer peduncles, making a quite different architectural appearance than characteristic of the plants with nearly sessile heads in the Coast Ranges and elsewhere in California. The variation in subsp. coronaria presumably results from hybridization with subsp. exigua where the two subspecies make contact at intermediate elevations. Hybrid individuals are readily identifiable wherever subsp. coronaria makes contact with other subspecies of S. exigua (L. D. Gottlieb 1971, 1972).</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

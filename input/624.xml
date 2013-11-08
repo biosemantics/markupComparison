@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>187g.</number>
+  <tribe_name>Asteraceae Martinov tribe Gnaphalieae</tribe_name>
+  <authority>Cassini ex Lecoq &amp; Juillet</authority>
+  <place_of_publication>Dict. Rais. Term. Bot., 296. 1831</place_of_publication>
+  <description>
+    <statement id="624.txt-0">
+      <text>Annuals, perennials, subshrubs, or shrubs (often ± woolly annuals 1–10 cm).</text>
+      <structure id="o13049" name="whole_organism">
+        <character name="life_style" value="annual" />
+        <character name="life_style" value="perennial" />
+        <character name="life_style" value="subshrub" />
+        <character name="life_style" value="shrub" />
+      </structure>
+    </statement>
+    <statement id="624.txt-1">
+      <text>Leaves basal and/or cauline;</text>
+    </statement>
+    <statement id="624.txt-2">
+      <text>usually alternate, rarely opposite;</text>
+    </statement>
+    <statement id="624.txt-3">
+      <text>petiolate or sessile (bases often decurrent onto stems);</text>
+      <structure id="o13053" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="arrangement" value="alternate" modifier="usually" />
+        <character name="architecture" value="petiolate" />
+        <character name="architecture" value="sessile" />
+      </structure>
+    </statement>
+    <statement id="624.txt-4">
+      <text>blade margins usually entire, rarely denticulate (often revolute or involute, faces often tomentose or woolly and/or glandular-pubescent).</text>
+      <structure id="o13054" name="margin" constraint="blade">
+        <character name="shape" value="entire" modifier="usually" />
+        <character name="shape" value="denticulate" modifier="rarely" />
+      </structure>
+    </statement>
+    <statement id="624.txt-5">
+      <text>Heads usually heterogamous (usually disciform, rarely “quasi-radiate”), sometimes homogamous (discoid, sometimes pistillate or functionally staminate), usually borne in corymbiform, paniculiform, or racemiform arrays, sometimes in glomerules, sometimes aggregated into second-order heads, rarely borne singly.</text>
+      <structure id="o13055" name="head">
+        <character name="reproduction" value="heterogamous" modifier="usually" />
+        <character name="maturation_or_reproduction" value="homogamous" modifier="sometimes" />
+        <character name="arrangement" value="aggregated" modifier="sometimes" constraint="into heads" constraintid="o13058" />
+        <character name="arrangement" value="singly" modifier="rarely" />
+      </structure>
+      <structure id="o13056" name="array">
+        <character name="architecture" value="corymbiform" />
+        <character name="architecture" value="paniculiform" />
+        <character name="architecture" value="racemiform" />
+      </structure>
+      <relation id="r1483" name="borne in" from="o13055" to="o13056" negation="false" />
+      <structure id="o13057" name="glomerule" />
+      <relation id="r1484" name="in" from="o13055" to="o13057" negation="false" modifier="sometimes" />
+      <structure id="o13058" name="head" />
+    </statement>
+    <statement id="624.txt-6">
+      <text>Calyculi 0.</text>
+      <structure id="o13059" name="calyculus">
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+    <statement id="624.txt-7">
+      <text>Phyllaries sometimes 0 (apparent phyllaries interpreted as outer receptacular paleae), usually persistent (often wholly or partially white or brightly colored, sometimes woolly, at least proximally and/or medially), usually (12–30+) in 3–10+ series, distinct, and unequal, sometimes in 1–2 series, distinct and subequal to equal, medially herbaceous to membranous or scarious, margins and/or apices usually notably scarious.</text>
+      <structure id="o13060" name="phyllary">
+        <character name="count" value="0" modifier="sometimes" />
+        <character name="duration" value="persistent" modifier="usually" />
+        <character char_type="range_value" name="atypical_count" from="12" to="30" upper_restricted="false" modifier="usually" constraint="in series" constraintid="o13061" />
+        <character name="fusion" value="distinct" />
+        <character name="size" value="unequal" />
+        <character name="fusion" value="distinct" />
+        <character char_type="range_value" name="size" from="subequal" to="equal" />
+        <character name="size" value="subequal" />
+        <character name="size" value="equal" />
+        <character char_type="range_value" name="texture" from="medially herbaceous" to="membranous or scarious" />
+        <character name="texture" value="herbaceous" modifier="medially" />
+        <character name="texture" value="membranous" modifier="medially" />
+        <character name="texture" value="scarious" modifier="medially" />
+      </structure>
+      <structure id="o13061" name="series">
+        <character char_type="range_value" name="count" from="3" to="10" upper_restricted="false" />
+      </structure>
+      <structure id="o13062" name="series">
+        <character char_type="range_value" name="count" from="1" to="2" />
+      </structure>
+      <relation id="r1485" name="in" from="o13060" to="o13062" negation="false" modifier="sometimes" />
+      <structure id="o13063" name="margin" />
+      <structure id="o13064" name="apex">
+        <character name="texture" value="scarious" modifier="usually notably" />
+      </structure>
+    </statement>
+    <statement id="624.txt-8">
+      <text>Receptacles usually flat to convex, sometimes conic to ± columnar, usually epaleate, sometimes paleate (paleae sometimes enfolding pistillate florets).</text>
+      <structure id="o13065" name="receptacle">
+        <character name="shape" value="flat" modifier="usually" />
+        <character name="shape" value="convex" />
+        <character name="shape" value="conic" modifier="sometimes" />
+        <character name="shape" value="columnar" modifier="±" />
+        <character name="architecture" value="epaleate" modifier="usually" />
+        <character name="architecture" value="paleate" modifier="sometimes" />
+      </structure>
+    </statement>
+    <statement id="624.txt-9">
+      <text>Ray florets usually 0 (sometimes peripheral florets pistillate and corollas ± zygomorphic and bearing a ± flat limb and interpreted by some as ray florets).</text>
+      <structure id="o13066" name="floret" constraint="ray">
+        <character name="count" value="0" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="624.txt-10">
+      <text>Peripheral (pistillate) florets (often 100+ in disciform heads) in 1–3+ series;</text>
+      <structure id="o13067" name="floret" constraint="peripheral" />
+      <structure id="o13068" name="series">
+        <character char_type="range_value" name="count" from="1" to="3" upper_restricted="false" />
+      </structure>
+      <relation id="r1486" name="in" from="o13067" to="o13068" negation="false" />
+    </statement>
+    <statement id="624.txt-11">
+      <text>corollas (usually present) yellow or purplish to whitish, sometimes red-tipped (actinomorphic and filiform).</text>
+      <structure id="o13069" name="corolla">
+        <character char_type="range_value" name="coloration" from="purplish" to="whitish" />
+        <character name="coloration" value="yellow" />
+        <character name="coloration" value="purplish" />
+        <character name="coloration" value="whitish" />
+      </structure>
+    </statement>
+    <statement id="624.txt-12">
+      <text>Disc (inner) florets (sometimes 1–10, usually more) bisexual or functionally staminate;</text>
+      <structure id="o13070" name="floret" constraint="disc">
+        <character name="reproduction" value="bisexual" />
+        <character name="architecture" value="staminate" modifier="functionally" />
+      </structure>
+    </statement>
+    <statement id="624.txt-13">
+      <text>corollas yellow or purplish, sometimes red-tipped, usually actinomorphic, lobes usually (4–)5, usually ± deltate, rarely lance-ovate to lanceolate;</text>
+      <structure id="o13071" name="corolla">
+        <character name="coloration" value="yellow" />
+        <character name="coloration" value="purplish" />
+        <character name="architecture" value="actinomorphic" modifier="usually" />
+      </structure>
+      <structure id="o13072" name="lobe">
+        <character char_type="range_value" name="atypical_count" from="4" to="5" to_inclusive="false" modifier="usually" />
+        <character name="count" value="5" modifier="usually" />
+        <character char_type="range_value" name="shape" from="deltate , rarely lance-ovate" to="lanceolate" modifier="usually ±" />
+        <character name="shape" value="deltate" modifier="usually ±" />
+        <character name="shape" value="lance-ovate" modifier="rarely" />
+        <character name="shape" value="lanceolate" modifier="rarely" />
+      </structure>
+    </statement>
+    <statement id="624.txt-14">
+      <text>anther bases usually ± tailed [not tailed], apical appendages mostly ovate to lance-ovate or linear (usually flat);</text>
+      <structure id="o13073" name="base" constraint="anther">
+        <character name="shape" value="tailed" modifier="usually ±" />
+      </structure>
+      <structure id="o13074" name="appendage" constraint="apical">
+        <character char_type="range_value" name="shape" from="mostly ovate" to="lance-ovate or linear" />
+        <character name="shape" value="ovate" modifier="mostly" />
+        <character name="shape" value="lance-ovate" modifier="mostly" />
+        <character name="shape" value="linear" modifier="mostly" />
+      </structure>
+    </statement>
+    <statement id="624.txt-15">
+      <text>styles abaxially glabrous or (mostly distally) papillate, branches ± linear, adaxially stigmatic in 2 lines from bases to apices, apices truncate or truncate-penicillate, appendages essentially none.</text>
+      <structure id="o13075" name="style">
+        <character name="pubescence" value="glabrous" modifier="abaxially" />
+        <character name="pubescence" value="papillate" modifier="abaxially" />
+      </structure>
+      <structure id="o13076" name="branch">
+        <character name="arrangement_or_shape" value="linear" modifier="±" />
+        <character name="habit" value="stigmatic" modifier="adaxially" constraint="in lines" constraintid="o13077" />
+      </structure>
+      <structure id="o13077" name="line">
+        <character name="count" value="2" />
+      </structure>
+      <structure id="o13078" name="base" />
+      <relation id="r1487" name="from" from="o13077" to="o13078" negation="false" />
+      <structure id="o13079" name="apex" />
+      <relation id="r1488" name="to" from="o13078" to="o13079" negation="false" />
+      <structure id="o13080" name="apex">
+        <character name="shape" value="truncate" />
+        <character name="shape" value="truncate-penicillate" />
+      </structure>
+      <structure id="o13081" name="appendage" />
+    </statement>
+    <statement id="624.txt-16">
+      <text>Cypselae usually monomorphic within heads, mostly ovoid to obovoid and compressed or obcompressed, not beaked or apically attenuate, bodies smooth or ± papillate or muriculate, often 2-, 3-, or 5-ribbed (glabrous or hairy, seldom glandular, sometimes with myxogenic hairs or papillae);</text>
+      <structure id="o13082" name="cypsela">
+        <character name="habit" value="monomorphic" modifier="usually" constraint="within heads" constraintid="o13083" />
+        <character char_type="range_value" name="shape" from="mostly ovoid" to="obovoid" />
+        <character name="shape" value="ovoid" modifier="mostly" />
+        <character name="shape" value="obovoid" modifier="mostly" />
+        <character name="shape" value="compressed" />
+        <character name="shape" value="obcompressed" />
+        <character name="shape" value="beaked" modifier="not" />
+        <character name="shape" value="attenuate" modifier="not apically" />
+      </structure>
+      <structure id="o13083" name="head" />
+      <structure id="o13084" name="body">
+        <character name="architecture_or_relief" value="smooth" />
+        <character name="architecture_or_relief" value="papillate or muriculate" />
+        <character name="relief" value="papillate" modifier="±" />
+        <character name="relief" value="muriculate" modifier="±" />
+        <character name="architecture_or_shape" value="2-3-or5-ribbed" modifier="often" />
+      </structure>
+    </statement>
+    <statement id="624.txt-17">
+      <text>pappi (rarely 0) persistent or readily falling, usually of barbellulate, sometimes plumose bristles, sometimes of scales (scales often aristate), sometimes combinations of bristles and scales.</text>
+      <structure id="o13085" name="pappus">
+        <character name="duration" value="persistent" />
+        <character name="orientation" value="falling" modifier="readily" />
+      </structure>
+      <structure id="o13086" name="bristle">
+        <character name="architecture" value="barbellulate" />
+        <character name="architecture" value="plumose" modifier="sometimes" />
+      </structure>
+      <relation id="r1489" name="consist_of" from="o13085" to="o13086" negation="false" modifier="usually" />
+      <structure id="o13087" name="scale" />
+      <relation id="r1490" name="consist_of" from="o13085" to="o13087" negation="false" modifier="sometimes" />
+      <structure id="o13088" name="combination" />
+      <structure id="o13089" name="bristle" />
+      <structure id="o13090" name="scale" />
+      <relation id="r1491" name="part_of" from="o13088" to="o13089" negation="false" />
+      <relation id="r1492" name="part_of" from="o13088" to="o13090" negation="false" />
+    </statement>
+  </description>
+  <number_of_infrataxa>Genera ca. 187, species ca. 1240 (19 genera, 111 species in the flora):</number_of_infrataxa>
+  <general_distribution>nearly worldwide</general_distribution>
+  <general_distribution>with centers of concentration in southern Africa and Australia</general_distribution>
+  <general_distribution>in both Old World and New World</general_distribution>
+  <general_distribution>the greater numbers of genera and species in the southern hemisphere.</general_distribution>
+  <discussion>Traditionally, taxa included here in Gnaphalieae have been treated in Inuleae within Gnaphaliinae (cf. A. A. Anderberg 1991; K. Bremer 1994). Gnaphalieae include everlastings and helichrysums, which have brightly colored, persistent phyllaries and are much used in dried floral arangements, and other ornamentals, e.g., species or cultivars from Anaphalis, Antennaria, and Leontopodium (edelweiss). Some species of Facelis, Gamochaeta, Gnaphalium, Helichrysum, and Pseudognaphalium are widespread as weeds.</discussion>
+  <discussion>Phyllaries in most Gnaphalieae are usually more or less herbaceous to more or less cartilaginous medially and/or proximally and membranous to scarious laterally and distally. The herbaceous to cartilagionous area of a phyllary is usually somewhat thicker than the rest and such areas are called stereomes. Stereomes may be more or less divided or not and may be more or less glandular or not. The membranous to scarious portion of a phyllary distal to the stereome is sometimes called a lamina (not to be confused with corolla laminae of other groups). The phyllaries, or laminae are often colored and may be more or less opaque or more or less hyaline.</discussion>
+  <discussion>Surfaces of cypselae of Gnaphalieae may be smooth, longitudinally ridged, or papillate (with minute bumps or projections from one or both ends of each epidermal cell; see A. A. Anderberg 1991). In addition, the cypselae may be glabrous or may bear myxogenic (producing mucilage when wetted) or non-myxogenic “twin-hairs.” The twin-hairs may be relatively long and form sericeous to strigillose induments. Very short, globose to clavate twin-hairs (lengths equaling or not much greater than diameters) are characteristic of some taxa and have sometimes been called “papillae” in descriptions of members of Gnaphalieae. Cypselae with such very short twin-hairs are described here as minutely hairy and the hairs are referred to as papilliform.</discussion>
+  <discussion>Stuartina hamata Philipson, a member of Gnaphalieae, was collected near a wool mill in South Carolina in 1957 (G. L. Nesom 2004c). It is native to Australia and may be characterized as annuals, prostrate, mostly 6–12 cm across, ± woolly, leaves cauline (crowded near heads), petioles basally dilated, blades suborbiculate, heads ca. 3 mm (borne in glomerules), phyllaries ovate to lanceolate, inner uncinate, florets 5 (outer 4 pistillate, inner bisexual), cypselae 0.8–1 mm, epappose.</discussion>
+  <discussion>Genera 97–105 below (genera following second lead 3 in key to genera, members of Filagininae in a narrow sense) have exceptionally small heads and florets (even for composites) and are closely similar in expressions of some characters. Together, as found in the flora, they may be characterized as:</discussion>
+  <discussion>Annuals, taprooted, usually arachnoid-sericeous to lanuginose throughout, sometimes glabrescent proximally on stems and/or on adaxial faces of leaves. Leaves usually sessile, sometimes obscurely petiolate (usually gradually larger and more crowded distally, sometimes again smaller among heads, where referred to as capitular leaves); blades 1-nerved, bases usually ± cuneate, sometimes rounded, margins entire. Heads disciform. Involucres absent, vestigial, or inconspicuous, often simulated by leaves or paleae. Phyllaries 0, vestigial, or 1–6. Receptacles paleate (at least peripherally), usually glabrous among paleae (bristly in Hesperevax). Florets pistillate, functionally staminate (usually referred to as staminate), or bisexual; corollas whitish, usually distally yellowish, reddish, brownish, or purplish.</discussion>
+  <discussion>Leaves of Filagininae that immediately subtend heads and/or glomerules are here called capitular leaves. Flowering branches may also immediately subtend heads or glomerules; if so, capitular leaves collectively subtend such branches and their heads/glomerules, and heads/glomerules appear to be sessile in forks of pseudo-dichotomies or -polytomies. Sometimes capitular leaves subtend only glomerules and not individual heads and individual heads may be difficult to distinguish within glomerules.</discussion>
+  <discussion>Paleae subtend all or at least some florets in members of Filagininae. They are referred to as bisexual, pistillate, or staminate paleae depending on sorts of florets subtended. Pistillate paleae persistent or shed with cypselae, usually incurved over inner (bisexual or functionally staminate) florets at flowering; margins usually thinner, ± scarious, forming wings (sometimes gradually and obscurely so); wings recurved to erect to incurved or inflexed; abaxial faces usually ± lanuginose to sericeous, sometimes glabrate or glabrous; apices rounded or obtuse to acuminate or aristate. Bisexual and/or staminate paleae usually persistent, sometimes falling in fruit, sometimes 0 (most Filago, Logfia, and Micropus, all Psilocarphus; then simulated by pistillate paleae), usually erect at flowering, incurved, erect, or spreading in fruit, sometimes enlarging as cypselae mature (then adaxially lanuginose to sericeous), shorter than or surpassing pistillate paleae; bodies ± ovate or lanceolate to spatulate (saccate in Micropsis); margins rarely forming wings; abaxial faces lanuginose to sericeous or nearly glabrous; apices usually entire, sometimes 2–3-fid, sometimes aristate to spinose (uncinate in Ancistrocarphus filagineus).</discussion>
+  <discussion>Corolla scars on cypselae of Filagininae may be offset adaxially to subapical or ± median positions and may be diagnostic for certain taxa (corolla attachments usually appear to be apical before ovaries mature).</discussion>
+  <discussion>All or outer pistillate florets of Filagininae lack pappi. Inner pistillate, bisexual, and staminate florets have pappi 0 or of 1–28+, whitish, fragile (easily broken or detached) or readily falling, ± barbellate to barbellulate or smooth (sometimes smooth only distally) bristles in 1 series. At bases of bristles, barbs are sometimes notably longer and finer, sometimes wavy or curled, and more patent than antrorse and may interweave, resulting in proximal coherence of adjacent bristles (e.g., in Logfia); cohering bristles may be shed in groups or complete rings and separate subsequently.</discussion>
+  <discussion>In descriptions of Filagininae, median refers to areas or positions about midway between a base and corresponding apex, and medial refers to areas or positions ± centered between opposing lateral edges.</discussion>
+  <discussion>As noted by A. Cronquist (1950) for Psilocarphus, the wings or apices of pistillate paleae of Filagininae are incurved during flowering, guide styles over bisexual or functionally staminate florets, and, likely, enforce nearly obligate within-head geitonogamy. Reproductive isolation created by this self-pollinating syndrome may allow interspecific or intergeneric hybrids, when fertile, to persist and become independently reproducing species among their parental taxa (J. D. Morefield 1992, 1992b).</discussion>
+  <discussion>Birds harvest shoots of Logfia, Micropus, Psilocarphus, and Stylocline species, presumably for nesting materials (neststraw is common name for Stylocline) and may be significant in shorter-distance dispersal of some taxa. The light, fluffy paleae enclosing epappose cypselae of the same genera aid in wind dispersal, as suggested by A. Cronquist (1950).</discussion>
+  <discussion>Different species and genera of Filagininae often grow together and are frequently mixedand/or misidentified on herbarium sheets. Young or stunted plants often will not fit keys and descriptions; whenever practicable in attempting identifications of members of Filagininae, use well-developed plants with at least some heads in fruit. Some diagnostic characters require careful evaluation of structures within heads, usually with magnification; for example, anther tips and corolla lobes may be similar in color and shape and may be difficult to distinguish.</discussion>
+  <discussion>Good illustrations of most North American Filagininae may be found in L. Abrams and R. S. Ferris (1923–1960, vol. 4), G. Beauverd (1913), or J. C. Hickman (1993).</discussion>
+  <references>SELECTED REFERENCES Anderberg, A. A. 1991. Taxonomy and phylogeny of the tribe Gnaphalieae (Asteraceae). Opera Bot. 104: 1–195. Drury, D. G. 1970. A fresh approach to the classification of the genus Gnaphalium with particular reference to the species present in New Zealand (Inuleae–Compositae). New Zealand J. Bot. 9: 157–185. Hilliard, O. M. and B. L. Burtt. 1981. Some generic concepts in Compositae–Gnaphaliinae. Bot. J. Linn. Soc. 82: 181–232.</references>
+  <key>1.Heads usually discoid (unisexual or nearly so, staminate or pistillate; plants unisexual or nearly so; predominantly pistillate heads rarely with 1–9 central, functionally staminate florets; predominantly staminate heads rarely with 1–4+ peripheral, pistillate florets; involucres mostly 6–10 mm).</key>
+  <key>2.Plants (0.2–)4–25(–70) cm; basal leaves usually present at flowering (withering before in A. geyeri); pappus bristles (at least pistillate) usually basally connate or coherent 87. Antennaria, p. 388</key>
+  <key>2.Plants mostly 20–80(–120+) cm; basal leaves usually withering before flowering; pappus bristles distinct or basally connate90. Anaphalis, p. 426</key>
+  <key>1.Heads usually disciform (plants not unisexual; heads mostly alike, each with 4–200+ pistillate and 1–200+ bisexual or functionally staminate florets; heads rarely discoid in Xerochrysum, which has involucres 10–30 mm and brightly colored phyllaries in 3–8+ series).</key>
+  <key>3.Annuals, biennials, perennials, or subshrubs; receptacles epaleate; cypselae all pappose.</key>
+  <key>4.Pistillate florets fewer than bisexual.</key>
+  <key>5.Subshrubs; heads in glomerules in corymbiform arrays; involucres campanu- late, 4–8 mm89. Helichrysum, p. 425</key>
+  <key>5.Annuals, biennials, or perennials; heads borne singly or 2–3 in loose, corymbi- form arrays; involucres ± hemispheric, 10–30 mm91. Xerochrysum, p. 427</key>
+  <key>4.Pistillate florets more numerous than bisexual.</key>
+  <key>6.Annuals; pappi persistent; pappus bristles ± plumose96. Facelis, p. 442</key>
+  <key>6.Annuals, biennials, or perennials; pappi readily falling; pappus bristles barbellate to barbellulate.</key>
+  <key>7.Heads in spiciform or subcapitate arrays or in glomerules in continuous or interrupted, usually spiciform, sometimes paniculiform, arrays (terminal glomerules in depauperate plants); cypselae ± papillate (papillae or papilliform hairs myxogenic) or strigillose (hairs not myxogenic); pappus bristles basally connate, falling readily (in groups or rings; distinct in Omalotheca supina).</key>
+  <key>8.Annuals or short-lived perennials; phyllaries in 3–7 series; pistillate florets 50–130+; cypselae ± papillate (papillae or papilliform hairs myxogenic)93. Gamochaeta, p. 431</key>
+  <key>8.Perennials; phyllaries in 2–3 series; pistillate florets 35–70+; cypselae strigillose (hairs not myxogenic)94. Omalotheca, p. 438</key>
+  <key>7.Heads usually in ± capitate clusters (subtended by leafy bracts) or corymbiform or paniculiform (often bracteate) arrays; cypselae usually glabrous or minutely hairy or papillate (papillae or papilliform hairs not myxogenic), sometimes minutely roughened and/or with 4–6 longitudinal ridges; pappus bristles distinct (falling separately) or basally coherent (falling in groups or rings).</key>
+  <key>9.Involucres narrowly campanulate to cylindric; phyllaries mostly stramineous to brownish, sometimes purplish to pinkish (hyaline, stereomes not glandular)95. Euchiton, p. 440</key>
+  <key>9.Involucres narrowly to broadly campanulate to cylindric; phyllaries white, rosy, tawny, or brown (opaque or hyaline, stereomes usually glandular).</key>
+  <key>10.Annuals, (1–)3–30 cm; heads usually in ± capitate clusters (in axils of leaves or bracts), sometimes in spiciform glomerules; cypselae usually glabrous, sometimes minutely hairy or papillate (hairs or papillae not myxogenic)92. Gnaphalium, p. 428</key>
+  <key>10.Annuals, biennials, or perennials, (4–)15–150(–200) cm; heads usually in glomerules in corymbiform or paniculiform arrays, sometimes in terminal clusters; cypselae usually smooth, sometimes papillate-roughened and/or with 4–6 longitudinal ridges, usually glabrous (papilliform hairs in P. luteoalbum)88. Pseudognaphalium, p. 415</key>
+  <key>3.Annuals; receptacles ± paleate (all or at least the outermost florets each subtended by a palea); cypselae (all or at least the outermost) epappose.</key>
+  <key>11.Bisexual florets (1–)2–10(–11), pappi of (11–)13–28+ bristles visible in heads; functionally staminate florets 0.</key>
+  <key>12.Receptacles fungiform to obovoid (heights 0.4–1.6 times diams.); most pistillate paleae ± saccate, each ± enclosing a floret, apices blunt; innermost paleae spreading in fruit; cypselae dimorphic (outer longer than inner)97. Logfia, p. 443</key>
+  <key>12.Receptacles cylindric to clavate (heights 5–15 times diams.); most pistillate paleae open to ± folded (at most each enfolding, not enclosing a floret; apices acuminate to aristate); innermost paleae erect to ascending in fruit; cypselae mono- morphic (outer ± equaling inner)98. Filago, p. 447</key>
+  <key>[11. Shifted to left margin.—Ed.]</key>
+  <key>11.Bisexual florets 0 or 2–7, pappi 0; functionally staminate florets 0 or 2–12, pappi 0 or of 1–10(–13) bristles hidden in heads.</key>
+  <key>13.Pistillate paleae open most of lengths, flat or concave to loosely folded (not enclosing florets); pappi 0.</key>
+  <key>14.Bisexual paleae saccate, each enclosing a floret, apices 2-fid or 3-fid; cypselae (at least outer) strigose; coastal Texas103. Micropsis, p. 463</key>
+  <key>14.Bisexual or staminate paleae flat to concave, not enclosing florets, apices entire; cypselae glabrous; central and western North America.</key>
+  <key>15.Receptacles glabrous; pistillate paleae falling (all or the inner together); staminate (or bisexual) paleae: bodies ± spatulate (apices scarcely enlarged); central North America102. Diaperia, p. 460</key>
+  <key>15.Receptacles bristly; pistillate paleae persistent; staminate paleae: bodies obovate (apices enlarged); California and Oregon105. Hesperevax, p. 467</key>
+  <key>13.Pistillate paleae saccate most of lengths (each enclosing a floret, outermost rarely open); pappi 0 or of 1–10(–13) bristles.</key>
+  <key>16.Staminate paleae 5(–7), ± spreading proximally, enlarged in fruit (apices incurved to uncinate); pistillate paleae with 3, ± parallel (prominent) nerves; cypselae: corolla scars apical104. Ancistrocarphus, p. 465</key>
+  <key>16.Staminate paleae 0 or 1–4, erect, not enlarged in fruit (apices erect); pistillate paleae with 5+, reticulate (and prominent) or ± parallel (and obscure) nerves; cypselae: corolla scars subapical to ± median.</key>
+  <key>17.Cauline leaves mostly opposite; phyllaries 0; pistillate paleae (nerves reticulate, prominent): wings inflexed (and ± lateral); staminate paleae 0; pappi 0 101. Psilocarphus, p. 456</key>
+  <key>17.Cauline leaves mostly alternate; phyllaries 0 or 1–6; pistillate paleae (nerves parallel, obscure): wings ± erect (or subapical); staminate paleae 1–4 and/or staminate pappi of (0–)1–10(–13) bristles.</key>
+  <key>18.Pistillate paleae (obcompressed to terete, not galeate): wings ± erect (and apical); receptacles cylindric to clavate (heights 2.8–8 times diams.); phyl- laries 0 or 1–4 (similar to paleae); cypselae: corolla scars subapical99. Stylocline, p. 450</key>
+  <key>18.Pistillate paleae (compressed, galeate): wings ± erect (and lateral) or inflexed (and subapical); receptacles depressed-spheric to obovoid (heights 0.5–1.8 times diams.); phyllaries 4–6 (unlike paleae); cypselae: corolla scars ± lateral100. Micropus, p. 454</key>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

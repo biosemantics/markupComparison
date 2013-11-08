@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>15.</number>
+  <species_name>Malacothrix sonorae</species_name>
+  <authority>W. S. Davis &amp; P. H. Raven</authority>
+  <place_of_publication>Madroño 16: 264, fig. 2d. 1962</place_of_publication>
+  <common_name>Sonoran desertdandelion</common_name>
+  <description>
+    <statement id="487.txt-0">
+      <text>Annuals, 10–35 cm.</text>
+      <structure id="o9722" name="whole_organism">
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="35" to_unit="cm" />
+        <character name="life_style" value="annual" />
+      </structure>
+    </statement>
+    <statement id="487.txt-1">
+      <text>Stems 1(–9), erect, branched from bases and distally, relatively sparsely leafy, glabrous.</text>
+      <structure id="o9723" name="stem">
+        <character char_type="range_value" name="atypical_count" from="1" to="9" from_inclusive="false" />
+        <character name="count" value="1" />
+        <character name="orientation" value="erect" />
+        <character name="architecture_or_shape" value="branched" constraint="from bases" constraintid="o9724" />
+        <character name="architecture" value="leafy" modifier="relatively sparsely" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+      <structure id="o9724" name="base" />
+    </statement>
+    <statement id="487.txt-2">
+      <text>Cauline leaves:</text>
+      <structure id="o9725" name="leaf" constraint="cauline" />
+    </statement>
+    <statement id="487.txt-3">
+      <text>proximal narrowly oblanceolate to obovate, usually pinnately lobed (lobes oblong to triangular), not fleshy, ultimate margins ± dentate, faces glabrous;</text>
+      <structure id="o9726" name="leaf" constraint="proximal cauline">
+        <character name="shape" value="oblanceolate" modifier="narrowly" />
+        <character name="shape" value="obovate" />
+        <character name="shape" value="lobed" modifier="usually pinnately" />
+        <character name="texture" value="fleshy" modifier="not" />
+      </structure>
+      <structure id="o9727" name="margin" constraint="ultimate">
+        <character name="shape" value="dentate" modifier="±" />
+      </structure>
+      <structure id="o9728" name="face">
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="487.txt-4">
+      <text>distal greatly reduced (margins entire or basally dentate, apices acute).</text>
+      <structure id="o9729" name="leaf" constraint="distal cauline">
+        <character name="size" value="reduced" modifier="greatly" />
+      </structure>
+    </statement>
+    <statement id="487.txt-5">
+      <text>Calyculi of 5–8+, subulate to lanceolate bractlets, hyaline margins 0.05–0.2 mm.</text>
+      <structure id="o9730" name="calyculus" />
+      <structure id="o9731" name="bractlet">
+        <character char_type="range_value" name="count" from="5" to="8" upper_restricted="false" />
+        <character char_type="range_value" name="shape" from="subulate" to="lanceolate" />
+        <character name="shape" value="subulate" />
+        <character name="shape" value="lanceolate" />
+      </structure>
+      <relation id="r1125" name="consist_of" from="o9730" to="o9731" negation="false" />
+      <structure id="o9732" name="margin">
+        <character name="coloration" value="hyaline" />
+        <character char_type="range_value" name="size" from="0.05" from_unit="mm" to="0.2" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="487.txt-6">
+      <text>Involucres ± campanulate, 6–9 × 4–6.6 mm.</text>
+      <structure id="o9733" name="involucre">
+        <character name="shape" value="campanulate" modifier="±" />
+        <character char_type="range_value" name="length" from="6" from_unit="mm" to="9" to_unit="mm" />
+        <character char_type="range_value" name="width" from="4" from_unit="mm" to="6.6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="487.txt-7">
+      <text>Phyllaries 12–15+ in 2(–3) series, lance-oblong to lance-linear, hyaline margins 0.05–0.2 mm wide, faces glabrous.</text>
+      <structure id="o9734" name="phyllary">
+        <character char_type="range_value" name="count" from="12" to="15" upper_restricted="false" constraint="in -3 series" constraintid="o9735" />
+        <character char_type="range_value" name="shape" from="lance-oblong" to="lance-linear" />
+        <character name="shape" value="lance-oblong" />
+        <character name="shape" value="lance-linear" />
+      </structure>
+      <structure id="o9735" name="series" constraint="-3">
+        <character name="count" value="2" />
+      </structure>
+      <structure id="o9736" name="margin">
+        <character name="coloration" value="hyaline" />
+        <character char_type="range_value" name="size" from="0.05" from_unit="mm" to="0.2" to_unit="mm" />
+      </structure>
+      <structure id="o9737" name="face">
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="487.txt-8">
+      <text>Receptacles not bristly.</text>
+      <structure id="o9738" name="receptacle">
+        <character name="pubescence" value="bristly" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="487.txt-9">
+      <text>Florets 30–61;</text>
+      <structure id="o9739" name="floret">
+        <character char_type="range_value" name="count" from="30" to="61" />
+      </structure>
+    </statement>
+    <statement id="487.txt-10">
+      <text>corollas white or pale yellow, 6–10+ mm;</text>
+      <structure id="o9740" name="corolla">
+        <character name="coloration" value="white" />
+        <character name="coloration" value="yellow" modifier="pale" />
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="10" to_unit="mm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="487.txt-11">
+      <text>outer ligules exserted 1–4 mm.</text>
+      <structure id="o9741" name="ligule" constraint="outer">
+        <character name="position" value="exserted" />
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="487.txt-12">
+      <text>Cypselae ± cylindro-fusiform, 1.7–2 mm, ribs ending 0.2–0.3 mm short of apices, ± equal (distal 0.2–0.3 mm of cypselae slightly expanded, smooth);</text>
+      <structure id="o9742" name="cypsela">
+        <character name="shape" value="cylindro-fusiform" modifier="±" />
+        <character char_type="range_value" name="size" from="1.7" from_unit="mm" to="2" to_unit="mm" />
+      </structure>
+      <structure id="o9743" name="rib">
+        <character char_type="range_value" name="size" from="0.2" from_unit="mm" to="0.3" to_unit="mm" />
+        <character name="size" value="short" constraint="of apices" constraintid="o9744" />
+        <character name="size" value="equal" modifier="±" />
+      </structure>
+      <structure id="o9744" name="apex" />
+    </statement>
+    <statement id="487.txt-13">
+      <text>pappi persistent, of 16–18 needlelike teeth plus 2 bristles.</text>
+      <structure id="o9745" name="pappus">
+        <character name="duration" value="persistent" />
+      </structure>
+      <structure id="o9746" name="tooth">
+        <character char_type="range_value" name="count" from="16" to="18" />
+        <character name="shape" value="needlelike" />
+        <character name="count" value="2" />
+      </structure>
+      <relation id="r1126" name="consist_of" from="o9745" to="o9746" negation="false" />
+      <structure id="o9747" name="bristle" />
+    </statement>
+    <statement id="487.txt-14">
+      <text>Pollen 70–100% 3-porate.</text>
+      <structure id="o9748" name="pollen">
+        <character name="architecture" value="3-porate" modifier="70-100%" />
+      </structure>
+    </statement>
+    <statement id="487.txt-15">
+      <text>2 n = 14.</text>
+      <structure id="o9749" name="chromosome">
+        <character name="count" value="14" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <habitat>sandy, open areas among bushes</habitat>
+  <habitat>larrea-lycium-cercidium-baccharis associations</habitat>
+  <habitat>quercus</habitat>
+  <habitat>pinus, juglans woodlands</habitat>
+  <elevation>400–1500 m;</elevation>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <global_distribution>Mexico (Sonora).</global_distribution>
+  <discussion>Malacothrix sonorae is found mainly in the Sonoran Desert (Tucson, Kofa, Pinal, White Tank, Baboquivari, and Waterman mountains).</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

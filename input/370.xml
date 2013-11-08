@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>12.</number>
+  <species_name>Prenanthes sagittata</species_name>
+  <authority>(A. Gray) A. Nelson</authority>
+  <place_of_publication>in J. M. Coulter and A. Nelson, New Man. Bot. Centr. Rocky Mt., 592. 1909</place_of_publication>
+  <common_name>Arrowleaf snakeroot</common_name>
+  <synonym_of_species_name>Prenanthes alata (Hooker) D. Dietrich var. sagittata A. Gray in A. Gray et al., Syn. Fl. N. Amer. 1(2): 435. 1884; Nabalus sagittatus (A. Gray) Rydberg</synonym_of_species_name>
+  <description>
+    <statement id="370.txt-0">
+      <text>Plants 8–75 cm;</text>
+      <structure id="o7026" name="whole_organism">
+        <character char_type="range_value" name="size" from="8" from_unit="cm" to="75" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="370.txt-1">
+      <text>taproots short, thick and tuberous or long and slender, fascicled.</text>
+      <structure id="o7027" name="taproot">
+        <character name="size" value="short" />
+        <character name="thickness" value="thick" />
+        <character name="architecture" value="tuberous" />
+        <character name="size" value="slender" />
+        <character name="architecture_or_arrangement" value="fascicled" />
+      </structure>
+    </statement>
+    <statement id="370.txt-2">
+      <text>Stems erect, greenish and mottled purplish, ± glabrous or proximally glabrate, distally glabrous.</text>
+      <structure id="o7028" name="stem">
+        <character name="orientation" value="erect" />
+        <character name="coloration" value="purplish" modifier="greenish and mottled" />
+        <character name="pubescence" value="glabrous" modifier="±" />
+        <character name="pubescence" value="glabrate" modifier="proximally" />
+        <character name="pubescence" value="glabrous" modifier="distally" />
+      </structure>
+    </statement>
+    <statement id="370.txt-3">
+      <text>Leaves :</text>
+      <structure id="o7029" name="leaf" />
+    </statement>
+    <statement id="370.txt-4">
+      <text>proximal present at flowering;</text>
+    </statement>
+    <statement id="370.txt-5">
+      <text>petiolate (petioles narrowly winged, sometimes lobed, 5–15 cm);</text>
+      <structure id="o7030" name="leaf" constraint="proximal">
+        <character name="presence" value="present" modifier="at flowering" />
+        <character name="architecture" value="petiolate" />
+      </structure>
+    </statement>
+    <statement id="370.txt-6">
+      <text>blades ovate or deltate, 3–10 × 1.5–6 cm, thin, bases hastate to truncate or rounded, sometimes shallowly, palmately lobed, ultimate margins irregularly dentate, faces glabrous;</text>
+      <structure id="o7031" name="blade">
+        <character name="shape" value="ovate" />
+        <character name="shape" value="deltate" />
+        <character char_type="range_value" name="length" from="3" from_unit="cm" to="10" to_unit="cm" />
+        <character char_type="range_value" name="width" from="1.5" from_unit="cm" to="6" to_unit="cm" />
+        <character name="thickness" value="thin" />
+      </structure>
+      <structure id="o7032" name="base">
+        <character char_type="range_value" name="shape" from="hastate" to="truncate or rounded" />
+        <character name="shape" value="hastate" />
+        <character name="shape" value="truncate" />
+        <character name="shape" value="rounded" />
+        <character name="shape" value="lobed" modifier="palmately" />
+      </structure>
+      <structure id="o7033" name="margin" constraint="ultimate">
+        <character name="shape" value="dentate" modifier="irregularly" />
+      </structure>
+      <structure id="o7034" name="face">
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="370.txt-7">
+      <text>distal reduced.</text>
+      <structure id="o7035" name="leaf" constraint="distal">
+        <character name="size" value="reduced" />
+      </structure>
+    </statement>
+    <statement id="370.txt-8">
+      <text>Heads in narrow, elongate paniculiform or racemiform arrays.</text>
+      <structure id="o7036" name="head" />
+      <structure id="o7037" name="array">
+        <character name="size" value="narrow" />
+        <character name="architecture" value="racemiform" />
+      </structure>
+      <relation id="r866" name="in" from="o7036" to="o7037" negation="false" />
+    </statement>
+    <statement id="370.txt-9">
+      <text>Calyculi 5–7, green, subulate to narrowly lanceolate bractlets 3–8 mm (longest 2 / 3 lengths of phyllaries), glabrous.</text>
+      <structure id="o7038" name="calyculus">
+        <character char_type="range_value" name="count" from="5" to="7" />
+        <character name="coloration" value="green" />
+      </structure>
+      <structure id="o7039" name="bractlet">
+        <character char_type="range_value" name="shape" from="subulate" to="narrowly lanceolate" />
+        <character name="shape" value="subulate" />
+        <character name="shape" value="lanceolate" modifier="narrowly" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="8" to_unit="mm" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="370.txt-10">
+      <text>Involucres narrowly campanulate (rounded), 7–13 × 5–8 mm.</text>
+      <structure id="o7040" name="involucre">
+        <character name="shape" value="campanulate" modifier="narrowly" />
+        <character char_type="range_value" name="length" from="7" from_unit="mm" to="13" to_unit="mm" />
+        <character char_type="range_value" name="width" from="5" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="370.txt-11">
+      <text>Phyllaries 7–12, green to tan, apices dark, linear-lanceolate, 8–12 mm, margins narrowly scarious, (apices sparsely ciliate), faces glabrous.</text>
+      <structure id="o7041" name="phyllary">
+        <character char_type="range_value" name="count" from="7" to="12" />
+        <character char_type="range_value" name="coloration" from="green" to="tan" />
+        <character name="coloration" value="green" />
+        <character name="coloration" value="tan" />
+      </structure>
+      <structure id="o7042" name="apex">
+        <character name="coloration" value="dark" />
+        <character name="shape" value="linear-lanceolate" />
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="12" to_unit="mm" />
+      </structure>
+      <structure id="o7043" name="margin">
+        <character name="texture" value="scarious" modifier="narrowly" />
+      </structure>
+      <structure id="o7044" name="face">
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="370.txt-12">
+      <text>Florets 10–19;</text>
+      <structure id="o7045" name="floret">
+        <character char_type="range_value" name="count" from="10" to="19" />
+      </structure>
+    </statement>
+    <statement id="370.txt-13">
+      <text>corollas white, 9–15 mm.</text>
+      <structure id="o7046" name="corolla">
+        <character name="coloration" value="white" />
+        <character char_type="range_value" name="size" from="9" from_unit="mm" to="15" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="370.txt-14">
+      <text>Cypselae brown, fusiform to oblance-oloid, subterete or angled, 5 mm, indistinctly 7–10-ribbed;</text>
+      <structure id="o7047" name="cypsela">
+        <character name="coloration" value="brown" />
+        <character name="shape" value="fusiform" />
+        <character name="shape" value="oblance-oloid" />
+        <character name="shape" value="subterete" />
+        <character name="shape" value="angled" />
+        <character name="size" value="5" unit="mm" />
+        <character name="architecture_or_shape" value="7-10-ribbed" modifier="indistinctly" />
+      </structure>
+    </statement>
+    <statement id="370.txt-15">
+      <text>pappi pale yellow, 5–6 mm.</text>
+      <structure id="o7048" name="pappus">
+        <character name="coloration" value="yellow" modifier="pale" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="370.txt-16">
+      <text>2 n = 16.</text>
+      <structure id="o7049" name="chromosome">
+        <character name="count" value="16" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>stream banks</habitat>
+  <habitat>terraces</habitat>
+  <habitat>moist shady places</habitat>
+  <habitat>talus</habitat>
+  <habitat>rock crevices</habitat>
+  <habitat>mixed conifer woodlands</habitat>
+  <elevation>1000–1600 m;</elevation>
+  <ca_distribution>Alta.</ca_distribution>
+  <ca_distribution>B.C.</ca_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <discussion>Prenanthes sagittata is similar to P. alata; it differs in its somewhat smaller stature, heads in narrower and more elongate arrays, and longer calyculi. The ranges of the two species do not overlap.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

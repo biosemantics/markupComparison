@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>2.</number>
+  <species_name>Prenanthes alba</species_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 798. 1753</place_of_publication>
+  <common_name>White rattlesnakeroot, prenanthe blanche</common_name>
+  <synonym_of_species_name>Nabalus albus (Linnaeus) Hooker</synonym_of_species_name>
+  <description>
+    <statement id="360.txt-0">
+      <text>Plants 20–175 cm;</text>
+      <structure id="o6757" name="whole_organism">
+        <character char_type="range_value" name="size" from="20" from_unit="cm" to="175" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="360.txt-1">
+      <text>taproots short and thickened, fibrous.</text>
+      <structure id="o6758" name="taproot">
+        <character name="size" value="short" />
+        <character name="thickness" value="thickened" />
+        <character name="texture" value="fibrous" />
+      </structure>
+    </statement>
+    <statement id="360.txt-2">
+      <text>Stems erect, often mottled purple or nearly all purple (often with stout bases, 8–12 mm diam.), proximally glabrous, tomentulose distally.</text>
+      <structure id="o6759" name="stem">
+        <character name="orientation" value="erect" />
+        <character name="coloration" value="purple" modifier="often;mottled" />
+        <character name="coloration" value="purple" />
+        <character name="pubescence" value="glabrous" modifier="proximally" />
+        <character name="pubescence" value="tomentulose" modifier="distally" />
+      </structure>
+    </statement>
+    <statement id="360.txt-3">
+      <text>Leaves:</text>
+      <structure id="o6760" name="leaf" />
+    </statement>
+    <statement id="360.txt-4">
+      <text>proximal present at flowering;</text>
+      <structure id="o6761" name="leaf" constraint="proximal">
+        <character name="presence" value="present" modifier="at flowering" />
+      </structure>
+    </statement>
+    <statement id="360.txt-5">
+      <text>petioles narrowly winged (to 18 cm);</text>
+      <structure id="o6762" name="petiole">
+        <character name="architecture" value="winged" modifier="narrowly" />
+      </structure>
+    </statement>
+    <statement id="360.txt-6">
+      <text>blades usually ovate to triangular or cordate, 4–30 × 3–18 cm, thin to coriaceous, bases often hastate, margins usually coarsely dentate or serrate, sometimes deeply 3-lobed or parted, lobes acute, faces glabrous adaxially, pale to whitish and sometimes hirsute abaxially;</text>
+      <structure id="o6763" name="blade">
+        <character char_type="range_value" name="shape" from="usually ovate" to="triangular or cordate" />
+        <character name="shape" value="ovate" modifier="usually" />
+        <character name="shape" value="triangular" modifier="usually" />
+        <character name="shape" value="cordate" modifier="usually" />
+        <character char_type="range_value" name="length" from="4" from_unit="cm" to="30" to_unit="cm" />
+        <character char_type="range_value" name="width" from="3" from_unit="cm" to="18" to_unit="cm" />
+        <character name="thickness" value="thin" />
+        <character name="texture" value="coriaceous" />
+      </structure>
+      <structure id="o6764" name="base">
+        <character name="shape" value="hastate" modifier="often" />
+      </structure>
+      <structure id="o6765" name="margin">
+        <character name="shape" value="dentate" modifier="usually coarsely" />
+        <character name="shape" value="serrate" modifier="usually coarsely" />
+        <character name="shape" value="3-lobed" modifier="sometimes deeply" />
+        <character name="shape" value="parted" modifier="sometimes deeply" />
+      </structure>
+      <structure id="o6766" name="lobe">
+        <character name="shape" value="acute" />
+      </structure>
+      <structure id="o6767" name="face">
+        <character name="pubescence" value="glabrous" modifier="adaxially" />
+        <character char_type="range_value" name="coloration" from="pale" to="whitish" />
+        <character name="coloration" value="pale" />
+        <character name="coloration" value="whitish" />
+        <character name="pubescence" value="hirsute" modifier="sometimes ; abaxially" />
+      </structure>
+    </statement>
+    <statement id="360.txt-7">
+      <text>distal reduced.</text>
+      <structure id="o6768" name="leaf" constraint="distal">
+        <character name="size" value="reduced" />
+      </structure>
+    </statement>
+    <statement id="360.txt-8">
+      <text>Heads (3–8, in clusters) in paniculiform arrays (densest near apices).</text>
+      <structure id="o6769" name="head" />
+      <structure id="o6770" name="array">
+        <character name="architecture" value="paniculiform" />
+      </structure>
+      <relation id="r840" name="in" from="o6769" to="o6770" negation="false" />
+    </statement>
+    <statement id="360.txt-9">
+      <text>Involucres cylindric to campanulate, 13–15 × 3–5 mm.</text>
+      <structure id="o6771" name="involucre">
+        <character char_type="range_value" name="shape" from="cylindric" to="campanulate" />
+        <character name="shape" value="cylindric" />
+        <character name="shape" value="campanulate" />
+        <character char_type="range_value" name="length" from="13" from_unit="mm" to="15" to_unit="mm" />
+        <character char_type="range_value" name="width" from="3" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="360.txt-10">
+      <text>Calyculi of 5–7, triangular to lanceolate bractlets 1–3 mm, glabrous.</text>
+      <structure id="o6772" name="calyculus">
+        <character name="pubescence" value="glabrous" />
+      </structure>
+      <structure id="o6773" name="bractlet">
+        <character char_type="range_value" name="count" from="5" to="7" />
+        <character char_type="range_value" name="shape" from="triangular" to="lanceolate" />
+        <character name="shape" value="triangular" />
+        <character name="shape" value="lanceolate" />
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="3" to_unit="mm" />
+      </structure>
+      <relation id="r841" name="consist_of" from="o6772" to="o6773" negation="false" />
+    </statement>
+    <statement id="360.txt-11">
+      <text>Phyllaries (6–)8(–9), ± purplish or maroon, lanceolate, 10–13 mm, margins scarious, minutely ciliate, apices acute, faces glabrous.</text>
+      <structure id="o6774" name="phyllary">
+        <character char_type="range_value" name="atypical_count" from="6" to="8" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_count" from="8" to="9" from_inclusive="false" />
+        <character name="count" value="8" />
+        <character name="coloration" value="purplish" modifier="±" />
+        <character name="coloration" value="maroon" modifier="±" />
+        <character name="shape" value="lanceolate" />
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="13" to_unit="mm" />
+      </structure>
+      <structure id="o6775" name="margin">
+        <character name="texture" value="scarious" />
+        <character name="architecture_or_shape" value="ciliate" modifier="minutely" />
+      </structure>
+      <structure id="o6776" name="apex">
+        <character name="shape" value="acute" />
+      </structure>
+      <structure id="o6777" name="face">
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="360.txt-12">
+      <text>Florets 7–9(–13);</text>
+      <structure id="o6778" name="floret">
+        <character char_type="range_value" name="atypical_count" from="9" to="13" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="7" to="9" />
+      </structure>
+    </statement>
+    <statement id="360.txt-13">
+      <text>corollas whitish to pale pink, lavender or red, 9–15 mm.</text>
+      <structure id="o6779" name="corolla">
+        <character char_type="range_value" name="coloration" from="whitish" to="pale-pink , lavender or red" />
+        <character name="coloration" value="whitish" />
+        <character name="coloration" value="pink" modifier="pale" />
+        <character name="coloration" value="lavender" />
+        <character name="coloration" value="red" />
+        <character char_type="range_value" name="size" from="9" from_unit="mm" to="15" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="360.txt-14">
+      <text>Cypselae brown or tan, elliptical to linear, 3.5–6 mm;</text>
+      <structure id="o6780" name="cypsela">
+        <character name="coloration" value="brown" />
+        <character name="coloration" value="tan" />
+        <character char_type="range_value" name="arrangement_or_shape" from="elliptical" to="linear" />
+        <character name="arrangement_or_shape" value="elliptical" />
+        <character name="arrangement_or_shape" value="linear" />
+        <character char_type="range_value" name="size" from="3.5" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="360.txt-15">
+      <text>pappi usually reddish brown, sometimes rusty, rarely yellowish, 6–7 mm.</text>
+      <structure id="o6781" name="pappus">
+        <character name="coloration" value="brown" modifier="usually;reddish" />
+        <character name="coloration" value="rusty" modifier="sometimes" />
+        <character name="coloration" value="yellowish" modifier="rarely" />
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="360.txt-16">
+      <text>2 n = 32.</text>
+      <structure id="o6782" name="chromosome">
+        <character name="count" value="32" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <habitat>sandy oak-scrub</habitat>
+  <habitat>open oak-hickory woods</habitat>
+  <habitat>deciduous forests</habitat>
+  <habitat>dunes</habitat>
+  <habitat>creek banks</habitat>
+  <habitat>road cuts</habitat>
+  <elevation>100–200 m;</elevation>
+  <ca_distribution>Man.</ca_distribution>
+  <ca_distribution>Ont.</ca_distribution>
+  <ca_distribution>Que.</ca_distribution>
+  <ca_distribution>Sask.</ca_distribution>
+  <us_distribution>Ark.</us_distribution>
+  <us_distribution>Conn.</us_distribution>
+  <us_distribution>Del.</us_distribution>
+  <us_distribution>Ga.</us_distribution>
+  <us_distribution>Ill.</us_distribution>
+  <us_distribution>Ind.</us_distribution>
+  <us_distribution>Iowa</us_distribution>
+  <us_distribution>Ky.</us_distribution>
+  <us_distribution>Maine</us_distribution>
+  <us_distribution>Md.</us_distribution>
+  <us_distribution>Mass.</us_distribution>
+  <us_distribution>Mich.</us_distribution>
+  <us_distribution>Minn.</us_distribution>
+  <us_distribution>Mo.</us_distribution>
+  <us_distribution>N.H.</us_distribution>
+  <us_distribution>N.J.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>N.C.</us_distribution>
+  <us_distribution>N.Dak.</us_distribution>
+  <us_distribution>Ohio</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <us_distribution>R.I.</us_distribution>
+  <us_distribution>S.Dak.</us_distribution>
+  <us_distribution>Tenn.</us_distribution>
+  <us_distribution>Vt.</us_distribution>
+  <us_distribution>Va.</us_distribution>
+  <us_distribution>W.Va.</us_distribution>
+  <us_distribution>Wis.</us_distribution>
+  <discussion>Prenanthes alba is recognized by the purplish stems, relatively large, coarse, ovate or triangular leaves, relatively long, winged petioles, glabrous and often purple phyllaries, and usually reddish brown pappi. The leaves are variable, occasionally deeply 3-lobed. W. L. Milstead (1964) recognized specimens with a pale yellow pappi as “subsp. pallida,” distributed on the east coast in New Jersey, Virginia, and North Carolina. Because pappus color tends to fade somewhat on herbarium specimens, that character is difficult to assess on older specimens. The name was not validly published.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

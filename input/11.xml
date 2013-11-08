@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>3.</number>
+  <genus_name>TRIXIS</genus_name>
+  <authority>P. Browne</authority>
+  <place_of_publication>Civ. Nat. Hist. Jamaica, 312, plate 33, fig. 1. 1756</place_of_publication>
+  <common_name>Threefold</common_name>
+  <derivation>Greek trixos , 3-fold, describing the 3-cleft corolla</derivation>
+  <author_of_tribe_genus>David J. Keil</author_of_tribe_genus>
+  <description>
+    <statement id="11.txt-0">
+      <text>Shrubs [herbs], 20–300+ cm (often rhizomatous, stems hairy, hairs gland-tipped and glandless).</text>
+      <structure id="o288" name="whole_organism">
+        <character char_type="range_value" name="size" from="20" from_unit="cm" to="300" to_unit="cm" upper_restricted="false" />
+        <character name="life_style" value="shrub" />
+      </structure>
+    </statement>
+    <statement id="11.txt-1">
+      <text>Leaves cauline;</text>
+    </statement>
+    <statement id="11.txt-2">
+      <text>sessile or petiolate;</text>
+      <structure id="o289" name="leaf">
+        <character name="insertion_or_position" value="cauline" />
+        <character name="architecture" value="sessile" />
+        <character name="architecture" value="petiolate" />
+      </structure>
+    </statement>
+    <statement id="11.txt-3">
+      <text>blades elliptic, lanceolate, linear, or linear-lanceolate, bases cuneate, margins dentate or entire, faces (at least abaxial) usually glandular and ± strigose.</text>
+      <structure id="o290" name="blade">
+        <character name="shape" value="elliptic" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="linear-lanceolate" />
+      </structure>
+      <structure id="o291" name="base">
+        <character name="shape" value="cuneate" />
+      </structure>
+      <structure id="o292" name="margin">
+        <character name="shape" value="dentate" />
+        <character name="shape" value="entire" />
+      </structure>
+      <structure id="o293" name="face">
+        <character name="architecture_or_exudation_or_pubescence" value="glandular" modifier="usually" />
+        <character name="pubescence" value="strigose" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="11.txt-4">
+      <text>Heads quasi-radiate (see florets), borne singly or in corymbiform or paniculiform arrays.</text>
+      <structure id="o294" name="head">
+        <character name="architecture_or_arrangement" value="quasi-radiate" />
+        <character name="arrangement" value="singly" />
+        <character name="arrangement" value="in corymbiform or paniculiform arrays" />
+      </structure>
+      <structure id="o295" name="array">
+        <character name="architecture" value="corymbiform" />
+        <character name="architecture" value="paniculiform" />
+      </structure>
+      <relation id="r45" name="in" from="o294" to="o295" negation="false" />
+    </statement>
+    <statement id="11.txt-5">
+      <text>Involucres ± cylindric, 12–15 mm (subtended by calyculi of 3–7 spreading or ascending bractlets).</text>
+      <structure id="o296" name="involucre">
+        <character name="shape" value="cylindric" modifier="±" />
+        <character char_type="range_value" name="size" from="12" from_unit="mm" to="15" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="11.txt-6">
+      <text>Phyllaries (reflexed in fruit) in 1–2 series, linear (± keeled), apices acute.</text>
+      <structure id="o297" name="phyllary">
+        <character name="arrangement_or_shape" value="linear" />
+      </structure>
+      <structure id="o298" name="series">
+        <character char_type="range_value" name="count" from="1" to="2" />
+      </structure>
+      <relation id="r46" name="in" from="o297" to="o298" negation="false" />
+      <structure id="o299" name="apex">
+        <character name="shape" value="acute" />
+      </structure>
+    </statement>
+    <statement id="11.txt-7">
+      <text>Receptacles flat, smooth, hairy, epaleate.</text>
+      <structure id="o300" name="receptacle">
+        <character name="shape" value="flat" />
+        <character name="architecture_or_relief" value="smooth" />
+        <character name="pubescence" value="hairy" />
+        <character name="architecture" value="epaleate" />
+      </structure>
+    </statement>
+    <statement id="11.txt-8">
+      <text>Florets 4–25[–60], bisexual, fertile;</text>
+      <structure id="o301" name="floret">
+        <character char_type="range_value" name="atypical_count" from="25" to="60" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="4" to="25" />
+        <character name="reproduction" value="bisexual" />
+        <character name="reproduction" value="fertile" />
+      </structure>
+    </statement>
+    <statement id="11.txt-9">
+      <text>corollas yellow (aging white), zygomorphic (2-lipped; outer lip liguliform, lobes 3, lance-deltate, inner lip smaller, lobes ± filiform, recurved);</text>
+      <structure id="o302" name="corolla">
+        <character name="coloration" value="yellow" />
+        <character name="architecture" value="zygomorphic" />
+      </structure>
+    </statement>
+    <statement id="11.txt-10">
+      <text>anther basal appendages entire, apical appendages oblong, acute;</text>
+      <structure id="o303" name="appendage" constraint="anther basal">
+        <character name="shape" value="entire" />
+      </structure>
+      <structure id="o304" name="appendage" constraint="apical">
+        <character name="shape" value="oblong" />
+        <character name="shape" value="acute" />
+      </structure>
+    </statement>
+    <statement id="11.txt-11">
+      <text>style branches relatively short, apices truncate-penicillate.</text>
+      <structure id="o305" name="branch" constraint="style">
+        <character name="size" value="short" modifier="relatively" />
+      </structure>
+      <structure id="o306" name="apex">
+        <character name="shape" value="truncate-penicillate" />
+      </structure>
+    </statement>
+    <statement id="11.txt-12">
+      <text>Cypselae subcylindric to fusiform, often ± beaked, ribs 5, faces glandular-hairy;</text>
+      <structure id="o307" name="cypsela">
+        <character char_type="range_value" name="shape" from="subcylindric" to="fusiform" />
+        <character name="shape" value="subcylindric" />
+        <character name="shape" value="fusiform" />
+        <character name="shape" value="beaked" modifier="often ±" />
+      </structure>
+      <structure id="o308" name="rib">
+        <character name="count" value="5" />
+      </structure>
+      <structure id="o309" name="face">
+        <character name="pubescence" value="glandular-hairy" />
+      </structure>
+    </statement>
+    <statement id="11.txt-13">
+      <text>pappi of 60–80+ dull white [tawny], finely barbed bristles.</text>
+      <structure id="o310" name="pappus" />
+      <structure id="o311" name="bristle">
+        <character char_type="range_value" name="count" from="60" to="80" upper_restricted="false" />
+        <character name="coloration" value="white" modifier="dull" />
+        <character name="architecture" value="barbed" modifier="finely" />
+      </structure>
+      <relation id="r47" name="consist_of" from="o310" to="o311" negation="false" />
+    </statement>
+    <statement id="11.txt-14">
+      <text>x = 9.</text>
+      <structure id="o312" name="chromosome">
+        <character name="count" value="9" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species ca. 65 (2 in the flora):</number_of_infrataxa>
+  <general_distribution>North America</general_distribution>
+  <general_distribution>Mexico</general_distribution>
+  <general_distribution>West Indies</general_distribution>
+  <general_distribution>Central America</general_distribution>
+  <general_distribution>South America.</general_distribution>
+  <references>SELECTED REFERENCE Anderson, C. E. 1972. A monograph of the Mexican and Central American species of Trixis (Compositae). Mem. New York Bot. Gard. 22(3): 1–68.</references>
+  <key>1.Leaves usually ascending, almost parallel with stems, stomates on both faces, induments: abaxial faces glandular and sparsely strigose (sometimes only on veins), adaxial faces glandular and strigose to pilose; papilla-like double hairs of cypselae producing mucilage when wetted1. Trixis californica</key>
+  <key>1.Leaves usually spreading, stomates on abaxial faces, induments: margins and, sometimes, abaxial midveins with glandless and glandular hairs, otherwise glabrous; papilla-like double hairs of cypselae not producing mucilage when wetted2. Trixis inula</key>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>43a.</number>
+  <variety_name>Cirsium arizonicum (A. Gray) Petrak var. arizonicum</variety_name>
+  <synonym_of_variety_name>Cirsium arizonicum var. nidulum (M. E. Jones) S. L. Welsh; C. nidulum (M. E. Jones) Petrak</synonym_of_variety_name>
+  <description>
+    <statement id="125.txt-0">
+      <text>Stems glabrous to tomentose, usually without septate trichomes.</text>
+      <structure id="o626" name="stem">
+        <character char_type="range_value" name="pubescence" from="glabrous" to="tomentose" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="tomentose" />
+      </structure>
+      <structure id="o627" name="trichome">
+        <character name="architecture" value="septate" />
+      </structure>
+      <relation id="r121" name="without" from="o626" to="o627" negation="false" modifier="usually" />
+    </statement>
+    <statement id="125.txt-1">
+      <text>Leaf blades unlobed to deeply divided, faces usually ± tomentose, at least abaxially, usually without septate trichomes;</text>
+      <structure id="o628" name="blade" constraint="leaf">
+        <character char_type="range_value" name="shape" from="unlobed" to="deeply divided" />
+        <character name="shape" value="unlobed" />
+        <character name="shape" value="divided" modifier="deeply" />
+      </structure>
+      <structure id="o629" name="face">
+        <character name="pubescence" value="tomentose" modifier="usually ±" />
+      </structure>
+      <structure id="o630" name="trichome">
+        <character name="architecture" value="septate" />
+      </structure>
+      <relation id="r122" name="without" from="o629" to="o630" negation="false" modifier="usually" />
+    </statement>
+    <statement id="125.txt-2">
+      <text>main marginal spines 2–15 mm, often stout;</text>
+      <structure id="o631" name="spine" constraint="main marginal">
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="15" to_unit="mm" />
+        <character name="fragility" value="stout" modifier="often" />
+      </structure>
+    </statement>
+    <statement id="125.txt-3">
+      <text>cauline bases narrowed, truncate or clasping, but not or only slightly decurrent.</text>
+      <structure id="o632" name="base" constraint="cauline">
+        <character name="size" value="narrowed" />
+        <character name="shape" value="truncate" />
+        <character name="architecture" value="clasping" />
+        <character name="shape" value="decurrent" modifier="not only slightly" />
+      </structure>
+    </statement>
+    <statement id="125.txt-4">
+      <text>Involucres cylindric to campanulate.</text>
+      <structure id="o633" name="involucre">
+        <character char_type="range_value" name="shape" from="cylindric" to="campanulate" />
+        <character name="shape" value="cylindric" />
+        <character name="shape" value="campanulate" />
+      </structure>
+    </statement>
+    <statement id="125.txt-5">
+      <text>Phyllary spines 1–20 mm, slender to very stout.</text>
+      <structure id="o634" name="spine" constraint="phyllary">
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="20" to_unit="mm" />
+        <character name="size" value="slender" />
+        <character name="fragility" value="stout" modifier="very" />
+      </structure>
+    </statement>
+    <statement id="125.txt-6">
+      <text>Corollas usually bright red or pink, 24–34 mm, tubes 7–12, throats 2–5 mm, lobes 13–18 mm;</text>
+      <structure id="o635" name="corolla">
+        <character name="coloration" value="red" modifier="usually ;bright" />
+        <character name="coloration" value="pink" modifier="usually" />
+        <character char_type="range_value" name="size" from="24" from_unit="mm" to="34" to_unit="mm" />
+      </structure>
+      <structure id="o636" name="tube">
+        <character char_type="range_value" name="count" from="7" to="12" />
+      </structure>
+      <structure id="o637" name="throat">
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+      <structure id="o638" name="lobe">
+        <character char_type="range_value" name="size" from="13" from_unit="mm" to="18" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="125.txt-7">
+      <text>style tips–2.5 mm.</text>
+      <structure id="o639" name="tip" constraint="style">
+        <character char_type="range_value" name="size" to="2.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="125.txt-8">
+      <text>2 n = 30, 32, 34 (as C. arizonicum × C. nidulum ).</text>
+      <structure id="o640" name="chromosome">
+        <character name="count" value="30" />
+        <character name="count" value="32" />
+        <character name="count" value="34" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>nov</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <habitat>pine-oak-juniper woodlands</habitat>
+  <habitat>montane coniferous forests</habitat>
+  <habitat>subalpine</habitat>
+  <elevation>1200–3600 m;</elevation>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>Utah.</us_distribution>
+  <discussion>Variety arizonicum is widely distributed across the uplands of the American Southwest from eastern California across the Basin and Range Province to the Colorado Plateau and the mountains of Arizona and New Mexico. It is the most widely distributed and most variable variety of Cirsium arizonicum. Viciously spiny plants with deeply divided leaves from the northern part of the range of var. arizonicum often have been treated as C. nidulum. These plants form a continuum with the less spiny plants of more southerly distribution, however, and separation of two varieties (or species) is arbitrary.</discussion>
+  <discussion>Leaves of some plants of var. arizonicum from Coconino County, Arizona, resemble those of the sympatric C. wheeleri. I have not seen hybrids between these taxa, but it is likely that some genetic interchange between the two has taken place in the past.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

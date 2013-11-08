@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>3.</number>
+  <species_name>Saussurea angustifolia</species_name>
+  <authority>(Linnaeus) de Candolle</authority>
+  <place_of_publication>Ann. Mus. Natl. Hist. Nat. 16: 200. 1810</place_of_publication>
+  <common_name>Narrow-leaved saw-wort, common saussurea</common_name>
+  <synonym_of_species_name>Serratula alpina Linnaeus var. angustifolia Linnaeus, Sp. Pl. 2: 817. 1753; S. angustifolia (Linnaeus) Willdenow</synonym_of_species_name>
+  <description>
+    <statement id="175.txt-0">
+      <text>Plants 3–50 cm;</text>
+      <structure id="o2198" name="whole_organism">
+        <character char_type="range_value" name="size" from="3" from_unit="cm" to="50" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="175.txt-1">
+      <text>herbage loosely tomentose when young, ± glabrescent.</text>
+      <structure id="o2199" name="herbage">
+        <character name="pubescence" value="tomentose" modifier="loosely" />
+        <character name="age" value="young" modifier="tomentose" />
+        <character name="pubescence" value="glabrescent" modifier="±; tomentose" />
+      </structure>
+    </statement>
+    <statement id="175.txt-2">
+      <text>Stems arising from slender rhizomes, usually simple or few, ascending.</text>
+      <structure id="o2200" name="stem">
+        <character name="orientation" value="arising" constraint="from rhizomes" constraintid="o2201" />
+        <character name="architecture" value="simple" modifier="usually" />
+        <character name="count" value="few" />
+        <character name="orientation" value="ascending" />
+      </structure>
+      <structure id="o2201" name="rhizome">
+        <character name="size" value="slender" />
+      </structure>
+    </statement>
+    <statement id="175.txt-3">
+      <text>Leaves basal and cauline, smaller distally, sessile, blades linear to narrowly elliptic, 3–12(–25) cm, bases acute, margins entire or remotely dentate, apices acute.</text>
+      <structure id="o2202" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="size" value="smaller" modifier="distally" />
+        <character name="architecture" value="sessile" />
+      </structure>
+      <structure id="o2203" name="blade">
+        <character name="arrangement_or_shape" value="linear" />
+        <character name="arrangement_or_shape" value="elliptic" modifier="narrowly" />
+        <character char_type="range_value" name="atypical_size" from="12" to="25" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="3" from_unit="cm" to="12" to_unit="cm" />
+      </structure>
+      <structure id="o2204" name="base">
+        <character name="shape" value="acute" />
+      </structure>
+      <structure id="o2205" name="margin">
+        <character name="shape" value="entire" />
+        <character name="shape" value="dentate" modifier="remotely" />
+      </structure>
+      <structure id="o2206" name="apex">
+        <character name="shape" value="acute" />
+      </structure>
+    </statement>
+    <statement id="175.txt-4">
+      <text>Heads 2–10+ in open or crowded corymbiform arrays; (peduncles 1–5 cm).</text>
+      <structure id="o2207" name="head">
+        <character char_type="range_value" name="count" from="2" to="10" upper_restricted="false" constraint="in arrays" constraintid="o2208" />
+      </structure>
+      <structure id="o2208" name="array">
+        <character name="architecture" value="open" />
+      </structure>
+    </statement>
+    <statement id="175.txt-5">
+      <text>Involucres 9–14 mm.</text>
+      <structure id="o2209" name="involucre">
+        <character char_type="range_value" name="size" from="9" from_unit="mm" to="14" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="175.txt-6">
+      <text>Phyllaries strongly unequal, the outer ± ovate, inner lanceolate, abaxial faces dark green, usually also tinged dark purplish, pilose or loosely tomentose;</text>
+      <structure id="o2210" name="phyllary">
+        <character name="size" value="unequal" modifier="strongly" />
+        <character name="position" value="outer" modifier="±" />
+        <character name="shape" value="ovate" />
+        <character name="position" value="inner" />
+        <character name="shape" value="lanceolate" />
+      </structure>
+      <structure id="o2211" name="face" constraint="abaxial">
+        <character name="coloration" value="green" modifier="dark" />
+        <character name="coloration" value="purplish" modifier="tinged-dark" />
+        <character name="pubescence" value="pilose" />
+        <character name="pubescence" value="tomentose" modifier="loosely" />
+      </structure>
+    </statement>
+    <statement id="175.txt-7">
+      <text>tips of outer and mid phyllaries acute.</text>
+      <structure id="o2212" name="tip">
+        <character name="shape" value="acute" />
+      </structure>
+      <structure id="o2213" name="phyllary" constraint="outer and mid" />
+      <relation id="r327" name="part_of" from="o2212" to="o2213" negation="false" />
+    </statement>
+    <statement id="175.txt-8">
+      <text>Receptacles scaly.</text>
+      <structure id="o2214" name="receptacle">
+        <character name="pubescence_or_architecture" value="scaly" />
+      </structure>
+    </statement>
+    <statement id="175.txt-9">
+      <text>Florets 8–22;</text>
+      <structure id="o2215" name="floret">
+        <character char_type="range_value" name="count" from="8" to="22" />
+      </structure>
+    </statement>
+    <statement id="175.txt-10">
+      <text>corollas purple, 11–15 m, tubes 6–7.5 mm, throats 2–2.5 mm, lobes 3–5.</text>
+      <structure id="o2216" name="corolla">
+        <character name="coloration" value="purple" />
+        <character char_type="range_value" name="size" from="11" from_unit="m" to="15" to_unit="m" />
+      </structure>
+      <structure id="o2217" name="tube">
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="7.5" to_unit="mm" />
+      </structure>
+      <structure id="o2218" name="throat">
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="2.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="175.txt-11">
+      <text>mm;</text>
+      <structure id="o2219" name="lobe">
+        <character char_type="range_value" name="count" from="3" to="5" />
+      </structure>
+    </statement>
+    <statement id="175.txt-12">
+      <text>anthers darker purple.</text>
+      <structure id="o2220" name="anther">
+        <character name="coloration" value="purple" modifier="darker" />
+      </structure>
+    </statement>
+    <statement id="175.txt-13">
+      <text>Cypselae 3–4 mm;</text>
+      <structure id="o2221" name="cypsela">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="175.txt-14">
+      <text>pappus bristles brownish, outer 1–2 mm, the inner 9–10 mm.</text>
+      <structure id="o2222" name="bristle" constraint="pappus">
+        <character name="coloration" value="brownish" />
+        <character name="position" value="outer" />
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="2" to_unit="mm" />
+        <character name="position" value="inner" />
+        <character char_type="range_value" name="size" from="9" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Varieties 3 (3 in the flora):</number_of_infrataxa>
+  <general_distribution>nw Canada</general_distribution>
+  <general_distribution>Alaska</general_distribution>
+  <general_distribution>Russian Far East (Chukotka).</general_distribution>
+  <discussion>Extreme forms of the varieties of Saussurea angustifolia are distinctive, ranging from slender, erect, subglabrous specimens of var. angustifolia to dwarf, densely pubescent forms of vars. viscida and yukonensis. The extremes are connected by intermediates. As is indicated by the synonymy, little unanimity exists in the interpretation of these taxa. I have chosen to follow S. L. Welsh (1974) in treating S. densa as a variety of S. angustifolia rather than as a distinct species. The extent to which the differences among these taxa are genetic or environmentally induced has not been investigated.</discussion>
+  <couplet />
+  <couplet>1.Outer phyllaries usually 1.5–2 times longer than wide; stems 10–40(–50) cm; leaves mostly 2–8 mm wide3a. Saussurea angustifolia var. angustifolia</couplet>
+  <couplet>1.Outer phyllaries usually 2–4 times longer than wide; stems usually 3–15 cm; leaves often wider than 8 mm.</couplet>
+  <couplet>2.Leaves tomentose throughout or villous and viscid-glandular on margins and abaxially on midvein; plants mostly 5–15 cm; mostly coastal and insular Alaska3b. Saussurea angustifolia var. viscida</couplet>
+  <couplet>2.Leaves ± arachnoid-tomentose, not or scarcely glandular-viscid, bases usually white tomentose; plants mostly 3–14 cm; interior Alaska and Yukon3c. Saussurea angustifolia var. yukonensis</couplet>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

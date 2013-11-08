@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>77.</number>
+  <genus_name>CHAETADELPHA</genus_name>
+  <authority>A. Gray ex S. Watson</authority>
+  <place_of_publication>Amer. Naturalist 7: 301. 1873</place_of_publication>
+  <common_name />
+  <derivation>Greek chaite , long hair, bristles, and adelphe , sister, alluding to adnation of awns and bristles of pappi</derivation>
+  <author_of_tribe_genus>L. D. Gottlieb</author_of_tribe_genus>
+  <description>
+    <statement id="587.txt-0">
+      <text>Perennials, 15–40 cm;</text>
+      <structure id="o12152" name="whole_organism">
+        <character char_type="range_value" name="size" from="15" from_unit="cm" to="40" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="587.txt-1">
+      <text>rhizomes stout, branching.</text>
+      <structure id="o12153" name="rhizome">
+        <character name="fragility" value="stout" />
+        <character name="architecture" value="branching" />
+      </structure>
+    </statement>
+    <statement id="587.txt-2">
+      <text>Stems 2–4, ascending to suberect, freely branched, glabrous.</text>
+      <structure id="o12154" name="stem">
+        <character char_type="range_value" name="count" from="2" to="4" />
+        <character char_type="range_value" name="orientation" from="ascending" to="suberect" />
+        <character name="orientation" value="ascending" />
+        <character name="orientation" value="suberect" />
+        <character name="architecture_or_shape" value="branched" modifier="freely" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="587.txt-3">
+      <text>Leaves basal and cauline (basal withered at flowering);</text>
+    </statement>
+    <statement id="587.txt-4">
+      <text>sessile;</text>
+      <structure id="o12155" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="architecture" value="sessile" />
+      </structure>
+    </statement>
+    <statement id="587.txt-5">
+      <text>blades linear to linear-lanceolate, margins entire;</text>
+      <structure id="o12156" name="blade">
+        <character char_type="range_value" name="shape" from="linear" to="linear-lanceolate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="linear-lanceolate" />
+      </structure>
+      <structure id="o12157" name="margin">
+        <character name="shape" value="entire" />
+      </structure>
+    </statement>
+    <statement id="587.txt-6">
+      <text>distal reduced to scales.</text>
+      <structure id="o12158" name="leaf" constraint="distal">
+        <character name="size" value="reduced" />
+      </structure>
+      <structure id="o12159" name="scale" />
+    </statement>
+    <statement id="587.txt-7">
+      <text>Heads borne singly (terminal at ends of stems and branches).</text>
+      <structure id="o12160" name="head">
+        <character name="arrangement" value="singly" />
+      </structure>
+    </statement>
+    <statement id="587.txt-8">
+      <text>Peduncles not inflated, not bracteate.</text>
+      <structure id="o12161" name="peduncle">
+        <character name="shape" value="inflated" modifier="not" />
+        <character name="architecture" value="bracteate" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="587.txt-9">
+      <text>Calyculi of 4–5, minute bractlets.</text>
+      <structure id="o12162" name="calyculus" />
+      <structure id="o12163" name="bractlet">
+        <character char_type="range_value" name="count" from="4" to="5" />
+        <character name="size" value="minute" />
+      </structure>
+      <relation id="r1412" name="consist_of" from="o12162" to="o12163" negation="false" />
+    </statement>
+    <statement id="587.txt-10">
+      <text>Involucres cylindric, 3–4 mm diam.</text>
+      <structure id="o12164" name="involucre">
+        <character name="shape" value="cylindric" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="587.txt-11">
+      <text>Phyllaries 5 in 1 series, linear, equal, margins hyaline, apices acute.</text>
+      <structure id="o12165" name="phyllary">
+        <character name="count" value="5" constraint="in series" constraintid="o12166" />
+        <character name="arrangement_or_shape" value="linear" />
+        <character name="size" value="equal" />
+      </structure>
+      <structure id="o12166" name="series">
+        <character name="count" value="1" />
+      </structure>
+      <structure id="o12167" name="margin">
+        <character name="coloration" value="hyaline" />
+      </structure>
+      <structure id="o12168" name="apex">
+        <character name="shape" value="acute" />
+      </structure>
+    </statement>
+    <statement id="587.txt-12">
+      <text>Receptacles flat, glabrous, epaleate.</text>
+      <structure id="o12169" name="receptacle">
+        <character name="shape" value="flat" />
+        <character name="pubescence" value="glabrous" />
+        <character name="architecture" value="epaleate" />
+      </structure>
+    </statement>
+    <statement id="587.txt-13">
+      <text>Florets 5;</text>
+      <structure id="o12170" name="floret">
+        <character name="count" value="5" />
+      </structure>
+    </statement>
+    <statement id="587.txt-14">
+      <text>corollas pale lavender to white.</text>
+      <structure id="o12171" name="corolla">
+        <character char_type="range_value" name="coloration" from="pale-lavender" to="white" />
+        <character name="coloration" value="lavender" modifier="pale" />
+        <character name="coloration" value="white" />
+      </structure>
+    </statement>
+    <statement id="587.txt-15">
+      <text>Cypselae light tan, columnar, 5 ridge-angled, faces smooth, without grooves or striations, glabrous;</text>
+      <structure id="o12172" name="cypsela">
+        <character name="coloration" value="tan" modifier="light" />
+        <character name="shape" value="columnar" />
+        <character name="count" value="5" />
+        <character name="shape" value="ridge-angled" />
+      </structure>
+      <structure id="o12173" name="face">
+        <character name="architecture_or_relief" value="smooth" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+      <structure id="o12174" name="groove" />
+      <structure id="o12175" name="striation" />
+      <relation id="r1413" name="without" from="o12173" to="o12174" negation="false" />
+      <relation id="r1414" name="without" from="o12173" to="o12175" negation="false" />
+    </statement>
+    <statement id="587.txt-16">
+      <text>pappi persistent (borne on minute, raised pedestals 0.1 mm), of 5, barbellate awns plus 35–50+, barbellulate bristles in 1–2 series, all ± connate basally (bristles ± in groups alternating with the awns).</text>
+      <structure id="o12176" name="pappus">
+        <character name="duration" value="persistent" />
+      </structure>
+      <structure id="o12177" name="awn">
+        <character name="count" value="5" />
+        <character name="architecture" value="barbellate" />
+        <character char_type="range_value" name="count" from="35" to="50" upper_restricted="false" />
+      </structure>
+      <relation id="r1415" name="consist_of" from="o12176" to="o12177" negation="false" />
+      <structure id="o12178" name="bristle">
+        <character name="architecture" value="barbellulate" />
+        <character name="fusion" value="connate" modifier="± ; basally" />
+      </structure>
+      <structure id="o12179" name="series">
+        <character char_type="range_value" name="count" from="1" to="2" />
+      </structure>
+      <relation id="r1416" name="in" from="o12178" to="o12179" negation="false" />
+    </statement>
+    <statement id="587.txt-17">
+      <text>x = 9.</text>
+      <structure id="o12180" name="chromosome">
+        <character name="count" value="9" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species 1:</number_of_infrataxa>
+  <general_distribution>sw United States.</general_distribution>
+  <references>SELECTED REFERENCE Tomb, A. S. 1972. Taxonomy of Chaetadelpha (Compositae: Cichorieae). Madroño 21: 459–462.</references>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

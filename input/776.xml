@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>104.</number>
+  <genus_name>ANCISTROCARPHUS</genus_name>
+  <authority>Ancistrocarphus A. Gray</authority>
+  <place_of_publication>Proc. Amer. Acad. Arts 7: 355. 1868</place_of_publication>
+  <common_name>Groundstar</common_name>
+  <derivation>Greek ankistros , fishhook, and karphos , chaff, alluding to staminate paleae of type species</derivation>
+  <author_of_tribe_genus>James D. Morefield</author_of_tribe_genus>
+  <synonym_of_genus_name>Stylocline Nuttall sect. Ancistrocarphus (A. Gray) A. Gray</synonym_of_genus_name>
+  <description>
+    <statement id="776.txt-0">
+      <text>Annuals, 0.5–14 cm.</text>
+      <structure id="o16298" name="whole_organism">
+        <character char_type="range_value" name="size" from="0.5" from_unit="cm" to="14" to_unit="cm" />
+        <character name="life_style" value="annual" />
+      </structure>
+    </statement>
+    <statement id="776.txt-1">
+      <text>Stems 0 ( A. keilii ) or, usually, 2–10 and ascending to prostrate, sometimes 1 and ± erect.</text>
+      <structure id="o16299" name="stem">
+        <character name="count" value="0" />
+        <character name="count" value="0" />
+        <character char_type="range_value" name="count" from="2" to="10" />
+        <character char_type="range_value" name="orientation" from="ascending" to="prostrate" />
+        <character name="orientation" value="ascending" />
+        <character name="orientation" value="prostrate" />
+        <character name="count" value="1" modifier="sometimes" />
+        <character name="orientation" value="erect" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="776.txt-2">
+      <text>Leaves basal or basal and cauline;</text>
+    </statement>
+    <statement id="776.txt-3">
+      <text>alternate;</text>
+      <structure id="o16300" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="arrangement" value="alternate" />
+      </structure>
+    </statement>
+    <statement id="776.txt-4">
+      <text>blades oblanceolate to obovate.</text>
+      <structure id="o16301" name="blade">
+        <character char_type="range_value" name="shape" from="oblanceolate" to="obovate" />
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="obovate" />
+      </structure>
+    </statement>
+    <statement id="776.txt-5">
+      <text>Heads borne singly or in glomerules of 2–5 in ± cymiform arrays.</text>
+      <structure id="o16302" name="head">
+        <character name="arrangement" value="singly" />
+        <character name="arrangement" value="in glomerules" />
+      </structure>
+      <structure id="o16303" name="glomerule" />
+      <relation id="r1747" name="in" from="o16302" to="o16303" negation="false" />
+      <structure id="o16304" name="array">
+        <character char_type="range_value" name="count" from="2" to="5" />
+        <character name="architecture" value="cymiform" modifier="±" />
+      </structure>
+      <relation id="r1748" name="consist_of" from="o16303" to="o16304" negation="false" />
+    </statement>
+    <statement id="776.txt-6">
+      <text>Involucres 0 or inconspicuous.</text>
+      <structure id="o16305" name="involucre">
+        <character name="count" value="0" />
+        <character name="manifestation" value="inconspicuous" />
+      </structure>
+    </statement>
+    <statement id="776.txt-7">
+      <text>Phyllaries 0, vestigial, or 3–6, ± equal (unlike paleae, hyaline).</text>
+      <structure id="o16306" name="phyllary">
+        <character name="count" value="0" />
+        <character name="manifestation" value="vestigial" />
+        <character char_type="range_value" name="count" from="3" to="6" />
+        <character name="size" value="equal" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="776.txt-8">
+      <text>Receptacles distally expanded,± fungiform or hourglass-shaped (heights 1–2 times diams.), glabrous.</text>
+      <structure id="o16307" name="receptacle">
+        <character name="size" value="expanded" modifier="distally" />
+        <character name="shape" value="fungiform" modifier="±" />
+        <character name="shape" value="hourglass-shaped" modifier="±" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="776.txt-9">
+      <text>Pistillate paleae tardily falling or ± persistent, erect to ascending;</text>
+      <structure id="o16308" name="palea" constraint="pistillate">
+        <character name="orientation" value="falling" modifier="tardily" />
+        <character name="duration" value="persistent" modifier="±" />
+        <character char_type="range_value" name="orientation" from="erect" to="ascending" />
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="ascending" />
+      </structure>
+    </statement>
+    <statement id="776.txt-10">
+      <text>bodies with 3 nerves (nerves ± parallel, prominent, or midnerves sometimes thinning with age, obscure), ± boat-shaped to ovoid, saccate most of lengths (obcompressed, not galeate, each enclosing a floret);</text>
+      <structure id="o16309" name="body">
+        <character name="shape" value="boat-shaped" modifier="±" />
+        <character name="shape" value="ovoid" />
+        <character name="architecture_or_shape" value="saccate" constraint="of lengths" constraintid="o16311" />
+      </structure>
+      <structure id="o16310" name="nerve">
+        <character name="count" value="3" />
+      </structure>
+      <relation id="r1749" name="with" from="o16309" to="o16310" negation="false" />
+      <structure id="o16311" name="length" />
+    </statement>
+    <statement id="776.txt-11">
+      <text>wings erect or incurved (apical).</text>
+      <structure id="o16312" name="wing">
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="incurved" />
+      </structure>
+    </statement>
+    <statement id="776.txt-12">
+      <text>Staminate paleae persistent, 5(–7), ± spreading proximally (and enlarged) in fruit, shorter than or surpassing pistillate paleae;</text>
+      <structure id="o16313" name="palea" constraint="staminate">
+        <character name="duration" value="persistent" />
+        <character char_type="range_value" name="atypical_count" from="5" to="7" from_inclusive="false" />
+        <character name="count" value="5" />
+        <character name="orientation" value="spreading" modifier="± ; proximally" constraint="in fruit" constraintid="o16314" />
+        <character name="size" value="shorter" constraint="than or surpassing pistillate paleae" constraintid="o16315" />
+      </structure>
+      <structure id="o16314" name="fruit" />
+      <structure id="o16315" name="palea" constraint="pistillate">
+        <character name="comparison" value="surpassing" />
+      </structure>
+    </statement>
+    <statement id="776.txt-13">
+      <text>bodies lanceolate or spatulate (apices incurved to uncinate).</text>
+      <structure id="o16316" name="body">
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="spatulate" />
+      </structure>
+    </statement>
+    <statement id="776.txt-14">
+      <text>Pistillate florets 5–11.</text>
+      <structure id="o16317" name="floret" constraint="pistillate">
+        <character char_type="range_value" name="count" from="5" to="11" />
+      </structure>
+    </statement>
+    <statement id="776.txt-15">
+      <text>Functionally staminate florets 3–6;</text>
+      <structure id="o16318" name="floret" constraint="functionally staminate">
+        <character char_type="range_value" name="count" from="3" to="6" />
+      </structure>
+    </statement>
+    <statement id="776.txt-16">
+      <text>corolla (zygomorphic, ± gibbous in A. keilii ) lobes 4–5(–6), equal or unequal.</text>
+      <structure id="o16319" name="lobe" constraint="corolla">
+        <character char_type="range_value" name="atypical_count" from="5" to="6" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="4" to="5" />
+        <character name="size" value="equal" />
+        <character name="size" value="unequal" />
+      </structure>
+    </statement>
+    <statement id="776.txt-17">
+      <text>Bisexual florets 0.</text>
+      <structure id="o16320" name="floret" constraint="bisexual">
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+    <statement id="776.txt-18">
+      <text>Cypselae uniformly brown or proximally black-banded, monomorphic:</text>
+    </statement>
+    <statement id="776.txt-19">
+      <text>obcompressed, obovoid, slightly incurved, not gibbous, faces glabrous, smooth, dull;</text>
+      <structure id="o16321" name="cypsela">
+        <character name="coloration" value="brown" modifier="uniformly" />
+        <character name="coloration" value="banded" modifier="proximally ;black" />
+        <character name="habit" value="monomorphic" />
+        <character name="shape" value="obcompressed" />
+        <character name="shape" value="obovoid" />
+        <character name="orientation" value="incurved" modifier="slightly" />
+        <character name="shape" value="gibbous" modifier="not" />
+      </structure>
+      <structure id="o16322" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="architecture_or_relief" value="smooth" />
+        <character name="reflectance_or_coloration" value="dull" />
+      </structure>
+    </statement>
+    <statement id="776.txt-20">
+      <text>corolla scars apical;</text>
+      <structure id="o16323" name="scar" constraint="corolla">
+        <character name="insertion_or_position" value="apical" />
+      </structure>
+    </statement>
+    <statement id="776.txt-21">
+      <text>pappi 0.</text>
+      <structure id="o16324" name="pappus">
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species 2 (2 in the flora):</number_of_infrataxa>
+  <general_distribution>sw United States</general_distribution>
+  <general_distribution>nw Mexico.</general_distribution>
+  <discussion>See discussion of Filagininae following the tribal description (p. 385).</discussion>
+  <discussion>Ancistrocarphus is found in temperate Mediterranean to semiarid climates. It consistently resolved as the sister of Hesperevax in phylogenies based on morphology (J. D. Morefield 1992). Ancistrocarphus is not closely related to Stylocline, where it has been placed based on sharing saccate, winged pistillate paleae. The pistillate paleae of Ancistrocarphus differ from those of Stylocline and all other Filagininae in having two prominent lateral nerves in addition to the (sometimes obscure) medial one.</discussion>
+  <discussion>Addition of Ancistrocarphus keilii made the genus more heterogeneous and somewhat bridged the gap with Hesperevax. That species may be derived from a common ancestor of, or a hybrid between, the two genera. It shares most of its character states with A. filagineus; the two species consistently resolved as sister taxa in all phylogenetic analyses (J. D. Morefield 1992).</discussion>
+  <references>SELECTED REFERENCE Morefield, J. D. 1992. Evolution and Systematics of Stylocline (Asteraceae: Inuleae). Ph.D. dissertation. Claremont Graduate School.</references>
+  <key>1.Stems (1–)2–10; leaves basal and cauline; staminate paleae 2.7–4.1 mm, surpassing pistillate, broadly lanceolate, apices uncinate, acuminate, spinose; cypselae 1.4–2 × 0.6–0.9 mm, transverse bands 1; pistillate paleae: wings prominent, ovate1. Ancistrocarphus filagineus</key>
+  <key>1.Stems 0; leaves basal; staminate paleae 1.8–2.8 mm, slightly surpassed by pistillate, broadly spatulate, apices incurved, obtuse to rounded, apiculate, not spinose; cypselae 1–1.4 × 0.5– 0.6 mm, transverse bands 0; pistillate paleae: wings obscure, lanceolate2. Ancistrocarphus keilii</key>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

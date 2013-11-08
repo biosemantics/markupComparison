@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>4.</number>
+  <species_name>Crepis barbigera</species_name>
+  <authority>Leiberg ex Coville</authority>
+  <place_of_publication>Contr. U.S. Natl. Herb. 3: 565, plate 26. 1896</place_of_publication>
+  <description>
+    <statement id="281.txt-0">
+      <text>Perennials, 20–80 cm (taproots slender, caudices swollen).</text>
+      <structure id="o4958" name="whole_organism">
+        <character char_type="range_value" name="size" from="20" from_unit="cm" to="80" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="281.txt-1">
+      <text>Stems 1–3(–5), erect, branched (branches strict with relatively few secondary branches), sparsely to densely tomentulose.</text>
+      <structure id="o4959" name="stem">
+        <character char_type="range_value" name="atypical_count" from="3" to="5" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="1" to="3" />
+        <character name="orientation" value="erect" />
+        <character name="architecture_or_shape" value="branched" />
+        <character name="pubescence" value="tomentulose" modifier="sparsely densely" />
+      </structure>
+    </statement>
+    <statement id="281.txt-2">
+      <text>Leaves basal and cauline;</text>
+    </statement>
+    <statement id="281.txt-3">
+      <text>petiolate (petiole bases broadened, clasping);</text>
+      <structure id="o4960" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="architecture" value="petiolate" />
+      </structure>
+    </statement>
+    <statement id="281.txt-4">
+      <text>blades elliptic-lanceolate, 10–40 × 2–7 cm, margins deeply pinnately lobed (lobes mostly lanceolate or falcate, usually entire, rarely with 1–2 teeth), apices attentuate, faces tomentose or glabrate, sometimes setose.</text>
+      <structure id="o4961" name="blade">
+        <character name="shape" value="elliptic-lanceolate" />
+        <character char_type="range_value" name="length" from="10" from_unit="cm" to="40" to_unit="cm" />
+        <character char_type="range_value" name="width" from="2" from_unit="cm" to="7" to_unit="cm" />
+      </structure>
+      <structure id="o4962" name="margin">
+        <character name="shape" value="lobed" modifier="deeply pinnately" />
+      </structure>
+      <structure id="o4963" name="apex">
+        <character name="shape" value="attentuate" />
+      </structure>
+      <structure id="o4964" name="face">
+        <character name="pubescence" value="tomentose" />
+        <character name="pubescence" value="glabrate" />
+        <character name="pubescence" value="setose" modifier="sometimes" />
+      </structure>
+    </statement>
+    <statement id="281.txt-5">
+      <text>Heads 15–20+, in congested, corymbiform arrays.</text>
+      <structure id="o4965" name="head">
+        <character char_type="range_value" name="count" from="15" to="20" upper_restricted="false" />
+      </structure>
+      <structure id="o4966" name="array">
+        <character name="architecture" value="congested" />
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <relation id="r672" name="in" from="o4965" to="o4966" negation="false" />
+    </statement>
+    <statement id="281.txt-6">
+      <text>Calyculi of 5–7, lanceolate, green-setose bractlets 2–5 mm.</text>
+      <structure id="o4967" name="calyculus" />
+      <structure id="o4968" name="bractlet">
+        <character char_type="range_value" name="count" from="5" to="7" />
+        <character name="shape" value="lanceolate" />
+        <character name="pubescence" value="green-setose" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+      <relation id="r673" name="consist_of" from="o4967" to="o4968" negation="false" />
+    </statement>
+    <statement id="281.txt-7">
+      <text>Involucres cylindric, 9–17 × 4–7 mm.</text>
+      <structure id="o4969" name="involucre">
+        <character name="shape" value="cylindric" />
+        <character char_type="range_value" name="length" from="9" from_unit="mm" to="17" to_unit="mm" />
+        <character char_type="range_value" name="width" from="4" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="281.txt-8">
+      <text>Phyllaries 6–10, lanceolate, 12–15 mm (margins yellowish, scarious), apices acute, abaxial faces tomentulose and coarsely green-setose, adaxial glabrous or with fine hairs.</text>
+      <structure id="o4970" name="phyllary">
+        <character char_type="range_value" name="count" from="6" to="10" />
+        <character name="shape" value="lanceolate" />
+        <character char_type="range_value" name="size" from="12" from_unit="mm" to="15" to_unit="mm" />
+      </structure>
+      <structure id="o4971" name="apex">
+        <character name="shape" value="acute" />
+      </structure>
+      <structure id="o4972" name="face" constraint="abaxial">
+        <character name="pubescence" value="tomentulose" />
+        <character name="pubescence" value="green-setose" modifier="coarsely" />
+        <character name="insertion_or_position" value="adaxial" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="with fine hairs" />
+      </structure>
+      <structure id="o4973" name="hair">
+        <character name="texture" value="fine" />
+      </structure>
+      <relation id="r674" name="with" from="o4972" to="o4973" negation="false" />
+    </statement>
+    <statement id="281.txt-9">
+      <text>Florets 8–25;</text>
+      <structure id="o4974" name="floret">
+        <character char_type="range_value" name="count" from="8" to="25" />
+      </structure>
+    </statement>
+    <statement id="281.txt-10">
+      <text>corollas yellow, 18–20 mm.</text>
+      <structure id="o4975" name="corolla">
+        <character name="coloration" value="yellow" />
+        <character char_type="range_value" name="size" from="18" from_unit="mm" to="20" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="281.txt-11">
+      <text>Cypselae dark brown to olive, subcylindric, 8–9 mm, apices tapered, ribs 10–12 (strong);</text>
+      <structure id="o4976" name="cypsela">
+        <character char_type="range_value" name="coloration" from="dark-brown" to="olive" />
+        <character name="coloration" value="brown" modifier="dark" />
+        <character name="coloration" value="olive" />
+        <character name="shape" value="subcylindric" />
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="9" to_unit="mm" />
+      </structure>
+      <structure id="o4977" name="apex">
+        <character name="shape" value="tapered" />
+      </structure>
+      <structure id="o4978" name="rib">
+        <character char_type="range_value" name="count" from="10" to="12" />
+      </structure>
+    </statement>
+    <statement id="281.txt-12">
+      <text>pappi whitish or yellowish white, 6–9 mm.</text>
+      <structure id="o4979" name="pappus">
+        <character name="coloration" value="whitish" />
+        <character name="coloration" value="white" modifier="yellowish" />
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="9" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="281.txt-13">
+      <text>2 n = 44, 55, 88.</text>
+      <structure id="o4980" name="chromosome">
+        <character name="count" value="44" />
+        <character name="count" value="55" />
+        <character name="count" value="88" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>may</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <habitat>open rocky places</habitat>
+  <habitat>sandy slopes</habitat>
+  <habitat>dry pine-oak woods</habitat>
+  <habitat>sagebrush slopes</habitat>
+  <habitat>foothills and plains</habitat>
+  <elevation>100–2000 m;</elevation>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <discussion>Crepis barbigera is recognized by its relatively tall stature, deeply pinnately lobed leaves, tomentulose stems, and phyllaries with coarse, green, eglandular setae. It is a complex of polyploid, apomictic forms, combining characteristics of C. atribarba, C. acuminata, and C. modocensis, from which the species is presumed to have been derived by intercrossing (E. B. Babcock 1947).</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

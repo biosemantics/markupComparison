@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>52.</number>
+  <species_name>Cirsium ownbeyi</species_name>
+  <authority>S. L. Welsh</authority>
+  <place_of_publication>Great Basin Naturalist 42: 200. 1982</place_of_publication>
+  <common_name>Ownbey’s thistle</common_name>
+  <description>
+    <statement id="148.txt-0">
+      <text>Perennials , 30–70 cm;</text>
+      <structure id="o1261" name="whole_organism">
+        <character char_type="range_value" name="size" from="30" from_unit="cm" to="70" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="148.txt-1">
+      <text>taproots and branched caudices with persistent dark-brown leaf bases.</text>
+      <structure id="o1262" name="taproot" />
+      <structure id="o1263" name="caudex" constraint="branched" />
+      <structure id="o1264" name="base" constraint="leaf">
+        <character name="duration" value="persistent" />
+        <character name="coloration" value="brown" modifier="dark" />
+      </structure>
+      <relation id="r210" name="with" from="o1262" to="o1264" negation="false" />
+      <relation id="r211" name="with" from="o1263" to="o1264" negation="false" />
+    </statement>
+    <statement id="148.txt-3">
+      <text>Leaves:</text>
+      <structure id="o1265" name="leaf" />
+    </statement>
+    <statement id="148.txt-5">
+      <text>basal present at flowering, narrowly spiny winged-petiolate;</text>
+      <structure id="o1266" name="leaf" constraint="basal">
+        <character name="presence" value="present" modifier="at flowering" />
+        <character name="architecture_or_shape" value="spiny" modifier="narrowly" />
+        <character name="architecture" value="winged-petiolate" />
+      </structure>
+    </statement>
+    <statement id="148.txt-6">
+      <text>principal cauline well distributed, proximal winged-petiolate, mid and distal sessile, gradually reduced, bases decurrent as spiny wings 1–3 cm;</text>
+      <structure id="o1267" name="leaf" constraint="principal cauline">
+        <character name="arrangement" value="distributed" modifier="well" />
+      </structure>
+      <structure id="o1268" name="leaf" constraint="proximal">
+        <character name="architecture" value="winged-petiolate" />
+        <character name="position" value="mid" />
+        <character name="size" value="reduced" modifier="gradually" />
+      </structure>
+      <structure id="o1269" name="leaf" constraint="distal">
+        <character name="architecture" value="sessile" />
+      </structure>
+      <structure id="o1270" name="base">
+        <character name="shape" value="decurrent" constraint="as wings" constraintid="o1271" />
+      </structure>
+      <structure id="o1271" name="wing">
+        <character name="architecture_or_shape" value="spiny" />
+        <character char_type="range_value" name="size" from="1" from_unit="cm" to="3" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="148.txt-7">
+      <text>distalmost reduced to spiny-pectinate bracts.</text>
+      <structure id="o1272" name="leaf" constraint="distalmost">
+        <character name="size" value="reduced" />
+        <character name="shape" value="spiny-pectinate" />
+      </structure>
+      <structure id="o1273" name="bract" />
+    </statement>
+    <statement id="148.txt-8">
+      <text>Heads 1–few, erect, ± crowded in corymbiform arrays.</text>
+      <structure id="o1274" name="head">
+        <character char_type="range_value" name="count" from="1" to="few" />
+        <character name="orientation" value="erect" />
+        <character name="architecture" value="crowded" modifier="±" constraint="in arrays" constraintid="o1275" />
+      </structure>
+      <structure id="o1275" name="array">
+        <character name="architecture" value="corymbiform" />
+      </structure>
+    </statement>
+    <statement id="148.txt-9">
+      <text>Peduncles 0–4 cm.</text>
+      <structure id="o1276" name="peduncle">
+        <character char_type="range_value" name="size" from="0" from_unit="cm" to="4" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="148.txt-10">
+      <text>Involucres ovoid, 1.8–2.5 cm, 1.5–2.5 cm diam., loosely arachnoid, glabrate.</text>
+      <structure id="o1277" name="involucre">
+        <character name="shape" value="ovoid" />
+        <character char_type="range_value" name="size" from="1.8" from_unit="cm" to="2.5" to_unit="cm" />
+        <character char_type="range_value" name="size" from="1.5" from_unit="cm" to="2.5" to_unit="cm" />
+        <character name="pubescence" value="arachnoid" modifier="loosely" />
+        <character name="pubescence" value="glabrate" />
+      </structure>
+    </statement>
+    <statement id="148.txt-11">
+      <text>Phyllaries in 5–6 series, imbricate, green, linear-lanceolate, abaxial faces without or with poorly developed glutinous ridge;</text>
+      <structure id="o1278" name="phyllary">
+        <character name="aestivation_or_arrangement" value="imbricate" />
+        <character name="coloration" value="green" />
+        <character name="shape" value="linear-lanceolate" />
+      </structure>
+      <structure id="o1279" name="series">
+        <character char_type="range_value" name="count" from="5" to="6" />
+      </structure>
+      <relation id="r212" name="in" from="o1278" to="o1279" negation="false" />
+      <structure id="o1280" name="face" constraint="abaxial" />
+      <structure id="o1281" name="ridge">
+        <character name="development" value="developed" modifier="poorly" />
+        <character name="coating_or_texture" value="glutinous" />
+      </structure>
+      <relation id="r213" name="without or with" from="o1280" to="o1281" negation="false" />
+    </statement>
+    <statement id="148.txt-12">
+      <text>outer and mid bases appressed, apices stiffly radiating to ascending, long, very narrow, entire, spines slender, 3–10 mm;</text>
+      <structure id="o1282" name="base" constraint="outer and mid">
+        <character name="orientation" value="appressed" />
+      </structure>
+      <structure id="o1283" name="apex">
+        <character char_type="range_value" name="orientation" from="stiffly radiating" to="ascending" />
+        <character name="orientation" value="radiating" modifier="stiffly" />
+        <character name="orientation" value="ascending" modifier="stiffly" />
+        <character name="size" value="narrow" modifier="very" />
+        <character name="shape" value="entire" />
+      </structure>
+      <structure id="o1284" name="spine">
+        <character name="size" value="slender" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="148.txt-13">
+      <text>apices of inner straight, flexuous.</text>
+      <structure id="o1285" name="apex">
+        <character name="course" value="straight" />
+        <character name="course" value="flexuous" />
+      </structure>
+      <structure id="o1286" name="phyllary" constraint="inner" />
+      <relation id="r214" name="part_of" from="o1285" to="o1286" negation="false" />
+    </statement>
+    <statement id="148.txt-14">
+      <text>Corollas white to pink or pink-purple, 16–20 mm, tubes 6–8 mm, throats 5–6 mm, lobes 5–7 mm;</text>
+      <structure id="o1287" name="corolla">
+        <character char_type="range_value" name="coloration" from="white" to="pink or pink-purple" />
+        <character name="coloration" value="white" />
+        <character name="coloration" value="pink" />
+        <character name="coloration" value="purple" modifier="pink" />
+        <character char_type="range_value" name="size" from="16" from_unit="mm" to="20" to_unit="mm" />
+      </structure>
+      <structure id="o1288" name="tube">
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+      <structure id="o1289" name="throat">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+      <structure id="o1290" name="lobe">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="148.txt-15">
+      <text>style tips 3.5–4.5 mm.</text>
+      <structure id="o1291" name="tip" constraint="style">
+        <character char_type="range_value" name="size" from="3.5" from_unit="mm" to="4.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="148.txt-16">
+      <text>Cypselae brown, ca. 4 mm, apical collars not differentiated;</text>
+      <structure id="o1292" name="cypsela">
+        <character name="coloration" value="brown" />
+        <character name="size" value="4" unit="mm" />
+      </structure>
+      <structure id="o1293" name="collar" constraint="apical">
+        <character name="differentiation" value="differentiated" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="148.txt-17">
+      <text>pappi 13–17 mm.</text>
+      <structure id="o1294" name="pappus">
+        <character char_type="range_value" name="size" from="13" from_unit="mm" to="17" to_unit="mm" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>stony soils in sparsely vegetated areas of pinyon-juniper woodlands</habitat>
+  <habitat>sagebrush scrub</habitat>
+  <habitat>arid grasslands</habitat>
+  <habitat>and riparian scrub</habitat>
+  <habitat>in dry sites or sometimes on seeps</habitat>
+  <elevation>1500–2400 m;</elevation>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <discussion>Cirsium ownbeyi is endemic to the eastern side of the Uintah Mountains in northeastern Utah, southwestern Wyoming, and northwestern Colorado. It is in the Center for Plant Conservation’s National Collection of Endangered Plants.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

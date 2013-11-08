@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>6a.</number>
+  <variety_name>Saussurea amara (Linnaeus) de Candolle var. glomerata</variety_name>
+  <authority>(Poiret) Trautvetter</authority>
+  <place_of_publication>Bull. Soc. Imp. Naturalistes Moscou 39(1): 369. 1866</place_of_publication>
+  <synonym_of_variety_name>Saussurea glomerata Poiret in J. Lamarck et al., Encycl., suppl. 5: 71. 1817</synonym_of_variety_name>
+  <description>
+    <statement id="182.txt-0">
+      <text>Plants 15–60 cm;</text>
+      <structure id="o2331" name="whole_organism">
+        <character char_type="range_value" name="size" from="15" from_unit="cm" to="60" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="182.txt-1">
+      <text>stout taproots;</text>
+      <structure id="o2332" name="taproot">
+        <character name="fragility" value="stout" />
+      </structure>
+    </statement>
+    <statement id="182.txt-2">
+      <text>herbage ± scabrous, ± glaucous.</text>
+      <structure id="o2333" name="herbage">
+        <character name="pubescence_or_relief" value="scabrous" modifier="±" />
+        <character name="coating" value="glaucous" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="182.txt-3">
+      <text>Stems erect, simple or branched, unwinged.</text>
+      <structure id="o2334" name="stem">
+        <character name="orientation" value="erect" />
+        <character name="architecture" value="simple" />
+        <character name="architecture_or_shape" value="branched" />
+        <character name="architecture" value="unwinged" />
+      </structure>
+    </statement>
+    <statement id="182.txt-4">
+      <text>Leaves:</text>
+      <structure id="o2335" name="leaf" />
+    </statement>
+    <statement id="182.txt-5">
+      <text>basal and proximal cauline long-petiolate, smaller distally, blades elliptic, 5–20 cm, bases acute, margins entire to sinuate dentate or shallowly lobed, apices acuminate;</text>
+      <structure id="o2336" name="leaf" constraint="basal and proximal cauline">
+        <character name="architecture" value="long-petiolate" />
+        <character name="size" value="smaller" modifier="distally" />
+      </structure>
+      <structure id="o2337" name="blade">
+        <character name="arrangement_or_shape" value="elliptic" />
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="20" to_unit="cm" />
+      </structure>
+      <structure id="o2338" name="base">
+        <character name="shape" value="acute" />
+      </structure>
+      <structure id="o2339" name="margin">
+        <character char_type="range_value" name="shape" from="entire" to="sinuate dentate or shallowly lobed" />
+        <character name="shape" value="entire" />
+        <character name="shape" value="lobed" modifier="shallowly" />
+      </structure>
+      <structure id="o2340" name="apex">
+        <character name="shape" value="acuminate" />
+      </structure>
+    </statement>
+    <statement id="182.txt-6">
+      <text>mid and distal cauline sessile or short-petiolate, ± bractlike, entire.</text>
+      <structure id="o2341" name="leaf" constraint="mid and distal cauline">
+        <character name="architecture" value="short-petiolate" />
+        <character name="shape" value="bractlike" modifier="±" />
+        <character name="shape" value="entire" />
+      </structure>
+    </statement>
+    <statement id="182.txt-7">
+      <text>Heads 2–8 in corymbiform cymes at tips of main stems and branches; (peduncles to 1–5 cm).</text>
+      <structure id="o2342" name="head">
+        <character char_type="range_value" name="count" from="2" to="8" constraint="in cymes" constraintid="o2343" />
+      </structure>
+      <structure id="o2343" name="cyme">
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <structure id="o2344" name="tip" />
+      <relation id="r337" name="at" from="o2343" to="o2344" negation="false" />
+      <structure id="o2345" name="stem" constraint="main" />
+      <structure id="o2346" name="branch" />
+      <relation id="r338" name="part_of" from="o2344" to="o2345" negation="false" />
+      <relation id="r339" name="part_of" from="o2344" to="o2346" negation="false" />
+    </statement>
+    <statement id="182.txt-8">
+      <text>Involucres ca. 15 mm.</text>
+      <structure id="o2347" name="involucre">
+        <character name="size" value="15" unit="mm" />
+      </structure>
+    </statement>
+    <statement id="182.txt-9">
+      <text>Phyllaries in 3–4 series, strongly unequal, outer ± lanceolate with dark green toothed or lobed appendages, mid ± linear-oblong with expanded, rounded, pink, membranous, toothed appendages, innermost linear, with or without reduced appendages.</text>
+      <structure id="o2348" name="phyllary">
+        <character name="size" value="unequal" modifier="strongly" />
+        <character name="position" value="outer" modifier="±" />
+        <character name="shape" value="lanceolate" constraint="with appendages" constraintid="o2350" />
+      </structure>
+      <structure id="o2349" name="series">
+        <character char_type="range_value" name="count" from="3" to="4" />
+      </structure>
+      <relation id="r340" name="in" from="o2348" to="o2349" negation="false" />
+      <structure id="o2350" name="appendage">
+        <character name="shape" value="lobed" />
+      </structure>
+      <structure id="o2351" name="mid">
+        <character name="shape" value="linear-oblong" modifier="±" constraint="with appendages" constraintid="o2352" />
+        <character name="position" value="innermost" />
+        <character name="arrangement_or_shape" value="linear" />
+      </structure>
+      <structure id="o2352" name="appendage">
+        <character name="size" value="expanded" />
+        <character name="shape" value="rounded" />
+        <character name="coloration" value="pink" />
+        <character name="texture" value="membranous" />
+        <character name="shape" value="toothed" />
+      </structure>
+      <structure id="o2353" name="appendage">
+        <character name="size" value="reduced" />
+      </structure>
+      <relation id="r341" name="with or without" from="o2351" to="o2353" negation="false" />
+    </statement>
+    <statement id="182.txt-10">
+      <text>Receptacles scaly.</text>
+      <structure id="o2354" name="receptacle">
+        <character name="pubescence_or_architecture" value="scaly" />
+      </structure>
+    </statement>
+    <statement id="182.txt-11">
+      <text>Florets 8–18;</text>
+      <structure id="o2355" name="floret">
+        <character char_type="range_value" name="count" from="8" to="18" />
+      </structure>
+    </statement>
+    <statement id="182.txt-12">
+      <text>corollas pink or pale purple, ca. 17 mm;</text>
+      <structure id="o2356" name="corolla">
+        <character name="coloration" value="pink" />
+        <character name="coloration" value="purple" modifier="pale" />
+        <character name="size" value="17" unit="mm" />
+      </structure>
+    </statement>
+    <statement id="182.txt-13">
+      <text>anthers dark purple.</text>
+      <structure id="o2357" name="anther">
+        <character name="coloration" value="purple" modifier="dark" />
+      </structure>
+    </statement>
+    <statement id="182.txt-14">
+      <text>Cypselae ca. 3 mm;</text>
+      <structure id="o2358" name="cypsela">
+        <character name="size" value="3" unit="mm" />
+      </structure>
+    </statement>
+    <statement id="182.txt-15">
+      <text>pappi off-brownish, outer bristles 1–2 mm, inner ca. 10 mm.</text>
+      <structure id="o2359" name="pappus">
+        <character name="coloration" value="brownish" modifier="off" />
+      </structure>
+      <structure id="o2360" name="bristle" constraint="outer">
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="2" to_unit="mm" />
+        <character name="position" value="inner" />
+        <character name="size" value="10" unit="mm" />
+      </structure>
+    </statement>
+    <statement id="182.txt-16">
+      <text>2 n = 26 (Russia, as S. glomerata ).</text>
+      <structure id="o2361" name="chromosome">
+        <character name="count" value="26" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>barnyard and garden weed</habitat>
+  <elevation>900–1000 m;</elevation>
+  <introduced>introduced;</introduced>
+  <ca_distribution>Alta.</ca_distribution>
+  <global_distribution>Asia.</global_distribution>
+  <discussion>Saussurea amara var. glomerata was reported (as S. glomerata) from the vicinity of Debolt, Alberta (H. Groh 1943) and was included in The Thistles of Canada (R. J. Moore and C. Frankton 1974). I am not aware of any additional stations, and the persistence of these plants in the Debolt area is unknown.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

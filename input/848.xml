@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Artemisia aleutica</species_name>
+  <authority>Hultén</authority>
+  <place_of_publication>Bot. Not. 1939: 829, fig. 2. 1939</place_of_publication>
+  <common_name>Aleutian wormwood</common_name>
+  <description>
+    <statement id="848.txt-0">
+      <text>Perennials, 5–10 cm (cespitose), mildly aromatic;</text>
+      <structure id="o17802" name="whole_organism">
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="10" to_unit="cm" />
+        <character name="odor" value="aromatic" modifier="mildly" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="848.txt-1">
+      <text>caudices branched.</text>
+      <structure id="o17803" name="caudex">
+        <character name="architecture_or_shape" value="branched" />
+      </structure>
+    </statement>
+    <statement id="848.txt-2">
+      <text>Stems usually 1, reddish brown to gray, tomentose to glabrate.</text>
+      <structure id="o17804" name="stem">
+        <character name="count" value="1" modifier="usually" />
+        <character char_type="range_value" name="coloration" from="reddish-brown" to="gray" />
+        <character name="coloration" value="brown" modifier="reddish" />
+        <character name="coloration" value="gray" />
+        <character char_type="range_value" name="pubescence" from="tomentose" to="glabrate" />
+        <character name="pubescence" value="tomentose" />
+        <character name="pubescence" value="glabrate" />
+      </structure>
+    </statement>
+    <statement id="848.txt-3">
+      <text>Leaves persistent, mostly basal, gray-green;</text>
+      <structure id="o17805" name="leaf">
+        <character name="duration" value="persistent" />
+        <character name="insertion_or_position" value="basal" modifier="mostly" />
+        <character name="coloration" value="green" modifier="gray" />
+      </structure>
+    </statement>
+    <statement id="848.txt-4">
+      <text>blades (at least proximal) obovate, 1.5–5 × 0.5–1 cm, 2-palmately lobed, lobes relatively narrow, apices acute, faces densely white-villous (brownish in age);</text>
+      <structure id="o17806" name="blade">
+        <character name="shape" value="obovate" />
+        <character char_type="range_value" name="length" from="1.5" from_unit="cm" to="5" to_unit="cm" />
+        <character char_type="range_value" name="width" from="0.5" from_unit="cm" to="1" to_unit="cm" />
+        <character name="shape" value="lobed" modifier="2-palmately" />
+      </structure>
+      <structure id="o17807" name="lobe">
+        <character name="size" value="narrow" modifier="relatively" />
+      </structure>
+      <structure id="o17808" name="apex">
+        <character name="shape" value="acute" />
+      </structure>
+      <structure id="o17809" name="face">
+        <character name="pubescence" value="white-villous" modifier="densely" />
+      </structure>
+    </statement>
+    <statement id="848.txt-5">
+      <text>cauline smaller, distally 1-ternate.</text>
+      <structure id="o17810" name="leaf" constraint="cauline">
+        <character name="size" value="smaller" />
+        <character name="architecture" value="1-ternate" modifier="distally" />
+      </structure>
+    </statement>
+    <statement id="848.txt-6">
+      <text>Heads (sessile or peduncles 2–15 mm) in racemiform or spiciform arrays, 1.5–3 × 0.5–1 cm.</text>
+      <structure id="o17811" name="head">
+        <character char_type="range_value" name="length" from="1.5" from_unit="cm" to="3" to_unit="cm" />
+        <character char_type="range_value" name="width" from="0.5" from_unit="cm" to="1" to_unit="cm" />
+      </structure>
+      <structure id="o17812" name="array">
+        <character name="architecture" value="racemiform" />
+        <character name="architecture" value="spiciform" />
+      </structure>
+      <relation id="r1883" name="in" from="o17811" to="o17812" negation="false" />
+    </statement>
+    <statement id="848.txt-7">
+      <text>Involucres hemispheric or globose, (2–)5–7 × (2–)6–8 mm.</text>
+      <structure id="o17813" name="involucre">
+        <character name="shape" value="hemispheric" />
+        <character name="shape" value="globose" />
+        <character char_type="range_value" name="atypical_length" from="2" to="5" from_unit="mm" to_unit="mm" to_inclusive="false" />
+        <character char_type="range_value" name="length" from="5" from_unit="mm" to="7" to_unit="mm" />
+        <character char_type="range_value" name="atypical_width" from="2" to="6" from_unit="mm" to_unit="mm" to_inclusive="false" />
+        <character char_type="range_value" name="width" from="6" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="848.txt-8">
+      <text>Phyllaries villous.</text>
+      <structure id="o17814" name="phyllary">
+        <character name="pubescence" value="villous" />
+      </structure>
+    </statement>
+    <statement id="848.txt-9">
+      <text>Florets:</text>
+      <structure id="o17815" name="floret" />
+    </statement>
+    <statement id="848.txt-10">
+      <text>pistillate 4–6;</text>
+      <structure id="o17816" name="floret" constraint="pistillate">
+        <character char_type="range_value" name="count" from="4" to="6" />
+      </structure>
+    </statement>
+    <statement id="848.txt-11">
+      <text>functionally staminate 15–30;</text>
+      <structure id="o17817" name="floret" constraint="functionally staminate">
+        <character char_type="range_value" name="count" from="15" to="30" />
+      </structure>
+    </statement>
+    <statement id="848.txt-12">
+      <text>corollas purplish red, 1.5–2 mm, hairy.</text>
+      <structure id="o17818" name="corolla">
+        <character name="coloration" value="red" modifier="purplish" />
+        <character char_type="range_value" name="size" from="1.5" from_unit="mm" to="2" to_unit="mm" />
+        <character name="pubescence" value="hairy" />
+      </structure>
+    </statement>
+    <statement id="848.txt-13">
+      <text>Cypselae oblong, ca. 1 mm, faintly nerved, glabrous.</text>
+      <structure id="o17819" name="cypsela">
+        <character name="shape" value="oblong" />
+        <character name="size" value="1" unit="mm" />
+        <character name="architecture" value="nerved" modifier="faintly" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+  </description>
+  <habitat>open areas</habitat>
+  <habitat>fellfield tundra</habitat>
+  <conservation>of conservation concern;</conservation>
+  <elevation>0–100 m;</elevation>
+  <us_distribution>Alaska.</us_distribution>
+  <discussion>Artemisia aleutica is known only from the western Aleutian Islands. It is morphologically similar to A. borealis, and the relationships of these species complexes warrant further study.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

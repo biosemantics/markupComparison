@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Saussurea americana</species_name>
+  <authority>D. C. Eaton</authority>
+  <place_of_publication>Bot. Gaz. 6: 283. 1881</place_of_publication>
+  <common_name>American saw-wort</common_name>
+  <description>
+    <statement id="173.txt-0">
+      <text>Plants 30–120+ cm;</text>
+      <structure id="o2126" name="whole_organism">
+        <character char_type="range_value" name="size" from="30" from_unit="cm" to="120" to_unit="cm" upper_restricted="false" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="173.txt-1">
+      <text>rootstocks short, stout;</text>
+      <structure id="o2127" name="rootstock">
+        <character name="size" value="short" />
+        <character name="fragility" value="stout" />
+      </structure>
+    </statement>
+    <statement id="173.txt-2">
+      <text>herbage loosely tomentose when young, glabrescent, sometimes ± glandular.</text>
+      <structure id="o2128" name="herbage">
+        <character name="pubescence" value="tomentose" modifier="loosely" />
+        <character name="age" value="young" modifier="tomentose" />
+        <character name="pubescence" value="glabrescent" modifier="tomentose" />
+        <character name="architecture_or_exudation_or_pubescence" value="glandular" modifier="sometimes ±; tomentose" />
+      </structure>
+    </statement>
+    <statement id="173.txt-3">
+      <text>Stems 1–many, leafy, simple or with ascending branches.</text>
+      <structure id="o2129" name="stem">
+        <character char_type="range_value" name="count" from="1" to="many" />
+        <character name="architecture" value="leafy" />
+        <character name="architecture" value="simple" />
+        <character name="architecture" value="with ascending branches" />
+      </structure>
+      <structure id="o2130" name="branch">
+        <character name="orientation" value="ascending" />
+      </structure>
+      <relation id="r318" name="with" from="o2129" to="o2130" negation="false" />
+    </statement>
+    <statement id="173.txt-4">
+      <text>Leaves cauline, usually more than 20, well distributed, proximal and mid with winged petioles to 6 cm, wings sometimes decurrent 1–2 cm on stems, blades lanceolate to triangular-ovate, 5–15 cm, bases cordate to truncate or tapering, margins sharply dentate, apices acute;</text>
+      <structure id="o2131" name="leaf">
+        <character name="insertion_or_position" value="cauline" />
+        <character name="count" value="more than 20" modifier="usually" />
+        <character name="arrangement" value="distributed" modifier="well" />
+        <character name="insertion_or_position" value="proximal" />
+      </structure>
+      <structure id="o2132" name="mid" />
+      <structure id="o2133" name="petiole">
+        <character name="architecture" value="winged" />
+        <character char_type="range_value" name="size" to="6" to_unit="cm" />
+      </structure>
+      <relation id="r319" name="with" from="o2132" to="o2133" negation="false" />
+      <structure id="o2134" name="wing">
+        <character name="shape" value="decurrent" modifier="sometimes" />
+        <character char_type="range_value" name="size" from="1" from_unit="cm" to="2" to_unit="cm" constraint="on stems" constraintid="o2135" />
+      </structure>
+      <structure id="o2135" name="stem" />
+      <structure id="o2136" name="blade">
+        <character char_type="range_value" name="shape" from="lanceolate" to="triangular-ovate" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="triangular-ovate" />
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="15" to_unit="cm" />
+      </structure>
+      <structure id="o2137" name="base">
+        <character char_type="range_value" name="shape" from="cordate" to="truncate or tapering" />
+        <character name="shape" value="cordate" />
+        <character name="shape" value="truncate" />
+        <character name="shape" value="tapering" />
+      </structure>
+      <structure id="o2138" name="margin">
+        <character name="shape" value="dentate" modifier="sharply" />
+      </structure>
+      <structure id="o2139" name="apex">
+        <character name="shape" value="acute" />
+      </structure>
+    </statement>
+    <statement id="173.txt-5">
+      <text>mid and distal usually sessile, smaller, narrower, bases tapering.</text>
+      <structure id="o2140" name="leaf" constraint="mid and distal">
+        <character name="architecture" value="sessile" modifier="usually" />
+        <character name="size" value="smaller" />
+        <character name="size" value="narrower" />
+      </structure>
+      <structure id="o2141" name="base">
+        <character name="shape" value="tapering" />
+      </structure>
+    </statement>
+    <statement id="173.txt-6">
+      <text>Heads 5–30+ in tight to open corymbiform arrays; (peduncles 0–5 cm).</text>
+      <structure id="o2142" name="head">
+        <character char_type="range_value" name="count" from="5" to="30" upper_restricted="false" constraint="in arrays" constraintid="o2143" />
+      </structure>
+      <structure id="o2143" name="array">
+        <character name="texture" value="tight" />
+        <character name="architecture" value="open" />
+        <character name="architecture" value="corymbiform" />
+      </structure>
+    </statement>
+    <statement id="173.txt-7">
+      <text>Involucres 10–15 mm.</text>
+      <structure id="o2144" name="involucre">
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="15" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="173.txt-8">
+      <text>Phyllaries in ca. 5 series, strongly unequal, outer ± ovate, inner lanceolate, abaxial faces pale green, distally dark purplish to nearly black, loosely tomentose.</text>
+      <structure id="o2145" name="phyllary">
+        <character name="size" value="unequal" modifier="strongly" />
+        <character name="position" value="outer" modifier="±" />
+        <character name="shape" value="ovate" />
+        <character name="position" value="inner" />
+        <character name="shape" value="lanceolate" />
+      </structure>
+      <structure id="o2146" name="series">
+        <character name="count" value="5" />
+      </structure>
+      <relation id="r320" name="in" from="o2145" to="o2146" negation="false" />
+      <structure id="o2147" name="face" constraint="abaxial">
+        <character char_type="range_value" name="coloration" from="pale-green , distally dark-purplish" to="nearly black" />
+        <character name="coloration" value="green" modifier="pale" />
+        <character name="coloration" value="purplish" modifier="distally ;dark" />
+        <character name="coloration" value="black" modifier="nearly" />
+        <character name="pubescence" value="tomentose" modifier="loosely" />
+      </structure>
+    </statement>
+    <statement id="173.txt-9">
+      <text>Receptacles naked.</text>
+      <structure id="o2148" name="receptacle">
+        <character name="architecture" value="naked" />
+      </structure>
+    </statement>
+    <statement id="173.txt-10">
+      <text>Florets 8–21;</text>
+      <structure id="o2149" name="floret">
+        <character char_type="range_value" name="count" from="8" to="21" />
+      </structure>
+    </statement>
+    <statement id="173.txt-11">
+      <text>corollas usually pale lavender-blue to dark purple (rarely white), 11–13 mm;</text>
+      <structure id="o2150" name="corolla">
+        <character char_type="range_value" name="coloration" from="usually pale-lavender-blue" to="dark-purple" />
+        <character name="coloration" value="blue" modifier="usually ;pale-lavender" />
+        <character name="coloration" value="purple" modifier="usually ;dark" />
+        <character char_type="range_value" name="size" from="11" from_unit="mm" to="13" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="173.txt-12">
+      <text>tubes 5–6.5 mm, throats 1.5–2 mm, lobes 3.5–4 mm.</text>
+      <structure id="o2151" name="tube">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="6.5" to_unit="mm" />
+      </structure>
+      <structure id="o2152" name="throat">
+        <character char_type="range_value" name="size" from="1.5" from_unit="mm" to="2" to_unit="mm" />
+      </structure>
+      <structure id="o2153" name="lobe">
+        <character char_type="range_value" name="size" from="3.5" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="173.txt-13">
+      <text>Cypselae 4–6 mm;</text>
+      <structure id="o2154" name="cypsela">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="173.txt-14">
+      <text>pappus bristles brownish, outer 3–7 mm, inner 9–10 mm.</text>
+      <structure id="o2155" name="bristle" constraint="pappus">
+        <character name="coloration" value="brownish" />
+        <character name="position" value="outer" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="7" to_unit="mm" />
+        <character name="position" value="inner" />
+        <character char_type="range_value" name="size" from="9" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>moist canyons</habitat>
+  <habitat>meadows</habitat>
+  <habitat>streamsides in montane forests</habitat>
+  <elevation>1000–2600 m;</elevation>
+  <ca_distribution>Alta.</ca_distribution>
+  <ca_distribution>B.C.</ca_distribution>
+  <ca_distribution>Yukon</ca_distribution>
+  <us_distribution>Alaska</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <discussion>Saussurea americana is closely related to an Asian species, S. foliosa Ledebour.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Agoseris glauca</species_name>
+  <authority>(Pursh) Rafinesque</authority>
+  <place_of_publication>Herb. Raf., 39. 1833</place_of_publication>
+  <common_name>Prairie agoseris</common_name>
+  <synonym_of_species_name>Troximon glaucum Pursh, Fl. Amer. Sept. 2: 505. 1813</synonym_of_species_name>
+  <description>
+    <statement id="494.txt-0">
+      <text>Stems 0.</text>
+      <structure id="o9936" name="stem">
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+    <statement id="494.txt-1">
+      <text>Leaves erect to decumbent;</text>
+      <structure id="o9937" name="leaf">
+        <character name="orientation" value="erect" />
+        <character name="habit" value="decumbent" />
+      </structure>
+    </statement>
+    <statement id="494.txt-2">
+      <text>petioles rarely purplish, petiole margins glabrous or pubescent, not usually ciliate;</text>
+      <structure id="o9938" name="petiole">
+        <character name="coloration" value="purplish" modifier="rarely" />
+      </structure>
+      <structure id="o9939" name="margin" constraint="petiole">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="pubescent" />
+        <character name="architecture_or_shape" value="ciliate" modifier="not usually" />
+      </structure>
+    </statement>
+    <statement id="494.txt-3">
+      <text>blades lanceolate to oblanceolate, 2–46 cm, margins usually entire, sometimes dentate, rarely lobed or lacerate, lobes 2–3 pairs or irregularly arranged, lanceolate, spreading, lobules 0, faces glabrous and glaucous or sparsely villous to tomentose.</text>
+      <structure id="o9940" name="blade">
+        <character char_type="range_value" name="shape" from="lanceolate" to="oblanceolate" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="oblanceolate" />
+        <character char_type="range_value" name="size" from="2" from_unit="cm" to="46" to_unit="cm" />
+      </structure>
+      <structure id="o9941" name="margin">
+        <character name="shape" value="entire" modifier="usually" />
+        <character name="shape" value="dentate" modifier="sometimes" />
+        <character name="shape" value="lobed" modifier="rarely" />
+        <character name="shape" value="lacerate" modifier="rarely" />
+      </structure>
+      <structure id="o9942" name="lobe">
+        <character char_type="range_value" name="count" from="2" to="3" />
+        <character char_type="range_value" name="count" from="2" to="3" modifier="irregularly arranged" />
+        <character name="shape" value="lanceolate" />
+        <character name="orientation" value="spreading" />
+      </structure>
+      <structure id="o9943" name="lobule">
+        <character name="count" value="0" />
+      </structure>
+      <structure id="o9944" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="coating" value="glaucous" />
+        <character name="coating" value="sparsely villous to tomentose" />
+        <character char_type="range_value" name="pubescence" from="sparsely villous" to="tomentose" />
+        <character name="pubescence" value="villous" modifier="sparsely" />
+        <character name="pubescence" value="tomentose" modifier="sparsely" />
+      </structure>
+    </statement>
+    <statement id="494.txt-4">
+      <text>Peduncles not notably elongating after flowering, 5–60(–90) cm in fruit, glabrous or glabrate, or apically puberulent to lanate, sometimes stipitate-glandular.</text>
+      <structure id="o9945" name="peduncle">
+        <character name="size" value="elongating" modifier="not notably" constraint="after flowering, 5-60(-90) cm in fruit" constraintid="o9946" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="glabrate" />
+        <character name="pubescence" value="puberulent" modifier="apically" />
+        <character name="pubescence" value="lanate" />
+        <character name="architecture_or_exudation_or_pubescence" value="stipitate-glandular" modifier="sometimes" />
+      </structure>
+      <structure id="o9946" name="fruit" />
+    </statement>
+    <statement id="494.txt-5">
+      <text>Involucres obconic to hemispheric, 1–3 cm in fruit.</text>
+      <structure id="o9947" name="involucre">
+        <character char_type="range_value" name="shape" from="obconic" to="hemispheric" />
+        <character name="shape" value="obconic" />
+        <character name="shape" value="hemispheric" />
+        <character char_type="range_value" name="size" from="1" from_unit="cm" to="3" to_unit="cm" constraint="in fruit" constraintid="o9948" />
+      </structure>
+      <structure id="o9948" name="fruit" />
+    </statement>
+    <statement id="494.txt-6">
+      <text>Phyllaries in 2–3 series, green or medially rosy purple, often with purple-black spots, midstripe, and/or tips, subequal to unequal, margins glabrous or ± hairy, not usually ciliate, faces glabrous or tomentose, sometimes stipitate-glandular or eglandular;</text>
+      <structure id="o9949" name="phyllary">
+        <character name="coloration" value="green" />
+        <character name="coloration" value="purple" modifier="medially ;rosy" />
+      </structure>
+      <structure id="o9950" name="series">
+        <character char_type="range_value" name="count" from="2" to="3" />
+      </structure>
+      <relation id="r1147" name="in" from="o9949" to="o9950" negation="false" />
+      <structure id="o9951" name="spot">
+        <character name="coloration" value="black" modifier="purple" />
+      </structure>
+      <relation id="r1148" name="with" from="o9949" to="o9951" negation="false" modifier="often" />
+      <structure id="o9952" name="midstripe">
+        <character char_type="range_value" name="size" from="subequal" to="unequal" />
+        <character name="size" value="subequal" />
+        <character name="size" value="unequal" />
+      </structure>
+      <structure id="o9953" name="tip" />
+      <structure id="o9954" name="margin">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="hairy" modifier="±" />
+        <character name="architecture_or_shape" value="ciliate" modifier="not usually" />
+      </structure>
+      <structure id="o9955" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="tomentose" />
+        <character name="architecture" value="stipitate-glandular" modifier="sometimes" />
+        <character name="architecture" value="eglandular" modifier="sometimes" />
+      </structure>
+    </statement>
+    <statement id="494.txt-7">
+      <text>outer erect or spreading, apices adaxially glabrous or hirsuto-villous;</text>
+      <structure id="o9956" name="phyllary" constraint="outer" />
+      <structure id="o9957" name="apex">
+        <character name="pubescence" value="glabrous" modifier="adaxially" />
+        <character name="pubescence" value="hirsuto-villous" modifier="adaxially" />
+      </structure>
+    </statement>
+    <statement id="494.txt-8">
+      <text>inner erect, not notably elongating in fruit.</text>
+      <structure id="o9958" name="phyllary" constraint="inner">
+        <character name="orientation" value="erect" />
+        <character name="size" value="elongating" modifier="not notably" constraint="in fruit" constraintid="o9959" />
+      </structure>
+      <structure id="o9959" name="fruit" />
+    </statement>
+    <statement id="494.txt-9">
+      <text>Receptacles epaleate or paleate.</text>
+      <structure id="o9960" name="receptacle">
+        <character name="architecture" value="epaleate" />
+        <character name="architecture" value="paleate" />
+      </structure>
+    </statement>
+    <statement id="494.txt-10">
+      <text>Florets 15–150;</text>
+      <structure id="o9961" name="floret">
+        <character char_type="range_value" name="count" from="15" to="150" />
+      </structure>
+    </statement>
+    <statement id="494.txt-11">
+      <text>corollas yellow, tubes 4–18 mm, ligules 6–24 × 2–5 mm;</text>
+      <structure id="o9962" name="corolla">
+        <character name="coloration" value="yellow" />
+      </structure>
+      <structure id="o9963" name="tube">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="18" to_unit="mm" />
+      </structure>
+      <structure id="o9964" name="ligule">
+        <character char_type="range_value" name="length" from="6" from_unit="mm" to="24" to_unit="mm" />
+        <character char_type="range_value" name="width" from="2" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="494.txt-12">
+      <text>anthers 3–7 mm.</text>
+      <structure id="o9965" name="anther">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="494.txt-14">
+      <text>ribs flattened to ridged, glabrous, or distally scabrous;</text>
+      <structure id="o9966" name="rib">
+        <character char_type="range_value" name="shape" from="flattened" to="ridged" />
+        <character name="shape" value="flattened" />
+        <character name="shape" value="ridged" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="scabrous" modifier="distally" />
+      </structure>
+    </statement>
+    <statement id="494.txt-15">
+      <text>pappi in 2–3 series, 8–18 mm.</text>
+      <structure id="o9967" name="pappus">
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="18" to_unit="mm" />
+      </structure>
+      <structure id="o9968" name="series">
+        <character char_type="range_value" name="count" from="2" to="3" />
+      </structure>
+      <relation id="r1149" name="in" from="o9967" to="o9968" negation="false" />
+    </statement>
+    <statement id="494.txt-16">
+      <text>2 n = 18, 36</text>
+      <structure id="o9969" name="chromosome">
+        <character name="count" value="18" />
+        <character name="count" value="36" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Varieties 2 (2 in the flora):</number_of_infrataxa>
+  <general_distribution>w North America.</general_distribution>
+  <couplet>1.Receptacles epaleate; leaf blades usually glabrous and glaucous, rarely sparsely hairy; peduncles (distally, and phyllaries) usually glabrous, some- times puberulent, eglandular1a. Agoseris glauca</couplet>
+  <couplet>var. glauca</couplet>
+  <couplet>1.Receptacles usually ± paleate; leaf blades usually puberulent to densely villous, sometimes glabrous; peduncles (distally, and phyllaries) usually villous to lanate or tomentose, sometimes glabrous, often stipitate-glandular1b. Agoseris glauca</couplet>
+  <couplet>var. dasycephala</couplet>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

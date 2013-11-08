@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>16.</number>
+  <species_name>Crepis pannonica</species_name>
+  <authority>(Jacquin) K. Koch</authority>
+  <place_of_publication>Linnaea 23: 689. 1851</place_of_publication>
+  <synonym_of_species_name>Hieracium pannonicum Jacquin, Collectanea 5: 148. 1796</synonym_of_species_name>
+  <description>
+    <statement id="301.txt-0">
+      <text>Perennials, 30–130 cm (taproots stout, caudices branched).</text>
+      <structure id="o5402" name="whole_organism">
+        <character char_type="range_value" name="size" from="30" from_unit="cm" to="130" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="301.txt-1">
+      <text>Stems 1, erect, branched distally, setulose and sometimes glandular proxi-mally.</text>
+      <structure id="o5403" name="stem">
+        <character name="count" value="1" />
+        <character name="orientation" value="erect" />
+        <character name="architecture_or_shape" value="branched" modifier="distally" />
+        <character name="pubescence" value="setulose" />
+        <character name="architecture_or_exudation_or_pubescence" value="glandular" modifier="sometimes ; proxi-mally" />
+      </structure>
+    </statement>
+    <statement id="301.txt-2">
+      <text>Leaves mostly cauline;</text>
+    </statement>
+    <statement id="301.txt-3">
+      <text>petiolate or sessile;</text>
+      <structure id="o5404" name="leaf">
+        <character name="insertion_or_position" value="cauline" modifier="mostly" />
+        <character name="architecture" value="petiolate" />
+        <character name="architecture" value="sessile" />
+      </structure>
+    </statement>
+    <statement id="301.txt-4">
+      <text>blades broadly oblanceolate to elliptic, 15–30 × 4–6 cm, margins closely toothed (teeth corneous apically and sometimes along margins), apices acute, faces scabrous, ± setulose and stipitate-glandular; (cauline sessile, ovate or elliptic, bases auriculate).</text>
+      <structure id="o5405" name="blade">
+        <character char_type="range_value" name="shape" from="broadly oblanceolate" to="elliptic" />
+        <character name="shape" value="oblanceolate" modifier="broadly" />
+        <character name="shape" value="elliptic" modifier="broadly" />
+        <character char_type="range_value" name="length" from="15" from_unit="cm" to="30" to_unit="cm" />
+        <character char_type="range_value" name="width" from="4" from_unit="cm" to="6" to_unit="cm" />
+      </structure>
+      <structure id="o5406" name="margin">
+        <character name="shape" value="toothed" modifier="closely" />
+      </structure>
+      <structure id="o5407" name="apex">
+        <character name="shape" value="acute" />
+      </structure>
+      <structure id="o5408" name="face">
+        <character name="pubescence_or_relief" value="scabrous" />
+        <character name="pubescence" value="setulose" modifier="±" />
+        <character name="architecture_or_exudation_or_pubescence" value="stipitate-glandular" />
+      </structure>
+    </statement>
+    <statement id="301.txt-5">
+      <text>Heads 1–8, borne singly or (on racemiform branches) in compound, paniculiform or corymbiform arrays.</text>
+      <structure id="o5409" name="head">
+        <character char_type="range_value" name="count" from="1" to="8" />
+        <character name="arrangement" value="singly" />
+        <character name="arrangement" value="in compound , paniculiform or corymbiform arrays" />
+      </structure>
+      <structure id="o5410" name="array">
+        <character name="architecture" value="compound" />
+        <character name="architecture" value="paniculiform" />
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <relation id="r710" name="in" from="o5409" to="o5410" negation="false" />
+    </statement>
+    <statement id="301.txt-6">
+      <text>Calyculi of 10–12, lanceolate to linear, sparsely tomentulous bractlets 3–5 mm.</text>
+      <structure id="o5411" name="calyculus" />
+      <structure id="o5412" name="bractlet">
+        <character char_type="range_value" name="count" from="10" to="12" />
+        <character char_type="range_value" name="shape" from="lanceolate" to="linear" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="linear" />
+        <character name="pubescence" value="tomentulous" modifier="sparsely" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+      <relation id="r711" name="consist_of" from="o5411" to="o5412" negation="false" />
+    </statement>
+    <statement id="301.txt-7">
+      <text>Involucres cylindro-campanulate, 10–15 × 6–12 mm.</text>
+      <structure id="o5413" name="involucre">
+        <character name="shape" value="cylindro-campanulate" />
+        <character char_type="range_value" name="length" from="10" from_unit="mm" to="15" to_unit="mm" />
+        <character char_type="range_value" name="width" from="6" from_unit="mm" to="12" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="301.txt-8">
+      <text>Phyllaries 12–15, lanceolate, 9–10 mm, (bases strongly thickened, margins green), apices (dark) acute, abaxial faces tomentulose, sometimes with setae, adaxial glabrous.</text>
+      <structure id="o5414" name="phyllary">
+        <character char_type="range_value" name="count" from="12" to="15" />
+        <character name="shape" value="lanceolate" />
+        <character char_type="range_value" name="size" from="9" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+      <structure id="o5415" name="apex">
+        <character name="shape" value="acute" />
+      </structure>
+      <structure id="o5416" name="face" constraint="abaxial">
+        <character name="pubescence" value="tomentulose" />
+        <character name="insertion_or_position" value="adaxial" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+      <structure id="o5417" name="seta" />
+      <relation id="r712" name="with" from="o5416" to="o5417" negation="false" modifier="sometimes" />
+    </statement>
+    <statement id="301.txt-9">
+      <text>Florets 50–90;</text>
+      <structure id="o5418" name="floret">
+        <character char_type="range_value" name="count" from="50" to="90" />
+      </structure>
+    </statement>
+    <statement id="301.txt-10">
+      <text>corollas yellow, 15–18 mm (sparsely tomentulose).</text>
+      <structure id="o5419" name="corolla">
+        <character name="coloration" value="yellow" />
+        <character char_type="range_value" name="size" from="15" from_unit="mm" to="18" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="301.txt-11">
+      <text>Cypselae brown, fusiform, 5–6 mm, apices narrowed (not beaked), ribs 15–20;</text>
+      <structure id="o5420" name="cypsela">
+        <character name="coloration" value="brown" />
+        <character name="shape" value="fusiform" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+      <structure id="o5421" name="apex">
+        <character name="size" value="narrowed" />
+      </structure>
+      <structure id="o5422" name="rib">
+        <character char_type="range_value" name="count" from="15" to="20" />
+      </structure>
+    </statement>
+    <statement id="301.txt-12">
+      <text>pappi white (soft), 5–8 mm.</text>
+      <structure id="o5423" name="pappus">
+        <character name="coloration" value="white" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="301.txt-13">
+      <text>2 n = 8.</text>
+      <structure id="o5424" name="chromosome">
+        <character name="count" value="8" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>dry, open, grassy areas</habitat>
+  <habitat>pastures</habitat>
+  <elevation>1000–2000 m;</elevation>
+  <introduced>introduced;</introduced>
+  <us_distribution>Conn.</us_distribution>
+  <global_distribution>Europe.</global_distribution>
+  <discussion>Crepis pannonica is recognized by its leafy, erect stems, broadly elliptic or obovate leaves with closely dentate margins, auriculate distal leaves, and tomentulose phyllaries.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

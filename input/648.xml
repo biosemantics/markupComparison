@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>17.</number>
+  <species_name>Antennaria howellii</species_name>
+  <authority>Greene</authority>
+  <place_of_publication>Pittonia 3: 174. 1897</place_of_publication>
+  <common_name>Howell’s pussytoes , antennaire de Howell</common_name>
+  <synonym_of_species_name>A. neglecta Greene subsp . howellii (Greene) Hultén; A. neglecta var. howellii (Greene) Cronquist; A. neodioica Greene subsp. howellii (Greene) R. J. Bayer</synonym_of_species_name>
+  <description>
+    <statement id="648.txt-0">
+      <text>Gynoecious (staminate plants very uncommon).</text>
+      <structure id="o13540" name="whole_organism">
+        <character name="reproduction" value="gynoecious" />
+      </structure>
+    </statement>
+    <statement id="648.txt-1">
+      <text>Plants (6–)8–35 cm (stems sometimes stipitate-glandular).</text>
+      <structure id="o13541" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="6" to="8" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="8" from_unit="cm" to="35" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="648.txt-2">
+      <text>Stolons 1–9(–12) cm.</text>
+      <structure id="o13542" name="stolon">
+        <character char_type="range_value" name="atypical_size" from="9" to="12" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="1" from_unit="cm" to="9" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="648.txt-3">
+      <text>Basal leaves 1-nerved, spatulate to oblanceolate, spatulate-obovate, narrowly to broadly ovate, or cuneate-oblanceolate, 20–48(–65) × 2.5–20 mm, tips mucronate, faces abaxially tomentose, adaxially green-glabrous or gray-pubescent.</text>
+      <structure id="o13543" name="leaf" constraint="basal">
+        <character name="architecture" value="1-nerved" />
+        <character name="shape" value="spatulate" />
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="spatulate-obovate" />
+        <character name="shape" value="ovate" modifier="narrowly broadly" />
+        <character name="shape" value="cuneate-oblanceolate" modifier="narrowly broadly" />
+        <character char_type="range_value" name="atypical_length" from="48" to="65" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="20" from_unit="mm" to="48" to_unit="mm" />
+        <character char_type="range_value" name="width" from="2.5" from_unit="mm" to="20" to_unit="mm" />
+      </structure>
+      <structure id="o13544" name="tip">
+        <character name="shape" value="mucronate" />
+      </structure>
+      <structure id="o13545" name="face">
+        <character name="pubescence" value="tomentose" modifier="abaxially" />
+        <character name="pubescence" value="green-glabrous" modifier="adaxially" />
+        <character name="pubescence" value="gray-pubescent" modifier="adaxially" />
+      </structure>
+    </statement>
+    <statement id="648.txt-4">
+      <text>Cauline leaves linear, 8–40 mm, distal sometimes flagged (apices acute).</text>
+      <structure id="o13546" name="leaf" constraint="cauline">
+        <character name="arrangement_or_shape" value="linear" />
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="40" to_unit="mm" />
+        <character name="insertion_or_position" value="distal" modifier="sometimes" />
+        <character name="orientation" value="flagged" />
+      </structure>
+    </statement>
+    <statement id="648.txt-5">
+      <text>Heads 3–15 in corymbiform arrays.</text>
+      <structure id="o13547" name="head">
+        <character char_type="range_value" name="count" from="3" to="15" constraint="in arrays" constraintid="o13548" />
+      </structure>
+      <structure id="o13548" name="array">
+        <character name="architecture" value="corymbiform" />
+      </structure>
+    </statement>
+    <statement id="648.txt-6">
+      <text>Involucres:</text>
+      <structure id="o13549" name="involucre" />
+    </statement>
+    <statement id="648.txt-7">
+      <text>staminate 6–6.5 mm;</text>
+      <structure id="o13550" name="involucre" constraint="staminate">
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="6.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="648.txt-8">
+      <text>pistillate 6–11 mm.</text>
+      <structure id="o13551" name="involucre" constraint="pistillate">
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="11" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="648.txt-9">
+      <text>Phyllaries (bases sometimes rose) distally white, cream, or light brown.</text>
+      <structure id="o13552" name="phyllary">
+        <character name="coloration" value="white" modifier="distally" />
+        <character name="coloration" value="cream" modifier="distally" />
+        <character name="coloration" value="brown" modifier="distally ;light" />
+      </structure>
+    </statement>
+    <statement id="648.txt-10">
+      <text>Corollas:</text>
+      <structure id="o13553" name="corolla" />
+    </statement>
+    <statement id="648.txt-11">
+      <text>staminate 3–4 mm;</text>
+      <structure id="o13554" name="corolla" constraint="staminate">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="648.txt-12">
+      <text>pistillate 3.5–6.5(–8) mm.</text>
+      <structure id="o13555" name="corolla" constraint="pistillate">
+        <character char_type="range_value" name="atypical_size" from="6.5" to="8" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="3.5" from_unit="mm" to="6.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="648.txt-13">
+      <text>Cypselae 0.8–2 mm, ± papillate;</text>
+      <structure id="o13556" name="cypsela">
+        <character char_type="range_value" name="size" from="0.8" from_unit="mm" to="2" to_unit="mm" />
+        <character name="relief_or_pubescence" value="papillate" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="648.txt-14">
+      <text>pappi:</text>
+      <structure id="o13557" name="pappus" />
+    </statement>
+    <statement id="648.txt-15">
+      <text>staminate 4–4.5 mm;</text>
+      <structure id="o13558" name="pappus" constraint="staminate">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="4.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="648.txt-16">
+      <text>pistillate 5.5–9 mm.</text>
+      <structure id="o13559" name="pappus" constraint="pistillate">
+        <character char_type="range_value" name="size" from="5.5" from_unit="mm" to="9" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="648.txt-17">
+      <text>2 n = 56, 84, 140 (under A. neodioica ).</text>
+      <structure id="o13560" name="chromosome">
+        <character name="count" value="56" />
+        <character name="count" value="84" />
+        <character name="count" value="140" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Subspecies 4 (4 in the flora):</number_of_infrataxa>
+  <general_distribution>North America.</general_distribution>
+  <discussion>The Antennaria howellii (previously A. neodioica) polyploid complex is highly variable morphologically; four more or less distinct subspecies can be recognized within it. The sexual progenitors of the complex are A. neglecta, A. plantaginifolia, A. racemosa, and A. virginica (see R. J. Bayer 1985). Antennaria marginata may also be a minor contributor to the origins of the complex. A. Cronquist (H. A. Gleason and Cronquist 1991) included members of this complex in A. neglecta; I maintain, because these apomicts are of hybrid polyploid origin from among multiple sexual progenitors, they best not be included within the circumscription of any one sexual progenitor (Bayer 1989d).</discussion>
+  <couplet>1.Basal leaves green-glabrous adaxially.</couplet>
+  <couplet>2.Basal leaves 1-nerved, 20–40 × 6–9 mm; distal cauline leaves flagged; phyllaries distally white or cream17a. Antennaria howellii subsp. canadensis</couplet>
+  <couplet>2.Basal leaves 1–3-nerved, 25–40 × 9–12 mm; distal cauline leaves not flagged; phyllaries distally light brown or white17b. Antennaria howellii subsp. howellii</couplet>
+  <couplet>1.Basal leaves pubescent adaxially (sometimes glabrescent with age).</couplet>
+  <couplet>3.Basal leaves spatulate to narrowly or broadly obovate (petiolate); stolons 3–8(–12) cm (leaves along stolons almost equal to those in rosettes at ends)17c. Antennaria howellii subsp. neodioica</couplet>
+  <couplet>3.Basal leaves cuneate-oblanceolate, spatulate, or spatulate-obovate (without distinct petioles); stolons 4–9 cm (leaves along stolons smaller than in rosettes at ends)17d. Antennaria howellii subsp. petaloidea</couplet>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>22.</number>
+  <species_name>Cirsium canescens</species_name>
+  <authority>Nuttall</authority>
+  <place_of_publication>Trans. Amer. Philos. Soc., n. s. 7: 420. 1841</place_of_publication>
+  <past_name>Circium</past_name>
+  <common_name>Platte or prairie thistle</common_name>
+  <synonym_of_species_name>Cirsium nebraskense (Britton) Lunell; C. plattense (Rydberg) Cockerell ex Daniels; C. nelsonii (Pammel) Petrak</synonym_of_species_name>
+  <description>
+    <statement id="78.txt-0">
+      <text>Biennials or monocarpic perennials , 20–100 cm;</text>
+      <structure id="o16363" name="whole_organism">
+        <character char_type="range_value" name="size" from="20" from_unit="cm" to="100" to_unit="cm" />
+        <character name="life_style" value="biennial" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="78.txt-1">
+      <text>taproots long.</text>
+      <structure id="o16365" name="taproot" />
+    </statement>
+    <statement id="78.txt-2">
+      <text>Stems usually 1, erect, ± densely gray-tomentose with fine, non-septate trichomes;</text>
+      <structure id="o16366" name="stem">
+        <character name="count" value="1" modifier="usually" />
+        <character name="orientation" value="erect" />
+        <character name="pubescence" value="gray-tomentose" modifier="± densely" constraint="with trichomes" constraintid="o16367" />
+      </structure>
+      <structure id="o16367" name="trichome">
+        <character name="texture" value="fine" />
+        <character name="architecture" value="non-septate" />
+      </structure>
+    </statement>
+    <statement id="78.txt-4">
+      <text>Leaves:</text>
+      <structure id="o16368" name="leaf" />
+    </statement>
+    <statement id="78.txt-5">
+      <text>blades oblong to elliptic or obovate, 10–25(–40) × 2–6(–12) cm, coarsely dentate or shallowly lobed to deeply pinnatifid, lobes well separated, triangular to linear or oblong, often revolute-margined, ascending to spreading, spinulose to spinose-dentate, main spines 2–3(–10) mm, faces gray-tomentose, more densely abaxially, sometimes glabrate adaxially;</text>
+      <structure id="o16369" name="blade">
+        <character char_type="range_value" name="shape" from="oblong" to="elliptic or obovate" />
+        <character name="shape" value="oblong" />
+        <character name="shape" value="elliptic" />
+        <character name="shape" value="obovate" />
+        <character char_type="range_value" name="atypical_length" from="25" to="40" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="10" from_unit="cm" to="25" to_unit="cm" />
+        <character char_type="range_value" name="atypical_width" from="6" to="12" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="width" from="2" from_unit="cm" to="6" to_unit="cm" />
+        <character char_type="range_value" name="shape" from="shallowly lobed" to="deeply pinnatifid" />
+        <character name="shape" value="dentate" modifier="coarsely" />
+        <character name="shape" value="lobed" modifier="shallowly" />
+        <character name="shape" value="pinnatifid" modifier="deeply" />
+      </structure>
+      <structure id="o16370" name="lobe">
+        <character name="arrangement" value="separated" modifier="well" />
+        <character name="shape" value="triangular" />
+        <character name="arrangement_or_shape" value="linear" />
+        <character name="shape" value="oblong" />
+        <character name="shape" value="revolute-margined" modifier="often" />
+        <character char_type="range_value" name="orientation" from="ascending" to="spreading" />
+        <character name="orientation" value="ascending" />
+        <character name="orientation" value="spreading" />
+        <character char_type="range_value" name="shape" from="spinulose" to="spinose-dentate" />
+        <character name="shape" value="spinulose" />
+        <character name="shape" value="spinose-dentate" />
+      </structure>
+      <structure id="o16371" name="spine" constraint="main">
+        <character char_type="range_value" name="atypical_size" from="3" to="10" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="3" to_unit="mm" />
+      </structure>
+      <structure id="o16372" name="face">
+        <character name="pubescence" value="gray-tomentose" />
+        <character name="pubescence" value="glabrate" modifier="sometimes ; adaxially" />
+      </structure>
+    </statement>
+    <statement id="78.txt-6">
+      <text>basal usually present at flowering, winged-petiolate;</text>
+      <structure id="o16373" name="leaf" constraint="basal">
+        <character name="presence" value="present" modifier="usually; at flowering" />
+        <character name="architecture" value="winged-petiolate" />
+      </structure>
+    </statement>
+    <statement id="78.txt-7">
+      <text>principal cauline progressively reduced distally, bases decurrent as spiny wings 1–5 cm, sometimes with expanded auricles;</text>
+      <structure id="o16374" name="leaf" constraint="principal cauline">
+        <character name="size" value="reduced" modifier="progressively ; distally" />
+      </structure>
+      <structure id="o16375" name="base">
+        <character name="shape" value="decurrent" constraint="as wings" constraintid="o16376" />
+      </structure>
+      <structure id="o16376" name="wing">
+        <character name="architecture_or_shape" value="spiny" />
+        <character char_type="range_value" name="size" from="1" from_unit="cm" to="5" to_unit="cm" />
+      </structure>
+      <structure id="o16377" name="auricle">
+        <character name="size" value="expanded" />
+      </structure>
+      <relation id="r1753" name="with" from="o16375" to="o16377" negation="false" modifier="sometimes" />
+    </statement>
+    <statement id="78.txt-8">
+      <text>distal cauline usually much reduced, less lobed.</text>
+      <structure id="o16378" name="leaf" constraint="distal cauline">
+        <character name="size" value="reduced" modifier="usually much" />
+        <character name="shape" value="lobed" modifier="less" />
+      </structure>
+    </statement>
+    <statement id="78.txt-9">
+      <text>Heads 1–10+, terminal on branches or in distal axils, in openly corymbiform to racemiform arrays.</text>
+      <structure id="o16379" name="head">
+        <character char_type="range_value" name="count" from="1" to="10" upper_restricted="false" />
+        <character name="insertion_or_position" value="terminal" constraint="on branches" constraintid="o16380" />
+      </structure>
+      <structure id="o16380" name="branch" />
+      <structure id="o16381" name="axil" constraint="distal" />
+      <relation id="r1754" name="in" from="o16379" to="o16381" negation="false" />
+      <structure id="o16382" name="array">
+        <character char_type="range_value" name="architecture" from="openly corymbiform" to="racemiform" />
+        <character name="architecture" value="corymbiform" modifier="openly" />
+        <character name="architecture" value="racemiform" modifier="openly" />
+      </structure>
+      <relation id="r1755" name="in" from="o16379" to="o16382" negation="false" />
+    </statement>
+    <statement id="78.txt-10">
+      <text>Peduncles 0–10 cm.</text>
+      <structure id="o16383" name="peduncle">
+        <character char_type="range_value" name="size" from="0" from_unit="cm" to="10" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="78.txt-11">
+      <text>Involucres hemispheric to broadly campanulate, usually truncate or indented at base, 3–4 × 2.5–4 cm in first-formed heads, often smaller (1.5–2 cm) in later ones, loosely arachnoid on phyllary margins or glabrate.</text>
+      <structure id="o16384" name="involucre">
+        <character name="shape" value="hemispheric" />
+        <character name="shape" value="campanulate" modifier="broadly" />
+        <character name="shape" value="truncate" modifier="usually" />
+        <character name="prominence" value="indented" constraint="at base" constraintid="o16385" />
+        <character char_type="range_value" name="length" from="3" from_unit="cm" to="4" to_unit="cm" />
+        <character char_type="range_value" name="width" from="2.5" from_unit="cm" to="4" to_unit="cm" constraint="in heads" constraintid="o16386" />
+        <character name="size" value="smaller" modifier="often" constraint="in ones" constraintid="o16387" />
+        <character name="pubescence" value="arachnoid" modifier="loosely" constraint="on phyllary margins" constraintid="o16388" />
+        <character name="pubescence" value="glabrate" />
+      </structure>
+      <structure id="o16385" name="base" />
+      <structure id="o16386" name="head" />
+      <structure id="o16387" name="one" constraint="later" />
+      <structure id="o16388" name="margin" constraint="phyllary" />
+    </statement>
+    <statement id="78.txt-12">
+      <text>Phyllaries in 6–9 series, imbricate, ovate-lanceolate (outer) to linear-lanceolate (inner), abaxial faces with prominent glutinous ridge;</text>
+      <structure id="o16389" name="phyllary">
+        <character name="aestivation_or_arrangement" value="imbricate" />
+        <character char_type="range_value" name="shape" from="ovate-lanceolate" to="linear-lanceolate" />
+        <character name="shape" value="ovate-lanceolate" />
+        <character name="shape" value="linear-lanceolate" />
+      </structure>
+      <structure id="o16390" name="series">
+        <character char_type="range_value" name="count" from="6" to="9" />
+      </structure>
+      <relation id="r1756" name="in" from="o16389" to="o16390" negation="false" />
+      <structure id="o16391" name="face" constraint="abaxial" />
+      <structure id="o16392" name="ridge">
+        <character name="prominence" value="prominent" />
+        <character name="coating_or_texture" value="glutinous" />
+      </structure>
+      <relation id="r1757" name="with" from="o16391" to="o16392" negation="false" />
+    </statement>
+    <statement id="78.txt-13">
+      <text>bodies of outer and middle appressed, acute, spines ascending to spreading, 2–4(–8) mm;</text>
+      <structure id="o16393" name="body">
+        <character name="orientation" value="appressed" />
+        <character name="shape" value="acute" />
+      </structure>
+      <structure id="o16394" name="phyllary" constraint="outer and middle" />
+      <relation id="r1758" name="part_of" from="o16393" to="o16394" negation="false" />
+      <structure id="o16395" name="spine">
+        <character char_type="range_value" name="orientation" from="ascending" to="spreading" />
+        <character name="orientation" value="ascending" />
+        <character name="orientation" value="spreading" />
+        <character char_type="range_value" name="atypical_size" from="4" to="8" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="78.txt-14">
+      <text>apices of inner expanded and flat, often twisted, scabrid-margined, and erose, spineless.</text>
+      <structure id="o16396" name="apex">
+        <character name="size" value="expanded" />
+        <character name="shape" value="flat" />
+        <character name="architecture" value="twisted" modifier="often" />
+        <character name="shape" value="scabrid-margined" />
+        <character name="shape_or_relief" value="erose" />
+        <character name="architecture" value="spineless" />
+      </structure>
+      <structure id="o16397" name="body" constraint="inner" />
+      <relation id="r1759" name="part_of" from="o16396" to="o16397" negation="false" />
+    </statement>
+    <statement id="78.txt-15">
+      <text>Corollas dull white or lavender-tinged, 20–35 mm, tubes 10–17 mm, throats 6–11 mm, lobes 4–9 mm;</text>
+      <structure id="o16398" name="corolla">
+        <character name="coloration" value="white" modifier="dull" />
+        <character name="coloration" value="tinged" modifier="lavender" />
+        <character char_type="range_value" name="size" from="20" from_unit="mm" to="35" to_unit="mm" />
+      </structure>
+      <structure id="o16399" name="tube">
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="17" to_unit="mm" />
+      </structure>
+      <structure id="o16400" name="throat">
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="11" to_unit="mm" />
+      </structure>
+      <structure id="o16401" name="lobe">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="9" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="78.txt-16">
+      <text>style tips 5–8 mm.</text>
+      <structure id="o16402" name="tip" constraint="style">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="78.txt-17">
+      <text>Cypselae light brown, 5–7 mm, sometimes with darker streaks, apical collar very narrow, lighter colored;</text>
+      <structure id="o16403" name="cypsela">
+        <character name="coloration" value="brown" modifier="light" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+      <structure id="o16404" name="streak">
+        <character name="coloration" value="darker" />
+      </structure>
+      <relation id="r1760" name="with" from="o16403" to="o16404" negation="false" modifier="sometimes" />
+      <structure id="o16405" name="collar" constraint="apical">
+        <character name="size" value="narrow" modifier="very" />
+        <character name="coloration" value="colored" modifier="lighter" />
+      </structure>
+    </statement>
+    <statement id="78.txt-18">
+      <text>pappi 18–30 mm, usually noticeably shorter than corolla.</text>
+      <structure id="o16406" name="pappus">
+        <character char_type="range_value" name="size" from="18" from_unit="mm" to="30" to_unit="mm" />
+        <character name="size" value="shorter" modifier="usually noticeably" constraint="than corolla" constraintid="o16407" />
+      </structure>
+      <structure id="o16407" name="corolla" />
+    </statement>
+    <statement id="78.txt-19">
+      <text>2 n = 34, 36.</text>
+      <structure id="o16408" name="chromosome">
+        <character name="count" value="34" />
+        <character name="count" value="36" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>sandy or gravelly soils in short-grass prairie</habitat>
+  <habitat>often in disturbed areas</habitat>
+  <habitat>mountain meadows</habitat>
+  <habitat>grassy slopes in montane coniferous forests</habitat>
+  <elevation>1100–3800 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Mo.</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>Nebr.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>S.Dak.</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <discussion>Cirsium canescens grows in the northern Great Plains from eastern Montana and Wyoming to eastern Colorado and Nebraska; an upland race occurs in the Rocky Mountains of eastern Colorado. It has been reported from Iowa, North Dakota, and Ohio; I have not seen specimens from those states. It is adventive in northeastern California.</discussion>
+  <discussion>Cirsium canescens hybridizes locally with C. scariosum and C. parryi. Further investigations may reveal that high-elevation forms of C. canescens from the mountains of Colorado are worthy of taxonomic recognition. These plants flower later than the low elevation forms of the Great Plains and occur in rather different ecologic conditions, but I have found no features that readily distinguish them. Populations of C. canescens have been particularly affected by the seedhead weevil Rhinocyllus conicus, introduced to North America to control weedy species of Carduus (S. M. Louda et al. 1997; Louda 1998).</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>3.</number>
+  <species_name>Stylocline sonorensis</species_name>
+  <authority>Wiggins</authority>
+  <place_of_publication>Contr. Dudley Herb. 4: 26. 1950</place_of_publication>
+  <common_name>Sonoran or mesquite neststraw</common_name>
+  <description>
+    <statement id="748.txt-0">
+      <text>Plants 2–10(–15) cm.</text>
+      <structure id="o15746" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="10" to="15" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="2" from_unit="cm" to="10" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="748.txt-1">
+      <text>Leaves blunt (proximal) or acute (median and distal), mucronate, longest 6–13 mm;</text>
+      <structure id="o15747" name="leaf">
+        <character name="shape" value="blunt" />
+        <character name="shape" value="acute" />
+        <character name="shape" value="mucronate" />
+        <character name="size" value="longest" />
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="13" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="748.txt-2">
+      <text>largest capitular leaves ± elliptic to narrowly ovate, 3–10 × 2–3 mm.</text>
+      <structure id="o15748" name="leaf" constraint="largest capitular">
+        <character char_type="range_value" name="shape" from="elliptic" to="narrowly ovate" modifier="±" />
+        <character name="shape" value="elliptic" modifier="±" />
+        <character name="shape" value="ovate" modifier="narrowly" />
+        <character char_type="range_value" name="length" from="3" from_unit="mm" to="10" to_unit="mm" />
+        <character char_type="range_value" name="width" from="2" from_unit="mm" to="3" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="748.txt-3">
+      <text>Heads in cymiform to ± paniculiform, sometimes dichasi-form arrays, ± spheric, largest 3.5–4.5 × 3–4 mm, thickly lanuginose.</text>
+      <structure id="o15749" name="head">
+        <character name="shape" value="spheric" modifier="±" />
+        <character name="size" value="largest" />
+        <character char_type="range_value" name="length" from="3.5" from_unit="mm" to="4.5" to_unit="mm" />
+        <character char_type="range_value" name="width" from="3" from_unit="mm" to="4" to_unit="mm" />
+        <character name="pubescence" value="lanuginose" modifier="thickly" />
+      </structure>
+      <structure id="o15750" name="array">
+        <character name="architecture" value="cymiform" />
+        <character name="architecture" value="paniculiform" modifier="±" />
+        <character name="arrangement" value="dichasi-form" modifier="sometimes" />
+      </structure>
+      <relation id="r1699" name="in" from="o15749" to="o15750" negation="false" />
+    </statement>
+    <statement id="748.txt-4">
+      <text>Phyllaries 0, vestigial, or falling, ± subulate, mostly 0.1–0.5 mm, unequal.</text>
+      <structure id="o15751" name="phyllary">
+        <character name="count" value="0" />
+        <character name="manifestation" value="vestigial" />
+        <character name="orientation" value="falling" />
+        <character name="shape" value="subulate" modifier="±" />
+        <character char_type="range_value" name="size" from="0.1" from_unit="mm" to="0.5" to_unit="mm" modifier="mostly" />
+        <character name="size" value="unequal" />
+      </structure>
+    </statement>
+    <statement id="748.txt-5">
+      <text>Receptacles clavate, 1.2–2.2 mm, heights 2.8–3.5 times diams.;</text>
+      <structure id="o15752" name="receptacle">
+        <character name="shape" value="clavate" />
+        <character char_type="range_value" name="size" from="1.2" from_unit="mm" to="2.2" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="748.txt-6">
+      <text>scars ± evenly distributed, mamillate.</text>
+      <structure id="o15753" name="scar">
+        <character name="arrangement" value="distributed" modifier="± evenly" />
+        <character name="relief" value="mamillate" />
+      </structure>
+    </statement>
+    <statement id="748.txt-7">
+      <text>Pistillate paleae:</text>
+      <structure id="o15754" name="palea" constraint="pistillate" />
+    </statement>
+    <statement id="748.txt-8">
+      <text>longest 1.9–3.1 mm, winged distally;</text>
+      <structure id="o15755" name="palea" constraint="longest">
+        <character char_type="range_value" name="size" from="1.9" from_unit="mm" to="3.1" to_unit="mm" />
+        <character name="architecture" value="winged" modifier="distally" />
+      </structure>
+    </statement>
+    <statement id="748.txt-10">
+      <text>bodies (except midnerves) chartaceous;</text>
+      <structure id="o15756" name="body">
+        <character name="texture" value="chartaceous" />
+      </structure>
+    </statement>
+    <statement id="748.txt-11">
+      <text>outermost paleae ± saccate.</text>
+      <structure id="o15757" name="palea" constraint="outermost">
+        <character name="architecture_or_shape" value="saccate" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="748.txt-12">
+      <text>Functionally staminate florets 2–5;</text>
+      <structure id="o15758" name="floret" constraint="functionally staminate">
+        <character char_type="range_value" name="count" from="2" to="5" />
+      </structure>
+    </statement>
+    <statement id="748.txt-13">
+      <text>ovaries partially developed, 0.3–0.6 mm;</text>
+      <structure id="o15759" name="ovary">
+        <character name="development" value="developed" modifier="partially" />
+        <character char_type="range_value" name="size" from="0.3" from_unit="mm" to="0.6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="748.txt-14">
+      <text>corollas 0.9–1.4 mm.</text>
+      <structure id="o15760" name="corolla">
+        <character char_type="range_value" name="size" from="0.9" from_unit="mm" to="1.4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="748.txt-15">
+      <text>Cypselae 0.6–0.8 mm, slightly compressed;</text>
+      <structure id="o15761" name="cypsela">
+        <character char_type="range_value" name="size" from="0.6" from_unit="mm" to="0.8" to_unit="mm" />
+        <character name="shape" value="compressed" modifier="slightly" />
+      </structure>
+    </statement>
+    <statement id="748.txt-16">
+      <text>pappi:</text>
+      <structure id="o15762" name="pappus" />
+    </statement>
+    <statement id="748.txt-17">
+      <text>staminate of (1–)3–8 barbellate bristles 0.9–1.3 mm (proximal barbs longer, spreading).</text>
+      <structure id="o15763" name="pappus" constraint="staminate" />
+      <structure id="o15764" name="bristle">
+        <character char_type="range_value" name="atypical_count" from="1" to="3" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="3" to="8" />
+        <character name="architecture" value="barbellate" />
+        <character char_type="range_value" name="size" from="0.9" from_unit="mm" to="1.3" to_unit="mm" />
+      </structure>
+      <relation id="r1700" name="consist_of" from="o15763" to="o15764" negation="false" />
+    </statement>
+  </description>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <habitat>grassy hillsides</habitat>
+  <habitat>sandy drainages</habitat>
+  <habitat>with mesquite (prosopis</habitat>
+  <elevation>400–1400 m;</elevation>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <global_distribution>Mexico (Sonora).</global_distribution>
+  <discussion>Stylocline sonorensis is known from southeastern Arizona and northeastern Sonora. A disjunct, 1930 California occurrence was from apparently suitable habitat; recent searches have not relocated it.</discussion>
+  <discussion>Stylocline sonorensis is illustrated in J. D. Morefield (1992). It is superficially similar to S. citroleum; its closest relative is S. micropoides. Its ancestors may have been hybrid products involving Logfia depressa or its progenitors (Morefield).</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>2.</number>
+  <species_name>Carduus crispus</species_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 821. 1753</place_of_publication>
+  <common_name>Welted or curled thistle, chardon crépu</common_name>
+  <description>
+    <statement id="46.txt-0">
+      <text>Annuals or biennials , 30–150 cm.</text>
+      <structure id="o9069" name="whole_organism">
+        <character char_type="range_value" name="size" from="30" from_unit="cm" to="150" to_unit="cm" />
+        <character name="life_style" value="annual" />
+        <character name="life_style" value="biennial" />
+      </structure>
+    </statement>
+    <statement id="46.txt-1">
+      <text>Stems openly branching, villous with curled, septate hairs to nearly glabrous, spiny wings to 1.5 cm wide, wing spines to 3 mm.</text>
+      <structure id="o9071" name="stem">
+        <character name="architecture" value="branching" modifier="openly" />
+        <character name="pubescence" value="villous" constraint="with hairs" constraintid="o9072" />
+      </structure>
+      <structure id="o9072" name="hair">
+        <character name="shape" value="curled" />
+        <character name="architecture" value="septate" />
+        <character name="pubescence" value="glabrous" modifier="nearly" />
+      </structure>
+      <structure id="o9073" name="wing">
+        <character name="architecture_or_shape" value="spiny" />
+        <character char_type="range_value" name="width" to="1.5" to_unit="cm" />
+      </structure>
+      <structure id="o9074" name="spine" constraint="wing">
+        <character char_type="range_value" name="size" to="3" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="46.txt-2">
+      <text>Leaves :</text>
+      <structure id="o9075" name="leaf" />
+    </statement>
+    <statement id="46.txt-3">
+      <text>basal tapering to winged petioles, blades 10–20 cm, margins spiny-toothed to ± shallowly pinnately lobed;</text>
+      <structure id="o9076" name="leaf" constraint="basal">
+        <character name="shape" value="tapering" />
+      </structure>
+      <structure id="o9077" name="petiole">
+        <character name="architecture" value="winged" />
+      </structure>
+      <structure id="o9078" name="blade">
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="20" to_unit="cm" />
+      </structure>
+      <structure id="o9079" name="margin" />
+      <structure id="o9080" name="petiole">
+        <character name="insertion_or_position" value="basal" />
+        <character name="shape" value="tapering" />
+        <character name="architecture" value="winged" />
+        <character name="shape" value="lobed" modifier="± shallowly pinnately" />
+      </structure>
+      <relation id="r1058" name="spiny-toothed to" from="o9079" to="o9080" negation="false" />
+    </statement>
+    <statement id="46.txt-4">
+      <text>cauline sessile, gradually smaller, margins often more deeply divided, marginal spines to 3 mm;</text>
+      <structure id="o9081" name="leaf" constraint="cauline">
+        <character name="architecture" value="sessile" />
+        <character name="size" value="smaller" modifier="gradually" />
+      </structure>
+      <structure id="o9082" name="margin">
+        <character name="shape" value="divided" modifier="deeply" />
+      </structure>
+      <structure id="o9083" name="spine" constraint="marginal">
+        <character char_type="range_value" name="size" to="3" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="46.txt-5">
+      <text>abaxial leaf faces ± tomentose with long, one-celled hairs and/or long, curled, septate hairs along veins or glabrate;</text>
+      <structure id="o9084" name="face" constraint="abaxial leaf">
+        <character name="pubescence" value="tomentose" modifier="±" constraint="with hairs" constraintid="o9085" />
+        <character name="shape" value="curled" />
+      </structure>
+      <structure id="o9085" name="hair">
+        <character name="size" value="long" />
+        <character name="architecture" value="one-celled" />
+      </structure>
+      <structure id="o9086" name="hair">
+        <character name="architecture" value="septate" />
+        <character name="pubescence" value="glabrate" />
+      </structure>
+      <structure id="o9087" name="vein" />
+      <relation id="r1059" name="along" from="o9086" to="o9087" negation="false" />
+    </statement>
+    <statement id="46.txt-6">
+      <text>adaxial faces sparsely hairy or glabrate.</text>
+      <structure id="o9088" name="face" constraint="adaxial">
+        <character name="pubescence" value="hairy" modifier="sparsely" />
+        <character name="pubescence" value="glabrate" modifier="sparsely" />
+      </structure>
+    </statement>
+    <statement id="46.txt-7">
+      <text>Heads borne singly or in groups of 2–5, 15–18 mm.</text>
+      <structure id="o9089" name="head">
+        <character name="arrangement" value="singly" />
+        <character name="arrangement" value="in groups" />
+      </structure>
+      <structure id="o9090" name="group" constraint="of 2-5, 15-18 mm" />
+      <relation id="r1060" name="in" from="o9089" to="o9090" negation="false" />
+    </statement>
+    <statement id="46.txt-8">
+      <text>Peduncles spiny-winged to near apex or throughout, to 4 cm.</text>
+      <structure id="o9091" name="peduncle">
+        <character name="architecture" value="spiny-winged" constraint="near apex" constraintid="o9092" />
+        <character char_type="range_value" name="size" to="4" to_unit="cm" />
+      </structure>
+      <structure id="o9092" name="apex" />
+    </statement>
+    <statement id="46.txt-9">
+      <text>Involucres ± spheric, 12–17 × 12–17 mm.</text>
+      <structure id="o9093" name="involucre">
+        <character name="shape" value="spheric" modifier="±" />
+        <character char_type="range_value" name="length" from="12" from_unit="mm" to="17" to_unit="mm" />
+        <character char_type="range_value" name="width" from="12" from_unit="mm" to="17" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="46.txt-10">
+      <text>Phyllaries narrowly lanceolate, outer and middle with appressed bases ca. 1 mm wide and appressed to spreading appendages 0.5–1 mm wide, spine tips 1–1.5 mm, inner with unarmed, straight tips.</text>
+      <structure id="o9094" name="phyllary">
+        <character name="shape" value="lanceolate" modifier="narrowly" />
+        <character name="position" value="outer" />
+        <character name="size" value="1" unit="mm" />
+      </structure>
+      <structure id="o9095" name="middle" />
+      <structure id="o9096" name="base">
+        <character name="orientation" value="appressed" />
+      </structure>
+      <relation id="r1061" name="with" from="o9095" to="o9096" negation="false" />
+      <structure id="o9097" name="appendage">
+        <character char_type="range_value" name="orientation" from="appressed" to="spreading" />
+        <character name="orientation" value="appressed" />
+        <character name="orientation" value="spreading" />
+        <character char_type="range_value" name="size" from="0.5" from_unit="mm" to="1" to_unit="mm" />
+      </structure>
+      <structure id="o9098" name="tip" constraint="spine">
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="1.5" to_unit="mm" />
+        <character name="position" value="inner" constraint="with tips" constraintid="o9099" />
+      </structure>
+      <structure id="o9099" name="tip">
+        <character name="architecture" value="unarmed" />
+        <character name="course" value="straight" />
+      </structure>
+    </statement>
+    <statement id="46.txt-11">
+      <text>Corollas purple or ± white, 11–16 mm, lobes ca. 3.5 times length of throat.</text>
+      <structure id="o9100" name="corolla">
+        <character name="coloration" value="purple" />
+        <character name="coloration" value="white" modifier="±" />
+        <character char_type="range_value" name="size" from="11" from_unit="mm" to="16" to_unit="mm" />
+      </structure>
+      <structure id="o9101" name="lobe">
+        <character name="CHARACTER" value="length" modifier="3.5 times" constraint="of throat" constraintid="o9102" />
+      </structure>
+      <structure id="o9102" name="throat" />
+    </statement>
+    <statement id="46.txt-12">
+      <text>Cypselae light brown to gray-brown, 2.5–3.8 mm;</text>
+      <structure id="o9103" name="cypsela">
+        <character char_type="range_value" name="coloration" from="light-brown" to="gray-brown" />
+        <character name="coloration" value="brown" modifier="light" />
+        <character name="coloration" value="brown" modifier="gray" />
+        <character char_type="range_value" name="size" from="2.5" from_unit="mm" to="3.8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="46.txt-13">
+      <text>pappus bristles 11–13 mm.</text>
+      <structure id="o9104" name="bristle" constraint="pappus">
+        <character char_type="range_value" name="size" from="11" from_unit="mm" to="13" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="46.txt-14">
+      <text>2 n = 16 (Sweden).</text>
+      <structure id="o9105" name="chromosome">
+        <character name="count" value="16" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <flowering_time>nov</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <habitat>weed of waste ground</habitat>
+  <habitat>pastures</habitat>
+  <habitat>roadsides</habitat>
+  <habitat>fields</habitat>
+  <elevation>0–500 m;</elevation>
+  <introduced>introduced;</introduced>
+  <ca_distribution>B.C.</ca_distribution>
+  <ca_distribution>N.B.</ca_distribution>
+  <ca_distribution>N.S.</ca_distribution>
+  <ca_distribution>Ont.</ca_distribution>
+  <ca_distribution>Que.</ca_distribution>
+  <us_distribution>N.J.</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <global_distribution>Eurasia.</global_distribution>
+  <discussion>Canadian distributions above follow R. J. Moore and C. Frankton (1974); I have not seen those specimens. Carduus crispus has been reported also from Arkansas, Connecticut, Iowa, Illinois, Maine, Maryland, Massachusetts, Missouri, New York, North Dakota, Ohio, Rhode Island, Vermont, Virginia, and West Virginia; I have not seen specimens from those states.</discussion>
+  <discussion>Two subspecies of Carduus crispus have been recognized (S. M. A. Kazmi 1964); those are not differentiated here.</discussion>
+  <discussion>Carduus crispus closely resembles the much more common C. acanthoides. Some published records of C. crispus are probably C. acanthoides. Although the degree of spininess and tough versus brittle stems were used as key characters (A. Cronquist 1980; H. A. Gleason and A. Cronquist 1991) to differentiate the two taxa, both characters are subjective, and the second is impractical with dry material.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>8.</number>
+  <genus_name>CARLINA</genus_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 828. 1753; Gen. Pl. ed. 5, 360. 1754</place_of_publication>
+  <common_name>Carline-thistle</common_name>
+  <derivation>For Charles V, 1500–1558, Holy Roman Emperor</derivation>
+  <author_of_tribe_genus>David J. Keil</author_of_tribe_genus>
+  <description>
+    <statement id="26.txt-0">
+      <text>Biennials [annuals or perennials, shrubs, or dwarf trees], 10–80 cm , herbage spiny .</text>
+      <structure id="o4467" name="whole_organism">
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="80" to_unit="cm" />
+        <character name="life_style" value="biennial" />
+      </structure>
+      <structure id="o4468" name="herbage">
+        <character name="architecture_or_shape" value="spiny" />
+      </structure>
+    </statement>
+    <statement id="26.txt-1">
+      <text>Stems erect or spreading, simple to branched distally or throughout , branches ascending to spreading.</text>
+      <structure id="o4469" name="stem">
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="spreading" />
+        <character char_type="range_value" name="architecture" from="simple" to="branched distally" />
+        <character name="architecture" value="simple" modifier="distally" />
+        <character name="architecture" value="branched" modifier="distally" />
+        <character name="architecture" value="branched" modifier="distally; throughout" />
+      </structure>
+      <structure id="o4470" name="branch">
+        <character char_type="range_value" name="orientation" from="ascending" to="spreading" />
+        <character name="orientation" value="ascending" />
+        <character name="orientation" value="spreading" />
+      </structure>
+    </statement>
+    <statement id="26.txt-2">
+      <text>Leaves basal and cauline [all cauline];</text>
+    </statement>
+    <statement id="26.txt-3">
+      <text>petiolate or sessile;</text>
+      <structure id="o4471" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="architecture" value="petiolate" />
+        <character name="architecture" value="sessile" />
+      </structure>
+    </statement>
+    <statement id="26.txt-4">
+      <text>blade margins dentate to pinnately lobed, ± spiny, faces ± tomentose or glabrate.</text>
+      <structure id="o4472" name="margin" constraint="blade">
+        <character char_type="range_value" name="shape" from="dentate" to="pinnately lobed" />
+        <character name="shape" value="dentate" />
+        <character name="shape" value="lobed" modifier="pinnately" />
+        <character name="architecture_or_shape" value="spiny" modifier="±" />
+      </structure>
+      <structure id="o4473" name="face">
+        <character name="pubescence" value="tomentose" modifier="±" />
+        <character name="pubescence" value="glabrate" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="26.txt-5">
+      <text>Heads discoid, borne singly or in corymbiform arrays.</text>
+      <structure id="o4474" name="head">
+        <character name="shape_or_architecture" value="discoid" />
+        <character name="arrangement" value="singly" />
+        <character name="arrangement" value="in corymbiform arrays" />
+      </structure>
+      <structure id="o4475" name="array">
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <relation id="r612" name="in" from="o4474" to="o4475" negation="false" />
+    </statement>
+    <statement id="26.txt-6">
+      <text>Involucres hemispheric to campanulate.</text>
+      <structure id="o4476" name="involucre">
+        <character char_type="range_value" name="shape" from="hemispheric" to="campanulate" />
+        <character name="shape" value="hemispheric" />
+        <character name="shape" value="campanulate" />
+      </structure>
+    </statement>
+    <statement id="26.txt-7">
+      <text>Phyllaries many in several series , outer ovate to lanceolate, bases appressed; (at least outer ± leaflike);</text>
+      <structure id="o4477" name="phyllary">
+        <character name="count" value="many" constraint="in series" constraintid="o4478" />
+        <character char_type="range_value" name="shape" from="outer ovate" to="lanceolate" />
+        <character name="shape" value="lanceolate" />
+      </structure>
+      <structure id="o4478" name="series">
+        <character name="count" value="several" />
+      </structure>
+      <structure id="o4479" name="base">
+        <character name="orientation" value="appressed" />
+      </structure>
+    </statement>
+    <statement id="26.txt-8">
+      <text>middle smaller, scarious, margins spiny-dentate or -lobed, apical appendages spine-tipped, inner apices spreading, membranous, white to stramineous, raylike, entire .</text>
+      <structure id="o4480" name="phyllary" constraint="middle">
+        <character name="size" value="smaller" />
+        <character name="texture" value="scarious" />
+      </structure>
+      <structure id="o4481" name="margin">
+        <character name="shape" value="spiny-dentate-or-lobed" />
+      </structure>
+      <structure id="o4482" name="appendage" constraint="apical" />
+      <structure id="o4483" name="apex" constraint="inner">
+        <character name="orientation" value="spreading" />
+        <character name="texture" value="membranous" />
+        <character char_type="range_value" name="coloration" from="white" to="stramineous" />
+        <character name="coloration" value="white" />
+        <character name="coloration" value="stramineous" />
+        <character name="shape" value="raylike" />
+        <character name="shape" value="entire" />
+      </structure>
+    </statement>
+    <statement id="26.txt-9">
+      <text>Receptacles flat to conic, epaleaete scaly or bristly (each floret surrounded by ± connate, membranous scales dissected into linear lobes).</text>
+      <structure id="o4484" name="receptacle">
+        <character char_type="range_value" name="shape" from="flat" to="conic" />
+        <character name="shape" value="flat" />
+        <character name="shape" value="conic" />
+        <character name="pubescence" value="bristly" />
+      </structure>
+    </statement>
+    <statement id="26.txt-10">
+      <text>Florets many;</text>
+      <structure id="o4485" name="floret">
+        <character name="count" value="many" />
+      </structure>
+    </statement>
+    <statement id="26.txt-11">
+      <text>corollas yellow to maroon, tubular-funnelform, lobes triangular;</text>
+      <structure id="o4486" name="corolla">
+        <character char_type="range_value" name="coloration" from="yellow" to="maroon" />
+        <character name="coloration" value="yellow" />
+        <character name="coloration" value="maroon" />
+        <character name="shape" value="tubular-funnelform" />
+      </structure>
+      <structure id="o4487" name="lobe">
+        <character name="shape" value="triangular" />
+      </structure>
+    </statement>
+    <statement id="26.txt-12">
+      <text>anther bases tailed, linear-oblong, apical appendages acute;</text>
+      <structure id="o4488" name="base" constraint="anther">
+        <character name="shape" value="tailed" />
+        <character name="shape" value="linear-oblong" />
+      </structure>
+      <structure id="o4489" name="appendage" constraint="apical">
+        <character name="shape" value="acute" />
+      </structure>
+    </statement>
+    <statement id="26.txt-13">
+      <text>style branches:</text>
+      <structure id="o4490" name="branch" constraint="style" />
+    </statement>
+    <statement id="26.txt-14">
+      <text>fused portions ca. 0.5 mm, with basal nodes glabrous or minutely hairy, distally puberulent , distinct portions tapered, not or scarcely separating .</text>
+      <structure id="o4491" name="portion" constraint="fused">
+        <character name="size" value="0.5" unit="mm" />
+        <character name="pubescence" value="hairy" modifier="minutely" />
+        <character name="pubescence" value="puberulent" modifier="distally" />
+      </structure>
+      <structure id="o4492" name="node" constraint="basal">
+        <character name="pubescence" value="glabrous" />
+      </structure>
+      <relation id="r613" name="with" from="o4491" to="o4492" negation="false" />
+      <structure id="o4493" name="portion">
+        <character name="fusion" value="distinct" />
+        <character name="shape" value="tapered" />
+        <character name="arrangement" value="separating" modifier="not scarcely" />
+      </structure>
+    </statement>
+    <statement id="26.txt-15">
+      <text>Cypselae cylindric to fusiform, not ribbed, without apical rim , hairy with forked, 2-celled hairs, attachment scars basal-oblique;</text>
+      <structure id="o4494" name="cypsela">
+        <character char_type="range_value" name="shape" from="cylindric" to="fusiform" />
+        <character name="shape" value="cylindric" />
+        <character name="shape" value="fusiform" />
+        <character name="architecture_or_shape" value="ribbed" modifier="not" />
+        <character name="pubescence" value="hairy" constraint="with hairs" constraintid="o4496" />
+      </structure>
+      <structure id="o4495" name="rim" constraint="apical" />
+      <relation id="r614" name="without" from="o4494" to="o4495" negation="false" />
+      <structure id="o4496" name="hair">
+        <character name="shape" value="forked" />
+        <character name="architecture" value="2-celled" />
+      </structure>
+      <structure id="o4497" name="scar" constraint="attachment">
+        <character name="shape_or_orientation" value="basal-oblique" />
+      </structure>
+    </statement>
+    <statement id="26.txt-16">
+      <text>pappi readily falling, of many persistent bristles in 1 series, basally connate in groups of 3–10, plumose.</text>
+      <structure id="o4498" name="pappus">
+        <character name="orientation" value="falling" modifier="readily" />
+        <character name="fusion" value="connate" modifier="basally" constraint="in groups" constraintid="o4501" />
+        <character name="architecture" value="plumose" />
+      </structure>
+      <structure id="o4499" name="bristle" constraint="persistent">
+        <character name="count" value="many" />
+      </structure>
+      <relation id="r615" name="consist_of" from="o4498" to="o4499" negation="false" />
+      <structure id="o4500" name="series">
+        <character name="count" value="1" />
+      </structure>
+      <relation id="r616" name="in" from="o4499" to="o4500" negation="false" />
+      <structure id="o4501" name="group">
+        <character char_type="range_value" name="count" from="3" to="10" modifier="of" />
+      </structure>
+    </statement>
+    <statement id="26.txt-17">
+      <text>x = 9, 10.</text>
+      <structure id="o4502" name="chromosome">
+        <character name="count" value="9" />
+        <character name="count" value="10" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species 28 (1 in the flora):</number_of_infrataxa>
+  <introduced>introduced;</introduced>
+  <general_distribution>Eurasia</general_distribution>
+  <general_distribution>Mediterranean region</general_distribution>
+  <general_distribution>Macaronesia.</general_distribution>
+  <references>SELECTED REFERENCES Meusel, H. and A. Kästner. 1990. Lebensgeschichte der Gold- und Silberdisteln. Monographie der Mediterran–Mitteleuropaischen Compositen-Gattung Carlina Band I. Merkmalsspektren und Lebensraume der Gattung. Denkschr. Öesterr. Akad. Wiss., Math.-Naturwiss. Kl. 127: 1–294. Meusel, H. and A. Kästner. 1994. Lebensgeschichte der Gold- und Silberdisteln. Monographie der Mediterran–Mitteleuropaischen Compositen-Gattung Carlina Band II. Artenvielfalt und Stammesgeschichte der Gattung. Denkschr. Öesterr. Akad. Wiss., Math.-Naturwiss. Kl. 128: 1–657. Meusel, H., A. Kästner, and E. Vitek. 1996. The evolution of Carlina—A hypothesis based on ecogeography. In: D. J. N. Hind et al., eds. 1996. Proceedings of the International Compositae Conference, Kew, 1994. 2 vols. Kew. Vol. 1, pp. 723–737.</references>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

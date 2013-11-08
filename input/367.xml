@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>9.</number>
+  <species_name>Prenanthes crepidinea</species_name>
+  <authority>Michaux</authority>
+  <place_of_publication>Fl. Bor.-Amer. 2: 84. 1803</place_of_publication>
+  <common_name>Nodding rattlesnakeroot</common_name>
+  <synonym_of_species_name>Nabalus crepidineus (Michaux) de Candolle</synonym_of_species_name>
+  <description>
+    <statement id="367.txt-0">
+      <text>Plants 100–300 cm;</text>
+      <structure id="o6929" name="whole_organism">
+        <character char_type="range_value" name="size" from="100" from_unit="cm" to="300" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="367.txt-1">
+      <text>taproots fusiform, thick and tuberous.</text>
+      <structure id="o6930" name="taproot">
+        <character name="shape" value="fusiform" />
+        <character name="thickness" value="thick" />
+        <character name="architecture" value="tuberous" />
+      </structure>
+    </statement>
+    <statement id="367.txt-2">
+      <text>Stems erect, green to tan, glabrous proximally, tomentose distally.</text>
+      <structure id="o6931" name="stem">
+        <character name="orientation" value="erect" />
+        <character char_type="range_value" name="coloration" from="green" to="tan" />
+        <character name="coloration" value="green" />
+        <character name="coloration" value="tan" />
+        <character name="pubescence" value="glabrous" modifier="proximally" />
+        <character name="pubescence" value="tomentose" modifier="distally" />
+      </structure>
+    </statement>
+    <statement id="367.txt-3">
+      <text>Leaves:</text>
+      <structure id="o6932" name="leaf" />
+    </statement>
+    <statement id="367.txt-4">
+      <text>proximal present at flowering;</text>
+    </statement>
+    <statement id="367.txt-5">
+      <text>petiolate (petioles winged, 1–13 cm, margins some-times serrate);</text>
+      <structure id="o6933" name="leaf" constraint="proximal">
+        <character name="presence" value="present" modifier="at flowering" />
+        <character name="architecture" value="petiolate" />
+      </structure>
+    </statement>
+    <statement id="367.txt-6">
+      <text>blades deltate to broadly ovate, 8–23 × 3–14 cm, coriaceous, bases hastate or sagittate, margins entire or coarsely dentate to serrate (teeth often large and remote), faces glabrous or scabrous, hirsute along veins;</text>
+      <structure id="o6934" name="blade">
+        <character char_type="range_value" name="shape" from="deltate" to="broadly ovate" />
+        <character name="shape" value="deltate" />
+        <character name="shape" value="ovate" modifier="broadly" />
+        <character char_type="range_value" name="length" from="8" from_unit="cm" to="23" to_unit="cm" />
+        <character char_type="range_value" name="width" from="3" from_unit="cm" to="14" to_unit="cm" />
+        <character name="texture" value="coriaceous" />
+      </structure>
+      <structure id="o6935" name="base">
+        <character name="shape" value="hastate" />
+        <character name="shape" value="sagittate" />
+      </structure>
+      <structure id="o6936" name="margin">
+        <character char_type="range_value" name="shape" from="coarsely dentate" to="serrate" />
+        <character name="shape" value="entire" />
+        <character name="shape" value="dentate" modifier="coarsely" />
+        <character name="shape" value="serrate" modifier="coarsely" />
+      </structure>
+      <structure id="o6937" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence_or_relief" value="scabrous" />
+        <character name="pubescence" value="hirsute" constraint="along veins" constraintid="o6938" />
+      </structure>
+      <structure id="o6938" name="vein" />
+    </statement>
+    <statement id="367.txt-7">
+      <text>distal petiolate or sessile, ovate or elliptic, entire.</text>
+      <structure id="o6939" name="leaf" constraint="distal">
+        <character name="shape" value="ovate" />
+        <character name="arrangement_or_shape" value="elliptic" />
+        <character name="shape" value="entire" />
+      </structure>
+    </statement>
+    <statement id="367.txt-8">
+      <text>Heads in broad, open, (leafy) paniculiform arrays (branches often elongate, nodding).</text>
+      <structure id="o6940" name="head" />
+      <structure id="o6941" name="array">
+        <character name="size" value="broad" />
+        <character name="architecture" value="open" />
+        <character name="architecture" value="paniculiform" />
+      </structure>
+      <relation id="r857" name="in" from="o6940" to="o6941" negation="false" />
+    </statement>
+    <statement id="367.txt-9">
+      <text>Calyculi of 18–20 dark green, triangular to lanceolate bractlets 2–5 mm, coarsely setose.</text>
+      <structure id="o6942" name="calyculus">
+        <character name="pubescence" value="setose" modifier="coarsely" />
+      </structure>
+      <structure id="o6943" name="bractlet">
+        <character char_type="range_value" name="count" from="18" to="20" />
+        <character name="coloration" value="green" modifier="dark" />
+        <character char_type="range_value" name="shape" from="triangular" to="lanceolate" />
+        <character name="shape" value="triangular" />
+        <character name="shape" value="lanceolate" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+      <relation id="r858" name="consist_of" from="o6942" to="o6943" negation="false" />
+    </statement>
+    <statement id="367.txt-10">
+      <text>Involucres campanulate, 12–16 × 7–14 mm.</text>
+      <structure id="o6944" name="involucre">
+        <character name="shape" value="campanulate" />
+        <character char_type="range_value" name="length" from="12" from_unit="mm" to="16" to_unit="mm" />
+        <character char_type="range_value" name="width" from="7" from_unit="mm" to="14" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="367.txt-11">
+      <text>Phyllaries 9–15, dark green to blackish, lanceolate to elliptic, 10–16 mm, margins scarious, moderately to densely , ± coarsely setose on midribs.</text>
+      <structure id="o6945" name="phyllary">
+        <character char_type="range_value" name="count" from="9" to="15" />
+        <character char_type="range_value" name="coloration" from="dark-green" to="blackish" />
+        <character name="coloration" value="green" modifier="dark" />
+        <character name="coloration" value="blackish" />
+        <character char_type="range_value" name="shape" from="lanceolate" to="elliptic" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="elliptic" />
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="16" to_unit="mm" />
+      </structure>
+      <structure id="o6946" name="margin">
+        <character name="texture" value="scarious" />
+        <character name="pubescence" value="setose" modifier="± coarsely" constraint="on midribs" constraintid="o6947" />
+      </structure>
+      <structure id="o6947" name="midrib" />
+    </statement>
+    <statement id="367.txt-12">
+      <text>Florets 15–38;</text>
+      <structure id="o6948" name="floret">
+        <character char_type="range_value" name="count" from="15" to="38" />
+      </structure>
+    </statement>
+    <statement id="367.txt-13">
+      <text>corollas usually white, sometimes yellow, 9–15 mm.</text>
+      <structure id="o6949" name="corolla">
+        <character name="coloration" value="white" modifier="usually" />
+        <character name="coloration" value="yellow" modifier="sometimes" />
+        <character char_type="range_value" name="size" from="9" from_unit="mm" to="15" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="367.txt-14">
+      <text>Cypselae golden brown, oblong to linear, subterete to angled, 5–6 mm, unequally 10–12-ribbed;</text>
+      <structure id="o6950" name="cypsela">
+        <character name="coloration" value="brown" modifier="golden" />
+        <character char_type="range_value" name="shape" from="oblong" to="linear , subterete" />
+        <character name="shape" value="oblong" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="subterete" />
+        <character name="shape" value="angled" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="6" to_unit="mm" />
+        <character name="architecture_or_shape" value="10-12-ribbed" modifier="unequally" />
+      </structure>
+    </statement>
+    <statement id="367.txt-15">
+      <text>pappi tan, 6–8 mm.</text>
+      <structure id="o6951" name="pappus">
+        <character name="coloration" value="tan" />
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="367.txt-16">
+      <text>2 n = 32</text>
+      <structure id="o6952" name="chromosome">
+        <character name="count" value="32" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>moist, rich, deciduous woods</habitat>
+  <habitat>lowland or upland woods</habitat>
+  <habitat>thickets</habitat>
+  <habitat>low prairies</habitat>
+  <habitat>wet areas in rich soil</habitat>
+  <elevation>300–1200 m;</elevation>
+  <us_distribution>Ark.</us_distribution>
+  <us_distribution>Del.</us_distribution>
+  <us_distribution>Ill.</us_distribution>
+  <us_distribution>Ind.</us_distribution>
+  <us_distribution>Iowa</us_distribution>
+  <us_distribution>Ky.</us_distribution>
+  <us_distribution>Mich.</us_distribution>
+  <us_distribution>Minn.</us_distribution>
+  <us_distribution>Mo.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>Ohio</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <us_distribution>Tenn.</us_distribution>
+  <us_distribution>W.Va.</us_distribution>
+  <us_distribution>Wis.</us_distribution>
+  <discussion>Prenanthes crepidinea is generally recognized by its tall and robust habit, large deltate or ovate proximal leaves, coarsely dentate margins with relatively large, remote teeth, heads borne in open, paniculiform arrays, dark green or blackish and moderately to densely setose phyllaries, and white or yellow corollas. In some areas P. crepidinea and P. serpentaria overlap in leaf morphology and corolla color, perhaps indicative of past hybridization, and can be difficult to distinguish. Prenanthes serpentaria is generally smaller in stature, has more elongate, pinnately lobed leaves with rounded sinuses, more sparsely setose phyllaries, and yellow or greenish yellow corollas. Prenanthes crepidinea appears to favor moist, bottomland sites, in contrast to the drier and acidic upland habitats preferred by P. serpentaria. Prenanthes crepidinea appears to hybridize with P. aspera in southeastern Missouri (J. A. Steyermark 1963).</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

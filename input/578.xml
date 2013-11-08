@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Krigia dandelion</species_name>
+  <authority>(Linnaeus) Nuttall</authority>
+  <place_of_publication>Gen. N. Amer. Pl. 2: 127. 1818</place_of_publication>
+  <common_name>Potato dwarfdandelion or dandelion</common_name>
+  <synonym_of_species_name>Leontodon dandelion Linnaeus, Sp. Pl. 2: 798. 1753; Cynthia dandelion (Linnaeus) de Candolle</synonym_of_species_name>
+  <description>
+    <statement id="578.txt-0">
+      <text>Perennials, 10–50 cm ;</text>
+      <structure id="o11903" name="whole_organism">
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="50" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="578.txt-1">
+      <text>rhizomes relatively slender, fibrous-rooted, tubers overwintering, globose, 5–15 mm diam., caudices fibrous-rooted.</text>
+      <structure id="o11904" name="rhizome">
+        <character name="size" value="slender" modifier="relatively" />
+        <character name="architecture" value="fibrous-rooted" />
+      </structure>
+      <structure id="o11905" name="tuber">
+        <character name="duration" value="overwintering" />
+        <character name="shape" value="globose" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="15" to_unit="mm" />
+      </structure>
+      <structure id="o11906" name="caudex">
+        <character name="architecture" value="fibrous-rooted" />
+      </structure>
+    </statement>
+    <statement id="578.txt-2">
+      <text>Stems scapiform , erect, leafless and ebracteate, glabrous or minutely glandular - villous especially proximal to heads.</text>
+      <structure id="o11907" name="stem">
+        <character name="shape" value="scapiform" />
+        <character name="orientation" value="erect" />
+        <character name="architecture" value="leafless" />
+        <character name="architecture" value="ebracteate" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="minutely glandular-villous especially proximal to heads" />
+      </structure>
+      <structure id="o11908" name="head" />
+      <relation id="r1388" name="minutely glandular-villous especially proximal to" from="o11907" to="o11908" negation="false" />
+    </statement>
+    <statement id="578.txt-3">
+      <text>Leaves basal;</text>
+      <structure id="o11909" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+      </structure>
+    </statement>
+    <statement id="578.txt-4">
+      <text>petioles usually broadly or narrowly winged;</text>
+      <structure id="o11910" name="petiole">
+        <character name="architecture" value="winged" modifier="usually broadly narrowly" />
+      </structure>
+    </statement>
+    <statement id="578.txt-5">
+      <text>blades linear to lanceolate or oblanceolate, 6–24 cm, margins entire or remotely toothed to pinnately lobed, lobes usually entire and acute, apices acute to obtuse, faces usually glabrous, sometimes sparingly villous (glandular or eglandular, often glaucous).</text>
+      <structure id="o11911" name="blade">
+        <character char_type="range_value" name="shape" from="linear" to="lanceolate or oblanceolate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="oblanceolate" />
+        <character char_type="range_value" name="size" from="6" from_unit="cm" to="24" to_unit="cm" />
+      </structure>
+      <structure id="o11912" name="margin">
+        <character char_type="range_value" name="shape" from="remotely toothed" to="pinnately lobed" />
+        <character name="shape" value="entire" />
+        <character name="shape" value="toothed" modifier="remotely" />
+        <character name="shape" value="lobed" modifier="pinnately" />
+      </structure>
+      <structure id="o11913" name="lobe">
+        <character name="shape" value="entire" modifier="usually" />
+        <character name="shape" value="acute" />
+      </structure>
+      <structure id="o11914" name="apex">
+        <character char_type="range_value" name="shape" from="acute" to="obtuse" />
+        <character name="shape" value="acute" />
+        <character name="shape" value="obtuse" />
+      </structure>
+      <structure id="o11915" name="face">
+        <character name="pubescence" value="glabrous" modifier="usually" />
+        <character name="pubescence" value="villous" modifier="sometimes sparingly" />
+      </structure>
+    </statement>
+    <statement id="578.txt-6">
+      <text>Heads borne singly.</text>
+      <structure id="o11916" name="head">
+        <character name="arrangement" value="singly" />
+      </structure>
+    </statement>
+    <statement id="578.txt-7">
+      <text>Peduncles from basal rosettes.</text>
+      <structure id="o11917" name="peduncle" />
+      <structure id="o11918" name="rosette" constraint="basal" />
+      <relation id="r1389" name="from" from="o11917" to="o11918" negation="false" />
+    </statement>
+    <statement id="578.txt-8">
+      <text>Involucres 10–15 mm.</text>
+      <structure id="o11919" name="involucre">
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="15" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="578.txt-9">
+      <text>Phyllaries 12–16, reflexed in fruit , linear-lanceolate, midveins obscure, apices acute.</text>
+      <structure id="o11920" name="phyllary">
+        <character char_type="range_value" name="count" from="12" to="16" />
+        <character name="orientation" value="reflexed" constraint="in fruit" constraintid="o11921" />
+        <character name="shape" value="linear-lanceolate" />
+      </structure>
+      <structure id="o11921" name="fruit" />
+      <structure id="o11922" name="midvein">
+        <character name="manifestation" value="obscure" />
+      </structure>
+      <structure id="o11923" name="apex">
+        <character name="shape" value="acute" />
+      </structure>
+    </statement>
+    <statement id="578.txt-10">
+      <text>Florets 25–34;</text>
+      <structure id="o11924" name="floret">
+        <character char_type="range_value" name="count" from="25" to="34" />
+      </structure>
+    </statement>
+    <statement id="578.txt-11">
+      <text>corollas yellow to yellow-orange, abaxially often purplish-tinged, 15–25 mm.</text>
+      <structure id="o11925" name="corolla">
+        <character name="coloration" value="yellow" />
+        <character name="coloration" value="orange" modifier="yellow" />
+        <character name="coloration" value="tinged" modifier="abaxially often;purplish" />
+        <character char_type="range_value" name="size" from="15" from_unit="mm" to="25" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="578.txt-12">
+      <text>Cypselae reddish brown, columnar, 2.5 mm, 10–15-ribbed;</text>
+      <structure id="o11926" name="cypsela">
+        <character name="coloration" value="brown" modifier="reddish" />
+        <character name="shape" value="columnar" />
+        <character name="size" value="2.5" unit="mm" />
+        <character name="architecture_or_shape" value="10-15-ribbed" />
+      </structure>
+    </statement>
+    <statement id="578.txt-13">
+      <text>pappi of ca. 10, outer scales 0.5–1 mm plus 25–45, barbellulate inner bristles 5–8 mm.</text>
+      <structure id="o11927" name="pappus">
+        <character char_type="range_value" name="count" from="25" to="45" />
+      </structure>
+      <structure id="o11928" name="scale" constraint="outer">
+        <character name="count" value="10" />
+        <character char_type="range_value" name="size" from="0.5" from_unit="mm" to="1" to_unit="mm" />
+      </structure>
+      <relation id="r1390" name="consist_of" from="o11927" to="o11928" negation="false" />
+      <structure id="o11929" name="bristle" constraint="inner">
+        <character name="architecture" value="barbellulate" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="578.txt-14">
+      <text>2 n = 60.</text>
+      <structure id="o11930" name="chromosome">
+        <character name="count" value="60" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <habitat>sandy or clay-loam soils</habitat>
+  <habitat>open mixed mesophytic and oak-hickory woods</habitat>
+  <habitat>fields</habitat>
+  <habitat>pastures</habitat>
+  <habitat>roadsides</habitat>
+  <elevation>10–500 m;</elevation>
+  <us_distribution>Ala.</us_distribution>
+  <us_distribution>Ark.</us_distribution>
+  <us_distribution>Del.</us_distribution>
+  <us_distribution>Fla.</us_distribution>
+  <us_distribution>Ga.</us_distribution>
+  <us_distribution>Ill.</us_distribution>
+  <us_distribution>Ind.</us_distribution>
+  <us_distribution>Kans.</us_distribution>
+  <us_distribution>Ky.</us_distribution>
+  <us_distribution>La.</us_distribution>
+  <us_distribution>Md.</us_distribution>
+  <us_distribution>Miss.</us_distribution>
+  <us_distribution>Mo.</us_distribution>
+  <us_distribution>N.J.</us_distribution>
+  <us_distribution>N.C.</us_distribution>
+  <us_distribution>Ohio</us_distribution>
+  <us_distribution>Okla.</us_distribution>
+  <us_distribution>S.C.</us_distribution>
+  <us_distribution>Tenn.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <us_distribution>Va.</us_distribution>
+  <us_distribution>W.Va.</us_distribution>
+  <discussion>Krigia dandelion is known from the Eastern deciduous forest biome and tallgrass prairies. It is unique in propagating extensively by means of tubers. These were well described by T. Holm (1891). All chromosome counts to date have shown 2n = 60, the duodecaploid number based on x = 5.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

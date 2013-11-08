@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>10a.</number>
+  <subspecies_name>Antennaria pulcherrima (Hooker) Greene subsp. pulcherrima</subspecies_name>
+  <description>
+    <statement id="638.txt-0">
+      <text>Plants (15–)30–65 cm.</text>
+      <structure id="o13367" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="15" to="30" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="30" from_unit="cm" to="65" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="638.txt-1">
+      <text>Basal leaves spatulate to oblanceolate, 50–200 × 4–25 mm, faces gray-pubescent.</text>
+      <structure id="o13368" name="leaf" constraint="basal">
+        <character char_type="range_value" name="shape" from="spatulate" to="oblanceolate" />
+        <character name="shape" value="spatulate" />
+        <character name="shape" value="oblanceolate" />
+        <character char_type="range_value" name="length" from="50" from_unit="mm" to="200" to_unit="mm" />
+        <character char_type="range_value" name="width" from="4" from_unit="mm" to="25" to_unit="mm" />
+      </structure>
+      <structure id="o13369" name="face">
+        <character name="pubescence" value="gray-pubescent" />
+      </structure>
+    </statement>
+    <statement id="638.txt-2">
+      <text>Cauline leaves 8–140 mm, distal usually flagged.</text>
+      <structure id="o13370" name="leaf" constraint="cauline">
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="140" to_unit="mm" />
+        <character name="insertion_or_position" value="distal" modifier="usually" />
+        <character name="orientation" value="flagged" />
+      </structure>
+    </statement>
+    <statement id="638.txt-3">
+      <text>Heads 3–30.</text>
+      <structure id="o13371" name="head">
+        <character char_type="range_value" name="count" from="3" to="30" />
+      </structure>
+    </statement>
+    <statement id="638.txt-4">
+      <text>Involucres:</text>
+      <structure id="o13372" name="involucre" />
+    </statement>
+    <statement id="638.txt-5">
+      <text>staminate 5–8 mm;</text>
+      <structure id="o13373" name="involucre" constraint="staminate">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="638.txt-6">
+      <text>pistillate 7–12 mm.</text>
+      <structure id="o13374" name="involucre" constraint="pistillate">
+        <character char_type="range_value" name="size" from="7" from_unit="mm" to="12" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="638.txt-7">
+      <text>Phyllaries distally black, dark brown, light brown, or olivaceous.</text>
+      <structure id="o13375" name="phyllary">
+        <character name="coloration" value="black" modifier="distally" />
+        <character name="coloration" value="brown" modifier="distally ;dark" />
+        <character name="coloration" value="brown" modifier="distally ;light" />
+        <character name="coloration" value="olivaceous" modifier="distally" />
+      </structure>
+    </statement>
+    <statement id="638.txt-8">
+      <text>Corollas:</text>
+      <structure id="o13376" name="corolla" />
+    </statement>
+    <statement id="638.txt-9">
+      <text>staminate 3.5–5 mm;</text>
+      <structure id="o13377" name="corolla" constraint="staminate">
+        <character char_type="range_value" name="size" from="3.5" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="638.txt-10">
+      <text>pistillate 4–6 mm.</text>
+      <structure id="o13378" name="corolla" constraint="pistillate">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="638.txt-11">
+      <text>Cypselae 1–1.5 mm;</text>
+      <structure id="o13379" name="cypsela">
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="1.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="638.txt-12">
+      <text>pappi:</text>
+      <structure id="o13380" name="pappus" />
+    </statement>
+    <statement id="638.txt-13">
+      <text>pistillate (7–)8–10 mm.</text>
+      <structure id="o13381" name="pappus" constraint="pistillate">
+        <character char_type="range_value" name="atypical_size" from="7" to="8" from_unit="mm" to_unit="mm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="638.txt-14">
+      <text>2 n = 28, 56.</text>
+      <structure id="o13382" name="chromosome">
+        <character name="count" value="28" />
+        <character name="count" value="56" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>alluvial soils in moist willow thickets subject to intermittent flooding along streams</habitat>
+  <habitat>montane to subalpine zone</habitat>
+  <elevation>0–3000 m;</elevation>
+  <ca_distribution>Alta.</ca_distribution>
+  <ca_distribution>B.C.</ca_distribution>
+  <ca_distribution>Man.</ca_distribution>
+  <ca_distribution>N.W.T.</ca_distribution>
+  <ca_distribution>Ont.</ca_distribution>
+  <ca_distribution>Que.</ca_distribution>
+  <ca_distribution>Sask.</ca_distribution>
+  <ca_distribution>Yukon</ca_distribution>
+  <us_distribution>Alaska</us_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

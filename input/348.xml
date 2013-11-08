@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Lactuca biennis</species_name>
+  <authority>(Moench) Fernald</authority>
+  <place_of_publication>Rhodora 42: 300. 1940</place_of_publication>
+  <synonym_of_species_name>Sonchus biennis Moench, Methodus, 545. 1794</synonym_of_species_name>
+  <description>
+    <statement id="348.txt-0">
+      <text>Annuals or biennials, (15–)75–200(–300+) cm.</text>
+      <structure id="o6494" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="15" to="75" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_size" from="200" to="300" from_unit="cm" to_unit="cm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="75" from_unit="cm" to="200" to_unit="cm" />
+        <character name="life_style" value="annual" />
+        <character name="life_style" value="biennial" />
+      </structure>
+    </statement>
+    <statement id="348.txt-2">
+      <text>blades of undivided cauline leaves ovate to lanceolate, margins entire or denticulate, midribs sometimes sparsely piloso-setose.</text>
+      <structure id="o6496" name="blade">
+        <character char_type="range_value" name="shape" from="ovate" to="lanceolate" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="lanceolate" />
+      </structure>
+      <structure id="o6497" name="leaf" constraint="undivided cauline" />
+      <relation id="r809" name="part_of" from="o6496" to="o6497" negation="false" />
+      <structure id="o6498" name="margin">
+        <character name="shape" value="entire" />
+        <character name="shape" value="denticulate" />
+      </structure>
+      <structure id="o6499" name="midrib">
+        <character name="pubescence" value="piloso-setose" modifier="sometimes sparsely" />
+      </structure>
+    </statement>
+    <statement id="348.txt-3">
+      <text>Heads in paniculiform arrays.</text>
+      <structure id="o6500" name="head" />
+      <structure id="o6501" name="array">
+        <character name="architecture" value="paniculiform" />
+      </structure>
+      <relation id="r810" name="in" from="o6500" to="o6501" negation="false" />
+    </statement>
+    <statement id="348.txt-4">
+      <text>Involucres 7–12+ mm.</text>
+      <structure id="o6502" name="involucre">
+        <character char_type="range_value" name="size" from="7" from_unit="mm" to="12" to_unit="mm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="348.txt-5">
+      <text>Phyllaries usually reflexed in fruit.</text>
+      <structure id="o6503" name="phyllary">
+        <character name="orientation" value="reflexed" modifier="usually" constraint="in fruit" constraintid="o6504" />
+      </structure>
+      <structure id="o6504" name="fruit" />
+    </statement>
+    <statement id="348.txt-6">
+      <text>Florets (15–)20–30(–50+);</text>
+      <structure id="o6505" name="floret">
+        <character char_type="range_value" name="atypical_count" from="15" to="20" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_count" from="30" to="50" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="20" to="30" />
+      </structure>
+    </statement>
+    <statement id="348.txt-7">
+      <text>corollas bluish or whitish, sometimes yellowish, seldom deliquescent.</text>
+      <structure id="o6506" name="corolla">
+        <character name="coloration" value="bluish" />
+        <character name="coloration" value="whitish" />
+        <character name="coloration" value="yellowish" modifier="sometimes" />
+        <character name="architecture_or_texture" value="deliquescent" modifier="seldom" />
+      </structure>
+    </statement>
+    <statement id="348.txt-8">
+      <text>Cypselae:</text>
+      <structure id="o6507" name="cypsela" />
+    </statement>
+    <statement id="348.txt-9">
+      <text>bodies brown (often mottled), ± compressed-ellipsoid, 4–5+ mm, beaks ± stout, 0.1–0.5+ mm, faces (4–)5–6-nerved;</text>
+      <structure id="o6508" name="body">
+        <character name="coloration" value="brown" />
+        <character name="shape" value="compressed-ellipsoid" modifier="±" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="5" to_unit="mm" upper_restricted="false" />
+      </structure>
+      <structure id="o6509" name="beak">
+        <character name="fragility" value="stout" modifier="±" />
+        <character char_type="range_value" name="size" from="0.1" from_unit="mm" to="0.5" to_unit="mm" upper_restricted="false" />
+      </structure>
+      <structure id="o6510" name="face">
+        <character name="architecture" value="(4-)5-6-nerved" />
+      </structure>
+    </statement>
+    <statement id="348.txt-10">
+      <text>pappi ± fuscous, 4–6+ mm.</text>
+      <structure id="o6511" name="pappus">
+        <character name="coloration" value="fuscous" modifier="±" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="6" to_unit="mm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="348.txt-11">
+      <text>2 n = 34.</text>
+      <structure id="o6512" name="chromosome">
+        <character name="count" value="34" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <habitat>swamps</habitat>
+  <habitat>stream banks</habitat>
+  <habitat>woods</habitat>
+  <elevation>900–1500 m;</elevation>
+  <global_distribution>St. Pierre and Miquelon</global_distribution>
+  <ca_distribution>Alta.</ca_distribution>
+  <ca_distribution>B.C.</ca_distribution>
+  <ca_distribution>Man.</ca_distribution>
+  <ca_distribution>N.B.</ca_distribution>
+  <ca_distribution>Nfld. and Labr.</ca_distribution>
+  <ca_distribution>N.S.</ca_distribution>
+  <ca_distribution>Ont.</ca_distribution>
+  <ca_distribution>P.E.I.</ca_distribution>
+  <ca_distribution>Que.</ca_distribution>
+  <ca_distribution>Sask.</ca_distribution>
+  <ca_distribution>Yukon</ca_distribution>
+  <us_distribution>Alaska</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Conn.</us_distribution>
+  <us_distribution>Del.</us_distribution>
+  <us_distribution>D.C.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Ill.</us_distribution>
+  <us_distribution>Ind.</us_distribution>
+  <us_distribution>Iowa</us_distribution>
+  <us_distribution>Ky.</us_distribution>
+  <us_distribution>Maine</us_distribution>
+  <us_distribution>Md.</us_distribution>
+  <us_distribution>Mass.</us_distribution>
+  <us_distribution>Mich.</us_distribution>
+  <us_distribution>Minn.</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>N.H.</us_distribution>
+  <us_distribution>N.J.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>N.C.</us_distribution>
+  <us_distribution>N.Dak.</us_distribution>
+  <us_distribution>Ohio</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <us_distribution>R.I.</us_distribution>
+  <us_distribution>S.Dak.</us_distribution>
+  <us_distribution>Tenn.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Vt.</us_distribution>
+  <us_distribution>Va.</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <us_distribution>W.Va.</us_distribution>
+  <us_distribution>Wis.</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <discussion>The type of Lactuca terrae-novae Fernald is probably conspecific with that of L. biennis. The type of L. biennis may be conspecific with that of L. floridana.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

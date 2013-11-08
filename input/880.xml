@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>17d.</number>
+  <subspecies_name>Artemisia tridentata Nuttall subsp. wyomingensis</subspecies_name>
+  <authority>Beetle &amp; A. M. Young</authority>
+  <place_of_publication>Rhodora 67: 405. 1965</place_of_publication>
+  <common_name>Wyoming sagebrush</common_name>
+  <synonym_of_subspecies_name>Artemisia tridentata var. wyomingensis (Beetle &amp; A. M. Young) S. L. Welsh; Seriphidium tridentatum (Nuttall) W. A. Weber subsp. wyomingense (Beetle &amp; A. M. Young) W. A. Weber</synonym_of_subspecies_name>
+  <description>
+    <statement id="880.txt-0">
+      <text>Shrubs, 30–50(–150) cm (crowns rounded).</text>
+      <structure id="o18321" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="50" to="150" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="30" from_unit="cm" to="50" to_unit="cm" />
+        <character name="life_style" value="shrub" />
+      </structure>
+    </statement>
+    <statement id="880.txt-1">
+      <text>Vegetative branches (stiffly spreading, often persisting, giving mature plants a twiggy appearance) interspersed among flowering stems.</text>
+      <structure id="o18322" name="branch" constraint="vegetative" />
+      <structure id="o18323" name="stem" constraint="flowering" />
+      <relation id="r1941" name="interspersed among" from="o18322" to="o18323" negation="false" />
+    </statement>
+    <statement id="880.txt-2">
+      <text>Leaves narrowly to broadly cuneate, (0.4–)0.7–1.1(–2) × (0.1–)0.2–0.3 cm, lobed (lobes rounded).</text>
+      <structure id="o18324" name="leaf">
+        <character name="shape" value="cuneate" modifier="narrowly broadly" />
+        <character char_type="range_value" name="atypical_length" from="0.4" to="0.7" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_length" from="1.1" to="2" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="0.7" from_unit="cm" to="1.1" to_unit="cm" />
+        <character char_type="range_value" name="atypical_width" from="0.1" to="0.2" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="width" from="0.2" from_unit="cm" to="0.3" to_unit="cm" />
+        <character name="shape" value="lobed" />
+      </structure>
+    </statement>
+    <statement id="880.txt-3">
+      <text>Heads in paniculiform arrays 2–6(–8) × 1–3 cm (often immersed in vegetative branches).</text>
+      <structure id="o18325" name="head" />
+      <structure id="o18326" name="array">
+        <character name="architecture" value="paniculiform" />
+        <character char_type="range_value" name="atypical_length" from="6" to="8" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="2" from_unit="cm" to="6" to_unit="cm" />
+        <character char_type="range_value" name="width" from="1" from_unit="cm" to="3" to_unit="cm" />
+      </structure>
+      <relation id="r1942" name="in" from="o18325" to="o18326" negation="false" />
+    </statement>
+    <statement id="880.txt-4">
+      <text>Involucres (1–)1.5–2 × 1.5–2 mm.</text>
+      <structure id="o18327" name="involucre">
+        <character char_type="range_value" name="atypical_length" from="1" to="1.5" from_unit="mm" to_unit="mm" to_inclusive="false" />
+        <character char_type="range_value" name="length" from="1.5" from_unit="mm" to="2" to_unit="mm" />
+        <character char_type="range_value" name="width" from="1.5" from_unit="mm" to="2" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="880.txt-5">
+      <text>Florets 4–8 .</text>
+      <structure id="o18328" name="floret">
+        <character char_type="range_value" name="count" from="4" to="8" />
+      </structure>
+    </statement>
+    <statement id="880.txt-6">
+      <text>Cypselae glabrous.</text>
+      <structure id="o18329" name="cypsela">
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="880.txt-7">
+      <text>2 n = 36, 54.</text>
+      <structure id="o18330" name="chromosome">
+        <character name="count" value="36" />
+        <character name="count" value="54" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <flowering_time>nov</flowering_time>
+  <habitat>rocky or fine-grained soils</habitat>
+  <habitat>cold-desert basins to high plateaus</habitat>
+  <habitat>foothills</habitat>
+  <elevation>800–2200 m;</elevation>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>Nebr.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>N.Dak.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>S.Dak.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <discussion>Subspecies wyomingensis is the common sagebrush of rocky or fine-grained soils from valleys to high plateaus in the Great Basin. It is an allopolyploid that may be derived from the populations of subsp. tridentata with which it occurs. Identification is based primarily on the shorter leaves of subsp. wyomingensis, its usually shorter stature, and its shorter flowering branches that are retained from year to year. Wyoming sagebrush may be increasing in abundance in response to increased grazing pressure and drought in the high valleys of the Great Basin.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

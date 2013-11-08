@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>31.</number>
+  <species_name>Antennaria densifolia</species_name>
+  <authority>A. E. Porsild</authority>
+  <place_of_publication>Bull. Natl. Mus. Canada 101: 26. 1945</place_of_publication>
+  <common_name>Denseleaf pussytoes</common_name>
+  <synonym_of_species_name>Antennaria ellyae A. E. Porsild</synonym_of_species_name>
+  <description>
+    <statement id="670.txt-0">
+      <text>Dioecious.</text>
+      <structure id="o14032" name="whole_organism">
+        <character name="reproduction" value="dioecious" />
+      </structure>
+    </statement>
+    <statement id="670.txt-1">
+      <text>Plants 3.5–16 cm.</text>
+      <structure id="o14033" name="whole_organism">
+        <character char_type="range_value" name="size" from="3.5" from_unit="cm" to="16" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="670.txt-2">
+      <text>Stolons 1–2 cm.</text>
+      <structure id="o14034" name="stolon">
+        <character char_type="range_value" name="size" from="1" from_unit="cm" to="2" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="670.txt-3">
+      <text>Basal leaves 1-nerved, spatulate to cuneate, 3–7 × 2–5 mm, tips mucronate, faces gray-tomentose.</text>
+      <structure id="o14035" name="leaf" constraint="basal">
+        <character name="architecture" value="1-nerved" />
+        <character char_type="range_value" name="shape" from="spatulate" to="cuneate" />
+        <character name="shape" value="spatulate" />
+        <character name="shape" value="cuneate" />
+        <character char_type="range_value" name="length" from="3" from_unit="mm" to="7" to_unit="mm" />
+        <character char_type="range_value" name="width" from="2" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+      <structure id="o14036" name="tip">
+        <character name="shape" value="mucronate" />
+      </structure>
+      <structure id="o14037" name="face">
+        <character name="pubescence" value="gray-tomentose" />
+      </structure>
+    </statement>
+    <statement id="670.txt-4">
+      <text>Cauline leaves linear, 2–13 mm, distal flagged.</text>
+      <structure id="o14038" name="leaf" constraint="cauline">
+        <character name="arrangement_or_shape" value="linear" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="13" to_unit="mm" />
+        <character name="insertion_or_position" value="distal" />
+        <character name="orientation" value="flagged" />
+      </structure>
+    </statement>
+    <statement id="670.txt-5">
+      <text>Heads 2–5 in corymbiform arrays.</text>
+      <structure id="o14039" name="head">
+        <character char_type="range_value" name="count" from="2" to="5" constraint="in arrays" constraintid="o14040" />
+      </structure>
+      <structure id="o14040" name="array">
+        <character name="architecture" value="corymbiform" />
+      </structure>
+    </statement>
+    <statement id="670.txt-6">
+      <text>Involucres:</text>
+      <structure id="o14041" name="involucre" />
+    </statement>
+    <statement id="670.txt-7">
+      <text>staminate 3–6.5 mm;</text>
+      <structure id="o14042" name="involucre" constraint="staminate">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="6.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="670.txt-8">
+      <text>pistillate 4.5–7.5 mm.</text>
+      <structure id="o14043" name="involucre" constraint="pistillate">
+        <character char_type="range_value" name="size" from="4.5" from_unit="mm" to="7.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="670.txt-9">
+      <text>Pistillate involucres 4.5–7.5 mm.</text>
+      <structure id="o14044" name="involucre" constraint="pistillate">
+        <character char_type="range_value" name="size" from="4.5" from_unit="mm" to="7.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="670.txt-10">
+      <text>Phyllaries distally light brown, dark brown, or black.</text>
+      <structure id="o14045" name="phyllary">
+        <character name="coloration" value="brown" modifier="distally ;light" />
+        <character name="coloration" value="brown" modifier="distally ;dark" />
+        <character name="coloration" value="black" modifier="distally" />
+      </structure>
+    </statement>
+    <statement id="670.txt-11">
+      <text>Corollas:</text>
+      <structure id="o14046" name="corolla" />
+    </statement>
+    <statement id="670.txt-12">
+      <text>staminate 2–3.5 mm;</text>
+      <structure id="o14047" name="corolla" constraint="staminate">
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="3.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="670.txt-13">
+      <text>pistillate 2.5–4.5 mm.</text>
+      <structure id="o14048" name="corolla" constraint="pistillate">
+        <character char_type="range_value" name="size" from="2.5" from_unit="mm" to="4.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="670.txt-14">
+      <text>Cypselae 0.8–1.5 mm, glabrous;</text>
+      <structure id="o14049" name="cypsela">
+        <character char_type="range_value" name="size" from="0.8" from_unit="mm" to="1.5" to_unit="mm" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="670.txt-15">
+      <text>pappi:</text>
+      <structure id="o14050" name="pappus" />
+    </statement>
+    <statement id="670.txt-16">
+      <text>staminate 2.5–3.5 mm;</text>
+      <structure id="o14051" name="pappus" constraint="staminate">
+        <character char_type="range_value" name="size" from="2.5" from_unit="mm" to="3.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="670.txt-17">
+      <text>pistillate 2.5–3.5 mm.</text>
+      <structure id="o14052" name="pappus" constraint="pistillate">
+        <character char_type="range_value" name="size" from="2.5" from_unit="mm" to="3.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="670.txt-18">
+      <text>2 n = 28.</text>
+      <structure id="o14053" name="chromosome">
+        <character name="count" value="28" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>subalpine-alpine limestone talus</habitat>
+  <elevation>700–2800 m;</elevation>
+  <ca_distribution>B.C.</ca_distribution>
+  <ca_distribution>N.W.T.</ca_distribution>
+  <ca_distribution>Yukon</ca_distribution>
+  <us_distribution>Alaska</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <discussion>Antennaria densifolia is found on limestone talus below treeline in the MacKenzie, Richardson, and Ogilvie mountains of the District of MacKenzie and Yukon Territory and in Granite County, Montana (R. J. Bayer 1989c). It differs from A. aromatica in being non-glandular and in other characters. Herbarium specimens (in DAO) from British Columbia that morphologically appear to be a strictly gynoecious form of A. densifolia may be apomicts related to A. alpina that are derived from A. densifolia, a sexual progenitor of the complex.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

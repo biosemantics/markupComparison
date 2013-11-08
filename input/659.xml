@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>24.</number>
+  <species_name>Antennaria umbrinella</species_name>
+  <authority>Rydberg</authority>
+  <place_of_publication>Bull. Torrey Bot. Club 24: 302. 1897</place_of_publication>
+  <common_name>Umber or brown or brown-bracted pussytoes</common_name>
+  <synonym_of_species_name>Antennaria aizoides Greene; A. flavescens Rydberg; A. reflexa E. E. Nelson</synonym_of_species_name>
+  <description>
+    <statement id="659.txt-0">
+      <text>Dioecious.</text>
+      <structure id="o13818" name="whole_organism">
+        <character name="reproduction" value="dioecious" />
+      </structure>
+    </statement>
+    <statement id="659.txt-1">
+      <text>Plants 7–16 cm (bases somewhat woody).</text>
+      <structure id="o13819" name="whole_organism">
+        <character char_type="range_value" name="size" from="7" from_unit="cm" to="16" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="659.txt-2">
+      <text>Stolons 7–16 cm (usually erect, slightly woody).</text>
+      <structure id="o13820" name="stolon">
+        <character char_type="range_value" name="size" from="7" from_unit="cm" to="16" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="659.txt-3">
+      <text>Basal leaves 1-nerved, narrowly spatulate to cuneate, 10–17 × 2–5.4 mm, tips mucronate, faces gray-tomentose.</text>
+      <structure id="o13821" name="leaf" constraint="basal">
+        <character name="architecture" value="1-nerved" />
+        <character char_type="range_value" name="shape" from="narrowly spatulate" to="cuneate" />
+        <character name="shape" value="spatulate" modifier="narrowly" />
+        <character name="shape" value="cuneate" modifier="narrowly" />
+        <character char_type="range_value" name="length" from="10" from_unit="mm" to="17" to_unit="mm" />
+        <character char_type="range_value" name="width" from="2" from_unit="mm" to="5.4" to_unit="mm" />
+      </structure>
+      <structure id="o13822" name="tip">
+        <character name="shape" value="mucronate" />
+      </structure>
+      <structure id="o13823" name="face">
+        <character name="pubescence" value="gray-tomentose" />
+      </structure>
+    </statement>
+    <statement id="659.txt-4">
+      <text>Cauline leaves linear, 8–18 mm, not flagged (apices acute).</text>
+      <structure id="o13824" name="leaf" constraint="cauline">
+        <character name="arrangement_or_shape" value="linear" />
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="18" to_unit="mm" />
+        <character name="orientation" value="flagged" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="659.txt-5">
+      <text>Heads 3–8 in corymbiform arrays.</text>
+      <structure id="o13825" name="head">
+        <character char_type="range_value" name="count" from="3" to="8" constraint="in arrays" constraintid="o13826" />
+      </structure>
+      <structure id="o13826" name="array">
+        <character name="architecture" value="corymbiform" />
+      </structure>
+    </statement>
+    <statement id="659.txt-6">
+      <text>Involucres:</text>
+      <structure id="o13827" name="involucre" />
+    </statement>
+    <statement id="659.txt-7">
+      <text>staminate 3–6 mm;</text>
+      <structure id="o13828" name="involucre" constraint="staminate">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="659.txt-8">
+      <text>pistillate 4–6.5 mm.</text>
+      <structure id="o13829" name="involucre" constraint="pistillate">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="6.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="659.txt-9">
+      <text>Phyllaries distally whitish, yellowish, or pale brownish (often streaked with pink or rose).</text>
+      <structure id="o13830" name="phyllary">
+        <character name="coloration" value="whitish" modifier="distally" />
+        <character name="coloration" value="yellowish" modifier="distally" />
+        <character name="coloration" value="brownish" modifier="distally ;pale" />
+      </structure>
+    </statement>
+    <statement id="659.txt-10">
+      <text>Corollas:</text>
+      <structure id="o13831" name="corolla" />
+    </statement>
+    <statement id="659.txt-11">
+      <text>staminate 2.5–3.5 mm;</text>
+      <structure id="o13832" name="corolla" constraint="staminate">
+        <character char_type="range_value" name="size" from="2.5" from_unit="mm" to="3.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="659.txt-12">
+      <text>pistillate 2.5–3.5 mm.</text>
+      <structure id="o13833" name="corolla" constraint="pistillate">
+        <character char_type="range_value" name="size" from="2.5" from_unit="mm" to="3.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="659.txt-13">
+      <text>Cypselae 0.5–1.2 mm, glabrous;</text>
+      <structure id="o13834" name="cypsela">
+        <character char_type="range_value" name="size" from="0.5" from_unit="mm" to="1.2" to_unit="mm" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="659.txt-14">
+      <text>pappi:</text>
+      <structure id="o13835" name="pappus" />
+    </statement>
+    <statement id="659.txt-15">
+      <text>staminate 3–4.5 mm;</text>
+      <structure id="o13836" name="pappus" constraint="staminate">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="4.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="659.txt-16">
+      <text>pistillate 3–5 mm.</text>
+      <structure id="o13837" name="pappus" constraint="pistillate">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="659.txt-17">
+      <text>2 n = 28, 56.</text>
+      <structure id="o13838" name="chromosome">
+        <character name="count" value="28" />
+        <character name="count" value="56" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>sagebrush steppe to open, dry, coniferous montane forests to subalpine meadows</habitat>
+  <elevation>1100–3400 m;</elevation>
+  <ca_distribution>Alta.</ca_distribution>
+  <ca_distribution>B.C.</ca_distribution>
+  <ca_distribution>Sask.</ca_distribution>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <discussion>Antennaria umbrinella is a primary sexual progenitor of the A. rosea complex (R. J. Bayer 1990b). It is characterized by somewhat erect, slightly woody stolons and phyllaries that are usually various shades of brown, sometimes white, or streaked with pink or rose (Bayer 1987b).</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

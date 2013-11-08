@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1a.</number>
+  <variety_name>Psilocarphus brevissimus Nuttall var. brevissimus</variety_name>
+  <common_name>Dwarf woollyheads</common_name>
+  <synonym_of_variety_name>Psilocarphus globiferus Nuttall</synonym_of_variety_name>
+  <description>
+    <statement id="760.txt-0">
+      <text>Plants lanuginose to sericeous.</text>
+      <structure id="o16037" name="whole_organism">
+        <character char_type="range_value" name="pubescence" from="lanuginose" to="sericeous" />
+        <character name="pubescence" value="lanuginose" />
+        <character name="pubescence" value="sericeous" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="760.txt-1">
+      <text>Stems (1–)2–10, ascending to ± prostrate (sometimes erect).</text>
+      <structure id="o16038" name="stem">
+        <character char_type="range_value" name="atypical_count" from="1" to="2" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="2" to="10" />
+        <character name="orientation" value="ascending" />
+        <character name="orientation" value="prostrate" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="760.txt-2">
+      <text>Capitular leaves:</text>
+      <structure id="o16039" name="leaf" constraint="capitular" />
+    </statement>
+    <statement id="760.txt-3">
+      <text>longest mostly 8–15 mm, lengths 1.5–4 times widths.</text>
+      <structure id="o16040" name="leaf" constraint="longest capitular">
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="15" to_unit="mm" modifier="mostly" />
+        <character name="size" value="widths" modifier="1.5-4 times" />
+      </structure>
+    </statement>
+    <statement id="760.txt-4">
+      <text>Heads ± spheric, largest 6–9 mm, usually densely lanuginose.</text>
+      <structure id="o16041" name="head">
+        <character name="shape" value="spheric" modifier="±" />
+        <character name="size" value="largest" />
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="9" to_unit="mm" />
+        <character name="pubescence" value="lanuginose" modifier="usually densely" />
+      </structure>
+    </statement>
+    <statement id="760.txt-5">
+      <text>Receptacles unlobed or shallowly lobed.</text>
+      <structure id="o16042" name="receptacle">
+        <character name="shape" value="unlobed" />
+        <character name="shape" value="lobed" modifier="shallowly" />
+      </structure>
+    </statement>
+    <statement id="760.txt-6">
+      <text>Pistillate paleae obovoid, lengths 1.5–3 times longest diams.;</text>
+      <structure id="o16043" name="palea" constraint="pistillate">
+        <character name="shape" value="obovoid" />
+        <character name="size" value="longest" modifier="1.5-3 times" />
+      </structure>
+    </statement>
+    <statement id="760.txt-7">
+      <text>wings supramedian to subapical.</text>
+      <structure id="o16044" name="wing">
+        <character char_type="range_value" name="position" from="supramedian" to="subapical" />
+        <character name="position" value="supramedian" />
+        <character name="position" value="subapical" />
+      </structure>
+    </statement>
+    <statement id="760.txt-8">
+      <text>2 n = 28.</text>
+      <structure id="o16045" name="chromosome">
+        <character name="count" value="28" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>drying margins of seasonally inundated sites (vernal pools</habitat>
+  <habitat>ditches), sometimes alkaline</habitat>
+  <elevation>10–2500 m;</elevation>
+  <ca_distribution>Alta.</ca_distribution>
+  <ca_distribution>B.C.</ca_distribution>
+  <ca_distribution>Sask.</ca_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <global_distribution>Mexico (Baja California)</global_distribution>
+  <global_distribution>South America (Argentina).</global_distribution>
+  <global_distribution>South America (Chile).</global_distribution>
+  <discussion>Variety brevissimus occupies nearly the full range of the genus (uncommon west of the Cascade Range); some occurrences toward the northeast appear to be recent introductions.</discussion>
+  <discussion>Plants named Psilocarphus globiferus are superficially somewhat intermediate between P. brevissimus and P. tenellus, as are populations from southern California mountains with leaves somewhat shorter, broader, and less hairy than typical P. brevissimus.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

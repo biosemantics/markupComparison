@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>20.</number>
+  <species_name>Pseudognaphalium jaliscense</species_name>
+  <authority>(Greenman) Anderberg</authority>
+  <place_of_publication>Opera Bot. 104: 147. 1991</place_of_publication>
+  <common_name>Jalisco rabbit-tobacco</common_name>
+  <synonym_of_species_name>Gnaphalium jaliscense Greenman, Proc. Amer. Acad. Arts 39: 96. 1903</synonym_of_species_name>
+  <description>
+    <statement id="699.txt-0">
+      <text>Annuals or biennials, 30–70 cm;</text>
+    </statement>
+    <statement id="699.txt-1">
+      <text>taprooted.</text>
+      <structure id="o14623" name="whole_organism">
+        <character char_type="range_value" name="size" from="30" from_unit="cm" to="70" to_unit="cm" />
+        <character name="life_style" value="annual" />
+        <character name="life_style" value="biennial" />
+        <character name="architecture" value="taprooted" />
+        <character name="life_style" value="biennial" />
+      </structure>
+    </statement>
+    <statement id="699.txt-2">
+      <text>Stems (branched among heads) densely and persistently loosely woolly-tomentose-sericeous, not glandular.</text>
+      <structure id="o14625" name="stem">
+        <character name="pubescence" value="woolly-tomentose-sericeous" modifier="persistently loosely" />
+        <character name="architecture_or_exudation_or_pubescence" value="glandular" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="699.txt-3">
+      <text>Leaf blades narrowly lanceolate to nearly linear, 3–10 cm × 3–6 mm, bases not clasping, decurrent 4–8 mm, margins flat or slightly revolute, faces concolor, tomentose-sericeous (bases of hairs enlarged), sessile-glandular beneath tomentum.</text>
+      <structure id="o14626" name="blade" constraint="leaf">
+        <character char_type="range_value" name="shape" from="narrowly lanceolate" to="nearly linear" />
+        <character name="shape" value="lanceolate" modifier="narrowly" />
+        <character name="shape" value="linear" modifier="nearly" />
+        <character char_type="range_value" name="length" from="3" from_unit="cm" to="10" to_unit="cm" />
+        <character char_type="range_value" name="width" from="3" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+      <structure id="o14627" name="base">
+        <character name="architecture" value="clasping" modifier="not" />
+        <character name="shape" value="decurrent" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+      <structure id="o14628" name="margin">
+        <character name="shape" value="flat" />
+        <character name="shape" value="revolute" modifier="slightly" />
+      </structure>
+      <structure id="o14629" name="face">
+        <character name="coloration" value="concolor" />
+        <character name="pubescence" value="tomentose-sericeous" />
+        <character name="architecture_or_exudation_or_pubescence" value="sessile-glandular" constraint="beneath tomentum" constraintid="o14630" />
+      </structure>
+      <structure id="o14630" name="tomentum" />
+    </statement>
+    <statement id="699.txt-4">
+      <text>Heads in corymbiform arrays.</text>
+      <structure id="o14631" name="head" />
+      <structure id="o14632" name="array">
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <relation id="r1570" name="in" from="o14631" to="o14632" negation="false" />
+    </statement>
+    <statement id="699.txt-5">
+      <text>Involucres campanulate, 5–6 mm.</text>
+      <structure id="o14633" name="involucre">
+        <character name="shape" value="campanulate" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="699.txt-6">
+      <text>Phyllaries in 5–6(–7) series, white (opaque, dull), ovate or elliptic (keeled, apiculate), glabrous.</text>
+      <structure id="o14634" name="phyllary">
+        <character name="coloration" value="white" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="elliptic" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+      <structure id="o14635" name="series" constraint="-7">
+        <character char_type="range_value" name="count" from="5" to="6" />
+      </structure>
+      <relation id="r1571" name="in" from="o14634" to="o14635" negation="false" />
+    </statement>
+    <statement id="699.txt-7">
+      <text>Pistillate florets (80–)115[–180].</text>
+      <structure id="o14636" name="floret" constraint="pistillate">
+        <character char_type="range_value" name="atypical_count" from="80" to="115" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_count" from="115" to="180" from_inclusive="false" />
+        <character name="count" value="115" />
+      </structure>
+    </statement>
+    <statement id="699.txt-8">
+      <text>Bisexual florets (6–)8–12[–30].</text>
+      <structure id="o14637" name="floret" constraint="bisexual">
+        <character char_type="range_value" name="atypical_count" from="6" to="8" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_count" from="12" to="30" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="8" to="12" />
+      </structure>
+    </statement>
+    <statement id="699.txt-9">
+      <text>Cypselae weakly ridged, papillate-roughened or smooth.</text>
+      <structure id="o14638" name="cypsela">
+        <character name="shape" value="ridged" modifier="weakly" />
+        <character name="texture" value="papillate-roughened" />
+        <character name="architecture_or_relief" value="smooth" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <habitat>grasslands</habitat>
+  <habitat>chaparral</habitat>
+  <habitat>openings in oak-pine-juniper, oak, and ponderosa pine woodlands</habitat>
+  <habitat>roadsides</habitat>
+  <habitat>disturbed sites</habitat>
+  <elevation>1500–2300 m;</elevation>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Nebr.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <global_distribution>Mexico.</global_distribution>
+  <discussion>Pseudognaphalium jaliscense is recognized by its relatively long, narrow, concolor to weakly bicolor leaves with non-clasping, short-decurrent bases, relatively large heads with white, opaque, dull phyllaries, and relatively large numbers of pistillate and bisexual florets. Counts of pistillate and bisexual florets from the United States collections are mostly 90–115 and (6–)8–12 (fewer than in Mexico).</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

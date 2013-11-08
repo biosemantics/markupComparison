@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>51b.</number>
+  <variety_name>Cirsium eatonii (A. Gray) B. L. Robinson var. clokeyi</variety_name>
+  <authority>(S. F. Blake) D. J. Keil</authority>
+  <place_of_publication>Sida 21: 212. 2004</place_of_publication>
+  <common_name>Clokey or Spring Mountains or white-spine thistle</common_name>
+  <synonym_of_variety_name>Cirsium clokeyi S. F. Blake, Proc. Biol. Soc. Wash. 51: 8. 1938</synonym_of_variety_name>
+  <description>
+    <statement id="142.txt-0">
+      <text>Stems erect or ascending, stout, 40–150 cm.</text>
+      <structure id="o1159" name="stem">
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="ascending" />
+        <character name="fragility" value="stout" />
+        <character char_type="range_value" name="size" from="40" from_unit="cm" to="150" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="142.txt-1">
+      <text>Leaf faces glabrous or nearly so.</text>
+      <structure id="o1160" name="face" constraint="leaf">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="glabrous" modifier="nearly" />
+      </structure>
+    </statement>
+    <statement id="142.txt-2">
+      <text>Heads usually short-pedunculate in erect, racemiform arrays or sometimes long-pedunculate in openly corymbiform arrays.</text>
+      <structure id="o1161" name="head">
+        <character name="architecture" value="short-pedunculate" modifier="usually" constraint="in arrays" constraintid="o1162" />
+        <character name="architecture" value="long-pedunculate" modifier="sometimes" constraint="in arrays" constraintid="o1163" />
+      </structure>
+      <structure id="o1162" name="array">
+        <character name="orientation" value="erect" />
+        <character name="architecture" value="racemiform" />
+      </structure>
+      <structure id="o1163" name="array">
+        <character name="architecture" value="corymbiform" modifier="openly" />
+      </structure>
+    </statement>
+    <statement id="142.txt-3">
+      <text>Involucres 3–5 cm, glabrous or thinly arachnoid tomentose, individual phyllaries evident.</text>
+      <structure id="o1164" name="involucre">
+        <character char_type="range_value" name="size" from="3" from_unit="cm" to="5" to_unit="cm" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+      <structure id="o1165" name="phyllary" constraint="individual">
+        <character name="manifestation" value="evident" />
+      </structure>
+    </statement>
+    <statement id="142.txt-4">
+      <text>Phyllaries green or purplish-tinged;</text>
+      <structure id="o1166" name="phyllary">
+        <character name="coloration" value="green" />
+        <character name="coloration" value="tinged" modifier="purplish" />
+      </structure>
+    </statement>
+    <statement id="142.txt-6">
+      <text>apical spines stout.</text>
+      <structure id="o1167" name="spine" constraint="apical">
+        <character name="fragility" value="stout" />
+      </structure>
+    </statement>
+    <statement id="142.txt-7">
+      <text>Corollas purple, 24–33 mm, tubes 3.5–7 mm, throats 11–14 mm, lobes 8–12.5 mm.</text>
+      <structure id="o1168" name="corolla">
+        <character name="coloration" value="purple" />
+        <character char_type="range_value" name="size" from="24" from_unit="mm" to="33" to_unit="mm" />
+      </structure>
+      <structure id="o1169" name="tube">
+        <character char_type="range_value" name="size" from="3.5" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+      <structure id="o1170" name="throat">
+        <character char_type="range_value" name="size" from="11" from_unit="mm" to="14" to_unit="mm" />
+      </structure>
+      <structure id="o1171" name="lobe">
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="12.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="142.txt-8">
+      <text>Pappi 16–18 mm.</text>
+      <structure id="o1172" name="pappus">
+        <character char_type="range_value" name="size" from="16" from_unit="mm" to="18" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="142.txt-9">
+      <text>2 n = 34 (as C. clokeyi ).</text>
+      <structure id="o1173" name="chromosome">
+        <character name="count" value="34" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>gravelly slopes</habitat>
+  <habitat>ravines</habitat>
+  <habitat>montane coniferous forests</habitat>
+  <habitat>subalpine forests</habitat>
+  <habitat>alpine scree</habitat>
+  <conservation>of conservation concern;</conservation>
+  <elevation>2300–3500 m;</elevation>
+  <us_distribution>Nev.</us_distribution>
+  <discussion>Variety clokeyi is endemic to the Spring Range of Clark County. Its range overlaps that of Cirsium arizonicum var. tenuisectum but no hybrids between the two are known.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

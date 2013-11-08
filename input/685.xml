@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>6.</number>
+  <species_name>Pseudognaphalium thermale</species_name>
+  <authority>(E. E. Nelson) G. L. Nesom</authority>
+  <place_of_publication>Sida 21: 781. 2004</place_of_publication>
+  <common_name>Northwestern rabbit-tobacco</common_name>
+  <synonym_of_species_name>Gnaphalium thermale E. E. Nelson, Bot. Gaz. 30: 121. 1900; G. canescens de Candolle subsp . thermale (E. E. Nelson) Stebbins &amp; D. J. Keil; G. johnstonii G. N. Jones; G. microcephalum Nuttall var. thermale (E. E. Nelson) Cronquist; G. microcephalum subsp. thermale (E. E. Nelson) G. W. Douglas; Pseudognaphalium canescens (de Candolle) Anderberg subsp. thermale (E. E. Nelson) Kartesz; P. microcephalum (Nuttall) Anderberg var. thermale (E. E. Nelson) Dorn</synonym_of_species_name>
+  <description>
+    <statement id="685.txt-0">
+      <text>Perennials, (20–)30–70 cm;</text>
+    </statement>
+    <statement id="685.txt-1">
+      <text>taprooted.</text>
+      <structure id="o14295" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="20" to="30" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="30" from_unit="cm" to="70" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+        <character name="architecture" value="taprooted" />
+      </structure>
+    </statement>
+    <statement id="685.txt-2">
+      <text>Stems loosely tomentose, not glandular.</text>
+      <structure id="o14296" name="stem">
+        <character name="pubescence" value="tomentose" modifier="loosely" />
+        <character name="architecture_or_exudation_or_pubescence" value="glandular" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="685.txt-3">
+      <text>Leaf blades narrowly oblanceolate, 3–8 cm × 3–6 mm (gradually smaller distally, becoming linear), bases not clasping, decurrent 5–14 mm, margins flat, faces concolor, loosely tomentose, sessile-glandular beneath tomentum.</text>
+      <structure id="o14297" name="blade" constraint="leaf">
+        <character name="shape" value="oblanceolate" modifier="narrowly" />
+        <character char_type="range_value" name="length" from="3" from_unit="cm" to="8" to_unit="cm" />
+        <character char_type="range_value" name="width" from="3" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+      <structure id="o14298" name="base">
+        <character name="architecture" value="clasping" modifier="not" />
+        <character name="shape" value="decurrent" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="14" to_unit="mm" />
+      </structure>
+      <structure id="o14299" name="margin">
+        <character name="shape" value="flat" />
+      </structure>
+      <structure id="o14300" name="face">
+        <character name="coloration" value="concolor" />
+        <character name="pubescence" value="tomentose" modifier="loosely" />
+        <character name="architecture_or_exudation_or_pubescence" value="sessile-glandular" constraint="beneath tomentum" constraintid="o14301" />
+      </structure>
+      <structure id="o14301" name="tomentum" />
+    </statement>
+    <statement id="685.txt-4">
+      <text>Heads in loose to dense, corymbiform to paniculiform arrays.</text>
+      <structure id="o14302" name="head" />
+      <structure id="o14303" name="array">
+        <character char_type="range_value" name="texture" from="loose" to="dense" />
+        <character name="texture" value="loose" />
+        <character name="texture" value="dense" />
+        <character char_type="range_value" name="architecture" from="corymbiform" to="paniculiform" />
+        <character name="architecture" value="corymbiform" />
+        <character name="architecture" value="paniculiform" />
+      </structure>
+      <relation id="r1526" name="in" from="o14302" to="o14303" negation="false" />
+    </statement>
+    <statement id="685.txt-5">
+      <text>Involucres turbinate-campanulate, (4–)5–6 mm.</text>
+      <structure id="o14304" name="involucre">
+        <character name="shape" value="turbinate-campanulate" />
+        <character char_type="range_value" name="atypical_size" from="4" to="5" from_unit="mm" to_unit="mm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="685.txt-6">
+      <text>Phyllaries in 3–4(–5) series, whitish (hyaline or opaque, usually shiny, sometimes dull), ovate to ovate-oblong (outer broadly acute, inner rounded-apiculate), glabrous.</text>
+      <structure id="o14305" name="phyllary">
+        <character name="coloration" value="whitish" />
+        <character char_type="range_value" name="shape" from="ovate" to="ovate-oblong" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="ovate-oblong" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+      <structure id="o14306" name="series" constraint="-5">
+        <character char_type="range_value" name="count" from="3" to="4" />
+      </structure>
+      <relation id="r1527" name="in" from="o14305" to="o14306" negation="false" />
+    </statement>
+    <statement id="685.txt-7">
+      <text>Pistillate florets 35–55.</text>
+      <structure id="o14307" name="floret" constraint="pistillate">
+        <character char_type="range_value" name="count" from="35" to="55" />
+      </structure>
+    </statement>
+    <statement id="685.txt-8">
+      <text>Bisexual florets (2–)4–7.</text>
+      <structure id="o14308" name="floret" constraint="bisexual">
+        <character char_type="range_value" name="atypical_count" from="2" to="4" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="4" to="7" />
+      </structure>
+    </statement>
+    <statement id="685.txt-9">
+      <text>Cypselae ridged, densely papillate-roughened.</text>
+      <structure id="o14309" name="cypsela">
+        <character name="shape" value="ridged" />
+        <character name="texture" value="papillate-roughened" modifier="densely" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <habitat>dry, sandy road banks</habitat>
+  <habitat>roadside ditches</habitat>
+  <habitat>streambeds and banks</habitat>
+  <habitat>lakeshores</habitat>
+  <habitat>granitic sand</habitat>
+  <habitat>open woods of yellow pine</habitat>
+  <habitat>jeffrey pine</habitat>
+  <habitat>red fir, douglas fir, mixed conifer, and mixed evergreen</habitat>
+  <elevation>(50–)300–2300(–2500) m;</elevation>
+  <ca_distribution>Alta.</ca_distribution>
+  <ca_distribution>B.C.</ca_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

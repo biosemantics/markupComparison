@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Rhagadiolus stellatus</species_name>
+  <authority>(Linnaeus) Gaertner</authority>
+  <place_of_publication>Fruct. Sem. Pl. 2: 354. 1791</place_of_publication>
+  <synonym_of_species_name>Lapsana stellata Linnaeus, Sp. Pl. 2: 811. 1753</synonym_of_species_name>
+  <description>
+    <statement id="441.txt-0">
+      <text>Leaf blades 25–100(–150+) × 10–30(–60+) mm.</text>
+      <structure id="o8763" name="blade" constraint="leaf">
+        <character char_type="range_value" name="atypical_length" from="100" to="150" from_unit="mm" to_unit="mm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="25" from_unit="mm" to="100" to_unit="mm" />
+        <character char_type="range_value" name="atypical_width" from="30" to="60" from_unit="mm" to_unit="mm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="width" from="10" from_unit="mm" to="30" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="441.txt-1">
+      <text>Phyllaries linear (ultimately each convolute about a subtended cypsela), glabrous or hispid to setose.</text>
+      <structure id="o8764" name="phyllary">
+        <character name="arrangement_or_shape" value="linear" />
+        <character char_type="range_value" name="pubescence" from="hispid" to="setose" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="hispid" />
+        <character name="pubescence" value="setose" />
+      </structure>
+    </statement>
+    <statement id="441.txt-2">
+      <text>Cypselae:</text>
+      <structure id="o8765" name="cypsela" />
+    </statement>
+    <statement id="441.txt-3">
+      <text>outer 10–15(–25) mm, inner 5–10 mm.</text>
+      <structure id="o8766" name="cypsela" constraint="outer">
+        <character char_type="range_value" name="atypical_size" from="15" to="25" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="15" to_unit="mm" />
+      </structure>
+      <structure id="o8767" name="cypsela" constraint="inner">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="441.txt-4">
+      <text>2 n = 10.</text>
+      <structure id="o8768" name="chromosome">
+        <character name="count" value="10" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>may</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <habitat>disturbed sites</habitat>
+  <elevation>10–200 m;</elevation>
+  <introduced>introduced;</introduced>
+  <us_distribution>Calif.</us_distribution>
+  <global_distribution>Europe.</global_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

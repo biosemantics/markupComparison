@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Omalotheca supina</species_name>
+  <authority>(Linnaeus) de Candolle</authority>
+  <place_of_publication>in A. P. de Candolle and A. L. P. P. de Candolle, Prodr. 6: 245. 1838</place_of_publication>
+  <common_name>Alpine Arctic-cudweed , gnaphale couché</common_name>
+  <synonym_of_species_name>Gnaphalium supinum Linnaeus, Syst. Nat. ed. 12, 3: 234. 1768</synonym_of_species_name>
+  <description>
+    <statement id="725.txt-0">
+      <text>Plants 2–8(–12) cm.</text>
+      <structure id="o15130" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="8" to="12" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="2" from_unit="cm" to="8" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="725.txt-1">
+      <text>Leaves mostly basal (in persistent rosettes);</text>
+      <structure id="o15131" name="leaf">
+        <character name="insertion_or_position" value="basal" modifier="mostly" />
+      </structure>
+    </statement>
+    <statement id="725.txt-2">
+      <text>blades 1-nerved, linear to linear-oblanceolate, 5–25 × 3 mm, cauline similar, faces concolor, gray-green, thinly woolly.</text>
+      <structure id="o15132" name="blade">
+        <character name="architecture" value="1-nerved" />
+        <character char_type="range_value" name="shape" from="linear" to="linear-oblanceolate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="linear-oblanceolate" />
+        <character char_type="range_value" name="length" from="5" from_unit="mm" to="25" to_unit="mm" />
+        <character name="width" value="3" unit="mm" />
+        <character name="insertion_or_position" value="cauline" />
+      </structure>
+      <structure id="o15133" name="face">
+        <character name="coloration" value="concolor" />
+        <character name="coloration" value="green" modifier="gray" />
+        <character name="pubescence" value="woolly" modifier="thinly" />
+      </structure>
+    </statement>
+    <statement id="725.txt-3">
+      <text>Heads (usually 1–7) in subcapitate to loose, spiciform arrays.</text>
+      <structure id="o15134" name="head" />
+      <structure id="o15135" name="array">
+        <character name="architecture" value="subcapitate" />
+        <character name="architecture_or_texture" value="loose" />
+        <character name="architecture" value="spiciform" />
+      </structure>
+      <relation id="r1635" name="in" from="o15134" to="o15135" negation="false" />
+    </statement>
+    <statement id="725.txt-4">
+      <text>Involucres campanulate, 5–6 mm.</text>
+      <structure id="o15136" name="involucre">
+        <character name="shape" value="campanulate" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="725.txt-5">
+      <text>Phyllaries light green to tan, oblong to lanceolate, outer obtuse, inner mostly acute, margins and tips dark brown.</text>
+      <structure id="o15137" name="phyllary">
+        <character char_type="range_value" name="coloration" from="light-green" to="tan" />
+        <character name="coloration" value="green" modifier="light" />
+        <character name="coloration" value="tan" />
+        <character name="shape" value="oblong" />
+        <character name="shape" value="lanceolate" />
+        <character name="position" value="outer" />
+        <character name="shape" value="obtuse" />
+        <character name="position" value="inner" modifier="mostly" />
+        <character name="shape" value="acute" />
+      </structure>
+      <structure id="o15138" name="margin" />
+      <structure id="o15139" name="tip">
+        <character name="coloration" value="brown" modifier="dark" />
+      </structure>
+    </statement>
+    <statement id="725.txt-6">
+      <text>Cypselae obovoid, strigose;</text>
+      <structure id="o15140" name="cypsela">
+        <character name="shape" value="obovoid" />
+        <character name="pubescence" value="strigose" />
+      </structure>
+    </statement>
+    <statement id="725.txt-7">
+      <text>pappus bristles distinct, falling separately.</text>
+      <structure id="o15141" name="bristle" constraint="pappus">
+        <character name="fusion" value="distinct" />
+        <character name="orientation" value="falling" modifier="separately" />
+      </structure>
+    </statement>
+    <statement id="725.txt-8">
+      <text>2 n = 28.</text>
+      <structure id="o15142" name="chromosome">
+        <character name="count" value="28" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>granite outcrops</habitat>
+  <habitat>gravelly slopes</habitat>
+  <habitat>other alpine sites</habitat>
+  <elevation>200–1300 m;</elevation>
+  <global_distribution>Greenland</global_distribution>
+  <ca_distribution>Nfld. and Labr.</ca_distribution>
+  <ca_distribution>Que.</ca_distribution>
+  <us_distribution>Maine</us_distribution>
+  <us_distribution>N.H.</us_distribution>
+  <us_distribution>Vt.</us_distribution>
+  <global_distribution>Europe</global_distribution>
+  <global_distribution>Asia (Caucasus).</global_distribution>
+  <global_distribution>Asia (Iran).</global_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

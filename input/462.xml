@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Anisocoma acaulis</species_name>
+  <authority>Torrey &amp; A. Gray</authority>
+  <place_of_publication>Boston J. Nat. Hist. 5: 111, plate 13, figs. 7–11. 1845</place_of_publication>
+  <common_name>Scalebud</common_name>
+  <description>
+    <statement id="462.txt-0">
+      <text>Leaves:</text>
+      <structure id="o9162" name="leaf" />
+    </statement>
+    <statement id="462.txt-1">
+      <text>blades 2–7 cm, lobes oblong to triangular, abaxially ± floccose-tomentose, glabrate in age.</text>
+      <structure id="o9163" name="blade">
+        <character char_type="range_value" name="size" from="2" from_unit="cm" to="7" to_unit="cm" />
+      </structure>
+      <structure id="o9164" name="lobe">
+        <character char_type="range_value" name="shape" from="oblong" to="triangular" />
+        <character name="shape" value="oblong" />
+        <character name="shape" value="triangular" />
+        <character name="pubescence" value="floccose-tomentose" modifier="abaxially ±" />
+        <character name="pubescence" value="glabrate" constraint="in age" constraintid="o9165" />
+      </structure>
+      <structure id="o9165" name="age" />
+    </statement>
+    <statement id="462.txt-2">
+      <text>Heads 3–5+ cm diam., nodding in bud.</text>
+      <structure id="o9166" name="head">
+        <character char_type="range_value" name="size" from="3" from_unit="cm" to="5" to_unit="cm" upper_restricted="false" />
+        <character name="orientation" value="nodding" constraint="in bud" constraintid="o9167" />
+      </structure>
+      <structure id="o9167" name="bud" />
+    </statement>
+    <statement id="462.txt-3">
+      <text>Paleae 7-–13 mm, persistent after cypselae have fallen.</text>
+      <structure id="o9168" name="palea">
+        <character char_type="range_value" name="size" from="7" from_unit="mm" to="-13" to_unit="mm" />
+        <character name="duration" value="persistent" constraint="after cypselae" constraintid="o9169" />
+      </structure>
+      <structure id="o9169" name="cypsela" />
+    </statement>
+    <statement id="462.txt-4">
+      <text>Involucres broadly cylindric to campanulate, 15–35 mm.</text>
+      <structure id="o9170" name="involucre">
+        <character char_type="range_value" name="shape" from="broadly cylindric" to="campanulate" />
+        <character name="shape" value="cylindric" modifier="broadly" />
+        <character name="shape" value="campanulate" modifier="broadly" />
+        <character char_type="range_value" name="size" from="15" from_unit="mm" to="35" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="462.txt-5">
+      <text>Phyllaries often with reddish tips and dots, outer broadly rounded, 2–6 mm, inner 15–35 mm.</text>
+      <structure id="o9171" name="phyllary">
+        <character name="position" value="outer" modifier="broadly" />
+        <character name="shape" value="rounded" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="6" to_unit="mm" />
+        <character name="position" value="inner" />
+        <character char_type="range_value" name="size" from="15" from_unit="mm" to="35" to_unit="mm" />
+      </structure>
+      <structure id="o9172" name="tip">
+        <character name="coloration" value="reddish" />
+      </structure>
+      <relation id="r1067" name="with" from="o9171" to="o9172" negation="false" modifier="often" />
+      <structure id="o9173" name="dot" />
+    </statement>
+    <statement id="462.txt-6">
+      <text>Cypselae 4–7 mm;</text>
+      <structure id="o9174" name="cypsela">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="462.txt-7">
+      <text>pappi 20–27 mm.</text>
+      <structure id="o9175" name="pappus">
+        <character char_type="range_value" name="size" from="20" from_unit="mm" to="27" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="462.txt-8">
+      <text>2 n = 14.</text>
+      <structure id="o9176" name="chromosome">
+        <character name="count" value="14" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <habitat>sandy washes</habitat>
+  <habitat>dry slopes</habitat>
+  <habitat>chaparral</habitat>
+  <habitat>pine-oak-juniper woodlands</habitat>
+  <habitat>montane coniferous forests</habitat>
+  <elevation>20–2400 m;</elevation>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <global_distribution>Mexico (Baja California).</global_distribution>
+  <discussion>Anisocoma acaulis grows on the southwestern fringe of the Great Basin and in the Mojave and Sonoran deserts.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

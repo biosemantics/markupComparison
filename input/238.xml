@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Stokesia laevis</species_name>
+  <authority>(Hill) Greene</authority>
+  <place_of_publication>Erythea 1: 3. 1893</place_of_publication>
+  <synonym_of_species_name>Carthamus laevis Hill, Hort. Kew., 57, plate 5. 1768</synonym_of_species_name>
+  <description>
+    <statement id="238.txt-0">
+      <text>Stems tomentulose, glabrescent.</text>
+      <structure id="o4028" name="stem">
+        <character name="pubescence" value="tomentulose" />
+        <character name="pubescence" value="glabrescent" />
+      </structure>
+    </statement>
+    <statement id="238.txt-1">
+      <text>Leaves:</text>
+      <structure id="o4029" name="leaf" />
+    </statement>
+    <statement id="238.txt-2">
+      <text>basal with petioles 3–12 cm, narrowly winged, blades 8–15 × 1–5 cm;</text>
+      <structure id="o4030" name="leaf" constraint="basal">
+        <character name="architecture" value="winged" modifier="narrowly" />
+      </structure>
+      <structure id="o4031" name="petiole">
+        <character char_type="range_value" name="size" from="3" from_unit="cm" to="12" to_unit="cm" />
+      </structure>
+      <relation id="r571" name="with" from="o4030" to="o4031" negation="false" />
+      <structure id="o4032" name="blade">
+        <character char_type="range_value" name="length" from="8" from_unit="cm" to="15" to_unit="cm" />
+        <character char_type="range_value" name="width" from="1" from_unit="cm" to="5" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="238.txt-3">
+      <text>cauline sessile, ± clasping, blades 5–12 × 1–3 cm.</text>
+      <structure id="o4033" name="leaf" constraint="cauline">
+        <character name="architecture" value="sessile" />
+        <character name="architecture" value="clasping" modifier="±" />
+      </structure>
+      <structure id="o4034" name="blade">
+        <character char_type="range_value" name="length" from="5" from_unit="cm" to="12" to_unit="cm" />
+        <character char_type="range_value" name="width" from="1" from_unit="cm" to="3" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="238.txt-4">
+      <text>Involucres 25–45 × 25–45 mm.</text>
+      <structure id="o4035" name="involucre">
+        <character char_type="range_value" name="length" from="25" from_unit="mm" to="45" to_unit="mm" />
+        <character char_type="range_value" name="width" from="25" from_unit="mm" to="45" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="238.txt-5">
+      <text>Phyllaries:</text>
+      <structure id="o4036" name="phyllary" />
+    </statement>
+    <statement id="238.txt-6">
+      <text>outer 15–35+ mm, foliaceous portions elliptic to spatulate or linear, margins ± spiny, inner oblong to linear, 10–15+ mm, margins mostly entire, tips spiny.</text>
+      <structure id="o4037" name="floret" constraint="outer">
+        <character char_type="range_value" name="size" from="15" from_unit="mm" to="35" to_unit="mm" upper_restricted="false" />
+      </structure>
+      <structure id="o4038" name="portion">
+        <character name="architecture" value="foliaceous" />
+        <character char_type="range_value" name="shape" from="elliptic" to="spatulate or linear" />
+        <character name="shape" value="elliptic" />
+        <character name="shape" value="spatulate" />
+        <character name="shape" value="linear" />
+      </structure>
+      <structure id="o4039" name="margin">
+        <character name="architecture_or_shape" value="spiny" modifier="±" />
+      </structure>
+      <structure id="o4040" name="floret" constraint="inner">
+        <character char_type="range_value" name="shape" from="oblong" to="linear" />
+        <character name="shape" value="oblong" />
+        <character name="shape" value="linear" />
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="15" to_unit="mm" upper_restricted="false" />
+      </structure>
+      <structure id="o4041" name="margin">
+        <character name="shape" value="entire" modifier="mostly" />
+      </structure>
+      <structure id="o4042" name="tip">
+        <character name="architecture_or_shape" value="spiny" />
+      </structure>
+    </statement>
+    <statement id="238.txt-7">
+      <text>Corollas 15–25+ mm (outer) or 12–15+ mm (inner).</text>
+      <structure id="o4043" name="corolla">
+        <character char_type="range_value" name="size" from="15" from_unit="mm" to="25" to_unit="mm" upper_restricted="false" />
+        <character char_type="range_value" name="size" from="12" from_unit="mm" to="15" to_unit="mm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="238.txt-8">
+      <text>Cypselae 5–8 mm;</text>
+      <structure id="o4044" name="cypsela">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="238.txt-9">
+      <text>pappi 8–12 mm.</text>
+      <structure id="o4045" name="pappus">
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="12" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="238.txt-10">
+      <text>2 n = 14.</text>
+      <structure id="o4046" name="chromosome">
+        <character name="count" value="14" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>openings in woodlands</habitat>
+  <habitat>bogs</habitat>
+  <elevation>10–100 m;</elevation>
+  <us_distribution>Ala.</us_distribution>
+  <us_distribution>Fla.</us_distribution>
+  <us_distribution>Ga.</us_distribution>
+  <us_distribution>La.</us_distribution>
+  <us_distribution>Miss.</us_distribution>
+  <us_distribution>S.C.</us_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

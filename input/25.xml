@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>187b.</number>
+  <tribe_name>Asteraceae Martinov tribe Cynareae</tribe_name>
+  <authority>Lamarck &amp; de Candolle</authority>
+  <place_of_publication>Syn. Pl. Fl. Gall., 267. 1806</place_of_publication>
+  <synonym_of_tribe_name>Cardueae Cassini</synonym_of_tribe_name>
+  <description>
+    <statement id="25.txt-0">
+      <text>Annuals or perennials (sometimes coarse and/or robust, often prickly-spiny and thistlelike [subshrubs, shrubs, or trees]; rarely dioecious, e.g., some Cirsium spp.).</text>
+      <structure id="o4229" name="whole_organism">
+        <character name="life_style" value="annual" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="25.txt-1">
+      <text>Leaves basal and/or cauline;</text>
+    </statement>
+    <statement id="25.txt-2">
+      <text>alternate;</text>
+    </statement>
+    <statement id="25.txt-3">
+      <text>± petiolate or sessile;</text>
+      <structure id="o4231" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="arrangement" value="alternate" />
+        <character name="architecture" value="petiolate" modifier="±" />
+        <character name="architecture" value="sessile" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="25.txt-4">
+      <text>margins usually lobed to dissected, sometimes dentate or entire (usually spiny).</text>
+      <structure id="o4232" name="margin">
+        <character char_type="range_value" name="shape" from="usually lobed" to="dissected , sometimes dentate or entire" />
+        <character name="shape" value="lobed" modifier="usually" />
+        <character name="shape" value="dissected" modifier="usually" />
+        <character name="shape" value="dentate" modifier="sometimes" />
+        <character name="shape" value="entire" modifier="sometimes" />
+      </structure>
+    </statement>
+    <statement id="25.txt-5">
+      <text>Heads mostly homogamous (usually discoid, sometimes disciform or radiant, then peripheral florets usually pistillate or neuter, sometimes bisexual or with staminodes), borne singly or in corymbiform, paniculiform, or racemiform arrays (heads with 1 floret each aggregated into second-order heads in Echinops ).</text>
+      <structure id="o4233" name="head">
+        <character name="maturation_or_reproduction" value="homogamous" modifier="mostly" />
+        <character name="arrangement" value="singly" />
+        <character name="arrangement" value="in corymbiform , paniculiform , or racemiform arrays" />
+      </structure>
+      <structure id="o4234" name="array">
+        <character name="architecture" value="corymbiform" />
+        <character name="architecture" value="paniculiform" />
+        <character name="architecture" value="racemiform" />
+      </structure>
+      <relation id="r585" name="in" from="o4233" to="o4234" negation="false" />
+    </statement>
+    <statement id="25.txt-6">
+      <text>Calyculi 0 (involucres sometimes closely subtended by leaflike peduncle bracts).</text>
+      <structure id="o4235" name="calyculus">
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+    <statement id="25.txt-7">
+      <text>Phyllaries usually persistent [ readily falling ], in (1–)3–5+ series, usually distinct, usually unequal, usually herbaceous (sometimes fleshy), margins (entire or denticulate to pectinate, sometimes spiny) and apices seldom notably scarious (apices often spinose or ± expanded into distinct, often fimbriate-fringed, pectinate, and/or spiny appendages).</text>
+      <structure id="o4236" name="phyllary">
+        <character name="duration" value="persistent" modifier="usually" />
+        <character name="fusion" value="distinct" modifier="usually" />
+        <character name="size" value="unequal" modifier="usually" />
+        <character name="habit_or_texture" value="herbaceous" modifier="usually" />
+      </structure>
+      <structure id="o4237" name="series" constraint="1-3-5+" />
+      <relation id="r586" name="in" from="o4236" to="o4237" negation="false" />
+      <structure id="o4238" name="margin" />
+      <structure id="o4239" name="apex">
+        <character name="texture" value="scarious" modifier="seldom notably" />
+      </structure>
+    </statement>
+    <statement id="25.txt-8">
+      <text>Receptacles flat to convex, usually epaleate (often pitted and often bristly-setose or densely hairy).</text>
+      <structure id="o4240" name="receptacle">
+        <character char_type="range_value" name="shape" from="flat" to="convex" />
+        <character name="shape" value="flat" />
+        <character name="shape" value="convex" />
+        <character name="architecture" value="epaleate" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="25.txt-9">
+      <text>Ray florets 0 (corollas of peripheral florets in radiant heads often notably enlarged, usually 5-lobed, sometimes zygomorphic and raylike or ± 2-lipped).</text>
+      <structure id="o4241" name="floret" constraint="ray">
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+    <statement id="25.txt-10">
+      <text>Peripheral (pistillate) florets 0 or (in disciform heads) in 1–3+ series;</text>
+      <structure id="o4242" name="floret" constraint="peripheral">
+        <character name="count" value="0" />
+        <character name="count" value="in 1-3+ series" />
+      </structure>
+      <structure id="o4243" name="series">
+        <character char_type="range_value" name="count" from="1" to="3" upper_restricted="false" />
+      </structure>
+      <relation id="r587" name="in" from="o4242" to="o4243" negation="false" />
+    </statement>
+    <statement id="25.txt-11">
+      <text>corollas (usually present) usually yellow, sometimes ochroleucous or cyanic.</text>
+      <structure id="o4244" name="corolla">
+        <character name="coloration" value="yellow" modifier="usually" />
+        <character name="coloration" value="ochroleucous" modifier="sometimes" />
+        <character name="coloration" value="cyanic" modifier="sometimes" />
+      </structure>
+    </statement>
+    <statement id="25.txt-12">
+      <text>Disc florets bisexual and fertile (rarely functionally staminate);</text>
+      <structure id="o4245" name="floret" constraint="disc">
+        <character name="reproduction" value="bisexual" />
+        <character name="reproduction" value="fertile" />
+      </structure>
+    </statement>
+    <statement id="25.txt-13">
+      <text>corollas yellow, cyanic, or white, usually actinomorphic, lobes 5, usually narrowly triangular to ± linear , seldom deltate (sometimes unequal, corollas then ± zygomorphic);</text>
+      <structure id="o4246" name="corolla">
+        <character name="coloration" value="yellow" />
+        <character name="coloration" value="cyanic" />
+        <character name="coloration" value="white" />
+        <character name="architecture" value="actinomorphic" modifier="usually" />
+      </structure>
+      <structure id="o4247" name="lobe">
+        <character name="count" value="5" />
+        <character name="shape" value="triangular" modifier="usually narrowly" />
+        <character name="arrangement_or_shape" value="linear" modifier="±" />
+        <character name="shape" value="deltate" modifier="seldom" />
+      </structure>
+    </statement>
+    <statement id="25.txt-14">
+      <text>anther bases ± tailed, apical appendages usually oblong (filaments sometimes papillate to pilose; connate in Silybum );</text>
+      <structure id="o4248" name="base" constraint="anther">
+        <character name="shape" value="tailed" modifier="±" />
+      </structure>
+      <structure id="o4249" name="appendage" constraint="apical">
+        <character name="shape" value="oblong" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="25.txt-15">
+      <text>styles (bisexual, fertile florets) distally enlarged or swollen, usually dilated and/or with rings of hairs at or near point of bifurcation, abaxially smooth or papillate to hairy (at least distally, sometimes ± throughout) , “branches” often connate, adaxially continuously stigmatic ± to tips, apices rounded to acute, appendages essentially none.</text>
+      <structure id="o4250" name="style">
+        <character name="size" value="enlarged" modifier="distally" />
+        <character name="shape" value="swollen" />
+        <character name="shape" value="dilated" modifier="usually" constraint="with rings" constraintid="o4251" />
+        <character name="architecture_or_relief" value="smooth" modifier="abaxially" />
+        <character name="architecture_or_relief" value="papillate to hairy" />
+        <character char_type="range_value" name="pubescence" from="papillate" to="hairy" />
+        <character name="pubescence" value="papillate" />
+        <character name="pubescence" value="hairy" />
+        <character name="fusion" value="connate" modifier="often" />
+      </structure>
+      <structure id="o4251" name="ring" />
+      <structure id="o4252" name="hair" />
+      <relation id="r588" name="part_of" from="o4251" to="o4252" negation="false" />
+      <structure id="o4253" name="point" />
+      <relation id="r589" name="at or near" from="o4251" to="o4253" negation="false" />
+      <structure id="o4254" name="bifurcation" />
+      <relation id="r590" name="part_of" from="o4253" to="o4254" negation="false" />
+      <structure id="o4255" name="branch" />
+      <structure id="o4256" name="tip" />
+      <relation id="r591" name="adaxially continuously stigmatic moreorless to" from="o4250" to="o4256" negation="false" />
+      <structure id="o4257" name="apex">
+        <character char_type="range_value" name="shape" from="rounded" to="acute" />
+        <character name="shape" value="rounded" />
+        <character name="shape" value="acute" />
+      </structure>
+      <structure id="o4258" name="appendage" />
+    </statement>
+    <statement id="25.txt-16">
+      <text>Cypselae usually monomorphic within heads (often thick-walled, hard, nutlike, receptacular attachments basal or lateral, bases sometimes each with an elaiosome), usually ellipsoid, obovoid, or ovoid, sometimes rounded-prismatic, terete, 4–5-angled, or ± compressed, rarely beaked, bodies usually smooth, sometimes rugose or 10- or 20-nerved (glabrous or puberulent to villous; often with apical umbo and/or crown in addition to pappus);</text>
+      <structure id="o4259" name="cypsela">
+        <character name="habit" value="monomorphic" modifier="usually" constraint="within heads" constraintid="o4260" />
+        <character name="shape" value="ellipsoid" modifier="usually" />
+        <character name="shape" value="obovoid" />
+        <character name="shape" value="ovoid" />
+        <character name="shape" value="rounded-prismatic" modifier="sometimes" />
+        <character name="shape" value="terete" />
+        <character name="shape" value="4-5-angled" />
+        <character name="shape" value="compressed" modifier="±" />
+        <character name="shape" value="beaked" modifier="rarely" />
+      </structure>
+      <structure id="o4260" name="head" />
+      <structure id="o4261" name="body">
+        <character name="architecture_or_relief" value="smooth" modifier="usually" />
+        <character name="relief" value="rugose" modifier="sometimes" />
+        <character name="architecture" value="10-or-20-nerved" />
+      </structure>
+    </statement>
+    <statement id="25.txt-17">
+      <text>pappi (rarely 0) readily falling or persistent, usually of fine to coarse, barbellate to plumose bristles, sometimes of scales, sometimes both bristles and scales.</text>
+      <structure id="o4262" name="pappus">
+        <character name="orientation" value="falling" modifier="readily" />
+        <character name="duration" value="persistent" />
+      </structure>
+      <structure id="o4263" name="bristle">
+        <character char_type="range_value" name="texture" from="fine" to="coarse" />
+        <character name="texture" value="fine" />
+        <character name="texture" value="coarse" />
+        <character char_type="range_value" name="architecture" from="barbellate" to="plumose" />
+        <character name="architecture" value="barbellate" />
+        <character name="architecture" value="plumose" />
+      </structure>
+      <relation id="r592" name="consist_of" from="o4262" to="o4263" negation="false" modifier="usually" />
+      <structure id="o4264" name="scale" />
+      <relation id="r593" name="consist_of" from="o4262" to="o4264" negation="false" modifier="sometimes" />
+      <structure id="o4265" name="bristle" />
+      <structure id="o4266" name="scale" />
+    </statement>
+  </description>
+  <number_of_infrataxa>Genera 83, species 2500 (17 genera, 116 species in the flora):</number_of_infrataxa>
+  <general_distribution>mostly Old World</general_distribution>
+  <general_distribution>especially Mediterranean</general_distribution>
+  <general_distribution>some species widely introduced.</general_distribution>
+  <discussion>The circumscription for Cynareae adopted here is the traditional one and includes the three elements (Cynareae in the narrow sense, Carlineae, and Echinopeae) recognized as tribally distinct by M. Dittrich (1977[1978]). Work by K. Bremer (1987) supported the Dittrich scheme. A traditional circumscription of Cynareae was maintained by J. L. Panero and V. A. Funk (2002).</discussion>
+  <references>SELECTED REFERENCES Dittrich, M. 1977[1978]. Cynareae—systematic review. In: V. H. Heywood et al., eds. 1977[1978]. The Biology and Chemistry of the Compositae. 2 vols. London. Vol. 2, pp. 999–1015. Garcia-Jacas, N., A. Susanna, T. Garnatje, and R. Vilatersana. 2001. Generic delimitations and phylogeny of the subtribe Centaureinae (Asteraceae): A combined nuclear and chloroplast DNA analysis. Ann. Bot. (Oxford) 87: 503–515. Howell, J. T. 1959. Distributional data on weedy thistles in western North America. Leafl. W. Bot. 9: 17–32. Moore, R. J. and C. Frankton. 1974. The Thistles of Canada. Ottawa. [Canada Dept. Agric., Res. Branch, Monogr. 10.] Susanna, A., N. Garcia-Jacas, D. E. Soltis, and P. S. Soltis. 1995. Phylogenetic relationships in tribe Cardueae (Asteraceae) based on ITS sequences. Amer. J. Bot. 82: 1056–1068. Wagenitz, G. and F. H. Hellwig. 1996. Evolution of characters and phylogeny of the Centaureae. In: D. J. N. Hind et al., eds. 1996. Proceedings of the International Compositae Conference, Kew, 1994. 2 vols. Kew. Vol. 1, pp. 491–510.</references>
+  <key>1.Leaf margins spiny.</key>
+  <key>2.Florets 1 per head (heads in globose, second-order heads)9. Echinops, p. 85</key>
+  <key>2.Florets 3–250+ per head (heads borne singly or in ± open arrays, not in globose second-order heads).</key>
+  <key>3.Stems winged.</key>
+  <key>4.Receptacles bearing setiform scales (“flattened bristles”), (not pitted); cypselar attachments slightly lateral; pappus bristles usually distinct, sometimes basally connate12. Carduus, p. 91</key>
+  <key>4.Receptacles not bristly (deeply pitted); cypselar attachments basal; pappus bristles basally connate10. Onopordum, p. 87</key>
+  <key>3.Stems not or rarely winged (some Cirsium spp.).</key>
+  <key>5.Leaves variegated (stamen filaments connate)14. Silybum, p. 164</key>
+  <key>5.Leaves not variegated (stamen filaments distinct).</key>
+  <key>6.Corollas yellow to orange, red, or ± purple; cypsela attachments lateral; pappi 0 or of distinct, minutely barbed (not plumose) setiform scales (“flattened bristles”) or subulate scales.</key>
+  <key>7.Heads discoid (all florets fertile); receptacles bearing subulate scales; cypselae 4-angled23. Carthamus, p. 178</key>
+  <key>7.Heads disciform (peripheral florets sterile); receptacles bristly (“flat- tened bristles”), cypselae terete, 20-ribbed24. Centaurea (in part), p. 181</key>
+  <key>6.Corollas white or purplish to red; cypsela attachments basal or oblique-basal; pappi of basally connate, plumose setiform scales (“flattened bristles”).</key>
+  <key>8.Receptacles scaly (sometimes bristly); cypsela attachments oblique- basal8. Carlina, p. 84</key>
+  <key>8.Receptacles densely bristly-setose; cypselar attachments basal.</key>
+  <key>9.Involucres 35–100+ mm diam. (largest leaves 60–150 cm; recep- tacles becoming fleshy)11. Cynara (in part), p. 89</key>
+  <key>9.Involucres 10–50 mm diam. (largest leaves 20–50(–110) cm; receptacles usually not notably fleshy)13. Cirsium, p. 95</key>
+  <key>1.Leaf margins not spiny (tips sometimes ± spinose-apiculate).</key>
+  <key>10.Heads discoid (all florets bisexual and fertile).</key>
+  <key>11.Cypselar attachments ± lateral.</key>
+  <key>12.Phyllary appendages entire or lacerate, not fringed; pappi of ± caducous, dis- tally plumose bristles17. Acroptilon, p. 171</key>
+  <key>12.Phyllary appendages dentate or fringed; pappi 0 or if persistent, then non- plumose bristles or scales24. Centaurea (in part), p. 181</key>
+  <key>11.Cypselar attachments basal.</key>
+  <key>13.Phyllary apices spiny, hooked; bristles of pappus distinct, not plumose16. Arctium, p. 168</key>
+  <key>13.Phyllary apices spiny or not, not hooked; setiform scales (“flattened bristles”) of pappus basally connate, plumose.</key>
+  <key>14.Receptacles densely long-bristly (“flattened bristles”) (becoming fleshy); florets 100–250+11. Cynara (in part), p. 89</key>
+  <key>14.Receptacles usually subulate-scaly, sometimes bristly or naked (not fleshy); florets 10–2015. Saussurea, p. 165</key>
+  <key>10.Heads radiant or disciform (peripheral florets usually neuter).</key>
+  <key>15.Heads disciform.</key>
+  <key>16.Phyllary appendages dentate or fringed, spiny or not; receptacles bristly (“flat- tened bristles”)24. Centaurea (in part), p. 181</key>
+  <key>16.Phyllary appendages 0 (apices acute, entire); receptacles bearing subulate scales22. Crupina, p. 177</key>
+  <key>15.Heads radiant.</key>
+  <key>17.Phyllary appendages 0.</key>
+  <key>18.Biennials or perennials; spines on phyllary apices caducous; cypsela apices not coronate19. Mantisalca, p. 173</key>
+  <key>18.Annuals; spines on phyllary apices persistent; cypsela apices coronate 20. Volutaria, p. 174</key>
+  <key>[17. Shifted to left margin.—Ed.]</key>
+  <key>17.Phyllary appendages present.</key>
+  <key>19.Cypselae compressed (oblong; attachment scars rimmed, rims whitish, swollen), apices denticulate18. Amberboa, p. 172</key>
+  <key>19.Cypselae ± terete (barrel-shaped; attachment scars not rimmed), apices entire.</key>
+  <key>20.Annuals; leaf margins mostly entire or denticulate to serrulate; cypsela attachment oblique-basal; involucres 20–40 mm diam.; phyllary bodies linear, margins entire, appendages fimbriate; corollas of peripheral florets 30–70 mm21. Plectocephalus, p. 175</key>
+  <key>20.Annuals, biennials, or perennials; leaf margins entire or toothed to pinnately lobed; involucres 10–25(–40) mm diam.; cypsela attachment lateral; phyllary bodies oblong to ovate or obovate, margins fimbriate, appendages fimbriate; corollas of peripheral florets 15–30(–45) mm24. Centaurea (in part), p. 181</key>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

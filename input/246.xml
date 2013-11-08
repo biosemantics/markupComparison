@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>31.</number>
+  <genus_name>CYANTHILLIUM</genus_name>
+  <authority>Cyanthillium Blume</authority>
+  <place_of_publication>Bijdr. Fl. Ned. Ind., 889. 1826</place_of_publication>
+  <common_name />
+  <derivation>Origin uncertain; probably Greek cyanos , blue, and anthyllion , little flower, alluding to corollas</derivation>
+  <author_of_tribe_genus>John L. Strother</author_of_tribe_genus>
+  <description>
+    <statement id="246.txt-0">
+      <text>Annuals (perhaps persisting), 2–6(–12+) dm.</text>
+      <structure id="o4157" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="6" to="12" from_unit="dm" to_unit="dm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="2" from_unit="dm" to="6" to_unit="dm" />
+        <character name="life_style" value="annual" />
+      </structure>
+    </statement>
+    <statement id="246.txt-1">
+      <text>Leaves mostly cauline (at flowering);</text>
+      <structure id="o4158" name="leaf">
+        <character name="insertion_or_position" value="cauline" modifier="mostly" />
+      </structure>
+    </statement>
+    <statement id="246.txt-2">
+      <text>petioles ± winged;</text>
+      <structure id="o4159" name="petiole">
+        <character name="architecture" value="winged" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="246.txt-3">
+      <text>blades ovate to trullate, deltate, oblanceolate, or spatulate, bases ± cuneate, margins serrate, apices rounded to acute, abaxial faces ± hirtellous to densely piloso-strigillose, resin-gland-dotted, adaxial faces ± scabrellous or glabrate.</text>
+      <structure id="o4160" name="blade">
+        <character char_type="range_value" name="shape" from="ovate" to="trullate , deltate , oblanceolate , or spatulate" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="trullate" />
+        <character name="shape" value="deltate" />
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="spatulate" />
+      </structure>
+      <structure id="o4161" name="base">
+        <character name="shape" value="cuneate" modifier="±" />
+      </structure>
+      <structure id="o4162" name="margin">
+        <character name="shape" value="serrate" />
+      </structure>
+      <structure id="o4163" name="apex">
+        <character char_type="range_value" name="shape" from="rounded" to="acute" />
+        <character name="shape" value="rounded" />
+        <character name="shape" value="acute" />
+      </structure>
+      <structure id="o4164" name="face" constraint="abaxial">
+        <character char_type="range_value" name="pubescence" from="hirtellous" to="densely piloso-strigillose" modifier="±" />
+        <character name="pubescence" value="hirtellous" modifier="±" />
+        <character name="pubescence" value="piloso-strigillose" modifier="densely" />
+        <character name="coloration_or_relief" value="resin-gland-dotted" />
+      </structure>
+      <structure id="o4165" name="face" constraint="adaxial">
+        <character name="relief" value="scabrellous" modifier="±" />
+        <character name="pubescence" value="glabrate" />
+      </structure>
+    </statement>
+    <statement id="246.txt-4">
+      <text>Heads discoid, ± pedunculate, not subtended by foliaceous bracts, (12–)40–100+ in ± corymbiform arrays (6–)10–15+ cm diam.</text>
+      <structure id="o4166" name="head">
+        <character name="shape_or_architecture" value="discoid" />
+        <character name="architecture" value="pedunculate" modifier="±" />
+        <character char_type="range_value" name="atypical_count" from="12" to="40" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="40" to="100" upper_restricted="false" constraint="in arrays" constraintid="o4168" />
+      </structure>
+      <structure id="o4167" name="bract">
+        <character name="architecture" value="foliaceous" />
+      </structure>
+      <relation id="r582" name="subtended by" from="o4166" to="o4167" negation="true" />
+      <structure id="o4168" name="array">
+        <character name="architecture" value="corymbiform" modifier="±" />
+        <character char_type="range_value" name="atypical_size" from="6" to="10" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="15" to_unit="cm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="246.txt-5">
+      <text>Involucres ± campanulate to turbinate or hemispheric, 4–5 mm diam.</text>
+      <structure id="o4169" name="involucre">
+        <character char_type="range_value" name="shape" from="campanulate" to="turbinate or hemispheric" modifier="±" />
+        <character name="shape" value="campanulate" modifier="±" />
+        <character name="shape" value="turbinate" modifier="±" />
+        <character name="shape" value="hemispheric" modifier="±" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="246.txt-6">
+      <text>Phyllaries 24–32+ in 3–4+ series, the outer subulate to lanceolate, inner ± lanceolate, all ± chartaceous, margins entire, tips apiculate to spinose, abaxial faces ± strigillose, ± resin-gland-dotted.</text>
+      <structure id="o4170" name="phyllary">
+        <character char_type="range_value" name="count" from="24" to="32" upper_restricted="false" constraint="in series" constraintid="o4171" />
+        <character char_type="range_value" name="shape" from="outer subulate" to="lanceolate" />
+        <character name="shape" value="lanceolate" />
+        <character name="position" value="inner" modifier="±" />
+        <character name="shape" value="lanceolate" />
+        <character name="texture" value="chartaceous" modifier="±" />
+      </structure>
+      <structure id="o4171" name="series">
+        <character char_type="range_value" name="count" from="3" to="4" upper_restricted="false" />
+      </structure>
+      <structure id="o4172" name="margin">
+        <character name="shape" value="entire" />
+      </structure>
+      <structure id="o4173" name="tip">
+        <character char_type="range_value" name="shape" from="apiculate" to="spinose" />
+        <character name="shape" value="apiculate" />
+        <character name="shape" value="spinose" />
+      </structure>
+      <structure id="o4174" name="face" constraint="abaxial">
+        <character name="pubescence" value="strigillose" modifier="±" />
+        <character name="coloration_or_relief" value="resin-gland-dotted" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="246.txt-7">
+      <text>Florets 13–20(–24+);</text>
+      <structure id="o4175" name="floret">
+        <character char_type="range_value" name="atypical_count" from="20" to="24" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="13" to="20" />
+      </structure>
+    </statement>
+    <statement id="246.txt-8">
+      <text>corollas lavender to pink or purplish, tubes longer than funnelform throats, lobes 5, lance-linear, ± equal.</text>
+      <structure id="o4176" name="corolla">
+        <character char_type="range_value" name="coloration" from="lavender" to="pink or purplish" />
+        <character name="coloration" value="lavender" />
+        <character name="coloration" value="pink" />
+        <character name="coloration" value="purplish" />
+      </structure>
+      <structure id="o4177" name="tube">
+        <character name="size" value="longer" constraint="than funnelform throats" constraintid="o4178" />
+      </structure>
+      <structure id="o4178" name="throat">
+        <character name="shape" value="funnelform" />
+      </structure>
+      <structure id="o4179" name="lobe">
+        <character name="count" value="5" />
+        <character name="arrangement_or_shape" value="lance-linear" />
+        <character name="size" value="equal" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="246.txt-9">
+      <text>Cypselae ± columnar, not ribbed, ± strigillose;</text>
+      <structure id="o4180" name="cypsela">
+        <character name="shape" value="columnar" modifier="±" />
+        <character name="architecture_or_shape" value="ribbed" modifier="not" />
+        <character name="pubescence" value="strigillose" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="246.txt-10">
+      <text>pappi of ± 20 ± persistent outer scales, plus ± 20 caducous inner bristles.</text>
+      <structure id="o4181" name="pappus">
+        <character name="count" value="20" modifier="±" />
+      </structure>
+      <structure id="o4182" name="scale" constraint="persistent outer">
+        <character name="count" value="20" modifier="±" />
+      </structure>
+      <relation id="r583" name="consist_of" from="o4181" to="o4182" negation="false" />
+      <structure id="o4183" name="bristle" constraint="inner">
+        <character name="duration" value="caducous" />
+      </structure>
+    </statement>
+    <statement id="246.txt-11">
+      <text>x = 9 (18?).</text>
+      <structure id="o4184" name="chromosome">
+        <character name="count" value="9" />
+        <character name="atypical_count" value="18" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species 1–2 (1 in the flora):</number_of_infrataxa>
+  <introduced>introduced;</introduced>
+  <general_distribution>Florida</general_distribution>
+  <general_distribution>probably paleotropical in origin</general_distribution>
+  <general_distribution>now widely established in tropical and warm-temperate regions as naturalized ruderals.</general_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

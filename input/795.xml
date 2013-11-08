@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>2.</number>
+  <species_name>Inula brittanica</species_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 882. 1753</place_of_publication>
+  <description>
+    <statement id="795.txt-0">
+      <text>Plants 10–40(–75) cm.</text>
+      <structure id="o16756" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="40" to="75" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="40" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="795.txt-1">
+      <text>Leaves:</text>
+      <structure id="o16757" name="leaf" />
+    </statement>
+    <statement id="795.txt-2">
+      <text>basal blades lanceolate, (3–)6–7 cm × 8–20(–30+) mm;</text>
+      <structure id="o16758" name="blade" constraint="basal">
+        <character name="shape" value="lanceolate" />
+        <character char_type="range_value" name="atypical_length" from="3" to="6" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="length" from="6" from_unit="cm" to="7" to_unit="cm" />
+        <character char_type="range_value" name="atypical_width" from="20" to="30" from_unit="mm" to_unit="mm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="width" from="8" from_unit="mm" to="20" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="795.txt-3">
+      <text>cauline blades lance-elliptic to lance-linear, 2–5+ cm × 5–12(–20+) mm, bases ± cordate, clasping, margins entire or serrulate (abaxial faces usually villous, adaxial sparsely strigillose to glabrate).</text>
+      <structure id="o16759" name="blade" constraint="cauline">
+        <character name="arrangement_or_shape" value="lance-elliptic" />
+        <character name="arrangement_or_shape" value="lance-linear" />
+        <character char_type="range_value" name="length" from="2" from_unit="cm" to="5" to_unit="cm" upper_restricted="false" />
+        <character char_type="range_value" name="atypical_width" from="12" to="20" from_unit="mm" to_unit="mm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="width" from="5" from_unit="mm" to="12" to_unit="mm" />
+      </structure>
+      <structure id="o16760" name="base">
+        <character name="shape" value="cordate" modifier="±" />
+        <character name="architecture" value="clasping" />
+      </structure>
+      <structure id="o16761" name="margin">
+        <character name="shape" value="entire" />
+        <character name="shape" value="serrulate" />
+      </structure>
+    </statement>
+    <statement id="795.txt-4">
+      <text>Involucres 7–9(–15) mm diam .</text>
+      <structure id="o16762" name="involucre">
+        <character char_type="range_value" name="atypical_size" from="9" to="15" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="7" from_unit="mm" to="9" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="795.txt-5">
+      <text>Outer phyllaries lance-linear, 4–6 × 0.5–0.8 mm (bases sericeous);</text>
+      <structure id="o16763" name="phyllary" constraint="outer">
+        <character name="arrangement_or_shape" value="lance-linear" />
+        <character char_type="range_value" name="length" from="4" from_unit="mm" to="6" to_unit="mm" />
+        <character char_type="range_value" name="width" from="0.5" from_unit="mm" to="0.8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="795.txt-6">
+      <text>inner phyllaries similar, more scarious.</text>
+      <structure id="o16764" name="phyllary" constraint="inner">
+        <character name="texture" value="scarious" />
+      </structure>
+    </statement>
+    <statement id="795.txt-7">
+      <text>Ray florets 40–70+;</text>
+      <structure id="o16765" name="floret" constraint="ray">
+        <character char_type="range_value" name="count" from="40" to="70" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="795.txt-8">
+      <text>corolla laminae 10–15+ mm.</text>
+      <structure id="o16766" name="lamina" constraint="corolla">
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="15" to_unit="mm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="795.txt-9">
+      <text>Disc corollas 4–6 mm.</text>
+      <structure id="o16767" name="corolla" constraint="disc">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="795.txt-10">
+      <text>Cypselae 1–1.5 mm, puberulent or glabrate;</text>
+      <structure id="o16768" name="cypsela">
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="1.5" to_unit="mm" />
+        <character name="pubescence" value="puberulent" />
+        <character name="pubescence" value="glabrate" />
+      </structure>
+    </statement>
+    <statement id="795.txt-11">
+      <text>pappi of 15–25 distinct or basally connate bristles 4–6 mm.</text>
+      <structure id="o16769" name="pappus" />
+      <structure id="o16770" name="bristle">
+        <character char_type="range_value" name="count" from="15" to="25" />
+        <character name="fusion" value="distinct" />
+        <character name="fusion" value="connate" modifier="basally" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+      <relation id="r1802" name="consist_of" from="o16769" to="o16770" negation="false" />
+    </statement>
+    <statement id="795.txt-12">
+      <text>2 n = 32.</text>
+      <structure id="o16771" name="chromosome">
+        <character name="count" value="32" />
+      </structure>
+    </statement>
+  </description>
+  <habitat>roadsides</habitat>
+  <habitat>waste places</habitat>
+  <introduced>introduced;</introduced>
+  <ca_distribution>Ont.</ca_distribution>
+  <ca_distribution>Que.</ca_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <global_distribution>Europe.</global_distribution>
+  <discussion>Inula brittanica is probably an occasional escape from garden trash and not truly established in the flora.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

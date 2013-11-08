@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>40e.</number>
+  <variety_name>Cirsium occidentale (Nuttall) Jepson var. lucianum</variety_name>
+  <authority>D. J. Keil</authority>
+  <place_of_publication>Sida 21: 214. 2004</place_of_publication>
+  <common_name>Cuesta Ridge thistle</common_name>
+  <description>
+    <statement id="119.txt-0">
+      <text>Plants erect, 30–200 cm, densely gray-tomentose.</text>
+      <structure id="o462" name="whole_organism">
+        <character name="orientation" value="erect" />
+        <character char_type="range_value" name="size" from="30" from_unit="cm" to="200" to_unit="cm" />
+        <character name="pubescence" value="gray-tomentose" modifier="densely" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="119.txt-1">
+      <text>Heads in openly branched arrays, long-pedunculate, elevated well above proximal leaves.</text>
+      <structure id="o463" name="head">
+        <character name="architecture" value="long-pedunculate" />
+        <character name="prominence" value="elevated" modifier="well" constraint="above leaves" constraintid="o465" />
+      </structure>
+      <structure id="o464" name="array" constraint="branched" />
+      <relation id="r86" name="in" from="o463" to="o464" negation="false" />
+      <structure id="o465" name="leaf" constraint="proximal" />
+    </statement>
+    <statement id="119.txt-2">
+      <text>Involucres about as wide as long, 2–4 cm, floccose-arachnoid, without fine trichomes connecting tips of adjacent phyllaries .</text>
+      <structure id="o466" name="involucre">
+        <character char_type="range_value" name="size" from="2" from_unit="cm" to="4" to_unit="cm" />
+        <character name="pubescence" value="floccose-arachnoid" />
+      </structure>
+      <structure id="o467" name="trichome">
+        <character name="texture" value="fine" />
+      </structure>
+      <relation id="r87" name="without" from="o466" to="o467" negation="false" />
+      <structure id="o468" name="tip" />
+      <relation id="r88" name="connecting" from="o466" to="o468" negation="false" />
+      <structure id="o469" name="phyllary" constraint="adjacent" />
+      <relation id="r89" name="part_of" from="o468" to="o469" negation="false" />
+    </statement>
+    <statement id="119.txt-3">
+      <text>Phyllaries imbricate, outer ascending to spreading or reflexed, mid apices ascending to spreading, straight or distally curved, usually 5–8 × 1–3 mm.</text>
+      <structure id="o470" name="phyllary">
+        <character name="aestivation_or_arrangement" value="imbricate" />
+        <character char_type="range_value" name="orientation" from="outer ascending" to="spreading or reflexed" />
+        <character name="orientation" value="spreading" />
+        <character name="orientation" value="reflexed" />
+      </structure>
+      <structure id="o471" name="apex" constraint="mid">
+        <character char_type="range_value" name="orientation" from="ascending" to="spreading" />
+        <character name="orientation" value="ascending" />
+        <character name="orientation" value="spreading" />
+        <character name="course" value="straight" />
+        <character name="shape" value="curved" modifier="distally" />
+        <character name="size" value="] 5-8×1-3" unit="mm" />
+      </structure>
+    </statement>
+    <statement id="119.txt-4">
+      <text>Corollas dark reddish purple, 20–24 mm.</text>
+      <structure id="o472" name="corolla">
+        <character name="coloration" value="purple" modifier="dark-reddish" />
+        <character char_type="range_value" name="size" from="20" from_unit="mm" to="24" to_unit="mm" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <habitat>chaparral</habitat>
+  <habitat>openings in closed cypress conifer forests</habitat>
+  <habitat>mixed evergreen forests</habitat>
+  <habitat>oak woodlands</habitat>
+  <elevation>500–1500 m;</elevation>
+  <global_distribution>of conservation concern</global_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <discussion>Variety lucianum occupies a narrow corridor along and adjacent to the main ridge of the southern Santa Lucia Mountains of San Luis Obispo County. D. J. Keil and C. E. Turner (1993) treated these plants as an atypical race of var. californicum. They resemble small-headed plants of the latter but differ in their dark, reddish purple corollas. They approach the ranges of var. californicum and var. venustum but are not known to grow with either. They may represent a stabilized emergent form derived by prehistoric hybridization between var. californicum and var. venustum.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

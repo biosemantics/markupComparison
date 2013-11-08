@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>2.</number>
+  <species_name>Artemisia borealis</species_name>
+  <authority>Pallas</authority>
+  <place_of_publication>Reise Russ. Reich. 3: 755. 1776</place_of_publication>
+  <synonym_of_species_name>Artemisia campestris Linnaeus subsp. borealis (Pallas) H. M. Hall &amp; Clements</synonym_of_species_name>
+  <description>
+    <statement id="849.txt-0">
+      <text>Perennials, (6–)8–20(–40) cm (cespitose), mildly aromatic;</text>
+    </statement>
+    <statement id="849.txt-1">
+      <text>taprooted, caudices branched.</text>
+      <structure id="o17861" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="6" to="8" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_size" from="20" to="40" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="8" from_unit="cm" to="20" to_unit="cm" />
+        <character name="odor" value="aromatic" modifier="mildly" />
+        <character name="life_style" value="perennial" />
+        <character name="architecture" value="taprooted" />
+      </structure>
+      <structure id="o17862" name="caudex">
+        <character name="architecture_or_shape" value="branched" />
+      </structure>
+    </statement>
+    <statement id="849.txt-2">
+      <text>Stems (1–)2–5, gray-green, tomentose.</text>
+      <structure id="o17863" name="stem">
+        <character char_type="range_value" name="atypical_count" from="1" to="2" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="2" to="5" />
+        <character name="coloration" value="green" modifier="gray" />
+        <character name="pubescence" value="tomentose" />
+      </structure>
+    </statement>
+    <statement id="849.txt-3">
+      <text>Leaves persistent, basal rosettes persistent, gray-green to white;</text>
+      <structure id="o17864" name="leaf">
+        <character name="duration" value="persistent" />
+      </structure>
+      <structure id="o17865" name="rosette" constraint="basal">
+        <character name="duration" value="persistent" />
+        <character char_type="range_value" name="coloration" from="gray-green" to="white" />
+        <character name="coloration" value="green" modifier="gray" />
+        <character name="coloration" value="white" />
+      </structure>
+    </statement>
+    <statement id="849.txt-4">
+      <text>blades ovate, 2–4 × 0.5–1 cm, 2–3-pinnately or -ternately lobed, lobes linear to narrowly oblong, apices acute, faces moderately to densely sericeous.</text>
+      <structure id="o17866" name="blade">
+        <character name="shape" value="ovate" />
+        <character char_type="range_value" name="length" from="2" from_unit="cm" to="4" to_unit="cm" />
+        <character char_type="range_value" name="width" from="0.5" from_unit="cm" to="1" to_unit="cm" />
+        <character name="shape" value="lobed" modifier="2-3-pinnately-or-ternately" />
+      </structure>
+      <structure id="o17867" name="lobe">
+        <character char_type="range_value" name="shape" from="linear" to="narrowly oblong" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="oblong" modifier="narrowly" />
+      </structure>
+      <structure id="o17868" name="apex">
+        <character name="shape" value="acute" />
+      </structure>
+      <structure id="o17869" name="face">
+        <character name="pubescence" value="sericeous" modifier="moderately densely" />
+      </structure>
+    </statement>
+    <statement id="849.txt-5">
+      <text>Heads (proximal sessile, distal pedunculate) in (leafy) spiciform arrays 4–9(–12) × (0.5–)1–5 cm.</text>
+      <structure id="o17870" name="head" />
+      <structure id="o17871" name="array">
+        <character name="architecture" value="spiciform" />
+        <character char_type="range_value" name="atypical_length" from="9" to="12" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="4" from_unit="cm" to="9" to_unit="cm" />
+        <character char_type="range_value" name="atypical_width" from="0.5" to="1" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="width" from="1" from_unit="cm" to="5" to_unit="cm" />
+      </structure>
+      <relation id="r1889" name="in" from="o17870" to="o17871" negation="false" />
+    </statement>
+    <statement id="849.txt-6">
+      <text>Involucres hemispheric, 3–4 × 3.5–4 mm.</text>
+      <structure id="o17872" name="involucre">
+        <character name="shape" value="hemispheric" />
+        <character char_type="range_value" name="length" from="3" from_unit="mm" to="4" to_unit="mm" />
+        <character char_type="range_value" name="width" from="3.5" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="849.txt-7">
+      <text>Phyllaries (obscurely scarious) densely tomentose-villous.</text>
+      <structure id="o17873" name="phyllary">
+        <character name="pubescence" value="tomentose-villous" modifier="densely" />
+      </structure>
+    </statement>
+    <statement id="849.txt-8">
+      <text>Florets:</text>
+      <structure id="o17874" name="floret" />
+    </statement>
+    <statement id="849.txt-9">
+      <text>pistillate 8–10;</text>
+      <structure id="o17875" name="floret" constraint="pistillate">
+        <character char_type="range_value" name="count" from="8" to="10" />
+      </structure>
+    </statement>
+    <statement id="849.txt-10">
+      <text>functionally staminate 15–30;</text>
+      <structure id="o17876" name="floret" constraint="functionally staminate">
+        <character char_type="range_value" name="count" from="15" to="30" />
+      </structure>
+    </statement>
+    <statement id="849.txt-11">
+      <text>corollas (or lobes) yellow-orange or deep red, 2.2–3.5.</text>
+      <structure id="o17877" name="corolla">
+        <character name="coloration" value="orange" modifier="yellow" />
+        <character char_type="range_value" name="size" from="2.2" to="3.5" />
+      </structure>
+    </statement>
+    <statement id="849.txt-12">
+      <text>Cypselae oblong-lanceoloid, somewhat compressed, 0.4–1 mm, faintly nerved, glabrous.</text>
+      <structure id="o17878" name="cypsela">
+        <character name="shape" value="oblong-lanceoloid" />
+        <character name="shape" value="compressed" modifier="somewhat" />
+        <character char_type="range_value" name="size" from="0.4" from_unit="mm" to="1" to_unit="mm" />
+        <character name="architecture" value="nerved" modifier="faintly" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Subspecies 2 (2 in the flora):</number_of_infrataxa>
+  <general_distribution>w North America</general_distribution>
+  <general_distribution>especially at high elevations and northern latitudes</general_distribution>
+  <general_distribution>Eurasia.</general_distribution>
+  <couplet>1.Herbage villoso-tomentose, glabrate, or glabrous; corollas (at least lobes) usually yellow-orange, 2.2–3 mm; mountains, w North America2a. Artemisia borealis subsp. borealis</couplet>
+  <couplet>1.Herbage white-hoary; corollas (at least lobes) deep red, 3–3.5 mm; w arctic North America2b. Artemisia borealis subsp. richardsoniana</couplet>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

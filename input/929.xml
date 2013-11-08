@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>120.</number>
+  <genus_name>HULTENIELLA</genus_name>
+  <authority>Tzvelev</authority>
+  <place_of_publication>in A. I. Tomatchew, Fl. Arct. URSS 10: 117. 1987</place_of_publication>
+  <common_name />
+  <derivation>For Eric Hultén, 1894–1981, Swedish botanist, specialist of the circumpolar flora</derivation>
+  <author_of_tribe_genus>Luc Brouillet</author_of_tribe_genus>
+  <synonym_of_genus_name>Dendranthema Des Moulins sect. Haplophylla Tzvelev in V. L. Komarov et al., Fl. URSS 26: 388, 880. 1961</synonym_of_genus_name>
+  <description>
+    <statement id="929.txt-0">
+      <text>Perennials, (0.6–)1–12 cm (sterile basal rosettes 1–10+; rhizomes at or below ground, ± woody, giving rise to branched, woody caudices).</text>
+      <structure id="o19083" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="0.6" to="1" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="1" from_unit="cm" to="12" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="929.txt-1">
+      <text>Stems (flowering) 1–10+ (1 per rosette), erect, not branched (scapiform), ± villous to woolly, particularly near heads (hairs basifixed).</text>
+      <structure id="o19084" name="stem">
+        <character char_type="range_value" name="count" from="1" to="10" upper_restricted="false" />
+        <character name="orientation" value="erect" />
+        <character name="architecture_or_shape" value="branched" modifier="not" />
+        <character char_type="range_value" name="pubescence" from="villous" to="woolly" modifier="±" />
+        <character name="pubescence" value="villous" modifier="±" />
+        <character name="pubescence" value="woolly" modifier="±" />
+      </structure>
+      <structure id="o19085" name="head" />
+      <relation id="r2020" name="near" from="o19084" to="o19085" negation="false" modifier="particularly" />
+    </statement>
+    <statement id="929.txt-2">
+      <text>Leaves (basal marcescent, erect) all or mostly basal;</text>
+    </statement>
+    <statement id="929.txt-3">
+      <text>alternate;</text>
+    </statement>
+    <statement id="929.txt-4">
+      <text>sessile;</text>
+      <structure id="o19086" name="leaf">
+        <character name="insertion_or_position" value="basal" modifier="mostly" />
+        <character name="arrangement" value="alternate" />
+        <character name="architecture" value="sessile" />
+      </structure>
+    </statement>
+    <statement id="929.txt-5">
+      <text>blades (appearing 1-nerved or nerves inconspicuous) linear, not lobed, margins entire (villous-ciliate), faces glabrous.</text>
+      <structure id="o19087" name="blade">
+        <character name="arrangement_or_shape" value="linear" />
+        <character name="shape" value="lobed" modifier="not" />
+      </structure>
+      <structure id="o19088" name="margin">
+        <character name="shape" value="entire" />
+      </structure>
+      <structure id="o19089" name="face">
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="929.txt-6">
+      <text>Heads radiate, borne singly.</text>
+      <structure id="o19090" name="head">
+        <character name="architecture_or_arrangement" value="radiate" />
+        <character name="arrangement" value="singly" />
+      </structure>
+    </statement>
+    <statement id="929.txt-7">
+      <text>Involucres hemispheric or broader, (4–)4.5–6(–6.5) mm diam.</text>
+      <structure id="o19091" name="involucre">
+        <character name="shape" value="hemispheric" />
+        <character name="size" value="broader" />
+        <character char_type="range_value" name="atypical_size" from="4" to="4.5" from_unit="mm" to_unit="mm" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_size" from="6" to="6.5" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="4.5" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="929.txt-8">
+      <text>Phyllaries persistent (green), 20–26(+) in 2(–3+) series, distinct, oblong to lance-oblong (not carinate, 1-nerved), margins and apices (dark brown, fimbriate) scarious (apices obtuse to acute, abaxial faces glabrous or villous).</text>
+      <structure id="o19092" name="phyllary">
+        <character name="duration" value="persistent" />
+        <character char_type="range_value" name="atypical_count" from="26" to="26" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="20" to="26" constraint="in -3+ series" constraintid="o19093" />
+        <character name="fusion" value="distinct" />
+        <character char_type="range_value" name="shape" from="oblong" to="lance-oblong" />
+        <character name="shape" value="oblong" />
+        <character name="shape" value="lance-oblong" />
+      </structure>
+      <structure id="o19093" name="series" constraint="-3+">
+        <character name="count" value="2" />
+      </structure>
+      <structure id="o19094" name="margin" />
+      <structure id="o19095" name="apex">
+        <character name="texture" value="scarious" />
+      </structure>
+    </statement>
+    <statement id="929.txt-9">
+      <text>Receptacles convex (± villous), epaleate.</text>
+      <structure id="o19096" name="receptacle">
+        <character name="shape" value="convex" />
+        <character name="architecture" value="epaleate" />
+      </structure>
+    </statement>
+    <statement id="929.txt-10">
+      <text>Ray florets 11–19, pistillate, fertile;</text>
+      <structure id="o19097" name="floret" constraint="ray">
+        <character char_type="range_value" name="count" from="11" to="19" />
+        <character name="architecture" value="pistillate" />
+        <character name="reproduction" value="fertile" />
+      </structure>
+    </statement>
+    <statement id="929.txt-11">
+      <text>corollas white, laminae obovate.</text>
+      <structure id="o19098" name="corolla">
+        <character name="coloration" value="white" />
+      </structure>
+      <structure id="o19099" name="lamina">
+        <character name="shape" value="obovate" />
+      </structure>
+    </statement>
+    <statement id="929.txt-12">
+      <text>Disc florets 60–80, bisexual, fertile;</text>
+      <structure id="o19100" name="floret" constraint="disc">
+        <character char_type="range_value" name="count" from="60" to="80" />
+        <character name="reproduction" value="bisexual" />
+        <character name="reproduction" value="fertile" />
+      </structure>
+    </statement>
+    <statement id="929.txt-13">
+      <text>corollas yellow, tubes ± cylindric, throats campanulate, lobes 5, deltate (without resin sacs).</text>
+      <structure id="o19101" name="corolla">
+        <character name="coloration" value="yellow" />
+      </structure>
+      <structure id="o19102" name="tube">
+        <character name="shape" value="cylindric" modifier="±" />
+      </structure>
+      <structure id="o19103" name="throat">
+        <character name="shape" value="campanulate" />
+      </structure>
+      <structure id="o19104" name="lobe">
+        <character name="count" value="5" />
+        <character name="shape" value="deltate" />
+      </structure>
+    </statement>
+    <statement id="929.txt-14">
+      <text>Cypselae ± obconic, ribs 5, faces glabrous (pericarps without myxogenic cells or resin sacs);</text>
+      <structure id="o19105" name="cypsela">
+        <character name="shape" value="obconic" modifier="±" />
+      </structure>
+      <structure id="o19106" name="rib">
+        <character name="count" value="5" />
+      </structure>
+      <structure id="o19107" name="face">
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="929.txt-15">
+      <text>pappi crowns of 6–12 irregular teeth.</text>
+      <structure id="o19108" name="crown" constraint="pappi" />
+      <structure id="o19109" name="tooth">
+        <character char_type="range_value" name="count" from="6" to="12" />
+        <character name="architecture_or_course" value="irregular" />
+      </structure>
+      <relation id="r2021" name="consist_of" from="o19108" to="o19109" negation="false" />
+    </statement>
+    <statement id="929.txt-16">
+      <text>x = 9.</text>
+      <structure id="o19110" name="chromosome">
+        <character name="count" value="9" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species 1:</number_of_infrataxa>
+  <general_distribution>n Canada</general_distribution>
+  <general_distribution>Alaska</general_distribution>
+  <general_distribution>n Eurasia.</general_distribution>
+  <discussion>K. Bremer and C. J. Humphries (1993) included Hulteniella in Arctanthemum. Hulteniella has not been included in molecular phylogenetic studies.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Atrichoseris platyphylla</species_name>
+  <authority>(A. Gray) A. Gray</authority>
+  <synonym_of_species_name>Malacothrix platyphylla A. Gray, Proc. Amer. Acad. Arts 9: 214. 1874</synonym_of_species_name>
+  <description>
+    <statement id="460.txt-0">
+      <text>Stems glaucous.</text>
+      <structure id="o9131" name="stem">
+        <character name="coating" value="glaucous" />
+      </structure>
+    </statement>
+    <statement id="460.txt-1">
+      <text>Basal leaves gray-green, glaucous, often purple-tinged, especially abaxially, often adaxially mottled, 1–12 × 0.5–6 cm.</text>
+      <structure id="o9132" name="leaf" constraint="basal">
+        <character name="coloration" value="green" modifier="gray" />
+        <character name="coating" value="glaucous" />
+        <character name="coloration" value="tinged" modifier="often;purple" />
+        <character name="coloration" value="mottled" modifier="often adaxially" />
+        <character char_type="range_value" name="length" from="1" from_unit="cm" to="12" to_unit="cm" />
+        <character char_type="range_value" name="width" from="0.5" from_unit="cm" to="6" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="460.txt-2">
+      <text>Heads 1.5–3.5 cm diam.</text>
+      <structure id="o9133" name="head">
+        <character char_type="range_value" name="size" from="1.5" from_unit="cm" to="3.5" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="460.txt-3">
+      <text>Involucres 6–10 mm.</text>
+      <structure id="o9134" name="involucre">
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="460.txt-4">
+      <text>Florets:</text>
+      <structure id="o9135" name="floret" />
+    </statement>
+    <statement id="460.txt-5">
+      <text>corollas 8–20 mm, inner with bases yellow or purple, much shorter than outer.</text>
+      <structure id="o9136" name="corolla">
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="20" to_unit="mm" />
+        <character name="position" value="inner" constraint="with bases" constraintid="o9137" />
+        <character name="coloration" value="yellow" />
+        <character name="coloration" value="purple" />
+        <character name="size" value="shorter than outer" modifier="much" />
+      </structure>
+      <structure id="o9137" name="base" />
+    </statement>
+    <statement id="460.txt-6">
+      <text>Cypselae 4–4.5 mm.</text>
+      <structure id="o9138" name="cypsela">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="4.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="460.txt-7">
+      <text>2 n = 18.</text>
+      <structure id="o9139" name="chromosome">
+        <character name="count" value="18" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>feb</flowering_time>
+  <flowering_time>winter</flowering_time>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <habitat>dry desert slopes</habitat>
+  <habitat>valleys</habitat>
+  <habitat>and washes</habitat>
+  <elevation>0–1400 m;</elevation>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <global_distribution>Mexico (Baja California).</global_distribution>
+  <discussion>Atrichoseris platyphylla grows in the Mojave and Sonoran deserts.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

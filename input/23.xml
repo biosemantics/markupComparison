@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>7.</number>
+  <genus_name>LEIBNITZIA</genus_name>
+  <authority>Cassini</authority>
+  <place_of_publication>in F. Cuvier, Dict. Sci. Nat. ed. 2, 25: 420. 1822</place_of_publication>
+  <common_name />
+  <derivation>For G. W. Leibnitz, 1646–1716, philosopher, political advisor, mathematician, and scientist</derivation>
+  <author_of_tribe_genus>Guy L. Nesom</author_of_tribe_genus>
+  <description>
+    <statement id="23.txt-0">
+      <text>Perennials , 5–60+ cm (fibrous-rooted; stems 1–11, scapiform, sometimes bracteate).</text>
+      <structure id="o3814" name="whole_organism">
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="60" to_unit="cm" upper_restricted="false" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="23.txt-1">
+      <text>Leaves basal;</text>
+    </statement>
+    <statement id="23.txt-2">
+      <text>petiolate;</text>
+      <structure id="o3815" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="architecture" value="petiolate" />
+      </structure>
+    </statement>
+    <statement id="23.txt-3">
+      <text>blades elliptic to obovate, oblanceolate, or lyrate, bases cuneate, margins usually sinuately lobed to dentate, sometimes entire or pinnatifid, abaxial faces thinly gray-tomentose [covered with dense wool], adaxial faces glabrous or glabrescent (vernal leaves appearing after or concurrently with first heads).</text>
+      <structure id="o3816" name="blade">
+        <character char_type="range_value" name="shape" from="elliptic" to="obovate , oblanceolate , or lyrate" />
+        <character name="shape" value="elliptic" />
+        <character name="shape" value="obovate" />
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="lyrate" />
+      </structure>
+      <structure id="o3817" name="base">
+        <character name="shape" value="cuneate" />
+      </structure>
+      <structure id="o3818" name="margin">
+        <character char_type="range_value" name="shape" from="usually sinuately lobed" to="dentate , sometimes entire or pinnatifid" />
+        <character name="shape" value="lobed" modifier="usually sinuately" />
+        <character name="shape" value="dentate" modifier="usually sinuately" />
+        <character name="shape" value="entire" modifier="sometimes" />
+        <character name="shape" value="pinnatifid" modifier="sometimes" />
+      </structure>
+      <structure id="o3819" name="face" constraint="abaxial">
+        <character name="pubescence" value="gray-tomentose" modifier="thinly" />
+      </structure>
+      <structure id="o3820" name="face" constraint="adaxial">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="glabrescent" />
+      </structure>
+    </statement>
+    <statement id="23.txt-4">
+      <text>Heads quasi-radiate (see florets), borne singly (erect in bud, flowering, and fruit).</text>
+      <structure id="o3821" name="head">
+        <character name="architecture_or_arrangement" value="quasi-radiate" />
+        <character name="arrangement" value="singly" />
+      </structure>
+    </statement>
+    <statement id="23.txt-5">
+      <text>Involucres cylindric to campanulate, 9–20+ mm.</text>
+      <structure id="o3822" name="involucre">
+        <character char_type="range_value" name="shape" from="cylindric" to="campanulate" />
+        <character name="shape" value="cylindric" />
+        <character name="shape" value="campanulate" />
+        <character char_type="range_value" name="size" from="9" from_unit="mm" to="20" to_unit="mm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="23.txt-6">
+      <text>Phyllaries in 3–4+ series, lanceolate to lance-linear, unequal, apices acute to acuminate.</text>
+      <structure id="o3823" name="phyllary">
+        <character char_type="range_value" name="shape" from="lanceolate" to="lance-linear" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="lance-linear" />
+        <character name="size" value="unequal" />
+      </structure>
+      <structure id="o3824" name="series">
+        <character char_type="range_value" name="count" from="3" to="4" upper_restricted="false" />
+      </structure>
+      <relation id="r548" name="in" from="o3823" to="o3824" negation="false" />
+      <structure id="o3825" name="apex">
+        <character char_type="range_value" name="shape" from="acute" to="acuminate" />
+        <character name="shape" value="acute" />
+        <character name="shape" value="acuminate" />
+      </structure>
+    </statement>
+    <statement id="23.txt-7">
+      <text>Receptacles flat to convex, foveolate to alveolate, glabrous, epaleate.</text>
+      <structure id="o3826" name="receptacle">
+        <character char_type="range_value" name="shape" from="flat" to="convex" />
+        <character name="shape" value="flat" />
+        <character name="shape" value="convex" />
+        <character char_type="range_value" name="relief" from="foveolate" to="alveolate" />
+        <character name="relief" value="foveolate" />
+        <character name="relief" value="alveolate" />
+        <character name="pubescence" value="glabrous" />
+        <character name="architecture" value="epaleate" />
+      </structure>
+    </statement>
+    <statement id="23.txt-8">
+      <text>Florets:</text>
+      <structure id="o3827" name="floret" />
+    </statement>
+    <statement id="23.txt-9">
+      <text>outer 6–15 pistillate, fertile, corollas usually pinkish to purplish (vernal with relatively broad laminae ± equaling tubes and bifurcate inner lips, autumnal with relatively narrow, greatly shortened laminae);</text>
+      <structure id="o3828" name="floret" constraint="outer">
+        <character char_type="range_value" name="count" from="6" to="15" />
+        <character name="architecture" value="pistillate" />
+        <character name="reproduction" value="fertile" />
+      </structure>
+      <structure id="o3829" name="corolla">
+        <character char_type="range_value" name="coloration" from="usually pinkish" to="purplish" />
+        <character name="coloration" value="pinkish" modifier="usually" />
+        <character name="coloration" value="purplish" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="23.txt-10">
+      <text>inner 6–20+ florets bisexual, fertile, corollas usually whitish (vernal funnelform, 2-lipped, lobes 5, recurved or coiled, autumnal narrowly tubular, barely 2-lipped or nearly actinomorphic, lobes 5, erect);</text>
+      <structure id="o3830" name="floret">
+        <character name="position" value="inner" />
+        <character char_type="range_value" name="count" from="6" to="20" upper_restricted="false" />
+        <character name="reproduction" value="bisexual" />
+        <character name="reproduction" value="fertile" />
+      </structure>
+      <structure id="o3831" name="corolla">
+        <character name="coloration" value="whitish" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="23.txt-11">
+      <text>anther basal appendages entire, apical appendages lanceolate;</text>
+      <structure id="o3832" name="appendage" constraint="anther basal">
+        <character name="shape" value="entire" />
+      </structure>
+      <structure id="o3833" name="appendage" constraint="apical">
+        <character name="shape" value="lanceolate" />
+      </structure>
+    </statement>
+    <statement id="23.txt-12">
+      <text>style branches relatively short, apices rounded to truncate (abaxial faces pilose).</text>
+      <structure id="o3834" name="branch" constraint="style">
+        <character name="size" value="short" modifier="relatively" />
+      </structure>
+      <structure id="o3835" name="apex">
+        <character char_type="range_value" name="shape" from="rounded" to="truncate" />
+        <character name="shape" value="rounded" />
+        <character name="shape" value="truncate" />
+      </structure>
+    </statement>
+    <statement id="23.txt-14">
+      <text>pappi of 50–80+ stramineous, barbellulate bristles.</text>
+      <structure id="o3836" name="pappus" />
+      <structure id="o3837" name="bristle">
+        <character char_type="range_value" name="count" from="50" to="80" upper_restricted="false" />
+        <character name="coloration" value="stramineous" />
+        <character name="architecture" value="barbellulate" />
+      </structure>
+      <relation id="r549" name="consist_of" from="o3836" to="o3837" negation="false" />
+    </statement>
+    <statement id="23.txt-15">
+      <text>x = 23.</text>
+      <structure id="o3838" name="chromosome">
+        <character name="count" value="23" />
+      </structure>
+    </statement>
+  </description>
+  <habitat>species 6 (1 in the flora). united states</habitat>
+  <habitat>mexico, asia</habitat>
+  <discussion>Two species of Leibnitzia occur in North America (one is restricted to western Mexico); the remaining four are Asian. The species are characterized by dimorphic heads: those produced in the spring appear before or with the leaves and are chasmogamous and quasi-radiate; the fall forms appear after the leaves and are cleistogamous (not exposing any florets but setting full fruit). The florets also differ morphologically between the chasmogamous and cleistogamous heads. The widespread American species (L. lyrata) has been placed within Chaptalia; species of Leibnitzia are distinguished from all Chaptalia species by the slender, sharp-pointed hairs on their cypselae.</discussion>
+  <references>SELECTED REFERENCE Nesom, G. L. 1983. Biology and taxonomy of American Leibnitzia (Asteraceae). Brittonia 35: 126–139.</references>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

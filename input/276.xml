@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>2.</number>
+  <species_name>Crepis atribarba</species_name>
+  <authority>A. Heller</authority>
+  <place_of_publication>Bull. Torrey Bot. Club 26: 314. 1899</place_of_publication>
+  <past_name>atrabarba</past_name>
+  <common_name>Slender or dark hawksbeard</common_name>
+  <synonym_of_species_name>Crepis exilis Osterhout; C. exilis subsp. originalis Babcock &amp; Stebbins; C. occidentalis Nuttall var. gracilis D. C. Eaton</synonym_of_species_name>
+  <description>
+    <statement id="276.txt-0">
+      <text>Perennials, 15–70 cm (taproots slender, caudices swollen, often covered by old leaf bases).</text>
+      <structure id="o4841" name="whole_organism">
+        <character char_type="range_value" name="size" from="15" from_unit="cm" to="70" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="276.txt-1">
+      <text>Stems 1–2, erect, slender, usually branched distal to middles, glabrous or tomentulose.</text>
+      <structure id="o4842" name="stem">
+        <character char_type="range_value" name="count" from="1" to="2" />
+        <character name="orientation" value="erect" />
+        <character name="size" value="slender" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="tomentulose" />
+      </structure>
+      <structure id="o4843" name="middle" />
+      <relation id="r657" name="usually branched distal to" from="o4842" to="o4843" negation="false" />
+    </statement>
+    <statement id="276.txt-2">
+      <text>Leaves basal and cauline;</text>
+    </statement>
+    <statement id="276.txt-3">
+      <text>petiolate;</text>
+      <structure id="o4844" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="architecture" value="petiolate" />
+      </structure>
+    </statement>
+    <statement id="276.txt-4">
+      <text>blades lanceolate to linear, 10–35 × 0.5–6 cm, margins deeply pinnately lobed (lobes narrowly lanceolate or linear, usually entire or toothed), apices acuminate, faces tomentulose to glabrate.</text>
+      <structure id="o4845" name="blade">
+        <character char_type="range_value" name="shape" from="lanceolate" to="linear" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="linear" />
+        <character char_type="range_value" name="length" from="10" from_unit="cm" to="35" to_unit="cm" />
+        <character char_type="range_value" name="width" from="0.5" from_unit="cm" to="6" to_unit="cm" />
+      </structure>
+      <structure id="o4846" name="margin">
+        <character name="shape" value="lobed" modifier="deeply pinnately" />
+      </structure>
+      <structure id="o4847" name="apex">
+        <character name="shape" value="acuminate" />
+      </structure>
+      <structure id="o4848" name="face">
+        <character char_type="range_value" name="pubescence" from="tomentulose" to="glabrate" />
+        <character name="pubescence" value="tomentulose" />
+        <character name="pubescence" value="glabrate" />
+      </structure>
+    </statement>
+    <statement id="276.txt-5">
+      <text>Heads 3–30, in corymbiform arrays.</text>
+      <structure id="o4849" name="head">
+        <character char_type="range_value" name="count" from="3" to="30" />
+      </structure>
+      <structure id="o4850" name="array">
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <relation id="r658" name="in" from="o4849" to="o4850" negation="false" />
+    </statement>
+    <statement id="276.txt-6">
+      <text>Calyculi of 5–10, narrowly triangular to lanceolate, tomentose bractlets 1–3 mm.</text>
+      <structure id="o4851" name="calyculus" />
+      <structure id="o4852" name="bractlet">
+        <character char_type="range_value" name="count" from="5" to="10" />
+        <character char_type="range_value" name="shape" from="narrowly triangular" to="lanceolate" />
+        <character name="shape" value="triangular" modifier="narrowly" />
+        <character name="shape" value="lanceolate" modifier="narrowly" />
+        <character name="pubescence" value="tomentose" />
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="3" to_unit="mm" />
+      </structure>
+      <relation id="r659" name="consist_of" from="o4851" to="o4852" negation="false" />
+    </statement>
+    <statement id="276.txt-7">
+      <text>Involucres cylindro-campanulate, 10–12 × 4–7 mm.</text>
+      <structure id="o4853" name="involucre">
+        <character name="shape" value="cylindro-campanulate" />
+        <character char_type="range_value" name="length" from="10" from_unit="mm" to="12" to_unit="mm" />
+        <character char_type="range_value" name="width" from="4" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="276.txt-8">
+      <text>Phyllaries 8– 13, lanceolate, 10–12 mm (margins yellow, scarious, eciliate), apices acute, abaxial faces usually tomentulose, sometimes glabrous, often with coarse, green or blackish setae, adaxial glabrous or with fine, appressed hairs.</text>
+      <structure id="o4854" name="phyllary">
+        <character char_type="range_value" name="count" from="8" to="13" />
+        <character name="shape" value="lanceolate" />
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="12" to_unit="mm" />
+      </structure>
+      <structure id="o4855" name="apex">
+        <character name="shape" value="acute" />
+      </structure>
+      <structure id="o4856" name="face" constraint="abaxial">
+        <character name="pubescence" value="tomentulose" modifier="usually" />
+        <character name="pubescence" value="glabrous" modifier="sometimes" />
+        <character name="insertion_or_position" value="adaxial" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="with fine , appressed hairs" />
+      </structure>
+      <structure id="o4857" name="seta">
+        <character name="texture" value="coarse" />
+        <character name="coloration" value="green" />
+        <character name="coloration" value="blackish" />
+      </structure>
+      <relation id="r660" name="with" from="o4856" to="o4857" negation="false" modifier="often" />
+      <structure id="o4858" name="hair">
+        <character name="texture" value="fine" />
+        <character name="orientation" value="appressed" />
+      </structure>
+      <relation id="r661" name="with" from="o4856" to="o4858" negation="false" />
+    </statement>
+    <statement id="276.txt-9">
+      <text>Florets 6–35;</text>
+      <structure id="o4859" name="floret">
+        <character char_type="range_value" name="count" from="6" to="35" />
+      </structure>
+    </statement>
+    <statement id="276.txt-10">
+      <text>corollas yellow, 10–18 mm.</text>
+      <structure id="o4860" name="corolla">
+        <character name="coloration" value="yellow" />
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="18" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="276.txt-11">
+      <text>Cypselae dark or blackish green, subcylindric, 3–10 mm, apices tapered, not beaked, ribs 12–15 (distinct);</text>
+      <structure id="o4861" name="cypsela">
+        <character name="coloration" value="dark" />
+        <character name="coloration" value="green" modifier="blackish" />
+        <character name="shape" value="subcylindric" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+      <structure id="o4862" name="apex">
+        <character name="shape" value="tapered" />
+        <character name="shape" value="beaked" modifier="not" />
+      </structure>
+      <structure id="o4863" name="rib">
+        <character char_type="range_value" name="count" from="12" to="15" />
+      </structure>
+    </statement>
+    <statement id="276.txt-12">
+      <text>pappi whitish, 5–9 mm.</text>
+      <structure id="o4864" name="pappus">
+        <character name="coloration" value="whitish" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="9" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="276.txt-13">
+      <text>2 n = 22, 33, 44, 55, 88.</text>
+      <structure id="o4865" name="chromosome">
+        <character name="count" value="22" />
+        <character name="count" value="33" />
+        <character name="count" value="44" />
+        <character name="count" value="55" />
+        <character name="count" value="88" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>may</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <habitat>dry, open, grassy places</habitat>
+  <habitat>sagebrush slopes</habitat>
+  <habitat>pine forests</habitat>
+  <habitat>gravelly stream banks</habitat>
+  <elevation>200–3000 m;</elevation>
+  <ca_distribution>Alta.</ca_distribution>
+  <ca_distribution>B.C.</ca_distribution>
+  <ca_distribution>Sask.</ca_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>Nebr.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <discussion>Crepis atribarba is generally recognized by the deeply pinnately lobed leaves with linear lobes, fine tomentulose indument on stems and leaves, setose phyllaries, and dark green, strongly ribbed cypselae. It is a variable mixture that includes polyploid, apomictic forms and hybrids with C. acuminata and other species. The typical form is recognized by its short stature, narrow pinnately lobed, tomentulose leaves, stems with 3–10 heads, and phyllaries with scattered, black, eglandular setae. Larger, more robust forms with stems 30–70 cm, 10–30+ heads, narrower involucres, and few or no black setae have been recognized as subsp. originalis. The latter was considered by E. B. Babcock (1947) to represent the original diploid form of the species; it is difficult to distinguish in practice.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

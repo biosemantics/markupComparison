@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>29.</number>
+  <species_name>Artemisia carruthii</species_name>
+  <authority>Alph. Wood ex Carruth</authority>
+  <place_of_publication>Trans. Kansas Acad. Sci. 5: 51. 1877</place_of_publication>
+  <common_name>Carruth wormwood</common_name>
+  <synonym_of_species_name>Artemisia bakeri Greene; A. coloradensis Osterhout; A. kansana Britton; A. vulgaris Linnaeus subsp. wrightii (A. Gray) H. M. Hall &amp; Clements; A. wrightii A. Gray</synonym_of_species_name>
+  <description>
+    <statement id="896.txt-0">
+      <text>Perennials, 15–40(–70) cm, faintly aromatic (rhizomatous).</text>
+      <structure id="o18544" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="40" to="70" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="15" from_unit="cm" to="40" to_unit="cm" />
+        <character name="odor" value="aromatic" modifier="faintly" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="896.txt-1">
+      <text>Stems mostly 3–8, ascending, brown to gray-green, simple (bases curved, somewhat woody), sparsely to densely tomentose.</text>
+      <structure id="o18545" name="stem">
+        <character char_type="range_value" name="count" from="3" to="8" modifier="mostly" />
+        <character name="orientation" value="ascending" />
+        <character char_type="range_value" name="coloration" from="brown" to="gray-green" />
+        <character name="coloration" value="brown" />
+        <character name="coloration" value="green" modifier="gray" />
+        <character name="architecture" value="simple" />
+        <character name="pubescence" value="tomentose" modifier="sparsely densely" />
+      </structure>
+    </statement>
+    <statement id="896.txt-2">
+      <text>Leaves cauline, bicolor (± gray-green);</text>
+      <structure id="o18546" name="leaf">
+        <character name="insertion_or_position" value="cauline" />
+        <character name="coloration" value="bicolor" />
+      </structure>
+    </statement>
+    <statement id="896.txt-3">
+      <text>blades narrowly elliptic, 0.1–2.5(–3) × 0.5–1 cm (gradually smaller distally), relatively deeply pinnatifid (lobes 3–5), faces densely tomentose (abaxial) to sparsely hairy (adaxial).</text>
+      <structure id="o18547" name="blade">
+        <character name="arrangement_or_shape" value="elliptic" modifier="narrowly" />
+        <character char_type="range_value" name="atypical_length" from="2.5" to="3" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="0.1" from_unit="cm" to="2.5" to_unit="cm" />
+        <character char_type="range_value" name="width" from="0.5" from_unit="cm" to="1" to_unit="cm" />
+        <character name="shape" value="pinnatifid" modifier="relatively deeply" />
+      </structure>
+      <structure id="o18548" name="face">
+        <character char_type="range_value" name="pubescence" from="densely tomentose" to="sparsely hairy" />
+        <character name="pubescence" value="tomentose" modifier="densely" />
+        <character name="pubescence" value="hairy" modifier="sparsely" />
+      </structure>
+    </statement>
+    <statement id="896.txt-4">
+      <text>Heads (usually nodding) in (leafy) paniculiform arrays 10–30 × 3–9 cm (branches erect).</text>
+      <structure id="o18549" name="head" />
+      <structure id="o18550" name="array">
+        <character name="architecture" value="paniculiform" />
+        <character char_type="range_value" name="length" from="10" from_unit="cm" to="30" to_unit="cm" />
+        <character char_type="range_value" name="width" from="3" from_unit="cm" to="9" to_unit="cm" />
+      </structure>
+      <relation id="r1958" name="in" from="o18549" to="o18550" negation="false" />
+    </statement>
+    <statement id="896.txt-5">
+      <text>Involucres campanulate, 2–2.5(–3) × 1.5–3 mm.</text>
+      <structure id="o18551" name="involucre">
+        <character name="shape" value="campanulate" />
+        <character char_type="range_value" name="atypical_length" from="2.5" to="3" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="2" from_unit="mm" to="2.5" to_unit="mm" />
+        <character char_type="range_value" name="width" from="1.5" from_unit="mm" to="3" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="896.txt-6">
+      <text>Phyllaries lanceolate, gray-tomentose.</text>
+      <structure id="o18552" name="phyllary">
+        <character name="shape" value="lanceolate" />
+        <character name="pubescence" value="gray-tomentose" />
+      </structure>
+    </statement>
+    <statement id="896.txt-7">
+      <text>Florets:</text>
+      <structure id="o18553" name="floret" />
+    </statement>
+    <statement id="896.txt-8">
+      <text>pistillate 1–5;</text>
+      <structure id="o18554" name="floret" constraint="pistillate">
+        <character char_type="range_value" name="count" from="1" to="5" />
+      </structure>
+    </statement>
+    <statement id="896.txt-9">
+      <text>bisexual 7–25;</text>
+      <structure id="o18555" name="floret" constraint="bisexual">
+        <character char_type="range_value" name="count" from="7" to="25" />
+      </structure>
+    </statement>
+    <statement id="896.txt-10">
+      <text>corollas pale yellow, 1–2 mm, glandular-pubescent.</text>
+      <structure id="o18556" name="corolla">
+        <character name="coloration" value="yellow" modifier="pale" />
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="2" to_unit="mm" />
+        <character name="pubescence" value="glandular-pubescent" />
+      </structure>
+    </statement>
+    <statement id="896.txt-11">
+      <text>Cypselae (light brown) cylindro-elliptic, ca. 0.5 mm, (curved at summits, scarcely nerved), glabrous (shining).</text>
+      <structure id="o18557" name="cypsela">
+        <character name="arrangement_or_shape" value="cylindro-elliptic" />
+        <character name="size" value="0.5" unit="mm" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="896.txt-12">
+      <text>2 n = 18.</text>
+      <structure id="o18558" name="chromosome">
+        <character name="count" value="18" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <flowering_time>nov</flowering_time>
+  <habitat>open sites</habitat>
+  <habitat>usually sandy soils</habitat>
+  <habitat>wooded areas</habitat>
+  <habitat>grasslands</habitat>
+  <habitat>railroads</habitat>
+  <elevation>600–2900 m;</elevation>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Kans.</us_distribution>
+  <us_distribution>Mich.</us_distribution>
+  <us_distribution>Mo.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>Okla.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <global_distribution>Mexico (Chihuahua).</global_distribution>
+  <global_distribution>Mexico (Sonora).</global_distribution>
+  <discussion>Artemisia carruthii is closely related to members of the A. ludoviciana complex, with which it may intergrade.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

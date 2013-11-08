@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>11.</number>
+  <species_name>Pseudognaphalium macounii</species_name>
+  <authority>(Greene) Kartesz</authority>
+  <place_of_publication>in J. T. Kartesz and C. A. Meacham, Synth. N. Amer. Fl., nomencl. innov. 30. 1999</place_of_publication>
+  <common_name>Macoun’s rabbit-tobacco , gnaphale de Macoun</common_name>
+  <synonym_of_species_name>Gnaphalium macounii Greene, Ottawa Naturalist 15: 278. 1902; G. decurrens Ives 1819, not Linnaeus 1759</synonym_of_species_name>
+  <description>
+    <statement id="690.txt-0">
+      <text>Annuals or biennials (often sweetly fragrant), 40–90 cm;</text>
+    </statement>
+    <statement id="690.txt-1">
+      <text>taprooted.</text>
+      <structure id="o14422" name="whole_organism">
+        <character char_type="range_value" name="size" from="40" from_unit="cm" to="90" to_unit="cm" />
+        <character name="life_style" value="annual" />
+        <character name="life_style" value="biennial" />
+        <character name="architecture" value="taprooted" />
+        <character name="life_style" value="biennial" />
+      </structure>
+    </statement>
+    <statement id="690.txt-2">
+      <text>Stems stipitate-glandular throughout (usually persistently lightly white-tomentose distally).</text>
+      <structure id="o14424" name="stem">
+        <character name="architecture_or_exudation_or_pubescence" value="stipitate-glandular" modifier="throughout" />
+      </structure>
+    </statement>
+    <statement id="690.txt-3">
+      <text>Leaf blades (not crowded, internodes mostly 5+ mm) lanceolate to oblanceolate, 3–10 cm × 3–13 mm (distal linear), bases not clasping, decurrent 5–10 mm, margins flat to slightly revolute, faces weakly bicolor, abaxial tomentose, adaxial stipitate-glandular, otherwise glabrescent or glabrous.</text>
+      <structure id="o14425" name="blade" constraint="leaf">
+        <character char_type="range_value" name="shape" from="lanceolate" to="oblanceolate" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="oblanceolate" />
+        <character char_type="range_value" name="length" from="3" from_unit="cm" to="10" to_unit="cm" />
+        <character char_type="range_value" name="width" from="3" from_unit="mm" to="13" to_unit="mm" />
+      </structure>
+      <structure id="o14426" name="base">
+        <character name="architecture" value="clasping" modifier="not" />
+        <character name="shape" value="decurrent" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+      <structure id="o14427" name="margin">
+        <character char_type="range_value" name="shape" from="flat" to="slightly revolute" />
+        <character name="shape" value="flat" />
+        <character name="shape" value="revolute" modifier="slightly" />
+      </structure>
+      <structure id="o14428" name="face">
+        <character name="coloration" value="bicolor" modifier="weakly" />
+        <character name="insertion_or_position" value="abaxial" />
+        <character name="pubescence" value="tomentose" />
+        <character name="insertion_or_position" value="adaxial" />
+        <character name="architecture_or_exudation_or_pubescence" value="stipitate-glandular" />
+        <character name="pubescence" value="glabrescent" modifier="otherwise" />
+        <character name="pubescence" value="glabrous" modifier="otherwise" />
+      </structure>
+    </statement>
+    <statement id="690.txt-4">
+      <text>Heads in corymbiform arrays.</text>
+      <structure id="o14429" name="head" />
+      <structure id="o14430" name="array">
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <relation id="r1544" name="in" from="o14429" to="o14430" negation="false" />
+    </statement>
+    <statement id="690.txt-5">
+      <text>Involucres campanulo-subglobose, 4.5–5.5 mm.</text>
+      <structure id="o14431" name="involucre">
+        <character name="shape" value="campanulo-subglobose" />
+        <character char_type="range_value" name="size" from="4.5" from_unit="mm" to="5.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="690.txt-6">
+      <text>Phyllaries in 4–5 series, stramineous to creamy (hyaline, shiny), ovate to ovate-oblong, glabrous.</text>
+      <structure id="o14432" name="phyllary">
+        <character char_type="range_value" name="coloration" from="stramineous" to="creamy" />
+        <character name="coloration" value="stramineous" />
+        <character name="coloration" value="creamy" />
+        <character char_type="range_value" name="shape" from="ovate" to="ovate-oblong" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="ovate-oblong" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+      <structure id="o14433" name="series">
+        <character char_type="range_value" name="count" from="4" to="5" />
+      </structure>
+      <relation id="r1545" name="in" from="o14432" to="o14433" negation="false" />
+    </statement>
+    <statement id="690.txt-7">
+      <text>Pistillate florets 47–101(–156).</text>
+      <structure id="o14434" name="floret" constraint="pistillate">
+        <character char_type="range_value" name="atypical_count" from="101" to="156" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="47" to="101" />
+      </structure>
+    </statement>
+    <statement id="690.txt-8">
+      <text>Bisexual florets 5–12[–21].</text>
+      <structure id="o14435" name="floret" constraint="bisexual">
+        <character char_type="range_value" name="atypical_count" from="12" to="21" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="5" to="12" />
+      </structure>
+    </statement>
+    <statement id="690.txt-9">
+      <text>Cypselae not ridged, ± papillate-roughened.</text>
+      <structure id="o14436" name="cypsela">
+        <character name="shape" value="ridged" modifier="not" />
+        <character name="texture" value="papillate-roughened" modifier="±" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>dry, open habitats</habitat>
+  <habitat>pastures</habitat>
+  <habitat>open woods or edges</habitat>
+  <habitat>roadsides</habitat>
+  <elevation>50–2600(–3000) m;</elevation>
+  <ca_distribution>Alta.</ca_distribution>
+  <ca_distribution>B.C.</ca_distribution>
+  <ca_distribution>Man.</ca_distribution>
+  <ca_distribution>N.B.</ca_distribution>
+  <ca_distribution>N.S.</ca_distribution>
+  <ca_distribution>Ont.</ca_distribution>
+  <ca_distribution>P.E.I.</ca_distribution>
+  <ca_distribution>Que.</ca_distribution>
+  <ca_distribution>Sask.</ca_distribution>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Conn.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Ill.</us_distribution>
+  <us_distribution>Ind.</us_distribution>
+  <us_distribution>Maine</us_distribution>
+  <us_distribution>Mass.</us_distribution>
+  <us_distribution>Mich.</us_distribution>
+  <us_distribution>Minn.</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>N.H.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>Ohio</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <us_distribution>S.Dak.</us_distribution>
+  <us_distribution>Tenn.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Vt.</us_distribution>
+  <us_distribution>Va.</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <us_distribution>W.Va.</us_distribution>
+  <us_distribution>Wis.</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <global_distribution>Mexico.</global_distribution>
+  <discussion>Pseudognaphalium macounii is recognized by its stipitate-glandular, proximally glabrescent stems, bicolor and decurrent leaves, relatively large and many-flowered heads, and hyaline, shiny phyllaries. Reports of P. macounii from Texas are based on specimens of P. viscosum.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

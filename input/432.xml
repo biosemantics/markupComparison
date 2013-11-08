@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>54.</number>
+  <genus_name>HYPOCHAERIS</genus_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 810. 1753; Gen. Pl. ed. 5, 352. 1754</place_of_publication>
+  <past_name>Hypochoeris</past_name>
+  <common_name>Cat’s ear, swine’s succory</common_name>
+  <derivation>Greek hypo, beneath, and choiras , pig, alluding to pigs digging for roots</derivation>
+  <author_of_tribe_genus>David J. Bogler</author_of_tribe_genus>
+  <description>
+    <statement id="432.txt-0">
+      <text>Annuals, biennials, or perennials, 10–60 cm;</text>
+    </statement>
+    <statement id="432.txt-1">
+      <text>taprooted and with caudices.</text>
+      <structure id="o8562" name="whole_organism">
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="60" to_unit="cm" />
+        <character name="life_style" value="annual" />
+        <character name="life_style" value="biennial" />
+        <character name="life_style" value="perennial" />
+        <character name="architecture" value="taprooted" />
+        <character name="life_style" value="biennial" />
+        <character name="life_style" value="perennial" />
+      </structure>
+      <structure id="o8565" name="caudex" />
+    </statement>
+    <statement id="432.txt-2">
+      <text>Stems 1–15, erect, branched or unbranched, glabrate or coarsely hirsute.</text>
+      <structure id="o8566" name="stem">
+        <character char_type="range_value" name="count" from="1" to="15" />
+        <character name="orientation" value="erect" />
+        <character name="architecture" value="branched" />
+        <character name="architecture" value="unbranched" />
+        <character name="pubescence" value="glabrate" />
+        <character name="pubescence" value="hirsute" modifier="coarsely" />
+      </structure>
+    </statement>
+    <statement id="432.txt-3">
+      <text>Leaves basal or basal and proximally cauline;</text>
+    </statement>
+    <statement id="432.txt-4">
+      <text>petiolate or sessile;</text>
+      <structure id="o8567" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" modifier="proximally" />
+        <character name="architecture" value="petiolate" />
+        <character name="architecture" value="sessile" />
+      </structure>
+    </statement>
+    <statement id="432.txt-5">
+      <text>blades oblanceolate to oblong or elliptic, margins entire or dentate to pinnately lobed (faces glabrous or hirsute).</text>
+      <structure id="o8568" name="blade">
+        <character char_type="range_value" name="shape" from="oblanceolate" to="oblong or elliptic" />
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="oblong" />
+        <character name="shape" value="elliptic" />
+      </structure>
+      <structure id="o8569" name="margin">
+        <character char_type="range_value" name="shape" from="dentate" to="pinnately lobed" />
+        <character name="shape" value="entire" />
+        <character name="shape" value="dentate" />
+        <character name="shape" value="lobed" modifier="pinnately" />
+      </structure>
+    </statement>
+    <statement id="432.txt-6">
+      <text>Heads borne singly or in loose, cymiform, paniculiform , or corymbiform arrays.</text>
+      <structure id="o8570" name="head">
+        <character name="arrangement" value="singly" />
+        <character name="arrangement" value="in loose , cymiform , paniculiform , or corymbiform arrays" />
+      </structure>
+      <structure id="o8571" name="array">
+        <character name="architecture" value="loose" />
+        <character name="architecture" value="cymiform" />
+        <character name="architecture" value="paniculiform" />
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <relation id="r1013" name="in" from="o8570" to="o8571" negation="false" />
+    </statement>
+    <statement id="432.txt-7">
+      <text>Peduncles slightly inflated distally, minutely bracteate.</text>
+      <structure id="o8572" name="peduncle">
+        <character name="shape" value="inflated" modifier="slightly ; distally" />
+        <character name="architecture" value="bracteate" modifier="minutely" />
+      </structure>
+    </statement>
+    <statement id="432.txt-8">
+      <text>Calyculi 0 (or indistinguishable from phyllaries) .</text>
+      <structure id="o8573" name="calyculus">
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+    <statement id="432.txt-9">
+      <text>Involucres cylindric or campanulate, 5–20 mm diam. (12–25 mm in fruit).</text>
+      <structure id="o8574" name="involucre">
+        <character name="shape" value="cylindric" />
+        <character name="shape" value="campanulate" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="20" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="432.txt-10">
+      <text>Phyllaries 20–30 in 3–4 series, unequal , linear-lanceolate, glabrous, glabrate, or coarsely hirsute.</text>
+      <structure id="o8575" name="phyllary">
+        <character char_type="range_value" name="count" from="20" to="30" constraint="in series" constraintid="o8576" />
+        <character name="size" value="unequal" />
+        <character name="shape" value="linear-lanceolate" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="glabrate" />
+        <character name="pubescence" value="hirsute" modifier="coarsely" />
+      </structure>
+      <structure id="o8576" name="series">
+        <character char_type="range_value" name="count" from="3" to="4" />
+      </structure>
+    </statement>
+    <statement id="432.txt-11">
+      <text>Receptacles flat, slightly pitted, paleate;</text>
+      <structure id="o8577" name="receptacle">
+        <character name="shape" value="flat" />
+        <character name="relief" value="pitted" modifier="slightly" />
+        <character name="architecture" value="paleate" />
+      </structure>
+    </statement>
+    <statement id="432.txt-12">
+      <text>paleae linear to subulate, scarious.</text>
+      <structure id="o8578" name="palea">
+        <character char_type="range_value" name="shape" from="linear" to="subulate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="subulate" />
+        <character name="texture" value="scarious" />
+      </structure>
+    </statement>
+    <statement id="432.txt-13">
+      <text>Florets 20–100+;</text>
+      <structure id="o8579" name="floret">
+        <character char_type="range_value" name="count" from="20" to="100" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="432.txt-14">
+      <text>corollas usually yellow or orange, sometimes grayish green or reddish abaxially, rarely white, (not deliquescent).</text>
+      <structure id="o8580" name="corolla">
+        <character name="coloration" value="yellow" modifier="usually" />
+        <character name="coloration" value="orange" />
+        <character name="coloration" value="green" modifier="sometimes;grayish" />
+        <character name="coloration" value="reddish" modifier="abaxially" />
+        <character name="coloration" value="white" modifier="rarely" />
+      </structure>
+    </statement>
+    <statement id="432.txt-15">
+      <text>Cypselae monomorphic (all beaked) or dimorphic (outer truncate, inner beaked), usually brown to golden, bodies ellipsoid or fusiform, ribs 4–5 or 10 , faces ± muricate, otherwise glabrous;</text>
+      <structure id="o8581" name="cypsela">
+        <character name="habit" value="monomorphic" />
+        <character name="habit" value="dimorphic" />
+        <character char_type="range_value" name="coloration" from="usually brown" to="golden" />
+        <character name="coloration" value="brown" modifier="usually" />
+        <character name="coloration" value="golden" modifier="usually" />
+      </structure>
+      <structure id="o8582" name="body">
+        <character name="shape" value="ellipsoid" />
+        <character name="shape" value="fusiform" />
+      </structure>
+      <structure id="o8583" name="rib">
+        <character char_type="range_value" name="count" from="4" to="5" />
+        <character name="count" value="10" />
+      </structure>
+      <structure id="o8584" name="face">
+        <character name="relief" value="muricate" modifier="±" />
+        <character name="pubescence" value="glabrous" modifier="otherwise" />
+      </structure>
+    </statement>
+    <statement id="432.txt-16">
+      <text>pappi persistent, of 40–60+, white to tan bristles in 1 (all plumose) or in 2 series (outer barbellate, shorter than plumose inner).</text>
+      <structure id="o8585" name="pappus">
+        <character name="duration" value="persistent" />
+      </structure>
+      <structure id="o8586" name="bristle">
+        <character char_type="range_value" name="count" from="40" to="60" upper_restricted="false" />
+        <character char_type="range_value" name="coloration" from="white" to="tan" />
+        <character name="coloration" value="white" />
+        <character name="coloration" value="tan" />
+      </structure>
+      <relation id="r1014" name="consist_of" from="o8585" to="o8586" negation="false" />
+      <structure id="o8587" name="series">
+        <character name="count" value="2" />
+      </structure>
+      <relation id="r1015" name="in 1 or in" from="o8586" to="o8587" negation="false" />
+    </statement>
+    <statement id="432.txt-17">
+      <text>x = 4, 5.</text>
+      <structure id="o8588" name="chromosome">
+        <character name="count" value="4" />
+        <character name="count" value="5" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species 60+ (4 in the flora):</number_of_infrataxa>
+  <introduced>introduced;</introduced>
+  <general_distribution>South America</general_distribution>
+  <general_distribution>s Europe</general_distribution>
+  <general_distribution>n Africa</general_distribution>
+  <general_distribution>Asia.</general_distribution>
+  <discussion>Hypochaeris is similar to and closely related to Leontodon, from which it is distinguished mainly by its paleate receptacles and unequal phyllaries. Plumose pappus bristles are characteristic of both Hypochaeris and Leontodon. Molecular studies indicate the South American species of Hypochaeris are a monophyletic group derived from European stock that has undergone a recent and rapid radiation in the New World (R. Samuel et al. 2003). Two South American species are found as weeds in the flora area.</discussion>
+  <references>SELECTED REFERENCE Samuel, R. et al. 2003. Phylogenetic relationships among species of Hypochaeris (Asteraceae, Cichorieae) based on ITS, plastid trnL intron, trnL-F spacer, and matK sequences. Amer. J. Bot. 90: 496–507.</references>
+  <key>1.Leaves basal and proximally cauline; pappus bristles in 1 series, all plumose.</key>
+  <key>2.Involucres broadly campanulate; phyllaries ± hirsute medially; corollas yellow 1. Hypochaeris chillensis</key>
+  <key>2.Involucres cylindric or narrowly campanulate; phyllaries glabrous or sparsely tomentulose; corollas white3. Hypochaeris microcephala</key>
+  <key>1.Leaves all or mostly basal; pappus bristles in 2 series: outer barbellate, shorter than plumose inner.</key>
+  <key>3.Annuals; leaves usually glabrous or glabrate, sometimes hirsute on veins; florets ± equaling phyllaries at flowering; cypselae dimorphic, outer truncate, inner beaked 2. Hypochaeris glabra</key>
+  <key>3.Perennials; leaves ± hirsute; florets surpassing phyllaries at flowering; cypselae monomorphic, all beaked4. Hypochaeris radicata</key>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

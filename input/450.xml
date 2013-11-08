@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>3.</number>
+  <species_name>Tragopogon miscellus</species_name>
+  <authority>Ownbey</authority>
+  <place_of_publication>Amer. J. Bot. 37: 498. 1950</place_of_publication>
+  <common_name>Hybrid or Ownbey’s goatsbeard, Moscow salsify</common_name>
+  <description>
+    <statement id="450.txt-0">
+      <text>Plants 60–150+ cm.</text>
+      <structure id="o8933" name="whole_organism">
+        <character char_type="range_value" name="size" from="60" from_unit="cm" to="150" to_unit="cm" upper_restricted="false" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="450.txt-1">
+      <text>Leaves:</text>
+      <structure id="o8934" name="leaf" />
+    </statement>
+    <statement id="450.txt-2">
+      <text>apices usually recurved to coiled, faces initially floccose to tomentulose, soon glabrescent.</text>
+      <structure id="o8935" name="apex">
+        <character name="orientation" value="recurved" modifier="usually" />
+        <character name="shape" value="coiled" />
+      </structure>
+      <structure id="o8936" name="face">
+        <character char_type="range_value" name="pubescence" from="initially floccose" to="tomentulose" />
+        <character name="pubescence" value="floccose" modifier="initially" />
+        <character name="pubescence" value="tomentulose" modifier="initially" />
+        <character name="pubescence" value="glabrescent" modifier="soon" />
+      </structure>
+    </statement>
+    <statement id="450.txt-3">
+      <text>Peduncles distally inflated.</text>
+      <structure id="o8937" name="peduncle">
+        <character name="shape" value="inflated" modifier="distally" />
+      </structure>
+    </statement>
+    <statement id="450.txt-4">
+      <text>Involucres conic to urceolate in bud.</text>
+      <structure id="o8938" name="involucre">
+        <character char_type="range_value" name="shape" from="conic" to="urceolate" />
+        <character name="shape" value="conic" />
+        <character name="shape" value="urceolate" constraint="in bud" constraintid="o8939" />
+      </structure>
+      <structure id="o8939" name="bud" />
+    </statement>
+    <statement id="450.txt-5">
+      <text>Outer florets usually slightly shorter than phyllaries (see discussion for exception);</text>
+      <structure id="o8940" name="floret" constraint="outer">
+        <character name="size" value="shorter" modifier="usually slightly" constraint="than phyllaries" constraintid="o8941" />
+      </structure>
+      <structure id="o8941" name="phyllary" />
+    </statement>
+    <statement id="450.txt-6">
+      <text>corollas yellow.</text>
+      <structure id="o8942" name="corolla">
+        <character name="coloration" value="yellow" />
+      </structure>
+    </statement>
+    <statement id="450.txt-7">
+      <text>2 n = 24.</text>
+      <structure id="o8943" name="chromosome">
+        <character name="count" value="24" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>early summer</flowering_time>
+  <habitat>disturbed sites</habitat>
+  <elevation>700–800 m;</elevation>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <discussion>Tragopogon miscellus has been reported from near Gardiner, Montana; it is no longer present there.</discussion>
+  <discussion>Plants of Tragopogon miscellus are larger and more robust than those of T. pratensis. They are allote-traploids, formed (probably repeatedly) from hybrids between T. pratensis and T. dubius. Outer florets are shorter than the phyllaries except at some sites in Pullman, Washington, where outer florets equal or surpass the phyllaries. (The different inflorescence morphs result from reciprocal polyploid origins.) F1 hybrids between T. dubius and T. pratensis (= T. ×crantzii Dichtl) may resemble T. miscellus but are less robust, have low pollen stainability, and set few, if any, seeds. Tragopogon miscellus does not occur in Europe, but hybrids between T. dubius and T. pratensis occur occasionally.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

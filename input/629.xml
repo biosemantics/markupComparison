@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>4.</number>
+  <species_name>Antennaria luzuloides</species_name>
+  <authority>Torrey &amp; A. Gray</authority>
+  <place_of_publication>Fl. N. Amer. 2: 430. 1843</place_of_publication>
+  <common_name>Rush or silvery brown pussytoes</common_name>
+  <description>
+    <statement id="629.txt-0">
+      <text>Dioecious.</text>
+      <structure id="o13193" name="whole_organism">
+        <character name="reproduction" value="dioecious" />
+      </structure>
+    </statement>
+    <statement id="629.txt-1">
+      <text>Plants 7–35(–70) cm (often viviparous in late season, bearing propagules in distal and, sometimes, proximal leaf axils, sometimes woody at bases).</text>
+      <structure id="o13194" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="35" to="70" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="7" from_unit="cm" to="35" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="629.txt-2">
+      <text>Stolons none.</text>
+      <structure id="o13195" name="stolon" />
+    </statement>
+    <statement id="629.txt-3">
+      <text>Basal leaves 1–3-nerved, linear to narrowly spatulate, 18–55 × 1–10 mm, tips acuminate, faces gray-tomentose.</text>
+      <structure id="o13196" name="leaf" constraint="basal">
+        <character name="architecture" value="1-3-nerved" />
+        <character char_type="range_value" name="shape" from="linear" to="narrowly spatulate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="spatulate" modifier="narrowly" />
+        <character char_type="range_value" name="length" from="18" from_unit="mm" to="55" to_unit="mm" />
+        <character char_type="range_value" name="width" from="1" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+      <structure id="o13197" name="tip">
+        <character name="shape" value="acuminate" />
+      </structure>
+      <structure id="o13198" name="face">
+        <character name="pubescence" value="gray-tomentose" />
+      </structure>
+    </statement>
+    <statement id="629.txt-4">
+      <text>Cauline leaves narrowly oblanceolate to linear, 5–60 mm, flagged.</text>
+      <structure id="o13199" name="leaf" constraint="cauline">
+        <character char_type="range_value" name="shape" from="narrowly oblanceolate" to="linear" />
+        <character name="shape" value="oblanceolate" modifier="narrowly" />
+        <character name="shape" value="linear" modifier="narrowly" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="60" to_unit="mm" />
+        <character name="orientation" value="flagged" />
+      </structure>
+    </statement>
+    <statement id="629.txt-5">
+      <text>Heads 10–110+ in racemiform to paniculiform or corymbiform arrays.</text>
+      <structure id="o13200" name="head">
+        <character char_type="range_value" name="count" from="10" to="110" upper_restricted="false" constraint="in arrays" constraintid="o13201" />
+      </structure>
+      <structure id="o13201" name="array">
+        <character char_type="range_value" name="architecture" from="racemiform" to="paniculiform or corymbiform" />
+        <character name="architecture" value="racemiform" />
+        <character name="architecture" value="paniculiform" />
+        <character name="architecture" value="corymbiform" />
+      </structure>
+    </statement>
+    <statement id="629.txt-6">
+      <text>Involucres:</text>
+      <structure id="o13202" name="involucre" />
+    </statement>
+    <statement id="629.txt-7">
+      <text>staminate 3.5–5.5 mm;</text>
+      <structure id="o13203" name="involucre" constraint="staminate">
+        <character char_type="range_value" name="size" from="3.5" from_unit="mm" to="5.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="629.txt-8">
+      <text>pistillate 3.5–6.5 mm .</text>
+      <structure id="o13204" name="involucre" constraint="pistillate">
+        <character char_type="range_value" name="size" from="3.5" from_unit="mm" to="6.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="629.txt-9">
+      <text>Phyllaries (relatively narrow, proximally green or golden brown, glabrous) distally white, acute.</text>
+      <structure id="o13205" name="phyllary">
+        <character name="coloration" value="white" modifier="distally" />
+        <character name="shape" value="acute" />
+      </structure>
+    </statement>
+    <statement id="629.txt-10">
+      <text>Corollas:</text>
+      <structure id="o13206" name="corolla" />
+    </statement>
+    <statement id="629.txt-11">
+      <text>staminate 2.5–4 mm;</text>
+      <structure id="o13207" name="corolla" constraint="staminate">
+        <character char_type="range_value" name="size" from="2.5" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="629.txt-12">
+      <text>pistillate 2–4 mm.</text>
+      <structure id="o13208" name="corolla" constraint="pistillate">
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="629.txt-13">
+      <text>Cypselae 1–2 mm, sparingly papillate or papillate-strigose (hairs clavate);</text>
+      <structure id="o13209" name="cypsela">
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="2" to_unit="mm" />
+        <character name="pubescence" value="papillate" modifier="sparingly" />
+        <character name="pubescence" value="papillate-strigose" modifier="sparingly" />
+      </structure>
+    </statement>
+    <statement id="629.txt-14">
+      <text>pappi:</text>
+      <structure id="o13210" name="pappus" />
+    </statement>
+    <statement id="629.txt-15">
+      <text>staminate 3–4.5 mm;</text>
+      <structure id="o13211" name="pappus" constraint="staminate">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="4.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="629.txt-16">
+      <text>pistillate 2.5–4 mm.</text>
+      <structure id="o13212" name="pappus" constraint="pistillate">
+        <character char_type="range_value" name="size" from="2.5" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="629.txt-17">
+      <text>2 n = 28.</text>
+      <structure id="o13213" name="chromosome">
+        <character name="count" value="28" />
+      </structure>
+    </statement>
+  </description>
+  <habitat>subspecies 2 (2 in the flora</habitat>
+  <global_distribution>w North America.</global_distribution>
+  <discussion>Some authors have recognized Antennaria microcephala (= A. luzuloides subsp. aberrans) as a distinct species. Given the intergradation between A. luzuloides in the strict sense and A. microcephala in the strict sense, one species with two subspecies seems justified. Perhaps the most significant difference between the subspecies is ecologic. Antennaria luzuloides is a member of the Argenteae group.</discussion>
+  <couplet>1.Heads 10–110+ in corymbiform arrays; basal leaves (1–)3-nerved; dry sagebrush-ponderosa pine com- munities4b. Antennaria luzuloides subsp. luzuloides</couplet>
+  <couplet>1.Heads 10–30 in racemiform to paniculiform arrays; basal leaves 1(–3)-nerved; moist meadows or along moist drainages in ponderosa pine commu- nities4a. Antennaria luzuloides subsp. aberrans</couplet>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

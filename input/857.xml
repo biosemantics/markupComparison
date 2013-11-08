@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>5.</number>
+  <species_name>Artemisia filifolia</species_name>
+  <authority>Torrey</authority>
+  <place_of_publication>Ann. Lyceum Nat. Hist. New York 2: 211. 1827</place_of_publication>
+  <common_name>Sand sage</common_name>
+  <synonym_of_species_name>Artemisia plattensis Nuttall; Oligosporus filifolius (Torrey) Poljakov</synonym_of_species_name>
+  <description>
+    <statement id="857.txt-0">
+      <text>Shrubs, 60–180 cm (rounded), faintly aromatic.</text>
+      <structure id="o17944" name="whole_organism">
+        <character char_type="range_value" name="size" from="60" from_unit="cm" to="180" to_unit="cm" />
+        <character name="odor" value="aromatic" modifier="faintly" />
+        <character name="life_style" value="shrub" />
+      </structure>
+    </statement>
+    <statement id="857.txt-1">
+      <text>Stems green or gray-green, wandlike (usually slender, curved, sometimes stout and stunted in harsh habitats), glabrous or sparsely hairy.</text>
+      <structure id="o17945" name="stem">
+        <character name="coloration" value="green" />
+        <character name="coloration" value="green" modifier="gray" />
+        <character name="shape" value="wandlike" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="hairy" modifier="sparsely" />
+      </structure>
+    </statement>
+    <statement id="857.txt-2">
+      <text>Leaves gray-green;</text>
+      <structure id="o17946" name="leaf">
+        <character name="coloration" value="green" modifier="gray" />
+      </structure>
+    </statement>
+    <statement id="857.txt-3">
+      <text>blades linear if entire, obovate if lobed, (1.5–)2–5(–6) × 0.1–2.5 cm, entire to 3-lobed, lobes filiform (less than 1 mm wide), apices acute, glabrous or sparsely hairy.</text>
+      <structure id="o17947" name="blade">
+        <character name="arrangement_or_shape" value="linear" />
+        <character name="shape" value="entire" />
+        <character name="shape" value="obovate" modifier="if lobed, (1.5-)2-5(-6)×0.1-2.5 cm" />
+        <character char_type="range_value" name="shape" from="entire" to="3-lobed" />
+        <character name="shape" value="entire" />
+        <character name="shape" value="3-lobed" />
+      </structure>
+      <structure id="o17948" name="lobe">
+        <character name="shape" value="filiform" />
+      </structure>
+      <structure id="o17949" name="apex">
+        <character name="shape" value="acute" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="hairy" modifier="sparsely" />
+      </structure>
+    </statement>
+    <statement id="857.txt-4">
+      <text>Heads (mostly sessile) in paniculiform arrays 8–15(–17) × 2–4(–5) cm (branches erect to somewhat recurved).</text>
+      <structure id="o17950" name="head" />
+      <structure id="o17951" name="array">
+        <character name="architecture" value="paniculiform" />
+        <character char_type="range_value" name="atypical_length" from="15" to="17" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="8" from_unit="cm" to="15" to_unit="cm" />
+        <character char_type="range_value" name="atypical_width" from="4" to="5" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="width" from="2" from_unit="cm" to="4" to_unit="cm" />
+      </structure>
+      <relation id="r1896" name="in" from="o17950" to="o17951" negation="false" />
+    </statement>
+    <statement id="857.txt-5">
+      <text>Involucres globose, 1.5–2 × 1.5–2 mm.</text>
+      <structure id="o17952" name="involucre">
+        <character name="shape" value="globose" />
+        <character char_type="range_value" name="length" from="1.5" from_unit="mm" to="2" to_unit="mm" />
+        <character char_type="range_value" name="width" from="1.5" from_unit="mm" to="2" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="857.txt-6">
+      <text>Phyllaries (ovate, inconspicuous, margins scarious) densely hairy.</text>
+      <structure id="o17953" name="phyllary">
+        <character name="pubescence" value="hairy" modifier="densely" />
+      </structure>
+    </statement>
+    <statement id="857.txt-7">
+      <text>Florets:</text>
+      <structure id="o17954" name="floret" />
+    </statement>
+    <statement id="857.txt-8">
+      <text>pistillate 1–4;</text>
+      <structure id="o17955" name="floret" constraint="pistillate">
+        <character char_type="range_value" name="count" from="1" to="4" />
+      </structure>
+    </statement>
+    <statement id="857.txt-9">
+      <text>functionally staminate 3–6;</text>
+      <structure id="o17956" name="floret" constraint="functionally staminate">
+        <character char_type="range_value" name="count" from="3" to="6" />
+      </structure>
+    </statement>
+    <statement id="857.txt-10">
+      <text>corollas pale yellow, 1–1.5 mm, glabrous.</text>
+      <structure id="o17957" name="corolla">
+        <character name="coloration" value="yellow" modifier="pale" />
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="1.5" to_unit="mm" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="857.txt-11">
+      <text>Cypselae oblong (distally incurved-falcate and oblique), 0.2–0.5 mm, obscurely nerved, glabrous.</text>
+      <structure id="o17958" name="cypsela">
+        <character name="shape" value="oblong" />
+        <character char_type="range_value" name="size" from="0.2" from_unit="mm" to="0.5" to_unit="mm" />
+        <character name="architecture" value="nerved" modifier="obscurely" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="857.txt-12">
+      <text>2 n = 18.</text>
+      <structure id="o17959" name="chromosome">
+        <character name="count" value="18" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <flowering_time>nov</flowering_time>
+  <flowering_time>winter</flowering_time>
+  <flowering_time>dec</flowering_time>
+  <flowering_time>jan</flowering_time>
+  <flowering_time>feb</flowering_time>
+  <habitat>open prairies</habitat>
+  <habitat>dunes</habitat>
+  <habitat>sandy soils</habitat>
+  <elevation>500–2000 m;</elevation>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Kans.</us_distribution>
+  <us_distribution>Nebr.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>Okla.</us_distribution>
+  <us_distribution>S.Dak.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <discussion>One of the more easily distinguished of the shrubby Artemisia species, A. filifolia occurs in sandy soils and cohabits with species of Yucca, Cactaceae, and Salvia dorrii, the purple sage of western literary fame. Its filiform leaves and faintly aromatic foliage distinguish it from members of subg. Tridentatae.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

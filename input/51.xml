@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>13.</number>
+  <genus_name>CIRSIUM</genus_name>
+  <authority>Miller</authority>
+  <place_of_publication>Gard. Dict. abr. ed. 4, vol. 1. 1754</place_of_publication>
+  <common_name>Thistle, chardon</common_name>
+  <derivation>Greek kirsion , thistle</derivation>
+  <author_of_tribe_genus>David J. Keil</author_of_tribe_genus>
+  <description>
+    <statement id="51.txt-0">
+      <text>Annuals , biennials , or perennials, 5–400 cm, spiny.</text>
+      <structure id="o10334" name="whole_organism">
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="400" to_unit="cm" />
+        <character name="architecture_or_shape" value="spiny" />
+        <character name="life_style" value="annual" />
+        <character name="life_style" value="biennial" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="51.txt-1">
+      <text>Stems (1–several) erect, branched or simple, sometimes narrowly spiny-winged.</text>
+      <structure id="o10337" name="stem">
+        <character name="orientation" value="erect" />
+        <character name="architecture_or_shape" value="branched" />
+        <character name="architecture" value="simple" />
+        <character name="architecture" value="spiny-winged" modifier="sometimes narrowly" />
+      </structure>
+    </statement>
+    <statement id="51.txt-2">
+      <text>Leaves basal and cauline;</text>
+    </statement>
+    <statement id="51.txt-3">
+      <text>finely bristly-dentate to coarsely dentate or 1–3 times pinnately lobed, teeth and lobes bristly-tipped, faces green and glabrous or densely gray-canescent, usually eglandular.</text>
+      <structure id="o10338" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character char_type="range_value" name="shape" from="finely bristly-dentate" to="coarsely dentate" />
+        <character name="shape" value="bristly-dentate" modifier="finely" />
+        <character name="shape" value="dentate" modifier="coarsely" />
+        <character name="shape" value="lobed" modifier="1-3 times pinnately" />
+      </structure>
+      <structure id="o10339" name="tooth" />
+      <structure id="o10340" name="lobe" />
+      <structure id="o10341" name="face">
+        <character name="coloration" value="green" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="gray-canescent" modifier="densely" />
+        <character name="architecture" value="eglandular" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="51.txt-4">
+      <text>Heads discoid, borne singly, terminal and in distal axils, or in racemiform, spiciform, subcapitate, paniculiform, or corymbiform arrays.</text>
+      <structure id="o10342" name="head">
+        <character name="shape_or_architecture" value="discoid" />
+        <character name="arrangement" value="singly" />
+        <character name="insertion_or_position" value="terminal" constraint="in axils" constraintid="o10343" />
+      </structure>
+      <structure id="o10343" name="axil" constraint="distal" />
+      <structure id="o10344" name="array">
+        <character name="architecture" value="racemiform" />
+        <character name="architecture" value="spiciform" />
+        <character name="architecture" value="subcapitate" />
+        <character name="architecture" value="paniculiform" />
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <relation id="r1184" name="in" from="o10342" to="o10344" negation="false" />
+    </statement>
+    <statement id="51.txt-5">
+      <text>Involucres cylindric to ovoid or spheric, (1–6 ×)1–8 cm.</text>
+      <structure id="o10345" name="involucre">
+        <character char_type="range_value" name="shape" from="cylindric" to="ovoid or spheric" />
+        <character name="shape" value="cylindric" />
+        <character name="shape" value="ovoid" />
+        <character name="shape" value="spheric" />
+        <character char_type="range_value" name="length" from="[1" from_unit="cm" to="6" to_unit="cm" />
+        <character char_type="range_value" name="width" from="]1" from_unit="cm" to="8" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="51.txt-6">
+      <text>Phyllaries many in 5–20 series, subequal or weakly to strongly, outer and middle with bases appressed and apices spreading to erect, usually spine-tipped, innermost usually with erect, flat, often twisted, entire or dentate, usually spineless apices (distal portion of phyllary midveins in many species with elongate, glutinous resin gland, usually milky in fresh material but dark brown to black when dry).</text>
+      <structure id="o10346" name="phyllary">
+        <character name="count" value="many" constraint="in series" constraintid="o10347" />
+        <character name="size" value="subequal" />
+        <character name="size" value="subequal" modifier="weakly to strongly" />
+        <character name="position" value="outer" />
+        <character char_type="range_value" name="orientation" from="spreading" to="erect" />
+        <character name="orientation" value="spreading" />
+        <character name="orientation" value="erect" />
+        <character name="position" value="innermost" modifier="usually" constraint="with apices" constraintid="o10351" />
+      </structure>
+      <structure id="o10347" name="series">
+        <character char_type="range_value" name="count" from="5" to="20" />
+      </structure>
+      <structure id="o10348" name="middle" />
+      <structure id="o10349" name="base">
+        <character name="orientation" value="appressed" />
+      </structure>
+      <relation id="r1185" name="with" from="o10348" to="o10349" negation="false" />
+      <structure id="o10350" name="apex" />
+      <structure id="o10351" name="apex">
+        <character name="orientation" value="erect" />
+        <character name="shape" value="flat" />
+        <character name="architecture" value="twisted" modifier="often" />
+        <character name="shape" value="entire" />
+        <character name="shape" value="dentate" />
+        <character name="architecture" value="spineless" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="51.txt-7">
+      <text>Receptacles flat to convex, epaleate, covered with tawny to white bristles or setiform scales.</text>
+      <structure id="o10352" name="receptacle">
+        <character char_type="range_value" name="shape" from="flat" to="convex" />
+        <character name="shape" value="flat" />
+        <character name="shape" value="convex" />
+        <character name="architecture" value="epaleate" />
+      </structure>
+      <structure id="o10353" name="bristle">
+        <character char_type="range_value" name="coloration" from="tawny" to="white" />
+        <character name="coloration" value="tawny" />
+        <character name="coloration" value="white" />
+      </structure>
+      <structure id="o10354" name="scale">
+        <character name="shape" value="setiform" />
+        <character char_type="range_value" name="coloration" from="tawny" to="white" />
+        <character name="coloration" value="tawny" />
+        <character name="coloration" value="white" />
+      </structure>
+      <relation id="r1186" name="covered with" from="o10352" to="o10353" negation="false" />
+      <relation id="r1187" name="covered with" from="o10352" to="o10354" negation="false" />
+    </statement>
+    <statement id="51.txt-8">
+      <text>Florets 25–200+;</text>
+      <structure id="o10355" name="floret">
+        <character char_type="range_value" name="count" from="25" to="200" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="51.txt-9">
+      <text>corollas white to pink, red, yellow or purple, ± bilateral, tubes long, slender, distally bent, throats short, abruptly expanded , cylindric, lobes linear;</text>
+      <structure id="o10356" name="corolla">
+        <character char_type="range_value" name="coloration" from="white" to="pink , red , yellow or purple" />
+        <character name="coloration" value="white" />
+        <character name="coloration" value="pink" />
+        <character name="coloration" value="red" />
+        <character name="coloration" value="yellow" />
+        <character name="coloration" value="purple" />
+        <character name="arrangement" value="bilateral" modifier="±" />
+      </structure>
+      <structure id="o10357" name="tube">
+        <character name="size" value="slender" />
+        <character name="shape" value="bent" modifier="distally" />
+      </structure>
+      <structure id="o10358" name="throat">
+        <character name="size" value="short" />
+        <character name="size" value="expanded" modifier="abruptly" />
+        <character name="shape" value="cylindric" />
+      </structure>
+      <structure id="o10359" name="lobe">
+        <character name="arrangement_or_shape" value="linear" />
+      </structure>
+    </statement>
+    <statement id="51.txt-10">
+      <text>anther bases sharply short-tailed, apical appendages linear-oblong;</text>
+      <structure id="o10360" name="base" constraint="anther">
+        <character name="shape" value="short-tailed" modifier="sharply" />
+      </structure>
+      <structure id="o10361" name="appendage" constraint="apical">
+        <character name="shape" value="linear-oblong" />
+      </structure>
+    </statement>
+    <statement id="51.txt-11">
+      <text>style tips elongate (as measured in descriptions including the slightly swollen nodes, long cylindric fused portions of style branches and very short distinct portions).</text>
+      <structure id="o10362" name="tip" constraint="style">
+        <character name="shape" value="elongate" />
+      </structure>
+    </statement>
+    <statement id="51.txt-12">
+      <text>Cypselae ovoid, ± compressed, with apical rims, smooth, not ribbed, glabrous, basal attachment scars slightly angled;</text>
+      <structure id="o10363" name="cypsela">
+        <character name="shape" value="ovoid" />
+        <character name="shape" value="compressed" modifier="±" />
+        <character name="architecture_or_relief" value="smooth" />
+        <character name="architecture_or_shape" value="ribbed" modifier="not" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+      <structure id="o10364" name="rim" constraint="apical" />
+      <relation id="r1188" name="with" from="o10363" to="o10364" negation="false" />
+      <structure id="o10365" name="scar" constraint="basal attachment">
+        <character name="shape" value="angled" modifier="slightly" />
+      </structure>
+    </statement>
+    <statement id="51.txt-13">
+      <text>pappi persistent or falling in rings, in 3–5 series of many flattened, plumose bristles or plumose, setiform scales (longer bristles shorter than corollas except in C. foliosum and C. arvense ).</text>
+      <structure id="o10366" name="pappus">
+        <character name="duration" value="persistent" />
+        <character name="orientation" value="falling" constraint="in rings" constraintid="o10367" />
+      </structure>
+      <structure id="o10367" name="ring" />
+      <structure id="o10368" name="series">
+        <character char_type="range_value" name="count" from="3" to="5" />
+      </structure>
+      <relation id="r1189" name="in" from="o10366" to="o10368" negation="false" />
+      <structure id="o10369" name="bristle">
+        <character name="count" value="many" />
+        <character name="shape" value="flattened" />
+        <character name="architecture" value="plumose" />
+      </structure>
+      <structure id="o10370" name="scale">
+        <character name="architecture" value="plumose" />
+        <character name="shape" value="setiform" />
+        <character name="count" value="many" />
+        <character name="shape" value="flattened" />
+        <character name="architecture" value="plumose" />
+      </structure>
+      <relation id="r1190" name="part_of" from="o10368" to="o10369" negation="false" />
+      <relation id="r1191" name="part_of" from="o10368" to="o10370" negation="false" />
+    </statement>
+    <statement id="51.txt-14">
+      <text>x = 17.</text>
+      <structure id="o10371" name="chromosome">
+        <character name="count" value="17" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species ca. 200 (62 in the flora):</number_of_infrataxa>
+  <general_distribution>North America</general_distribution>
+  <general_distribution>Eurasia</general_distribution>
+  <general_distribution>n Africa.</general_distribution>
+  <discussion>Only three genera in Cynareae are represented by native species in the New World, and of these Cirsium is by far the most widely distributed and diverse. Native species of Cirsium range from sea level to alpine and from boreal regions of Canada to the tropics of Central America. Members of the genus occur in a myriad of habitats including swamps, meadows, forests, prairies, sand dunes, and deserts.</discussion>
+  <discussion>Preliminary molecular phylogenetic studies by D. G. Kelch and B. G. Baldwin (2003) indicated that this diversity is the product of a rapid evolutionary diversification based upon a single initial introduction from Eurasia. Relationships among the North American species are apparently complex, and molecular studies have only begun to provide an outline of phylogeny for these plants. Although there has been a remarkable evolutionary and morphologic diversification in North American Cirsium, it has not been accompanied by very much divergence in the base sequences of genes commonly used to elucidate phylogenetic relationships. This suggests either that the diversification has been very rapid or that genetic markers in North American Cirsium mutate more slowly than in most other lineages.</discussion>
+  <discussion>Chromosomal diversification has accompanied the morphologic radiation of North American Cirsium. Many New World Cirsium species share the chromosomal base number of x = 17 that also predominates in most Eurasian species. Among the North American thistles, however, is a mostly descending dysploid series with chromosome numbers ranging from n = 18 to n = 10. Very few instances of polyploidy are known among New World Cirsium.</discussion>
+  <discussion>Cirsium species of remarkably different morphologies often are able to hybridize. Although in some hybrid combinations fertility is reduced, in others the formation of complex hybrid swarms indicates a lack of breeding barriers and the potential for emergence of novel character combinations. In the absence of adequate sampling and field observations, hybrids may go unrecognized—treated as distinct taxa or as variants of non-hybrid taxa, or left occupying the indeterminate folders of herbaria. In other cases hybridization has been invoked without much evidence as an explanation for Cirsium variants encountered in herbaria or in the field. Hybrid combinations are listed herein when evidence is convincing. Additional hybrids are likely to be found where the ranges of Cirsium species overlap. I have seen no documentation of hybridization between native American Cirsium species and introduced Eurasian taxa.</discussion>
+  <discussion>Much of the geographic range currently occupied by New World Cirsium species was greatly affected by the events of the Quaternary. Large areas were glaciated and other areas were vastly different during glacial episodes. The ancestors of thistles that currently occupy the high mountains of western North America were undoubtedly displaced elevationally and/or latitudinally during the recurrent glacial and interglacial episodes of the Pleistocene. Taxa that are currently isolated may have been in contact during glacial episodes with the opportunity for hybridization and genetic interchange. Episodes of prehistoric hybridization may have led to some of the character combinations found in modern American thistles, particularly in the western half of the continent. Current isolation and localized selection or genetic drift apparently have promoted differentiation of populations separated on mountaintop islands.</discussion>
+  <discussion>One of the most challenging aspects for a taxonomist studying New World Cirsium is the presence of species complexes that are apparently evolutionary works in progress. Some of the thistles, especially in the mountainous western part of North America, are frustratingly polymorphic with much overlapping variability and intergradation of characters. Early taxonomists, basing their work on a limited sampling of the morphologic diversity, named many of the forms as species, and the literature is rife with species names. The infilling that results from more collectors visiting more localities within the ranges of these complexes has blurred the boundaries between many of the proposed species and often added forms that do not “fit” the characteristics of named species. As I faced the challenges of preparing this treatment, I recognized that maintaining some of the named entities as species would, for consistency, require a further proliferation of species names. I have chosen to go the other way. Instead of proposing yet more ill-defined microspecies, I have chosen to recognize that the groups in question are rapidly evolving, only partially differentiated assemblages of races that have not reached the level of stability that is usually associated with the concept of species. Certainly much of such variation within the genus deserves a level of taxonomic recognition, or at least should be mentioned, but for those assemblages I think it much more prudent to recognize varieties—entities that may be expected to freely intergrade—rather than species.</discussion>
+  <discussion>Many problems remain to be worked out in North American Cirsium. Further investigation will undoubtedly reveal the need for refinement or major revision within some of the species groups. Studies that focus on variation within and among populations and on the biological basis for the variations are much needed. The field is open and the challenges are many.</discussion>
+  <discussion>Preparation of a workable key to Cirsium species has been frustratingly difficult. Extensive and overlapping ranges of variation in morphologic characteristics often require that a species be keyed two or more times. The resulting key is longer and more complex than I would prefer, and I have no doubt ignored, overlooked, or been completely unaware of variants that will not key out. Caveat clavitor!</discussion>
+  <discussion>The reputation of Cirsium has suffered greatly as a result of the introduction to North America of a few invasive weedy species from Eurasia. Cirsium vulgare (bull thistle) and C. arvense (Canada thistle—a misnomer) have long been despised as noxious weeds. In recent years C. palustre (European swamp thistle) has joined their ranks. Additionally, weedy Eurasian species of Carduus, Onopordum, Centaurea, etc., add to the public perception that all thistles are bad. Most North American native Cirsium are not at all weedy, and many are strikingly attractive plants. All are spiny plants that command respect, but they deserve a better reputation as one of North America’s evolutionary success stories.</discussion>
+  <discussion>Native Cirsium species have come under threat from biocontrol programs instituted to suppress populations of weedy introduced thistles. Beginning in 1968 the seedhead weevil Rhinocyllus conicus has been widely introduced in various areas of the United States and Canada, primarily to control weedy species of Carduus. S. M. Louda et al. (1997) reported that R. conicus has crossed over to several native species of Cirsium. They observed that the number of viable cypselae in infested heads was greatly reduced; e.g., heads of C. canescens infested by R. conicus produced 14.1 percent of the number of viable cypselae as in uninfested heads. Not all taxa are impacted as much as C. canescens, particularly those with later flowering phenology (Louda 1998). R. W. Pemberton (2000) reported that 22 Cirsium taxa in North America are known hosts of R. conicus. I suspect that the number is higher. During my field work I have observed that the heads of many Cirsium species are heavily parasitized, although I have not determined which of these are infested by R. conicus and which by native seedhead parasites. The long-term impacts of R. conicus and other biocontrol agents on native thistles, particularly rare taxa, remain to be determined.</discussion>
+  <references>SELECTED REFERENCES Hsi, Y.-T. 1960. Taxonomy, Distribution and Relationships of the Species of Cirsium Belonging to the Series Undulata. Ph.D. dissertation. University of Minnesota. Kelch, D. G. and B. G. Baldwin. 2003. Phylogeny and ecological radiation of New World thistles (Cirsium, Cardueae–Compositae) based on ITS and ETS rDNA sequence data. Molec. Ecol. 12: 141–151. Moore, R. J. and C. Frankton. 1969. Cytotaxonomy of some Cirsium species of the eastern United States, with a key to eastern species. Canad. J. Bot. 47: 1257–1275. Petrak, F. 1917. Die nordamerikanischen Arten der Gattung Cirsium. Beih. Bot. Centralbl. 35(2): 223–567.</references>
+  <run_in_sidehead>Key to Groups of Cirsium Species</run_in_sidehead>
+  <key>1.Plants of Great Plains, e North America, and GreenlandGroup 1, p. 97</key>
+  <key>1.Plants of nw Canada, Pacific Coast, Intermountain Region, sw Deserts, and Rocky Mountains.</key>
+  <key>2.Involucres 3–5 cmGroup 2, p. 100</key>
+  <key>2.Involucres 1–3 cmGroup 3, p. 102</key>
+  <run_in_sidehead>Group 1</run_in_sidehead>
+  <run_in_sidehead>Cirsium species of Great Plains, eastern North America, and Greenland</run_in_sidehead>
+  <key>1.Involucres usually 1–2.5 cm.</key>
+  <key>2.Plants dioecious or nearly so; common invasive weed2. Cirsium arvense</key>
+  <key>2.Plants hermaphroditic, with bisexual florets.</key>
+  <key>3.Bases of mid cauline leaves long-decurrent as spiny wings.</key>
+  <key>4.Heads crowded at stem tips; peduncles 0–1 cm; invasive weed in northern forests, wetlands3. Cirsium palustre</key>
+  <key>4.Heads in open paniculiform arrays, borne singly at tips of slender peduncles 1–15 cm; New Mexico33. Cirsium wrightii</key>
+  <key>3.Bases of mid cauline leaves not decurrent or sometimes short-decurrent, forming spiny wings to 3 cm.</key>
+  <key>5.Longer pappus bristles exceeding corollas by 1–8 mm; corollas very slender, throat scarcely wider than tube; abaxial faces of outer and middle phyllaries without glutinous ridge; heads sessile in dense mass at tip of thick fleshy stem, overtopped by crowded distal cauline leaves; w Canada55. Cirsium foliosum</key>
+  <key>5.Longer pappus bristles shorter than corollas; corolla throat noticeably wider than tube; abaxial faces of outer and middle phyllaries with elongate glutinous ridge (milky when fresh, dark when dry, sometimes very narrow); heads evidently pedunculate, not overtopped by crowded distal cauline leaves.</key>
+  <key>[6. Shifted to left margin.—Ed.]</key>
+  <key>6.Apices of outer and middle phyllaries erect, ± appressed, tipped by erect or ascending spines or cusps.</key>
+  <key>7.Abaxial leaf face densely white tomentose with non-septate trichomes.</key>
+  <key>8.Leaves 4–8 cm wide, main spines 1–2 mm; Greenland4. Cirsium helenioides</key>
+  <key>8.Leaves 0.5–4 cm wide, main spines usually 3–5 mm; se United States15. Cirsium virginianum (in part)</key>
+  <key>7.Abaxial leaf face thinly tomentose or glabrate and villous with septate trichomes.</key>
+  <key>9.Leaves deeply pinnatifid; widespread in e North America8. Cirsium muticum (in part)</key>
+  <key>9.Leaves unlobed to shallowly pinnatifid; Virginia to Georgia9. Cirsium repandum (in part)</key>
+  <key>6.Apices of at least outer phyllaries widely spreading, tipped by spreading spines or short cusps.</key>
+  <key>10.Phyllary spines 0–1(–3) mm.</key>
+  <key>11.Leaves thick, ± rigid, abaxially white-tomentose; New Jersey to Florida15. Cirsium virginianum (in part)</key>
+  <key>11.Leaves thin, flexible, abaxially thinly tomentose, ± glabrate.</key>
+  <key>12.Peduncles leafy-bracted; widespread, e North America8. Cirsium muticum (in part)</key>
+  <key>12.Peduncles essentially naked; Virginia to Florida, Louisiana16. Cirsium nuttallii</key>
+  <key>10.Phyllary spines (1–)2–9 mm.</key>
+  <key>13.Leaf bases decurrent.</key>
+  <key>14.Adaxial leaf faces green, glabrous or thinly arachnoid; phyllary spines 2–7 mm, stout, broad-based; w Great Plains29. Cirsium pulcherrimum</key>
+  <key>14.Adaxial leaf faces gray-tomentose; phyllary spines 1–3 mm, slender; sandy shores and dunes around Great Lakes…23. Cirsium pitcheri (in part)</key>
+  <key>13.Leaf bases not decurrent (except sometimes in C. pitcheri or C. texanum); phyllary spines slender.</key>
+  <key>15.Involucres 1.2–2 cm.</key>
+  <key>16.Mid and distal cauline leaves linear to narrowly elliptic, bases tapered, cuneate, not decurrent; widespread, se United States14. Cirsium carolinianum</key>
+  <key>16.Mid and distal cauline leaves ovate, broadly sessile, sometimes auriculate-clasping or short-decurrent; Louisiana, Oklahoma, Texas, adventive in Missouri17. Cirsium texanum</key>
+  <key>15.Involucres 2–3.5(–4) cm.</key>
+  <key>17.Leaves gray- or white-tomentose on both faces, divided nearly to midvein into linear lobes; corollas usually white; beaches and dunes around Great Lakes23. Cirsium pitcheri (in part)</key>
+  <key>17.Leaves adaxially green, ± glabrate, abaxially white-tomentose, undivided or shallowly to deeply pinnatifid; corollas lavender to purple (rarely white); widespread.</key>
+  <key>18.Stems villous with septate trichomes or distally white-tomentose; wide- spread, e North America7. Cirsium discolor (in part)</key>
+  <key>18.Stems gray- or white-tomentose throughout; n Great Plains, occasion- ally eastward18. Cirsium flodmanii (in part)</key>
+  <key>1.Involucres 2.5–5 cm.</key>
+  <key>19.Adaxial leaf faces covered with short, ± appressed, bristlelike spines; common weed 1. Cirsium vulgare</key>
+  <key>19.Adaxial leaf faces without bristlelike spine.</key>
+  <key>20.Corollas red; w Texas44. Cirsium turneri</key>
+  <key>20.Corollas white to yellow, lavender, or purple.</key>
+  <key>21.Each head closely subtended by involucre-like ring of spiny-margined bracts about as long as involucre; Maine to Florida, w to Texas11. Cirsium horridulum</key>
+  <key>21.Heads not individually subtended by involucre-like ring of spiny-margined bracts, sometimes cluster of several heads collectively surrounded by crowded distal cauline leaves that overtop them.</key>
+  <key>22.Abaxial face of outer and middle phyllaries without glutinous ridge; heads surrounded and overtopped by distal cauline leaves; widespread, w North America, disjunct on Mingan Archipelago, Quebec54. Cirsium scariosum</key>
+  <key>22.Abaxial faces of outer and middle phyllaries with elongate glutinous ridge (milky when fresh, dark when dry); heads in most species elevated above cauline leaves.</key>
+  <key>23.Spines (or sharp, cusplike tips) of outer and middle phyllaries erect, ± appressed.</key>
+  <key>24.Phyllary spines 0–0.5 mm8. Cirsium muticum (in part)</key>
+  <key>24.Phyllary spines 0.5–0.6 mm.</key>
+  <key>25.Apices of innermost phyllaries usually scarious, often expanded, ± erose-dentate.</key>
+  <key>26.Heads evidently pedunculate above distal cauline leaves; leaves usually less than 5 times longer than wide; midwest, e United States, s Canada12. Cirsium pumilum</key>
+  <key>26.Heads ± crowded, surrounded and overtopped by distal cauline leaves; leaves usually 5+ times longer than wide; Canada, Black Hills of South Dakota, Wyoming53. Cirsium drummondii</key>
+  <key>25.Apices of innermost phyllaries linear-attenuate.</key>
+  <key>27.Stems usually branched, distal 1/2 usually leafy; adaxial leaf faces shaggy villous with septate trichomes, abaxial faces villous with septate trichomes, loosely arachnoid when young; Virginia to Georgia9. Cirsium repandum (in part)</key>
+  <key>27.Stems usually simple, distal 1/2 nearly naked with only few bractlike leaves; adaxial leaf faces glabrous or sparingly villous with coarse, multicellular trichomes, abaxial faces loosely arachnoid when young, often ± glabrate; coastal, North Carolina to Louisiana10. Cirsium lecontei</key>
+  <key>23.Spines (or short, cusplike tips) of outer and middle phyllaries sometimes erect, sometimes spreading.</key>
+  <key>28.Phyllary spines 0–0.5 mm; widespread in e North America 8. Cirsium muticum (in part)</key>
+  <key>28.Phyllary spines 2–12 mm.</key>
+  <key>29.Stems thinly tomentose when young, ± glabrate or tomentum persisting distally; adaxial leaf faces green, glabrate.</key>
+  <key>30.Peduncles with much reduced bracts; usually some roots with tuberlike enlargements; Louisiana, Oklahoma, Texas 13. Cirsium engelmannii</key>
+  <key>30.Peduncles leafy-bracted; roots without tuberlike enlargements.</key>
+  <key>31.Cauline leaves usually unlobed or shallowly pinnatifid, or when more deeply lobed, lobes relatively wide; margins flat; apices of innermost phyllaries usually dilated and ± erose or serrulate; widespread, ne United States6. Cirsium altissimum</key>
+  <key>31.Cauline leaves deeply pinnatifid into narrow, linear-lanceolate lobes; margins + revolute; apices of innermost phyllaries attenuate, not dilated; widespread in e North America7. Cirsium discolor (in part)</key>
+  <key>29.Stems uniformly and persistently gray- or white-tomentose; adaxial leaf faces thinly to densely tomentose when young, sometimes green and glabrate in age.</key>
+  <key>32.Cauline leaves not decurrent or with decurrent wing 0–1 cm.</key>
+  <key>33.Cauline leaves elliptic to oblanceolate, shallowly lobed to pinnatifid; cypselae 3–5 mm, apical collar stramineous; root sprouts arising from horizontal runner roots; n Great Plains, occasionally eastward18. Cirsium flodmanii (in part)</key>
+  <key>33.Cauline leaves ovate to lanceolate, subentire to coarsely toothed or shallowly lobed; cypselae 6–7 mm, apical collar colored like body; root sprouts arising from deep taproots; Great Plains, occasionally east- ward19. Cirsium undulatum</key>
+  <key>32.Cauline leaves decurrent 1–5+ cm.</key>
+  <key>34.Spines of phyllaries 5–12 mm; corollas pale lavender or rarely white; Great Plains24. Cirsium ochrocentrum</key>
+  <key>34.Spines of phyllaries usually 2–4 mm; corollas usually dull white, rarely lavender or purple.</key>
+  <key>35.Leaves less deeply divided, lobes linear or oblong; phyllary spines 2–4 mm; Great Plains to c Rocky Mountains22. Cirsium canescens</key>
+  <key>35.Leaves divided nearly to midvein into linear lobes; phyllary spines 1–2(–3) mm; beaches and dunes around Great Lakes23. Cirsium pitcheri (in part)</key>
+  <run_in_sidehead>Group 2</run_in_sidehead>
+  <run_in_sidehead>Large-headed Cirsium species of Pacific Coast, Intermountain Region, southwestern Deserts, and Rocky Mountains</run_in_sidehead>
+  <key>1.Adaxial leaf faces with slender ± appressed bristlelike spines; common weed1. Cirsium vulgare</key>
+  <key>1.Adaxial leaf faces without bristlelike spines.</key>
+  <key>2.Abaxial faces of outer and middle phyllaries with elongate glutinous ridge (milky when fresh, dark when dry, sometimes very narrow).</key>
+  <key>3.Corolla lobes 1.5+ times as long as tube; style 1.5–4 mm; se California to s Colo- rado, Arizona, New Mexico43. Cirsium arizonicum (in part)</key>
+  <key>3.Corolla lobes shorter than to equaling tube; style 2–8 mm.</key>
+  <key>4.Herbage glabrous or ± villous or tomentose with septate trichomes; fine, non-septate trichomes usually 0.</key>
+  <key>5.Phyllaries strongly imbricate, outer and middle ovate or lanceolate, appressed, ascending to erect, spines 2–3 mm; Canada, Black Hills of South Dakota, Wyoming, Colorado53. Cirsium drummondii</key>
+  <key>5.Phyllaries subequal or imbricate, outer and middle with short, appressed bases and long, linear, stiffly spreading to ascending apices; spines 3–35 mm.</key>
+  <key>6.Outer phyllaries entire; spines 3–5 mm; n Rocky Mountains48. Cirsium hookerianum (in part)</key>
+  <key>6.Outer phyllaries usually pinnately spiny; spines 7–35 mm; Rocky Mountains and high peaks of intermountain region51. Cirsium eatonii (in part)</key>
+  <key />
+  <key>4.Herbage ± densely tomentose with fine, non-septate trichomes; septate trichomes 0 (except sometimes in C. hookerianum).</key>
+  <key>7.Glutinous ridges on phyllaries narrow, inconspicuous, sometimes absent; n Rocky Mountains48. Cirsium hookerianum (in part)</key>
+  <key>7.Glutinous ridges on phyllaries well developed.</key>
+  <key>8.Mid and distal cauline leaves evidently decurrent, spiny wings to 5 cm.</key>
+  <key>9.Phyllary spines usually 2–4 mm; corollas ochroleucous (rarely lavender-tinged)22. Cirsium canescens</key>
+  <key>9.Phyllary spines usually 5–12 mm; corollas pale lavender24. Cirsium ochrocentrum (in part)</key>
+  <key>8.Mid and distal cauline leaves not or scarcely decurrent.</key>
+  <key>10.Corollas red, pink, or reddish purple; Arizona, New Mexico24. Cirsium ochrocentrum (in part)</key>
+  <key>10.Corollas white to lavender or purple.</key>
+  <key>11.Corollas creamy white, rarely lavender-tinged; e Oregon, Washington, w Idaho5. Cirsium brevifolium</key>
+  <key>11.Corollas lavender to purple; widespread.</key>
+  <key>12.Cauline leaves elliptic to oblanceolate, shallowly lobed to pinnatifid; cypselae 3–5 mm, apical collar stramineous; root sprouts arising from horizontal runner roots; se Brit- ish Columbia to n Colorado, Great Plains18. Cirsium flodmanii</key>
+  <key>12.Cauline leaves ovate to lanceolate, subentire to coarsely toothed or shallowly lobed; cypselae 6–7 mm, bodies and apical collars concolorous; root sprouts arising from deep taproots; widespread19. Cirsium undulatum</key>
+  <key>[2. Shifted to left margin.—Ed.]</key>
+  <key>2.Abaxial faces of outer and middle phyllaries without elongate glutinous ridge (sometimes present in C. arizonicum).</key>
+  <key>13.Corollas pink, red, or reddish purple.</key>
+  <key>14.Corolla lobes shorter than throat; n California, sw Idaho, nw Nevada45. Cirsium andersonii</key>
+  <key>14.Corolla lobes longer than throat.</key>
+  <key>15.Corolla tube 3.5–5 mm; w Texas44. Cirsium turneri</key>
+  <key>15.Corolla tube 7–18 mm.</key>
+  <key>16.Biennials from taproots; stems usually solitary; style tips 4–5 mm; s Oregon, California, Nevada40. Cirsium occidentale (in part)</key>
+  <key>16.Perennials from taprooted caudices or runner roots; stems 1–several; style tips 1.5–4.5 mm; se California to s Colorado, Arizona, New Mexico 43. Cirsium arizonicum (in part)</key>
+  <key>13.Corollas white to lavender or purple.</key>
+  <key>17.Outer and middle phyllaries lanceolate to ovate, appressed, spines 1–12 mm.</key>
+  <key>18.Biennials or monocarpic perennials from taproots; usually from moist sites; widespread54. Cirsium scariosum</key>
+  <key>18.Perennials from runner roots; usually from dry sites; coastal c, n California 56. Cirsium quercetorum</key>
+  <key>17.Outer and middle phyllaries with short appressed bases and stiffly spreading to ascending, lanceolate to linear-acicular apices; spines 3–35 mm.</key>
+  <key>19.Outer phyllaries subequal, rigidly spreading, with spines 5–10 mm; middle and inner phyllaries imbricate, with bodies appressed and apices spreading, spine- less; Santa Clara County, California57. Cirsium praeteriens</key>
+  <key>19.Outer and middle phyllaries subequal or imbricate, with spreading to incurved-ascending, lanceolate to linear-acicular apices; middle and inner phyllaries with bodies appressed or not, and at least the middle with apices deflexed to spreading or ascending, spine-tipped.</key>
+  <key>[20. Shifted to left margin.—Ed.]</key>
+  <key>20.Adaxial leaf faces thinly arachnoid-tomentose to densely felty with fine, non-septate trichomes, sometimes glabrate.</key>
+  <key>21.Phyllaries spiny-ciliate; coastal dunes, s, c California58. Cirsium rhothophilum</key>
+  <key>21.Phyllaries usually entire.</key>
+  <key>22.Heads borne singly or in corymbiform arrays; trichomes usually all fine, non- septate; California40. Cirsium occidentale (in part)</key>
+  <key>22.Heads usually crowded in racemiform arrays; some trichomes on stems and leaves often septate; nw United States, w Canada48. Cirsium hookerianum (in part)</key>
+  <key>20.Adaxial leaf faces glabrous or villous along midveins with septate trichomes.</key>
+  <key>23.Corolla lobes filiform with knoblike tips; style included or exserted only 1–2 mm beyond corolla lobes; British Columbia to coastal s California, Montana47. Cirsium brevistylum</key>
+  <key>23.Corolla lobes linear but not filiform, not knobbed at tip; style exserted well beyond corolla lobes.</key>
+  <key>24.Leaves and stems glabrous.</key>
+  <key>25.Basal and proximal cauline leaves 2–5 cm wide, strongly undulate; Rocky Mountains and high peaks of intermountain region51. Cirsium eatonii (in part)</key>
+  <key>25.Basal and proximal cauline leaves 6–12 cm wide, not strongly undulate; plants of hanging gardens in sw Utah61. Cirsium joannae</key>
+  <key>24.Leaves and/or stems villous and/or tomentose.</key>
+  <key>26.Basal and proximal cauline leaves plane to moderately undulate and shallowly to ± deeply divided into 5–10 pairs of usually well separated, linear to broadly triangular lobes; British Columbia to w Oregon46. Cirsium edule</key>
+  <key>26.Basal and proximal cauline leaves strongly undulate and deeply divided into 10–20 pairs of closely spaced, usually narrow lobes; Rocky Mountains and high peaks of intermountain region51. Cirsium eatonii(in part)</key>
+  <run_in_sidehead>Group 3</run_in_sidehead>
+  <run_in_sidehead>Small-headed Cirsium species of Pacific Coast, Intermountain Region, southwestern deserts, and Rocky Mountains</run_in_sidehead>
+  <key>1.Plants dioecious or nearly so; common invasive weed2. Cirsium arvense</key>
+  <key>1.Plants with bisexual florets.</key>
+  <key>2.Bases of mid cauline leaves long-decurrent as spiny wings.</key>
+  <key>3.Heads crowded at stem tips, peduncles 0–1 cm; invasive weed in wetlands, north- ern forests, British Columbia3. Cirsium palustre</key>
+  <key>3.Heads in open paniculifrom arrays, borne singly on slender peduncles 1–15 cm; se Arizona, New Mexico33. Cirsium wrightii</key>
+  <key>2.Bases of mid cauline leaves not decurrent or decurrent as spiny wings to 5 cm.</key>
+  <key>4.Heads nodding; adaxial leaf faces glandular or not.</key>
+  <key>5.Adaxial leaf faces densely puberulent with mixture of short, multicellular, ± glandular trichomes and finer, arachnoid, non-septate trichomes; serpentine wetlands, coast ranges, c California59. Cirsium fontinale</key>
+  <key>5.Adaxial leaf faces glabrous.</key>
+  <key>6.Involucres densely tomentose; Rocky Mountains and high peaks of inter- mountain region51. Cirsium eatonii (in part)</key>
+  <key>6.Involucres glabrous.</key>
+  <key>7.Phyllaries maroon, drying dark brown or blackish; corollas rich rose- purple; s New Mexico62. Cirsium vinaceum</key>
+  <key>7.Phyllaries green, drying green or light brown; corollas dull white to pink or purple; n Arizona, s Utah.</key>
+  <key>8.Involucres 1.4–2 cm (excluding recurved outer phyllary apices that extend below involucre base); phyllary apices lance-ovate, rather abruptly contracted into recurved spines 3–25 mm, margins spar-</key>
+  <key>ingly tomentose or glabrate; ne Arizona, se Utah60. Cirsium rydbergii (in part)</key>
+  <key>8.Involucres 2.5–4 cm (including spreading to curved-ascending phyllary apices); phyllary spices linear, spines 5–12 mm, margins scabridulous-ciliolate; ne Arizona, se Utah61. Cirsium joannae (in part)</key>
+  <key>[4. Shifted to left margin.—Ed.]</key>
+  <key>4.Heads usually erect; adaxial leaf faces usually not glandular.</key>
+  <key>9.Margins of outer phyllaries hispidulous-ciliolate, spiny-fringed, pinnately spiny, or with expanded, scarious appendages.</key>
+  <key>10.Heads usually not closely subtended by clustered leafy bracts, often each subtended by 1 leaf or borne on peduncles with much reduced bracts.</key>
+  <key>11.Midribs of outer and middle phyllaries forming an elongate glutinous ridge (milky when fresh, dark when dry); margins of outer phyllaries minutely spiny-ciliate.</key>
+  <key>12.Corollas deep purple; Arizona, New Mexico27. Cirsium grahamii</key>
+  <key>12.Corollas pale rose-purple; coastal c California35. Cirsium hydrophilum (in part)</key>
+  <key>11.Midribs of phyllaries not glandular or with narrow, inconspicuous glutinous ridge; margins of outer phyllaries usually ± conspicuously fringed or spiny-ciliate.</key>
+  <key>13.Phyllaries long-acicular; involucres usually ± densely arachnoid with fine, non-septate trichomes; heads often ± sessile in tight clusters at tips of main stem and branches; British Columbia to w Oregon46. Cirsium edule (in part)</key>
+  <key>13.Phyllaries not long-acicular; involucres glabrous or loosely floccose, or arachnoid with coarse, septate trichomes; heads borne singly or in various arrays.</key>
+  <key>14.Arrays racemiform, spiciform, or subcapitate, or plants forming low, rounded mounds; plants ± fleshy; usually ± wet habitats, widespread 54. Cirsium scariosum (in part)</key>
+  <key>14.Arrays ± openly branched; plants usually not fleshy.</key>
+  <key>15.Plants stout, usually 100–300 cm; stems 2–10 cm diam. near base, hollow; middle and inner phyllaries entire; San Joaquin Valley, California34. Cirsium crassicaule (in part)</key>
+  <key>15.Plants slender, usually 10–110 cm; stems usually less than 2 cm diam. at base, not hollow; middle and inner phyllaries often with fringed appendages.</key>
+  <key>16.Biennials; barren stony habitats, w Colorado31. Cirsium perplexans</key>
+  <key>16.Perennials, monocarpic or polycarpic; various habitats.</key>
+  <key>17.Corollas 16–20 mm; Colorado, Utah, Wyoming30. Cirsium clavatum (in part)</key>
+  <key>17.Corollas 18–28 mm; Washington to n California32. Cirsium remotifolium (in part)</key>
+  <key>10.Heads usually closely subtended by clustered ± leafy bracts.</key>
+  <key>18.Leaf faces closely gray-white felty-tomentose, margins very prominently undu- late; dunes, headlands, s, c California58. Cirsium rhothophilum</key>
+  <key>18.Leaf faces glabrous to arachnoid-tomentose adaxially, sometimes white- or gray-tomentose abaxially, margins flat to undulate.</key>
+  <key>19.Corollas pale creamy yellow to bright yellow.</key>
+  <key>20.Biennials; basal and proximal cauline leaves absent at flowering; leaves unlobed or pinnatifid with lobes well separated, not overlapping; heads loosely to densely clustered at tips of main stem and branches, often also in distal leaf axils; involucres ± arachnoid, but not obscured by dense, woolly pubescence; corollas ± pale yellow; montane meadows, Colorado, Arizona, New Mexico50. Cirsium parryi</key>
+  <key>20.Perennials; basal and proximal cauline leaves present at flowering; leaves regularly pinnatifid with closely spaced, ± overlapping lobes; heads borne in massive, heavy, commonly nodding terminal clusters or spikes; involucres ± concealed by dense, woolly pubescence; corollas bright yellow; subalpine and alpine, Colorado51. Cirsium eatonii (in part)</key>
+  <key>19.Corollas white to purple.</key>
+  <key>21.Involucres ± glabrous or very thinly arachnoid.</key>
+  <key>22.Capitulescence open, many-headed, corymbiform or paniculiform; inner phyllaries erect or twisted, not expanded; San Joaquin Valley, California34. Cirsium crassicaule (in part)</key>
+  <key>22.Capitulescence racemiform, spiciform, or subcapitate, or plants forming low, rounded mounds; inner phyllaries often with expanded, erose, scarious tips.</key>
+  <key>23.Outer phyllaries erose to lacerate or spiny-fringed; mountains of w, c Montana49. Cirsium longistylum</key>
+  <key>23.Outer phyllaries usually not erose to lacerate; usually ± wet habitats, widespread54. Cirsium scariosum (in part)</key>
+  <key>21.Involucres conspicuously arachnoid-tomentose.</key>
+  <key>24.Heads sessile or subsessile, crowded in dense subcapitate to spiciform arrays; Rocky Mountains and highpeaks of inter- mountain region51. Cirsium eatonii (in part)</key>
+  <key>24.Heads sessile to evidently pedunculate, not crowded in dense subcapitate to spiciform arrays.</key>
+  <key>25.Distal leaves ± stiff, wickedly spiny, spines stout, often 10–15 mm; most outer phyllaries spiny-margined; coastal n, c California42. Cirsium andrewsii</key>
+  <key>25.Distal leaves thin, ± weakly spiny, spines slender, usually less than 8 mm; few outer phyllaries spiny-margined.</key>
+  <key>26.Style tips conspicuously exserted beyond corolla lobes; British Columbia to w Oregon46. Cirsium edule (in part)</key>
+  <key>26.Style tips included or exserted only 1–2 mm beyond corolla lobes; British Columbia to coastal s California, Montana47. Cirsium brevistylum (in part)</key>
+  <key>[9. Shifted to left margin.—Ed.]</key>
+  <key>9.Margins of outer phyllaries usually entire (bracts subtending head usually spiny).</key>
+  <key>27.Corolla lobes twice as long as corolla throat or longer; se California to s Colorado, Arizona, New Mexico43. Cirsium arizonicum</key>
+  <key>27.Corolla lobes shorter than to slightly exceeding corolla throat.</key>
+  <key>28.Corollas bright pink, red, or rich purple.</key>
+  <key>29.Heads usually crowded at branch tips; peduncles usually 0–4 cm; corollas abruptly expanded from tube to throat; usually wetland sites; California, Nevada, Oregon36. Cirsium douglasii</key>
+  <key>29.Heads usually borne singly; peduncles 1–30 cm; corollas gradually expanded from tube to throat; usually dry sites; California, Nevada, Oregon 40. Cirsium occidentale (in part)</key>
+  <key>28.Corollas white to pale pink, lavender, or purple.</key>
+  <key>30.Middle and outer phyllaries usually spreading to reflexed.</key>
+  <key>31.Plants lush, lax; herbage essentially glabrous or glabrescent throughout; heads in paniculiform arrays; hanging gardens and canyon bottoms; n Arizona, s Utah.</key>
+  <key>32.Involucres 1.4–2 cm (excluding recurved outer phyllary apices that extend below involucre base); phyllary apices lance-ovate, rather abruptly contracted into recurved spines 3–25 mm, margins sparingly tomentose or glabrate; ne Arizona, se Utah60. Cirsium rydbergii (in part)</key>
+  <key>32.Involucres 2.5–4 cm (including spreading to curved-ascending phyllary apices); phyllary apices linear, spines 5–12 mm, margins scabridulous-ciliolate; ne Arizona, se Utah61. Cirsium joannae (in part)</key>
+  <key>[31. Shifted to left margin.—Ed.]</key>
+  <key>31.Plants usually ± erect; herbage usually ± pubescent; heads in various arrays; widespread.</key>
+  <key>33.Leaves deeply 2–3–pinnately divided, lobes linear to linear-lanceolate; abaxial leaf faces glabrous to thinly tomentose and villous along major veins; e Utah, w Colorado52. Cirsium ownbeyi</key>
+  <key>33.Leaves shallowly to deeply pinnatifid; abaxial leaf faces usually thinly to densely tomentose.</key>
+  <key>34.Spines of principal phyllaries usually 7–20+ mm.</key>
+  <key>35.Perennials.</key>
+  <key>36.Phyllaries thinly arachnoid or glabrate; e Idaho and ne Utah to Wyoming and nw Nebraska29. Cirsium pulcherrimum (in part)</key>
+  <key>36.Phyllaries densely and persistently arachnoid with slender trichomes connecting adjacent phyllaries; coastal bluffs, dunes, c California 40. Cirsium occidentale (in part)</key>
+  <key>35.Biennials or short-lived monocarpic perennials.</key>
+  <key>37.Main spines of cauline leaves usually less than 8 mm; California 40. Cirsium occidentale (in part)</key>
+  <key>37.Main spines of cauline leaves usually 8–15 mm; deserts of sw United States 41. Cirsium neomexicanum</key>
+  <key>34.Spines of principal phyllaries usually 1–6 mm.</key>
+  <key>38.At least some inner phyllaries usually fringed or spiny-toothed.</key>
+  <key>39.Corollas 16–20 mm; Colorado, Utah, Wyoming30. Cirsium clavatum (in part)</key>
+  <key>39.Corollas 18–28 mm; Washington to n California32. Cirsium remotifolium (in part)</key>
+  <key>38.Phyllaries all entire.</key>
+  <key>40.Biennials; heads usually in open corymbiform arrays.</key>
+  <key>41.Abaxial face of outer and middle phyllaries with elongate glutinous ridge (milky when fresh, dark when dry); cauline leaves with decurrent wings 1–3 cm; Oregon and e California to w Wyoming 38. Cirsium inamoenum (in part)</key>
+  <key>41.Abaxial face of outer and middle phyllaries without elongate glutinous ridge; cauline leaves not decurrent or spiny decurrent wings to 2 cm; California40. Cirsium occidentale (in part)</key>
+  <key>40.Perennials; heads usually in ± congested flat-topped or racemiform arrays.</key>
+  <key>42.Principal cauline leaves decurrent 1.5–3.5 cm; e Idaho and ne Utah to Wyoming and nw Nebraska29. Cirsium pulcherrimum (in part)</key>
+  <key>42.Principal cauline leaves clasping or decurrent 1–10 mm.</key>
+  <key>43.Abaxial leaf faces densely gray-white tomentose; stems and leaves tomentose with fine, non-septate trichomes, septate trichomes absent; s Oregon, n California20. Cirsium ciliolatum (in part)</key>
+  <key>43.Abaxial leaf faces ± green, thinly tomentose; stems and leaves with mixture of fine, non-septate trichomes and coarser, septate trichomes, especially along stems and on midveins on abaxial leaf faces; widespread, n California to e Wyoming39. Cirsium cymosum (in part)</key>
+  <key>[30. Shifted to left margin.—Ed.]</key>
+  <key>30.Middle and usually outer phyllaries appressed or stiffly ascending (sometimes spines abruptly spreading).</key>
+  <key>44.Leaves all basal or crowded on very short, densely leafy stems; heads ± sessile, closely subtended by rosette leaves.</key>
+  <key>45.Biennials or short-lived monocarpic perennials, taprooted; usually ± wet habitats, widespread54. Cirsium scariosum (in part)</key>
+  <key>45.Perennials from creeping rootstocks; usually ± dry habitats; coastal c, n California 56. Cirsium quercetorum (in part)</key>
+  <key>44.Leaves basal and evidently cauline or all cauline; heads sessile or pedunculate, evidently raised above rosette leaves.</key>
+  <key>46.Phyllaries spines 10–20+ mm.</key>
+  <key>47.Plants persistently tomentose; heads usually not closely subtended by well- developed leaves24. Cirsium ochrocentrum (in part)</key>
+  <key>47.Plants sparsely arachnoid-tomentose, soon glabrescent; heads closely subtended by well-developed leaves; usually ± wet habitats, widespread54. Cirsium scariosum (in part)</key>
+  <key>46.Phyllary spines usually less than 10 mm.</key>
+  <key>48.Corollas usually 25–50 mm.</key>
+  <key>49.Biennials or short-lived monocarpic perennials, taprooted.</key>
+  <key>50.Cauline leaves evidently decurrent38. Cirsium inamoenum (in part)</key>
+  <key>50.Cauline leaves not or only slightly decurrent. sometimes auriculate-clasping.</key>
+  <key>51.Heads sessile or short-pedunculate, often crowded in spiciform or racemiform arrays; usually ± wet habitats, widespread 54. Cirsium scariosum (in part)</key>
+  <key>51.Heads usually evidently pedunculate, usually in ± open, corymbiform arrays; usually dry sites, Oregon and California to w Wyoming39. Cirsium cymosum (in part)</key>
+  <key>49.Perennials, taprooted or from creeping runner roots.</key>
+  <key>52.Corollas purple.</key>
+  <key>53.Phyllaries usually ovate; abaxial face of outer and middle phyllaries without elongate glutinous ridge; coastal n, c California 56. Cirsium quercetorum (in part)</key>
+  <key>53.Phyllaries usually lanceolate; abaxial face of outer and middle phyllaries with elongate glutinous ridge (milky when fresh, dark when dry).</key>
+  <key>54.Cauline leaves elliptic to oblanceolate, shallowly lobed to pinnatifid; cypselae 3–5 mm, apical collar straw-colored; root sprouts arising from horizontal runner roots; se British Columbia to n Colorado, Great Plains18. Cirsium flodmanii (in part)</key>
+  <key>54.Cauline leaves ovate to elliptic, oblong, or lanceolate, subentire to coarsely toothed or shallowly lobed; cypselae 6–7 mm, apical collar colored like body; root sprouts, if any, arising from deep taproots.</key>
+  <key>55.Involucres of larger heads often exceeding 3 cm; corolla lobes 6.5–13 mm; widespread19. Cirsium undulatum (in part)</key>
+  <key>55.Involucres of larger heads commonly less than 3 cm; corolla lobes 5.5–9.5 mm; w Colorado, ne New Mexico, se Utah21. Cirsium tracyi (in part)</key>
+  <key>52.Corollas white to pink or lavender.</key>
+  <key>56.Larger leaves regularly pinnatifid with 8–15 pairs of lobes 0.5–2 cm; cauline leaves evidently decurrent.</key>
+  <key>57.Principal leaf spines 5–20 mm; Wyoming to New Mexico, adventive in California24. Cirsium ochrocentrum (in part)</key>
+  <key>57.Principal leaf spines 3–5 mm; Colo., Utah, Wyoming26. Cirsium barnebyi (in part)</key>
+  <key />
+  <key>56.Larger leaves regularly or irregularly pinnatifid with 3–8 pairs of lobes, these often longer than 2 cm; cauline leaves not or only slightly decurrent.</key>
+  <key>58.Abaxial faces of outer and middle phyllaries without elongate glutinous ridge; plants often growing as low, compact, rounded mounds; coastal c, n California56. Cirsium quercetorum (in part)</key>
+  <key>58.Abaxial faces of outer and middle phyllaries with elongate glutinous ridge (milky when fresh, dark when dry, sometimes very narrow); plants usually erect.</key>
+  <key>59. Cauline leaves elliptic to oblanceolate, shallowly lobed to pinnatifid; cypselae 3–5 mm, apical collar stramineous; root sprouts arising from horizontal runner roots; se British Columbia to n Colorado, Great Plains18. Cirsium flodmanii (in part)</key>
+  <key>59. Cauline leaves ovate to lanceolate, subentire to coarsely toothed or shallowly lobed; cypselae 6–7 mm, apical collar colored like body; root sprouts arising from deep taproots;widespread.</key>
+  <key>60. Involucres of larger heads often exceeding 3 cm; corolla lobes 6.5–13 mm; widespread19. Cirsium undulatum (in part)</key>
+  <key>60. Involucres of larger heads commonly less than 3 cm; corolla lobes 5.5–9.5 mm; w Colorado, ne New Mexico, se Utah21. Cirsium tracyi (in part)</key>
+  <key>[48. Shifted to left margin.—Ed.]</key>
+  <key>48.Corollas usually 16–25 mm.</key>
+  <key>61.Phyllaries usually without a glutinous ridge.</key>
+  <key>62.Corollas 16–17 mm; leaves broadly elliptic to obovate, tapered to base, armed with slender, fine, flexible spines; Aleutian Islands5. Cirsium kamtschaticum</key>
+  <key>62.Corollas 18+ mm; leaves linear or oblong to elliptic or oblanceolate, armed with stiff spines.</key>
+  <key>63.Heads usually conspicuously long-pedunculate; Washington to n California 32. Cirsium remotifolium (in part)</key>
+  <key>63.Heads usually ± sessile or short-pedunculate.</key>
+  <key>64.Phyllaries ascending to spreading, connected by long septate or non-septate trichomes.</key>
+  <key>65.Style tips included or exserted only 1–2 mm beyond corolla lobes; Brit- ish Columbia to coastal s California, Montana47. Cirsium brevistylum (in part)</key>
+  <key>65.Style tips conspicuously exserted beyond corolla lobes; Rocky Moun- tains and high peaks of intermountain region51. Cirsium eatonii (in part)</key>
+  <key>64.Phyllaries appressed, glabrous or ± tomentose.</key>
+  <key>66.Heads usually not closely subtended by crowded leafy bracts; stems not fleshy; dry soils, Colorado, Utah, Wyoming26. Cirsium barnebyi (in part)</key>
+  <key>66.Heads usually closely subtended by crowded, leafy bracts; stems ± fleshy; usually wet soils.</key>
+  <key>67.Longer pappus bristles shorter than corollas; corolla throat noticeably wider than tube; usually ± wet habitats, widespread 54. Cirsium scariosum (in part)</key>
+  <key>67.Longer pappus bristles exceeding corollas by 1–10 mm; corollas very slender, throat scarcely wider than tube; Canada, n Rockies 55. Cirsium foliosum</key>
+  <key>61.Phyllaries, at least some, with a ± sticky-glandular ridge or raised translucent gland, this usually milky in fresh specimens and darkened in drying.</key>
+  <key>68.Phyllary bodies (at least outer) ascending or loosely appressed, spines usually erect or ascending; heads commonly in corymbiform or racemiform arrays.</key>
+  <key>69.Cauline leaves conspicuously decurrent; Oregon and e California to w Wyoming38. Cirsium inamoenum (in part)</key>
+  <key>69.Cauline leaves auriculate-clasping, sometimes also short-decurrent.</key>
+  <key>70.Pubescence all of fine, non-septate arachnoid trichomes, often dense and persistent on leaves; s Oregon, n California 20. Cirsium ciliolatum (in part)</key>
+  <key>70.Pubescence usually mixture of fine, non-septate arachnoid trichomes and coarser, septate trichomes, usually ± loose and irregularly deciduous from leaves in age; Oregon, n Cali- fornia to w Wyoming39. Cirsium cymosum (in part)</key>
+  <key>[68. Shifted to left margin.—Ed.]</key>
+  <key>68.Phyllary bodies tightly appressed, spines ascending to abruptly spreading; heads borne singly or in paniculiform or corymbiform arrays, or in few-headed arrays at stem tips.</key>
+  <key>71.Leaves glabrous to thinly tomentose on both faces, ± glabrate adaxially.</key>
+  <key>72.Pubescence usually mixture of fine, non-septate arachnoid trichomes and coarser, septate trichomes, usually ± loose and irregularly deciduous from leaves in age; Oregon and n California to w Wyoming39. Cirsium cymosum (in part)</key>
+  <key>72.Pubescence, when present, of fine, non-septate trichomes; septate trichomes usually absent.</key>
+  <key>73.Polycarpic perennials 20–100 cm; mountains of e Utah, w Colorado 30. Cirsium clavatum (in part)</key>
+  <key>73.Biennials or monocarpic perennials.</key>
+  <key>74.Plants 100–220 cm; phyllary spines 1–2 mm; wet soils, coastal c California 35. Cirsium hydrophilum (in part)</key>
+  <key>74.Plants 20–100 cm; phyllary spines 2–7 mm; dry slopes, Oregon, e California to w Wyoming38. Cirsium inamoenum (in part)</key>
+  <key>71.Leaves densely tomentose on abaxial faces, often on both faces.</key>
+  <key>75.Inner phyllaries usually dark purple to blackish near tips.</key>
+  <key>76.Heads 1–6, borne singly or few at branch tips; Arizona, Colorado, New Mexico, Utah28. Cirsium wheeleri (in part)</key>
+  <key>76.Heads 10–many, ± crowded at branch tips; moist soils, California, Nevada, Oregon36. Cirsium douglasii</key>
+  <key>75.Inner phyllaries greenish to brown or stramineous.</key>
+  <key>77.Basal leaves 8–20+ cm wide; e California to sw Utah, n Arizona37. Cirsium mohavense</key>
+  <key>77.Basal leaves 0.7–7 cm wide.</key>
+  <key>78.Cauline leaves not decurrent; Arizona, Colorado, New Mexico, Utah 28. Cirsium wheeleri (in part)</key>
+  <key>78.Cauline leaves evidently decurrent.</key>
+  <key>79.Larger leaves regularly pinnatifid with 8–15 pairs of closely spaced lobes; both leaf faces ± densely tomentose; Colorado, Utah, Wyoming 26. Cirsium barnebyi (in part)</key>
+  <key>79.Larger leaves unlobed or with 5–8(–many) pairs of lobes, these usually separated by ± broad, U-shaped sinuses; adaxial leaf faces often glabrous or glabrate.</key>
+  <key>80.Corollas dull white or faintly lavender-tinged (sometimes bright pink-purple in var. davisii); phyllary spines usually fine; Oregon and e California to w Wyoming38. Cirsium inamoenum (in part)</key>
+  <key>80.Corollas pink to purple; phyllary spines usually stout, ± flattened; e Idaho and ne Utah to Wyoming and nw Nebraska 29. Cirsium pulcherrimum (in part)</key>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

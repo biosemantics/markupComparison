@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>108.</number>
+  <genus_name>INULA</genus_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 881. 1753; Gen. Pl. ed. 5, 375. 1754</place_of_publication>
+  <common_name />
+  <derivation>Greek inaein , to clean, alluding to medicinal effects; or Latin inula , an ancient name for elecampane</derivation>
+  <author_of_tribe_genus>Neil A. Harriman</author_of_tribe_genus>
+  <description>
+    <statement id="793.txt-0">
+      <text>Perennials [annuals], 20–200 cm.</text>
+      <structure id="o16718" name="whole_organism">
+        <character char_type="range_value" name="size" from="20" from_unit="cm" to="200" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="793.txt-1">
+      <text>Leaves basal (usually withering before flowering) and cauline;</text>
+    </statement>
+    <statement id="793.txt-2">
+      <text>petiolate (proximal) or sessile (distal);</text>
+      <structure id="o16719" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="architecture" value="petiolate" />
+        <character name="architecture" value="sessile" />
+      </structure>
+    </statement>
+    <statement id="793.txt-3">
+      <text>blade margins usually serrate to dentate, sometimes entire.</text>
+      <structure id="o16720" name="margin" constraint="blade">
+        <character name="shape" value="serrate" modifier="usually" />
+        <character name="shape" value="dentate" />
+        <character name="shape" value="entire" modifier="sometimes" />
+      </structure>
+    </statement>
+    <statement id="793.txt-4">
+      <text>Heads radiate [disciform, discoid], borne singly or in open, corymbiform arrays.</text>
+      <structure id="o16721" name="head">
+        <character name="architecture_or_arrangement" value="radiate" />
+        <character name="arrangement" value="singly" />
+        <character name="arrangement" value="in open , corymbiform arrays" />
+      </structure>
+      <structure id="o16722" name="array">
+        <character name="architecture" value="open" />
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <relation id="r1797" name="in" from="o16721" to="o16722" negation="false" />
+    </statement>
+    <statement id="793.txt-5">
+      <text>Involucres hemispheric or campanulate, [5–]10–40 mm diam.</text>
+      <structure id="o16723" name="involucre">
+        <character name="shape" value="hemispheric" />
+        <character name="shape" value="campanulate" />
+        <character char_type="range_value" name="atypical_size" from="5" to="10" from_unit="mm" to_unit="mm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="40" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="793.txt-6">
+      <text>Phyllaries persistent, in 4–7+ series.</text>
+      <structure id="o16724" name="phyllary">
+        <character name="duration" value="persistent" />
+      </structure>
+      <structure id="o16725" name="series">
+        <character char_type="range_value" name="count" from="4" to="7" upper_restricted="false" />
+      </structure>
+      <relation id="r1798" name="in" from="o16724" to="o16725" negation="false" />
+    </statement>
+    <statement id="793.txt-7">
+      <text>Receptacles flat or convex, smooth or alveolate, epaleate.</text>
+      <structure id="o16726" name="receptacle">
+        <character name="shape" value="flat" />
+        <character name="shape" value="convex" />
+        <character name="relief" value="smooth" />
+        <character name="relief" value="alveolate" />
+        <character name="architecture" value="epaleate" />
+      </structure>
+    </statement>
+    <statement id="793.txt-8">
+      <text>Ray florets (15–)50–150+, pistillate, fertile;</text>
+      <structure id="o16727" name="floret" constraint="ray">
+        <character char_type="range_value" name="atypical_count" from="15" to="50" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="50" to="150" upper_restricted="false" />
+        <character name="architecture" value="pistillate" />
+        <character name="reproduction" value="fertile" />
+      </structure>
+    </statement>
+    <statement id="793.txt-9">
+      <text>corollas yellow [orange], laminae 10–30+ mm.</text>
+      <structure id="o16728" name="corolla">
+        <character name="coloration" value="yellow" />
+      </structure>
+      <structure id="o16729" name="lamina">
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="30" to_unit="mm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="793.txt-10">
+      <text>Disc florets mostly (50–)100–250+;</text>
+      <structure id="o16730" name="floret" constraint="disc">
+        <character char_type="range_value" name="atypical_count" from="50" to="100" to_inclusive="false" modifier="mostly" />
+        <character char_type="range_value" name="count" from="100" to="250" upper_restricted="false" modifier="mostly" />
+      </structure>
+    </statement>
+    <statement id="793.txt-11">
+      <text>corollas yellow, lobes 5.</text>
+      <structure id="o16731" name="corolla">
+        <character name="coloration" value="yellow" />
+      </structure>
+      <structure id="o16732" name="lobe">
+        <character name="count" value="5" />
+      </structure>
+    </statement>
+    <statement id="793.txt-12">
+      <text>Cypselae ± columnar (subterete) or prismatic (± 4–5-ribbed or -angled);</text>
+      <structure id="o16733" name="cypsela">
+        <character name="shape" value="columnar" modifier="±" />
+        <character name="shape" value="prismatic" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="793.txt-13">
+      <text>pappi persistent, of basally connate, barbellate bristles or setiform scales in 1 series.</text>
+      <structure id="o16734" name="pappus">
+        <character name="duration" value="persistent" />
+      </structure>
+      <structure id="o16735" name="bristle">
+        <character name="fusion" value="connate" modifier="basally" />
+        <character name="architecture" value="barbellate" />
+      </structure>
+      <relation id="r1799" name="consist_of" from="o16734" to="o16735" negation="false" />
+      <structure id="o16736" name="scale">
+        <character name="shape" value="setiform" />
+      </structure>
+      <structure id="o16737" name="series">
+        <character name="count" value="1" />
+      </structure>
+      <relation id="r1800" name="in" from="o16736" to="o16737" negation="false" />
+    </statement>
+    <statement id="793.txt-14">
+      <text>x = 8, 9, 10.</text>
+      <structure id="o16738" name="chromosome">
+        <character name="count" value="8" />
+        <character name="count" value="9" />
+        <character name="count" value="10" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species ca. 100 (3 in the flora):</number_of_infrataxa>
+  <introduced>introduced;</introduced>
+  <general_distribution>Old World.</general_distribution>
+  <discussion>The three species in the flora are probably escapes from cultivation. Formerly, Inula was circumscribed more broadly.</discussion>
+  <key>1.Blades of basal (and proximal cauline) leaves 100–200 mm wide; involucres (20–)30–40 mm diam.; outer phyllaries 6–8(–20+) mm wide1. Inula helenium</key>
+  <key>1.Blades of basal (and proximal cauline) leaves mostly 10–30 mm wide; involucres 7–15(–20) mm diam.; outer phyllaries mostly 0.5–2.5 mm wide.</key>
+  <key>2.Blades of cauline leaves lance-elliptic to lance-linear (venation not raised adaxially, reticulation not evident); outer phyllaries 4–6 × 0.5–0.8 mm2. Inula brittanica</key>
+  <key>2.Blades of cauline leaves broadly elliptic to lanceolate (venation raised adaxially, reticulation prominent); outer phyllaries 5–7 × 1.5–2.5 mm3. Inula salicina</key>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

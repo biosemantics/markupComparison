@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>20.</number>
+  <species_name>Antennaria parvifolia</species_name>
+  <authority>Nuttall</authority>
+  <place_of_publication>Trans. Amer. Philos. Soc., n. s. 7: 406. 1841</place_of_publication>
+  <common_name>Small-leaf or Nuttall’s pussytoes</common_name>
+  <synonym_of_species_name>Antennaria aprica Greene; A. aprica var . aureola (Lunell) J. W. Moore; A. aprica var. minuscula (B. Boivin) B. Boivin; A. aureola Lunell; A. dioica (Linnaeus) Gaertner var. parvifolia (Nuttall) Torrey &amp; A. Gray; A. holmii Greene; A. latisquamea Greene; A. minuscula B. Boivin; A. recurva Greene; A. rhodantha Suksdorf</synonym_of_species_name>
+  <description>
+    <statement id="655.txt-0">
+      <text>Dioecious or gynoecious (staminate plants uncommon or in equal frequency as pistillates, respectively).</text>
+      <structure id="o13693" name="whole_organism">
+        <character name="reproduction" value="dioecious" />
+        <character name="reproduction" value="gynoecious" />
+      </structure>
+    </statement>
+    <statement id="655.txt-1">
+      <text>Plants 2–8(–15) cm.</text>
+      <structure id="o13694" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="8" to="15" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="2" from_unit="cm" to="8" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="655.txt-2">
+      <text>Stolons 1–6 cm.</text>
+      <structure id="o13695" name="stolon">
+        <character char_type="range_value" name="size" from="1" from_unit="cm" to="6" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="655.txt-3">
+      <text>Basal leaves 1-nerved, narrowly spatulate to spatulate or oblanceolate, 8–35 × 2–15 mm, tips mucronate, faces gray-tomentose.</text>
+      <structure id="o13696" name="leaf" constraint="basal">
+        <character name="architecture" value="1-nerved" />
+        <character char_type="range_value" name="shape" from="narrowly spatulate" to="spatulate or oblanceolate" />
+        <character name="shape" value="spatulate" modifier="narrowly" />
+        <character name="shape" value="spatulate" modifier="narrowly" />
+        <character name="shape" value="oblanceolate" modifier="narrowly" />
+        <character char_type="range_value" name="length" from="8" from_unit="mm" to="35" to_unit="mm" />
+        <character char_type="range_value" name="width" from="2" from_unit="mm" to="15" to_unit="mm" />
+      </structure>
+      <structure id="o13697" name="tip">
+        <character name="shape" value="mucronate" />
+      </structure>
+      <structure id="o13698" name="face">
+        <character name="pubescence" value="gray-tomentose" />
+      </structure>
+    </statement>
+    <statement id="655.txt-4">
+      <text>Cauline leaves linear to narrowly oblanceolate, 8–20 mm, not flagged (apices acute).</text>
+      <structure id="o13699" name="leaf" constraint="cauline">
+        <character char_type="range_value" name="shape" from="linear" to="narrowly oblanceolate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="oblanceolate" modifier="narrowly" />
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="20" to_unit="mm" />
+        <character name="orientation" value="flagged" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="655.txt-5">
+      <text>Heads 2–7 in corymbiform arrays.</text>
+      <structure id="o13700" name="head">
+        <character char_type="range_value" name="count" from="2" to="7" constraint="in arrays" constraintid="o13701" />
+      </structure>
+      <structure id="o13701" name="array">
+        <character name="architecture" value="corymbiform" />
+      </structure>
+    </statement>
+    <statement id="655.txt-6">
+      <text>Involucres:</text>
+      <structure id="o13702" name="involucre" />
+    </statement>
+    <statement id="655.txt-7">
+      <text>staminate 5.5–7.5 mm;</text>
+      <structure id="o13703" name="involucre" constraint="staminate">
+        <character char_type="range_value" name="size" from="5.5" from_unit="mm" to="7.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="655.txt-8">
+      <text>pistillate 8–10(–15) mm (gynoecious), 7–7.2 mm (dioecious).</text>
+      <structure id="o13704" name="involucre" constraint="pistillate">
+        <character char_type="range_value" name="atypical_size" from="10" to="15" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="10" to_unit="mm" />
+        <character char_type="range_value" name="size" from="7" from_unit="mm" to="7.2" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="655.txt-9">
+      <text>Phyllaries distally white, pink, green, red, or brown.</text>
+      <structure id="o13705" name="phyllary">
+        <character name="coloration" value="white" modifier="distally" />
+        <character name="coloration" value="pink" modifier="distally" />
+        <character name="coloration" value="green" modifier="distally" />
+        <character name="coloration" value="red" modifier="distally" />
+        <character name="coloration" value="brown" modifier="distally" />
+      </structure>
+    </statement>
+    <statement id="655.txt-10">
+      <text>Corollas:</text>
+      <structure id="o13706" name="corolla" />
+    </statement>
+    <statement id="655.txt-11">
+      <text>staminate 3.5–4.5 mm;</text>
+      <structure id="o13707" name="corolla" constraint="staminate">
+        <character char_type="range_value" name="size" from="3.5" from_unit="mm" to="4.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="655.txt-12">
+      <text>pistillate 5–8 mm.</text>
+      <structure id="o13708" name="corolla" constraint="pistillate">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="655.txt-13">
+      <text>Cypselae 1–1.8 mm, glabrous or minutely papillate;</text>
+      <structure id="o13709" name="cypsela">
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="1.8" to_unit="mm" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="papillate" modifier="minutely" />
+      </structure>
+    </statement>
+    <statement id="655.txt-14">
+      <text>pappi:</text>
+      <structure id="o13710" name="pappus" />
+    </statement>
+    <statement id="655.txt-15">
+      <text>staminate 4–5.5 mm;</text>
+      <structure id="o13711" name="pappus" constraint="staminate">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="5.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="655.txt-16">
+      <text>pistillate 6.5–9 mm.</text>
+      <structure id="o13712" name="pappus" constraint="pistillate">
+        <character char_type="range_value" name="size" from="6.5" from_unit="mm" to="9" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="655.txt-17">
+      <text>2 n = 56, 84, 112, 140.</text>
+      <structure id="o13713" name="chromosome">
+        <character name="count" value="56" />
+        <character name="count" value="84" />
+        <character name="count" value="112" />
+        <character name="count" value="140" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>prairies</habitat>
+  <habitat>pastures</habitat>
+  <habitat>roadsides</habitat>
+  <habitat>mountain parks</habitat>
+  <habitat>open deciduous woods</habitat>
+  <habitat>and drier coniferous forests</habitat>
+  <habitat>usually ponderosa or lodgepole pine</habitat>
+  <elevation>100–3400 m;</elevation>
+  <ca_distribution>Alta.</ca_distribution>
+  <ca_distribution>B.C.</ca_distribution>
+  <ca_distribution>Man.</ca_distribution>
+  <ca_distribution>Ont.</ca_distribution>
+  <ca_distribution>Sask.</ca_distribution>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Iowa</us_distribution>
+  <us_distribution>Mich.</us_distribution>
+  <us_distribution>Minn.</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>Nebr.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>N.Dak.</us_distribution>
+  <us_distribution>Okla. (expected in panhandle)</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>S.Dak.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <us_distribution>Wis. (expected)</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <global_distribution>Mexico (Chihuahua).</global_distribution>
+  <global_distribution>Mexico (Nuevo León).</global_distribution>
+  <discussion>Antennaria parvifolia is a widespread, polyploid complex of sexual (dioecious) and asexual (gynoecious) populations (G. L. Stebbins 1932b; R. J. Bayer and Stebbins 1987). Although variable morphologically, no infraspecific taxa seem warranted at this time. Sexual (dioecious) populations are known primarily from New Mexico and Colorado; apomictic plants occur throughout the range of the species. Probable sexual diploid/tetraploid progenitors of the A. parvifolia complex include A. dioica, A. marginata, A. neglecta, and A. pulchella/A. media. Antennaria parvifolia is characterized by relatively short stature and relatively small numbers of relatively large heads. The epithet parvifolia has been rendered as “parviflora” in floras, e.g., key in Great Plains Flora Association (1986); E. H. Moss (1959); H. J. Scoggan (1978–1979, part 4). In some floras, A. parvifolia has been confused with A. microphylla; the two are probably not closely related.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

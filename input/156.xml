@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>54f.</number>
+  <variety_name>Cirsium scariosum Nuttall var. toiyabense</variety_name>
+  <authority>D. J. Keil</authority>
+  <place_of_publication>Sida 21: 216. 2004</place_of_publication>
+  <common_name>Toiyabe thistle</common_name>
+  <description>
+    <statement id="156.txt-0">
+      <text>Plants erect, subacaulescent to caulescent, 5–55 cm.</text>
+      <structure id="o1545" name="whole_organism">
+        <character name="orientation" value="erect" />
+        <character char_type="range_value" name="architecture" from="subacaulescent" to="caulescent" />
+        <character name="architecture" value="subacaulescent" />
+        <character name="architecture" value="caulescent" />
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="55" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="156.txt-1">
+      <text>Stems usually simple, leafy, glabrous to villous or tomentose with septate trichomes, sometimes thinly arachnoid tomentose.</text>
+      <structure id="o1546" name="stem">
+        <character name="architecture" value="simple" modifier="usually" />
+        <character name="architecture" value="leafy" />
+        <character char_type="range_value" name="pubescence" from="glabrous" to="villous or tomentose" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="villous" />
+        <character name="pubescence" value="tomentose" constraint="with trichomes" constraintid="o1547" />
+        <character name="pubescence" value="arachnoid tomentose" modifier="sometimes thinly" />
+      </structure>
+      <structure id="o1547" name="trichome">
+        <character name="architecture" value="septate" />
+      </structure>
+    </statement>
+    <statement id="156.txt-2">
+      <text>Leaves:</text>
+      <structure id="o1548" name="leaf" />
+    </statement>
+    <statement id="156.txt-3">
+      <text>blades oblong to oblanceolate or elliptic, pinnately lobed or often unlobed, longer spines less than 1 cm, abaxial faces green and ± glabrous to white-tomentose, adaxial faces green, glabrous or villous with septate trichomes.</text>
+      <structure id="o1549" name="blade">
+        <character char_type="range_value" name="shape" from="oblong" to="oblanceolate or elliptic , pinnately lobed or often unlobed" />
+        <character name="shape" value="oblong" />
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="elliptic" />
+        <character name="shape" value="lobed" modifier="pinnately" />
+        <character name="shape" value="unlobed" modifier="often" />
+      </structure>
+      <structure id="o1550" name="spine" constraint="longer">
+        <character name="size" value="1" unit="cm" modifier="less than" />
+      </structure>
+      <structure id="o1551" name="face" constraint="abaxial">
+        <character name="coloration" value="green" />
+        <character char_type="range_value" name="pubescence" from="glabrous" to="white-tomentose" modifier="±" />
+        <character name="pubescence" value="glabrous" modifier="±" />
+        <character name="pubescence" value="white-tomentose" modifier="±" />
+      </structure>
+      <structure id="o1552" name="face" constraint="adaxial">
+        <character name="coloration" value="green" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="villous" constraint="with trichomes" constraintid="o1553" />
+      </structure>
+      <structure id="o1553" name="trichome">
+        <character name="architecture" value="septate" />
+      </structure>
+    </statement>
+    <statement id="156.txt-4">
+      <text>Heads 1–10+, sessile or short-pedunculate, crowded at stem tips, usually subtended and ± overtopped by distal leaves.</text>
+      <structure id="o1554" name="head">
+        <character char_type="range_value" name="count" from="1" to="10" upper_restricted="false" />
+        <character name="architecture" value="sessile" />
+        <character name="architecture" value="short-pedunculate" />
+        <character name="architecture" value="crowded" constraint="at stem tips" constraintid="o1555" />
+        <character name="position" value="overtopped" modifier="±" constraint="by leaves" constraintid="o1556" />
+      </structure>
+      <structure id="o1555" name="tip" constraint="stem" />
+      <structure id="o1556" name="leaf" constraint="distal" />
+    </statement>
+    <statement id="156.txt-5">
+      <text>Involucres 2–3 cm.</text>
+      <structure id="o1557" name="involucre">
+        <character char_type="range_value" name="size" from="2" from_unit="cm" to="3" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="156.txt-6">
+      <text>Phyllaries:</text>
+      <structure id="o1558" name="phyllary" />
+    </statement>
+    <statement id="156.txt-7">
+      <text>outer and mid lanceolate to ovate, spines slender, 2–4 mm;</text>
+      <structure id="o1559" name="phyllary" constraint="outer and mid" />
+      <structure id="o1560" name="spine">
+        <character name="size" value="slender" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="156.txt-8">
+      <text>apices of inner acuminate and entire or abruptly expanded into scarious, erose-toothed appendages.</text>
+      <structure id="o1561" name="apex">
+        <character name="shape" value="acuminate" />
+        <character name="shape" value="entire" />
+        <character name="size" value="expanded" modifier="abruptly" constraint="into appendages" constraintid="o1563" />
+      </structure>
+      <structure id="o1562" name="phyllary" constraint="inner" />
+      <relation id="r247" name="part_of" from="o1561" to="o1562" negation="false" />
+      <structure id="o1563" name="appendage">
+        <character name="texture" value="scarious" />
+        <character name="shape" value="erose-toothed" />
+      </structure>
+    </statement>
+    <statement id="156.txt-9">
+      <text>Corollas rose-purple, 23–31 mm, tubes 11–16 mm, throats 4.5–8.5 mm, lobes 5.5–8.5 mm;</text>
+      <structure id="o1564" name="corolla">
+        <character name="coloration" value="purple" modifier="rose" />
+        <character char_type="range_value" name="size" from="23" from_unit="mm" to="31" to_unit="mm" />
+      </structure>
+      <structure id="o1565" name="tube">
+        <character char_type="range_value" name="size" from="11" from_unit="mm" to="16" to_unit="mm" />
+      </structure>
+      <structure id="o1566" name="throat">
+        <character char_type="range_value" name="size" from="4.5" from_unit="mm" to="8.5" to_unit="mm" />
+      </structure>
+      <structure id="o1567" name="lobe">
+        <character char_type="range_value" name="size" from="5.5" from_unit="mm" to="8.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="156.txt-10">
+      <text>style tips 3.5–4.5 mm.</text>
+      <structure id="o1568" name="tip" constraint="style">
+        <character char_type="range_value" name="size" from="3.5" from_unit="mm" to="4.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="156.txt-11">
+      <text>Cypselae 4–6 mm;</text>
+      <structure id="o1569" name="cypsela">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="156.txt-12">
+      <text>pappi 22–25 mm.</text>
+      <structure id="o1570" name="pappus">
+        <character char_type="range_value" name="size" from="22" from_unit="mm" to="25" to_unit="mm" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>meadows</habitat>
+  <habitat>pastures</habitat>
+  <habitat>springs</habitat>
+  <elevation>1250–2300 m;</elevation>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <discussion>Variety toiyabense occurs in the western Basin and Range province from northern Nevada to southeastern Oregon and southwestern Idaho.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

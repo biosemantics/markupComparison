@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>6.</number>
+  <species_name>Prenanthes barbata</species_name>
+  <authority>(Torrey &amp; A. Gray) Milstead ex Cronquist</authority>
+  <place_of_publication>Brittonia 29: 223. 1977</place_of_publication>
+  <common_name>Barbed rattlesnakeroot</common_name>
+  <synonym_of_species_name>Nabalus fraseri de Candolle var. barbatus Torrey &amp; A. Gray, Fl. N. Amer. 2: 481. 1843; Prenanthes serpentaria Pursh var. barbata (Torrey &amp; A. Gray) A. Gray</synonym_of_species_name>
+  <description>
+    <statement id="364.txt-0">
+      <text>Plants 50–150 cm;</text>
+      <structure id="o6856" name="whole_organism">
+        <character char_type="range_value" name="size" from="50" from_unit="cm" to="150" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="364.txt-1">
+      <text>taproots thickened, tuberous, with lateral side roots.</text>
+      <structure id="o6857" name="taproot">
+        <character name="thickness" value="thickened" />
+        <character name="architecture" value="tuberous" />
+      </structure>
+      <structure id="o6858" name="root" constraint="lateral side" />
+      <relation id="r851" name="with" from="o6857" to="o6858" negation="false" />
+    </statement>
+    <statement id="364.txt-2">
+      <text>Stems erect, purplish, glabrous proximally, finely tomentulose or setose distally.</text>
+      <structure id="o6859" name="stem">
+        <character name="orientation" value="erect" />
+        <character name="coloration" value="purplish" />
+        <character name="pubescence" value="glabrous" modifier="proximally" />
+        <character name="pubescence" value="tomentulose" modifier="finely distally" />
+        <character name="pubescence" value="setose" modifier="finely distally" />
+      </structure>
+    </statement>
+    <statement id="364.txt-3">
+      <text>Leaves:</text>
+      <structure id="o6860" name="leaf" />
+    </statement>
+    <statement id="364.txt-4">
+      <text>proximal withered by flowering;</text>
+    </statement>
+    <statement id="364.txt-5">
+      <text>petiolate (petioles 2–3 cm, winged);</text>
+      <structure id="o6861" name="leaf" constraint="proximal">
+        <character name="duration" value="withered" modifier="by flowering" />
+        <character name="architecture" value="petiolate" />
+      </structure>
+    </statement>
+    <statement id="364.txt-6">
+      <text>blades ± elliptic, 4–10 × 1–4 cm, coriaceous, bases narrowed (not hastate), margins coarsely and irregularly dentate or serrate (unlobed), apices acute, faces glabrous or papillose-hispid;</text>
+      <structure id="o6862" name="blade">
+        <character name="arrangement_or_shape" value="elliptic" modifier="±" />
+        <character char_type="range_value" name="length" from="4" from_unit="cm" to="10" to_unit="cm" />
+        <character char_type="range_value" name="width" from="1" from_unit="cm" to="4" to_unit="cm" />
+        <character name="texture" value="coriaceous" />
+      </structure>
+      <structure id="o6863" name="base">
+        <character name="size" value="narrowed" />
+      </structure>
+      <structure id="o6864" name="margin">
+        <character name="shape" value="dentate" modifier="irregularly" />
+        <character name="shape" value="serrate" modifier="irregularly" />
+      </structure>
+      <structure id="o6865" name="apex">
+        <character name="shape" value="acute" />
+      </structure>
+      <structure id="o6866" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="papillose-hispid" />
+      </structure>
+    </statement>
+    <statement id="364.txt-7">
+      <text>mid cauline cuneate or sessile and clasping;</text>
+      <structure id="o6867" name="leaf" constraint="mid cauline">
+        <character name="shape" value="cuneate" />
+        <character name="architecture" value="sessile" />
+        <character name="architecture" value="clasping" />
+      </structure>
+    </statement>
+    <statement id="364.txt-8">
+      <text>distal sessile and reduced.</text>
+      <structure id="o6868" name="leaf" constraint="distal">
+        <character name="architecture" value="sessile" />
+        <character name="size" value="reduced" />
+      </structure>
+    </statement>
+    <statement id="364.txt-9">
+      <text>Heads (15–50) in (much-branched) paniculiform or thyrsiform arrays (nodding).</text>
+      <structure id="o6869" name="head">
+        <character char_type="range_value" name="atypical_count" from="15" to="50" constraint="in arrays" constraintid="o6870" />
+      </structure>
+      <structure id="o6870" name="array">
+        <character name="architecture" value="paniculiform" />
+        <character name="architecture" value="thyrsiform" />
+      </structure>
+    </statement>
+    <statement id="364.txt-10">
+      <text>Calyculi of 7–11, dark green to purple, triangular to lance-ovate bractlets 2–5 mm, hispid or setose along midveins.</text>
+      <structure id="o6871" name="calyculus">
+        <character name="pubescence" value="hispid" />
+        <character name="pubescence" value="setose" constraint="along midveins" constraintid="o6873" />
+      </structure>
+      <structure id="o6872" name="bractlet">
+        <character char_type="range_value" name="count" from="7" to="11" />
+        <character char_type="range_value" name="coloration" from="dark-green" to="purple" />
+        <character name="coloration" value="green" modifier="dark" />
+        <character name="coloration" value="purple" />
+        <character char_type="range_value" name="shape" from="triangular" to="lance-ovate" />
+        <character name="shape" value="triangular" />
+        <character name="shape" value="lance-ovate" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+      <relation id="r852" name="consist_of" from="o6871" to="o6872" negation="false" />
+      <structure id="o6873" name="midvein" />
+    </statement>
+    <statement id="364.txt-11">
+      <text>Involucres cylindric to campanulate, 12–16 × 4–6 mm.</text>
+      <structure id="o6874" name="involucre">
+        <character char_type="range_value" name="shape" from="cylindric" to="campanulate" />
+        <character name="shape" value="cylindric" />
+        <character name="shape" value="campanulate" />
+        <character char_type="range_value" name="length" from="12" from_unit="mm" to="16" to_unit="mm" />
+        <character char_type="range_value" name="width" from="4" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="364.txt-12">
+      <text>Phyllaries 6–8, usually purple or lavender, subulate to lanceolate, 11–14 mm, margins scarious, coarsely hispid or setose along midveins.</text>
+      <structure id="o6875" name="phyllary">
+        <character char_type="range_value" name="count" from="6" to="8" />
+        <character name="coloration" value="purple" modifier="usually" />
+        <character name="coloration" value="lavender" modifier="usually" />
+        <character char_type="range_value" name="shape" from="subulate" to="lanceolate" />
+        <character name="shape" value="subulate" />
+        <character name="shape" value="lanceolate" />
+        <character char_type="range_value" name="size" from="11" from_unit="mm" to="14" to_unit="mm" />
+      </structure>
+      <structure id="o6876" name="margin">
+        <character name="texture" value="scarious" />
+        <character name="pubescence" value="hispid" modifier="coarsely" />
+        <character name="pubescence" value="setose" modifier="coarsely" constraint="along midveins" constraintid="o6877" />
+      </structure>
+      <structure id="o6877" name="midvein" />
+    </statement>
+    <statement id="364.txt-13">
+      <text>Florets 10–15;</text>
+      <structure id="o6878" name="floret">
+        <character char_type="range_value" name="count" from="10" to="15" />
+      </structure>
+    </statement>
+    <statement id="364.txt-14">
+      <text>corollas white to yellowish white, 13–16 mm.</text>
+      <structure id="o6879" name="corolla">
+        <character char_type="range_value" name="coloration" from="white" to="yellowish-white" />
+        <character name="coloration" value="white" />
+        <character name="coloration" value="white" modifier="yellowish" />
+        <character char_type="range_value" name="size" from="13" from_unit="mm" to="16" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="364.txt-15">
+      <text>Cypselae tan, subcylindric, subterete to 5-angled, 8–10 mm, indistinctly 8–10-ribbed;</text>
+      <structure id="o6880" name="cypsela">
+        <character name="coloration" value="tan" />
+        <character char_type="range_value" name="shape" from="subcylindric , subterete" to="5-angled" />
+        <character name="shape" value="subcylindric" />
+        <character name="shape" value="subterete" />
+        <character name="shape" value="5-angled" />
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="10" to_unit="mm" />
+        <character name="architecture_or_shape" value="8-10-ribbed" modifier="indistinctly" />
+      </structure>
+    </statement>
+    <statement id="364.txt-16">
+      <text>pappi yellowish white, 7–8 mm.</text>
+      <structure id="o6881" name="pappus">
+        <character name="coloration" value="white" modifier="yellowish" />
+        <character char_type="range_value" name="size" from="7" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <habitat>sandy oak-hickory-pine woods</habitat>
+  <habitat>savannas</habitat>
+  <habitat>prairies</habitat>
+  <habitat>pine barrens</habitat>
+  <elevation>10–100 m;</elevation>
+  <us_distribution>Ala.</us_distribution>
+  <us_distribution>Ark.</us_distribution>
+  <us_distribution>Ga.</us_distribution>
+  <us_distribution>Ky.</us_distribution>
+  <us_distribution>La.</us_distribution>
+  <us_distribution>Okla.</us_distribution>
+  <us_distribution>Tenn.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <discussion>Prenanthes barbata is identified by its erect habit, irregularly dentate leaves, heads with 6–8 purple phyllaries, coarsely setose calyculi and phyllaries, and white to yellowish white corollas.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

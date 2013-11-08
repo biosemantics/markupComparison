@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1a.</number>
+  <variety_name>Trixis californica Kellogg var. californica</variety_name>
+  <description>
+    <statement id="13.txt-0">
+      <text>Plants 20–200 cm.</text>
+      <structure id="o705" name="whole_organism">
+        <character char_type="range_value" name="size" from="20" from_unit="cm" to="200" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="13.txt-1">
+      <text>Leaves usually ascending, almost parallel with stems;</text>
+      <structure id="o706" name="leaf">
+        <character name="orientation" value="ascending" modifier="usually" />
+        <character name="arrangement" value="parallel" modifier="almost" constraint="with stems" constraintid="o707" />
+      </structure>
+      <structure id="o707" name="stem" />
+    </statement>
+    <statement id="13.txt-2">
+      <text>petioles winged, 1.5–5 mm;</text>
+      <structure id="o708" name="petiole">
+        <character name="architecture" value="winged" />
+        <character char_type="range_value" name="size" from="1.5" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="13.txt-3">
+      <text>blades linear-lanceolate to lance-olate, 2–11 cm, bases acute, margins entire or denticulate (often revolute), apices acute, in-duments:</text>
+      <structure id="o709" name="blade">
+        <character char_type="range_value" name="shape" from="linear-lanceolate" to="lance-olate" />
+        <character name="shape" value="linear-lanceolate" />
+        <character name="shape" value="lance-olate" />
+        <character char_type="range_value" name="size" from="2" from_unit="cm" to="11" to_unit="cm" />
+      </structure>
+      <structure id="o710" name="base">
+        <character name="shape" value="acute" />
+      </structure>
+      <structure id="o711" name="margin">
+        <character name="shape" value="entire" />
+        <character name="shape" value="denticulate" />
+      </structure>
+      <structure id="o712" name="apex">
+        <character name="shape" value="acute" />
+      </structure>
+    </statement>
+    <statement id="13.txt-4">
+      <text>abaxial faces glandular - puberulent and sparsely strigose (sometimes only on veins), adaxial faces glandular and strigose to pilose;</text>
+      <structure id="o713" name="face" constraint="abaxial">
+        <character name="pubescence" value="glandular-puberulent" />
+        <character name="pubescence" value="strigose" modifier="sparsely" />
+      </structure>
+      <structure id="o714" name="face" constraint="adaxial">
+        <character name="architecture_or_exudation_or_pubescence" value="glandular" />
+        <character char_type="range_value" name="pubescence" from="strigose" to="pilose" />
+        <character name="pubescence" value="strigose" />
+        <character name="pubescence" value="pilose" />
+      </structure>
+    </statement>
+    <statement id="13.txt-5">
+      <text>stomates on both faces.</text>
+      <structure id="o715" name="stomate" />
+      <structure id="o716" name="face" />
+      <relation id="r131" name="on" from="o715" to="o716" negation="false" />
+    </statement>
+    <statement id="13.txt-6">
+      <text>Heads usually in corymbiform or paniculiform arrays, rarely borne singly.</text>
+      <structure id="o717" name="head">
+        <character name="arrangement" value="singly" modifier="rarely" />
+      </structure>
+      <structure id="o718" name="array">
+        <character name="architecture" value="corymbiform" />
+        <character name="architecture" value="paniculiform" />
+      </structure>
+      <relation id="r132" name="in" from="o717" to="o718" negation="false" modifier="usually" />
+    </statement>
+    <statement id="13.txt-7">
+      <text>Peduncles 5–45 mm, often ± inflated distally.</text>
+      <structure id="o719" name="peduncle">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="45" to_unit="mm" />
+        <character name="shape" value="inflated" modifier="often ± ; distally" />
+      </structure>
+    </statement>
+    <statement id="13.txt-8">
+      <text>Calyculi of 5–7 linear to lanceolate or ovate bractlets 5–16 mm.</text>
+      <structure id="o720" name="calyculus" />
+      <structure id="o721" name="bractlet">
+        <character char_type="range_value" name="count" from="5" to="7" />
+        <character char_type="range_value" name="shape" from="linear" to="lanceolate or ovate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="ovate" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="16" to_unit="mm" />
+      </structure>
+      <relation id="r133" name="consist_of" from="o720" to="o721" negation="false" />
+    </statement>
+    <statement id="13.txt-9">
+      <text>Phyllaries usually 8, linear, 8–14 mm, apices acute.</text>
+      <structure id="o722" name="phyllary">
+        <character name="count" value="8" modifier="usually" />
+        <character name="arrangement_or_shape" value="linear" />
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="14" to_unit="mm" />
+      </structure>
+      <structure id="o723" name="apex">
+        <character name="shape" value="acute" />
+      </structure>
+    </statement>
+    <statement id="13.txt-10">
+      <text>Florets 11–25;</text>
+      <structure id="o724" name="floret">
+        <character char_type="range_value" name="count" from="11" to="25" />
+      </structure>
+    </statement>
+    <statement id="13.txt-11">
+      <text>corolla tubes 6–9 mm, outer lips 5–8 mm, inner 4–5.5 mm.</text>
+      <structure id="o725" name="tube" constraint="corolla">
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="9" to_unit="mm" />
+      </structure>
+      <structure id="o726" name="lip" constraint="outer">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="8" to_unit="mm" />
+        <character name="position" value="inner" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="5.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="13.txt-12">
+      <text>Cypselae 6–10.5 mm, papilla-like double hairs producing mucilage when wetted;</text>
+      <structure id="o727" name="cypsela">
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="10.5" to_unit="mm" />
+      </structure>
+      <structure id="o728" name="hair" />
+      <structure id="o729" name="mucilage">
+        <character name="wetness" value="wetted" />
+      </structure>
+      <relation id="r134" name="producing" from="o727" to="o729" negation="false" />
+    </statement>
+    <statement id="13.txt-13">
+      <text>pappi 7.5–12 mm.</text>
+      <structure id="o730" name="pappus">
+        <character char_type="range_value" name="size" from="7.5" from_unit="mm" to="12" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="13.txt-14">
+      <text>2 n = 54.</text>
+      <structure id="o731" name="chromosome">
+        <character name="count" value="54" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jan</flowering_time>
+  <flowering_time>winter</flowering_time>
+  <flowering_time>feb</flowering_time>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <flowering_time>nov</flowering_time>
+  <habitat>dry, rocky slopes</habitat>
+  <habitat>washes</habitat>
+  <habitat>desert flats</habitat>
+  <habitat>thorn scrub</habitat>
+  <elevation>200–1600(–2200) m;</elevation>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <global_distribution>Mexico (Baja California).</global_distribution>
+  <global_distribution>Mexico (Baja California Sur).</global_distribution>
+  <global_distribution>Mexico (Chihuahua).</global_distribution>
+  <global_distribution>Mexico (Coahuila).</global_distribution>
+  <global_distribution>Mexico (Durango).</global_distribution>
+  <global_distribution>Mexico (Nuevo León).</global_distribution>
+  <global_distribution>Mexico (San Luis Potosí).</global_distribution>
+  <global_distribution>Mexico (Sinaloa).</global_distribution>
+  <global_distribution>Mexico (Sonora).</global_distribution>
+  <global_distribution>Mexico (Tamaulipas).</global_distribution>
+  <global_distribution>Mexico (Zacatecas).</global_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

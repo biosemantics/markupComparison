@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>2.</number>
+  <genus_name>ACOURTIA</genus_name>
+  <authority>D. Don</authority>
+  <place_of_publication>Trans. Linn. Soc. London 16: 203. 1830</place_of_publication>
+  <common_name>Desertpeony</common_name>
+  <derivation>For Mrs. A’Court, a British amateur botanist</derivation>
+  <author_of_tribe_genus>Beryl B. Simpson</author_of_tribe_genus>
+  <description>
+    <statement id="5.txt-0">
+      <text>Perennials, (2.5–)5–50(–150+) cm (caudices brown-woolly, aerial stems glabrate or resinous-punctate).</text>
+      <structure id="o10052" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="2.5" to="5" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_size" from="50" to="150" from_unit="cm" to_unit="cm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="50" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="5.txt-1">
+      <text>Leaves basal, cauline, or both;</text>
+    </statement>
+    <statement id="5.txt-2">
+      <text>shortly petiolate or sessile;</text>
+      <structure id="o10053" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="architecture" value="petiolate" modifier="shortly" />
+        <character name="architecture" value="sessile" modifier="shortly" />
+      </structure>
+    </statement>
+    <statement id="5.txt-3">
+      <text>blades elliptic-oblong, lanceolate, oblong, oblong-lanceolate, oblong-oblanceolate, orbiculate, ovate, ovate-elliptic, or rhombic-orbiculate (thin and chartaceous to thick and coriaceous), bases cuneate to cordate or clasping, margins entire or lobed or pinnately parted, dentate, or serrate, faces usually minutely stipitate-glandular and/or hirtellous.</text>
+      <structure id="o10054" name="blade">
+        <character name="shape" value="elliptic-oblong" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="oblong" />
+        <character name="shape" value="oblong-lanceolate" />
+        <character name="shape" value="oblong-oblanceolate" />
+        <character name="shape" value="orbiculate" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="ovate-elliptic" />
+        <character name="shape" value="rhombic-orbiculate" />
+      </structure>
+      <structure id="o10055" name="base">
+        <character char_type="range_value" name="shape" from="cuneate" to="cordate" />
+        <character name="shape" value="cuneate" />
+        <character name="shape" value="cordate" />
+        <character name="architecture" value="clasping" />
+      </structure>
+      <structure id="o10056" name="margin">
+        <character name="shape" value="entire" />
+        <character name="shape" value="lobed" />
+        <character name="shape" value="parted" modifier="pinnately" />
+        <character name="shape" value="dentate" modifier="pinnately" />
+        <character name="shape" value="serrate" modifier="pinnately" />
+      </structure>
+      <structure id="o10057" name="face">
+        <character name="architecture_or_exudation_or_pubescence" value="stipitate-glandular" modifier="usually minutely" />
+        <character name="pubescence" value="hirtellous" />
+      </structure>
+    </statement>
+    <statement id="5.txt-4">
+      <text>Heads quasi-radiate [discoid] (see florets), borne singly or in paniculiform or corymbiform arrays.</text>
+      <structure id="o10058" name="head">
+        <character name="architecture_or_arrangement" value="quasi-radiate" />
+        <character name="arrangement" value="singly" />
+        <character name="arrangement" value="in paniculiform or corymbiform arrays" />
+      </structure>
+      <structure id="o10059" name="array">
+        <character name="architecture" value="paniculiform" />
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <relation id="r1162" name="in" from="o10058" to="o10059" negation="false" />
+    </statement>
+    <statement id="5.txt-5">
+      <text>Involucres turbinate or obconic to campanulate, 6–17+ mm.</text>
+      <structure id="o10060" name="involucre">
+        <character char_type="range_value" name="shape" from="obconic" to="campanulate" />
+        <character name="shape" value="turbinate" />
+        <character name="shape" value="obconic" />
+        <character name="shape" value="campanulate" />
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="17" to_unit="mm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="5.txt-6">
+      <text>Phyllaries in 1–7 series, lanceolate to oblanceolate or linear, unequal (rigid, margins scarious), apices obtuse to acute, acuminate, or mucronate.</text>
+      <structure id="o10061" name="phyllary">
+        <character char_type="range_value" name="shape" from="lanceolate" to="oblanceolate or linear" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="linear" />
+        <character name="size" value="unequal" />
+      </structure>
+      <structure id="o10062" name="series">
+        <character char_type="range_value" name="count" from="1" to="7" />
+      </structure>
+      <relation id="r1163" name="in" from="o10061" to="o10062" negation="false" />
+      <structure id="o10063" name="apex">
+        <character char_type="range_value" name="shape" from="obtuse" to="acute , acuminate , or mucronate" />
+        <character name="shape" value="obtuse" />
+        <character name="shape" value="acute" />
+        <character name="shape" value="acuminate" />
+        <character name="shape" value="mucronate" />
+      </structure>
+    </statement>
+    <statement id="5.txt-7">
+      <text>Receptacles concave, flat, or convex, usually foveolate, alveolate, or reticulate, pubescent, sometimes paleate (paleae apically pubescent).</text>
+      <structure id="o10064" name="receptacle">
+        <character name="shape" value="concave" />
+        <character name="shape" value="flat" />
+        <character name="shape" value="convex" />
+        <character name="relief" value="foveolate" modifier="usually" />
+        <character name="relief" value="alveolate" modifier="usually" />
+        <character name="relief" value="reticulate" modifier="usually" />
+        <character name="pubescence" value="pubescent" />
+        <character name="architecture" value="paleate" modifier="sometimes" />
+      </structure>
+    </statement>
+    <statement id="5.txt-8">
+      <text>Florets 3–25(–80), bisexual, fertile;</text>
+      <structure id="o10065" name="floret">
+        <character char_type="range_value" name="atypical_count" from="25" to="80" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="3" to="25" />
+        <character name="reproduction" value="bisexual" />
+        <character name="reproduction" value="fertile" />
+      </structure>
+    </statement>
+    <statement id="5.txt-9">
+      <text>corollas pink to lavender or white [yellow], zygomorphic (2-lipped; outer lip liguliform, 3-toothed, inner usually smaller, 2-lobed, lobes often curled);</text>
+      <structure id="o10066" name="corolla">
+        <character char_type="range_value" name="coloration" from="pink" to="lavender or white" />
+        <character name="coloration" value="pink" />
+        <character name="coloration" value="lavender" />
+        <character name="coloration" value="white" />
+        <character name="architecture" value="zygomorphic" />
+      </structure>
+    </statement>
+    <statement id="5.txt-10">
+      <text>anther basal appendages entire, elongate, rounded, apical appendages lanceolate;</text>
+      <structure id="o10067" name="appendage" constraint="anther basal">
+        <character name="shape" value="entire" />
+        <character name="shape" value="elongate" />
+        <character name="shape" value="rounded" />
+      </structure>
+      <structure id="o10068" name="appendage" constraint="apical">
+        <character name="shape" value="lanceolate" />
+      </structure>
+    </statement>
+    <statement id="5.txt-11">
+      <text>style branches relatively short, apices blunt- penicillate (abaxial faces usually glabrous, i.e., without collecting hairs).</text>
+      <structure id="o10069" name="branch" constraint="style">
+        <character name="size" value="short" modifier="relatively" />
+      </structure>
+      <structure id="o10070" name="apex">
+        <character name="shape" value="blunt-penicillate" />
+      </structure>
+    </statement>
+    <statement id="5.txt-12">
+      <text>Cypselae ± fusiform or terete to cylindric, 4–10 mm, not beaked, usually ± ribbed, faces glabrous or stipitate-glandular;</text>
+      <structure id="o10071" name="cypsela">
+        <character char_type="range_value" name="shape" from="terete" to="cylindric" modifier="±" />
+        <character name="shape" value="fusiform" modifier="±" />
+        <character name="shape" value="terete" modifier="±" />
+        <character name="shape" value="cylindric" modifier="±" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="10" to_unit="mm" />
+        <character name="shape" value="beaked" modifier="not" />
+        <character name="architecture_or_shape" value="ribbed" modifier="usually ±" />
+      </structure>
+      <structure id="o10072" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="stipitate-glandular" />
+      </structure>
+    </statement>
+    <statement id="5.txt-13">
+      <text>pappi of 40–60(–80+) tan or white, ± barbellate to nearly smooth bristles in 1–3(–9) series.</text>
+      <structure id="o10073" name="pappus" />
+      <structure id="o10074" name="bristle">
+        <character name="count" value="80+]" />
+        <character name="coloration" value="tan" />
+        <character name="coloration" value="white" />
+        <character char_type="range_value" name="architecture" from="barbellate" to="nearly smooth" />
+        <character name="architecture" value="barbellate" />
+        <character name="architecture" value="smooth" modifier="nearly" />
+        <character char_type="range_value" name="count" from="40" to="60" />
+      </structure>
+      <relation id="r1164" name="consist_of" from="o10073" to="o10074" negation="false" />
+      <structure id="o10075" name="series" constraint="-9">
+        <character char_type="range_value" name="count" from="1" to="3" />
+      </structure>
+      <relation id="r1165" name="in" from="o10074" to="o10075" negation="false" />
+    </statement>
+    <statement id="5.txt-14">
+      <text>x = 27.</text>
+      <structure id="o10076" name="chromosome">
+        <character name="count" value="27" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species ca. 41 (5 in the flora):</number_of_infrataxa>
+  <general_distribution>warm regions of North America</general_distribution>
+  <general_distribution>Mexico</general_distribution>
+  <general_distribution>Central America.</general_distribution>
+  <discussion>Acourtia consists of two clades, one with species that have scapiform stems and the other with species that have leafy flowering stems. From about 1873 to 1973, Acourtia species were treated as members of Perezia, usually as Perezia sect. Acourtia (D. Don) A. Gray. J. L. Reveal and R. M. King (1973) reestablished Acourtia for the leafy-stemmed North American species, and B. L. Turner (1978) added the scapiform species. Molecular evidence (H. G. Kim et al. 2002) indicated Acourtia is most closely related to Proustia and Trixis and not to Perezia.</discussion>
+  <references>SELECTED REFERENCES Bacigalupi, R. 1931. A monograph of the genus Perezia, section Acourtia, with a provisional key to the section Euperezia. Contr. Gray Herb. 97: 1–81. Cabrera R., L. 1992. Systematics of Rzedowskiela Gen. Nov. (Asteraceae: Mutisieae: Nassauviinae). Ph.D. dissertation. University of Texas. Cabrera R., L. 2001. Six new species of Acourtia (Asteraceae) and a historical account of Acourtia mexicana. Brittonia 53: 416–429. Reveal, J. L. and R. M. King. 1973. Re-establishment of Acourtia D. Don (Asteraceae). Phytologia 27: 228–232. Turner, B. L. 1978. Taxonomic study of the scapiform species of Acourtia (Asteraceae–Mexico). Phytologia 38: 456–468. Turner, B. L. 1993c. New taxa, new combinations, and nomenclatural comments on the genus Acourtia (Asteraceae: Mutisieae). Phytologia 74: 385–412.</references>
+  <key>1.Leaves basal (blades pinnately lobed); heads borne singly (or 2–3, on scapiform peduncles) 1. Acourtia runcinata</key>
+  <key>1.Leaves cauline (blades not pinnately lobed); heads borne singly (at tips of branches) or in corymbiform or paniculiform arrays.</key>
+  <key>2.Plants 2.5–30 cm; leaf blades rhombic-orbiculate to suborbiculate (hollylike, lengths about equaling widths)2. Acourtia nana</key>
+  <key>2.Plants 30–150 cm; leaf blades elliptic, elliptic-oblong, lance-oblong, oblong-lanceolate, oblong-ovate, oval, ovate, or ovate-elliptic (not hollylike, lengths mostly greater than widths).</key>
+  <key>3.Leaf blades oval to ovate-elliptic; phyllaries acuminate; florets 3–63. Acourtia thurberi</key>
+  <key>3.Leaf blades elliptic, elliptic-oblong, oblong-lanceolate, or oblong-ovate; phyllaries obtuse to acute or mucronate; florets 8–20.</key>
+  <key>4.Leaf margins dentate to denticulate; phyllary apices obtuse to shortly acute; florets 8–124. Acourtia wrightii</key>
+  <key>4.Leaf margins spinulose-denticulate; phyllary apices acute to acuminate or mucronate; florets 10–205. Acourtia microcephala</key>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

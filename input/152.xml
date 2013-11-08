@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>54b.</number>
+  <variety_name>Cirsium scariosum Nuttall var. coloradense</variety_name>
+  <authority>(Rydberg) D. J. Keil</authority>
+  <place_of_publication>Sida 21: 215. 2004</place_of_publication>
+  <common_name>Colorado thistle</common_name>
+  <synonym_of_variety_name>Carduus coloradensis Rydberg, Bull. Torrey Bot. Club 32: 132. 1905; Cirsium coloradense (Rydberg) Cockerell ex Daniels; C. erosum (Rydberg) K. Schumann; C. olivescens (Rydberg) Petrak; C. tioganum (Congdon) Petrak var. coloradense (Rydberg) Dorn</synonym_of_variety_name>
+  <description>
+    <statement id="152.txt-0">
+      <text>Plants usually erect, caulescent (rarely acaulescent), 20–150 cm.</text>
+      <structure id="o1438" name="whole_organism">
+        <character name="orientation" value="erect" modifier="usually" />
+        <character name="architecture" value="caulescent" />
+        <character char_type="range_value" name="size" from="20" from_unit="cm" to="150" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="152.txt-1">
+      <text>Stems usually simple, proximally unbranched, very leafy, ± villous with septate trichomes and/or thinly arachnoid tomentose, often glabrate.</text>
+      <structure id="o1439" name="stem">
+        <character name="architecture" value="simple" modifier="usually" />
+        <character name="architecture" value="unbranched" modifier="proximally" />
+        <character name="architecture" value="leafy" modifier="very" />
+        <character name="pubescence" value="villous" modifier="±" constraint="with trichomes" constraintid="o1440" />
+        <character name="pubescence" value="glabrate" modifier="often" />
+      </structure>
+      <structure id="o1440" name="trichome">
+        <character name="architecture" value="septate" />
+        <character name="pubescence" value="arachnoid tomentose" modifier="thinly" />
+      </structure>
+    </statement>
+    <statement id="152.txt-2">
+      <text>Leaves:</text>
+      <structure id="o1441" name="leaf" />
+    </statement>
+    <statement id="152.txt-3">
+      <text>blades oblanceolate or narrowly elliptic, pinnately lobed, longer spines ± stout, usually 1 cm or shorter, abaxial faces glabrous to thinly gray-tomentose, adaxial glabrous;</text>
+      <structure id="o1442" name="blade">
+        <character name="shape" value="oblanceolate" />
+        <character name="arrangement_or_shape" value="elliptic" modifier="narrowly" />
+        <character name="shape" value="lobed" modifier="pinnately" />
+      </structure>
+      <structure id="o1443" name="spine" constraint="longer">
+        <character name="fragility" value="stout" modifier="±" />
+        <character name="size" value="1" unit="cm" modifier="usually" />
+        <character name="size" value="shorter" />
+      </structure>
+      <structure id="o1444" name="face" constraint="abaxial">
+        <character char_type="range_value" name="pubescence" from="glabrous" to="thinly gray-tomentose" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="gray-tomentose" modifier="thinly" />
+        <character name="insertion_or_position" value="adaxial" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="152.txt-4">
+      <text>distal narrow, firm, green throughout or unpigmented proximally.</text>
+      <structure id="o1445" name="leaf" constraint="distal">
+        <character name="size" value="narrow" />
+        <character name="texture" value="firm" />
+        <character name="coloration" value="green throughout or unpigmented" modifier="proximally" />
+      </structure>
+    </statement>
+    <statement id="152.txt-5">
+      <text>Heads 3–10+, ± sessile or pedunculate, usually in spiciform or racemiform arrays, subtended by ± reduced bractlike distal leaves that often do not overtop the heads.</text>
+      <structure id="o1446" name="head">
+        <character char_type="range_value" name="count" from="3" to="10" upper_restricted="false" />
+        <character name="architecture" value="sessile" modifier="±" />
+        <character name="architecture" value="pedunculate" modifier="±" />
+      </structure>
+      <structure id="o1447" name="array">
+        <character name="architecture" value="spiciform" />
+        <character name="architecture" value="racemiform" />
+      </structure>
+      <relation id="r238" name="in" from="o1446" to="o1447" negation="false" modifier="usually" />
+      <structure id="o1448" name="leaf" constraint="distal">
+        <character name="size" value="reduced" modifier="±" />
+        <character name="shape" value="bractlike" />
+      </structure>
+      <relation id="r239" name="subtended by" from="o1446" to="o1448" negation="false" />
+      <structure id="o1449" name="overtop" />
+      <relation id="r240" name="do" from="o1446" to="o1449" negation="false" />
+      <structure id="o1450" name="head" />
+    </statement>
+    <statement id="152.txt-6">
+      <text>Peduncles 0–18 cm.</text>
+      <structure id="o1451" name="peduncle">
+        <character char_type="range_value" name="size" from="0" from_unit="cm" to="18" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="152.txt-7">
+      <text>Involucres 2–3 cm.</text>
+      <structure id="o1452" name="involucre">
+        <character char_type="range_value" name="size" from="2" from_unit="cm" to="3" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="152.txt-8">
+      <text>Phyllaries:</text>
+      <structure id="o1453" name="phyllary" />
+    </statement>
+    <statement id="152.txt-9">
+      <text>outer and mid lanceolate to narrowly ovate, spines slender to stout, 1–5 mm;</text>
+      <structure id="o1454" name="phyllary" constraint="outer and mid" />
+      <structure id="o1455" name="spine">
+        <character name="size" value="slender" />
+        <character name="fragility" value="stout" />
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="152.txt-10">
+      <text>apices of inner acuminate and entire or serrate, or abruptly expanded into scarious, erose-toothed appendages.</text>
+      <structure id="o1456" name="apex">
+        <character name="shape" value="acuminate" />
+        <character name="shape" value="entire" />
+        <character name="shape" value="serrate" />
+        <character name="size" value="expanded" modifier="abruptly" constraint="into appendages" constraintid="o1458" />
+      </structure>
+      <structure id="o1457" name="phyllary" constraint="inner" />
+      <relation id="r241" name="part_of" from="o1456" to="o1457" negation="false" />
+      <structure id="o1458" name="appendage">
+        <character name="texture" value="scarious" />
+        <character name="shape" value="erose-toothed" />
+      </structure>
+    </statement>
+    <statement id="152.txt-11">
+      <text>Corollas white (rarely purple), 22–29 mm, tubes 11–16 mm, throats 4–5 mm, lobes 6–9.5 mm;</text>
+      <structure id="o1459" name="corolla">
+        <character name="coloration" value="white" />
+        <character char_type="range_value" name="size" from="22" from_unit="mm" to="29" to_unit="mm" />
+      </structure>
+      <structure id="o1460" name="tube">
+        <character char_type="range_value" name="size" from="11" from_unit="mm" to="16" to_unit="mm" />
+      </structure>
+      <structure id="o1461" name="throat">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+      <structure id="o1462" name="lobe">
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="9.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="152.txt-12">
+      <text>style tips 4–6 mm.</text>
+      <structure id="o1463" name="tip" constraint="style">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="152.txt-13">
+      <text>Cypselae 4–6 mm;</text>
+      <structure id="o1464" name="cypsela">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="152.txt-14">
+      <text>pappi 18–25 mm.</text>
+      <structure id="o1465" name="pappus">
+        <character char_type="range_value" name="size" from="18" from_unit="mm" to="25" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="152.txt-15">
+      <text>2 n = 34, 36? (as C. foliosum ).</text>
+      <structure id="o1466" name="chromosome">
+        <character name="count" value="34" />
+        <character name="count" value="36" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>wet soil</habitat>
+  <habitat>forests</habitat>
+  <habitat>meadows</habitat>
+  <habitat>roadsides</habitat>
+  <elevation>1900–2500 m;</elevation>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <discussion>Variety coloradense is common in the mountains of southern and central Colorado with outlying populations in northern New Mexico, northeastern Arizona, central Utah, and southeastern Wyoming. In Colorado it is largely allopatric with the usually acaulescent var. americanum. Some plants from the White Mountains and San Francisco Peaks of Arizona and from Gunnison County, Colorado, approach var. thorneae in having deeply divided, extremely spiny distal leaves that overtop the heads. Putative hybrids between var. coloradense and Cirsium grahamii have been documented in Apache County, Arizona, and between var. coloradense and C. undulatum in Las Animas County, Colorado.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

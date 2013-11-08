@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>5.</number>
+  <species_name>Pseudognaphalium beneolens</species_name>
+  <authority>(Davidson) Anderberg</authority>
+  <place_of_publication>Opera Bot. 104: 147. 1991</place_of_publication>
+  <common_name>Fragrant rabbit-tobacco</common_name>
+  <synonym_of_species_name>Gnaphalium beneolens Davidson, Bull. S. Calif. Acad. Sci. 17: 17, unnumb. fig. p. 16. 1918; G. canescens de Candolle subsp. beneolens (Davidson) Stebbins &amp; D. J. Keil; Pseudognaphalium canescens (de Candolle) Anderberg subsp . beneolens (Davidson) Kartesz</synonym_of_species_name>
+  <description>
+    <statement id="684.txt-0">
+      <text>Annuals or short-lived perennials, 30–80(–110) cm;</text>
+    </statement>
+    <statement id="684.txt-1">
+      <text>taprooted.</text>
+      <structure id="o14279" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="80" to="110" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="30" from_unit="cm" to="80" to_unit="cm" />
+        <character name="life_style" value="annual" />
+        <character name="life_style" value="perennial" />
+        <character name="architecture" value="taprooted" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="684.txt-2">
+      <text>Stems persistently tomentose, not glandular.</text>
+      <structure id="o14281" name="stem">
+        <character name="pubescence" value="tomentose" modifier="persistently" />
+        <character name="architecture_or_exudation_or_pubescence" value="glandular" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="684.txt-3">
+      <text>Leaf blades mostly linear, 3–6 cm × 1.5–3.5 mm (sometimes smaller distally), bases not clasping, decurrent 5–15 mm, margins flat, faces concolor, loosely tomentose, not glandular.</text>
+      <structure id="o14282" name="blade" constraint="leaf">
+        <character name="arrangement_or_shape" value="linear" modifier="mostly" />
+        <character char_type="range_value" name="length" from="3" from_unit="cm" to="6" to_unit="cm" />
+        <character char_type="range_value" name="width" from="1.5" from_unit="mm" to="3.5" to_unit="mm" />
+      </structure>
+      <structure id="o14283" name="base">
+        <character name="architecture" value="clasping" modifier="not" />
+        <character name="shape" value="decurrent" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="15" to_unit="mm" />
+      </structure>
+      <structure id="o14284" name="margin">
+        <character name="shape" value="flat" />
+      </structure>
+      <structure id="o14285" name="face">
+        <character name="coloration" value="concolor" />
+        <character name="pubescence" value="tomentose" modifier="loosely" />
+        <character name="architecture_or_exudation_or_pubescence" value="glandular" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="684.txt-4">
+      <text>Heads usually in loose, paniculiform arrays.</text>
+      <structure id="o14286" name="head" />
+      <structure id="o14287" name="array">
+        <character name="architecture_or_texture" value="loose" />
+        <character name="architecture" value="paniculiform" />
+      </structure>
+      <relation id="r1524" name="in" from="o14286" to="o14287" negation="false" modifier="usually" />
+    </statement>
+    <statement id="684.txt-5">
+      <text>Involucres turbinate-campanulate, 5–6 mm.</text>
+      <structure id="o14288" name="involucre">
+        <character name="shape" value="turbinate-campanulate" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="684.txt-6">
+      <text>Phyllaries in (4–)5–6(–7) series, white (opaque, dull to shiny), ovate to ovate-oblong (inner usually with filiform keel and slight apiculum), glabrous.</text>
+      <structure id="o14289" name="phyllary">
+        <character name="coloration" value="white" />
+        <character char_type="range_value" name="shape" from="ovate" to="ovate-oblong" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="ovate-oblong" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+      <structure id="o14290" name="series" constraint="4-5-6-7" />
+      <relation id="r1525" name="in" from="o14289" to="o14290" negation="false" />
+    </statement>
+    <statement id="684.txt-7">
+      <text>Pistillate florets (39–)44–69.</text>
+      <structure id="o14291" name="floret" constraint="pistillate">
+        <character char_type="range_value" name="atypical_count" from="39" to="44" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="44" to="69" />
+      </structure>
+    </statement>
+    <statement id="684.txt-8">
+      <text>Bisexual florets 5–8(–11).</text>
+      <structure id="o14292" name="floret" constraint="bisexual">
+        <character char_type="range_value" name="atypical_count" from="8" to="11" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="5" to="8" />
+      </structure>
+    </statement>
+    <statement id="684.txt-9">
+      <text>Cypselae ridged, smooth or weakly papillate-roughened.</text>
+      <structure id="o14293" name="cypsela">
+        <character name="shape" value="ridged" />
+        <character name="architecture_or_relief" value="smooth" />
+        <character name="texture" value="papillate-roughened" modifier="weakly" />
+      </structure>
+    </statement>
+    <statement id="684.txt-10">
+      <text>2 n = 14.</text>
+      <structure id="o14294" name="chromosome">
+        <character name="count" value="14" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <habitat>dry, open slopes and ridges</habitat>
+  <habitat>streambeds</habitat>
+  <habitat>road banks and other disturbed sites</habitat>
+  <habitat>sandy flats</habitat>
+  <habitat>dunes</habitat>
+  <habitat>coastal sage scrub</habitat>
+  <habitat>chaparral</habitat>
+  <habitat>yellow pine</habitat>
+  <habitat>foothill pine</habitat>
+  <habitat>blue oak woodland</habitat>
+  <elevation>(1–)50–800(–2000) m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <global_distribution>Mexico (Baja California).</global_distribution>
+  <discussion>Pseudognaphalium beneolens differs from P. thermale in its leaves linear throughout, heads usually in elongate, paniculiform arrays, larger heads (greater numbers of phyllaries in greater numbers of series) with phyllaries more opaque and duller, and greater numbers of bisexual florets. The cauline leaves of P. beneolens tend to become curving-coiling. In areas of sympatry, habitats of P. beneolens are characteristically at lower elevations than those of P. thermale.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

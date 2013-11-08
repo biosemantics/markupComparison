@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>2.</number>
+  <species_name>Centaurea depressa</species_name>
+  <authority>M. Bieberstein</authority>
+  <place_of_publication>Fl. Taur.-Caucas. 2: 346. 1808</place_of_publication>
+  <common_name>Low cornflower</common_name>
+  <description>
+    <statement id="207.txt-0">
+      <text>Annuals , 20–60 cm.</text>
+      <structure id="o3132" name="whole_organism">
+        <character char_type="range_value" name="size" from="20" from_unit="cm" to="60" to_unit="cm" />
+        <character name="life_style" value="annual" />
+      </structure>
+    </statement>
+    <statement id="207.txt-1">
+      <text>Stems usually several–many from base, spreading, ± openly branched distally, loosely gray-tomentose.</text>
+      <structure id="o3133" name="stem">
+        <character char_type="range_value" name="count" from="several" to="many" modifier="usually" constraint="from base" constraintid="o3134" />
+        <character name="orientation" value="spreading" />
+        <character name="architecture_or_shape" value="branched" modifier="± openly ; distally" />
+        <character name="pubescence" value="gray-tomentose" modifier="loosely" />
+      </structure>
+      <structure id="o3134" name="base" />
+    </statement>
+    <statement id="207.txt-2">
+      <text>Leaves ± loosely gray-tomentose;</text>
+      <structure id="o3135" name="leaf">
+        <character name="pubescence" value="gray-tomentose" modifier="± loosely" />
+      </structure>
+    </statement>
+    <statement id="207.txt-3">
+      <text>basal and proximal cauline petiolate, blades oblong, 5–10 cm, margins entire or pinnatifid with terminal segment largest, apices obtuse;</text>
+      <structure id="o3136" name="leaf" constraint="basal and proximal cauline">
+        <character name="architecture" value="petiolate" />
+      </structure>
+      <structure id="o3137" name="blade">
+        <character name="shape" value="oblong" />
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="10" to_unit="cm" />
+      </structure>
+      <structure id="o3138" name="margin">
+        <character name="shape" value="entire" />
+        <character name="shape" value="pinnatifid" constraint="with segment" constraintid="o3139" />
+      </structure>
+      <structure id="o3139" name="segment" constraint="terminal">
+        <character name="size" value="largest" />
+      </structure>
+      <structure id="o3140" name="apex">
+        <character name="shape" value="obtuse" />
+      </structure>
+    </statement>
+    <statement id="207.txt-4">
+      <text>mid and distal cauline sessile, linear-lanceolate to oblong, blades usually not much smaller, entire, mucronate.</text>
+      <structure id="o3141" name="leaf" constraint="mid and distal cauline">
+        <character name="architecture" value="sessile" />
+        <character char_type="range_value" name="shape" from="linear-lanceolate" to="oblong" />
+        <character name="shape" value="linear-lanceolate" />
+        <character name="shape" value="oblong" />
+      </structure>
+      <structure id="o3142" name="blade">
+        <character name="size" value="smaller" modifier="usually not much" />
+        <character name="shape" value="entire" />
+        <character name="shape" value="mucronate" />
+      </structure>
+    </statement>
+    <statement id="207.txt-5">
+      <text>Heads radiant, borne singly, pedunculate.</text>
+      <structure id="o3143" name="head">
+        <character name="architecture_or_arrangement" value="radiant" />
+        <character name="arrangement" value="singly" />
+        <character name="architecture" value="pedunculate" />
+      </structure>
+    </statement>
+    <statement id="207.txt-6">
+      <text>Involucres ovoid to campanulate, 15–20 mm.</text>
+      <structure id="o3144" name="involucre">
+        <character char_type="range_value" name="shape" from="ovoid" to="campanulate" />
+        <character name="shape" value="ovoid" />
+        <character name="shape" value="campanulate" />
+        <character char_type="range_value" name="size" from="15" from_unit="mm" to="20" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="207.txt-7">
+      <text>Phyllaries:</text>
+      <structure id="o3145" name="phyllary" />
+    </statement>
+    <statement id="207.txt-8">
+      <text>bodies green, ovate (outer) to oblong (inner), glabrous, margins and erect appendages silvery white to brown, scarious, fringed with slender teeth 1.5–2 mm.</text>
+      <structure id="o3146" name="body">
+        <character name="coloration" value="green" />
+        <character char_type="range_value" name="shape" from="ovate" to="oblong" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="oblong" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+      <structure id="o3147" name="margin">
+        <character char_type="range_value" name="coloration" from="silvery-white" to="brown" />
+        <character name="coloration" value="white" modifier="silvery" />
+        <character name="coloration" value="brown" />
+        <character name="texture" value="scarious" />
+        <character name="shape" value="fringed" />
+      </structure>
+      <structure id="o3148" name="appendage">
+        <character name="orientation" value="erect" />
+        <character char_type="range_value" name="coloration" from="silvery-white" to="brown" />
+        <character name="coloration" value="white" modifier="silvery" />
+        <character name="coloration" value="brown" />
+        <character name="texture" value="scarious" />
+        <character name="shape" value="fringed" constraint="with teeth" constraintid="o3149" />
+      </structure>
+      <structure id="o3149" name="tooth">
+        <character name="size" value="slender" />
+        <character char_type="range_value" name="size" from="1.5" from_unit="mm" to="2" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="207.txt-9">
+      <text>Florets 25–35;</text>
+      <structure id="o3150" name="floret">
+        <character char_type="range_value" name="count" from="25" to="35" />
+      </structure>
+    </statement>
+    <statement id="207.txt-10">
+      <text>corollas of sterile florets spreading, dark blue, 25–30 mm, enlarged, those of fertile florets purple, ca. 15 mm.</text>
+      <structure id="o3151" name="corolla">
+        <character name="orientation" value="spreading" />
+        <character name="coloration" value="blue" modifier="dark" />
+        <character char_type="range_value" name="size" from="25" from_unit="mm" to="30" to_unit="mm" />
+        <character name="size" value="enlarged" />
+      </structure>
+      <structure id="o3152" name="floret" constraint="sterile" />
+      <relation id="r439" name="part_of" from="o3151" to="o3152" negation="false" />
+      <structure id="o3153" name="corolla">
+        <character name="coloration" value="purple" />
+        <character name="size" value="15" unit="mm" />
+      </structure>
+      <structure id="o3154" name="floret" constraint="fertile" />
+      <relation id="r440" name="part_of" from="o3153" to="o3154" negation="false" />
+    </statement>
+    <statement id="207.txt-11">
+      <text>Cypselae brown, 4.5–6 mm, puberulent near attachment scar, otherwise glabrous;</text>
+      <structure id="o3155" name="cypsela">
+        <character name="coloration" value="brown" />
+        <character char_type="range_value" name="size" from="4.5" from_unit="mm" to="6" to_unit="mm" />
+        <character name="pubescence" value="puberulent" constraint="near attachment scar" constraintid="o3156" />
+        <character name="pubescence" value="glabrous" modifier="otherwise" />
+      </structure>
+      <structure id="o3156" name="scar" constraint="attachment" />
+    </statement>
+    <statement id="207.txt-12">
+      <text>pappi of outer series of unequal stiff bristles 2–8 mm, inner series of slender scales ca. 1.5 mm.</text>
+      <structure id="o3157" name="pappus" />
+      <structure id="o3158" name="series" constraint="outer">
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+      <relation id="r441" name="consist_of" from="o3157" to="o3158" negation="false" />
+      <structure id="o3159" name="bristle">
+        <character name="size" value="unequal" />
+        <character name="texture" value="stiff" />
+      </structure>
+      <relation id="r442" name="part_of" from="o3158" to="o3159" negation="false" />
+      <structure id="o3160" name="series" constraint="inner">
+        <character name="size" value="1.5" unit="mm" />
+      </structure>
+      <structure id="o3161" name="scale">
+        <character name="size" value="slender" />
+      </structure>
+      <relation id="r443" name="part_of" from="o3160" to="o3161" negation="false" />
+    </statement>
+    <statement id="207.txt-13">
+      <text>2 n = 16 (Armenia).</text>
+      <structure id="o3162" name="chromosome">
+        <character name="count" value="16" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <habitat>disturbed ground</habitat>
+  <elevation>50–1400 m;</elevation>
+  <introduced>introduced;</introduced>
+  <us_distribution>Md.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <global_distribution>sw</global_distribution>
+  <global_distribution>c Asia.</global_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

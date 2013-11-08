@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Pulicaria paludosa</species_name>
+  <authority>Link</authority>
+  <place_of_publication>Neues J. Bot. 1(3): 142. 1806</place_of_publication>
+  <common_name>Spanish false fleabane</common_name>
+  <synonym_of_species_name>Pulicaria hispanica (Boissier) Boissier</synonym_of_species_name>
+  <description>
+    <statement id="790.txt-0">
+      <text>Annuals (biennials, or short-lived perennials), (5–)20–120 cm.</text>
+      <structure id="o16669" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="5" to="20" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="20" from_unit="cm" to="120" to_unit="cm" />
+        <character name="life_style" value="annual" />
+      </structure>
+    </statement>
+    <statement id="790.txt-1">
+      <text>Leaf blades oblong to narrowly oblanceolate, 1–3 cm × 2–7 mm, bases clasping, margins entire, ± revolute.</text>
+      <structure id="o16670" name="blade" constraint="leaf">
+        <character char_type="range_value" name="shape" from="oblong" to="narrowly oblanceolate" />
+        <character name="shape" value="oblong" />
+        <character name="shape" value="oblanceolate" modifier="narrowly" />
+        <character char_type="range_value" name="length" from="1" from_unit="cm" to="3" to_unit="cm" />
+        <character char_type="range_value" name="width" from="2" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+      <structure id="o16671" name="base">
+        <character name="architecture" value="clasping" />
+      </structure>
+      <structure id="o16672" name="margin">
+        <character name="shape" value="entire" />
+        <character name="shape_or_vernation" value="revolute" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="790.txt-2">
+      <text>Phyllaries lance-linear to linear, 3–5 mm, pilosulous.</text>
+      <structure id="o16673" name="phyllary">
+        <character char_type="range_value" name="arrangement_or_shape" from="lance-linear" to="linear" />
+        <character name="arrangement_or_shape" value="lance-linear" />
+        <character name="arrangement_or_shape" value="linear" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="5" to_unit="mm" />
+        <character name="pubescence" value="pilosulous" />
+      </structure>
+    </statement>
+    <statement id="790.txt-3">
+      <text>Ray florets (10–)20–30+;</text>
+      <structure id="o16674" name="floret" constraint="ray">
+        <character char_type="range_value" name="atypical_count" from="10" to="20" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="20" to="30" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="790.txt-4">
+      <text>corolla laminae 1.5–2+ mm.</text>
+      <structure id="o16675" name="lamina" constraint="corolla">
+        <character char_type="range_value" name="size" from="1.5" from_unit="mm" to="2" to_unit="mm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="790.txt-5">
+      <text>Disc florets (9–)40–100+;</text>
+      <structure id="o16676" name="floret" constraint="disc">
+        <character char_type="range_value" name="atypical_count" from="9" to="40" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="40" to="100" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="790.txt-6">
+      <text>corollas 2–3 mm.</text>
+      <structure id="o16677" name="corolla">
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="3" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="790.txt-7">
+      <text>Cypselae 0.8–1 mm, ± hirsutulous;</text>
+      <structure id="o16678" name="cypsela">
+        <character char_type="range_value" name="size" from="0.8" from_unit="mm" to="1" to_unit="mm" />
+        <character name="pubescence" value="hirsutulous" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="790.txt-8">
+      <text>pappi:</text>
+      <structure id="o16679" name="pappus" />
+    </statement>
+    <statement id="790.txt-9">
+      <text>outer cups 0.1–0.2(–0.4) mm, inner 12–20+ bristles 2–3 mm.</text>
+      <structure id="o16680" name="cup" constraint="outer">
+        <character char_type="range_value" name="atypical_size" from="0.2" to="0.4" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="0.1" from_unit="mm" to="0.2" to_unit="mm" />
+        <character name="position" value="inner" />
+        <character char_type="range_value" name="count" from="12" to="20" upper_restricted="false" />
+      </structure>
+      <structure id="o16681" name="bristle">
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="3" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="790.txt-10">
+      <text>2 n = 18 (Spain).</text>
+      <structure id="o16682" name="chromosome">
+        <character name="count" value="18" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <habitat>roadways</habitat>
+  <habitat>dry streambeds</habitat>
+  <habitat>seasonal wetlands</habitat>
+  <elevation>30–600 m;</elevation>
+  <introduced>introduced;</introduced>
+  <us_distribution>Calif.</us_distribution>
+  <global_distribution>Europe (Portugal).</global_distribution>
+  <global_distribution>Europe (Spain).</global_distribution>
+  <discussion>Pulicaria paludosa was first recognized as a naturalized weed in southern California in the early 1960s (P. H. Raven 1963b); it had been collected earlier by P. A. Munz (in 1946).</discussion>
+  <references>SELECTED REFERENCE Raven, P. H. 1963b. Pulicaria hispanica (Compositae: Inuleae), a weed new to California. Aliso 5: 251–253.</references>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

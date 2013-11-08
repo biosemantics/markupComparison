@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>48.</number>
+  <genus_name>SONCHUS</genus_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 793. 1753; Gen. Pl. ed. 5, 347. 1754</place_of_publication>
+  <common_name>Sow-thistle, laiteron</common_name>
+  <derivation>Greek sonchos, ancient name for a kind of thistle</derivation>
+  <author_of_tribe_genus>Philip E. Hyatt</author_of_tribe_genus>
+  <description>
+    <statement id="375.txt-0">
+      <text>Annuals, biennials, or perennials [shrubs], 3–350+ cm;</text>
+    </statement>
+    <statement id="375.txt-1">
+      <text>taprooted, rhizomatous, or stoloniferous.</text>
+      <structure id="o7142" name="whole_organism">
+        <character char_type="range_value" name="size" from="3" from_unit="cm" to="350" to_unit="cm" upper_restricted="false" />
+        <character name="life_style" value="annual" />
+        <character name="life_style" value="biennial" />
+        <character name="life_style" value="perennial" />
+        <character name="architecture" value="taprooted" />
+        <character name="architecture" value="rhizomatous" />
+        <character name="architecture" value="stoloniferous" />
+        <character name="life_style" value="biennial" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="375.txt-2">
+      <text>Stems erect, branched distally or throughout, usually glabrous, sometimes stipitate-glandular (mostly distally).</text>
+      <structure id="o7145" name="stem">
+        <character name="orientation" value="erect" />
+        <character name="architecture_or_shape" value="branched" modifier="distally" />
+        <character name="architecture_or_shape" value="branched" modifier="distally; throughout" />
+        <character name="pubescence" value="glabrous" modifier="usually" />
+        <character name="architecture_or_exudation_or_pubescence" value="stipitate-glandular" modifier="sometimes" />
+      </structure>
+    </statement>
+    <statement id="375.txt-3">
+      <text>Leaves basal and cauline or mostly cauline;</text>
+      <structure id="o7146" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="insertion_or_position" value="cauline" modifier="mostly" />
+      </structure>
+    </statement>
+    <statement id="375.txt-4">
+      <text>basal usually petiolate (petioles usually winged), cauline often sessile;</text>
+      <structure id="o7147" name="leaf" constraint="basal">
+        <character name="architecture" value="petiolate" modifier="usually" />
+      </structure>
+      <structure id="o7148" name="leaf" constraint="cauline">
+        <character name="architecture" value="sessile" modifier="often" />
+      </structure>
+    </statement>
+    <statement id="375.txt-5">
+      <text>blades mostly oblong, oblanceolate, or lanceolate, (bases often auriculate) margins usually 1(–2)-pinnately lobed, ultimate margins usually dentate (teeth often ± prickly), sometimes entire.</text>
+      <structure id="o7149" name="blade">
+        <character name="shape" value="oblong" modifier="mostly" />
+        <character name="shape" value="oblanceolate" modifier="mostly" />
+        <character name="shape" value="lanceolate" modifier="mostly" />
+      </structure>
+      <structure id="o7150" name="margin">
+        <character name="shape" value="lobed" modifier="usually 1-2-pinnately" />
+      </structure>
+      <structure id="o7151" name="margin" constraint="ultimate">
+        <character name="shape" value="dentate" modifier="usually" />
+        <character name="shape" value="entire" modifier="sometimes" />
+      </structure>
+    </statement>
+    <statement id="375.txt-6">
+      <text>Heads borne in corymbiform to subumbelliform arrays.</text>
+      <structure id="o7152" name="head" />
+      <structure id="o7153" name="array">
+        <character char_type="range_value" name="architecture" from="corymbiform" to="subumbelliform" />
+        <character name="architecture" value="corymbiform" />
+        <character name="architecture" value="subumbelliform" />
+      </structure>
+      <relation id="r878" name="borne in" from="o7152" to="o7153" negation="false" />
+    </statement>
+    <statement id="375.txt-7">
+      <text>Peduncles not notably dilated distally, usually ± bracteolate, glabrous or stipitate-glandular and/or tomentose.</text>
+      <structure id="o7154" name="peduncle">
+        <character name="shape" value="dilated" modifier="not notably ; distally" />
+        <character name="architecture" value="bracteolate" modifier="usually ±" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="stipitate-glandular" />
+        <character name="pubescence" value="tomentose" />
+      </structure>
+    </statement>
+    <statement id="375.txt-8">
+      <text>Calyculi 0.</text>
+      <structure id="o7155" name="calyculus">
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+    <statement id="375.txt-9">
+      <text>Involucres campanulate to urceolate, 5–15+ mm diam.</text>
+      <structure id="o7156" name="involucre">
+        <character char_type="range_value" name="shape" from="campanulate" to="urceolate" />
+        <character name="shape" value="campanulate" />
+        <character name="shape" value="urceolate" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="15" to_unit="mm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="375.txt-10">
+      <text>Phyllaries 27–50 in 3–5+ series, unequal, green, deltate to lanceolate or linear, margins sometimes narrowly scarious (sometimes ciliate), apices acute (faces glabrous or stipitate- to setose-glandular).</text>
+      <structure id="o7157" name="phyllary">
+        <character char_type="range_value" name="count" from="27" to="50" constraint="in series" constraintid="o7158" />
+        <character name="size" value="unequal" />
+        <character name="coloration" value="green" />
+        <character char_type="range_value" name="shape" from="deltate" to="lanceolate or linear" />
+        <character name="shape" value="deltate" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="linear" />
+      </structure>
+      <structure id="o7158" name="series">
+        <character char_type="range_value" name="count" from="3" to="5" upper_restricted="false" />
+      </structure>
+      <structure id="o7159" name="margin">
+        <character name="texture" value="scarious" modifier="sometimes narrowly" />
+      </structure>
+      <structure id="o7160" name="apex">
+        <character name="shape" value="acute" />
+      </structure>
+    </statement>
+    <statement id="375.txt-11">
+      <text>Receptacles flat to convex, ± pitted, glabrous, epaleate.</text>
+      <structure id="o7161" name="receptacle">
+        <character char_type="range_value" name="shape" from="flat" to="convex" />
+        <character name="shape" value="flat" />
+        <character name="shape" value="convex" />
+        <character name="relief" value="pitted" modifier="±" />
+        <character name="pubescence" value="glabrous" />
+        <character name="architecture" value="epaleate" />
+      </structure>
+    </statement>
+    <statement id="375.txt-12">
+      <text>Florets [30–]80–250[–450+];</text>
+      <structure id="o7162" name="floret">
+        <character char_type="range_value" name="atypical_count" from="30" to="80" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_count" from="250" to="450" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="80" to="250" />
+      </structure>
+    </statement>
+    <statement id="375.txt-13">
+      <text>corollas yellow to orange (not deliquescent; anthers yellowish to brownish apically).</text>
+      <structure id="o7163" name="corolla">
+        <character char_type="range_value" name="coloration" from="yellow" to="orange" />
+        <character name="coloration" value="yellow" />
+        <character name="coloration" value="orange" />
+      </structure>
+    </statement>
+    <statement id="375.txt-14">
+      <text>Cypselae stramineous or reddish to dark brown, ± compressed, mostly oblong or oblanceoloid to ellipsoid, beaks 0, ribs usually 2–4(–5+) on each face, faces sometimes transversely rugulose or tuberculate, glabrous;</text>
+      <structure id="o7164" name="cypsela">
+        <character char_type="range_value" name="coloration" from="reddish" to="dark-brown" />
+        <character name="coloration" value="stramineous" />
+        <character name="coloration" value="reddish" />
+        <character name="coloration" value="brown" modifier="dark" />
+        <character char_type="range_value" name="shape" from="oblanceoloid" to="ellipsoid" modifier="±" />
+        <character name="shape" value="compressed" modifier="±" />
+        <character name="shape" value="oblong" modifier="mostly" />
+        <character name="shape" value="oblanceoloid" modifier="mostly" />
+        <character name="shape" value="ellipsoid" modifier="mostly" />
+      </structure>
+      <structure id="o7165" name="beak">
+        <character name="count" value="0" />
+      </structure>
+      <structure id="o7166" name="rib">
+        <character char_type="range_value" name="atypical_count" from="4" to="5" upper_restricted="false" from_inclusive="false" modifier="usually" />
+        <character char_type="range_value" name="count" from="2" to="4" modifier="usually" constraint="on face" constraintid="o7167" />
+      </structure>
+      <structure id="o7167" name="face" />
+      <structure id="o7168" name="face">
+        <character name="relief" value="rugulose" modifier="sometimes transversely" />
+        <character name="relief" value="tuberculate" modifier="sometimes transversely" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="375.txt-15">
+      <text>pappi tardily falling or persistent, of 80–100+, white, smooth or barbellulate bristles (some flattened, ± setiform scales), outer usually distinct in ± 1 series, inner basally coherent or connate, in 2–3+ series.</text>
+      <structure id="o7169" name="pappus">
+        <character name="orientation" value="falling" modifier="tardily" />
+        <character name="duration" value="persistent" />
+        <character name="position" value="outer" modifier="usually" />
+        <character name="fusion" value="distinct" constraint="in series" constraintid="o7171" />
+        <character name="fusion" value="connate" />
+      </structure>
+      <structure id="o7170" name="bristle">
+        <character char_type="range_value" name="count" from="80" to="100" upper_restricted="false" />
+        <character name="coloration" value="white" />
+        <character name="architecture" value="smooth" />
+        <character name="architecture" value="barbellulate" />
+      </structure>
+      <relation id="r879" name="consist_of" from="o7169" to="o7170" negation="false" />
+      <structure id="o7171" name="series">
+        <character name="count" value="1" modifier="±" />
+      </structure>
+      <structure id="o7172" name="series">
+        <character char_type="range_value" name="count" from="2" to="3" upper_restricted="false" />
+      </structure>
+      <relation id="r880" name="in" from="o7169" to="o7172" negation="false" />
+    </statement>
+    <statement id="375.txt-16">
+      <text>x = 9.</text>
+      <structure id="o7173" name="chromosome">
+        <character name="count" value="9" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species 50–60+ (5 in the flora):</number_of_infrataxa>
+  <introduced>introduced;</introduced>
+  <general_distribution>Europe (Mediterranean)</general_distribution>
+  <general_distribution>w Asia</general_distribution>
+  <general_distribution>n Africa</general_distribution>
+  <general_distribution>Atlantic Islands</general_distribution>
+  <general_distribution>some species introduced nearly worldwide.</general_distribution>
+  <discussion>Sonchus species are herbs in North America; some are sometimes woody at bases.</discussion>
+  <references>SELECTED REFERENCE Boulos, L. 1973. Révision systématique du genre Sonchus L. s.l.: IV. Sous-genre: 1. Sonchus. Bot. Not. 126: 155–196.</references>
+  <key>1.Leaf base auricles often recurved or curled, rounded; ligules shorter than tubes; cypselae strongly compressed, ± winged, ribs 3 on each face, faces not rugulose or tuberculate; annuals or biennials2. Sonchus asper</key>
+  <key>1.Leaf base auricles usually straight, sometimes curved, obtuse or acute; ligules shorter or longer than tubes; cypselae weakly compressed, ribs 2–5+ on each face, faces transversely rugulose or tuberculate; annuals, biennials, or perennials.</key>
+  <key>2.Annuals or biennials; stem bases soft to hard, herbaceous, often hollow.</key>
+  <key>3.Leaf blade lobes ± deltate to lanceolate (not constricted at bases), the terminal usually larger than laterals; ligules ± equaling tubes; widespread3. Sonchus oleraceus</key>
+  <key>3.Leaf blade lobes ± rhombic to lanceolate (constricted at bases) or ± linear, the terminal ± equaling laterals; ligules longer than tubes; occasional, mostly historic on ballast5. Sonchus tenerrimus</key>
+  <key>2.Perennials; stem bases hard, sometimes ± woody.</key>
+  <key>4.Cauline leaf base auricles rounded; cypselae dark brown, 2.5–3.5 mm; pappi 8–14 mm; widespread1. Sonchus arvensis</key>
+  <key>4.Cauline leaf base auricles acute; cypselae stramineous, 3.5–4 mm; pappi 7–9 mm; Ontario4. Sonchus palustris</key>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

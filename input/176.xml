@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>3a.</number>
+  <variety_name>Saussurea angustifolia (Linnaeus) de Candolle var. angustifolia</variety_name>
+  <description>
+    <statement id="176.txt-0">
+      <text>Plants 10–40(–50) cm.</text>
+      <structure id="o2223" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="40" to="50" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="40" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="176.txt-1">
+      <text>Stems usually simple, ± thinly arachnoid.</text>
+      <structure id="o2224" name="stem">
+        <character name="architecture" value="simple" modifier="usually" />
+        <character name="pubescence" value="arachnoid" modifier="± thinly" />
+      </structure>
+    </statement>
+    <statement id="176.txt-2">
+      <text>Leaves mostly 2–8 mm wide;</text>
+      <structure id="o2225" name="leaf">
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="8" to_unit="mm" modifier="mostly" />
+      </structure>
+    </statement>
+    <statement id="176.txt-3">
+      <text>basal blades linear or narrowly elliptic, margins entire or denticulate, glabrous or abaxially thinly arachnoid;</text>
+      <structure id="o2226" name="blade" constraint="basal">
+        <character name="arrangement_or_shape" value="linear" />
+        <character name="arrangement_or_shape" value="elliptic" modifier="narrowly" />
+      </structure>
+      <structure id="o2227" name="margin">
+        <character name="shape" value="entire" />
+        <character name="shape" value="denticulate" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="arachnoid" modifier="abaxially thinly" />
+      </structure>
+    </statement>
+    <statement id="176.txt-4">
+      <text>cauline linear or oblong, crowded or well separated, usually not surpassing heads.</text>
+      <structure id="o2228" name="leaf" constraint="cauline">
+        <character name="architecture" value="crowded" />
+        <character name="arrangement" value="separated" modifier="well" />
+      </structure>
+      <structure id="o2229" name="head">
+        <character name="comparison" value="surpassing" modifier="usually not" />
+      </structure>
+    </statement>
+    <statement id="176.txt-5">
+      <text>Heads crowded or in ± open arrays.</text>
+      <structure id="o2230" name="head">
+        <character name="architecture" value="crowded" />
+        <character name="architecture" value="in moreorless open arrays" />
+      </structure>
+      <structure id="o2231" name="array">
+        <character name="architecture" value="open" modifier="±" />
+      </structure>
+      <relation id="r328" name="in" from="o2230" to="o2231" negation="false" />
+    </statement>
+    <statement id="176.txt-6">
+      <text>Phyllaries unequal in 3–5 series;</text>
+      <structure id="o2232" name="phyllary">
+        <character name="size" value="unequal" constraint="in series" constraintid="o2233" />
+      </structure>
+      <structure id="o2233" name="series">
+        <character char_type="range_value" name="count" from="3" to="5" />
+      </structure>
+    </statement>
+    <statement id="176.txt-7">
+      <text>outer usually 1.5–2 times longer than wide.</text>
+      <structure id="o2234" name="phyllary" constraint="outer">
+        <character char_type="range_value" name="size" from="1.5" to="2" modifier="usually;times longer than wide" />
+      </structure>
+    </statement>
+    <statement id="176.txt-8">
+      <text>2 n = 26, 52.</text>
+      <structure id="o2235" name="chromosome">
+        <character name="count" value="26" />
+        <character name="count" value="52" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>moist to dry sites</habitat>
+  <habitat>arctic and alpine tundras</habitat>
+  <habitat>bogs</habitat>
+  <habitat>riverbanks</habitat>
+  <habitat>grassy slopes</habitat>
+  <habitat>willow thickets</habitat>
+  <habitat>spruce forests</habitat>
+  <elevation>10–1300 m;</elevation>
+  <ca_distribution>B.C.</ca_distribution>
+  <ca_distribution>N.W.T.</ca_distribution>
+  <ca_distribution>Nunavut</ca_distribution>
+  <ca_distribution>Yukon</ca_distribution>
+  <us_distribution>Alaska</us_distribution>
+  <global_distribution>Russian Far East (Chukotka).</global_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

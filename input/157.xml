@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>54g.</number>
+  <variety_name>Cirsium scariosum Nuttall var. citrinum</variety_name>
+  <authority>(Petrak) D. J. Keil</authority>
+  <place_of_publication>Sida 21: 215. 2004</place_of_publication>
+  <common_name>La Graciosa thistle</common_name>
+  <synonym_of_variety_name>Cirsium quercetorum (A. Gray) Jepson var. citrinum Petrak, Beih. Bot. Centralbl. 35(2): 363. 1917; Carduus validus Greene; Cirsium drummondii Torrey &amp; A. Gray subsp. latisquamum Petrak; C. loncholepis Petrak</synonym_of_variety_name>
+  <description>
+    <statement id="157.txt-0">
+      <text>Plants acaulescent to bushy and mounding or erect, 5–100 cm.</text>
+      <structure id="o1571" name="whole_organism">
+        <character name="architecture" value="acaulescent" />
+        <character name="habit" value="bushy" />
+        <character name="habit" value="mounding" />
+        <character name="orientation" value="erect" />
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="100" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="157.txt-1">
+      <text>Stems usually 1, branched distally or openly so throughout, leafy, glabrous or thinly arachnoid-tomentose.</text>
+      <structure id="o1572" name="stem">
+        <character name="count" value="1" modifier="usually" />
+        <character name="architecture_or_shape" value="branched" modifier="distally" />
+        <character name="architecture_or_shape" value="branched" modifier="distally; openly so throughout" />
+        <character name="architecture" value="leafy" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="arachnoid-tomentose" modifier="thinly" />
+      </structure>
+    </statement>
+    <statement id="157.txt-2">
+      <text>Leaves:</text>
+      <structure id="o1573" name="leaf" />
+    </statement>
+    <statement id="157.txt-3">
+      <text>blades oblanceolate to elliptic, deeply pinnately lobed, longer spines slender to stout, usually 1 cm or shorter, abaxial faces usually green, glabrous or glabrate or thinly to densely tomentose, adaxial faces glabrous to sparingly villous with septate trichomes or thinly arachnoid-tomentose.</text>
+      <structure id="o1574" name="blade">
+        <character name="shape" value="oblanceolate" />
+        <character name="arrangement_or_shape" value="elliptic" />
+        <character name="shape" value="lobed" modifier="deeply pinnately" />
+      </structure>
+      <structure id="o1575" name="spine" constraint="longer">
+        <character name="size" value="slender" />
+        <character name="fragility" value="stout" />
+        <character name="size" value="1" unit="cm" modifier="usually" />
+        <character name="size" value="shorter" />
+      </structure>
+      <structure id="o1576" name="face" constraint="abaxial">
+        <character name="coloration" value="green" modifier="usually" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="glabrate" />
+        <character name="pubescence" value="tomentose" modifier="thinly densely" />
+      </structure>
+      <structure id="o1577" name="face" constraint="adaxial">
+        <character char_type="range_value" name="pubescence" from="glabrous" to="sparingly villous" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="villous" modifier="sparingly" constraint="with trichomes" constraintid="o1578" />
+        <character name="pubescence" value="arachnoid-tomentose" modifier="thinly" />
+      </structure>
+      <structure id="o1578" name="trichome">
+        <character name="architecture" value="septate" />
+      </structure>
+    </statement>
+    <statement id="157.txt-4">
+      <text>Heads 2–many, subsessile or short-pedunculate, in ± congested corymbiform to subcapitate arrays at stem tips (in age clustered axillary heads often developing), subtended and ± overtopped by distal leaves or these ± reduced.</text>
+      <structure id="o1579" name="head">
+        <character char_type="range_value" name="count" from="2" to="many" />
+        <character name="architecture" value="subsessile" />
+        <character name="architecture" value="short-pedunculate" />
+        <character name="position" value="overtopped" modifier="±" constraint="by leaves" constraintid="o1582" />
+        <character name="size" value="reduced" modifier="±" />
+      </structure>
+      <structure id="o1580" name="array">
+        <character char_type="range_value" name="architecture" from="congested corymbiform" to="subcapitate" />
+        <character name="architecture" value="subcapitate" />
+      </structure>
+      <relation id="r248" name="in" from="o1579" to="o1580" negation="false" />
+      <structure id="o1581" name="tip" constraint="stem" />
+      <relation id="r249" name="at" from="o1580" to="o1581" negation="false" />
+      <structure id="o1582" name="leaf" constraint="distal" />
+    </statement>
+    <statement id="157.txt-5">
+      <text>Involucres 2.5–4 cm.</text>
+      <structure id="o1583" name="involucre">
+        <character char_type="range_value" name="size" from="2.5" from_unit="cm" to="4" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="157.txt-6">
+      <text>Phyllaries:</text>
+      <structure id="o1584" name="phyllary" />
+    </statement>
+    <statement id="157.txt-7">
+      <text>outer and mid lanceolate to ovate, spines 1–6 mm, slender and weak or broad and flat;</text>
+      <structure id="o1585" name="phyllary" constraint="outer and mid" />
+      <structure id="o1586" name="spine">
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="6" to_unit="mm" />
+        <character name="size" value="slender" />
+        <character name="texture" value="weak" />
+        <character name="shape" value="flat" />
+      </structure>
+    </statement>
+    <statement id="157.txt-8">
+      <text>apices of inner stiffly erect or thin and often contorted, acuminate and entire or rarely toothed.</text>
+      <structure id="o1587" name="apex">
+        <character name="orientation" value="erect" modifier="stiffly" />
+        <character name="thickness" value="thin" />
+        <character name="aestivation_or_architecture" value="contorted" modifier="often" />
+        <character name="shape" value="acuminate" />
+        <character name="shape" value="entire" />
+        <character name="shape" value="toothed" modifier="rarely" />
+      </structure>
+      <structure id="o1588" name="phyllary" constraint="inner" />
+      <relation id="r250" name="part_of" from="o1587" to="o1588" negation="false" />
+    </statement>
+    <statement id="157.txt-9">
+      <text>Corollas white or lightly purple-tinged (purple), (21–)26–35 mm, tubes (11–)14–22 mm, throats 6–9 mm, lobes (4–)5.5–8 mm;</text>
+      <structure id="o1589" name="corolla">
+        <character name="coloration" value="white" />
+        <character name="coloration" value="tinged" modifier="lightly ;purple" />
+        <character char_type="range_value" name="atypical_size" from="21" to="26" from_unit="mm" to_unit="mm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="26" from_unit="mm" to="35" to_unit="mm" />
+      </structure>
+      <structure id="o1590" name="tube">
+        <character char_type="range_value" name="atypical_size" from="11" to="14" from_unit="mm" to_unit="mm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="14" from_unit="mm" to="22" to_unit="mm" />
+      </structure>
+      <structure id="o1591" name="throat">
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="9" to_unit="mm" />
+      </structure>
+      <structure id="o1592" name="lobe">
+        <character char_type="range_value" name="atypical_size" from="4" to="5.5" from_unit="mm" to_unit="mm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="5.5" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="157.txt-10">
+      <text>style tips 4–6 mm.</text>
+      <structure id="o1593" name="tip" constraint="style">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="157.txt-11">
+      <text>Cypselae 4.5–5 mm;</text>
+      <structure id="o1594" name="cypsela">
+        <character char_type="range_value" name="size" from="4.5" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="157.txt-12">
+      <text>pappi 23–31 mm.</text>
+      <structure id="o1595" name="pappus">
+        <character char_type="range_value" name="size" from="23" from_unit="mm" to="31" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="157.txt-13">
+      <text>2 n = 34 (as Cirsium loncholepis ).</text>
+      <structure id="o1596" name="chromosome">
+        <character name="count" value="34" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>late</flowering_time>
+  <flowering_time>nov</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>wet ground</habitat>
+  <habitat>meadows</habitat>
+  <habitat>pastures</habitat>
+  <habitat>springs</habitat>
+  <habitat>marshes</habitat>
+  <habitat>both coastal and interior</habitat>
+  <conservation>of conservation concern;</conservation>
+  <elevation>0–2500 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <global_distribution>Mexico (Baja California?).</global_distribution>
+  <discussion>Variety citrinum is the southern California race of Cirsium scariosum. As is the case in other varieties of this complex, taxonomic recognition has been given to local populations, named on the basis of limited samples. After examining specimens gathered from various populations in southern California, I realized that although exemplars of local populations may have distinctive features, there are so many intermediates that recognizing any of the local races becomes arbitrary. Individuals treated as Cirsium loncholepis (from coastal sites bordering the mouth of the Santa Maria River and adjacent regions in San Luis Obispo and Santa Barbara counties) are often indistinguishable from plants of upland populations of the San Emigdio Mountains (Kern and Ventura counties) in the vicinity of the headwaters of the Cuyama River, a tributary of the Santa Maria River. Other individuals from the San Emigdio Mountains cannot be distinguished from plants of other upland and lowland southern California sites ranging south to San Diego County.</discussion>
+  <discussion>Cirsium loncholepis was recognized by the California Department of Fish and Game in 1990 as a threatened species, and in 2000 by the U.S. Fish and Wildlife Service as endangered. Its conservation status is being reevaluated in light of my conclusions about its taxonomy. I believe that the combined taxon, C. scariosum var. citrinum, should still be of conservation concern. Many of the collections from southern California are from highly developed areas, and the number and size of extant populations need to be evaluated.</discussion>
+  <discussion>Interspecific hybridization involving var. citrinum is known or suspected in several instances. A putative hybrid between it and Cirsium occidentale var. occidentale from dunes in San Luis Obispo County combines the leaf pubescence and arachnoid involucre of C. occidentale with features of C. scariosum. An apparent hybrid between var. citrinum and the strikingly different C. rhothophilum was collected from coastal dunes in northern Santa Barbara County. A population of unusual, purple-flowered individuals from Price Canyon northeast of Los Alamos in Santa Barbara County may be the product of past hybridization with another species. These plants are tall (1–1.6 m according to label data) and their stems and distal leaf faces are villous with septate trichomes.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

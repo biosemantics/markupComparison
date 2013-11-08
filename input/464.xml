@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Malacothrix californica</species_name>
+  <authority>de Candolle</authority>
+  <place_of_publication>in A. P. de Candolle and A. L. P. P. de Candolle, Prodr. 7: 192. 1838</place_of_publication>
+  <common_name>California desertdandelion</common_name>
+  <description>
+    <statement id="464.txt-0">
+      <text>Annuals, 4–45 cm.</text>
+      <structure id="o9208" name="whole_organism">
+        <character char_type="range_value" name="size" from="4" from_unit="cm" to="45" to_unit="cm" />
+        <character name="life_style" value="annual" />
+      </structure>
+    </statement>
+    <statement id="464.txt-1">
+      <text>Stems 1 (scapiform), erect or arcuate-ascending, mostly glabrous (shaggily piloso-hirsute proximally and at bases of heads).</text>
+      <structure id="o9209" name="stem">
+        <character name="count" value="1" />
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="arcuate-ascending" />
+        <character name="pubescence" value="glabrous" modifier="mostly" />
+      </structure>
+    </statement>
+    <statement id="464.txt-2">
+      <text>Cauline leaves:</text>
+      <structure id="o9210" name="leaf" constraint="cauline" />
+    </statement>
+    <statement id="464.txt-3">
+      <text>proximal oblanceolate to linear, pinnately lobed (lobes usually linear to filiform, sometimes broader), not fleshy, ultimate margins entire or dentate, faces usually shaggily piloso-hirsute (at least proximally), glabrescent;</text>
+      <structure id="o9211" name="leaf" constraint="proximal cauline">
+        <character name="shape" value="oblanceolate" />
+        <character name="arrangement_or_shape" value="linear" />
+        <character name="shape" value="lobed" modifier="pinnately" />
+        <character name="texture" value="fleshy" modifier="not" />
+      </structure>
+      <structure id="o9212" name="margin" constraint="ultimate">
+        <character name="shape" value="entire" />
+        <character name="shape" value="dentate" />
+      </structure>
+      <structure id="o9213" name="face">
+        <character name="pubescence" value="piloso-hirsute" modifier="usually shaggily" />
+        <character name="pubescence" value="glabrescent" />
+      </structure>
+    </statement>
+    <statement id="464.txt-4">
+      <text>distal usually 0.</text>
+      <structure id="o9214" name="leaf" constraint="distal cauline">
+        <character name="count" value="0" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="464.txt-5">
+      <text>Calyculi of 12–20, lanceolate to linear bractlets, hyaline margins 0.05–0.2 mm, abaxial faces shaggily piloso-hirsute to arachnose.</text>
+      <structure id="o9215" name="calyculus" />
+      <structure id="o9216" name="bractlet">
+        <character char_type="range_value" name="count" from="12" to="20" />
+        <character char_type="range_value" name="shape" from="lanceolate" to="linear" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="linear" />
+      </structure>
+      <relation id="r1074" name="consist_of" from="o9215" to="o9216" negation="false" />
+      <structure id="o9217" name="margin">
+        <character name="coloration" value="hyaline" />
+        <character char_type="range_value" name="size" from="0.05" from_unit="mm" to="0.2" to_unit="mm" />
+      </structure>
+      <structure id="o9218" name="face" constraint="abaxial">
+        <character char_type="range_value" name="pubescence" from="shaggily piloso-hirsute" to="arachnose" />
+        <character name="pubescence" value="piloso-hirsute" modifier="shaggily" />
+        <character name="pubescence" value="arachnose" modifier="shaggily" />
+      </structure>
+    </statement>
+    <statement id="464.txt-6">
+      <text>Involucres (8–)10–15 × 5–6 mm.</text>
+      <structure id="o9219" name="involucre">
+        <character char_type="range_value" name="atypical_length" from="8" to="10" from_unit="mm" to_unit="mm" to_inclusive="false" />
+        <character char_type="range_value" name="length" from="10" from_unit="mm" to="15" to_unit="mm" />
+        <character char_type="range_value" name="width" from="5" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="464.txt-7">
+      <text>Phyllaries usually 20–26+ in 2-3+ series, (midstripes often reddish) lanceolate to lance-linear or subulate, unequal, hyaline margins 0.1–0.5 mm wide, abaxial faces (of outermost, at least) shaggily piloso-hirsute to arachnose (at least proximally).</text>
+      <structure id="o9220" name="phyllary">
+        <character char_type="range_value" name="count" from="20" to="26" upper_restricted="false" modifier="usually" constraint="in series" constraintid="o9221" />
+        <character char_type="range_value" name="shape" from="lanceolate" to="lance-linear or subulate" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="lance-linear" />
+        <character name="shape" value="subulate" />
+        <character name="size" value="unequal" />
+      </structure>
+      <structure id="o9221" name="series">
+        <character char_type="range_value" name="count" from="2" to="3" upper_restricted="false" />
+      </structure>
+      <structure id="o9222" name="margin">
+        <character name="coloration" value="hyaline" />
+        <character char_type="range_value" name="size" from="0.1" from_unit="mm" to="0.5" to_unit="mm" />
+      </structure>
+      <structure id="o9223" name="face" constraint="abaxial">
+        <character char_type="range_value" name="pubescence" from="shaggily piloso-hirsute" to="arachnose" />
+        <character name="pubescence" value="piloso-hirsute" modifier="shaggily" />
+        <character name="pubescence" value="arachnose" modifier="shaggily" />
+      </structure>
+    </statement>
+    <statement id="464.txt-8">
+      <text>Receptacles sparsely bristly or glabrous.</text>
+      <structure id="o9224" name="receptacle">
+        <character name="pubescence" value="bristly" modifier="sparsely" />
+        <character name="pubescence" value="glabrous" modifier="sparsely" />
+      </structure>
+    </statement>
+    <statement id="464.txt-9">
+      <text>Florets 40–250;</text>
+      <structure id="o9225" name="floret">
+        <character char_type="range_value" name="count" from="40" to="250" />
+      </structure>
+    </statement>
+    <statement id="464.txt-10">
+      <text>corollas usually yellow to pale yellow (often with abaxial reddish stripes), sometimes white, 16–20 mm;</text>
+      <structure id="o9226" name="corolla">
+        <character name="coloration" value="yellow" modifier="usually" />
+        <character name="coloration" value="yellow" modifier="pale" />
+        <character name="coloration" value="white" modifier="sometimes" />
+        <character char_type="range_value" name="size" from="16" from_unit="mm" to="20" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="464.txt-11">
+      <text>outer ligules exserted 11–13 mm.</text>
+      <structure id="o9227" name="ligule" constraint="outer">
+        <character name="position" value="exserted" />
+        <character char_type="range_value" name="size" from="11" from_unit="mm" to="13" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="464.txt-12">
+      <text>Cypselae ± prismatic, 2–3.4 mm, ribs extending to apices, 5 more prominent than others;</text>
+      <structure id="o9228" name="cypsela">
+        <character name="shape" value="prismatic" modifier="±" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="3.4" to_unit="mm" />
+      </structure>
+      <structure id="o9229" name="rib">
+        <character name="count" value="5" />
+        <character name="prominence" value="prominent" modifier="more" constraint="than others" constraintid="o9231" />
+      </structure>
+      <structure id="o9230" name="apex" />
+      <relation id="r1075" name="extending to" from="o9229" to="o9230" negation="false" />
+      <structure id="o9231" name="other" />
+    </statement>
+    <statement id="464.txt-13">
+      <text>persistent pappi of 12–15+, irregular, lance-deltate teeth plus (1–)2 bristles.</text>
+      <structure id="o9232" name="pappus" constraint="persistent" />
+      <structure id="o9233" name="tooth">
+        <character char_type="range_value" name="count" from="12" to="15" upper_restricted="false" />
+        <character name="architecture_or_course" value="irregular" />
+        <character name="shape" value="lance-deltate" />
+        <character char_type="range_value" name="atypical_count" from="1" to="2" to_inclusive="false" />
+        <character name="count" value="2" />
+      </structure>
+      <relation id="r1076" name="consist_of" from="o9232" to="o9233" negation="false" />
+      <structure id="o9234" name="bristle" />
+    </statement>
+    <statement id="464.txt-14">
+      <text>Pollen 70–100% 3-porate.</text>
+      <structure id="o9235" name="pollen">
+        <character name="architecture" value="3-porate" modifier="70-100%" />
+      </structure>
+    </statement>
+    <statement id="464.txt-15">
+      <text>2 n = 14.</text>
+      <structure id="o9236" name="chromosome">
+        <character name="count" value="14" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <habitat>open sandy soil in grasslands</habitat>
+  <habitat>oak woodlands</habitat>
+  <habitat>chaparral</habitat>
+  <habitat>or desert margins</habitat>
+  <elevation>0–1700 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <global_distribution>Mexico (Baja California).</global_distribution>
+  <discussion>Malacothrix californica grows in the San Joaquin Valley, central western California, southwestern California, and the Mojave Desert.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>4.</number>
+  <species_name>Pyrrhopappus carolinianus</species_name>
+  <authority>(Walter) de Candolle</authority>
+  <place_of_publication>in A. P. de Candolle and A. L. P. P. de Candolle, Prodr. 7: 144. 1838</place_of_publication>
+  <synonym_of_species_name>Leontodon carolinianum Walter, Fl. Carol., 192. 1788; Pyrrhopappus carolinianus var. georgianus (Shinners) H. E. Ahles; P. georgianus Shinners</synonym_of_species_name>
+  <description>
+    <statement id="611.txt-0">
+      <text>Annuals (sometimes persisting), (5–)20–50(–100+) cm.</text>
+      <structure id="o12785" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="5" to="20" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_size" from="50" to="100" from_unit="cm" to_unit="cm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="20" from_unit="cm" to="50" to_unit="cm" />
+        <character name="life_style" value="annual" />
+      </structure>
+    </statement>
+    <statement id="611.txt-1">
+      <text>Stems usually branching from bases and/or distally, rarely scapiform, usually glabrous proximally, sometimes pilosulous.</text>
+      <structure id="o12786" name="stem">
+        <character name="architecture" value="branching" modifier="usually" constraint="from bases" constraintid="o12787" />
+        <character name="shape" value="scapiform" modifier="rarely" />
+        <character name="pubescence" value="glabrous" modifier="usually ; proximally" />
+        <character name="pubescence" value="pilosulous" modifier="sometimes" />
+      </structure>
+      <structure id="o12787" name="base" />
+    </statement>
+    <statement id="611.txt-2">
+      <text>Cauline leaves (1–)3–9+, proximal mostly lanceolate, margins usually dentate, sometimes pinnately lobed, distal narrowly lanceolate to lance-attenuate, margins entire or with 1–2 lobes near bases.</text>
+      <structure id="o12788" name="leaf" constraint="cauline">
+        <character char_type="range_value" name="atypical_count" from="1" to="3" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="3" to="9" upper_restricted="false" />
+        <character name="insertion_or_position" value="proximal" modifier="mostly" />
+        <character name="shape" value="lanceolate" />
+      </structure>
+      <structure id="o12789" name="margin">
+        <character name="shape" value="dentate" modifier="usually" />
+        <character name="shape" value="lobed" modifier="sometimes pinnately" />
+        <character char_type="range_value" name="shape" from="distal narrowly lanceolate" to="lance-attenuate" />
+        <character name="shape" value="lance-attenuate" />
+      </structure>
+      <structure id="o12790" name="margin">
+        <character name="shape" value="entire" />
+        <character name="shape" value="with 1-2 lobes" />
+      </structure>
+      <structure id="o12791" name="lobe">
+        <character char_type="range_value" name="count" from="1" to="2" />
+      </structure>
+      <relation id="r1471" name="with" from="o12790" to="o12791" negation="false" />
+      <structure id="o12792" name="base" />
+      <relation id="r1472" name="near" from="o12791" to="o12792" negation="false" />
+    </statement>
+    <statement id="611.txt-3">
+      <text>Heads (1–)3–5+ in loose, corymbiform arrays.</text>
+      <structure id="o12793" name="head">
+        <character char_type="range_value" name="atypical_count" from="1" to="3" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="3" to="5" upper_restricted="false" constraint="in arrays" constraintid="o12794" />
+      </structure>
+      <structure id="o12794" name="array">
+        <character name="architecture_or_texture" value="loose" />
+        <character name="architecture" value="corymbiform" />
+      </structure>
+    </statement>
+    <statement id="611.txt-4">
+      <text>Calyculi:</text>
+      <structure id="o12795" name="calyculus" />
+    </statement>
+    <statement id="611.txt-5">
+      <text>bractlets 13–16+ in 2–3 series, subulate to filiform, 8–12+ mm.</text>
+      <structure id="o12796" name="bractlet">
+        <character char_type="range_value" name="count" from="13" to="16" upper_restricted="false" constraint="in series" constraintid="o12797" />
+        <character char_type="range_value" name="shape" from="subulate" to="filiform" />
+        <character name="shape" value="subulate" />
+        <character name="shape" value="filiform" />
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="12" to_unit="mm" upper_restricted="false" />
+      </structure>
+      <structure id="o12797" name="series">
+        <character char_type="range_value" name="count" from="2" to="3" />
+      </structure>
+    </statement>
+    <statement id="611.txt-6">
+      <text>Involucres ± cylindric to campanulate, 17–24+ mm.</text>
+      <structure id="o12798" name="involucre">
+        <character char_type="range_value" name="shape" from="cylindric" to="campanulate" modifier="±" />
+        <character name="shape" value="cylindric" modifier="±" />
+        <character name="shape" value="campanulate" modifier="±" />
+        <character char_type="range_value" name="size" from="17" from_unit="mm" to="24" to_unit="mm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="611.txt-7">
+      <text>Phyllaries 16–21+.</text>
+      <structure id="o12799" name="phyllary">
+        <character char_type="range_value" name="count" from="16" to="21" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="611.txt-8">
+      <text>Florets 50–150+;</text>
+      <structure id="o12800" name="floret">
+        <character char_type="range_value" name="count" from="50" to="150" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="611.txt-9">
+      <text>anthers 2.5–3.5 mm (pollen equatorial diameters mostly 43–47 µm).</text>
+      <structure id="o12801" name="anther">
+        <character char_type="range_value" name="size" from="2.5" from_unit="mm" to="3.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="611.txt-10">
+      <text>Cypselae:</text>
+      <structure id="o12802" name="cypsela" />
+    </statement>
+    <statement id="611.txt-11">
+      <text>bodies reddish brown, 4–6 mm, beaks 8–10 mm;</text>
+      <structure id="o12803" name="body">
+        <character name="coloration" value="brown" modifier="reddish" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+      <structure id="o12804" name="beak">
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="611.txt-12">
+      <text>pappi 7–10+ mm.</text>
+      <structure id="o12805" name="pappus">
+        <character char_type="range_value" name="size" from="7" from_unit="mm" to="10" to_unit="mm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="611.txt-13">
+      <text>2 n = 12.</text>
+      <structure id="o12806" name="chromosome">
+        <character name="count" value="12" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>feb</flowering_time>
+  <flowering_time>winter</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>disturbed sites</habitat>
+  <habitat>edges of woods</habitat>
+  <habitat>prairies</habitat>
+  <habitat>sandy soils</habitat>
+  <elevation>10–600 m;</elevation>
+  <us_distribution>Ala.</us_distribution>
+  <us_distribution>Ark.</us_distribution>
+  <us_distribution>Fla.</us_distribution>
+  <us_distribution>Ga.</us_distribution>
+  <us_distribution>Kans.</us_distribution>
+  <us_distribution>Mo.</us_distribution>
+  <us_distribution>Nebr.</us_distribution>
+  <us_distribution>N.C.</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <us_distribution>S.C.</us_distribution>
+  <us_distribution>Tenn.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <us_distribution>Va.</us_distribution>
+  <us_distribution>W.Va.</us_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

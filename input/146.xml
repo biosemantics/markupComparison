@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>51f.</number>
+  <variety_name>Cirsium eatonii (A. Gray) B. L. Robinson var. murdockii</variety_name>
+  <authority>S. L. Welsh</authority>
+  <place_of_publication>Great Basin Naturalist 42: 200. 1982</place_of_publication>
+  <common_name>Northern mountain thistle</common_name>
+  <synonym_of_variety_name>Cirsium murdockii (S. L. Welsh) Cronquist; C. polyphyllum (Rydberg) Petrak; C. tweedyi (Rydberg) Petrak</synonym_of_variety_name>
+  <description>
+    <statement id="146.txt-0">
+      <text>Stems erect or ascending, stout, 10–75 cm.</text>
+      <structure id="o1226" name="stem">
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="ascending" />
+        <character name="fragility" value="stout" />
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="75" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="146.txt-1">
+      <text>Leaf faces glabrous or nearly so or abaxial ± villous and/or tomentose with septate or non-septate trichomes.</text>
+      <structure id="o1227" name="face" constraint="leaf">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="or" />
+        <character name="insertion_or_position" value="abaxial" modifier="±" />
+        <character name="pubescence" value="villous" />
+        <character name="pubescence" value="tomentose" constraint="with trichomes" constraintid="o1228" />
+      </structure>
+      <structure id="o1228" name="trichome">
+        <character name="architecture" value="septate" />
+        <character name="architecture" value="non-septate" />
+      </structure>
+    </statement>
+    <statement id="146.txt-2">
+      <text>Heads sessile or short-pedunculate in erect, few-headed, subcapitate or spiciform arrays.</text>
+      <structure id="o1229" name="head">
+        <character name="architecture" value="sessile" />
+        <character name="architecture" value="short-pedunculate" constraint="in arrays" constraintid="o1230" />
+      </structure>
+      <structure id="o1230" name="array">
+        <character name="orientation" value="erect" />
+        <character name="architecture" value="few-headed" />
+        <character name="architecture" value="subcapitate" />
+        <character name="architecture" value="spiciform" />
+      </structure>
+    </statement>
+    <statement id="146.txt-3">
+      <text>Involucres 2–3 cm, thinly to densely tomentose with septate or non-septate trichomes (phyllaries sometimes obscured by tomentum).</text>
+      <structure id="o1231" name="involucre">
+        <character char_type="range_value" name="size" from="2" from_unit="cm" to="3" to_unit="cm" />
+        <character name="pubescence" value="tomentose" modifier="thinly densely" constraint="with trichomes" constraintid="o1232" />
+      </structure>
+      <structure id="o1232" name="trichome">
+        <character name="architecture" value="septate" />
+        <character name="architecture" value="non-septate" />
+      </structure>
+    </statement>
+    <statement id="146.txt-4">
+      <text>Phyllaries green or purplish-tinged;</text>
+      <structure id="o1233" name="phyllary">
+        <character name="coloration" value="green" />
+        <character name="coloration" value="tinged" modifier="purplish" />
+      </structure>
+    </statement>
+    <statement id="146.txt-5">
+      <text>outer with few lateral spines;</text>
+      <structure id="o1234" name="phyllary" constraint="outer" />
+      <structure id="o1235" name="spine" constraint="lateral">
+        <character name="count" value="few" />
+      </structure>
+      <relation id="r208" name="with" from="o1234" to="o1235" negation="false" />
+    </statement>
+    <statement id="146.txt-6">
+      <text>apical spines slender.</text>
+      <structure id="o1236" name="spine" constraint="apical">
+        <character name="size" value="slender" />
+      </structure>
+    </statement>
+    <statement id="146.txt-7">
+      <text>Corollas white to pink or lavender, 17–23 mm, tubes 6–10 mm, throats 5–8 mm, lobes 3–6 mm.</text>
+      <structure id="o1237" name="corolla">
+        <character char_type="range_value" name="coloration" from="white" to="pink or lavender" />
+        <character name="coloration" value="white" />
+        <character name="coloration" value="pink" />
+        <character name="coloration" value="lavender" />
+        <character char_type="range_value" name="size" from="17" from_unit="mm" to="23" to_unit="mm" />
+      </structure>
+      <structure id="o1238" name="tube">
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+      <structure id="o1239" name="throat">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+      <structure id="o1240" name="lobe">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="146.txt-8">
+      <text>Pappi 11–18 mm.</text>
+      <structure id="o1241" name="pappus">
+        <character char_type="range_value" name="size" from="11" from_unit="mm" to="18" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="146.txt-9">
+      <text>2 n = 34 (as C. tweedyi ).</text>
+      <structure id="o1242" name="chromosome">
+        <character name="count" value="34" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>talus slopes</habitat>
+  <habitat>rocky subalpine and alpine ridges</habitat>
+  <habitat>openings in subalpine forests</habitat>
+  <habitat>subalpine meadows</habitat>
+  <conservation>of conservation concern;</conservation>
+  <elevation>2300–3900 m;</elevation>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <discussion>Variety murdockii grows in the central Rocky Mountains from central Idaho and southern Montana to western Wyoming and northern Colorado. It also grows in the Ruby Mountains of northern Nevada and the Uintah Mountains of northeastern Utah. Considerable variation occurs in quantity and quality of pubescence of the involucres of var. murdockii. In some individuals the pubescence is so dense that it obscures the phyllary bodies whereas in others the individual phyllaries are clearly visible. Most commonly the pubescence consists primarily of septate trichomes, but sometimes finer non-septate trichomes predominate. Both types of trichomes may be present.</discussion>
+  <discussion>Variety murdockii is known to hybridize with Cirsium pulcherrimum var. pulcherrimum and C. scariosum var. scariosum in Wyoming.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

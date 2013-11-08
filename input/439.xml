@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Helminthotheca echioides</species_name>
+  <authority>(Linnaeus) Holub</authority>
+  <place_of_publication>Folia Geobot. Phytotax. 8: 176. 1973</place_of_publication>
+  <synonym_of_species_name>Picris echioides Linnaeus, Sp. Pl. 2: 792. 1753</synonym_of_species_name>
+  <description>
+    <statement id="439.txt-0">
+      <text>Leaf blades 50–150(–250) × 10–50(–80+) mm.</text>
+      <structure id="o8723" name="blade" constraint="leaf">
+        <character char_type="range_value" name="atypical_length" from="150" to="250" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="50" from_unit="mm" to="150" to_unit="mm" />
+        <character char_type="range_value" name="atypical_width" from="50" to="80" from_unit="mm" to_unit="mm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="width" from="10" from_unit="mm" to="50" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="439.txt-1">
+      <text>Peduncles 1–5+ cm, bristly hispid.</text>
+      <structure id="o8724" name="peduncle">
+        <character char_type="range_value" name="size" from="1" from_unit="cm" to="5" to_unit="cm" upper_restricted="false" />
+        <character name="pubescence" value="bristly hispid" />
+      </structure>
+    </statement>
+    <statement id="439.txt-2">
+      <text>Calyculi:</text>
+      <structure id="o8725" name="calyculus" />
+    </statement>
+    <statement id="439.txt-4">
+      <text>Phyllaries often sigmoid in fruit, abaxial faces and tips bristly.</text>
+      <structure id="o8726" name="phyllary">
+        <character name="course_or_shape" value="sigmoid" modifier="often" constraint="in fruit, faces, tips" constraintid="o8727  o8728  o8729" />
+      </structure>
+      <structure id="o8727" name="fruit">
+        <character name="pubescence" value="bristly" />
+      </structure>
+      <structure id="o8728" name="face" constraint="abaxial">
+        <character name="pubescence" value="bristly" />
+      </structure>
+      <structure id="o8729" name="tip">
+        <character name="pubescence" value="bristly" />
+      </structure>
+    </statement>
+    <statement id="439.txt-5">
+      <text>Cypselae:</text>
+      <structure id="o8730" name="cypsela" />
+    </statement>
+    <statement id="439.txt-6">
+      <text>bodies 2.5–3 mm, beaks 2.5–5 mm;</text>
+      <structure id="o8731" name="body">
+        <character char_type="range_value" name="size" from="2.5" from_unit="mm" to="3" to_unit="mm" />
+      </structure>
+      <structure id="o8732" name="beak">
+        <character char_type="range_value" name="size" from="2.5" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="439.txt-7">
+      <text>pappi 4–7 mm.</text>
+      <structure id="o8733" name="pappus">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="439.txt-8">
+      <text>2 n = 10.</text>
+      <structure id="o8734" name="chromosome">
+        <character name="count" value="10" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>may</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <flowering_time>nov</flowering_time>
+  <habitat>disturbed sites</habitat>
+  <elevation>0–50(–500) m;</elevation>
+  <introduced>introduced;</introduced>
+  <ca_distribution>Alta.</ca_distribution>
+  <ca_distribution>N.B.</ca_distribution>
+  <ca_distribution>Ont.</ca_distribution>
+  <ca_distribution>Sask.</ca_distribution>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Conn.</us_distribution>
+  <us_distribution>D.C.</us_distribution>
+  <us_distribution>Iowa</us_distribution>
+  <us_distribution>Maine</us_distribution>
+  <us_distribution>Md.</us_distribution>
+  <us_distribution>Mass.</us_distribution>
+  <us_distribution>Mo.</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>N.J.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>N.Dak.</us_distribution>
+  <us_distribution>Ohio</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <us_distribution>Vt.</us_distribution>
+  <us_distribution>Va.</us_distribution>
+  <global_distribution>Europe</global_distribution>
+  <global_distribution>widely introduced elsewhere.</global_distribution>
+  <discussion>Reports for British Columbia and Nova Scotia need confirmation.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

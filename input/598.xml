@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>2e.</number>
+  <variety_name>Lygodesmia grandiflora (Nuttall) Torrey &amp; A. Gray var. entrada</variety_name>
+  <authority>(S. L. Welsh &amp; Goodrich) S. L. Welsh</authority>
+  <place_of_publication>Rhodora 95: 399. 1993</place_of_publication>
+  <synonym_of_variety_name>Lygodesmia entrada S. L. Welsh &amp; Goodrich, Great Basin Naturalist 40: 83, fig. 4. 1980</synonym_of_variety_name>
+  <description>
+    <statement id="598.txt-0">
+      <text>Plants 30–45 cm.</text>
+      <structure id="o12411" name="whole_organism">
+        <character char_type="range_value" name="size" from="30" from_unit="cm" to="45" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="598.txt-1">
+      <text>Stems erect or ascending, stiff, woody, branched from bases and distally.</text>
+      <structure id="o12412" name="stem">
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="ascending" />
+        <character name="texture" value="stiff" />
+        <character name="texture" value="woody" />
+        <character name="architecture_or_shape" value="branched" constraint="from bases" constraintid="o12413" />
+      </structure>
+      <structure id="o12413" name="base" />
+    </statement>
+    <statement id="598.txt-2">
+      <text>Leaves:</text>
+      <structure id="o12414" name="leaf" />
+    </statement>
+    <statement id="598.txt-3">
+      <text>proximal blades linear-acicular, 5–30 × 2–4 mm, stiff, spreading;</text>
+      <structure id="o12415" name="blade" constraint="proximal">
+        <character name="shape" value="linear-acicular" />
+        <character char_type="range_value" name="length" from="5" from_unit="mm" to="30" to_unit="mm" />
+        <character char_type="range_value" name="width" from="2" from_unit="mm" to="4" to_unit="mm" />
+        <character name="texture" value="stiff" />
+        <character name="orientation" value="spreading" />
+      </structure>
+    </statement>
+    <statement id="598.txt-4">
+      <text>cauline reduced distally, not scalelike.</text>
+      <structure id="o12416" name="leaf" constraint="cauline">
+        <character name="size" value="reduced" modifier="distally" />
+        <character name="archiecture" value="scalelike" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="598.txt-5">
+      <text>Heads 1–10, in loose, corymbiform arrays.</text>
+      <structure id="o12417" name="head">
+        <character char_type="range_value" name="count" from="1" to="10" />
+      </structure>
+      <structure id="o12418" name="array">
+        <character name="architecture_or_texture" value="loose" />
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <relation id="r1442" name="in" from="o12417" to="o12418" negation="false" />
+    </statement>
+    <statement id="598.txt-6">
+      <text>Involucres cylindric ( V -shaped in fruit), 20–22 × 5–7 mm, apices spreading.</text>
+      <structure id="o12419" name="involucre">
+        <character name="shape" value="cylindric" />
+        <character char_type="range_value" name="length" from="20" from_unit="mm" to="22" to_unit="mm" />
+        <character char_type="range_value" name="width" from="5" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+      <structure id="o12420" name="apex">
+        <character name="orientation" value="spreading" />
+      </structure>
+    </statement>
+    <statement id="598.txt-7">
+      <text>Phyllaries ca. 6.</text>
+      <structure id="o12421" name="phyllary">
+        <character name="count" value="6" />
+      </structure>
+    </statement>
+    <statement id="598.txt-8">
+      <text>Florets 5, corollas white (or fading to pinkish).</text>
+      <structure id="o12422" name="floret">
+        <character name="count" value="5" />
+      </structure>
+      <structure id="o12423" name="corolla">
+        <character name="coloration" value="white" />
+      </structure>
+    </statement>
+    <statement id="598.txt-9">
+      <text>Cypselae seldom formed (ovaries 4–5 mm, abaxial faces smooth, adaxial weakly rugose, bisulcate with ridge separating sulci).</text>
+      <structure id="o12424" name="cypsela" />
+    </statement>
+    <statement id="598.txt-10">
+      <text>2 n = 27.</text>
+      <structure id="o12425" name="chromosome">
+        <character name="count" value="27" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <habitat>juniper-scrub community, in deep sandy soil</habitat>
+  <habitat>entrada sandstone</habitat>
+  <conservation>of conservation concern;</conservation>
+  <elevation>1300–1500 m;</elevation>
+  <us_distribution>Utah.</us_distribution>
+  <discussion>Variety entrada is distinguished by its relatively large size, stiff stems (woody) and leaves, tomentulose phyllaries, and white corollas. It is similar to var. arizonica. Unlike other varieties, it has involucre apices somewhat spreading. Chromosome counts indicate that these plants are asexual triploids (A. S. Tomb, pers. comm.). Variety entrada is locally abundant in Arches National Park, near Moab.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>54d.</number>
+  <variety_name>Cirsium scariosum Nuttall var. thorneae</variety_name>
+  <authority>S. L. Welsh</authority>
+  <place_of_publication>Great Basin Naturalist 42: 201. 1982</place_of_publication>
+  <common_name>Thorne’s thistle</common_name>
+  <description>
+    <statement id="154.txt-0">
+      <text>Plants erect, caulescent (rarely nearly acaulescent), 20–130 cm.</text>
+      <structure id="o1493" name="whole_organism">
+        <character name="orientation" value="erect" />
+        <character name="architecture" value="caulescent" />
+        <character char_type="range_value" name="size" from="20" from_unit="cm" to="130" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="154.txt-1">
+      <text>Stems distally short-branched to openly much-branched throughout, leafy, glabrous or villous with septate trichomes.</text>
+      <structure id="o1494" name="stem">
+        <character name="architecture_or_shape" value="short-branched" modifier="distally" />
+        <character name="architecture_or_shape" value="much-branched" modifier="openly ; throughout" />
+        <character name="architecture" value="leafy" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="villous" constraint="with trichomes" constraintid="o1495" />
+      </structure>
+      <structure id="o1495" name="trichome">
+        <character name="architecture" value="septate" />
+      </structure>
+    </statement>
+    <statement id="154.txt-2">
+      <text>Leaves:</text>
+      <structure id="o1496" name="leaf" />
+    </statement>
+    <statement id="154.txt-3">
+      <text>blades oblong, oblanceolate, or narrowly elliptic, usually pinnately lobed more than halfway to midveins, abaxial faces glabrous or gray-tomentose, adaxial glabrous;</text>
+      <structure id="o1497" name="blade">
+        <character name="shape" value="oblong" />
+        <character name="shape" value="oblanceolate" />
+        <character name="arrangement_or_shape" value="elliptic" modifier="narrowly" />
+        <character name="shape" value="lobed" modifier="usually pinnately" constraint="more than halfway to midveins" constraintid="o1498" />
+      </structure>
+      <structure id="o1498" name="midvein">
+        <character name="position" value="halfway" />
+      </structure>
+      <structure id="o1499" name="face" constraint="abaxial">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="gray-tomentose" />
+        <character name="insertion_or_position" value="adaxial" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="154.txt-4">
+      <text>distal usually deeply divided, fiercely armed with stout spines, the longer 1–3 cm.</text>
+      <structure id="o1500" name="leaf" constraint="distal">
+        <character name="shape" value="divided" modifier="usually deeply" />
+        <character name="architecture" value="armed" modifier="fiercely" constraint="with spines" constraintid="o1501" />
+      </structure>
+      <structure id="o1501" name="spine">
+        <character name="fragility" value="stout" />
+      </structure>
+      <structure id="o1502" name="leaf" constraint="longer">
+        <character char_type="range_value" name="size" from="1" from_unit="cm" to="3" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="154.txt-5">
+      <text>Heads 1–10+, sessile or pedunculate, solitary or crowded near tip of main stem or branches, usually subtended and ± overtopped by distal leaves.</text>
+      <structure id="o1503" name="head">
+        <character char_type="range_value" name="count" from="1" to="10" upper_restricted="false" />
+        <character name="architecture" value="sessile" />
+        <character name="architecture" value="pedunculate" />
+        <character name="arrangement_or_habit" value="solitary" />
+        <character name="architecture" value="crowded" constraint="near tip" constraintid="o1504" />
+        <character name="position" value="overtopped" modifier="±" constraint="by leaves" constraintid="o1507" />
+      </structure>
+      <structure id="o1504" name="tip" />
+      <structure id="o1505" name="stem" constraint="main" />
+      <structure id="o1506" name="branch" />
+      <relation id="r243" name="part_of" from="o1504" to="o1505" negation="false" />
+      <relation id="r244" name="part_of" from="o1504" to="o1506" negation="false" />
+      <structure id="o1507" name="leaf" constraint="distal" />
+    </statement>
+    <statement id="154.txt-6">
+      <text>Involucres (broadly ovoid to hemispheric) 2.5–3.5 cm.</text>
+      <structure id="o1508" name="involucre">
+        <character char_type="range_value" name="size" from="2.5" from_unit="cm" to="3.5" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="154.txt-7">
+      <text>Phyllaries:</text>
+      <structure id="o1509" name="phyllary" />
+    </statement>
+    <statement id="154.txt-8">
+      <text>outer and mid lanceolate to narrowly ovate, spines slender to stout, 2–8 mm;</text>
+      <structure id="o1510" name="phyllary" constraint="outer and mid" />
+      <structure id="o1511" name="spine">
+        <character name="size" value="slender" />
+        <character name="fragility" value="stout" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="154.txt-9">
+      <text>apices of inner usually abruptly expanded into scarious, erose-toothed appendages.</text>
+      <structure id="o1512" name="apex">
+        <character name="size" value="expanded" modifier="usually abruptly" constraint="into appendages" constraintid="o1514" />
+      </structure>
+      <structure id="o1513" name="phyllary" constraint="inner" />
+      <relation id="r245" name="part_of" from="o1512" to="o1513" negation="false" />
+      <structure id="o1514" name="appendage">
+        <character name="texture" value="scarious" />
+        <character name="shape" value="erose-toothed" />
+      </structure>
+    </statement>
+    <statement id="154.txt-10">
+      <text>Corollas white to dull purple, 29–34 mm, tubes 14–18 mm, throats 6.5–9 mm, lobes 7–8.5 mm;</text>
+      <structure id="o1515" name="corolla">
+        <character char_type="range_value" name="coloration" from="white" to="dull-purple" />
+        <character name="coloration" value="white" />
+        <character name="coloration" value="purple" modifier="dull" />
+        <character char_type="range_value" name="size" from="29" from_unit="mm" to="34" to_unit="mm" />
+      </structure>
+      <structure id="o1516" name="tube">
+        <character char_type="range_value" name="size" from="14" from_unit="mm" to="18" to_unit="mm" />
+      </structure>
+      <structure id="o1517" name="throat">
+        <character char_type="range_value" name="size" from="6.5" from_unit="mm" to="9" to_unit="mm" />
+      </structure>
+      <structure id="o1518" name="lobe">
+        <character char_type="range_value" name="size" from="7" from_unit="mm" to="8.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="154.txt-11">
+      <text>style tips 5–6.5 mm.</text>
+      <structure id="o1519" name="tip" constraint="style">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="6.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="154.txt-12">
+      <text>Cypselae 4.5–5 mm;</text>
+      <structure id="o1520" name="cypsela">
+        <character char_type="range_value" name="size" from="4.5" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="154.txt-13">
+      <text>pappi 20–27 mm.</text>
+      <structure id="o1521" name="pappus">
+        <character char_type="range_value" name="size" from="20" from_unit="mm" to="27" to_unit="mm" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>meadows</habitat>
+  <habitat>streamsides</habitat>
+  <habitat>valley bottoms</habitat>
+  <habitat>often in saline soils</habitat>
+  <elevation>1500–2200 m;</elevation>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>Utah.</us_distribution>
+  <discussion>Variety thorneae grows mostly in the Basin and Range province of Utah with populations in eastern Nevada, southern Idaho, and western Colorado.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

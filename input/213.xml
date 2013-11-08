@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>8.</number>
+  <species_name>Centaurea ×moncktonii</species_name>
+  <authority>C. E. Britton</authority>
+  <place_of_publication>Bot. Soc. Exch. Club Brit. Isles 6: 172. 1921</place_of_publication>
+  <past_name>monktonii</past_name>
+  <common_name>Meadow or protean knapweed</common_name>
+  <synonym_of_species_name>Centaurea debeauxii Godron &amp; Grenier subsp. thuillieri Dostál; C. jacea Linnaeus var. pratensis W. D. J. Koch; C. jacea subsp. ×pratensis (W. D. J. Koch) Celakovsky; C. nigra Linnaeus var. radiata de Candolle; C. thuillieri (Dostál) J. Duvigneaud &amp; Lambinon</synonym_of_species_name>
+  <description>
+    <statement id="213.txt-0">
+      <text>Perennials, 30–150 cm.</text>
+      <structure id="o3333" name="whole_organism">
+        <character char_type="range_value" name="size" from="30" from_unit="cm" to="150" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="213.txt-1">
+      <text>Stems 1–few, erect or ascending, openly branched distally, villous to scabrous with septate hairs and loosely tomentose, ± glabrate.</text>
+      <structure id="o3334" name="stem">
+        <character char_type="range_value" name="count" from="1" to="few" />
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="ascending" />
+        <character name="architecture_or_shape" value="branched" modifier="openly ; distally" />
+        <character char_type="range_value" name="pubescence" from="villous" to="scabrous" />
+        <character name="pubescence" value="villous" />
+        <character name="pubescence" value="scabrous" constraint="with hairs" constraintid="o3335" />
+        <character name="pubescence" value="glabrate" modifier="±" />
+      </structure>
+      <structure id="o3335" name="hair">
+        <character name="architecture" value="septate" />
+        <character name="pubescence" value="tomentose" modifier="loosely" />
+      </structure>
+    </statement>
+    <statement id="213.txt-2">
+      <text>Leaves:</text>
+      <structure id="o3336" name="leaf" />
+    </statement>
+    <statement id="213.txt-3">
+      <text>basal and proximal cauline petiolate, blades oblanceolate or elliptic, 5–25 cm, margins entire or shallowly dentate to irregularly pinnately lobed;</text>
+      <structure id="o3337" name="leaf" constraint="basal and proximal cauline">
+        <character name="architecture" value="petiolate" />
+      </structure>
+      <structure id="o3338" name="blade">
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="elliptic" />
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="25" to_unit="cm" />
+      </structure>
+      <structure id="o3339" name="margin">
+        <character char_type="range_value" name="shape" from="shallowly dentate" to="irregularly pinnately lobed" />
+        <character name="shape" value="entire" />
+        <character name="shape" value="dentate" modifier="shallowly" />
+        <character name="shape" value="lobed" modifier="irregularly pinnately" />
+      </structure>
+    </statement>
+    <statement id="213.txt-4">
+      <text>distal cauline sessile, not decurrent, blades linear to lanceolate, gradually smaller, entire or dentate.</text>
+      <structure id="o3340" name="leaf" constraint="distal cauline">
+        <character name="architecture" value="sessile" />
+        <character name="shape" value="decurrent" modifier="not" />
+      </structure>
+      <structure id="o3341" name="blade">
+        <character char_type="range_value" name="shape" from="linear" to="lanceolate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="lanceolate" />
+        <character name="size" value="smaller" modifier="gradually" />
+        <character name="shape" value="entire" />
+        <character name="shape" value="dentate" />
+      </structure>
+    </statement>
+    <statement id="213.txt-5">
+      <text>Heads usually radiant (rarely discoid), in few-headed corymbiform arrays, borne on leafy-bracted peduncles.</text>
+      <structure id="o3342" name="head">
+        <character name="architecture_or_arrangement" value="radiant" modifier="usually" />
+      </structure>
+      <structure id="o3343" name="array">
+        <character name="architecture_or_shape" value="few-headed" />
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <relation id="r467" name="in" from="o3342" to="o3343" negation="false" />
+      <structure id="o3344" name="peduncle">
+        <character name="architecture" value="leafy-bracted" />
+      </structure>
+      <relation id="r468" name="borne on" from="o3342" to="o3344" negation="false" />
+    </statement>
+    <statement id="213.txt-6">
+      <text>Involucres ovoid to campanulate or hemispheric, 15–l8 mm, usually ± as wide as high.</text>
+      <structure id="o3345" name="involucre">
+        <character char_type="range_value" name="shape" from="ovoid" to="campanulate or hemispheric" />
+        <character name="shape" value="ovoid" />
+        <character name="shape" value="campanulate" />
+        <character name="shape" value="hemispheric" />
+        <character name="count" value="15" modifier="l8 mm" />
+      </structure>
+    </statement>
+    <statement id="213.txt-7">
+      <text>Principal phyllaries:</text>
+      <structure id="o3346" name="phyllary" constraint="principal" />
+    </statement>
+    <statement id="213.txt-8">
+      <text>bodies lanceolate to ovate, loosely tomentose or glabrous, usually concealed by expanded appendages, appendages erect, overlapping, light to dark brown, flat or ± concave, margins varying from coarsely dentate to pectinately dissected into ± wiry lobes.</text>
+      <structure id="o3347" name="body">
+        <character char_type="range_value" name="shape" from="lanceolate" to="ovate" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="ovate" />
+        <character name="pubescence" value="tomentose" modifier="loosely" />
+        <character name="pubescence" value="glabrous" modifier="loosely" />
+        <character name="manifestation" value="concealed" modifier="usually" constraint="by appendages" constraintid="o3348" />
+      </structure>
+      <structure id="o3348" name="appendage">
+        <character name="size" value="expanded" />
+      </structure>
+      <structure id="o3349" name="appendage">
+        <character name="orientation" value="erect" />
+        <character name="aestivation_or_arrangement" value="overlapping" />
+        <character char_type="range_value" name="coloration" from="light" to="dark-brown" />
+        <character name="coloration" value="light" />
+        <character name="coloration" value="brown" modifier="dark" />
+        <character name="shape" value="flat" />
+        <character name="shape" value="concave" modifier="±" />
+      </structure>
+      <structure id="o3350" name="margin">
+        <character name="variability" value="varying" constraint="from lobes" constraintid="o3351" />
+      </structure>
+      <structure id="o3351" name="lobe">
+        <character char_type="range_value" name="shape" from="coarsely dentate" to="pectinately dissected" />
+        <character name="shape" value="dentate" modifier="coarsely" />
+        <character name="shape" value="dissected" modifier="pectinately" />
+        <character name="architecture" value="wiry" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="213.txt-9">
+      <text>Inner phyllaries :</text>
+      <structure id="o3352" name="phyllary" constraint="inner" />
+    </statement>
+    <statement id="213.txt-10">
+      <text>tips truncate, irregularly dentate or lobed.</text>
+      <structure id="o3353" name="tip">
+        <character name="shape" value="truncate" />
+        <character name="shape" value="dentate" modifier="irregularly" />
+        <character name="shape" value="lobed" modifier="irregularly" />
+      </structure>
+    </statement>
+    <statement id="213.txt-11">
+      <text>Florets 40–100+, all fertile or the peripheral sterile;</text>
+      <structure id="o3354" name="floret">
+        <character char_type="range_value" name="count" from="40" to="100" upper_restricted="false" />
+        <character name="reproduction" value="fertile" />
+        <character name="insertion_or_position" value="peripheral" />
+        <character name="reproduction" value="sterile" />
+      </structure>
+    </statement>
+    <statement id="213.txt-12">
+      <text>corollas purple (rarely white), those of sterile florets ± expanded and exceeding corollas of fertile florets, those of fertile florets 15–18 mm.</text>
+      <structure id="o3355" name="corolla">
+        <character name="coloration" value="purple" />
+      </structure>
+      <structure id="o3356" name="corolla">
+        <character name="size" value="expanded" modifier="±" />
+      </structure>
+      <structure id="o3357" name="floret" constraint="sterile" />
+      <relation id="r469" name="part_of" from="o3356" to="o3357" negation="false" />
+      <structure id="o3358" name="corolla" />
+      <structure id="o3359" name="floret" constraint="fertile" />
+      <relation id="r470" name="part_of" from="o3358" to="o3359" negation="false" />
+      <structure id="o3360" name="corolla">
+        <character char_type="range_value" name="size" from="15" from_unit="mm" to="18" to_unit="mm" />
+      </structure>
+      <structure id="o3361" name="floret" constraint="fertile" />
+      <relation id="r471" name="part_of" from="o3360" to="o3361" negation="false" />
+    </statement>
+    <statement id="213.txt-13">
+      <text>Cypselae tan, 2.5–3 mm, finely hairy;</text>
+      <structure id="o3362" name="cypsela">
+        <character name="coloration" value="tan" />
+        <character char_type="range_value" name="size" from="2.5" from_unit="mm" to="3" to_unit="mm" />
+        <character name="pubescence" value="hairy" modifier="finely" />
+      </structure>
+    </statement>
+    <statement id="213.txt-14">
+      <text>pappi 0 or of many unequal, sometimes caducous bristles 0.5–1 mm.</text>
+      <structure id="o3363" name="pappus">
+        <character name="count" value="0" />
+        <character name="count" value="of many unequal , sometimes caducous bristles" />
+      </structure>
+      <structure id="o3364" name="bristle">
+        <character name="count" value="many" />
+        <character name="size" value="unequal" />
+        <character name="duration" value="caducous" modifier="sometimes" />
+        <character char_type="range_value" name="size" from="0.5" from_unit="mm" to="1" to_unit="mm" />
+      </structure>
+      <relation id="r472" name="consist_of" from="o3363" to="o3364" negation="false" />
+    </statement>
+    <statement id="213.txt-15">
+      <text>2 n = 22 (England), 44.</text>
+      <structure id="o3365" name="chromosome">
+        <character name="count" value="22" />
+        <character name="count" value="44" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <flowering_time>nov</flowering_time>
+  <habitat>roadsides</habitat>
+  <habitat>riverbanks</habitat>
+  <habitat>pastures</habitat>
+  <habitat>meadows</habitat>
+  <habitat>forest openings</habitat>
+  <habitat>waste areas</habitat>
+  <elevation>0–1000 m;</elevation>
+  <introduced>introduced;</introduced>
+  <ca_distribution>B.C.</ca_distribution>
+  <ca_distribution>Nfld. and Labr.</ca_distribution>
+  <ca_distribution>N.S.</ca_distribution>
+  <ca_distribution>Ont.</ca_distribution>
+  <ca_distribution>Que.</ca_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Conn.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Ill.</us_distribution>
+  <us_distribution>Maine</us_distribution>
+  <us_distribution>Mass.</us_distribution>
+  <us_distribution>Mich.</us_distribution>
+  <us_distribution>Minn.</us_distribution>
+  <us_distribution>Mo.</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>N.H.</us_distribution>
+  <us_distribution>N.J.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>Ohio</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <us_distribution>R.I.</us_distribution>
+  <us_distribution>Vt.</us_distribution>
+  <us_distribution>Va.</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <us_distribution>Wis.</us_distribution>
+  <global_distribution>Europe.</global_distribution>
+  <discussion>Centaurea ×moncktonii is native to Europe or originated in North America from European ancestry.</discussion>
+  <discussion>Meadow knapweeds represent an array of mutually interfertile intermediates derived by hybridization and backcrossing among the various cytotypes of the Centaurea jacea complex. The plants variously combine features of C. jacea and C. nigra, and perhaps C. nigrescens as well. The hybrid complex includes both diploids and tetraploids. Extremes approach the parental types. Meadow knapweeds are often present without either parent in the immediate vicinity. They are considered to be noxious weeds in British Columbia, Idaho, Oregon, and Washington.</discussion>
+  <discussion>Centaurea pratensis J. L. Thuillier, sometimes applied to plants that belong here, is not a legitimate name.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

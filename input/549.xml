@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Stephanomeria cichoriacea</species_name>
+  <authority>A. Gray</authority>
+  <place_of_publication>Proc. Amer. Acad. Arts 6: 552. 1865</place_of_publication>
+  <past_name>cichoracea</past_name>
+  <common_name>Chicoryleaf wirelettuce</common_name>
+  <description>
+    <statement id="549.txt-0">
+      <text>Perennials, 40–100 cm.</text>
+      <structure id="o11328" name="whole_organism">
+        <character char_type="range_value" name="size" from="40" from_unit="cm" to="100" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="549.txt-1">
+      <text>Stems single, simple or virgately branched, woolly-pubescent when young, glabrescent.</text>
+      <structure id="o11329" name="stem">
+        <character name="count" value="single" />
+        <character name="architecture" value="simple" />
+        <character name="architecture" value="branched" modifier="virgately" />
+        <character name="pubescence" value="woolly-pubescent" />
+        <character name="age" value="young" />
+        <character name="pubescence" value="glabrescent" />
+      </structure>
+    </statement>
+    <statement id="549.txt-2">
+      <text>Leaves green at flowering (spreading at bases);</text>
+      <structure id="o11330" name="leaf">
+        <character name="coloration" value="green" modifier="at flowering" />
+      </structure>
+    </statement>
+    <statement id="549.txt-3">
+      <text>blades oblanceolate to spatulate, 10–20 cm, margins entire or irregularly toothed, teeth remote, faces woolly-pubescent, glabrescent;</text>
+      <structure id="o11331" name="blade">
+        <character char_type="range_value" name="shape" from="oblanceolate" to="spatulate" />
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="spatulate" />
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="20" to_unit="cm" />
+      </structure>
+      <structure id="o11332" name="margin">
+        <character name="shape" value="entire" />
+        <character name="shape" value="toothed" modifier="irregularly" />
+      </structure>
+      <structure id="o11333" name="tooth">
+        <character name="arrangement" value="remote" />
+      </structure>
+      <structure id="o11334" name="face">
+        <character name="pubescence" value="woolly-pubescent" />
+        <character name="pubescence" value="glabrescent" />
+      </structure>
+    </statement>
+    <statement id="549.txt-4">
+      <text>cauline much reduced distally, margins entire or irregularly toothed.</text>
+      <structure id="o11335" name="leaf" constraint="cauline">
+        <character name="size" value="reduced" modifier="much ; distally" />
+      </structure>
+      <structure id="o11336" name="margin">
+        <character name="shape" value="entire" />
+        <character name="shape" value="toothed" modifier="irregularly" />
+      </structure>
+    </statement>
+    <statement id="549.txt-5">
+      <text>Heads borne singly along branches.</text>
+      <structure id="o11337" name="head" />
+      <structure id="o11338" name="branch" />
+      <relation id="r1296" name="borne along" from="o11337" to="o11338" negation="false" />
+    </statement>
+    <statement id="549.txt-6">
+      <text>Peduncles ± 0.</text>
+      <structure id="o11339" name="peduncle">
+        <character name="count" value="0" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="549.txt-7">
+      <text>Calyculi 0 (or bractlets intergrading with phyllaries).</text>
+      <structure id="o11340" name="calyculus">
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+    <statement id="549.txt-8">
+      <text>Involucres 12– 15 mm (phyllaries 20–25 in 2–3 series, appressed, 2–15 mm, unequal, puberulent; receptacles pitted, each socket 5-sided, surrounded by minute, raised, scaly fringe).</text>
+      <structure id="o11341" name="involucre">
+        <character char_type="range_value" name="size" from="12" from_unit="mm" to="15" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="549.txt-9">
+      <text>Florets 10–13.</text>
+      <structure id="o11342" name="floret">
+        <character char_type="range_value" name="count" from="10" to="13" />
+      </structure>
+    </statement>
+    <statement id="549.txt-10">
+      <text>Cypselae tan or grayish tan, 5–6 mm, faces smooth, grooved (grooves sometimes absent or only visible as fine lines or striations) ;</text>
+      <structure id="o11343" name="cypsela">
+        <character name="coloration" value="tan" />
+        <character name="coloration" value="tan" modifier="grayish" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+      <structure id="o11344" name="face">
+        <character name="architecture_or_relief" value="smooth" />
+        <character name="architecture" value="grooved" />
+      </structure>
+    </statement>
+    <statement id="549.txt-11">
+      <text>pappi of 20–25, tan to pale brown bristles (persistent), wholly plumose.</text>
+      <structure id="o11345" name="pappus">
+        <character name="architecture" value="plumose" modifier="wholly" />
+      </structure>
+      <structure id="o11346" name="bristle">
+        <character char_type="range_value" name="count" from="20" to="25" />
+        <character char_type="range_value" name="coloration" from="tan" to="pale-brown" />
+        <character name="coloration" value="tan" />
+        <character name="coloration" value="brown" modifier="pale" />
+      </structure>
+      <relation id="r1297" name="consist_of" from="o11345" to="o11346" negation="false" />
+    </statement>
+    <statement id="549.txt-12">
+      <text>2 n = 16.</text>
+      <structure id="o11347" name="chromosome">
+        <character name="count" value="16" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>may</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <flowering_time>nov</flowering_time>
+  <habitat>sandstone</habitat>
+  <habitat>granitic, volcanic, or serpentine soils in coastal scrub and foothill canyons</habitat>
+  <habitat>chaparral</habitat>
+  <habitat>mixed evergreen forests</habitat>
+  <elevation>50–1500 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <discussion>Stephanomeria cichoriacea grows primarily in the coastal mountains from southern Monterey County to the San Bernardino Mountains, Santa Ana Mountains, and the Channel Islands.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

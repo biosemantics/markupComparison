@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>2.</number>
+  <species_name>Soliva anthemifolia</species_name>
+  <authority>(Jussieu) Sweet</authority>
+  <place_of_publication>Hort. Brit., 243. 1826</place_of_publication>
+  <common_name>Button burrweed</common_name>
+  <synonym_of_species_name>Gymnostyles anthemifolia Jussieu, Ann. Mus. Natl. Hist. Nat. 4: 262, plate 61, fig. 1. 1804; Soliva mutisii Kunth</synonym_of_species_name>
+  <description>
+    <statement id="951.txt-0">
+      <text>Plants mostly 3–15(–30+) cm (high or across), ± villous, glabrescent (sometimes stoloniferous, ± mat-forming).</text>
+      <structure id="o19634" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="15" to="30" from_unit="cm" to_unit="cm" upper_restricted="false" from_inclusive="false" modifier="mostly" />
+        <character char_type="range_value" name="size" from="3" from_unit="cm" to="15" to_unit="cm" modifier="mostly" />
+        <character name="pubescence" value="villous" modifier="±" />
+        <character name="pubescence" value="glabrescent" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="951.txt-1">
+      <text>Leaves mostly basal;</text>
+      <structure id="o19635" name="leaf">
+        <character name="insertion_or_position" value="basal" modifier="mostly" />
+      </structure>
+    </statement>
+    <statement id="951.txt-2">
+      <text>blades ± obovate to spatulate, 3–8(–15) cm, 2–3-pinnati-palmately lobed.</text>
+      <structure id="o19636" name="blade">
+        <character char_type="range_value" name="shape" from="obovate" to="spatulate" modifier="±" />
+        <character name="shape" value="obovate" modifier="±" />
+        <character name="shape" value="spatulate" modifier="±" />
+        <character char_type="range_value" name="atypical_size" from="8" to="15" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="3" from_unit="cm" to="8" to_unit="cm" />
+        <character name="shape" value="lobed" modifier="2-3-pinnati-palmately" />
+      </structure>
+    </statement>
+    <statement id="951.txt-3">
+      <text>Heads mostly clustered in leaf axils (at ground level), rarely scattered along stems.</text>
+      <structure id="o19637" name="head">
+        <character name="arrangement_or_habit" value="clustered" modifier="mostly" constraint="in leaf axils" constraintid="o19638" />
+        <character name="arrangement" value="scattered" modifier="rarely" constraint="along stems" constraintid="o19639" />
+      </structure>
+      <structure id="o19638" name="axil" constraint="leaf" />
+      <structure id="o19639" name="stem" />
+    </statement>
+    <statement id="951.txt-4">
+      <text>Involucres 4–8+ mm diam.</text>
+      <structure id="o19640" name="involucre">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="8" to_unit="mm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="951.txt-5">
+      <text>Pistillate florets (20–)50–100+ in 1–8+ series.</text>
+      <structure id="o19641" name="floret" constraint="pistillate">
+        <character char_type="range_value" name="atypical_count" from="20" to="50" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="50" to="100" upper_restricted="false" constraint="in series" constraintid="o19642" />
+      </structure>
+      <structure id="o19642" name="series">
+        <character char_type="range_value" name="count" from="1" to="8" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="951.txt-6">
+      <text>Disc florets 2–4+;</text>
+      <structure id="o19643" name="floret" constraint="disc">
+        <character char_type="range_value" name="count" from="2" to="4" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="951.txt-7">
+      <text>corollas 1.5–2 mm.</text>
+      <structure id="o19644" name="corolla">
+        <character char_type="range_value" name="size" from="1.5" from_unit="mm" to="2" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="951.txt-8">
+      <text>Cypselae:</text>
+      <structure id="o19645" name="cypsela" />
+    </statement>
+    <statement id="951.txt-10">
+      <text>pappi 0 (persistent stylar sheaths indurate, spinelike, 1.5–3 mm, usually inflexed). 2 n = 118 (Punjab).</text>
+      <structure id="o19646" name="pappus">
+        <character name="count" value="0" />
+      </structure>
+      <structure name="chromosome" id="o19647">
+        <character name="count" value="118" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <habitat>disturbed sites</habitat>
+  <elevation>10–100+ m;</elevation>
+  <introduced>introduced;</introduced>
+  <us_distribution>Ark.</us_distribution>
+  <us_distribution>Fla.</us_distribution>
+  <us_distribution>La.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <global_distribution>South America</global_distribution>
+  <global_distribution>introduced also in Mexico</global_distribution>
+  <global_distribution>Asia</global_distribution>
+  <global_distribution>Australia.</global_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

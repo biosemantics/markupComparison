@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>43.</number>
+  <genus_name>MYCELIS</genus_name>
+  <authority>Cassini</authority>
+  <place_of_publication>in F. Cuvier, Dict. Sci. Nat. ed. 2, 33: 483. 1824</place_of_publication>
+  <common_name />
+  <derivation>No etymology in protologue; no readily discernible meaning from Greek or Latin roots</derivation>
+  <author_of_tribe_genus>John L. Strother</author_of_tribe_genus>
+  <description>
+    <statement id="343.txt-0">
+      <text>Annuals or perennials, (10–)40–90+ cm;</text>
+    </statement>
+    <statement id="343.txt-1">
+      <text>taprooted.</text>
+      <structure id="o6379" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="10" to="40" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="40" from_unit="cm" to="90" to_unit="cm" upper_restricted="false" />
+        <character name="life_style" value="annual" />
+        <character name="life_style" value="perennial" />
+        <character name="architecture" value="taprooted" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="343.txt-2">
+      <text>Stems usually 1, usually erect, branched distally, glabrous.</text>
+      <structure id="o6381" name="stem">
+        <character name="count" value="1" modifier="usually" />
+        <character name="orientation" value="erect" modifier="usually" />
+        <character name="architecture_or_shape" value="branched" modifier="distally" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="343.txt-3">
+      <text>Leaves basal and cauline (mostly cauline at flowering);</text>
+      <structure id="o6382" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+      </structure>
+    </statement>
+    <statement id="343.txt-4">
+      <text>proximal ± petiolate, distal ± sessile;</text>
+      <structure id="o6383" name="leaf" constraint="proximal">
+        <character name="architecture" value="petiolate" modifier="±" />
+      </structure>
+      <structure id="o6384" name="leaf" constraint="distal">
+        <character name="architecture" value="sessile" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="343.txt-5">
+      <text>blades oblanceolate to spatulate (bases often clasping), margins pinnately lobed (lyrate to runcinate, terminal lobes ± deltate) and ± sharply dentate (faces glabrous).</text>
+      <structure id="o6385" name="blade">
+        <character char_type="range_value" name="shape" from="oblanceolate" to="spatulate" />
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="spatulate" />
+      </structure>
+      <structure id="o6386" name="margin">
+        <character name="shape" value="lobed" modifier="pinnately" />
+        <character name="shape" value="dentate" modifier="± sharply" />
+      </structure>
+    </statement>
+    <statement id="343.txt-6">
+      <text>Heads in paniculiform to thyrsiform arrays.</text>
+      <structure id="o6387" name="head" />
+      <structure id="o6388" name="array">
+        <character char_type="range_value" name="architecture" from="paniculiform" to="thyrsiform" />
+        <character name="architecture" value="paniculiform" />
+        <character name="architecture" value="thyrsiform" />
+      </structure>
+      <relation id="r794" name="in" from="o6387" to="o6388" negation="false" />
+    </statement>
+    <statement id="343.txt-7">
+      <text>Peduncles not inflated distally, sometimes bracteolate.</text>
+      <structure id="o6389" name="peduncle">
+        <character name="shape" value="inflated" modifier="not ; distally" />
+        <character name="architecture" value="bracteolate" modifier="sometimes" />
+      </structure>
+    </statement>
+    <statement id="343.txt-8">
+      <text>Calyculi of 2–4 (often spreading to patent), ± deltate to lanceolate bractlets in 1 series.</text>
+      <structure id="o6390" name="calyculus" />
+      <structure id="o6391" name="bractlet">
+        <character char_type="range_value" name="count" from="2" to="4" />
+        <character char_type="range_value" name="shape" from="deltate" to="lanceolate" />
+        <character name="shape" value="deltate" />
+        <character name="shape" value="lanceolate" />
+      </structure>
+      <relation id="r795" name="consist_of" from="o6390" to="o6391" negation="false" />
+      <structure id="o6392" name="series">
+        <character name="count" value="1" />
+      </structure>
+      <relation id="r796" name="in" from="o6391" to="o6392" negation="false" />
+    </statement>
+    <statement id="343.txt-9">
+      <text>Involucres narrowly cylindric, 1–2+ mm diam.</text>
+      <structure id="o6393" name="involucre">
+        <character name="shape" value="cylindric" modifier="narrowly" />
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="2" to_unit="mm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="343.txt-10">
+      <text>Phyllaries (4–)5 in 1(–2) series (reflexed in fruit), linear, equal, margins little, if at all, scarious, apices rounded.</text>
+      <structure id="o6394" name="phyllary">
+        <character char_type="range_value" name="atypical_count" from="4" to="5" to_inclusive="false" />
+        <character name="count" value="5" constraint="in -2 series" constraintid="o6395" />
+        <character name="arrangement_or_shape" value="linear" />
+        <character name="size" value="equal" />
+      </structure>
+      <structure id="o6395" name="series" constraint="-2">
+        <character name="count" value="1" />
+      </structure>
+      <structure id="o6396" name="margin">
+        <character name="texture" value="scarious" />
+      </structure>
+      <structure id="o6397" name="apex">
+        <character name="shape" value="rounded" />
+      </structure>
+    </statement>
+    <statement id="343.txt-11">
+      <text>Receptacles flat to convex, weakly pitted, glabrous, epaleate.</text>
+      <structure id="o6398" name="receptacle">
+        <character char_type="range_value" name="shape" from="flat" to="convex" />
+        <character name="shape" value="flat" />
+        <character name="shape" value="convex" />
+        <character name="relief" value="pitted" modifier="weakly" />
+        <character name="pubescence" value="glabrous" />
+        <character name="architecture" value="epaleate" />
+      </structure>
+    </statement>
+    <statement id="343.txt-12">
+      <text>Florets 5;</text>
+      <structure id="o6399" name="floret">
+        <character name="count" value="5" />
+      </structure>
+    </statement>
+    <statement id="343.txt-13">
+      <text>corollas yellow.</text>
+      <structure id="o6400" name="corolla">
+        <character name="coloration" value="yellow" />
+      </structure>
+    </statement>
+    <statement id="343.txt-14">
+      <text>Cypselae:</text>
+      <structure id="o6401" name="cypsela" />
+    </statement>
+    <statement id="343.txt-15">
+      <text>bodies blackish to reddish, compressed, obovoid to lanceoloid, beaks whitish, stout, ribs 5–7 on each face, faces scabrellous;</text>
+      <structure id="o6402" name="body">
+        <character char_type="range_value" name="coloration" from="blackish" to="reddish" />
+        <character name="coloration" value="blackish" />
+        <character name="coloration" value="reddish" />
+        <character char_type="range_value" name="shape" from="compressed , obovoid" to="lanceoloid" />
+        <character name="shape" value="compressed" />
+        <character name="shape" value="obovoid" />
+        <character name="shape" value="lanceoloid" />
+      </structure>
+      <structure id="o6403" name="beak">
+        <character name="coloration" value="whitish" />
+        <character name="fragility" value="stout" />
+      </structure>
+      <structure id="o6404" name="rib">
+        <character char_type="range_value" name="count" from="5" to="7" constraint="on face" constraintid="o6405" />
+      </structure>
+      <structure id="o6405" name="face" />
+      <structure id="o6406" name="face">
+        <character name="relief" value="scabrellous" />
+      </structure>
+    </statement>
+    <statement id="343.txt-16">
+      <text>pappi persistent (borne on discs at tips of beaks), white;</text>
+      <structure id="o6407" name="pappus">
+        <character name="duration" value="persistent" />
+        <character name="coloration" value="white" />
+      </structure>
+    </statement>
+    <statement id="343.txt-17">
+      <text>outer of 12–20+, minute setae, inner of 60–80+, white, subequal, barbellulate bristles in 1–2+ series.</text>
+      <structure id="o6408" name="cypsela" constraint="outer" />
+      <structure id="o6409" name="seta">
+        <character char_type="range_value" name="count" from="12" to="20" upper_restricted="false" />
+        <character name="size" value="minute" />
+      </structure>
+      <relation id="r797" name="part_of" from="o6408" to="o6409" negation="false" />
+      <structure id="o6410" name="cypsela" constraint="inner" />
+      <structure id="o6411" name="bristle">
+        <character char_type="range_value" name="count" from="60" to="80" upper_restricted="false" />
+        <character name="coloration" value="white" />
+        <character name="size" value="subequal" />
+        <character name="architecture" value="barbellulate" />
+      </structure>
+      <relation id="r798" name="part_of" from="o6410" to="o6411" negation="false" />
+      <structure id="o6412" name="series">
+        <character char_type="range_value" name="count" from="1" to="2" upper_restricted="false" />
+      </structure>
+      <relation id="r799" name="in" from="o6410" to="o6412" negation="false" />
+    </statement>
+    <statement id="343.txt-18">
+      <text>x = 9 .</text>
+      <structure id="o6413" name="chromosome">
+        <character name="count" value="9" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species 1:</number_of_infrataxa>
+  <introduced>introduced;</introduced>
+  <general_distribution>Europe.</general_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

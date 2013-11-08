@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>20.</number>
+  <species_name>Centaurea sulphurea</species_name>
+  <authority>Willdenow</authority>
+  <place_of_publication>Enum. Pl., 930. 1809</place_of_publication>
+  <common_name>Sicilian star-thistle, sulphur-colored Sicilian thistle, sulphur knapweed</common_name>
+  <description>
+    <statement id="227.txt-0">
+      <text>Annuals , 10–100 cm.</text>
+      <structure id="o3730" name="whole_organism">
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="100" to_unit="cm" />
+        <character name="life_style" value="annual" />
+      </structure>
+    </statement>
+    <statement id="227.txt-1">
+      <text>Stems simple to openly branched, branches ascending, villous to hispid with septate hairs and loosely tomentose.</text>
+      <structure id="o3731" name="stem">
+        <character char_type="range_value" name="architecture" from="simple" to="openly branched" />
+        <character name="architecture" value="simple" />
+        <character name="architecture" value="branched" modifier="openly" />
+      </structure>
+      <structure id="o3732" name="branch">
+        <character name="orientation" value="ascending" />
+        <character char_type="range_value" name="pubescence" from="villous" to="hispid" />
+        <character name="pubescence" value="villous" />
+        <character name="pubescence" value="hispid" constraint="with hairs" constraintid="o3733" />
+      </structure>
+      <structure id="o3733" name="hair">
+        <character name="architecture" value="septate" />
+        <character name="pubescence" value="tomentose" modifier="loosely" />
+      </structure>
+    </statement>
+    <statement id="227.txt-2">
+      <text>Leaves ± villous to hispid with septate hairs, minutely resin-gland- dotted;</text>
+      <structure id="o3734" name="leaf">
+        <character char_type="range_value" name="pubescence" from="villous" to="hispid" modifier="±" />
+        <character name="pubescence" value="villous" modifier="±" />
+        <character name="pubescence" value="hispid" modifier="±" constraint="with hairs" constraintid="o3735" />
+        <character name="coloration_or_relief" value="resin-gland-dotted" modifier="minutely" />
+      </structure>
+      <structure id="o3735" name="hair">
+        <character name="architecture" value="septate" />
+      </structure>
+    </statement>
+    <statement id="227.txt-3">
+      <text>basal winged-petiolate , blades oblong to oblanceolate, 10–15 cm, margins pinnately lobed, lobes acute, finely dentate;</text>
+      <structure id="o3736" name="leaf" constraint="basal">
+        <character name="architecture" value="winged-petiolate" />
+      </structure>
+      <structure id="o3737" name="blade">
+        <character char_type="range_value" name="shape" from="oblong" to="oblanceolate" />
+        <character name="shape" value="oblong" />
+        <character name="shape" value="oblanceolate" />
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="15" to_unit="cm" />
+      </structure>
+      <structure id="o3738" name="margin">
+        <character name="shape" value="lobed" modifier="pinnately" />
+      </structure>
+      <structure id="o3739" name="lobe">
+        <character name="shape" value="acute" />
+        <character name="shape" value="dentate" modifier="finely" />
+      </structure>
+    </statement>
+    <statement id="227.txt-4">
+      <text>cauline sessile, long-decurrent with narrow wings, linear-oblong to oblanceolate, 1–6 cm, entire or distally serrate with short, spine-tipped teeth.</text>
+      <structure id="o3740" name="leaf" constraint="cauline">
+        <character name="architecture" value="sessile" />
+        <character name="shape" value="long-decurrent" constraint="with wings" constraintid="o3741" />
+        <character char_type="range_value" name="shape" from="linear-oblong" to="oblanceolate" />
+        <character name="shape" value="linear-oblong" />
+        <character name="shape" value="oblanceolate" />
+        <character char_type="range_value" name="size" from="1" from_unit="cm" to="6" to_unit="cm" />
+        <character name="shape" value="entire" />
+        <character name="shape" value="serrate" modifier="distally" constraint="with teeth" constraintid="o3742" />
+      </structure>
+      <structure id="o3741" name="wing">
+        <character name="size" value="narrow" />
+      </structure>
+      <structure id="o3742" name="tooth">
+        <character name="size" value="short" />
+      </structure>
+    </statement>
+    <statement id="227.txt-5">
+      <text>Heads disciform, borne singly or in open, few-headed corymbiform arrays, long-pedunculate.</text>
+      <structure id="o3743" name="head">
+        <character name="shape_or_architecture" value="disciform" />
+        <character name="arrangement" value="singly" />
+        <character name="arrangement" value="in open , few-headed corymbiform arrays" />
+        <character name="architecture" value="long-pedunculate" />
+      </structure>
+      <structure id="o3744" name="array">
+        <character name="architecture" value="open" />
+        <character name="architecture_or_shape" value="few-headed" />
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <relation id="r535" name="in" from="o3743" to="o3744" negation="false" />
+    </statement>
+    <statement id="227.txt-6">
+      <text>Involucres ovoid, 12–30 mm, distally constricted.</text>
+      <structure id="o3745" name="involucre">
+        <character name="shape" value="ovoid" />
+        <character char_type="range_value" name="size" from="12" from_unit="mm" to="30" to_unit="mm" />
+        <character name="size" value="constricted" modifier="distally" />
+      </structure>
+    </statement>
+    <statement id="227.txt-7">
+      <text>Principal phyllaries:</text>
+      <structure id="o3746" name="phyllary" constraint="principal" />
+    </statement>
+    <statement id="227.txt-8">
+      <text>bodies greenish or stramineous, ovate to elliptic, glabrous, appendages spreading to reflexed, brown to blackish purple, each with palmately radiating cluster of spines, central spine stout, 1–2.5 cm, base dark brown to black, distally stramineous.</text>
+      <structure id="o3747" name="body">
+        <character name="coloration" value="greenish" />
+        <character name="coloration" value="stramineous" />
+        <character char_type="range_value" name="shape" from="ovate" to="elliptic" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="elliptic" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+      <structure id="o3748" name="appendage">
+        <character char_type="range_value" name="orientation" from="spreading" to="reflexed" />
+        <character name="orientation" value="spreading" />
+        <character name="orientation" value="reflexed" />
+        <character char_type="range_value" name="coloration" from="brown" to="blackish-purple" />
+        <character name="coloration" value="brown" />
+        <character name="coloration" value="purple" modifier="blackish" />
+      </structure>
+      <structure id="o3749" name="spine" />
+      <relation id="r536" name="with palmately radiating cluster of" from="o3748" to="o3749" negation="false" modifier="each" />
+      <structure id="o3750" name="spine" constraint="central">
+        <character name="fragility" value="stout" />
+        <character char_type="range_value" name="size" from="1" from_unit="cm" to="2.5" to_unit="cm" />
+      </structure>
+      <structure id="o3751" name="base">
+        <character name="coloration" value="brown" modifier="dark" />
+        <character name="coloration" value="black" />
+        <character name="coloration" value="stramineous" modifier="distally" />
+      </structure>
+    </statement>
+    <statement id="227.txt-9">
+      <text>Inner phyllaries :</text>
+      <structure id="o3752" name="phyllary" constraint="inner" />
+    </statement>
+    <statement id="227.txt-10">
+      <text>appendages acute or spine-tipped.</text>
+      <structure id="o3753" name="appendage">
+        <character name="shape" value="acute" />
+        <character name="shape" value="acute" modifier="spine tipped" />
+      </structure>
+    </statement>
+    <statement id="227.txt-11">
+      <text>Florets many;</text>
+      <structure id="o3754" name="floret">
+        <character name="count" value="many" />
+      </structure>
+    </statement>
+    <statement id="227.txt-12">
+      <text>corollas yellow, all ± equal, 25–35 mm;</text>
+      <structure id="o3755" name="corolla">
+        <character name="coloration" value="yellow" />
+        <character name="size" value="equal" modifier="±" />
+        <character char_type="range_value" name="size" from="25" from_unit="mm" to="35" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="227.txt-13">
+      <text>corollas of sterile florets slender, inconspicuous.</text>
+      <structure id="o3756" name="corolla">
+        <character name="size" value="slender" />
+        <character name="manifestation" value="inconspicuous" />
+      </structure>
+      <structure id="o3757" name="floret" constraint="sterile" />
+      <relation id="r537" name="part_of" from="o3756" to="o3757" negation="false" />
+    </statement>
+    <statement id="227.txt-14">
+      <text>Cypselae dark brown, 5–8 mm, glabrous;</text>
+      <structure id="o3758" name="cypsela">
+        <character name="coloration" value="brown" modifier="dark" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="8" to_unit="mm" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="227.txt-15">
+      <text>pappi of many, brown to blackish, unequal bristles 6–7 mm.</text>
+      <structure id="o3759" name="pappus" />
+      <structure id="o3760" name="bristle">
+        <character name="count" value="many" />
+        <character char_type="range_value" name="coloration" from="brown" to="blackish" />
+        <character name="coloration" value="brown" />
+        <character name="coloration" value="blackish" />
+        <character name="size" value="unequal" />
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+      <relation id="r538" name="consist_of" from="o3759" to="o3760" negation="false" />
+    </statement>
+    <statement id="227.txt-16">
+      <text>2 n = 24.</text>
+      <structure id="o3761" name="chromosome">
+        <character name="count" value="24" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <habitat>disturbed sites</habitat>
+  <habitat>grasslands</habitat>
+  <habitat>woodlands</habitat>
+  <habitat>pastures</habitat>
+  <habitat>roadsides</habitat>
+  <elevation>0–300 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <global_distribution>sw Europe.</global_distribution>
+  <discussion>Centaurea sulphurea is considered to be a noxious weed by the state of California.</discussion>
+  <run_in_sidehead>Excluded species:</run_in_sidehead>
+  <discussion>Centaurea bovina. J. T. Kartesz and C. A. Meacham (1999) listed C. bovina Velenovský from Massachusetts, referencing Rhodora 1924, perhaps based on collections reported as C. diffusa from Norfolk County (C. H. Knowlton and W. Deane 1924). Knowlton and Deane made no mention of C. bovina. According to J. Dostál (1976), C. bovina differs from C. diffusa in having smaller involucres (6–7 mm versus 7–10 mm; 3.5 mm versus 4–5 mm diameter), and purple versus pink flowers). Examination of one of the Norfolk County collections (Churchill s.n., MIN) revealed no differences from C. diffusa.</discussion>
+  <discussion>According to R. Angelo (pers. comm.), “The Kartesz citation is puzzling. This taxon [C. bovina] is not cited in the 1924 volume of Rhodora or anywhere in the first 50 years of Rhodora according to the index for that volume and our 50 year index (which is quite comprehensive).</discussion>
+  <discussion>“Also, there are no specimens identified as this taxon in the New England Botanical Club (NEBC) herbarium or from Massachusetts in the Harvard University Herbaria collections. We also looked for re-identifications in the other taxa in Centaurea in the NEBC and found no specimens that were earlier identified as C. bovina.</discussion>
+  <discussion>“The Vascular Plants of Massachusetts[...] (1999) of [B. A.] Sorrie and [P.] Somers does not list this taxon, nor does the Flora of the Northeast[...] (1999) by [D. W.] Magee and [H. E.] Ahles.”</discussion>
+  <discussion>Centaurea paniculata. According to our herbarium studies, reports of C. paniculata Linnaeus (Jersey knapweed) from North America are apparently referable to C. stoebe subsp. micranthos. Centaurea paniculata is quite similar to C. stoebe in habit; it differs clearly by its narrowly ovoid or cylindric heads.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Taraxacum officinale</species_name>
+  <authority>F. H. Wiggers</authority>
+  <place_of_publication>Prim. Fl. Holsat., 56. 1780</place_of_publication>
+  <common_name>Common dandelion, pissenlit officinal</common_name>
+  <synonym_of_species_name>Leontodon taraxacum Linnaeus, Sp. Pl. 2: 798. 1753; Taraxacum officinale var. palustre Blytt; T. sylvanicum R. Doll</synonym_of_species_name>
+  <description>
+    <statement id="318.txt-0">
+      <text>Plants (1–)5–40(–60) cm;</text>
+      <structure id="o5754" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="1" to="5" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_size" from="40" to="60" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="40" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="318.txt-1">
+      <text>taproots seldom branched.</text>
+      <structure id="o5755" name="taproot">
+        <character name="architecture_or_shape" value="branched" modifier="seldom" />
+      </structure>
+    </statement>
+    <statement id="318.txt-2">
+      <text>Stems 1–10+, erect or ascending, sometimes ± purplish (usually equaling or surpassing leaves), glabrous or sparsely villous, slightly more so distally.</text>
+      <structure id="o5756" name="stem">
+        <character char_type="range_value" name="count" from="1" to="10" upper_restricted="false" />
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="ascending" />
+        <character name="coloration" value="purplish" modifier="sometimes ±" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="villous" modifier="sparsely" />
+      </structure>
+    </statement>
+    <statement id="318.txt-3">
+      <text>Leaves 20+, horizontal to erect;</text>
+      <structure id="o5757" name="leaf">
+        <character name="count" char_type="range_value" from="20" upper_restricted="false" />
+        <character char_type="range_value" name="orientation" from="horizontal" to="erect" />
+        <character name="orientation" value="horizontal" />
+        <character name="orientation" value="erect" />
+      </structure>
+    </statement>
+    <statement id="318.txt-4">
+      <text>petioles ± narrowly winged;</text>
+      <structure id="o5758" name="petiole">
+        <character name="architecture" value="winged" modifier="± narrowly" />
+      </structure>
+    </statement>
+    <statement id="318.txt-5">
+      <text>blades oblanceolate, oblong, or obovate (often runcinate), (4–)5–45 × (0.7–)1–10 cm, bases attenuate to narrowly cuneate, margins usually shallowly to deeply lobed to lacerate or toothed, lobes retrorse, broadly to narrowly triangular to nearly lanceolate, acute to long-acuminate, terminals ± as large as distal laterals, ultimate margins toothed or entire (secondary lobules irregular, perpendicular to retrorse), teeth minute to pronounced apices acute to acuminate or obtuse, faces glabrous or sparsely villous (commonly on midveins).</text>
+      <structure id="o5759" name="blade">
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="oblong" />
+        <character name="shape" value="obovate" />
+        <character char_type="range_value" name="atypical_length" from="4" to="5" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="length" from="5" from_unit="cm" to="45" to_unit="cm" />
+        <character char_type="range_value" name="atypical_width" from="0.7" to="1" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="width" from="1" from_unit="cm" to="10" to_unit="cm" />
+      </structure>
+      <structure id="o5760" name="base">
+        <character char_type="range_value" name="shape" from="attenuate" to="narrowly cuneate" />
+        <character name="shape" value="attenuate" />
+        <character name="shape" value="cuneate" modifier="narrowly" />
+      </structure>
+      <structure id="o5761" name="margin">
+        <character char_type="range_value" name="shape" from="usually shallowly deeply lobed" to="lacerate or toothed" />
+        <character name="shape" value="lobed" modifier="usually shallowly deeply" />
+        <character name="shape" value="lacerate" modifier="usually shallowly deeply" />
+        <character name="shape" value="toothed" modifier="usually shallowly deeply" />
+      </structure>
+      <structure id="o5762" name="lobe">
+        <character name="orientation" value="retrorse" />
+        <character char_type="range_value" name="shape" from="broadly narrowly triangular" to="nearly lanceolate , acute" />
+        <character name="shape" value="triangular" modifier="broadly narrowly" />
+        <character name="shape" value="lanceolate" modifier="nearly" />
+        <character name="shape" value="acute" modifier="nearly" />
+        <character name="shape" value="long-acuminate" modifier="nearly" />
+      </structure>
+      <structure id="o5763" name="terminal" />
+      <structure id="o5764" name="lateral" constraint="distal" />
+      <structure id="o5765" name="margin" constraint="ultimate">
+        <character name="shape" value="toothed" />
+        <character name="shape" value="entire" />
+      </structure>
+      <structure id="o5766" name="tooth">
+        <character char_type="range_value" name="shape" from="acute" to="acuminate or obtuse" />
+        <character name="shape" value="acute" />
+        <character name="shape" value="acuminate" />
+        <character name="shape" value="obtuse" />
+      </structure>
+      <structure id="o5767" name="apex">
+        <character name="manifestation" value="pronounced" />
+      </structure>
+      <relation id="r735" name="minute to" from="o5766" to="o5767" negation="false" />
+      <structure id="o5768" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="villous" modifier="sparsely" />
+      </structure>
+    </statement>
+    <statement id="318.txt-6">
+      <text>Calyculi of 12–18, reflexed, sometimes ± glaucous, lanceolate bractlets in 2 series, 6–12 × 2.8–3.5 mm, margins very narrowly white-scarious, sometimes villous-ciliate distally, apices acuminate, hornless.</text>
+      <structure id="o5769" name="calyculus">
+        <character char_type="range_value" name="length" from="6" from_unit="mm" to="12" to_unit="mm" />
+        <character char_type="range_value" name="width" from="2.8" from_unit="mm" to="3.5" to_unit="mm" />
+      </structure>
+      <structure id="o5770" name="bractlet">
+        <character char_type="range_value" name="count" from="12" to="18" />
+        <character name="orientation" value="reflexed" />
+        <character name="coating" value="glaucous" modifier="sometimes ±" />
+        <character name="shape" value="lanceolate" />
+      </structure>
+      <relation id="r736" name="consist_of" from="o5769" to="o5770" negation="false" />
+      <structure id="o5771" name="series">
+        <character name="count" value="2" />
+      </structure>
+      <relation id="r737" name="in" from="o5770" to="o5771" negation="false" />
+      <structure id="o5772" name="margin">
+        <character name="texture" value="white-scarious" modifier="very narrowly" />
+        <character name="architecture_or_shape" value="villous-ciliate" modifier="sometimes ; distally" />
+      </structure>
+      <structure id="o5773" name="apex">
+        <character name="shape" value="acuminate" />
+        <character name="architecture" value="hornless" />
+      </structure>
+    </statement>
+    <statement id="318.txt-7">
+      <text>Involucres green to dark green or brownish green, tips dark gray or purplish, campanulate, 14–25 mm.</text>
+      <structure id="o5774" name="involucre">
+        <character char_type="range_value" name="coloration" from="green" to="dark-green or brownish-green" />
+        <character name="coloration" value="green" />
+        <character name="coloration" value="green" modifier="dark" />
+        <character name="coloration" value="green" modifier="brownish" />
+      </structure>
+      <structure id="o5775" name="tip">
+        <character name="coloration" value="gray" modifier="dark" />
+        <character name="coloration" value="purplish" />
+        <character name="shape" value="campanulate" />
+        <character char_type="range_value" name="size" from="14" from_unit="mm" to="25" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="318.txt-8">
+      <text>Phyllaries 13–18 in 2 series, lanceolate, 2–2.8 mm wide, margins scarious (proximal 2 / 3 ) to narrowly scarious, apices acuminate, erose-scarious, usually hornless (seldom appendaged), callous.</text>
+      <structure id="o5776" name="phyllary">
+        <character char_type="range_value" name="count" from="13" to="18" constraint="in series" constraintid="o5777" />
+        <character name="shape" value="lanceolate" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="2.8" to_unit="mm" />
+      </structure>
+      <structure id="o5777" name="series">
+        <character name="count" value="2" />
+      </structure>
+      <structure id="o5778" name="margin">
+        <character char_type="range_value" name="texture" from="scarious" to="narrowly scarious" />
+        <character name="texture" value="scarious" />
+        <character name="texture" value="scarious" modifier="narrowly" />
+      </structure>
+      <structure id="o5779" name="apex">
+        <character name="shape" value="acuminate" />
+        <character name="texture" value="erose-scarious" />
+        <character name="architecture" value="hornless" modifier="usually" />
+        <character name="texture" value="callous" />
+      </structure>
+    </statement>
+    <statement id="318.txt-9">
+      <text>Florets 40–100+;</text>
+      <structure id="o5780" name="floret">
+        <character char_type="range_value" name="count" from="40" to="100" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="318.txt-10">
+      <text>corollas yellow (orange-yellow), 15–22 × 1.7–2 mm (outer).</text>
+      <structure id="o5781" name="corolla">
+        <character name="coloration" value="yellow" />
+        <character char_type="range_value" name="length" from="15" from_unit="mm" to="22" to_unit="mm" />
+        <character char_type="range_value" name="width" from="1.7" from_unit="mm" to="2" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="318.txt-12">
+      <text>pappi white to sordid, 5–6(–8) mm.</text>
+      <structure id="o5782" name="pappus">
+        <character char_type="range_value" name="coloration" from="white" to="sordid" />
+        <character name="coloration" value="white" />
+        <character name="coloration" value="sordid" />
+        <character char_type="range_value" name="atypical_size" from="6" to="8" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="318.txt-13">
+      <text>2 n = 24, 40, [16, 32].</text>
+      <structure id="o5783" name="chromosome">
+        <character name="count" value="24" />
+        <character name="count" value="40" />
+        <character name="count" value="[16" />
+        <character name="count" value="32]" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <flowering_time>nov</flowering_time>
+  <flowering_time>winter</flowering_time>
+  <flowering_time>dec</flowering_time>
+  <flowering_time>jan</flowering_time>
+  <flowering_time>feb</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>often damp low places</habitat>
+  <habitat>lawns</habitat>
+  <habitat>roadsides</habitat>
+  <habitat>waste grounds</habitat>
+  <habitat>disturbed banks and shores</habitat>
+  <elevation>0–2000+ m;</elevation>
+  <introduced>introduced;</introduced>
+  <global_distribution>Greenland</global_distribution>
+  <global_distribution>St. Pierre and Miquelon</global_distribution>
+  <ca_distribution>Alta.</ca_distribution>
+  <ca_distribution>B.C.</ca_distribution>
+  <ca_distribution>Man.</ca_distribution>
+  <ca_distribution>N.B.</ca_distribution>
+  <ca_distribution>Nfld. and Labr.</ca_distribution>
+  <ca_distribution>N.W.T.</ca_distribution>
+  <ca_distribution>N.S.</ca_distribution>
+  <ca_distribution>Nunavut</ca_distribution>
+  <ca_distribution>Ont.</ca_distribution>
+  <ca_distribution>P.E.I.</ca_distribution>
+  <ca_distribution>Que.</ca_distribution>
+  <ca_distribution>Sask.</ca_distribution>
+  <ca_distribution>Yukon</ca_distribution>
+  <us_distribution>Ala.</us_distribution>
+  <us_distribution>Alaska</us_distribution>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Ark.</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Conn.</us_distribution>
+  <us_distribution>Del.</us_distribution>
+  <us_distribution>D.C.</us_distribution>
+  <us_distribution>Fla.</us_distribution>
+  <us_distribution>Ga.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Ill.</us_distribution>
+  <us_distribution>Ind.</us_distribution>
+  <us_distribution>Iowa</us_distribution>
+  <us_distribution>Kans.</us_distribution>
+  <us_distribution>Ky.</us_distribution>
+  <us_distribution>La.</us_distribution>
+  <us_distribution>Maine</us_distribution>
+  <us_distribution>Md.</us_distribution>
+  <us_distribution>Mass.</us_distribution>
+  <us_distribution>Mich.</us_distribution>
+  <us_distribution>Minn.</us_distribution>
+  <us_distribution>Miss.</us_distribution>
+  <us_distribution>Mo.</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>Nebr.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>N.H.</us_distribution>
+  <us_distribution>N.J.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>N.C.</us_distribution>
+  <us_distribution>N.Dak.</us_distribution>
+  <us_distribution>Ohio</us_distribution>
+  <us_distribution>Okla.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <us_distribution>R.I.</us_distribution>
+  <us_distribution>S.C.</us_distribution>
+  <us_distribution>S.Dak.</us_distribution>
+  <us_distribution>Tenn.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Vt.</us_distribution>
+  <us_distribution>Va.</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <us_distribution>W.Va.</us_distribution>
+  <us_distribution>Wis.</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <global_distribution>Europe</global_distribution>
+  <global_distribution>also introduced in Mexico</global_distribution>
+  <global_distribution>introduced nearly worldwide.</global_distribution>
+  <discussion>Taraxacum officinale is the most widespread dandelion in temperate North America, though its abundance decreases in the arid south. It is a familiar weed of lawns and roadsides. It is also the species most commonly used for medicinal and culinary purposes (e.g., E. Small and P. M. Catling 1999).</discussion>
+  <discussion>Phenotypic and genotypic variation of this species have been studied in North America (L. M. King 1993; King and B. A. Schaal 1990; J. C. Lyman and N. C. Ellstrand 1998; O. T. Solbrig 1971; R. J. Taylor 1987), but results of those studies did not lead to the recognition of microspecies.</discussion>
+  <discussion>Specimens of Taraxacum officinale with deeply lobed leaves are sometimes difficult to distinguish from those of T. erythrospermum when fruits are missing (see also R. J. Taylor 1987). Usually, however, early leaves of the former are much less deeply lobed than those of the latter, which are more consistently lacerate throughout development, though broadly winged initially. The two taxa are easily distinguished in fruit, the red cypselae of T. erythrospermum standing out from the dull olive ones of T. officinale.</discussion>
+  <discussion>In northeastern North America, Taraxacum officinale and T. lapponicum often are confused, which has led to reports of the common dandelion farther north than I have been able to verify (it has yet to be collected from the Nunavik region of Quebec, for instance). The characters in the key above help separate the two taxa.</discussion>
+  <discussion>The typification by A. J. Richards (1985) would leave the common dandelion of both Europe and North America without a valid name (J. Kirschner and J. Štepánek 1987). For the time being, with the nomenclatural situation still not resolved, I am following traditional usage of the name Taraxacum officinale.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

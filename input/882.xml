@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>18a.</number>
+  <subspecies_name>Artemisia tripartita Rydberg subsp. tripartita</subspecies_name>
+  <description>
+    <statement id="882.txt-0">
+      <text>Shrubs, 20–150(–200) cm.</text>
+      <structure id="o18342" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="150" to="200" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="20" from_unit="cm" to="150" to_unit="cm" />
+        <character name="life_style" value="shrub" />
+      </structure>
+    </statement>
+    <statement id="882.txt-1">
+      <text>Leaves 1.5–4 × 0.5–1.5 cm, lobes linear, to 0.5 mm wide.</text>
+      <structure id="o18343" name="leaf">
+        <character char_type="range_value" name="length" from="1.5" from_unit="cm" to="4" to_unit="cm" />
+        <character char_type="range_value" name="width" from="0.5" from_unit="cm" to="1.5" to_unit="cm" />
+      </structure>
+      <structure id="o18344" name="lobe">
+        <character name="arrangement_or_shape" value="linear" />
+        <character char_type="range_value" name="width" to="0.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="882.txt-2">
+      <text>Heads in spiciform arrays (6–)8–15(–35) × (1–)4–5 cm.</text>
+      <structure id="o18345" name="head" />
+      <structure id="o18346" name="array">
+        <character name="architecture" value="spiciform" />
+        <character char_type="range_value" name="atypical_length" from="6" to="8" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_length" from="15" to="35" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="8" from_unit="cm" to="15" to_unit="cm" />
+        <character char_type="range_value" name="atypical_width" from="1" to="4" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="width" from="4" from_unit="cm" to="5" to_unit="cm" />
+      </structure>
+      <relation id="r1944" name="in" from="o18345" to="o18346" negation="false" />
+    </statement>
+    <statement id="882.txt-3">
+      <text>Involucres 2–3 × 2 mm.</text>
+      <structure id="o18347" name="involucre">
+        <character char_type="range_value" name="length" from="2" from_unit="mm" to="3" to_unit="mm" />
+        <character name="width" value="2" unit="mm" />
+      </structure>
+    </statement>
+    <statement id="882.txt-4">
+      <text>Florets 4–8.</text>
+      <structure id="o18348" name="floret">
+        <character char_type="range_value" name="count" from="4" to="8" />
+      </structure>
+    </statement>
+    <statement id="882.txt-5">
+      <text>Cypselae 1.8–2.3 mm.</text>
+      <structure id="o18349" name="cypsela">
+        <character char_type="range_value" name="size" from="1.8" from_unit="mm" to="2.3" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="882.txt-6">
+      <text>2 n = 18, 36.</text>
+      <structure id="o18350" name="chromosome">
+        <character name="count" value="18" />
+        <character name="count" value="36" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <flowering_time>nov</flowering_time>
+  <habitat>deep loam soils</habitat>
+  <habitat>usually igneous in origin</habitat>
+  <elevation>900–1900 m;</elevation>
+  <ca_distribution>B.C.</ca_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <discussion>Subspecies tripartita ranges throughout the Snake River and Columbia River basins, extending north through central British Columbia, where average annual precipitation is 375–800 mm. Because much of the range includes fertile agricultural land, much of the habitat has been lost to farming, and populations of subsp. tripartita occur as isolated islands along drainages and at the bases of mountain slopes. It may be one of the parents involved in the presumed hybrid origin of Artemisia arbuscula subsp. thermopola.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

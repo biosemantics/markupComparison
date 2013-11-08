@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>6.</number>
+  <species_name>Cirsium altissimum</species_name>
+  <authority>(Linnaeus) Sprengel</authority>
+  <place_of_publication>Syst. Veg. 3: 373. 1826</place_of_publication>
+  <common_name>Tall or roadside thistle</common_name>
+  <synonym_of_species_name>Carduus altissimus Linnaeus, Sp. Pl. 2: 824. 1753; Cirsium altissimum var. biltmoreanum Petrak; C. iowense (Pammell) Fernald</synonym_of_species_name>
+  <description>
+    <statement id="57.txt-0">
+      <text>Biennials or short-lived monocarpic perennials , (50–)100–300(–400) cm;</text>
+      <structure id="o11691" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="50" to="100" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_size" from="300" to="400" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="100" from_unit="cm" to="300" to_unit="cm" />
+        <character name="life_style" value="biennial" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="57.txt-1">
+      <text>taproots and often a cluster of coarse fibrous roots, roots without tuberlike enlargements.</text>
+      <structure id="o11693" name="taproot" />
+      <structure id="o11694" name="root" constraint="fibrous">
+        <character name="arrangement" value="cluster" modifier="often" />
+        <character name="texture" value="coarse" />
+      </structure>
+      <structure id="o11695" name="root" />
+      <structure id="o11696" name="enlargement">
+        <character name="shape" value="tuberlike" />
+      </structure>
+      <relation id="r1357" name="without" from="o11695" to="o11696" negation="false" />
+    </statement>
+    <statement id="57.txt-2">
+      <text>Stems single, erect, villous with septate trichomes, sometimes ± glabrate, sometimes distally thinly tomentose;</text>
+      <structure id="o11697" name="stem">
+        <character name="count" value="single" />
+        <character name="orientation" value="erect" />
+        <character name="pubescence" value="villous" constraint="with trichomes" constraintid="o11698" />
+        <character name="pubescence" value="glabrate" modifier="sometimes ±" />
+        <character name="pubescence" value="tomentose" modifier="sometimes distally thinly" />
+      </structure>
+      <structure id="o11698" name="trichome">
+        <character name="architecture" value="septate" />
+      </structure>
+    </statement>
+    <statement id="57.txt-3">
+      <text>branches few–many, ascending.</text>
+      <structure id="o11699" name="branch">
+        <character char_type="range_value" name="count" from="few" to="many" />
+        <character name="orientation" value="ascending" />
+      </structure>
+    </statement>
+    <statement id="57.txt-4">
+      <text>Leaves :</text>
+      <structure id="o11700" name="leaf" />
+    </statement>
+    <statement id="57.txt-5">
+      <text>blades oblanceolate to elliptic or ovate, 10–40 × 1–13 cm, margins flat, finely spiny-toothed and otherwise undivided to coarsely toothed or shallowly pinnatifid, lobes broadly triangular, main spines 1–5 mm, abaxial faces white-tomentose, adaxial faces green, glabrate to villous with septate trichomes;</text>
+      <structure id="o11701" name="blade">
+        <character char_type="range_value" name="shape" from="oblanceolate" to="elliptic or ovate" />
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="elliptic" />
+        <character name="shape" value="ovate" />
+        <character char_type="range_value" name="length" from="10" from_unit="cm" to="40" to_unit="cm" />
+        <character char_type="range_value" name="width" from="1" from_unit="cm" to="13" to_unit="cm" />
+      </structure>
+      <structure id="o11702" name="margin">
+        <character name="shape" value="flat" />
+        <character name="shape" value="spiny-toothed" modifier="finely" />
+        <character char_type="range_value" name="shape" from="undivided" to="coarsely toothed or shallowly pinnatifid" modifier="otherwise" />
+        <character name="shape" value="undivided" modifier="otherwise" />
+        <character name="shape" value="toothed" modifier="coarsely" />
+        <character name="shape" value="pinnatifid" modifier="shallowly" />
+      </structure>
+      <structure id="o11703" name="lobe">
+        <character name="shape" value="triangular" modifier="broadly" />
+      </structure>
+      <structure id="o11704" name="spine" constraint="main">
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+      <structure id="o11705" name="face" constraint="abaxial">
+        <character name="pubescence" value="white-tomentose" />
+      </structure>
+      <structure id="o11706" name="face" constraint="adaxial">
+        <character name="coloration" value="green" />
+        <character char_type="range_value" name="pubescence" from="glabrate" to="villous" />
+        <character name="pubescence" value="glabrate" />
+        <character name="pubescence" value="villous" constraint="with trichomes" constraintid="o11707" />
+      </structure>
+      <structure id="o11707" name="trichome">
+        <character name="architecture" value="septate" />
+      </structure>
+    </statement>
+    <statement id="57.txt-6">
+      <text>basal usually absent at flowering, winged-petiolate, bases tapered;</text>
+      <structure id="o11708" name="leaf" constraint="basal">
+        <character name="presence" value="absent" modifier="usually; at flowering" />
+        <character name="architecture" value="winged-petiolate" />
+      </structure>
+      <structure id="o11709" name="base">
+        <character name="shape" value="tapered" />
+      </structure>
+    </statement>
+    <statement id="57.txt-7">
+      <text>principal cauline well distributed, gradually reduced, bases narrowed, sometimes weakly clasping;</text>
+      <structure id="o11710" name="leaf" constraint="principal cauline">
+        <character name="arrangement" value="distributed" modifier="well" />
+        <character name="size" value="reduced" modifier="gradually" />
+      </structure>
+      <structure id="o11711" name="base">
+        <character name="size" value="narrowed" />
+        <character name="architecture" value="clasping" modifier="sometimes weakly" />
+      </structure>
+    </statement>
+    <statement id="57.txt-8">
+      <text>distal cauline well developed.</text>
+      <structure id="o11712" name="leaf" constraint="distal cauline">
+        <character name="development" value="developed" modifier="well" />
+      </structure>
+    </statement>
+    <statement id="57.txt-9">
+      <text>Heads 1–many, in corymbiform or paniculiform arrays, (± elevated above principal cauline leaves ) , not subtended by ring of spiny bracts.</text>
+      <structure id="o11713" name="head">
+        <character char_type="range_value" name="count" from="1" to="many" />
+      </structure>
+      <structure id="o11714" name="array">
+        <character name="architecture" value="corymbiform" />
+        <character name="architecture" value="paniculiform" />
+      </structure>
+      <relation id="r1358" name="in" from="o11713" to="o11714" negation="false" />
+      <structure id="o11715" name="ring" />
+      <relation id="r1359" name="subtended by" from="o11713" to="o11715" negation="true" />
+      <structure id="o11716" name="bract">
+        <character name="architecture_or_shape" value="spiny" />
+      </structure>
+      <relation id="r1360" name="part_of" from="o11715" to="o11716" negation="false" />
+    </statement>
+    <statement id="57.txt-10">
+      <text>Peduncles 0–5 cm (leafy-bracted ) .</text>
+      <structure id="o11717" name="peduncle">
+        <character char_type="range_value" name="size" from="0" from_unit="cm" to="5" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="57.txt-11">
+      <text>Involucres ovoid to broadly cylindric or campanulate, (2–)2.5–3.5(–4) × (1.5–)2–3(–4) cm, thinly arachnoid.</text>
+      <structure id="o11718" name="involucre">
+        <character char_type="range_value" name="shape" from="ovoid" to="broadly cylindric or campanulate" />
+        <character name="shape" value="ovoid" />
+        <character name="shape" value="cylindric" modifier="broadly" />
+        <character name="shape" value="campanulate" modifier="broadly" />
+        <character char_type="range_value" name="atypical_length" from="2" to="2.5" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_length" from="3.5" to="4" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="2.5" from_unit="cm" to="3.5" to_unit="cm" />
+        <character char_type="range_value" name="atypical_width" from="1.5" to="2" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_width" from="3" to="4" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="width" from="2" from_unit="cm" to="3" to_unit="cm" />
+        <character name="pubescence" value="arachnoid" modifier="thinly" />
+      </structure>
+    </statement>
+    <statement id="57.txt-12">
+      <text>Phyllaries in 10–20 series, strongly imbricate, greenish with subapical darker central zone, ovate (outer) to lanceolate (inner), abaxial faces with a narrow glutinous ridge (milky when fresh, dark when dry), outer and middle entire, bodies appressed, spines slender, abruptly spreading, 3–4 mm;</text>
+      <structure id="o11719" name="phyllary">
+        <character name="aestivation_or_arrangement" value="imbricate" modifier="strongly" />
+        <character name="coloration" value="greenish" constraint="with zone" constraintid="o11721" />
+        <character char_type="range_value" name="shape" from="ovate" to="lanceolate" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="lanceolate" />
+      </structure>
+      <structure id="o11720" name="series">
+        <character char_type="range_value" name="count" from="10" to="20" />
+      </structure>
+      <relation id="r1361" name="in" from="o11719" to="o11720" negation="false" />
+      <structure id="o11721" name="zone" constraint="central">
+        <character name="insertion_or_position" value="subapical" />
+        <character name="coloration" value="darker" />
+      </structure>
+      <structure id="o11722" name="face" constraint="abaxial">
+        <character name="position" value="outer" />
+      </structure>
+      <structure id="o11723" name="ridge">
+        <character name="size" value="narrow" />
+        <character name="coating_or_texture" value="glutinous" />
+      </structure>
+      <relation id="r1362" name="with" from="o11722" to="o11723" negation="false" />
+      <structure id="o11724" name="middle">
+        <character name="shape" value="entire" />
+      </structure>
+      <structure id="o11725" name="body">
+        <character name="orientation" value="appressed" />
+      </structure>
+      <structure id="o11726" name="spine">
+        <character name="size" value="slender" />
+        <character name="orientation" value="spreading" modifier="abruptly" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="57.txt-13">
+      <text>apices of inner phyllaries spreading, narrow, flattened, entire, spines spreading, slender, 3–4 mm;</text>
+      <structure id="o11727" name="apex">
+        <character name="orientation" value="spreading" />
+        <character name="size" value="narrow" />
+        <character name="shape" value="flattened" />
+        <character name="shape" value="entire" />
+      </structure>
+      <structure id="o11728" name="phyllary" constraint="inner" />
+      <relation id="r1363" name="part_of" from="o11727" to="o11728" negation="false" />
+      <structure id="o11729" name="spine">
+        <character name="orientation" value="spreading" />
+        <character name="size" value="slender" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="57.txt-14">
+      <text>apices of inner phyllaries spreading, narrow, flattened, ± dilated, ± erose or finely serrulate.</text>
+      <structure id="o11730" name="apex">
+        <character name="orientation" value="spreading" />
+        <character name="size" value="narrow" />
+        <character name="shape" value="flattened" />
+        <character name="shape" value="dilated" modifier="±" />
+        <character name="shape" value="erose" modifier="±" />
+        <character name="shape" value="serrulate" modifier="finely" />
+      </structure>
+      <structure id="o11731" name="phyllary" constraint="inner" />
+      <relation id="r1364" name="part_of" from="o11730" to="o11731" negation="false" />
+    </statement>
+    <statement id="57.txt-15">
+      <text>Corollas pink to purple (white), 20–35 mm, tubes 10–16 mm, throats 5–12 mm, lobes 5–9 mm.</text>
+      <structure id="o11732" name="corolla">
+        <character char_type="range_value" name="coloration" from="pink" to="purple" />
+        <character name="coloration" value="pink" />
+        <character name="coloration" value="purple" />
+        <character char_type="range_value" name="size" from="20" from_unit="mm" to="35" to_unit="mm" />
+      </structure>
+      <structure id="o11733" name="tube">
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="16" to_unit="mm" />
+      </structure>
+      <structure id="o11734" name="throat">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="12" to_unit="mm" />
+      </structure>
+      <structure id="o11735" name="lobe">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="9" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="57.txt-16">
+      <text>Style tips 4–6 mm.</text>
+      <structure id="o11736" name="tip" constraint="style">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="57.txt-17">
+      <text>Cypselae tan to dark brown, 4–5.5 mm, apical collars stramineous, 0.5–1 mm;</text>
+      <structure id="o11737" name="cypsela">
+        <character char_type="range_value" name="coloration" from="tan" to="dark-brown" />
+        <character name="coloration" value="tan" />
+        <character name="coloration" value="brown" modifier="dark" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="5.5" to_unit="mm" />
+      </structure>
+      <structure id="o11738" name="collar" constraint="apical">
+        <character name="coloration" value="stramineous" />
+        <character char_type="range_value" name="size" from="0.5" from_unit="mm" to="1" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="57.txt-18">
+      <text>pappi 12–24 mm.</text>
+      <structure id="o11739" name="pappus">
+        <character char_type="range_value" name="size" from="12" from_unit="mm" to="24" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="57.txt-19">
+      <text>2 n = 18.</text>
+      <structure id="o11740" name="chromosome">
+        <character name="count" value="18" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>nov</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <habitat>prairies</habitat>
+  <habitat>woodlands</habitat>
+  <habitat>disturbed sites</habitat>
+  <habitat>often in damp soil</habitat>
+  <elevation>50–700 m;</elevation>
+  <us_distribution>Ala.</us_distribution>
+  <us_distribution>Ark.</us_distribution>
+  <us_distribution>Del.</us_distribution>
+  <us_distribution>D.C.</us_distribution>
+  <us_distribution>Fla.</us_distribution>
+  <us_distribution>Ga.</us_distribution>
+  <us_distribution>Ill.</us_distribution>
+  <us_distribution>Ind.</us_distribution>
+  <us_distribution>Iowa</us_distribution>
+  <us_distribution>Kans.</us_distribution>
+  <us_distribution>Ky.</us_distribution>
+  <us_distribution>La.</us_distribution>
+  <us_distribution>Md.</us_distribution>
+  <us_distribution>Mass.</us_distribution>
+  <us_distribution>Mich.</us_distribution>
+  <us_distribution>Minn.</us_distribution>
+  <us_distribution>Miss.</us_distribution>
+  <us_distribution>Mo.</us_distribution>
+  <us_distribution>Nebr.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>N.C.</us_distribution>
+  <us_distribution>N.Dak.</us_distribution>
+  <us_distribution>Ohio</us_distribution>
+  <us_distribution>Okla.</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <us_distribution>S.C.</us_distribution>
+  <us_distribution>S.Dak.</us_distribution>
+  <us_distribution>Tenn.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <us_distribution>W.Va.</us_distribution>
+  <us_distribution>Wis.</us_distribution>
+  <discussion>Plants of Cirsium altissimum ranging from southern Minnesota to Texas often have more deeply divided leaves than do populations in other portions of the species’ range. Some botanists (e.g., R. J. Moore and C. Frankton 1969; D. S. Correll and M. C. Johnston 1970) have treated those plants as C. iowense. Others (e.g., R. E. Brooks 1986; H. A. Gleason and A. Cronquist 1991; G. B. Ownbey and T. Morley 1991) have treated them as C. altissimum. Still others considered them to be derivatives of hybridization between C. altissimum and C. discolor (J. T. Kartesz and C. A. Meacham 1999) and treated them as C. ×iowense. Indeed the existence of these plants blurs the distinction between C. altissimum and C. discolor, and herbarium specimens are often difficult to assign.</discussion>
+  <discussion>Natural hybrids between Cirsium altissimum and C. discolor are well documented (R. A. Davidson 1963; G. B. Ownbey and Hsi Y.-T. 1963; Ownbey 1964; S. Dabydeen 1997). Ownbey and Dabydeen both reported that apparent F1 hybrids between the two species have low seed set in comparison with the parental taxa. W. L. Bloom (1977) reported that the chromosomes of the two species differ by several rearareaments. Dabydeen reported a count of 2n = 19 with multiple meiotic irregularities for an apparent F1 hybrid. However, the presence of numerous individuals and populations seemingly intermediate between C. altissimum and C. discolor indicates that although F1 hybrids have low fertility, long-term processes may have stabilized hybrid derivatives of higher fertility. Ownbey and Hsi reported mitotic counts of 2n = 18 and 20 from a population that they treated as C. altissimum. In their discussion they noted that their plants represented “the segregate called C. iowense” and had been collected a short distance from that taxon’s type locality. R. J. Moore and C. Frankton (1969) reported a chromosome number of 2n = 18 for a plant from Texas that they considered to be C. iowense. Further investigation of morphologic variation, chromosome number, meiotic behavior, and fertility is needed of populations named as C. iowense to determine how those plants should be treated.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

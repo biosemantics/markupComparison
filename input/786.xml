@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>2c.</number>
+  <variety_name>Hesperevax acaulis (Kellogg) Greene var. acaulis</variety_name>
+  <common_name>Stemless evax</common_name>
+  <description>
+    <statement id="786.txt-0">
+      <text>Plants 1–2(–4) cm.</text>
+      <structure id="o16533" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="2" to="4" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="1" from_unit="cm" to="2" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="786.txt-1">
+      <text>Stems usually 0, sometimes 1(–7), ± prostrate;</text>
+      <structure id="o16534" name="stem">
+        <character name="count" value="0" modifier="usually" />
+        <character name="orientation" value="prostrate" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="786.txt-2">
+      <text>branches 0.</text>
+      <structure id="o16535" name="branch">
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+    <statement id="786.txt-3">
+      <text>Leaves basal or cauline, sessile or obscurely petiolate, largest mostly 7–12 × 0.5–2 mm;</text>
+      <structure id="o16536" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="architecture" value="sessile" />
+        <character name="architecture" value="petiolate" modifier="obscurely" />
+      </structure>
+    </statement>
+    <statement id="786.txt-4">
+      <text>petiole lengths 0–0.8 times blade lengths;</text>
+      <structure id="o16537" name="petiole">
+        <character char_type="range_value" name="size" from="0" to="0.8" constraint="times blade" constraintid="o16538" />
+      </structure>
+      <structure id="o16538" name="blade" />
+    </statement>
+    <statement id="786.txt-5">
+      <text>blades oblanceolate, acute;</text>
+      <structure id="o16539" name="blade">
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="acute" />
+      </structure>
+    </statement>
+    <statement id="786.txt-6">
+      <text>capitular leaves ± erect.</text>
+      <structure id="o16540" name="leaf" constraint="capitular">
+        <character name="orientation" value="erect" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="786.txt-7">
+      <text>Heads borne singly or, sometimes, in glomerules of 2–8, largest 2.5–3 × 2–2.5 mm.</text>
+      <structure id="o16541" name="head">
+        <character name="arrangement" value="singly" />
+        <character name="arrangement" value="singly" />
+      </structure>
+      <structure id="o16542" name="glomerule" constraint="of 2-8, largest 2.5-3×2-2.5 mm" />
+      <relation id="r1775" name="in" from="o16541" to="o16542" negation="false" />
+    </statement>
+    <statement id="786.txt-8">
+      <text>Receptacles 0.8–1.4 × 0.8–1.4 mm.</text>
+      <structure id="o16543" name="receptacle">
+        <character char_type="range_value" name="length" from="0.8" from_unit="mm" to="1.4" to_unit="mm" />
+        <character char_type="range_value" name="width" from="0.8" from_unit="mm" to="1.4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="786.txt-9">
+      <text>Pistillate paleae in 3–5 series, 2–3 mm.</text>
+      <structure id="o16544" name="palea" constraint="pistillate">
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="3" to_unit="mm" />
+      </structure>
+      <structure id="o16545" name="series">
+        <character char_type="range_value" name="count" from="3" to="5" />
+      </structure>
+      <relation id="r1776" name="in" from="o16544" to="o16545" negation="false" />
+    </statement>
+    <statement id="786.txt-10">
+      <text>Staminate paleae:</text>
+      <structure id="o16546" name="palea" constraint="staminate" />
+    </statement>
+    <statement id="786.txt-11">
+      <text>longest 1.9–2.4 mm.</text>
+      <structure id="o16547" name="palea" constraint="longest">
+        <character char_type="range_value" name="size" from="1.9" from_unit="mm" to="2.4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="786.txt-12">
+      <text>Functionally staminate florets 2–12;</text>
+      <structure id="o16548" name="floret" constraint="functionally staminate">
+        <character char_type="range_value" name="count" from="2" to="12" />
+      </structure>
+    </statement>
+    <statement id="786.txt-13">
+      <text>corollas 0.7–1 mm.</text>
+      <structure id="o16549" name="corolla">
+        <character char_type="range_value" name="size" from="0.7" from_unit="mm" to="1" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="786.txt-14">
+      <text>Cypselae mostly 0.6–0.8 mm.</text>
+      <structure id="o16550" name="cypsela">
+        <character char_type="range_value" name="size" from="0.6" from_unit="mm" to="0.8" to_unit="mm" modifier="mostly" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <habitat>open, dry or vernally moist, sandy to gravelly soils in swales</habitat>
+  <habitat>drainages</habitat>
+  <habitat>grasslands</habitat>
+  <habitat>chaparral</habitat>
+  <habitat>woodland clearings</habitat>
+  <habitat>sometimes in moss or other turf</habitat>
+  <elevation>30–900 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <discussion>Geographically, var. acaulis is mainly intermediate with the other two varieties, usually occurring at lower elevations where sympatric. It is also morphologically intermediate in some characters. Typical forms, most frequent along the Sierra Nevada foothills, are distinguished by stems 0 and leaves narrowest relative to lengths. A recent collection from southwestern Oregon is intermediate toward var. robustior; it may be introduced, or it may represent previously unsampled variation in the region.</discussion>
+  <discussion>Kellogg’s protologue described pistillate paleae like those of Stylocline, suggesting that he may have been looking also at plants of Ancistrocarphus keilii. The two taxa are not known to be sympatric. The type material clearly belongs to Hesperevax. Besides its saccate pistillate paleae, A. keilii differs by petioles longer than blades with bases expanded, 3-nerved, and parchment-like.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

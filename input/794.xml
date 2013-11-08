@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Inula helenium</species_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 881. 1753</place_of_publication>
+  <description>
+    <statement id="794.txt-0">
+      <text>Plants 50–100(–200) cm.</text>
+      <structure id="o16739" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="100" to="200" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="50" from_unit="cm" to="100" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="794.txt-1">
+      <text>Leaves:</text>
+      <structure id="o16740" name="leaf" />
+    </statement>
+    <statement id="794.txt-2">
+      <text>basal blades ± elliptic, mostly 15–40 cm × 100–200+ mm (bases decurrent onto strongly ribbed petioles, margins callose-denticulate, otherwise entire, abaxial faces velvety-woolly, adaxial thinly hairy);</text>
+      <structure id="o16741" name="blade" constraint="basal">
+        <character name="arrangement_or_shape" value="elliptic" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="794.txt-3">
+      <text>cauline blades ovate or elliptic to lanceolate, 10–30 cm × 45–120 mm, bases cordate, clasping, margins serrate.</text>
+      <structure id="o16742" name="blade" constraint="cauline">
+        <character char_type="range_value" name="shape" from="elliptic" to="lanceolate" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="elliptic" />
+        <character name="shape" value="lanceolate" />
+        <character char_type="range_value" name="length" from="10" from_unit="cm" to="30" to_unit="cm" />
+        <character char_type="range_value" name="width" from="45" from_unit="mm" to="120" to_unit="mm" />
+      </structure>
+      <structure id="o16743" name="base">
+        <character name="shape" value="cordate" />
+        <character name="architecture" value="clasping" />
+      </structure>
+      <structure id="o16744" name="margin">
+        <character name="shape" value="serrate" />
+      </structure>
+    </statement>
+    <statement id="794.txt-4">
+      <text>Involucres (20–)30–40 mm diam.</text>
+      <structure id="o16745" name="involucre">
+        <character char_type="range_value" name="atypical_size" from="20" to="30" from_unit="mm" to_unit="mm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="30" from_unit="mm" to="40" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="794.txt-5">
+      <text>Outer phyllaries ovate, oblong, or ± deltate to lanceolate, 12–20(–25+) × 6–8(–20+) mm (abaxially velvety-hairy);</text>
+      <structure id="o16746" name="phyllary" constraint="outer">
+        <character name="shape" value="ovate" />
+        <character name="shape" value="oblong" />
+        <character char_type="range_value" name="shape" from="deltate" to="lanceolate" modifier="±" />
+        <character name="shape" value="deltate" modifier="±" />
+        <character name="shape" value="lanceolate" modifier="±" />
+        <character char_type="range_value" name="atypical_length" from="20" to="25" from_unit="mm" to_unit="mm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="12" from_unit="mm" to="20" to_unit="mm" />
+        <character char_type="range_value" name="atypical_width" from="8" to="20" from_unit="mm" to_unit="mm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="width" from="6" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="794.txt-6">
+      <text>inner phyllaries progressively narrower, less hairy, more scarious.</text>
+      <structure id="o16747" name="phyllary" constraint="inner">
+        <character name="size" value="narrower" modifier="progressively" />
+        <character name="pubescence" value="hairy" modifier="less" />
+        <character name="texture" value="scarious" />
+      </structure>
+    </statement>
+    <statement id="794.txt-7">
+      <text>Ray florets (15–)50–100+;</text>
+      <structure id="o16748" name="floret" constraint="ray">
+        <character char_type="range_value" name="atypical_count" from="15" to="50" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="50" to="100" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="794.txt-8">
+      <text>corolla laminae (10–)20–30+ mm.</text>
+      <structure id="o16749" name="lamina" constraint="corolla">
+        <character char_type="range_value" name="atypical_size" from="10" to="20" from_unit="mm" to_unit="mm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="20" from_unit="mm" to="30" to_unit="mm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="794.txt-9">
+      <text>Disc corollas 9–11 mm.</text>
+      <structure id="o16750" name="corolla" constraint="disc">
+        <character char_type="range_value" name="size" from="9" from_unit="mm" to="11" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="794.txt-10">
+      <text>Cypselae 3–4 mm, glabrous;</text>
+      <structure id="o16751" name="cypsela">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="4" to_unit="mm" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="794.txt-11">
+      <text>pappi of (40–)50–60 basally connate, barbellate bristles or setiform scales 6–10 mm.</text>
+      <structure id="o16752" name="pappus" />
+      <structure id="o16753" name="bristle">
+        <character char_type="range_value" name="atypical_count" from="40" to="50" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="50" to="60" />
+        <character name="fusion" value="connate" modifier="basally" />
+        <character name="architecture" value="barbellate" />
+      </structure>
+      <relation id="r1801" name="consist_of" from="o16752" to="o16753" negation="false" />
+      <structure id="o16754" name="scale">
+        <character name="shape" value="setiform" />
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="794.txt-12">
+      <text>2 n = 20.</text>
+      <structure id="o16755" name="chromosome">
+        <character name="count" value="20" />
+      </structure>
+    </statement>
+  </description>
+  <habitat>roadsides</habitat>
+  <habitat>waste places</habitat>
+  <habitat>streamsides</habitat>
+  <elevation>0–300(–600+) m;</elevation>
+  <introduced>introduced;</introduced>
+  <ca_distribution>B.C.</ca_distribution>
+  <ca_distribution>Man.</ca_distribution>
+  <ca_distribution>N.B.</ca_distribution>
+  <ca_distribution>N.S.</ca_distribution>
+  <ca_distribution>Ont.</ca_distribution>
+  <ca_distribution>P.E.I.</ca_distribution>
+  <ca_distribution>Que.</ca_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Conn.</us_distribution>
+  <us_distribution>Del.</us_distribution>
+  <us_distribution>Ill.</us_distribution>
+  <us_distribution>Ind.</us_distribution>
+  <us_distribution>Iowa</us_distribution>
+  <us_distribution>Ky.</us_distribution>
+  <us_distribution>Maine</us_distribution>
+  <us_distribution>Md.</us_distribution>
+  <us_distribution>Mass.</us_distribution>
+  <us_distribution>Mich.</us_distribution>
+  <us_distribution>Minn.</us_distribution>
+  <us_distribution>Mo.</us_distribution>
+  <us_distribution>N.H.</us_distribution>
+  <us_distribution>N.J.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>N.C.</us_distribution>
+  <us_distribution>Ohio</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <us_distribution>R.I.</us_distribution>
+  <us_distribution>Tenn.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Vt.</us_distribution>
+  <us_distribution>Va.</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <us_distribution>Wis.</us_distribution>
+  <global_distribution>Europe</global_distribution>
+  <global_distribution>introduced</global_distribution>
+  <global_distribution>Asia and beyond.</global_distribution>
+  <discussion>Inula helenium is widespread in the Old World.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

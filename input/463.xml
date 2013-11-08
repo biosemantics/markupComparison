@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>64.</number>
+  <genus_name>MALACOTHRIX</genus_name>
+  <authority>de Candolle</authority>
+  <place_of_publication>in A. P. de Candolle and A. L. P. P. de Candolle, Prodr. 7: 192. 1838</place_of_publication>
+  <common_name>Desertdandelion</common_name>
+  <derivation>Greek malakos, soft, and thrix , hair</derivation>
+  <author_of_tribe_genus>W. S. Davis</author_of_tribe_genus>
+  <description>
+    <statement id="463.txt-0">
+      <text>Annuals or perennials, 2–70(–200) cm;</text>
+    </statement>
+    <statement id="463.txt-1">
+      <text>taprooted (rhizomatous or taproots becoming caudices in M. saxatilis ).</text>
+      <structure id="o9177" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="70" to="200" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="2" from_unit="cm" to="70" to_unit="cm" />
+        <character name="life_style" value="annual" />
+        <character name="life_style" value="perennial" />
+        <character name="architecture" value="taprooted" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="463.txt-2">
+      <text>Stems 1–15 (usually from basal rosettes), usually erect, sometimes ± prostrate, usually branched (scapiform in M. californica ), usually glabrous (sometimes piloso-hirsute, stipitate-glandular, or tomentose to arachnose or puberulent, at least proximally or in leaf axils).</text>
+      <structure id="o9179" name="stem">
+        <character char_type="range_value" name="count" from="1" to="15" />
+        <character name="orientation" value="erect" modifier="usually" />
+        <character name="orientation" value="prostrate" modifier="sometimes ±" />
+        <character name="architecture_or_shape" value="branched" modifier="usually" />
+        <character name="pubescence" value="glabrous" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="463.txt-3">
+      <text>Leaves usually basal and cauline;</text>
+    </statement>
+    <statement id="463.txt-4">
+      <text>sessile;</text>
+      <structure id="o9180" name="leaf">
+        <character name="insertion_or_position" value="basal" modifier="usually" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="architecture" value="sessile" />
+      </structure>
+    </statement>
+    <statement id="463.txt-5">
+      <text>blades mostly oblong or lanceolate to obovate, oblanceolate, or spatulate (often pinnately lobed), ultimate margins entire or ± dentate (faces usually glabrous, sometimes piloso-hirsute or tomentose to arachnose or puberulent).</text>
+      <structure id="o9181" name="blade">
+        <character char_type="range_value" name="shape" from="lanceolate" to="obovate , oblanceolate , or spatulate" />
+        <character name="shape" value="oblong" modifier="mostly" />
+        <character name="shape" value="lanceolate" modifier="mostly" />
+        <character name="shape" value="obovate" modifier="mostly" />
+        <character name="shape" value="oblanceolate" modifier="mostly" />
+        <character name="shape" value="spatulate" modifier="mostly" />
+      </structure>
+      <structure id="o9182" name="margin" constraint="ultimate">
+        <character name="shape" value="entire" />
+        <character name="shape" value="dentate" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="463.txt-6">
+      <text>Heads usually in corymbiform to paniculiform arrays (borne singly in M. californica ).</text>
+      <structure id="o9183" name="head" />
+      <structure id="o9184" name="array">
+        <character char_type="range_value" name="architecture" from="corymbiform" to="paniculiform" />
+        <character name="architecture" value="corymbiform" />
+        <character name="architecture" value="paniculiform" />
+      </structure>
+      <relation id="r1068" name="in" from="o9183" to="o9184" negation="false" modifier="usually" />
+    </statement>
+    <statement id="463.txt-7">
+      <text>Peduncles not inflated distally, usually bracteate.</text>
+      <structure id="o9185" name="peduncle">
+        <character name="shape" value="inflated" modifier="not ; distally" />
+        <character name="architecture" value="bracteate" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="463.txt-8">
+      <text>Calyculi 0 (outer phyllaries intergrading with inner) or of 3–30+, ± deltate or lanceolate to linear or subulate, subequal to unequal bractlets (in 1–2 series distinct from phyllaries, margins usually hyaline, faces usually glabrous, sometimes arachnose, rarely stipitate-glandular).</text>
+      <structure id="o9186" name="calyculus">
+        <character name="count" value="0" />
+        <character name="count" value="of 3-30+ , moreorless deltate or lanceolate to linear or subulate , sizsize list subequal to unequal bractlets" />
+      </structure>
+      <structure id="o9187" name="bractlet">
+        <character char_type="range_value" name="count" from="3" to="30" upper_restricted="false" />
+        <character char_type="range_value" name="shape" from="lanceolate" to="linear or subulate" />
+        <character name="shape" value="deltate" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="subulate" />
+        <character char_type="range_value" name="size" from="subequal" to="unequal" />
+        <character name="size" value="subequal" />
+        <character name="size" value="unequal" />
+      </structure>
+      <relation id="r1069" name="consist_of" from="o9186" to="o9187" negation="false" />
+    </statement>
+    <statement id="463.txt-10">
+      <text>Phyllaries either (without calyculi) 25–80+ in 4–6+ series and orbiculate to oblong, lance-oblong, lanceolate, or linear, unequal, or (with calyculi) 12–25+ in 2–3 series and oblong or lanceolate to linear, subequal;</text>
+      <structure id="o9188" name="phyllary">
+        <character char_type="range_value" name="count" from="25" to="80" upper_restricted="false" constraint="in series" constraintid="o9189" />
+        <character char_type="range_value" name="shape" from="orbiculate" to="oblong , lance-oblong , lanceolate , or linear" />
+        <character name="shape" value="orbiculate" />
+        <character name="shape" value="oblong" />
+        <character name="shape" value="lance-oblong" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="linear" />
+        <character name="size" value="unequal" />
+        <character char_type="range_value" name="count" from="12" to="25" upper_restricted="false" constraint="in series" constraintid="o9190" />
+        <character char_type="range_value" name="shape" from="lanceolate" to="linear" />
+        <character name="shape" value="oblong" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="linear" />
+        <character name="size" value="subequal" />
+      </structure>
+      <structure id="o9189" name="series">
+        <character char_type="range_value" name="count" from="4" to="6" upper_restricted="false" />
+      </structure>
+      <structure id="o9190" name="series">
+        <character char_type="range_value" name="count" from="2" to="3" />
+      </structure>
+    </statement>
+    <statement id="463.txt-11">
+      <text>margins ± hyaline, 0.05–2.5 mm, apices obtuse to acute or acuminate.</text>
+      <structure id="o9191" name="margin">
+        <character name="coloration" value="hyaline" modifier="±" />
+        <character char_type="range_value" name="size" from="0.05" from_unit="mm" to="2.5" to_unit="mm" />
+      </structure>
+      <structure id="o9192" name="apex">
+        <character char_type="range_value" name="shape" from="obtuse" to="acute or acuminate" />
+        <character name="shape" value="obtuse" />
+        <character name="shape" value="acute" />
+        <character name="shape" value="acuminate" />
+      </structure>
+    </statement>
+    <statement id="463.txt-12">
+      <text>Receptacles flat to ± convex, pitted or smooth, sometimes bristly, epaleate.</text>
+      <structure id="o9193" name="receptacle">
+        <character name="shape" value="flat" />
+        <character name="shape" value="convex" modifier="±" />
+        <character name="relief" value="pitted" />
+        <character name="relief" value="smooth" />
+        <character name="pubescence" value="bristly" modifier="sometimes" />
+        <character name="architecture" value="epaleate" />
+      </structure>
+    </statement>
+    <statement id="463.txt-13">
+      <text>Florets 15–270;</text>
+      <structure id="o9194" name="floret">
+        <character char_type="range_value" name="count" from="15" to="270" />
+      </structure>
+    </statement>
+    <statement id="463.txt-14">
+      <text>corollas yellow or white (sometimes reddish or lavender abaxially; outer ligules exserted 1–15 mm).</text>
+      <structure id="o9195" name="corolla">
+        <character name="coloration" value="yellow" />
+        <character name="coloration" value="white" />
+      </structure>
+    </statement>
+    <statement id="463.txt-15">
+      <text>Cypselae (monomorphic) stramineous to brown or purplish brown, ± prismatic or cylindro-fusiform, not beaked, ribs 15 (often 5 more prominent than others, apices of ribs sometimes projecting and forming coronas subtending pappi), usually glabrous (sometimes minutely hirtellous or muriculate);</text>
+      <structure id="o9196" name="cypsela">
+        <character char_type="range_value" name="coloration" from="stramineous" to="brown or purplish-brown" />
+        <character name="coloration" value="stramineous" />
+        <character name="coloration" value="brown" />
+        <character name="coloration" value="brown" modifier="purplish" />
+        <character name="shape" value="prismatic" modifier="±" />
+        <character name="shape" value="cylindro-fusiform" modifier="±" />
+        <character name="shape" value="beaked" modifier="not" />
+      </structure>
+      <structure id="o9197" name="rib">
+        <character name="count" value="15" />
+        <character name="pubescence" value="glabrous" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="463.txt-16">
+      <text>pappi 0, or (single or double) persistent, whitish, crenate crowns or rings of (1–)8–25+ teeth (mostly 0.05–0.1 mm) plus 0–6, coarse, smooth bristles (setiform scales), all in ± 1 series, subtending (i.e., exterior to) the readily falling, inner (or single and only) pappi of 15–35, basally coherent, white, fine, smooth to barbellulate or (proximally) ± plumose bristles in 1 series (falling all together or in groups).</text>
+      <structure id="o9198" name="pappus">
+        <character name="count" value="0" />
+        <character name="duration" value="persistent" />
+        <character name="coloration" value="whitish" />
+      </structure>
+      <structure id="o9199" name="crown">
+        <character name="shape" value="crenate" />
+        <character name="texture" value="coarse" />
+      </structure>
+      <structure id="o9200" name="ring">
+        <character char_type="range_value" name="count" from="0" to="6" />
+      </structure>
+      <structure id="o9201" name="tooth" constraint="1-8-25+" />
+      <relation id="r1070" name="part_of" from="o9200" to="o9201" negation="false" />
+      <structure id="o9202" name="bristle">
+        <character name="architecture_or_relief" value="smooth" />
+        <character name="insertion_or_position" value="subtending" />
+        <character name="orientation" value="falling" modifier="readily" />
+      </structure>
+      <structure id="o9203" name="series">
+        <character name="count" value="1" modifier="±" />
+      </structure>
+      <relation id="r1071" name="in" from="o9202" to="o9203" negation="false" />
+      <structure id="o9204" name="pappus" constraint="inner" />
+      <structure id="o9205" name="bristle">
+        <character char_type="range_value" name="count" from="15" to="35" />
+        <character name="fusion" value="coherent" modifier="basally" />
+        <character name="coloration" value="white" />
+        <character name="texture" value="fine" />
+        <character char_type="range_value" name="architecture" from="smooth" to="barbellulate" />
+        <character name="architecture" value="smooth" />
+        <character name="architecture" value="barbellulate" />
+        <character name="architecture" value="plumose" modifier="±" />
+      </structure>
+      <relation id="r1072" name="consist_of" from="o9204" to="o9205" negation="false" />
+      <structure id="o9206" name="series">
+        <character name="count" value="1" />
+      </structure>
+      <relation id="r1073" name="in" from="o9205" to="o9206" negation="false" />
+    </statement>
+    <statement id="463.txt-17">
+      <text>x = 7, 9.</text>
+      <structure id="o9207" name="chromosome">
+        <character name="count" value="7" />
+        <character name="count" value="9" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species 20 (18 in the flora):</number_of_infrataxa>
+  <general_distribution>w United States</general_distribution>
+  <general_distribution>nw Mexico</general_distribution>
+  <general_distribution>introduced in South America.</general_distribution>
+  <references>SELECTED REFERENCES Davis, W. S. 1997. The systematics of annual species of Malacothrix (Asteraceae: Lactuceae) endemic to the California Islands. Madroño 44: 223–244. Williams, E. W. 1957. The genus Malacothrix (Compositae). Amer. Midl. Naturalist 58: 494–512.</references>
+  <key>1.Perennials (sometimes flowering first year).</key>
+  <key>2.Corollas medium yellow; persistent pappi 08. Malacothrix incana</key>
+  <key>2.Corollas white (usually each with abaxial purple stripe); persistent pappi of fimbriate crowns or 20–25, blunt teeth (0.01–0.05 mm) plus 0 bristles12. Malacothrix saxatilis</key>
+  <key>1.Annuals.</key>
+  <key>3.Involucres hemispheric; phyllaries orbiculate (outer) to oblong or linear, hyaline margins 1–2.5 mm wide3. Malacothrix coulteri</key>
+  <key>3.Involucres usually ± campanulate (to hemispheric in M. sonchoides); bractlets of calyculi and/or phyllaries ovate to lanceolate, linear, or subulate, hyaline margins 0.05–0.3(–1) mm wide.</key>
+  <key>4.Stems seldom branched (heads usually borne singly on scapiform peduncles); cypsela ribs: 5 more prominent than others1. Malacothrix californica</key>
+  <key>4.Stems branched (heads usually in corymbiform to paniculiform arrays); cypsela ribs ± equal, or 5 more prominent than others.</key>
+  <key>5.Cauline leaves not or seldom notably reduced distally (Channel Islands, California).</key>
+  <key>6.Persistent pappi usually 0, rarely of 1–2 bristles; pollen 70–100% 3-porate.</key>
+  <key>7.Stems erect or ± prostrate (forming mats); proximal cauline leaves usually fleshy (lobes nearly equal, apices obtuse); San Miguel, Santa Cruz, and Santa Rosa islands9. Malacothrix indecora</key>
+  <key>7.Stems erect (not forming mats); proximal cauline leaves usually not fleshy (lobes usually unequal, apices acute or obtuse); Anacapa, San Clemente, San Nicolas, and Santa Barbara islands6. Malacothrix foliosa</key>
+  <key>6.Persistent pappi of 15–20 teeth (0.01–0.1 mm) plus 1–2 bristles; pollen 70–100% 4-porate.</key>
+  <key>8.Calyculi 0; phyllaries 31–49 in 5–6+ series, hyaline margins 0.6–1 mm wide; Anacapa and Santa Cruz islands, California16. Malacothrix squalida</key>
+  <key>8.Calyculi of 7–11 bractlets; phyllaries 9–13 in 2–3 series, hyaline margins 0.1–0.2 mm wide; Anacapa Island, California10. Malacothrix junakii</key>
+  <key>5.Cauline leaves usually reduced distally (M. clevelandii and M. similis are known from Channel Islands, California).</key>
+  <key>[9.Shifted to left margin.—Ed.]</key>
+  <key>9.Corollas 4–10 mm; outer ligules exserted 1–4 mm.</key>
+  <key>10.Proximal cauline leaves (pinnately lobed, lobes 3–5 pairs, ± equal, bases white-hairy) ± fleshy; persistent pappi of crenate crowns plus 0 bristles; pollen 70–100% 3-porate 11. Malacothrix phaeocarpa</key>
+  <key>10.Proximal cauline leaves (pinnately lobed or not) not fleshy; persistent pappi of 8–24+ teeth plus 1–2 bristles; pollen 3- or 4-porate.</key>
+  <key>11.Proximal cauline leaves oblanceolate to lance-linear; corollas pale yellow; cypselae ± cylindro-fusiform or prismatic, 1.2–1.8 mm (ribs extending to apices, 5 more prominent than others); persistent pappi of 14–24+ needlelike teeth plus 1 bristle (mainly California).</key>
+  <key>12.Stems branched mostly distally, glabrous; cauline leaves: margins usually dentate; cypselae (stramineous to brown) 1.2–1.8 mm; pollen 3-porate (mean diam. 25 µm)2. Malacothrix clevelandii</key>
+  <key>12.Stems branched mostly proximally; cauline leaves: margins usually entire; cypselae 1.4–1.7 mm (purplish brown); pollen 4-porate (mean pollen diam. 30 µm)13. Malacothrix similis</key>
+  <key>11.Proximal cauline leaves obovate to narrowly oblanceolate; corollas white or pale yellow; cypselae ± cylindro-fusiform, 1.7–2.3 mm (ribs not extending to apices, ± equal); persistent pappi of 8–18 teeth plus 1–2 bristles (Arizona, California, Nevada).</key>
+  <key>13.Corollas white or pale yellow; cypselae 1.7–2 mm (bases slightly expanded, distal 0.3 mm smooth); pollen 70–100% 3-porate15. Malacothrix sonorae</key>
+  <key>13.Corollas usually yellow, sometimes white; cypselae 1.7–2.3 mm (bases not expanded, distal 0.1–0.2 mm smooth); pollen 70–100% 4-porate17. Malacothrix stebbinsii</key>
+  <key>9.Corollas (7–)10–23+ mm; outer ligules exserted 5–15+ mm.</key>
+  <key>14.Proximal cauline leaves pinnately lobed (lobes 2–6+ pairs, filiform or triangular to oblong, subequal to unequal, apices acute), not fleshy, ultimate margins dentate or entire; cypsela ribs ± equal.</key>
+  <key>15.Proximal cauline leaves usually pinnately lobed (lobes filiform); receptacles bristly; cypselae ± cylindro-fusiform (sometimes weakly 5-angled, ribs extending to apices) 7. Malacothrix glabrata</key>
+  <key>15.Proximal cauline leaves sometimes pinnately lobed (lobes relatively broad, triangular to deltate); receptacles not bristly; cypselae ± cylindro-fusiform (ribs not extending to apices, distal 0.3 mm of cypselae smooth)4. Malacothrix fendleri</key>
+  <key>14.Proximal cauline leaves pinnately lobed (lobes 3–8 pairs, ± oblong to triangular, ± equal, apices obtuse or acute), ± fleshy, ultimate margins usually dentate; cypsela ribs ± equal or 5 more prominent than others.</key>
+  <key>16.Corollas white or yellow (usually with lavender abaxially); cypselae 1.2–2 mm; persistent pappi 05. Malacothrix floccifera</key>
+  <key>16.Corollas lemon or medium yellow; cypselae 1.8–4 mm; persistent pappi of 12–25+ irregular, blunt teeth plus 0–6 bristles.</key>
+  <key>17.Distal cauline leaves narrowly triangular to linear (bases usually ± dilated, ± clasping); persistent pappi of crenate crowns or 12–25+ teeth plus 0 bristles 14. Malacothrix sonchoides</key>
+  <key>17.Distal cauline leaves ± elliptic to linear (bases narrowly cuneate); persistent pappi of 12–15 teeth plus 0–6 bristles18. Malacothrix torreyi</key>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

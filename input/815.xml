@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>187j.</number>
+  <tribe_name>Asteraceae Martinov tribe Anthemideae</tribe_name>
+  <authority>Cassini</authority>
+  <place_of_publication>J. Phys. Chim. Hist. Nat. Arts 88: 192. 1819</place_of_publication>
+  <description>
+    <statement id="815.txt-0">
+      <text>Annuals, biennials, perennials, subshrubs, or shrubs (herbage often aromatic).</text>
+      <structure id="o17146" name="whole_organism">
+        <character name="life_style" value="annual" />
+        <character name="life_style" value="biennial" />
+        <character name="life_style" value="perennial" />
+        <character name="life_style" value="subshrub" />
+        <character name="life_style" value="shrub" />
+      </structure>
+    </statement>
+    <statement id="815.txt-1">
+      <text>Leaves usually cauline, sometimes mostly basal;</text>
+    </statement>
+    <statement id="815.txt-2">
+      <text>alternate [opposite];</text>
+    </statement>
+    <statement id="815.txt-3">
+      <text>usually petiolate, sometimes sessile;</text>
+      <structure id="o17151" name="leaf">
+        <character name="insertion_or_position" value="cauline" modifier="usually" />
+        <character name="insertion_or_position" value="basal" modifier="sometimes mostly" />
+        <character name="arrangement" value="alternate" />
+        <character name="architecture" value="petiolate" modifier="usually" />
+        <character name="architecture" value="sessile" modifier="sometimes" />
+      </structure>
+    </statement>
+    <statement id="815.txt-4">
+      <text>margins usually 1–3-palmately or -pinnately lobed (ultimate segments usually linear to filiform), sometimes not lobed, margins dentate or entire.</text>
+      <structure id="o17152" name="margin">
+        <character name="shape" value="lobed" modifier="usually 1-3-palmately-or-pinnately" />
+        <character name="shape" value="lobed" modifier="sometimes not" />
+      </structure>
+      <structure id="o17153" name="margin">
+        <character name="shape" value="dentate" />
+        <character name="shape" value="entire" />
+      </structure>
+    </statement>
+    <statement id="815.txt-5">
+      <text>Heads homogamous (discoid) or heterogamous (radiate or disciform), usually in corymbiform, paniculiform, racemiform, or spiciform arrays, sometimes borne singly or in subcapitate clusters.</text>
+      <structure id="o17154" name="head">
+        <character name="reproduction" value="homogamous" />
+        <character name="reproduction" value="heterogamous" />
+        <character name="arrangement" value="singly" modifier="sometimes" />
+        <character name="arrangement" value="in subcapitate clusters" />
+      </structure>
+      <structure id="o17155" name="array">
+        <character name="architecture" value="corymbiform" />
+        <character name="architecture" value="paniculiform" />
+        <character name="architecture" value="racemiform" />
+        <character name="architecture" value="spiciform" />
+      </structure>
+      <relation id="r1844" name="in" from="o17154" to="o17155" negation="false" modifier="usually" />
+      <structure id="o17156" name="cluster">
+        <character name="architecture" value="subcapitate" />
+      </structure>
+      <relation id="r1845" name="in" from="o17154" to="o17156" negation="false" />
+    </statement>
+    <statement id="815.txt-6">
+      <text>Calyculi 0.</text>
+      <structure id="o17157" name="calyculus">
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+    <statement id="815.txt-7">
+      <text>Phyllaries persistent or falling, usually in 3–5+ series, distinct, unequal, and wholly scarious or with margins and/or apices notably scarious, sometimes in 1–2 series, distinct, subequal, and herbaceous with margins and/or apices barely scarious.</text>
+      <structure id="o17158" name="phyllary">
+        <character name="duration" value="persistent" />
+        <character name="orientation" value="falling" />
+        <character name="fusion" value="distinct" />
+        <character name="size" value="unequal" />
+        <character name="texture" value="scarious" modifier="wholly" />
+        <character name="texture" value="with margins" />
+        <character name="fusion" value="distinct" />
+        <character name="size" value="subequal" />
+        <character name="habit_or_texture" value="herbaceous" constraint="with margins" constraintid="o17163" />
+      </structure>
+      <structure id="o17159" name="series">
+        <character char_type="range_value" name="count" from="3" to="5" upper_restricted="false" />
+      </structure>
+      <relation id="r1846" name="in" from="o17158" to="o17159" negation="false" modifier="usually" />
+      <structure id="o17160" name="margin" />
+      <relation id="r1847" name="with" from="o17158" to="o17160" negation="false" />
+      <structure id="o17161" name="apex">
+        <character name="texture" value="scarious" modifier="notably" />
+      </structure>
+      <structure id="o17162" name="series">
+        <character char_type="range_value" name="count" from="1" to="2" />
+      </structure>
+      <relation id="r1848" name="in" from="o17158" to="o17162" negation="false" modifier="sometimes" />
+      <structure id="o17163" name="margin" />
+      <structure id="o17164" name="apex">
+        <character name="texture" value="scarious" modifier="barely" />
+      </structure>
+    </statement>
+    <statement id="815.txt-8">
+      <text>Receptacles flat to columnar or conic, epaleate or paleate (sometimes partially paleate; paleae usually falling, oblong to linear or filiform, flat or ± conduplicate).</text>
+      <structure id="o17165" name="receptacle">
+        <character char_type="range_value" name="shape" from="flat" to="columnar or conic" />
+        <character name="shape" value="flat" />
+        <character name="shape" value="columnar" />
+        <character name="shape" value="conic" />
+        <character name="architecture" value="epaleate" />
+        <character name="architecture" value="paleate" />
+      </structure>
+    </statement>
+    <statement id="815.txt-9">
+      <text>Ray florets 0 or in 1(–2+) series, usually pistillate and fertile, rarely neuter or styliferous and sterile;</text>
+      <structure id="o17166" name="floret" constraint="ray">
+        <character name="count" value="0" />
+        <character name="count" value="in 1-LRB-/-LRB--2+-RRB-/-RRB- series" />
+        <character name="architecture" value="pistillate" modifier="usually" />
+        <character name="reproduction" value="fertile" />
+        <character name="architecture" value="neuter" modifier="rarely" />
+        <character name="architecture" value="styliferous" modifier="rarely" />
+        <character name="reproduction" value="sterile" />
+      </structure>
+      <structure id="o17167" name="series" constraint="-2+">
+        <character name="count" value="1" />
+      </structure>
+      <relation id="r1849" name="in" from="o17166" to="o17167" negation="false" />
+    </statement>
+    <statement id="815.txt-10">
+      <text>corollas usually yellow or white, sometimes reddish to cyanic (sometimes combinations within corollas).</text>
+      <structure id="o17168" name="corolla">
+        <character char_type="range_value" name="coloration" from="white , sometimes reddish" to="cyanic" />
+        <character name="coloration" value="yellow" modifier="usually" />
+        <character name="coloration" value="white" modifier="usually" />
+        <character name="coloration" value="reddish" modifier="sometimes" />
+        <character name="coloration" value="cyanic" modifier="sometimes" />
+      </structure>
+    </statement>
+    <statement id="815.txt-11">
+      <text>Peripheral (pistillate) florets 0 or (in disciform heads) in 1–3+ series;</text>
+      <structure id="o17169" name="floret" constraint="peripheral">
+        <character name="count" value="0" />
+        <character name="count" value="in 1-3+ series" />
+      </structure>
+      <structure id="o17170" name="series">
+        <character char_type="range_value" name="count" from="1" to="3" upper_restricted="false" />
+      </structure>
+      <relation id="r1850" name="in" from="o17169" to="o17170" negation="false" />
+    </statement>
+    <statement id="815.txt-12">
+      <text>corollas usually present, usually yellow, sometimes ochroleucous or reddish to cyanic (sometimes combinations within corollas), sometimes lacking.</text>
+      <structure id="o17171" name="corolla">
+        <character name="presence" value="present" modifier="usually" />
+        <character char_type="range_value" name="coloration" from="reddish" to="cyanic" />
+        <character name="coloration" value="yellow" modifier="usually" />
+        <character name="coloration" value="ochroleucous" modifier="sometimes" />
+        <character name="coloration" value="reddish" modifier="sometimes" />
+        <character name="coloration" value="cyanic" modifier="sometimes" />
+        <character name="presence" value="lacking" modifier="sometimes" />
+      </structure>
+    </statement>
+    <statement id="815.txt-13">
+      <text>Disc (inner) florets usually bisexual and fertile, rarely functionally staminate;</text>
+      <structure id="o17172" name="floret" constraint="disc">
+        <character name="reproduction" value="bisexual" modifier="usually" />
+        <character name="reproduction" value="fertile" />
+        <character name="architecture" value="staminate" modifier="rarely functionally" />
+      </structure>
+    </statement>
+    <statement id="815.txt-14">
+      <text>corollas usually yellow, sometimes ochroleucous or reddish to cyanic (sometimes combinations within corollas);</text>
+      <structure id="o17173" name="corolla">
+        <character char_type="range_value" name="coloration" from="reddish" to="cyanic" />
+        <character name="coloration" value="yellow" modifier="usually" />
+        <character name="coloration" value="ochroleucous" modifier="sometimes" />
+        <character name="coloration" value="reddish" modifier="sometimes" />
+        <character name="coloration" value="cyanic" modifier="sometimes" />
+      </structure>
+    </statement>
+    <statement id="815.txt-15">
+      <text>anther bases obtuse, not tailed, apical appendages ± ovate;</text>
+      <structure id="o17174" name="base" constraint="anther">
+        <character name="shape" value="obtuse" />
+        <character name="shape" value="tailed" modifier="not" />
+      </structure>
+      <structure id="o17175" name="appendage" constraint="apical">
+        <character name="shape" value="ovate" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="815.txt-16">
+      <text>styles abaxially glabrous or papillate (distally), branches linear, adaxially stigmatic in 2 lines from bases to apices, apices ± truncate, appendages rings of papillae or essentially 0.</text>
+      <structure id="o17176" name="style">
+        <character name="pubescence" value="glabrous" modifier="abaxially" />
+        <character name="pubescence" value="papillate" modifier="abaxially" />
+      </structure>
+      <structure id="o17177" name="branch">
+        <character name="arrangement_or_shape" value="linear" />
+        <character name="habit" value="stigmatic" modifier="adaxially" constraint="in lines" constraintid="o17178" />
+      </structure>
+      <structure id="o17178" name="line">
+        <character name="count" value="2" />
+      </structure>
+      <structure id="o17179" name="base" />
+      <relation id="r1851" name="from" from="o17178" to="o17179" negation="false" />
+      <structure id="o17180" name="apex" />
+      <relation id="r1852" name="to" from="o17179" to="o17180" negation="false" />
+      <structure id="o17181" name="apex">
+        <character name="shape" value="truncate" modifier="±" />
+      </structure>
+      <structure id="o17182" name="ring" constraint="appendages">
+        <character name="count" value="0" modifier="essentially" />
+      </structure>
+      <structure id="o17183" name="papilla" />
+      <relation id="r1853" name="part_of" from="o17182" to="o17183" negation="false" />
+    </statement>
+    <statement id="815.txt-17">
+      <text>Cypselae monomorphic or dimorphic within heads, usually obovoid or columnar to prismatic, sometimes 3-angled or -winged, or compressed or obcompressed (then often winged);</text>
+      <structure id="o17184" name="cypsela">
+        <character name="habit" value="monomorphic" />
+        <character name="habit" value="dimorphic" constraint="within heads" constraintid="o17185" />
+        <character char_type="range_value" name="shape" from="columnar" to="prismatic" />
+        <character name="shape" value="obovoid" modifier="usually" />
+        <character name="shape" value="columnar" modifier="usually" />
+        <character name="shape" value="prismatic" modifier="usually" />
+        <character name="architecture" value="3-angled-or-winged" modifier="sometimes" />
+        <character name="shape" value="compressed" />
+        <character name="shape" value="obcompressed" />
+      </structure>
+      <structure id="o17185" name="head" />
+    </statement>
+    <statement id="815.txt-18">
+      <text>pappi usually 0 (cypselar wall tissues sometimes produced as pappus-like, entire or lobed to toothed wings, coronas, or tubes), if present, pappi persistent or falling, usually of scales, rarely of bristles.</text>
+      <structure id="o17186" name="pappus">
+        <character name="count" value="0" modifier="usually" />
+        <character name="presence" value="present" />
+      </structure>
+      <structure id="o17187" name="pappus">
+        <character name="duration" value="persistent" />
+        <character name="orientation" value="falling" />
+      </structure>
+      <structure id="o17188" name="scale" />
+      <relation id="r1854" name="consist_of" from="o17187" to="o17188" negation="false" modifier="usually" />
+      <structure id="o17189" name="bristle" />
+      <relation id="r1855" name="consist_of" from="o17187" to="o17189" negation="false" modifier="rarely" />
+    </statement>
+  </description>
+  <number_of_infrataxa>Genera 100+, species 1700+ (26 genera, 99 species in the flora):</number_of_infrataxa>
+  <general_distribution>almost worldwide</general_distribution>
+  <general_distribution>mostly Old World.</general_distribution>
+  <discussion>Centers of concentration for anthemids are in the Mediterranean regions of Europe and Africa, in central Asia, and in southern Africa.</discussion>
+  <discussion>Studies by L. E. Watson et al. (2000) and syntheses by K. Bremer and C. J. Humphries (1993) and by C. Oberprieler et al. (unpubl.) have resulted in changes in circumscriptions for some genera and in better understandings of relationships among genera of anthemids.</discussion>
+  <discussion>From 1753 until near the end of the 20th century, the mums and florists’ chrysanthemums of horticulture, along with marguerites, Paris daisies, Shasta daisies, and others, were included by most botanists in Chrysanthemum. Then, traditional Chrysanthemum came to be dismembered (see, e.g., K. Bremer and C. J. Humphries 1993) and the mums, florists’ chrysanthemums, and their closest relatives came to be treated botanically in the genus Dendranthema. A great hue and cry ensued from horticulturalists, especially in Europe. The upshot was that a proposal to typify Chrysanthemum on C. indicum (florists’ chrysanthemum) succeeded, and that generic name is once again applied to the mums and florists’ chrysanthemums of horticulture, none of which is known to be well established in the flora area. Here, the marguerites and Paris daisies are treated in Argyranthemum, Shasta daisies in Leucanthemum, and corn chrysanthemums and crown daisies in Glebionis.</discussion>
+  <discussion>Some cultivated members of Anthemideae have been reported as ephemeral or ± persistent escapes in the flora area. Some of those are documented in generic treatments below; others include florists’ chrysanthemum (Chrysanthemum indicum, which may be encountered as abandoned plantings almost anywhere in the flora area) and Shasta daisy (reported for Michigan as Chrysanthemum ×superbum J. K. Ingram by E. G. Voss 1972–1996, vol. 3; see treatment of Leucanthemum).</discussion>
+  <discussion>Centipeda minima (Linnaeus) A. Braun &amp; Ascherson has been recorded from Massachusetts and Pennsylvania as non-persistent introductions. The plants are somewhat succulent, gland-dotted annuals with stems decumbent to procumbent, leaves oblanceolate to cuneate, mostly 5–15 mm, usually lobed or toothed distally, heads disciform, involucres hemispheric or broader (2–3+ mm diam.), phyllaries in 2–4 series, pistillate florets in 2–8 series, bisexual florets 10(–30), corollas yellow, 4-lobed, and cypselae obovoid, 1–1.5 mm, epappose. Traditionally, Centipeda has been included in Anthemideae; in more recent studies, it has been placed in Astereae (e.g., E. V. Boyko 2003; G. L. Nesom 2000) or in Centipedinae within Athroismeae (J. L. Panero 2005).</discussion>
+  <references>SELECTED REFERENCES Arriagada, J. E. and N. G. Miller. 1997. The genera of Anthemideae (Compositae: Asteraceae) in the southeastern United States. Harvard Pap. Bot. 2: 1–46. Bremer, K. and C. J. Humphries. 1993. Generic monograph of the Asteraceae–Anthemideae. Bull. Nat. Hist. Mus. London, Bot. 23: 71–177. Oberprieler, C. 2002. A phylogenetic analysis of Chamaemelum Mill. (Compositae: Anthemideae) and related genera based upon nrDNA ITS and cpDNA trnL/trnF IGS sequence variation. Bot. J. Linn. Soc. 138: 255–273. Oberprieler, C. and R. Vogt. 2000. The position of Castrilanthemum Vogt &amp; Oberprieler and the phylogeny of Mediterranean Anthemideae (Compositae) as inferred from nrDNA ITS and cpDNA trnL/trnF IGS sequence vaiation. Pl. Syst. Evol. 225: 145–170. Watson, L. E. et al. 2002. Molecular phylogeny of subtribe Artemisiinae (Asteraceae), including Artemisia and its allied and segregate genera. B. M. C. Evol. Biol. 2: 17 (12 pp.). Watson, L. E., T. M. Evans, and T. Boluarte. 2000. Molecular phylogeny of the tribe Anthemideae (Asteraceae), based on chloroplast gene ndhF. Molec. Phylogen. Evol. 15: 59–69.</references>
+  <key>1.Heads discoid or disciform (ray florets 0; if peripheral florets pistillate, lacking corollas or corollas lacking laminae).</key>
+  <key>2.Heads disciform (peripheral florets pistillate, disc florets bisexual or functionally staminate).</key>
+  <key>3.Pistillate corollas lacking.</key>
+  <key>4.Pistillate corollas lacking; disc florets 12–200+, bisexual and fertile (heads pedunculate)126. Cotula, p. 543</key>
+  <key>4.Pistillate corollas lacking (styles sheathed by pericarp tissues, soon indurate, becoming spinelike); disc florets 2–8+, functionally staminate (heads sessile) 127. Soliva, p. 545</key>
+  <key>3.Pistillate corollas ± tubular (distally 3–5-lobed or truncate).</key>
+  <key>5.Heads usually in lax to dense, corymbiform arrays, rarely borne singly; involucres mostly hemispheric or broader, (3–)5–22+ mm diam.; phyllaries (20–)30–60+ in (2–)3–5+ series112. Tanacetum (in part), p. 489</key>
+  <key>5.Heads usually in paniculiform, racemiform, or spiciform arrays, sometimes in subcapitate clusters, sometimes borne singly; involucres hemispheric to campanulate, obconic, ovoid, or turbinate, 1.5–5(–12) mm diam.; phyllaries 5–20+ in 1–4(–7) series.</key>
+  <key>6.Heads borne singly or (2–20+) in usually corymbiform, rarely paniculiform, arrays or in subcapitate clusters; disc floret corollas bright yellow or ochroleucous (leaves usually gland-dotted)118. Sphaeromeria, p. 499</key>
+  <key>6.Heads (usually 20–200+, 2–12+ in Picrothamnus) in paniculiform, racemiform, or spiciform arrays, rarely borne singly; disc floret corollas usually pale yellow, rarely red.</key>
+  <key>7.Subshrubs or shrubs (thorny); disc florets functionally staminate (corollas ± villous)117. Picrothamnus, p. 498</key>
+  <key>7.Annuals, perennials, subshrubs, or shrubs (not thorny); disc florets bisexual and fertile or functionally staminate (corollas usually glabrous, sometimes hairy, not villous)119. Artemisia (in part), p. 503</key>
+  <key>2.Heads discoid (all florets bisexual, fertile).</key>
+  <key>8.Subshrubs or shrubs.</key>
+  <key>9.Leaf blades usually 1-pinnately lobed (lobes usually crowded, not in one plane, overall effect ± vermiform); receptacles paleate; disc florets 60–250+116. Santolina, p. 497</key>
+  <key>9.Leaf blades not lobed or 1–2+ pinnately and/or palmately lobed, sometimes apically 3-lobed or -toothed (not vermiform); receptacles epaleate (except Artemisia palmeri); disc florets 3–20(–30+) or 40–100+.</key>
+  <key>10.Heads borne singly or in loose, corymbiform arrays; phyllaries 22–40 in 3–4+ series; disc florets 40–100+; cypselae narrowly obovoid to oblong or elliptic, ± terete or flattened, ribs 5; pappi of 1 (often cupped or earlike) or 3–5 (erose to lacerate) scales125. Pentzia, p. 543</key>
+  <key>10.Heads in paniculiform, racemiform, or spiciform arrays; phyllaries 12–20+ in 4–7 series; disc florets 2–20(–30+); cypselae columnar, obovoid, or fusiform, ribs 0 (and faces finely striate) or 2–5; pappi usually 0 (coroniform in A. californica and A. papposa)119. Artemisia (in part), p. 503</key>
+  <key>8.Annuals or perennials.</key>
+  <key>11.Perennials.</key>
+  <key>12.Receptacles convex, epaleate; disc corolla tubes ± cylindric (proximally swollen, becoming spongy in fruit, not clasping apices of cypselae)137. Leucanthemum (in part), p. 557</key>
+  <key>12.Receptacles hemispheric to conic, paleate; disc corolla tubes ± cylindric (bases saccate, weakly clasping apices of cypselae)115. Chamaemelum (in part), p. 496</key>
+  <key>11.Annuals (scarious tips of inner phyllaries not notably dilated; receptacles conic or oblong-ovoid to ± hemispheric or globose).</key>
+  <key>13.Phyllaries lance-triangular to ± ovate or elliptic (carinate); cypselae columnar to prismatic, ribs 4 (pericarps without myxogenic cells); pappi coroniform (shorter adaxially)123. Oncosiphon, p. 539</key>
+  <key>13.Phyllaries oblong or ovate to spatulate or linear-spatulate (not carinate); cypselae obconic, slightly compressed, ribs 5 (pericarps sometimes with myxogenic cells); pappi 0, coroniform, or adaxial auricles124. Matricaria (in part), p. 540</key>
+  <key>1.Heads radiate (ray florets 3–35+, corollas with laminae).</key>
+  <key>14.Receptacles wholly or partially paleate.</key>
+  <key>15.Heads in compact to open (± flat-topped), corymbiform or compound-corymbiform arrays; ray florets 3–5(–12); disc florets (5–)15–30+ (cypselae obcompressed)113. Achillea, p. 492</key>
+  <key>15.Heads borne singly or in lax, corymbiform arrays; ray florets 5–30+; disc florets 40–300+ (cypselae mostly not, sometimes weakly, obcompressed).</key>
+  <key>16.Disc corolla tubes ± cylindric (bases ± saccate or spurred, ± clasping apices of ovaries and/or cypselae); cypselae: ribs or nerves (weak): 2 lateral, 1 adaxial.</key>
+  <key>17.Phyllaries 16–24 in 2–3+ series; ray corollas orange, yellow, or white with yellow bases114. Cladanthus, p. 495</key>
+  <key>17.Phyllaries 22–45+ in 3–4+ series; ray corollas white115. Chamaemelum (in part), p. 496</key>
+  <key>16.Disc corolla tubes ± compressed or cylindric (bases sometimes proximally dilated, not saccate or spurred); cypselae: ribs 9–10, or 0, or 2 lateral (sometimes ± winged) plus 3–10 finer ribs on each face.</key>
+  <key>18. Perennials; ray corollas yellow128. Cota, p. 547</key>
+  <key>18.Annuals (biennials); ray corollas usually white, rarely yellow or pink 122. Anthemis, p. 537</key>
+  <key>14.Receptacles epaleate.</key>
+  <key>19.Cypselae dimorphic: outer (ray) usually 3-angled and ± winged (except Mauranthemum); inner (disc) ± compressed-prismatic or ± flattened (angles winged), or ± quadrate (1 or 2 angles sometimes winged), or columnar (not winged).</key>
+  <key>20.Subshrubs or shrubs131. Argyranthemum, p. 552</key>
+  <key>20.Annuals.</key>
+  <key>21.Stems and leaves hirtellous to pilosulous (some hairs gland-tipped, plants sticky, viscid)130. Heteranthemis, p. 551</key>
+  <key>21.Stems and leaves glabrous or hairy (hairs not gland-tipped, plants not viscid).</key>
+  <key>22.Ray corollas proximally white or red to purple, distally yellow or white; disc corollas proximally ochroleucous, distally red to purple (phyllaries ± carinate)132. Ismelia, p. 552</key>
+  <key>22.Ray corollas mostly white (usually yellowish at bases) or mostly yellow (sometimes paler distally); disc corollas ± yellow (phyllaries not carinate).</key>
+  <key>23.Involucres 8–12(–15+) mm diam.; ray floret corollas white (usually yellowish at bases, drying pinkish), laminae oblong to ovate (6–12+ mm); disc corolla lobes (2–)5 (without resin sacs)133. Mauranthemum (in part), p. 554</key>
+  <key>23.Involucres 15–25+ mm diam.; ray floret corollas mostly yellow, sometimes paler distally, laminae linear, oblong, or ovate (8–25 mm); disc corolla lobes 5 (each with a resin sac)134. Glebionis, p. 554</key>
+  <key>[19. Shifted to left margin.—Ed.]</key>
+  <key>19.Cypselae ± monomorphic, outer and inner similar (0 notably winged).</key>
+  <key>24.Shrubs (leaves mostly clustered distally on stems; pappi crowns of scales)135. Nipponanthemum, p. 555</key>
+  <key>24.Annuals, biennials, perennials.</key>
+  <key>25.Annuals.</key>
+  <key>26.Leaves usually irregularly 1-pinnately lobed or toothed; involucres ± hemispheric, 8–12(–15+) mm diam; disc florets 60–100+; cypselae: ribs 7–10133. Mauranthemum (in part), p. 554</key>
+  <key>26.Leaves (1–)2–3-pinnately lobed; involucres 4–14 mm diam.; disc florets 120–750+; cypselae: ribs 3–5.</key>
+  <key>27.Cypselae obconic, slightly compressed (usually asymmetric, apices oblique), ribs 5, faces smooth between ribs (pericarps without resin sacs, or resin sacs within lateral ribs)124. Matricaria (in part), p. 540</key>
+  <key>27.Cypselae trigonous, ± compressed, ribs 3–5 (0–2 abaxial, 2 lateral, 1 adaxial, usually whitish, relatively thick, smooth), faces smooth or rugose to tuberculate between ribs (pericarps usually with 2–3, sometimes 1–5, mostly abaxial-apical, resin sacs)129. Tripleurospermum (in part), p. 548</key>
+  <key>25.Biennials or perennials.</key>
+  <key>28.Heads usually in lax to dense, corymbiform arrays, rarely borne singly; pappi usually coroniform, rarely 0112. Tanacetum (in part), p. 489</key>
+  <key>28.Heads usually borne singly or in 2s or 3s, sometimes in corymbiform arrays; pappi usually 0, sometimes crowns of 6–12 irregular teeth.</key>
+  <key>29.Ray florets styliferous and sterile136. Leucanthemella, p. 557</key>
+  <key>29.Ray florets pistillate and fertile.</key>
+  <key>30.Cypselae trigonous, ± compressed, ribs 3–5 (0–2 abaxial, 2 lateral, 1 adaxial, usually whitish, relatively thick, smooth), faces smooth or rugose to tuberculate between ribs (pericarps usually with 2–3, sometimes 1–5, mostly abaxial-apical, resin sacs)129. Tripleurospermum (in part), p. 548</key>
+  <key>30.Cypselae ± columnar, cylindro-obconic, obconic, or obovoid, ribs 5–10 (pericarps without apical resin sacs).</key>
+  <key>31.Plants (10–)50–130(–200+) cm; disc corolla tubes ± cylindric (proximally swollen, becoming spongy in fruit); cypselae ± columnar to obovoid, ribs ± 10 (pericarps with myxogenic cells)137. Leucanthemum (in part), p. 557</key>
+  <key>31.Plants mostly (0.6–)5–40+ cm; disc corolla tubes ± cylindric (not swollen, not becoming spongy in fruit); cypselae ± obconic to cylindro-obconic, ribs 5 or 5–8(–10) (pericarps without myxogenic cells).</key>
+  <key>[32. Shifted to left margin.—Ed.]</key>
+  <key>32.Leaves not lobed, margins entire; involucres (4–)4.5–6(–6.5) mm diam.; phyllaries 20–26(+) in 2(–3+) series (receptacles ± villous)120. Hulteniella, p. 534</key>
+  <key>32.Leaves usually pinnati-palmately lobed (lobes 3–7), ultimate margins coarsely crenate, dentate, or entire; involucres 13–29 mm diam. (flattened); phyllaries (22–)25–34(–44) in 3(–4) series (receptacles glabrous)121. Arctanthemum, p. 535</key>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

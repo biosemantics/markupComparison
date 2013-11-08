@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>2.</number>
+  <species_name>Antennaria arcuata</species_name>
+  <authority>Cronquist</authority>
+  <place_of_publication>Leafl. W. Bot. 6: 41. 1950</place_of_publication>
+  <common_name>Box or meadow pussytoes</common_name>
+  <description>
+    <statement id="627.txt-0">
+      <text>Dioecious.</text>
+      <structure id="o13138" name="whole_organism">
+        <character name="reproduction" value="dioecious" />
+      </structure>
+    </statement>
+    <statement id="627.txt-1">
+      <text>Plants 5–15(–20) cm (stems woolly).</text>
+      <structure id="o13139" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="15" to="20" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="15" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="627.txt-2">
+      <text>Stolons 4–10 cm (arched).</text>
+      <structure id="o13140" name="stolon">
+        <character char_type="range_value" name="size" from="4" from_unit="cm" to="10" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="627.txt-3">
+      <text>Basal leaves 1–3-nerved, narrowly to broadly spatulate, or narrowly rhombic-obovate, 20–45 × 3–15 mm, tips mucronate, faces densely white - woolly.</text>
+      <structure id="o13141" name="leaf" constraint="basal">
+        <character name="architecture" value="1-3-nerved" />
+        <character name="shape" value="spatulate" modifier="narrowly broadly" />
+        <character name="shape" value="rhombic-obovate" modifier="narrowly" />
+        <character char_type="range_value" name="length" from="20" from_unit="mm" to="45" to_unit="mm" />
+        <character char_type="range_value" name="width" from="3" from_unit="mm" to="15" to_unit="mm" />
+      </structure>
+      <structure id="o13142" name="tip">
+        <character name="shape" value="mucronate" />
+      </structure>
+      <structure id="o13143" name="face" />
+    </statement>
+    <statement id="627.txt-4">
+      <text>Cauline leaves linear, (2–)5–40 mm, not flagged.</text>
+      <structure id="o13144" name="leaf" constraint="cauline">
+        <character name="arrangement_or_shape" value="linear" />
+        <character char_type="range_value" name="atypical_size" from="2" to="5" from_unit="mm" to_unit="mm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="40" to_unit="mm" />
+        <character name="orientation" value="flagged" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="627.txt-5">
+      <text>Heads (4–)7–25, in racem-iform to paniculiform or corymbiform arrays.</text>
+      <structure id="o13145" name="head">
+        <character char_type="range_value" name="atypical_count" from="4" to="7" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="7" to="25" />
+      </structure>
+      <structure id="o13146" name="array">
+        <character name="architecture" value="racem-iform" />
+        <character name="architecture" value="paniculiform" />
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <relation id="r1497" name="in" from="o13145" to="o13146" negation="false" />
+    </statement>
+    <statement id="627.txt-6">
+      <text>Involucres:</text>
+      <structure id="o13147" name="involucre" />
+    </statement>
+    <statement id="627.txt-7">
+      <text>staminate 3–5 mm;</text>
+      <structure id="o13148" name="involucre" constraint="staminate">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="627.txt-8">
+      <text>pistillate 4.5–6(–7) mm.</text>
+      <structure id="o13149" name="involucre" constraint="pistillate">
+        <character char_type="range_value" name="atypical_size" from="6" to="7" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="4.5" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="627.txt-9">
+      <text>Phyllaries distally whitish (mostly staminate) or grayish stramineous to light brown.</text>
+      <structure id="o13150" name="phyllary">
+        <character char_type="range_value" name="coloration" from="grayish-stramineous" to="light-brown" />
+        <character name="coloration" value="whitish" modifier="distally" />
+        <character name="coloration" value="stramineous" modifier="distally ;grayish" />
+        <character name="coloration" value="brown" modifier="distally ;light" />
+      </structure>
+    </statement>
+    <statement id="627.txt-10">
+      <text>Corollas:</text>
+      <structure id="o13151" name="corolla" />
+    </statement>
+    <statement id="627.txt-11">
+      <text>staminate 2.5–4 mm;</text>
+      <structure id="o13152" name="corolla" constraint="staminate">
+        <character char_type="range_value" name="size" from="2.5" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="627.txt-12">
+      <text>pistillate 3.5–5 mm.</text>
+      <structure id="o13153" name="corolla" constraint="pistillate">
+        <character char_type="range_value" name="size" from="3.5" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="627.txt-13">
+      <text>Cypselae 1–1.8 mm, glabrous;</text>
+      <structure id="o13154" name="cypsela">
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="1.8" to_unit="mm" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="627.txt-14">
+      <text>pappi:</text>
+      <structure id="o13155" name="pappus" />
+    </statement>
+    <statement id="627.txt-15">
+      <text>staminate 3–4.5 mm;</text>
+      <structure id="o13156" name="pappus" constraint="staminate">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="4.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="627.txt-16">
+      <text>pistillate 4–6 mm.</text>
+      <structure id="o13157" name="pappus" constraint="pistillate">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="627.txt-17">
+      <text>2 n = 28.</text>
+      <structure id="o13158" name="chromosome">
+        <character name="count" value="28" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>moist alkaline basins in sagebrush steppe</habitat>
+  <elevation>1500–2300 m;</elevation>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <discussion>Antennaria arcuata is known from three widely disjunct areas in Blaine County, Idaho; Elko County, Nevada; and Fremont County, Wyoming (R. J. Bayer 1992). It is characterized by arching stolons and white-woolly indument (Bayer) and is not easily confused with other species of Antennaria.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

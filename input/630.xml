@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>4a.</number>
+  <subspecies_name>Antennaria luzuloides Torrey &amp; A. Gray subsp. aberrans</subspecies_name>
+  <authority>(E. E. Nelson) R. J. Bayer &amp; Stebbins</authority>
+  <place_of_publication>Canad. J. Bot. 71: 1597. 1993</place_of_publication>
+  <common_name>Small-headed rush pussytoes</common_name>
+  <synonym_of_subspecies_name>Antennaria argentea Bentham subsp. aberrans E. E. Nelson, Bot. Gaz. 34: 124. 1902; A. luzuloides Torrey &amp; A. Gray var. microcephala (A. Gray) Cronquist; A. microcephala A. Gray; A. pyramidata Greene</synonym_of_subspecies_name>
+  <description>
+    <statement id="630.txt-0">
+      <text>Basal leaves 1(–3)-nerved, linear, 1–5 mm.</text>
+      <structure id="o13214" name="leaf" constraint="basal">
+        <character name="architecture" value="1(-3)-nerved" />
+        <character name="arrangement_or_shape" value="linear" />
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="630.txt-1">
+      <text>Heads 10–30 in race-miform to paniculiform arrays.</text>
+      <structure id="o13215" name="head">
+        <character char_type="range_value" name="count" from="10" to="30" constraint="in arrays" constraintid="o13216" />
+      </structure>
+      <structure id="o13216" name="array">
+        <character name="architecture" value="race-miform" />
+        <character name="architecture" value="paniculiform" />
+      </structure>
+    </statement>
+    <statement id="630.txt-2">
+      <text>Involucres :</text>
+      <structure id="o13217" name="involucre" />
+    </statement>
+    <statement id="630.txt-3">
+      <text>staminate 3.5–4 mm;</text>
+      <structure id="o13218" name="involucre" constraint="staminate">
+        <character char_type="range_value" name="size" from="3.5" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="630.txt-4">
+      <text>pistillate 3.5–4.5 mm.</text>
+      <structure id="o13219" name="involucre" constraint="pistillate">
+        <character char_type="range_value" name="size" from="3.5" from_unit="mm" to="4.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="630.txt-5">
+      <text>Phyllaries proximally green, distally white.</text>
+      <structure id="o13220" name="phyllary">
+        <character name="coloration" value="green" modifier="proximally" />
+        <character name="coloration" value="white" modifier="distally" />
+      </structure>
+    </statement>
+    <statement id="630.txt-6">
+      <text>Corollas :</text>
+      <structure id="o13221" name="corolla" />
+    </statement>
+    <statement id="630.txt-7">
+      <text>staminate 2.5–3.2 mm;</text>
+      <structure id="o13222" name="corolla" constraint="staminate">
+        <character char_type="range_value" name="size" from="2.5" from_unit="mm" to="3.2" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="630.txt-8">
+      <text>pistillate 2–2.5 mm.</text>
+      <structure id="o13223" name="corolla" constraint="pistillate">
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="2.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="630.txt-9">
+      <text>Cypselae 1–1.5 mm, sparingly papillate-strigose;</text>
+      <structure id="o13224" name="cypsela">
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="1.5" to_unit="mm" />
+        <character name="pubescence" value="papillate-strigose" modifier="sparingly" />
+      </structure>
+    </statement>
+    <statement id="630.txt-10">
+      <text>pappi:</text>
+      <structure id="o13225" name="pappus" />
+    </statement>
+    <statement id="630.txt-11">
+      <text>staminate 3–3.5 mm;</text>
+      <structure id="o13226" name="pappus" constraint="staminate">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="3.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="630.txt-12">
+      <text>pistillate 2.5–3 mm.</text>
+      <structure id="o13227" name="pappus" constraint="pistillate">
+        <character char_type="range_value" name="size" from="2.5" from_unit="mm" to="3" to_unit="mm" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>moist, open, meadows and drainages</habitat>
+  <habitat>lower montane</habitat>
+  <habitat>ponderosa pine zone</habitat>
+  <elevation>1000–2200 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <discussion>Subspecies aberrans is characterized by its non-stoloniferous habit and relatively small heads in racemiform to paniculiform arrays.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

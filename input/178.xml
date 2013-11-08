@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>3c.</number>
+  <variety_name>Saussurea angustifolia (Linnaeus) de Candolle var. yukonensis</variety_name>
+  <authority>A. E. Porsild</authority>
+  <place_of_publication>Bull. Natl. Mus. Canada 101: 28. 1945</place_of_publication>
+  <synonym_of_variety_name>Saussurea angustifolia (Willdenow) de Candolle subsp. yukonensis (A. E. Porsild) W. J. Cody; S . viscida Hultén var. yukonensis (A. E. Porsild) Hultén</synonym_of_variety_name>
+  <description>
+    <statement id="178.txt-0">
+      <text>Plants 3–14 cm.</text>
+      <structure id="o2251" name="whole_organism">
+        <character char_type="range_value" name="size" from="3" from_unit="cm" to="14" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="178.txt-1">
+      <text>Stems simple, lightly arachnoid.</text>
+      <structure id="o2252" name="stem">
+        <character name="architecture" value="simple" />
+        <character name="pubescence" value="arachnoid" modifier="lightly" />
+      </structure>
+    </statement>
+    <statement id="178.txt-2">
+      <text>Leaves often wider than 8 mm;</text>
+      <structure id="o2253" name="leaf">
+        <character name="size" value="8" unit="mm" modifier="often wider than" />
+      </structure>
+    </statement>
+    <statement id="178.txt-3">
+      <text>basal lanceolate to elliptic, margins denticulate, arachnoid throughout;</text>
+      <structure id="o2254" name="leaf" constraint="basal" />
+      <structure id="o2255" name="margin">
+        <character name="shape" value="denticulate" />
+        <character name="pubescence" value="arachnoid" modifier="throughout" />
+      </structure>
+    </statement>
+    <statement id="178.txt-4">
+      <text>cauline narrower, crowded, usually surpassing heads.</text>
+      <structure id="o2256" name="leaf" constraint="cauline">
+        <character name="size" value="narrower" />
+        <character name="architecture" value="crowded" />
+      </structure>
+      <structure id="o2257" name="head">
+        <character name="comparison" value="surpassing" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="178.txt-5">
+      <text>Heads crowded.</text>
+      <structure id="o2258" name="head">
+        <character name="architecture" value="crowded" />
+      </structure>
+    </statement>
+    <statement id="178.txt-6">
+      <text>Phyllaries unequal in 3–5 series;</text>
+      <structure id="o2259" name="phyllary">
+        <character name="size" value="unequal" constraint="in series" constraintid="o2260" />
+      </structure>
+      <structure id="o2260" name="series">
+        <character char_type="range_value" name="count" from="3" to="5" />
+      </structure>
+    </statement>
+    <statement id="178.txt-7">
+      <text>outer usually 2–4 times longer than wide.</text>
+      <structure id="o2261" name="phyllary" constraint="outer">
+        <character char_type="range_value" name="size" from="2" to="4" modifier="usually;times longer than wide" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>usually dry sites</habitat>
+  <habitat>arctic and alpine tundras</habitat>
+  <elevation>10–1300 m;</elevation>
+  <ca_distribution>N.W.T.</ca_distribution>
+  <ca_distribution>Yukon</ca_distribution>
+  <us_distribution>Alaska.</us_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

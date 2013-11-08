@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>109.</number>
+  <genus_name>PTEROCAULON</genus_name>
+  <authority>Elliott</authority>
+  <place_of_publication>Sketch Bot. S. Carolina 2: 323. 1823</place_of_publication>
+  <common_name />
+  <derivation>Greek pteron , wing, and kaulos , stem, alluding to stems winged by decurrent leaf bases</derivation>
+  <author_of_tribe_genus>Guy L. Nesom</author_of_tribe_genus>
+  <description>
+    <statement id="798.txt-0">
+      <text>Perennials, 20–150 cm;</text>
+    </statement>
+    <statement id="798.txt-1">
+      <text>usually rhizomatous and/or lignescent-tuberous-rooted.</text>
+      <structure id="o16823" name="whole_organism">
+        <character char_type="range_value" name="size" from="20" from_unit="cm" to="150" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+        <character name="architecture" value="rhizomatous" modifier="usually" />
+        <character name="architecture" value="lignescent-tuberous-rooted" />
+      </structure>
+    </statement>
+    <statement id="798.txt-2">
+      <text>Stems erect, simple, internodes winged (by decurrent leaf bases), lanate-tomentose and/or glandular.</text>
+      <structure id="o16824" name="stem">
+        <character name="orientation" value="erect" />
+        <character name="architecture" value="simple" />
+      </structure>
+      <structure id="o16825" name="internode">
+        <character name="architecture" value="winged" />
+        <character name="pubescence" value="lanate-tomentose" />
+        <character name="architecture_or_exudation_or_pubescence" value="glandular" />
+      </structure>
+    </statement>
+    <statement id="798.txt-3">
+      <text>Leaves cauline, alternate;</text>
+    </statement>
+    <statement id="798.txt-4">
+      <text>sessile;</text>
+      <structure id="o16826" name="leaf">
+        <character name="insertion_or_position" value="cauline" />
+        <character name="arrangement" value="alternate" />
+        <character name="architecture" value="sessile" />
+      </structure>
+    </statement>
+    <statement id="798.txt-5">
+      <text>blades linear to elliptic or obovate, bases decurrent, margins usually serrate to serrulate or denticulate, rarely entire, abaxial faces densely whitish-tomentose [puberulent or glabrescent], adaxial (green) glabrous or glabrescent, both faces usually stipitate- or sessile-glandular.</text>
+      <structure id="o16827" name="blade">
+        <character name="arrangement_or_shape" value="linear" />
+        <character name="shape" value="elliptic" />
+        <character name="shape" value="obovate" />
+      </structure>
+      <structure id="o16828" name="base">
+        <character name="shape" value="decurrent" />
+      </structure>
+      <structure id="o16829" name="margin">
+        <character name="shape" value="serrate" modifier="usually" />
+        <character name="shape" value="serrulate" />
+        <character name="shape" value="denticulate" />
+        <character name="shape" value="entire" modifier="rarely" />
+      </structure>
+      <structure id="o16830" name="face" constraint="abaxial">
+        <character name="pubescence" value="whitish-tomentose" modifier="densely" />
+        <character name="insertion_or_position" value="adaxial" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="glabrescent" />
+      </structure>
+      <structure id="o16831" name="face">
+        <character name="architecture_or_exudation_or_pubescence" value="stipitate-or-sessile-glandular" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="798.txt-6">
+      <text>Heads disciform, (sessile) in spiciform arrays (at ends of branches).</text>
+      <structure id="o16832" name="head">
+        <character name="shape_or_architecture" value="disciform" />
+      </structure>
+      <structure id="o16833" name="array">
+        <character name="architecture" value="spiciform" />
+      </structure>
+      <relation id="r1809" name="in" from="o16832" to="o16833" negation="false" />
+    </statement>
+    <statement id="798.txt-7">
+      <text>Involucres cylindro-campanulate to campanulate, 2–3[–5] mm diam.</text>
+      <structure id="o16834" name="involucre">
+        <character char_type="range_value" name="shape" from="cylindro-campanulate" to="campanulate" />
+        <character name="shape" value="cylindro-campanulate" />
+        <character name="shape" value="campanulate" />
+        <character char_type="range_value" name="atypical_size" from="3" to="5" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="3" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="798.txt-8">
+      <text>Phyllaries persistent, in 4–6 series, distinct, narrowly lanceolate, unequal (subindurate to scarious).</text>
+      <structure id="o16835" name="phyllary">
+        <character name="duration" value="persistent" />
+        <character name="fusion" value="distinct" />
+        <character name="shape" value="lanceolate" modifier="narrowly" />
+        <character name="size" value="unequal" />
+      </structure>
+      <structure id="o16836" name="series">
+        <character char_type="range_value" name="count" from="4" to="6" />
+      </structure>
+      <relation id="r1810" name="in" from="o16835" to="o16836" negation="false" />
+    </statement>
+    <statement id="798.txt-9">
+      <text>Receptacles flat, epaleate.</text>
+      <structure id="o16837" name="receptacle">
+        <character name="shape" value="flat" />
+        <character name="architecture" value="epaleate" />
+      </structure>
+    </statement>
+    <statement id="798.txt-10">
+      <text>Ray florets 0.</text>
+      <structure id="o16838" name="floret" constraint="ray">
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+    <statement id="798.txt-11">
+      <text>Peripheral (pistillate) florets in 1–3+ series, fertile;</text>
+      <structure id="o16839" name="floret" constraint="peripheral">
+        <character name="reproduction" value="fertile" />
+      </structure>
+      <structure id="o16840" name="series">
+        <character char_type="range_value" name="count" from="1" to="3" upper_restricted="false" />
+      </structure>
+      <relation id="r1811" name="in" from="o16839" to="o16840" negation="false" />
+    </statement>
+    <statement id="798.txt-12">
+      <text>corollas yellowish.</text>
+      <structure id="o16841" name="corolla">
+        <character name="coloration" value="yellowish" />
+      </structure>
+    </statement>
+    <statement id="798.txt-13">
+      <text>Inner (functionally staminate [bisexual]) florets [1–]2–15[+];</text>
+      <structure id="o16842" name="floret" constraint="inner">
+        <character char_type="range_value" name="atypical_count" from="1" to="2" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_count" from="15" to="15" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="2" to="15" />
+      </structure>
+    </statement>
+    <statement id="798.txt-14">
+      <text>corollas yellowish, lobes 5.</text>
+      <structure id="o16843" name="corolla">
+        <character name="coloration" value="yellowish" />
+      </structure>
+      <structure id="o16844" name="lobe">
+        <character name="count" value="5" />
+      </structure>
+    </statement>
+    <statement id="798.txt-15">
+      <text>Cypselae cylindric to fusiform, angled or slightly compressed, ribs 6–9 (white, narrow), faces usually sparsely strigose to hispidulous, minutely sessile-glandular between ribs;</text>
+      <structure id="o16845" name="cypsela">
+        <character char_type="range_value" name="shape" from="cylindric" to="fusiform , angled or slightly compressed" />
+        <character name="shape" value="cylindric" />
+        <character name="shape" value="fusiform" />
+        <character name="shape" value="angled" />
+        <character name="shape" value="compressed" modifier="slightly" />
+      </structure>
+      <structure id="o16846" name="rib">
+        <character char_type="range_value" name="count" from="6" to="9" />
+      </structure>
+      <structure id="o16847" name="face">
+        <character name="pubescence" value="strigose" modifier="usually sparsely" />
+        <character name="pubescence" value="hispidulous" />
+        <character name="architecture_or_exudation_or_pubescence" value="sessile-glandular" modifier="minutely" constraint="between ribs" constraintid="o16848" />
+      </structure>
+      <structure id="o16848" name="rib" />
+    </statement>
+    <statement id="798.txt-16">
+      <text>pappi persistent, of distinct, barbellulate bristles in 1–2 series.</text>
+      <structure id="o16849" name="pappus">
+        <character name="duration" value="persistent" />
+      </structure>
+      <structure id="o16850" name="bristle">
+        <character name="fusion" value="distinct" />
+        <character name="architecture" value="barbellulate" />
+      </structure>
+      <relation id="r1812" name="consist_of" from="o16849" to="o16850" negation="false" />
+      <structure id="o16851" name="series">
+        <character char_type="range_value" name="count" from="1" to="2" />
+      </structure>
+      <relation id="r1813" name="in" from="o16850" to="o16851" negation="false" />
+    </statement>
+    <statement id="798.txt-17">
+      <text>x = 10.</text>
+      <structure id="o16852" name="chromosome">
+        <character name="count" value="10" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species 17 (2 in the flora):</number_of_infrataxa>
+  <general_distribution>North America</general_distribution>
+  <general_distribution>South America</general_distribution>
+  <general_distribution>Australasia.</general_distribution>
+  <discussion>The 11 primarily South American species of Pterocaulon sect. Pterocaulon have 1–17 functionally staminate florets per head, 1–2-seriate pappi, and hairs of tomentum with the relatively long, aseptate portion arising from clusters of basal cells. The 6 Australasian species of sect. Monenteles (Labillardière) Cabrera have a single functionally staminate floret per head, uniseriate pappi, and hairs of the tomentum equally septate throughout.</discussion>
+  <references>SELECTED REFERENCE Cabrera, A. L. and A. M. Ragonese. 1978. Revisión del género Pterocaulon (Compositae). Darwiniana 21: 185–257.</references>
+  <key>1.Heads in dense, usually continuous, rarely interrupted, narrow, ± ovoid arrays (2–)3–8(–10) cm (axes completely hidden by crowded heads); lengths of leaf blades mostly 2–7 times widths; functionally staminate florets 6–10(–15); flowering May–Jun; Alabama, Florida, Georgia, Mississippi, North Carolina, South Carolina1. Pterocaulon pycnostachyum</key>
+  <key>1.Heads in open, ± interrupted, ± cylindric arrays (5–)8–20 cm (main axes visible between glomerules of heads); lengths of leaf blades mostly 6–8 times widths; functionally staminate florets 2–4(–5); flowering Aug–Oct; Louisiana, Texas2. Pterocaulon virgatum</key>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

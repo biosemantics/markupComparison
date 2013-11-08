@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>9c.</number>
+  <variety_name>Agoseris heterophylla (Nuttall) Greene var. quentinii</variety_name>
+  <authority>G. I. Baird</authority>
+  <place_of_publication>Sida 21: 271. 2004</place_of_publication>
+  <common_name>Arizona agoseris</common_name>
+  <description>
+    <statement id="514.txt-0">
+      <text>Stems 0.</text>
+      <structure id="o10514" name="stem">
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+    <statement id="514.txt-1">
+      <text>Leaves spreading to prostrate;</text>
+      <structure id="o10515" name="leaf">
+        <character char_type="range_value" name="orientation" from="spreading" to="prostrate" />
+        <character name="orientation" value="spreading" />
+        <character name="orientation" value="prostrate" />
+      </structure>
+    </statement>
+    <statement id="514.txt-2">
+      <text>blades 2–12 cm × 3–9(–12) mm, mostly lobed, lobes 2–3 pairs, abaxially glabrous, adaxially pubescent.</text>
+      <structure id="o10516" name="blade">
+        <character char_type="range_value" name="length" from="2" from_unit="cm" to="12" to_unit="cm" />
+        <character char_type="range_value" name="atypical_width" from="9" to="12" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="width" from="3" from_unit="mm" to="9" to_unit="mm" />
+        <character name="shape" value="lobed" modifier="mostly" />
+      </structure>
+      <structure id="o10517" name="lobe">
+        <character char_type="range_value" name="count" from="2" to="3" />
+        <character name="pubescence" value="glabrous" modifier="abaxially" />
+        <character name="pubescence" value="pubescent" modifier="adaxially" />
+      </structure>
+    </statement>
+    <statement id="514.txt-3">
+      <text>Peduncles 0–26 cm, lengths mostly less than 0.5 times leaves at flowering, 0.5–3 times leaves in fruit, ± glabrate, or apically tomentose.</text>
+      <structure id="o10518" name="peduncle">
+        <character char_type="range_value" name="size" from="0" from_unit="cm" to="26" to_unit="cm" />
+        <character name="size" value="0.5" modifier="mostly less than" constraint="times leaves at flowering, 0.5-3 times leaves in fruit" constraintid="o10519" />
+        <character name="pubescence" value="glabrate" modifier="±" />
+        <character name="pubescence" value="tomentose" modifier="apically" />
+      </structure>
+      <structure id="o10519" name="fruit">
+        <character name="STRUCTURE" value="(leaves)" />
+        <character char_type="range_value" name="count" from="0.5" to="3" />
+      </structure>
+    </statement>
+    <statement id="514.txt-4">
+      <text>Florets 15–30+;</text>
+      <structure id="o10520" name="floret">
+        <character char_type="range_value" name="count" from="15" to="30" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="514.txt-5">
+      <text>corollas ± equaling phyllaries at flowering, tubes 2–3 mm, ligules 2–3 × 0.8–1.5 mm;</text>
+      <structure id="o10521" name="corolla" />
+      <structure id="o10522" name="phyllary" constraint="at flowering">
+        <character name="comparison" value="equaling" modifier="±" />
+      </structure>
+      <structure id="o10523" name="tube">
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="3" to_unit="mm" />
+      </structure>
+      <structure id="o10524" name="ligule">
+        <character char_type="range_value" name="length" from="2" from_unit="mm" to="3" to_unit="mm" />
+        <character char_type="range_value" name="width" from="0.8" from_unit="mm" to="1.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="514.txt-6">
+      <text>anthers ca. 1 mm.</text>
+      <structure id="o10525" name="anther">
+        <character name="size" value="1" unit="mm" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <habitat>mesic to dry habitats in deserts</habitat>
+  <habitat>grasslands</habitat>
+  <habitat>and oak woodlands</habitat>
+  <elevation>1200–2000 m;</elevation>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <discussion>The relatively small corollas and anthers of var. quentinii suggest that it, too, may be autogamous, as is var. heterophylla.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

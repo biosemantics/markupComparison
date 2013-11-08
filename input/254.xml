@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>4.</number>
+  <species_name>Vernonia pulchella</species_name>
+  <authority>Small</authority>
+  <place_of_publication>Bull. Torrey Bot. Club 25: 145. 1898</place_of_publication>
+  <description>
+    <statement id="254.txt-0">
+      <text>Plants 4–7+ dm.</text>
+      <structure id="o4353" name="whole_organism">
+        <character char_type="range_value" name="size" from="4" from_unit="dm" to="7" to_unit="dm" upper_restricted="false" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="254.txt-1">
+      <text>Stems sparsely appressed-puberulent.</text>
+      <structure id="o4354" name="stem">
+        <character name="pubescence" value="appressed-puberulent" modifier="sparsely" />
+      </structure>
+    </statement>
+    <statement id="254.txt-2">
+      <text>Leaves mostly cauline;</text>
+      <structure id="o4355" name="leaf">
+        <character name="insertion_or_position" value="cauline" modifier="mostly" />
+      </structure>
+    </statement>
+    <statement id="254.txt-3">
+      <text>blades (mid stem) mostly oblanceolate to lance-linear, rarely ovate, 3–7 cm × (5–)10–20+ mm, l/w = (2.5–)3.5–6+ (bases rounded-truncate), abaxially scabrellous (hairs awl-shaped), resin-gland-dotted, adaxially scabrellous.</text>
+      <structure id="o4356" name="blade">
+        <character name="shape" value="oblanceolate" modifier="mostly" />
+        <character name="arrangement_or_shape" value="lance-linear" />
+        <character name="shape" value="ovate" modifier="rarely" />
+        <character char_type="range_value" name="length" from="3" from_unit="cm" to="7" to_unit="cm" />
+        <character char_type="range_value" name="width" from="5" from_unit="mm" to="]10-20" to_unit="mm" upper_restricted="false" />
+        <character char_type="range_value" name="atypical_lwratio" from="2.5" to="3.5" to_inclusive="false" />
+        <character char_type="range_value" name="lwratio" from="3.5" to="6" upper_restricted="false" />
+        <character name="relief" value="scabrellous" modifier="abaxially" />
+        <character name="coloration_or_relief" value="resin-gland-dotted" />
+        <character name="relief" value="scabrellous" modifier="adaxially" />
+      </structure>
+    </statement>
+    <statement id="254.txt-4">
+      <text>Heads in ± corymbiform to paniculiform arrays.</text>
+      <structure id="o4357" name="head" />
+      <structure id="o4358" name="array">
+        <character char_type="range_value" name="architecture" from="corymbiform" to="paniculiform" />
+        <character name="architecture" value="corymbiform" />
+        <character name="architecture" value="paniculiform" />
+      </structure>
+      <relation id="r600" name="in" from="o4357" to="o4358" negation="false" />
+    </statement>
+    <statement id="254.txt-5">
+      <text>Peduncles 5–35 mm.</text>
+      <structure id="o4359" name="peduncle">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="35" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="254.txt-6">
+      <text>Involucres ± campanulate, 6–11 × 5–9 mm.</text>
+      <structure id="o4360" name="involucre">
+        <character name="shape" value="campanulate" modifier="±" />
+        <character char_type="range_value" name="length" from="6" from_unit="mm" to="11" to_unit="mm" />
+        <character char_type="range_value" name="width" from="5" from_unit="mm" to="9" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="254.txt-7">
+      <text>Phyllaries 40–50+ in 5–6 series, sparsely puberulent, margins arachno-ciliate, the outer subulate to filiform, 3–7 mm, inner lance-attenuate to filiform, 9–10+ mm, tips subulate to filiform.</text>
+      <structure id="o4361" name="phyllary">
+        <character char_type="range_value" name="count" from="40" to="50" upper_restricted="false" constraint="in series" constraintid="o4362" />
+        <character name="pubescence" value="puberulent" modifier="sparsely" />
+      </structure>
+      <structure id="o4362" name="series">
+        <character char_type="range_value" name="count" from="5" to="6" />
+      </structure>
+      <structure id="o4363" name="margin">
+        <character name="architecture_or_shape" value="arachno-ciliate" />
+        <character char_type="range_value" name="shape" from="outer subulate" to="filiform" />
+        <character name="shape" value="filiform" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="7" to_unit="mm" />
+        <character char_type="range_value" name="shape" from="inner lance-attenuate" to="filiform" />
+        <character name="shape" value="inner lance-attenuate" />
+        <character name="shape" value="filiform" />
+        <character char_type="range_value" name="size" from="9" from_unit="mm" to="10" to_unit="mm" upper_restricted="false" />
+      </structure>
+      <structure id="o4364" name="tip">
+        <character char_type="range_value" name="shape" from="subulate" to="filiform" />
+        <character name="shape" value="subulate" />
+        <character name="shape" value="filiform" />
+      </structure>
+    </statement>
+    <statement id="254.txt-8">
+      <text>Florets 14–25(–30+).</text>
+      <structure id="o4365" name="floret">
+        <character char_type="range_value" name="atypical_count" from="25" to="30" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="14" to="25" />
+      </structure>
+    </statement>
+    <statement id="254.txt-9">
+      <text>Cypselae 3–3.5 mm;</text>
+      <structure id="o4366" name="cypsela">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="3.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="254.txt-10">
+      <text>pappi stramineous, outer scales 25–30, 0.6–1.1 mm, contrasting with 30+, 6–7+ mm inner bristles.</text>
+      <structure id="o4367" name="pappus">
+        <character name="coloration" value="stramineous" />
+      </structure>
+      <structure id="o4368" name="scale" constraint="outer">
+        <character char_type="range_value" name="count" from="25" to="30" />
+        <character char_type="range_value" name="size" from="0.6" from_unit="mm" to="1.1" to_unit="mm" />
+        <character name="size" value="contrasting" constraint="with bristles" constraintid="o4369" />
+      </structure>
+      <structure id="o4369" name="bristle" constraint="inner">
+        <character name="count" char_type="range_value" from="30" upper_restricted="false" />
+        <character char_type="range_value" name="count" from="6" to="7" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="254.txt-11">
+      <text>2 n = 34 .</text>
+      <structure id="o4370" name="chromosome">
+        <character name="count" value="34" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>low, wet places in pine woods</habitat>
+  <elevation>20–50 m;</elevation>
+  <us_distribution>Ga.</us_distribution>
+  <us_distribution>S.C.</us_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

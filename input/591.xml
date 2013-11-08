@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>79.</number>
+  <genus_name>LYGODESMIA</genus_name>
+  <authority>D. Don</authority>
+  <place_of_publication>Edinburgh New Philos. J. 6: 311. 1829</place_of_publication>
+  <common_name>Skeletonplant, rush pink</common_name>
+  <derivation>Greek lygos , twig or stick, and desme , bundle, alluding to clumped, sticklike stems with reduced leaves</derivation>
+  <author_of_tribe_genus>David J. Bogler</author_of_tribe_genus>
+  <description>
+    <statement id="591.txt-0">
+      <text>Perennials, 5–80 cm;</text>
+    </statement>
+    <statement id="591.txt-1">
+      <text>rhizomatous or taprooted (roots vertical, rhizomes spreading).</text>
+      <structure id="o12264" name="whole_organism">
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="80" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+        <character name="architecture" value="rhizomatous" />
+        <character name="architecture" value="taprooted" />
+      </structure>
+    </statement>
+    <statement id="591.txt-2">
+      <text>Stems 1–5+, (green to gray-green, rushlike, ± striate), simple to or much branched proximally and/or distally, usually glabrous, rarely tomentulose.</text>
+      <structure id="o12265" name="stem">
+        <character char_type="range_value" name="count" from="1" to="5" upper_restricted="false" />
+        <character char_type="range_value" name="architecture" from="simple" to="or much branched proximally" />
+        <character name="architecture" value="simple" modifier="proximally" />
+        <character name="architecture" value="branched" modifier="much proximally" />
+        <character name="pubescence" value="glabrous" modifier="usually" />
+        <character name="pubescence" value="tomentulose" modifier="rarely" />
+      </structure>
+    </statement>
+    <statement id="591.txt-3">
+      <text>Leaves basal (sometimes in rosettes) and cauline;</text>
+    </statement>
+    <statement id="591.txt-4">
+      <text>sessile;</text>
+      <structure id="o12266" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="architecture" value="sessile" />
+      </structure>
+    </statement>
+    <statement id="591.txt-5">
+      <text>blades linear to subulate, sometimes reduced to scales, margins entire or sparingly pinnately laciniately lobed (faces usually glabrous, rarely tomentulose).</text>
+      <structure id="o12267" name="blade">
+        <character char_type="range_value" name="shape" from="linear" to="subulate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="subulate" />
+      </structure>
+      <structure id="o12268" name="scale" />
+      <relation id="r1425" name="sometimes reduced to" from="o12267" to="o12268" negation="false" />
+      <structure id="o12269" name="margin">
+        <character name="shape" value="entire" />
+        <character name="shape" value="lobed" modifier="sparingly pinnately laciniately" />
+      </structure>
+    </statement>
+    <statement id="591.txt-6">
+      <text>Heads borne singly or in loose, corymbiform arrays.</text>
+      <structure id="o12270" name="head">
+        <character name="arrangement" value="singly" />
+        <character name="arrangement" value="in loose , corymbiform arrays" />
+      </structure>
+      <structure id="o12271" name="array">
+        <character name="architecture_or_texture" value="loose" />
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <relation id="r1426" name="in" from="o12270" to="o12271" negation="false" />
+    </statement>
+    <statement id="591.txt-7">
+      <text>Peduncles not inflated distally, bracteate.</text>
+      <structure id="o12272" name="peduncle">
+        <character name="shape" value="inflated" modifier="not ; distally" />
+        <character name="architecture" value="bracteate" />
+      </structure>
+    </statement>
+    <statement id="591.txt-8">
+      <text>Calyculi of 8–16, ovate to subulate or scalelike bracteoles in 1–2 series, unequal, margins scarious to erose-ciliate, faces glabrous or tomentulose, sometimes roughened.</text>
+      <structure id="o12273" name="calyculus">
+        <character name="size" value="unequal" />
+      </structure>
+      <structure id="o12274" name="bracteole">
+        <character char_type="range_value" name="count" from="8" to="16" />
+        <character char_type="range_value" name="shape" from="ovate" to="subulate" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="subulate" />
+        <character name="archiecture" value="scalelike" />
+      </structure>
+      <relation id="r1427" name="consist_of" from="o12273" to="o12274" negation="false" />
+      <structure id="o12275" name="series">
+        <character char_type="range_value" name="count" from="1" to="2" />
+      </structure>
+      <relation id="r1428" name="in" from="o12274" to="o12275" negation="false" />
+      <structure id="o12276" name="margin">
+        <character name="texture" value="scarious" />
+        <character name="architecture_or_shape" value="erose-ciliate" />
+      </structure>
+      <structure id="o12277" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="tomentulose" />
+        <character name="texture" value="roughened" modifier="sometimes" />
+      </structure>
+    </statement>
+    <statement id="591.txt-9">
+      <text>Involucres cylindric, 5–8 mm diam. (apices truncate, narrow or spreading).</text>
+      <structure id="o12278" name="involucre">
+        <character name="shape" value="cylindric" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="591.txt-10">
+      <text>Phyllaries 5–12 in ± 1 series, grayish green, ± linear, equal, margins scarious, faces glabrous or puberulent, sometimes roughened .</text>
+      <structure id="o12279" name="phyllary">
+        <character char_type="range_value" name="count" from="5" to="12" constraint="in series" constraintid="o12280" />
+        <character name="coloration" value="green" modifier="grayish" />
+        <character name="arrangement_or_shape" value="linear" modifier="±" />
+        <character name="size" value="equal" />
+      </structure>
+      <structure id="o12280" name="series">
+        <character name="count" value="1" modifier="±" />
+      </structure>
+      <structure id="o12281" name="margin">
+        <character name="texture" value="scarious" />
+      </structure>
+      <structure id="o12282" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="puberulent" />
+        <character name="texture" value="roughened" modifier="sometimes" />
+      </structure>
+    </statement>
+    <statement id="591.txt-11">
+      <text>Receptacles flat, sometimes pitted, sometimes scabrous, epaleate.</text>
+      <structure id="o12283" name="receptacle">
+        <character name="shape" value="flat" />
+        <character name="relief" value="pitted" modifier="sometimes" />
+        <character name="pubescence_or_relief" value="scabrous" modifier="sometimes" />
+        <character name="architecture" value="epaleate" />
+      </structure>
+    </statement>
+    <statement id="591.txt-12">
+      <text>Florets 5–12;</text>
+      <structure id="o12284" name="floret">
+        <character char_type="range_value" name="count" from="5" to="12" />
+      </structure>
+    </statement>
+    <statement id="591.txt-13">
+      <text>corollas usually pink to lavender or purple, rarely white.</text>
+      <structure id="o12285" name="corolla">
+        <character name="coloration" value="pink" modifier="usually" />
+        <character name="coloration" value="lavender" />
+        <character name="coloration" value="purple" />
+        <character name="coloration" value="white" modifier="rarely" />
+      </structure>
+    </statement>
+    <statement id="591.txt-14">
+      <text>Cypselae pale green to tan, subcylindric, straight or arcuate, subterete or longitudinally angled or sulcate, apices sometimes narrowed, not beaked, faces smooth or rugose-roughened, glabrous;</text>
+      <structure id="o12286" name="cypsela">
+        <character char_type="range_value" name="coloration" from="pale-green" to="tan" />
+        <character name="coloration" value="green" modifier="pale" />
+        <character name="coloration" value="tan" />
+        <character name="shape" value="subcylindric" />
+        <character name="course" value="straight" />
+        <character name="course" value="arcuate , subterete or longitudinally angled" />
+        <character name="shape" value="arcuate" />
+        <character name="shape" value="subterete" />
+        <character name="shape" value="angled" modifier="longitudinally" />
+        <character name="architecture" value="sulcate" />
+      </structure>
+      <structure id="o12287" name="apex">
+        <character name="size" value="narrowed" modifier="sometimes" />
+        <character name="shape" value="beaked" modifier="not" />
+      </structure>
+      <structure id="o12288" name="face">
+        <character name="architecture_or_relief" value="smooth" />
+        <character name="texture" value="rugose-roughened" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="591.txt-15">
+      <text>pappi persistent, of 60–80, tawny or white, ± connate, smooth bristles in 1–2+ series.</text>
+      <structure id="o12289" name="pappus">
+        <character name="duration" value="persistent" />
+      </structure>
+      <structure id="o12290" name="bristle">
+        <character char_type="range_value" name="count" from="60" to="80" />
+        <character name="coloration" value="tawny" />
+        <character name="coloration" value="white" />
+        <character name="fusion" value="connate" modifier="±" />
+        <character name="architecture_or_relief" value="smooth" />
+      </structure>
+      <relation id="r1429" name="consist_of" from="o12289" to="o12290" negation="false" />
+      <structure id="o12291" name="series">
+        <character char_type="range_value" name="count" from="1" to="2" upper_restricted="false" />
+      </structure>
+      <relation id="r1430" name="in" from="o12290" to="o12291" negation="false" />
+    </statement>
+    <statement id="591.txt-16">
+      <text>x = 9.</text>
+      <structure id="o12292" name="chromosome">
+        <character name="count" value="9" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species 5 (5 in the flora):</number_of_infrataxa>
+  <general_distribution>North America</general_distribution>
+  <general_distribution>n Mexico</general_distribution>
+  <discussion>Lygodesmia is easily recognized by the green, rushlike stems, narrow and often greatly reduced leaves, and terminal heads of showy, rosy, ligulate florets. It has been consideredcongeneric with Stephanomeria, Prenanthella, and Shinnersoseris; A. S. Tomb (1980) concluded that those taxa are not closely related. The annual species with plumose pappus bristles that formerly were included in Lygodesmia have been removed to those genera.</discussion>
+  <references>SELECTED REFERENCE Tomb, A. S. 1980. Taxonomy of Lygodesmia (Asteraceae). Syst. Bot. Monogr. 1: 1–51.</references>
+  <key>1.Involucres 10–16 mm; phyllary apices not appendaged; corollas 18–20 mm, ligules 3–4 mm wide; cypselae 6–10 mm; pappi 6–9 mm3. Lygodesmia juncea</key>
+  <key>1.Involucres 14–25 mm; phyllary apices appendaged (reduced in L. grandiflora var. arizonica); corollas 12–40 mm, ligules 4–6(–10) mm wide; cypselae 10–19 mm; pappi 10–18 mm.</key>
+  <key>2.Basal leaves not forming rosettes; cauline leaves well developed, not reduced to scales; plants 5–25(–60) cm2. Lygodesmia grandiflora</key>
+  <key>2.Basal leaves forming rosettes (often withered at flowering); cauline leaves mostly reduced to scales; plants 25–65 cm.</key>
+  <key>3.Phyllaries 5–7; florets 5(–7)4. Lygodesmia ramosissima</key>
+  <key>3.Phyllaries 8–10; florets 8–12.</key>
+  <key>4.Basal leaves entire; cypselae sulcate on inner faces; stems strongly striate; Florida, Georgia1. Lygodesmia aphylla</key>
+  <key>4.Basal leaves laciniately lobed; cypselae smooth on inner faces; stems weakly striate; New Mexico, Oklahoma, Texas5. Lygodesmia texana</key>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

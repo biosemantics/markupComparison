@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Achillea millefolium</species_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 899. 1753</place_of_publication>
+  <common_name>Common yarrow, achillée millefeuille, herbe-à-dinde</common_name>
+  <synonym_of_species_name>Achillea alpicola (Rydberg) Rydberg; A. arenicola A. Heller; A. borealis Bongard subsp. arenicola (A. Heller) D. D. Keck; A. borealis subsp. californica (Pollard) D. D. Keck; A. californica Pollard; A. gigantea Pollard; A. lanulosa Nuttall; A. lanulosa subsp. alpicola (Rydberg) D. D. Keck; A. laxiflora Pollard &amp; Cockerell; A. megacephala Raup; A. millefolium var. alpicola (Rydberg) Garrett; A. millefolium var. arenicola (A. Heller) Nobs; A. millefolium var. asplenifolia (Ventenat) Farwell; A. millefolium subsp. borealis (Bongard) Breitung; A. millefolium var. borealis (Bongard) Farwell; A. millefolium var. californica (Pollard) Jepson; A. millefolium var. gigantea (Pollard) Nobs; A. millefolium subsp. lanulosa (Nuttall) Piper; A. millefolium var. lanulosa (Nuttall) Piper; A. millefolium var. litoralis Ehrendorfer ex Nobs; A. millefolium var. maritima Jepson; A. millefolium var. megacephala (Raup) B. Boivin; A. millefolium var. nigrescens E. Meyer; A. millefolium var. occidentalis de Candolle; A. millefolium var. pacifica (Rydberg) G. N. Jones; A. millefolium var. puberula (Rydberg) Nobs; A. nigrescens (E. Meyer) Rydberg; A. occidentalis (de Candolle) Rafinesque ex Rydberg; A. pacifica Rydberg; A. puberula Rydberg; A. rosea Desfontaines; A. subalpina Greene</synonym_of_species_name>
+  <description>
+    <statement id="822.txt-0">
+      <text>Perennials, 6–65+ cm (usually rhizomatous, sometimes stoloniferous).</text>
+      <structure id="o17305" name="whole_organism">
+        <character char_type="range_value" name="size" from="6" from_unit="cm" to="65" to_unit="cm" upper_restricted="false" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="822.txt-1">
+      <text>Stems 1(–4), erect, simple or branched, densely lanate-tomentose to glabrate.</text>
+      <structure id="o17306" name="stem">
+        <character char_type="range_value" name="atypical_count" from="1" to="4" from_inclusive="false" />
+        <character name="count" value="1" />
+        <character name="orientation" value="erect" />
+        <character name="architecture" value="simple" />
+        <character name="architecture" value="branched" />
+        <character char_type="range_value" name="pubescence" from="densely lanate-tomentose" to="glabrate" />
+        <character name="pubescence" value="lanate-tomentose" modifier="densely" />
+        <character name="pubescence" value="glabrate" modifier="densely" />
+      </structure>
+    </statement>
+    <statement id="822.txt-2">
+      <text>Leaves petiolate (proximally) or sessile (distally, weakly clasping and gradually reduced);</text>
+      <structure id="o17307" name="leaf">
+        <character name="architecture" value="petiolate" />
+        <character name="architecture" value="sessile" />
+      </structure>
+    </statement>
+    <statement id="822.txt-3">
+      <text>blades oblong or lanceolate, 3.5–35+ cm × 5–35 mm, 1–2-pinnately lobed (ultimate lobes ± lanceolate, often arrayed in multiple planes), faces glabrate to sparsely tomentose or densely lanate.</text>
+      <structure id="o17308" name="blade">
+        <character name="shape" value="oblong" />
+        <character name="shape" value="lanceolate" />
+        <character char_type="range_value" name="length" from="3.5" from_unit="cm" to="35" to_unit="cm" upper_restricted="false" />
+        <character char_type="range_value" name="width" from="5" from_unit="mm" to="35" to_unit="mm" />
+        <character name="shape" value="lobed" modifier="1-2-pinnately" />
+      </structure>
+      <structure id="o17309" name="face">
+        <character char_type="range_value" name="pubescence" from="glabrate" to="sparsely tomentose or densely lanate" />
+        <character name="pubescence" value="glabrate" />
+        <character name="pubescence" value="tomentose" modifier="sparsely" />
+        <character name="pubescence" value="lanate" modifier="densely" />
+      </structure>
+    </statement>
+    <statement id="822.txt-4">
+      <text>Heads 10–100+, in simple or compound, corymbiform arrays.</text>
+      <structure id="o17310" name="head">
+        <character char_type="range_value" name="count" from="10" to="100" upper_restricted="false" />
+      </structure>
+      <structure id="o17311" name="array">
+        <character name="architecture" value="simple" />
+        <character name="architecture" value="compound" />
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <relation id="r1858" name="in" from="o17310" to="o17311" negation="false" />
+    </statement>
+    <statement id="822.txt-5">
+      <text>Phyllaries 20–30 in ± 3 series, (light green, midribs dark green to yellowish, margins green to light or dark brown) ovate to lanceolate, abaxial faces tomentose.</text>
+      <structure id="o17312" name="phyllary">
+        <character char_type="range_value" name="count" from="20" to="30" constraint="in series" constraintid="o17313" />
+        <character char_type="range_value" name="shape" from="ovate" to="lanceolate" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="lanceolate" />
+      </structure>
+      <structure id="o17313" name="series">
+        <character name="count" value="3" modifier="±" />
+      </structure>
+      <structure id="o17314" name="face" constraint="abaxial">
+        <character name="pubescence" value="tomentose" />
+      </structure>
+    </statement>
+    <statement id="822.txt-6">
+      <text>Receptacles convex;</text>
+      <structure id="o17315" name="receptacle">
+        <character name="shape" value="convex" />
+      </structure>
+    </statement>
+    <statement id="822.txt-7">
+      <text>paleae lanceolate, 1.5–4 mm.</text>
+      <structure id="o17316" name="palea">
+        <character name="shape" value="lanceolate" />
+        <character char_type="range_value" name="size" from="1.5" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="822.txt-8">
+      <text>Ray florets (3–)5–8, pistillate, fertile;</text>
+      <structure id="o17317" name="floret" constraint="ray">
+        <character char_type="range_value" name="atypical_count" from="3" to="5" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="5" to="8" />
+        <character name="architecture" value="pistillate" />
+        <character name="reproduction" value="fertile" />
+      </structure>
+    </statement>
+    <statement id="822.txt-9">
+      <text>corollas white or light pink to deep purple, laminae 1.5–3 × 1.5–3 mm.</text>
+      <structure id="o17318" name="corolla">
+        <character char_type="range_value" name="coloration" from="light-pink" to="deep purple" />
+        <character name="coloration" value="white" />
+        <character name="coloration" value="pink" modifier="light" />
+      </structure>
+      <structure id="o17319" name="lamina">
+        <character char_type="range_value" name="length" from="1.5" from_unit="mm" to="3" to_unit="mm" />
+        <character char_type="range_value" name="width" from="1.5" from_unit="mm" to="3" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="822.txt-10">
+      <text>Disc florets 10–20;</text>
+      <structure id="o17320" name="floret" constraint="disc">
+        <character char_type="range_value" name="count" from="10" to="20" />
+      </structure>
+    </statement>
+    <statement id="822.txt-11">
+      <text>corollas white to grayish white, 2–4.5 mm.</text>
+      <structure id="o17321" name="corolla">
+        <character char_type="range_value" name="coloration" from="white" to="grayish-white" />
+        <character name="coloration" value="white" />
+        <character name="coloration" value="white" modifier="grayish" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="4.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="822.txt-12">
+      <text>Cypselae 1–2 mm (margins broadly winged).</text>
+      <structure id="o17322" name="cypsela">
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="2" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="822.txt-13">
+      <text>2 n = 18, 27, 36, 45, 54, 63, 72 (including counts from Europe).</text>
+      <structure id="o17323" name="chromosome">
+        <character name="count" value="18" />
+        <character name="count" value="27" />
+        <character name="count" value="36" />
+        <character name="count" value="45" />
+        <character name="count" value="54" />
+        <character name="count" value="63" />
+        <character name="count" value="72" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>pastures</habitat>
+  <habitat>meadows</habitat>
+  <habitat>roadsides</habitat>
+  <habitat>stream sides</habitat>
+  <habitat>woodlands</habitat>
+  <habitat>waste grounds</habitat>
+  <habitat>dry or sandy soils</habitat>
+  <habitat>also in damp, clayey, and salty soils</habitat>
+  <elevation>0–3600 m;</elevation>
+  <global_distribution>Greenland</global_distribution>
+  <global_distribution>St. Pierre and Miquelon</global_distribution>
+  <ca_distribution>Alta.</ca_distribution>
+  <ca_distribution>B.C.</ca_distribution>
+  <ca_distribution>Man.</ca_distribution>
+  <ca_distribution>N.B.</ca_distribution>
+  <ca_distribution>Nfld. and Labr.</ca_distribution>
+  <ca_distribution>N.W.T.</ca_distribution>
+  <ca_distribution>N.S.</ca_distribution>
+  <ca_distribution>Nunavut</ca_distribution>
+  <ca_distribution>Ont.</ca_distribution>
+  <ca_distribution>P.E.I.</ca_distribution>
+  <ca_distribution>Que.</ca_distribution>
+  <ca_distribution>Sask.</ca_distribution>
+  <ca_distribution>Yukon</ca_distribution>
+  <us_distribution>Ala.</us_distribution>
+  <us_distribution>Alaska</us_distribution>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Ark.</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Conn.</us_distribution>
+  <us_distribution>Del.</us_distribution>
+  <us_distribution>D.C.</us_distribution>
+  <us_distribution>Fla.</us_distribution>
+  <us_distribution>Ga.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Ill.</us_distribution>
+  <us_distribution>Ind.</us_distribution>
+  <us_distribution>Iowa</us_distribution>
+  <us_distribution>Kans.</us_distribution>
+  <us_distribution>Ky.</us_distribution>
+  <us_distribution>La.</us_distribution>
+  <us_distribution>Maine</us_distribution>
+  <us_distribution>Md.</us_distribution>
+  <us_distribution>Mass.</us_distribution>
+  <us_distribution>Mich.</us_distribution>
+  <us_distribution>Minn.</us_distribution>
+  <us_distribution>Miss.</us_distribution>
+  <us_distribution>Mo.</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>Nebr.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>N.H.</us_distribution>
+  <us_distribution>N.J.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>N.C.</us_distribution>
+  <us_distribution>N.Dak.</us_distribution>
+  <us_distribution>Ohio</us_distribution>
+  <us_distribution>Okla.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <us_distribution>R.I.</us_distribution>
+  <us_distribution>S.C.</us_distribution>
+  <us_distribution>S.Dak.</us_distribution>
+  <us_distribution>Tenn.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Vt.</us_distribution>
+  <us_distribution>Va.</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <us_distribution>W.Va.</us_distribution>
+  <us_distribution>Wis.</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <global_distribution>Mexico</global_distribution>
+  <global_distribution>Eurasia.</global_distribution>
+  <discussion>Achillea millefolium is morphologically variable and has been treated as either a single species with varieties or as multiple distinct species. At least 58 names have been used for North American specimens. Some early workers (e.g., J. Clausen et al. 1948) thought the native North American plants were taxonomically distinguishable from introduced, Old World plants. Other workers (e.g., R. J. Tyrl 1975) have treated A. millefolium as a cosmopolitan, Northern Hemisphere polyploid complex of native and introduced plants that have hybridized, forming diploid, tetraploid, pentaploid, hexaploid, septaploid, and octoploid plants and/or populations constituting a single, variable species.</discussion>
+  <discussion>Morphologic characters that have been used to segregate these populations into species and/or varieties include: (1) degree and persistence of tomentum; (2) phyllaries with greenish, light brown, or dark brown margins; (3) shapes of capitulescences (rounded or flat-topped); and (4) degrees of leaf dissection and shapes of lobes.</discussion>
+  <discussion>While examining specimens for this treatment, two general trends were noted: (1) Plants growing either at high latitudes or high elevations tend to have darker colored margins on the phyllaries. (2) Plants at high latitudes or elevations or from extreme desert locations tend to be more densely lanate than plants from less extreme habitats. These are only trends; variations in local populations due to local environmental conditions are to be expected.</discussion>
+  <discussion>An eco-morphotype adapted to the Athabasca sand dunes of northern Saskatchewan has been known as A. megacephala or A. millefolium var. megacephala and has been treated as a taxon of special concern in Canada (V. L. Harms 1999).</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

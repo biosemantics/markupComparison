@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>33.</number>
+  <species_name>Antennaria friesiana</species_name>
+  <authority>(Trautvetter) E. Ekman</authority>
+  <place_of_publication>Svensk Bot. Tidskr. 22: 416. 1928</place_of_publication>
+  <past_name>frieseana</past_name>
+  <common_name>Fries’s pussytoes , antennaire de Fries</common_name>
+  <synonym_of_species_name>Antennaria alpina (Linnaeus) Gaertner var. friesiana Trautvetter, Trudy Imp. S.-Petersburgsk. Bot. Sada 6: 24. 1879</synonym_of_species_name>
+  <description>
+    <statement id="674.txt-0">
+      <text>Dioecious or gynoecious (staminate plants uncommon or in equal frequencies to pistillates, respectively).</text>
+      <structure id="o14083" name="whole_organism">
+        <character name="reproduction" value="dioecious" />
+        <character name="reproduction" value="gynoecious" />
+      </structure>
+    </statement>
+    <statement id="674.txt-1">
+      <text>Plants 7–15 cm (stems stipitate-glandular, hairs purple).</text>
+      <structure id="o14084" name="whole_organism">
+        <character char_type="range_value" name="size" from="7" from_unit="cm" to="15" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="674.txt-2">
+      <text>Stolons 0.1–4 cm.</text>
+      <structure id="o14085" name="stolon">
+        <character char_type="range_value" name="size" from="0.1" from_unit="cm" to="4" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="674.txt-3">
+      <text>Basal leaves 1-nerved, narrowly spatulate to oblanceolate, 11–30 × 2–4 mm, tips mucronate, abaxial faces tomentose, adaxial green-glabrescent to gray-pubescent.</text>
+      <structure id="o14086" name="leaf" constraint="basal">
+        <character name="architecture" value="1-nerved" />
+        <character char_type="range_value" name="shape" from="narrowly spatulate" to="oblanceolate" />
+        <character name="shape" value="spatulate" modifier="narrowly" />
+        <character name="shape" value="oblanceolate" modifier="narrowly" />
+        <character char_type="range_value" name="length" from="11" from_unit="mm" to="30" to_unit="mm" />
+        <character char_type="range_value" name="width" from="2" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+      <structure id="o14087" name="tip">
+        <character name="shape" value="mucronate" />
+      </structure>
+      <structure id="o14088" name="face" constraint="abaxial">
+        <character name="pubescence" value="tomentose" />
+        <character name="insertion_or_position" value="adaxial" />
+        <character name="pubescence" value="green-glabrescent" />
+        <character name="pubescence" value="gray-pubescent" />
+      </structure>
+    </statement>
+    <statement id="674.txt-4">
+      <text>Cauline leaves linear, 4–20 mm, flagged.</text>
+      <structure id="o14089" name="leaf" constraint="cauline">
+        <character name="arrangement_or_shape" value="linear" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="20" to_unit="mm" />
+        <character name="orientation" value="flagged" />
+      </structure>
+    </statement>
+    <statement id="674.txt-5">
+      <text>Heads 2–6 in corymbiform arrays.</text>
+      <structure id="o14090" name="head">
+        <character char_type="range_value" name="count" from="2" to="6" constraint="in arrays" constraintid="o14091" />
+      </structure>
+      <structure id="o14091" name="array">
+        <character name="architecture" value="corymbiform" />
+      </structure>
+    </statement>
+    <statement id="674.txt-6">
+      <text>Involucres:</text>
+      <structure id="o14092" name="involucre" />
+    </statement>
+    <statement id="674.txt-7">
+      <text>staminate 4–6.5 mm;</text>
+      <structure id="o14093" name="involucre" constraint="staminate">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="6.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="674.txt-8">
+      <text>pistillate 5.5–8 mm.</text>
+      <structure id="o14094" name="involucre" constraint="pistillate">
+        <character char_type="range_value" name="size" from="5.5" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="674.txt-9">
+      <text>Phyllaries distally usually black, light brown, dark brown, or olivaceous, sometimes.</text>
+      <structure id="o14095" name="phyllary">
+        <character name="coloration" value="black" modifier="distally usually" />
+        <character name="coloration" value="brown" modifier="distally usually ;light" />
+        <character name="coloration" value="brown" modifier="distally usually ;dark" />
+        <character name="coloration" value="olivaceous" modifier="distally usually" />
+      </structure>
+    </statement>
+    <statement id="674.txt-10">
+      <text>Corollas:</text>
+      <structure id="o14096" name="corolla" />
+    </statement>
+    <statement id="674.txt-11">
+      <text>staminate 2.5–3 mm;</text>
+      <structure id="o14097" name="corolla" constraint="staminate">
+        <character char_type="range_value" name="size" from="2.5" from_unit="mm" to="3" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="674.txt-12">
+      <text>pistillate 3–4.5 mm.</text>
+      <structure id="o14098" name="corolla" constraint="pistillate">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="4.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="674.txt-13">
+      <text>Cypselae 1.2–2 mm, glabrous or slightly papillate;</text>
+      <structure id="o14099" name="cypsela">
+        <character char_type="range_value" name="size" from="1.2" from_unit="mm" to="2" to_unit="mm" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="papillate" modifier="slightly" />
+      </structure>
+    </statement>
+    <statement id="674.txt-14">
+      <text>pappi:</text>
+      <structure id="o14100" name="pappus" />
+    </statement>
+    <statement id="674.txt-15">
+      <text>staminate 3–4 mm;</text>
+      <structure id="o14101" name="pappus" constraint="staminate">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="674.txt-16">
+      <text>pistillate 3.5–5 mm.</text>
+      <structure id="o14102" name="pappus" constraint="pistillate">
+        <character char_type="range_value" name="size" from="3.5" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="674.txt-17">
+      <text>2 n = 28, 56, 63, 100+.</text>
+      <structure id="o14103" name="chromosome">
+        <character name="count" value="28" />
+        <character name="count" value="56" />
+        <character name="count" value="63" />
+        <character name="count" char_type="range_value" from="100" upper_restricted="false" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Subspecies 3 (3 in the flora):</number_of_infrataxa>
+  <general_distribution>arctic North America</general_distribution>
+  <general_distribution>arctic Siberia.</general_distribution>
+  <discussion>The Antennaria friesiana complex consists of subsp. alaskana, subsp. neoalaskana, and subsp. friesiana, the former two are dioecious (sexual) phases of the latter gynoecious (asexual) form. The sexual populations are known from Alaska and cordilleran areas of northern Yukon and adjacent Northwest Territories (R. J. Bayer 1991). The apomictic phase is almost circumpolar, occurring from the central and eastern Siberian plateau eastward across the North American arctic to Greenland (Bayer). E. Hultén (1968) circumscribed a fourth subspecies, A. friesiana subsp. compacta. After studying its morphology, in the field and herbarium, it is apparent that Hultén’s taxon contains at least three incongruous entities that are probably not at all related to the other two subspecies of A. friesiana. Hultén’s subsp. compacta included A. densifolia, which is recognized as a distinct species, and A. crymophila and A. neoalaskana as taxonomic synonyms. Antennaria compacta in the strict sense and A. crymophila are perhaps hybrid apomicts and are treated here in A. alpina (see Bayer for details). Antennaria neoalaskana is treated here as a subspecies of A. friesiana.</discussion>
+  <couplet>1.Stolons 1–4 cm (usually prostrate, sometimes ascending, usually rooting at tips, plants forming mats); involucres: pistillate 7–8 mm33c. Antennaria friesiana subsp. neoalaskana</couplet>
+  <couplet>1.Stolons 0.5–1 cm (erect, usually not rooting at tips, plants not forming mats); involucres: pistillate 5.5–7 mm.</couplet>
+  <couplet>2.Plants gynoecious (staminates unknown) 33b. Antennaria friesiana subsp. friesiana</couplet>
+  <couplet>2.Plants dioecious (staminates and pistillates in equal frequencies in populations)33a. Antennaria friesiana subsp. alaskana</couplet>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

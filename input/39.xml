@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>11.</number>
+  <genus_name>CYNARA</genus_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 827. 1753; Gen. Pl. ed. 5, 359. 1754</place_of_publication>
+  <common_name />
+  <derivation>Greek kynara , artichoke</derivation>
+  <author_of_tribe_genus>David J. Keil</author_of_tribe_genus>
+  <description>
+    <statement id="39.txt-0">
+      <text>Annuals or perennials , 50–250 cm , herbage ± arachnoid-tomentose.</text>
+      <structure id="o7430" name="whole_organism">
+        <character char_type="range_value" name="size" from="50" from_unit="cm" to="250" to_unit="cm" />
+        <character name="life_style" value="annual" />
+        <character name="life_style" value="perennial" />
+      </structure>
+      <structure id="o7432" name="herbage">
+        <character name="pubescence" value="arachnoid-tomentose" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="39.txt-1">
+      <text>Stems ± erect, simple or branched, (leafy), stout.</text>
+      <structure id="o7433" name="stem">
+        <character name="orientation" value="erect" modifier="±" />
+        <character name="architecture" value="simple" />
+        <character name="architecture" value="branched" />
+        <character name="fragility" value="stout" />
+      </structure>
+    </statement>
+    <statement id="39.txt-2">
+      <text>Leaves basal and cauline;</text>
+    </statement>
+    <statement id="39.txt-3">
+      <text>petiolate (basal and proximal cauline) or sessile (distal cauline);</text>
+      <structure id="o7434" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="architecture" value="petiolate" />
+        <character name="architecture" value="sessile" />
+      </structure>
+    </statement>
+    <statement id="39.txt-4">
+      <text>blade margins 1–3-pinnately lobed or divided, sometimes essentially compound, spineless or with slender to very stout marginal spines, cauline progressively smaller and less divided distally, distalmost bractlike, abaxial faces pilose to densely gray-tomentose, adaxial glabrous or thinly tomentose, sometimes glandular.</text>
+      <structure id="o7435" name="margin" constraint="blade">
+        <character name="shape" value="lobed" modifier="1-3-pinnately" />
+        <character name="shape" value="divided" modifier="1-3-pinnately" />
+        <character name="architecture" value="compound" modifier="sometimes essentially" />
+        <character name="architecture" value="spineless" />
+        <character name="architecture" value="with slender to very stout marginal spines" />
+        <character name="insertion_or_position" value="cauline" modifier="progressively" />
+        <character name="size" value="smaller" />
+        <character name="shape" value="divided" modifier="less ; distally" />
+        <character name="position" value="distalmost" />
+        <character name="shape" value="bractlike" />
+      </structure>
+      <structure id="o7436" name="spine" constraint="marginal">
+        <character name="size" value="slender" />
+        <character name="fragility" value="stout" modifier="very" />
+      </structure>
+      <relation id="r901" name="with" from="o7435" to="o7436" negation="false" />
+      <structure id="o7437" name="face" constraint="abaxial">
+        <character char_type="range_value" name="pubescence" from="pilose" to="densely gray-tomentose" />
+        <character name="pubescence" value="pilose" />
+        <character name="pubescence" value="gray-tomentose" modifier="densely" />
+        <character name="insertion_or_position" value="adaxial" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="tomentose" modifier="thinly" />
+        <character name="architecture_or_exudation_or_pubescence" value="glandular" modifier="sometimes" />
+      </structure>
+    </statement>
+    <statement id="39.txt-5">
+      <text>Heads discoid, borne singly or in few-headed, terminal, cymiform arrays.</text>
+      <structure id="o7438" name="head">
+        <character name="shape_or_architecture" value="discoid" />
+        <character name="arrangement" value="singly" />
+        <character name="arrangement" value="in few-headed , terminal , cymiform arrays" />
+      </structure>
+      <structure id="o7439" name="array">
+        <character name="architecture_or_shape" value="few-headed" />
+        <character name="insertion_or_position" value="terminal" />
+        <character name="architecture" value="cymiform" />
+      </structure>
+      <relation id="r902" name="in" from="o7438" to="o7439" negation="false" />
+    </statement>
+    <statement id="39.txt-6">
+      <text>Involucres hemispheric or ovoid, sometimes constricted distally, 5–15 cm diam .</text>
+      <structure id="o7440" name="involucre">
+        <character name="shape" value="hemispheric" />
+        <character name="shape" value="ovoid" />
+        <character name="size" value="constricted" modifier="sometimes ; distally" />
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="15" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="39.txt-7">
+      <text>Phyllaries many in 5–8+ series, unequal;</text>
+      <structure id="o7441" name="phyllary">
+        <character name="count" value="many" constraint="in series" constraintid="o7442" />
+        <character name="size" value="unequal" />
+      </structure>
+      <structure id="o7442" name="series">
+        <character char_type="range_value" name="count" from="5" to="8" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="39.txt-8">
+      <text>outer lanceolate to broadly ovate, leathery, margins entire, with appressed bases and spreading apical appendages, acute to broadly obtuse or truncate, spine-tipped or spineless;</text>
+      <structure id="o7443" name="phyllary" constraint="outer">
+        <character name="texture" value="leathery" />
+      </structure>
+      <structure id="o7444" name="margin">
+        <character name="shape" value="entire" />
+        <character char_type="range_value" name="shape" from="acute" to="broadly obtuse or truncate" />
+        <character name="shape" value="acute" />
+        <character name="shape" value="obtuse" modifier="broadly" />
+        <character name="shape" value="truncate" modifier="broadly" />
+        <character name="architecture" value="spineless" />
+      </structure>
+      <structure id="o7445" name="base">
+        <character name="orientation" value="appressed" />
+      </structure>
+      <structure id="o7446" name="appendage" constraint="apical">
+        <character name="orientation" value="spreading" />
+        <character name="orientation" value="appressed" />
+      </structure>
+      <relation id="r903" name="with" from="o7444" to="o7445" negation="false" />
+      <relation id="r904" name="with" from="o7444" to="o7446" negation="false" />
+    </statement>
+    <statement id="39.txt-9">
+      <text>inner scarious.</text>
+      <structure id="o7447" name="phyllary" constraint="inner">
+        <character name="texture" value="scarious" />
+      </structure>
+    </statement>
+    <statement id="39.txt-10">
+      <text>Receptacles concave to flat or convex, epaleate, densely long-bristly.</text>
+      <structure id="o7448" name="receptacle">
+        <character char_type="range_value" name="shape" from="concave" to="flat or convex" />
+        <character name="shape" value="concave" />
+        <character name="shape" value="flat" />
+        <character name="shape" value="convex" />
+        <character name="architecture" value="epaleate" />
+      </structure>
+    </statement>
+    <statement id="39.txt-11">
+      <text>Florets many;</text>
+      <structure id="o7449" name="floret">
+        <character name="count" value="many" />
+      </structure>
+    </statement>
+    <statement id="39.txt-12">
+      <text>corollas white, blue, or purple, tubes very slender, throats abruptly expanded, cylindric , lobes linear;</text>
+      <structure id="o7450" name="corolla">
+        <character name="coloration" value="white" />
+        <character name="coloration" value="blue" />
+        <character name="coloration" value="purple" />
+      </structure>
+      <structure id="o7451" name="tube">
+        <character name="size" value="slender" modifier="very" />
+      </structure>
+      <structure id="o7452" name="throat">
+        <character name="size" value="expanded" modifier="abruptly" />
+        <character name="shape" value="cylindric" />
+      </structure>
+      <structure id="o7453" name="lobe">
+        <character name="arrangement_or_shape" value="linear" />
+      </structure>
+    </statement>
+    <statement id="39.txt-13">
+      <text>anther bases long-sagittate, fringed, apical appendages oblong;</text>
+      <structure id="o7454" name="base" constraint="anther">
+        <character name="shape" value="long-sagittate" />
+        <character name="shape" value="fringed" />
+      </structure>
+      <structure id="o7455" name="appendage" constraint="apical">
+        <character name="shape" value="oblong" />
+      </structure>
+    </statement>
+    <statement id="39.txt-14">
+      <text>style branches:</text>
+      <structure id="o7456" name="branch" constraint="style" />
+    </statement>
+    <statement id="39.txt-15">
+      <text>fused portions long, cylindric, minutely papillate, distinct portions minute.</text>
+      <structure id="o7457" name="portion" constraint="fused">
+        <character name="shape" value="cylindric" />
+        <character name="relief_or_pubescence" value="papillate" modifier="minutely" />
+      </structure>
+      <structure id="o7458" name="portion">
+        <character name="fusion" value="distinct" />
+        <character name="size" value="minute" />
+      </structure>
+    </statement>
+    <statement id="39.txt-16">
+      <text>Cypselae ± cylindric to obpyramidal, ± 4-angled, finely ribbed, sometimes ± flattened, glabrous, apices truncate, smooth, attachment scars basal;</text>
+      <structure id="o7459" name="cypsela">
+        <character char_type="range_value" name="shape" from="cylindric" to="obpyramidal" modifier="±" />
+        <character name="shape" value="cylindric" modifier="±" />
+        <character name="shape" value="obpyramidal" modifier="±" />
+        <character name="shape" value="4-angled" modifier="±" />
+        <character name="architecture_or_shape" value="ribbed" modifier="finely" />
+        <character name="shape" value="flattened" modifier="sometimes ±" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+      <structure id="o7460" name="apex">
+        <character name="shape" value="truncate" />
+        <character name="architecture_or_relief" value="smooth" />
+      </structure>
+      <structure id="o7461" name="scar" constraint="attachment">
+        <character name="insertion_or_position" value="basal" />
+      </structure>
+    </statement>
+    <statement id="39.txt-17">
+      <text>pappi falling in rings of many (white or brownish), stiff bristles in 3–7 series, connate at bases, plumose proximally, often merely barbed distally.</text>
+      <structure id="o7462" name="pappus">
+        <character name="orientation" value="falling" constraint="in rings" constraintid="o7463" />
+        <character name="fusion" value="connate" constraint="at bases" constraintid="o7466" />
+        <character name="architecture" value="plumose" modifier="proximally" />
+        <character name="architecture" value="barbed" modifier="often merely ; distally" />
+      </structure>
+      <structure id="o7463" name="ring" />
+      <structure id="o7464" name="bristle">
+        <character name="count" value="many" />
+        <character name="texture" value="stiff" />
+      </structure>
+      <relation id="r905" name="part_of" from="o7463" to="o7464" negation="false" />
+      <structure id="o7465" name="series">
+        <character char_type="range_value" name="count" from="3" to="7" />
+      </structure>
+      <relation id="r906" name="in" from="o7463" to="o7465" negation="false" />
+      <structure id="o7466" name="base" />
+    </statement>
+    <statement id="39.txt-18">
+      <text>x = 34.</text>
+      <structure id="o7467" name="chromosome">
+        <character name="count" value="34" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species 8 (1 in the flora):</number_of_infrataxa>
+  <introduced>introduced;</introduced>
+  <general_distribution>Mediterranean region</general_distribution>
+  <general_distribution>Macaronesia</general_distribution>
+  <general_distribution>w Asia.</general_distribution>
+  <references>SELECTED REFERENCE Wiklund, A. 1992. The genus Cynara L. (Asteraceae–Cardueae). Bot. J. Linn. Soc. 109: 75–123.</references>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

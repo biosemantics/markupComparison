@@ -4,6 +4,7 @@ import edu.arizona.sirls.etc.markupSimilarity.io.Score;
 
 public interface ISimilarityCalculator {
 
-	public Score getSimilarity(Character a, Character b);
+	public Score getSimilarity(edu.arizona.sirls.etc.markupSimilarity.model.Character a, 
+			edu.arizona.sirls.etc.markupSimilarity.model.Character b);
 	
 }

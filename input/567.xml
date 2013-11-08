@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>14.</number>
+  <species_name>Stephanomeria virgata</species_name>
+  <authority>Bentham</authority>
+  <place_of_publication>Bot. Voy. Sulphur, 32. 1844</place_of_publication>
+  <common_name>Virgate wirelettuce</common_name>
+  <description>
+    <statement id="567.txt-0">
+      <text>Annuals, 50–200 cm .</text>
+      <structure id="o11672" name="whole_organism">
+        <character char_type="range_value" name="size" from="50" from_unit="cm" to="200" to_unit="cm" />
+        <character name="life_style" value="annual" />
+      </structure>
+    </statement>
+    <statement id="567.txt-1">
+      <text>Stems single, branches virgate, usually glabrous, rarely tomentose.</text>
+      <structure id="o11673" name="stem">
+        <character name="count" value="single" />
+      </structure>
+      <structure id="o11674" name="branch">
+        <character name="architecture" value="virgate" />
+        <character name="pubescence" value="glabrous" modifier="usually" />
+        <character name="pubescence" value="tomentose" modifier="rarely" />
+      </structure>
+    </statement>
+    <statement id="567.txt-2">
+      <text>Leaves withered at flowering;</text>
+      <structure id="o11675" name="leaf">
+        <character name="duration" value="withered" modifier="at flowering" />
+      </structure>
+    </statement>
+    <statement id="567.txt-3">
+      <text>basal blades oblanceolate to spatulate, runcinate, 3–10 cm, margins pinnately lobed (faces usually glabrous, rarely tomentose);</text>
+      <structure id="o11676" name="blade" constraint="basal">
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="spatulate" />
+        <character name="shape" value="runcinate" />
+        <character char_type="range_value" name="size" from="3" from_unit="cm" to="10" to_unit="cm" />
+      </structure>
+      <structure id="o11677" name="margin">
+        <character name="shape" value="lobed" modifier="pinnately" />
+      </structure>
+    </statement>
+    <statement id="567.txt-4">
+      <text>cauline much reduced, bractlike.</text>
+      <structure id="o11678" name="leaf" constraint="cauline">
+        <character name="size" value="reduced" modifier="much" />
+        <character name="shape" value="bractlike" />
+      </structure>
+    </statement>
+    <statement id="567.txt-5">
+      <text>Heads borne singly or clustered along branches.</text>
+      <structure id="o11679" name="head">
+        <character name="arrangement" value="clustered" constraint="along branches" constraintid="o11680" />
+      </structure>
+      <structure id="o11680" name="branch" />
+    </statement>
+    <statement id="567.txt-6">
+      <text>Peduncles 3–10 mm, bracteate.</text>
+      <structure id="o11681" name="peduncle">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="10" to_unit="mm" />
+        <character name="architecture" value="bracteate" />
+      </structure>
+    </statement>
+    <statement id="567.txt-7">
+      <text>Calyculi of appressed or reflexed bractlets.</text>
+      <structure id="o11682" name="calyculus" />
+      <structure id="o11683" name="bractlet">
+        <character name="orientation" value="appressed" />
+        <character name="orientation" value="reflexed" />
+      </structure>
+      <relation id="r1355" name="consist_of" from="o11682" to="o11683" negation="false" />
+    </statement>
+    <statement id="567.txt-8">
+      <text>Involucres 6–8 mm.</text>
+      <structure id="o11684" name="involucre">
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="567.txt-9">
+      <text>Florets 5–9.</text>
+      <structure id="o11685" name="floret">
+        <character char_type="range_value" name="count" from="5" to="9" />
+      </structure>
+    </statement>
+    <statement id="567.txt-10">
+      <text>Cypselae light tan to dark brown, 2.2–3.6 mm, faces smooth to tuberculate, not grooved;</text>
+      <structure id="o11686" name="cypsela">
+        <character char_type="range_value" name="coloration" from="light-tan" to="dark-brown" />
+        <character name="coloration" value="tan" modifier="light" />
+        <character name="coloration" value="brown" modifier="dark" />
+        <character char_type="range_value" name="size" from="2.2" from_unit="mm" to="3.6" to_unit="mm" />
+      </structure>
+      <structure id="o11687" name="face">
+        <character char_type="range_value" name="relief" from="smooth" to="tuberculate" />
+        <character name="relief" value="smooth" />
+        <character name="relief" value="tuberculate" />
+        <character name="architecture" value="grooved" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="567.txt-11">
+      <text>pappi (falling) of 23–28, white bristles, wholly plumose.</text>
+      <structure id="o11688" name="pappus">
+        <character name="architecture" value="plumose" modifier="wholly" />
+      </structure>
+      <structure id="o11689" name="bristle">
+        <character char_type="range_value" name="count" from="23" to="28" />
+        <character name="coloration" value="white" />
+      </structure>
+      <relation id="r1356" name="consist_of" from="o11688" to="o11689" negation="false" />
+    </statement>
+    <statement id="567.txt-12">
+      <text>2n = 16.</text>
+      <structure id="o11690" name="chromosome">
+        <character name="count" value="16" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Subspecies 2 (2 in the flora):</number_of_infrataxa>
+  <general_distribution>w United States</general_distribution>
+  <general_distribution>nw Mexico.</general_distribution>
+  <discussion>The two subspecies of Stephanomeria virgata are often sympatric in southern California. Hybrids are found frequently.</discussion>
+  <couplet>1.Bractlets of calyculi reflexed; florets 8–914a. Stephanomeria virgata subsp. virgata</couplet>
+  <couplet>1.Bractlets of calyculi appressed; florets 5–614b. Stephanomeria virgata subsp. pleurocarpa</couplet>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

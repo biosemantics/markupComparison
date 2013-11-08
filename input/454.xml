@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Scorzonera laciniata</species_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 791. 1753</place_of_publication>
+  <description>
+    <statement id="454.txt-0">
+      <text>Annuals, biennials, or perennials (monocarpic).</text>
+      <structure id="o8995" name="whole_organism">
+        <character name="life_style" value="annual" />
+        <character name="life_style" value="biennial" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="454.txt-1">
+      <text>Leaf blades 70–200 × (5–)20–40 mm, margins of basal usually pinnately lobed, lobes ± linear.</text>
+      <structure id="o8998" name="blade" constraint="leaf">
+        <character char_type="range_value" name="length" from="70" from_unit="mm" to="200" to_unit="mm" />
+        <character char_type="range_value" name="atypical_width" from="5" to="20" from_unit="mm" to_unit="mm" to_inclusive="false" />
+        <character char_type="range_value" name="width" from="20" from_unit="mm" to="40" to_unit="mm" />
+      </structure>
+      <structure id="o8999" name="margin">
+        <character name="shape" value="lobed" modifier="usually pinnately" />
+      </structure>
+      <structure id="o9000" name="blade" constraint="basal" />
+      <relation id="r1052" name="part_of" from="o8999" to="o9000" negation="false" />
+      <structure id="o9001" name="lobe">
+        <character name="arrangement_or_shape" value="linear" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="454.txt-2">
+      <text>Involucres 7–20 × 6–12+ mm.</text>
+      <structure id="o9002" name="involucre">
+        <character char_type="range_value" name="length" from="7" from_unit="mm" to="20" to_unit="mm" />
+        <character char_type="range_value" name="width" from="6" from_unit="mm" to="12" to_unit="mm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="454.txt-3">
+      <text>Phyllaries deltate to lanceolate, ± arachnose.</text>
+      <structure id="o9003" name="phyllary">
+        <character char_type="range_value" name="shape" from="deltate" to="lanceolate" />
+        <character name="shape" value="deltate" />
+        <character name="shape" value="lanceolate" />
+        <character name="pubescence" value="arachnose" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="454.txt-4">
+      <text>Cypselae 8–17 mm (± stipitate);</text>
+      <structure id="o9004" name="cypsela">
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="17" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="454.txt-5">
+      <text>pappi 8–17 mm.</text>
+      <structure id="o9005" name="pappus">
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="17" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="454.txt-6">
+      <text>2 n = 14.</text>
+      <structure id="o9006" name="chromosome">
+        <character name="count" value="14" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>may</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <habitat>disturbed sites</habitat>
+  <elevation>1000–1800 m;</elevation>
+  <introduced>introduced;</introduced>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Kans.</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>Nebr.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <global_distribution>Europe.</global_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

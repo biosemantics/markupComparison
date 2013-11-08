@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>68.</number>
+  <genus_name>MICROSERIS</genus_name>
+  <authority>D. Don</authority>
+  <place_of_publication>Philos. Mag. Ann. Chem. 11: 388. 1832</place_of_publication>
+  <common_name>Silverpuffs</common_name>
+  <derivation>Greek micro -, small, and seris , endive or chicory</derivation>
+  <author_of_tribe_genus>Kenton L. Chambers</author_of_tribe_genus>
+  <synonym_of_genus_name>Apargidium Torrey &amp; A. Gray; Calaïs de Candolle; Scorzonella Nuttall</synonym_of_genus_name>
+  <description>
+    <statement id="521.txt-0">
+      <text>Annuals or perennials, 5–120 cm;</text>
+    </statement>
+    <statement id="521.txt-1">
+      <text>taprooted or with caudices (in perennial species; M. borealis rhizomatous).</text>
+      <structure id="o10701" name="whole_organism">
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="120" to_unit="cm" />
+        <character name="life_style" value="annual" />
+        <character name="life_style" value="perennial" />
+        <character name="architecture" value="taprooted" />
+        <character name="life_style" value="perennial" />
+      </structure>
+      <structure id="o10703" name="caudex" />
+      <relation id="r1229" name="with" from="o10701" to="o10703" negation="false" />
+      <relation id="r1230" name="with" from="o10702" to="o10703" negation="false" />
+    </statement>
+    <statement id="521.txt-2">
+      <text>Stems 1–30+, erect , simple or relatively few- to many-branched (naked or leafy proximally and often distally), glabrous or scurfy-pubescent (especially proximal to heads).</text>
+      <structure id="o10704" name="stem">
+        <character char_type="range_value" name="count" from="1" to="30" upper_restricted="false" />
+        <character name="orientation" value="erect" />
+        <character name="architecture" value="simple" />
+        <character name="architecture" value="few-" modifier="relatively" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="scurfy-pubescent" />
+      </structure>
+    </statement>
+    <statement id="521.txt-3">
+      <text>Leaves mostly basal, cauline 0 or reduced;</text>
+    </statement>
+    <statement id="521.txt-4">
+      <text>petiolate (petioles broad to narrow);</text>
+      <structure id="o10705" name="leaf">
+        <character name="insertion_or_position" value="basal" modifier="mostly" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="count" value="0" />
+        <character name="size" value="reduced" />
+        <character name="architecture" value="petiolate" />
+      </structure>
+    </statement>
+    <statement id="521.txt-5">
+      <text>blades linear to lanceolate or oblanceolate, margins entire, lacerate, dentate, or pinnately lobed (often with narrow rachises and linear lobes; apices acuminate or acute to obtuse, faces glabrous or lightly scurfy-puberulent).</text>
+      <structure id="o10706" name="blade">
+        <character char_type="range_value" name="shape" from="linear" to="lanceolate or oblanceolate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="oblanceolate" />
+      </structure>
+      <structure id="o10707" name="margin">
+        <character name="shape" value="entire" />
+        <character name="shape" value="lacerate" />
+        <character name="shape" value="dentate" />
+        <character name="shape" value="lobed" modifier="pinnately" />
+      </structure>
+    </statement>
+    <statement id="521.txt-6">
+      <text>Heads borne singly (nodding or inclined in bud, erect in flower and fruit).</text>
+      <structure id="o10708" name="head">
+        <character name="arrangement" value="singly" />
+      </structure>
+    </statement>
+    <statement id="521.txt-7">
+      <text>Peduncles (erect or curved-ascending) not distally inflated, ebracteate (annuals) or leafy (perennials except M. borealis ).</text>
+      <structure id="o10709" name="peduncle">
+        <character name="shape" value="inflated" modifier="not distally" />
+        <character name="architecture" value="ebracteate" />
+        <character name="architecture" value="leafy" />
+      </structure>
+    </statement>
+    <statement id="521.txt-8">
+      <text>Calyculi 0 (outer phyllaries forming calyculiform series in annuals).</text>
+      <structure id="o10710" name="calyculus">
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+    <statement id="521.txt-9">
+      <text>Involucres fusiform, ovoid, globose, or campanulate, 3–30 mm diam.</text>
+      <structure id="o10711" name="involucre">
+        <character name="shape" value="fusiform" />
+        <character name="shape" value="ovoid" />
+        <character name="shape" value="globose" />
+        <character name="shape" value="campanulate" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="30" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="521.txt-10">
+      <text>Phyllaries 5–40 in 3–5 series, unequal (outer usually shorter, ± deltate, inner ± lanceolate), herbaceous (midveins often thickened; abaxial faces glabrous or scurfy-puberulent, sometimes black-villous, often adaxially black-villous and minutely white-strigillose).</text>
+      <structure id="o10712" name="phyllary">
+        <character char_type="range_value" name="count" from="5" to="40" constraint="in series" constraintid="o10713" />
+        <character name="size" value="unequal" />
+        <character name="habit_or_texture" value="herbaceous" />
+      </structure>
+      <structure id="o10713" name="series">
+        <character char_type="range_value" name="count" from="3" to="5" />
+      </structure>
+    </statement>
+    <statement id="521.txt-11">
+      <text>Receptacles flat to low-convex, pitted, glabrous, epaleate.</text>
+      <structure id="o10714" name="receptacle">
+        <character char_type="range_value" name="shape" from="flat" to="low-convex" />
+        <character name="shape" value="flat" />
+        <character name="shape" value="low-convex" />
+        <character name="relief" value="pitted" />
+        <character name="pubescence" value="glabrous" />
+        <character name="architecture" value="epaleate" />
+      </structure>
+    </statement>
+    <statement id="521.txt-12">
+      <text>Florets 5–300;</text>
+      <structure id="o10715" name="floret">
+        <character char_type="range_value" name="count" from="5" to="300" />
+      </structure>
+    </statement>
+    <statement id="521.txt-13">
+      <text>corollas yellow to orange or white, outer often purplish abaxially.</text>
+      <structure id="o10716" name="corolla">
+        <character name="coloration" value="yellow" />
+        <character name="coloration" value="orange" />
+        <character name="coloration" value="white" />
+        <character name="position" value="outer" modifier="often" />
+        <character name="coloration" value="purplish" modifier="abaxially" />
+      </structure>
+    </statement>
+    <statement id="521.txt-14">
+      <text>Cypselae gray to brown or purplish, sometimes purplish-spotted, columnar, obconic, or fusiform (basal callosities knoblike), apices truncate, ribs 10–15, smooth or scabrous (white-villous on marginal cypselae in some species);</text>
+      <structure id="o10717" name="cypsela">
+        <character name="coloration" value="gray" />
+        <character name="coloration" value="brown" />
+        <character name="coloration" value="purplish" />
+        <character name="coloration" value="spotted" modifier="sometimes;purplish" />
+        <character name="shape" value="columnar" />
+        <character name="shape" value="obconic" />
+        <character name="shape" value="fusiform" />
+      </structure>
+      <structure id="o10718" name="apex">
+        <character name="shape" value="truncate" />
+      </structure>
+      <structure id="o10719" name="rib">
+        <character char_type="range_value" name="count" from="10" to="15" />
+        <character name="relief" value="smooth" />
+        <character name="relief" value="scabrous" />
+      </structure>
+    </statement>
+    <statement id="521.txt-15">
+      <text>pappi persistent, usually of 5–30, silvery to yellowish, brownish, or blackish aristate scales (often reduced to 0–4 in M. douglasii , of 24–48 bristles in M. borealis ), scale bodies deltate, lanceolate, oblong, ovate, orbiculate, or linear, apices obtuse to acute or lacerate, faces glabrous or villous, aristae barbellulate to barbellate or plumose.</text>
+      <structure id="o10720" name="pappus">
+        <character name="duration" value="persistent" />
+      </structure>
+      <structure id="o10721" name="scale">
+        <character char_type="range_value" name="count" from="5" to="30" />
+        <character name="coloration" value="silvery" />
+        <character name="coloration" value="yellowish" />
+        <character name="coloration" value="brownish" />
+        <character name="coloration" value="blackish" />
+        <character name="shape" value="aristate" />
+      </structure>
+      <relation id="r1231" name="consist_of" from="o10720" to="o10721" negation="false" modifier="usually" />
+      <structure id="o10722" name="body" constraint="scale">
+        <character name="shape" value="deltate" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="oblong" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="orbiculate" />
+        <character name="shape" value="linear" />
+      </structure>
+      <structure id="o10723" name="apex">
+        <character char_type="range_value" name="shape" from="obtuse" to="acute or lacerate" />
+        <character name="shape" value="obtuse" />
+        <character name="shape" value="acute" />
+        <character name="shape" value="lacerate" />
+      </structure>
+      <structure id="o10724" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="villous" />
+      </structure>
+      <structure id="o10725" name="arista">
+        <character char_type="range_value" name="architecture" from="barbellulate" to="barbellate or plumose" />
+        <character name="architecture" value="barbellulate" />
+        <character name="architecture" value="barbellate" />
+        <character name="architecture" value="plumose" />
+      </structure>
+    </statement>
+    <statement id="521.txt-16">
+      <text>x = 9.</text>
+      <structure id="o10726" name="chromosome">
+        <character name="count" value="9" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species 14 (11 in the flora):</number_of_infrataxa>
+  <general_distribution>w North America</general_distribution>
+  <general_distribution>South America</general_distribution>
+  <general_distribution>Pacific Islands (New Zealand)</general_distribution>
+  <general_distribution>Australia.</general_distribution>
+  <discussion>A broad circumscription of Microseris, including Apargidium and excluding Nothocalaïs, has usually been accepted (e.g., K. L. Chambers 1955, 1960). Recently, molecular data have led to reinstatement of the monotypic genus Uropappus and separation of two other species as the allotetraploid genus Stebbinsoseris (R. K. Jansen et al. 1991b; Chambers 1993c). A large body of literature has resulted from use of Microseris as a model genetic system by K. Bachmann and colleagues (e.g., Bachmann et al. 1979; Bachmann 1992; Bachmann and J. Battjes 1994). Differences in the diploid DNA amount within and between species have been studied by H. J. Price and colleagues (Price and Bachmann 1975; Price et al. 1981, 1983). Additional genetic studies, not referenced here, have involved three species from Australia, New Zealand, and Chile, widely disjunct from the main center of distribution in western North America. Ten of the species are diploid (2n = 18); the four tetraploid species (2n = 36) are of alloploid origin. The nine North American perennial taxa are closely related and mostly allopatric, occupying different habitats or climatic zones. The five annual species, which sometimes occur in sympatric clusters, are difficult to distinguish without the presence of cypselae.</discussion>
+  <discussion>In keys and descriptions, measurements of pappus scales exclude aristae.</discussion>
+  <references>SELECTED REFERENCE Chambers, K. L. 1955. A biosystematic study of the annual species of Microseris. Contr. Dudley Herb. 4: 207–312.</references>
+  <key>1.Perennials (usually caulescent); outer phyllaries shorter than to nearly equaling inner; corollas yellow, surpassing phyllaries by 5+ mm; pappi usually of 5–30 scales (24–48 bristles in M. borealis).</key>
+  <key>2.Plants rhizomatous; leaves entire or remotely denticulate; pappi of 24–48, brownish bristles; principally in coastal and montane sphagnum bogs1. Microseris borealis</key>
+  <key>2.Plants taprooted; leaves entire or toothed to lacerate or pinnately lobed; pappi of 5– 30, aristate scales; marshes, fields, pastures, hillsides, brushlands, and woodlands.</key>
+  <key>3.Pappi of 15–30, silvery, aristate scales, aristae plumose; widespread2. Microseris nutans</key>
+  <key>3.Pappi 5–24, silvery to dull yellowish or brownish, aristate scales, aristae barbellulate or barbellate to subplumose; Pacific Coast states.</key>
+  <key>4.Pappus scales 4–10 mm, aristae barbellate or subplumose.</key>
+  <key>5.Stems branched or simple (usually leafy proximal to midstems); phyllary apices recurved; pappi of 5–10 dull, yellowish brown, aristate scales; c California4. Microseris sylvatica</key>
+  <key>5.Stems simple (leafy proximally); phyllary apices erect; pappi of 9–15, silvery to dull white, aristate scales; s Jackson County, Oregon, adjacent California3. Microseris laciniata (in part)</key>
+  <key>4.Pappus scales 0.5–4 mm (3–6 mm in 6. M. howellii), aristae barbellulate to barbellate.</key>
+  <key>6.Outer phyllaries often purple-spotted, ovate-lanceolate to broadly ovate, 2.5–9 mm wide, apices acute to cuspidate, faces usually glabrous3. Microseris laciniata (in part)</key>
+  <key>6.Outer phyllaries not or rarely purple-spotted, linear, deltate, or lanceolate, 0.5–2.5 mm wide, apices acute to acuminate, faces often scurfy-pubescent, sometimes black-villous.</key>
+  <key>7.Pappi of 8–24, white, aristate scales, aristae barbellate; Klamath Moun- tains, Oregon, California3. Microseris laciniata (in part)</key>
+  <key>7.Pappi of 5–10, usually white, aristate scales, aristae barbellulate (or pappi brownish and aristae barbellate).</key>
+  <key>8.Pappi dull yellowish brown, aristae barbellate; phyllaries usually black-villous abaxially; coastal c California5. Microseris paludosa</key>
+  <key>8.Pappi white, aristae usually barbellulate, rarely barbellate; phyllaries sometimes black-villous abaxially.</key>
+  <key>9.Pappus scales 3–6 mm; Klamath Mountains, Oregon6. Microseris howellii</key>
+  <key>9.Pappus scales 0.5–2.5 mm; Klamath Mountains, Coast Ranges, Oregon, n California3. Microseris laciniata (in part)</key>
+  <key>1.Annuals (acaulous); outer phyllaries notably shorter than inner (forming calyculiform series); corollas yellow, white, or orange, equaling or surpassing phyllaries by 1–3 mm; pappi of 5 aristate scales (0–5 in M. douglasii).</key>
+  <key>10.Pappus scales linear-lanceolate, 4–11 mm, margins scarcely involute, midveins stout, 1/5–1/3 widths of bodies, aristae barbellate; principally Sacramento Valley, California, and surrounding foothills8. Microseris acuminata</key>
+  <key>10.Pappus scales lanceolate, ovate, or orbiculate to deltate, 0.2–7 mm (if more than 4 mm, lanceolate to ovate and margins distinctly involute, midveins tapering from thickened base or linear, less than 1/5 widths of bodies, aristae barbellate to barbellulate; Sacramento Valley and elsewhere.</key>
+  <key>11.Cypselae usually 1.5–3 mm.</key>
+  <key>12.Cypselae columnar to obconic.</key>
+  <key>13.Pappus scales 2–7 mm, involute, aristae stout, barbellate; sw California, n Baja California7. Microseris douglasii (in part)</key>
+  <key>13.Pappus scales 0.5–2.5 mm, scarcely involute, aristae fine, barbellulate; n Baja California northward11. Microseris elegans</key>
+  <key>12.Cypselae truncate-fusiform (tapering proximally, widest beyond middles, slightly narrowed distally).</key>
+  <key>14.Pappus scales 5, 1–4 mm, aristae fine, barbellulate; strictly coastal, c California to British Columbia10. Microseris bigelovii</key>
+  <key>14.Pappus scales 0–5, 0.5–1 mm, aristae ± stout, barbellate; coastal and else- where, sw to c California7. Microseris douglasii (in part)</key>
+  <key>[11. Shifted to left margin.—Ed.]</key>
+  <key>11.Cypselae usually 3–10 mm.</key>
+  <key>15. Pappus scales 0.5–1 mm7. Microseris douglasii (in part)</key>
+  <key>15.Pappus scales 1–7 mm.</key>
+  <key>16.Pappus scales plane or slightly curved, arcuate only at bases, 1–4 mm, margins not involute, midveins linear, thicker only at bases; strictly coastal, c California to British Columbia10. Microseris bigelovii</key>
+  <key>16.Pappus scales ± arcuate throughout, 1–7 mm, margins ± involute, midveins tapering distally from thick bases; absent from immediate coastal area of c California.</key>
+  <key>17.Pappus scales 5, glabrous, usually white, rarely brownish, margins plane or slightly involute, aristae barbellulate proximally, barbellate distally; San Joaquin Valley, surrounding foothills, California9. Microseris campestris</key>
+  <key>17.Pappus scales 0–5, often villous, light to dark, margins usually distinctly involute, aristae wholly barbellate; widespread7. Microseris douglasii (in part)</key>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>3a.</number>
+  <variety_name>Diaperia prolifera (Nuttall ex de Candolle) Nuttall var. prolifera</variety_name>
+  <description>
+    <statement id="772.txt-0">
+      <text>Plants mostly grayish green, 3–15 cm, loosely lanuginose.</text>
+      <structure id="o16241" name="whole_organism">
+        <character name="coloration" value="green" modifier="mostly;grayish" />
+        <character char_type="range_value" name="size" from="3" from_unit="cm" to="15" to_unit="cm" />
+        <character name="pubescence" value="lanuginose" modifier="loosely" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="772.txt-1">
+      <text>Stems mostly 2–10;</text>
+      <structure id="o16242" name="stem">
+        <character char_type="range_value" name="count" from="2" to="10" modifier="mostly" />
+      </structure>
+    </statement>
+    <statement id="772.txt-2">
+      <text>branches ± equal, distal mostly spreading to ascending.</text>
+      <structure id="o16243" name="branch">
+        <character name="size" value="equal" modifier="±" />
+        <character char_type="range_value" name="orientation" from="distal mostly spreading" to="ascending" />
+        <character name="orientation" value="ascending" />
+      </structure>
+    </statement>
+    <statement id="772.txt-3">
+      <text>Leaves:</text>
+      <structure id="o16244" name="leaf" />
+    </statement>
+    <statement id="772.txt-4">
+      <text>largest 9–15 × 2–4 mm;</text>
+      <structure id="o16245" name="leaf" constraint="largest">
+        <character char_type="range_value" name="length" from="9" from_unit="mm" to="15" to_unit="mm" />
+        <character char_type="range_value" name="width" from="2" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="772.txt-5">
+      <text>capitular leaves usually ± spreading, scarcely involucral, not or scarcely carinate, pliant to somewhat rigid.</text>
+      <structure id="o16246" name="leaf" constraint="capitular">
+        <character name="orientation" value="spreading" modifier="usually ±" />
+        <character name="derivation" value="involucral" modifier="scarcely" />
+        <character name="shape" value="carinate" modifier="not scarcely" />
+        <character char_type="range_value" name="texture" from="pliant" to="somewhat rigid" />
+        <character name="texture" value="pliant" />
+        <character name="texture" value="rigid" modifier="somewhat" />
+      </structure>
+    </statement>
+    <statement id="772.txt-6">
+      <text>Heads 4–40+ in largest glomerules.</text>
+      <structure id="o16247" name="head">
+        <character char_type="range_value" name="count" from="4" to="40" upper_restricted="false" constraint="in glomerules" constraintid="o16248" />
+      </structure>
+      <structure id="o16248" name="glomerule" constraint="largest" />
+    </statement>
+    <statement id="772.txt-7">
+      <text>Receptacles broadly conic, 0.4–0.6 mm, heights mostly 0.5–0.7 times diams.</text>
+      <structure id="o16249" name="receptacle">
+        <character name="shape" value="conic" modifier="broadly" />
+        <character char_type="range_value" name="size" from="0.4" from_unit="mm" to="0.6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="772.txt-8">
+      <text>Pistillate paleae:</text>
+      <structure id="o16250" name="palea" constraint="pistillate" />
+    </statement>
+    <statement id="772.txt-9">
+      <text>longest 3.3–4 mm.</text>
+      <structure id="o16251" name="palea" constraint="longest">
+        <character char_type="range_value" name="size" from="3.3" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>dry, open, often disturbed silty to clay soils</habitat>
+  <habitat>barren to grassy, brushy, or wooded slopes</habitat>
+  <habitat>plains</habitat>
+  <habitat>prairies</habitat>
+  <habitat>toward s and e usually over carbonate (limestone</habitat>
+  <habitat>chalk</habitat>
+  <elevation>90–1500(–2200) m;</elevation>
+  <us_distribution>Ala.</us_distribution>
+  <us_distribution>Ark.</us_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Kans.</us_distribution>
+  <us_distribution>La.</us_distribution>
+  <us_distribution>Miss.</us_distribution>
+  <us_distribution>Mo.</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>Nebr.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>Okla.</us_distribution>
+  <us_distribution>S.Dak.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <discussion>Variety prolifera occupies a broad crescent from western South Dakota and southeastern Montana to northeastern New Mexico, central and eastern Texas (nearly to Mexico), southern Missouri, and southwestern Arkansas, with outliers in chalk prairies of southern Mississippi and southern Alabama. A specimen of it (mixed with other Californian Filagininae) collected in 1903 is purportedly from southern California; it might represent an introduction that did not persist or an accidental admixture from another collection.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

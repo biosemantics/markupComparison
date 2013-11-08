@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>11c.</number>
+  <subspecies_name>Artemisia cana Pursh subsp. viscidula</subspecies_name>
+  <authority>(Osterhout) Beetle</authority>
+  <place_of_publication>Rhodora 61: 84. 1959</place_of_publication>
+  <common_name>Sticky sagebrush</common_name>
+  <synonym_of_subspecies_name>Artemisia cana var. viscidula Osterhout, Bull. Torrey Bot. Club 27: 507. 1900; A. argillosa Beetle; A. viscidula (Osterhout) Rydberg</synonym_of_subspecies_name>
+  <description>
+    <statement id="870.txt-0">
+      <text>Shrubs, 50–70(–90) cm.</text>
+      <structure id="o18194" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="70" to="90" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="50" from_unit="cm" to="70" to_unit="cm" />
+        <character name="life_style" value="shrub" />
+      </structure>
+    </statement>
+    <statement id="870.txt-1">
+      <text>Stems white (sparsely tomentose) or brown (glabrous).</text>
+      <structure id="o18195" name="stem">
+        <character name="coloration" value="white" />
+        <character name="coloration" value="brown" />
+      </structure>
+    </statement>
+    <statement id="870.txt-2">
+      <text>Leaves bright to dull green, blades linear to narrowly lanceolate, (1.5–)2–3 × 0.2–0.4 cm, often with irregular lobes, sparsely hairy or glabrescent, viscid.</text>
+      <structure id="o18196" name="leaf">
+        <character char_type="range_value" name="coloration" from="bright" to="dull-green" />
+        <character name="coloration" value="bright" />
+        <character name="coloration" value="green" modifier="dull" />
+      </structure>
+      <structure id="o18197" name="blade">
+        <character char_type="range_value" name="shape" from="linear" to="narrowly lanceolate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="lanceolate" modifier="narrowly" />
+        <character char_type="range_value" name="atypical_length" from="1.5" to="2" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="length" from="2" from_unit="cm" to="3" to_unit="cm" />
+        <character char_type="range_value" name="width" from="0.2" from_unit="cm" to="0.4" to_unit="cm" />
+        <character name="pubescence" value="hairy" modifier="sparsely" />
+        <character name="pubescence" value="glabrescent" modifier="sparsely" />
+        <character name="coating_or_texture" value="viscid" />
+      </structure>
+      <structure id="o18198" name="lobe">
+        <character name="architecture_or_course" value="irregular" />
+      </structure>
+      <relation id="r1926" name="with" from="o18197" to="o18198" negation="false" modifier="often" />
+    </statement>
+    <statement id="870.txt-3">
+      <text>Heads (2–3 per branch, erect, sessile) in (sparsely leafy) arrays 12–20 × 1–2 cm.</text>
+      <structure id="o18199" name="head" />
+      <structure id="o18200" name="array">
+        <character char_type="range_value" name="length" from="12" from_unit="cm" to="20" to_unit="cm" />
+        <character char_type="range_value" name="width" from="1" from_unit="cm" to="2" to_unit="cm" />
+      </structure>
+      <relation id="r1927" name="in" from="o18199" to="o18200" negation="false" />
+    </statement>
+    <statement id="870.txt-4">
+      <text>Involucres narrowly campanulate, 3–4 × 2–3(–4) mm.</text>
+      <structure id="o18201" name="involucre">
+        <character name="shape" value="campanulate" modifier="narrowly" />
+        <character char_type="range_value" name="length" from="3" from_unit="mm" to="4" to_unit="mm" />
+        <character char_type="range_value" name="atypical_width" from="3" to="4" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="width" from="2" from_unit="mm" to="3" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="870.txt-5">
+      <text>Phyllaries narrowly lanceolate, acute (outer) or obtuse, sparsely hairy.</text>
+      <structure id="o18202" name="phyllary">
+        <character name="shape" value="lanceolate" modifier="narrowly" />
+        <character name="shape" value="acute" modifier="narrowly" />
+        <character name="shape" value="obtuse" modifier="narrowly" />
+        <character name="pubescence" value="hairy" modifier="sparsely" />
+      </structure>
+    </statement>
+    <statement id="870.txt-6">
+      <text>Florets 4–8.</text>
+      <structure id="o18203" name="floret">
+        <character char_type="range_value" name="count" from="4" to="8" />
+      </structure>
+    </statement>
+    <statement id="870.txt-7">
+      <text>Cypselae 1–2.3 mm.</text>
+      <structure id="o18204" name="cypsela">
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="2.3" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="870.txt-8">
+      <text>2 n = 18, 36, 72.</text>
+      <structure id="o18205" name="chromosome">
+        <character name="count" value="18" />
+        <character name="count" value="36" />
+        <character name="count" value="72" />
+      </structure>
+    </statement>
+  </description>
+  <habitat>wet mountain meadows</habitat>
+  <habitat>stream banks</habitat>
+  <habitat>rocky areas with late-lying snows</habitat>
+  <elevation>2000–3300 m;</elevation>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <discussion>Subspecies viscidula is the common silver sagebrush of the intermountain region of western North America. In New Mexico, it is known only from Rio Arriba County. It is distinguished from subsp. bolanderi by geography as well as its darker green foliage and sparsely (rather than densely) tomentose or glabrous stems. Usually restricted to wet meadows and stream banks, it is distinctive in the late summer and fall by its yellowing ephemeral leaves.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

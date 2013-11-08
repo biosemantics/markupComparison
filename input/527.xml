@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>3c.</number>
+  <subspecies_name>Microseris laciniata (Hooker) Schultz-Bipontinus subsp. siskiyouensis</subspecies_name>
+  <authority>K. L. Chambers</authority>
+  <place_of_publication>Sida 21: 195, figs. 1, 2A, C. 2004</place_of_publication>
+  <common_name>Siskiyou silverpuffs</common_name>
+  <description>
+    <statement id="527.txt-0">
+      <text>Stems usually branched.</text>
+      <structure id="o10823" name="stem">
+        <character name="architecture_or_shape" value="branched" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="527.txt-1">
+      <text>Leaves linear to narrowly lanceolate, entire or pinnately lobed.</text>
+      <structure id="o10824" name="leaf">
+        <character char_type="range_value" name="shape" from="linear" to="narrowly lanceolate , entire or pinnately lobed" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="lanceolate" modifier="narrowly" />
+        <character name="shape" value="entire" modifier="narrowly" />
+        <character name="shape" value="lobed" modifier="pinnately" />
+      </structure>
+    </statement>
+    <statement id="527.txt-2">
+      <text>Outer phyllaries not spotted, linear to ovate-deltate, smallest 1–1.5 mm wide, apices acute to acuminate , abaxial faces usually scurfy-puberulent.</text>
+      <structure id="o10825" name="phyllary" constraint="outer">
+        <character name="coloration" value="spotted" modifier="not" />
+        <character char_type="range_value" name="shape" from="linear" to="ovate-deltate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="ovate-deltate" />
+        <character name="size" value="smallest" />
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="1.5" to_unit="mm" />
+      </structure>
+      <structure id="o10826" name="apex">
+        <character char_type="range_value" name="shape" from="acute" to="acuminate" />
+        <character name="shape" value="acute" />
+        <character name="shape" value="acuminate" />
+      </structure>
+      <structure id="o10827" name="face" constraint="abaxial">
+        <character name="pubescence" value="scurfy-puberulent" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="527.txt-3">
+      <text>Pappi of 9–24, white, glabrous, aristate scales 0.5–2 mm, aristae barbellate.</text>
+      <structure id="o10828" name="pappus" />
+      <structure id="o10829" name="scale">
+        <character char_type="range_value" name="count" from="9" to="24" />
+        <character name="coloration" value="white" />
+        <character name="pubescence" value="glabrous" />
+        <character name="shape" value="aristate" />
+        <character char_type="range_value" name="size" from="0.5" from_unit="mm" to="2" to_unit="mm" />
+      </structure>
+      <relation id="r1238" name="consist_of" from="o10828" to="o10829" negation="false" />
+      <structure id="o10830" name="arista">
+        <character name="architecture" value="barbellate" />
+      </structure>
+    </statement>
+    <statement id="527.txt-4">
+      <text>2 n = 18.</text>
+      <structure id="o10831" name="chromosome">
+        <character name="count" value="18" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>may</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <habitat>loams or gravelly or rocky soils</habitat>
+  <habitat>rarely serpentine-derived, hillsides and valley flats</habitat>
+  <habitat>open grassy sites and woodlands</habitat>
+  <elevation>100–2100 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <discussion>Subspecies siskiyouensis is known only from the Klamath Mountains, principally in Del Norte and Siskiyou counties, California, and Curry, Josephine, and Jackson counties, Oregon. It is found in open, rocky sites as well as woods, mostly at middle elevations. In the Illinois River Valley, Oregon, where it occurs together with Microseris howellii, the two are ecologically distinct. Microseris howellii is always found on rocky, open serpentine substrates; subsp. siskiyouensis is in mixed evergreen woodlands on better developed loam soils (K. L. Chambers 2004b).</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

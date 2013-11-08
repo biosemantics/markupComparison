@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Euchiton gymnocephalus</species_name>
+  <authority>(de Candolle) Holub</authority>
+  <place_of_publication>Folia Geobot. Phytotax. 9: 271. 1974</place_of_publication>
+  <common_name>Creeping-cudweed</common_name>
+  <synonym_of_species_name>Gnaphalium gymnocephalum de Candolle in A. P. de Candolle and A. L. P. P. de Candolle, Prodr. 6: 235. 1838</synonym_of_species_name>
+  <description>
+    <statement id="729.txt-0">
+      <text>Perennials or biennials, 5–40 cm;</text>
+    </statement>
+    <statement id="729.txt-1">
+      <text>fibrous-rooted (rhizomatous);</text>
+      <structure id="o15234" name="whole_organism">
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="40" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+        <character name="life_style" value="biennial" />
+        <character name="architecture" value="fibrous-rooted" />
+        <character name="life_style" value="biennial" />
+      </structure>
+    </statement>
+    <statement id="729.txt-2">
+      <text>stolons usually present (leafy, rooting at nodes).</text>
+      <structure id="o15236" name="stolon">
+        <character name="presence" value="present" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="729.txt-3">
+      <text>Aerial stems simple or branched, thinly and persistently white-tomentose.</text>
+      <structure id="o15237" name="stem" constraint="aerial">
+        <character name="architecture" value="simple" />
+        <character name="architecture" value="branched" />
+        <character name="pubescence" value="white-tomentose" modifier="persistently" />
+      </structure>
+    </statement>
+    <statement id="729.txt-4">
+      <text>Leaves:</text>
+      <structure id="o15238" name="leaf" />
+    </statement>
+    <statement id="729.txt-5">
+      <text>basal persistent in rosettes (blades oblanceolate to spatulate, 2–10 cm, bases narrowly cuneate, petioliform);</text>
+      <structure id="o15239" name="leaf" constraint="basal">
+        <character name="duration" value="persistent" constraint="in rosettes" constraintid="o15240" />
+      </structure>
+      <structure id="o15240" name="rosette" />
+    </statement>
+    <statement id="729.txt-6">
+      <text>cauline 2–4(–6), blades linear to oblanceolate, 1–2 cm × 1–2 mm (even-sized), bases subclasping, margins revolute, abaxial faces silvery, tomentose, adaxial faces green, glabrous (shiny).</text>
+      <structure id="o15241" name="leaf" constraint="cauline">
+        <character char_type="range_value" name="atypical_count" from="4" to="6" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="2" to="4" />
+      </structure>
+      <structure id="o15242" name="blade">
+        <character char_type="range_value" name="shape" from="linear" to="oblanceolate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="oblanceolate" />
+        <character char_type="range_value" name="length" from="1" from_unit="cm" to="2" to_unit="cm" />
+        <character char_type="range_value" name="width" from="1" from_unit="mm" to="2" to_unit="mm" />
+      </structure>
+      <structure id="o15243" name="base">
+        <character name="orientation" value="subclasping" />
+      </structure>
+      <structure id="o15244" name="margin">
+        <character name="shape_or_vernation" value="revolute" />
+      </structure>
+      <structure id="o15245" name="face" constraint="abaxial">
+        <character name="coloration" value="silvery" />
+        <character name="pubescence" value="tomentose" />
+      </structure>
+      <structure id="o15246" name="face" constraint="adaxial">
+        <character name="coloration" value="green" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="729.txt-7">
+      <text>Bracts subtending heads 2–3, 6–10 mm, not surpassing heads, plus some shorter.</text>
+      <structure id="o15247" name="bract">
+        <character char_type="range_value" name="count" from="2" to="3" modifier="heads&gt;" />
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="10" to_unit="mm" />
+        <character name="size" value="shorter" />
+      </structure>
+      <structure id="o15248" name="head">
+        <character name="comparison" value="surpassing" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="729.txt-8">
+      <text>Heads in hemispheric clusters 10–20 mm diam. (sometimes with axillary clusters).</text>
+      <structure id="o15249" name="head" />
+      <structure id="o15250" name="cluster">
+        <character name="shape" value="hemispheric" />
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="20" to_unit="mm" />
+      </structure>
+      <relation id="r1647" name="in" from="o15249" to="o15250" negation="false" />
+    </statement>
+    <statement id="729.txt-9">
+      <text>Involucres 4–4.5 mm.</text>
+      <structure id="o15251" name="involucre">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="4.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="729.txt-10">
+      <text>Phyllaries tawny or rosy-tinged (shiny), oblong, apices rounded to obtuse.</text>
+      <structure id="o15252" name="phyllary">
+        <character name="coloration" value="tawny" />
+        <character name="coloration" value="tinged" modifier="rosy" />
+        <character name="shape" value="oblong" />
+      </structure>
+      <structure id="o15253" name="apex">
+        <character char_type="range_value" name="shape" from="rounded" to="obtuse" />
+        <character name="shape" value="rounded" />
+        <character name="shape" value="obtuse" />
+      </structure>
+    </statement>
+    <statement id="729.txt-11">
+      <text>Pistillate florets 40–60.</text>
+      <structure id="o15254" name="floret" constraint="pistillate">
+        <character char_type="range_value" name="count" from="40" to="60" />
+      </structure>
+    </statement>
+    <statement id="729.txt-12">
+      <text>Bisexual florets 3–5.</text>
+      <structure id="o15255" name="floret" constraint="bisexual">
+        <character char_type="range_value" name="count" from="3" to="5" />
+      </structure>
+    </statement>
+    <statement id="729.txt-13">
+      <text>Pappus bristles distinct.</text>
+      <structure id="o15256" name="bristle" constraint="pappus">
+        <character name="fusion" value="distinct" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>may</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <habitat>grassy open places in wooded areas</habitat>
+  <habitat>roadsides</habitat>
+  <elevation>100–800 m;</elevation>
+  <introduced>introduced;</introduced>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <global_distribution>Pacific Islands (New Zealand)</global_distribution>
+  <global_distribution>Australia.</global_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

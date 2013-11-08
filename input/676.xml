@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>33b.</number>
+  <subspecies_name>Antennaria friesiana (Trautvetter) E. Ekman subsp. friesiana</subspecies_name>
+  <synonym_of_subspecies_name>Antennaria angustifolia E. Ekman; A. ekmaniana A. E. Porsild</synonym_of_subspecies_name>
+  <description>
+    <statement id="676.txt-0">
+      <text>Gynoecious (staminates unknown).</text>
+      <structure id="o14120" name="whole_organism">
+        <character name="reproduction" value="gynoecious" />
+      </structure>
+    </statement>
+    <statement id="676.txt-1">
+      <text>Plants 3.5–12.5 cm.</text>
+      <structure id="o14121" name="whole_organism">
+        <character char_type="range_value" name="size" from="3.5" from_unit="cm" to="12.5" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="676.txt-2">
+      <text>Stolons 0.5–1 cm.</text>
+      <structure id="o14122" name="stolon">
+        <character char_type="range_value" name="size" from="0.5" from_unit="cm" to="1" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="676.txt-3">
+      <text>Cauline leaves 7–14 mm.</text>
+      <structure id="o14123" name="leaf" constraint="cauline">
+        <character char_type="range_value" name="size" from="7" from_unit="mm" to="14" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="676.txt-4">
+      <text>Heads 2–4.</text>
+      <structure id="o14124" name="head">
+        <character char_type="range_value" name="count" from="2" to="4" />
+      </structure>
+    </statement>
+    <statement id="676.txt-5">
+      <text>Involucres:</text>
+      <structure id="o14125" name="involucre" />
+    </statement>
+    <statement id="676.txt-6">
+      <text>staminate unknown;</text>
+      <structure id="o14126" name="involucre" constraint="staminate">
+        <character name="presence" value="unknown" />
+      </structure>
+    </statement>
+    <statement id="676.txt-7">
+      <text>pistillate 6–7 mm.</text>
+      <structure id="o14127" name="involucre" constraint="pistillate">
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="676.txt-8">
+      <text>Corollas staminate unknown;</text>
+      <structure id="o14128" name="corolla">
+        <character name="architecture" value="staminate" />
+        <character name="presence" value="unknown" />
+      </structure>
+    </statement>
+    <statement id="676.txt-9">
+      <text>pistillate 3.5–4 mm.</text>
+      <structure id="o14129" name="corolla" constraint="pistillate">
+        <character char_type="range_value" name="size" from="3.5" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="676.txt-10">
+      <text>Cypselae 1–2 mm;</text>
+      <structure id="o14130" name="cypsela">
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="2" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="676.txt-11">
+      <text>pappi:</text>
+      <structure id="o14131" name="pappus" />
+    </statement>
+    <statement id="676.txt-12">
+      <text>staminate unknown;</text>
+      <structure id="o14132" name="pappus" constraint="staminate">
+        <character name="presence" value="unknown" />
+      </structure>
+    </statement>
+    <statement id="676.txt-13">
+      <text>pistillate 4–4.5 mm.</text>
+      <structure id="o14133" name="pappus" constraint="pistillate">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="4.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="676.txt-14">
+      <text>2 n = 56, 63, 100+.</text>
+      <structure id="o14134" name="chromosome">
+        <character name="count" value="56" />
+        <character name="count" value="63" />
+        <character name="count" char_type="range_value" from="100" upper_restricted="false" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>arctic and alpine tundra</habitat>
+  <habitat>on or near dry rocky outcrops or sand ridges</habitat>
+  <elevation>100–1500 m;</elevation>
+  <global_distribution>Greenland</global_distribution>
+  <ca_distribution>Nfld. and Labr. (Labr.)</ca_distribution>
+  <ca_distribution>N.W.T.</ca_distribution>
+  <ca_distribution>Nunavut</ca_distribution>
+  <ca_distribution>Que.</ca_distribution>
+  <ca_distribution>Yukon</ca_distribution>
+  <us_distribution>Alaska</us_distribution>
+  <global_distribution>Siberia (arctic).</global_distribution>
+  <discussion>The sexual progenitors of subsp. friesiana are subspp. alaskana and neoalaskana.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

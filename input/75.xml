@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>19.</number>
+  <species_name>Cirsium undulatum</species_name>
+  <authority>(Nuttall) Sprengel</authority>
+  <place_of_publication>Syst. Veg. 3: 374. 1826</place_of_publication>
+  <common_name>Wavyleaf or gray or pasture thistle</common_name>
+  <synonym_of_species_name>Carduus undulatus Nuttall, Gen. N. Amer. Pl. 2: 130. 1818; Cirsium megacephalum (A. Gray) Cockerell ex Daniels; C. undulatum var. megacephalum (A. Gray) Fernald</synonym_of_species_name>
+  <description>
+    <statement id="75.txt-0">
+      <text>Perennials, 20–230 cm;</text>
+      <structure id="o15765" name="whole_organism">
+        <character char_type="range_value" name="size" from="20" from_unit="cm" to="230" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="75.txt-1">
+      <text>deeply seated runner roots that produce adventitious buds.</text>
+      <structure id="o15766" name="root" constraint="runner">
+        <character name="location" value="seated" modifier="deeply" />
+      </structure>
+      <structure id="o15767" name="bud">
+        <character name="derivation" value="adventitious" />
+      </structure>
+      <relation id="r1701" name="produce" from="o15766" to="o15767" negation="false" />
+    </statement>
+    <statement id="75.txt-2">
+      <text>Stems 1–several, erect or ascending, densely gray-tomentose;</text>
+      <structure id="o15768" name="stem">
+        <character char_type="range_value" name="count" from="1" to="several" />
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="ascending" />
+        <character name="pubescence" value="gray-tomentose" modifier="densely" />
+      </structure>
+    </statement>
+    <statement id="75.txt-3">
+      <text>branches 0–few, usually above middle, ascending.</text>
+      <structure id="o15769" name="branch">
+        <character char_type="range_value" name="count" from="0" to="few" />
+        <character name="orientation" value="ascending" />
+      </structure>
+      <structure id="o15770" name="middle" />
+      <relation id="r1702" name="above" from="o15769" to="o15770" negation="false" modifier="usually" />
+    </statement>
+    <statement id="75.txt-4">
+      <text>Leaves:</text>
+      <structure id="o15771" name="leaf" />
+    </statement>
+    <statement id="75.txt-5">
+      <text>blades elliptic to oblong or ovate, 10–40 × 1–10 cm, margins strongly undulate, coarsely dentate or shallowly to deeply lobed, lobes ascending to spreading, ± triangular, well separated to closely spaced, spinulose and coarsely dentate or usually cleft into 2–3 lanceolate to triangular, often entire-margined, spine-tipped divisions, main spines (yellowish), 2–12+ mm, abaxial densely gray-tomentose, adaxial faces thinly tomentose;</text>
+      <structure id="o15772" name="blade">
+        <character char_type="range_value" name="shape" from="elliptic" to="oblong or ovate" />
+        <character name="shape" value="elliptic" />
+        <character name="shape" value="oblong" />
+        <character name="shape" value="ovate" />
+        <character char_type="range_value" name="length" from="10" from_unit="cm" to="40" to_unit="cm" />
+        <character char_type="range_value" name="width" from="1" from_unit="cm" to="10" to_unit="cm" />
+      </structure>
+      <structure id="o15773" name="margin">
+        <character name="shape" value="undulate" modifier="strongly" />
+        <character name="shape" value="dentate" modifier="coarsely" />
+        <character name="shape" value="lobed" modifier="shallowly deeply" />
+      </structure>
+      <structure id="o15774" name="lobe">
+        <character char_type="range_value" name="orientation" from="ascending" to="spreading" />
+        <character name="orientation" value="ascending" />
+        <character name="orientation" value="spreading" />
+        <character name="shape" value="triangular" modifier="±" />
+        <character char_type="range_value" name="arrangement" from="well separated" to="closely spaced" />
+        <character name="arrangement" value="separated" modifier="well" />
+        <character name="arrangement" value="spaced" modifier="closely" />
+        <character name="shape_or_architecture" value="spinulose" />
+        <character name="shape" value="dentate" modifier="coarsely" />
+        <character name="shape" value="cleft" modifier="usually" constraint="into divisions" constraintid="o15775" />
+      </structure>
+      <structure id="o15775" name="division">
+        <character char_type="range_value" name="count" from="2" to="3" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="triangular" />
+        <character name="shape" value="entire-margined" modifier="often" />
+      </structure>
+      <structure id="o15776" name="spine" constraint="main">
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="12" to_unit="mm" upper_restricted="false" />
+        <character name="insertion_or_position" value="abaxial" modifier="densely" />
+        <character name="pubescence" value="gray-tomentose" />
+      </structure>
+      <structure id="o15777" name="face" constraint="adaxial">
+        <character name="pubescence" value="tomentose" modifier="thinly" />
+      </structure>
+    </statement>
+    <statement id="75.txt-6">
+      <text>basal sometimes present at flowering, winged-petiolate;</text>
+      <structure id="o15778" name="leaf" constraint="basal">
+        <character name="presence" value="present" modifier="sometimes; at flowering" />
+        <character name="architecture" value="winged-petiolate" />
+      </structure>
+    </statement>
+    <statement id="75.txt-7">
+      <text>principal cauline becoming sessile and progressively reduced distally, widest at base, bases ± auriculate-clasping to short-decurrent;</text>
+      <structure id="o15779" name="leaf" constraint="principal cauline">
+        <character name="architecture" value="sessile" modifier="becoming" />
+        <character name="size" value="reduced" modifier="progressively ; distally" />
+        <character name="size" value="widest" constraint="at base" constraintid="o15780" />
+      </structure>
+      <structure id="o15780" name="base" />
+      <structure id="o15781" name="base">
+        <character name="architecture" value="auriculate-clasping" modifier="±" />
+        <character name="shape" value="short-decurrent" />
+      </structure>
+    </statement>
+    <statement id="75.txt-8">
+      <text>distal reduced, spinier.</text>
+      <structure id="o15782" name="leaf" constraint="distal">
+        <character name="size" value="reduced" />
+        <character name="architecture" value="spinier" />
+      </structure>
+    </statement>
+    <statement id="75.txt-9">
+      <text>Heads 1–10+, terminal on branches, in leafy, ± corymbiform arrays.</text>
+      <structure id="o15783" name="head">
+        <character char_type="range_value" name="count" from="1" to="10" upper_restricted="false" />
+        <character name="insertion_or_position" value="terminal" constraint="on branches" constraintid="o15784" />
+      </structure>
+      <structure id="o15784" name="branch" />
+      <structure id="o15785" name="array">
+        <character name="architecture" value="leafy" />
+        <character name="architecture" value="corymbiform" modifier="±" />
+      </structure>
+      <relation id="r1703" name="in" from="o15783" to="o15785" negation="false" />
+    </statement>
+    <statement id="75.txt-10">
+      <text>Peduncles 0–25+ cm.</text>
+      <structure id="o15786" name="peduncle">
+        <character char_type="range_value" name="size" from="0" from_unit="cm" to="25" to_unit="cm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="75.txt-11">
+      <text>Involucres ovoid to hemispheric or broadly campanulate, 2.5–4.5 × 1.5–4.5 cm, loosely arachnoid on phyllary margins or glabrate.</text>
+      <structure id="o15787" name="involucre">
+        <character char_type="range_value" name="shape" from="ovoid" to="hemispheric or broadly campanulate" />
+        <character name="shape" value="ovoid" />
+        <character name="shape" value="hemispheric" />
+        <character name="shape" value="campanulate" modifier="broadly" />
+        <character char_type="range_value" name="length" from="2.5" from_unit="cm" to="4.5" to_unit="cm" />
+        <character char_type="range_value" name="width" from="1.5" from_unit="cm" to="4.5" to_unit="cm" />
+        <character name="pubescence" value="arachnoid" modifier="loosely" constraint="on phyllary margins" constraintid="o15788" />
+        <character name="pubescence" value="glabrate" />
+      </structure>
+      <structure id="o15788" name="margin" constraint="phyllary" />
+    </statement>
+    <statement id="75.txt-12">
+      <text>Phyllaries in 8–12 series, imbricate, ovate to lanceolate (outer) to linear-lanceolate (inner), abaxial faces with prominent glutinous ridge;</text>
+      <structure id="o15789" name="phyllary">
+        <character name="aestivation_or_arrangement" value="imbricate" />
+        <character char_type="range_value" name="shape" from="ovate" to="lanceolate" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="linear-lanceolate" />
+      </structure>
+      <structure id="o15790" name="series">
+        <character char_type="range_value" name="count" from="8" to="12" />
+      </structure>
+      <relation id="r1704" name="in" from="o15789" to="o15790" negation="false" />
+      <structure id="o15791" name="face" constraint="abaxial" />
+      <structure id="o15792" name="ridge">
+        <character name="prominence" value="prominent" />
+        <character name="coating_or_texture" value="glutinous" />
+      </structure>
+      <relation id="r1705" name="with" from="o15791" to="o15792" negation="false" />
+    </statement>
+    <statement id="75.txt-13">
+      <text>outer and middle appressed, spines spreading, 1.5–5 mm;</text>
+      <structure id="o15793" name="phyllary" constraint="outer and middle">
+        <character name="orientation" value="appressed" />
+      </structure>
+      <structure id="o15794" name="spine">
+        <character name="orientation" value="spreading" />
+        <character char_type="range_value" name="size" from="1.5" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="75.txt-14">
+      <text>apices of inner narrow, often flexuous, flat, ± entire, spineless or weakly spiny.</text>
+      <structure id="o15795" name="apex">
+        <character name="size" value="narrow" />
+        <character name="course" value="flexuous" modifier="often" />
+        <character name="shape" value="flat" />
+        <character name="shape" value="entire" modifier="±" />
+        <character name="architecture" value="spineless" />
+        <character name="architecture" value="spiny" modifier="weakly" />
+      </structure>
+      <structure id="o15796" name="phyllary" constraint="inner" />
+      <relation id="r1706" name="part_of" from="o15795" to="o15796" negation="false" />
+    </statement>
+    <statement id="75.txt-15">
+      <text>Corollas lavender to pink, purple, or white, 24–50 mm, tubes 12–28 mm, throats 6–14 mm, lobes 6.5–13 mm;</text>
+      <structure id="o15797" name="corolla">
+        <character char_type="range_value" name="coloration" from="lavender" to="pink , purple , or white" />
+        <character name="coloration" value="lavender" />
+        <character name="coloration" value="pink" />
+        <character name="coloration" value="purple" />
+        <character name="coloration" value="white" />
+        <character char_type="range_value" name="size" from="24" from_unit="mm" to="50" to_unit="mm" />
+      </structure>
+      <structure id="o15798" name="tube">
+        <character char_type="range_value" name="size" from="12" from_unit="mm" to="28" to_unit="mm" />
+      </structure>
+      <structure id="o15799" name="throat">
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="14" to_unit="mm" />
+      </structure>
+      <structure id="o15800" name="lobe">
+        <character char_type="range_value" name="size" from="6.5" from_unit="mm" to="13" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="75.txt-16">
+      <text>style tips 5–7.5 mm.</text>
+      <structure id="o15801" name="tip" constraint="style">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="7.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="75.txt-17">
+      <text>Cypselae light to dark brown, 6–7 mm, bodies and apical collars concolorous, narrow;</text>
+      <structure id="o15802" name="cypsela">
+        <character char_type="range_value" name="coloration" from="light" to="dark-brown" />
+        <character name="coloration" value="light" />
+        <character name="coloration" value="brown" modifier="dark" />
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+      <structure id="o15803" name="body">
+        <character name="size" value="narrow" />
+      </structure>
+      <structure id="o15804" name="collar" constraint="apical">
+        <character name="coloration" value="concolorous" />
+      </structure>
+    </statement>
+    <statement id="75.txt-18">
+      <text>pappi 20–38 mm (usually scabridulous).</text>
+      <structure id="o15805" name="pappus">
+        <character char_type="range_value" name="size" from="20" from_unit="mm" to="38" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="75.txt-19">
+      <text>2 n = 26.</text>
+      <structure id="o15806" name="chromosome">
+        <character name="count" value="26" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <habitat>mixedgrass prairie</habitat>
+  <habitat>shortgrass prairie</habitat>
+  <habitat>palouse prairie</habitat>
+  <habitat>sagebrush deserts</habitat>
+  <habitat>pinyon-juniper woodlands</habitat>
+  <habitat>openings in montane coniferous forests</habitat>
+  <habitat>often in disturbed areas</habitat>
+  <elevation>100–2800 m;</elevation>
+  <ca_distribution>Alta.</ca_distribution>
+  <ca_distribution>B.C.</ca_distribution>
+  <ca_distribution>Man.</ca_distribution>
+  <ca_distribution>Sask.</ca_distribution>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Ga.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Ill.</us_distribution>
+  <us_distribution>Ind.</us_distribution>
+  <us_distribution>Iowa</us_distribution>
+  <us_distribution>Kans. Mich.</us_distribution>
+  <us_distribution>Minn.</us_distribution>
+  <us_distribution>Mo.</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>Nebr.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>N.Dak.</us_distribution>
+  <us_distribution>Okla.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <us_distribution>S.Dak.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <us_distribution>Wis.</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <global_distribution>Mexico (Chihuahua).</global_distribution>
+  <global_distribution>Mexico (Coahuila).</global_distribution>
+  <global_distribution>Mexico (Durango).</global_distribution>
+  <global_distribution>Mexico (Sonora).</global_distribution>
+  <discussion>Cirsium undulatum is widely distributed in the wstern half of North America from the dry plains and plateaus of the Pacific Northwest eastward across the Great Plains to Manitoba and the Dakotas and south to Texas, New Mexico, and northwestern Mexico. It occurs in scattered localities in the Rocky Mountains and northeastern Great Basin region. At least some of the few widely scattered records from the eastern United States are probably introductions. Cirsium undulatum is both widespread and variable. Plants of the Great Plains region tend to be low-growing with a few large heads and elongate corollas. Plants of the Pacific Northwest are usually taller and produce smaller, more numerous heads with shorter corollas. A detailed study of this species might reveal races worthy of recognition as infraspecific taxa.</discussion>
+  <discussion>Wavyleaf thistle is listed by California as a noxious weed. However, most reports of Cirsium undulatum in California are based upon misidentifications of C. canescens. Cirsium undulatum is known to hybridize with C. flodmanii, C. hookerianum, and C. scariosum var. coloradense. J. T. Howell (1960b) reported that C. undulatum was suspected to hybridize with C. brevifolium in the Pacific Northwest.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

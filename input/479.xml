@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>12.</number>
+  <species_name>Malacothrix saxatilis</species_name>
+  <authority>(Nuttall) Torrey &amp; A. Gray</authority>
+  <place_of_publication>Fl. N. Amer. 2: 486. 1843</place_of_publication>
+  <common_name>Cliff desertdandelion</common_name>
+  <synonym_of_species_name>Leucoseris saxatilis Nuttall, Trans. Amer. Philos. Soc., n. s. 7: 440. 1841</synonym_of_species_name>
+  <description>
+    <statement id="479.txt-0">
+      <text>Perennials (sometimes flowering first year), (20–)90–200 cm.</text>
+      <structure id="o9580" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="20" to="90" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="90" from_unit="cm" to="200" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="479.txt-1">
+      <text>Stems 1 (from rhizomes) or 2–3+ (from caudices), usually erect (sometimes relatively thick), branched mostly distally (usually relatively leafy proximally, sometimes sparsely leafy distally), glabrous or sparsely arachnose to tomentose.</text>
+      <structure id="o9581" name="stem">
+        <character name="count" value="1" />
+        <character char_type="range_value" name="count" from="2" to="3" upper_restricted="false" />
+        <character name="orientation" value="erect" modifier="usually" />
+        <character name="architecture_or_shape" value="branched" modifier="mostly distally" />
+        <character char_type="range_value" name="pubescence" from="sparsely arachnose" to="tomentose" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="arachnose" modifier="sparsely" />
+        <character name="pubescence" value="tomentose" modifier="sparsely" />
+      </structure>
+    </statement>
+    <statement id="479.txt-2">
+      <text>Cauline leaves:</text>
+      <structure id="o9582" name="leaf" constraint="cauline" />
+    </statement>
+    <statement id="479.txt-3">
+      <text>proximal (somewhat thick, usually withering early) elliptic, oblanceolate, lanceolate, or linear (sometimes 1–2-pinnately lobed, lobes lanceolate or linear to filiform, sometimes antrorse, bases usually tapering), ultimate margins entire or dentate to denticulate, faces glabrous or ± arachnose to tomentose;</text>
+      <structure id="o9583" name="leaf" constraint="proximal cauline" />
+      <structure id="o9584" name="margin" constraint="ultimate">
+        <character char_type="range_value" name="shape" from="dentate" to="denticulate" />
+        <character name="shape" value="entire" />
+        <character name="shape" value="dentate" />
+        <character name="shape" value="denticulate" />
+      </structure>
+      <structure id="o9585" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="arachnose to tomentose" />
+        <character char_type="range_value" name="pubescence" from="arachnose" to="tomentose" modifier="±" />
+        <character name="pubescence" value="arachnose" modifier="±" />
+        <character name="pubescence" value="tomentose" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="479.txt-4">
+      <text>distal reduced.</text>
+      <structure id="o9586" name="leaf" constraint="distal cauline">
+        <character name="size" value="reduced" />
+      </structure>
+    </statement>
+    <statement id="479.txt-5">
+      <text>Calyculi of 12–18(–30), lanceolate to subulate bractlets, hyaline margins 0.05–0.2 mm.</text>
+      <structure id="o9587" name="calyculus" />
+      <structure id="o9588" name="30">
+        <character char_type="range_value" name="count" from="12" to="18" />
+      </structure>
+      <structure id="o9589" name="bractlet">
+        <character char_type="range_value" name="shape" from="lanceolate" to="subulate" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="subulate" />
+        <character char_type="range_value" name="count" from="12" to="18" />
+      </structure>
+      <relation id="r1110" name="consist_of" from="o9587" to="o9588" negation="false" />
+      <relation id="r1111" name="consist_of" from="o9587" to="o9589" negation="false" />
+      <structure id="o9590" name="margin">
+        <character name="coloration" value="hyaline" />
+        <character char_type="range_value" name="size" from="0.05" from_unit="mm" to="0.2" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="479.txt-6">
+      <text>Involucres ± campanulate, 9–12(–16+) × 6–8(–12+) mm.</text>
+      <structure id="o9591" name="involucre">
+        <character name="shape" value="campanulate" modifier="±" />
+        <character char_type="range_value" name="atypical_length" from="12" to="16" from_unit="mm" to_unit="mm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="9" from_unit="mm" to="12" to_unit="mm" />
+        <character char_type="range_value" name="atypical_width" from="8" to="12" from_unit="mm" to_unit="mm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="width" from="6" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="479.txt-7">
+      <text>Phyllaries 18–30+ in 2–3 series, lanceolate or linear to subulate, hyaline margins 0.05–0.2 mm wide, faces glabrous or ± arachnose and glabrescent.</text>
+      <structure id="o9592" name="phyllary">
+        <character char_type="range_value" name="count" from="18" to="30" upper_restricted="false" constraint="in series" constraintid="o9593" />
+        <character char_type="range_value" name="shape" from="linear" to="subulate" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="subulate" />
+      </structure>
+      <structure id="o9593" name="series">
+        <character char_type="range_value" name="count" from="2" to="3" />
+      </structure>
+      <structure id="o9594" name="margin">
+        <character name="coloration" value="hyaline" />
+        <character char_type="range_value" name="size" from="0.05" from_unit="mm" to="0.2" to_unit="mm" />
+      </structure>
+      <structure id="o9595" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="arachnose" modifier="±" />
+        <character name="pubescence" value="glabrescent" />
+      </structure>
+    </statement>
+    <statement id="479.txt-8">
+      <text>Receptacles not bristly.</text>
+      <structure id="o9596" name="receptacle">
+        <character name="pubescence" value="bristly" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="479.txt-9">
+      <text>Florets 41–100;</text>
+      <structure id="o9597" name="floret">
+        <character char_type="range_value" name="count" from="41" to="100" />
+      </structure>
+    </statement>
+    <statement id="479.txt-10">
+      <text>corollas white (usually each with abaxial purple stripe), 13–20 mm;</text>
+      <structure id="o9598" name="corolla">
+        <character name="coloration" value="white" />
+        <character char_type="range_value" name="size" from="13" from_unit="mm" to="20" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="479.txt-11">
+      <text>outer ligules exserted 8–14 mm.</text>
+      <structure id="o9599" name="ligule" constraint="outer">
+        <character name="position" value="exserted" />
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="14" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="479.txt-12">
+      <text>Cypselae ± prismatic, 1.4–2.5 mm, ribs extending to apices (± muriculate at 30×), 5 more prominent than others;</text>
+      <structure id="o9600" name="cypsela">
+        <character name="shape" value="prismatic" modifier="±" />
+        <character char_type="range_value" name="size" from="1.4" from_unit="mm" to="2.5" to_unit="mm" />
+      </structure>
+      <structure id="o9601" name="rib">
+        <character name="count" value="5" />
+        <character name="prominence" value="prominent" modifier="more" constraint="than others" constraintid="o9603" />
+      </structure>
+      <structure id="o9602" name="apex" />
+      <relation id="r1112" name="extending to" from="o9601" to="o9602" negation="false" />
+      <structure id="o9603" name="other" />
+    </statement>
+    <statement id="479.txt-13">
+      <text>pappi persistent, of fimbriate crowns or 20–25, blunt teeth (0.01–0.1 mm).</text>
+      <structure id="o9604" name="pappus">
+        <character name="duration" value="persistent" />
+        <character char_type="range_value" name="count" from="20" to="25" />
+      </structure>
+      <structure id="o9605" name="crown">
+        <character name="shape" value="fimbriate" />
+      </structure>
+      <relation id="r1113" name="part_of" from="o9604" to="o9605" negation="false" />
+      <structure id="o9606" name="tooth">
+        <character name="shape" value="blunt" />
+      </structure>
+    </statement>
+    <statement id="479.txt-14">
+      <text>Pollen 70–100% 3-porate.</text>
+      <structure id="o9607" name="pollen">
+        <character name="architecture" value="3-porate" modifier="70-100%" />
+      </structure>
+    </statement>
+    <statement id="479.txt-15">
+      <text>2 n = 18.</text>
+      <structure id="o9608" name="chromosome">
+        <character name="count" value="18" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Varieties 5 (5 in the flora):</number_of_infrataxa>
+  <general_distribution>California.</general_distribution>
+  <discussion>The Malacothrix saxatilis complex is taxonomically difficult. The varieties intergrade morphologically in leaf shape, indument, blooming time, and growth cycle, depending on relative habitat conditions such as elevation, soil, and temperature regime. Hybridization may occur between varieties where they are sympatric. In addition, arrays of heads in early bloom may be described as congested (peduncles relatively short) and as open (peduncles relatively long) on the same plant at the end of the season.</discussion>
+  <discussion>Varieties commutata, arachnoidea, and saxatilis are similar in leaf morphology; var. arachnoidea is distinguished from var. commutata mainly by its tomentose herbage; var. saxatilis differs from the other two varieties in minor details of leaf morphology and in its area of distribution; var. implicata is the most distinctive variety; and var. tenuifolia differs from the others primarily in cauline leaf morphology, which is quite variable. Variety altissima has been described as similar to vars. arachnoidea and commutata and different from vars. saxatilis, implicata, and tenuifolia in growth habit. It is similar in leaf morphology to var. tenuifolia but differs from vars. arachnoidea, commutata, implicata, and saxatilis. Here, var. altissima is subsumed in var. tenuifolia.</discussion>
+  <couplet>1.Cauline leaves usually 1- or 2-pinnately lobed.</couplet>
+  <couplet>2.Stems relatively densely leafy distally; cauline leaves mostly (1–)2-pinnately lobed (lobes linear to filiform); California Channel Islands 12a. Malacothrix saxatilis var. implicata</couplet>
+  <couplet>2.Stems relatively sparsely leafy distally; cauline leaves 1-pinnately lobed or (distalmost) not lobed (linear to filiform, entire)12b. Malacothrix saxatilis var. tenuifolia</couplet>
+  <couplet>1.Cauline leaves usually not lobed.</couplet>
+  <couplet>3.Distal cauline leaves usually ovate to linear, apices usually obtuse; coastal bluffs, south slopes of Santa Ynez Mountains, Santa Bar- bara County12c. Malacothrix saxatilis var. saxatilis</couplet>
+  <couplet>3.Distal cauline leaves broadly lance-linear or lanceolate to elliptic, apices usually acute; north slopes of Transverse and Coast ranges to Monterey County.</couplet>
+  <couplet>4.Herbage tomentose12d. Malacothrix saxatilis</couplet>
+  <couplet>var. arachnoidea</couplet>
+  <couplet>4.Herbage glabrous or ± arachnose12e. Malacothrix saxatilis var. commutata</couplet>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

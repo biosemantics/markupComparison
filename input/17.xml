@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>5.</number>
+  <genus_name>ADENOCAULON</genus_name>
+  <authority>Hooker</authority>
+  <place_of_publication>Bot. Misc. 1: 19, plate 15. 1829</place_of_publication>
+  <common_name />
+  <derivation>Greek aden , gland, and kaulos , stem</derivation>
+  <author_of_tribe_genus>David J. Keil</author_of_tribe_genus>
+  <description>
+    <statement id="17.txt-0">
+      <text>Perennials (perhaps flowering first year, usually rhizomatous), (10–)30–60(–100+) cm (aerial stems usually proximally tomentose and distally stipitate-glandular).</text>
+      <structure id="o2007" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="10" to="30" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_size" from="60" to="100" from_unit="cm" to_unit="cm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="30" from_unit="cm" to="60" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="17.txt-1">
+      <text>Leaves basal and cauline;</text>
+    </statement>
+    <statement id="17.txt-2">
+      <text>petiolate (proximal) or sessile (distal);</text>
+      <structure id="o2008" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="architecture" value="petiolate" />
+        <character name="architecture" value="sessile" />
+      </structure>
+    </statement>
+    <statement id="17.txt-3">
+      <text>blades ovate to ± triangular [suborbiculate], bases mostly truncate to cordate or hastate, margins coarsely dentate or lobulate to denticulate or entire, abaxial faces tomentose, adaxial faces glabrate (distalmost leaves often linear or scalelike).</text>
+      <structure id="o2009" name="blade">
+        <character name="shape" value="ovate" />
+        <character name="shape" value="triangular" modifier="±" />
+      </structure>
+      <structure id="o2010" name="base">
+        <character char_type="range_value" name="shape" from="mostly truncate" to="cordate or hastate" />
+        <character name="shape" value="truncate" modifier="mostly" />
+        <character name="shape" value="cordate" modifier="mostly" />
+        <character name="shape" value="hastate" modifier="mostly" />
+      </structure>
+      <structure id="o2011" name="margin">
+        <character char_type="range_value" name="shape" from="lobulate" to="denticulate or entire" />
+        <character name="shape" value="dentate" modifier="coarsely" />
+        <character name="shape" value="lobulate" modifier="coarsely" />
+        <character name="shape" value="denticulate" modifier="coarsely" />
+        <character name="shape" value="entire" modifier="coarsely" />
+      </structure>
+      <structure id="o2012" name="face" constraint="abaxial">
+        <character name="pubescence" value="tomentose" />
+      </structure>
+      <structure id="o2013" name="face" constraint="adaxial">
+        <character name="pubescence" value="glabrate" />
+      </structure>
+    </statement>
+    <statement id="17.txt-4">
+      <text>Heads disciform, borne in open paniculiform arrays.</text>
+      <structure id="o2014" name="head">
+        <character name="shape_or_architecture" value="disciform" />
+      </structure>
+      <structure id="o2015" name="array">
+        <character name="architecture" value="open" />
+        <character name="architecture" value="paniculiform" />
+      </structure>
+      <relation id="r306" name="borne in" from="o2014" to="o2015" negation="false" />
+    </statement>
+    <statement id="17.txt-5">
+      <text>Involucres cuplike to saucer-shaped (inconspicuous), 4–8+ mm diam.</text>
+      <structure id="o2016" name="involucre">
+        <character char_type="range_value" name="shape" from="cuplike" to="saucer-shaped" />
+        <character name="shape" value="cuplike" />
+        <character name="shape" value="saucer-shaped" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="8" to_unit="mm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="17.txt-6">
+      <text>Phyllaries in 1–2 series, ovate to oblong, ± equal (reflexed in fruit), apices obtuse.</text>
+      <structure id="o2017" name="phyllary">
+        <character char_type="range_value" name="shape" from="ovate" to="oblong" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="oblong" />
+        <character name="size" value="equal" modifier="±" />
+      </structure>
+      <structure id="o2018" name="series">
+        <character char_type="range_value" name="count" from="1" to="2" />
+      </structure>
+      <relation id="r307" name="in" from="o2017" to="o2018" negation="false" />
+      <structure id="o2019" name="apex">
+        <character name="shape" value="obtuse" />
+      </structure>
+    </statement>
+    <statement id="17.txt-7">
+      <text>Receptacles convex, smooth, glabrous, epaleate.</text>
+      <structure id="o2020" name="receptacle">
+        <character name="shape" value="convex" />
+        <character name="architecture_or_relief" value="smooth" />
+        <character name="pubescence" value="glabrous" />
+        <character name="architecture" value="epaleate" />
+      </structure>
+    </statement>
+    <statement id="17.txt-8">
+      <text>Florets:</text>
+      <structure id="o2021" name="floret" />
+    </statement>
+    <statement id="17.txt-9">
+      <text>outer 3–7 florets pistillate, corollas white or ochroleucous, obscurely zygomorphic (± 2-lipped; staminodes 4–5, minute; style branches relatively short);</text>
+      <structure id="o2022" name="floret">
+        <character name="position" value="outer" />
+        <character char_type="range_value" name="count" from="3" to="7" />
+        <character name="architecture" value="pistillate" />
+      </structure>
+      <structure id="o2023" name="corolla">
+        <character name="coloration" value="white" />
+        <character name="coloration" value="ochroleucous" />
+        <character name="architecture" value="zygomorphic" modifier="obscurely" />
+      </structure>
+    </statement>
+    <statement id="17.txt-10">
+      <text>inner 2–10 florets functionally staminate, corollas white or ochroleucous, actinomorphic (lobes 5);</text>
+      <structure id="o2024" name="floret">
+        <character name="position" value="inner" />
+        <character char_type="range_value" name="count" from="2" to="10" />
+        <character name="architecture" value="staminate" modifier="functionally" />
+      </structure>
+      <structure id="o2025" name="corolla">
+        <character name="coloration" value="white" />
+        <character name="coloration" value="ochroleucous" />
+        <character name="architecture" value="actinomorphic" />
+      </structure>
+    </statement>
+    <statement id="17.txt-11">
+      <text>anther basal appendages (relatively short) entire, apical appendages narrowly triangular;</text>
+      <structure id="o2026" name="appendage" constraint="anther basal">
+        <character name="shape" value="entire" />
+      </structure>
+      <structure id="o2027" name="appendage" constraint="apical">
+        <character name="shape" value="triangular" modifier="narrowly" />
+      </structure>
+    </statement>
+    <statement id="17.txt-12">
+      <text>style branches none (apices of styles obtuse to acute).</text>
+      <structure id="o2028" name="branch" constraint="style" />
+    </statement>
+    <statement id="17.txt-13">
+      <text>Cypselae clavate to obovoid, not beaked, ± ribbed, faces distally stipitate-glandular;</text>
+      <structure id="o2029" name="cypsela">
+        <character char_type="range_value" name="shape" from="clavate" to="obovoid" />
+        <character name="shape" value="clavate" />
+        <character name="shape" value="obovoid" />
+        <character name="shape" value="beaked" modifier="not" />
+        <character name="architecture_or_shape" value="ribbed" modifier="±" />
+      </structure>
+      <structure id="o2030" name="face">
+        <character name="architecture_or_exudation_or_pubescence" value="stipitate-glandular" modifier="distally" />
+      </structure>
+    </statement>
+    <statement id="17.txt-14">
+      <text>pappi 0.</text>
+      <structure id="o2031" name="pappus">
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+    <statement id="17.txt-15">
+      <text>x = 23.</text>
+      <structure id="o2032" name="chromosome">
+        <character name="count" value="23" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species 5 (1 in the flora):</number_of_infrataxa>
+  <general_distribution>North America</general_distribution>
+  <general_distribution>Central America</general_distribution>
+  <general_distribution>s South America</general_distribution>
+  <general_distribution>e Asia.</general_distribution>
+  <discussion>Adenocaulon is well adapted for animal dispersal. The prominent glandular hairs on the cypselae are very sticky and cling readily to fabrics, fur, and feathers. The intercontinental disjunctions within the range of Adenocaulon are probably a result of dispersal of cypselae on the feathers of birds. Bird dispersal may also account for the intracontinental disjunctions of A. bicolor (in the Pacific Northwest, the Black Hills, and the northern Great Lakes region). An alternate hypothesis for the disjunctions of A. bicolor is a former transcontinental periglacial distribution that was broken apart by Holocene climatic changes.</discussion>
+  <references>SELECTED REFERENCES Bittmann, M. 1990. Die Gattung Adenocaulon (Compositae): I. Morphologie. Candollea 45: 389–420. Bittmann, M. 1990b. Die Gattung Adenocaulon (Compositae): II. Ökologie, Verbreitung und Systematik. Candollea 45: 493–518.</references>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Antennaria geyeri</species_name>
+  <authority>A. Gray</authority>
+  <place_of_publication>Mem. Amer. Acad. Arts, n. s. 4: 107. 1849</place_of_publication>
+  <common_name>Pinewoods pussytoes</common_name>
+  <description>
+    <statement id="626.txt-0">
+      <text>Dioecious.</text>
+      <structure id="o13119" name="whole_organism">
+        <character name="reproduction" value="dioecious" />
+      </structure>
+    </statement>
+    <statement id="626.txt-1">
+      <text>Plants 3–14 cm (bases woody).</text>
+      <structure id="o13120" name="whole_organism">
+        <character char_type="range_value" name="size" from="3" from_unit="cm" to="14" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="626.txt-2">
+      <text>Stolons none.</text>
+      <structure id="o13121" name="stolon" />
+    </statement>
+    <statement id="626.txt-3">
+      <text>Basal leaves absent at flowering.</text>
+      <structure id="o13122" name="leaf" constraint="basal">
+        <character name="presence" value="absent" modifier="at flowering" />
+      </structure>
+    </statement>
+    <statement id="626.txt-4">
+      <text>Cauline leaves linear-lanceolate to cuneate-oblanceolate, 11–35 × 2–6 imm, acute, not flagged (apices acute, faces gray-pubescent).</text>
+      <structure id="o13123" name="leaf" constraint="cauline">
+        <character char_type="range_value" name="shape" from="linear-lanceolate" to="cuneate-oblanceolate" />
+        <character name="shape" value="linear-lanceolate" />
+        <character name="shape" value="cuneate-oblanceolate" />
+        <character char_type="range_value" name="count" from="11" to="35" />
+        <character char_type="range_value" name="count" from="2" to="6" />
+        <character name="shape" value="acute" />
+        <character name="orientation" value="flagged" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="626.txt-5">
+      <text>Heads 3–25 in corymbiform to paniculiform arrays.</text>
+      <structure id="o13124" name="head">
+        <character char_type="range_value" name="count" from="3" to="25" constraint="in arrays" constraintid="o13125" />
+      </structure>
+      <structure id="o13125" name="array">
+        <character char_type="range_value" name="architecture" from="corymbiform" to="paniculiform" />
+        <character name="architecture" value="corymbiform" />
+        <character name="architecture" value="paniculiform" />
+      </structure>
+    </statement>
+    <statement id="626.txt-6">
+      <text>Involucres:</text>
+      <structure id="o13126" name="involucre" />
+    </statement>
+    <statement id="626.txt-7">
+      <text>staminate 6–8 mm;</text>
+      <structure id="o13127" name="involucre" constraint="staminate">
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="626.txt-8">
+      <text>pistillate 6–8 mm.</text>
+      <structure id="o13128" name="involucre" constraint="pistillate">
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="626.txt-9">
+      <text>Phyllaries distally red to pink, light brown, or white.</text>
+      <structure id="o13129" name="phyllary">
+        <character char_type="range_value" name="coloration" from="distally red" to="pink , light-brown , or white" />
+        <character name="coloration" value="red" modifier="distally" />
+        <character name="coloration" value="pink" modifier="distally" />
+        <character name="coloration" value="brown" modifier="distally ;light" />
+        <character name="coloration" value="white" modifier="distally" />
+      </structure>
+    </statement>
+    <statement id="626.txt-10">
+      <text>Corollas:</text>
+      <structure id="o13130" name="corolla" />
+    </statement>
+    <statement id="626.txt-11">
+      <text>staminate 3–4.5 mm;</text>
+      <structure id="o13131" name="corolla" constraint="staminate">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="4.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="626.txt-12">
+      <text>pistillate 5–6 mm.</text>
+      <structure id="o13132" name="corolla" constraint="pistillate">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="626.txt-13">
+      <text>Cypselae 2–2.5 mm, pubescent and papillate;</text>
+      <structure id="o13133" name="cypsela">
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="2.5" to_unit="mm" />
+        <character name="pubescence" value="pubescent" />
+        <character name="relief_or_pubescence" value="papillate" />
+      </structure>
+    </statement>
+    <statement id="626.txt-14">
+      <text>pappi:</text>
+      <structure id="o13134" name="pappus" />
+    </statement>
+    <statement id="626.txt-15">
+      <text>staminate 6–7 mm (capillary);</text>
+      <structure id="o13135" name="pappus" constraint="staminate">
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="626.txt-16">
+      <text>pistillate 6–7 mm.</text>
+      <structure id="o13136" name="pappus" constraint="pistillate">
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="626.txt-17">
+      <text>2 n = 28.</text>
+      <structure id="o13137" name="chromosome">
+        <character name="count" value="28" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>dry lower montane to montane coniferous forests</habitat>
+  <habitat>usually in ± thick duff under pinus ponderosa</habitat>
+  <elevation>600–2400 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <discussion>Antennaria geyeri is distinctive because it has woody upright branches and is not stoloniferous. It lacks basal leaves at flowering and has heads that are often described as subdioecious (central flowers are often bisexual). As the only member of the Geyerae group, A. geyeri is not closely related to any other species of Antennaria; it bears strong similarities to some species of Anaphalis (R. J. Bayer 1990; Bayer et al. 1996).</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

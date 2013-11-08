@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>3.</number>
+  <species_name>Chaptalia tomentosa</species_name>
+  <authority>Ventenat</authority>
+  <place_of_publication>Descr. Pl. Nouv., plate 61. 1802</place_of_publication>
+  <common_name>Woolly sunbonnet</common_name>
+  <description>
+    <statement id="22.txt-0">
+      <text>Leaves sessile;</text>
+      <structure id="o3488" name="leaf">
+        <character name="architecture" value="sessile" />
+      </structure>
+    </statement>
+    <statement id="22.txt-1">
+      <text>blades elliptic to elliptic-obovate, 5–18(–24) cm, margins denticulate, abaxial faces densely white-tomentose, adaxial faces green, glabrous or glabrate.</text>
+      <structure id="o3489" name="blade">
+        <character char_type="range_value" name="shape" from="elliptic" to="elliptic-obovate" />
+        <character name="shape" value="elliptic" />
+        <character name="shape" value="elliptic-obovate" />
+        <character char_type="range_value" name="atypical_size" from="18" to="24" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="18" to_unit="cm" />
+      </structure>
+      <structure id="o3490" name="margin">
+        <character name="shape" value="denticulate" />
+      </structure>
+      <structure id="o3491" name="face" constraint="abaxial">
+        <character name="pubescence" value="white-tomentose" modifier="densely" />
+      </structure>
+      <structure id="o3492" name="face" constraint="adaxial">
+        <character name="coloration" value="green" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="glabrate" />
+      </structure>
+    </statement>
+    <statement id="22.txt-2">
+      <text>Heads nodding in bud and fruit, erect in flowering.</text>
+      <structure id="o3493" name="head">
+        <character name="orientation" value="nodding" constraint="in bud, fruit" constraintid="o3494  o3495" />
+        <character name="orientation" value="erect" modifier="in flowering" />
+      </structure>
+      <structure id="o3494" name="bud" />
+      <structure id="o3495" name="fruit" />
+    </statement>
+    <statement id="22.txt-3">
+      <text>Peduncles ebracteate, 5–20 cm at flowering, 25–40 cm in fruit, not dilated distally.</text>
+      <structure id="o3496" name="peduncle">
+        <character name="architecture" value="ebracteate" />
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="20" to_unit="cm" constraint="at flowering, 25-40 cm in fruit" constraintid="o3497" />
+        <character name="shape" value="dilated" modifier="not ; distally" />
+      </structure>
+      <structure id="o3497" name="fruit" />
+    </statement>
+    <statement id="22.txt-4">
+      <text>Florets :</text>
+      <structure id="o3498" name="floret" />
+    </statement>
+    <statement id="22.txt-5">
+      <text>outer pistillate, corollas creamy white (with purple, abaxial midstripe), laminae 0.9–1.5 mm wide;</text>
+      <structure id="o3499" name="floret" constraint="outer">
+        <character name="architecture" value="pistillate" />
+      </structure>
+      <structure id="o3500" name="corolla">
+        <character name="coloration" value="white" modifier="creamy" />
+      </structure>
+      <structure id="o3501" name="lamina">
+        <character char_type="range_value" name="size" from="0.9" from_unit="mm" to="1.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="22.txt-6">
+      <text>inner florets functionally staminate.</text>
+      <structure id="o3502" name="floret" constraint="inner">
+        <character name="architecture" value="staminate" modifier="functionally" />
+      </structure>
+    </statement>
+    <statement id="22.txt-7">
+      <text>Cypselae 3.8–5.1 mm, beaks stout, lengths 0.2–0.25 times bodies, faces (bodies only) glabrous, beaks hairy (hairs spreading-ascending, swollen-apiculate).</text>
+      <structure id="o3503" name="cypsela">
+        <character char_type="range_value" name="size" from="3.8" from_unit="mm" to="5.1" to_unit="mm" />
+      </structure>
+      <structure id="o3504" name="beak">
+        <character name="fragility" value="stout" />
+        <character char_type="range_value" name="size" from="0.2" to="0.25" constraint="times bodies" constraintid="o3505" />
+      </structure>
+      <structure id="o3505" name="body" />
+      <structure id="o3506" name="face">
+        <character name="pubescence" value="glabrous" />
+      </structure>
+      <structure id="o3507" name="beak">
+        <character name="pubescence" value="hairy" />
+      </structure>
+    </statement>
+    <statement id="22.txt-8">
+      <text>2 n = 48.</text>
+      <structure id="o3508" name="chromosome">
+        <character name="count" value="48" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>dec</flowering_time>
+  <flowering_time>winter</flowering_time>
+  <flowering_time>jan</flowering_time>
+  <flowering_time>feb</flowering_time>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <habitat>coastal plain pinelands</habitat>
+  <habitat>sandy soils in grass-sedge bogs</habitat>
+  <habitat>along ditches</habitat>
+  <habitat>open areas</habitat>
+  <habitat>thin woods</habitat>
+  <elevation>0–50 m;</elevation>
+  <us_distribution>Ala.</us_distribution>
+  <us_distribution>Fla.</us_distribution>
+  <us_distribution>Ga.</us_distribution>
+  <us_distribution>La.</us_distribution>
+  <us_distribution>Miss.</us_distribution>
+  <us_distribution>N.C.</us_distribution>
+  <us_distribution>S.C.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

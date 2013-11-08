@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>4.</number>
+  <species_name>Malacothrix fendleri</species_name>
+  <authority>A. Gray</authority>
+  <place_of_publication>Smithsonian Contr. Knowl. 5(6): 104. 1853</place_of_publication>
+  <common_name>Fendler’s desertdandelion</common_name>
+  <description>
+    <statement id="467.txt-0">
+      <text>Annuals, 3–15(–25+) cm.</text>
+      <structure id="o9289" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="15" to="25" from_unit="cm" to_unit="cm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="3" from_unit="cm" to="15" to_unit="cm" />
+        <character name="life_style" value="annual" />
+      </structure>
+    </statement>
+    <statement id="467.txt-1">
+      <text>Stems (1–)3–8, ± decumbent or spreading-ascending, branched proximally and distally, glaucous or glabrous.</text>
+      <structure id="o9290" name="stem">
+        <character char_type="range_value" name="atypical_count" from="1" to="3" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="3" to="8" />
+        <character name="habit" value="decumbent" modifier="±" />
+        <character name="orientation" value="spreading-ascending" />
+        <character name="architecture_or_shape" value="branched" modifier="proximally" />
+        <character name="coating" value="glaucous" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="467.txt-2">
+      <text>Cauline leaves:</text>
+      <structure id="o9291" name="leaf" constraint="cauline" />
+    </statement>
+    <statement id="467.txt-3">
+      <text>proximal elliptic to oblong-oblanceolate, sometimes pinnately lobed (lobes 2–4+ pairs, oblong to triangular, unequal, apices acute), not fleshy, ultimate margins usually dentate, faces glabrous;</text>
+      <structure id="o9292" name="leaf" constraint="proximal cauline">
+        <character name="arrangement_or_shape" value="elliptic" />
+        <character name="shape" value="oblong-oblanceolate" />
+        <character name="shape" value="lobed" modifier="sometimes pinnately" />
+        <character name="texture" value="fleshy" modifier="not" />
+      </structure>
+      <structure id="o9293" name="margin" constraint="ultimate">
+        <character name="shape" value="dentate" modifier="usually" />
+      </structure>
+      <structure id="o9294" name="face">
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="467.txt-4">
+      <text>distal reduced (narrowly triangular to linear or filiform, margins dentate or entire).</text>
+      <structure id="o9295" name="leaf" constraint="distal cauline">
+        <character name="size" value="reduced" />
+      </structure>
+    </statement>
+    <statement id="467.txt-5">
+      <text>Calyculi of 5–12, ovate to lanceolate bractlets, hyaline margins 0.05–0.2 mm wide.</text>
+      <structure id="o9296" name="calyculus" />
+      <structure id="o9297" name="bractlet">
+        <character char_type="range_value" name="count" from="5" to="12" />
+        <character char_type="range_value" name="shape" from="ovate" to="lanceolate" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="lanceolate" />
+      </structure>
+      <relation id="r1082" name="consist_of" from="o9296" to="o9297" negation="false" />
+      <structure id="o9298" name="margin">
+        <character name="coloration" value="hyaline" />
+        <character char_type="range_value" name="size" from="0.05" from_unit="mm" to="0.2" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="467.txt-6">
+      <text>Involucres ± campanulate, 7–10 × 5–6+ mm.</text>
+      <structure id="o9299" name="involucre">
+        <character name="shape" value="campanulate" modifier="±" />
+        <character char_type="range_value" name="length" from="7" from_unit="mm" to="10" to_unit="mm" />
+        <character char_type="range_value" name="width" from="5" from_unit="mm" to="6" to_unit="mm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="467.txt-7">
+      <text>Phyllaries 13–25+ in 2–3 series, lance-oblong or lanceolate to lance-linear, subequal, hyaline margins 0.05–0.3 mm wide, faces glabrous.</text>
+      <structure id="o9300" name="phyllary">
+        <character char_type="range_value" name="count" from="13" to="25" upper_restricted="false" constraint="in series" constraintid="o9301" />
+        <character char_type="range_value" name="shape" from="lanceolate" to="lance-linear" />
+        <character name="shape" value="lance-oblong" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="lance-linear" />
+        <character name="size" value="subequal" />
+      </structure>
+      <structure id="o9301" name="series">
+        <character char_type="range_value" name="count" from="2" to="3" />
+      </structure>
+      <structure id="o9302" name="margin">
+        <character name="coloration" value="hyaline" />
+        <character char_type="range_value" name="size" from="0.05" from_unit="mm" to="0.3" to_unit="mm" />
+      </structure>
+      <structure id="o9303" name="face">
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="467.txt-8">
+      <text>Receptacles not bristly.</text>
+      <structure id="o9304" name="receptacle">
+        <character name="pubescence" value="bristly" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="467.txt-9">
+      <text>Florets 16–88;</text>
+      <structure id="o9305" name="floret">
+        <character char_type="range_value" name="count" from="16" to="88" />
+      </structure>
+    </statement>
+    <statement id="467.txt-10">
+      <text>corollas yellow (usually with red or purplish abaxial stripes), 6–14 mm;</text>
+      <structure id="o9306" name="corolla">
+        <character name="coloration" value="yellow" />
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="14" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="467.txt-11">
+      <text>outer ligules exserted 5–8 mm.</text>
+      <structure id="o9307" name="ligule" constraint="outer">
+        <character name="position" value="exserted" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="467.txt-12">
+      <text>Cypselae ± cylindric, 1.8–2.4 mm (distal 0.3 mm slightly expanded, cupped, smooth), ribs not extending to apices, ± equal;</text>
+      <structure id="o9308" name="cypsela">
+        <character name="shape" value="cylindric" modifier="±" />
+        <character char_type="range_value" name="size" from="1.8" from_unit="mm" to="2.4" to_unit="mm" />
+      </structure>
+      <structure id="o9309" name="rib">
+        <character name="size" value="equal" modifier="±" />
+      </structure>
+      <structure id="o9310" name="apex" />
+      <relation id="r1083" name="extending to" from="o9309" to="o9310" negation="true" />
+    </statement>
+    <statement id="467.txt-13">
+      <text>persistent pappi of 12–15, ± deltate teeth (often hidden within cups at apices of cypselae) plus 1–2 bristles.</text>
+      <structure id="o9311" name="pappus" constraint="persistent" />
+      <structure id="o9312" name="tooth">
+        <character char_type="range_value" name="count" from="12" to="15" />
+        <character name="shape" value="deltate" modifier="±" />
+      </structure>
+      <structure id="o9313" name="bristle">
+        <character char_type="range_value" name="count" from="1" to="2" />
+      </structure>
+      <relation id="r1084" name="consist_of" from="o9311" to="o9312" negation="false" />
+      <relation id="r1085" name="consist_of" from="o9311" to="o9313" negation="false" />
+    </statement>
+    <statement id="467.txt-14">
+      <text>Pollen 70–100% 3-porate.</text>
+      <structure id="o9314" name="pollen">
+        <character name="architecture" value="3-porate" modifier="70-100%" />
+      </structure>
+    </statement>
+    <statement id="467.txt-15">
+      <text>2 n = 14.</text>
+      <structure id="o9315" name="chromosome">
+        <character name="count" value="14" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <habitat>grasslands</habitat>
+  <habitat>pinyon-juniper woodlands</habitat>
+  <habitat>creosote bush associations</habitat>
+  <elevation>80–2200 m;</elevation>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <global_distribution>Mexico (Baja California).</global_distribution>
+  <global_distribution>Mexico (Sonora).</global_distribution>
+  <discussion>Malacothrix fendleri grows in the Sonoran Desert. “San Bernardino Co.” as locality for a specimen from the herbarium of J. G. Lemmon in UC (336493) is evidently an error.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>2.</number>
+  <species_name>Taraxacum latilobum</species_name>
+  <authority>de Candolle</authority>
+  <place_of_publication>in A. P. de Candolle and A. L. P. P. de Candolle, Prodr. 7: 146. 1838</place_of_publication>
+  <common_name>Large-lobed dandelion, pissenlit à lobes larges</common_name>
+  <description>
+    <statement id="319.txt-0">
+      <text>Plants 9–75 cm;</text>
+      <structure id="o5784" name="whole_organism">
+        <character char_type="range_value" name="size" from="9" from_unit="cm" to="75" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="319.txt-1">
+      <text>taproots seldom branched.</text>
+      <structure id="o5785" name="taproot">
+        <character name="architecture_or_shape" value="branched" modifier="seldom" />
+      </structure>
+    </statement>
+    <statement id="319.txt-2">
+      <text>Stems 1–7+, erect to ascending, ± purplish, glabrate, sometimes ± sparsely villous distally.</text>
+      <structure id="o5786" name="stem">
+        <character char_type="range_value" name="count" from="1" to="7" upper_restricted="false" />
+        <character char_type="range_value" name="orientation" from="erect" to="ascending" />
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="ascending" />
+        <character name="coloration" value="purplish" modifier="±" />
+        <character name="pubescence" value="glabrate" />
+        <character name="pubescence" value="villous" modifier="sometimes ± sparsely ; distally" />
+      </structure>
+    </statement>
+    <statement id="319.txt-3">
+      <text>Leaves 10+, erect to patent;</text>
+      <structure id="o5787" name="leaf">
+        <character name="count" char_type="range_value" from="10" upper_restricted="false" />
+        <character char_type="range_value" name="orientation" from="erect" to="patent" />
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="patent" />
+      </structure>
+    </statement>
+    <statement id="319.txt-4">
+      <text>petioles ± narrowly winged;</text>
+      <structure id="o5788" name="petiole">
+        <character name="architecture" value="winged" modifier="± narrowly" />
+      </structure>
+    </statement>
+    <statement id="319.txt-5">
+      <text>blades broadly oblance-olate to narrowly obovate (often runcinate), 15–47.5 × 2.5–9 cm, bases attenuate, margins usually shallowly lobed to sometimes lacerate (mostly proximally), lobes retrorse or straight, broadly deltate to triangular, sometimes antrorsely curved apically, acute to acuminate, teeth 5–7 on lobes and in sinuses, irregular, triangular or sometimes lanceolate, terminals broader than laterals, apices obtuse to bluntly short-caudate or -acuminate (rarely acute), faces glabrous or glabrate to sparsely pilose or villous.</text>
+      <structure id="o5789" name="blade">
+        <character char_type="range_value" name="shape" from="broadly oblance-olate" to="narrowly obovate" />
+        <character name="shape" value="oblance-olate" modifier="broadly" />
+        <character name="shape" value="obovate" modifier="narrowly" />
+        <character char_type="range_value" name="length" from="15" from_unit="cm" to="47.5" to_unit="cm" />
+        <character char_type="range_value" name="width" from="2.5" from_unit="cm" to="9" to_unit="cm" />
+      </structure>
+      <structure id="o5790" name="base">
+        <character name="shape" value="attenuate" />
+      </structure>
+      <structure id="o5791" name="margin">
+        <character char_type="range_value" name="shape" from="usually shallowly lobed" to="sometimes lacerate" />
+        <character name="shape" value="lobed" modifier="usually shallowly" />
+        <character name="shape" value="lacerate" modifier="sometimes" />
+      </structure>
+      <structure id="o5792" name="lobe">
+        <character name="orientation" value="retrorse" />
+        <character name="course" value="straight" />
+        <character char_type="range_value" name="shape" from="broadly deltate" to="triangular , sometimes antrorsely curved apically , acute" />
+        <character name="shape" value="deltate" modifier="broadly" />
+        <character name="shape" value="triangular" modifier="broadly" />
+        <character name="shape" value="acute" modifier="sometimes antrorsely" />
+        <character name="shape" value="acuminate" modifier="sometimes antrorsely" />
+      </structure>
+      <structure id="o5793" name="tooth">
+        <character char_type="range_value" name="count" from="5" to="7" constraint="on lobes" constraintid="o5794" />
+        <character name="architecture_or_course" value="irregular" />
+        <character name="shape" value="triangular" />
+        <character name="shape" value="lanceolate" modifier="sometimes" />
+      </structure>
+      <structure id="o5794" name="lobe" />
+      <structure id="o5795" name="sinus" />
+      <relation id="r738" name="in" from="o5794" to="o5795" negation="false" />
+      <structure id="o5796" name="terminal">
+        <character name="size" value="broader" constraint="than laterals" constraintid="o5797" />
+      </structure>
+      <structure id="o5797" name="lateral" />
+      <structure id="o5798" name="apex">
+        <character char_type="range_value" name="shape" from="obtuse" to="bluntly short-caudate-or-acuminate" />
+        <character name="shape" value="obtuse" />
+        <character name="shape" value="short-caudate-" modifier="bluntly" />
+      </structure>
+      <structure id="o5799" name="face">
+        <character char_type="range_value" name="pubescence" from="glabrate" to="sparsely pilose or villous" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="glabrate" />
+        <character name="pubescence" value="pilose" modifier="sparsely" />
+        <character name="pubescence" value="villous" modifier="sparsely" />
+      </structure>
+    </statement>
+    <statement id="319.txt-6">
+      <text>Calyculi of ca. 18 , reflexed to recurved, ovate to broadly lanceolate bractlets in 3 series, 8–11 × 2–5 mm, margins narrowly scarious, sometimes proximally more widely so, apices acuminate, hornless, ± scarious-erose, tips often purplish and blackish.</text>
+      <structure id="o5800" name="calyculus">
+        <character char_type="range_value" name="length" from="8" from_unit="mm" to="11" to_unit="mm" />
+        <character char_type="range_value" name="width" from="2" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+      <structure id="o5801" name="bractlet">
+        <character name="count" value="18" />
+        <character char_type="range_value" name="orientation" from="reflexed" to="recurved" />
+        <character name="orientation" value="reflexed" />
+        <character name="orientation" value="recurved" />
+        <character char_type="range_value" name="shape" from="ovate" to="broadly lanceolate" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="lanceolate" modifier="broadly" />
+      </structure>
+      <relation id="r739" name="consist_of" from="o5800" to="o5801" negation="false" />
+      <structure id="o5802" name="series">
+        <character name="count" value="3" />
+      </structure>
+      <relation id="r740" name="in" from="o5801" to="o5802" negation="false" />
+      <structure id="o5803" name="margin">
+        <character name="texture" value="scarious" modifier="narrowly" />
+      </structure>
+      <structure id="o5804" name="apex">
+        <character name="shape" value="acuminate" />
+        <character name="architecture" value="hornless" />
+        <character name="shape_or_relief" value="scarious-erose" modifier="±" />
+      </structure>
+      <structure id="o5805" name="tip">
+        <character name="coloration" value="purplish and blackish" modifier="often" />
+      </structure>
+    </statement>
+    <statement id="319.txt-7">
+      <text>Involucres dark green, often purplish-tinged, campanulate, (13–)15–23 mm.</text>
+      <structure id="o5806" name="involucre">
+        <character name="coloration" value="green" modifier="dark" />
+        <character name="coloration" value="tinged" modifier="often;purplish" />
+        <character name="shape" value="campanulate" />
+        <character char_type="range_value" name="atypical_size" from="13" to="15" from_unit="mm" to_unit="mm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="15" from_unit="mm" to="23" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="319.txt-8">
+      <text>Phyllaries 14–18 in 2 series, lanceolate to linear (outer) or ovate to lance-ovate (inner), 1.2–4 mm wide, scarious, narrowly (outer, distal part of inner) or widely (proximal part of inner), apices long-acuminate, hornless, scarious, erose, hyaline, purplish-grayish.</text>
+      <structure id="o5807" name="phyllary">
+        <character char_type="range_value" name="count" from="14" to="18" constraint="in series" constraintid="o5808" />
+        <character char_type="range_value" name="shape" from="lanceolate" to="linear or ovate" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="lance-ovate" />
+        <character char_type="range_value" name="size" from="1.2" from_unit="mm" to="4" to_unit="mm" />
+        <character name="texture" value="scarious" />
+      </structure>
+      <structure id="o5808" name="series">
+        <character name="count" value="2" />
+      </structure>
+      <structure id="o5809" name="apex">
+        <character name="shape" value="long-acuminate" />
+        <character name="architecture" value="hornless" />
+        <character name="texture" value="scarious" />
+        <character name="shape_or_relief" value="erose" />
+        <character name="coloration" value="hyaline" />
+        <character name="coloration" value="grayish" modifier="purplish" />
+      </structure>
+    </statement>
+    <statement id="319.txt-9">
+      <text>Florets ca. 150;</text>
+      <structure id="o5810" name="floret">
+        <character name="count" value="150" />
+      </structure>
+    </statement>
+    <statement id="319.txt-10">
+      <text>corollas yellow (outer dark gray striped abaxially, also purplish), 13–17 × 1–1.3 mm.</text>
+      <structure id="o5811" name="corolla">
+        <character name="coloration" value="yellow" />
+        <character char_type="range_value" name="length" from="13" from_unit="mm" to="17" to_unit="mm" />
+        <character char_type="range_value" name="width" from="1" from_unit="mm" to="1.3" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="319.txt-12">
+      <text>pappi white to creamy, 6.5–7 mm.</text>
+      <structure id="o5812" name="pappus">
+        <character char_type="range_value" name="coloration" from="white" to="creamy" />
+        <character name="coloration" value="white" />
+        <character name="coloration" value="creamy" />
+        <character char_type="range_value" name="size" from="6.5" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>seaside calcareous slopes and grassy taluses or clifftops</habitat>
+  <elevation>0–30 m;</elevation>
+  <ca_distribution>Nfld. and Labr. (Nfld.)</ca_distribution>
+  <ca_distribution>Que.</ca_distribution>
+  <us_distribution>Maine.</us_distribution>
+  <discussion>Taraxacum latilobum is known only from the Gulf of St. Lawrence and adjacent areas.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Silybum marianum</species_name>
+  <authority>(Linnaeus) Gaertner</authority>
+  <place_of_publication>Fruct. Sem. Pl. 2: 378. 1791</place_of_publication>
+  <common_name>Blessed milkthistle, chardon Marie</common_name>
+  <synonym_of_species_name>Carduus marianus Linnaeus, Sp. Pl. 2: 823. 1753</synonym_of_species_name>
+  <description>
+    <statement id="171.txt-0">
+      <text>Stems glabrous or slightly tomentose.</text>
+      <structure id="o2075" name="stem">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="tomentose" modifier="slightly" />
+      </structure>
+    </statement>
+    <statement id="171.txt-1">
+      <text>Leaves:</text>
+      <structure id="o2076" name="leaf" />
+    </statement>
+    <statement id="171.txt-2">
+      <text>basal wing-petioled, blades 15–60+ cm, margins coarsely lobed;</text>
+      <structure id="o2077" name="leaf" constraint="basal" />
+      <structure id="o2078" name="blade">
+        <character char_type="range_value" name="size" from="15" from_unit="cm" to="60" to_unit="cm" upper_restricted="false" />
+      </structure>
+      <structure id="o2079" name="margin">
+        <character name="shape" value="lobed" modifier="coarsely" />
+      </structure>
+    </statement>
+    <statement id="171.txt-3">
+      <text>cauline leaves clasping, progressively smaller and less divided, bases spiny, coiled, auriculate.</text>
+      <structure id="o2080" name="leaf" constraint="cauline">
+        <character name="architecture" value="clasping" />
+        <character name="size" value="smaller" modifier="progressively" />
+        <character name="shape" value="divided" modifier="less" />
+      </structure>
+      <structure id="o2081" name="base">
+        <character name="architecture_or_shape" value="spiny" />
+        <character name="shape" value="coiled" />
+        <character name="shape" value="auriculate" />
+      </structure>
+    </statement>
+    <statement id="171.txt-4">
+      <text>Phyllary appendages spreading, ovate, 1–4 cm including long-tapered spine tips.</text>
+      <structure id="o2082" name="appendage" constraint="phyllary">
+        <character name="orientation" value="spreading" />
+        <character name="shape" value="ovate" />
+        <character char_type="range_value" name="size" from="1" from_unit="cm" to="4" to_unit="cm" />
+      </structure>
+      <structure id="o2083" name="tip" constraint="spine" />
+      <relation id="r312" name="including shaplong-tapered" from="o2082" to="o2083" negation="false" />
+    </statement>
+    <statement id="171.txt-5">
+      <text>Corollas 26–35 mm;</text>
+      <structure id="o2084" name="corolla">
+        <character char_type="range_value" name="size" from="26" from_unit="mm" to="35" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="171.txt-6">
+      <text>tubes 13–25 mm, throats campanulate, 2–3 mm, lobes 5–9 mm.</text>
+      <structure id="o2085" name="tube">
+        <character char_type="range_value" name="size" from="13" from_unit="mm" to="25" to_unit="mm" />
+      </structure>
+      <structure id="o2086" name="throat">
+        <character name="shape" value="campanulate" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="3" to_unit="mm" />
+      </structure>
+      <structure id="o2087" name="lobe">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="9" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="171.txt-7">
+      <text>Cypselae brown and black spotted, 6–8 mm;</text>
+      <structure id="o2088" name="cypsela">
+        <character name="coloration" value="spotted" modifier="brown and black" />
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="171.txt-8">
+      <text>pappus scales 15–20 mm.</text>
+      <structure id="o2089" name="scale" constraint="pappus">
+        <character char_type="range_value" name="size" from="15" from_unit="mm" to="20" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="171.txt-9">
+      <text>2 n = 34.</text>
+      <structure id="o2090" name="chromosome">
+        <character name="count" value="34" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>feb</flowering_time>
+  <flowering_time>winter</flowering_time>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>roadsides</habitat>
+  <habitat>pastures</habitat>
+  <habitat>waste areas</habitat>
+  <elevation>sometimes cultivated; 0–800 m;</elevation>
+  <introduced>introduced;</introduced>
+  <ca_distribution>Alta.</ca_distribution>
+  <ca_distribution>B.C.</ca_distribution>
+  <ca_distribution>N.B.</ca_distribution>
+  <ca_distribution>N.S.</ca_distribution>
+  <ca_distribution>Ont.</ca_distribution>
+  <ca_distribution>Que.</ca_distribution>
+  <ca_distribution>Sask.</ca_distribution>
+  <us_distribution>Ala.</us_distribution>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Ark.</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Conn.</us_distribution>
+  <us_distribution>Ind.</us_distribution>
+  <us_distribution>La.</us_distribution>
+  <us_distribution>Mich.</us_distribution>
+  <us_distribution>Miss.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>N.H.</us_distribution>
+  <us_distribution>N.J.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>N.C.</us_distribution>
+  <us_distribution>Ohio</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <us_distribution>Tenn.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <us_distribution>Vt.</us_distribution>
+  <us_distribution>Va.</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <us_distribution>W.Va.</us_distribution>
+  <global_distribution>s Europe (Mediterranean region).</global_distribution>
+  <discussion>Silybum marianum is sometimes cultivated as an ornamental, a minor vegetable, or as a medicinal herb. Young shoots can be boiled and eaten like cabbage and young leaves can be added to salads. The seeds can be used as a coffee substitute. Extracts of S. marianum are used as an herbal treatment for liver ailments.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

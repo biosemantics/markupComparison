@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Centaurea cyanus</species_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 911. 1753</place_of_publication>
+  <common_name>Bachelor’s-button, garden cornflower, cornflower, bluebottle, bluebonnets, blaver, blue-poppy, thimbles, brushes, corn pinks , witch’s bells, hurtsickle, bleuet, barbeau, casse lunette</common_name>
+  <synonym_of_species_name>Leucacantha cyanus (Linnaeus) Nieuwland &amp; Lunell</synonym_of_species_name>
+  <description>
+    <statement id="206.txt-0">
+      <text>Annuals , 20–100 cm.</text>
+      <structure id="o3105" name="whole_organism">
+        <character char_type="range_value" name="size" from="20" from_unit="cm" to="100" to_unit="cm" />
+        <character name="life_style" value="annual" />
+      </structure>
+    </statement>
+    <statement id="206.txt-1">
+      <text>Stems usually 1, erect, ± openly branched distally, loosely tomentose.</text>
+      <structure id="o3106" name="stem">
+        <character name="count" value="1" modifier="usually" />
+        <character name="orientation" value="erect" />
+        <character name="architecture_or_shape" value="branched" modifier="± openly ; distally" />
+        <character name="pubescence" value="tomentose" modifier="loosely" />
+      </structure>
+    </statement>
+    <statement id="206.txt-2">
+      <text>Leaves ± loosely gray-tomentose;</text>
+      <structure id="o3107" name="leaf">
+        <character name="pubescence" value="gray-tomentose" modifier="± loosely" />
+      </structure>
+    </statement>
+    <statement id="206.txt-3">
+      <text>basal leaf blades linear-lanceolate, 3–10 cm, margins entire or with remote linear lobes, apices acute;</text>
+      <structure id="o3108" name="blade" constraint="basal leaf">
+        <character name="shape" value="linear-lanceolate" />
+        <character char_type="range_value" name="size" from="3" from_unit="cm" to="10" to_unit="cm" />
+      </structure>
+      <structure id="o3109" name="margin">
+        <character name="shape" value="entire" />
+        <character name="shape" value="with remote linear lobes" />
+      </structure>
+      <structure id="o3110" name="lobe">
+        <character name="arrangement" value="remote" />
+        <character name="arrangement_or_shape" value="linear" />
+      </structure>
+      <relation id="r433" name="with" from="o3109" to="o3110" negation="false" />
+      <structure id="o3111" name="apex">
+        <character name="shape" value="acute" />
+      </structure>
+    </statement>
+    <statement id="206.txt-4">
+      <text>cauline linear, usually not much smaller except among heads, usually entire.</text>
+      <structure id="o3112" name="leaf" constraint="cauline">
+        <character name="arrangement_or_shape" value="linear" />
+        <character name="size" value="smaller" modifier="usually not much" />
+        <character name="shape" value="entire" modifier="usually" />
+      </structure>
+      <structure id="o3113" name="head" />
+      <relation id="r434" name="except among" from="o3112" to="o3113" negation="false" />
+    </statement>
+    <statement id="206.txt-5">
+      <text>Heads radiant, in open, rounded or ± flat-topped cymiform arrays, pedunculate.</text>
+      <structure id="o3114" name="head">
+        <character name="architecture_or_arrangement" value="radiant" />
+        <character name="architecture" value="pedunculate" />
+      </structure>
+      <structure id="o3115" name="array">
+        <character name="architecture" value="open" />
+        <character name="shape" value="rounded" />
+        <character name="shape" value="flat-topped" modifier="±" />
+        <character name="architecture" value="cymiform" />
+      </structure>
+      <relation id="r435" name="in" from="o3114" to="o3115" negation="false" />
+    </statement>
+    <statement id="206.txt-6">
+      <text>Involucres campanulate, 12–16 mm.</text>
+      <structure id="o3116" name="involucre">
+        <character name="shape" value="campanulate" />
+        <character char_type="range_value" name="size" from="12" from_unit="mm" to="16" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="206.txt-7">
+      <text>Phyllaries:</text>
+      <structure id="o3117" name="phyllary" />
+    </statement>
+    <statement id="206.txt-8">
+      <text>bodies green, ovate (outer) to oblong (inner), tomentose or becoming glabrous, margins and erect appendages white to dark brown or black, scarious, fringed with slender teeth ± 1 mm.</text>
+      <structure id="o3118" name="body">
+        <character name="coloration" value="green" />
+        <character char_type="range_value" name="shape" from="ovate" to="oblong" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="oblong" />
+        <character name="pubescence" value="tomentose" />
+        <character name="pubescence" value="glabrous" modifier="becoming" />
+      </structure>
+      <structure id="o3119" name="margin">
+        <character char_type="range_value" name="coloration" from="white" to="dark-brown or black" />
+        <character name="coloration" value="white" />
+        <character name="coloration" value="brown" modifier="dark" />
+        <character name="coloration" value="black" />
+        <character name="texture" value="scarious" />
+        <character name="shape" value="fringed" constraint="with teeth" constraintid="o3121" />
+      </structure>
+      <structure id="o3120" name="appendage">
+        <character name="orientation" value="erect" />
+      </structure>
+      <structure id="o3121" name="tooth">
+        <character name="size" value="slender" />
+        <character name="size" value="1" unit="mm" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="206.txt-9">
+      <text>Florets 25–35;</text>
+      <structure id="o3122" name="floret">
+        <character char_type="range_value" name="count" from="25" to="35" />
+      </structure>
+    </statement>
+    <statement id="206.txt-10">
+      <text>corollas blue (white to purple), those of sterile florets raylike, enlarged, 20–25 mm, those of fertile florets 10–15 mm.</text>
+      <structure id="o3123" name="corolla">
+        <character name="coloration" value="blue" />
+      </structure>
+      <structure id="o3124" name="corolla">
+        <character name="shape" value="raylike" />
+        <character name="size" value="enlarged" />
+        <character char_type="range_value" name="size" from="20" from_unit="mm" to="25" to_unit="mm" />
+      </structure>
+      <structure id="o3125" name="floret" constraint="sterile" />
+      <relation id="r436" name="part_of" from="o3124" to="o3125" negation="false" />
+      <structure id="o3126" name="corolla">
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="15" to_unit="mm" />
+      </structure>
+      <structure id="o3127" name="floret" constraint="fertile" />
+      <relation id="r437" name="part_of" from="o3126" to="o3127" negation="false" />
+    </statement>
+    <statement id="206.txt-11">
+      <text>Cypselae stramineous or pale blue, 4–5 mm, finely hairy;</text>
+      <structure id="o3128" name="cypsela">
+        <character name="coloration" value="stramineous" />
+        <character name="coloration" value="blue" modifier="pale" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="5" to_unit="mm" />
+        <character name="pubescence" value="hairy" modifier="finely" />
+      </structure>
+    </statement>
+    <statement id="206.txt-12">
+      <text>pappi of many unequal stiff bristles, 2–4 mm.</text>
+      <structure id="o3129" name="pappus">
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+      <structure id="o3130" name="bristle">
+        <character name="count" value="many" />
+        <character name="size" value="unequal" />
+        <character name="texture" value="stiff" />
+      </structure>
+      <relation id="r438" name="consist_of" from="o3129" to="o3130" negation="false" />
+    </statement>
+    <statement id="206.txt-13">
+      <text>2 n = 24 (Russia).</text>
+      <structure id="o3131" name="chromosome">
+        <character name="count" value="24" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>grasslands</habitat>
+  <habitat>woodlands</habitat>
+  <habitat>forests</habitat>
+  <habitat>roadsides</habitat>
+  <habitat>other disturbed sites</habitat>
+  <elevation>50–2400 m;</elevation>
+  <introduced>introduced;</introduced>
+  <global_distribution>Greenland</global_distribution>
+  <ca_distribution>Alta.</ca_distribution>
+  <ca_distribution>B.C.</ca_distribution>
+  <ca_distribution>Man.</ca_distribution>
+  <ca_distribution>N.B.</ca_distribution>
+  <ca_distribution>Nfld. and Labr. (Nfld.)</ca_distribution>
+  <ca_distribution>N.S.</ca_distribution>
+  <ca_distribution>Ont.</ca_distribution>
+  <ca_distribution>P.E.I.</ca_distribution>
+  <ca_distribution>Que.</ca_distribution>
+  <ca_distribution>Yukon</ca_distribution>
+  <us_distribution>Ala.</us_distribution>
+  <us_distribution>Alaska</us_distribution>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Ark.</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Conn.</us_distribution>
+  <us_distribution>Del.</us_distribution>
+  <us_distribution>D.C.</us_distribution>
+  <us_distribution>Fla.</us_distribution>
+  <us_distribution>Ga.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Ill.</us_distribution>
+  <us_distribution>Ind.</us_distribution>
+  <us_distribution>Iowa</us_distribution>
+  <us_distribution>Kans.</us_distribution>
+  <us_distribution>Ky.</us_distribution>
+  <us_distribution>La.</us_distribution>
+  <us_distribution>Maine</us_distribution>
+  <us_distribution>Md.</us_distribution>
+  <us_distribution>Mass.</us_distribution>
+  <us_distribution>Mich.</us_distribution>
+  <us_distribution>Minn.</us_distribution>
+  <us_distribution>Miss.</us_distribution>
+  <us_distribution>Mo.</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>Nebr.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>N.H.</us_distribution>
+  <us_distribution>N.J.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>N.C.</us_distribution>
+  <us_distribution>N.Dak.</us_distribution>
+  <us_distribution>Ohio</us_distribution>
+  <us_distribution>Okla.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <us_distribution>R.I.</us_distribution>
+  <us_distribution>S.C.</us_distribution>
+  <us_distribution>S.Dak.</us_distribution>
+  <us_distribution>Tenn.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Vt.</us_distribution>
+  <us_distribution>Va.</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <us_distribution>W.Va.</us_distribution>
+  <us_distribution>Wis.</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <global_distribution>s Europe.</global_distribution>
+  <discussion>Centaurea cyanus is a commonly cultivated garden ornamental. Its cypselae are often included in wildflower seed mixes and it naturalizes readily in many areas.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

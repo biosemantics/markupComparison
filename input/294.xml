@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>13.</number>
+  <species_name>Crepis nana</species_name>
+  <authority>Richardson</authority>
+  <place_of_publication>in J. Franklin et al., Narr. Journey Polar Sea, 746. 1823</place_of_publication>
+  <common_name>Dwarf alpine hawksbeard</common_name>
+  <synonym_of_species_name>Crepis nana var. lyratifolia (Turczaninow) Hultén; C. nana subsp. ramosa Babcock</synonym_of_species_name>
+  <description>
+    <statement id="294.txt-0">
+      <text>Perennials, 10–20 cm (taproots often with creeping rhizomes, caudices relatively short).</text>
+      <structure id="o5249" name="whole_organism">
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="20" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="294.txt-1">
+      <text>Stems 1–10+, erect or ascending (in dense clumps), simple or proximally branched, glabrous.</text>
+      <structure id="o5250" name="stem">
+        <character char_type="range_value" name="count" from="1" to="10" upper_restricted="false" />
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="ascending" />
+        <character name="architecture" value="simple" />
+        <character name="architecture" value="branched" modifier="proximally" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="294.txt-2">
+      <text>Leaves basal and cauline;</text>
+    </statement>
+    <statement id="294.txt-3">
+      <text>petiolate (at least basal);</text>
+      <structure id="o5251" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="architecture" value="petiolate" />
+      </structure>
+    </statement>
+    <statement id="294.txt-4">
+      <text>blades (often purplish), orbiculate to spatulate, less often lyrate or runcinate, 2–9 × 0.5–2.5 cm, (bases abruptly 0) margins entire or pinnately lobed, apices obtuse to acute, faces glabrous (glaucous).</text>
+      <structure id="o5252" name="blade">
+        <character char_type="range_value" name="shape" from="orbiculate" to="spatulate , less often lyrate or runcinate" />
+        <character name="shape" value="orbiculate" />
+        <character name="shape" value="spatulate" />
+        <character name="shape" value="lyrate" modifier="less often" />
+        <character name="shape" value="runcinate" modifier="less often" />
+        <character char_type="range_value" name="length" from="2" from_unit="cm" to="9" to_unit="cm" />
+        <character char_type="range_value" name="width" from="0.5" from_unit="cm" to="2.5" to_unit="cm" />
+      </structure>
+      <structure id="o5253" name="margin">
+        <character name="shape" value="entire" />
+        <character name="shape" value="lobed" modifier="pinnately" />
+      </structure>
+      <structure id="o5254" name="apex">
+        <character char_type="range_value" name="shape" from="obtuse" to="acute" />
+        <character name="shape" value="obtuse" />
+        <character name="shape" value="acute" />
+      </structure>
+      <structure id="o5255" name="face">
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="294.txt-5">
+      <text>Heads 5–80+ (among or beyond leaves), in cymiform arrays.</text>
+      <structure id="o5256" name="head">
+        <character char_type="range_value" name="count" from="5" to="80" upper_restricted="false" />
+      </structure>
+      <structure id="o5257" name="array">
+        <character name="architecture" value="cymiform" />
+      </structure>
+      <relation id="r700" name="in" from="o5256" to="o5257" negation="false" />
+    </statement>
+    <statement id="294.txt-6">
+      <text>Calyculi of 5–10 (dark green or blackish), lanceolate, glabrous bractlets 2–3 mm.</text>
+      <structure id="o5258" name="calyculus" />
+      <structure id="o5259" name="bractlet">
+        <character char_type="range_value" name="count" from="5" to="10" />
+        <character name="shape" value="lanceolate" />
+        <character name="pubescence" value="glabrous" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="3" to_unit="mm" />
+      </structure>
+      <relation id="r701" name="consist_of" from="o5258" to="o5259" negation="false" />
+    </statement>
+    <statement id="294.txt-7">
+      <text>Involucres cylindric, 8–13 × 3–4 mm.</text>
+      <structure id="o5260" name="involucre">
+        <character name="shape" value="cylindric" />
+        <character char_type="range_value" name="length" from="8" from_unit="mm" to="13" to_unit="mm" />
+        <character char_type="range_value" name="width" from="3" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="294.txt-8">
+      <text>Phyllaries 8–10, (dark green or purple medially) oblong, 10–11 mm, (margins scarious, eciliate) apices acute, faces glabrous.</text>
+      <structure id="o5261" name="phyllary">
+        <character char_type="range_value" name="count" from="8" to="10" />
+        <character name="shape" value="oblong" />
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="11" to_unit="mm" />
+      </structure>
+      <structure id="o5262" name="apex">
+        <character name="shape" value="acute" />
+      </structure>
+      <structure id="o5263" name="face">
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="294.txt-9">
+      <text>Florets 9–12;</text>
+      <structure id="o5264" name="floret">
+        <character char_type="range_value" name="count" from="9" to="12" />
+      </structure>
+    </statement>
+    <statement id="294.txt-10">
+      <text>corollas yellow, purple-tinged abaxially, 9–12 mm.</text>
+      <structure id="o5265" name="corolla">
+        <character name="coloration" value="yellow" />
+        <character name="coloration" value="tinged" modifier="abaxially;purple" />
+        <character char_type="range_value" name="size" from="9" from_unit="mm" to="12" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="294.txt-11">
+      <text>Cypselae golden brown, subcylindric to fusiform, 4–7 mm, apices sometimes tapered (not beaked), ribs 10–13 (broad, smooth);</text>
+      <structure id="o5266" name="cypsela">
+        <character name="coloration" value="brown" modifier="golden" />
+        <character char_type="range_value" name="shape" from="subcylindric" to="fusiform" />
+        <character name="shape" value="subcylindric" />
+        <character name="shape" value="fusiform" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+      <structure id="o5267" name="apex">
+        <character name="shape" value="tapered" modifier="sometimes" />
+      </structure>
+      <structure id="o5268" name="rib">
+        <character char_type="range_value" name="count" from="10" to="13" />
+      </structure>
+    </statement>
+    <statement id="294.txt-12">
+      <text>pappi (falling) bright white, 4–6 mm.</text>
+      <structure id="o5269" name="pappus">
+        <character name="coloration" value="white" modifier="bright" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="294.txt-13">
+      <text>2 n = 14.</text>
+      <structure id="o5270" name="chromosome">
+        <character name="count" value="14" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>may</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>talus slopes</habitat>
+  <habitat>rocky alpine places</habitat>
+  <habitat>sandy stream banks</habitat>
+  <habitat>gravel bars</habitat>
+  <habitat>exposed sites in shrub communities</habitat>
+  <elevation>300–4000 m;</elevation>
+  <ca_distribution>Alta.</ca_distribution>
+  <ca_distribution>B.C.</ca_distribution>
+  <ca_distribution>Nfld. and Labr.</ca_distribution>
+  <ca_distribution>N.W.T.</ca_distribution>
+  <ca_distribution>Nunavut</ca_distribution>
+  <ca_distribution>Yukon</ca_distribution>
+  <us_distribution>Alaska</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <global_distribution>Asia (Russia).</global_distribution>
+  <discussion>Crepis nana occurs in North America and northern Asia. It is recognized by the tufted, cespitose habit, elongate roots and rhizomes, and occurrence in alpine habitats. In the typical form, the plants are tufted, the stems are not leafy, and the heads are borne among the leaves. Taller specimens with elongated, leafy branches and heads borne well beyond the basal leaves are sometimes recognized as subsp. ramosa; these characteristics appear to be part of the normal range of variation for the species.</discussion>
+  <discussion>Crepis nana is closely related to C. elegans, differing mainly in the shape of the cypselae. The cypselae of C. nana are almost always more columnar, wider at bases, and with broader ribs, than those of C. elegans.</discussion>
+  <discussion>The name Crepis nana subsp. clivicola Legge is invalid.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

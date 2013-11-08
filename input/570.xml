@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>73.</number>
+  <genus_name>PRENANTHELLA</genus_name>
+  <authority>Rydberg</authority>
+  <place_of_publication>Bull. Torrey Bot. Club 33: 160. 1906</place_of_publication>
+  <common_name />
+  <derivation>Genus Prenanthes and Latin - ella , diminutive, alluding to original assignment of type species</derivation>
+  <author_of_tribe_genus>Kenton L. Chambers</author_of_tribe_genus>
+  <description>
+    <statement id="570.txt-0">
+      <text>Annuals, 5–30 cm;</text>
+    </statement>
+    <statement id="570.txt-1">
+      <text>taprooted.</text>
+      <structure id="o11741" name="whole_organism">
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="30" to_unit="cm" />
+        <character name="life_style" value="annual" />
+        <character name="architecture" value="taprooted" />
+      </structure>
+    </statement>
+    <statement id="570.txt-2">
+      <text>Stems 1–5+, erect (leafy proximally, often flexuous distally), branched near base bases or distally, glandular-puberulent to glabrescent.</text>
+      <structure id="o11742" name="stem">
+        <character char_type="range_value" name="count" from="1" to="5" upper_restricted="false" />
+        <character name="orientation" value="erect" />
+        <character name="architecture_or_shape" value="branched" constraint="near base bases" constraintid="o11743" />
+        <character char_type="range_value" name="pubescence" from="glandular-puberulent" to="glabrescent" />
+        <character name="pubescence" value="glandular-puberulent" />
+        <character name="pubescence" value="glabrescent" />
+      </structure>
+      <structure id="o11743" name="base" constraint="base" />
+    </statement>
+    <statement id="570.txt-3">
+      <text>Leaves basal or proximally cauline;</text>
+    </statement>
+    <statement id="570.txt-4">
+      <text>sessile or petiolate;</text>
+      <structure id="o11744" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" modifier="proximally" />
+        <character name="architecture" value="sessile" />
+        <character name="architecture" value="petiolate" />
+      </structure>
+    </statement>
+    <statement id="570.txt-5">
+      <text>blades spatulate to oblanceolate, often runcinate, margins irregularly dentate to lobed, teeth often spinulose (faces glabrous).</text>
+      <structure id="o11745" name="blade">
+        <character name="shape" value="spatulate" />
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="runcinate" modifier="often" />
+      </structure>
+      <structure id="o11746" name="margin">
+        <character char_type="range_value" name="shape" from="irregularly dentate" to="lobed" />
+        <character name="shape" value="dentate" modifier="irregularly" />
+        <character name="shape" value="lobed" modifier="irregularly" />
+      </structure>
+      <structure id="o11747" name="tooth">
+        <character name="shape_or_architecture" value="spinulose" modifier="often" />
+      </structure>
+    </statement>
+    <statement id="570.txt-6">
+      <text>Heads (10–150+, on flexuous, bracteate, intricately-branched axes) in paniculiform arrays.</text>
+      <structure id="o11748" name="head" />
+      <structure id="o11749" name="array">
+        <character name="architecture" value="paniculiform" />
+      </structure>
+      <relation id="r1365" name="in" from="o11748" to="o11749" negation="false" />
+    </statement>
+    <statement id="570.txt-7">
+      <text>Peduncles not inflated, minutely bracteate .</text>
+      <structure id="o11750" name="peduncle">
+        <character name="shape" value="inflated" modifier="not" />
+        <character name="architecture" value="bracteate" modifier="minutely" />
+      </structure>
+    </statement>
+    <statement id="570.txt-8">
+      <text>Calyculi of 2–3, minute, deltate, unequal bractlets.</text>
+      <structure id="o11751" name="calyculus" />
+      <structure id="o11752" name="bractlet">
+        <character char_type="range_value" name="count" from="2" to="3" />
+        <character name="size" value="minute" />
+        <character name="shape" value="deltate" />
+        <character name="size" value="unequal" />
+      </structure>
+      <relation id="r1366" name="consist_of" from="o11751" to="o11752" negation="false" />
+    </statement>
+    <statement id="570.txt-9">
+      <text>Involucres ovoid, cylindric at flowering, 2–3 mm diam.</text>
+      <structure id="o11753" name="involucre">
+        <character name="shape" value="ovoid" />
+        <character name="shape" value="cylindric" modifier="at flowering" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="3" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="570.txt-10">
+      <text>Phyllaries 3 – 5 in 1 series, linear-lanceolate, equal, herbaceous, margins hyaline, apices acute.</text>
+      <structure id="o11754" name="phyllary">
+        <character char_type="range_value" name="count" from="3" to="5" constraint="in series" constraintid="o11755" />
+        <character name="shape" value="linear-lanceolate" />
+        <character name="size" value="equal" />
+        <character name="habit_or_texture" value="herbaceous" />
+      </structure>
+      <structure id="o11755" name="series">
+        <character name="count" value="1" />
+      </structure>
+      <structure id="o11756" name="margin">
+        <character name="coloration" value="hyaline" />
+      </structure>
+      <structure id="o11757" name="apex">
+        <character name="shape" value="acute" />
+      </structure>
+    </statement>
+    <statement id="570.txt-11">
+      <text>Receptacles flat, smooth (with scars), glabrous, epaleate.</text>
+      <structure id="o11758" name="receptacle">
+        <character name="shape" value="flat" />
+        <character name="architecture_or_relief" value="smooth" />
+        <character name="pubescence" value="glabrous" />
+        <character name="architecture" value="epaleate" />
+      </structure>
+    </statement>
+    <statement id="570.txt-12">
+      <text>Florets 3–4;</text>
+      <structure id="o11759" name="floret">
+        <character char_type="range_value" name="count" from="3" to="4" />
+      </structure>
+    </statement>
+    <statement id="570.txt-13">
+      <text>corollas pink or white (slightly surpassing phyllaries at flowering).</text>
+      <structure id="o11760" name="corolla">
+        <character name="coloration" value="pink" />
+        <character name="coloration" value="white" />
+      </structure>
+    </statement>
+    <statement id="570.txt-14">
+      <text>Cypselae pale brown, columnar, tapering slightly proximally, not beaked, 5-ribbed and grooved, minutely rugulose, glabrous;</text>
+      <structure id="o11761" name="cypsela">
+        <character name="coloration" value="brown" modifier="pale" />
+        <character name="shape" value="columnar" />
+        <character name="shape" value="tapering" modifier="slightly proximally" />
+        <character name="shape" value="beaked" modifier="not" />
+        <character name="architecture_or_shape" value="5-ribbed" />
+        <character name="architecture" value="grooved" />
+        <character name="relief" value="rugulose" modifier="minutely" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="570.txt-15">
+      <text>pappi tardily falling, of 80+, basally connate, white, unequal, stiff, smooth bristles.</text>
+      <structure id="o11762" name="pappus">
+        <character name="orientation" value="falling" modifier="tardily" />
+      </structure>
+      <structure id="o11763" name="bristle">
+        <character name="count" char_type="range_value" from="80" upper_restricted="false" />
+        <character name="fusion" value="connate" modifier="basally" />
+        <character name="coloration" value="white" />
+        <character name="size" value="unequal" />
+        <character name="texture" value="stiff" />
+        <character name="architecture_or_relief" value="smooth" />
+      </structure>
+      <relation id="r1367" name="consist_of" from="o11762" to="o11763" negation="false" />
+    </statement>
+    <statement id="570.txt-16">
+      <text>x = 7.</text>
+      <structure id="o11764" name="chromosome">
+        <character name="count" value="7" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species 1:</number_of_infrataxa>
+  <general_distribution>sw United States</general_distribution>
+  <general_distribution>nw Mexico.</general_distribution>
+  <discussion>The single species of Prenanthella was usually assigned to Lygodesmia in treatments prior to A. S. Tomb’s (1972b) reassessment. Its base chromosome number of x = 7 was taken as evidence of a possible relationship with Malacothrix, Calycoseris, and Anisocoma, also x = 7 (Tomb 1974). Recent molecular phylogenetic studies (J. Lee et al. 2003) place Prenanthella in a clade with Pleiacanthus, Stephanomeria, and Rafinesquia, all with x = 8. This group, together with Munzothamnus, constitutes the subtribe Stephanomeriinae of Lee and B. G. Baldwin (2004).</discussion>
+  <references>SELECTED REFERENCE Tomb, A. S. 1972b. Re-establishment of the genus Prenanthella Rydb. (Compositae: Cichorieae). Brittonia 24: 223–228.</references>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

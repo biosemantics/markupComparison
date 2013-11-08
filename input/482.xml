@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>12c.</number>
+  <variety_name>Malacothrix saxatilis (Nuttall) Torrey &amp; A. Gray var. saxatilis</variety_name>
+  <description>
+    <statement id="482.txt-0">
+      <text>Plants rhizomatous or with woody caudices.</text>
+      <structure id="o9633" name="whole_organism">
+        <character name="architecture" value="rhizomatous" />
+        <character name="architecture" value="with woody caudices" />
+        <character name="life_style" value="plant" />
+      </structure>
+      <structure id="o9634" name="caudex" constraint="woody" />
+      <relation id="r1116" name="with" from="o9633" to="o9634" negation="false" />
+    </statement>
+    <statement id="482.txt-1">
+      <text>Herbage glabrous or sparsely hairy (arachnose).</text>
+      <structure id="o9635" name="herbage">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="hairy" modifier="sparsely" />
+      </structure>
+    </statement>
+    <statement id="482.txt-2">
+      <text>Stems 1, erect, branched proximally and distally, herbaceous, relatively leafy distally.</text>
+      <structure id="o9636" name="stem">
+        <character name="count" value="1" />
+        <character name="orientation" value="erect" />
+        <character name="architecture_or_shape" value="branched" modifier="proximally" />
+        <character name="habit_or_texture" value="herbaceous" />
+        <character name="architecture" value="leafy" modifier="relatively ; distally" />
+      </structure>
+    </statement>
+    <statement id="482.txt-3">
+      <text>Cauline leaves:</text>
+      <structure id="o9637" name="leaf" constraint="cauline" />
+    </statement>
+    <statement id="482.txt-4">
+      <text>proximal not pinnately lobed (lanceolate to linear, margins entire or irregularly dentate, apices obtuse or acute);</text>
+      <structure id="o9638" name="leaf" constraint="proximal cauline">
+        <character name="shape" value="lobed" modifier="not pinnately" />
+      </structure>
+    </statement>
+    <statement id="482.txt-5">
+      <text>distal usually ovate to linear, margins denticulate or entire, apices obtuse.</text>
+      <structure id="o9639" name="leaf" constraint="distal cauline" />
+      <structure id="o9640" name="margin">
+        <character name="shape" value="denticulate" />
+        <character name="shape" value="entire" />
+      </structure>
+      <structure id="o9641" name="apex">
+        <character name="shape" value="obtuse" />
+      </structure>
+    </statement>
+    <statement id="482.txt-6">
+      <text>Arrays of heads relatively crowded to open.</text>
+      <structure id="o9642" name="head">
+        <character char_type="range_value" name="architecture" from="relatively crowded" to="open" />
+        <character name="architecture" value="crowded" modifier="relatively" />
+        <character name="architecture" value="open" modifier="relatively" />
+      </structure>
+    </statement>
+    <statement id="482.txt-7">
+      <text>Cypselae 1.8–2.4 mm.</text>
+      <structure id="o9643" name="cypsela">
+        <character char_type="range_value" name="size" from="1.8" from_unit="mm" to="2.4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="482.txt-8">
+      <text>2 n = 18.</text>
+      <structure id="o9644" name="chromosome">
+        <character name="count" value="18" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <flowering_time>nov</flowering_time>
+  <flowering_time>dec</flowering_time>
+  <flowering_time>winter</flowering_time>
+  <habitat>on shelving rocks</habitat>
+  <habitat>road banks in chaparral or coastal sage</habitat>
+  <elevation>0–200 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <discussion>Variety saxatilis frequently grows in coastal areas of Santa Barbara County on steep bluffs overlooking the ocean, and at lower elevations near beaches, and in canyon mouths along the lower south slopes of the Santa Ynez Mountains.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

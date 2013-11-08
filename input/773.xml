@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>3b.</number>
+  <variety_name>Diaperia prolifera (Nuttall ex de Candolle) Nuttall var. barnebyi</variety_name>
+  <authority>Morefield</authority>
+  <place_of_publication>Novon 14: 470. 2004</place_of_publication>
+  <common_name>Barneby rabbit-tobacco</common_name>
+  <description>
+    <statement id="773.txt-0">
+      <text>Plants silvery white, 3–9 cm, tightly sericeous.</text>
+      <structure id="o16252" name="whole_organism">
+        <character name="coloration" value="white" modifier="silvery" />
+        <character char_type="range_value" name="size" from="3" from_unit="cm" to="9" to_unit="cm" />
+        <character name="pubescence" value="sericeous" modifier="tightly" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="773.txt-1">
+      <text>Stems mostly 1–5;</text>
+      <structure id="o16253" name="stem">
+        <character char_type="range_value" name="count" from="1" to="5" modifier="mostly" />
+      </structure>
+    </statement>
+    <statement id="773.txt-2">
+      <text>branches equal to unequal, distal strictly ascending to erect.</text>
+      <structure id="o16254" name="branch">
+        <character char_type="range_value" name="size" from="equal" to="unequal" />
+        <character name="size" value="equal" />
+        <character name="size" value="unequal" />
+        <character char_type="range_value" name="orientation" from="distal strictly ascending" to="erect" />
+        <character name="orientation" value="erect" />
+      </structure>
+    </statement>
+    <statement id="773.txt-3">
+      <text>Leaves:</text>
+      <structure id="o16255" name="leaf" />
+    </statement>
+    <statement id="773.txt-4">
+      <text>largest 7–11 × 2–3 mm;</text>
+      <structure id="o16256" name="leaf" constraint="largest">
+        <character char_type="range_value" name="length" from="7" from_unit="mm" to="11" to_unit="mm" />
+        <character char_type="range_value" name="width" from="2" from_unit="mm" to="3" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="773.txt-5">
+      <text>capitular leaves erect, involucral, proximally carinate, becoming indurate.</text>
+      <structure id="o16257" name="leaf" constraint="capitular">
+        <character name="orientation" value="erect" />
+        <character name="derivation" value="involucral" />
+        <character name="shape" value="carinate" modifier="proximally" />
+        <character name="texture" value="indurate" modifier="becoming" />
+      </structure>
+    </statement>
+    <statement id="773.txt-6">
+      <text>Heads borne singly, or 2–3 in largest glomerules.</text>
+      <structure id="o16258" name="head">
+        <character name="arrangement" value="singly" />
+        <character char_type="range_value" name="count" from="2" to="3" constraint="in glomerules" constraintid="o16259" />
+      </structure>
+      <structure id="o16259" name="glomerule" constraint="largest" />
+    </statement>
+    <statement id="773.txt-7">
+      <text>Receptacles narrowly conic, 0.9–1.1 mm, heights mostly 2–2.4 times diams.</text>
+      <structure id="o16260" name="receptacle">
+        <character name="shape" value="conic" modifier="narrowly" />
+        <character char_type="range_value" name="size" from="0.9" from_unit="mm" to="1.1" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="773.txt-8">
+      <text>Pistillate paleae:</text>
+      <structure id="o16261" name="palea" constraint="pistillate" />
+    </statement>
+    <statement id="773.txt-9">
+      <text>longest 2.5–3.2 mm.</text>
+      <structure id="o16262" name="palea" constraint="longest">
+        <character char_type="range_value" name="size" from="2.5" from_unit="mm" to="3.2" to_unit="mm" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <habitat>open, dry, shallow rocky or gravelly soils</habitat>
+  <habitat>usually over limestone or gypsum, sometimes with extra moisture (dry drainages</habitat>
+  <habitat>disturbed places</habitat>
+  <elevation>500–1500 m;</elevation>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>Okla.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <discussion>Variety barnebyi is not particularly weedy. It occurs in southwestern Oklahoma, southeastern New Mexico, and western Texas (nearly to Mexico), largely allopatric with var. prolifera.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

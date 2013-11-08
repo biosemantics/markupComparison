@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>53.</number>
+  <genus_name>UROSPERMUM</genus_name>
+  <authority>Scopoli</authority>
+  <place_of_publication>Intr. Hist. Nat., 122. 1777</place_of_publication>
+  <common_name />
+  <derivation>Greek uro , tail, and sperma , seed, alluding to beaks of cypselae</derivation>
+  <author_of_tribe_genus>John L. Strother</author_of_tribe_genus>
+  <description>
+    <statement id="430.txt-0">
+      <text>Annuals [perennials], 10–40(–60+) cm;</text>
+    </statement>
+    <statement id="430.txt-1">
+      <text>taprooted.</text>
+      <structure id="o8527" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="40" to="60" from_unit="cm" to_unit="cm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="40" to_unit="cm" />
+        <character name="life_style" value="annual" />
+        <character name="architecture" value="taprooted" />
+      </structure>
+    </statement>
+    <statement id="430.txt-2">
+      <text>Stems usually 1, erect, branched distally, setose to hispid or glabrous [pilosulous].</text>
+      <structure id="o8528" name="stem">
+        <character name="count" value="1" modifier="usually" />
+        <character name="orientation" value="erect" />
+        <character name="architecture_or_shape" value="branched" modifier="distally" />
+        <character char_type="range_value" name="pubescence" from="setose" to="hispid or glabrous" />
+        <character name="pubescence" value="setose" />
+        <character name="pubescence" value="hispid" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="430.txt-3">
+      <text>Leaves mostly cauline (at flowering) [mostly basal];</text>
+      <structure id="o8529" name="leaf">
+        <character name="insertion_or_position" value="cauline" modifier="mostly" />
+      </structure>
+    </statement>
+    <statement id="430.txt-4">
+      <text>proximal ± petiolate, distal sessile;</text>
+      <structure id="o8530" name="leaf" constraint="proximal">
+        <character name="architecture" value="petiolate" modifier="±" />
+      </structure>
+      <structure id="o8531" name="leaf" constraint="distal">
+        <character name="architecture" value="sessile" />
+      </structure>
+    </statement>
+    <statement id="430.txt-5">
+      <text>blades of the proximal mostly obovate to oblong-obovate, usually pinnately lobed or dentate, distal ovate to linear (bases often clasping), ultimate margins dentate or entire (veins often setose on abaxial faces).</text>
+      <structure id="o8532" name="blade">
+        <character name="shape" value="dentate" />
+        <character name="shape" value="entire" />
+      </structure>
+      <structure id="o8533" name="margin" constraint="ultimate">
+        <character char_type="range_value" name="shape" from="proximal mostly obovate" to="oblong-obovate , usually pinnately lobed or dentate" />
+        <character name="shape" value="oblong-obovate" />
+        <character name="shape" value="lobed" modifier="usually pinnately" />
+        <character name="shape" value="dentate" modifier="usually pinnately" />
+        <character char_type="range_value" name="shape" from="distal ovate" to="linear" />
+        <character name="shape" value="linear" />
+      </structure>
+      <relation id="r1009" name="part_of" from="o8532" to="o8533" negation="false" />
+    </statement>
+    <statement id="430.txt-6">
+      <text>Heads borne singly or in loose, corymbiform arrays.</text>
+      <structure id="o8534" name="head">
+        <character name="arrangement" value="singly" />
+        <character name="arrangement" value="in loose , corymbiform arrays" />
+      </structure>
+      <structure id="o8535" name="array">
+        <character name="architecture_or_texture" value="loose" />
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <relation id="r1010" name="in" from="o8534" to="o8535" negation="false" />
+    </statement>
+    <statement id="430.txt-7">
+      <text>Peduncles little, if at all, inflated distally, rarely bracteate.</text>
+      <structure id="o8536" name="peduncle">
+        <character name="shape" value="inflated" modifier="distally" />
+        <character name="architecture" value="bracteate" modifier="rarely" />
+      </structure>
+    </statement>
+    <statement id="430.txt-8">
+      <text>Calyculi 0.</text>
+      <structure id="o8537" name="calyculus">
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+    <statement id="430.txt-9">
+      <text>Involucres ± urceolate, 10–20+ mm diam.</text>
+      <structure id="o8538" name="involucre">
+        <character name="shape" value="urceolate" modifier="±" />
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="20" to_unit="mm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="430.txt-10">
+      <text>Phyllaries 7–8(–12+) in 1(–2) series, ovate-lanceolate to lance-linear (basally connate), subequal, margins scarious, apices acuminate.</text>
+      <structure id="o8539" name="phyllary">
+        <character char_type="range_value" name="atypical_count" from="8" to="12" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="7" to="8" constraint="in -2 series" constraintid="o8540" />
+        <character char_type="range_value" name="shape" from="ovate-lanceolate" to="lance-linear" />
+        <character name="shape" value="ovate-lanceolate" />
+        <character name="shape" value="lance-linear" />
+        <character name="size" value="subequal" />
+      </structure>
+      <structure id="o8540" name="series" constraint="-2">
+        <character name="count" value="1" />
+      </structure>
+      <structure id="o8541" name="margin">
+        <character name="texture" value="scarious" />
+      </structure>
+      <structure id="o8542" name="apex">
+        <character name="shape" value="acuminate" />
+      </structure>
+    </statement>
+    <statement id="430.txt-11">
+      <text>Receptacles flat to convex, pitted, hispid, epaleate.</text>
+      <structure id="o8543" name="receptacle">
+        <character char_type="range_value" name="shape" from="flat" to="convex" />
+        <character name="shape" value="flat" />
+        <character name="shape" value="convex" />
+        <character name="relief" value="pitted" />
+        <character name="pubescence" value="hispid" />
+        <character name="architecture" value="epaleate" />
+      </structure>
+    </statement>
+    <statement id="430.txt-12">
+      <text>Florets 20–50+;</text>
+      <structure id="o8544" name="floret">
+        <character char_type="range_value" name="count" from="20" to="50" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="430.txt-13">
+      <text>corollas yellow, sometimes striped abaxially with red.</text>
+      <structure id="o8545" name="corolla">
+        <character name="coloration" value="yellow" />
+        <character name="coloration" value="striped" modifier="sometimes ; abaxially; with red" />
+      </structure>
+    </statement>
+    <statement id="430.txt-14">
+      <text>Cypselae brown, bodies flattened-oblong, ± tuberculate, faces glabrous or scabrellous, beaks proximally dilated and tuberculate, distally acuminate and scabrous to scabrellous;</text>
+      <structure id="o8546" name="cypsela">
+        <character name="coloration" value="brown" />
+      </structure>
+      <structure id="o8547" name="body">
+        <character name="shape" value="flattened-oblong" />
+        <character name="relief" value="tuberculate" modifier="±" />
+      </structure>
+      <structure id="o8548" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="relief" value="scabrellous" />
+      </structure>
+      <structure id="o8549" name="beak">
+        <character name="shape" value="dilated" modifier="proximally" />
+        <character name="relief" value="tuberculate" />
+        <character name="shape" value="acuminate" modifier="distally" />
+        <character char_type="range_value" name="relief" from="scabrous" to="scabrellous" />
+        <character name="relief" value="scabrous" />
+        <character name="relief" value="scabrellous" />
+      </structure>
+    </statement>
+    <statement id="430.txt-15">
+      <text>pappi readily falling, of 18–22+ white [buff to rufous], subequal, plumose bristles in 1(–2) series (basally connate, falling together).</text>
+      <structure id="o8550" name="pappus">
+        <character name="orientation" value="falling" modifier="readily" />
+      </structure>
+      <structure id="o8551" name="bristle">
+        <character char_type="range_value" name="count" from="18" to="22" upper_restricted="false" />
+        <character name="coloration" value="white" />
+        <character name="size" value="subequal" />
+        <character name="architecture" value="plumose" />
+      </structure>
+      <relation id="r1011" name="consist_of" from="o8550" to="o8551" negation="false" />
+      <structure id="o8552" name="series" constraint="-2">
+        <character name="count" value="1" />
+      </structure>
+      <relation id="r1012" name="in" from="o8551" to="o8552" negation="false" />
+    </statement>
+    <statement id="430.txt-16">
+      <text>x = 5, 7?.</text>
+      <structure id="o8553" name="chromosome">
+        <character name="count" value="5" />
+        <character name="count" value="7" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species 2 (1 in the flora):</number_of_infrataxa>
+  <introduced>introduced;</introduced>
+  <general_distribution>Europe</general_distribution>
+  <general_distribution>adjacent Africa and Asia</general_distribution>
+  <general_distribution>adventive in South America</general_distribution>
+  <general_distribution>s Africa.</general_distribution>
+  <references>SELECTED REFERENCE Lack, H. W. and B. E. Leuenberger. 1979. Pollen and taxonomy of Urospermum (Asteraceae, Lactuceae). Pollen &amp; Spores 21: 415–425.</references>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

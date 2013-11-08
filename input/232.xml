@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Arctotheca calendula</species_name>
+  <authority>(Linnaeus) Levyns</authority>
+  <place_of_publication>J. S. African Bot. 8: 284. 1942</place_of_publication>
+  <synonym_of_species_name>Arctotis calendula Linnaeus, Sp. Pl. 2: 922. 1753; Cryptostemma calendula (Linnaeus) Druce</synonym_of_species_name>
+  <description>
+    <statement id="232.txt-0">
+      <text>Plants usually stoloniferous.</text>
+      <structure id="o3887" name="whole_organism">
+        <character name="architecture" value="stoloniferous" modifier="usually" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="232.txt-1">
+      <text>Leaves obovate, (2–)5–20(–30+) × (1–)2–5(–7) cm, margins pinna ti-sect (lyrate to runcinate), remotely prickly, abaxial faces white-pannose, adaxial faces sparsely puberulent to arachnose, usually glandular as well.</text>
+      <structure id="o3888" name="leaf">
+        <character name="shape" value="obovate" />
+        <character char_type="range_value" name="atypical_length" from="2" to="5" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_length" from="20" to="30" from_unit="cm" to_unit="cm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="5" from_unit="cm" to="20" to_unit="cm" />
+        <character char_type="range_value" name="atypical_width" from="1" to="2" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_width" from="5" to="7" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="width" from="2" from_unit="cm" to="5" to_unit="cm" />
+      </structure>
+      <structure id="o3889" name="pinna" constraint="margins">
+        <character name="architecture" value="prickly" modifier="remotely" />
+      </structure>
+      <structure id="o3890" name="face" constraint="abaxial">
+        <character name="pubescence" value="white-pannose" />
+      </structure>
+      <structure id="o3891" name="face" constraint="adaxial">
+        <character name="pubescence" value="puberulent" modifier="sparsely" />
+        <character name="pubescence" value="arachnose" />
+        <character name="architecture_or_exudation_or_pubescence" value="glandular" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="232.txt-2">
+      <text>Heads 4–7 cm diam. (across the rays).</text>
+      <structure id="o3892" name="head">
+        <character char_type="range_value" name="size" from="4" from_unit="cm" to="7" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="232.txt-3">
+      <text>Phyllaries:</text>
+      <structure id="o3893" name="phyllary" />
+    </statement>
+    <statement id="232.txt-4">
+      <text>outer reflexed, apices mucronate, white-woolly;</text>
+      <structure id="o3894" name="phyllary" constraint="outer">
+        <character name="orientation" value="reflexed" />
+      </structure>
+      <structure id="o3895" name="apex">
+        <character name="shape" value="mucronate" />
+      </structure>
+    </statement>
+    <statement id="232.txt-5">
+      <text>inner appressed, margins hyaline, apices rounded, glabrous.</text>
+      <structure id="o3896" name="phyllary" constraint="inner">
+        <character name="orientation" value="appressed" />
+      </structure>
+      <structure id="o3897" name="margin">
+        <character name="coloration" value="hyaline" />
+      </structure>
+      <structure id="o3898" name="apex">
+        <character name="shape" value="rounded" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="232.txt-6">
+      <text>Ray florets 11–17(–25);</text>
+      <structure id="o3899" name="floret" constraint="ray">
+        <character char_type="range_value" name="atypical_count" from="17" to="25" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="11" to="17" />
+      </structure>
+    </statement>
+    <statement id="232.txt-7">
+      <text>corolla laminae abaxially greenish to purplish, adaxially yellow (drying to basally ochroleucous, apically blue, forming bull’s eye around disc), 10–25 × 2–4 mm, sparsely puberulent, glandular.</text>
+      <structure id="o3900" name="lamina" constraint="corolla">
+        <character name="coloration" value="greenish" modifier="abaxially" />
+        <character name="coloration" value="purplish" />
+        <character name="coloration" value="yellow" modifier="adaxially" />
+        <character char_type="range_value" name="length" from="10" from_unit="mm" to="25" to_unit="mm" />
+        <character char_type="range_value" name="width" from="2" from_unit="mm" to="4" to_unit="mm" />
+        <character name="pubescence" value="puberulent" modifier="sparsely" />
+        <character name="architecture_or_exudation_or_pubescence" value="glandular" />
+      </structure>
+    </statement>
+    <statement id="232.txt-8">
+      <text>Disc florets:</text>
+      <structure id="o3901" name="floret" constraint="disc" />
+    </statement>
+    <statement id="232.txt-9">
+      <text>corollas yellow proximally, bluish distally.</text>
+      <structure id="o3902" name="corolla">
+        <character name="coloration" value="yellow" modifier="proximally" />
+        <character name="coloration" value="bluish" modifier="distally" />
+      </structure>
+    </statement>
+    <statement id="232.txt-10">
+      <text>Cypselae dark brown, 3 mm, densely woolly;</text>
+      <structure id="o3903" name="cypsela">
+        <character name="coloration" value="brown" modifier="dark" />
+        <character name="size" value="3" unit="mm" />
+        <character name="pubescence" value="woolly" modifier="densely" />
+      </structure>
+    </statement>
+    <statement id="232.txt-11">
+      <text>pappi ca. 0.5 mm (usually hidden by hairs on cypselae).</text>
+      <structure id="o3904" name="pappus">
+        <character name="size" value="0.5" unit="mm" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>oct</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>nov</flowering_time>
+  <flowering_time>dec</flowering_time>
+  <flowering_time>winter</flowering_time>
+  <flowering_time>jan</flowering_time>
+  <flowering_time>feb</flowering_time>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>roadsides</habitat>
+  <habitat>old fields</habitat>
+  <habitat>other disturbed habitats</habitat>
+  <elevation>0–300 m;</elevation>
+  <introduced>introduced;</introduced>
+  <us_distribution>Calif.</us_distribution>
+  <global_distribution>Africa.</global_distribution>
+  <discussion>Most populations of Arctotheca calendula are sterile and spread aggressively by stolons; at least three populations in the flora are fertile and highly invasive. The species is listed by the California Exotic Pest Plant Council (CalEPPC) as a weed with the potential to spread explosively (Red Alert, CDFA A).</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Micropus amphibolus</species_name>
+  <authority>A. Gray</authority>
+  <place_of_publication>Proc. Amer. Acad. Arts 17: 214. 1882</place_of_publication>
+  <common_name>Mount Diablo cottonseed</common_name>
+  <synonym_of_species_name>Stylocline amphibola (A. Gray) J. T. Howell</synonym_of_species_name>
+  <description>
+    <statement id="754.txt-0">
+      <text>Plants 2–20 cm.</text>
+      <structure id="o15915" name="whole_organism">
+        <character char_type="range_value" name="size" from="2" from_unit="cm" to="20" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="754.txt-1">
+      <text>Heads ± spheric, 3.5–5 mm diam.</text>
+      <structure id="o15916" name="head">
+        <character name="shape" value="spheric" modifier="±" />
+        <character char_type="range_value" name="size" from="3.5" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="754.txt-2">
+      <text>Receptacles obovoid, mostly 0.7–1 mm, heights 1.2–1.8 times diams.</text>
+      <structure id="o15917" name="receptacle">
+        <character name="shape" value="obovoid" />
+        <character char_type="range_value" name="size" from="0.7" from_unit="mm" to="1" to_unit="mm" modifier="mostly" />
+      </structure>
+    </statement>
+    <statement id="754.txt-3">
+      <text>Pistillate pal-eae 8–12 in 2 series, longest 2–3 mm;</text>
+      <structure id="o15918" name="palea" constraint="pistillate">
+        <character char_type="range_value" name="count" from="8" to="12" constraint="in series" constraintid="o15919" />
+        <character name="size" value="longest" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="3" to_unit="mm" />
+      </structure>
+      <structure id="o15919" name="series">
+        <character name="count" value="2" />
+      </structure>
+    </statement>
+    <statement id="754.txt-4">
+      <text>wings prominent, not wither-ing, subapical, inflexed, ± obovate, plane to concave;</text>
+      <structure id="o15920" name="wing">
+        <character name="prominence" value="prominent" />
+        <character name="duration" value="wither-ing" modifier="not" />
+        <character name="insertion_or_position" value="subapical" />
+        <character name="orientation" value="inflexed" />
+        <character name="shape" value="obovate" modifier="±" />
+      </structure>
+      <structure id="o15921" name="plane">
+        <character name="shape" value="concave" />
+      </structure>
+    </statement>
+    <statement id="754.txt-5">
+      <text>bodies somewhat galeate, mainly chartaceous, cartilaginous medially, ± lanuginose.</text>
+      <structure id="o15922" name="body">
+        <character name="shape" value="galeate" modifier="somewhat" />
+        <character name="texture" value="chartaceous" modifier="mainly" />
+        <character name="texture" value="cartilaginous" modifier="medially" />
+        <character name="pubescence" value="lanuginose" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="754.txt-6">
+      <text>Staminate paleae mostly 1–3.</text>
+      <structure id="o15923" name="palea" constraint="staminate">
+        <character char_type="range_value" name="count" from="1" to="3" modifier="mostly" />
+      </structure>
+    </statement>
+    <statement id="754.txt-7">
+      <text>Staminate corollas 1.2–1.9 mm, lobes 4(–5).</text>
+      <structure id="o15924" name="corolla" constraint="staminate">
+        <character char_type="range_value" name="size" from="1.2" from_unit="mm" to="1.9" to_unit="mm" />
+      </structure>
+      <structure id="o15925" name="lobe">
+        <character char_type="range_value" name="atypical_count" from="4" to="5" from_inclusive="false" />
+        <character name="count" value="4" />
+      </structure>
+    </statement>
+    <statement id="754.txt-9">
+      <text>pappi:</text>
+      <structure id="o15926" name="pappus" />
+    </statement>
+    <statement id="754.txt-10">
+      <text>staminate of 1–5, ± barbellulate bristles 1.7–2 mm.</text>
+      <structure id="o15927" name="pappus" constraint="staminate" />
+      <structure id="o15928" name="bristle">
+        <character char_type="range_value" name="count" from="1" to="5" />
+        <character name="architecture" value="barbellulate" modifier="±" />
+        <character char_type="range_value" name="size" from="1.7" from_unit="mm" to="2" to_unit="mm" />
+      </structure>
+      <relation id="r1719" name="consist_of" from="o15927" to="o15928" negation="false" />
+    </statement>
+  </description>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <habitat>slopes</habitat>
+  <habitat>ridges</habitat>
+  <habitat>on and near rock outcrops</habitat>
+  <habitat>shallow gravelly soils derived from shale</habitat>
+  <habitat>mudstone, sandstone</habitat>
+  <habitat>volcanic rocks (not recorded on serpentine), edges of or in clearings</habitat>
+  <habitat>grasslands</habitat>
+  <habitat>chaparral</habitat>
+  <habitat>woodlands</habitat>
+  <elevation>40–900 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <discussion>Micropus amphibolus is relatively uncommon; it is known from mountains and hills of the San Francisco Bay area and northern Coast Ranges, plus populations in outer southern Coast Ranges and in foothills of the northern Sierra Nevada. It is superficially similar to and often confused with M. californicus (see discussion there). Relatively few recent collections of M. amphibolus are known, raising significant conservation concerns.</discussion>
+  <discussion>Though consistently distinct, Micropus amphibolus combines some character states of Stylocline and Micropus (J. T. Howell 1948), suggesting that it may have descended from a hybrid between, or common ancestor of, the two genera. The best available morphologic evidence consistently places it basal within Micropus, with which it shares a majority of character states (J. D. Morefield 1992).</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

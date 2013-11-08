@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>4</number>
+  <species_name>Nothocalaïs troximoides</species_name>
+  <authority>es (A. Gray) Greene</authority>
+  <place_of_publication>Bull. Calif. Acad. Sci. 2: 55. 1886</place_of_publication>
+  <common_name>Sagebrush false dandelion</common_name>
+  <synonym_of_species_name>Microseris troximoides A. Gray, Proc. Amer. Acad. Arts 9: 211. 1874; Scorzonella troximoides (A. Gray) Jepson</synonym_of_species_name>
+  <description>
+    <statement id="520.txt-0">
+      <text>Plants 5–45 cm.</text>
+      <structure id="o10682" name="whole_organism">
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="45" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="520.txt-1">
+      <text>Stems (peduncles) sometimes with 1–3, leafy bracts proximally.</text>
+      <structure id="o10683" name="stem" />
+      <structure id="o10684" name="bract">
+        <character char_type="range_value" name="count" from="1" to="3" />
+        <character name="architecture" value="leafy" />
+      </structure>
+      <relation id="r1224" name="with" from="o10683" to="o10684" negation="false" modifier="sometimes; proximally" />
+    </statement>
+    <statement id="520.txt-2">
+      <text>Leaves:</text>
+      <structure id="o10685" name="leaf" />
+    </statement>
+    <statement id="520.txt-3">
+      <text>blades linear to linear-lanceolate, 7–30 cm, margins entire , often undulate, often ciliolate, (apices acuminate) faces glabrous or villous.</text>
+      <structure id="o10686" name="blade">
+        <character char_type="range_value" name="shape" from="linear" to="linear-lanceolate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="linear-lanceolate" />
+        <character char_type="range_value" name="size" from="7" from_unit="cm" to="30" to_unit="cm" />
+      </structure>
+      <structure id="o10687" name="margin">
+        <character name="shape" value="entire" />
+        <character name="shape" value="undulate" modifier="often" />
+        <character name="pubescence" value="ciliolate" modifier="often" />
+      </structure>
+      <structure id="o10688" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="villous" />
+      </structure>
+    </statement>
+    <statement id="520.txt-4">
+      <text>Involucres 14–30 mm.</text>
+      <structure id="o10689" name="involucre">
+        <character char_type="range_value" name="size" from="14" from_unit="mm" to="30" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="520.txt-5">
+      <text>Phyllaries 8–25, green to minutely purple-dotted, often with purple-lined midnerves, lanceolate, (apices acuminate) faces glabrous or villous, especially on margins and midribs.</text>
+      <structure id="o10690" name="phyllary">
+        <character char_type="range_value" name="count" from="8" to="25" />
+        <character char_type="range_value" name="coloration" from="green" to="minutely purple-dotted" />
+        <character name="coloration" value="green" />
+        <character name="coloration" value="dotted" modifier="minutely ;purple" />
+        <character name="shape" value="lanceolate" />
+      </structure>
+      <structure id="o10691" name="midnerve" />
+      <relation id="r1225" name="with" from="o10690" to="o10691" negation="false" modifier="often" />
+      <structure id="o10692" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="villous" />
+      </structure>
+      <structure id="o10693" name="margin" />
+      <structure id="o10694" name="midrib" />
+      <relation id="r1226" name="on" from="o10692" to="o10693" negation="false" modifier="especially" />
+      <relation id="r1227" name="on" from="o10692" to="o10694" negation="false" modifier="especially" />
+    </statement>
+    <statement id="520.txt-6">
+      <text>Florets 13–90;</text>
+      <structure id="o10695" name="floret">
+        <character char_type="range_value" name="count" from="13" to="90" />
+      </structure>
+    </statement>
+    <statement id="520.txt-7">
+      <text>ligules 10–25 mm.</text>
+      <structure id="o10696" name="ligule">
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="25" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="520.txt-8">
+      <text>Cypselae light brown or gray, 7–13 mm, sometimes narrowed distally, not beaked;</text>
+      <structure id="o10697" name="cypsela">
+        <character name="coloration" value="brown" modifier="light" />
+        <character name="coloration" value="gray" />
+        <character char_type="range_value" name="size" from="7" from_unit="mm" to="13" to_unit="mm" />
+        <character name="size" value="narrowed" modifier="sometimes ; distally" />
+        <character name="shape" value="beaked" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="520.txt-9">
+      <text>pappi of 10–30, aristate scales 10–17 mm.</text>
+      <structure id="o10698" name="pappus" />
+      <structure id="o10699" name="scale">
+        <character char_type="range_value" name="count" from="10" to="30" />
+        <character name="shape" value="aristate" />
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="17" to_unit="mm" />
+      </structure>
+      <relation id="r1228" name="consist_of" from="o10698" to="o10699" negation="false" />
+    </statement>
+    <statement id="520.txt-10">
+      <text>2 n = 18.</text>
+      <structure id="o10700" name="chromosome">
+        <character name="count" value="18" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <habitat>vernally moist to dry flats and hillsides</habitat>
+  <habitat>in bunchgrass intermountain grasslands</habitat>
+  <habitat>sagebrush steppe</habitat>
+  <habitat>and open pinyon-juniper and ponderosa pine woodlands</habitat>
+  <habitat>often in stony soils</habitat>
+  <elevation>50–2000 m;</elevation>
+  <ca_distribution>B.C.</ca_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <discussion>Nothocalaïs troximoides grows in the northern Great Basin and in Columbia-Snake Rivers Plateau. It shows increased variability in Idaho and parts of Montana, probably as a result of introgression from N. nigrescens. This variability is most evident in the lower Snake River plain and adjacent Oregon, in dryland habitats characteristic of N. troximoides, where populations frequently include individuals with roots, leaves, and cypselae typical of N. troximoides but with unusually large involucres and phyllaries that are broadly lanceolate, acuminate, and densely speckled with purple.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

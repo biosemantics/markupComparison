@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>54a.</number>
+  <variety_name>Cirsium scariosum Nuttall var. scariosum</variety_name>
+  <synonym_of_variety_name>Cirsium butleri (Rydberg) Petrak; C. lacerum (Rydberg) Petrak; C. magnificum (A. Nelson) Petrak; C. minganense Victorin</synonym_of_variety_name>
+  <description>
+    <statement id="151.txt-0">
+      <text>Plants erect, caulescent or occasionally acaulescent, 15–200 cm.</text>
+      <structure id="o1410" name="whole_organism">
+        <character name="orientation" value="erect" />
+        <character name="architecture" value="caulescent" />
+        <character name="architecture" value="acaulescent" modifier="occasionally" />
+        <character char_type="range_value" name="size" from="15" from_unit="cm" to="200" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="151.txt-1">
+      <text>Stems usually simple, very leafy, glabrous or villous to tomentose with septate trichomes.</text>
+      <structure id="o1411" name="stem">
+        <character name="architecture" value="simple" modifier="usually" />
+        <character name="architecture" value="leafy" modifier="very" />
+        <character char_type="range_value" name="pubescence" from="villous" to="tomentose" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="villous" />
+        <character name="pubescence" value="tomentose" constraint="with trichomes" constraintid="o1412" />
+      </structure>
+      <structure id="o1412" name="trichome">
+        <character name="architecture" value="septate" />
+      </structure>
+    </statement>
+    <statement id="151.txt-2">
+      <text>Leaves:</text>
+      <structure id="o1413" name="leaf" />
+    </statement>
+    <statement id="151.txt-3">
+      <text>blades linear to oblong, oblanceolate, or narrowly elliptic, pinnately lobed or often unlobed, larger leaf spines usually 1 cm or less, abaxial faces glabrous to gray-tomentose, adaxial glabrous or villous with septate trichomes;</text>
+      <structure id="o1414" name="blade">
+        <character char_type="range_value" name="shape" from="linear" to="oblong , oblanceolate , or narrowly elliptic , pinnately lobed or often unlobed" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="oblong" />
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="elliptic" modifier="narrowly" />
+        <character name="shape" value="lobed" modifier="pinnately" />
+        <character name="shape" value="unlobed" modifier="often" />
+      </structure>
+      <structure id="o1415" name="spine" constraint="larger leaf">
+        <character name="size" value="1" unit="cm" modifier="usually" />
+        <character name="size" value="1" unit="cm" modifier="usually; less" />
+      </structure>
+      <structure id="o1416" name="face" constraint="abaxial">
+        <character char_type="range_value" name="pubescence" from="glabrous" to="gray-tomentose" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="gray-tomentose" />
+        <character name="pubescence" value="villous" constraint="with trichomes" constraintid="o1417" />
+      </structure>
+      <structure id="o1417" name="trichome">
+        <character name="architecture" value="septate" />
+      </structure>
+    </statement>
+    <statement id="151.txt-4">
+      <text>distal narrow, ± thin, often unpigmented proximally or tinged pink or purplish, spines numerous, weak.</text>
+      <structure id="o1418" name="leaf" constraint="distal">
+        <character name="size" value="narrow" />
+        <character name="thickness" value="thin" modifier="±" />
+        <character name="coloration" value="unpigmented" modifier="often ; proximally" />
+        <character name="coloration" value="tinged-pink or purplish" />
+        <character name="coloration" value="pink" modifier="tinged" />
+        <character name="coloration" value="purplish" />
+      </structure>
+      <structure id="o1419" name="spine">
+        <character name="count" value="numerous" />
+        <character name="texture" value="weak" />
+      </structure>
+    </statement>
+    <statement id="151.txt-5">
+      <text>Heads 1–10+, sessile or short-pedunculate, tightly clustered at stem tips, usually subtended and ± overtopped by crowded, distal leaves.</text>
+      <structure id="o1420" name="head">
+        <character char_type="range_value" name="count" from="1" to="10" upper_restricted="false" />
+        <character name="architecture" value="sessile" />
+        <character name="architecture" value="short-pedunculate" />
+        <character name="arrangement_or_habit" value="clustered" modifier="tightly" constraint="at stem tips" constraintid="o1421" />
+        <character name="position" value="overtopped" modifier="±" constraint="by leaves" constraintid="o1422" />
+      </structure>
+      <structure id="o1421" name="tip" constraint="stem" />
+      <structure id="o1422" name="leaf" constraint="distal">
+        <character name="architecture" value="crowded" />
+      </structure>
+    </statement>
+    <statement id="151.txt-6">
+      <text>Involucres 2–3.5 cm.</text>
+      <structure id="o1423" name="involucre">
+        <character char_type="range_value" name="size" from="2" from_unit="cm" to="3.5" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="151.txt-7">
+      <text>Phyllaries :</text>
+      <structure id="o1424" name="phyllary" />
+    </statement>
+    <statement id="151.txt-8">
+      <text>outer and mid lanceolate to ovate, spines slender to stout, 1–8 mm;</text>
+      <structure id="o1425" name="phyllary" constraint="outer and mid" />
+      <structure id="o1426" name="spine">
+        <character name="size" value="slender" />
+        <character name="fragility" value="stout" />
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="151.txt-9">
+      <text>apices of inner acuminate and entire or abruptly expanded into scarious, erose-toothed appendages.</text>
+      <structure id="o1427" name="apex">
+        <character name="shape" value="acuminate" />
+        <character name="shape" value="entire" />
+        <character name="size" value="expanded" modifier="abruptly" constraint="into appendages" constraintid="o1429" />
+      </structure>
+      <structure id="o1428" name="phyllary" constraint="inner" />
+      <relation id="r237" name="part_of" from="o1427" to="o1428" negation="false" />
+      <structure id="o1429" name="appendage">
+        <character name="texture" value="scarious" />
+        <character name="shape" value="erose-toothed" />
+      </structure>
+    </statement>
+    <statement id="151.txt-10">
+      <text>Corollas white to purple, 20–28 mm, tubes 9–14.5 mm, throats 6–10 mm, lobes 3.5–6 mm;</text>
+      <structure id="o1430" name="corolla">
+        <character char_type="range_value" name="coloration" from="white" to="purple" />
+        <character name="coloration" value="white" />
+        <character name="coloration" value="purple" />
+        <character char_type="range_value" name="size" from="20" from_unit="mm" to="28" to_unit="mm" />
+      </structure>
+      <structure id="o1431" name="tube">
+        <character char_type="range_value" name="size" from="9" from_unit="mm" to="14.5" to_unit="mm" />
+      </structure>
+      <structure id="o1432" name="throat">
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+      <structure id="o1433" name="lobe">
+        <character char_type="range_value" name="size" from="3.5" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="151.txt-11">
+      <text>style tips 3–6.5 mm.</text>
+      <structure id="o1434" name="tip" constraint="style">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="6.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="151.txt-12">
+      <text>Cypselae 4.5–6.5 mm;</text>
+      <structure id="o1435" name="cypsela">
+        <character char_type="range_value" name="size" from="4.5" from_unit="mm" to="6.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="151.txt-13">
+      <text>pappi 17–25 mm.</text>
+      <structure id="o1436" name="pappus">
+        <character char_type="range_value" name="size" from="17" from_unit="mm" to="25" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="151.txt-14">
+      <text>2 n = 34 (as C. foliosum ), 36.</text>
+      <structure id="o1437" name="chromosome">
+        <character name="count" value="34" />
+        <character name="count" value="36" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>moist, sometimes saline soils</habitat>
+  <habitat>meadows</habitat>
+  <habitat>ditches</habitat>
+  <habitat>stream banks</habitat>
+  <habitat>forest openings</habitat>
+  <habitat>sagebrush zone to subalpine forests</habitat>
+  <elevation>0 (Quebec) or 600–2800 m;</elevation>
+  <ca_distribution>Alta.</ca_distribution>
+  <ca_distribution>B.C.</ca_distribution>
+  <ca_distribution>Que.</ca_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <discussion>The presence of Cirsium scariosum on the islands of the Mingan Archipelago in Quebec, some 3200 km east of the Rocky Mountains populations, has led to alternative hypotheses regarding the disjunction. Frère Marie-Victorin (1925) hypothesized that the disjunct distribution of C. minganense from what he called C. foliosum (Hooker) Candolle was a result of migration during deglaciation (18,000 to ca. 8000 BP) from a glacial refugium in western North America to eastern Canada in the barren habitats along the receding ice front. Later (1938) he presented a second hypothesis that Pleistocene glacial events had divided a preglacial range into vicariant populations that survived in separate refugia in western and eastern regions. R. J. Moore and C. Frankton (1967) argued that the disjunction is modern, resulting from a chance introduction of C. scariosum from western North America to Quebec in the early twentieth century. They reached this conclusion because early collectors that had visited the Mingan Archipelago had failed to collect this conspicuous thistle.</discussion>
+  <discussion>Hybrids are known between Cirsium scariosum var. scariosum and C. eatonii var. murdockii in northern Wyoming.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

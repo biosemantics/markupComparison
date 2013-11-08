@@ -17,10 +17,7 @@ public class PrintStreamResultPresenter implements IResultPresenter {
 	@Override
 	public void present(List<SimilarityResult> results) {
 		for(SimilarityResult result : results) {
-			Score score = result.getScore();
-			printStream.println("similarity_" + score.getAlgorithm() + "(" +
-					result.getA().toString() + ", " + result.getB().toString() + ")" +
-					" = " + score.getSimilarity());
+			printStream.println(result.toString());
 		}
 	}
 

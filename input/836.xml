@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Sphaeromeria potentilloides</species_name>
+  <authority>(A. Gray) A. Heller</authority>
+  <place_of_publication>Muhlenbergia 1: 7. 1900</place_of_publication>
+  <common_name>Fivefinger chickensage, cinquefoil false sagebrush</common_name>
+  <synonym_of_species_name>Artemisia potentilloides A. Gray, Proc. Amer. Acad. Arts 6: 551. 1866; Tanacetum potentilloides (A. Gray) A. Gray; Vesicarpa potentilloides (A. Gray) Rydberg</synonym_of_species_name>
+  <description>
+    <statement id="836.txt-0">
+      <text>Perennials, 3–30 cm.</text>
+      <structure id="o17617" name="whole_organism">
+        <character char_type="range_value" name="size" from="3" from_unit="cm" to="30" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="836.txt-1">
+      <text>Stems lax.</text>
+      <structure id="o17618" name="stem">
+        <character name="architecture" value="lax" />
+      </structure>
+    </statement>
+    <statement id="836.txt-2">
+      <text>Leaves basal and cauline;</text>
+      <structure id="o17619" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+      </structure>
+    </statement>
+    <statement id="836.txt-3">
+      <text>basal (20–70 mm) 2-pinnately lobed (ultimate lobes linear to filiform, ca. 1 mm wide);</text>
+      <structure id="o17620" name="leaf" constraint="basal">
+        <character name="shape" value="lobed" modifier="2-pinnately" />
+      </structure>
+    </statement>
+    <statement id="836.txt-4">
+      <text>cauline (5–18 mm) usually pinnately lobed, faces silky-tomentose.</text>
+      <structure id="o17621" name="leaf" constraint="cauline">
+        <character name="shape" value="lobed" modifier="usually pinnately" />
+      </structure>
+      <structure id="o17622" name="face">
+        <character name="pubescence" value="silky-tomentose" />
+      </structure>
+    </statement>
+    <statement id="836.txt-5">
+      <text>Heads 2–20 in corymbiform to paniculiform arrays or borne singly.</text>
+      <structure id="o17623" name="head">
+        <character char_type="range_value" name="count" from="2" to="20" constraint="in arrays" constraintid="o17624" />
+        <character name="arrangement" value="singly" />
+      </structure>
+      <structure id="o17624" name="array">
+        <character char_type="range_value" name="architecture" from="corymbiform" to="paniculiform" />
+        <character name="architecture" value="corymbiform" />
+        <character name="architecture" value="paniculiform" />
+      </structure>
+    </statement>
+    <statement id="836.txt-6">
+      <text>Involucres 2.3–5.2 mm.</text>
+      <structure id="o17625" name="involucre">
+        <character char_type="range_value" name="size" from="2.3" from_unit="mm" to="5.2" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="836.txt-7">
+      <text>Phyllaries 8–10, hairy.</text>
+      <structure id="o17626" name="phyllary">
+        <character char_type="range_value" name="count" from="8" to="10" />
+        <character name="pubescence" value="hairy" />
+      </structure>
+    </statement>
+    <statement id="836.txt-8">
+      <text>Cypselae 0.8–1.5 mm (faces obscurely nerved, becoming mucilaginous when wet).</text>
+      <structure id="o17627" name="cypsela">
+        <character char_type="range_value" name="size" from="0.8" from_unit="mm" to="1.5" to_unit="mm" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Varieties 2 (2 in the flora):</number_of_infrataxa>
+  <general_distribution>w United States.</general_distribution>
+  <couplet>1.Heads (3–)4–20; involucres 3–4(–4.5) mm; basal leaves 2-pinnately lobed1a. Sphaeromeria potentilloides var. potentilloides</couplet>
+  <couplet>1.Heads 1–3(–4); involucres 4–5.1 mm; basal leaves 1-pinnately lobed1b. Sphaeromeria potentilloides var. nitrophila</couplet>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

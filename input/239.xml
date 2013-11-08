@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>29.</number>
+  <genus_name>ELEPHANTOPUS</genus_name>
+  <authority>Elephantopus Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 814. 1753; Gen. Pl. ed. 5, 355. 1754</place_of_publication>
+  <common_name>Elephant’s foot</common_name>
+  <derivation>Greek elephantos , elephant, and pous , foot; probably alluding to rosettes of basal leaves in original species</derivation>
+  <author_of_tribe_genus>John L. Strother</author_of_tribe_genus>
+  <description>
+    <statement id="239.txt-0">
+      <text>Perennials , (1–)2–8(–12+) dm;</text>
+    </statement>
+    <statement id="239.txt-1">
+      <text>often rhizomatous or stoloniferous.</text>
+      <structure id="o4047" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="1" to="2" from_unit="dm" to_unit="dm" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_size" from="8" to="12" from_unit="dm" to_unit="dm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="2" from_unit="dm" to="8" to_unit="dm" />
+        <character name="life_style" value="perennial" />
+        <character name="architecture" value="rhizomatous" modifier="often" />
+        <character name="architecture" value="stoloniferous" modifier="often" />
+      </structure>
+    </statement>
+    <statement id="239.txt-2">
+      <text>Leaves mostly basal or mostly cauline at flowering;</text>
+    </statement>
+    <statement id="239.txt-3">
+      <text>sessile or petiolate, petioles ± winged (often clasping at bases);</text>
+      <structure id="o4048" name="leaf">
+        <character name="insertion_or_position" value="basal" modifier="mostly" />
+        <character name="insertion_or_position" value="cauline" modifier="mostly; at flowering" />
+        <character name="architecture" value="sessile" />
+        <character name="architecture" value="petiolate" />
+      </structure>
+      <structure id="o4049" name="petiole">
+        <character name="architecture" value="winged" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="239.txt-4">
+      <text>blades mostly elliptic, ovate, or obovate to lanceolate, oblanceolate, or spatulate (rarely orbiculate), bases ± cuneate, margins usually toothed (rarely entire), apices obtuse to acute, abaxial or both faces usually resin-gland-dotted.</text>
+      <structure id="o4050" name="blade">
+        <character char_type="range_value" name="shape" from="obovate" to="lanceolate , oblanceolate , or spatulate" />
+        <character name="shape" value="elliptic" modifier="mostly" />
+        <character name="shape" value="ovate" modifier="mostly" />
+        <character name="shape" value="obovate" modifier="mostly" />
+        <character name="shape" value="lanceolate" modifier="mostly" />
+        <character name="shape" value="oblanceolate" modifier="mostly" />
+        <character name="shape" value="spatulate" modifier="mostly" />
+      </structure>
+      <structure id="o4051" name="base">
+        <character name="shape" value="cuneate" modifier="±" />
+      </structure>
+      <structure id="o4052" name="margin">
+        <character name="shape" value="toothed" modifier="usually" />
+      </structure>
+      <structure id="o4053" name="apex">
+        <character char_type="range_value" name="shape" from="obtuse" to="acute" />
+        <character name="shape" value="obtuse" />
+        <character name="shape" value="acute" />
+        <character name="insertion_or_position" value="abaxial" />
+        <character name="insertion_or_position" value="faces" />
+      </structure>
+      <structure id="o4054" name="face">
+        <character name="coloration_or_relief" value="resin-gland-dotted" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="239.txt-5">
+      <text>Heads ± discoid, sessile, not individually bracteate, in clusters of (1–)10–40+ in corymbiform-paniculiform arrays 6–15(–25) cm diam. (each cluster subtended by 2–3 ± deltate bracts).</text>
+      <structure id="o4055" name="head">
+        <character name="shape_or_architecture" value="discoid" modifier="±" />
+        <character name="architecture" value="sessile" />
+        <character name="architecture" value="bracteate" modifier="not individually" />
+      </structure>
+      <structure id="o4056" name="cluster" />
+      <relation id="r572" name="in" from="o4055" to="o4056" negation="false" />
+      <structure id="o4057" name="array">
+        <character char_type="range_value" name="atypical_count" from="1" to="10" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="10" to="40" upper_restricted="false" />
+        <character name="architecture" value="corymbiform-paniculiform" />
+        <character char_type="range_value" name="atypical_size" from="15" to="25" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="6" from_unit="cm" to="15" to_unit="cm" />
+      </structure>
+      <relation id="r573" name="consist_of" from="o4056" to="o4057" negation="false" />
+    </statement>
+    <statement id="239.txt-6">
+      <text>Involucres ± cylindric, 1–3+ mm diam.</text>
+      <structure id="o4058" name="involucre">
+        <character name="shape" value="cylindric" modifier="±" />
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="3" to_unit="mm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="239.txt-7">
+      <text>Phyllaries 8 in 4 decussate pairs, the outer 4 ovate, inner 4 lanceolate, all ± chartaceous, margins entire, tips ± spinose to apiculate, abaxial faces of inner 4 usually dotted distally with resin glands.</text>
+      <structure id="o4059" name="phyllary">
+        <character name="count" value="8" constraint="in pairs" constraintid="o4060" />
+        <character name="shape" value="ovate" />
+      </structure>
+      <structure id="o4060" name="pair">
+        <character name="count" value="4" />
+        <character name="arrangement" value="decussate" />
+      </structure>
+      <structure id="o4061" name="phyllary" constraint="outer">
+        <character name="count" value="4" />
+      </structure>
+      <structure id="o4062" name="phyllary" constraint="inner">
+        <character name="count" value="4" />
+        <character name="shape" value="lanceolate" />
+        <character name="texture" value="chartaceous" modifier="±" />
+      </structure>
+      <structure id="o4063" name="margin">
+        <character name="shape" value="entire" />
+      </structure>
+      <structure id="o4064" name="tip">
+        <character char_type="range_value" name="shape" from="spinose" to="apiculate" modifier="±" />
+        <character name="shape" value="spinose" modifier="±" />
+        <character name="shape" value="apiculate" modifier="±" />
+      </structure>
+      <structure id="o4065" name="face" constraint="abaxial">
+        <character name="count" value="4" />
+        <character name="coloration_or_relief" value="dotted" modifier="usually ; distally" constraint="with resin glands" constraintid="o4067" />
+      </structure>
+      <structure id="o4066" name="phyllary" constraint="inner" />
+      <relation id="r574" name="part_of" from="o4065" to="o4066" negation="false" />
+      <structure id="o4067" name="gland" constraint="resin" />
+    </statement>
+    <statement id="239.txt-8">
+      <text>Florets (1–)4(–5+);</text>
+      <structure id="o4068" name="floret">
+        <character char_type="range_value" name="atypical_count" from="1" to="4" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_count" from="4" to="5" upper_restricted="false" from_inclusive="false" />
+        <character name="count" value="4" />
+      </structure>
+    </statement>
+    <statement id="239.txt-9">
+      <text>corollas white or pink to purple, tubes longer than abruptly funnelform throats, lobes 5, lance-linear, unequal (abaxial sinus deepest).</text>
+      <structure id="o4069" name="corolla">
+        <character char_type="range_value" name="coloration" from="pink" to="purple" />
+        <character name="coloration" value="white" />
+        <character name="coloration" value="pink" />
+        <character name="coloration" value="purple" />
+      </structure>
+      <structure id="o4070" name="tube">
+        <character name="size" value="longer" constraint="than abruptly funnelform throats" constraintid="o4071" />
+      </structure>
+      <structure id="o4071" name="throat">
+        <character name="shape" value="funnelform" modifier="abruptly" />
+      </structure>
+      <structure id="o4072" name="lobe">
+        <character name="count" value="5" />
+        <character name="arrangement_or_shape" value="lance-linear" />
+        <character name="size" value="unequal" />
+      </structure>
+    </statement>
+    <statement id="239.txt-10">
+      <text>Cypselae ± clavate, sometimes ± flattened, 10-nerved or -ribbed, strigillose to hirsutulous;</text>
+      <structure id="o4073" name="cypsela">
+        <character name="shape" value="clavate" modifier="±" />
+        <character name="shape" value="flattened" modifier="sometimes ±" />
+        <character name="architecture_or_shape" value="10-nerved-or-ribbed" />
+        <character char_type="range_value" name="pubescence" from="strigillose" to="hirsutulous" />
+        <character name="pubescence" value="strigillose" />
+        <character name="pubescence" value="hirsutulous" />
+      </structure>
+    </statement>
+    <statement id="239.txt-11">
+      <text>pappi persistent, of 5(–6), 1-aristate scales (look closely for squamiform, gradually to abruptly tapering base of each arista).</text>
+      <structure id="o4074" name="pappus">
+        <character name="duration" value="persistent" />
+      </structure>
+      <structure id="o4075" name="6">
+        <character name="count" value="5" />
+      </structure>
+      <structure id="o4076" name="scale">
+        <character name="shape" value="1-aristate" />
+        <character name="count" value="5" />
+      </structure>
+      <relation id="r575" name="consist_of" from="o4074" to="o4075" negation="false" />
+      <relation id="r576" name="consist_of" from="o4074" to="o4076" negation="false" />
+    </statement>
+    <statement id="239.txt-12">
+      <text>x = 11.</text>
+      <structure id="o4077" name="chromosome">
+        <character name="count" value="11" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species 12–15+ (4 in the flora):</number_of_infrataxa>
+  <general_distribution>mostly warm-temperate</general_distribution>
+  <general_distribution>subtropical</general_distribution>
+  <general_distribution>and tropical regions worldwide</general_distribution>
+  <general_distribution>sometimes as naturalized ruderals.</general_distribution>
+  <discussion>Pseudelephantopus spicatus is sometimes treated as a member of Elephantopus.</discussion>
+  <references>SELECTED REFERENCE Clonts, J. A. 1972. A Revision of the Genus Elephantopus Including Orthopappus and Pseudelephantopus (Compositae). Ph.D. thesis. Mississippi State University.</references>
+  <key>1.Leaves at flowering all or mostly cauline1. Elephantopus carolinianus</key>
+  <key>1.Leaves at flowering mostly basal (cauline leaves much smaller or wanting).</key>
+  <key>2.Inner phyllaries 9–11+ mm; pappi 6–8 mm2. Elephantopus tomentosus</key>
+  <key>2.Inner phyllaries 6–8 mm; pappi 3–4.5 mm.</key>
+  <key>3.Inner phyllaries ± densely strigose-villous with hairs (0.3–)0.5–1 mm; cypselae 3– 3.5 mm3. Elephantopus elatus</key>
+  <key>3.Inner phyllaries sparsely strigose or hispidulous with hairs 0.05–0.3(–0.5) mm; cypselae 2.5–3 mm4. Elephantopus nudatus</key>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

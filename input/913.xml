@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>37e.</number>
+  <subspecies_name>Artemisia ludoviciana Nuttall subsp. mexicana</subspecies_name>
+  <authority>(Willdenow ex Sprengel) D. D. Keck</authority>
+  <place_of_publication>Proc. Calif. Acad. Sci., ser. 4, 25: 452. 1946</place_of_publication>
+  <common_name>Mexican wormwood</common_name>
+  <synonym_of_subspecies_name>Artemisia mexicana Willdenow ex Sprengel, Syst. Veg. 3: 490. 1826; A. neomexicana Greene ex Rydberg; A. revoluta Rydberg</synonym_of_subspecies_name>
+  <description>
+    <statement id="913.txt-0">
+      <text>Stems 30–80(–100) cm, widely branched, sparsely hairy or glabrous.</text>
+      <structure id="o18838" name="stem">
+        <character char_type="range_value" name="atypical_size" from="80" to="100" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="30" from_unit="cm" to="80" to_unit="cm" />
+        <character name="architecture_or_shape" value="branched" modifier="widely" />
+        <character name="pubescence" value="hairy" modifier="sparsely" />
+        <character name="pubescence" value="glabrous" modifier="sparsely" />
+      </structure>
+    </statement>
+    <statement id="913.txt-1">
+      <text>Leaves strongly bicolor (white and green, or gray-green and green), narrowly lanceolate, 4–10 × 0.5–1 cm, lobed;</text>
+      <structure id="o18839" name="leaf">
+        <character name="coloration" value="bicolor" modifier="strongly" />
+        <character name="shape" value="lanceolate" modifier="narrowly" />
+        <character char_type="range_value" name="length" from="4" from_unit="cm" to="10" to_unit="cm" />
+        <character char_type="range_value" name="width" from="0.5" from_unit="cm" to="1" to_unit="cm" />
+        <character name="shape" value="lobed" />
+      </structure>
+    </statement>
+    <statement id="913.txt-2">
+      <text>faces ± tomentose (abaxial) or glabrescent.</text>
+      <structure id="o18840" name="face">
+        <character name="pubescence" value="tomentose" modifier="±" />
+        <character name="pubescence" value="glabrescent" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="913.txt-3">
+      <text>Heads in paniculiform or racemiform arrays 1–8 × 2–5 cm.</text>
+      <structure id="o18841" name="head" />
+      <structure id="o18842" name="array">
+        <character name="architecture" value="paniculiform" />
+        <character name="architecture" value="racemiform" />
+        <character char_type="range_value" name="length" from="1" from_unit="cm" to="8" to_unit="cm" />
+        <character char_type="range_value" name="width" from="2" from_unit="cm" to="5" to_unit="cm" />
+      </structure>
+      <relation id="r1995" name="in" from="o18841" to="o18842" negation="false" />
+    </statement>
+    <statement id="913.txt-4">
+      <text>Involucres (campanulate) 3–4 × 2–3 mm.</text>
+      <structure id="o18843" name="involucre">
+        <character char_type="range_value" name="length" from="3" from_unit="mm" to="4" to_unit="mm" />
+        <character char_type="range_value" name="width" from="2" from_unit="mm" to="3" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="913.txt-5">
+      <text>Florets:</text>
+      <structure id="o18844" name="floret" />
+    </statement>
+    <statement id="913.txt-6">
+      <text>pistillate (5–)8–10;</text>
+      <structure id="o18845" name="floret" constraint="pistillate">
+        <character char_type="range_value" name="atypical_count" from="5" to="8" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="8" to="10" />
+      </structure>
+    </statement>
+    <statement id="913.txt-7">
+      <text>bisexual (6–)10–20;</text>
+      <structure id="o18846" name="floret" constraint="bisexual">
+        <character char_type="range_value" name="atypical_count" from="6" to="10" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="10" to="20" />
+      </structure>
+    </statement>
+    <statement id="913.txt-8">
+      <text>corollas ca. 1.5 mm.</text>
+      <structure id="o18847" name="corolla">
+        <character name="size" value="1.5" unit="mm" />
+      </structure>
+    </statement>
+    <statement id="913.txt-9">
+      <text>2 n = 18, 36.</text>
+      <structure id="o18848" name="chromosome">
+        <character name="count" value="18" />
+        <character name="count" value="36" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <flowering_time>nov</flowering_time>
+  <habitat>mountain slopes</habitat>
+  <habitat>rocky soils</habitat>
+  <elevation>500–1000 m;</elevation>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>Okla.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <global_distribution>Mexico.</global_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

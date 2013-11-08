@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>107.</number>
+  <genus_name>DITTRICHIA</genus_name>
+  <authority>Greuter</authority>
+  <place_of_publication>Exsicc. Genav. Conserv. Bot. Distrib. Fasc. 4: 71. 1973</place_of_publication>
+  <common_name />
+  <derivation>For Manfred Dittrich, b. 1934, German botanist</derivation>
+  <author_of_tribe_genus>Robert E. Preston</author_of_tribe_genus>
+  <description>
+    <statement id="791.txt-0">
+      <text>Annuals [perennials], mostly 20–130 cm (glandular, viscid).</text>
+      <structure id="o16683" name="whole_organism">
+        <character char_type="range_value" name="size" from="20" from_unit="cm" to="130" to_unit="cm" modifier="mostly" />
+        <character name="life_style" value="annual" />
+      </structure>
+    </statement>
+    <statement id="791.txt-1">
+      <text>Leaves mostly cauline (at flowering), alternate;</text>
+    </statement>
+    <statement id="791.txt-2">
+      <text>sessile;</text>
+      <structure id="o16684" name="leaf">
+        <character name="insertion_or_position" value="cauline" modifier="mostly" />
+        <character name="arrangement" value="alternate" />
+        <character name="architecture" value="sessile" />
+      </structure>
+    </statement>
+    <statement id="791.txt-3">
+      <text>blade margins entire or dentate [serrate].</text>
+      <structure id="o16685" name="margin" constraint="blade">
+        <character name="shape" value="entire" />
+        <character name="shape" value="dentate" />
+      </structure>
+    </statement>
+    <statement id="791.txt-4">
+      <text>Heads radiate, in racemiform or paniculiform arrays.</text>
+      <structure id="o16686" name="head">
+        <character name="architecture_or_arrangement" value="radiate" />
+      </structure>
+      <structure id="o16687" name="array">
+        <character name="architecture" value="racemiform" />
+        <character name="architecture" value="paniculiform" />
+      </structure>
+      <relation id="r1793" name="in" from="o16686" to="o16687" negation="false" />
+    </statement>
+    <statement id="791.txt-5">
+      <text>Involucres ± campanulate, 3–8[–10+] mm diam.</text>
+      <structure id="o16688" name="involucre">
+        <character name="shape" value="campanulate" modifier="±" />
+        <character char_type="range_value" name="atypical_size" from="8" to="10" from_unit="mm" to_unit="mm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="791.txt-6">
+      <text>Phyllaries persistent (spreading to reflexed in fruit), in 3–4 series, unequal.</text>
+      <structure id="o16689" name="phyllary">
+        <character name="duration" value="persistent" />
+        <character name="size" value="unequal" />
+      </structure>
+      <structure id="o16690" name="series">
+        <character char_type="range_value" name="count" from="3" to="4" />
+      </structure>
+      <relation id="r1794" name="in" from="o16689" to="o16690" negation="false" />
+    </statement>
+    <statement id="791.txt-7">
+      <text>Receptacles flat, smooth or alveolate, epaleate.</text>
+      <structure id="o16691" name="receptacle">
+        <character name="shape" value="flat" />
+        <character name="relief" value="smooth" />
+        <character name="relief" value="alveolate" />
+        <character name="architecture" value="epaleate" />
+      </structure>
+    </statement>
+    <statement id="791.txt-8">
+      <text>Ray florets (6–)10–12(–16), pistillate, fertile;</text>
+      <structure id="o16692" name="floret" constraint="ray">
+        <character char_type="range_value" name="atypical_count" from="6" to="10" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_count" from="12" to="16" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="10" to="12" />
+        <character name="architecture" value="pistillate" />
+        <character name="reproduction" value="fertile" />
+      </structure>
+    </statement>
+    <statement id="791.txt-9">
+      <text>corollas yellow, aging reddish, laminae 2–7 mm.</text>
+      <structure id="o16693" name="corolla">
+        <character name="coloration" value="yellow" />
+        <character name="age" value="aging" />
+        <character name="coloration" value="reddish" />
+      </structure>
+      <structure id="o16694" name="lamina">
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="791.txt-10">
+      <text>Disc florets 8–20+;</text>
+      <structure id="o16695" name="floret" constraint="disc">
+        <character char_type="range_value" name="count" from="8" to="20" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="791.txt-11">
+      <text>corollas yellow, aging reddish, lobes 4–5.</text>
+      <structure id="o16696" name="corolla">
+        <character name="coloration" value="yellow" />
+        <character name="age" value="aging" />
+        <character name="coloration" value="reddish" />
+      </structure>
+      <structure id="o16697" name="lobe">
+        <character char_type="range_value" name="count" from="4" to="5" />
+      </structure>
+    </statement>
+    <statement id="791.txt-12">
+      <text>Cypselae ellipsoid to terete (abruptly constricted distally; usually glandular distally);</text>
+      <structure id="o16698" name="cypsela">
+        <character char_type="range_value" name="shape" from="ellipsoid" to="terete" />
+        <character name="shape" value="ellipsoid" />
+        <character name="shape" value="terete" />
+      </structure>
+    </statement>
+    <statement id="791.txt-13">
+      <text>pappi persistent (fragile), of basally connate, barbellate bristles in 1 series.</text>
+      <structure id="o16699" name="pappus">
+        <character name="duration" value="persistent" />
+      </structure>
+      <structure id="o16700" name="bristle">
+        <character name="fusion" value="connate" modifier="basally" />
+        <character name="architecture" value="barbellate" />
+      </structure>
+      <relation id="r1795" name="consist_of" from="o16699" to="o16700" negation="false" />
+      <structure id="o16701" name="series">
+        <character name="count" value="1" />
+      </structure>
+      <relation id="r1796" name="in" from="o16700" to="o16701" negation="false" />
+    </statement>
+    <statement id="791.txt-14">
+      <text>x = 9, 10.</text>
+      <structure id="o16702" name="chromosome">
+        <character name="count" value="9" />
+        <character name="count" value="10" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species 2 (1 in the flora):</number_of_infrataxa>
+  <introduced>introduced;</introduced>
+  <general_distribution>Mediterranean</general_distribution>
+  <general_distribution>introduced also in Asia</general_distribution>
+  <general_distribution>Africa</general_distribution>
+  <general_distribution>Australia.</general_distribution>
+  <discussion>Dittrichia viscosa (Linnaeus) Greuter [Inula viscosa Linnaeus, Cupularia viscosa (Linnaeus) Godron &amp; Grenier] was collected in the late 1800s as a ballast weed in Florida, New Jersey, and Pennsylvania. It does not appear to have become naturalized at any of those sites (A. Cronquist 1980; J. E. Arriagada 1998).</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

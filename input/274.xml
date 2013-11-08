@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>36.</number>
+  <genus_name>CREPIS</genus_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 805. 1753; Gen. Pl. ed. 5, 350. 1754</place_of_publication>
+  <common_name>Hawksbeard , crépis</common_name>
+  <derivation>Greek krepis , slipper or sandal , possibly alluding to shape of cypselae, a name of a plant in writings by Theophrastus</derivation>
+  <author_of_tribe_genus>David J. Bogler</author_of_tribe_genus>
+  <description>
+    <statement id="274.txt-0">
+      <text>Annuals, biennials, or perennials, 3–120 cm;</text>
+    </statement>
+    <statement id="274.txt-1">
+      <text>usually taprooted, sometimes rhizomatous (roots deep or shallow, woody or fibrous, caudices often woody).</text>
+      <structure id="o4784" name="whole_organism">
+        <character char_type="range_value" name="size" from="3" from_unit="cm" to="120" to_unit="cm" />
+        <character name="life_style" value="annual" />
+        <character name="life_style" value="biennial" />
+        <character name="life_style" value="perennial" />
+        <character name="architecture" value="taprooted" modifier="usually" />
+        <character name="architecture" value="rhizomatous" modifier="sometimes" />
+        <character name="life_style" value="biennial" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="274.txt-2">
+      <text>Stems 1–20+ , erect to decumbent , simple (sometimes scapiform) or branched, usually striate, glabrous or hairy, often densely hispid or setose (hairs often stipitate-glandular).</text>
+      <structure id="o4787" name="stem">
+        <character char_type="range_value" name="count" from="1" to="20" upper_restricted="false" />
+        <character name="orientation" value="erect" />
+        <character name="habit" value="decumbent" />
+        <character name="architecture" value="simple" />
+        <character name="architecture" value="branched" />
+        <character name="coloration_or_relief" value="striate" modifier="usually" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="hairy" />
+        <character name="pubescence" value="hispid" modifier="often densely" />
+        <character name="pubescence" value="setose" modifier="often densely" />
+      </structure>
+    </statement>
+    <statement id="274.txt-3">
+      <text>Leaves basal (often in rosettes) and cauline;</text>
+    </statement>
+    <statement id="274.txt-4">
+      <text>petiolate (at least basal, petioles ± winged);</text>
+      <structure id="o4788" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="architecture" value="petiolate" />
+      </structure>
+    </statement>
+    <statement id="274.txt-5">
+      <text>basal blades mostly elliptic, ovate, or lanceolate to linear, or spatulate to oblanceolate, often lyrate or runcinate, margins entire, dentate, serrate, toothed, or pinnately lobed, lobes sometimes toothed;</text>
+      <structure id="o4789" name="blade" constraint="basal">
+        <character char_type="range_value" name="shape" from="lanceolate" to="linear , or spatulate" />
+        <character name="shape" value="elliptic" modifier="mostly" />
+        <character name="shape" value="ovate" modifier="mostly" />
+        <character name="shape" value="lanceolate" modifier="mostly" />
+        <character name="shape" value="linear" modifier="mostly" />
+        <character name="shape" value="spatulate" modifier="mostly" />
+        <character name="shape" value="oblanceolate" modifier="mostly" />
+        <character name="shape" value="lyrate" modifier="often" />
+        <character name="shape" value="runcinate" modifier="often" />
+      </structure>
+      <structure id="o4790" name="margin">
+        <character name="shape" value="entire" />
+        <character name="shape" value="dentate" />
+        <character name="shape" value="serrate" />
+        <character name="shape" value="toothed" />
+        <character name="shape" value="lobed" modifier="pinnately" />
+      </structure>
+      <structure id="o4791" name="lobe">
+        <character name="shape" value="toothed" modifier="sometimes" />
+      </structure>
+    </statement>
+    <statement id="274.txt-6">
+      <text>cauline usually present, lobed or entire, usually reduced in size and lobing distally.</text>
+      <structure id="o4792" name="leaf" constraint="cauline">
+        <character name="presence" value="present" modifier="usually" />
+        <character name="shape" value="lobed" />
+        <character name="shape" value="entire" />
+        <character name="size" value="reduced" modifier="usually; in size" />
+        <character name="shape" value="lobing" modifier="distally" />
+      </structure>
+    </statement>
+    <statement id="274.txt-7">
+      <text>Heads (erect) usually in cymiform, corymbiform, or paniculiform arrays, sometimes borne singly.</text>
+      <structure id="o4793" name="head">
+        <character name="arrangement" value="singly" modifier="sometimes" />
+      </structure>
+      <structure id="o4794" name="array">
+        <character name="architecture" value="cymiform" />
+        <character name="architecture" value="corymbiform" />
+        <character name="architecture" value="paniculiform" />
+      </structure>
+      <relation id="r649" name="in" from="o4793" to="o4794" negation="false" modifier="usually" />
+    </statement>
+    <statement id="274.txt-8">
+      <text>Peduncles not inflated distally, not bracteate.</text>
+      <structure id="o4795" name="peduncle">
+        <character name="shape" value="inflated" modifier="not ; distally" />
+        <character name="architecture" value="bracteate" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="274.txt-9">
+      <text>Calyculi of 5–12, reduced, subulate to lanceolate or deltate bractlets in ± 1 series, mostly unequal, glabrous, tomentulose, or setose.</text>
+      <structure id="o4796" name="calyculus">
+        <character name="size" value="unequal" modifier="mostly" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="tomentulose" />
+        <character name="pubescence" value="setose" />
+      </structure>
+      <structure id="o4797" name="bractlet">
+        <character char_type="range_value" name="count" from="5" to="12" />
+        <character name="size" value="reduced" />
+        <character char_type="range_value" name="shape" from="subulate" to="lanceolate or deltate" />
+        <character name="shape" value="subulate" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="deltate" />
+      </structure>
+      <relation id="r650" name="consist_of" from="o4796" to="o4797" negation="false" />
+      <structure id="o4798" name="series">
+        <character name="count" value="1" modifier="±" />
+      </structure>
+      <relation id="r651" name="in" from="o4797" to="o4798" negation="false" />
+    </statement>
+    <statement id="274.txt-10">
+      <text>Involucres cylindric to campanulate (sometimes becoming turbinate in fruit), 4–15 mm diam.</text>
+      <structure id="o4799" name="involucre">
+        <character char_type="range_value" name="shape" from="cylindric" to="campanulate" />
+        <character name="shape" value="cylindric" />
+        <character name="shape" value="campanulate" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="15" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="274.txt-11">
+      <text>Phyllaries 5–18 in 1–2 series , lanceolate, equal or subequal, (bases becoming thickened and keeled, keels sometimes pronounced in fruit) margins green to yellowish, often scarious, apices acute to acuminate, abaxial faces glabrous, tomentose, or setose, sometimes stipitate-glandular, adaxial glabrous or with appressed hairs.</text>
+      <structure id="o4800" name="phyllary">
+        <character char_type="range_value" name="count" from="5" to="18" constraint="in series" constraintid="o4801" />
+        <character name="shape" value="lanceolate" />
+        <character name="size" value="equal" />
+        <character name="size" value="subequal" />
+      </structure>
+      <structure id="o4801" name="series">
+        <character char_type="range_value" name="count" from="1" to="2" />
+      </structure>
+      <structure id="o4802" name="margin">
+        <character char_type="range_value" name="coloration" from="green" to="yellowish" />
+        <character name="coloration" value="green" />
+        <character name="coloration" value="yellowish" />
+        <character name="texture" value="scarious" modifier="often" />
+      </structure>
+      <structure id="o4803" name="apex">
+        <character char_type="range_value" name="shape" from="acute" to="acuminate" />
+        <character name="shape" value="acute" />
+        <character name="shape" value="acuminate" />
+      </structure>
+      <structure id="o4804" name="face" constraint="abaxial">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="tomentose" />
+        <character name="pubescence" value="setose" />
+        <character name="architecture_or_exudation_or_pubescence" value="stipitate-glandular" modifier="sometimes" />
+        <character name="insertion_or_position" value="adaxial" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="with appressed hairs" />
+      </structure>
+      <structure id="o4805" name="hair">
+        <character name="orientation" value="appressed" />
+      </structure>
+      <relation id="r652" name="with" from="o4804" to="o4805" negation="false" />
+    </statement>
+    <statement id="274.txt-12">
+      <text>Receptacles flat or convex, usually pitted, glabrous or hairy, epaleate [paleate, paleae narrow, thin].</text>
+      <structure id="o4806" name="receptacle">
+        <character name="shape" value="flat" />
+        <character name="shape" value="convex" />
+        <character name="relief" value="pitted" modifier="usually" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="hairy" />
+        <character name="architecture" value="epaleate" />
+      </structure>
+    </statement>
+    <statement id="274.txt-13">
+      <text>Florets 5–100+;</text>
+      <structure id="o4807" name="floret">
+        <character char_type="range_value" name="count" from="5" to="100" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="274.txt-14">
+      <text>corollas usually yellow or orange, sometimes white, pink, or reddish.</text>
+      <structure id="o4808" name="corolla">
+        <character name="coloration" value="yellow" modifier="usually" />
+        <character name="coloration" value="orange" modifier="usually" />
+        <character name="coloration" value="white" modifier="sometimes" />
+        <character name="coloration" value="pink" modifier="sometimes" />
+        <character name="coloration" value="reddish" modifier="sometimes" />
+      </structure>
+    </statement>
+    <statement id="274.txt-15">
+      <text>Cypselae monomorphic or dimorphic , yellow, brown, green, red, and/or black, subcylindric or fusiform, terete or subterete, usually curved, apices tapered or beaked, ribs 10–20, sometimes spiculate-roughened, faces glabrous or hispidulous;</text>
+      <structure id="o4809" name="cypsela">
+        <character name="habit" value="monomorphic" />
+        <character name="habit" value="dimorphic" />
+        <character name="coloration" value="yellow" />
+        <character name="coloration" value="brown" />
+        <character name="coloration" value="green" />
+        <character name="coloration" value="red" />
+        <character name="coloration" value="black" />
+        <character name="shape" value="subcylindric" />
+        <character name="shape" value="fusiform" />
+        <character name="shape" value="terete" />
+        <character name="shape" value="subterete" />
+        <character name="shape" value="curved" modifier="usually" />
+      </structure>
+      <structure id="o4810" name="apex">
+        <character name="shape" value="tapered" />
+        <character name="shape" value="beaked" />
+      </structure>
+      <structure id="o4811" name="rib">
+        <character char_type="range_value" name="count" from="10" to="20" />
+        <character name="texture" value="spiculate-roughened" modifier="sometimes" />
+      </structure>
+      <structure id="o4812" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="hispidulous" />
+      </structure>
+    </statement>
+    <statement id="274.txt-16">
+      <text>pappi persistent or falling, of 80–150, usually distinct, sometimes basally connate, white to tawny, coarse to fine, ± equal (or outer shorter), barbellulate bristles in 1–2 series.</text>
+      <structure id="o4813" name="pappus">
+        <character name="duration" value="persistent" />
+        <character name="orientation" value="falling" />
+      </structure>
+      <structure id="o4814" name="bristle">
+        <character char_type="range_value" name="count" from="80" to="150" />
+        <character name="fusion" value="distinct" modifier="usually" />
+        <character name="fusion" value="connate" modifier="sometimes basally" />
+        <character char_type="range_value" name="coloration" from="white" to="tawny" />
+        <character name="coloration" value="white" />
+        <character name="coloration" value="tawny" />
+        <character char_type="range_value" name="texture" from="coarse" to="fine" />
+        <character name="texture" value="coarse" />
+        <character name="texture" value="fine" />
+        <character name="size" value="equal" modifier="±" />
+        <character name="architecture" value="barbellulate" />
+      </structure>
+      <relation id="r653" name="consist_of" from="o4813" to="o4814" negation="false" />
+      <structure id="o4815" name="series">
+        <character char_type="range_value" name="count" from="1" to="2" />
+      </structure>
+      <relation id="r654" name="in" from="o4814" to="o4815" negation="false" />
+    </statement>
+    <statement id="274.txt-17">
+      <text>x = 3, 4, 5, 6, 11.</text>
+      <structure id="o4816" name="chromosome">
+        <character name="count" value="3" />
+        <character name="count" value="4" />
+        <character name="count" value="5" />
+        <character name="count" value="6" />
+        <character name="count" value="11" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species ca. 200 (24 in the flora):</number_of_infrataxa>
+  <general_distribution>North America</general_distribution>
+  <general_distribution>Eurasia</general_distribution>
+  <general_distribution>Africa</general_distribution>
+  <general_distribution>introduced nearly worldwide.</general_distribution>
+  <discussion>Crepis is generally recognized by the rosettes of coarse, often pinnately lobed leaves, erect heads, epaleate receptacles, calyculate involucres, yellow corollas, subcylindric or fusiform, ribbed cypselae, and pappi of barbellulate bristles. The taxonomy and evolutionary relationships of Crepis were studied by E. B. Babcock (1947) and his associates. Their work was thorough and important because of the effort to incorporate cytogenetic information in the evolutionary analysis. Extensive survey of chromosome number and karyotype indicated two major ploidy groups in Crepis, corresponding to New World and Old World species complexes. Of the 12 species of Crepis native to North America, 10 are polyploids with x = 11. The core diploid populations commonly occupy discrete ecologic zones and are thought to be entirely distinct from one another, yet they are interconnected by a continuous complex series of intergrading polyploid forms that are partly or completely apomictic (Babcock). The polyploids are of two forms, autopolyploids that are similar to the diploids, and allopolyploids that combine the characteristics of two or more diploid species. The allopolyploid forms of hybrid origin may exhibit the characteristics of multiple parental species and therefore are difficult to classify. Some of the heterogeneous apomictic populations, or groups of populations, have been grouped together and recognized as subspecies; those taxa are often difficult to identify and further study is clearly needed. Despite these difficulties, the subspecific taxa of Babcock were tentatively included in the present study. The Old World species are mostly diploid (n = 3, 4, 5, or 6). Babcock concluded that there was a progressive decrease in the chromosome numbers, from n = 6 to n = 3. Along with the decrease is a corresponding increase in chromosome asymmetry and reduction in chromosome length.</discussion>
+  <references>SELECTED REFERENCE Babcock, E. B. 1947. The genus Crepis. Pt. 1: The taxonomy, phylogeny, distribution, and evolution of Crepis. Pt. II: Systematic treatment. Univ. Calif. Publ. Bot. 21, 22.</references>
+  <key>1.Annuals or biennials (perennials; taproots usually shallow).</key>
+  <key>2.Stems branched (dichotomously, heads sessile in axils); phyllaries lanceolate (inner becoming indurate, often enclosing and partially fused to cypselae)24. Crepis zacintha</key>
+  <key>2.Stems branched (not dichotomously; phyllaries lanceolate to lance-linear (free from cypselae).</key>
+  <key>3.Cypselae not beaked (apices sometimes ± narrowed).</key>
+  <key>4.Stems (at least proximally) hispid and stipitate-glandular (viscid)18. Crepis pulchra</key>
+  <key>4.Stems glabrate, glabrescent, hispid, ± setose, tomentose, or tomentulose (not viscid).</key>
+  <key>5.Adaxial faces of phyllaries ± appressed-hairy (hairs white, shiny, 0.1–0.2+ mm).</key>
+  <key>6.Annuals; abaxial faces of phyllaries tomentose to hispidulous; cypselae reddish or purplish brown, 3–4 mm; pappi 4–5 mm22. Crepis tectorum</key>
+  <key>6.Biennials; abaxial faces of phyllaries ± canescent-tomentose; cypselae yellowish or reddish brown, 4–7 mm; pappi 5–7 mm5. Crepis biennis</key>
+  <key>5.Adaxial faces of phyllaries glabrous.</key>
+  <key>7.Involucres 5–8 mm; phyllaries glandular-setose (setae black, in 2 rows); cypselae 1.5–2.5 mm7. Crepis capillaris</key>
+  <key>7.Involucres 8–10 mm; phyllaries glabrous or glabrate; cypselae 2.5–4 mm14. Crepis nicaeënsis</key>
+  <key>3.Cypselae (at least inner) beaked.</key>
+  <key>8.Cypselae dimorphic.</key>
+  <key>9.Stems scapiform; heads 1–2 (borne singly); corollas pink or white19. Crepis rubra</key>
+  <key>9.Stems branched; heads 3–10+; corollas mostly yellow, usually reddish purple abaxially9. Crepis foetida</key>
+  <key>8.Cypselae usually monomorphic.</key>
+  <key>10.Stems coarsely setose or hispid (setae yellowish); calyculi of 10–14 bractlets (not reflexed); cypselae reddish brown, beaks 1–2 mm21. Crepis setosa</key>
+  <key>10.Stems glabrate or hispid and/or tomentose, sometimes sparsely setose (setae black); calyculi of 5–12 bractlets (reflexed); cypselae pale brown or yellowish, beaks 2–5 mm23. Crepis vesicaria</key>
+  <key>1.Perennials (taproots and caudices becoming woody).</key>
+  <key>11.Plants glabrous.</key>
+  <key>12.Stems arcuate or decumbent, scapiform; heads 2–3; cypselae beaked (beak lengths nearly 2 times bodies)6. Crepis bursifolia</key>
+  <key>12.Stems ± erect or ascending, usually branched; heads 5–10(–100); cypselae seldom beaked (beaks relatively short).</key>
+  <key>13.Stems in dense clumps (plants often rhizomatous), simple or branched proximally; leaves 2–9 × 0.5–2.5 cm; involucres 8–13 mm; cypselae subcylindric to fusiform, apices sometimes tapered or narrowed, not beaked, ribs 10–13, broad, smooth; alpine habitats13. Crepis nana</key>
+  <key>13.Stems in loose clumps (plants taprooted, roots vertical), branched dichotomously distally; leaves 1–4 × 0.5–1.5 cm; involucres 8–10 mm; cypselae fusiform, apices beaked (beaks 1–2 mm), ribs 10, narrow, minutely spiculate- roughened; stream banks, gravel bars8. Crepis elegans</key>
+  <key>11.Plants usually ± hairy, sometimes glabrous.</key>
+  <key>14.Leaves usually entire or weakly dentate, sometimes closely dentate, serrate, or pinnately lobed.</key>
+  <key>15.Stems scapiform; leaves mostly basal (rosettes), cauline leaves reduced; involucres turbinate-campanulate, 10–12 × 8–12 mm20. Crepis runcinata</key>
+  <key>15.Stems branched distally; leaves mostly cauline (blades broadly oblanceolate to elliptic); involucres cylindro-campanulate, 10–15 × 6–12 mm16. Crepis pannonica</key>
+  <key>14.Leaves usually pinnately lobed or sharply serrate.</key>
+  <key>16.Stems usually densely setose, stipitate-glandular (setae 1–3 mm)12. Crepis monticola</key>
+  <key>16.Stems usually tomentose or tomentulose, sometimes glabrate or bristly-setose (setae or hairs to 1 mm).</key>
+  <key>17.Phyllaries tomentose to tomentulose and/or setose (setae blackish, green, or whitish); cypselae dark to olive, greenish, or reddish brown, yellowish, or blackish, weakly ribbed or striate.</key>
+  <key>18.Plants 5–35 cm; heads 1–9; involucres 11–21 × 5–10 mm; phyllaries densely tomentose or setose11. Crepis modocensis</key>
+  <key>18.Plants 20–80 cm; heads 15–20+; involucres 9–17 × 4–7 mm; phyllaries tomentulose and coarsely green-setose4. Crepis barbigera</key>
+  <key>17.Phyllaries usually glabrous, tomentose or tomentulose, sometimes stipitate-glandular or sparsely setose (setae black); cypselae yellowish or reddish brown or dark to blackish green, distinctly ribbed.</key>
+  <key>19.Phyllaries 5–8; florets 5–10(–15).</key>
+  <key>20.Heads 7–10(–30) in corymbiform arrays; phyllaries densely tomentulose near margins (strongly keeled, medians usually glabrous); cypselae reddish brown17. Crepis pleurocarpa</key>
+  <key>20.Heads 30–70(–100+) in compound, corymbiform arrays; phyllaries usually glabrous, sometimes evenly tomentose (not strongly keeled); cypselae yellowish or brown1. Crepis acuminata</key>
+  <key>19.Phyllaries 7–18; florets 6–40.</key>
+  <key>21.Leaf lobes narrowly lanceolate or linear; cypselae dark or blackish green, apices tapered, not beaked2. Crepis atribarba</key>
+  <key>21.Leaf lobes deltate or broadly lanceolate; cypselae yellowish or brownish, apices narrowed to strongly tapered.</key>
+  <key>22.Plants 25–60 cm; heads (10–)20–60, in ± flat-topped, compound, corymbiform arrays; involucres narrowly cylindric, 3–5 mm diam.; florets 7–1210. Crepis intermedia</key>
+  <key>22.Plants 8–40 cm; heads (1–)2–22, in corymbiform, cymiform, or paniculiform arrays; involucres cylindric, 5–15 mm diam.; florets 9–40.</key>
+  <key />
+  <key />
+  <key>[23. Shifted to left margin.—Ed.]</key>
+  <key>23.Stems hispid, sometimes stipitate-glandular distally; leaves: faces gray-tomentose; phyllaries sometimes stipitate-glandular15. Crepis occidentalis</key>
+  <key>23.Stems sparsely to densely tomentose, often stipitate-glandular proximally; leaves: faces sparsely to densely tomentose, stipitate-glandular (midribs red in fresh specimens): phyllar- ies conspicuously stipitate-glandular3. Crepis bakeri</key>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

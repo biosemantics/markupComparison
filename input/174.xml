@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>2.</number>
+  <species_name>Saussurea triangulata</species_name>
+  <authority>Trautvetter &amp; C. A. Meyer</authority>
+  <place_of_publication>in A. T. von Middendorff, Reise Siber. 1(2,3): 58. 1856</place_of_publication>
+  <description>
+    <statement id="174.txt-0">
+      <text>Plants 30–70 cm;</text>
+    </statement>
+    <statement id="174.txt-1">
+      <text>from rhizomes.</text>
+      <structure id="o2156" name="whole_organism">
+        <character char_type="range_value" name="size" from="30" from_unit="cm" to="70" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+      <structure id="o2157" name="rhizome" />
+      <relation id="r321" name="from" from="o2156" to="o2157" negation="false" />
+    </statement>
+    <statement id="174.txt-2">
+      <text>Stems leafy, simple or with ascending branches.</text>
+      <structure id="o2158" name="stem">
+        <character name="architecture" value="leafy" />
+        <character name="architecture" value="simple" />
+        <character name="architecture" value="with ascending branches" />
+      </structure>
+      <structure id="o2159" name="branch">
+        <character name="orientation" value="ascending" />
+      </structure>
+      <relation id="r322" name="with" from="o2158" to="o2159" negation="false" />
+    </statement>
+    <statement id="174.txt-3">
+      <text>Leaves basal and cauline, well distributed or distally much smaller, proximal and mid with winged petioles to 15 cm, not decurrent on stems, proximal petioles ciliate with multicellular trichomes, distal petioles loosely tomentose when young, glabrescent;</text>
+      <structure id="o2160" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="arrangement" value="distributed" modifier="well" />
+        <character name="size" value="smaller" modifier="distally much" />
+        <character name="insertion_or_position" value="proximal" />
+        <character name="shape" value="decurrent" modifier="not" constraint="on stems" constraintid="o2163" />
+      </structure>
+      <structure id="o2161" name="mid" />
+      <structure id="o2162" name="petiole">
+        <character name="architecture" value="winged" />
+        <character char_type="range_value" name="size" to="15" to_unit="cm" />
+      </structure>
+      <relation id="r323" name="with" from="o2161" to="o2162" negation="false" />
+      <structure id="o2163" name="stem" />
+      <structure id="o2164" name="petiole" constraint="proximal">
+        <character name="architecture_or_shape" value="ciliate" constraint="with trichomes" constraintid="o2165" />
+      </structure>
+      <structure id="o2165" name="trichome">
+        <character name="architecture" value="multicellular" />
+      </structure>
+      <structure id="o2166" name="petiole" constraint="distal">
+        <character name="pubescence" value="tomentose" modifier="loosely" />
+        <character name="age" value="young" />
+        <character name="pubescence" value="glabrescent" />
+      </structure>
+    </statement>
+    <statement id="174.txt-4">
+      <text>blades lanceolate to triangular-ovate, 6–13 cm, bases truncate or subcordate to obtuse or subacute, margins coarsely laciniate-dentate, ciliate with multicellular trichomes, apices acute or acuminate, faces glabrous;</text>
+      <structure id="o2167" name="blade">
+        <character char_type="range_value" name="shape" from="lanceolate" to="triangular-ovate" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="triangular-ovate" />
+        <character char_type="range_value" name="size" from="6" from_unit="cm" to="13" to_unit="cm" />
+      </structure>
+      <structure id="o2168" name="base">
+        <character char_type="range_value" name="shape" from="subcordate" to="obtuse or subacute" />
+        <character name="shape" value="truncate" />
+        <character name="shape" value="subcordate" />
+        <character name="shape" value="obtuse" />
+        <character name="shape" value="subacute" />
+      </structure>
+      <structure id="o2169" name="margin">
+        <character name="shape" value="laciniate-dentate" modifier="coarsely" />
+        <character name="architecture_or_shape" value="ciliate" constraint="with trichomes" constraintid="o2170" />
+      </structure>
+      <structure id="o2170" name="trichome">
+        <character name="architecture" value="multicellular" />
+      </structure>
+      <structure id="o2171" name="apex">
+        <character name="shape" value="acute" />
+        <character name="shape" value="acuminate" />
+      </structure>
+      <structure id="o2172" name="face">
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="174.txt-5">
+      <text>mid and distal progressively smaller, becoming sessile, narrower, bases obtuse to acuminate, cauline usually 15 or fewer.</text>
+      <structure id="o2173" name="leaf" constraint="mid and distal">
+        <character name="size" value="smaller" modifier="progressively" />
+        <character name="architecture" value="sessile" modifier="becoming" />
+        <character name="size" value="narrower" />
+      </structure>
+      <structure id="o2174" name="base">
+        <character char_type="range_value" name="shape" from="obtuse" to="acuminate" />
+        <character name="shape" value="obtuse" />
+        <character name="shape" value="acuminate" />
+      </structure>
+      <structure id="o2175" name="leaf" constraint="cauline">
+        <character name="count" value="15" modifier="usually" />
+        <character name="count" value="fewer" />
+      </structure>
+    </statement>
+    <statement id="174.txt-6">
+      <text>Heads 4–11, in congested corymbiform to capitate terminal arrays (peduncles 0–4 cm).</text>
+      <structure id="o2176" name="head">
+        <character char_type="range_value" name="count" from="4" to="11" />
+      </structure>
+      <structure id="o2177" name="array" constraint="terminal">
+        <character name="architecture" value="congested" />
+        <character name="architecture" value="corymbiform" />
+        <character name="architecture_or_shape" value="capitate" />
+      </structure>
+      <relation id="r324" name="in" from="o2176" to="o2177" negation="false" />
+    </statement>
+    <statement id="174.txt-7">
+      <text>Involucres 10–12 mm.</text>
+      <structure id="o2178" name="involucre">
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="12" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="174.txt-8">
+      <text>Phyllaries in 4–5 series, unequal, appressed throughout, the outer ovate, inner narrowly lanceolate, abaxially dark purplish to nearly black, with or without central green or tan patch, margins loosely arachnoid-tomentose, apices acute to obtuse or rounded, faces glabrate.</text>
+      <structure id="o2179" name="phyllary">
+        <character name="size" value="unequal" />
+        <character name="orientation" value="appressed" modifier="throughout" />
+        <character name="position" value="outer" />
+        <character name="shape" value="ovate" />
+        <character name="position" value="inner" modifier="narrowly" />
+        <character name="shape" value="lanceolate" />
+        <character char_type="range_value" name="coloration" from="abaxially dark-purplish" to="nearly black" />
+        <character name="coloration" value="purplish" modifier="abaxially ;dark" />
+        <character name="coloration" value="black" modifier="nearly" />
+      </structure>
+      <structure id="o2180" name="series">
+        <character char_type="range_value" name="count" from="4" to="5" />
+      </structure>
+      <relation id="r325" name="in" from="o2179" to="o2180" negation="false" />
+      <structure id="o2181" name="patch">
+        <character name="coloration" value="tan" />
+      </structure>
+      <relation id="r326" name="with or without" from="o2179" to="o2181" negation="false" />
+      <structure id="o2182" name="margin">
+        <character name="pubescence" value="arachnoid-tomentose" modifier="loosely" />
+      </structure>
+      <structure id="o2183" name="apex">
+        <character char_type="range_value" name="shape" from="acute" to="obtuse or rounded" />
+        <character name="shape" value="acute" />
+        <character name="shape" value="obtuse" />
+        <character name="shape" value="rounded" />
+      </structure>
+      <structure id="o2184" name="face">
+        <character name="pubescence" value="glabrate" />
+      </structure>
+    </statement>
+    <statement id="174.txt-9">
+      <text>Receptacles scaly.</text>
+      <structure id="o2185" name="receptacle">
+        <character name="pubescence_or_architecture" value="scaly" />
+      </structure>
+    </statement>
+    <statement id="174.txt-10">
+      <text>Florets 10–17;</text>
+      <structure id="o2186" name="floret">
+        <character char_type="range_value" name="count" from="10" to="17" />
+      </structure>
+    </statement>
+    <statement id="174.txt-11">
+      <text>corollas light purple, goblet-shaped, 9–11 mm;</text>
+      <structure id="o2187" name="corolla">
+        <character name="coloration" value="purple" modifier="light" />
+        <character name="shape" value="goblet-shaped" />
+        <character char_type="range_value" name="size" from="9" from_unit="mm" to="11" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="174.txt-12">
+      <text>tubes 4–5.5 mm, throat 2 mm, lobes 3–3.5 mm;</text>
+      <structure id="o2188" name="tube">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="5.5" to_unit="mm" />
+      </structure>
+      <structure id="o2189" name="throat">
+        <character name="size" value="2" unit="mm" />
+      </structure>
+      <structure id="o2190" name="lobe">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="3.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="174.txt-13">
+      <text>anthers dark purple, 4–5 mm;</text>
+      <structure id="o2191" name="anther">
+        <character name="coloration" value="purple" modifier="dark" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="174.txt-14">
+      <text>style branches recurved, 1–1.5 mm.</text>
+      <structure id="o2192" name="branch" constraint="style">
+        <character name="orientation" value="recurved" />
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="1.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="174.txt-15">
+      <text>Cypselae ca. 3 mm;</text>
+      <structure id="o2193" name="cypsela">
+        <character name="size" value="3" unit="mm" />
+      </structure>
+    </statement>
+    <statement id="174.txt-16">
+      <text>pappi brownish, outer bristles very slender, 0.5–4 mm, inner 14–17 bristles stouter, 8–9 mm, all plumose.</text>
+      <structure id="o2194" name="pappus">
+        <character name="coloration" value="brownish" />
+      </structure>
+      <structure id="o2195" name="bristle" constraint="outer">
+        <character name="size" value="slender" modifier="very" />
+        <character char_type="range_value" name="size" from="0.5" from_unit="mm" to="4" to_unit="mm" />
+        <character name="position" value="inner" />
+        <character char_type="range_value" name="count" from="14" to="17" />
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="9" to_unit="mm" />
+        <character name="architecture" value="plumose" />
+      </structure>
+      <structure id="o2196" name="bristle">
+        <character name="fragility" value="stouter" />
+      </structure>
+    </statement>
+    <statement id="174.txt-17">
+      <text>2 n = 26 (Russia).</text>
+      <structure id="o2197" name="chromosome">
+        <character name="count" value="26" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>slopes</habitat>
+  <habitat>ridges</habitat>
+  <habitat>sometimes in shade</habitat>
+  <elevation>300–400 m;</elevation>
+  <us_distribution>Alaska</us_distribution>
+  <global_distribution>Russian Far East (Chukotka).</global_distribution>
+  <discussion>In North America Saussurea triangulata is known only from the Waring Mountains of northwestern Alaska, where it was discovered in the late 1990s. I provisionally recognize the Waring Mountains plants as a disjunct population of S. triangulata pending examination of additional material from both Alaskan and Siberian populations.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

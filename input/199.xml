@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Crupina vulgaris</species_name>
+  <authority>Persoon ex Cassini</authority>
+  <place_of_publication>in F. Cuvier, Dict. Sci. Nat. ed 2, 12: 68. 1818</place_of_publication>
+  <common_name>Bearded creeper, common crupina</common_name>
+  <synonym_of_species_name>Centaurea crupina Linnaeus, Sp. Pl. 2: 909. 1753</synonym_of_species_name>
+  <description>
+    <statement id="199.txt-0">
+      <text>Plants to 8 cm.</text>
+      <structure id="o2847" name="whole_organism">
+        <character char_type="range_value" name="size" to="8" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="199.txt-1">
+      <text>Stems leafy to branches, openly branched, ridged.</text>
+      <structure id="o2848" name="stem">
+        <character name="architecture_or_shape" value="branched" modifier="openly" />
+        <character name="shape" value="ridged" />
+      </structure>
+      <structure id="o2849" name="branch" />
+      <relation id="r407" name="leafy to" from="o2848" to="o2849" negation="false" />
+    </statement>
+    <statement id="199.txt-2">
+      <text>Leaves:</text>
+      <structure id="o2850" name="leaf" />
+    </statement>
+    <statement id="199.txt-3">
+      <text>basal often absent by anthesis, blades oblong to obovate, margins entire or dentate to deeply pinnately divided, scabrous, ciliate with glochidiate-tipped bristles;</text>
+      <structure id="o2851" name="leaf" constraint="basal">
+        <character name="presence" value="absent" modifier="often" constraint="by anthesis" constraintid="o2852" />
+      </structure>
+      <structure id="o2852" name="anthesi" />
+      <structure id="o2853" name="blade">
+        <character char_type="range_value" name="shape" from="oblong" to="obovate" />
+        <character name="shape" value="oblong" />
+        <character name="shape" value="obovate" />
+      </structure>
+      <structure id="o2854" name="margin">
+        <character char_type="range_value" name="shape" from="dentate" to="deeply pinnately divided" />
+        <character name="shape" value="entire" />
+        <character name="shape" value="dentate" />
+        <character name="shape" value="divided" modifier="deeply pinnately" />
+        <character name="pubescence_or_relief" value="scabrous" />
+        <character name="architecture_or_shape" value="ciliate" constraint="with bristles" constraintid="o2855" />
+      </structure>
+      <structure id="o2855" name="bristle" />
+    </statement>
+    <statement id="199.txt-4">
+      <text>cauline 1–3.5 cm, 1–2-pinnately divided into linear lobes, ciliate with glochidiate-tipped bristles.</text>
+      <structure id="o2856" name="leaf" constraint="cauline">
+        <character char_type="range_value" name="size" from="1" from_unit="cm" to="3.5" to_unit="cm" />
+        <character name="shape" value="divided" modifier="1-2-pinnately" constraint="into lobes" constraintid="o2857" />
+        <character name="architecture_or_shape" value="ciliate" constraint="with bristles" constraintid="o2858" />
+      </structure>
+      <structure id="o2857" name="lobe">
+        <character name="arrangement_or_shape" value="linear" />
+      </structure>
+      <structure id="o2858" name="bristle" />
+    </statement>
+    <statement id="199.txt-5">
+      <text>Peduncles slender, 0.5–8 cm, bractless or with 1–several scalelike to linear bracts.</text>
+      <structure id="o2859" name="peduncle">
+        <character name="size" value="slender" />
+        <character char_type="range_value" name="size" from="0.5" from_unit="cm" to="8" to_unit="cm" />
+        <character name="architecture" value="bractless" />
+        <character name="architecture" value="with 1-several scalelike to linear bracts" />
+      </structure>
+      <structure id="o2860" name="bract">
+        <character char_type="range_value" name="count" from="1" to="several" />
+        <character name="archiecture" value="scalelike" />
+        <character name="arrangement_or_shape" value="linear" />
+      </structure>
+      <relation id="r408" name="with" from="o2859" to="o2860" negation="false" />
+    </statement>
+    <statement id="199.txt-6">
+      <text>Involucres sometimes falling at maturity with enclosed cypselae, 8–20 mm.</text>
+      <structure id="o2861" name="involucre">
+        <character name="orientation" value="falling" modifier="sometimes" constraint="at maturity with cypselae" constraintid="o2862" />
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="20" to_unit="mm" />
+      </structure>
+      <structure id="o2862" name="cypsela" constraint="enclosed" />
+    </statement>
+    <statement id="199.txt-7">
+      <text>Sterile florets 2–4.</text>
+      <structure id="o2863" name="floret" constraint="sterile">
+        <character char_type="range_value" name="count" from="2" to="4" />
+      </structure>
+    </statement>
+    <statement id="199.txt-8">
+      <text>Fertile florets usually 1;</text>
+      <structure id="o2864" name="floret" constraint="fertile">
+        <character name="count" value="1" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="199.txt-9">
+      <text>corollas ca. 14 mm, tube with branched hairs.</text>
+      <structure id="o2865" name="corolla">
+        <character name="size" value="14" unit="mm" />
+      </structure>
+      <structure id="o2866" name="tube" />
+      <structure id="o2867" name="hair" constraint="branched" />
+      <relation id="r409" name="with" from="o2866" to="o2867" negation="false" />
+    </statement>
+    <statement id="199.txt-10">
+      <text>Cypselae usually 1 per head, barrel-shaped, 3–6 × 1.5–3.5 mm, attachment scar basal;</text>
+      <structure id="o2868" name="cypsela">
+        <character name="count" value="1" modifier="usually" constraint="per head" constraintid="o2869" />
+        <character name="shape" value="barrel-shaped" />
+        <character char_type="range_value" name="length" from="3" from_unit="mm" to="6" to_unit="mm" />
+        <character char_type="range_value" name="width" from="1.5" from_unit="mm" to="3.5" to_unit="mm" />
+      </structure>
+      <structure id="o2869" name="head" />
+      <structure id="o2870" name="scar" constraint="attachment">
+        <character name="insertion_or_position" value="basal" />
+      </structure>
+    </statement>
+    <statement id="199.txt-11">
+      <text>pappus bristles in 2 unequal series, widely spreading, blackish brown, 5–10 mm;</text>
+      <structure id="o2871" name="bristle" constraint="pappus">
+        <character name="orientation" value="spreading" modifier="widely" />
+        <character name="coloration" value="brown" modifier="blackish" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+      <structure id="o2872" name="series">
+        <character name="count" value="2" />
+        <character name="size" value="unequal" />
+      </structure>
+      <relation id="r410" name="in" from="o2871" to="o2872" negation="false" />
+    </statement>
+    <statement id="199.txt-12">
+      <text>pappus scales erect, 0.5–1 mm.</text>
+      <structure id="o2873" name="scale" constraint="pappus">
+        <character name="orientation" value="erect" />
+        <character char_type="range_value" name="size" from="0.5" from_unit="mm" to="1" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="199.txt-13">
+      <text>2 n = 28 (Greece), 30 (Yugoslavia).</text>
+      <structure id="o2874" name="chromosome">
+        <character name="count" value="28" />
+        <character name="count" value="30" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>grassy areas</habitat>
+  <habitat>roadsides</habitat>
+  <habitat>open woodlands</habitat>
+  <habitat>forests</habitat>
+  <elevation>200–1000 m;</elevation>
+  <introduced>introduced;</introduced>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Mass.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <global_distribution>Europe</global_distribution>
+  <global_distribution>w Asia.</global_distribution>
+  <discussion>I have seen material only from California; occurrences in the other states listed are documented.</discussion>
+  <discussion>Crupina vulgaris is listed as a noxious weed by governmental agencies both within and outside of its documented range. It is a highly invasive species that infests pastures, rangelands, hayfields, and disturbed sites, sometimes forming dense pure stands. It is unpalatable to livestock and tends to increase as more desirable forage is consumed. Since it was first reported in west-central Idaho in 1969, it has spread rapidly in western rangelands, forming infestations in several states.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

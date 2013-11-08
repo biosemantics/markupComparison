@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Tolpis barbata</species_name>
+  <authority>(Linnaeus) Gaertner</authority>
+  <place_of_publication>Fruct. Sem. Pl. 2: 372. 1791</place_of_publication>
+  <synonym_of_species_name>Crepis barbata Linnaeus, Sp. Pl. 2: 805. 1753; Tolpis umbellata Bertoloni</synonym_of_species_name>
+  <description>
+    <statement id="386.txt-0">
+      <text>Leaf blades 30–150 × 5–25 mm, margins dentate to pinnately lobed.</text>
+      <structure id="o7373" name="blade" constraint="leaf">
+        <character char_type="range_value" name="length" from="30" from_unit="mm" to="150" to_unit="mm" />
+        <character char_type="range_value" name="width" from="5" from_unit="mm" to="25" to_unit="mm" />
+      </structure>
+      <structure id="o7374" name="margin">
+        <character char_type="range_value" name="shape" from="dentate" to="pinnately lobed" />
+        <character name="shape" value="dentate" />
+        <character name="shape" value="lobed" modifier="pinnately" />
+      </structure>
+    </statement>
+    <statement id="386.txt-2">
+      <text>Cypselae 1–1.5 mm;</text>
+      <structure id="o7375" name="cypsela">
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="1.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="386.txt-3">
+      <text>pappi:</text>
+      <structure id="o7376" name="pappus" />
+    </statement>
+    <statement id="386.txt-4">
+      <text>scales 0.3–0.5 mm, bristles 3.5–4+ mm.</text>
+      <structure id="o7377" name="scale">
+        <character char_type="range_value" name="size" from="0.3" from_unit="mm" to="0.5" to_unit="mm" />
+      </structure>
+      <structure id="o7378" name="bristle">
+        <character char_type="range_value" name="size" from="3.5" from_unit="mm" to="4" to_unit="mm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="386.txt-5">
+      <text>2 n = 18.</text>
+      <structure id="o7379" name="chromosome">
+        <character name="count" value="18" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <habitat>disturbed sites</habitat>
+  <elevation>0–200 m;</elevation>
+  <introduced>introduced;</introduced>
+  <us_distribution>Calif.</us_distribution>
+  <global_distribution>Europe.</global_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

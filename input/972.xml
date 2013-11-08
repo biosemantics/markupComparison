@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Nipponanthemum nipponicum</species_name>
+  <authority>(Franchet ex Maximowicz) Kitamura</authority>
+  <place_of_publication>Acta Phytotax. Geobot. 29: 169. 1978</place_of_publication>
+  <common_name>Nippon daisy</common_name>
+  <synonym_of_species_name>Leucanthemum nipponicum Franchet ex Maximowicz, Bull. Acad. Imp. Sci. Saint-Pétersbourg 17: 420. 1872; Chrysanthemum nipponicum (Franchet ex Maximowicz) Sprenger</synonym_of_species_name>
+  <description>
+    <statement id="972.txt-0">
+      <text>Leaf blades 20–75(–90) × 12–15(–20) mm, ultimate margins distally dentate or entire.</text>
+      <structure id="o19994" name="blade" constraint="leaf">
+        <character char_type="range_value" name="atypical_length" from="75" to="90" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="20" from_unit="mm" to="75" to_unit="mm" />
+        <character char_type="range_value" name="atypical_width" from="15" to="20" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="width" from="12" from_unit="mm" to="15" to_unit="mm" />
+      </structure>
+      <structure id="o19995" name="margin" constraint="ultimate">
+        <character name="shape" value="dentate" modifier="distally" />
+        <character name="shape" value="entire" modifier="distally" />
+      </structure>
+    </statement>
+    <statement id="972.txt-1">
+      <text>Ray laminae 20–30 mm.</text>
+      <structure id="o19996" name="lamina" constraint="ray">
+        <character char_type="range_value" name="size" from="20" from_unit="mm" to="30" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="972.txt-2">
+      <text>Cypselae 3–4 mm.</text>
+      <structure id="o19997" name="cypsela">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="972.txt-3">
+      <text>2 n = 18.</text>
+      <structure id="o19998" name="chromosome">
+        <character name="count" value="18" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>oct</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>nov</flowering_time>
+  <habitat>disturbed sites</habitat>
+  <elevation>0–10+ m;</elevation>
+  <introduced>introduced;</introduced>
+  <us_distribution>N.J.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <global_distribution>Asia (Japan).</global_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

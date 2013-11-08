@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Arctium lappa</species_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 816. 1753</place_of_publication>
+  <common_name>Great burdock, grande bardane</common_name>
+  <description>
+    <statement id="184.txt-0">
+      <text>Plants to 100–300 cm.</text>
+      <structure id="o2397" name="whole_organism">
+        <character char_type="range_value" name="size" to="100-300" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="184.txt-1">
+      <text>Basal leaves:</text>
+      <structure id="o2398" name="leaf" constraint="basal" />
+    </statement>
+    <statement id="184.txt-2">
+      <text>petioles solid, 15–36 cm, glabrous or thinly cobwebby;</text>
+      <structure id="o2399" name="petiole">
+        <character name="architecture" value="solid" />
+        <character char_type="range_value" name="size" from="15" from_unit="cm" to="36" to_unit="cm" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="cobwebby" modifier="thinly" />
+      </structure>
+    </statement>
+    <statement id="184.txt-3">
+      <text>blades 25–80 × 20–70 cm, coarsely dentate to subentire, abaxially thinly gray-tomentose, adaxially green, sparsely short-hairy to nearly glabrous.</text>
+      <structure id="o2400" name="blade">
+        <character char_type="range_value" name="length" from="25" from_unit="cm" to="80" to_unit="cm" />
+        <character char_type="range_value" name="width" from="20" from_unit="cm" to="70" to_unit="cm" />
+        <character char_type="range_value" name="shape" from="coarsely dentate" to="subentire" />
+        <character name="shape" value="dentate" modifier="coarsely" />
+        <character name="shape" value="subentire" modifier="coarsely" />
+        <character name="pubescence" value="gray-tomentose" modifier="abaxially thinly" />
+        <character name="coloration" value="green" modifier="adaxially" />
+        <character char_type="range_value" name="pubescence" from="sparsely short-hairy" to="nearly glabrous" />
+        <character name="pubescence" value="short-hairy" modifier="sparsely" />
+        <character name="pubescence" value="glabrous" modifier="nearly" />
+      </structure>
+    </statement>
+    <statement id="184.txt-4">
+      <text>Heads usually in corymbiform clusters, long-pedunculate.</text>
+      <structure id="o2401" name="head">
+        <character name="architecture" value="long-pedunculate" />
+      </structure>
+      <structure id="o2402" name="cluster">
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <relation id="r345" name="in" from="o2401" to="o2402" negation="false" modifier="usually" />
+    </statement>
+    <statement id="184.txt-5">
+      <text>Peduncles 2.5–6 cm.</text>
+      <structure id="o2403" name="peduncle">
+        <character char_type="range_value" name="size" from="2.5" from_unit="cm" to="6" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="184.txt-6">
+      <text>Involucres 25–45 mm diam.</text>
+      <structure id="o2404" name="involucre">
+        <character char_type="range_value" name="size" from="25" from_unit="mm" to="45" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="184.txt-7">
+      <text>Phyllaries linear to linear-lanceolate, glabrous to loosely cobwebby, inner usually stramineous (sometimes purplish), margins with minute spreading or reflexed hairs.</text>
+      <structure id="o2405" name="phyllary">
+        <character char_type="range_value" name="shape" from="linear" to="linear-lanceolate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="linear-lanceolate" />
+        <character char_type="range_value" name="pubescence" from="glabrous" to="loosely cobwebby" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="cobwebby" modifier="loosely" />
+        <character name="position" value="inner" modifier="usually" />
+        <character name="coloration" value="stramineous" />
+      </structure>
+      <structure id="o2406" name="margin" />
+      <structure id="o2407" name="hair">
+        <character name="orientation" value="reflexed" />
+      </structure>
+      <relation id="r346" name="with" from="o2406" to="o2407" negation="false" />
+    </statement>
+    <statement id="184.txt-8">
+      <text>Florets 40+;</text>
+      <structure id="o2408" name="floret">
+        <character name="count" char_type="range_value" from="40" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="184.txt-9">
+      <text>corollas purple (occasionally white), 9–14 mm, glabrous.</text>
+      <structure id="o2409" name="corolla">
+        <character name="coloration" value="purple" />
+        <character char_type="range_value" name="size" from="9" from_unit="mm" to="14" to_unit="mm" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="184.txt-10">
+      <text>Cypselae light brown, often with darker spots, 6–7.5 mm;</text>
+      <structure id="o2410" name="cypsela">
+        <character name="coloration" value="brown" modifier="light" />
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="7.5" to_unit="mm" />
+      </structure>
+      <structure id="o2411" name="spot">
+        <character name="coloration" value="darker" />
+      </structure>
+      <relation id="r347" name="with" from="o2410" to="o2411" negation="false" modifier="often" />
+    </statement>
+    <statement id="184.txt-11">
+      <text>pappus bristles 2–5 mm.</text>
+      <structure id="o2412" name="bristle" constraint="pappus">
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="184.txt-12">
+      <text>2 n = 32 (Japan), 34 (China), 36 (Japan); (Sweden).</text>
+      <structure id="o2413" name="chromosome">
+        <character name="count" value="32" />
+        <character name="count" value="34" />
+        <character name="count" value="36" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>nov</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <habitat>waste places</habitat>
+  <habitat>roadsides</habitat>
+  <habitat>fields</habitat>
+  <habitat>forest clearings</habitat>
+  <elevation>0–2200 m;</elevation>
+  <introduced>introduced;</introduced>
+  <ca_distribution>Alta.</ca_distribution>
+  <ca_distribution>B.C.</ca_distribution>
+  <ca_distribution>Man.</ca_distribution>
+  <ca_distribution>N.B.</ca_distribution>
+  <ca_distribution>Ont.</ca_distribution>
+  <ca_distribution>Que.</ca_distribution>
+  <ca_distribution>Sask.</ca_distribution>
+  <us_distribution>Ala.</us_distribution>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Conn.</us_distribution>
+  <us_distribution>Ill.</us_distribution>
+  <us_distribution>Maine</us_distribution>
+  <us_distribution>Mass.</us_distribution>
+  <us_distribution>Mich.</us_distribution>
+  <us_distribution>Minn.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>N.H.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>N.Dak.</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <us_distribution>R.I.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Vt.</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <us_distribution>Wis.</us_distribution>
+  <global_distribution>Eurasia.</global_distribution>
+  <discussion>BONAP lists Georgia, Idaho, Indiana, Iowa, Maryland, Montana, New Jersey, North Carolina, Ohio, Oregon, and Wyoming; I have not seen specimens.</discussion>
+  <discussion>Roots and young leaves of Arctium lappa are edible and can be used in a variety of food preparations. Extracts of Arctium species purportedly have health benefits and are sold as food supplements. This species is sometimes cultivated as a minor crop.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

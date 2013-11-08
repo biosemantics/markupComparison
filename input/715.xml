@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>4</number>
+  <species_name>Gamochaeta chionesthes</species_name>
+  <authority>es G. L. Nesom</authority>
+  <place_of_publication>Sida 21: 725, figs. 2-4. 2004</place_of_publication>
+  <common_name>White-cloaked cudweed</common_name>
+  <description>
+    <statement id="715.txt-0">
+      <text>Annuals (winter annuals), 1–45 cm;</text>
+    </statement>
+    <statement id="715.txt-1">
+      <text>fibrous-rooted.</text>
+      <structure id="o14943" name="whole_organism">
+        <character char_type="range_value" name="size" from="1" from_unit="cm" to="45" to_unit="cm" />
+        <character name="life_style" value="annual" />
+        <character name="architecture" value="fibrous-rooted" />
+      </structure>
+    </statement>
+    <statement id="715.txt-2">
+      <text>Stems erect to decumbent-ascending, not pannose (indument whitish, like closely appressed, polished cloth, hairs usually not individually evident).</text>
+      <structure id="o14944" name="stem">
+        <character char_type="range_value" name="orientation" from="erect" to="decumbent-ascending" />
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="decumbent-ascending" />
+        <character name="pubescence" value="pannose" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="715.txt-3">
+      <text>Leaves basal and cauline, basal present through flowering, blades oblanceolate to oblanceolate-spatulate, 2–6(–7) cm × 5–13 mm (gradually smaller, becoming linear bracts distally), faces bicolor, abaxial closely white-pannose, adaxial sparsely arachnose (light green, hairs persistent, closely appressed, nearly microscopic).</text>
+      <structure id="o14945" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="insertion_or_position" value="basal" />
+        <character name="presence" value="present" modifier="through flowering" />
+      </structure>
+      <structure id="o14946" name="blade">
+        <character char_type="range_value" name="shape" from="oblanceolate" to="oblanceolate-spatulate" />
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="oblanceolate-spatulate" />
+        <character char_type="range_value" name="atypical_length" from="6" to="7" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="2" from_unit="cm" to="6" to_unit="cm" />
+        <character char_type="range_value" name="width" from="5" from_unit="mm" to="13" to_unit="mm" />
+      </structure>
+      <structure id="o14947" name="face">
+        <character name="coloration" value="bicolor" />
+        <character name="insertion_or_position" value="abaxial" modifier="closely" />
+        <character name="pubescence" value="white-pannose" />
+        <character name="insertion_or_position" value="adaxial" modifier="sparsely" />
+        <character name="pubescence" value="arachnose" />
+      </structure>
+    </statement>
+    <statement id="715.txt-4">
+      <text>Heads initially in ± continuous, cylindric arrays 3–5(–7) cm × 10–12 mm (pressed), later sometimes interrupted and 7–20 cm (producing axillary glomerules from proximal nodes).</text>
+      <structure id="o14948" name="head">
+        <character name="architecture" value="interrupted" modifier="later sometimes" />
+        <character char_type="range_value" name="size" from="7" from_unit="cm" to="20" to_unit="cm" />
+      </structure>
+      <structure id="o14949" name="array">
+        <character name="architecture" value="continuous" modifier="±" />
+        <character name="shape" value="cylindric" />
+        <character char_type="range_value" name="atypical_length" from="5" to="7" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="3" from_unit="cm" to="5" to_unit="cm" />
+        <character char_type="range_value" name="width" from="10" from_unit="mm" to="12" to_unit="mm" />
+      </structure>
+      <relation id="r1616" name="in" from="o14948" to="o14949" negation="false" modifier="initially" />
+    </statement>
+    <statement id="715.txt-5">
+      <text>Involucres cylindro-campanulate, 3.5–4 mm, bases sparsely arachnose.</text>
+      <structure id="o14950" name="involucre">
+        <character name="shape" value="cylindro-campanulate" />
+        <character char_type="range_value" name="size" from="3.5" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+      <structure id="o14951" name="base">
+        <character name="pubescence" value="arachnose" modifier="sparsely" />
+      </structure>
+    </statement>
+    <statement id="715.txt-7">
+      <text>Florets:</text>
+      <structure id="o14952" name="floret" />
+    </statement>
+    <statement id="715.txt-8">
+      <text>bisexual 2–4;</text>
+      <structure id="o14953" name="floret" constraint="bisexual">
+        <character char_type="range_value" name="count" from="2" to="4" />
+      </structure>
+    </statement>
+    <statement id="715.txt-9">
+      <text>all corollas brownish yellow to purple distally (sometimes purple only on adaxial faces of lobes in bisexual corollas).</text>
+      <structure id="o14954" name="corolla">
+        <character char_type="range_value" name="coloration" from="brownish-yellow" to="purple distally" />
+        <character name="coloration" value="yellow" modifier="distally ;brownish" />
+        <character name="coloration" value="purple" modifier="distally" />
+      </structure>
+    </statement>
+    <statement id="715.txt-10">
+      <text>Cypselae (purple) 0.5–0.6 mm.</text>
+      <structure id="o14955" name="cypsela">
+        <character char_type="range_value" name="size" from="0.5" from_unit="mm" to="0.6" to_unit="mm" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <habitat>disturbed</habitat>
+  <habitat>open sites</habitat>
+  <habitat>roadsides</habitat>
+  <habitat>banks</habitat>
+  <habitat>woods edges and clearings</habitat>
+  <habitat>fields</habitat>
+  <habitat>flood plains</habitat>
+  <habitat>pastures</habitat>
+  <habitat>sandy, loamy, and clay soils</habitat>
+  <elevation>0–200 m;</elevation>
+  <us_distribution>Ala.</us_distribution>
+  <us_distribution>Ark.</us_distribution>
+  <us_distribution>Fla.</us_distribution>
+  <us_distribution>Ga.</us_distribution>
+  <us_distribution>La.</us_distribution>
+  <us_distribution>Miss.</us_distribution>
+  <us_distribution>N.C.</us_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>5.</number>
+  <species_name>Centaurea scabiosa</species_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 913. 1753</place_of_publication>
+  <common_name>Greater knapweed, hardheads, centaurée scabieuse</common_name>
+  <description>
+    <statement id="210.txt-0">
+      <text>Perennials , 30–150 cm.</text>
+      <structure id="o3246" name="whole_organism">
+        <character char_type="range_value" name="size" from="30" from_unit="cm" to="150" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="210.txt-1">
+      <text>Stems 1–several, branches ascending, glabrous to ± hirsute.</text>
+      <structure id="o3247" name="stem">
+        <character char_type="range_value" name="count" from="1" to="several" />
+      </structure>
+      <structure id="o3248" name="branch">
+        <character name="orientation" value="ascending" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="hirsute" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="210.txt-2">
+      <text>Leaves minutely hispid, resin-gland-dotted;</text>
+      <structure id="o3249" name="leaf">
+        <character name="pubescence" value="hispid" modifier="minutely" />
+        <character name="coloration_or_relief" value="resin-gland-dotted" />
+      </structure>
+    </statement>
+    <statement id="210.txt-3">
+      <text>basal and proximal cauline petiolate, blades 10–25 cm, margins usually 1–2-pinnately divided into linear or oblong segments;</text>
+      <structure id="o3250" name="leaf" constraint="basal and proximal cauline">
+        <character name="architecture" value="petiolate" />
+      </structure>
+      <structure id="o3251" name="blade">
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="25" to_unit="cm" />
+      </structure>
+      <structure id="o3252" name="margin">
+        <character name="shape" value="divided" modifier="usually 1-2-pinnately" constraint="into segments" constraintid="o3253" />
+      </structure>
+      <structure id="o3253" name="segment">
+        <character name="shape" value="linear" />
+        <character name="shape" value="oblong" />
+      </structure>
+    </statement>
+    <statement id="210.txt-4">
+      <text>mid and distal cauline smaller, entire or once dissected.</text>
+      <structure id="o3254" name="leaf" constraint="mid and distal cauline">
+        <character name="size" value="smaller" />
+        <character name="shape" value="entire" />
+        <character name="shape" value="dissected" modifier="once" />
+      </structure>
+    </statement>
+    <statement id="210.txt-5">
+      <text>Heads borne singly or few in open cymiform arrays, pedunculate.</text>
+      <structure id="o3255" name="head">
+        <character name="arrangement" value="singly" />
+        <character name="count" value="few" constraint="in arrays" constraintid="o3256" />
+        <character name="architecture" value="pedunculate" />
+      </structure>
+      <structure id="o3256" name="array">
+        <character name="architecture" value="open" />
+        <character name="architecture" value="cymiform" />
+      </structure>
+    </statement>
+    <statement id="210.txt-6">
+      <text>Involucres ovoid to hemispheric, becoming campanulate, 15–25 mm.</text>
+      <structure id="o3257" name="involucre">
+        <character char_type="range_value" name="shape" from="ovoid" to="hemispheric" />
+        <character name="shape" value="ovoid" />
+        <character name="shape" value="hemispheric" />
+        <character name="shape" value="campanulate" modifier="becoming" />
+        <character char_type="range_value" name="size" from="15" from_unit="mm" to="25" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="210.txt-7">
+      <text>Phyllaries:</text>
+      <structure id="o3258" name="phyllary" />
+    </statement>
+    <statement id="210.txt-8">
+      <text>bodies dark green, ovate (outer) to oblong-lanceolate (inner), glabrous or finely arachnoid, margins and erect appendages black, ± fringed distally with slender teeth, inner phyllaries with brownish scarious, expanded, erose dissected appendages.</text>
+      <structure id="o3259" name="body">
+        <character name="coloration" value="green" modifier="dark" />
+        <character char_type="range_value" name="shape" from="ovate" to="oblong-lanceolate" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="oblong-lanceolate" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="arachnoid" modifier="finely" />
+      </structure>
+      <structure id="o3260" name="margin">
+        <character name="shape" value="fringed" modifier="± ; distally" constraint="with teeth" constraintid="o3262" />
+      </structure>
+      <structure id="o3261" name="appendage">
+        <character name="orientation" value="erect" />
+        <character name="coloration" value="black" />
+      </structure>
+      <structure id="o3262" name="tooth">
+        <character name="size" value="slender" />
+      </structure>
+      <structure id="o3263" name="phyllary" constraint="inner" />
+      <structure id="o3264" name="appendage">
+        <character name="coloration" value="brownish" />
+        <character name="texture" value="scarious" />
+        <character name="size" value="expanded" />
+        <character name="shape_or_relief" value="erose" />
+        <character name="shape" value="dissected" />
+      </structure>
+      <relation id="r456" name="with" from="o3263" to="o3264" negation="false" />
+    </statement>
+    <statement id="210.txt-9">
+      <text>Florets many;</text>
+      <structure id="o3265" name="floret">
+        <character name="count" value="many" />
+      </structure>
+    </statement>
+    <statement id="210.txt-10">
+      <text>corollas reddish purple (white), those of sterile florets 35–40 mm, often conspicuously enlarged, those of fertile florets 20–25 mm.</text>
+      <structure id="o3266" name="corolla">
+        <character name="coloration" value="purple" modifier="reddish" />
+      </structure>
+      <structure id="o3267" name="corolla">
+        <character char_type="range_value" name="size" from="35" from_unit="mm" to="40" to_unit="mm" />
+        <character name="size" value="enlarged" modifier="often conspicuously" />
+      </structure>
+      <structure id="o3268" name="floret" constraint="sterile" />
+      <relation id="r457" name="part_of" from="o3267" to="o3268" negation="false" />
+      <structure id="o3269" name="corolla">
+        <character char_type="range_value" name="size" from="20" from_unit="mm" to="25" to_unit="mm" />
+      </structure>
+      <structure id="o3270" name="floret" constraint="fertile" />
+      <relation id="r458" name="part_of" from="o3269" to="o3270" negation="false" />
+    </statement>
+    <statement id="210.txt-11">
+      <text>Cypselae brown, 4.5–5 mm, puberulent;</text>
+      <structure id="o3271" name="cypsela">
+        <character name="coloration" value="brown" />
+        <character char_type="range_value" name="size" from="4.5" from_unit="mm" to="5" to_unit="mm" />
+        <character name="pubescence" value="puberulent" />
+      </structure>
+    </statement>
+    <statement id="210.txt-12">
+      <text>pappi of many unequal stiff bristles, white, 4–5 mm.</text>
+      <structure id="o3272" name="pappus">
+        <character name="coloration" value="white" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+      <structure id="o3273" name="bristle">
+        <character name="count" value="many" />
+        <character name="size" value="unequal" />
+        <character name="texture" value="stiff" />
+      </structure>
+      <relation id="r459" name="consist_of" from="o3272" to="o3273" negation="false" />
+    </statement>
+    <statement id="210.txt-13">
+      <text>2 n = 20 (Russia), 40.</text>
+      <structure id="o3274" name="chromosome">
+        <character name="count" value="20" />
+        <character name="count" value="40" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>disturbed sites</habitat>
+  <habitat>pastures</habitat>
+  <habitat>sparingly escaped from cultivation</habitat>
+  <habitat>probably not persisting in all areas where reported</habitat>
+  <elevation>50–1800 m;</elevation>
+  <introduced>introduced;</introduced>
+  <ca_distribution>B.C.</ca_distribution>
+  <ca_distribution>N.B.</ca_distribution>
+  <ca_distribution>Ont.</ca_distribution>
+  <ca_distribution>Que.</ca_distribution>
+  <us_distribution>Conn.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Iowa</us_distribution>
+  <us_distribution>Ky.</us_distribution>
+  <us_distribution>Maine</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>N.H.</us_distribution>
+  <us_distribution>N.J.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>N.Dak.</us_distribution>
+  <us_distribution>Ohio</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <global_distribution>Europe.</global_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

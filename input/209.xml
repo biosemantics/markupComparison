@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>4.</number>
+  <species_name>Centaurea macrocephala</species_name>
+  <authority>Puschkarew ex Willdenow</authority>
+  <place_of_publication>Sp. Pl. 3: 2298. 1803</place_of_publication>
+  <common_name>Globe centaurea, big-head knapweed, yellow bachelor’s button or cornflower, centaurée à gros capitules</common_name>
+  <synonym_of_species_name>Grossheimia macrocephala (Puschkarew ex Willdenow) Sosnowsky &amp; Takhtajan</synonym_of_species_name>
+  <description>
+    <statement id="209.txt-0">
+      <text>Perennials , 50–170 cm.</text>
+      <structure id="o3194" name="whole_organism">
+        <character char_type="range_value" name="size" from="50" from_unit="cm" to="170" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="209.txt-1">
+      <text>Stems usually several, erect, unbranched or sparingly branched distally, villous with septate hairs, thinly arachnoid-tomentose, fistulose proximal to heads.</text>
+      <structure id="o3195" name="stem">
+        <character name="count" value="several" modifier="usually" />
+        <character name="orientation" value="erect" />
+        <character name="architecture" value="unbranched" modifier="distally" />
+        <character name="architecture" value="branched" modifier="sparingly distally" />
+        <character name="pubescence" value="villous" constraint="with hairs" constraintid="o3196" />
+        <character name="pubescence" value="arachnoid-tomentose" modifier="thinly" />
+      </structure>
+      <structure id="o3196" name="hair">
+        <character name="architecture" value="septate" />
+      </structure>
+      <structure id="o3197" name="head" />
+      <relation id="r448" name="fistulose proximal to" from="o3195" to="o3197" negation="false" />
+    </statement>
+    <statement id="209.txt-2">
+      <text>Leaves short-villous and thinly arachnoid, ± glabrate, resin-gland-dotted;</text>
+      <structure id="o3198" name="leaf">
+        <character name="pubescence" value="short-villous" />
+        <character name="pubescence" value="arachnoid" modifier="thinly" />
+        <character name="pubescence" value="glabrate" modifier="±" />
+        <character name="coloration_or_relief" value="resin-gland-dotted" />
+      </structure>
+    </statement>
+    <statement id="209.txt-3">
+      <text>basal and proximal cauline petiolate, blades oblanceolate to narrowly ovate, 10–30 cm, margins entire or shallowly dentate;</text>
+      <structure id="o3199" name="leaf" constraint="basal and proximal cauline">
+        <character name="architecture" value="petiolate" />
+      </structure>
+      <structure id="o3200" name="blade">
+        <character char_type="range_value" name="shape" from="oblanceolate" to="narrowly ovate" />
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="ovate" modifier="narrowly" />
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="30" to_unit="cm" />
+      </structure>
+      <structure id="o3201" name="margin">
+        <character name="shape" value="entire" />
+        <character name="shape" value="dentate" modifier="shallowly" />
+      </structure>
+    </statement>
+    <statement id="209.txt-4">
+      <text>cauline sessile, shortly decurrent, not much smaller except those crowded proximal to heads, blades lanceolate to ovate, 5–10 cm, entire, often ± undulate, apices acute.</text>
+      <structure id="o3202" name="leaf" constraint="cauline">
+        <character name="architecture" value="sessile" />
+        <character name="shape" value="decurrent" modifier="shortly" />
+      </structure>
+      <structure id="o3203" name="head" />
+      <relation id="r449" name="much smaller except those crowded proximal to" from="o3202" to="o3203" negation="true" />
+      <structure id="o3204" name="blade">
+        <character char_type="range_value" name="shape" from="lanceolate" to="ovate" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="ovate" />
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="10" to_unit="cm" />
+        <character name="shape" value="entire" />
+        <character name="shape" value="undulate" modifier="often ±" />
+      </structure>
+      <structure id="o3205" name="apex">
+        <character name="shape" value="acute" />
+      </structure>
+    </statement>
+    <statement id="209.txt-5">
+      <text>Heads disciform or weakly radiant, borne singly, sessile, closely subtended by clusters of reduced leaves.</text>
+      <structure id="o3206" name="head">
+        <character name="shape_or_architecture" value="disciform" />
+        <character name="architecture_or_arrangement" value="radiant" modifier="weakly" />
+        <character name="arrangement" value="singly" />
+        <character name="architecture" value="sessile" />
+      </structure>
+      <structure id="o3207" name="cluster" />
+      <relation id="r450" name="subtended by" from="o3206" to="o3207" negation="false" />
+      <structure id="o3208" name="leaf">
+        <character name="size" value="reduced" />
+      </structure>
+      <relation id="r451" name="consist_of" from="o3207" to="o3208" negation="false" />
+    </statement>
+    <statement id="209.txt-6">
+      <text>Involucres ovoid to hemispheric, 25–35 mm.</text>
+      <structure id="o3209" name="involucre">
+        <character char_type="range_value" name="shape" from="ovoid" to="hemispheric" />
+        <character name="shape" value="ovoid" />
+        <character name="shape" value="hemispheric" />
+        <character char_type="range_value" name="size" from="25" from_unit="mm" to="35" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="209.txt-7">
+      <text>Phyllaries :</text>
+      <structure id="o3210" name="phyllary" />
+    </statement>
+    <statement id="209.txt-8">
+      <text>bodies pale green or stramineous, ovate or broadly lanceolate, glabrous, appendages erect to spreading, brown, scarious, abruptly expanded, 1–2 cm wide, ± covering phyllary bodies, lacerate fringed, sometimes tipped by weak spines 1–2 mm, glabrous.</text>
+      <structure id="o3211" name="body">
+        <character name="coloration" value="green" modifier="pale" />
+        <character name="coloration" value="stramineous" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="lanceolate" modifier="broadly" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+      <structure id="o3212" name="appendage">
+        <character char_type="range_value" name="orientation" from="erect" to="spreading" />
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="spreading" />
+        <character name="coloration" value="brown" />
+        <character name="texture" value="scarious" />
+        <character name="size" value="expanded" modifier="abruptly" />
+        <character char_type="range_value" name="size" from="1" from_unit="cm" to="2" to_unit="cm" />
+      </structure>
+      <structure id="o3213" name="body" constraint="phyllary">
+        <character name="shape" value="lacerate fringed" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+      <structure id="o3214" name="spine">
+        <character name="texture" value="weak" />
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="2" to_unit="mm" />
+      </structure>
+      <relation id="r452" name="tipped by" from="o3213" to="o3214" negation="false" />
+    </statement>
+    <statement id="209.txt-9">
+      <text>Florets many ;</text>
+      <structure id="o3215" name="floret">
+        <character name="count" value="many" />
+      </structure>
+    </statement>
+    <statement id="209.txt-10">
+      <text>corollas yellow;</text>
+      <structure id="o3216" name="corolla">
+        <character name="coloration" value="yellow" />
+      </structure>
+    </statement>
+    <statement id="209.txt-11">
+      <text>corollas of sterile florets slightly expanded, ca. 4 mm;</text>
+      <structure id="o3217" name="corolla">
+        <character name="size" value="expanded" modifier="slightly" />
+        <character name="size" value="4" unit="mm" />
+      </structure>
+      <structure id="o3218" name="floret" constraint="sterile" />
+      <relation id="r453" name="part_of" from="o3217" to="o3218" negation="false" />
+    </statement>
+    <statement id="209.txt-12">
+      <text>corollas of disc florets ca. 3.5 mm.</text>
+      <structure id="o3219" name="corolla">
+        <character name="size" value="3.5" unit="mm" />
+      </structure>
+      <structure id="o3220" name="floret" constraint="disc" />
+      <relation id="r454" name="part_of" from="o3219" to="o3220" negation="false" />
+    </statement>
+    <statement id="209.txt-13">
+      <text>Cypselae 7–8 mm;</text>
+      <structure id="o3221" name="cypsela">
+        <character char_type="range_value" name="size" from="7" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="209.txt-14">
+      <text>pappi of many setiform scales (“flattened bristles”), 5–8 mm.</text>
+      <structure id="o3222" name="pappus">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+      <structure id="o3223" name="scale">
+        <character name="count" value="many" />
+        <character name="shape" value="setiform" />
+      </structure>
+      <relation id="r455" name="consist_of" from="o3222" to="o3223" negation="false" />
+    </statement>
+    <statement id="209.txt-15">
+      <text>2 n = 18 (Russia).</text>
+      <structure id="o3224" name="chromosome">
+        <character name="count" value="18" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>garden escape in meadows</habitat>
+  <habitat>grassy clearings</habitat>
+  <elevation>400–2000 m;</elevation>
+  <introduced>introduced;</introduced>
+  <ca_distribution>Ont.</ca_distribution>
+  <ca_distribution>Que.</ca_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Mich.</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <us_distribution>Wis.</us_distribution>
+  <global_distribution>e Europe</global_distribution>
+  <global_distribution>w Asia.</global_distribution>
+  <discussion>Although Centaurea macrocephala is cultivated as an ornamental and for cut flowers in many areas, it has been declared a noxious weed by the state of Washington because of its potential status as an invader.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>3.</number>
+  <species_name>Omalotheca sylvatica</species_name>
+  <authority>(Linnaeus) Schultz-Bipontinus &amp; F. W. Schultz</authority>
+  <place_of_publication>in F. W. Schultz, Arch. Fl., 311. 1861</place_of_publication>
+  <common_name>Woodland Arctic-cudweed , gnaphale des bois</common_name>
+  <synonym_of_species_name>Gnaphalium sylvaticum Linnaeus, Sp. Pl. 2: 856. 1753</synonym_of_species_name>
+  <description>
+    <statement id="727.txt-0">
+      <text>Plants 10–70 cm.</text>
+      <structure id="o15156" name="whole_organism">
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="70" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="727.txt-1">
+      <text>Leaves basal and cauline;</text>
+      <structure id="o15157" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+      </structure>
+    </statement>
+    <statement id="727.txt-2">
+      <text>blades 1-nerved, linear to narrowly oblanceolate or lanceolate, 2–8 cm × 2–10 mm, distal cauline smaller, linear, faces bicolor, abaxial gray, silvery sericeous, adaxial green, glabrescent.</text>
+      <structure id="o15158" name="blade">
+        <character name="architecture" value="1-nerved" />
+        <character char_type="range_value" name="shape" from="linear" to="narrowly oblanceolate or lanceolate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="oblanceolate" modifier="narrowly" />
+        <character name="shape" value="lanceolate" modifier="narrowly" />
+        <character char_type="range_value" name="length" from="2" from_unit="cm" to="8" to_unit="cm" />
+        <character char_type="range_value" name="width" from="2" from_unit="mm" to="10" to_unit="mm" />
+        <character name="insertion_or_position" value="distal cauline" />
+        <character name="size" value="smaller" />
+        <character name="arrangement_or_shape" value="linear" />
+      </structure>
+      <structure id="o15159" name="face">
+        <character name="coloration" value="bicolor" />
+        <character name="insertion_or_position" value="abaxial" />
+        <character name="coloration" value="gray" />
+        <character name="coloration" value="silvery" />
+        <character name="pubescence" value="sericeous" />
+        <character name="insertion_or_position" value="adaxial" />
+        <character name="coloration" value="green" />
+        <character name="pubescence" value="glabrescent" />
+      </structure>
+    </statement>
+    <statement id="727.txt-3">
+      <text>Heads (20–90) in loose, spiciform (leafy-bracteate, interrupted) arrays (4–35 cm, occupying 1 / 3 – 5 / 6 plant heights, simple or branched at bases, primary axes mostly visible).</text>
+      <structure id="o15160" name="head">
+        <character char_type="range_value" name="atypical_count" from="20" to="90" constraint="in arrays" constraintid="o15161" />
+      </structure>
+      <structure id="o15161" name="array">
+        <character name="architecture_or_texture" value="loose" />
+        <character name="architecture" value="spiciform" />
+      </structure>
+    </statement>
+    <statement id="727.txt-4">
+      <text>Involucres campanulo-turbinate, 5–6.5 mm.</text>
+      <structure id="o15162" name="involucre">
+        <character name="shape" value="campanulo-turbinate" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="6.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="727.txt-5">
+      <text>Phyllaries some or all with conspicuous dark brown spot distal to middle.</text>
+      <structure id="o15163" name="phyllary" />
+      <structure id="o15164" name="spot">
+        <character name="manifestation" value="conspicuous" />
+        <character name="coloration" value="brown" modifier="dark" />
+      </structure>
+      <relation id="r1636" name="with" from="o15163" to="o15164" negation="false" />
+      <structure id="o15165" name="middle" />
+      <relation id="r1637" name="distal to" from="o15164" to="o15165" negation="false" />
+    </statement>
+    <statement id="727.txt-6">
+      <text>Cypselae cylindric to fusiform, minutely strigose;</text>
+      <structure id="o15166" name="cypsela">
+        <character char_type="range_value" name="shape" from="cylindric" to="fusiform" />
+        <character name="shape" value="cylindric" />
+        <character name="shape" value="fusiform" />
+        <character name="pubescence" value="strigose" modifier="minutely" />
+      </structure>
+    </statement>
+    <statement id="727.txt-7">
+      <text>pappus bristles basally connate, falling together.</text>
+      <structure id="o15167" name="bristle" constraint="pappus">
+        <character name="fusion" value="connate" modifier="basally" />
+        <character name="orientation" value="falling" modifier="together" />
+      </structure>
+    </statement>
+    <statement id="727.txt-8">
+      <text>2 n = 56.</text>
+      <structure id="o15168" name="chromosome">
+        <character name="count" value="56" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <habitat>open woods</habitat>
+  <habitat>boggy woods</habitat>
+  <habitat>rocky slopes</habitat>
+  <habitat>clearings</habitat>
+  <habitat>fields</habitat>
+  <habitat>borders of woods</habitat>
+  <habitat>roadsides</habitat>
+  <habitat>muddy banks</habitat>
+  <habitat>disturbed sites</habitat>
+  <elevation>10–500 m;</elevation>
+  <global_distribution>St. Pierre and Miquelon</global_distribution>
+  <ca_distribution>B.C.</ca_distribution>
+  <ca_distribution>N.B.</ca_distribution>
+  <ca_distribution>Nfld. and Labr. (Nfld.)</ca_distribution>
+  <ca_distribution>N.S.</ca_distribution>
+  <ca_distribution>Ont.</ca_distribution>
+  <ca_distribution>P.E.I.</ca_distribution>
+  <ca_distribution>Que.</ca_distribution>
+  <us_distribution>Maine</us_distribution>
+  <us_distribution>Mich.</us_distribution>
+  <us_distribution>N.H.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <us_distribution>Vt.</us_distribution>
+  <us_distribution>Wis.</us_distribution>
+  <global_distribution>Europe</global_distribution>
+  <global_distribution>Asia (Caucasus).</global_distribution>
+  <global_distribution>Asia (Iran).</global_distribution>
+  <global_distribution>Asia (Siberia).</global_distribution>
+  <discussion>The circumboreal Omalotheca sylvatica may have been introduced from Eurasia (Frére Marie-Victorin 1995). Omalotheca alpigena (K. Koch) Holub and O. caucasica (Sommier &amp; Levier) S. K. Cherepanov were treated as synonyms of O. sylvatica by A. J. C. Grierson (1975); they have been recognized as distinct species in other treatments.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

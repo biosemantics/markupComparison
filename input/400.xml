@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>13.</number>
+  <species_name>Hieracium crepidispermum</species_name>
+  <authority>Fries</authority>
+  <place_of_publication>Nova Acta Regiae Soc. Sci. Upsal. 14: 146. 1848</place_of_publication>
+  <synonym_of_species_name>Hieracium lemmonii A. Gray</synonym_of_species_name>
+  <description>
+    <statement id="400.txt-0">
+      <text>Plants 25–45(–100) cm.</text>
+      <structure id="o7778" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="45" to="100" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="25" from_unit="cm" to="45" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="400.txt-1">
+      <text>Stems proximally piloso-hirsute (hairs 3–6+ mm), distally piloso-hirsute (hairs 1–2+ mm) and stellate-pubescent.</text>
+      <structure id="o7779" name="stem">
+        <character name="pubescence" value="piloso-hirsute" modifier="proximally" />
+        <character name="pubescence" value="piloso-hirsute" modifier="distally" />
+        <character name="pubescence" value="stellate-pubescent" />
+      </structure>
+    </statement>
+    <statement id="400.txt-2">
+      <text>Leaves:</text>
+      <structure id="o7780" name="leaf" />
+    </statement>
+    <statement id="400.txt-3">
+      <text>basal 2–8+, cauline (0–)3–4+;</text>
+      <structure id="o7781" name="leaf" constraint="basal">
+        <character char_type="range_value" name="count" from="2" to="8" upper_restricted="false" />
+      </structure>
+      <structure id="o7782" name="leaf" constraint="cauline">
+        <character char_type="range_value" name="atypical_count" from="0" to="3" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="3" to="4" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="400.txt-4">
+      <text>blades elliptic to oblanceolate, 30–85 × 16–35 mm, lengths 2.5–5+ times widths, bases cuneate (basal) or clasping (cauline), margins entire or denticulate, apices obtuse to acute, faces piloso-hirsute (hairs 1–2+ mm).</text>
+      <structure id="o7783" name="blade">
+        <character char_type="range_value" name="shape" from="elliptic" to="oblanceolate" />
+        <character name="shape" value="elliptic" />
+        <character name="shape" value="oblanceolate" />
+        <character char_type="range_value" name="length" from="30" from_unit="mm" to="85" to_unit="mm" />
+        <character char_type="range_value" name="width" from="16" from_unit="mm" to="35" to_unit="mm" />
+        <character name="size" value="widths" modifier="2.5-5+ times" />
+      </structure>
+      <structure id="o7784" name="base">
+        <character name="shape" value="cuneate" />
+        <character name="architecture" value="clasping" />
+      </structure>
+      <structure id="o7785" name="margin">
+        <character name="shape" value="entire" />
+        <character name="shape" value="denticulate" />
+      </structure>
+      <structure id="o7786" name="apex">
+        <character char_type="range_value" name="shape" from="obtuse" to="acute" />
+        <character name="shape" value="obtuse" />
+        <character name="shape" value="acute" />
+      </structure>
+      <structure id="o7787" name="face">
+        <character name="pubescence" value="piloso-hirsute" />
+      </structure>
+    </statement>
+    <statement id="400.txt-5">
+      <text>Heads 8–12(–25+) in ± paniculiform arrays.</text>
+      <structure id="o7788" name="head">
+        <character char_type="range_value" name="atypical_count" from="12" to="25" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="8" to="12" constraint="in arrays" constraintid="o7789" />
+      </structure>
+      <structure id="o7789" name="array">
+        <character name="architecture" value="paniculiform" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="400.txt-6">
+      <text>Peduncles stellate-pubescent.</text>
+      <structure id="o7790" name="peduncle">
+        <character name="pubescence" value="stellate-pubescent" />
+      </structure>
+    </statement>
+    <statement id="400.txt-7">
+      <text>Calyculi:</text>
+      <structure id="o7791" name="calyculus" />
+    </statement>
+    <statement id="400.txt-8">
+      <text>bractlets 9–12+.</text>
+      <structure id="o7792" name="bractlet">
+        <character char_type="range_value" name="count" from="9" to="12" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="400.txt-9">
+      <text>Involucres campanulate, 7–9+ mm.</text>
+      <structure id="o7793" name="involucre">
+        <character name="shape" value="campanulate" />
+        <character char_type="range_value" name="size" from="7" from_unit="mm" to="9" to_unit="mm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="400.txt-10">
+      <text>Phyllaries 13–18+, apices ± rounded to acute, abaxial faces stellate-pubescent.</text>
+      <structure id="o7794" name="phyllary">
+        <character char_type="range_value" name="count" from="13" to="18" upper_restricted="false" />
+      </structure>
+      <structure id="o7795" name="apex">
+        <character char_type="range_value" name="shape" from="rounded" to="acute" modifier="±" />
+        <character name="shape" value="rounded" modifier="±" />
+        <character name="shape" value="acute" modifier="±" />
+      </structure>
+      <structure id="o7796" name="face" constraint="abaxial">
+        <character name="pubescence" value="stellate-pubescent" />
+      </structure>
+    </statement>
+    <statement id="400.txt-11">
+      <text>Florets 25–40;</text>
+      <structure id="o7797" name="floret">
+        <character char_type="range_value" name="count" from="25" to="40" />
+      </structure>
+    </statement>
+    <statement id="400.txt-12">
+      <text>corollas whitish to pale yellow, 8–9 mm.</text>
+      <structure id="o7798" name="corolla">
+        <character char_type="range_value" name="coloration" from="whitish" to="pale-yellow" />
+        <character name="coloration" value="whitish" />
+        <character name="coloration" value="yellow" modifier="pale" />
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="9" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="400.txt-13">
+      <text>Cypselae urceolate, 3.5–4.5 mm;</text>
+      <structure id="o7799" name="cypsela">
+        <character name="shape" value="urceolate" />
+        <character char_type="range_value" name="size" from="3.5" from_unit="mm" to="4.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="400.txt-14">
+      <text>pappi of 45–60+, white or stramineous bristles in 2+ series, 5–5.5+ mm.</text>
+      <structure id="o7800" name="pappus">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="5.5" to_unit="mm" upper_restricted="false" />
+      </structure>
+      <structure id="o7801" name="bristle">
+        <character char_type="range_value" name="count" from="45" to="60" upper_restricted="false" />
+        <character name="coloration" value="white" />
+        <character name="coloration" value="stramineous" />
+      </structure>
+      <relation id="r934" name="consist_of" from="o7800" to="o7801" negation="false" />
+      <structure id="o7802" name="series">
+        <character name="count" char_type="range_value" from="2" upper_restricted="false" />
+      </structure>
+      <relation id="r935" name="in" from="o7801" to="o7802" negation="false" />
+    </statement>
+  </description>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>springy sites</habitat>
+  <habitat>along streams</habitat>
+  <elevation>2200–2500 m;</elevation>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <global_distribution>Mexico.</global_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

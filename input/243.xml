@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>4.</number>
+  <species_name>Elephantopus nudatus</species_name>
+  <authority>A. Gray</authority>
+  <place_of_publication>Proc. Amer. Acad. Arts 15: 47. 1880</place_of_publication>
+  <description>
+    <statement id="243.txt-0">
+      <text>Plants (1–)3–11+ dm.</text>
+      <structure id="o4114" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="1" to="3" from_unit="dm" to_unit="dm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="3" from_unit="dm" to="11" to_unit="dm" upper_restricted="false" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="243.txt-1">
+      <text>Leaves mostly basal at flowering;</text>
+      <structure id="o4115" name="leaf">
+        <character name="insertion_or_position" value="basal" modifier="mostly; at flowering" />
+      </structure>
+    </statement>
+    <statement id="243.txt-2">
+      <text>blades mostly oblanceolate to spatulate, sometimes elliptic, 7–15(–20+) cm × 20–35(–45+) mm (including petioles), both faces strigose or pilose to hirsute.</text>
+      <structure id="o4116" name="blade">
+        <character name="shape" value="oblanceolate" modifier="mostly" />
+        <character name="shape" value="spatulate" />
+        <character name="arrangement_or_shape" value="elliptic" modifier="sometimes" />
+        <character char_type="range_value" name="atypical_length" from="15" to="20" from_unit="cm" to_unit="cm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="7" from_unit="cm" to="15" to_unit="cm" />
+        <character char_type="range_value" name="atypical_width" from="35" to="45" from_unit="mm" to_unit="mm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="width" from="20" from_unit="mm" to="35" to_unit="mm" />
+        <character char_type="range_value" name="pubescence" from="pilose" to="hirsute" />
+        <character name="pubescence" value="strigose" />
+        <character name="pubescence" value="pilose" />
+        <character name="pubescence" value="hirsute" />
+      </structure>
+      <structure id="o4117" name="face" />
+    </statement>
+    <statement id="243.txt-4">
+      <text>Inner phyllaries 6–7.5 mm, sparsely strigose or hispidulous with hairs 0.05–0.3(–0.5) mm.</text>
+      <structure id="o4118" name="phyllary" constraint="inner">
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="7.5" to_unit="mm" />
+        <character name="pubescence" value="strigose" modifier="sparsely" />
+        <character name="pubescence" value="hispidulous" modifier="sparsely" constraint="with hairs" constraintid="o4119" />
+      </structure>
+      <structure id="o4119" name="hair">
+        <character char_type="range_value" name="atypical_size" from="0.3" to="0.5" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="0.05" from_unit="mm" to="0.3" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="243.txt-5">
+      <text>Cypselae 2.5–3 mm;</text>
+      <structure id="o4120" name="cypsela">
+        <character char_type="range_value" name="size" from="2.5" from_unit="mm" to="3" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="243.txt-6">
+      <text>pappi 3–4.5 mm.</text>
+      <structure id="o4121" name="pappus">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="4.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="243.txt-7">
+      <text>2 n = 22.</text>
+      <structure id="o4122" name="chromosome">
+        <character name="count" value="22" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <habitat>open or shaded</habitat>
+  <habitat>dry to wet places in pine forests and mixed forests</habitat>
+  <habitat>often on sandy soils</habitat>
+  <elevation>0–100 m;</elevation>
+  <us_distribution>Ala.</us_distribution>
+  <us_distribution>Ark.</us_distribution>
+  <us_distribution>Del.</us_distribution>
+  <us_distribution>Fla.</us_distribution>
+  <us_distribution>Ga.</us_distribution>
+  <us_distribution>La.</us_distribution>
+  <us_distribution>Md.</us_distribution>
+  <us_distribution>Miss.</us_distribution>
+  <us_distribution>N.C.</us_distribution>
+  <us_distribution>S.C.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <us_distribution>Va.</us_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

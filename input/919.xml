@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>41.</number>
+  <species_name>Artemisia packardiae</species_name>
+  <authority>J. W. Grimes &amp; Ertter</authority>
+  <place_of_publication>Brittonia 31: 454, fig. 1. 1979</place_of_publication>
+  <common_name>Succor Creek mugwort</common_name>
+  <description>
+    <statement id="919.txt-0">
+      <text>Perennials, 20–50(–60) cm, strongly aromatic (rhizomatous, fibrous-rooted).</text>
+      <structure id="o18919" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="50" to="60" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="20" from_unit="cm" to="50" to_unit="cm" />
+        <character name="odor" value="aromatic" modifier="strongly" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="919.txt-1">
+      <text>Stems 3–20, erect, light brown, simple or branched, glabrous.</text>
+      <structure id="o18920" name="stem">
+        <character char_type="range_value" name="count" from="3" to="20" />
+        <character name="orientation" value="erect" />
+        <character name="coloration" value="brown" modifier="light" />
+        <character name="architecture" value="simple" />
+        <character name="architecture" value="branched" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="919.txt-2">
+      <text>Leaves cauline, dark green;</text>
+      <structure id="o18921" name="leaf">
+        <character name="insertion_or_position" value="cauline" />
+        <character name="coloration" value="green" modifier="dark" />
+      </structure>
+    </statement>
+    <statement id="919.txt-3">
+      <text>blades lanceolate, 1.5–5 × 1–2.5 cm, 2-pinnatifid (primary lobes 5–9, 0.4–1.5 cm; cauline smaller, pinnatifid to entire), faces tomentose (abaxial) or glabrous (adaxial).</text>
+      <structure id="o18922" name="blade">
+        <character name="shape" value="lanceolate" />
+        <character char_type="range_value" name="length" from="1.5" from_unit="cm" to="5" to_unit="cm" />
+        <character char_type="range_value" name="width" from="1" from_unit="cm" to="2.5" to_unit="cm" />
+        <character name="shape" value="2-pinnatifid" />
+      </structure>
+      <structure id="o18923" name="face">
+        <character name="pubescence" value="tomentose" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="919.txt-4">
+      <text>Heads (peduncles 0 or to 3 mm) in usually paniculiform, sometimes racemiform, arrays 5–20 × 1.5–4 cm.</text>
+      <structure id="o18924" name="head" />
+      <structure id="o18925" name="array">
+        <character name="architecture" value="paniculiform" modifier="usually" />
+        <character name="architecture" value="racemiform" modifier="sometimes" />
+        <character char_type="range_value" name="length" from="5" from_unit="cm" to="20" to_unit="cm" />
+        <character char_type="range_value" name="width" from="1.5" from_unit="cm" to="4" to_unit="cm" />
+      </structure>
+      <relation id="r2005" name="in" from="o18924" to="o18925" negation="false" />
+    </statement>
+    <statement id="919.txt-5">
+      <text>Involucres campanulate to hemispheric, 2.5–3.5 × 2–4.5 mm.</text>
+      <structure id="o18926" name="involucre">
+        <character char_type="range_value" name="shape" from="campanulate" to="hemispheric" />
+        <character name="shape" value="campanulate" />
+        <character name="shape" value="hemispheric" />
+        <character char_type="range_value" name="length" from="2.5" from_unit="mm" to="3.5" to_unit="mm" />
+        <character char_type="range_value" name="width" from="2" from_unit="mm" to="4.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="919.txt-6">
+      <text>Phyllaries broadly ovate, glandular (at least at bases).</text>
+      <structure id="o18927" name="phyllary">
+        <character name="shape" value="ovate" modifier="broadly" />
+        <character name="architecture_or_exudation_or_pubescence" value="glandular" />
+      </structure>
+    </statement>
+    <statement id="919.txt-7">
+      <text>Florets:</text>
+      <structure id="o18928" name="floret" />
+    </statement>
+    <statement id="919.txt-8">
+      <text>pistillate 3–8;</text>
+    </statement>
+    <statement id="919.txt-9">
+      <text>bisexual, sometimes functionally staminate, (15–)20–35;</text>
+      <structure id="o18929" name="floret" constraint="pistillate">
+        <character char_type="range_value" name="count" from="3" to="8" />
+        <character name="reproduction" value="bisexual" />
+        <character name="architecture" value="staminate" modifier="sometimes functionally" />
+        <character char_type="range_value" name="atypical_count" from="15" to="20" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="20" to="35" />
+      </structure>
+    </statement>
+    <statement id="919.txt-10">
+      <text>corollas bright yellow, 1.3–2.2 mm, glandular.</text>
+      <structure id="o18930" name="corolla">
+        <character name="coloration" value="yellow" modifier="bright" />
+        <character char_type="range_value" name="size" from="1.3" from_unit="mm" to="2.2" to_unit="mm" />
+        <character name="architecture_or_exudation_or_pubescence" value="glandular" />
+      </structure>
+    </statement>
+    <statement id="919.txt-11">
+      <text>Cypselae (light brown) ellipsoid (± arcuate, ribs 4, prominent), ca. 1 mm, glandular.</text>
+      <structure id="o18931" name="cypsela">
+        <character name="shape" value="ellipsoid" />
+        <character name="size" value="1" unit="mm" />
+        <character name="architecture_or_exudation_or_pubescence" value="glandular" />
+      </structure>
+    </statement>
+    <statement id="919.txt-12">
+      <text>2 n = 18.</text>
+      <structure id="o18932" name="chromosome">
+        <character name="count" value="18" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>late summer</flowering_time>
+  <habitat>coarse taluses</habitat>
+  <habitat>alkaline soils</habitat>
+  <habitat>erosion gullies</habitat>
+  <elevation>1000–2400 m;</elevation>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <discussion>Artemisia packardiae is known only from southeastern Oregon, western Idaho, and northeastern Nevada. It is closely related to A. michauxiana and could be considered an ecologic variant.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Hecastocleis shockleyi</species_name>
+  <authority>A. Gray</authority>
+  <place_of_publication>Proc. Amer. Acad. Arts 17: 221. 1882</place_of_publication>
+  <common_name>Prickle-leaf</common_name>
+  <description>
+    <statement id="4.txt-0">
+      <text>Leaves:</text>
+      <structure id="o7713" name="leaf" />
+    </statement>
+    <statement id="4.txt-1">
+      <text>blades 1–4 cm, bases ± clasping, margins thickened, usually with 3–6 spines 1–3 mm near bases, apices mucronate or acute.</text>
+      <structure id="o7714" name="blade">
+        <character char_type="range_value" name="size" from="1" from_unit="cm" to="4" to_unit="cm" />
+      </structure>
+      <structure id="o7715" name="base">
+        <character name="architecture" value="clasping" modifier="±" />
+      </structure>
+      <structure id="o7716" name="margin">
+        <character name="thickness" value="thickened" />
+      </structure>
+      <structure id="o7717" name="spine">
+        <character char_type="range_value" name="count" from="3" to="6" />
+        <character char_type="range_value" name="location" from="1" from_unit="mm" to="3" to_unit="mm" constraint="near bases" constraintid="o7718" />
+      </structure>
+      <relation id="r927" name="with" from="o7716" to="o7717" negation="false" modifier="usually" />
+      <structure id="o7718" name="base" />
+      <structure id="o7719" name="apex">
+        <character name="shape" value="mucronate" />
+        <character name="shape" value="acute" />
+      </structure>
+    </statement>
+    <statement id="4.txt-2">
+      <text>Phyllaries usually lanate on margins.</text>
+      <structure id="o7720" name="phyllary">
+        <character name="pubescence" value="lanate" modifier="usually" constraint="on margins" constraintid="o7721" />
+      </structure>
+      <structure id="o7721" name="margin" />
+    </statement>
+    <statement id="4.txt-3">
+      <text>Corollas pinkish purple in bud, white at flowering, ca. 10 mm.</text>
+      <structure id="o7722" name="corolla">
+        <character name="coloration" value="purple" modifier="pinkish" constraint="in bud" constraintid="o7723" />
+        <character name="coloration" value="white" modifier="at flowering" />
+        <character name="size" value="10" unit="mm" />
+      </structure>
+      <structure id="o7723" name="bud" />
+    </statement>
+    <statement id="4.txt-4">
+      <text>Cypselae brown, 5 mm;</text>
+      <structure id="o7724" name="cypsela">
+        <character name="coloration" value="brown" />
+        <character name="size" value="5" unit="mm" />
+      </structure>
+    </statement>
+    <statement id="4.txt-5">
+      <text>pappi 1–2 mm.</text>
+      <structure id="o7725" name="pappus">
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="2" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="4.txt-6">
+      <text>2 n = 16.</text>
+      <structure id="o7726" name="chromosome">
+        <character name="count" value="16" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <habitat>granite, basalt, and caliche soils</habitat>
+  <habitat>low desert scrub</habitat>
+  <elevation>1700–2000 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <discussion>Hecastocleis shockleyi is known from southwestern Nevada and adjacent California.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

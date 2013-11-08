@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>4.</number>
+  <species_name>Agoseris monticola</species_name>
+  <authority>Greene</authority>
+  <place_of_publication>Pittonia 4: 37. 1899</place_of_publication>
+  <common_name>Sierra Nevada agoseris</common_name>
+  <synonym_of_species_name>Agoseris covillei Greene; A. decumbens Greene; A. glauca (Pursh) Rafinesque var. monticola (Greene) Q. Jones</synonym_of_species_name>
+  <description>
+    <statement id="501.txt-0">
+      <text>Stems 0.</text>
+      <structure id="o10152" name="stem">
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+    <statement id="501.txt-1">
+      <text>Leaves mostly decumbent to prostrate;</text>
+      <structure id="o10153" name="leaf">
+        <character name="habit" value="decumbent" modifier="mostly" />
+        <character name="orientation" value="prostrate" />
+      </structure>
+    </statement>
+    <statement id="501.txt-2">
+      <text>petioles rarely purplish, margins not ciliate;</text>
+      <structure id="o10154" name="petiole">
+        <character name="coloration" value="purplish" modifier="rarely" />
+      </structure>
+      <structure id="o10155" name="margin">
+        <character name="architecture_or_shape" value="ciliate" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="501.txt-3">
+      <text>blades oblanceolate to spatulate, 2–10(–14) cm, margins usually dentate to lobed or laciniately pinnatifid, rarely entire, lobes 2–3 pairs, linear to oblanceolate, proximal lobes often retrorse, distal often antrorse, lobules often present, faces mostly puberulent to villous, sometimes glabrous and glaucous.</text>
+      <structure id="o10156" name="blade">
+        <character char_type="range_value" name="shape" from="oblanceolate" to="spatulate" />
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="spatulate" />
+        <character char_type="range_value" name="atypical_size" from="10" to="14" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="2" from_unit="cm" to="10" to_unit="cm" />
+      </structure>
+      <structure id="o10157" name="margin">
+        <character name="shape" value="dentate" modifier="usually" />
+        <character name="shape" value="lobed" />
+        <character name="shape" value="pinnatifid" modifier="laciniately" />
+        <character name="shape" value="entire" modifier="rarely" />
+      </structure>
+      <structure id="o10158" name="lobe">
+        <character char_type="range_value" name="count" from="2" to="3" />
+        <character char_type="range_value" name="shape" from="linear" to="oblanceolate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="oblanceolate" />
+      </structure>
+      <structure id="o10159" name="lobe" constraint="proximal">
+        <character name="orientation" value="retrorse" modifier="often" />
+        <character name="insertion_or_position" value="distal" modifier="often" />
+        <character name="orientation" value="antrorse" />
+      </structure>
+      <structure id="o10160" name="lobule">
+        <character name="presence" value="present" modifier="often" />
+      </structure>
+      <structure id="o10161" name="face">
+        <character name="pubescence" value="puberulent" modifier="mostly" />
+        <character name="pubescence" value="villous" />
+        <character name="pubescence" value="glabrous" modifier="sometimes" />
+        <character name="coating" value="glaucous" />
+      </structure>
+    </statement>
+    <statement id="501.txt-4">
+      <text>Peduncles not elongating after flowering, 2–25 cm in fruit, basally lanate, apically stipitate-glandular.</text>
+      <structure id="o10162" name="peduncle">
+        <character name="size" value="elongating" modifier="not" constraint="after flowering, 2-25 cm in fruit" constraintid="o10163" />
+        <character name="pubescence" value="lanate" modifier="basally" />
+        <character name="architecture_or_exudation_or_pubescence" value="stipitate-glandular" modifier="apically" />
+      </structure>
+      <structure id="o10163" name="fruit" />
+    </statement>
+    <statement id="501.txt-5">
+      <text>Involucres obconic to campanulate, 1–2 cm in fruit.</text>
+      <structure id="o10164" name="involucre">
+        <character char_type="range_value" name="shape" from="obconic" to="campanulate" />
+        <character name="shape" value="obconic" />
+        <character name="shape" value="campanulate" />
+        <character char_type="range_value" name="size" from="1" from_unit="cm" to="2" to_unit="cm" constraint="in fruit" constraintid="o10165" />
+      </structure>
+      <structure id="o10165" name="fruit" />
+    </statement>
+    <statement id="501.txt-6">
+      <text>Phyllaries in 2–4(–6) series, usually rosy purple, rarely green, sometimes spotted, often with a purple-black midstripes, unequal, faces ± hairy, stipitate-glandular;</text>
+      <structure id="o10166" name="phyllary">
+        <character name="coloration" value="purple" modifier="usually;rosy" />
+        <character name="coloration" value="green" modifier="rarely" />
+        <character name="coloration" value="spotted" modifier="sometimes" />
+        <character name="size" value="unequal" />
+      </structure>
+      <structure id="o10167" name="series" constraint="-6">
+        <character char_type="range_value" name="count" from="2" to="4" />
+      </structure>
+      <relation id="r1174" name="in" from="o10166" to="o10167" negation="false" />
+      <structure id="o10168" name="midstripe">
+        <character name="coloration" value="black" modifier="purple" />
+      </structure>
+      <relation id="r1175" name="with" from="o10166" to="o10168" negation="false" modifier="often" />
+      <structure id="o10169" name="face">
+        <character name="pubescence" value="hairy" modifier="±" />
+        <character name="architecture_or_exudation_or_pubescence" value="stipitate-glandular" />
+      </structure>
+    </statement>
+    <statement id="501.txt-7">
+      <text>outer usually erect, sometimes spreading apically, adaxially glabrous;</text>
+      <structure id="o10170" name="phyllary" constraint="outer">
+        <character name="orientation" value="erect" modifier="usually" />
+        <character name="orientation" value="spreading" modifier="sometimes ; apically" />
+        <character name="pubescence" value="glabrous" modifier="adaxially" />
+      </structure>
+    </statement>
+    <statement id="501.txt-8">
+      <text>inner erect, not elongating after flowering.</text>
+      <structure id="o10171" name="phyllary" constraint="inner">
+        <character name="orientation" value="erect" />
+        <character name="size" value="elongating" modifier="not; after flowering" />
+      </structure>
+    </statement>
+    <statement id="501.txt-9">
+      <text>Receptacles epaleate, rarely paleate (outer florets only).</text>
+      <structure id="o10172" name="receptacle">
+        <character name="architecture" value="epaleate" />
+        <character name="architecture" value="paleate" modifier="rarely" />
+      </structure>
+    </statement>
+    <statement id="501.txt-10">
+      <text>Florets 10–40;</text>
+      <structure id="o10173" name="floret">
+        <character char_type="range_value" name="count" from="10" to="40" />
+      </structure>
+    </statement>
+    <statement id="501.txt-11">
+      <text>corollas yellow, tubes 4–10 mm, ligules 5–11 × 2–4 mm;</text>
+      <structure id="o10174" name="corolla">
+        <character name="coloration" value="yellow" />
+      </structure>
+      <structure id="o10175" name="tube">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+      <structure id="o10176" name="ligule">
+        <character char_type="range_value" name="length" from="5" from_unit="mm" to="11" to_unit="mm" />
+        <character char_type="range_value" name="width" from="2" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="501.txt-12">
+      <text>anthers 3–5 mm.</text>
+      <structure id="o10177" name="anther">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="501.txt-13">
+      <text>Cypselae 6–10 mm;</text>
+      <structure id="o10178" name="cypsela">
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="501.txt-15">
+      <text>ribs ridged to flattened, straight;</text>
+      <structure id="o10179" name="rib">
+        <character char_type="range_value" name="shape" from="ridged" to="flattened" />
+        <character name="shape" value="ridged" />
+        <character name="shape" value="flattened" />
+        <character name="course" value="straight" />
+      </structure>
+    </statement>
+    <statement id="501.txt-16">
+      <text>pappus bristles in 2 series, 8–11 mm.</text>
+      <structure id="o10180" name="bristle" constraint="pappus">
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="11" to_unit="mm" />
+      </structure>
+      <structure id="o10181" name="series">
+        <character name="count" value="2" />
+      </structure>
+      <relation id="r1176" name="in" from="o10180" to="o10181" negation="false" />
+    </statement>
+    <statement id="501.txt-17">
+      <text>2 n = 18, 36.</text>
+      <structure id="o10182" name="chromosome">
+        <character name="count" value="18" />
+        <character name="count" value="36" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>mesic subalpine meadows and forests to alpine tundra and rocky slopes</habitat>
+  <habitat>volcanic or pyroclastic soils</habitat>
+  <elevation>2000–3500 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <discussion>Agoseris monticola occurs mainly in the Sierra Nevada and sporadically eastward in the Great Basin (Jarbridge and Ruby Mountains) and northward to the Cascade Range and Blue Mountains of Oregon. It appears to be allied with A. glauca and has been treated as a variety of the latter. Ecologically, it approaches A. glauca var. dasycephala; the two are morphologically and geographically separate from each other. Intermediates between A. monticola and A. aurantiaca, A. glauca, and A. parviflora are known.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>2.</number>
+  <species_name>Ancistrocarphus keilii</species_name>
+  <authority>Morefield</authority>
+  <place_of_publication>Novon 14: 464, fig. 1. 2004</place_of_publication>
+  <common_name>Santa Ynez groundstar</common_name>
+  <description>
+    <statement id="778.txt-0">
+      <text>Plants 0.5–1(–2) cm.</text>
+      <structure id="o16346" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="1" to="2" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="0.5" from_unit="cm" to="1" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="778.txt-1">
+      <text>Stems 0.</text>
+      <structure id="o16347" name="stem">
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+    <statement id="778.txt-2">
+      <text>Leaves basal, petiolate, largest 8–10(–18) × 1(–2) mm, some ± grading into pistillate paleae (by reduction or loss of blades and expansion of petiole bases, resembling aristate phyllaries);</text>
+      <structure id="o16348" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="architecture" value="petiolate" />
+      </structure>
+      <structure id="o16349" name="palea" constraint="pistillate" />
+      <relation id="r1752" name="into" from="o16348" to="o16349" negation="false" />
+    </statement>
+    <statement id="778.txt-3">
+      <text>bases (of petioles) expanded, 3-nerved, yellowish tan, parchment-like, closely involucral.</text>
+      <structure id="o16350" name="base">
+        <character name="size" value="expanded" />
+        <character name="architecture" value="3-nerved" />
+        <character name="coloration" value="tan" modifier="yellowish" />
+        <character name="derivation" value="involucral" modifier="closely" />
+      </structure>
+    </statement>
+    <statement id="778.txt-4">
+      <text>Heads borne singly amidst surrounding leaves (see discussion below), 2.5–3.5 mm.</text>
+      <structure id="o16351" name="head">
+        <character char_type="range_value" name="size" from="2.5" from_unit="mm" to="3.5" to_unit="mm" />
+      </structure>
+      <structure id="o16352" name="leaf">
+        <character name="arrangement" value="singly" />
+        <character name="architecture" value="surrounding" />
+      </structure>
+    </statement>
+    <statement id="778.txt-5">
+      <text>Phyllaries 0.</text>
+      <structure id="o16353" name="phyllary">
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+    <statement id="778.txt-6">
+      <text>Receptacles broadly hourglass-shaped, 0.9–1.3 mm.</text>
+      <structure id="o16354" name="receptacle">
+        <character name="shape" value="hourglass-shaped" modifier="broadly" />
+        <character char_type="range_value" name="size" from="0.9" from_unit="mm" to="1.3" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="778.txt-7">
+      <text>Pistillate paleae:</text>
+      <structure id="o16355" name="palea" constraint="pistillate" />
+    </statement>
+    <statement id="778.txt-8">
+      <text>wings obscure, incurved, lanceolate, ± involute.</text>
+      <structure id="o16356" name="wing">
+        <character name="manifestation" value="obscure" />
+        <character name="orientation" value="incurved" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape_or_vernation" value="involute" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="778.txt-9">
+      <text>Staminate paleae 5(–7), broadly spatulate, 1.8–2.8 mm, slightly surpassed by pistillate;</text>
+      <structure id="o16357" name="palea" constraint="staminate">
+        <character char_type="range_value" name="atypical_count" from="5" to="7" from_inclusive="false" />
+        <character name="count" value="5" />
+        <character name="shape" value="spatulate" modifier="broadly" />
+        <character char_type="range_value" name="size" from="1.8" from_unit="mm" to="2.8" to_unit="mm" />
+        <character name="comparison" value="surpassed" modifier="slightly; by pistillate" />
+      </structure>
+    </statement>
+    <statement id="778.txt-10">
+      <text>apices incurved, ± involute, obtuse to rounded, apiculate, shortly scarious, not spinose.</text>
+      <structure id="o16358" name="apex">
+        <character name="orientation" value="incurved" />
+        <character name="shape_or_vernation" value="involute" modifier="±" />
+        <character name="shape" value="obtuse" />
+        <character name="shape" value="rounded" />
+        <character name="shape" value="apiculate" />
+        <character name="texture" value="scarious" modifier="shortly" />
+        <character name="shape_or_architecture" value="spinose" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="778.txt-11">
+      <text>Staminate corollas ± zygomorphic, 0.9–1.3 mm, lobes 4, unequal (1–2 enlarged).</text>
+      <structure id="o16359" name="corolla" constraint="staminate">
+        <character name="architecture" value="zygomorphic" modifier="±" />
+        <character char_type="range_value" name="size" from="0.9" from_unit="mm" to="1.3" to_unit="mm" />
+      </structure>
+      <structure id="o16360" name="lobe">
+        <character name="count" value="4" />
+        <character name="size" value="unequal" />
+      </structure>
+    </statement>
+    <statement id="778.txt-12">
+      <text>Cypselae 1–1.4 × 0.5–0.6 mm, transverse bands 0.</text>
+      <structure id="o16361" name="cypsela">
+        <character char_type="range_value" name="length" from="1" from_unit="mm" to="1.4" to_unit="mm" />
+        <character char_type="range_value" name="width" from="0.5" from_unit="mm" to="0.6" to_unit="mm" />
+      </structure>
+      <structure id="o16362" name="band">
+        <character name="dehiscence_or_orientation" value="transverse" />
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <habitat>sandy soils</habitat>
+  <habitat>chaparral bordering oak woodlands</habitat>
+  <habitat>under shrubs</habitat>
+  <conservation>of conservation concern;</conservation>
+  <elevation>40–130 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <discussion>Unlike Ancistrocarphus filagineus, A. keilii has no obvious dispersal mechanism. Its cypselae appear to germinate more or less in place from previous years’ plants, often producing dense, turflike growths of dozens to hundreds of individuals (these sometimes resemble leafy glomerules of heads; each head is on a separate plant with its own root). Lack of dispersal may explain its very limited geographic range in the Santa Ynez River drainage of Santa Barbara County. Its range does not appear to overlap with that of A. filagineus, which is found farther inland to the east and north. No other Filagininae have been found mixed with A. keilii, suggesting that its habitat is fairly distinctive.</discussion>
+  <discussion>Ancistrocarphus keilii is known from only three collections and appears to occur in relatively vulnerable habitats (J. D. Morefield 2004).</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

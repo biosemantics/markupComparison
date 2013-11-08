@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>187c.</number>
+  <tribe_name>Asteraceae Martinov tribe Arctotideae</tribe_name>
+  <authority>Cassini</authority>
+  <place_of_publication>J. Phys. Chim. Hist. Nat. Arts 88: 159. 1819</place_of_publication>
+  <description>
+    <statement id="228.txt-0">
+      <text>Annuals, perennials [shrubs] (sometimes prickly, sap sometimes milky, e.g., Gazania ).</text>
+      <structure id="o3762" name="whole_organism">
+        <character name="life_style" value="annual" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="228.txt-1">
+      <text>Leaves basal and/or cauline;</text>
+    </statement>
+    <statement id="228.txt-2">
+      <text>alternate;</text>
+    </statement>
+    <statement id="228.txt-3">
+      <text>petiolate or sessile;</text>
+      <structure id="o3764" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="arrangement" value="alternate" />
+        <character name="architecture" value="petiolate" />
+        <character name="architecture" value="sessile" />
+      </structure>
+    </statement>
+    <statement id="228.txt-4">
+      <text>margins usually pinnately lobed to dissected, sometimes dentate or entire (sometimes revolute and/or prickly).</text>
+      <structure id="o3765" name="margin">
+        <character char_type="range_value" name="shape" from="usually pinnately lobed" to="dissected , sometimes dentate or entire" />
+        <character name="shape" value="lobed" modifier="usually pinnately" />
+        <character name="shape" value="dissected" modifier="usually pinnately" />
+        <character name="shape" value="dentate" modifier="sometimes" />
+        <character name="shape" value="entire" modifier="sometimes" />
+      </structure>
+    </statement>
+    <statement id="228.txt-5">
+      <text>Heads usually heterogamous (usually radiate) [homogamous, discoid], borne singly (on scapiform peduncles) [in corymbiform, racemiform, or umbelliform arrays, sometimes aggregated in second-order heads].</text>
+      <structure id="o3766" name="head">
+        <character name="reproduction" value="heterogamous" modifier="usually" />
+        <character name="arrangement" value="singly" />
+      </structure>
+    </statement>
+    <statement id="228.txt-6">
+      <text>Calyculi 0.</text>
+      <structure id="o3767" name="calyculus">
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+    <statement id="228.txt-7">
+      <text>Phyllaries usually persistent, in (2–)3–6+ series, distinct or ± connate, usually unequal, usually herbaceous [sometimes fleshy], margins and/or apices sometimes notably scarious (at least inner; sometimes prickly-ciliate).</text>
+      <structure id="o3768" name="phyllary">
+        <character name="duration" value="persistent" modifier="usually" />
+        <character name="fusion" value="distinct" />
+        <character name="fusion" value="connate" modifier="±" />
+        <character name="size" value="unequal" modifier="usually" />
+        <character name="habit_or_texture" value="herbaceous" modifier="usually" />
+      </structure>
+      <structure id="o3769" name="series" constraint="2-3-6+" />
+      <relation id="r539" name="in" from="o3768" to="o3769" negation="false" />
+      <structure id="o3770" name="margin" />
+      <structure id="o3771" name="apex">
+        <character name="texture" value="scarious" modifier="sometimes notably" />
+      </structure>
+    </statement>
+    <statement id="228.txt-8">
+      <text>Receptacles flat to conic, epaleate [paleate] (often foveolate).</text>
+      <structure id="o3772" name="receptacle">
+        <character char_type="range_value" name="shape" from="flat" to="conic" />
+        <character name="shape" value="flat" />
+        <character name="shape" value="conic" />
+        <character name="architecture" value="epaleate" />
+      </structure>
+    </statement>
+    <statement id="228.txt-9">
+      <text>Ray florets in 1–2 series, usually pistillate and fertile or styliferous and sterile, sometimes neuter (sometimes with 4–5 staminodes);</text>
+      <structure id="o3773" name="floret" constraint="ray">
+        <character name="architecture" value="pistillate" modifier="usually" />
+        <character name="reproduction" value="fertile" />
+        <character name="architecture" value="styliferous" />
+        <character name="reproduction" value="sterile" />
+        <character name="architecture" value="neuter" modifier="sometimes" />
+      </structure>
+      <structure id="o3774" name="series">
+        <character char_type="range_value" name="count" from="1" to="2" />
+      </structure>
+      <relation id="r540" name="in" from="o3773" to="o3774" negation="false" />
+    </statement>
+    <statement id="228.txt-10">
+      <text>corollas mostly white, yellow, orange, blue, red, or purple (rarely with 2 teeth opposite the 3- or 4-toothed laminae).</text>
+      <structure id="o3775" name="corolla">
+        <character name="coloration" value="white" modifier="mostly" />
+        <character name="coloration" value="yellow" modifier="mostly" />
+        <character name="coloration" value="orange" modifier="mostly" />
+        <character name="coloration" value="blue" modifier="mostly" />
+        <character name="coloration" value="red" modifier="mostly" />
+        <character name="coloration" value="purple" modifier="mostly" />
+      </structure>
+    </statement>
+    <statement id="228.txt-11">
+      <text>Disc florets usually bisexual and fertile, sometimes functionally staminate;</text>
+      <structure id="o3776" name="floret" constraint="disc">
+        <character name="reproduction" value="bisexual" modifier="usually" />
+        <character name="reproduction" value="fertile" />
+        <character name="architecture" value="staminate" modifier="sometimes functionally" />
+      </structure>
+    </statement>
+    <statement id="228.txt-12">
+      <text>corollas yellow or dark brown to purple, actinomorphic, lobes [4–]5, narrowly triangular or lanceolate to deltate;</text>
+      <structure id="o3777" name="corolla">
+        <character char_type="range_value" name="coloration" from="dark-brown" to="purple" />
+        <character name="coloration" value="yellow" />
+        <character name="coloration" value="brown" modifier="dark" />
+        <character name="coloration" value="purple" />
+        <character name="architecture" value="actinomorphic" />
+      </structure>
+      <structure id="o3778" name="lobe">
+        <character char_type="range_value" name="atypical_count" from="4" to="5" to_inclusive="false" />
+        <character name="count" value="5" />
+        <character char_type="range_value" name="shape" from="lanceolate" to="deltate" />
+        <character name="shape" value="triangular" modifier="narrowly" />
+        <character name="shape" value="lanceolate" modifier="narrowly" />
+        <character name="shape" value="deltate" modifier="narrowly" />
+      </structure>
+    </statement>
+    <statement id="228.txt-13">
+      <text>anther bases obtuse to acute (sometimes ± sagittate, not tailed), apical appendages ± ovate to lanceolate;</text>
+      <structure id="o3779" name="base" constraint="anther">
+        <character char_type="range_value" name="shape" from="obtuse" to="acute" />
+        <character name="shape" value="obtuse" />
+        <character name="shape" value="acute" />
+      </structure>
+      <structure id="o3780" name="appendage" constraint="apical">
+        <character char_type="range_value" name="shape" from="ovate" to="lanceolate" modifier="±" />
+        <character name="shape" value="ovate" modifier="±" />
+        <character name="shape" value="lanceolate" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="228.txt-14">
+      <text>styles (in bisexual, fertile florets) proximally glabrous, usually distally dilated and ± cylindric (usually hispidulous near bases of cylinders), branches linear (sometimes adhering almost to minutely parted tips or essentially lacking), adaxially continuously stigmatic from bases to apices, apices rounded to acute, appendages essentially none.</text>
+      <structure id="o3781" name="style">
+        <character name="pubescence" value="glabrous" modifier="proximally" />
+        <character name="shape" value="dilated" modifier="usually distally" />
+        <character name="shape" value="cylindric" modifier="±" />
+      </structure>
+      <structure id="o3782" name="branch">
+        <character name="arrangement_or_shape" value="linear" />
+        <character name="habit" value="stigmatic" modifier="adaxially continuously" constraint="from bases" constraintid="o3783" />
+      </structure>
+      <structure id="o3783" name="base" />
+      <structure id="o3784" name="apex" />
+      <relation id="r541" name="to" from="o3783" to="o3784" negation="false" />
+      <structure id="o3785" name="apex">
+        <character char_type="range_value" name="shape" from="rounded" to="acute" />
+        <character name="shape" value="rounded" />
+        <character name="shape" value="acute" />
+      </structure>
+      <structure id="o3786" name="appendage" />
+    </statement>
+    <statement id="228.txt-15">
+      <text>Cypselae usually monomorphic within heads, mostly ellipsoid, obovoid, or ovoid, ± terete, angled, or ± flattened, not beaked, bodies usually ribbed, sometimes winged (often sericeous, tomentulose, or woolly, sometimes glabrous);</text>
+      <structure id="o3787" name="cypsela">
+        <character name="habit" value="monomorphic" modifier="usually" constraint="within heads" constraintid="o3788" />
+        <character name="shape" value="ellipsoid" modifier="mostly" />
+        <character name="shape" value="obovoid" modifier="mostly" />
+        <character name="shape" value="ovoid" modifier="mostly" />
+        <character name="shape" value="terete" modifier="±" />
+        <character name="shape" value="angled" />
+        <character name="shape" value="flattened" modifier="±" />
+        <character name="shape" value="beaked" modifier="not" />
+      </structure>
+      <structure id="o3788" name="head" />
+      <structure id="o3789" name="body">
+        <character name="architecture_or_shape" value="ribbed" modifier="usually" />
+        <character name="architecture" value="winged" modifier="sometimes" />
+      </structure>
+    </statement>
+    <statement id="228.txt-16">
+      <text>pappi (sometimes 0) usually persistent, usually of 4–8[–16+] scales in ± 2+ series, sometimes coroniform.</text>
+      <structure id="o3790" name="pappus">
+        <character name="duration" value="persistent" modifier="usually" />
+        <character name="shape" value="coroniform" modifier="sometimes" />
+      </structure>
+      <structure id="o3791" name="scale" constraint="-16+">
+        <character char_type="range_value" name="count" from="4" to="8" />
+      </structure>
+      <relation id="r542" name="consist_of" from="o3790" to="o3791" negation="false" modifier="usually" />
+      <structure id="o3792" name="series">
+        <character name="count" char_type="range_value" from="2" upper_restricted="false" modifier="±" />
+      </structure>
+      <relation id="r543" name="in" from="o3791" to="o3792" negation="false" />
+    </statement>
+  </description>
+  <number_of_infrataxa>Genera 16, species ca. 200 (3 genera, 4 species in the flora):</number_of_infrataxa>
+  <introduced>introduced;</introduced>
+  <general_distribution>mostly Old World (especially s Africa)</general_distribution>
+  <general_distribution>some species widely introduced as horticultural escapes.</general_distribution>
+  <discussion>The circumscription for Arctotideae adopted here follows that of K. Bremer (1994) and is narrower than that of N. T. Norlindh (1977[1978]). Arctotideae have been thought to be closely allied to members of Cynareae, chiefly on similarities in styles of some taxa and prickly, thistly habits in some taxa; such a relationship has been rejected by recent workers. J. L. Panero and V. A. Funk (2002) associated Arctotideae with their subfamily Cichorioideae, along with tribes Vernonieae, Liabeae, Cichorieae, and Gundelieae.</discussion>
+  <discussion>Haplocarpha lyrata Harvey (perennials, leaves in basal rosettes, 8–15 cm, blades usually lyrate, abaxially lanate, peduncles scapiform, 10–25+ cm, ray corollas mostly yellow, abaxially green or red) has been noted as established in Florida (www.plantatlas.usf.edu).</discussion>
+  <references>SELECTED REFERENCES Funk, V. A., R. Chan, and S. C. Keeley. 2004. Insights into the evolution of the tribe Arctoteae (Compositae: subfamily Cichorioideae s.s.) using trnL-F, ndhF, and ITS. Taxon 53: 637–655. Norlindh, N. T. 1977[1978]. Arctoteae—systematic review. In: V. H. Heywood et al., eds. 1977[1978]. The Biology and Chemistry of the Compositae. 2 vols. London. Vol. 2, pp. 943–959.</references>
+  <key>1.Phyllaries connate 1/3–3/4 their lengths; laminae of ray corollas 5-nerved, 4-lobed or -toothed 25. Gazania, p. 196</key>
+  <key>1.Phyllaries distinct; laminae of ray corollas 4-nerved, 3-lobed or -toothed.</key>
+  <key>2.Ray florets neuter, corollas adaxially yellow (sometimes drying bluish) or ± bluish; pappi of 7–8+ scales ca. 0.5 mm (usually hidden by hairs on cypselae)26. Arctotheca, p. 197</key>
+  <key>2.Ray florets pistillate, corollas adaxially whitish to purplish, or yellow to orange (then purple at bases); pappi 0 or of 5–8 scales 0.5–4 mm (usually not hidden by hairs on cypselae)27. Arctotis, p. 198</key>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

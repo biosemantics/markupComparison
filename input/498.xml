@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>2a.</number>
+  <variety_name>Agoseris aurantiaca (Hooker) Greene var. aurantiaca</variety_name>
+  <synonym_of_variety_name>Agoseris angustissima Greene; A. arachnoidea Rydberg; A. carnea Rydberg; A. gaspensis Fernald; A. gracilens (A. Gray) Greene; A. gracilens var. greenei (A. Gray) S. F. Blake; A. greenei (A. Gray) Rydberg; A. howellii Greene; A. lackschewitzii Douglas M. Henderson &amp; R. K. Moseley; A. nana Rydberg; A. naskapensis J. Rousseau &amp; Raymond; A. prionophylla Greene; A. subalpina G. N. Jones; A. vulcanica Greene</synonym_of_variety_name>
+  <description>
+    <statement id="498.txt-0">
+      <text>Leaf blades:</text>
+      <structure id="o10035" name="blade" constraint="leaf" />
+    </statement>
+    <statement id="498.txt-1">
+      <text>margins entire, dentate, or laciniately pinnatifid, faces glabrous or sparsely villous, mostly not glaucous.</text>
+      <structure id="o10036" name="margin">
+        <character name="shape" value="entire" />
+        <character name="shape" value="dentate" />
+        <character name="shape" value="pinnatifid" modifier="laciniately" />
+      </structure>
+      <structure id="o10037" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="villous" modifier="sparsely" />
+        <character name="coating" value="glaucous" modifier="mostly not" />
+      </structure>
+    </statement>
+    <statement id="498.txt-2">
+      <text>Peduncles:</text>
+    </statement>
+    <statement id="498.txt-3">
+      <text>lengths mostly shorter than leaves at flowering, glabrate, or apically villous.</text>
+      <structure id="o10038" name="peduncle">
+        <character name="size" value="shorter" modifier="mostly" constraint="than leaves at flowering" constraintid="o10039" />
+        <character name="pubescence" value="glabrate" />
+        <character name="pubescence" value="villous" modifier="apically" />
+      </structure>
+      <structure id="o10039" name="leaf" />
+    </statement>
+    <statement id="498.txt-4">
+      <text>Phyllaries green or medially rosy purple, often purple-black spotted or blotched, with or without purple-black midstripes, narrowly to broadly lanceolate, mostly subequal at flowering, or outer longer than inner, herbaceous, faces usually villous, sometimes glabrous, margins ciliate, especially proximally;</text>
+      <structure id="o10040" name="phyllary">
+        <character name="coloration" value="green" />
+        <character name="coloration" value="purple" modifier="medially ;rosy" />
+        <character name="coloration" value="spotted" modifier="often ;purple-black" />
+        <character name="coloration" value="blotched" modifier="often" />
+        <character name="shape" value="lanceolate" modifier="narrowly broadly" />
+        <character name="size" value="subequal" modifier="mostly; at flowering" />
+        <character name="size" value="outer longer than inner" />
+        <character name="habit_or_texture" value="herbaceous" />
+      </structure>
+      <structure id="o10041" name="midstripe">
+        <character name="coloration" value="black" modifier="purple" />
+      </structure>
+      <relation id="r1159" name="with or without" from="o10040" to="o10041" negation="false" />
+      <structure id="o10042" name="face">
+        <character name="pubescence" value="villous" modifier="usually" />
+        <character name="pubescence" value="glabrous" modifier="sometimes" />
+      </structure>
+      <structure id="o10043" name="margin">
+        <character name="architecture_or_shape" value="ciliate" />
+      </structure>
+    </statement>
+    <statement id="498.txt-5">
+      <text>outer adaxially ± villous.</text>
+      <structure id="o10044" name="phyllary" constraint="outer">
+        <character name="pubescence" value="villous" modifier="adaxially ±" />
+      </structure>
+    </statement>
+    <statement id="498.txt-6">
+      <text>Corollas usually orange, sometimes pinkish or yellow, rarely white, mostly subequal to inner phyllaries.</text>
+      <structure id="o10045" name="corolla">
+        <character name="coloration" value="orange" modifier="usually" />
+        <character name="coloration" value="pinkish" modifier="sometimes" />
+        <character name="coloration" value="yellow" />
+        <character name="coloration" value="white" modifier="rarely" />
+      </structure>
+      <structure id="o10046" name="phyllary" constraint="inner" />
+      <relation id="r1160" name="mostly subequal to" from="o10045" to="o10046" negation="false" />
+    </statement>
+    <statement id="498.txt-7">
+      <text>Cypselae:</text>
+      <structure id="o10047" name="cypsela" />
+    </statement>
+    <statement id="498.txt-8">
+      <text>bodies ± abruptly contracted to beaks, ribs often more strongly ridged distally than proximally, mostly hirsutellous.</text>
+      <structure id="o10048" name="body" />
+      <structure id="o10049" name="beak" />
+      <relation id="r1161" name="moreorless abruptly contracted to" from="o10048" to="o10049" negation="false" />
+      <structure id="o10050" name="rib">
+        <character name="null" value="more strongly ridged distally than proximally" modifier="often" />
+        <character name="pubescence" value="hirsutellous" modifier="mostly" />
+      </structure>
+    </statement>
+    <statement id="498.txt-9">
+      <text>2 n = 18.</text>
+      <structure id="o10051" name="chromosome">
+        <character name="count" value="18" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>wet meadows</habitat>
+  <habitat>bogs</habitat>
+  <habitat>muskegs</habitat>
+  <habitat>stream and lake margins</habitat>
+  <habitat>montane to alpine habitats</habitat>
+  <habitat>or ± drier sites of open forests and mountain slopes</habitat>
+  <habitat>various soils</habitat>
+  <habitat>often disturbed areas</habitat>
+  <habitat>roadsides</habitat>
+  <elevation>200–3600 m;</elevation>
+  <ca_distribution>Alta.</ca_distribution>
+  <ca_distribution>B.C.</ca_distribution>
+  <ca_distribution>N.W.T.</ca_distribution>
+  <ca_distribution>Que.</ca_distribution>
+  <ca_distribution>Yukon</ca_distribution>
+  <us_distribution>Alaska</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>S.Dak.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <discussion>Variety aurantiaca is widespread in the western cordillera and is disjunct in Quebec. Two morphologic trends occur within this variety. Plants of wetter habitats represent the typical var. aurantiaca; those of drier habitats resemble what past authors have called Agoseris gracilens (including A. gracilens var. greenei). There is a weak geographic trend to this variation, with the aurantiaca phase occurring mostly along the Rocky Mountains axis and the gracilens phase mostly along the Cascade Mountains-Sierra Nevada axis. In their extremes they appear distinct, but their intergradation is so complete that separation becomes arbitrary. Putative hybrids between var. aurantiaca and A. glauca, A. grandiflora, A. monticola, and A. parviflora have been collected.</discussion>
+  <discussion>Corolla color in var. aurantiaca is variable but most commonly orange. Pink-flowered forms occur sporadically. They have been recognized as Agoseris lackschewitzii. Recognition of pink forms is unmerited; if it were, the older name A. carnea would have priority.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

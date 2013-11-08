@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Sachsia polycephala</species_name>
+  <authority>Grisebach</authority>
+  <place_of_publication>Cat. Pl. Cub., 151. 1866</place_of_publication>
+  <common_name>Bahama sachsia</common_name>
+  <synonym_of_species_name>Sachsia bahamensis Urban; S. divaricata Grisebach</synonym_of_species_name>
+  <description>
+    <statement id="802.txt-0">
+      <text>Plants 10–60 cm.</text>
+      <structure id="o16966" name="whole_organism">
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="60" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="802.txt-1">
+      <text>Leaf blades 2–12 × 1–4 cm, margins denticulate to coarsely and regularly dentate or repand-dentate with callous-tipped teeth.</text>
+      <structure id="o16967" name="blade" constraint="leaf">
+        <character char_type="range_value" name="length" from="2" from_unit="cm" to="12" to_unit="cm" />
+        <character char_type="range_value" name="width" from="1" from_unit="cm" to="4" to_unit="cm" />
+      </structure>
+      <structure id="o16968" name="margin">
+        <character name="shape" value="denticulate" />
+        <character name="shape" value="dentate" modifier="regularly" />
+        <character name="shape" value="repand-dentate" modifier="regularly" constraint="with teeth" constraintid="o16969" />
+      </structure>
+      <structure id="o16969" name="tooth" />
+    </statement>
+    <statement id="802.txt-2">
+      <text>Involucres 5–8 mm.</text>
+      <structure id="o16970" name="involucre">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="802.txt-3">
+      <text>Phyllaries:</text>
+      <structure id="o16971" name="phyllary" />
+    </statement>
+    <statement id="802.txt-4">
+      <text>apices acute, abaxial faces ± glandular.</text>
+      <structure id="o16972" name="apex">
+        <character name="shape" value="acute" />
+      </structure>
+      <structure id="o16973" name="face" constraint="abaxial">
+        <character name="architecture_or_exudation_or_pubescence" value="glandular" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="802.txt-5">
+      <text>Ray or pistillate corollas:</text>
+      <structure id="o16974" name="corolla" constraint="ray or pistillate" />
+    </statement>
+    <statement id="802.txt-6">
+      <text>laminae ca. 0.5 mm or none.</text>
+      <structure id="o16975" name="lamina">
+        <character name="size" value="0.5" unit="mm" />
+        <character name="size" value="0.5" unit="mm" modifier="none" />
+      </structure>
+    </statement>
+    <statement id="802.txt-7">
+      <text>Cypselae 1.5–2 mm;</text>
+      <structure id="o16976" name="cypsela">
+        <character char_type="range_value" name="size" from="1.5" from_unit="mm" to="2" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="802.txt-8">
+      <text>pappi 3–4 mm.</text>
+      <structure id="o16977" name="pappus">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="802.txt-9">
+      <text>2 n = 20.</text>
+      <structure id="o16978" name="chromosome">
+        <character name="count" value="20" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>dec</flowering_time>
+  <flowering_time>winter</flowering_time>
+  <flowering_time>jan</flowering_time>
+  <flowering_time>feb</flowering_time>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <habitat>rocky pinelands</habitat>
+  <habitat>pine-palm woods</habitat>
+  <habitat>commonly moist habitats</habitat>
+  <elevation>0–10 m;</elevation>
+  <us_distribution>Fla.</us_distribution>
+  <global_distribution>West Indies (Bahamas).</global_distribution>
+  <global_distribution>West Indies (Cuba).</global_distribution>
+  <global_distribution>West Indies (Hispaniola).</global_distribution>
+  <global_distribution>West Indies (Jamaica).</global_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

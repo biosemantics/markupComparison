@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>4.</number>
+  <species_name>Psilocarphus tenellus</species_name>
+  <authority>Nuttall</authority>
+  <place_of_publication>Trans. Amer. Philos. Soc., n. s. 7: 341. 1840</place_of_publication>
+  <common_name>Slender woolly marbles</common_name>
+  <description>
+    <statement id="764.txt-0">
+      <text>Plants greenish to grayish, arachnoid to ± sericeous.</text>
+      <structure id="o16076" name="whole_organism">
+        <character char_type="range_value" name="coloration" from="greenish" to="grayish" />
+        <character name="coloration" value="greenish" />
+        <character name="coloration" value="grayish" />
+        <character name="pubescence" value="arachnoid" />
+        <character name="pubescence" value="sericeous" modifier="±" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="764.txt-1">
+      <text>Stems (1–)2–10, ascending to ± prostrate;</text>
+      <structure id="o16077" name="stem">
+        <character char_type="range_value" name="atypical_count" from="1" to="2" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="2" to="10" />
+        <character name="orientation" value="ascending" />
+        <character name="orientation" value="prostrate" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="764.txt-2">
+      <text>proximal internode lengths mostly 1–2(–3) times leaf lengths.</text>
+      <structure id="o16078" name="internode" constraint="proximal">
+        <character char_type="range_value" name="atypical_size" from="2" to="3" from_inclusive="false" modifier="mostly" constraint="times leaf" constraintid="o16079" />
+        <character char_type="range_value" name="size" from="1" to="2" modifier="mostly" constraint="times leaf" constraintid="o16079" />
+      </structure>
+      <structure id="o16079" name="leaf" />
+    </statement>
+    <statement id="764.txt-4">
+      <text>Heads ± spheric, largest 3–5.5 mm.</text>
+      <structure id="o16080" name="head">
+        <character name="shape" value="spheric" modifier="±" />
+        <character name="size" value="largest" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="5.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="764.txt-5">
+      <text>Receptacles unlobed.</text>
+      <structure id="o16081" name="receptacle">
+        <character name="shape" value="unlobed" />
+      </structure>
+    </statement>
+    <statement id="764.txt-6">
+      <text>Pistillate paleae individually visible through indument, longest mostly 1.5–2.7 mm.</text>
+      <structure id="o16082" name="palea" constraint="pistillate">
+        <character name="manifestation" value="visible" modifier="individually" constraint="through indument" constraintid="o16083" />
+        <character name="size" value="longest" modifier="mostly" />
+        <character char_type="range_value" name="size" from="1.5" from_unit="mm" to="2.7" to_unit="mm" />
+      </structure>
+      <structure id="o16083" name="indument" />
+    </statement>
+    <statement id="764.txt-7">
+      <text>Staminate corollas 0.8–1.5 mm, lobes mostly 5.</text>
+      <structure id="o16084" name="corolla" constraint="staminate">
+        <character char_type="range_value" name="size" from="0.8" from_unit="mm" to="1.5" to_unit="mm" />
+      </structure>
+      <structure id="o16085" name="lobe">
+        <character name="count" value="5" modifier="mostly" />
+      </structure>
+    </statement>
+    <statement id="764.txt-8">
+      <text>Cypselae narrowly obovoid, somewhat compressed, 0.7–1.2 mm.</text>
+      <structure id="o16086" name="cypsela">
+        <character name="shape" value="obovoid" modifier="narrowly" />
+        <character name="shape" value="compressed" modifier="somewhat" />
+        <character char_type="range_value" name="size" from="0.7" from_unit="mm" to="1.2" to_unit="mm" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>dry or seasonally moist, barren to wooded slopes</habitat>
+  <habitat>flats</habitat>
+  <habitat>often disturbed sites (foot paths</habitat>
+  <habitat>road beds</habitat>
+  <habitat>burns), sometimes near vernal pools toward s</habitat>
+  <elevation>0–2100 m;</elevation>
+  <ca_distribution>B.C.</ca_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <global_distribution>Mexico (Baja California).</global_distribution>
+  <discussion>Psilocarphus tenellus is relatively common in the Californian Floristic Province from northwestern Baja California to southwestern Oregon; northward it is scattered to northern Idaho and Vancouver Island, British Columbia. It has been of conservation concern in Canada (J. M. Illingworth and G. W. Douglas 1994b).</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>118.</number>
+  <genus_name>SPHAEROMERIA</genus_name>
+  <authority>Nuttall</authority>
+  <place_of_publication>Trans. Amer. Philos. Soc., n. s. 7: 401. 1841</place_of_publication>
+  <common_name>False sagebrush, chickensage</common_name>
+  <derivation>Greek sphaira , sphere, and meros , a part, alluding to the capitate arrays of heads in S. capitata</derivation>
+  <author_of_tribe_genus>Timothy K. Lowrey</author_of_tribe_genus>
+  <author_of_tribe_genus>Leila M. Shultz</author_of_tribe_genus>
+  <description>
+    <statement id="835.txt-0">
+      <text>Perennials or subshrubs, (1–)5–60(–70) cm (usually aromatic).</text>
+      <structure id="o17589" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="1" to="5" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_size" from="60" to="70" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="60" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+        <character name="life_style" value="subshrub" />
+      </structure>
+    </statement>
+    <statement id="835.txt-1">
+      <text>Stems 1–5+ (with interxylary cork), lax to erect, branched from bases or throughout, glabrous or sericeous to tomentose (hairs medifixed), usually gland-dotted as well.</text>
+      <structure id="o17591" name="stem">
+        <character char_type="range_value" name="count" from="1" to="5" upper_restricted="false" />
+        <character name="architecture" value="lax" />
+        <character name="orientation" value="erect" />
+        <character name="architecture_or_shape" value="branched" constraint="from bases" constraintid="o17592" />
+        <character char_type="range_value" name="pubescence" from="sericeous" to="tomentose" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="sericeous" />
+        <character name="pubescence" value="tomentose" />
+        <character name="coloration_or_relief" value="gland-dotted" modifier="usually" />
+      </structure>
+      <structure id="o17592" name="base" />
+    </statement>
+    <statement id="835.txt-2">
+      <text>Leaves mostly basal (sometimes in rosettes) or basal and cauline;</text>
+    </statement>
+    <statement id="835.txt-3">
+      <text>alternate;</text>
+    </statement>
+    <statement id="835.txt-4">
+      <text>petiolate or sessile;</text>
+      <structure id="o17593" name="leaf">
+        <character name="insertion_or_position" value="basal" modifier="mostly" />
+        <character name="insertion_or_position" value="basal" modifier="mostly" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="arrangement" value="alternate" />
+        <character name="architecture" value="petiolate" />
+        <character name="architecture" value="sessile" />
+      </structure>
+    </statement>
+    <statement id="835.txt-5">
+      <text>blades obovate to cuneate or linear, usually 1–2-pinnately or -palmately lobed (ultimate lobes oblanceolate to linear) or apically 3-toothed or -lobed, ultimate margins entire, faces glabrous or ± sericeous to tomentose and usually gland-dotted.</text>
+      <structure id="o17594" name="blade">
+        <character char_type="range_value" name="shape" from="obovate" to="cuneate or linear" />
+        <character name="shape" value="obovate" />
+        <character name="shape" value="cuneate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="lobed" modifier="-palmately" />
+        <character name="shape" value="3-toothed-" modifier="apically" />
+      </structure>
+      <structure id="o17595" name="margin" constraint="ultimate">
+        <character name="shape" value="entire" />
+      </structure>
+      <structure id="o17596" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="sericeous to tomentose" />
+        <character char_type="range_value" name="pubescence" from="sericeous" to="tomentose" modifier="±" />
+        <character name="pubescence" value="sericeous" modifier="±" />
+        <character name="pubescence" value="tomentose" modifier="±" />
+        <character name="coloration_or_relief" value="gland-dotted" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="835.txt-6">
+      <text>Heads disciform, borne singly or (2–60+) in usually corymbiform, rarely paniculiform, arrays or in subcapitate clusters.</text>
+      <structure id="o17597" name="head">
+        <character name="shape_or_architecture" value="disciform" />
+        <character name="arrangement" value="singly" />
+        <character char_type="range_value" name="atypical_count" from="2" to="60" upper_restricted="false" constraint="in arrays" constraintid="o17598" />
+      </structure>
+      <structure id="o17598" name="array">
+        <character name="architecture" value="corymbiform" modifier="usually" />
+        <character name="architecture" value="paniculiform" modifier="rarely" />
+      </structure>
+      <structure id="o17599" name="cluster">
+        <character name="architecture" value="subcapitate" />
+      </structure>
+      <relation id="r1873" name="in" from="o17597" to="o17599" negation="false" />
+    </statement>
+    <statement id="835.txt-7">
+      <text>Involucres hemispheric to campanulate, 3–5(–12) mm diam.</text>
+      <structure id="o17600" name="involucre">
+        <character char_type="range_value" name="shape" from="hemispheric" to="campanulate" />
+        <character name="shape" value="hemispheric" />
+        <character name="shape" value="campanulate" />
+        <character char_type="range_value" name="atypical_size" from="5" to="12" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="835.txt-8">
+      <text>Phyllaries persistent, (8–)12–20+ in 2–3+ series, mostly obovate, unequal to subequal, margins and apices (colorless, pinkish, or brownish) scarious.</text>
+      <structure id="o17601" name="phyllary">
+        <character name="duration" value="persistent" />
+        <character char_type="range_value" name="atypical_count" from="8" to="12" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="12" to="20" upper_restricted="false" constraint="in series" constraintid="o17602" />
+        <character name="shape" value="obovate" modifier="mostly" />
+        <character char_type="range_value" name="size" from="unequal" to="subequal" />
+        <character name="size" value="unequal" />
+        <character name="size" value="subequal" />
+      </structure>
+      <structure id="o17602" name="series">
+        <character char_type="range_value" name="count" from="2" to="3" upper_restricted="false" />
+      </structure>
+      <structure id="o17603" name="margin" />
+      <structure id="o17604" name="apex">
+        <character name="texture" value="scarious" />
+      </structure>
+    </statement>
+    <statement id="835.txt-9">
+      <text>Receptacles conic to nearly flat (villous in S. potentilloides ), epaleate.</text>
+      <structure id="o17605" name="receptacle">
+        <character char_type="range_value" name="shape" from="conic" to="nearly flat" />
+        <character name="shape" value="conic" />
+        <character name="shape" value="flat" modifier="nearly" />
+        <character name="architecture" value="epaleate" />
+      </structure>
+    </statement>
+    <statement id="835.txt-10">
+      <text>Ray florets 0 (peripheral pistillate florets 4–15+; corollas ± filiform, lobes usually 3).</text>
+      <structure id="o17606" name="floret" constraint="ray">
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+    <statement id="835.txt-11">
+      <text>Disc florets 30–50+, bisexual, fertile;</text>
+      <structure id="o17607" name="floret" constraint="disc">
+        <character char_type="range_value" name="count" from="30" to="50" upper_restricted="false" />
+        <character name="reproduction" value="bisexual" />
+        <character name="reproduction" value="fertile" />
+      </structure>
+    </statement>
+    <statement id="835.txt-12">
+      <text>corollas usually bright yellow (ochroleucous in S. cana ), tubes ± cylindric, throats ± campanulate, lobes 5, ± deltate (tips glabrous or hairy).</text>
+      <structure id="o17608" name="corolla">
+        <character name="coloration" value="yellow" modifier="usually;bright" />
+      </structure>
+      <structure id="o17609" name="tube">
+        <character name="shape" value="cylindric" modifier="±" />
+      </structure>
+      <structure id="o17610" name="throat">
+        <character name="shape" value="campanulate" modifier="±" />
+      </structure>
+      <structure id="o17611" name="lobe">
+        <character name="count" value="5" />
+        <character name="shape" value="deltate" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="835.txt-13">
+      <text>Cypselae columnar or obovoid to obconic, ribs 2–3 or 5–10, faces glabrous or gland-dotted (pericarps with myxogenic cells only in S. potentilloides , without resin sacs);</text>
+      <structure id="o17612" name="cypsela">
+        <character char_type="range_value" name="shape" from="obovoid" to="obconic" />
+        <character name="shape" value="columnar" />
+        <character name="shape" value="obovoid" />
+        <character name="shape" value="obconic" />
+      </structure>
+      <structure id="o17613" name="rib">
+        <character char_type="range_value" name="count" from="2" to="3" />
+        <character char_type="range_value" name="count" from="5" to="10" />
+      </structure>
+      <structure id="o17614" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="coloration_or_relief" value="gland-dotted" />
+      </structure>
+    </statement>
+    <statement id="835.txt-14">
+      <text>pappi usually 0 (of 3–5 subulate scales in S. compacta ).</text>
+      <structure id="o17615" name="pappus">
+        <character name="count" value="0" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="835.txt-15">
+      <text>x = 9.</text>
+      <structure id="o17616" name="chromosome">
+        <character name="count" value="9" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species 9 (8 in the flora):</number_of_infrataxa>
+  <general_distribution>w United States</general_distribution>
+  <general_distribution>nw Mexico.</general_distribution>
+  <references>SELECTED REFERENCE Holmgren, A. H., L. M. Shultz, and T. K. Lowrey. 1976. Sphaeromeria, a genus closer to Artemisia than to Tanacetum (Asteraceae: Anthemideae). Brittonia 28: 255–262.</references>
+  <key>1.Receptacles villous; cypselae becoming mucilaginous when wet1. Sphaeromeria potentilloides</key>
+  <key>1.Receptacles glabrous; cypselae not mucilaginous when wet.</key>
+  <key>2.Subshrubs, 20–70 cm; leaves mostly cauline (not forming basal clusters).</key>
+  <key>3.Corollas ochroleucous, lobes villous2. Sphaeromeria cana</key>
+  <key>3.Corollas yellow, lobes glabrous or gland-dotted.</key>
+  <key>4.Leaves glabrous; heads 5–20 in corymbiform or subumbelliform arrays (as wide as or wider than long)3. Sphaeromeria diversifolia</key>
+  <key>4.Leaves tomentose; heads (8–)10–30(–60) in paniculiform arrays (longer than wide)4. Sphaeromeria ruthiae</key>
+  <key>[2. Shifted to left margin.—Ed.]</key>
+  <key>2.Perennials, 1–20 cm (often cespitose); leaves mostly basal (commonly forming clusters).</key>
+  <key>5.Heads 1–7 (S. argentea) or 8–20.</key>
+  <key>6.Leaf blades (± cuneate, 7–15 mm) entire or apices 3(–5)-toothed or -lobed, faces silvery-canescent; heads usually in subcapitate to corymbiform arrays (1–1.5 cm across), sometimes borne singly5. Sphaeromeria argentea</key>
+  <key>6.Leaf blades (± cuneate, 8–20 mm) usually 1–2-pinnati-palmately lobed (ultimate lobes ± linear), faces ± tomentose; heads in tight, capitate arrays (1–1.3 cm across)6. Sphaeromeria capitata</key>
+  <key>5.Heads 1–3(–5).</key>
+  <key>7.Leaves: blades (10–25 mm) pinnati-palmately lobed (lobes 3–6+, ± oblanceolate to linear) or linear, faces sericeous (pappi of 3–5, subulate scales)7. Sphaeromeria compacta</key>
+  <key>7.Leaves: blades (15–30 × 1.5–8 mm) pinnati-palmately lobed (lobes 2–3, linear, 1–2 mm wide) or linear, faces silvery-canescent8. Sphaeromeria simplex</key>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>119c.</number>
+  <subgenus_name>ARTEMISIA Linnaeus subg. ABSINTHIUM</subgenus_name>
+  <authority>(Miller) Lessing</authority>
+  <place_of_publication>Syn. Gen. Compos., 264. 1832</place_of_publication>
+  <synonym_of_tribe_genus>Absinthium Miller, Gard. Dict. Abr. ed. 4, vol. 1. 1754; Artemisia subsect. Absinthium (Miller) Darijma</synonym_of_tribe_genus>
+  <description>
+    <statement id="884.txt-0">
+      <text>Perennials;</text>
+    </statement>
+    <statement id="884.txt-1">
+      <text>fibrous rooted, caudices woody, rhizomes absent.</text>
+      <structure id="o18359" name="whole_organism">
+        <character name="life_style" value="perennial" />
+        <character name="texture" value="fibrous" />
+        <character name="architecture" value="rooted" />
+      </structure>
+      <structure id="o18360" name="caudex">
+        <character name="texture" value="woody" />
+      </structure>
+      <structure id="o18361" name="rhizome">
+        <character name="presence" value="absent" />
+      </structure>
+    </statement>
+    <statement id="884.txt-2">
+      <text>Stems not wandlike.</text>
+      <structure id="o18362" name="stem">
+        <character name="shape" value="wandlike" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="884.txt-3">
+      <text>Leaves deciduous or persistent, basal and/or cauline (petiolate or sessile, not in fascicles).</text>
+      <structure id="o18363" name="leaf">
+        <character name="duration" value="deciduous" />
+        <character name="duration" value="persistent" />
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+      </structure>
+    </statement>
+    <statement id="884.txt-4">
+      <text>Heads disciform.</text>
+      <structure id="o18364" name="head">
+        <character name="shape_or_architecture" value="disciform" />
+      </structure>
+    </statement>
+    <statement id="884.txt-5">
+      <text>Receptacles epaleate, villous (hairs relatively long).</text>
+      <structure id="o18365" name="receptacle">
+        <character name="architecture" value="epaleate" />
+        <character name="pubescence" value="villous" />
+      </structure>
+    </statement>
+    <statement id="884.txt-6">
+      <text>Florets:</text>
+      <structure id="o18366" name="floret" />
+    </statement>
+    <statement id="884.txt-7">
+      <text>peripheral 6–27 pistillate and fertile;</text>
+      <structure id="o18367" name="floret" constraint="peripheral">
+        <character char_type="range_value" name="count" from="6" to="27" />
+        <character name="architecture" value="pistillate" />
+        <character name="reproduction" value="fertile" />
+      </structure>
+    </statement>
+    <statement id="884.txt-8">
+      <text>central 15–100 bisexual and fertile;</text>
+      <structure id="o18368" name="floret" constraint="central">
+        <character char_type="range_value" name="count" from="15" to="100" />
+        <character name="reproduction" value="bisexual" />
+        <character name="reproduction" value="fertile" />
+      </structure>
+    </statement>
+    <statement id="884.txt-9">
+      <text>corollas (pale yellow) funnelform.</text>
+      <structure id="o18369" name="corolla">
+        <character name="shape" value="funnelform" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species ca. 40 (5 in the flora):</number_of_infrataxa>
+  <general_distribution>temperate regions</general_distribution>
+  <general_distribution>North America</general_distribution>
+  <general_distribution>South America</general_distribution>
+  <general_distribution>Eurasia.</general_distribution>
+  <references>SELECTED REFERENCE Besser, W. S. J. G. von. 1829. Lettre [on Artemisia including Absinthium]...au Directeur. Bull. Soc. Imp. Naturalistes Moscou 1: 219–265.</references>
+  <key>1.Plants 10–40 or 40–60(–100) cm; leaves pinnately lobed (basal 2–3-pinnatifid) or 1–2-ternately lobed.</key>
+  <key>2.Leaves pinnately lobed (basal 2–3-pinnatifid, lobes obovate)19. Artemisia absinthium</key>
+  <key>2.Leaves 1–2-ternately lobed (lobes filiform, to 0.5 mm wide)20. Artemisia frigida (in part)</key>
+  <key>1.Plants 5–50 cm; leaves entire or 1–3-pinnately lobed.</key>
+  <key>3.Involucres 3–5 mm diam20. Artemisia frigida (in part)</key>
+  <key>3.Involucres 4–8 mm diam.</key>
+  <key>4.Leaves bright green, faces glabrous or sparsely hairy; phyllary margins light green 22. Artemisia rupestris</key>
+  <key>4.Leaves gray-green, faces canescent to villous; phyllary margins black to brown.</key>
+  <key>5.Heads borne singly or (2–5) in paniculiform to racemiform arrays; corolla lobes glabrous21. Artemisia pattersonii</key>
+  <key>5.Heads (5–22) in spiciform arrays; corolla lobes hairy23. Artemisia scopulorum</key>
+  <key />
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

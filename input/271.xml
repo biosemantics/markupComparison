@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>2.</number>
+  <species_name>Scolymus hispanicus</species_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 813. 1753</place_of_publication>
+  <common_name>Golden thistle, Spanish salsify or oyster</common_name>
+  <description>
+    <statement id="271.txt-0">
+      <text>Biennials or perennials.</text>
+      <structure id="o4730" name="whole_organism">
+        <character name="life_style" value="biennial" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="271.txt-1">
+      <text>Stem wings not continuous, margins spinose, little, if at all, white or thickened.</text>
+      <structure id="o4732" name="wing" constraint="stem">
+        <character name="architecture" value="continuous" modifier="not" />
+      </structure>
+      <structure id="o4733" name="margin">
+        <character name="shape_or_architecture" value="spinose" />
+        <character name="coloration" value="white" />
+        <character name="thickness" value="thickened" />
+      </structure>
+    </statement>
+    <statement id="271.txt-2">
+      <text>Leaf blades 40–200 × 15–70 mm, margins little, if at all white or thickened .</text>
+      <structure id="o4734" name="blade" constraint="leaf">
+        <character char_type="range_value" name="length" from="40" from_unit="mm" to="200" to_unit="mm" />
+        <character char_type="range_value" name="width" from="15" from_unit="mm" to="70" to_unit="mm" />
+      </structure>
+      <structure id="o4735" name="margin">
+        <character name="coloration" value="white" />
+        <character name="thickness" value="thickened" />
+      </structure>
+    </statement>
+    <statement id="271.txt-3">
+      <text>Involucres 15–20 × 8–10 mm, larger in fruit.</text>
+      <structure id="o4736" name="involucre">
+        <character char_type="range_value" name="length" from="15" from_unit="mm" to="20" to_unit="mm" />
+        <character char_type="range_value" name="width" from="8" from_unit="mm" to="10" to_unit="mm" />
+        <character name="size" value="larger" constraint="in fruit" constraintid="o4737" />
+      </structure>
+      <structure id="o4737" name="fruit" />
+    </statement>
+    <statement id="271.txt-4">
+      <text>Phyllaries lanceolate, glabrous.</text>
+      <structure id="o4738" name="phyllary">
+        <character name="shape" value="lanceolate" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="271.txt-5">
+      <text>Cypsela/palea units ± orbiculate to ovate, 3–5 mm;</text>
+      <structure id="o4739" name="unit">
+        <character char_type="range_value" name="shape" from="orbiculate" to="ovate" modifier="±" />
+        <character name="shape" value="orbiculate" modifier="±" />
+        <character name="shape" value="ovate" modifier="±" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="271.txt-6">
+      <text>pappi of 2–4 setiform-aristate scales plus 0–4 muticous to lanceolate scales.</text>
+      <structure id="o4740" name="pappus" />
+      <structure id="o4741" name="scale">
+        <character char_type="range_value" name="count" from="2" to="4" />
+        <character name="shape" value="setiform-aristate" />
+        <character char_type="range_value" name="count" from="0" to="4" />
+      </structure>
+      <relation id="r643" name="consist_of" from="o4740" to="o4741" negation="false" />
+      <structure id="o4742" name="scale">
+        <character char_type="range_value" name="shape" from="muticous" to="lanceolate" />
+        <character name="shape" value="muticous" />
+        <character name="shape" value="lanceolate" />
+      </structure>
+    </statement>
+    <statement id="271.txt-7">
+      <text>2 n = 20.</text>
+      <structure id="o4743" name="chromosome">
+        <character name="count" value="20" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <habitat>disturbed sites</habitat>
+  <elevation>0–100 m;</elevation>
+  <introduced>introduced;</introduced>
+  <us_distribution>Ala.</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <global_distribution>Europe.</global_distribution>
+  <discussion>In the Mediterranean region, Scolymus hispanicus is used (or has been used) as a medicinal herb and root vegetable. It is considered to be a noxious weed in the United States.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

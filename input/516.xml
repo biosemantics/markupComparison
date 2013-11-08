@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>67.</number>
+  <genus_name>NOTHOCALAS</genus_name>
+  <authority>(A. Gray) Greene</authority>
+  <place_of_publication>Bull. Calif. Acad. Sci. 2: 54. 1886</place_of_publication>
+  <common_name>False agoseris or dandelion</common_name>
+  <derivation>Greek notho -, false, and Calaïs , a synonym of Microseris</derivation>
+  <author_of_tribe_genus>Kenton L. Chambers</author_of_tribe_genus>
+  <synonym_of_genus_name>Microseris D. Don sect. Nothocalaïs A. Gray in A. Gray et al., Syn. Fl. N. Amer. 1(2): 420. 1884</synonym_of_genus_name>
+  <description>
+    <statement id="516.txt-0">
+      <text>Perennials, 3–45 cm ;</text>
+    </statement>
+    <statement id="516.txt-1">
+      <text>taprooted, with caudices often multicipital (taproots thick, fleshy, with blackish periderm, lateral rootlets often borne in clusters on knoblike projections).</text>
+      <structure id="o10555" name="whole_organism">
+        <character char_type="range_value" name="size" from="3" from_unit="cm" to="45" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+        <character name="architecture" value="taprooted" />
+      </structure>
+      <structure id="o10556" name="caudex">
+        <character name="architecture" value="multicipital" modifier="often" />
+      </structure>
+      <relation id="r1210" name="with" from="o10555" to="o10556" negation="false" />
+    </statement>
+    <statement id="516.txt-2">
+      <text>Stems 1–5+, erect, scapiform, naked (rarely with 1–3 bracteate nodes near base in N. troximoides and N. nigrescens ) , glabrous or white-villous, especially near heads.</text>
+      <structure id="o10557" name="stem">
+        <character char_type="range_value" name="count" from="1" to="5" upper_restricted="false" />
+        <character name="orientation" value="erect" />
+        <character name="shape" value="scapiform" />
+        <character name="architecture" value="naked" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="white-villous" />
+      </structure>
+      <structure id="o10558" name="head" />
+      <relation id="r1211" name="near" from="o10557" to="o10558" negation="false" modifier="especially" />
+    </statement>
+    <statement id="516.txt-3">
+      <text>Leaves basal;</text>
+    </statement>
+    <statement id="516.txt-4">
+      <text>petiolate (bases attenuate or not);</text>
+      <structure id="o10559" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="architecture" value="petiolate" />
+      </structure>
+    </statement>
+    <statement id="516.txt-5">
+      <text>blades linear to oblanceolate, margins usually entire (often pinnately lobed in N. alpestris ), sometimes undulate (usually white-ciliolate in N. cuspidata and N. troximoides ; faces glabrous or lightly villous).</text>
+      <structure id="o10560" name="blade">
+        <character char_type="range_value" name="shape" from="linear" to="oblanceolate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="oblanceolate" />
+      </structure>
+      <structure id="o10561" name="margin">
+        <character name="shape" value="entire" modifier="usually" />
+        <character name="shape" value="undulate" modifier="sometimes" />
+      </structure>
+    </statement>
+    <statement id="516.txt-6">
+      <text>Heads borne singly (erect, liguliferous).</text>
+      <structure id="o10562" name="head">
+        <character name="arrangement" value="singly" />
+      </structure>
+    </statement>
+    <statement id="516.txt-7">
+      <text>Peduncles not inflated distally, not bracteate.</text>
+      <structure id="o10563" name="peduncle">
+        <character name="shape" value="inflated" modifier="not ; distally" />
+        <character name="architecture" value="bracteate" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="516.txt-8">
+      <text>Calyculi 0.</text>
+      <structure id="o10564" name="calyculus">
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+    <statement id="516.txt-9">
+      <text>Involucres broadly to narrowly ovoid, campanulate at flowering, 5–20 mm diam.</text>
+      <structure id="o10565" name="involucre">
+        <character name="shape" value="ovoid" modifier="broadly narrowly" />
+        <character name="shape" value="campanulate" modifier="at flowering" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="20" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="516.txt-10">
+      <text>Phyllaries 8–50 in 2–5 series, (often longitudinally striped or finely dotted with red or purple) lanceolate to ovate, equal or unequal (outer shorter), herbaceous (thin), midnerves inconspicuous, apices acute to acuminate, faces glabrous or white-villous .</text>
+      <structure id="o10566" name="phyllary">
+        <character char_type="range_value" name="count" from="8" to="50" constraint="in series" constraintid="o10567" />
+        <character char_type="range_value" name="shape" from="lanceolate" to="ovate" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="ovate" />
+        <character name="size" value="equal" />
+        <character name="size" value="unequal" />
+        <character name="habit_or_texture" value="herbaceous" />
+      </structure>
+      <structure id="o10567" name="series">
+        <character char_type="range_value" name="count" from="2" to="5" />
+      </structure>
+      <structure id="o10568" name="midnerve">
+        <character name="manifestation" value="inconspicuous" />
+      </structure>
+      <structure id="o10569" name="apex">
+        <character char_type="range_value" name="shape" from="acute" to="acuminate" />
+        <character name="shape" value="acute" />
+        <character name="shape" value="acuminate" />
+      </structure>
+      <structure id="o10570" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="white-villous" />
+      </structure>
+    </statement>
+    <statement id="516.txt-11">
+      <text>Receptacles flat, pitted, glabrous, epaleate.</text>
+      <structure id="o10571" name="receptacle">
+        <character name="shape" value="flat" />
+        <character name="relief" value="pitted" />
+        <character name="pubescence" value="glabrous" />
+        <character name="architecture" value="epaleate" />
+      </structure>
+    </statement>
+    <statement id="516.txt-12">
+      <text>Florets 13–100;</text>
+      <structure id="o10572" name="floret">
+        <character char_type="range_value" name="count" from="13" to="100" />
+      </structure>
+    </statement>
+    <statement id="516.txt-13">
+      <text>corollas yellow, often reddish abaxially (much surpassing phyllaries in flowering, tubes hairy).</text>
+      <structure id="o10573" name="corolla">
+        <character name="coloration" value="yellow" />
+        <character name="coloration" value="reddish" modifier="often ; abaxially" />
+      </structure>
+    </statement>
+    <statement id="516.txt-14">
+      <text>Cypselae brown or gray , narrowly columnar to fusiform, usually narrowed distally, not beaked, ribs ca. 10, glabrous or distally scabrous;</text>
+      <structure id="o10574" name="cypsela">
+        <character name="coloration" value="brown" />
+        <character name="coloration" value="gray" />
+        <character char_type="range_value" name="shape" from="narrowly columnar" to="fusiform" />
+        <character name="shape" value="columnar" modifier="narrowly" />
+        <character name="shape" value="fusiform" modifier="narrowly" />
+        <character name="size" value="narrowed" modifier="usually ; distally" />
+        <character name="shape" value="beaked" modifier="not" />
+      </structure>
+      <structure id="o10575" name="rib">
+        <character name="count" value="10" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="scabrous" modifier="distally" />
+      </structure>
+    </statement>
+    <statement id="516.txt-15">
+      <text>pappi fragile, of 10–80 , distinct, lustrous, white, ± equal , smooth to barbellulate bristles or aristate scales.</text>
+      <structure id="o10576" name="pappus">
+        <character name="fragility" value="fragile" />
+      </structure>
+      <structure id="o10577" name="bristle">
+        <character char_type="range_value" name="count" from="10" to="80" />
+        <character name="fusion" value="distinct" />
+        <character name="reflectance" value="lustrous" />
+        <character name="coloration" value="white" />
+        <character name="size" value="equal" modifier="±" />
+        <character char_type="range_value" name="architecture" from="smooth" to="barbellulate" />
+        <character name="architecture" value="smooth" />
+        <character name="architecture" value="barbellulate" />
+      </structure>
+      <relation id="r1212" name="consist_of" from="o10576" to="o10577" negation="false" />
+      <structure id="o10578" name="scale">
+        <character name="shape" value="aristate" />
+      </structure>
+    </statement>
+    <statement id="516.txt-16">
+      <text>x = 9.</text>
+      <structure id="o10579" name="chromosome">
+        <character name="count" value="9" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species 4 (4 in the flora):</number_of_infrataxa>
+  <general_distribution>c</general_distribution>
+  <general_distribution>w North America.</general_distribution>
+  <discussion>Because pappi of Nothocalaïs taxa vary from capillary bristles to aristate scales, the species were earlier assigned to either Agoseris or Microseris. The totality of morphologic evidence supports the unity of the genus, as well as its segregation from Agoseris and Microseris (K. L. Chambers 1955, 1957). According to recent phylogenetic studies based on chloroplast DNA (R. K. Jansen et al. 1991b; J. Whitton et al. 1995), Nothocalaïs is most closely related to Uropappus and Agoseris, the three genera together comprising a clade sister to Microseris.</discussion>
+  <references>SELECTED REFERENCE Chambers, K. L. 1955. A biosystematic study of the annual species of Microseris. Contr. Dudley Herb. 4: 207–312.</references>
+  <key>1.Pappi of 30–50 barbellulate bristles; leaf margins usually coarsely toothed or pinnately lobed, sometimes entire; phyllaries glabrous, evenly and minutely purple-dotted; subalpine, Cascade Range, Klamath Mountains, and (rarely) Sierra Nevada1. Nothocalaïs alpestris</key>
+  <key>1.Pappi of 10–30 aristate scales or of 40–80 intergradent, smooth to barbellulate bristles and ± subulate to setiform scales; leaf margins entire, sometimes undulate; phyllaries glabrous or villous, sometimes purple-dotted; Great Plains, n, mid Rocky Mountains, Columbia-Snake Rivers Plateau, n Great Basin.</key>
+  <key>2.Pappi of 40–80 intergradent, smooth to barbellulate bristles and ± subulate to setiform scales; Great Plains2. Nothocalaïs cuspidata</key>
+  <key>2.Pappi of 10–30 aristate scales; n, mid Rocky Mountains, Columbia-Snake Rivers Plateau, n Great Basin.</key>
+  <key>[3. Shifted to left margin.—Ed.]</key>
+  <key>3.Leaves lanceolate to oblanceolate, margins plane, apices acute; phyllaries broadly lanceolate to ovate, apices acute to acuminate, faces usually glabrous, minutely purple-dotted; n, mid Rocky Mountains3. Nothocalaïs nigrescens</key>
+  <key>3.Leaves mostly linear to linear-lanceolate, margins often undulate, apices acuminate; phyllaries lanceolate, apices acuminate, faces glabrous or villous especially on midnerves, margins often ciliolate, green or with purple-lined midnerves, sometimes also minutely purple- dotted; n Great Basin, Columbia-Snake Rivers Plateau4. Nothocalaïs troximoides</key>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

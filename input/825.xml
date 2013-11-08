@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>4.</number>
+  <species_name>Achillea alpina</species_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 899. 1753</place_of_publication>
+  <common_name>Siberian yarrow, achillée de Sibérie</common_name>
+  <synonym_of_species_name>Achillea sibirica Ledebour</synonym_of_species_name>
+  <description>
+    <statement id="825.txt-0">
+      <text>Perennials, 50–80 cm (fibrous-rooted and rhizomatous).</text>
+      <structure id="o17363" name="whole_organism">
+        <character char_type="range_value" name="size" from="50" from_unit="cm" to="80" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="825.txt-1">
+      <text>Stems 1, erect, branched or unbranched distally, sparsely villous to glabrate.</text>
+      <structure id="o17364" name="stem">
+        <character name="count" value="1" />
+        <character name="orientation" value="erect" />
+        <character name="architecture" value="branched" modifier="distally" />
+        <character name="architecture" value="unbranched" modifier="distally" />
+        <character char_type="range_value" name="pubescence" from="sparsely villous" to="glabrate" />
+        <character name="pubescence" value="villous" modifier="sparsely" />
+        <character name="pubescence" value="glabrate" modifier="sparsely" />
+      </structure>
+    </statement>
+    <statement id="825.txt-2">
+      <text>Leaves sessile;</text>
+      <structure id="o17365" name="leaf">
+        <character name="architecture" value="sessile" />
+      </structure>
+    </statement>
+    <statement id="825.txt-3">
+      <text>blades linear-lanceolate to oblong-lanceolate, 5–10 cm × 4–8 mm, (margins serrate to doubly serrate, teeth antrorse) faces sparingly villous or glabrate.</text>
+      <structure id="o17366" name="blade">
+        <character char_type="range_value" name="shape" from="linear-lanceolate" to="oblong-lanceolate" />
+        <character name="shape" value="linear-lanceolate" />
+        <character name="shape" value="oblong-lanceolate" />
+        <character char_type="range_value" name="length" from="5" from_unit="cm" to="10" to_unit="cm" />
+        <character char_type="range_value" name="width" from="4" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+      <structure id="o17367" name="face">
+        <character name="pubescence" value="villous" modifier="sparingly" />
+        <character name="pubescence" value="glabrate" modifier="sparingly" />
+      </structure>
+    </statement>
+    <statement id="825.txt-4">
+      <text>Heads 10–25+, in crowded, simple or compound, corymbiform arrays.</text>
+      <structure id="o17368" name="head">
+        <character char_type="range_value" name="count" from="10" to="25" upper_restricted="false" />
+      </structure>
+      <structure id="o17369" name="array">
+        <character name="architecture" value="crowded" />
+        <character name="architecture" value="simple" />
+        <character name="architecture" value="compound" />
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <relation id="r1861" name="in" from="o17368" to="o17369" negation="false" />
+    </statement>
+    <statement id="825.txt-5">
+      <text>Phyllaries 20–30 in ± 3 series, (light green, margins light to dark brown, midribs dark green or yellow-green) lanceolate to oblanceolate, faces (abaxial) sparingly tomentose.</text>
+      <structure id="o17370" name="phyllary">
+        <character char_type="range_value" name="count" from="20" to="30" constraint="in series" constraintid="o17371" />
+        <character char_type="range_value" name="shape" from="lanceolate" to="oblanceolate" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="oblanceolate" />
+      </structure>
+      <structure id="o17371" name="series">
+        <character name="count" value="3" modifier="±" />
+      </structure>
+      <structure id="o17372" name="face">
+        <character name="pubescence" value="tomentose" modifier="sparingly" />
+      </structure>
+    </statement>
+    <statement id="825.txt-6">
+      <text>Receptacles convex;</text>
+      <structure id="o17373" name="receptacle">
+        <character name="shape" value="convex" />
+      </structure>
+    </statement>
+    <statement id="825.txt-7">
+      <text>paleae oblong, 3.5–4.5 mm (apices dark, rounded).</text>
+      <structure id="o17374" name="palea">
+        <character name="shape" value="oblong" />
+        <character char_type="range_value" name="size" from="3.5" from_unit="mm" to="4.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="825.txt-8">
+      <text>Ray florets 6–8(–12), pistillate, fertile;</text>
+      <structure id="o17375" name="floret" constraint="ray">
+        <character char_type="range_value" name="atypical_count" from="8" to="12" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="6" to="8" />
+        <character name="architecture" value="pistillate" />
+        <character name="reproduction" value="fertile" />
+      </structure>
+    </statement>
+    <statement id="825.txt-9">
+      <text>corollas white, laminae 1–3 × 2–3 mm.</text>
+      <structure id="o17376" name="corolla">
+        <character name="coloration" value="white" />
+      </structure>
+      <structure id="o17377" name="lamina">
+        <character char_type="range_value" name="length" from="1" from_unit="mm" to="3" to_unit="mm" />
+        <character char_type="range_value" name="width" from="2" from_unit="mm" to="3" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="825.txt-10">
+      <text>Disc florets 25–30+;</text>
+      <structure id="o17378" name="floret" constraint="disc">
+        <character char_type="range_value" name="count" from="25" to="30" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="825.txt-11">
+      <text>corollas grayish or yellowish white, 2–3 mm.</text>
+      <structure id="o17379" name="corolla">
+        <character name="coloration" value="grayish" />
+        <character name="coloration" value="white" modifier="yellowish" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="3" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="825.txt-12">
+      <text>Cypselae 2.5 mm.</text>
+      <structure id="o17380" name="cypsela">
+        <character name="size" value="2.5" unit="mm" />
+      </structure>
+    </statement>
+    <statement id="825.txt-13">
+      <text>2 n = 36.</text>
+      <structure id="o17381" name="chromosome">
+        <character name="count" value="36" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>meadows</habitat>
+  <habitat>forest edges</habitat>
+  <habitat>roadsides</habitat>
+  <habitat>lakeshores</habitat>
+  <habitat>along streams</habitat>
+  <habitat>moist soils</habitat>
+  <elevation>100–600 m;</elevation>
+  <ca_distribution>Alta.</ca_distribution>
+  <ca_distribution>B.C.</ca_distribution>
+  <ca_distribution>Man.</ca_distribution>
+  <ca_distribution>N.W.T.</ca_distribution>
+  <ca_distribution>Ont.</ca_distribution>
+  <ca_distribution>Que.</ca_distribution>
+  <ca_distribution>Sask.</ca_distribution>
+  <ca_distribution>Yukon</ca_distribution>
+  <us_distribution>Alaska</us_distribution>
+  <us_distribution>Minn.</us_distribution>
+  <us_distribution>N.Dak.</us_distribution>
+  <global_distribution>Asia.</global_distribution>
+  <discussion>Achillea alpina has been reported (as A. sibirica) as occurring in New Jersey and Missouri. Specimens examined from those states were from plants cultivated in botanical gardens; there is no evidence that Achillea alpina has escaped in those states.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

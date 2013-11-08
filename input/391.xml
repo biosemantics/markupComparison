@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>4.</number>
+  <species_name>Hieracium lactucella</species_name>
+  <authority>Wallroth</authority>
+  <place_of_publication>Sched. Crit., 408. 1822</place_of_publication>
+  <description>
+    <statement id="391.txt-0">
+      <text>Plants 9–20(–35+) cm.</text>
+      <structure id="o7518" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="20" to="35" from_unit="cm" to_unit="cm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="9" from_unit="cm" to="20" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="391.txt-1">
+      <text>Stems proximally piloso-hirsute (hairs 1–2+ mm), sometimes stipitate-glandular as well, distally stellate-pubescent and stipitate-glandular (not piloso-hirsute).</text>
+      <structure id="o7519" name="stem">
+        <character name="pubescence" value="piloso-hirsute" modifier="proximally" />
+        <character name="architecture_or_exudation_or_pubescence" value="stipitate-glandular" modifier="sometimes" />
+        <character name="pubescence" value="stellate-pubescent" modifier="distally" />
+        <character name="architecture_or_exudation_or_pubescence" value="stipitate-glandular" />
+      </structure>
+    </statement>
+    <statement id="391.txt-2">
+      <text>Leaves:</text>
+      <structure id="o7520" name="leaf" />
+    </statement>
+    <statement id="391.txt-3">
+      <text>basal 5–8+, cauline 0(–2+);</text>
+      <structure id="o7521" name="leaf" constraint="basal">
+        <character char_type="range_value" name="count" from="5" to="8" upper_restricted="false" />
+      </structure>
+      <structure id="o7522" name="leaf" constraint="cauline">
+        <character char_type="range_value" name="atypical_count" from="0" to="2" upper_restricted="false" from_inclusive="false" />
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+    <statement id="391.txt-4">
+      <text>blades spatulate to oblanceolate, 15–40 × 5–12 mm, lengths 3–6+ times widths, bases cuneate, margins entire, apices rounded to acute, abaxial faces glabrous or piloso-hirsute (hairs 1–3+ mm), adaxial glabrous or piloso-hispid (hairs 1–3+ mm), sometimes stellate-pubescent as well.</text>
+      <structure id="o7523" name="blade">
+        <character char_type="range_value" name="shape" from="spatulate" to="oblanceolate" />
+        <character name="shape" value="spatulate" />
+        <character name="shape" value="oblanceolate" />
+        <character char_type="range_value" name="length" from="15" from_unit="mm" to="40" to_unit="mm" />
+        <character char_type="range_value" name="width" from="5" from_unit="mm" to="12" to_unit="mm" />
+        <character name="size" value="widths" modifier="3-6+ times" />
+      </structure>
+      <structure id="o7524" name="base">
+        <character name="shape" value="cuneate" />
+      </structure>
+      <structure id="o7525" name="margin">
+        <character name="shape" value="entire" />
+      </structure>
+      <structure id="o7526" name="apex">
+        <character char_type="range_value" name="shape" from="rounded" to="acute" />
+        <character name="shape" value="rounded" />
+        <character name="shape" value="acute" />
+      </structure>
+      <structure id="o7527" name="face" constraint="abaxial">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="piloso-hirsute" />
+        <character name="insertion_or_position" value="adaxial" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="piloso-hispid" />
+        <character name="pubescence" value="stellate-pubescent" modifier="sometimes" />
+      </structure>
+    </statement>
+    <statement id="391.txt-5">
+      <text>Heads usually 2–5+ in ± umbelliform arrays, sometimes borne singly.</text>
+      <structure id="o7528" name="head">
+        <character char_type="range_value" name="count" from="2" to="5" upper_restricted="false" modifier="usually" constraint="in arrays" constraintid="o7529" />
+        <character name="arrangement" value="singly" modifier="sometimes" />
+      </structure>
+      <structure id="o7529" name="array">
+        <character name="architecture" value="umbelliform" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="391.txt-6">
+      <text>Peduncles stellate-pubescent and stipitate-glandular (not piloso-hirsute).</text>
+      <structure id="o7530" name="peduncle">
+        <character name="pubescence" value="stellate-pubescent" />
+        <character name="architecture_or_exudation_or_pubescence" value="stipitate-glandular" />
+      </structure>
+    </statement>
+    <statement id="391.txt-7">
+      <text>Calyculi:</text>
+      <structure id="o7531" name="calyculus" />
+    </statement>
+    <statement id="391.txt-8">
+      <text>bractlets 9–13+.</text>
+      <structure id="o7532" name="bractlet">
+        <character char_type="range_value" name="count" from="9" to="13" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="391.txt-9">
+      <text>Involucres hemispheric, 6–8 mm.</text>
+      <structure id="o7533" name="involucre">
+        <character name="shape" value="hemispheric" />
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="391.txt-10">
+      <text>Phyllaries 16–21+, apices acuminate, abaxial faces stellate-pubescent and stipitate-glandular, sometimes piloso-hirsute (hairs 0.8–1.5+) as well.</text>
+      <structure id="o7534" name="phyllary">
+        <character char_type="range_value" name="count" from="16" to="21" upper_restricted="false" />
+      </structure>
+      <structure id="o7535" name="apex">
+        <character name="shape" value="acuminate" />
+      </structure>
+      <structure id="o7536" name="face" constraint="abaxial">
+        <character name="pubescence" value="stellate-pubescent" />
+        <character name="architecture_or_exudation_or_pubescence" value="stipitate-glandular" />
+        <character name="pubescence" value="piloso-hirsute" modifier="sometimes" />
+      </structure>
+    </statement>
+    <statement id="391.txt-11">
+      <text>Florets 40–60+;</text>
+      <structure id="o7537" name="floret">
+        <character char_type="range_value" name="count" from="40" to="60" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="391.txt-12">
+      <text>corollas yellow, 8+ mm.</text>
+      <structure id="o7538" name="corolla">
+        <character name="coloration" value="yellow" />
+        <character name="size" value="8+" unit="mm" />
+      </structure>
+    </statement>
+    <statement id="391.txt-13">
+      <text>Cypselae columnar, 1–2.5 mm;</text>
+      <structure id="o7539" name="cypsela">
+        <character name="shape" value="columnar" />
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="2.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="391.txt-14">
+      <text>pappi of 25–40, white bristles in 1 series, 4–5 mm.</text>
+      <structure id="o7540" name="pappus">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+      <structure id="o7541" name="bristle">
+        <character char_type="range_value" name="count" from="25" to="40" />
+        <character name="coloration" value="white" />
+      </structure>
+      <relation id="r911" name="consist_of" from="o7540" to="o7541" negation="false" />
+      <structure id="o7542" name="series">
+        <character name="count" value="1" />
+      </structure>
+      <relation id="r912" name="in" from="o7541" to="o7542" negation="false" />
+    </statement>
+  </description>
+  <flowering_time>may</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <habitat>pastures</habitat>
+  <habitat>fields</habitat>
+  <elevation>10+ m;</elevation>
+  <introduced>introduced;</introduced>
+  <ca_distribution>N.S.</ca_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <global_distribution>Europe.</global_distribution>
+  <discussion>According to A. E. Roland and M. Zinck (1998), Hieracium auricula Linnaeus and Pilosella auricula (Linnaeus) Schultz-Bipontinus have been misapplied to plants here called H. lactucella (see also discussion at 5. H. caespitosum).</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

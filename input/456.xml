@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>61.</number>
+  <genus_name>CALYCOSERIS</genus_name>
+  <authority>A. Gray</authority>
+  <place_of_publication>Smithsonian Contr. Knowl. 5(6): 104, plate 14. 1853</place_of_publication>
+  <common_name>Tack-stem</common_name>
+  <derivation>Greek kalyx , cup, and seris , chicory, alluding to shallow cups on apices of cypselae</derivation>
+  <author_of_tribe_genus>L. D. Gottlieb</author_of_tribe_genus>
+  <description>
+    <statement id="456.txt-0">
+      <text>Annuals , 5–30 cm;</text>
+    </statement>
+    <statement id="456.txt-1">
+      <text>taprooted.</text>
+      <structure id="o9015" name="whole_organism">
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="30" to_unit="cm" />
+        <character name="life_style" value="annual" />
+        <character name="architecture" value="taprooted" />
+      </structure>
+    </statement>
+    <statement id="456.txt-2">
+      <text>Stems 1–3, erect or ascending, branched from bases;</text>
+      <structure id="o9016" name="stem">
+        <character char_type="range_value" name="count" from="1" to="3" />
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="ascending" />
+        <character name="architecture_or_shape" value="branched" constraint="from bases" constraintid="o9017" />
+      </structure>
+      <structure id="o9017" name="base" />
+    </statement>
+    <statement id="456.txt-3">
+      <text>distal stems, branches, and involucres conspicuously dotted with short, stipitate, flat-topped glands that resemble tacks.</text>
+      <structure id="o9018" name="stem" constraint="distal">
+        <character name="coloration_or_relief" value="dotted" modifier="conspicuously" />
+      </structure>
+      <structure id="o9019" name="branch">
+        <character name="coloration_or_relief" value="dotted" modifier="conspicuously" />
+      </structure>
+      <structure id="o9020" name="involucre" constraint="and">
+        <character name="coloration_or_relief" value="dotted" modifier="conspicuously" constraint="with glands" constraintid="o9021" />
+      </structure>
+      <structure id="o9021" name="gland">
+        <character name="size" value="short" />
+        <character name="architecture" value="stipitate" />
+        <character name="shape" value="flat-topped" />
+      </structure>
+      <structure id="o9022" name="tack" />
+      <relation id="r1053" name="resemble" from="o9021" to="o9022" negation="false" />
+    </statement>
+    <statement id="456.txt-4">
+      <text>Leaves basal and cauline;</text>
+    </statement>
+    <statement id="456.txt-5">
+      <text>alternate;</text>
+    </statement>
+    <statement id="456.txt-6">
+      <text>sessile;</text>
+      <structure id="o9023" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="arrangement" value="alternate" />
+        <character name="architecture" value="sessile" />
+      </structure>
+    </statement>
+    <statement id="456.txt-7">
+      <text>basal blades pinnately lobed (lobes narrow, linear, often delicate, spreading, margins entire, smooth);</text>
+      <structure id="o9024" name="blade" constraint="basal">
+        <character name="shape" value="lobed" modifier="pinnately" />
+      </structure>
+    </statement>
+    <statement id="456.txt-8">
+      <text>distal reduced to linear, entire bracts.</text>
+      <structure id="o9025" name="leaf" constraint="distal">
+        <character name="size" value="reduced" />
+        <character name="arrangement_or_shape" value="linear" />
+      </structure>
+      <structure id="o9026" name="bract">
+        <character name="shape" value="entire" />
+      </structure>
+    </statement>
+    <statement id="456.txt-9">
+      <text>Heads borne singly or in open, cymiform arrays.</text>
+      <structure id="o9027" name="head">
+        <character name="arrangement" value="singly" />
+        <character name="arrangement" value="in open , cymiform arrays" />
+      </structure>
+      <structure id="o9028" name="array">
+        <character name="architecture" value="open" />
+        <character name="architecture" value="cymiform" />
+      </structure>
+      <relation id="r1054" name="in" from="o9027" to="o9028" negation="false" />
+    </statement>
+    <statement id="456.txt-10">
+      <text>Peduncles (1–3 cm) not inflated, not bracteate.</text>
+      <structure id="o9029" name="peduncle">
+        <character name="shape" value="inflated" modifier="not" />
+        <character name="architecture" value="bracteate" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="456.txt-11">
+      <text>Calyculi of 8–16, reflexed, unequal bractlets (lengths to 1 / 2 phyllaries).</text>
+      <structure id="o9030" name="calyculus" />
+      <structure id="o9031" name="bractlet">
+        <character char_type="range_value" name="count" from="8" to="16" />
+        <character name="orientation" value="reflexed" />
+        <character name="size" value="unequal" />
+      </structure>
+      <relation id="r1055" name="consist_of" from="o9030" to="o9031" negation="false" />
+    </statement>
+    <statement id="456.txt-12">
+      <text>Involucres campanulate, 5–12+ mm diam.</text>
+      <structure id="o9032" name="involucre">
+        <character name="shape" value="campanulate" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="12" to_unit="mm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="456.txt-13">
+      <text>Phyllaries 12–20 in 1 series, linear-lanceolate, equal, margins scarious, apices acute .</text>
+      <structure id="o9033" name="phyllary">
+        <character char_type="range_value" name="count" from="12" to="20" constraint="in series" constraintid="o9034" />
+        <character name="shape" value="linear-lanceolate" />
+        <character name="size" value="equal" />
+      </structure>
+      <structure id="o9034" name="series">
+        <character name="count" value="1" />
+      </structure>
+      <structure id="o9035" name="margin">
+        <character name="texture" value="scarious" />
+      </structure>
+      <structure id="o9036" name="apex">
+        <character name="shape" value="acute" />
+      </structure>
+    </statement>
+    <statement id="456.txt-14">
+      <text>Receptacles flat, smooth, bristly, epaleate (each floret subtended by 1 fine, capillary bristle).</text>
+      <structure id="o9037" name="receptacle">
+        <character name="shape" value="flat" />
+        <character name="architecture_or_relief" value="smooth" />
+        <character name="pubescence" value="bristly" />
+        <character name="architecture" value="epaleate" />
+      </structure>
+    </statement>
+    <statement id="456.txt-15">
+      <text>Florets ca. 25;</text>
+      <structure id="o9038" name="floret">
+        <character name="count" value="25" />
+      </structure>
+    </statement>
+    <statement id="456.txt-16">
+      <text>corollas white or yellow (showy).</text>
+      <structure id="o9039" name="corolla">
+        <character name="coloration" value="white" />
+        <character name="coloration" value="yellow" />
+      </structure>
+    </statement>
+    <statement id="456.txt-17">
+      <text>Cypselae tan to brown, fusiform, beaked, ribs 5, separated by longitudinal grooves, faces glabrous or scabridulous;</text>
+      <structure id="o9040" name="cypsela">
+        <character char_type="range_value" name="coloration" from="tan" to="brown" />
+        <character name="coloration" value="tan" />
+        <character name="coloration" value="brown" />
+        <character name="shape" value="fusiform" />
+        <character name="shape" value="beaked" />
+      </structure>
+      <structure id="o9041" name="rib">
+        <character name="count" value="5" />
+        <character name="arrangement" value="separated" constraint="by grooves" constraintid="o9042" />
+      </structure>
+      <structure id="o9042" name="groove">
+        <character name="dehiscence_or_orientation" value="longitudinal" />
+      </structure>
+      <structure id="o9043" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="relief" value="scabridulous" />
+      </structure>
+    </statement>
+    <statement id="456.txt-18">
+      <text>pappi (borne on denticulate cups at beak tips) falling (together), of 50–60+, white, basally connate, smooth bristles 5–8(–9) mm in 1 series.</text>
+      <structure id="o9044" name="pappus">
+        <character name="orientation" value="falling" />
+      </structure>
+      <structure id="o9045" name="bristle">
+        <character char_type="range_value" name="count" from="50" to="60" upper_restricted="false" />
+        <character name="coloration" value="white" />
+        <character name="fusion" value="connate" modifier="basally" />
+        <character name="architecture_or_relief" value="smooth" />
+        <character char_type="range_value" name="atypical_size" from="8" to="9" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="8" to_unit="mm" constraint="in series" constraintid="o9046" />
+      </structure>
+      <relation id="r1056" name="consist_of" from="o9044" to="o9045" negation="false" />
+      <structure id="o9046" name="series">
+        <character name="count" value="1" />
+      </structure>
+    </statement>
+    <statement id="456.txt-19">
+      <text>x = 7.</text>
+      <structure id="o9047" name="chromosome">
+        <character name="count" value="7" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species 2 (2 in the flora):</number_of_infrataxa>
+  <general_distribution>sw United States</general_distribution>
+  <general_distribution>nw Mexico.</general_distribution>
+  <key>1.Ligules yellow; tack-shaped glands red- or purple-tipped; cypselae deeply grooved between ribs, faces not rugulose1. Calycoseris parryi</key>
+  <key>1.Ligules white; tack-shaped glands straw-colored; cypselae shallowly grooved between ribs, faces weakly cross-rugulose2. Calycoseris wrightii</key>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

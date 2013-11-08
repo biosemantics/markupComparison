@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Pentzia incana</species_name>
+  <authority>(Thunberg) Kuntze</authority>
+  <place_of_publication>Revis. Gen. Pl. 3(2): 166. 1898</place_of_publication>
+  <common_name>African sheepbush</common_name>
+  <synonym_of_species_name>Chrysanthemum incanum Thunberg, Prodr. Pl. Cap., 161. 1800</synonym_of_species_name>
+  <description>
+    <statement id="945.txt-0">
+      <text>Stem branches ascending, finely appressed-tomentulose.</text>
+      <structure id="o19481" name="branch" constraint="stem">
+        <character name="orientation" value="ascending" />
+        <character name="pubescence" value="appressed-tomentulose" modifier="finely" />
+      </structure>
+    </statement>
+    <statement id="945.txt-1">
+      <text>Leaves often fascicled;</text>
+      <structure id="o19482" name="leaf">
+        <character name="architecture_or_arrangement" value="fascicled" modifier="often" />
+      </structure>
+    </statement>
+    <statement id="945.txt-2">
+      <text>blades ± obovate to cuneate, 3–9 mm, 1(–2) times divided, ultimate lobes linear to narrowly spatulate, revolute, inconspicuously appressed-puberulent to tomentulose or glabrate, minutely gland-dotted.</text>
+      <structure id="o19483" name="blade">
+        <character char_type="range_value" name="shape" from="obovate" to="cuneate" modifier="±" />
+        <character name="shape" value="obovate" modifier="±" />
+        <character name="shape" value="cuneate" modifier="±" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="9" to_unit="mm" />
+        <character name="shape" value="divided" modifier="-2" />
+      </structure>
+      <structure id="o19484" name="lobe" constraint="ultimate">
+        <character name="arrangement_or_shape" value="linear" />
+        <character name="shape" value="spatulate" modifier="narrowly" />
+        <character name="shape_or_vernation" value="revolute" />
+        <character char_type="range_value" name="pubescence" from="inconspicuously appressed-puberulent" to="tomentulose or glabrate" />
+        <character name="pubescence" value="appressed-puberulent" modifier="inconspicuously" />
+        <character name="pubescence" value="tomentulose" modifier="inconspicuously" />
+        <character name="pubescence" value="glabrate" modifier="inconspicuously" />
+        <character name="coloration_or_relief" value="gland-dotted" modifier="minutely" />
+      </structure>
+    </statement>
+    <statement id="945.txt-3">
+      <text>Peduncles slender, 2–3 cm, proximally bracteate, bracts remote, appressed, leaflike, distally usually ebracteate.</text>
+      <structure id="o19485" name="peduncle">
+        <character name="size" value="slender" />
+        <character char_type="range_value" name="size" from="2" from_unit="cm" to="3" to_unit="cm" />
+        <character name="architecture" value="bracteate" modifier="proximally" />
+      </structure>
+      <structure id="o19486" name="bract">
+        <character name="arrangement" value="remote" />
+        <character name="orientation" value="appressed" />
+        <character name="architecture" value="leaflike" />
+        <character name="architecture" value="ebracteate" modifier="distally usually" />
+      </structure>
+    </statement>
+    <statement id="945.txt-4">
+      <text>Involucres 3–4 × 4–5 mm.</text>
+      <structure id="o19487" name="involucre">
+        <character char_type="range_value" name="length" from="3" from_unit="mm" to="4" to_unit="mm" />
+        <character char_type="range_value" name="width" from="4" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="945.txt-5">
+      <text>Phyllaries:</text>
+      <structure id="o19488" name="phyllary" />
+    </statement>
+    <statement id="945.txt-6">
+      <text>outer with relatively narrow scarious margins, inner with relatively broad, hyaline tips.</text>
+      <structure id="o19489" name="phyllary" constraint="outer" />
+      <structure id="o19490" name="margin">
+        <character name="size" value="narrow" modifier="relatively" />
+        <character name="texture" value="scarious" />
+      </structure>
+      <relation id="r2040" name="with" from="o19489" to="o19490" negation="false" />
+      <structure id="o19491" name="phyllary" constraint="inner" />
+      <structure id="o19492" name="tip">
+        <character name="size" value="broad" modifier="relatively" />
+        <character name="coloration" value="hyaline" />
+      </structure>
+      <relation id="r2041" name="with" from="o19491" to="o19492" negation="false" />
+    </statement>
+    <statement id="945.txt-7">
+      <text>Corollas ± goblet-shaped, 1.8–2+ mm.</text>
+      <structure id="o19493" name="corolla">
+        <character name="shape" value="goblet-shaped" modifier="±" />
+        <character char_type="range_value" name="size" from="1.8" from_unit="mm" to="2" to_unit="mm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="945.txt-8">
+      <text>Cypselae gray-brown, 1.2–1.8 mm;</text>
+      <structure id="o19494" name="cypsela">
+        <character name="coloration" value="brown" modifier="gray" />
+        <character char_type="range_value" name="size" from="1.2" from_unit="mm" to="1.8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="945.txt-9">
+      <text>pappi of 1–3, adaxial, ± truncate, erose to lacerate scales 0.6–1 mm.</text>
+      <structure id="o19495" name="pappus" />
+      <structure id="o19496" name="scale">
+        <character char_type="range_value" name="count" from="1" to="3" />
+        <character name="insertion_or_position" value="adaxial" />
+        <character char_type="range_value" name="shape" from="truncate , erose" to="lacerate" />
+        <character name="shape" value="truncate" />
+        <character name="shape" value="erose" />
+        <character name="shape" value="lacerate" />
+        <character char_type="range_value" name="size" from="0.6" from_unit="mm" to="1" to_unit="mm" />
+      </structure>
+      <relation id="r2042" name="consist_of" from="o19495" to="o19496" negation="false" />
+    </statement>
+  </description>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>grasslands</habitat>
+  <habitat>pinyon-juniper-oak scrub</habitat>
+  <elevation>900–1600 m;</elevation>
+  <introduced>introduced;</introduced>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <global_distribution>s Africa</global_distribution>
+  <global_distribution>also introduced in Australia.</global_distribution>
+  <discussion>Pentzia incana was introduced in Arizona from southern Africa by the U.S. Soil Conservation Service. It is valued in its native region as a browse plant.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

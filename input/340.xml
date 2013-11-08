@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Youngia japonica</species_name>
+  <authority>(Linneaus) de Candolle</authority>
+  <place_of_publication>in A. P. de Candolle and A. L. P. P. de Candolle, Prodr. 7: 194. 1838</place_of_publication>
+  <common_name>Oriental false hawksbeard</common_name>
+  <synonym_of_species_name>Prenanthes japonica Linnaeus, Mant. Pl., 107. 1767; Crepis japonica (Linnaeus) Bentham; Youngia japonica subsp. elstonii (Hochreutiner) Babcock &amp; Stebbins</synonym_of_species_name>
+  <description>
+    <statement id="340.txt-0">
+      <text>Stems terete, fistulose.</text>
+      <structure id="o6322" name="stem">
+        <character name="shape" value="terete" />
+        <character name="shape" value="fistulose" />
+      </structure>
+    </statement>
+    <statement id="340.txt-1">
+      <text>Leaves:</text>
+      <structure id="o6323" name="leaf" />
+    </statement>
+    <statement id="340.txt-2">
+      <text>petioles 1–10 cm, glabrous, puberulent, or densely hairy (hairs often brownish, crinkled);</text>
+      <structure id="o6324" name="petiole">
+        <character char_type="range_value" name="size" from="1" from_unit="cm" to="10" to_unit="cm" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="puberulent" />
+        <character name="pubescence" value="hairy" modifier="densely" />
+      </structure>
+    </statement>
+    <statement id="340.txt-3">
+      <text>blades 3–12(–25) × 2–4(–6) cm, lateral lobes 0–20, mostly gradually reduced proximally, terminal lobes elliptic, ovate, obovate, or oblong-truncate, larger than laterals, apices obtuse or acute.</text>
+      <structure id="o6325" name="blade">
+        <character char_type="range_value" name="atypical_length" from="12" to="25" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="3" from_unit="cm" to="12" to_unit="cm" />
+        <character char_type="range_value" name="atypical_width" from="4" to="6" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="width" from="2" from_unit="cm" to="4" to_unit="cm" />
+      </structure>
+      <structure id="o6326" name="lobe" constraint="lateral">
+        <character char_type="range_value" name="count" from="0" to="20" />
+        <character name="size" value="reduced" modifier="mostly gradually ; proximally" />
+      </structure>
+      <structure id="o6327" name="lobe" constraint="terminal">
+        <character name="shape" value="elliptic" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="obovate" />
+        <character name="shape" value="oblong-truncate" />
+        <character name="size" value="larger" constraint="than laterals" constraintid="o6328" />
+      </structure>
+      <structure id="o6328" name="lateral" />
+      <structure id="o6329" name="apex">
+        <character name="shape" value="obtuse" />
+        <character name="shape" value="acute" />
+      </structure>
+    </statement>
+    <statement id="340.txt-4">
+      <text>Peduncles 1–5(–15) mm.</text>
+      <structure id="o6330" name="peduncle">
+        <character char_type="range_value" name="atypical_size" from="5" to="15" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="340.txt-5">
+      <text>Phyllaries 3.5–6 mm, bases and midribs becoming ± spongy, abaxial faces glabrous, glabrate, or hairy (hairs appressed, shining).</text>
+      <structure id="o6331" name="phyllary">
+        <character char_type="range_value" name="size" from="3.5" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+      <structure id="o6332" name="base">
+        <character name="texture" value="spongy" modifier="becoming ±" />
+      </structure>
+      <structure id="o6333" name="midrib">
+        <character name="texture" value="spongy" modifier="becoming ±" />
+      </structure>
+      <structure id="o6334" name="face" constraint="abaxial">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="glabrate" />
+        <character name="pubescence" value="hairy" />
+      </structure>
+    </statement>
+    <statement id="340.txt-6">
+      <text>Florets:</text>
+      <structure id="o6335" name="floret" />
+    </statement>
+    <statement id="340.txt-7">
+      <text>corollas mostly 4.5–6.5 mm;</text>
+      <structure id="o6336" name="corolla">
+        <character char_type="range_value" name="size" from="4.5" from_unit="mm" to="6.5" to_unit="mm" modifier="mostly" />
+      </structure>
+    </statement>
+    <statement id="340.txt-8">
+      <text>anthers dark green (drying purplish);</text>
+      <structure id="o6337" name="anther">
+        <character name="coloration" value="green" modifier="dark" />
+      </structure>
+    </statement>
+    <statement id="340.txt-9">
+      <text>styles and style-branches yellow.</text>
+      <structure id="o6338" name="style">
+        <character name="coloration" value="yellow" />
+      </structure>
+      <structure id="o6339" name="style_branch">
+        <character name="coloration" value="yellow" />
+      </structure>
+    </statement>
+    <statement id="340.txt-10">
+      <text>Cypselae 1.5–2.5 mm, bases hollow, lightly calloused;</text>
+      <structure id="o6340" name="cypsela">
+        <character char_type="range_value" name="size" from="1.5" from_unit="mm" to="2.5" to_unit="mm" />
+      </structure>
+      <structure id="o6341" name="base">
+        <character name="architecture" value="hollow" />
+        <character name="texture" value="calloused" modifier="lightly" />
+      </structure>
+    </statement>
+    <statement id="340.txt-11">
+      <text>pappi 2.5–3.5 mm, slightly surpassing phyllaries.</text>
+      <structure id="o6342" name="pappus">
+        <character char_type="range_value" name="size" from="2.5" from_unit="mm" to="3.5" to_unit="mm" />
+      </structure>
+      <structure id="o6343" name="phyllary">
+        <character name="comparison" value="surpassing" modifier="slightly" />
+      </structure>
+    </statement>
+    <statement id="340.txt-12">
+      <text>2 n = 16.</text>
+      <structure id="o6344" name="chromosome">
+        <character name="count" value="16" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>waste places</habitat>
+  <habitat>lawns</habitat>
+  <habitat>etc</habitat>
+  <elevation>0–2400 m;</elevation>
+  <introduced>introduced;</introduced>
+  <us_distribution>Ala.</us_distribution>
+  <us_distribution>Ark.</us_distribution>
+  <us_distribution>D.C.</us_distribution>
+  <us_distribution>Fla.</us_distribution>
+  <us_distribution>Ga.</us_distribution>
+  <us_distribution>Ky.</us_distribution>
+  <us_distribution>La.</us_distribution>
+  <us_distribution>Md.</us_distribution>
+  <us_distribution>Miss.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>N.C.</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <us_distribution>S.C.</us_distribution>
+  <us_distribution>Tenn.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <us_distribution>Va.</us_distribution>
+  <global_distribution>se Asia</global_distribution>
+  <global_distribution>introduced also in Mexico</global_distribution>
+  <global_distribution>Central America</global_distribution>
+  <global_distribution>South America</global_distribution>
+  <global_distribution>Europe</global_distribution>
+  <global_distribution>Africa</global_distribution>
+  <global_distribution>Pacific Islands</global_distribution>
+  <global_distribution>Australia.</global_distribution>
+  <discussion>Youngia japonica is now considered a pantropical weed. Relatively few specimens in the flora match what Babcock and Stebbins called subsp. elstonii, with cauline leaves almost as large as the basal and with conspicuous, lobed bracts at the bases of the proximalmost branches of the capitulescence. In subsp. japonica, to which most of our specimens are referred, the cauline leaves are much reduced or lacking, as are the bracts of the capitulescence.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

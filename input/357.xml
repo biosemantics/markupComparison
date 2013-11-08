@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>10.</number>
+  <species_name>Lactuca sativa</species_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 795. 1753</place_of_publication>
+  <description>
+    <statement id="357.txt-0">
+      <text>Annuals or biennials, (15–)30–70(–100+) cm.</text>
+      <structure id="o6658" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="15" to="30" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_size" from="70" to="100" from_unit="cm" to_unit="cm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="30" from_unit="cm" to="70" to_unit="cm" />
+        <character name="life_style" value="annual" />
+        <character name="life_style" value="biennial" />
+      </structure>
+    </statement>
+    <statement id="357.txt-2">
+      <text>blades of undivided cauline leaves ovate to orbiculate, margins entire or denticulate, seldom prickly, midribs rarely prickly-setose.</text>
+      <structure id="o6660" name="blade">
+        <character char_type="range_value" name="shape" from="ovate" to="orbiculate" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="orbiculate" />
+      </structure>
+      <structure id="o6661" name="leaf" constraint="undivided cauline" />
+      <relation id="r827" name="part_of" from="o6660" to="o6661" negation="false" />
+      <structure id="o6662" name="margin">
+        <character name="shape" value="entire" />
+        <character name="shape" value="denticulate" />
+        <character name="architecture" value="prickly" modifier="seldom" />
+      </structure>
+      <structure id="o6663" name="midrib">
+        <character name="pubescence" value="prickly-setose" modifier="rarely" />
+      </structure>
+    </statement>
+    <statement id="357.txt-3">
+      <text>Heads usually in corymbiform, sometimes in paniculiform, arrays.</text>
+      <structure id="o6664" name="head" />
+      <structure id="o6665" name="array">
+        <character name="architecture" value="corymbiform" />
+        <character name="architecture" value="paniculiform" modifier="sometimes" />
+      </structure>
+      <relation id="r828" name="in" from="o6664" to="o6665" negation="false" modifier="usually" />
+    </statement>
+    <statement id="357.txt-4">
+      <text>Involucres 8–13+ mm.</text>
+      <structure id="o6666" name="involucre">
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="13" to_unit="mm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="357.txt-5">
+      <text>Phyllaries usually erect in fruit.</text>
+      <structure id="o6667" name="phyllary">
+        <character name="orientation" value="erect" modifier="usually" constraint="in fruit" constraintid="o6668" />
+      </structure>
+      <structure id="o6668" name="fruit" />
+    </statement>
+    <statement id="357.txt-6">
+      <text>Florets 7–15(–30+);</text>
+      <structure id="o6669" name="floret">
+        <character char_type="range_value" name="atypical_count" from="15" to="30" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="7" to="15" />
+      </structure>
+    </statement>
+    <statement id="357.txt-7">
+      <text>corollas yellow (sometimes streaked with violet), usually deliquescent.</text>
+      <structure id="o6670" name="corolla">
+        <character name="coloration" value="yellow" />
+        <character name="architecture_or_texture" value="deliquescent" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="357.txt-8">
+      <text>Cypselae:</text>
+      <structure id="o6671" name="cypsela" />
+    </statement>
+    <statement id="357.txt-9">
+      <text>bodies pale grayish to whitish or tan, ± flattened, obovate, 3–4 mm, beaks ± filiform, 3–5 mm, faces 5–9-nerved;</text>
+      <structure id="o6672" name="body">
+        <character char_type="range_value" name="coloration" from="pale-grayish" to="whitish or tan" />
+        <character name="coloration" value="grayish" modifier="pale" />
+        <character name="coloration" value="whitish" />
+        <character name="coloration" value="tan" />
+        <character name="shape" value="flattened" modifier="±" />
+        <character name="shape" value="obovate" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+      <structure id="o6673" name="beak">
+        <character name="shape" value="filiform" modifier="±" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+      <structure id="o6674" name="face">
+        <character name="architecture" value="5-9-nerved" />
+      </structure>
+    </statement>
+    <statement id="357.txt-10">
+      <text>pappi white, 3.5–4+ mm .</text>
+      <structure id="o6675" name="pappus">
+        <character name="coloration" value="white" />
+        <character char_type="range_value" name="size" from="3.5" from_unit="mm" to="4" to_unit="mm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="357.txt-11">
+      <text>2 n = 18.</text>
+      <structure id="o6676" name="chromosome">
+        <character name="count" value="18" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>disturbed sites</habitat>
+  <habitat>abandoned plantings</habitat>
+  <elevation>10–1000 m;</elevation>
+  <introduced>introduced;</introduced>
+  <ca_distribution>Ont.</ca_distribution>
+  <us_distribution>Ala.</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Conn.</us_distribution>
+  <us_distribution>Del.</us_distribution>
+  <us_distribution>D.C.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Ill.</us_distribution>
+  <us_distribution>Ind.</us_distribution>
+  <us_distribution>Maine</us_distribution>
+  <us_distribution>Mass.</us_distribution>
+  <us_distribution>Mich.</us_distribution>
+  <us_distribution>Mo.</us_distribution>
+  <us_distribution>N.H.</us_distribution>
+  <us_distribution>N.J.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>N.C.</us_distribution>
+  <us_distribution>N.Dak.</us_distribution>
+  <us_distribution>Ohio</us_distribution>
+  <us_distribution>Okla.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <us_distribution>R.I.</us_distribution>
+  <us_distribution>Vt.</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <us_distribution>W.Va.</us_distribution>
+  <global_distribution>Eurasia</global_distribution>
+  <global_distribution>introduced also in Mexico</global_distribution>
+  <global_distribution>introduced or ephemeral nearly worldwide.</global_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

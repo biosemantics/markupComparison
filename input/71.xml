@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>15.</number>
+  <species_name>Cirsium virginianum</species_name>
+  <authority>(Linnaeus) Michaux</authority>
+  <place_of_publication>Fl. Bor.-Amer. 2: 90. 1803</place_of_publication>
+  <common_name>Virginia thistle</common_name>
+  <synonym_of_species_name>Carduus virginianus Linnaeus, Sp. Pl. 2: 824. 1753; C. revolutus Small; Cirsium revolutum (Small) Petrak</synonym_of_species_name>
+  <description>
+    <statement id="71.txt-0">
+      <text>Biennials or perennials, 60–150(–200) cm;</text>
+      <structure id="o14801" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="150" to="200" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="60" from_unit="cm" to="150" to_unit="cm" />
+        <character name="life_style" value="biennial" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="71.txt-1">
+      <text>crown sprouts from cluster of fibrous roots, these often tuberous-thickened.</text>
+      <structure id="o14803" name="crown">
+        <character name="thickness" value="tuberous-thickened" modifier="often" />
+      </structure>
+      <structure id="o14804" name="sprout" />
+      <structure id="o14805" name="root" constraint="fibrous" />
+      <relation id="r1597" name="from cluster of" from="o14804" to="o14805" negation="false" />
+    </statement>
+    <statement id="71.txt-2">
+      <text>Stems usually single, erect, thinly appressed-tomentose, ± glabrate in age;</text>
+      <structure id="o14806" name="stem">
+        <character name="count" value="single" modifier="usually" />
+        <character name="orientation" value="erect" />
+        <character name="pubescence" value="appressed-tomentose" modifier="thinly" />
+        <character name="pubescence" value="glabrate" modifier="±" constraint="in age" constraintid="o14807" />
+      </structure>
+      <structure id="o14807" name="age" />
+    </statement>
+    <statement id="71.txt-4">
+      <text>Leaves very numerous, firm-textured, blades 3–15 cm, thick, ± rigid, linear or linear-elliptic, 0.5–2 cm wide and spinulose, or narrowly ovate, 2–4 cm wide, deeply lobed, lobes remote, spreading, separated by broad sinuses, few toothed or lobed, margins often revolute, main spines slender, 3–5(–9) mm, abaxial faces white-tomentose, adaxial green, glabrous or thinly tomentose;</text>
+      <structure id="o14808" name="leaf">
+        <character name="count" value="numerous" modifier="very" />
+      </structure>
+      <structure id="o14809" name="blade">
+        <character char_type="range_value" name="size" from="3" from_unit="cm" to="15" to_unit="cm" />
+        <character name="thickness" value="thick" />
+        <character name="texture" value="rigid" modifier="±" />
+        <character name="arrangement_or_shape" value="linear" />
+        <character name="arrangement_or_shape" value="linear-elliptic" />
+        <character char_type="range_value" name="size" from="0.5" from_unit="cm" to="2" to_unit="cm" />
+        <character name="shape" value="spinulose" />
+        <character name="shape" value="ovate" modifier="narrowly" />
+        <character char_type="range_value" name="size" from="2" from_unit="cm" to="4" to_unit="cm" />
+        <character name="shape" value="lobed" modifier="deeply" />
+      </structure>
+      <structure id="o14810" name="lobe">
+        <character name="arrangement" value="remote" />
+        <character name="orientation" value="spreading" />
+        <character name="arrangement" value="separated" constraint="by sinuses" constraintid="o14811" />
+        <character name="shape" value="lobed" />
+      </structure>
+      <structure id="o14811" name="sinus">
+        <character name="size" value="broad" />
+      </structure>
+      <structure id="o14812" name="margin">
+        <character name="shape_or_vernation" value="revolute" modifier="often" />
+      </structure>
+      <structure id="o14813" name="spine" constraint="main">
+        <character name="size" value="slender" />
+        <character char_type="range_value" name="atypical_size" from="5" to="9" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+      <structure id="o14814" name="face" constraint="abaxial">
+        <character name="pubescence" value="white-tomentose" />
+        <character name="insertion_or_position" value="adaxial" />
+        <character name="coloration" value="green" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="tomentose" modifier="thinly" />
+      </structure>
+    </statement>
+    <statement id="71.txt-5">
+      <text>basal usually absent at flowering, winged-petiolate;</text>
+      <structure id="o14815" name="leaf" constraint="basal">
+        <character name="presence" value="absent" modifier="usually; at flowering" />
+        <character name="architecture" value="winged-petiolate" />
+      </structure>
+    </statement>
+    <statement id="71.txt-6">
+      <text>proximal cauline usually absent at flowering, well separated, winged-petiolate;</text>
+      <structure id="o14816" name="leaf" constraint="proximal cauline">
+        <character name="presence" value="absent" modifier="usually; at flowering" />
+        <character name="arrangement" value="separated" modifier="well" />
+        <character name="architecture" value="winged-petiolate" />
+      </structure>
+    </statement>
+    <statement id="71.txt-7">
+      <text>middle and distal numerous (30–70+), sessile, well distributed, gradually reduced distally, bases tapered, not decurrent;</text>
+      <structure id="o14817" name="leaf" constraint="middle and distal">
+        <character name="count" value="numerous" />
+        <character char_type="range_value" name="atypical_count" from="30" to="70" upper_restricted="false" />
+        <character name="architecture" value="sessile" />
+        <character name="arrangement" value="distributed" modifier="well" />
+        <character name="size" value="reduced" modifier="gradually ; distally" />
+      </structure>
+      <structure id="o14818" name="base">
+        <character name="shape" value="tapered" />
+        <character name="shape" value="decurrent" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="71.txt-8">
+      <text>distal linear, entire or few lobed, ca. 1 cm.</text>
+      <structure id="o14819" name="leaf" constraint="distal">
+        <character name="size" value="1" unit="cm" />
+      </structure>
+    </statement>
+    <statement id="71.txt-9">
+      <text>Heads 1–10+ in open, corymbiform or paniculiform arrays.</text>
+      <structure id="o14820" name="head">
+        <character char_type="range_value" name="count" from="1" to="10" upper_restricted="false" constraint="in arrays" constraintid="o14821" />
+      </structure>
+      <structure id="o14821" name="array">
+        <character name="architecture" value="open" />
+        <character name="architecture" value="corymbiform" />
+        <character name="architecture" value="paniculiform" />
+      </structure>
+    </statement>
+    <statement id="71.txt-10">
+      <text>Peduncles 10–15 cm (not overtopped by distal leaves).</text>
+      <structure id="o14822" name="peduncle">
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="15" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="71.txt-11">
+      <text>Involucres ovoid to cylindric or narrowly campanulate, 1.7–2.4 × 1–2 cm, glabrous or outer phyllaries very thinly tomentose.</text>
+      <structure id="o14823" name="involucre">
+        <character char_type="range_value" name="shape" from="ovoid" to="cylindric or narrowly campanulate" />
+        <character name="shape" value="ovoid" />
+        <character name="shape" value="cylindric" />
+        <character name="shape" value="campanulate" modifier="narrowly" />
+        <character char_type="range_value" name="length" from="1.7" from_unit="cm" to="2.4" to_unit="cm" />
+        <character char_type="range_value" name="width" from="1" from_unit="cm" to="2" to_unit="cm" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="outer phyllaries" />
+      </structure>
+      <structure id="o14824" name="phyllary" constraint="outer">
+        <character name="pubescence" value="tomentose" modifier="very thinly" />
+      </structure>
+    </statement>
+    <statement id="71.txt-12">
+      <text>Phyllaries in 8–13 series, strongly imbricate, light green to brownish with dark apices, ovate (outer) to narrowly linear-elliptic (inner), abaxial faces with evident, narrow glutinous ridge;</text>
+      <structure id="o14825" name="phyllary">
+        <character name="aestivation_or_arrangement" value="imbricate" modifier="strongly" />
+      </structure>
+      <structure id="o14826" name="series">
+        <character char_type="range_value" name="count" from="8" to="13" />
+      </structure>
+      <relation id="r1598" name="in" from="o14825" to="o14826" negation="false" />
+      <structure id="o14827" name="apex">
+        <character char_type="range_value" name="coloration" from="light-green" to="brownish with dark" />
+        <character name="coloration" value="green" modifier="light" />
+        <character char_type="range_value" name="shape" from="ovate" to="narrowly linear-elliptic" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="linear-elliptic" modifier="narrowly" />
+      </structure>
+      <structure id="o14828" name="face" constraint="abaxial" />
+      <structure id="o14829" name="ridge">
+        <character name="manifestation" value="evident" />
+        <character name="size" value="narrow" />
+        <character name="coating_or_texture" value="glutinous" />
+      </structure>
+      <relation id="r1599" name="with" from="o14828" to="o14829" negation="false" />
+    </statement>
+    <statement id="71.txt-13">
+      <text>outer and middle appressed, bodies entire, apices erect or spreading, muticous to short-spinose, spines ascending to spreading, weak, 1–2 mm;</text>
+      <structure id="o14830" name="phyllary" constraint="outer and middle">
+        <character name="orientation" value="appressed" />
+      </structure>
+      <structure id="o14831" name="body">
+        <character name="shape" value="entire" />
+      </structure>
+      <structure id="o14832" name="apex">
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="spreading" />
+        <character char_type="range_value" name="shape" from="muticous" to="short-spinose" />
+        <character name="shape" value="muticous" />
+        <character name="shape" value="short-spinose" />
+      </structure>
+      <structure id="o14833" name="spine">
+        <character char_type="range_value" name="orientation" from="ascending" to="spreading" />
+        <character name="orientation" value="ascending" />
+        <character name="orientation" value="spreading" />
+        <character name="texture" value="weak" />
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="2" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="71.txt-14">
+      <text>apices of inner all straight and entire or innermost ± flexuous, erose.</text>
+      <structure id="o14834" name="apex">
+        <character name="course" value="straight" />
+        <character name="shape" value="entire" />
+        <character name="position" value="innermost" modifier="±" />
+        <character name="course" value="flexuous" />
+        <character name="shape_or_relief" value="erose" />
+      </structure>
+      <structure id="o14835" name="phyllary" constraint="inner" />
+      <relation id="r1600" name="part_of" from="o14834" to="o14835" negation="false" />
+    </statement>
+    <statement id="71.txt-15">
+      <text>Corollas purple, 21–26 mm, tubes 8.5–11 mm, throats 6–8 mm (noticeably wider than tubes ) , lobes 4–8 mm;</text>
+      <structure id="o14836" name="corolla">
+        <character name="coloration" value="purple" />
+        <character char_type="range_value" name="size" from="21" from_unit="mm" to="26" to_unit="mm" />
+      </structure>
+      <structure id="o14837" name="tube">
+        <character char_type="range_value" name="size" from="8.5" from_unit="mm" to="11" to_unit="mm" />
+      </structure>
+      <structure id="o14838" name="throat">
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+      <structure id="o14839" name="lobe">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="71.txt-16">
+      <text>style tips 3.5–5 mm.</text>
+      <structure id="o14840" name="tip" constraint="style">
+        <character char_type="range_value" name="size" from="3.5" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="71.txt-17">
+      <text>Cypselae dark brown, 4–5 mm, apical collars yellowish, 0.5–1;</text>
+      <structure id="o14841" name="cypsela">
+        <character name="coloration" value="brown" modifier="dark" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+      <structure id="o14842" name="collar" constraint="apical">
+        <character name="coloration" value="yellowish" />
+        <character char_type="range_value" name="size" from="0.5" to="1" />
+      </structure>
+    </statement>
+    <statement id="71.txt-18">
+      <text>pappi 17–20 mm.</text>
+      <structure id="o14843" name="pappus">
+        <character char_type="range_value" name="size" from="17" from_unit="mm" to="20" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="71.txt-19">
+      <text>2 n = 28.</text>
+      <structure id="o14844" name="chromosome">
+        <character name="count" value="28" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>nov</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <habitat>moist savannas</habitat>
+  <habitat>pine barrens</habitat>
+  <habitat>coastal plain bogs</habitat>
+  <elevation>0–150 m;</elevation>
+  <us_distribution>Del.</us_distribution>
+  <us_distribution>Fla.</us_distribution>
+  <us_distribution>Ga.</us_distribution>
+  <us_distribution>N.J.</us_distribution>
+  <us_distribution>N.C.</us_distribution>
+  <us_distribution>S.C.</us_distribution>
+  <us_distribution>Va.</us_distribution>
+  <discussion>Cirsium virginianum occurs on the Atlantic coastal plain from Delaware to Florida.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>8.</number>
+  <species_name>Prenanthes carrii</species_name>
+  <authority>Singhurst</authority>
+  <place_of_publication>O’Kennon &amp; W. C. Holmes, Sida 21: 187, fig. 2. 2004</place_of_publication>
+  <common_name>Carr’s rattlesnakeroot</common_name>
+  <description>
+    <statement id="366.txt-0">
+      <text>Plants 80–150 cm;</text>
+      <structure id="o6904" name="whole_organism">
+        <character char_type="range_value" name="size" from="80" from_unit="cm" to="150" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="366.txt-1">
+      <text>taproots tuberous, with lateral roots.</text>
+      <structure id="o6905" name="taproot">
+        <character name="architecture" value="tuberous" />
+      </structure>
+      <structure id="o6906" name="root" constraint="lateral" />
+      <relation id="r854" name="with" from="o6905" to="o6906" negation="false" />
+    </statement>
+    <statement id="366.txt-2">
+      <text>Stems erect, simple, glabrous or strigose proximally, tomentose distally.</text>
+      <structure id="o6907" name="stem">
+        <character name="orientation" value="erect" />
+        <character name="architecture" value="simple" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="strigose" modifier="proximally" />
+        <character name="pubescence" value="tomentose" modifier="distally" />
+      </structure>
+    </statement>
+    <statement id="366.txt-3">
+      <text>Leaves :</text>
+      <structure id="o6908" name="leaf" />
+    </statement>
+    <statement id="366.txt-4">
+      <text>proximal usually present at flowering;</text>
+    </statement>
+    <statement id="366.txt-5">
+      <text>petiolate (petioles 2.2–3 cm);</text>
+      <structure id="o6909" name="leaf" constraint="proximal">
+        <character name="presence" value="present" modifier="usually; at flowering" />
+        <character name="architecture" value="petiolate" />
+      </structure>
+    </statement>
+    <statement id="366.txt-6">
+      <text>blades (light green) sagittate to ovate, 13–25 × 7–12 cm, thin, bases attenuate, margins coarsely and irregularly dentate, apices acute to rounded, faces glabrous or lightly setose along veins;</text>
+      <structure id="o6910" name="blade">
+        <character char_type="range_value" name="shape" from="sagittate" to="ovate" />
+        <character name="shape" value="sagittate" />
+        <character name="shape" value="ovate" />
+        <character char_type="range_value" name="length" from="13" from_unit="cm" to="25" to_unit="cm" />
+        <character char_type="range_value" name="width" from="7" from_unit="cm" to="12" to_unit="cm" />
+        <character name="thickness" value="thin" />
+      </structure>
+      <structure id="o6911" name="base">
+        <character name="shape" value="attenuate" />
+      </structure>
+      <structure id="o6912" name="margin">
+        <character name="shape" value="dentate" modifier="irregularly" />
+      </structure>
+      <structure id="o6913" name="apex">
+        <character char_type="range_value" name="shape" from="acute" to="rounded" />
+        <character name="shape" value="acute" />
+        <character name="shape" value="rounded" />
+      </structure>
+      <structure id="o6914" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="setose" modifier="lightly" constraint="along veins" constraintid="o6915" />
+      </structure>
+      <structure id="o6915" name="vein" />
+    </statement>
+    <statement id="366.txt-7">
+      <text>distal reduced to bracts.</text>
+      <structure id="o6916" name="leaf" constraint="distal">
+        <character name="size" value="reduced" />
+      </structure>
+      <structure id="o6917" name="bract" />
+    </statement>
+    <statement id="366.txt-8">
+      <text>Heads in paniculiform arrays.</text>
+      <structure id="o6918" name="head" />
+      <structure id="o6919" name="array">
+        <character name="architecture" value="paniculiform" />
+      </structure>
+      <relation id="r855" name="in" from="o6918" to="o6919" negation="false" />
+    </statement>
+    <statement id="366.txt-9">
+      <text>Involucres cylindric to campanulate, 4–9 × 2–3 mm.</text>
+      <structure id="o6920" name="involucre">
+        <character char_type="range_value" name="shape" from="cylindric" to="campanulate" />
+        <character name="shape" value="cylindric" />
+        <character name="shape" value="campanulate" />
+        <character char_type="range_value" name="length" from="4" from_unit="mm" to="9" to_unit="mm" />
+        <character char_type="range_value" name="width" from="2" from_unit="mm" to="3" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="366.txt-10">
+      <text>Calyculi of 5–12, linear-subulate to narrowly lanceolate bractlets 2–4 mm, hispid.</text>
+      <structure id="o6921" name="calyculus">
+        <character name="pubescence" value="hispid" />
+      </structure>
+      <structure id="o6922" name="bractlet">
+        <character char_type="range_value" name="count" from="5" to="12" />
+        <character char_type="range_value" name="shape" from="linear-subulate" to="narrowly lanceolate" />
+        <character name="shape" value="linear-subulate" />
+        <character name="shape" value="lanceolate" modifier="narrowly" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+      <relation id="r856" name="consist_of" from="o6921" to="o6922" negation="false" />
+    </statement>
+    <statement id="366.txt-11">
+      <text>Phyllaries 8, green to rose, linear-subulate to lanceolate, 9–11 mm, (apices minutely ciliate) faces glabrate (midribs sparingly hispid).</text>
+      <structure id="o6923" name="phyllary">
+        <character name="count" value="8" />
+        <character char_type="range_value" name="coloration" from="green" to="rose" />
+        <character name="coloration" value="green" />
+        <character name="coloration" value="rose" />
+        <character char_type="range_value" name="shape" from="linear-subulate" to="lanceolate" />
+        <character name="shape" value="linear-subulate" />
+        <character name="shape" value="lanceolate" />
+        <character char_type="range_value" name="size" from="9" from_unit="mm" to="11" to_unit="mm" />
+      </structure>
+      <structure id="o6924" name="face">
+        <character name="pubescence" value="glabrate" />
+      </structure>
+    </statement>
+    <statement id="366.txt-12">
+      <text>Florets 9–11;</text>
+      <structure id="o6925" name="floret">
+        <character char_type="range_value" name="count" from="9" to="11" />
+      </structure>
+    </statement>
+    <statement id="366.txt-13">
+      <text>corollas white to creamy, 11.5–13.5 mm.</text>
+      <structure id="o6926" name="corolla">
+        <character char_type="range_value" name="coloration" from="white" to="creamy" />
+        <character name="coloration" value="white" />
+        <character name="coloration" value="creamy" />
+        <character char_type="range_value" name="size" from="11.5" from_unit="mm" to="13.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="366.txt-14">
+      <text>Cypselae golden yellow to tan, subcylindric, angled to terete, 6–7 mm, prominently 12–15-ribbed;</text>
+      <structure id="o6927" name="cypsela">
+        <character char_type="range_value" name="coloration" from="golden-yellow" to="tan" />
+        <character name="coloration" value="yellow" modifier="golden" />
+        <character name="coloration" value="tan" />
+        <character char_type="range_value" name="shape" from="subcylindric , angled" to="terete" />
+        <character name="shape" value="subcylindric" />
+        <character name="shape" value="angled" />
+        <character name="shape" value="terete" />
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="7" to_unit="mm" />
+        <character name="architecture_or_shape" value="12-15-ribbed" modifier="prominently" />
+      </structure>
+    </statement>
+    <statement id="366.txt-15">
+      <text>pappi white to tan or yellow, 7–8 mm.</text>
+      <structure id="o6928" name="pappus">
+        <character char_type="range_value" name="coloration" from="white" to="tan or yellow" />
+        <character name="coloration" value="white" />
+        <character name="coloration" value="tan" />
+        <character name="coloration" value="yellow" />
+        <character char_type="range_value" name="size" from="7" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <flowering_time>nov</flowering_time>
+  <habitat>rich woodlands</habitat>
+  <habitat>canyons</habitat>
+  <conservation>of conservation concern;</conservation>
+  <elevation>300–900 m;</elevation>
+  <us_distribution>Tex.</us_distribution>
+  <discussion>Prenanthes carrii is recognized primarily by its relatively tall size and long-petiolate, sagittate proximal and mid-cauline leaves, which are similar to those of P. alata and P. sagittata, species found far to the north. It is known only from the southwestern Edwards Plateau. It is thought to be closely related to P. barbata (J. R. Singhurst et al. 2004).</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

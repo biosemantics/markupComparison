@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Glyptopleura marginata</species_name>
+  <authority>D. C. Eaton</authority>
+  <place_of_publication>in S. Watson, Botany (Fortieth Parallel), 207, plate 20, figs. 11–18. 1871</place_of_publication>
+  <common_name>White-margined wax-plant, carveseed</common_name>
+  <description>
+    <statement id="575.txt-0">
+      <text>Plants 1–6 cm.</text>
+      <structure id="o11849" name="whole_organism">
+        <character char_type="range_value" name="size" from="1" from_unit="cm" to="6" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="575.txt-1">
+      <text>Leaves 0.5–5 cm, margins conspicuously white-crustose.</text>
+      <structure id="o11850" name="leaf">
+        <character char_type="range_value" name="size" from="0.5" from_unit="cm" to="5" to_unit="cm" />
+      </structure>
+      <structure id="o11851" name="margin" />
+    </statement>
+    <statement id="575.txt-2">
+      <text>Heads 1–2 cm diam.</text>
+      <structure id="o11852" name="head">
+        <character char_type="range_value" name="size" from="1" from_unit="cm" to="2" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="575.txt-3">
+      <text>Calyculi:</text>
+      <structure id="o11853" name="calyculus" />
+    </statement>
+    <statement id="575.txt-4">
+      <text>margins of bractlets crustose-dentate ± throughout.</text>
+      <structure id="o11854" name="margin">
+        <character name="shape" value="crustose-dentate" modifier="± throughout" />
+      </structure>
+      <structure id="o11855" name="bractlet" />
+      <relation id="r1383" name="part_of" from="o11854" to="o11855" negation="false" />
+    </statement>
+    <statement id="575.txt-5">
+      <text>Involucres 10–14 mm.</text>
+      <structure id="o11856" name="involucre">
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="14" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="575.txt-6">
+      <text>Florets 9–18;</text>
+      <structure id="o11857" name="floret">
+        <character char_type="range_value" name="count" from="9" to="18" />
+      </structure>
+    </statement>
+    <statement id="575.txt-7">
+      <text>corollas white to cream, aging pink or purple, ligules 4–10 mm, equaling or scarcely exserted beyond involucres.</text>
+      <structure id="o11858" name="corolla">
+        <character char_type="range_value" name="coloration" from="white" to="cream , aging pink or purple" />
+        <character name="coloration" value="white" />
+        <character name="coloration" value="cream" />
+        <character name="coloration" value="purple" />
+      </structure>
+      <structure id="o11859" name="ligule">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="10" to_unit="mm" />
+        <character name="comparison" value="equaling" />
+        <character name="position" value="exserted" modifier="scarcely" constraint="beyond involucres" constraintid="o11860" />
+      </structure>
+      <structure id="o11860" name="involucre" />
+    </statement>
+    <statement id="575.txt-8">
+      <text>2 n = 18.</text>
+      <structure id="o11861" name="chromosome">
+        <character name="count" value="18" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <habitat>sandy or rocky deserts</habitat>
+  <habitat>alkali flats</habitat>
+  <habitat>arid grasslands</habitat>
+  <habitat>often with atriplex, sometimes with larrea</habitat>
+  <elevation>1000–2000 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>Utah.</us_distribution>
+  <discussion>Glyptopleura marginata is found in the Great Basin and Mojave deserts.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

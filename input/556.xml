@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>4d.</number>
+  <subspecies_name>Stephanomeria exigua Nuttall subsp. exigua</subspecies_name>
+  <synonym_of_subspecies_name>Stephanomeria pentachaeta D. C. Eaton; S. exigua var. pentachaeta (D. C. Eaton) H. M. Hall; S. schottii (A. Gray) A. Gray</synonym_of_subspecies_name>
+  <description>
+    <statement id="556.txt-0">
+      <text>Heads in paniculiform arrays.</text>
+      <structure id="o11443" name="head" />
+      <structure id="o11444" name="array">
+        <character name="architecture" value="paniculiform" />
+      </structure>
+      <relation id="r1314" name="in" from="o11443" to="o11444" negation="false" />
+    </statement>
+    <statement id="556.txt-1">
+      <text>Peduncles 10–40 mm, glabrous or sparsely glandular .</text>
+      <structure id="o11445" name="peduncle">
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="40" to_unit="mm" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="glandular" modifier="sparsely" />
+      </structure>
+    </statement>
+    <statement id="556.txt-2">
+      <text>Calyculi of appressed bractlets.</text>
+      <structure id="o11446" name="calyculus" />
+      <structure id="o11447" name="bractlet">
+        <character name="orientation" value="appressed" />
+      </structure>
+      <relation id="r1315" name="consist_of" from="o11446" to="o11447" negation="false" />
+    </statement>
+    <statement id="556.txt-3">
+      <text>Involucres glabrous or sparsely glandular.</text>
+      <structure id="o11448" name="involucre">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="glandular" modifier="sparsely" />
+      </structure>
+    </statement>
+    <statement id="556.txt-4">
+      <text>Florets 5–8.</text>
+      <structure id="o11449" name="floret">
+        <character char_type="range_value" name="count" from="5" to="8" />
+      </structure>
+    </statement>
+    <statement id="556.txt-5">
+      <text>Cypselae 2.6–3.2 mm;</text>
+      <structure id="o11450" name="cypsela">
+        <character char_type="range_value" name="size" from="2.6" from_unit="mm" to="3.2" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="556.txt-6">
+      <text>pappi of 5–13 white to light tan bristles (widened bases persistent, bases connate in groups of 2–4, if bristles 5, breaking off completely, bristles plumose on distal 50%).</text>
+      <structure id="o11451" name="pappus" />
+      <structure id="o11452" name="bristle">
+        <character char_type="range_value" name="count" from="5" to="13" />
+        <character char_type="range_value" name="coloration" from="white" to="light-tan" />
+        <character name="coloration" value="white" />
+        <character name="coloration" value="tan" modifier="light" />
+      </structure>
+      <relation id="r1316" name="consist_of" from="o11451" to="o11452" negation="false" />
+    </statement>
+    <statement id="556.txt-7">
+      <text>2 n = 16.</text>
+      <structure id="o11453" name="chromosome">
+        <character name="count" value="16" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>may</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <habitat>sandy soils</habitat>
+  <habitat>deserts</habitat>
+  <habitat>sagebrush, creosote bush, pinyon-juniper woodlands</habitat>
+  <habitat>joshua tree communities</habitat>
+  <elevation>100–2000 m;</elevation>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Wash</us_distribution>
+  <global_distribution>Mexico (Baja California).</global_distribution>
+  <discussion>Subspecies exigua is morphologically variable. Plants with pappi of 5 bristles (often called Stephanomeria pentachaeta) are found throughout its distribution; they are fully interfertile with plants having more bristles. Stephanomeria schottii A. Gray from southern Yuma County, Arizona, described as having a pappus of 4–6 bristles, “sparsely short-plumose toward the summit,” appears to be a synonym of subsp. exigua.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

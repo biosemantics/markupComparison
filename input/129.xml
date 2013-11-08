@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>43e.</number>
+  <variety_name>Cirsium arizonicum (A. Gray) Petrak var. tenuisectum</variety_name>
+  <authority>D. J. Keil</authority>
+  <place_of_publication>Sida 21: 210. 2004</place_of_publication>
+  <common_name>Desert mountains thistle</common_name>
+  <description>
+    <statement id="129.txt-0">
+      <text>Stems thinly arachnoid tomentose, ± glabrate, without septate trichomes.</text>
+      <structure id="o689" name="stem">
+        <character name="pubescence" value="arachnoid tomentose" modifier="thinly" />
+        <character name="pubescence" value="glabrate" modifier="±" />
+      </structure>
+      <structure id="o690" name="trichome">
+        <character name="architecture" value="septate" />
+      </structure>
+      <relation id="r128" name="without" from="o689" to="o690" negation="false" />
+    </statement>
+    <statement id="129.txt-1">
+      <text>Leaf blades deeply divided, often nearly to the midveins, abaxial faces arachnoid tomentose or sometimes glabrate, without septate trichomes, adaxial thinly arachnoid or glabrate;</text>
+      <structure id="o691" name="blade" constraint="leaf">
+        <character name="shape" value="divided" modifier="deeply" />
+      </structure>
+      <structure id="o692" name="midvein" />
+      <relation id="r129" name="often nearly to" from="o691" to="o692" negation="false" />
+      <structure id="o693" name="face" constraint="abaxial">
+        <character name="pubescence" value="glabrate" modifier="sometimes" />
+        <character name="pubescence" value="glabrate" />
+      </structure>
+      <structure id="o694" name="trichome">
+        <character name="architecture" value="septate" />
+      </structure>
+      <relation id="r130" name="without" from="o693" to="o694" negation="false" />
+    </statement>
+    <statement id="129.txt-2">
+      <text>main marginal spines often stout, 5–30 mm;</text>
+      <structure id="o695" name="spine" constraint="main marginal">
+        <character name="fragility" value="stout" modifier="often" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="30" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="129.txt-3">
+      <text>cauline bases narrowed to truncate or ± clasping, but not or only slightly decurrent.</text>
+      <structure id="o696" name="base" constraint="cauline">
+        <character name="size" value="narrowed" />
+        <character name="shape" value="truncate" />
+        <character name="architecture" value="clasping" modifier="±" />
+        <character name="shape" value="decurrent" modifier="not only slightly" />
+      </structure>
+    </statement>
+    <statement id="129.txt-4">
+      <text>Involucres cylindric to campanulate.</text>
+      <structure id="o697" name="involucre">
+        <character char_type="range_value" name="shape" from="cylindric" to="campanulate" />
+        <character name="shape" value="cylindric" />
+        <character name="shape" value="campanulate" />
+      </structure>
+    </statement>
+    <statement id="129.txt-5">
+      <text>Phyllary spines stout, 5–25 mm.</text>
+      <structure id="o698" name="spine" constraint="phyllary">
+        <character name="fragility" value="stout" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="25" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="129.txt-6">
+      <text>Corollas reddish purple, 25–35 mm, tubes 10–13, throats 5–8 mm, lobes 10–13.5 mm;</text>
+      <structure id="o699" name="corolla">
+        <character name="coloration" value="purple" modifier="reddish" />
+        <character char_type="range_value" name="size" from="25" from_unit="mm" to="35" to_unit="mm" />
+      </structure>
+      <structure id="o700" name="tube">
+        <character char_type="range_value" name="count" from="10" to="13" />
+      </structure>
+      <structure id="o701" name="throat">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+      <structure id="o702" name="lobe">
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="13.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="129.txt-7">
+      <text>style tips 1–2 mm.</text>
+      <structure id="o703" name="tip" constraint="style">
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="2" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="129.txt-8">
+      <text>2 n = 34 (as C. nidulum ).</text>
+      <structure id="o704" name="chromosome">
+        <character name="count" value="34" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <flowering_time>nov</flowering_time>
+  <habitat>rocky slopes</habitat>
+  <habitat>drainages</habitat>
+  <habitat>roadsides</habitat>
+  <habitat>pine-oak-juniper woodlands</habitat>
+  <habitat>montane coniferous forests</habitat>
+  <conservation>of conservation concern;</conservation>
+  <elevation>1500–2800 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <discussion>Variety tenuisectum occurs in the New York Mountains of southeastern California and the Spring Mountains of southwestern Nevada. The name Cirsium nidulum has long been misapplied to the plants here treated as var. tenuisectum (e.g., P. A. Munz 1959; J. T. Howell 1960b; R. J. Moore and C. Frankton 1974b; D. J. Keil and C. E. Turner 1993). My examination of the type of C. nidulum indicates that the taxon is properly treated as a synonym of C. arizonicum var. arizonicum.</discussion>
+  <discussion>Cirsium eatonii var. clokeyi occurs in close proximity to C. arizonicum var. tenuisectum in the ski area of upper Lee Canyon in the Spring Mountains. I did not see any evidence of hybridization during my brief field survey in that area.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

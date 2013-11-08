@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>101.</number>
+  <genus_name>PSILOCARPHUS</genus_name>
+  <authority>Psilocarphus Nuttall</authority>
+  <place_of_publication>Trans. Amer. Philos. Soc., n. s. 7: 340. 1840</place_of_publication>
+  <common_name>Woolly marbles , woollyheads</common_name>
+  <derivation>Greek psilos , slender, and karphos , chaff, alluding to papery paleae of heads</derivation>
+  <author_of_tribe_genus>James D. Morefield</author_of_tribe_genus>
+  <description>
+    <statement id="758.txt-0">
+      <text>Annuals, 1–15(–20) cm.</text>
+      <structure id="o15958" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="15" to="20" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="1" from_unit="cm" to="15" to_unit="cm" />
+        <character name="life_style" value="annual" />
+      </structure>
+    </statement>
+    <statement id="758.txt-1">
+      <text>Stems 1, erect, or 2–10, ascending to ± prostrate.</text>
+      <structure id="o15959" name="stem">
+        <character name="count" value="1" />
+        <character name="orientation" value="erect" />
+        <character char_type="range_value" name="count" from="2" to="10" />
+        <character name="orientation" value="ascending" />
+        <character name="orientation" value="prostrate" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="758.txt-2">
+      <text>Leaves cauline;</text>
+    </statement>
+    <statement id="758.txt-3">
+      <text>mostly opposite;</text>
+      <structure id="o15960" name="leaf">
+        <character name="insertion_or_position" value="cauline" />
+        <character name="arrangement" value="opposite" modifier="mostly" />
+      </structure>
+    </statement>
+    <statement id="758.txt-4">
+      <text>blades linear to ovate or obovate.</text>
+      <structure id="o15961" name="blade">
+        <character char_type="range_value" name="shape" from="linear" to="ovate or obovate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="obovate" />
+      </structure>
+    </statement>
+    <statement id="758.txt-5">
+      <text>Heads borne singly or in glomerules of 2–4 in ± dichasiform (sometimes ± paniculiform) arrays.</text>
+      <structure id="o15962" name="head">
+        <character name="arrangement" value="singly" />
+        <character name="arrangement" value="in glomerules" />
+      </structure>
+      <structure id="o15963" name="glomerule" />
+      <relation id="r1721" name="in" from="o15962" to="o15963" negation="false" />
+      <structure id="o15964" name="array">
+        <character char_type="range_value" name="count" from="2" to="4" />
+        <character name="arrangement" value="dichasiform" modifier="±" />
+      </structure>
+      <relation id="r1722" name="consist_of" from="o15963" to="o15964" negation="false" />
+    </statement>
+    <statement id="758.txt-6">
+      <text>Involucres 0.</text>
+      <structure id="o15965" name="involucre">
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+    <statement id="758.txt-7">
+      <text>Phyllaries 0.</text>
+      <structure id="o15966" name="phyllary">
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+    <statement id="758.txt-8">
+      <text>Receptacles ± obovoid (sometimes lobed, heights 1–2 times diams.), glabrous.</text>
+      <structure id="o15967" name="receptacle">
+        <character name="shape" value="obovoid" modifier="±" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="758.txt-9">
+      <text>Pistillate paleae falling, radiating in all directions;</text>
+      <structure id="o15968" name="palea" constraint="pistillate">
+        <character name="orientation" value="falling" />
+        <character name="orientation" value="radiating" constraint="in directions" constraintid="o15969" />
+      </structure>
+      <structure id="o15969" name="direction" />
+    </statement>
+    <statement id="758.txt-10">
+      <text>bodies with 5+ nerves (nerves reticulate, prominent), obovoid to ± cylindric, saccate most of lengths (terete, galeate or cucullate, each loosely enclosing a floret);</text>
+      <structure id="o15970" name="body">
+        <character name="shape" value="obovoid" />
+        <character name="shape" value="cylindric" modifier="±" />
+        <character name="architecture_or_shape" value="saccate" constraint="of lengths" constraintid="o15972" />
+      </structure>
+      <structure id="o15971" name="nerve">
+        <character name="count" char_type="range_value" from="5" upper_restricted="false" />
+      </structure>
+      <relation id="r1723" name="with" from="o15970" to="o15971" negation="false" />
+      <structure id="o15972" name="length" />
+    </statement>
+    <statement id="758.txt-11">
+      <text>wings inflexed (± lateral).</text>
+      <structure id="o15973" name="wing">
+        <character name="orientation" value="inflexed" />
+      </structure>
+    </statement>
+    <statement id="758.txt-12">
+      <text>Staminate paleae 0.</text>
+      <structure id="o15974" name="palea" constraint="staminate">
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+    <statement id="758.txt-13">
+      <text>Pistillate florets (8–)20–100+.</text>
+      <structure id="o15975" name="floret" constraint="pistillate">
+        <character char_type="range_value" name="atypical_count" from="8" to="20" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="20" to="100" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="758.txt-14">
+      <text>Functionally staminate florets 2–10;</text>
+      <structure id="o15976" name="floret" constraint="functionally staminate">
+        <character char_type="range_value" name="count" from="2" to="10" />
+      </structure>
+    </statement>
+    <statement id="758.txt-15">
+      <text>corolla lobes 4–5, ± equal.</text>
+      <structure id="o15977" name="lobe" constraint="corolla">
+        <character char_type="range_value" name="count" from="4" to="5" />
+        <character name="size" value="equal" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="758.txt-16">
+      <text>Bisexual florets 0.</text>
+      <structure id="o15978" name="floret" constraint="bisexual">
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+    <statement id="758.txt-17">
+      <text>Cypselae brown, monomorphic:</text>
+    </statement>
+    <statement id="758.txt-18">
+      <text>terete to ± compressed, narrowly obovoid (then slightly incurved, abaxially gibbous) to ± cylindric, faces glabrous, smooth, shiny;</text>
+      <structure id="o15979" name="cypsela">
+        <character name="coloration" value="brown" />
+        <character name="habit" value="monomorphic" />
+        <character name="shape" value="terete" />
+        <character name="shape" value="compressed" modifier="±" />
+        <character name="shape" value="obovoid" modifier="narrowly" />
+        <character name="shape" value="cylindric" modifier="±" />
+      </structure>
+      <structure id="o15980" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="architecture_or_relief" value="smooth" />
+        <character name="reflectance" value="shiny" />
+      </structure>
+    </statement>
+    <statement id="758.txt-19">
+      <text>corolla scars usually ± subapical;</text>
+      <structure id="o15981" name="scar" constraint="corolla">
+        <character name="insertion_or_position" value="subapical" modifier="usually ±" />
+      </structure>
+    </statement>
+    <statement id="758.txt-20">
+      <text>pappi 0.</text>
+      <structure id="o15982" name="pappus">
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+    <statement id="758.txt-21">
+      <text>x = 14.</text>
+      <structure id="o15983" name="chromosome">
+        <character name="count" value="14" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species 5 (5 in the flora):</number_of_infrataxa>
+  <general_distribution>amphitropical</general_distribution>
+  <general_distribution>w North America</general_distribution>
+  <general_distribution>nw Mexico</general_distribution>
+  <general_distribution>s South America.</general_distribution>
+  <discussion>See discussion of Filagininae following the tribal description (p. 385).</discussion>
+  <discussion>In the flora area, Psilocarphus inhabits sites with Mediterranean, semiarid, and cool-temperate climates. In the south, it remains within the Californian Floristic Province, not entering the Mojave and Sonoran deserts; to the north, it extends from the Pacific Northwest eastward across the Great Basin, Columbia Plateau, and northern Rocky Mountains to the western edge of the northern Great Plains. Ongoing degradation of vernal pool habitats in California may soon justify conservation concern for P. chilensis and P. brevissimus var. multiflorus.</discussion>
+  <discussion>The amphitropical species of Psilocarphus and Micropsis (P. brevissimus var. brevissimus, P. chilensis, M. dasycarpa) occupy littoral habitats; migratory shorebirds probably facilitate occasional long-distance dispersal of their light cypsela-palea complexes (A. Cronquist 1950). Populations of these self-pollinating species can establish from one cypsela.</discussion>
+  <discussion>Psilocarphus is monophyletic and probably sister to Micropus, with ancestors in or near Stylocline (J. D. Morefield 1992). Psilocarphus is easily recognized by leaves opposite and paleae cucullate or galeate, reticulately nerved; the clusters of heads resemble compact bunches of woolly grapes or marbles. Differences between species are slight but consistent in most specimens.</discussion>
+  <references>SELECTED REFERENCE Cronquist, A. 1950. A review of the genus Psilocarphus. Res. Stud. State Coll. Wash. 18: 71–89.</references>
+  <key>1.Largest heads 6–14 mm; pistillate paleae collectively hidden by indument and/or longest 2.8–4 mm.</key>
+  <key>2.Heads ± ovoid, largest 9–14 mm; receptacles deeply lobed; pistillate paleae ± cylindric, lengths mostly 3.5–6 times longest diams. (wings ± median)1. Psilocarphus brevissimus (in part)</key>
+  <key>2.Heads spheric, largest 6–9 mm; receptacles unlobed or shallowly lobed; pistillate paleae obovoid, lengths 1.5–3 times longest diams. (wings supramedian to subapical).</key>
+  <key>3.Capitular leaves mostly lanceolate to ovate, widest in proximal 2/3, longest mostly 8–15 mm, lengths mostly 1.5–4 times widths; plants usually densely lanuginose; cypselae narrowly obovoid1. Psilocarphus brevissimus (in part)</key>
+  <key>3.Capitular leaves mostly oblanceolate to nearly linear, widest in distal 1/3, longest mostly 17–35 mm, lengths mostly 4.5–9 times widths; plants ± sericeous; cypselae ± cylindric2. Psilocarphus elatior</key>
+  <key>1.Largest heads mostly 3–6 mm; pistillate paleae usually individually visible through indument, longest mostly 1.5–2.7 mm.</key>
+  <key>4.Capitular leaves linear to narrowly oblanceolate, lengths mostly 6–12 times widths, (3–) 3.5–5 times head heights; cypselae ± cylindric3. Psilocarphus oregonus</key>
+  <key>4.Capitular leaves mostly spatulate to obovate or ovate, lengths mostly 1.2–5 times widths, 1–2.5(–3) times head heights; cypselae ± obovoid.</key>
+  <key>5.Capitular leaves mostly not appressed to heads, spatulate to obovate, lengths mostly 2–5 widths; proximal internode lengths mostly 1–2(–3) times leaf lengths; staminate corolla lobes mostly 54. Psilocarphus tenellus</key>
+  <key>5.Capitular leaves appressed to heads, ovate to broadly elliptic, lengths mostly 1.2–1.8(–2) times widths; proximal internode lengths (2–)3–6 times leaf lengths; staminate corolla lobes mostly 45. Psilocarphus chilensis</key>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

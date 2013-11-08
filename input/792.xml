@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Dittrichia graveolens</species_name>
+  <authority>(Linnaeus) Greuter</authority>
+  <place_of_publication>Exsicc. Genav. Conserv. Bot. Distrib. Fasc. 4: 71. 1973</place_of_publication>
+  <common_name>Stinkwort</common_name>
+  <synonym_of_species_name>Erigeron graveolens Linnaeus, Cent. Pl. I, 28. 1755; Inula graveolens (Linnaeus) Desfontaines</synonym_of_species_name>
+  <description>
+    <statement id="792.txt-0">
+      <text>Plants viscid, rank smelling, 20–130 cm;</text>
+      <structure id="o16703" name="whole_organism">
+        <character name="coating_or_texture" value="viscid" />
+        <character name="life_style" value="plant" />
+      </structure>
+      <structure id="o16704" name="rank">
+        <character name="odor" value="smelling" />
+        <character char_type="range_value" name="size" from="20" from_unit="cm" to="130" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="792.txt-1">
+      <text>stems ± pilose and stipitate-glandular.</text>
+      <structure id="o16705" name="stem">
+        <character name="pubescence" value="pilose" modifier="±" />
+        <character name="architecture_or_exudation_or_pubescence" value="stipitate-glandular" />
+      </structure>
+    </statement>
+    <statement id="792.txt-2">
+      <text>Leaf blades linear to lance-linear, 1–3(–7) cm × 1–3(–10) mm, margins entire or denticulate, apices acute, faces pilosulous to hirtellous and minutely stipitate-glandular.</text>
+      <structure id="o16706" name="blade" constraint="leaf">
+        <character name="arrangement_or_shape" value="linear" />
+        <character name="arrangement_or_shape" value="lance-linear" />
+        <character char_type="range_value" name="atypical_length" from="3" to="7" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="1" from_unit="cm" to="3" to_unit="cm" />
+        <character char_type="range_value" name="atypical_width" from="3" to="10" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="width" from="1" from_unit="mm" to="3" to_unit="mm" />
+      </structure>
+      <structure id="o16707" name="margin">
+        <character name="shape" value="entire" />
+        <character name="shape" value="denticulate" />
+      </structure>
+      <structure id="o16708" name="apex">
+        <character name="shape" value="acute" />
+      </structure>
+      <structure id="o16709" name="face">
+        <character char_type="range_value" name="pubescence" from="pilosulous" to="hirtellous" />
+        <character name="pubescence" value="pilosulous" />
+        <character name="pubescence" value="hirtellous" />
+        <character name="architecture_or_exudation_or_pubescence" value="stipitate-glandular" modifier="minutely" />
+      </structure>
+    </statement>
+    <statement id="792.txt-3">
+      <text>Phyllaries 1–8 mm.</text>
+      <structure id="o16710" name="phyllary">
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="792.txt-4">
+      <text>Ray florets (6–)10–12(–16);</text>
+      <structure id="o16711" name="floret" constraint="ray">
+        <character char_type="range_value" name="atypical_count" from="6" to="10" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_count" from="12" to="16" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="10" to="12" />
+      </structure>
+    </statement>
+    <statement id="792.txt-5">
+      <text>corolla laminae 2–5(–7) mm.</text>
+      <structure id="o16712" name="lamina" constraint="corolla">
+        <character char_type="range_value" name="atypical_size" from="5" to="7" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="792.txt-6">
+      <text>Disc florets 9–14+;</text>
+      <structure id="o16713" name="floret" constraint="disc">
+        <character char_type="range_value" name="count" from="9" to="14" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="792.txt-7">
+      <text>corollas 3–4 mm.</text>
+      <structure id="o16714" name="corolla">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="792.txt-8">
+      <text>Cypselae 1.5–2 mm;</text>
+      <structure id="o16715" name="cypsela">
+        <character char_type="range_value" name="size" from="1.5" from_unit="mm" to="2" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="792.txt-9">
+      <text>pappi 3–4(–5) mm.</text>
+      <structure id="o16716" name="pappus">
+        <character char_type="range_value" name="atypical_size" from="4" to="5" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="792.txt-10">
+      <text>2 n = 18 (Morocco).</text>
+      <structure id="o16717" name="chromosome">
+        <character name="count" value="18" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <flowering_time>nov</flowering_time>
+  <habitat>disturbed fields</habitat>
+  <habitat>roadways</habitat>
+  <habitat>estuarine borders</habitat>
+  <elevation>0–200 m;</elevation>
+  <introduced>introduced;</introduced>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>N.J.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <global_distribution>Europe (Balkan Peninsula)</global_distribution>
+  <global_distribution>Europe (sw Italy)</global_distribution>
+  <global_distribution>Asia (India)</global_distribution>
+  <global_distribution>Africa (South Africa)</global_distribution>
+  <global_distribution>Australia.</global_distribution>
+  <discussion>Dittrichia graveolens was collected as a ruderal in Connecticut in the 1930s, and collections from New York in the late 1940s recorded it as abundant in areas where road construction was underway. It appears to be recently introduced in California, where it has spread rapidly and has the potential to become a noxious weed (R. E. Preston 1997). Dittrichia graveolens has been shown to cause allergic contact dermatitis (J. N. Burry and P. M. Kloot 1982). The plants produce sesquiterpene lactones (G. S. d’Alcontres et al. 1973; A. Rustaiyan et al. 1987; R. Lanzetta et al. 1991), which have been shown for many composites to be linked to allergic contact dermatitis in humans (J. C. Mitchell and G. Dupuis 1971). Little evidence exists that the plants are toxic, although oxalate poisoning has been reported to be associated with grazing (kind of animals not reported) of D. graveolens (C. Lamp and F. Collet 1979), and fishermen in southern Italy reportedly use the macerated leaves to stun fish (Lanzetta et al.). Livestock deaths due to ingestion of D. graveolens have been linked to enteritis caused by the barbed pappus bristles puncturing the small intestine (C. A. Gardner and H. W. Bennetts 1956; D. J. Schneider and J. L. Du Plessis 1980).</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

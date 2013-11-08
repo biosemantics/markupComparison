@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>54.</number>
+  <species_name>Cirsium scariosum</species_name>
+  <authority>Nuttall</authority>
+  <place_of_publication>Trans. Amer. Philos. Soc., n. s. 7: 420. 1841</place_of_publication>
+  <past_name>Circium</past_name>
+  <common_name>Meadow or elk thistle, chardon écailleux</common_name>
+  <synonym_of_species_name>Cirsium hookerianum Nuttall var. scariosum (Nuttall) B. Boivin</synonym_of_species_name>
+  <description>
+    <statement id="150.txt-0">
+      <text>Biennials or monocarpic perennials , acaulescent, short caulescent and forming low rounded mounds, or caulescent and erect, 0–200 cm;</text>
+      <structure id="o1362" name="mound">
+        <character name="location" value="low" />
+        <character name="shape" value="rounded" />
+      </structure>
+    </statement>
+    <statement id="150.txt-1">
+      <text>taprooted.</text>
+      <structure id="o1360" name="whole_organism">
+        <character name="architecture" value="acaulescent" />
+        <character name="size" value="short" />
+        <character name="architecture" value="caulescent" />
+        <character name="architecture" value="caulescent" />
+        <character name="orientation" value="erect" />
+        <character char_type="range_value" name="size" from="0" from_unit="cm" to="200" to_unit="cm" />
+        <character name="life_style" value="biennial" />
+        <character name="life_style" value="perennial" />
+        <character name="architecture" value="taprooted" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="150.txt-2">
+      <text>Stems absent, or with crowded branches from near base, or simple and erect, often fleshy and thickened, glabrous to thinly gray- tomentose, often villous with septate trichomes.</text>
+      <structure id="o1363" name="stem">
+        <character name="presence" value="absent" />
+        <character name="architecture" value="simple" />
+        <character name="orientation" value="erect" />
+        <character name="texture" value="fleshy" modifier="often" />
+        <character name="thickness" value="thickened" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="gray-tomentose" modifier="thinly" />
+        <character name="pubescence" value="villous" modifier="often" constraint="with trichomes" constraintid="o1366" />
+      </structure>
+      <structure id="o1364" name="branch">
+        <character name="architecture" value="crowded" />
+      </structure>
+      <relation id="r226" name="with" from="o1363" to="o1364" negation="false" />
+      <structure id="o1365" name="base" />
+      <relation id="r227" name="from" from="o1364" to="o1365" negation="false" />
+      <structure id="o1366" name="trichome">
+        <character name="architecture" value="septate" />
+      </structure>
+    </statement>
+    <statement id="150.txt-3">
+      <text>Leaves:</text>
+      <structure id="o1367" name="leaf" />
+    </statement>
+    <statement id="150.txt-4">
+      <text>blades linear to elliptic, 5–20 × 3–7 cm, plane to strongly undulate, unlobed or shallowly to deeply pinnatifid, lobes linear-lanceolate to broadly triangular, closely spaced, spreading, spinose-dentate or lobed, main spines slender to stout, 2–15+ mm, abaxial faces glabrous or thinly to densely tomentose, ± villous with septate trichomes along the veins, glabrate or trichomes persistent, adaxial thinly arachnoid tomentose and soon glabrescent;</text>
+      <structure id="o1368" name="blade">
+        <character name="arrangement_or_shape" value="linear" />
+        <character name="arrangement_or_shape" value="elliptic" />
+        <character char_type="range_value" name="length" from="5" from_unit="cm" to="20" to_unit="cm" />
+        <character char_type="range_value" name="width" from="3" from_unit="cm" to="7" to_unit="cm" />
+      </structure>
+      <structure id="o1369" name="plane">
+        <character name="shape" value="undulate" modifier="strongly" />
+        <character name="shape" value="unlobed" />
+        <character name="shape" value="pinnatifid" modifier="shallowly deeply" />
+      </structure>
+      <structure id="o1370" name="lobe">
+        <character char_type="range_value" name="shape" from="linear-lanceolate" to="broadly triangular" />
+        <character name="shape" value="linear-lanceolate" />
+        <character name="shape" value="triangular" modifier="broadly" />
+        <character name="arrangement" value="spaced" modifier="closely" />
+        <character name="orientation" value="spreading" />
+        <character name="shape" value="spinose-dentate" />
+        <character name="shape" value="lobed" />
+      </structure>
+      <structure id="o1371" name="spine" constraint="main">
+        <character name="size" value="slender" />
+        <character name="fragility" value="stout" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="15" to_unit="mm" upper_restricted="false" />
+      </structure>
+      <structure id="o1372" name="face" constraint="abaxial">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="tomentose" modifier="thinly densely" />
+        <character name="pubescence" value="villous" modifier="±" constraint="with trichomes" constraintid="o1373" />
+        <character name="pubescence" value="glabrate" />
+        <character name="pubescence" value="trichomes" />
+        <character name="insertion_or_position" value="adaxial" modifier="thinly" />
+        <character name="pubescence" value="arachnoid tomentose" />
+        <character name="pubescence" value="glabrescent" modifier="soon" />
+      </structure>
+      <structure id="o1373" name="trichome">
+        <character name="architecture" value="septate" />
+      </structure>
+      <structure id="o1374" name="vein" />
+      <relation id="r228" name="along" from="o1373" to="o1374" negation="false" />
+      <structure id="o1375" name="trichome">
+        <character name="duration" value="persistent" />
+      </structure>
+    </statement>
+    <statement id="150.txt-5">
+      <text>basal often present at flowering, sessile or winged-petiolate;</text>
+      <structure id="o1376" name="leaf" constraint="basal">
+        <character name="presence" value="present" modifier="often; at flowering" />
+        <character name="architecture" value="sessile" />
+        <character name="architecture" value="winged-petiolate" />
+      </structure>
+    </statement>
+    <statement id="150.txt-6">
+      <text>cauline many in caulescent forms, reduced distally or not, winged-petiolate or distal sessile;</text>
+      <structure id="o1377" name="leaf" constraint="cauline">
+        <character name="count" value="many" constraint="in forms" constraintid="o1378" />
+        <character name="size" value="reduced" modifier="distally" />
+        <character name="size" value="reduced" modifier="distally; not" />
+        <character name="architecture" value="winged-petiolate" />
+        <character name="architecture" value="distal leaf" />
+      </structure>
+      <structure id="o1378" name="form">
+        <character name="architecture" value="caulescent" />
+      </structure>
+      <structure id="o1379" name="leaf" constraint="distal">
+        <character name="architecture" value="sessile" />
+      </structure>
+    </statement>
+    <statement id="150.txt-7">
+      <text>distal often well developed, similar to proximal, sometimes much narrower and bractlike.</text>
+      <structure id="o1380" name="leaf" constraint="distal">
+        <character name="development" value="developed" modifier="often well" />
+        <character name="size" value="narrower" modifier="sometimes much" />
+        <character name="shape" value="bractlike" />
+      </structure>
+      <structure id="o1381" name="leaf" constraint="proximal" />
+      <relation id="r229" name="similar to" from="o1380" to="o1381" negation="false" />
+    </statement>
+    <statement id="150.txt-8">
+      <text>Heads 1–many, erect, borne singly or often densely crowded in spiciform, racemiform, or subcapitate arrays, especially in acaulescent or short-caulescent plants, often closely subtended by distalmost leaves.</text>
+      <structure id="o1382" name="head">
+        <character char_type="range_value" name="count" from="1" to="many" />
+        <character name="orientation" value="erect" />
+        <character name="arrangement" value="singly" />
+        <character name="architecture" value="crowded" modifier="often densely" constraint="in arrays" constraintid="o1383" />
+      </structure>
+      <structure id="o1383" name="array">
+        <character name="architecture" value="spiciform" />
+        <character name="architecture" value="racemiform" />
+        <character name="architecture" value="subcapitate" />
+      </structure>
+      <structure id="o1384" name="whole_organism">
+        <character name="architecture" value="acaulescent" />
+        <character name="architecture" value="short-caulescent" />
+        <character name="life_style" value="plant" />
+      </structure>
+      <relation id="r230" name="in" from="o1382" to="o1384" negation="false" modifier="especially" />
+      <structure id="o1385" name="leaf" constraint="distalmost" />
+      <relation id="r231" name="subtended by" from="o1382" to="o1385" negation="false" />
+    </statement>
+    <statement id="150.txt-9">
+      <text>Peduncles 0–10 cm, leafy-bracted.</text>
+      <structure id="o1386" name="peduncle">
+        <character char_type="range_value" name="size" from="0" from_unit="cm" to="10" to_unit="cm" />
+        <character name="architecture" value="leafy-bracted" />
+      </structure>
+    </statement>
+    <statement id="150.txt-10">
+      <text>Involucres ovoid to hemispheric, 2–4 × 1.5–6 cm, loosely arachnoid on phyllary margins or glabrate.</text>
+      <structure id="o1387" name="involucre">
+        <character char_type="range_value" name="shape" from="ovoid" to="hemispheric" />
+        <character name="shape" value="ovoid" />
+        <character name="shape" value="hemispheric" />
+        <character char_type="range_value" name="length" from="2" from_unit="cm" to="4" to_unit="cm" />
+        <character char_type="range_value" name="width" from="1.5" from_unit="cm" to="6" to_unit="cm" />
+        <character name="pubescence" value="arachnoid" modifier="loosely" constraint="on phyllary margins" constraintid="o1388" />
+        <character name="pubescence" value="glabrate" />
+      </structure>
+      <structure id="o1388" name="margin" constraint="phyllary" />
+    </statement>
+    <statement id="150.txt-11">
+      <text>Phyllaries in 5–10 series, imbricate, ovate or lanceolate (outer) to linear or linear-lanceolate (inner), margins (outer) entire or scarious-fringed, abaxial faces without glutinous ridge;</text>
+      <structure id="o1389" name="phyllary">
+        <character name="aestivation_or_arrangement" value="imbricate" />
+        <character char_type="range_value" name="shape" from="lanceolate" to="linear or linear-lanceolate" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="linear-lanceolate" />
+      </structure>
+      <structure id="o1390" name="series">
+        <character char_type="range_value" name="count" from="5" to="10" />
+      </structure>
+      <relation id="r232" name="in" from="o1389" to="o1390" negation="false" />
+      <structure id="o1391" name="margin">
+        <character name="shape" value="entire" />
+        <character name="shape" value="scarious-fringed" />
+      </structure>
+      <structure id="o1392" name="face" constraint="abaxial" />
+      <structure id="o1393" name="ridge">
+        <character name="coating_or_texture" value="glutinous" />
+      </structure>
+      <relation id="r233" name="without" from="o1392" to="o1393" negation="false" />
+    </statement>
+    <statement id="150.txt-12">
+      <text>outer and mid appressed, spines erect to spreading 0.5–13 mm;</text>
+      <structure id="o1394" name="phyllary" constraint="outer and mid">
+        <character name="orientation" value="appressed" />
+      </structure>
+      <structure id="o1395" name="spine">
+        <character char_type="range_value" name="orientation" from="erect" to="spreading" />
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="spreading" />
+        <character char_type="range_value" name="size" from="0.5" from_unit="mm" to="13" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="150.txt-13">
+      <text>apices of mid and inner narrowed and scabro-denticulate or with expanded, erose-dentate tips, spineless or tipped with flattened spines.</text>
+      <structure id="o1396" name="apex">
+        <character name="position" value="inner" />
+        <character name="size" value="narrowed" />
+        <character name="shape" value="scabro-denticulate" />
+        <character name="shape" value="with expanded , erose-dentate tips" />
+        <character name="architecture" value="spineless" />
+        <character name="architecture" value="tipped with flattened spines" />
+      </structure>
+      <structure id="o1397" name="phyllary" constraint="mid" />
+      <relation id="r234" name="part_of" from="o1396" to="o1397" negation="false" />
+      <structure id="o1398" name="tip">
+        <character name="size" value="expanded" />
+        <character name="shape" value="erose-dentate" />
+      </structure>
+      <relation id="r235" name="with" from="o1396" to="o1398" negation="false" />
+      <structure id="o1399" name="spine">
+        <character name="shape" value="flattened" />
+      </structure>
+      <relation id="r236" name="tipped with" from="o1396" to="o1399" negation="false" />
+    </statement>
+    <statement id="150.txt-14">
+      <text>Corollas white or pale lavender to purple, 20–40 mm, tubes 7–24 mm, throats 4–12 mm (noticeably larger than tubes ) , lobes 4–10 mm;</text>
+      <structure id="o1400" name="corolla">
+        <character char_type="range_value" name="coloration" from="pale-lavender" to="purple" />
+        <character name="coloration" value="white" />
+        <character name="coloration" value="lavender" modifier="pale" />
+        <character name="coloration" value="purple" />
+        <character char_type="range_value" name="size" from="20" from_unit="mm" to="40" to_unit="mm" />
+      </structure>
+      <structure id="o1401" name="tube">
+        <character char_type="range_value" name="size" from="7" from_unit="mm" to="24" to_unit="mm" />
+      </structure>
+      <structure id="o1402" name="throat">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="12" to_unit="mm" />
+      </structure>
+      <structure id="o1403" name="lobe">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="150.txt-15">
+      <text>style tips 3.5–8 mm.</text>
+      <structure id="o1404" name="tip" constraint="style">
+        <character char_type="range_value" name="size" from="3.5" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="150.txt-16">
+      <text>Cypselae light to dark brown, 4–6.5 mm, apical collars usually colored like body;</text>
+      <structure id="o1405" name="cypsela">
+        <character char_type="range_value" name="coloration" from="light" to="dark-brown" />
+        <character name="coloration" value="light" />
+        <character name="coloration" value="brown" modifier="dark" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="6.5" to_unit="mm" />
+      </structure>
+      <structure id="o1406" name="collar" constraint="apical">
+        <character name="coloration" value="colored" modifier="usually" constraint="like body" constraintid="o1407" />
+      </structure>
+      <structure id="o1407" name="body" />
+    </statement>
+    <statement id="150.txt-17">
+      <text>pappi 17–35 mm, white to tan.</text>
+      <structure id="o1408" name="pappus">
+        <character char_type="range_value" name="size" from="17" from_unit="mm" to="35" to_unit="mm" />
+        <character char_type="range_value" name="coloration" from="white" to="tan" />
+        <character name="coloration" value="white" />
+        <character name="coloration" value="tan" />
+      </structure>
+    </statement>
+    <statement id="150.txt-18">
+      <text>2 n = 34, 36.</text>
+      <structure id="o1409" name="chromosome">
+        <character name="count" value="34" />
+        <character name="count" value="36" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Varieties 8 (8 in the flora):</number_of_infrataxa>
+  <general_distribution>w North America</general_distribution>
+  <general_distribution>disjunct to e Quebec (Mingan Archipelago).</general_distribution>
+  <discussion>Cirsium scariosum is a widely distributed complex of intergrading races distributed from southwestern Canada to northwestern Mexico. These plants range from acaulescent rosettes with a tight cluster of sessile heads to tall, erect, unbranched plants, or moundlike, more or less openly branched herbs. Acaulescent and caulescent plants sometimes occur in the same population.</discussion>
+  <discussion>Members of this complex have been variously treated in the past. F. Petrak (1917) recognized ten species plus several subspecies for the taxa I am treating here as C. scariosum (in the broad sense). In floras, the names C. drummondii and C. foliosum have been widely misapplied to these plants (R. J. Moore and C. Frankton 1964). The latter two species, while clearly related to C. scariosum, have a range restricted mostly to Canada. Moore and Frankton (1967) attempted to bring order to the complex and recognized four species for plants that I include here in C. scariosum: C. acaulescens, C. congdonii, C. coloradense, and C. scariosum in the restricted sense. Moore and Frankton substituted the prior name C. tioganum for C. acaulescens. Unfortunately they did not extend their study widely enough and did not include some members of the complex in their investigations. S. L. Welsh (1982) proposed C. scariosum var. thorneae from Utah and lumped the various species recognized by Moore and Frankton within a highly polymorphic var. scariosum. After consulting with A. Cronquist and studying his manuscript treatment of Cirsium for the Intermountain Flora, D. J. Keil and C. E. Turner (1993) also accepted a broadly construed C. scariosum. Cronquist (1994) treated C. scariosum as an extremely variable species that included the four species recognized by Moore and Frankton plus the variety proposed by Welsh. Cronquist chose to not recognize infraspecific taxa.</discussion>
+  <discussion>In the present treatment I have examined these plants from a biogeographic perspective with the goal of discerning regional patterns of variation. The large number of specimens available has allowed me to examine distributional patterns in relation to the topography and biogeographic history of the regions where this species occurs. My field studies also have provided me with observations that help to explain some of the anomalous specimens represented in herbaria. Although the variation within and between populations is sometimes amazing, more-or-less differentiated geographic races can be discerned. Because of the extraordinary and overlapping patterns of variation across the range of Cirsium scariosum, the following key to varieties should be regarded as at best an approximation.</discussion>
+  <couplet>1.Plants acaulescent (occasional short-caulescent individuals sometimes present in a population).</couplet>
+  <couplet>2.Corollas pink to purple; Sierra Nevada of w Nevada and e California to San Bernardino Mountains of s California54e. Cirsium scariosum var. congdonii</couplet>
+  <couplet>2.Corollas white to faintly pink-or lilac-tinged; widespread.</couplet>
+  <couplet>3.Abaxial leaf faces usually gray-tomentose; widespread, Colorado to s Oregon, n California54c. Cirsium scariosum var. americanum</couplet>
+  <couplet>3.Abaxial leaf faces usually green, glabrous or glabrate; s. California54g. Cirsium scariosum var. citrinum</couplet>
+  <couplet>1.Plants caulescent (occasional acaulescent individuals sometimes present in a population).</couplet>
+  <couplet>4.Larger leaf spines 1–3 cm54d. Cirsium scariosum var. thorneae</couplet>
+  <couplet>4.Larger leaf spines usually shorter.</couplet>
+  <couplet>5.Corollas purple.</couplet>
+  <couplet>6.Corolla lobes 5.5–8 mm; sw. Idaho, n Nevada, se Oregon54f. Cirsium scariosum var. toiyabense</couplet>
+  <couplet>6.Corolla lobes 3.5–6 mm; e Oregon to sw Montana54b. Cirsium scariosum var. scariosum</couplet>
+  <couplet>5.Corollas white to faintly pink- or lilac-tinged.</couplet>
+  <couplet>7.Stems usually proximally branched, plants often forming low, rounded mound; heads usually borne on short to ± elongate lateral branches; corollas 26–36 mm.</couplet>
+  <key>8.Apices of inner phyllaries acuminate and entire or rarely toothed; s California54g. Cirsium scariosum var. citrinum</key>
+  <key>8.Apices of inner phyllaries usually expanded as a scarious, erose-toothed appendage; ne California, se Oregon54h. Cirsium scariosum</key>
+  <key>var. robustum</key>
+  <couplet>[7. Shifted to left margin.—Ed.]</couplet>
+  <couplet>7.Stems usually erect, proximally unbranched; heads usually sessile or short-pedunculate in subcapitate to spiciform or racemiform arrays, usually closely subtended by numerous distal leaves; corollas 20–29 mm.</couplet>
+  <couplet>9.Heads usually ± tightly clustered at stem tips, closely subtended and often overtopped by crowded distal leaves; distal leaves ± thin, usually fringed with numerous weak spines, often ± unpigmented proximally or tinged pink to purplish54a. Cirsium scariosum var. scariosum</couplet>
+  <couplet>9.Heads usually in ± leafy, racemiform arrays, usually subtended by ± reduced, bractlike distal leaves; distal leaves firm, strongly spiny, usually green throughout54b. Cirsium scariosum var. coloradense</couplet>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

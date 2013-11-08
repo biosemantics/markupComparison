@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>4e.</number>
+  <subspecies_name>Stephanomeria exigua Nuttall subsp. macrocarpa</subspecies_name>
+  <authority>Gottlieb</authority>
+  <place_of_publication>Madroño 21: 473, figs. 2, 3. 1972</place_of_publication>
+  <common_name>Large seed wirelettuce</common_name>
+  <description>
+    <statement id="557.txt-0">
+      <text>Heads borne singly or clustered along branches.</text>
+      <structure id="o11454" name="head">
+        <character name="arrangement" value="clustered" constraint="along branches" constraintid="o11455" />
+      </structure>
+      <structure id="o11455" name="branch" />
+    </statement>
+    <statement id="557.txt-1">
+      <text>Peduncles 5–10 mm, glabrous or puberulent .</text>
+      <structure id="o11456" name="peduncle">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="10" to_unit="mm" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="puberulent" />
+      </structure>
+    </statement>
+    <statement id="557.txt-2">
+      <text>Calyculi of reflexed bractlets.</text>
+      <structure id="o11457" name="calyculus" />
+      <structure id="o11458" name="bractlet">
+        <character name="orientation" value="reflexed" />
+      </structure>
+      <relation id="r1317" name="consist_of" from="o11457" to="o11458" negation="false" />
+    </statement>
+    <statement id="557.txt-3">
+      <text>Involucres glabrous or puberulent.</text>
+      <structure id="o11459" name="involucre">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="puberulent" />
+      </structure>
+    </statement>
+    <statement id="557.txt-4">
+      <text>Florets 6–8.</text>
+      <structure id="o11460" name="floret">
+        <character char_type="range_value" name="count" from="6" to="8" />
+      </structure>
+    </statement>
+    <statement id="557.txt-5">
+      <text>Cypselae 5.5–6.5 mm;</text>
+      <structure id="o11461" name="cypsela">
+        <character char_type="range_value" name="size" from="5.5" from_unit="mm" to="6.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="557.txt-6">
+      <text>pappi of 13–19 tan bristles, widened bases persistent, connate in groups of 2–4, bristles plumose on distal 60–70%.</text>
+      <structure id="o11462" name="pappus" />
+      <structure id="o11463" name="bristle">
+        <character char_type="range_value" name="count" from="13" to="19" />
+        <character name="coloration" value="tan" />
+      </structure>
+      <relation id="r1318" name="consist_of" from="o11462" to="o11463" negation="false" />
+      <structure id="o11464" name="base">
+        <character name="size" value="widened" />
+        <character name="duration" value="persistent" />
+        <character name="fusion" value="connate" constraint="in groups" constraintid="o11465" />
+      </structure>
+      <structure id="o11465" name="group" />
+      <structure id="o11466" name="bristle">
+        <character char_type="range_value" name="count" from="2" to="4" />
+        <character name="architecture" value="plumose" modifier="on distal 60-70%" />
+      </structure>
+      <relation id="r1319" name="consist_of" from="o11465" to="o11466" negation="false" />
+    </statement>
+    <statement id="557.txt-7">
+      <text>2 n = 16.</text>
+      <structure id="o11467" name="chromosome">
+        <character name="count" value="16" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>dry, open sites on western slopes of the sierra nevada</habitat>
+  <elevation>300–1200 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <discussion>Subspecies macrocarpa has rarely been collected; it is common within its limited range on western slopes of the Sierra Nevada. Its cypselae are the largest of any of the annual stephanomerias. Unlike the other subspecies of Stephanomeria exigua, which are self-incompatible and obligately outcrossing, subsp. macrocarpa is self-compatible and highly self-pollinating. In Kern County, hybrid individuals may be found wherever subsp. macrocarpa and subsp. coronaria make contact.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

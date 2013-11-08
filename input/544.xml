@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Rafinesquia californica</species_name>
+  <authority>Nuttall</authority>
+  <place_of_publication>Trans. Amer. Philos. Soc., n. s. 7: 429. 1841</place_of_publication>
+  <common_name>California chicory</common_name>
+  <description>
+    <statement id="544.txt-0">
+      <text>Plants 20–150 cm.</text>
+      <structure id="o11198" name="whole_organism">
+        <character char_type="range_value" name="size" from="20" from_unit="cm" to="150" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="544.txt-1">
+      <text>Involucres 12–20 mm.</text>
+      <structure id="o11199" name="involucre">
+        <character char_type="range_value" name="size" from="12" from_unit="mm" to="20" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="544.txt-2">
+      <text>Ligules surpassing phyllaries by 5–7 mm.</text>
+      <structure id="o11200" name="ligule" />
+      <structure id="o11201" name="phyllary" constraint="by 5-7 mm" />
+      <relation id="r1272" name="surpassing" from="o11200" to="o11201" negation="false" />
+    </statement>
+    <statement id="544.txt-3">
+      <text>Cypselae light tan or sordid, 9–14 mm, including very slender beaks 5–7 mm;</text>
+      <structure id="o11202" name="cypsela">
+        <character name="coloration" value="tan" modifier="light" />
+        <character name="coloration" value="sordid" />
+        <character char_type="range_value" name="size" from="9" from_unit="mm" to="14" to_unit="mm" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="7" to_unit="mm" modifier="very slender beaks" />
+      </structure>
+    </statement>
+    <statement id="544.txt-4">
+      <text>pappi of 6–15, wholly plumose bristles, barbs straight, separate.</text>
+      <structure id="o11203" name="pappus" />
+      <structure id="o11204" name="bristle">
+        <character char_type="range_value" name="count" from="6" to="15" />
+        <character name="architecture" value="plumose" modifier="wholly" />
+      </structure>
+      <relation id="r1273" name="consist_of" from="o11203" to="o11204" negation="false" />
+      <structure id="o11205" name="barb">
+        <character name="course" value="straight" />
+        <character name="arrangement" value="separate" />
+      </structure>
+    </statement>
+    <statement id="544.txt-5">
+      <text>2 n = 16.</text>
+      <structure id="o11206" name="chromosome">
+        <character name="count" value="16" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <habitat>open places in coastal sage scrub</habitat>
+  <habitat>chaparral</habitat>
+  <habitat>oak woodlands in northern and coastal california and southwestern oregon (often found after fires), upper sonoran zone</habitat>
+  <elevation>100–1500 m;</elevation>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <global_distribution>Mexico (Baja California).</global_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

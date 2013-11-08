@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>2b.</number>
+  <variety_name>Hesperevax acaulis (Kellogg) Greene var. ambusticola</variety_name>
+  <authority>Morefield</authority>
+  <place_of_publication>Syst. Bot. 17: 306, fig. 5A–L. 1992</place_of_publication>
+  <common_name>Fire evax</common_name>
+  <description>
+    <statement id="785.txt-0">
+      <text>Plants 0.5–2(–4) cm.</text>
+      <structure id="o16516" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="2" to="4" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="0.5" from_unit="cm" to="2" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="785.txt-1">
+      <text>Stems (0–)4–10, ± prostrate (in depauperate plants sometimes 0, or 1, erect, unbranched);</text>
+      <structure id="o16517" name="stem">
+        <character char_type="range_value" name="atypical_count" from="0" to="4" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="4" to="10" />
+        <character name="orientation" value="prostrate" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="785.txt-2">
+      <text>branches proximal and/or distal.</text>
+      <structure id="o16518" name="branch">
+        <character name="insertion_or_position" value="proximal" />
+        <character name="insertion_or_position" value="distal" />
+      </structure>
+    </statement>
+    <statement id="785.txt-3">
+      <text>Leaves cauline, petiolate, largest mostly 4–7 × 1–2 mm;</text>
+      <structure id="o16519" name="leaf">
+        <character name="insertion_or_position" value="cauline" />
+        <character name="architecture" value="petiolate" />
+      </structure>
+    </statement>
+    <statement id="785.txt-4">
+      <text>petiole lengths mostly 0.5–1.5 times blade lengths;</text>
+      <structure id="o16520" name="petiole">
+        <character char_type="range_value" name="size" from="0.5" to="1.5" modifier="mostly" constraint="times blade" constraintid="o16521" />
+      </structure>
+      <structure id="o16521" name="blade" />
+    </statement>
+    <statement id="785.txt-5">
+      <text>blades obovate to ± round, obtuse;</text>
+      <structure id="o16522" name="blade">
+        <character name="shape" value="obovate" />
+        <character name="shape" value="round" modifier="±" />
+        <character name="shape" value="obtuse" />
+      </structure>
+    </statement>
+    <statement id="785.txt-6">
+      <text>capitular leaves mostly distally spreading.</text>
+      <structure id="o16523" name="leaf" constraint="capitular">
+        <character name="orientation" value="spreading" modifier="mostly distally" />
+      </structure>
+    </statement>
+    <statement id="785.txt-7">
+      <text>Heads usually borne singly, largest 2–2.5 × 1.5–2 mm.</text>
+      <structure id="o16524" name="head">
+        <character name="arrangement" value="singly" modifier="usually" />
+        <character name="size" value="largest" />
+        <character char_type="range_value" name="length" from="2" from_unit="mm" to="2.5" to_unit="mm" />
+        <character char_type="range_value" name="width" from="1.5" from_unit="mm" to="2" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="785.txt-8">
+      <text>Receptacles 1–1.4 × 0.8–1.1 mm.</text>
+      <structure id="o16525" name="receptacle">
+        <character char_type="range_value" name="length" from="1" from_unit="mm" to="1.4" to_unit="mm" />
+        <character char_type="range_value" name="width" from="0.8" from_unit="mm" to="1.1" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="785.txt-9">
+      <text>Pistillate paleae in 3–4 series, 1.7–2.5 mm.</text>
+      <structure id="o16526" name="palea" constraint="pistillate">
+        <character char_type="range_value" name="size" from="1.7" from_unit="mm" to="2.5" to_unit="mm" />
+      </structure>
+      <structure id="o16527" name="series">
+        <character char_type="range_value" name="count" from="3" to="4" />
+      </structure>
+      <relation id="r1774" name="in" from="o16526" to="o16527" negation="false" />
+    </statement>
+    <statement id="785.txt-10">
+      <text>Staminate paleae:</text>
+      <structure id="o16528" name="palea" constraint="staminate" />
+    </statement>
+    <statement id="785.txt-11">
+      <text>longest 1.6–2 mm.</text>
+      <structure id="o16529" name="palea" constraint="longest">
+        <character char_type="range_value" name="size" from="1.6" from_unit="mm" to="2" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="785.txt-12">
+      <text>Functionally staminate florets 2–5(–9);</text>
+      <structure id="o16530" name="floret" constraint="functionally staminate">
+        <character char_type="range_value" name="atypical_count" from="5" to="9" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="2" to="5" />
+      </structure>
+    </statement>
+    <statement id="785.txt-13">
+      <text>corollas 0.6–0.8 mm.</text>
+      <structure id="o16531" name="corolla">
+        <character char_type="range_value" name="size" from="0.6" from_unit="mm" to="0.8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="785.txt-14">
+      <text>Cypselae mostly 0.8–1 mm.</text>
+      <structure id="o16532" name="cypsela">
+        <character char_type="range_value" name="size" from="0.8" from_unit="mm" to="1" to_unit="mm" modifier="mostly" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <habitat>dry or vernally moist slopes</habitat>
+  <habitat>relatively barren or in clearings</habitat>
+  <habitat>recent chaparral burns</habitat>
+  <elevation>200–1300 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <discussion>Variety ambusticola is known from mountains of western Riverside County to the San Francisco Bay area and northern Sierra Nevada foothills. It occurs at about the same elevations as, and intergrades extensively with, var. robustior in northern California (J. D. Morefield 1992c).</discussion>
+  <discussion>Depauperate individuals of var. ambusticola are among the smaller and more inconspicuous Compositae, sometimes consisting of just one grayish head embedded in a leaf rosette on a root 1–2 cm long.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

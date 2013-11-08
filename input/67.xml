@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>12a.</number>
+  <variety_name>Cirsium pumilum (Nuttall) Sprengel var. pumilum</variety_name>
+  <synonym_of_variety_name>Cirsium odoratum (Muhlenberg ex W. P. C. Barton) Petrak</synonym_of_variety_name>
+  <description>
+    <statement id="67.txt-0">
+      <text>Plants mostly 30–100 cm;</text>
+      <structure id="o13996" name="whole_organism">
+        <character char_type="range_value" name="size" from="30" from_unit="cm" to="100" to_unit="cm" modifier="mostly" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="67.txt-1">
+      <text>branches 3–5+, long.</text>
+      <structure id="o13997" name="branch">
+        <character char_type="range_value" name="count" from="3" to="5" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="67.txt-2">
+      <text>Roots usually slender, not or rarely slightly tuberous-thickened.</text>
+      <structure id="o13998" name="root">
+        <character name="size" value="slender" modifier="usually" />
+        <character name="thickness" value="tuberous-thickened" modifier="not rarely slightly" />
+      </structure>
+    </statement>
+    <statement id="67.txt-3">
+      <text>Leaves usually lobed nearly to midveins, sinuses deep, U -shaped, main spines ± stout, 3–7 mm.</text>
+      <structure id="o13999" name="leaf" />
+      <structure id="o14000" name="midvein" />
+      <relation id="r1508" name="usually lobed nearly to" from="o13999" to="o14000" negation="false" />
+      <structure id="o14001" name="sinus">
+        <character name="depth" value="deep" />
+        <character name="shape" value="u-shaped" />
+      </structure>
+      <structure id="o14002" name="spine" constraint="main">
+        <character name="fragility" value="stout" modifier="±" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="67.txt-4">
+      <text>Heads 5.5–6 cm.</text>
+      <structure id="o14003" name="head">
+        <character char_type="range_value" name="size" from="5.5" from_unit="cm" to="6" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="67.txt-5">
+      <text>Phyllaries :</text>
+      <structure id="o14004" name="phyllary" />
+    </statement>
+    <statement id="67.txt-6">
+      <text>outer 3–5 mm wide at base, spines stout, 3–6 mm.</text>
+      <structure id="o14005" name="phyllary" constraint="outer">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="5" to_unit="mm" constraint="at base" constraintid="o14006" />
+      </structure>
+      <structure id="o14006" name="base" />
+      <structure id="o14007" name="spine">
+        <character name="fragility" value="stout" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="67.txt-7">
+      <text>Corollas usually 40–45 mm.</text>
+      <structure id="o14008" name="corolla">
+        <character char_type="range_value" name="size" from="40" from_unit="mm" to="45" to_unit="mm" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="67.txt-8">
+      <text>Cypselae usually 3.5–4 mm.</text>
+      <structure id="o14009" name="cypsela">
+        <character char_type="range_value" name="size" from="3.5" from_unit="mm" to="4" to_unit="mm" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="67.txt-9">
+      <text>2 n = 30.</text>
+      <structure id="o14010" name="chromosome">
+        <character name="count" value="30" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>fields</habitat>
+  <habitat>pastures</habitat>
+  <habitat>open woods</habitat>
+  <habitat>roadsides</habitat>
+  <elevation>0–600 m;</elevation>
+  <us_distribution>Conn.</us_distribution>
+  <us_distribution>Del.</us_distribution>
+  <us_distribution>Maine</us_distribution>
+  <us_distribution>Md.</us_distribution>
+  <us_distribution>Mass.</us_distribution>
+  <us_distribution>N.H.</us_distribution>
+  <us_distribution>N.J.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>N.C.</us_distribution>
+  <us_distribution>Ohio</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <us_distribution>R.I.</us_distribution>
+  <us_distribution>S.C.</us_distribution>
+  <us_distribution>Vt.</us_distribution>
+  <us_distribution>Va.</us_distribution>
+  <us_distribution>W.Va.</us_distribution>
+  <discussion>Variety pumilum grows on the Atlantic coastal plain from Maine to South Carolina and ranges inland to Pennsylvania and Ohio. It is known to hybridize with Cirsium horridulum var. horridulum (R. J. Moore and C. Frankton 1966).</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

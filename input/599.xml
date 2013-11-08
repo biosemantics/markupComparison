@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>3.</number>
+  <species_name>Lygodesmia juncea</species_name>
+  <authority>(Pursh) D. Don ex Hooker</authority>
+  <place_of_publication>Fl. Bor.-Amer. 1: 295. 1833</place_of_publication>
+  <common_name>Rush skeletonplant</common_name>
+  <synonym_of_species_name>Prenanthes juncea Pursh, Fl. Amer. Sept. 2: 498. 1813</synonym_of_species_name>
+  <description>
+    <statement id="599.txt-0">
+      <text>Perennials, 10–35(–70) cm (in bushy clumps);</text>
+      <structure id="o12485" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="35" to="70" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="35" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="599.txt-1">
+      <text>taproots deep, vertical, rhizomes branched, woody.</text>
+      <structure id="o12486" name="taproot">
+        <character name="depth" value="deep" />
+        <character name="orientation" value="vertical" />
+      </structure>
+      <structure id="o12487" name="rhizome">
+        <character name="architecture_or_shape" value="branched" />
+        <character name="texture" value="woody" />
+      </structure>
+    </statement>
+    <statement id="599.txt-2">
+      <text>Stems erect to ascending or decumbent, green, glaucous, much branched from bases and distally, strongly striate, glabrous (often bearing round galls).</text>
+      <structure id="o12488" name="stem">
+        <character char_type="range_value" name="orientation" from="erect" to="ascending" />
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="ascending" />
+        <character name="habit" value="decumbent" />
+        <character name="coloration" value="green" />
+        <character name="coating" value="glaucous" />
+        <character name="architecture_or_shape" value="branched" modifier="much" constraint="from bases" constraintid="o12489" />
+        <character name="coloration_or_relief" value="striate" modifier="strongly" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+      <structure id="o12489" name="base" />
+    </statement>
+    <statement id="599.txt-3">
+      <text>Leaves (basal not in rosettes, absent at flowering);</text>
+      <structure id="o12490" name="leaf" />
+    </statement>
+    <statement id="599.txt-4">
+      <text>proximal blades linear, 5–30(–60) × 1–2(–4) mm, margins entire, apices acute, faces glabrous;</text>
+      <structure id="o12491" name="blade" constraint="proximal">
+        <character name="arrangement_or_shape" value="linear" />
+        <character char_type="range_value" name="atypical_length" from="30" to="60" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="5" from_unit="mm" to="30" to_unit="mm" />
+        <character char_type="range_value" name="atypical_width" from="2" to="4" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="width" from="1" from_unit="mm" to="2" to_unit="mm" />
+      </structure>
+      <structure id="o12492" name="margin">
+        <character name="shape" value="entire" />
+      </structure>
+      <structure id="o12493" name="apex">
+        <character name="shape" value="acute" />
+      </structure>
+      <structure id="o12494" name="face">
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="599.txt-5">
+      <text>cauline reduced to subulate scales.</text>
+      <structure id="o12495" name="leaf" constraint="cauline">
+        <character name="size" value="reduced" />
+      </structure>
+      <structure id="o12496" name="scale">
+        <character name="shape" value="subulate" />
+      </structure>
+    </statement>
+    <statement id="599.txt-6">
+      <text>Heads (1–50+) borne singly or in corymbiform arrays.</text>
+      <structure id="o12497" name="head">
+        <character char_type="range_value" name="atypical_count" from="1" to="50" upper_restricted="false" />
+        <character name="arrangement" value="singly" />
+        <character name="arrangement" value="in corymbiform arrays" />
+      </structure>
+      <structure id="o12498" name="array">
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <relation id="r1449" name="in" from="o12497" to="o12498" negation="false" />
+    </statement>
+    <statement id="599.txt-7">
+      <text>Involucres cylindric, 10–16 × 4–6 mm, apices spreading.</text>
+      <structure id="o12499" name="involucre">
+        <character name="shape" value="cylindric" />
+        <character char_type="range_value" name="length" from="10" from_unit="mm" to="16" to_unit="mm" />
+        <character char_type="range_value" name="width" from="4" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+      <structure id="o12500" name="apex">
+        <character name="orientation" value="spreading" />
+      </structure>
+    </statement>
+    <statement id="599.txt-8">
+      <text>Calyculi of 8, ovate to linear bractlets 2–4 mm, margins erose-ciliate (faces glabrous).</text>
+      <structure id="o12501" name="calyculus" />
+      <structure id="o12502" name="bractlet">
+        <character name="count" value="8" />
+        <character char_type="range_value" name="shape" from="ovate" to="linear" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="linear" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+      <relation id="r1450" name="consist_of" from="o12501" to="o12502" negation="false" />
+      <structure id="o12503" name="margin">
+        <character name="architecture_or_shape" value="erose-ciliate" />
+      </structure>
+    </statement>
+    <statement id="599.txt-9">
+      <text>Phyllaries 5(–7), linear, 10–15 mm, margins scarious, apices acute or obtuse, not appendaged, faces glabrous .</text>
+      <structure id="o12504" name="phyllary">
+        <character char_type="range_value" name="atypical_count" from="5" to="7" from_inclusive="false" />
+        <character name="count" value="5" />
+        <character name="arrangement_or_shape" value="linear" />
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="15" to_unit="mm" />
+      </structure>
+      <structure id="o12505" name="margin">
+        <character name="texture" value="scarious" />
+      </structure>
+      <structure id="o12506" name="apex">
+        <character name="shape" value="acute" />
+        <character name="shape" value="obtuse" />
+        <character name="architecture" value="appendaged" modifier="not" />
+      </structure>
+      <structure id="o12507" name="face">
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="599.txt-10">
+      <text>Florets usually 5;</text>
+      <structure id="o12508" name="floret">
+        <character name="count" value="5" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="599.txt-11">
+      <text>corollas usually light pink to lavender, rarely white, 18–20 mm, ligules 3–4 mm wide.</text>
+      <structure id="o12509" name="corolla">
+        <character name="coloration" value="pink" modifier="usually;light" />
+        <character name="coloration" value="lavender" />
+        <character name="coloration" value="white" modifier="rarely" />
+        <character char_type="range_value" name="size" from="18" from_unit="mm" to="20" to_unit="mm" />
+      </structure>
+      <structure id="o12510" name="ligule">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="599.txt-12">
+      <text>Cypselae 6–10 mm, weakly striate, glabrous ;</text>
+      <structure id="o12511" name="cypsela">
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="10" to_unit="mm" />
+        <character name="coloration_or_relief" value="striate" modifier="weakly" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="599.txt-13">
+      <text>pappi 6–9 mm.</text>
+      <structure id="o12512" name="pappus">
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="9" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="599.txt-14">
+      <text>2 n = 18.</text>
+      <structure id="o12513" name="chromosome">
+        <character name="count" value="18" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>high plains</habitat>
+  <habitat>rolling short-grass prairies</habitat>
+  <habitat>blufftop prairies</habitat>
+  <habitat>loess hills</habitat>
+  <habitat>sandy to silty soils</habitat>
+  <habitat>disturbed sites</habitat>
+  <habitat>railroads</habitat>
+  <habitat>roadsides</habitat>
+  <habitat>barren areas</habitat>
+  <elevation>600–2300 m;</elevation>
+  <ca_distribution>Alta.</ca_distribution>
+  <ca_distribution>B.C.</ca_distribution>
+  <ca_distribution>Man.</ca_distribution>
+  <ca_distribution>Sask.</ca_distribution>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Ark.</us_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Ind.</us_distribution>
+  <us_distribution>Iowa</us_distribution>
+  <us_distribution>Kans.</us_distribution>
+  <us_distribution>Minn.</us_distribution>
+  <us_distribution>Mo.</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>Nebr.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>N.Dak.</us_distribution>
+  <us_distribution>Okla.</us_distribution>
+  <us_distribution>S.Dak.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <us_distribution>Wis.</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <discussion>Lygodesmia juncea is the most widespread species of the genus, occurring throughout the High Plains region of North America. It is easily distinguished by its bushy habit, greatly reduced cauline leaves, relatively small heads and involucres, and phyllaries lacking appendages. Mature cypselae are rarely found on this species, and the plants are presumably sterile and reproduce mainly by vegetative means. Many specimens have round galls to 10 mm diameter on the stems, produced by solitary wasps and apparently unique to this species.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

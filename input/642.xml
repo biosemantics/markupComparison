@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>13.</number>
+  <species_name>Antennaria racemosa</species_name>
+  <authority>Hooker</authority>
+  <place_of_publication>Fl. Bor.-Amer. 1: 330. 1834</place_of_publication>
+  <common_name>Racemose pussytoes</common_name>
+  <synonym_of_species_name>Antennaria petasites Greene; A. piperi Rydberg</synonym_of_species_name>
+  <description>
+    <statement id="642.txt-0">
+      <text>Dioecious.</text>
+      <structure id="o13452" name="whole_organism">
+        <character name="reproduction" value="dioecious" />
+      </structure>
+    </statement>
+    <statement id="642.txt-1">
+      <text>Plants 12–50 cm (stems stipitate-glandular distally).</text>
+      <structure id="o13453" name="whole_organism">
+        <character char_type="range_value" name="size" from="12" from_unit="cm" to="50" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="642.txt-2">
+      <text>Stolons 3–8 cm.</text>
+      <structure id="o13454" name="stolon">
+        <character char_type="range_value" name="size" from="3" from_unit="cm" to="8" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="642.txt-3">
+      <text>Basal leaves:</text>
+    </statement>
+    <statement id="642.txt-4">
+      <text>3-nerved, elliptic to oblong, 30–100 × 10–40 mm, tips mucronate, abaxially tomentose, adaxially glabrous.</text>
+      <structure id="o13455" name="leaf" constraint="basal">
+        <character name="architecture" value="3-nerved" />
+        <character char_type="range_value" name="shape" from="elliptic" to="oblong" />
+        <character name="shape" value="elliptic" />
+        <character name="shape" value="oblong" />
+        <character char_type="range_value" name="length" from="30" from_unit="mm" to="100" to_unit="mm" />
+        <character char_type="range_value" name="width" from="10" from_unit="mm" to="40" to_unit="mm" />
+      </structure>
+      <structure id="o13456" name="tip">
+        <character name="shape" value="mucronate" />
+        <character name="pubescence" value="tomentose" modifier="abaxially" />
+        <character name="pubescence" value="glabrous" modifier="adaxially" />
+      </structure>
+    </statement>
+    <statement id="642.txt-5">
+      <text>Cauline leaves linear, 10–30 mm, not flagged (apices obtuse to acute).</text>
+      <structure id="o13457" name="leaf" constraint="cauline">
+        <character name="arrangement_or_shape" value="linear" />
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="30" to_unit="mm" />
+        <character name="orientation" value="flagged" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="642.txt-6">
+      <text>Heads 3–12 in loose, racemiform to paniculiform arrays.</text>
+      <structure id="o13458" name="head">
+        <character char_type="range_value" name="count" from="3" to="12" constraint="in arrays" constraintid="o13459" />
+      </structure>
+      <structure id="o13459" name="array">
+        <character char_type="range_value" name="architecture" from="loose , racemiform" to="paniculiform" />
+        <character name="architecture" value="loose" />
+        <character name="architecture" value="racemiform" />
+        <character name="architecture" value="paniculiform" />
+      </structure>
+    </statement>
+    <statement id="642.txt-7">
+      <text>Involucres:</text>
+      <structure id="o13460" name="involucre" />
+    </statement>
+    <statement id="642.txt-8">
+      <text>staminate 4–8 mm;</text>
+      <structure id="o13461" name="involucre" constraint="staminate">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="642.txt-9">
+      <text>pistillate 7–9 mm.</text>
+      <structure id="o13462" name="involucre" constraint="pistillate">
+        <character char_type="range_value" name="size" from="7" from_unit="mm" to="9" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="642.txt-10">
+      <text>Phyllaries (relatively wide) distally white or light brown (apices blunt).</text>
+      <structure id="o13463" name="phyllary">
+        <character name="coloration" value="white" modifier="distally" />
+        <character name="coloration" value="brown" modifier="distally ;light" />
+      </structure>
+    </statement>
+    <statement id="642.txt-11">
+      <text>Corollas:</text>
+      <structure id="o13464" name="corolla" />
+    </statement>
+    <statement id="642.txt-12">
+      <text>staminate 3–4 mm;</text>
+      <structure id="o13465" name="corolla" constraint="staminate">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="642.txt-13">
+      <text>pistillate 3–4 mm.</text>
+      <structure id="o13466" name="corolla" constraint="pistillate">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="642.txt-14">
+      <text>Cypselae 1–1.5 mm, glabrous or slightly papillate;</text>
+      <structure id="o13467" name="cypsela">
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="1.5" to_unit="mm" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="papillate" modifier="slightly" />
+      </structure>
+    </statement>
+    <statement id="642.txt-15">
+      <text>pappi:</text>
+      <structure id="o13468" name="pappus" />
+    </statement>
+    <statement id="642.txt-16">
+      <text>staminate 3–4.5 mm;</text>
+      <structure id="o13469" name="pappus" constraint="staminate">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="4.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="642.txt-17">
+      <text>pistillate 4.5–7 mm.</text>
+      <structure id="o13470" name="pappus" constraint="pistillate">
+        <character char_type="range_value" name="size" from="4.5" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="642.txt-18">
+      <text>2 n = 28.</text>
+      <structure id="o13471" name="chromosome">
+        <character name="count" value="28" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>moist, cool, montane and subalpine coniferous forests and roadcuts in forests</habitat>
+  <elevation>1200–3000 m;</elevation>
+  <ca_distribution>Alta.</ca_distribution>
+  <ca_distribution>B.C.</ca_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <discussion>Antennaria racemosa is characterized by adaxially glabrous basal leaves and open, racemiform to paniculiform arrays of heads (R. J. Bayer 1985b). The young leaves have a slight odor of citronella when crushed. Antennaria racemosa has a pivotal sexual genome of the Catipes group and has contributed to the origin of clones in the A. howellii, A. parlinii, and A. rosea polyploid agamic complexes (Bayer 1985, 1985b, 1990b).</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

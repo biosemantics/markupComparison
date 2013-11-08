@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>2.</number>
+  <species_name>Matricaria occidentalis</species_name>
+  <authority>Greene</authority>
+  <place_of_publication>Bull. Calif. Acad. Sci. 2: 150. 1886</place_of_publication>
+  <common_name>Valley mayweed</common_name>
+  <synonym_of_species_name>Chamomilla occidentalis (Greene) Rydberg</synonym_of_species_name>
+  <description>
+    <statement id="942.txt-0">
+      <text>Annuals, 8–45(–70) cm;</text>
+    </statement>
+    <statement id="942.txt-1">
+      <text>not notably aromatic.</text>
+      <structure id="o19408" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="45" to="70" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="8" from_unit="cm" to="45" to_unit="cm" />
+        <character name="life_style" value="annual" />
+        <character name="odor" value="aromatic" modifier="not notably" />
+      </structure>
+    </statement>
+    <statement id="942.txt-2">
+      <text>Stems 1–5+, usually erect, sometimes ascending, simple or branched mostly distally, sometimes proximally (then ascending).</text>
+      <structure id="o19409" name="stem">
+        <character char_type="range_value" name="count" from="1" to="5" upper_restricted="false" />
+        <character name="orientation" value="erect" modifier="usually" />
+        <character name="orientation" value="ascending" modifier="sometimes" />
+        <character name="architecture" value="simple" modifier="distally mostly" />
+        <character name="architecture" value="branched" modifier="distally mostly" />
+      </structure>
+    </statement>
+    <statement id="942.txt-3">
+      <text>Leaf blades 1560(–80) × 5–28 mm.</text>
+      <structure id="o19410" name="blade" constraint="leaf">
+        <character char_type="range_value" name="atypical_length" from="1560" to="80" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character name="length" value="1560" unit="mm" />
+        <character char_type="range_value" name="width" from="5" from_unit="mm" to="28" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="942.txt-4">
+      <text>Heads discoid, 1–15+, borne singly or in open, corymbiform arrays.</text>
+      <structure id="o19411" name="head">
+        <character name="shape_or_architecture" value="discoid" />
+        <character char_type="range_value" name="count" from="1" to="15" upper_restricted="false" />
+        <character name="arrangement" value="singly" />
+        <character name="arrangement" value="in open , corymbiform arrays" />
+      </structure>
+      <structure id="o19412" name="array">
+        <character name="architecture" value="open" />
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <relation id="r2037" name="in" from="o19411" to="o19412" negation="false" />
+    </statement>
+    <statement id="942.txt-5">
+      <text>Peduncles 1–56(–90) mm (glabrous or villosulous near heads, bracts 0–3, simple or 1-pinnate).</text>
+      <structure id="o19413" name="peduncle">
+        <character char_type="range_value" name="atypical_size" from="56" to="90" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="56" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="942.txt-6">
+      <text>Involucres 3.5–4.5 mm.</text>
+      <structure id="o19414" name="involucre">
+        <character char_type="range_value" name="size" from="3.5" from_unit="mm" to="4.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="942.txt-7">
+      <text>Phyllaries 25–55+ in 3–4 series, margins erose.</text>
+      <structure id="o19415" name="phyllary">
+        <character char_type="range_value" name="count" from="25" to="55" upper_restricted="false" constraint="in series" constraintid="o19416" />
+      </structure>
+      <structure id="o19416" name="series">
+        <character char_type="range_value" name="count" from="3" to="4" />
+      </structure>
+      <structure id="o19417" name="margin">
+        <character name="shape_or_relief" value="erose" />
+      </structure>
+    </statement>
+    <statement id="942.txt-8">
+      <text>Receptacles 4.5–6.6 mm, rounded to obtuse or ± acute.</text>
+      <structure id="o19418" name="receptacle">
+        <character char_type="range_value" name="size" from="4.5" from_unit="mm" to="6.6" to_unit="mm" />
+        <character char_type="range_value" name="shape" from="rounded" to="obtuse" />
+        <character name="shape" value="rounded" />
+        <character name="shape" value="obtuse" />
+        <character name="shape" value="acute" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="942.txt-9">
+      <text>Ray florets 0.</text>
+      <structure id="o19419" name="floret" constraint="ray">
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+    <statement id="942.txt-10">
+      <text>Discs ovoid to hemispheric, 5.5–12.5 × 6–14 mm.</text>
+      <structure id="o19420" name="disc">
+        <character char_type="range_value" name="shape" from="ovoid" to="hemispheric" />
+        <character name="shape" value="ovoid" />
+        <character name="shape" value="hemispheric" />
+        <character char_type="range_value" name="length" from="5.5" from_unit="mm" to="12.5" to_unit="mm" />
+        <character char_type="range_value" name="width" from="6" from_unit="mm" to="14" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="942.txt-11">
+      <text>Disc florets 400–750+;</text>
+      <structure id="o19421" name="floret" constraint="disc">
+        <character char_type="range_value" name="count" from="400" to="750" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="942.txt-12">
+      <text>corollasgreenish yellow, 1.2–1.7 mm (sparsely glandular), lobes 4.</text>
+      <structure id="o19422" name="corolla">
+        <character name="coloration" value="yellow" modifier="greenish" />
+        <character char_type="range_value" name="size" from="1.2" from_unit="mm" to="1.7" to_unit="mm" />
+      </structure>
+      <structure id="o19423" name="lobe">
+        <character name="count" value="4" />
+      </structure>
+    </statement>
+    <statement id="942.txt-13">
+      <text>Cypselae tan to brownish, obtriangular-obconic (angular, abaxial faces rounded, adaxial faces slightly convex), 1–1.5 mm, ribs white (2 abaxial, 2 lateral, each with reddish brown mucilage gland in distal 1 / 2 , glands expanding into lobes, 1 adaxial, usually obscure, sometimes with a gland), faces not glandular;</text>
+      <structure id="o19424" name="cypsela">
+        <character char_type="range_value" name="coloration" from="tan" to="brownish" />
+        <character name="coloration" value="tan" />
+        <character name="coloration" value="brownish" />
+        <character name="shape" value="obtriangular-obconic" />
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="1.5" to_unit="mm" />
+      </structure>
+      <structure id="o19425" name="rib">
+        <character name="coloration" value="white" />
+      </structure>
+      <structure id="o19426" name="face">
+        <character name="architecture_or_exudation_or_pubescence" value="glandular" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="942.txt-14">
+      <text>pappi coroniform, lobed (lobes 2, spreading, abaxio-lateral, ± obtuse to rounded).</text>
+      <structure id="o19427" name="pappus">
+        <character name="shape" value="coroniform" />
+        <character name="shape" value="lobed" />
+      </structure>
+    </statement>
+    <statement id="942.txt-15">
+      <text>2 n = 18.</text>
+      <structure id="o19428" name="chromosome">
+        <character name="count" value="18" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <flowering_time>nov</flowering_time>
+  <habitat>undisturbed alkali flats</habitat>
+  <habitat>vernal pools</habitat>
+  <habitat>edges of salt marshes</habitat>
+  <elevation>0–2400 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <discussion>E. McClintock (1993b) reported Matricaria occidentalis as being used as a substitute for chamomile. In California, the species is found in the Coast Ranges to the South Coast, in parts of the San Joaquin Valley, and in the High Cascade, Sierra Nevada, and Desert Ranges and surrounding areas. Although listed as secure, the species appears to have been eradicated from some counties in California and its range may be shrinking due to disappearance of its habitat.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

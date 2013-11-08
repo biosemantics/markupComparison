@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>15.</number>
+  <species_name>Taraxacum carneocoloratum</species_name>
+  <authority>A. Nelson</authority>
+  <place_of_publication>Amer. J. Bot. 32: 290. 1945</place_of_publication>
+  <common_name>Pink dandelion</common_name>
+  <description>
+    <statement id="332.txt-0">
+      <text>Plants 3.5–9 cm;</text>
+      <structure id="o6133" name="whole_organism">
+        <character char_type="range_value" name="size" from="3.5" from_unit="cm" to="9" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="332.txt-1">
+      <text>taproots branched.</text>
+      <structure id="o6134" name="taproot">
+        <character name="architecture_or_shape" value="branched" />
+      </structure>
+    </statement>
+    <statement id="332.txt-2">
+      <text>Stems 1–3, ascending to erect, purplish proximally to completely (barely exceeding foliage), glabrous.</text>
+      <structure id="o6135" name="stem">
+        <character char_type="range_value" name="count" from="1" to="3" />
+        <character char_type="range_value" name="orientation" from="ascending" to="erect" />
+        <character name="orientation" value="ascending" />
+        <character name="orientation" value="erect" />
+        <character name="coloration" value="purplish" modifier="proximally" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="332.txt-3">
+      <text>Leaves fewer than 10(–15), horizontal to patent or ± erect;</text>
+      <structure id="o6136" name="leaf">
+        <character name="count" value="fewer than 10-LRB-/-LRB--15-RRB-/-RRB-" />
+        <character char_type="range_value" name="orientation" from="horizontal" to="patent" />
+        <character name="orientation" value="horizontal" />
+        <character name="orientation" value="patent" />
+        <character name="orientation" value="erect" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="332.txt-4">
+      <text>petioles narrowly winged (mostly distally);</text>
+      <structure id="o6137" name="petiole">
+        <character name="architecture" value="winged" modifier="narrowly" />
+      </structure>
+    </statement>
+    <statement id="332.txt-5">
+      <text>blades oblanceolate (sometimes runci-nate), 2.8–8 × 0.5–1.4 cm, bases attenuate, margins lobed shallowly (about 1 / 2 width of blades or less) or toothed, lobes straight or retrorse, sometimes antrorse, triangular or deltate to lanceolate, obtuse to acute or acuminate, teeth 0 on lobes, apices obtuse, faces glabrous.</text>
+      <structure id="o6138" name="blade">
+        <character name="shape" value="oblanceolate" />
+        <character char_type="range_value" name="length" from="2.8" from_unit="cm" to="8" to_unit="cm" />
+        <character char_type="range_value" name="width" from="0.5" from_unit="cm" to="1.4" to_unit="cm" />
+      </structure>
+      <structure id="o6139" name="base">
+        <character name="shape" value="attenuate" />
+      </structure>
+      <structure id="o6140" name="margin">
+        <character name="shape" value="lobed" modifier="shallowly" />
+        <character name="shape" value="toothed" />
+      </structure>
+      <structure id="o6141" name="lobe">
+        <character name="course" value="straight" />
+        <character name="orientation" value="retrorse" />
+        <character name="orientation" value="antrorse" modifier="sometimes" />
+        <character char_type="range_value" name="shape" from="deltate" to="lanceolate , obtuse" />
+        <character name="shape" value="triangular" />
+        <character name="shape" value="deltate" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="obtuse" />
+        <character name="shape" value="acute" />
+        <character name="shape" value="acuminate" />
+      </structure>
+      <structure id="o6142" name="tooth">
+        <character name="count" value="0" constraint="on lobes" constraintid="o6143" />
+      </structure>
+      <structure id="o6143" name="lobe" />
+      <structure id="o6144" name="apex">
+        <character name="shape" value="obtuse" />
+      </structure>
+      <structure id="o6145" name="face">
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="332.txt-6">
+      <text>Calyculi of 10–12, appressed (to spreading), very widely ovate (outer) to ovate, dark green, often purple-tipped bractlets in 2(–3) series, 4–5.5 × 2.5–4.5 mm, white-scarious to not scarious, apices acuminate to caudate, hornless, scarious-erose.</text>
+      <structure id="o6146" name="calyculus">
+        <character char_type="range_value" name="length" from="4" from_unit="mm" to="5.5" to_unit="mm" />
+        <character char_type="range_value" name="width" from="2.5" from_unit="mm" to="4.5" to_unit="mm" />
+        <character name="texture" value="white-scarious" />
+        <character name="texture" value="scarious" modifier="not" />
+      </structure>
+      <structure id="o6147" name="bractlet">
+        <character char_type="range_value" name="count" from="10" to="12" />
+        <character name="orientation" value="appressed" />
+        <character char_type="range_value" name="shape" from="very widely ovate" to="ovate" />
+        <character name="shape" value="ovate" modifier="very widely" />
+        <character name="shape" value="ovate" modifier="very widely" />
+        <character name="coloration" value="green" modifier="dark" />
+      </structure>
+      <relation id="r771" name="consist_of" from="o6146" to="o6147" negation="false" />
+      <structure id="o6148" name="series" constraint="-3">
+        <character name="count" value="2" />
+      </structure>
+      <relation id="r772" name="in" from="o6147" to="o6148" negation="false" />
+      <structure id="o6149" name="apex">
+        <character char_type="range_value" name="shape" from="acuminate" to="caudate" />
+        <character name="shape" value="acuminate" />
+        <character name="shape" value="caudate" />
+        <character name="architecture" value="hornless" />
+        <character name="shape_or_relief" value="scarious-erose" />
+      </structure>
+    </statement>
+    <statement id="332.txt-7">
+      <text>Involucres dark green, broadly campanulate, (10–)12–16 mm.</text>
+      <structure id="o6150" name="involucre">
+        <character name="coloration" value="green" modifier="dark" />
+        <character name="shape" value="campanulate" modifier="broadly" />
+        <character char_type="range_value" name="atypical_size" from="10" to="12" from_unit="mm" to_unit="mm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="12" from_unit="mm" to="16" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="332.txt-8">
+      <text>Phyllaries 12–14 in 2 series, ovate to lance-ovate, 2.8–5.5 mm wide, margins not scarious (some outer) to broadly so (at least proximally, inner), apices acuminate, inner scarious and erose, hornless.</text>
+      <structure id="o6151" name="phyllary">
+        <character char_type="range_value" name="count" from="12" to="14" constraint="in series" constraintid="o6152" />
+        <character char_type="range_value" name="shape" from="ovate" to="lance-ovate" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="lance-ovate" />
+        <character char_type="range_value" name="size" from="2.8" from_unit="mm" to="5.5" to_unit="mm" />
+      </structure>
+      <structure id="o6152" name="series">
+        <character name="count" value="2" />
+      </structure>
+      <structure id="o6153" name="margin">
+        <character name="texture" value="scarious" modifier="not" />
+      </structure>
+      <structure id="o6154" name="apex">
+        <character name="shape" value="acuminate" />
+        <character name="position" value="inner" />
+        <character name="texture" value="scarious" />
+        <character name="shape_or_relief" value="erose" />
+        <character name="architecture" value="hornless" />
+      </structure>
+    </statement>
+    <statement id="332.txt-9">
+      <text>Florets 20–30+;</text>
+      <structure id="o6155" name="floret">
+        <character char_type="range_value" name="count" from="20" to="30" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="332.txt-10">
+      <text>corollas pink purplish to pinkish cream (± bronze when fresh), outer 13–14 × 2.4–2.6 mm.</text>
+      <structure id="o6156" name="corolla">
+        <character char_type="range_value" name="coloration" from="pink-purplish" to="pinkish-cream" />
+        <character name="coloration" value="purplish" modifier="pink" />
+        <character name="coloration" value="cream" modifier="pinkish" />
+        <character name="position" value="outer" />
+        <character char_type="range_value" name="length" from="13" from_unit="mm" to="14" to_unit="mm" />
+        <character char_type="range_value" name="width" from="2.4" from_unit="mm" to="2.6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="332.txt-12">
+      <text>pappi yellowish, ca. 7 mm.</text>
+      <structure id="o6157" name="pappus">
+        <character name="coloration" value="yellowish" />
+        <character name="size" value="7" unit="mm" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>high alpine</habitat>
+  <habitat>gravelly areas and scree slopes</habitat>
+  <habitat>ridge crests</habitat>
+  <habitat>dry substrates</habitat>
+  <elevation>500–2500 m;</elevation>
+  <ca_distribution>Yukon</ca_distribution>
+  <us_distribution>Alaska.</us_distribution>
+  <discussion>Taraxacum carneocoloratum may be associated with unglaciated areas of Alaska and Yukon, where it is infrequent. It is easily distinguished in bloom by its pink ligules (± bronze when fresh).</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

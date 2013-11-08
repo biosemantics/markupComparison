@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>12.</number>
+  <species_name>Pseudognaphalium pringlei</species_name>
+  <authority>(A. Gray) Anderberg</authority>
+  <place_of_publication>Opera Bot. 104: 147. 1991</place_of_publication>
+  <common_name>Pringle’s rabbit-tobacco</common_name>
+  <synonym_of_species_name>Gnaphalium pringlei A. Gray, Proc. Amer. Acad. Arts 21: 387. 1886</synonym_of_species_name>
+  <description>
+    <statement id="691.txt-0">
+      <text>Annuals or perennials, 30–80 cm;</text>
+    </statement>
+    <statement id="691.txt-1">
+      <text>taprooted.</text>
+      <structure id="o14437" name="whole_organism">
+        <character char_type="range_value" name="size" from="30" from_unit="cm" to="80" to_unit="cm" />
+        <character name="life_style" value="annual" />
+        <character name="life_style" value="perennial" />
+        <character name="architecture" value="taprooted" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="691.txt-2">
+      <text>Stems lightly white-tomentose and/or glabrescent and green, minutely stipitate- or sessile-glandular beneath other in-duments.</text>
+      <structure id="o14439" name="stem">
+        <character name="pubescence" value="white-tomentose" modifier="lightly" />
+        <character name="pubescence" value="glabrescent" />
+        <character name="coloration" value="green" />
+        <character name="architecture_or_exudation_or_pubescence" value="stipitate-or-sessile-glandular" modifier="minutely" constraint="beneath other" constraintid="o14440" />
+      </structure>
+      <structure id="o14440" name="other" />
+    </statement>
+    <statement id="691.txt-3">
+      <text>Leaf blades (not crowded, internodes mostly 5+ mm) oblanceolate-spatulate to obovate- or petiolate-spatulate, 5–10 cm × 10–20 mm (distal oblong to lanceolate or oblanceolate, 2–8 cm, slightly smaller), bases not clasping and decurrent 3–20 mm or clasping and decurrent 1–3 mm or not decurrent at all, margins flat to slightly revolute, faces bicolor, abaxial thinly white-tomentose, adaxial minutely stipitate- or sessile-glandular, otherwise glabrous or glabrate (bases of hairs persistent, enlarged).</text>
+      <structure id="o14441" name="blade" constraint="leaf">
+        <character char_type="range_value" name="shape" from="oblanceolate-spatulate" to="obovate-or-petiolate-spatulate" />
+        <character name="shape" value="oblanceolate-spatulate" />
+        <character name="shape" value="obovate-" />
+        <character char_type="range_value" name="length" from="5" from_unit="cm" to="10" to_unit="cm" />
+        <character char_type="range_value" name="width" from="10" from_unit="mm" to="20" to_unit="mm" />
+      </structure>
+      <structure id="o14442" name="base">
+        <character name="architecture" value="clasping" modifier="not" />
+        <character name="shape" value="decurrent" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="20" to_unit="mm" />
+        <character name="architecture" value="clasping" />
+        <character name="shape" value="decurrent" />
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="3" to_unit="mm" />
+        <character name="shape" value="decurrent" modifier="not" />
+      </structure>
+      <structure id="o14443" name="margin">
+        <character char_type="range_value" name="shape" from="flat" to="slightly revolute" />
+        <character name="shape" value="flat" />
+        <character name="shape" value="revolute" modifier="slightly" />
+      </structure>
+      <structure id="o14444" name="face">
+        <character name="coloration" value="bicolor" />
+        <character name="insertion_or_position" value="abaxial" modifier="thinly" />
+        <character name="pubescence" value="white-tomentose" />
+        <character name="insertion_or_position" value="adaxial" modifier="minutely" />
+        <character name="architecture_or_exudation_or_pubescence" value="stipitate-or-sessile-glandular" />
+        <character name="pubescence" value="glabrous" modifier="otherwise" />
+        <character name="pubescence" value="glabrate" modifier="otherwise" />
+      </structure>
+    </statement>
+    <statement id="691.txt-4">
+      <text>Heads in loose, corymbiform arrays.</text>
+      <structure id="o14445" name="head" />
+      <structure id="o14446" name="array">
+        <character name="architecture_or_texture" value="loose" />
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <relation id="r1546" name="in" from="o14445" to="o14446" negation="false" />
+    </statement>
+    <statement id="691.txt-5">
+      <text>Involucres campanulate to turbinate, 3.5–4 mm.</text>
+      <structure id="o14447" name="involucre">
+        <character char_type="range_value" name="shape" from="campanulate" to="turbinate" />
+        <character name="shape" value="campanulate" />
+        <character name="shape" value="turbinate" />
+        <character char_type="range_value" name="size" from="3.5" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="691.txt-6">
+      <text>Phyllaries in 2–3 series, silvery white to tawny, oblong to oblong-ovate, (hyaline, shiny), glabrous.</text>
+      <structure id="o14448" name="phyllary">
+        <character char_type="range_value" name="coloration" from="silvery-white" to="tawny" />
+        <character name="coloration" value="white" modifier="silvery" />
+        <character name="coloration" value="tawny" />
+        <character char_type="range_value" name="shape" from="oblong" to="oblong-ovate" />
+        <character name="shape" value="oblong" />
+        <character name="shape" value="oblong-ovate" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+      <structure id="o14449" name="series">
+        <character char_type="range_value" name="count" from="2" to="3" />
+      </structure>
+      <relation id="r1547" name="in" from="o14448" to="o14449" negation="false" />
+    </statement>
+    <statement id="691.txt-7">
+      <text>Pistillate florets 15–40(–64).</text>
+      <structure id="o14450" name="floret" constraint="pistillate">
+        <character char_type="range_value" name="atypical_count" from="40" to="64" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="15" to="40" />
+      </structure>
+    </statement>
+    <statement id="691.txt-8">
+      <text>Bisexual florets (1–)2–6.</text>
+      <structure id="o14451" name="floret" constraint="bisexual">
+        <character char_type="range_value" name="atypical_count" from="1" to="2" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="2" to="6" />
+      </structure>
+    </statement>
+    <statement id="691.txt-9">
+      <text>Cypselae ridged, papillate-roughened.</text>
+      <structure id="o14452" name="cypsela">
+        <character name="shape" value="ridged" />
+        <character name="texture" value="papillate-roughened" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <flowering_time>nov</flowering_time>
+  <habitat>rock outcrops and slopes</habitat>
+  <habitat>crevices and thin soil on cliffs</habitat>
+  <habitat>oak or oak-pine woodlands</habitat>
+  <elevation>1500–2300 m;</elevation>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <global_distribution>Mexico (Chihuahua).</global_distribution>
+  <global_distribution>Mexico (Durango).</global_distribution>
+  <global_distribution>Mexico (Sonora).</global_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>3.</number>
+  <species_name>Hieracium flagellare</species_name>
+  <authority>Willdenow</authority>
+  <place_of_publication>Enum. Pl., suppl.: 54. 1814</place_of_publication>
+  <synonym_of_species_name>Hieracium flagellare var. amauracron (Missback &amp; Zahn) Lepage; H. flagellare var. cernuiforme (Naegeli &amp; Peter) Lepage ; H. flagellare var. pilosius Lepage; Pilosella flagellaris (Willdenow) P. D. Sell &amp; C. West</synonym_of_species_name>
+  <description>
+    <statement id="390.txt-0">
+      <text>Plants 5–12(–20+) cm.</text>
+      <structure id="o7493" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="12" to="20" from_unit="cm" to_unit="cm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="12" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="390.txt-1">
+      <text>Stems proximally piloso-hirsute (hairs 2–4+ mm) and stellate-pubescent, distally piloso-hirsute (hairs 1–4 mm), stellate-pubescent, and stipitate-glandular.</text>
+      <structure id="o7494" name="stem">
+        <character name="pubescence" value="piloso-hirsute" modifier="proximally" />
+        <character name="pubescence" value="stellate-pubescent" />
+        <character name="pubescence" value="piloso-hirsute" modifier="distally" />
+        <character name="pubescence" value="stellate-pubescent" />
+        <character name="architecture_or_exudation_or_pubescence" value="stipitate-glandular" />
+      </structure>
+    </statement>
+    <statement id="390.txt-2">
+      <text>Leaves:</text>
+      <structure id="o7495" name="leaf" />
+    </statement>
+    <statement id="390.txt-3">
+      <text>basal 8–12+, cauline 0(–2+);</text>
+      <structure id="o7496" name="leaf" constraint="basal">
+        <character char_type="range_value" name="count" from="8" to="12" upper_restricted="false" />
+      </structure>
+      <structure id="o7497" name="leaf" constraint="cauline">
+        <character char_type="range_value" name="atypical_count" from="0" to="2" upper_restricted="false" from_inclusive="false" />
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+    <statement id="390.txt-4">
+      <text>blades spatulate to oblanceolate, 20–45(–130+) × 8–20(–25+) mm, lengths 2–3+ times widths, bases cuneate, margins entire, apices rounded to acute, abaxial faces piloso-hirsute (hairs 1–4+ mm) and stellate-pubescent, adaxial piloso-hirsute (hairs 1–4+ mm).</text>
+      <structure id="o7498" name="blade">
+        <character char_type="range_value" name="shape" from="spatulate" to="oblanceolate" />
+        <character name="shape" value="spatulate" />
+        <character name="shape" value="oblanceolate" />
+        <character char_type="range_value" name="atypical_length" from="45" to="130" from_unit="mm" to_unit="mm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="20" from_unit="mm" to="45" to_unit="mm" />
+        <character char_type="range_value" name="atypical_width" from="20" to="25" from_unit="mm" to_unit="mm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="width" from="8" from_unit="mm" to="20" to_unit="mm" />
+        <character name="size" value="widths" modifier="2-3+ times" />
+      </structure>
+      <structure id="o7499" name="base">
+        <character name="shape" value="cuneate" />
+      </structure>
+      <structure id="o7500" name="margin">
+        <character name="shape" value="entire" />
+      </structure>
+      <structure id="o7501" name="apex">
+        <character char_type="range_value" name="shape" from="rounded" to="acute" />
+        <character name="shape" value="rounded" />
+        <character name="shape" value="acute" />
+      </structure>
+      <structure id="o7502" name="face" constraint="abaxial">
+        <character name="pubescence" value="piloso-hirsute" />
+        <character name="pubescence" value="stellate-pubescent" />
+        <character name="insertion_or_position" value="adaxial" />
+        <character name="pubescence" value="piloso-hirsute" />
+      </structure>
+    </statement>
+    <statement id="390.txt-5">
+      <text>Heads 2–4+ in ± umbelliform to corymbiform arrays.</text>
+      <structure id="o7503" name="head">
+        <character char_type="range_value" name="count" from="2" to="4" upper_restricted="false" constraint="in arrays" constraintid="o7504" />
+      </structure>
+      <structure id="o7504" name="array">
+        <character char_type="range_value" name="architecture" from="umbelliform" to="corymbiform" />
+        <character name="architecture" value="umbelliform" />
+        <character name="architecture" value="corymbiform" />
+      </structure>
+    </statement>
+    <statement id="390.txt-6">
+      <text>Peduncles piloso-hirsute, stellate-pubescent, and stipitate-glandular.</text>
+      <structure id="o7505" name="peduncle">
+        <character name="pubescence" value="piloso-hirsute" />
+        <character name="pubescence" value="stellate-pubescent" />
+        <character name="architecture_or_exudation_or_pubescence" value="stipitate-glandular" />
+      </structure>
+    </statement>
+    <statement id="390.txt-7">
+      <text>Calyculi:</text>
+      <structure id="o7506" name="calyculus" />
+    </statement>
+    <statement id="390.txt-8">
+      <text>bractlets 13–15+.</text>
+      <structure id="o7507" name="bractlet">
+        <character char_type="range_value" name="count" from="13" to="15" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="390.txt-9">
+      <text>Involucres hemispheric, (9–)12–13 mm.</text>
+      <structure id="o7508" name="involucre">
+        <character name="shape" value="hemispheric" />
+        <character char_type="range_value" name="atypical_size" from="9" to="12" from_unit="mm" to_unit="mm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="12" from_unit="mm" to="13" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="390.txt-10">
+      <text>Phyllaries 30–40, apices acuminate, abaxial faces stellate-pubescent, sometimes, piloso-hirsute and stipitate-glandular as well.</text>
+      <structure id="o7509" name="phyllary">
+        <character char_type="range_value" name="count" from="30" to="40" />
+      </structure>
+      <structure id="o7510" name="apex">
+        <character name="shape" value="acuminate" />
+      </structure>
+      <structure id="o7511" name="face" constraint="abaxial">
+        <character name="pubescence" value="stellate-pubescent" />
+        <character name="pubescence" value="piloso-hirsute" />
+        <character name="architecture_or_exudation_or_pubescence" value="stipitate-glandular" />
+      </structure>
+    </statement>
+    <statement id="390.txt-11">
+      <text>Florets 90–120+;</text>
+      <structure id="o7512" name="floret">
+        <character char_type="range_value" name="count" from="90" to="120" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="390.txt-12">
+      <text>corollas yellow (often each with abaxial red stripe), 6–10+ mm.</text>
+      <structure id="o7513" name="corolla">
+        <character name="coloration" value="yellow" />
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="10" to_unit="mm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="390.txt-13">
+      <text>Cypselae columnar, 1–2.5 mm;</text>
+      <structure id="o7514" name="cypsela">
+        <character name="shape" value="columnar" />
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="2.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="390.txt-14">
+      <text>pappi of 25–40+, white bristles in 1 series, 4–5+ mm.</text>
+      <structure id="o7515" name="pappus">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="5" to_unit="mm" upper_restricted="false" />
+      </structure>
+      <structure id="o7516" name="bristle">
+        <character char_type="range_value" name="count" from="25" to="40" upper_restricted="false" />
+        <character name="coloration" value="white" />
+      </structure>
+      <relation id="r909" name="consist_of" from="o7515" to="o7516" negation="false" />
+      <structure id="o7517" name="series">
+        <character name="count" value="1" />
+      </structure>
+      <relation id="r910" name="in" from="o7516" to="o7517" negation="false" />
+    </statement>
+  </description>
+  <flowering_time>may</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <habitat>disturbed sites</habitat>
+  <habitat>roadsides</habitat>
+  <habitat>forest edges</habitat>
+  <elevation>introduced; 10–300(–600+) m;</elevation>
+  <ca_distribution>B.C.</ca_distribution>
+  <ca_distribution>N.B.</ca_distribution>
+  <ca_distribution>N.S.</ca_distribution>
+  <ca_distribution>P.E.I.</ca_distribution>
+  <ca_distribution>Que.</ca_distribution>
+  <us_distribution>Conn.</us_distribution>
+  <us_distribution>Ind.</us_distribution>
+  <us_distribution>Maine</us_distribution>
+  <us_distribution>Mass.</us_distribution>
+  <us_distribution>Mich.</us_distribution>
+  <us_distribution>N.H.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>Ohio</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <us_distribution>Vt.</us_distribution>
+  <us_distribution>Va.</us_distribution>
+  <global_distribution>Europe.</global_distribution>
+  <discussion>The type of Hieracium flagellare may have resulted from a cross between plants of H. caespitosum and H. pilosella (A. Cronquist 1980).</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

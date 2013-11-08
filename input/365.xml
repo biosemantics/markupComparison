@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>7.</number>
+  <species_name>Prenanthes bootii</species_name>
+  <authority>(de Candolle) D. Dietrich</authority>
+  <place_of_publication>Syn. Pl. 4: 1309. 1847</place_of_publication>
+  <common_name>Boot’s rattlesnakeroot</common_name>
+  <synonym_of_species_name>Nabalus bootii de Candolle in A. P. de Candolle and A. L. P. P. de Candolle, Prodr. 7: 241. 1838</synonym_of_species_name>
+  <description>
+    <statement id="365.txt-0">
+      <text>Plants 5–25 cm;</text>
+      <structure id="o6882" name="whole_organism">
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="25" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="365.txt-1">
+      <text>taproots short, thick, tuberous.</text>
+      <structure id="o6883" name="taproot">
+        <character name="size" value="short" />
+        <character name="thickness" value="thick" />
+        <character name="architecture" value="tuberous" />
+      </structure>
+    </statement>
+    <statement id="365.txt-2">
+      <text>Stems decumbent to erect, mottled purple, simple, glabrous proximally, tomentulose distally.</text>
+      <structure id="o6884" name="stem">
+        <character name="habit" value="decumbent" />
+        <character name="orientation" value="erect" />
+        <character name="coloration" value="purple" modifier="mottled" />
+        <character name="architecture" value="simple" />
+        <character name="pubescence" value="glabrous" modifier="proximally" />
+        <character name="pubescence" value="tomentulose" modifier="distally" />
+      </structure>
+    </statement>
+    <statement id="365.txt-3">
+      <text>Leaves :</text>
+      <structure id="o6885" name="leaf" />
+    </statement>
+    <statement id="365.txt-4">
+      <text>proximal present at flowering;</text>
+    </statement>
+    <statement id="365.txt-5">
+      <text>petiolate (petioles 2–8 cm, not winged);</text>
+      <structure id="o6886" name="leaf" constraint="proximal">
+        <character name="presence" value="present" modifier="at flowering" />
+        <character name="architecture" value="petiolate" />
+      </structure>
+    </statement>
+    <statement id="365.txt-6">
+      <text>blades ovate to deltate, 2–8 × 0.5–3 cm, bases hastate or sagittate, margins entire or weakly dentate, faces glabrous;</text>
+      <structure id="o6887" name="blade">
+        <character char_type="range_value" name="shape" from="ovate" to="deltate" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="deltate" />
+        <character char_type="range_value" name="length" from="2" from_unit="cm" to="8" to_unit="cm" />
+        <character char_type="range_value" name="width" from="0.5" from_unit="cm" to="3" to_unit="cm" />
+      </structure>
+      <structure id="o6888" name="base">
+        <character name="shape" value="hastate" />
+        <character name="shape" value="sagittate" />
+      </structure>
+      <structure id="o6889" name="margin">
+        <character name="shape" value="entire" />
+        <character name="shape" value="dentate" modifier="weakly" />
+      </structure>
+      <structure id="o6890" name="face">
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="365.txt-7">
+      <text>distal reduced, elliptic to lanceolate.</text>
+      <structure id="o6891" name="leaf" constraint="distal">
+        <character name="size" value="reduced" />
+        <character char_type="range_value" name="shape" from="elliptic" to="lanceolate" />
+        <character name="shape" value="elliptic" />
+        <character name="shape" value="lanceolate" />
+      </structure>
+    </statement>
+    <statement id="365.txt-8">
+      <text>Heads (10–20) in narrow, racemiform to thyrsiform arrays (nodding).</text>
+      <structure id="o6892" name="head">
+        <character char_type="range_value" name="atypical_count" from="10" to="20" constraint="in arrays" constraintid="o6893" />
+      </structure>
+      <structure id="o6893" name="array">
+        <character name="size" value="narrow" />
+        <character char_type="range_value" name="architecture" from="racemiform" to="thyrsiform" />
+        <character name="architecture" value="racemiform" />
+        <character name="architecture" value="thyrsiform" />
+      </structure>
+    </statement>
+    <statement id="365.txt-9">
+      <text>Calyculi of 4–5, dark green to blackish, subulate bractlets 2–5 mm, glabrous.</text>
+      <structure id="o6894" name="calyculus">
+        <character name="pubescence" value="glabrous" />
+      </structure>
+      <structure id="o6895" name="bractlet">
+        <character char_type="range_value" name="count" from="4" to="5" />
+        <character char_type="range_value" name="coloration" from="dark-green" to="blackish" />
+        <character name="coloration" value="green" modifier="dark" />
+        <character name="coloration" value="blackish" />
+        <character name="shape" value="subulate" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+      <relation id="r853" name="consist_of" from="o6894" to="o6895" negation="false" />
+    </statement>
+    <statement id="365.txt-10">
+      <text>Involucres cylindro-campanulate, 10–11 × 5–6 mm.</text>
+      <structure id="o6896" name="involucre">
+        <character name="shape" value="cylindro-campanulate" />
+        <character char_type="range_value" name="length" from="10" from_unit="mm" to="11" to_unit="mm" />
+        <character char_type="range_value" name="width" from="5" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="365.txt-11">
+      <text>Phyllaries 8–11, dark green to almost black, lanceolate to subulate, 8–12 mm, faces glabrous.</text>
+      <structure id="o6897" name="phyllary">
+        <character char_type="range_value" name="count" from="8" to="11" />
+        <character char_type="range_value" name="coloration" from="dark-green" to="almost black" />
+        <character name="coloration" value="green" modifier="dark" />
+        <character name="coloration" value="black" modifier="almost" />
+        <character char_type="range_value" name="shape" from="lanceolate" to="subulate" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="subulate" />
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="12" to_unit="mm" />
+      </structure>
+      <structure id="o6898" name="face">
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="365.txt-12">
+      <text>Florets 9–20;</text>
+      <structure id="o6899" name="floret">
+        <character char_type="range_value" name="count" from="9" to="20" />
+      </structure>
+    </statement>
+    <statement id="365.txt-13">
+      <text>corollas white, 7–13 mm.</text>
+      <structure id="o6900" name="corolla">
+        <character name="coloration" value="white" />
+        <character char_type="range_value" name="size" from="7" from_unit="mm" to="13" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="365.txt-14">
+      <text>Cypselae light tan to yellow, subcylindric, subterete to angled, 5–6 mm, indistinctly 7–10-ribbed;</text>
+      <structure id="o6901" name="cypsela">
+        <character char_type="range_value" name="coloration" from="light-tan" to="yellow" />
+        <character name="coloration" value="tan" modifier="light" />
+        <character name="coloration" value="yellow" />
+        <character char_type="range_value" name="shape" from="subcylindric , subterete" to="angled" />
+        <character name="shape" value="subcylindric" />
+        <character name="shape" value="subterete" />
+        <character name="shape" value="angled" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="6" to_unit="mm" />
+        <character name="architecture_or_shape" value="7-10-ribbed" modifier="indistinctly" />
+      </structure>
+    </statement>
+    <statement id="365.txt-15">
+      <text>pappi pale yellow, 6–8 mm.</text>
+      <structure id="o6902" name="pappus">
+        <character name="coloration" value="yellow" modifier="pale" />
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="365.txt-16">
+      <text>2 n = 32.</text>
+      <structure id="o6903" name="chromosome">
+        <character name="count" value="32" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>alpine areas above treeline, mountains</habitat>
+  <conservation>of conservation concern;</conservation>
+  <elevation>1500–2000 m;</elevation>
+  <us_distribution>Maine</us_distribution>
+  <us_distribution>N.H.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>Vt.</us_distribution>
+  <discussion>Prenanthes bootii is recognized by its relatively short, decumbent habit, deltate to hastate proximal leaves, entire or weakly dentate margins, glabrous and blackish green phyllaries, white corollas, and alpine habitat.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

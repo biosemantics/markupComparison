@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>7b.</number>
+  <variety_name>Agoseris apargioides (Lessing) Greene var. eastwoodiae</variety_name>
+  <authority>(Fedde) Munz</authority>
+  <place_of_publication>Aliso 4: 100. 1958</place_of_publication>
+  <common_name>Point Reyes agoseris</common_name>
+  <synonym_of_variety_name>Agoseris eastwoodiae Fedde, Just’s Bot. Jahresber. 31(1): 808. 1904 based on A. maritima Eastwood, Bull. Torrey Bot. Club 30: 501. 1903, not E. Sheldon 1903</synonym_of_variety_name>
+  <description>
+    <statement id="508.txt-0">
+      <text>Leaves mostly reclining to prostrate;</text>
+      <structure id="o10321" name="leaf">
+        <character name="habit" value="reclining" modifier="mostly" />
+        <character name="orientation" value="prostrate" />
+      </structure>
+    </statement>
+    <statement id="508.txt-1">
+      <text>blades oblanceolate to spatulate, 4–10(–13) cm × (10–)15–30 mm, margins mostly toothed to lobed, lobes oblanceolate to spatulate, faces often densely villous.</text>
+      <structure id="o10322" name="blade">
+        <character char_type="range_value" name="shape" from="oblanceolate" to="spatulate" />
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="spatulate" />
+        <character char_type="range_value" name="atypical_length" from="10" to="13" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="4" from_unit="cm" to="10" to_unit="cm" />
+        <character char_type="range_value" name="width" from="10" from_unit="mm" to="]15-30" to_unit="mm" />
+      </structure>
+      <structure id="o10323" name="margin">
+        <character char_type="range_value" name="shape" from="mostly toothed" to="lobed" />
+        <character name="shape" value="toothed" modifier="mostly" />
+        <character name="shape" value="lobed" modifier="mostly" />
+      </structure>
+      <structure id="o10324" name="lobe">
+        <character char_type="range_value" name="shape" from="oblanceolate" to="spatulate" />
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="spatulate" />
+      </structure>
+      <structure id="o10325" name="face">
+        <character name="pubescence" value="villous" modifier="often densely" />
+      </structure>
+    </statement>
+    <statement id="508.txt-2">
+      <text>Phyllaries ovate to obovate, margins mostly densely tomentose, densely villous to tomentose (hairs translucent, mostly yellow), ± stipitate-glandular.</text>
+      <structure id="o10326" name="phyllary">
+        <character char_type="range_value" name="shape" from="ovate" to="obovate" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="obovate" />
+      </structure>
+      <structure id="o10327" name="margin">
+        <character char_type="range_value" name="pubescence" from="mostly densely tomentose , densely villous" to="tomentose" />
+        <character name="pubescence" value="tomentose" modifier="mostly densely" />
+        <character name="pubescence" value="villous" modifier="densely" />
+        <character name="pubescence" value="tomentose" modifier="densely" />
+        <character name="architecture_or_exudation_or_pubescence" value="stipitate-glandular" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="508.txt-3">
+      <text>Corollas surpassing phyllaries at flowering, 8–16 mm;</text>
+      <structure id="o10328" name="corolla">
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="16" to_unit="mm" />
+      </structure>
+      <structure id="o10329" name="phyllary" constraint="at flowering" />
+      <relation id="r1183" name="surpassing" from="o10328" to="o10329" negation="false" />
+    </statement>
+    <statement id="508.txt-4">
+      <text>anthers 3.5–4.5 mm.</text>
+      <structure id="o10330" name="anther">
+        <character char_type="range_value" name="size" from="3.5" from_unit="mm" to="4.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="508.txt-5">
+      <text>Cypselae ± dimorphic, whitish or purplish, ribs ridged to subalate, straight, often diminishing proximally, glabrous or scabrous.</text>
+      <structure id="o10331" name="cypsela">
+        <character name="habit" value="dimorphic" modifier="±" />
+        <character name="coloration" value="whitish" />
+        <character name="coloration" value="purplish" />
+      </structure>
+      <structure id="o10332" name="rib">
+        <character name="shape" value="ridged" />
+        <character name="architecture" value="subalate" />
+        <character name="course" value="straight" />
+        <character name="manifestation" value="diminishing" modifier="often ; proximally" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="scabrous" />
+      </structure>
+    </statement>
+    <statement id="508.txt-6">
+      <text>2 n = 36.</text>
+      <structure id="o10333" name="chromosome">
+        <character name="count" value="36" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>may</flowering_time>
+  <habitat>coastal dunes and beach heads</habitat>
+  <elevation>0–50 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <discussion>Variety eastwoodiae occurs from Point Reyes north to about Point Arena.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

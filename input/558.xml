@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>5.</number>
+  <species_name>Stephanomeria fluminea</species_name>
+  <authority>Gottlieb</authority>
+  <place_of_publication>Madroño 46: 58, fig. 1. 1999</place_of_publication>
+  <common_name>Creekside wirelettuce</common_name>
+  <description>
+    <statement id="558.txt-0">
+      <text>Perennials, 15–40 cm (rhizomes slender).</text>
+      <structure id="o11468" name="whole_organism">
+        <character char_type="range_value" name="size" from="15" from_unit="cm" to="40" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="558.txt-1">
+      <text>Stems 1–8, branches ascending, ± tomentose.</text>
+      <structure id="o11469" name="stem">
+        <character char_type="range_value" name="count" from="1" to="8" />
+      </structure>
+      <structure id="o11470" name="branch">
+        <character name="orientation" value="ascending" />
+        <character name="pubescence" value="tomentose" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="558.txt-2">
+      <text>Leaves green (at least cauline) at flowering;</text>
+      <structure id="o11471" name="leaf">
+        <character name="coloration" value="green" modifier="at flowering" />
+      </structure>
+    </statement>
+    <statement id="558.txt-3">
+      <text>blades oblong-oblanceolate, 3–6 cm, margins entire or toothed (teeth remote, faces tomentose).</text>
+      <structure id="o11472" name="blade">
+        <character name="shape" value="oblong-oblanceolate" />
+        <character char_type="range_value" name="size" from="3" from_unit="cm" to="6" to_unit="cm" />
+      </structure>
+      <structure id="o11473" name="margin">
+        <character name="shape" value="entire" />
+        <character name="shape" value="toothed" />
+      </structure>
+    </statement>
+    <statement id="558.txt-4">
+      <text>Heads borne singly or clustered along stems and branches.</text>
+      <structure id="o11474" name="head">
+        <character name="arrangement" value="clustered" constraint="along stems, branches" constraintid="o11475  o11476" />
+      </structure>
+      <structure id="o11475" name="stem" />
+      <structure id="o11476" name="branch" />
+    </statement>
+    <statement id="558.txt-5">
+      <text>Peduncles 2–10 mm (glabrous).</text>
+      <structure id="o11477" name="peduncle">
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="558.txt-6">
+      <text>Calyculi of (4–6) appressed bractlets (unequal, lengths to 1 / 2 phyllaries).</text>
+      <structure id="o11478" name="calyculus" />
+      <structure id="o11479" name="bractlet">
+        <character char_type="range_value" name="atypical_count" from="4" to="6" />
+        <character name="orientation" value="appressed" />
+      </structure>
+      <relation id="r1320" name="consist_of" from="o11478" to="o11479" negation="false" />
+    </statement>
+    <statement id="558.txt-7">
+      <text>Involucres 8–10 mm (phyllaries 5, glabrous).</text>
+      <structure id="o11480" name="involucre">
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="558.txt-8">
+      <text>Florets 5(–6).</text>
+      <structure id="o11481" name="floret">
+        <character char_type="range_value" name="atypical_count" from="5" to="6" from_inclusive="false" />
+        <character name="count" value="5" />
+      </structure>
+    </statement>
+    <statement id="558.txt-9">
+      <text>Cypselae tan, 4–4.4 mm, faces smooth, grooved;</text>
+      <structure id="o11482" name="cypsela">
+        <character name="coloration" value="tan" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="4.4" to_unit="mm" />
+      </structure>
+      <structure id="o11483" name="face">
+        <character name="architecture_or_relief" value="smooth" />
+        <character name="architecture" value="grooved" />
+      </structure>
+    </statement>
+    <statement id="558.txt-10">
+      <text>pappi of 30–40, white bristles (persistent), wholly plumose.</text>
+      <structure id="o11484" name="pappus">
+        <character name="architecture" value="plumose" modifier="wholly" />
+      </structure>
+      <structure id="o11485" name="bristle">
+        <character char_type="range_value" name="count" from="30" to="40" />
+        <character name="coloration" value="white" />
+      </structure>
+      <relation id="r1321" name="consist_of" from="o11484" to="o11485" negation="false" />
+    </statement>
+    <statement id="558.txt-11">
+      <text>2 n = 16.</text>
+      <structure id="o11486" name="chromosome">
+        <character name="count" value="16" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>spring-flooded flat, gravel stream beds</habitat>
+  <conservation>of conservation concern;</conservation>
+  <elevation>2000–2300 m;</elevation>
+  <us_distribution>Wyo.</us_distribution>
+  <discussion>Stephanomeria fluminea is known only from northwestern Wyoming. Its habitat is unique among all species of the genus. The plants grow on impermanent, raised cobble benches in flat, gravel beds of creeks that flood and churn after spring snowmelt.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Hedypnois cretica</species_name>
+  <authority>(Linnaeus) Dumont de Courset</authority>
+  <place_of_publication>Bot. Cult. 2: 339. 1802</place_of_publication>
+  <synonym_of_species_name>Hyoseris cretica Linnaeus, Sp. Pl. 2: 810. 1753</synonym_of_species_name>
+  <description>
+    <statement id="443.txt-0">
+      <text>Leaf blades 5–150(–250) × 2–25(–35+) mm.</text>
+      <structure id="o8798" name="blade" constraint="leaf">
+        <character char_type="range_value" name="atypical_length" from="150" to="250" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="5" from_unit="mm" to="150" to_unit="mm" />
+        <character char_type="range_value" name="atypical_width" from="25" to="35" from_unit="mm" to_unit="mm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="width" from="2" from_unit="mm" to="25" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="443.txt-1">
+      <text>Peduncles 2–5(–15+) cm.</text>
+      <structure id="o8799" name="peduncle">
+        <character char_type="range_value" name="atypical_size" from="5" to="15" from_unit="cm" to_unit="cm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="2" from_unit="cm" to="5" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="443.txt-2">
+      <text>Phyllaries (incurved in fruit), abaxial faces glabrous or scabrous to hispid.</text>
+      <structure id="o8800" name="phyllary" />
+      <structure id="o8801" name="face" constraint="abaxial">
+        <character char_type="range_value" name="pubescence" from="scabrous" to="hispid" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="scabrous" />
+        <character name="pubescence" value="hispid" />
+      </structure>
+    </statement>
+    <statement id="443.txt-3">
+      <text>Cypselae 5–7.5 mm;</text>
+      <structure id="o8802" name="cypsela">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="7.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="443.txt-4">
+      <text>pappi 0.1–0.5(–1) or 2–5 mm.</text>
+      <structure id="o8803" name="pappus">
+        <character char_type="range_value" name="atypical_size" from="0.5" to="1" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="0.1" to="0.5" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="443.txt-5">
+      <text>2 n = 8, 11, 12, 13, 14, 15, 16, 18 (all Europe).</text>
+      <structure id="o8804" name="chromosome">
+        <character name="count" value="8" />
+        <character name="count" value="11" />
+        <character name="count" value="12" />
+        <character name="count" value="13" />
+        <character name="count" value="14" />
+        <character name="count" value="15" />
+        <character name="count" value="16" />
+        <character name="count" value="18" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <habitat>disturbed sites</habitat>
+  <elevation>0–100(–600+) m;</elevation>
+  <introduced>introduced;</introduced>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <global_distribution>Europe.</global_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

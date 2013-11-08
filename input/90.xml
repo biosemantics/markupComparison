@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>30.</number>
+  <species_name>Cirsium clavatum</species_name>
+  <authority>(M. E. Jones) Petrak</authority>
+  <place_of_publication>Beih. Bot. Centralbl. 35(2): 310. 1917</place_of_publication>
+  <synonym_of_species_name>Cnicus clavatus M. E. Jones, Proc. Calif. Acad. Sci., ser. 2, 5: 704. 1895</synonym_of_species_name>
+  <description>
+    <statement id="90.txt-0">
+      <text>Biennials or monocarpic or polycarpic perennials, 20–100 cm;</text>
+      <structure id="o18609" name="whole_organism">
+        <character char_type="range_value" name="size" from="20" from_unit="cm" to="100" to_unit="cm" />
+        <character name="life_style" value="biennial" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="90.txt-1">
+      <text>taproots sometimes with branched caudices.</text>
+      <structure id="o18611" name="taproot" />
+      <structure id="o18612" name="caudex" constraint="branched" />
+      <relation id="r1963" name="with" from="o18611" to="o18612" negation="false" modifier="sometimes" />
+    </statement>
+    <statement id="90.txt-2">
+      <text>Stems 1–several, erect or ascending, glabrous or thinly arachnoid-tomentose;</text>
+      <structure id="o18613" name="stem">
+        <character char_type="range_value" name="count" from="1" to="several" />
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="ascending" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="arachnoid-tomentose" modifier="thinly" />
+      </structure>
+    </statement>
+    <statement id="90.txt-4">
+      <text>Leaves:</text>
+      <structure id="o18614" name="leaf" />
+    </statement>
+    <statement id="90.txt-5">
+      <text>blades oblong to oblanceolate or elliptic, 5–40 × 3–11 cm, unlobed and merely spinulose-dentate or more commonly regularly deeply pinnatifid, lobes well separated to crowded, linear to triangular-ovate, ascending-spreading to retrorse, merely spinulose to coarsely dentate or proximally few-lobed, main spines 2–5(–7) mm, slender, abaxial faces green to gray, glabrous or thinly to densely arachnoid-tomentose, sometimes glabrate, often villous with septate trichomes along veins, adaxial green, glabrous;</text>
+      <structure id="o18615" name="blade">
+        <character char_type="range_value" name="shape" from="oblong" to="oblanceolate or elliptic" />
+        <character name="shape" value="oblong" />
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="elliptic" />
+        <character char_type="range_value" name="length" from="5" from_unit="cm" to="40" to_unit="cm" />
+        <character char_type="range_value" name="width" from="3" from_unit="cm" to="11" to_unit="cm" />
+        <character name="shape" value="unlobed" />
+        <character name="shape" value="spinulose-dentate" modifier="merely" />
+        <character name="shape" value="pinnatifid" modifier="commonly regularly deeply" />
+      </structure>
+      <structure id="o18616" name="lobe">
+        <character name="arrangement" value="separated" modifier="well" />
+        <character name="architecture" value="crowded" />
+        <character char_type="range_value" name="shape" from="linear" to="triangular-ovate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="triangular-ovate" />
+        <character char_type="range_value" name="orientation" from="ascending-spreading" to="retrorse" />
+        <character name="orientation" value="ascending-spreading" />
+        <character name="orientation" value="retrorse" />
+        <character char_type="range_value" name="shape" from="merely spinulose" to="coarsely dentate or proximally few-lobed" />
+        <character name="shape" value="spinulose" modifier="merely" />
+        <character name="shape" value="dentate" modifier="coarsely" />
+        <character name="shape" value="few-lobed" modifier="proximally" />
+      </structure>
+      <structure id="o18617" name="spine" constraint="main">
+        <character char_type="range_value" name="atypical_size" from="5" to="7" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="5" to_unit="mm" />
+        <character name="size" value="slender" />
+      </structure>
+      <structure id="o18618" name="face" constraint="abaxial">
+        <character char_type="range_value" name="coloration" from="green" to="gray" />
+        <character name="coloration" value="green" />
+        <character name="coloration" value="gray" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="arachnoid-tomentose" modifier="thinly densely" />
+        <character name="pubescence" value="glabrate" modifier="sometimes" />
+        <character name="pubescence" value="villous" modifier="often" constraint="with trichomes" constraintid="o18619" />
+        <character name="insertion_or_position" value="adaxial" />
+        <character name="coloration" value="green" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+      <structure id="o18619" name="trichome">
+        <character name="architecture" value="septate" />
+      </structure>
+      <structure id="o18620" name="vein" />
+      <relation id="r1964" name="along" from="o18619" to="o18620" negation="false" />
+    </statement>
+    <statement id="90.txt-6">
+      <text>basal usually present at flowering, sessile or petiolate;</text>
+      <structure id="o18621" name="leaf" constraint="basal">
+        <character name="presence" value="present" modifier="usually; at flowering" />
+        <character name="architecture" value="sessile" />
+        <character name="architecture" value="petiolate" />
+      </structure>
+    </statement>
+    <statement id="90.txt-7">
+      <text>principal cauline well distributed, proximal usually winged-petiolate, mid sessile, decurrent as spiny wings 1–3 cm;</text>
+      <structure id="o18622" name="leaf" constraint="principal cauline">
+        <character name="arrangement" value="distributed" modifier="well" />
+      </structure>
+      <structure id="o18623" name="leaf" constraint="proximal">
+        <character name="architecture" value="winged-petiolate" modifier="usually" />
+      </structure>
+      <structure id="o18624" name="leaf" constraint="mid">
+        <character name="architecture" value="sessile" />
+        <character name="shape" value="decurrent" constraint="as wings" constraintid="o18625" />
+      </structure>
+      <structure id="o18625" name="wing">
+        <character name="architecture_or_shape" value="spiny" />
+        <character char_type="range_value" name="size" from="1" from_unit="cm" to="3" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="90.txt-8">
+      <text>distal cauline ± reduced.</text>
+      <structure id="o18626" name="leaf" constraint="distal cauline">
+        <character name="size" value="reduced" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="90.txt-9">
+      <text>Heads few–many, borne singly or clustered in corymbiform, paniculiform, or racemiform arrays at tips of main stem and branches, sometimes also in distal axils not closely subtended by clustered leafy bracts.</text>
+      <structure id="o18627" name="head">
+        <character char_type="range_value" name="count" from="few" to="many" />
+        <character name="arrangement" value="clustered" constraint="in arrays" constraintid="o18628" />
+      </structure>
+      <structure id="o18628" name="array">
+        <character name="architecture" value="corymbiform" />
+        <character name="architecture" value="paniculiform" />
+        <character name="architecture" value="racemiform" />
+      </structure>
+      <structure id="o18629" name="tip" />
+      <relation id="r1965" name="at" from="o18628" to="o18629" negation="false" />
+      <structure id="o18630" name="stem" constraint="main" />
+      <structure id="o18631" name="branch" />
+      <relation id="r1966" name="part_of" from="o18629" to="o18630" negation="false" />
+      <relation id="r1967" name="part_of" from="o18629" to="o18631" negation="false" />
+      <structure id="o18632" name="axil" constraint="distal" />
+      <relation id="r1968" name="in" from="o18627" to="o18632" negation="false" />
+      <structure id="o18633" name="bract">
+        <character name="arrangement_or_habit" value="clustered" />
+        <character name="architecture" value="leafy" />
+      </structure>
+      <relation id="r1969" name="subtended by" from="o18632" to="o18633" negation="true" />
+    </statement>
+    <statement id="90.txt-10">
+      <text>Peduncles 0–30 cm.</text>
+      <structure id="o18634" name="peduncle">
+        <character char_type="range_value" name="size" from="0" from_unit="cm" to="30" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="90.txt-11">
+      <text>Involucres ovoid to campanulate, 1.5–3 × 1–3 cm, glabrous to thinly arachnoid-tomentose and/or villous-ciliate, with long septate trichomes connecting adjacent phyllaries.</text>
+      <structure id="o18635" name="involucre">
+        <character char_type="range_value" name="shape" from="ovoid" to="campanulate" />
+        <character name="shape" value="ovoid" />
+        <character name="shape" value="campanulate" />
+        <character char_type="range_value" name="length" from="1.5" from_unit="cm" to="3" to_unit="cm" />
+        <character char_type="range_value" name="width" from="1" from_unit="cm" to="3" to_unit="cm" />
+        <character char_type="range_value" name="pubescence" from="glabrous" to="thinly arachnoid-tomentose" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="arachnoid-tomentose" modifier="thinly" />
+        <character name="architecture_or_shape" value="villous-ciliate" />
+      </structure>
+      <structure id="o18636" name="trichome">
+        <character name="size" value="long" />
+        <character name="architecture" value="septate" />
+      </structure>
+      <relation id="r1970" name="with" from="o18635" to="o18636" negation="false" />
+      <structure id="o18637" name="phyllary" constraint="adjacent">
+        <character name="fusion" value="connecting" />
+      </structure>
+    </statement>
+    <statement id="90.txt-12">
+      <text>Phyllaries in 5–6 series, imbricate or subequal, outer green or with maroon to dark brown subapical patch or appendage, linear to ovate, abaxial faces with narrow glutinous ridge that may be concealed by trichomes;</text>
+      <structure id="o18638" name="phyllary">
+        <character name="aestivation_or_arrangement" value="imbricate" />
+        <character name="size" value="subequal" />
+        <character name="position" value="outer" />
+        <character name="coloration" value="green" />
+        <character name="coloration" value="with maroon to dark-brown subapical patch or appendage" />
+        <character char_type="range_value" name="shape" from="linear" to="ovate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="ovate" />
+      </structure>
+      <structure id="o18639" name="series">
+        <character char_type="range_value" name="count" from="5" to="6" />
+      </structure>
+      <relation id="r1971" name="in" from="o18638" to="o18639" negation="false" />
+      <structure id="o18640" name="patch" constraint="subapical">
+        <character name="coloration" value="maroon" />
+        <character name="coloration" value="brown" modifier="dark" />
+      </structure>
+      <structure id="o18641" name="appendage">
+        <character name="coloration" value="maroon" />
+        <character name="coloration" value="brown" modifier="dark" />
+      </structure>
+      <relation id="r1972" name="with" from="o18638" to="o18640" negation="false" />
+      <relation id="r1973" name="with" from="o18638" to="o18641" negation="false" />
+      <structure id="o18642" name="face" constraint="abaxial" />
+      <structure id="o18643" name="ridge">
+        <character name="size" value="narrow" />
+        <character name="coating_or_texture" value="glutinous" />
+        <character name="manifestation" value="concealed" constraint="by trichomes" constraintid="o18644" />
+      </structure>
+      <relation id="r1974" name="with" from="o18642" to="o18643" negation="false" />
+      <structure id="o18644" name="trichome" />
+    </statement>
+    <statement id="90.txt-13">
+      <text>outer and middle with bases appressed, apical appendages erect or ascending, ovate to linear-lanceolate or acicular, entire or spinulose to broadly expanded, scarious, and erose-dentate, apical appendages, spines erect or ascending, 1–5 mm, ± flattened;</text>
+      <structure id="o18645" name="phyllary" constraint="outer and middle" />
+      <structure id="o18646" name="base">
+        <character name="orientation" value="appressed" />
+      </structure>
+      <relation id="r1975" name="with" from="o18645" to="o18646" negation="false" />
+      <structure id="o18647" name="appendage" constraint="apical">
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="ascending" />
+        <character char_type="range_value" name="shape" from="ovate" to="linear-lanceolate or acicular , entire or spinulose" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="linear-lanceolate" />
+        <character name="shape" value="acicular" />
+        <character name="shape" value="entire" />
+        <character name="shape" value="spinulose" />
+        <character name="size" value="expanded" modifier="broadly" />
+        <character name="texture" value="scarious" />
+        <character name="shape" value="erose-dentate" />
+      </structure>
+      <structure id="o18648" name="appendage" constraint="apical" />
+      <structure id="o18649" name="spine">
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="ascending" />
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="5" to_unit="mm" />
+        <character name="shape" value="flattened" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="90.txt-14">
+      <text>apices of inner sometimes flexuous or reflexed, narrow, flat, entire or ± expanded, scarious and lacerate-dentate.</text>
+      <structure id="o18650" name="apex">
+        <character name="course" value="flexuous" modifier="sometimes" />
+        <character name="orientation" value="reflexed" />
+        <character name="size" value="narrow" />
+        <character name="shape" value="flat" />
+        <character name="shape" value="entire" />
+        <character name="size" value="expanded" modifier="±" />
+        <character name="texture" value="scarious" />
+        <character name="shape" value="lacerate-dentate" />
+      </structure>
+      <structure id="o18651" name="phyllary" constraint="inner" />
+      <relation id="r1976" name="part_of" from="o18650" to="o18651" negation="false" />
+    </statement>
+    <statement id="90.txt-15">
+      <text>Corollas creamy white to pale pinkish, 16–20 mm, tubes 6.5–9 mm, throats 4–7.5 mm, lobes 4–6 mm;</text>
+      <structure id="o18652" name="corolla">
+        <character char_type="range_value" name="coloration" from="creamy-white" to="pale-pinkish" />
+        <character name="coloration" value="white" modifier="creamy" />
+        <character name="coloration" value="pinkish" modifier="pale" />
+        <character char_type="range_value" name="size" from="16" from_unit="mm" to="20" to_unit="mm" />
+      </structure>
+      <structure id="o18653" name="tube">
+        <character char_type="range_value" name="size" from="6.5" from_unit="mm" to="9" to_unit="mm" />
+      </structure>
+      <structure id="o18654" name="throat">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="7.5" to_unit="mm" />
+      </structure>
+      <structure id="o18655" name="lobe">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="90.txt-16">
+      <text>style tips 3.5–5 mm.</text>
+      <structure id="o18656" name="tip" constraint="style">
+        <character char_type="range_value" name="size" from="3.5" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="90.txt-17">
+      <text>Cypselae tan to dark brown, 5–6 mm, apical collars not or scarcely differentiated;</text>
+      <structure id="o18657" name="cypsela">
+        <character char_type="range_value" name="coloration" from="tan" to="dark-brown" />
+        <character name="coloration" value="tan" />
+        <character name="coloration" value="brown" modifier="dark" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+      <structure id="o18658" name="collar" constraint="apical">
+        <character name="differentiation" value="differentiated" modifier="not scarcely" />
+      </structure>
+    </statement>
+    <statement id="90.txt-18">
+      <text>pappi 14–16 mm.</text>
+      <structure id="o18659" name="pappus">
+        <character char_type="range_value" name="size" from="14" from_unit="mm" to="16" to_unit="mm" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Varieties 3 (3 in the flora):</number_of_infrataxa>
+  <general_distribution>central Rocky Mountains.</general_distribution>
+  <discussion>Cirsium clavatum is a polymorphic and variable species.</discussion>
+  <couplet>1.Involucres densely villous or tomentose with long, septate trichomes connecting adjacent phyllaries 30c. Cirsium clavatum var. osterhoutii</couplet>
+  <couplet>1.Involucres glabrous or thinly arachnoid-tomentose with fine, non-septate trichomes.</couplet>
+  <couplet>2.Some or all of the phyllaries usually with dilated, scarious, erose to fringed appendages; mostly Colorado and Wyoming30b. Cirsium clavatum var. americanum</couplet>
+  <couplet>2.Phyllaries usually entire; w Colorado and Utah 30a. Cirsium clavatum var. clavatum</couplet>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

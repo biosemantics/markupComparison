@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>10.</number>
+  <species_name>Centaurea phrygia</species_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 910. 1753</place_of_publication>
+  <common_name>Wig knapweed</common_name>
+  <synonym_of_species_name>Centaurea austriaca Willdenow</synonym_of_species_name>
+  <description>
+    <statement id="215.txt-0">
+      <text>Perennials , 15–80 cm.</text>
+      <structure id="o3398" name="whole_organism">
+        <character char_type="range_value" name="size" from="15" from_unit="cm" to="80" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="215.txt-1">
+      <text>Stems few–many, erect, simple or branched.</text>
+      <structure id="o3399" name="stem">
+        <character char_type="range_value" name="count" from="few" to="many" />
+        <character name="orientation" value="erect" />
+        <character name="architecture" value="simple" />
+        <character name="architecture" value="branched" />
+      </structure>
+    </statement>
+    <statement id="215.txt-2">
+      <text>Leaves ± arachnoid-tomentose;</text>
+      <structure id="o3400" name="leaf">
+        <character name="pubescence" value="arachnoid-tomentose" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="215.txt-3">
+      <text>basal and proximal cauline winged-petiolate, blades lanceolate to ovate, 3–15 cm, margins entire or dentate;</text>
+      <structure id="o3401" name="leaf" constraint="basal and proximal cauline">
+        <character name="architecture" value="winged-petiolate" />
+      </structure>
+      <structure id="o3402" name="blade">
+        <character char_type="range_value" name="shape" from="lanceolate" to="ovate" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="ovate" />
+        <character char_type="range_value" name="size" from="3" from_unit="cm" to="15" to_unit="cm" />
+      </structure>
+      <structure id="o3403" name="margin">
+        <character name="shape" value="entire" />
+        <character name="shape" value="dentate" />
+      </structure>
+    </statement>
+    <statement id="215.txt-4">
+      <text>distal cauline sessile, sometimes clasping, not decurrent, well developed.</text>
+      <structure id="o3404" name="leaf" constraint="distal cauline">
+        <character name="architecture" value="sessile" />
+        <character name="architecture" value="clasping" modifier="sometimes" />
+        <character name="shape" value="decurrent" modifier="not" />
+        <character name="development" value="developed" modifier="well" />
+      </structure>
+    </statement>
+    <statement id="215.txt-5">
+      <text>Heads usually radiant, usually borne singly.</text>
+      <structure id="o3405" name="head">
+        <character name="architecture_or_arrangement" value="radiant" modifier="usually" />
+        <character name="arrangement" value="singly" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="215.txt-6">
+      <text>Involucres ovoid to ± spheric, 15–20 mm.</text>
+      <structure id="o3406" name="involucre">
+        <character name="shape" value="ovoid" />
+        <character name="shape" value="spheric" modifier="±" />
+        <character char_type="range_value" name="size" from="15" from_unit="mm" to="20" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="215.txt-7">
+      <text>Principal phyllaries:</text>
+      <structure id="o3407" name="phyllary" constraint="principal" />
+    </statement>
+    <statement id="215.txt-8">
+      <text>bodies lanceolate to ovate, loosely tomentose or glabrous, appendages brown or blackish, lanceolate to ovate, ± covering bodies of adjacent phyllaries, tips often recurved, elongate, featherlike, pectinately dissected into long, filiform lobes.</text>
+      <structure id="o3408" name="body">
+        <character char_type="range_value" name="shape" from="lanceolate" to="ovate" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="ovate" />
+        <character name="pubescence" value="tomentose" modifier="loosely" />
+        <character name="pubescence" value="glabrous" modifier="loosely" />
+      </structure>
+      <structure id="o3409" name="appendage">
+        <character name="coloration" value="brown" />
+        <character name="coloration" value="blackish" />
+        <character char_type="range_value" name="shape" from="lanceolate" to="ovate" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="ovate" />
+      </structure>
+      <structure id="o3410" name="body" />
+      <structure id="o3411" name="phyllary" constraint="adjacent" />
+      <relation id="r481" name="part_of" from="o3410" to="o3411" negation="false" />
+      <structure id="o3412" name="tip">
+        <character name="orientation" value="recurved" modifier="often" />
+        <character name="shape" value="elongate" />
+        <character name="shape" value="featherlike" />
+        <character name="shape" value="dissected" modifier="pectinately" constraint="into lobes" constraintid="o3413" />
+      </structure>
+      <structure id="o3413" name="lobe">
+        <character name="size" value="long" />
+        <character name="shape" value="filiform" />
+      </structure>
+    </statement>
+    <statement id="215.txt-9">
+      <text>Inner phyllaries :</text>
+      <structure id="o3414" name="phyllary" constraint="inner" />
+    </statement>
+    <statement id="215.txt-10">
+      <text>tips erect, ovate or orbiculate, irregularly dentate or lobed.</text>
+      <structure id="o3415" name="tip">
+        <character name="orientation" value="erect" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="orbiculate" />
+        <character name="shape" value="dentate" modifier="irregularly" />
+        <character name="shape" value="lobed" modifier="irregularly" />
+      </structure>
+    </statement>
+    <statement id="215.txt-11">
+      <text>Florets many , the peripheral sterile;</text>
+      <structure id="o3416" name="floret">
+        <character name="count" value="many" />
+        <character name="insertion_or_position" value="peripheral" />
+        <character name="reproduction" value="sterile" />
+      </structure>
+    </statement>
+    <statement id="215.txt-12">
+      <text>corollas pink or purple, those of sterile much expanded and exceeding corollas of fertile florets, those of fertile 20–25 mm.</text>
+      <structure id="o3417" name="corolla">
+        <character name="coloration" value="pink" />
+        <character name="coloration" value="purple" />
+      </structure>
+      <structure id="o3418" name="corolla" />
+      <structure id="o3419" name="corolla">
+        <character name="reproduction" value="sterile" />
+        <character name="size" value="expanded" modifier="much" />
+      </structure>
+      <relation id="r482" name="part_of" from="o3418" to="o3419" negation="false" />
+      <structure id="o3420" name="floret" constraint="fertile" />
+      <relation id="r483" name="part_of" from="o3418" to="o3420" negation="false" />
+      <structure id="o3421" name="corolla" constraint="of fertile 20-25 mm" />
+    </statement>
+    <statement id="215.txt-13">
+      <text>Cypselae tan, 3–4 mm, finely hairy;</text>
+      <structure id="o3422" name="cypsela">
+        <character name="coloration" value="tan" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="4" to_unit="mm" />
+        <character name="pubescence" value="hairy" modifier="finely" />
+      </structure>
+    </statement>
+    <statement id="215.txt-14">
+      <text>pappi 0 or of many unequal bristles 0.5–2 mm.</text>
+      <structure id="o3423" name="pappus">
+        <character name="count" value="0" />
+        <character name="count" value="of many unequal bristles" />
+      </structure>
+      <structure id="o3424" name="bristle">
+        <character name="count" value="many" />
+        <character name="size" value="unequal" />
+        <character char_type="range_value" name="size" from="0.5" from_unit="mm" to="2" to_unit="mm" />
+      </structure>
+      <relation id="r484" name="consist_of" from="o3423" to="o3424" negation="false" />
+    </statement>
+    <statement id="215.txt-15">
+      <text>2n = 22 (Russia), 44 (Slovenia).</text>
+      <structure id="o3425" name="chromosome">
+        <character name="count" value="22" />
+        <character name="count" value="44" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>disturbed sites</habitat>
+  <elevation>100–300 m;</elevation>
+  <introduced>introduced;</introduced>
+  <us_distribution>Fla.</us_distribution>
+  <us_distribution>Ill.</us_distribution>
+  <us_distribution>Mo.</us_distribution>
+  <us_distribution>N.J.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>Ohio</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <us_distribution>Vt.</us_distribution>
+  <us_distribution>Va.</us_distribution>
+  <us_distribution>W.Va.</us_distribution>
+  <global_distribution>Europe.</global_distribution>
+  <discussion>According to R. J. Moore (1972), reports of Centaurea nervosa Willdenow [C. uniflora Turra subsp. nervosa (Willdenow) Bonnier &amp; Layens] from New York were based on a specimen referable to C. phrygia subsp. phrygia. Moore called these plants C. austriaca Willdenow, which J. Dostál (1976) treated as a synonym of C. phrygia subsp. phrygia.</discussion>
+  <discussion>Specimens of Centaurea phrygia are sometimes misidentified as C. nigrescens (or one or another of its synonyms) or as C. nigra. The elongate, often recurved, setose-ciliate tips of the phyllary appendages are a readily recognizable characteristic of this species. Considerable morphologic variation occurs in vegetative features and head dimensions in American material of the species, and it is possible that one or more of the specimens we have identified as C. phrygia represent an extreme variant of one of the members of the C. jacea complex. J. Dostál (1976) recognized 10 subspecies of C. phrygia in Europe. We have chosen not to assign the sparse North American material to subspecies.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

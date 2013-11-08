@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>3.</number>
+  <species_name>Artemisia campestris</species_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 846. 1753</place_of_publication>
+  <common_name>Field sagewort, sand wormwood</common_name>
+  <description>
+    <statement id="852.txt-0">
+      <text>Biennials or perennials, (10–)30–80(–150) cm, faintly aromatic;</text>
+    </statement>
+    <statement id="852.txt-1">
+      <text>taprooted, caudices branched.</text>
+      <structure id="o17886" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="10" to="30" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_size" from="80" to="150" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="30" from_unit="cm" to="80" to_unit="cm" />
+        <character name="odor" value="aromatic" modifier="faintly" />
+        <character name="life_style" value="biennial" />
+        <character name="life_style" value="perennial" />
+        <character name="architecture" value="taprooted" />
+        <character name="life_style" value="perennial" />
+      </structure>
+      <structure id="o17888" name="caudex">
+        <character name="architecture_or_shape" value="branched" />
+      </structure>
+    </statement>
+    <statement id="852.txt-2">
+      <text>Stems usually 1–5, turning reddish brown, (often ribbed) tomentose or glabrous.</text>
+      <structure id="o17889" name="stem">
+        <character char_type="range_value" name="count" from="1" to="5" modifier="usually" />
+        <character name="coloration" value="brown" modifier="reddish" />
+        <character name="pubescence" value="tomentose" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="852.txt-3">
+      <text>Leaves persistent or deciduous, mostly basal;</text>
+      <structure id="o17890" name="leaf">
+        <character name="duration" value="persistent" />
+        <character name="duration" value="deciduous" />
+        <character name="insertion_or_position" value="basal" modifier="mostly" />
+      </structure>
+    </statement>
+    <statement id="852.txt-4">
+      <text>basal blades 4–12 cm, cauline gradually reduced, 2–4 × 0.5–1.5 cm, 2–3-pinnately lobed, lobes linear to narrowly oblong, apices acute, faces densely to sparsely white-pubescent.</text>
+      <structure id="o17891" name="blade" constraint="basal">
+        <character char_type="range_value" name="size" from="4" from_unit="cm" to="12" to_unit="cm" />
+        <character name="insertion_or_position" value="cauline" modifier="gradually" />
+        <character name="size" value="reduced" />
+        <character char_type="range_value" name="length" from="2" from_unit="cm" to="4" to_unit="cm" />
+        <character char_type="range_value" name="width" from="0.5" from_unit="cm" to="1.5" to_unit="cm" />
+        <character name="shape" value="lobed" modifier="2-3-pinnately" />
+      </structure>
+      <structure id="o17892" name="lobe">
+        <character char_type="range_value" name="shape" from="linear" to="narrowly oblong" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="oblong" modifier="narrowly" />
+      </structure>
+      <structure id="o17893" name="apex">
+        <character name="shape" value="acute" />
+      </structure>
+      <structure id="o17894" name="face">
+        <character name="pubescence" value="white-pubescent" modifier="densely sparsely" />
+      </structure>
+    </statement>
+    <statement id="852.txt-5">
+      <text>Heads (pedunculate) in (mostly leafless) paniculiform arrays.</text>
+      <structure id="o17895" name="head" />
+      <structure id="o17896" name="array">
+        <character name="architecture" value="paniculiform" />
+      </structure>
+      <relation id="r1890" name="in" from="o17895" to="o17896" negation="false" />
+    </statement>
+    <statement id="852.txt-6">
+      <text>Involucres broadly turbinate, 2.5–3(–5) × 2–3.5(–7) mm.</text>
+      <structure id="o17897" name="involucre">
+        <character name="shape" value="turbinate" modifier="broadly" />
+        <character char_type="range_value" name="atypical_length" from="3" to="5" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="2.5" from_unit="mm" to="3" to_unit="mm" />
+        <character char_type="range_value" name="atypical_width" from="3.5" to="7" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="width" from="2" from_unit="mm" to="3.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="852.txt-7">
+      <text>Phyllaries (margins scarious) glabrous or villous-tomentose.</text>
+      <structure id="o17898" name="phyllary">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="villous-tomentose" />
+      </structure>
+    </statement>
+    <statement id="852.txt-8">
+      <text>Florets:</text>
+      <structure id="o17899" name="floret" />
+    </statement>
+    <statement id="852.txt-9">
+      <text>pistillate 5–20;</text>
+      <structure id="o17900" name="floret" constraint="pistillate">
+        <character char_type="range_value" name="count" from="5" to="20" />
+      </structure>
+    </statement>
+    <statement id="852.txt-10">
+      <text>functionally staminate 12–30;</text>
+      <structure id="o17901" name="floret" constraint="functionally staminate">
+        <character char_type="range_value" name="count" from="12" to="30" />
+      </structure>
+    </statement>
+    <statement id="852.txt-11">
+      <text>corollas pale yellow, sparsely hairy or glabrous.</text>
+      <structure id="o17902" name="corolla">
+        <character name="coloration" value="yellow" modifier="pale" />
+        <character name="pubescence" value="hairy" modifier="sparsely" />
+        <character name="pubescence" value="glabrous" modifier="sparsely" />
+      </structure>
+    </statement>
+    <statement id="852.txt-12">
+      <text>Cypselae oblong-lanceoloid, somewhat compressed, 0.8–1 mm, faintly nerved, glabrous.</text>
+      <structure id="o17903" name="cypsela">
+        <character name="shape" value="oblong-lanceoloid" />
+        <character name="shape" value="compressed" modifier="somewhat" />
+        <character char_type="range_value" name="size" from="0.8" from_unit="mm" to="1" to_unit="mm" />
+        <character name="architecture" value="nerved" modifier="faintly" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Subspecies ca. 7 (3 in the flora):</number_of_infrataxa>
+  <general_distribution>North America</general_distribution>
+  <general_distribution>especially mountains and high latitudes</general_distribution>
+  <general_distribution>Eurasia.</general_distribution>
+  <discussion>Artemisia campestris varies; each morphologic form grades into another. The present circumscription is conservative in that only three subspecies are recognized; the subspecies usually can be separated geographically as well as morphologically. Populations in western North America consist primarily of subsp. pacifica; east of the continental divide, plants are assigned to subsp. canadensis in northern latitudes and to subsp. caudata in southern latitudes.</discussion>
+  <couplet>1.Perennials; stems 2–5; basal rosettes persistent. 3c. Artemisia campestris subsp. pacifica</couplet>
+  <couplet>1.Biennials; stems 1(–3); basal rosettes not persistent (withering before flowering).</couplet>
+  <couplet>2.Involucres globose, 3–4 × 3.5–5 mm; n of 50°, primarily Canada3a. Artemisia campestris subsp. canadensis</couplet>
+  <couplet>2.Involucres turbinate, 2–3 × 2–3 mm; s of 50°, e from Rocky Mountains to coastal North America3b. Artemisia campestris subsp. caudata</couplet>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

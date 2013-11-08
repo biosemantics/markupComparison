@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>2.</number>
+  <species_name>Gnaphalium exilifolium</species_name>
+  <authority>A. Nelson</authority>
+  <place_of_publication>Bull. Torrey Bot. Club 29: 406. 1902</place_of_publication>
+  <common_name>Slender cudweed</common_name>
+  <synonym_of_species_name>Gnaphalium angustifolium A. Nelson, Bull. Torrey Bot. Club 26: 357. 1899, not Lamarck 1788; G. grayi A. Nelson &amp; J. F. Macbride; G. strictum A. Gray 1857, not Lamarck 1788</synonym_of_species_name>
+  <description>
+    <statement id="709.txt-0">
+      <text>Annuals, 3–15(–25) cm;</text>
+    </statement>
+    <statement id="709.txt-1">
+      <text>taprooted or fibrous-rooted.</text>
+      <structure id="o14845" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="15" to="25" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="3" from_unit="cm" to="15" to_unit="cm" />
+        <character name="life_style" value="annual" />
+        <character name="architecture" value="taprooted" />
+        <character name="architecture" value="fibrous-rooted" />
+      </structure>
+    </statement>
+    <statement id="709.txt-2">
+      <text>Stems commonly branched from bases, erect to ascending, tomentose.</text>
+      <structure id="o14846" name="stem">
+        <character name="architecture_or_shape" value="branched" modifier="commonly" constraint="from bases" constraintid="o14847" />
+        <character char_type="range_value" name="orientation" from="erect" to="ascending" />
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="ascending" />
+        <character name="pubescence" value="tomentose" />
+      </structure>
+      <structure id="o14847" name="base" />
+    </statement>
+    <statement id="709.txt-3">
+      <text>Leaf blades linear, 0.4–5 cm × 0.5–3 mm.</text>
+      <structure id="o14848" name="blade" constraint="leaf">
+        <character name="arrangement_or_shape" value="linear" />
+        <character char_type="range_value" name="length" from="0.4" from_unit="cm" to="5" to_unit="cm" />
+        <character char_type="range_value" name="width" from="0.5" from_unit="mm" to="3" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="709.txt-4">
+      <text>Bracts subtending heads linear, 10–25 × 0.5–1 mm, surpassing glomerules.</text>
+      <structure id="o14849" name="bract">
+        <character char_type="range_value" name="length" from="10" from_unit="mm" to="25" to_unit="mm" />
+        <character char_type="range_value" name="width" from="0.5" from_unit="mm" to="1" to_unit="mm" />
+      </structure>
+      <structure id="o14850" name="head">
+        <character name="arrangement_or_shape" value="linear" />
+      </structure>
+      <relation id="r1601" name="subtending" from="o14849" to="o14850" negation="false" />
+      <structure id="o14851" name="glomerule">
+        <character name="comparison" value="surpassing" />
+      </structure>
+    </statement>
+    <statement id="709.txt-5">
+      <text>Heads in spiciform glomerules (along distal 1 / 3 – 2 / 3 of main stems, sometimes appearing loosely spiciform).</text>
+      <structure id="o14852" name="head" />
+      <structure id="o14853" name="glomerule">
+        <character name="architecture" value="spiciform" />
+      </structure>
+      <relation id="r1602" name="in" from="o14852" to="o14853" negation="false" />
+    </statement>
+    <statement id="709.txt-6">
+      <text>Involucres 2.5–3.5 mm.</text>
+      <structure id="o14854" name="involucre">
+        <character char_type="range_value" name="size" from="2.5" from_unit="mm" to="3.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="709.txt-7">
+      <text>Phyllaries brownish, bases woolly, inner narrowly triangular with whitish, acute apices.</text>
+      <structure id="o14855" name="phyllary">
+        <character name="coloration" value="brownish" />
+      </structure>
+      <structure id="o14856" name="base">
+        <character name="pubescence" value="woolly" />
+        <character name="position" value="inner" modifier="narrowly" />
+        <character name="shape" value="triangular" constraint="with apices" constraintid="o14857" />
+      </structure>
+      <structure id="o14857" name="apex">
+        <character name="coloration" value="whitish" />
+        <character name="shape" value="acute" />
+      </structure>
+    </statement>
+    <statement id="709.txt-8">
+      <text>2 n = 14.</text>
+      <structure id="o14858" name="chromosome">
+        <character name="count" value="14" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <habitat>lake and pond margins</habitat>
+  <habitat>streamsides</habitat>
+  <habitat>seeps</habitat>
+  <habitat>moist meadows</habitat>
+  <elevation>1400–3000 m;</elevation>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>S.Dak.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <global_distribution>Mexico (Chihuahua).</global_distribution>
+  <discussion>Gnaphalium exilifolium, a New World native, differs from the Old World G. uliginosum chiefly in its linear, slightly longer cauline leaves and bracts and in its spiciform arrangement of heads. Pistillate corollas of G. exilifolium are sometimes red-tipped. Cypselae of both taxa are variably smooth to papillate; local populations apparently are consistent in this feature; the variation is otherwise geographically inconsistent.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

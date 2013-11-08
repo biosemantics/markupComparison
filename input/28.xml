@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1a.</number>
+  <subspecies_name>Carlina vulgaris Linnaeus subsp. vulgaris</subspecies_name>
+  <synonym_of_subspecies_name>Carlina vulgaris Linnaeus subsp. longifolia (C. Reichenbach) Nyman</synonym_of_subspecies_name>
+  <description>
+    <statement id="28.txt-0">
+      <text>Plants 10–80 cm.</text>
+      <structure id="o4915" name="whole_organism">
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="80" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="28.txt-1">
+      <text>Stems simple to distally much branched, arachnoid-tomentose.</text>
+      <structure id="o4916" name="stem">
+        <character char_type="range_value" name="architecture" from="simple" to="distally much branched" />
+        <character name="architecture" value="simple" />
+        <character name="architecture" value="branched" modifier="distally much" />
+        <character name="pubescence" value="arachnoid-tomentose" />
+      </structure>
+    </statement>
+    <statement id="28.txt-2">
+      <text>Leaves:</text>
+      <structure id="o4917" name="leaf" />
+    </statement>
+    <statement id="28.txt-3">
+      <text>basal tapering to winged petioles, blades oblong-oblanceolate, 7–15 cm, margins with spine-tipped teeth and lobes, abaxially ± arachnoid-tomentose, adaxially ± glabrate;</text>
+      <structure id="o4918" name="leaf" constraint="basal">
+        <character name="shape" value="tapering" />
+      </structure>
+      <structure id="o4919" name="petiole">
+        <character name="architecture" value="winged" />
+      </structure>
+      <structure id="o4920" name="blade">
+        <character name="shape" value="oblong-oblanceolate" />
+        <character char_type="range_value" name="size" from="7" from_unit="cm" to="15" to_unit="cm" />
+      </structure>
+      <structure id="o4921" name="margin">
+        <character name="pubescence" value="arachnoid-tomentose" modifier="abaxially ±" />
+        <character name="pubescence" value="glabrate" modifier="adaxially ±" />
+      </structure>
+      <structure id="o4922" name="tooth" />
+      <structure id="o4923" name="lobe" />
+      <relation id="r665" name="with" from="o4921" to="o4922" negation="false" />
+      <relation id="r666" name="with" from="o4921" to="o4923" negation="false" />
+    </statement>
+    <statement id="28.txt-4">
+      <text>cauline leaves sessile, ± clasping, progressively smaller, margins with spine-tipped lobes, faces ± glabrate.</text>
+      <structure id="o4924" name="leaf" constraint="cauline">
+        <character name="architecture" value="sessile" />
+        <character name="architecture" value="clasping" modifier="±" />
+        <character name="size" value="smaller" modifier="progressively" />
+      </structure>
+      <structure id="o4925" name="margin" />
+      <structure id="o4926" name="lobe" />
+      <relation id="r667" name="with" from="o4925" to="o4926" negation="false" />
+      <structure id="o4927" name="face">
+        <character name="pubescence" value="glabrate" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="28.txt-5">
+      <text>Heads usually 2–5 in corymbiform clusters.</text>
+      <structure id="o4928" name="head">
+        <character char_type="range_value" name="count" from="2" to="5" modifier="usually" constraint="in clusters" constraintid="o4929" />
+      </structure>
+      <structure id="o4929" name="cluster">
+        <character name="architecture" value="corymbiform" />
+      </structure>
+    </statement>
+    <statement id="28.txt-6">
+      <text>Involucres 15–30 mm diam.</text>
+      <structure id="o4930" name="involucre">
+        <character char_type="range_value" name="size" from="15" from_unit="mm" to="30" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="28.txt-7">
+      <text>Phyllaries:</text>
+      <structure id="o4931" name="phyllary" />
+    </statement>
+    <statement id="28.txt-8">
+      <text>outer leaflike, middle green or purplish, spiny-fringed, arachnoid, inner with appressed bases, tips yellow or straw-colored, acuminate, spreading, slender, these resembling laminae of ray corollas.</text>
+      <structure id="o4932" name="floret" constraint="outer">
+        <character name="architecture" value="leaflike" />
+      </structure>
+      <structure id="o4933" name="floret" constraint="middle">
+        <character name="coloration" value="green" />
+        <character name="coloration" value="purplish" />
+        <character name="shape" value="spiny-fringed" />
+        <character name="pubescence" value="arachnoid" />
+      </structure>
+      <structure id="o4934" name="floret" constraint="inner" />
+      <structure id="o4935" name="base">
+        <character name="orientation" value="appressed" />
+      </structure>
+      <relation id="r668" name="with" from="o4934" to="o4935" negation="false" />
+      <structure id="o4936" name="tip">
+        <character name="coloration" value="yellow" />
+        <character name="coloration" value="colored" modifier="straw" />
+        <character name="shape" value="acuminate" />
+        <character name="orientation" value="spreading" />
+        <character name="size" value="slender" />
+      </structure>
+      <structure id="o4937" name="lamina" />
+      <relation id="r669" name="resembling" from="o4936" to="o4937" negation="false" />
+      <structure id="o4938" name="corolla" constraint="ray" />
+      <relation id="r670" name="part_of" from="o4937" to="o4938" negation="false" />
+    </statement>
+    <statement id="28.txt-9">
+      <text>Corollas 7–9 mm, yellow to maroon-purple.</text>
+      <structure id="o4939" name="corolla">
+        <character char_type="range_value" name="size" from="7" from_unit="mm" to="9" to_unit="mm" />
+        <character char_type="range_value" name="coloration" from="yellow" to="maroon-purple" />
+        <character name="coloration" value="yellow" />
+        <character name="coloration" value="purple" modifier="maroon" />
+      </structure>
+    </statement>
+    <statement id="28.txt-10">
+      <text>Cypselae brownish, 2–4 mm, sericeous;</text>
+      <structure id="o4940" name="cypsela">
+        <character name="coloration" value="brownish" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="4" to_unit="mm" />
+        <character name="pubescence" value="sericeous" />
+      </structure>
+    </statement>
+    <statement id="28.txt-11">
+      <text>pappi of ca. 30 bristles, basally connate in 10 bundles, 8–10 mm.</text>
+      <structure id="o4941" name="pappus">
+        <character name="fusion" value="connate" modifier="basally" constraint="in bundles" constraintid="o4943" />
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+      <structure id="o4942" name="bristle">
+        <character name="count" value="30" />
+      </structure>
+      <relation id="r671" name="consist_of" from="o4941" to="o4942" negation="false" />
+      <structure id="o4943" name="bundle">
+        <character name="count" value="10" />
+      </structure>
+    </statement>
+    <statement id="28.txt-12">
+      <text>2 n = 20 (Denmark).</text>
+      <structure id="o4944" name="chromosome">
+        <character name="count" value="20" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>roadsides</habitat>
+  <habitat>fields</habitat>
+  <habitat>waste places</habitat>
+  <elevation>0–500 m;</elevation>
+  <introduced>introduced;</introduced>
+  <us_distribution>N.J.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <global_distribution>Eurasia.</global_distribution>
+  <discussion>Carlina vulgaris is widely distributed across Europe and parts of Asia, often as a weed. Although it has a limited distribution at present in North America, it has the potential to become a serious weed problem as have several other Eurasian thistles.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

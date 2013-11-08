@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>12.</number>
+  <species_name>Cirsium pumilum</species_name>
+  <authority>(Nuttall) Sprengel</authority>
+  <place_of_publication>Syst. Veg. 3: 375. 1826</place_of_publication>
+  <common_name>Pasture thistle</common_name>
+  <synonym_of_species_name>Carduus pumilus Nuttall, Gen. N. Amer. Pl. 2: 130. 1818</synonym_of_species_name>
+  <description>
+    <statement id="66.txt-0">
+      <text>Biennials or monocarpic perennials , 25–100 cm;</text>
+    </statement>
+    <statement id="66.txt-1">
+      <text>sometimes perennating by root sprouts.</text>
+      <structure id="o13776" name="whole_organism">
+        <character char_type="range_value" name="size" from="25" from_unit="cm" to="100" to_unit="cm" />
+        <character name="life_style" value="biennial" />
+        <character name="life_style" value="perennial" />
+        <character name="duration" value="perennating" modifier="sometimes" />
+        <character name="life_style" value="perennial" />
+      </structure>
+      <structure id="o13778" name="sprout" constraint="root" />
+    </statement>
+    <statement id="66.txt-2">
+      <text>Stems erect, villous with septate trichomes and sometimes thinly arachnoid tomentose;</text>
+      <structure id="o13779" name="stem">
+        <character name="orientation" value="erect" />
+        <character name="pubescence" value="villous" constraint="with trichomes" constraintid="o13780" />
+      </structure>
+      <structure id="o13780" name="trichome">
+        <character name="architecture" value="septate" />
+        <character name="pubescence" value="arachnoid tomentose" modifier="sometimes thinly" />
+      </structure>
+    </statement>
+    <statement id="66.txt-3">
+      <text>branches 0–few, distal, ascending.</text>
+      <structure id="o13781" name="branch">
+        <character char_type="range_value" name="count" from="0" to="few" />
+        <character name="insertion_or_position" value="distal" />
+        <character name="orientation" value="ascending" />
+      </structure>
+    </statement>
+    <statement id="66.txt-4">
+      <text>Leaves:</text>
+      <structure id="o13782" name="leaf" />
+    </statement>
+    <statement id="66.txt-6">
+      <text>basal often present at flowering, bases tapered;</text>
+      <structure id="o13783" name="leaf" constraint="basal">
+        <character name="presence" value="present" modifier="often; at flowering" />
+      </structure>
+      <structure id="o13784" name="base">
+        <character name="shape" value="tapered" />
+      </structure>
+    </statement>
+    <statement id="66.txt-7">
+      <text>principal cauline sessile, moderately reduced distally, bases often auriculate-clasping;</text>
+      <structure id="o13785" name="leaf" constraint="principal cauline">
+        <character name="architecture" value="sessile" />
+        <character name="size" value="reduced" modifier="moderately ; distally" />
+      </structure>
+      <structure id="o13786" name="base">
+        <character name="architecture" value="auriculate-clasping" modifier="often" />
+      </structure>
+    </statement>
+    <statement id="66.txt-8">
+      <text>distal reduced, similar to proximal.</text>
+      <structure id="o13787" name="leaf" constraint="distal">
+        <character name="size" value="reduced" />
+      </structure>
+      <structure id="o13788" name="leaf" constraint="proximal" />
+      <relation id="r1499" name="similar to" from="o13787" to="o13788" negation="false" />
+    </statement>
+    <statement id="66.txt-9">
+      <text>Heads 1–few, borne singly at tips of main stem and branches, often closely subtended by 1–several bracts.</text>
+      <structure id="o13789" name="head">
+        <character char_type="range_value" name="count" from="1" to="few" />
+      </structure>
+      <structure id="o13790" name="tip" />
+      <relation id="r1500" name="borne at" from="o13789" to="o13790" negation="false" />
+      <structure id="o13791" name="stem" constraint="main" />
+      <structure id="o13792" name="branch" />
+      <relation id="r1501" name="part_of" from="o13790" to="o13791" negation="false" />
+      <relation id="r1502" name="part_of" from="o13790" to="o13792" negation="false" />
+      <structure id="o13793" name="bract">
+        <character char_type="range_value" name="count" from="1" to="several" />
+      </structure>
+      <relation id="r1503" name="subtended by" from="o13789" to="o13793" negation="false" />
+    </statement>
+    <statement id="66.txt-10">
+      <text>Peduncles 0–15+ cm (above distal leaves ) , leafy-bracted.</text>
+      <structure id="o13794" name="peduncle">
+        <character char_type="range_value" name="size" from="0" from_unit="cm" to="15" to_unit="cm" upper_restricted="false" />
+        <character name="architecture" value="leafy-bracted" />
+      </structure>
+    </statement>
+    <statement id="66.txt-11">
+      <text>Involucres broadly cylindric to ovoid, 3.5–5 cm, 2.5–3 cm diam. (appearing much wider and hemispheric to campanulate in pressed specimens), loosely arachnoid on phyllary margins or glabrate.</text>
+      <structure id="o13795" name="involucre">
+        <character char_type="range_value" name="shape" from="broadly cylindric" to="ovoid" />
+        <character name="shape" value="cylindric" modifier="broadly" />
+        <character name="shape" value="ovoid" modifier="broadly" />
+        <character char_type="range_value" name="size" from="3.5" from_unit="cm" to="5" to_unit="cm" />
+        <character char_type="range_value" name="size" from="2.5" from_unit="cm" to="3" to_unit="cm" />
+        <character name="pubescence" value="arachnoid" modifier="loosely" constraint="on phyllary margins" constraintid="o13796" />
+        <character name="pubescence" value="glabrate" />
+      </structure>
+      <structure id="o13796" name="margin" constraint="phyllary" />
+    </statement>
+    <statement id="66.txt-12">
+      <text>Phyllaries in 8–10 series, imbricate, ovate or lanceolate (outer) to lance-linear (inner), abaxial faces with ± prominent glutinous ridge, outer and middle appressed, apices ascending to spreading, spines 1.5–6 mm;</text>
+      <structure id="o13797" name="phyllary">
+        <character name="aestivation_or_arrangement" value="imbricate" />
+        <character char_type="range_value" name="shape" from="lanceolate" to="lance-linear" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="lance-linear" />
+      </structure>
+      <structure id="o13798" name="series">
+        <character char_type="range_value" name="count" from="8" to="10" />
+      </structure>
+      <relation id="r1504" name="in" from="o13797" to="o13798" negation="false" />
+      <structure id="o13799" name="face" constraint="abaxial">
+        <character name="position" value="outer" />
+      </structure>
+      <structure id="o13800" name="ridge">
+        <character name="prominence" value="prominent" modifier="±" />
+        <character name="coating_or_texture" value="glutinous" />
+      </structure>
+      <relation id="r1505" name="with" from="o13799" to="o13800" negation="false" />
+      <structure id="o13801" name="middle">
+        <character name="orientation" value="appressed" />
+      </structure>
+      <structure id="o13802" name="apex">
+        <character char_type="range_value" name="orientation" from="ascending" to="spreading" />
+        <character name="orientation" value="ascending" />
+        <character name="orientation" value="spreading" />
+      </structure>
+      <structure id="o13803" name="spine">
+        <character char_type="range_value" name="size" from="1.5" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="66.txt-13">
+      <text>apices of middle and inner narrowed and scabrid-denticulate, innermost spineless, tapered and entire or with expanded, erose-denticulate, flexuous tips.</text>
+      <structure id="o13804" name="apex">
+        <character name="position" value="inner" />
+        <character name="size" value="narrowed" />
+        <character name="shape" value="scabrid-denticulate" />
+      </structure>
+      <structure id="o13805" name="phyllary" constraint="middle" />
+      <relation id="r1506" name="part_of" from="o13804" to="o13805" negation="false" />
+      <structure id="o13806" name="phyllary" constraint="innermost">
+        <character name="architecture" value="spineless" />
+        <character name="shape" value="tapered" />
+        <character name="shape" value="entire" />
+        <character name="shape" value="with expanded , erose-denticulate , flexuous tips" />
+      </structure>
+      <structure id="o13807" name="tip">
+        <character name="size" value="expanded" />
+        <character name="shape" value="erose-denticulate" />
+        <character name="course" value="flexuous" />
+      </structure>
+      <relation id="r1507" name="with" from="o13806" to="o13807" negation="false" />
+    </statement>
+    <statement id="66.txt-14">
+      <text>Corollas pink to purple (white), 40–60 mm, tubes 20–35 mm, throats 11–15 mm, lobes 7–10 mm;</text>
+      <structure id="o13808" name="corolla">
+        <character char_type="range_value" name="coloration" from="pink" to="purple" />
+        <character name="coloration" value="pink" />
+        <character name="coloration" value="purple" />
+        <character char_type="range_value" name="size" from="40" from_unit="mm" to="60" to_unit="mm" />
+      </structure>
+      <structure id="o13809" name="tube">
+        <character char_type="range_value" name="size" from="20" from_unit="mm" to="35" to_unit="mm" />
+      </structure>
+      <structure id="o13810" name="throat">
+        <character char_type="range_value" name="size" from="11" from_unit="mm" to="15" to_unit="mm" />
+      </structure>
+      <structure id="o13811" name="lobe">
+        <character char_type="range_value" name="size" from="7" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="66.txt-15">
+      <text>style tips 3–7 mm.</text>
+      <structure id="o13812" name="tip" constraint="style">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="66.txt-16">
+      <text>Cypselae stramineous to brown, 3.5–5 mm, apical collars yellow or colored like body;</text>
+      <structure id="o13813" name="cypsela">
+        <character char_type="range_value" name="coloration" from="stramineous" to="brown" />
+        <character name="coloration" value="stramineous" />
+        <character name="coloration" value="brown" />
+        <character char_type="range_value" name="size" from="3.5" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+      <structure id="o13814" name="collar" constraint="apical">
+        <character name="coloration" value="yellow" />
+        <character name="coloration" value="colored" constraint="like body" constraintid="o13815" />
+      </structure>
+      <structure id="o13815" name="body" />
+    </statement>
+    <statement id="66.txt-17">
+      <text>pappi 35–45 mm.</text>
+      <structure id="o13816" name="pappus">
+        <character char_type="range_value" name="size" from="35" from_unit="mm" to="45" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="66.txt-18">
+      <text>2 n = 30.</text>
+      <structure id="o13817" name="chromosome">
+        <character name="count" value="30" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Varieties 2 (2 in the flora):</number_of_infrataxa>
+  <general_distribution>Canada</general_distribution>
+  <general_distribution>United States.</general_distribution>
+  <discussion>Flowers of Cirsium pumilum are reportedly sweetly scented.</discussion>
+  <couplet>1.Spines of outer phyllaries stout, 3–6 mm; plants usually with several long branches; leaves usually lobed nearly to the midvein; roots rarely and only slightly tuberous-thickened; cypselae usually 3.5– 4 mm12a. Cirsium pumilum var. pumilum</couplet>
+  <couplet>1.Spines of outer phyllaries slender, 1.5–3 mm; plants simple or distally with a few short branches; leaves usually shallowly lobed; roots often tuberous-thickened; cypselae usually 4.5–5 mm 12b. Cirsium pumilum var. hillii</couplet>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

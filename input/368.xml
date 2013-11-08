@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>10.</number>
+  <species_name>Prenanthes racemosa</species_name>
+  <authority>Michaux</authority>
+  <place_of_publication>Fl. Bor.-Amer. 2: 84. 1803</place_of_publication>
+  <common_name>Glaucous or purple rattlesnakeroot, glaucous white lettuce, prenanthe à grappe</common_name>
+  <synonym_of_species_name>Nabalus racemosus (Michaux) Hooker; Prenanthes racemosa subsp. multiflora Cronquist; P. racemosa var. pinnatifida A. Gray</synonym_of_species_name>
+  <description>
+    <statement id="368.txt-0">
+      <text>Plants 30–175 cm;</text>
+      <structure id="o6953" name="whole_organism">
+        <character char_type="range_value" name="size" from="30" from_unit="cm" to="175" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="368.txt-1">
+      <text>taproots fusiform, tuberous.</text>
+      <structure id="o6954" name="taproot">
+        <character name="shape" value="fusiform" />
+        <character name="architecture" value="tuberous" />
+      </structure>
+    </statement>
+    <statement id="368.txt-2">
+      <text>Stems erect, green or light purple, simple, (stout), glabrous and glaucous proximally, setose or hispid distally.</text>
+      <structure id="o6955" name="stem">
+        <character name="orientation" value="erect" />
+        <character name="coloration" value="green" />
+        <character name="coloration" value="purple" modifier="light" />
+        <character name="architecture" value="simple" />
+        <character name="pubescence" value="glabrous" />
+        <character name="coating" value="glaucous" modifier="proximally" />
+        <character name="pubescence" value="setose" modifier="distally" />
+        <character name="pubescence" value="hispid" modifier="distally" />
+      </structure>
+    </statement>
+    <statement id="368.txt-3">
+      <text>Leaves:</text>
+      <structure id="o6956" name="leaf" />
+    </statement>
+    <statement id="368.txt-4">
+      <text>proximal usually present at flowering;</text>
+      <structure id="o6957" name="leaf" constraint="proximal">
+        <character name="presence" value="present" modifier="usually; at flowering" />
+      </structure>
+    </statement>
+    <statement id="368.txt-5">
+      <text>petioles broadly winged, (1–15 cm);</text>
+      <structure id="o6958" name="petiole">
+        <character name="architecture" value="winged" modifier="broadly" />
+      </structure>
+    </statement>
+    <statement id="368.txt-6">
+      <text>blades broadly oblanceolate to spatulate, 4–25 × 1–8 cm, coriaceous, bases attenuate, clasping, margins entire or weakly denticulate, apices obtuse or rounded, faces glabrous;</text>
+      <structure id="o6959" name="blade">
+        <character char_type="range_value" name="shape" from="broadly oblanceolate" to="spatulate" />
+        <character name="shape" value="oblanceolate" modifier="broadly" />
+        <character name="shape" value="spatulate" modifier="broadly" />
+        <character char_type="range_value" name="length" from="4" from_unit="cm" to="25" to_unit="cm" />
+        <character char_type="range_value" name="width" from="1" from_unit="cm" to="8" to_unit="cm" />
+        <character name="texture" value="coriaceous" />
+      </structure>
+      <structure id="o6960" name="base">
+        <character name="shape" value="attenuate" />
+        <character name="architecture" value="clasping" />
+      </structure>
+      <structure id="o6961" name="margin">
+        <character name="shape" value="entire" />
+        <character name="shape" value="denticulate" modifier="weakly" />
+      </structure>
+      <structure id="o6962" name="apex">
+        <character name="shape" value="obtuse" />
+        <character name="shape" value="rounded" />
+      </structure>
+      <structure id="o6963" name="face">
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="368.txt-7">
+      <text>mid cauline sessile, clasping;</text>
+      <structure id="o6964" name="leaf" constraint="mid cauline">
+        <character name="architecture" value="sessile" />
+        <character name="architecture" value="clasping" />
+      </structure>
+    </statement>
+    <statement id="368.txt-8">
+      <text>distal sessile and reduced.</text>
+      <structure id="o6965" name="leaf" constraint="distal">
+        <character name="architecture" value="sessile" />
+        <character name="size" value="reduced" />
+      </structure>
+    </statement>
+    <statement id="368.txt-9">
+      <text>Heads (ascending) in (elongate) narrowly racemiform or paniculiform arrays.</text>
+      <structure id="o6966" name="head" />
+      <structure id="o6967" name="array">
+        <character name="architecture" value="racemiform" modifier="narrowly" />
+        <character name="architecture" value="paniculiform" modifier="narrowly" />
+      </structure>
+      <relation id="r859" name="in" from="o6966" to="o6967" negation="false" />
+    </statement>
+    <statement id="368.txt-10">
+      <text>Involucres campanulate, 11–12 × 4–7 mm.</text>
+      <structure id="o6968" name="involucre">
+        <character name="shape" value="campanulate" />
+        <character char_type="range_value" name="length" from="11" from_unit="mm" to="12" to_unit="mm" />
+        <character char_type="range_value" name="width" from="4" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="368.txt-11">
+      <text>Calyculi of 8, dark green to purple, narrowly triangular-subulate bractlets 2–4 mm, coarsely setose.</text>
+      <structure id="o6969" name="calyculus">
+        <character name="pubescence" value="setose" modifier="coarsely" />
+      </structure>
+      <structure id="o6970" name="bractlet">
+        <character name="count" value="8" />
+        <character char_type="range_value" name="coloration" from="dark-green" to="purple" />
+        <character name="coloration" value="green" modifier="dark" />
+        <character name="coloration" value="purple" />
+        <character name="shape" value="triangular-subulate" modifier="narrowly" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+      <relation id="r860" name="consist_of" from="o6969" to="o6970" negation="false" />
+    </statement>
+    <statement id="368.txt-12">
+      <text>Phyllaries 7–14, green to purple, lanceolate to linear, 10–12 mm, margins scarious, sparsely to densely setose.</text>
+      <structure id="o6971" name="phyllary">
+        <character char_type="range_value" name="count" from="7" to="14" />
+        <character char_type="range_value" name="coloration" from="green" to="purple" />
+        <character name="coloration" value="green" />
+        <character name="coloration" value="purple" />
+        <character char_type="range_value" name="shape" from="lanceolate" to="linear" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="linear" />
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="12" to_unit="mm" />
+      </structure>
+      <structure id="o6972" name="margin">
+        <character name="texture" value="scarious" />
+        <character name="pubescence" value="setose" modifier="sparsely densely" />
+      </structure>
+    </statement>
+    <statement id="368.txt-13">
+      <text>Florets 9–29;</text>
+      <structure id="o6973" name="floret">
+        <character char_type="range_value" name="count" from="9" to="29" />
+      </structure>
+    </statement>
+    <statement id="368.txt-14">
+      <text>corollas usually pinkish, sometimes white or lavender, 7–13 mm.</text>
+      <structure id="o6974" name="corolla">
+        <character name="coloration" value="pinkish" modifier="usually" />
+        <character name="coloration" value="white" modifier="sometimes" />
+        <character name="coloration" value="lavender" modifier="sometimes" />
+        <character char_type="range_value" name="size" from="7" from_unit="mm" to="13" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="368.txt-15">
+      <text>Cypselae golden brown, sub-cylindric, subterete, 5–6 mm, indistinctly 8–12-ribbed;</text>
+      <structure id="o6975" name="cypsela">
+        <character name="coloration" value="brown" modifier="golden" />
+        <character name="shape" value="sub-cylindric" />
+        <character name="shape" value="subterete" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="6" to_unit="mm" />
+        <character name="architecture_or_shape" value="8-12-ribbed" modifier="indistinctly" />
+      </structure>
+    </statement>
+    <statement id="368.txt-16">
+      <text>pappi pale yellow, 6–7 mm.</text>
+      <structure id="o6976" name="pappus">
+        <character name="coloration" value="yellow" modifier="pale" />
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="368.txt-17">
+      <text>2 n = 16.</text>
+      <structure id="o6977" name="chromosome">
+        <character name="count" value="16" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>sandy alluvial soils of stream banks</habitat>
+  <habitat>wet meadows</habitat>
+  <habitat>tall-grass prairies</habitat>
+  <habitat>fens</habitat>
+  <habitat>marshy flats</habitat>
+  <habitat>bogs (mainly calcicolous</habitat>
+  <habitat>at least in north</habitat>
+  <elevation>0–2800 m;</elevation>
+  <ca_distribution>Alta.</ca_distribution>
+  <ca_distribution>B.C.</ca_distribution>
+  <ca_distribution>Man.</ca_distribution>
+  <ca_distribution>N.B.</ca_distribution>
+  <ca_distribution>Nfld. and Labr. (Nfld.)</ca_distribution>
+  <ca_distribution>N.S.</ca_distribution>
+  <ca_distribution>Ont.</ca_distribution>
+  <ca_distribution>Que.</ca_distribution>
+  <ca_distribution>Sask.</ca_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Ill.</us_distribution>
+  <us_distribution>Ind.</us_distribution>
+  <us_distribution>Iowa</us_distribution>
+  <us_distribution>Ky.</us_distribution>
+  <us_distribution>Maine</us_distribution>
+  <us_distribution>Mich.</us_distribution>
+  <us_distribution>Minn.</us_distribution>
+  <us_distribution>Mo.</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>Nebr.</us_distribution>
+  <us_distribution>N.J.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>N.Dak.</us_distribution>
+  <us_distribution>Ohio</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <us_distribution>S.Dak.</us_distribution>
+  <us_distribution>Vt.</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <us_distribution>Wis.</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <discussion>Prenanthes racemosa is recognized by its erect, stout, simple habit, glaucous stems, spatulate proximal leaves with broadly winged petioles and rounded to obtuse apices, heads borne in narrow racemiform arrays, purple and hairy phyllaries, and usually pinkish corollas. It is most similar to P. aspera, which differs in its generally smaller stature, more hirsute stems, leaves that are hispid abaxially, proximal leaves usually withered by flowering, and creamy white or yellow corollas. Hybrids between P. racemosa and P. trifoliolata, known as P. ×mainensis, occur in the northeastern United States and southeastern Canada (see discussion under P. trifoliolata).</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

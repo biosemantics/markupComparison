@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Leontodon autumnalis</species_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 798. 1753</place_of_publication>
+  <past_name>autumnale</past_name>
+  <synonym_of_species_name>Leontodon autumnalis var. pratensis Koch</synonym_of_species_name>
+  <description>
+    <statement id="425.txt-0">
+      <text>Perennials, 10–80 cm.</text>
+      <structure id="o8424" name="whole_organism">
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="80" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="425.txt-1">
+      <text>Stems 1–20 +, decumbent, scapiform, usually branched distally, glabrous proximally, tomentose proximal to heads.</text>
+      <structure id="o8425" name="stem">
+        <character char_type="range_value" name="count" from="1" to="20" upper_restricted="false" />
+        <character name="habit" value="decumbent" />
+        <character name="shape" value="scapiform" />
+        <character name="architecture_or_shape" value="branched" modifier="usually ; distally" />
+        <character name="pubescence" value="glabrous" modifier="proximally" />
+      </structure>
+      <structure id="o8426" name="head" />
+      <relation id="r995" name="tomentose proximal to" from="o8425" to="o8426" negation="false" />
+    </statement>
+    <statement id="425.txt-2">
+      <text>Leaves:</text>
+      <structure id="o8427" name="leaf" />
+    </statement>
+    <statement id="425.txt-3">
+      <text>blades narrowly oblanceolate, 4–35 × 0.5–4 cm, entire to deeply dentate or lobed (lobes narrow, straight or slightly recurved), faces glabrous or hirsute, hairs usually simple.</text>
+      <structure id="o8428" name="blade">
+        <character name="shape" value="oblanceolate" modifier="narrowly" />
+        <character char_type="range_value" name="length" from="4" from_unit="cm" to="35" to_unit="cm" />
+        <character char_type="range_value" name="width" from="0.5" from_unit="cm" to="4" to_unit="cm" />
+        <character char_type="range_value" name="shape" from="entire" to="deeply dentate or lobed" />
+        <character name="shape" value="entire" />
+        <character name="shape" value="dentate" modifier="deeply" />
+        <character name="shape" value="lobed" modifier="deeply" />
+      </structure>
+      <structure id="o8429" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="hirsute" />
+      </structure>
+      <structure id="o8430" name="hair">
+        <character name="architecture" value="simple" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="425.txt-4">
+      <text>Heads (1–)2–5 in loose, corymbiform arrays.</text>
+      <structure id="o8431" name="head">
+        <character char_type="range_value" name="atypical_count" from="1" to="2" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="2" to="5" constraint="in arrays" constraintid="o8432" />
+      </structure>
+      <structure id="o8432" name="array">
+        <character name="architecture_or_texture" value="loose" />
+        <character name="architecture" value="corymbiform" />
+      </structure>
+    </statement>
+    <statement id="425.txt-5">
+      <text>Peduncles bracteate proximal to heads.</text>
+      <structure id="o8433" name="peduncle" />
+      <structure id="o8434" name="head" />
+      <relation id="r996" name="bracteate proximal to" from="o8433" to="o8434" negation="false" />
+    </statement>
+    <statement id="425.txt-6">
+      <text>Calyculi of 16–20, narrowly triangular to subulate bractlets 2–4 mm, tomentulose.</text>
+      <structure id="o8435" name="calyculus">
+        <character name="pubescence" value="tomentulose" />
+      </structure>
+      <structure id="o8436" name="bractlet">
+        <character char_type="range_value" name="count" from="16" to="20" />
+        <character char_type="range_value" name="shape" from="narrowly triangular" to="subulate" />
+        <character name="shape" value="triangular" modifier="narrowly" />
+        <character name="shape" value="subulate" modifier="narrowly" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+      <relation id="r997" name="consist_of" from="o8435" to="o8436" negation="false" />
+    </statement>
+    <statement id="425.txt-7">
+      <text>Involucres campanulate, 7–13 × 8–10 mm.</text>
+      <structure id="o8437" name="involucre">
+        <character name="shape" value="campanulate" />
+        <character char_type="range_value" name="length" from="7" from_unit="mm" to="13" to_unit="mm" />
+        <character char_type="range_value" name="width" from="8" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="425.txt-8">
+      <text>Phyllaries 18–20, narrowly lanceolate, 10–12 mm, subequal, glabrous, sparsely tomentose, or coarsely hirsute.</text>
+      <structure id="o8438" name="phyllary">
+        <character char_type="range_value" name="count" from="18" to="20" />
+        <character name="shape" value="lanceolate" modifier="narrowly" />
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="12" to_unit="mm" />
+        <character name="size" value="subequal" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="tomentose" modifier="sparsely" />
+        <character name="pubescence" value="hirsute" modifier="coarsely" />
+      </structure>
+    </statement>
+    <statement id="425.txt-9">
+      <text>Florets 20–30;</text>
+      <structure id="o8439" name="floret">
+        <character char_type="range_value" name="count" from="20" to="30" />
+      </structure>
+    </statement>
+    <statement id="425.txt-10">
+      <text>corollas deep yellow, 13–16 mm.</text>
+      <structure id="o8440" name="corolla">
+        <character name="depth" value="deep" />
+        <character name="coloration" value="yellow" />
+        <character char_type="range_value" name="size" from="13" from_unit="mm" to="16" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="425.txt-11">
+      <text>Cypselae cylindric or fusiform, 4–7 mm (not beaked);</text>
+      <structure id="o8441" name="cypsela">
+        <character name="shape" value="cylindric" />
+        <character name="shape" value="fusiform" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="425.txt-12">
+      <text>pappi wholly of yellowish white or tan, plumose bristles 5–8 mm.</text>
+      <structure id="o8442" name="pappus" />
+      <structure id="o8443" name="bristle">
+        <character name="coloration" value="white" modifier="yellowish" />
+        <character name="coloration" value="tan" />
+        <character name="architecture" value="plumose" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+      <relation id="r998" name="consist_of" from="o8442" to="o8443" negation="false" modifier="wholly" />
+    </statement>
+    <statement id="425.txt-13">
+      <text>2 n = 12, 24.</text>
+      <structure id="o8444" name="chromosome">
+        <character name="count" value="12" />
+        <character name="count" value="24" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <habitat>roadsides</habitat>
+  <habitat>pastures</habitat>
+  <habitat>open fields</habitat>
+  <elevation>10–1300 m;</elevation>
+  <introduced>introduced;</introduced>
+  <global_distribution>Greenland</global_distribution>
+  <ca_distribution>N.B.</ca_distribution>
+  <ca_distribution>Nfld. and Labr. (Labr.)</ca_distribution>
+  <ca_distribution>N.S.</ca_distribution>
+  <ca_distribution>P.E.I.</ca_distribution>
+  <ca_distribution>Que.</ca_distribution>
+  <us_distribution>Alaska</us_distribution>
+  <us_distribution>Conn.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Iowa</us_distribution>
+  <us_distribution>Maine</us_distribution>
+  <us_distribution>Mass.</us_distribution>
+  <us_distribution>Mich.</us_distribution>
+  <us_distribution>N.H.</us_distribution>
+  <us_distribution>N.J.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>Ohio</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <us_distribution>R.I.</us_distribution>
+  <us_distribution>Vt.</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <us_distribution>W.Va.</us_distribution>
+  <global_distribution>Eurasia.</global_distribution>
+  <discussion>Leontodon autumnalis is recognized by the usually branched stems with (1–)2–5 heads, peduncles bracteate proximal to heads, non-beaked cypselae, and pappi wholly of plumose bristles. It is now established in eastern North America and is sporadic in the west. Specimens with coarsely hirsute phyllaries have been recognized as var. pratensis; intermediates occur and the characteristic does not seem to correlate with other characters.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

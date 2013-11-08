@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>21.</number>
+  <species_name>Artemisia pattersonii</species_name>
+  <authority>A. Gray</authority>
+  <place_of_publication>in A. Gray et al., Syn. Fl. N. Amer. ed. 2, 1(2): 453. 1886</place_of_publication>
+  <past_name>pattersoni</past_name>
+  <common_name>Patterson sagewort</common_name>
+  <synonym_of_species_name>Artemisia monocephala (A. Gray) A. Heller; A. scopulorum A. Gray var. monocephala A. Gray</synonym_of_species_name>
+  <description>
+    <statement id="887.txt-0">
+      <text>Perennials, 8–20 cm, mildly aromatic.</text>
+      <structure id="o18400" name="whole_organism">
+        <character char_type="range_value" name="size" from="8" from_unit="cm" to="20" to_unit="cm" />
+        <character name="odor" value="aromatic" modifier="mildly" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="887.txt-1">
+      <text>Stems gray-brown, glabrate or finely pubescent.</text>
+      <structure id="o18401" name="stem">
+        <character name="coloration" value="brown" modifier="gray" />
+        <character name="pubescence" value="glabrate" />
+        <character name="pubescence" value="pubescent" modifier="finely" />
+      </structure>
+    </statement>
+    <statement id="887.txt-2">
+      <text>Leaves deciduous, gray-green;</text>
+    </statement>
+    <statement id="887.txt-3">
+      <text>petiolate;</text>
+      <structure id="o18402" name="leaf">
+        <character name="duration_or_habit" value="deciduous" />
+        <character name="coloration" value="green" modifier="gray" />
+        <character name="architecture" value="petiolate" />
+      </structure>
+    </statement>
+    <statement id="887.txt-4">
+      <text>blades (basal) broadly spatulate, 2–4 × 0.5 cm, pinnately lobed (lobes ca. 1.5 mm wide; cauline smaller, 1-pinnately lobed or entire), faces silky-hairy.</text>
+      <structure id="o18403" name="blade">
+        <character name="shape" value="spatulate" modifier="broadly" />
+        <character char_type="range_value" name="length" from="2" from_unit="cm" to="4" to_unit="cm" />
+        <character name="width" value="0.5" unit="cm" />
+        <character name="shape" value="lobed" modifier="pinnately" />
+      </structure>
+      <structure id="o18404" name="face">
+        <character name="pubescence" value="silky-hairy" />
+      </structure>
+    </statement>
+    <statement id="887.txt-5">
+      <text>Heads borne singly or (2–5, spreading to nodding, pedunculate) in paniculiform or racemiform arrays 1–5 × 0.5–1 cm.</text>
+      <structure id="o18405" name="head">
+        <character name="arrangement" value="singly" />
+        <character name="arrangement" value="in paniculiform or racemiform arrays" />
+      </structure>
+      <structure id="o18406" name="array">
+        <character name="architecture" value="paniculiform" />
+        <character name="architecture" value="racemiform" />
+        <character char_type="range_value" name="length" from="1" from_unit="cm" to="5" to_unit="cm" />
+        <character char_type="range_value" name="width" from="0.5" from_unit="cm" to="1" to_unit="cm" />
+      </structure>
+      <relation id="r1948" name="in" from="o18405" to="o18406" negation="false" />
+    </statement>
+    <statement id="887.txt-6">
+      <text>Involucres broadly hemispheric, 5–8 × 5–8(–10) mm.</text>
+      <structure id="o18407" name="involucre">
+        <character name="shape" value="hemispheric" modifier="broadly" />
+        <character char_type="range_value" name="length" from="5" from_unit="mm" to="8" to_unit="mm" />
+        <character char_type="range_value" name="atypical_width" from="8" to="10" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="width" from="5" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="887.txt-7">
+      <text>Phyllaries gray (margins dark brown to black), villous.</text>
+      <structure id="o18408" name="phyllary">
+        <character name="coloration" value="gray" />
+        <character name="pubescence" value="villous" />
+      </structure>
+    </statement>
+    <statement id="887.txt-8">
+      <text>Florets:</text>
+      <structure id="o18409" name="floret" />
+    </statement>
+    <statement id="887.txt-9">
+      <text>pistillate 7–27;</text>
+      <structure id="o18410" name="floret" constraint="pistillate">
+        <character char_type="range_value" name="count" from="7" to="27" />
+      </structure>
+    </statement>
+    <statement id="887.txt-10">
+      <text>bisexual 32–100;</text>
+      <structure id="o18411" name="floret" constraint="bisexual">
+        <character char_type="range_value" name="count" from="32" to="100" />
+      </structure>
+    </statement>
+    <statement id="887.txt-11">
+      <text>corollas (yellow tinged with red), 2–3 mm (including exsert anthers), mostly glabrous (embedded in tangled receptacular hairs).</text>
+      <structure id="o18412" name="corolla">
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="3" to_unit="mm" />
+        <character name="pubescence" value="glabrous" modifier="mostly" />
+      </structure>
+    </statement>
+    <statement id="887.txt-12">
+      <text>Cypselae 1.5–2 mm, glabrous.</text>
+      <structure id="o18413" name="cypsela">
+        <character char_type="range_value" name="size" from="1.5" from_unit="mm" to="2" to_unit="mm" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="887.txt-13">
+      <text>2 n = 14.</text>
+      <structure id="o18414" name="chromosome">
+        <character name="count" value="14" />
+      </structure>
+    </statement>
+  </description>
+  <habitat>alpine meadows</habitat>
+  <elevation>3500–4000 m;</elevation>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <discussion>Artemisia pattersonii can be distinguished from the closely related A. scopulorum by its heads being borne singly and narrower phyllary margins.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

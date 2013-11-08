@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>2.</number>
+  <species_name>Osteospermum spinescens</species_name>
+  <authority>Thunberg</authority>
+  <place_of_publication>Prodr. Pl. Cap., 166. 1800</place_of_publication>
+  <description>
+    <statement id="623.txt-0">
+      <text>Shrubs, 10–30+ cm (stems becoming thorns).</text>
+      <structure id="o13036" name="whole_organism">
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="30" to_unit="cm" upper_restricted="false" />
+        <character name="life_style" value="shrub" />
+      </structure>
+    </statement>
+    <statement id="623.txt-1">
+      <text>Leaf blades cuneate to clavate, 3–12(–20+) × 1–4+ mm, margins entire or distally toothed [lobed], faces ± arachnose, glabrescent, often ± stipitate-glandular distally.</text>
+      <structure id="o13037" name="blade" constraint="leaf">
+        <character char_type="range_value" name="shape" from="cuneate" to="clavate" />
+        <character name="shape" value="cuneate" />
+        <character name="shape" value="clavate" />
+        <character char_type="range_value" name="atypical_length" from="12" to="20" from_unit="mm" to_unit="mm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="3" from_unit="mm" to="12" to_unit="mm" />
+        <character char_type="range_value" name="width" from="1" from_unit="mm" to="4" to_unit="mm" upper_restricted="false" />
+      </structure>
+      <structure id="o13038" name="margin">
+        <character name="shape" value="entire" />
+        <character name="shape" value="toothed" modifier="distally" />
+      </structure>
+      <structure id="o13039" name="face">
+        <character name="pubescence" value="arachnose" modifier="±" />
+        <character name="pubescence" value="glabrescent" />
+        <character name="architecture_or_exudation_or_pubescence" value="stipitate-glandular" modifier="often ± ; distally" />
+      </structure>
+    </statement>
+    <statement id="623.txt-2">
+      <text>Peduncles 5–15+ mm.</text>
+      <structure id="o13040" name="peduncle">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="15" to_unit="mm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="623.txt-3">
+      <text>Phyllaries 5–8(–12+), 4–8 mm (margins and tips often stipitate-glandular).</text>
+      <structure id="o13041" name="phyllary">
+        <character char_type="range_value" name="atypical_count" from="8" to="12" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="5" to="8" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="623.txt-4">
+      <text>Ray florets 5–8(–13+);</text>
+      <structure id="o13042" name="floret" constraint="ray">
+        <character char_type="range_value" name="atypical_count" from="8" to="13" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="5" to="8" />
+      </structure>
+    </statement>
+    <statement id="623.txt-5">
+      <text>corollas yellow to orange, laminae 4–8(–15+) mm.</text>
+      <structure id="o13043" name="corolla">
+        <character char_type="range_value" name="coloration" from="yellow" to="orange" />
+        <character name="coloration" value="yellow" />
+        <character name="coloration" value="orange" />
+      </structure>
+      <structure id="o13044" name="lamina">
+        <character char_type="range_value" name="atypical_size" from="8" to="15" from_unit="mm" to_unit="mm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="623.txt-6">
+      <text>Disc florets 12–20+;</text>
+      <structure id="o13045" name="floret" constraint="disc">
+        <character char_type="range_value" name="count" from="12" to="20" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="623.txt-7">
+      <text>corollas yellow to orange, 3–4 mm.</text>
+      <structure id="o13046" name="corolla">
+        <character char_type="range_value" name="coloration" from="yellow" to="orange" />
+        <character name="coloration" value="yellow" />
+        <character name="coloration" value="orange" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="623.txt-8">
+      <text>Cypselae 8–10 mm (usually 3-winged).</text>
+      <structure id="o13047" name="cypsela">
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="623.txt-9">
+      <text>2 n = 20.</text>
+      <structure id="o13048" name="chromosome">
+        <character name="count" value="20" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <habitat>disturbed places</habitat>
+  <elevation>1800 m;</elevation>
+  <introduced>introduced;</introduced>
+  <us_distribution>N.Mex.</us_distribution>
+  <global_distribution>Africa.</global_distribution>
+  <discussion>As of 2003, Osteospermum spinescens is known in the flora from a single plant that has persisted near Silver City for at least five years.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

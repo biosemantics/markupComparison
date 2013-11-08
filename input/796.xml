@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>3.</number>
+  <species_name>Inula salicina</species_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 882. 1753</place_of_publication>
+  <description>
+    <statement id="796.txt-0">
+      <text>Plants 20–80+ cm.</text>
+      <structure id="o16772" name="whole_organism">
+        <character char_type="range_value" name="size" from="20" from_unit="cm" to="80" to_unit="cm" upper_restricted="false" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="796.txt-1">
+      <text>Leaves:</text>
+      <structure id="o16773" name="leaf" />
+    </statement>
+    <statement id="796.txt-2">
+      <text>basal blades lanceolate, 2–6 cm × 5–15(–30) mm;</text>
+      <structure id="o16774" name="blade" constraint="basal">
+        <character name="shape" value="lanceolate" />
+        <character char_type="range_value" name="length" from="2" from_unit="cm" to="6" to_unit="cm" />
+        <character char_type="range_value" name="atypical_width" from="15" to="30" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="width" from="5" from_unit="mm" to="15" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="796.txt-3">
+      <text>cauline blades broadly elliptic to lanceolate, (3–)5–7+ cm × 12–20 mm, bases cordate, clasping (faces usually glabrous, adaxial venation raised, reticulation prominent).</text>
+      <structure id="o16775" name="blade" constraint="cauline">
+        <character char_type="range_value" name="shape" from="broadly elliptic" to="lanceolate" />
+        <character name="shape" value="elliptic" modifier="broadly" />
+        <character name="shape" value="lanceolate" modifier="broadly" />
+        <character char_type="range_value" name="atypical_length" from="3" to="5" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="length" from="5" from_unit="cm" to="7" to_unit="cm" upper_restricted="false" />
+        <character char_type="range_value" name="width" from="12" from_unit="mm" to="20" to_unit="mm" />
+      </structure>
+      <structure id="o16776" name="base">
+        <character name="shape" value="cordate" />
+        <character name="architecture" value="clasping" />
+      </structure>
+    </statement>
+    <statement id="796.txt-4">
+      <text>Involucres 8–12(–20) mm diam.</text>
+      <structure id="o16777" name="involucre">
+        <character char_type="range_value" name="atypical_size" from="12" to="20" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="12" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="796.txt-5">
+      <text>Outer phyllaries lance-linear, 5–7 × 1.5–2.5 mm;</text>
+      <structure id="o16778" name="phyllary" constraint="outer">
+        <character name="arrangement_or_shape" value="lance-linear" />
+        <character char_type="range_value" name="length" from="5" from_unit="mm" to="7" to_unit="mm" />
+        <character char_type="range_value" name="width" from="1.5" from_unit="mm" to="2.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="796.txt-6">
+      <text>inner similar, more scarious.</text>
+      <structure id="o16779" name="phyllary" constraint="inner">
+        <character name="texture" value="scarious" />
+      </structure>
+    </statement>
+    <statement id="796.txt-7">
+      <text>Ray florets 35–70;</text>
+      <structure id="o16780" name="floret" constraint="ray">
+        <character char_type="range_value" name="count" from="35" to="70" />
+      </structure>
+    </statement>
+    <statement id="796.txt-8">
+      <text>corolla laminae 10–15+ mm.</text>
+      <structure id="o16781" name="lamina" constraint="corolla">
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="15" to_unit="mm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="796.txt-9">
+      <text>Disc corollas 5–7+ mm.</text>
+      <structure id="o16782" name="corolla" constraint="disc">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="7" to_unit="mm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="796.txt-10">
+      <text>Cypselae 1.5–2 mm, glabrous;</text>
+      <structure id="o16783" name="cypsela">
+        <character char_type="range_value" name="size" from="1.5" from_unit="mm" to="2" to_unit="mm" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="796.txt-11">
+      <text>pappi of 30–40+, distinct or basally connate, barbellate bristles 7–8 mm.</text>
+      <structure id="o16784" name="pappus" />
+      <structure id="o16785" name="bristle">
+        <character char_type="range_value" name="count" from="30" to="40" upper_restricted="false" />
+        <character name="fusion" value="distinct" />
+        <character name="fusion" value="connate" modifier="basally" />
+        <character name="architecture" value="barbellate" />
+        <character char_type="range_value" name="size" from="7" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+      <relation id="r1803" name="consist_of" from="o16784" to="o16785" negation="false" />
+    </statement>
+    <statement id="796.txt-12">
+      <text>2 n = 16.</text>
+      <structure id="o16786" name="chromosome">
+        <character name="count" value="16" />
+      </structure>
+    </statement>
+  </description>
+  <habitat>roadsides</habitat>
+  <habitat>waste places</habitat>
+  <introduced>introduced;</introduced>
+  <us_distribution>Mass.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <global_distribution>Europe.</global_distribution>
+  <discussion>Inula salicina is probably an occasional escape from garden trash and not truly established in the flora.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

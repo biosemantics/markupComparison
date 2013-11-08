@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Osteospermum ecklonis</species_name>
+  <authority>(de Candolle) Norlindh</authority>
+  <place_of_publication>Stud. Calenduleae, 244. 1943</place_of_publication>
+  <synonym_of_species_name>Dimorphotheca ecklonis de Candolle in A. P. de Candolle and A. L. P. P. de Candolle, Prodr. 6: 71. 1838</synonym_of_species_name>
+  <description>
+    <statement id="622.txt-0">
+      <text>Perennials, subshrubs, or shrubs, 10–100+ cm.</text>
+      <structure id="o13021" name="whole_organism">
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="100" to_unit="cm" upper_restricted="false" />
+        <character name="life_style" value="perennial" />
+        <character name="life_style" value="subshrub" />
+        <character name="life_style" value="shrub" />
+      </structure>
+    </statement>
+    <statement id="622.txt-1">
+      <text>Leaf blades obovate or oblong to elliptic or ob-lanceolate, 30–50(–100+) × 10–20(–40+) mm, margins entire or denticulate, faces stipitate-glandular (at least distal leaves), glabrescent.</text>
+      <structure id="o13024" name="blade" constraint="leaf">
+        <character char_type="range_value" name="shape" from="oblong" to="elliptic or ob-lanceolate" />
+        <character name="shape" value="obovate" />
+        <character name="shape" value="oblong" />
+        <character name="shape" value="elliptic" />
+        <character name="shape" value="ob-lanceolate" />
+        <character char_type="range_value" name="atypical_length" from="50" to="100" from_unit="mm" to_unit="mm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="30" from_unit="mm" to="50" to_unit="mm" />
+        <character char_type="range_value" name="atypical_width" from="20" to="40" from_unit="mm" to_unit="mm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="width" from="10" from_unit="mm" to="20" to_unit="mm" />
+      </structure>
+      <structure id="o13025" name="margin">
+        <character name="shape" value="entire" />
+        <character name="shape" value="denticulate" />
+      </structure>
+      <structure id="o13026" name="face">
+        <character name="architecture_or_exudation_or_pubescence" value="stipitate-glandular" />
+        <character name="pubescence" value="glabrescent" />
+      </structure>
+    </statement>
+    <statement id="622.txt-2">
+      <text>Peduncles (25–)50–150+ mm.</text>
+      <structure id="o13027" name="peduncle">
+        <character char_type="range_value" name="atypical_size" from="25" to="50" from_unit="mm" to_unit="mm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="50" from_unit="mm" to="150" to_unit="mm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="622.txt-3">
+      <text>Phyllaries 12–16+, 10–15+ mm.</text>
+      <structure id="o13028" name="phyllary">
+        <character char_type="range_value" name="count" from="12" to="16" upper_restricted="false" />
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="15" to_unit="mm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="622.txt-4">
+      <text>Ray florets 12–21+;</text>
+      <structure id="o13029" name="floret" constraint="ray">
+        <character char_type="range_value" name="count" from="12" to="21" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="622.txt-5">
+      <text>corollas abaxially usually violet to blue or purplish, sometimes cream to pink or salmon, adaxially whitish to blue or purplish, laminae (15–)20–45+ mm.</text>
+      <structure id="o13030" name="corolla">
+        <character char_type="range_value" name="coloration" from="abaxially usually violet" to="blue or purplish , sometimes cream" />
+        <character name="coloration" value="violet" modifier="abaxially usually" />
+        <character name="coloration" value="blue" modifier="abaxially usually" />
+        <character name="coloration" value="purplish" modifier="abaxially usually" />
+        <character name="coloration" value="cream" modifier="sometimes" />
+        <character name="coloration" value="pink" modifier="sometimes" />
+        <character name="coloration" value="salmon" modifier="sometimes" />
+        <character name="coloration" value="whitish" modifier="adaxially" />
+        <character name="coloration" value="blue" modifier="adaxially" />
+        <character name="coloration" value="purplish" modifier="adaxially" />
+      </structure>
+      <structure id="o13031" name="lamina">
+        <character char_type="range_value" name="atypical_size" from="15" to="20" from_unit="mm" to_unit="mm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="20" from_unit="mm" to="45" to_unit="mm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="622.txt-6">
+      <text>Disc florets 40–60+;</text>
+      <structure id="o13032" name="floret" constraint="disc">
+        <character char_type="range_value" name="count" from="40" to="60" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="622.txt-7">
+      <text>corollas ± purplish, 3.5–4.5 mm.</text>
+      <structure id="o13033" name="corolla">
+        <character name="coloration" value="purplish" modifier="±" />
+        <character char_type="range_value" name="size" from="3.5" from_unit="mm" to="4.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="622.txt-8">
+      <text>Cypselae 6–7 mm.</text>
+      <structure id="o13034" name="cypsela">
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="622.txt-9">
+      <text>2 n = 20.</text>
+      <structure id="o13035" name="chromosome">
+        <character name="count" value="20" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>dec</flowering_time>
+  <flowering_time>winter</flowering_time>
+  <flowering_time>jan</flowering_time>
+  <flowering_time>feb</flowering_time>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <habitat>disturbed places</habitat>
+  <elevation>0–200 m;</elevation>
+  <introduced>introduced;</introduced>
+  <us_distribution>Calif.</us_distribution>
+  <global_distribution>Africa.</global_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

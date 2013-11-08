@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>9.</number>
+  <species_name>Pluchea longifolia</species_name>
+  <authority>Nash</authority>
+  <place_of_publication>Bull. Torrey Bot. Club 23: 108. 1896</place_of_publication>
+  <common_name>Long-leaf camphorweed</common_name>
+  <description>
+    <statement id="814.txt-0">
+      <text>Perennials, 60–150(–250) cm;</text>
+    </statement>
+    <statement id="814.txt-1">
+      <text>fibrous-rooted.</text>
+      <structure id="o17133" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="150" to="250" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="60" from_unit="cm" to="150" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+        <character name="architecture" value="fibrous-rooted" />
+      </structure>
+    </statement>
+    <statement id="814.txt-2">
+      <text>Stems sparsely arachnose.</text>
+      <structure id="o17134" name="stem">
+        <character name="pubescence" value="arachnose" modifier="sparsely" />
+      </structure>
+    </statement>
+    <statement id="814.txt-3">
+      <text>Leaves (crowded) sessile;</text>
+      <structure id="o17135" name="leaf">
+        <character name="architecture" value="sessile" />
+      </structure>
+    </statement>
+    <statement id="814.txt-4">
+      <text>blades oblong to elliptic, lance-ovate, or ovate, mostly 8–20 × 3–7 cm (bases clasping to subclasping), margins coarsely and irregularly toothed, abaxial faces villous and sessile-glandular, adaxial hirtellous and sessile-glandular.</text>
+      <structure id="o17136" name="blade">
+        <character char_type="range_value" name="shape" from="oblong" to="elliptic , lance-ovate , or ovate" />
+        <character name="shape" value="oblong" />
+        <character name="shape" value="elliptic" />
+        <character name="shape" value="lance-ovate" />
+        <character name="shape" value="ovate" />
+        <character name="size" value="] 8-20×3-7" unit="cm" />
+      </structure>
+      <structure id="o17137" name="margin">
+        <character name="shape" value="toothed" modifier="irregularly" />
+      </structure>
+      <structure id="o17138" name="face" constraint="abaxial">
+        <character name="pubescence" value="villous" />
+        <character name="architecture_or_exudation_or_pubescence" value="sessile-glandular" />
+        <character name="insertion_or_position" value="adaxial" />
+        <character name="pubescence" value="hirtellous" />
+        <character name="architecture_or_exudation_or_pubescence" value="sessile-glandular" />
+      </structure>
+    </statement>
+    <statement id="814.txt-5">
+      <text>Heads in corymbiform arrays.</text>
+      <structure id="o17139" name="head" />
+      <structure id="o17140" name="array">
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <relation id="r1843" name="in" from="o17139" to="o17140" negation="false" />
+    </statement>
+    <statement id="814.txt-6">
+      <text>Involucres cylindro-campanulate, 9–12 × 6–9 mm (lengths mostly 2 times diams.).</text>
+      <structure id="o17141" name="involucre">
+        <character name="shape" value="cylindro-campanulate" />
+        <character char_type="range_value" name="length" from="9" from_unit="mm" to="12" to_unit="mm" />
+        <character char_type="range_value" name="width" from="6" from_unit="mm" to="9" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="814.txt-7">
+      <text>Phyllaries creamy white, powdery puberulent, sometimes sparsely glandular (mid phyllaries 2.5–3 mm wide).</text>
+      <structure id="o17142" name="phyllary">
+        <character name="coloration" value="white" modifier="creamy" />
+        <character name="coating" value="powdery" />
+        <character name="pubescence" value="puberulent" />
+        <character name="architecture_or_exudation_or_pubescence" value="glandular" modifier="sometimes sparsely" />
+      </structure>
+    </statement>
+    <statement id="814.txt-8">
+      <text>Corollas creamy white.</text>
+      <structure id="o17143" name="corolla">
+        <character name="coloration" value="white" modifier="creamy" />
+      </structure>
+    </statement>
+    <statement id="814.txt-9">
+      <text>Pappi persistent, bristles basally connate.</text>
+      <structure id="o17144" name="pappus">
+        <character name="duration" value="persistent" />
+      </structure>
+      <structure id="o17145" name="bristle">
+        <character name="fusion" value="connate" modifier="basally" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <flowering_time>nov</flowering_time>
+  <habitat>brackish to fresh swamps</habitat>
+  <habitat>marshes</habitat>
+  <habitat>hammocks</habitat>
+  <habitat>lake shores</habitat>
+  <habitat>ditches</habitat>
+  <habitat>and canals</habitat>
+  <elevation>0–10 m;</elevation>
+  <us_distribution>Fla.</us_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

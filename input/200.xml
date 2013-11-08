@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>23.</number>
+  <genus_name>CARTHAMUS</genus_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 830. 1753; Gen. Pl. ed. 5, 361. 1754</place_of_publication>
+  <common_name>Distaff thistle</common_name>
+  <derivation>Arabic qartam , safflower</derivation>
+  <author_of_tribe_genus>David J. Keil</author_of_tribe_genus>
+  <description>
+    <statement id="200.txt-0">
+      <text>Annuals or perennials , 30–180 cm , herbage glabrous to ± glandular and/or ± tomentose.</text>
+      <structure id="o2936" name="whole_organism">
+        <character char_type="range_value" name="size" from="30" from_unit="cm" to="180" to_unit="cm" />
+        <character name="life_style" value="annual" />
+        <character name="life_style" value="perennial" />
+      </structure>
+      <structure id="o2938" name="herbage">
+        <character name="pubescence" value="glabrous" />
+        <character name="architecture_or_exudation_or_pubescence" value="glandular" modifier="±" />
+        <character name="pubescence" value="tomentose" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="200.txt-1">
+      <text>Stems usually erect, branched distally or throughout, (leafy).</text>
+      <structure id="o2939" name="stem">
+        <character name="orientation" value="erect" modifier="usually" />
+        <character name="architecture_or_shape" value="branched" modifier="distally" />
+        <character name="architecture_or_shape" value="branched" modifier="distally; throughout" />
+      </structure>
+    </statement>
+    <statement id="200.txt-2">
+      <text>Leaves basal and cauline or all cauline;</text>
+      <structure id="o2940" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="insertion_or_position" value="cauline" />
+      </structure>
+    </statement>
+    <statement id="200.txt-3">
+      <text>basal and proximal cauline winged-petiolate, distal cauline sessile, sometimes clasping;</text>
+      <structure id="o2941" name="leaf" constraint="basal and proximal cauline">
+        <character name="architecture" value="winged-petiolate" />
+      </structure>
+      <structure id="o2942" name="leaf" constraint="distal cauline">
+        <character name="architecture" value="sessile" />
+        <character name="architecture" value="clasping" modifier="sometimes" />
+      </structure>
+    </statement>
+    <statement id="200.txt-4">
+      <text>blade margins dentate to pinnately lobed, ± spiny, faces glabrous or ± glandlar and/or ± tomentose.</text>
+      <structure id="o2943" name="margin" constraint="blade">
+        <character char_type="range_value" name="shape" from="dentate" to="pinnately lobed" />
+        <character name="shape" value="dentate" />
+        <character name="shape" value="lobed" modifier="pinnately" />
+        <character name="architecture_or_shape" value="spiny" modifier="±" />
+      </structure>
+      <structure id="o2944" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="tomentose" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="200.txt-5">
+      <text>Heads discoid, borne singly or in few-headed cymiform arrays.</text>
+      <structure id="o2945" name="head">
+        <character name="shape_or_architecture" value="discoid" />
+        <character name="arrangement" value="singly" />
+        <character name="arrangement" value="in few-headed cymiform arrays" />
+      </structure>
+      <structure id="o2946" name="array">
+        <character name="architecture_or_shape" value="few-headed" />
+        <character name="architecture" value="cymiform" />
+      </structure>
+      <relation id="r418" name="in" from="o2945" to="o2946" negation="false" />
+    </statement>
+    <statement id="200.txt-6">
+      <text>Involucres ovoid, constricted distally.</text>
+      <structure id="o2947" name="involucre">
+        <character name="shape" value="ovoid" />
+        <character name="size" value="constricted" modifier="distally" />
+      </structure>
+    </statement>
+    <statement id="200.txt-7">
+      <text>Phyllaries many in 4–5 series , linear to ovate (at least outer ± leaflike), bases appressed, apical appendages more herbaceous, prominently veiny, spiny-dentate or -lobed, spine - tipped.</text>
+      <structure id="o2948" name="phyllary">
+        <character name="count" value="many" constraint="in series" constraintid="o2949" />
+        <character char_type="range_value" name="shape" from="linear" to="ovate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="ovate" />
+      </structure>
+      <structure id="o2949" name="series">
+        <character char_type="range_value" name="count" from="4" to="5" />
+      </structure>
+      <structure id="o2950" name="base">
+        <character name="orientation" value="appressed" />
+      </structure>
+      <structure id="o2951" name="appendage" constraint="apical">
+        <character name="habit_or_texture" value="herbaceous" />
+        <character name="architecture" value="veiny" modifier="prominently" />
+        <character name="shape" value="spiny-dentate-or-lobed" />
+      </structure>
+    </statement>
+    <statement id="200.txt-8">
+      <text>Receptacles convex to conic, epaleate, bearing subulate scales.</text>
+      <structure id="o2952" name="receptacle">
+        <character char_type="range_value" name="shape" from="convex" to="conic" />
+        <character name="shape" value="convex" />
+        <character name="shape" value="conic" />
+        <character name="architecture" value="epaleate" />
+      </structure>
+      <structure id="o2953" name="scale">
+        <character name="shape" value="subulate" />
+      </structure>
+    </statement>
+    <statement id="200.txt-9">
+      <text>Florets 15–60+ ;</text>
+      <structure id="o2954" name="floret">
+        <character char_type="range_value" name="count" from="15" to="60" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="200.txt-10">
+      <text>corollas yellow to red or ± purple, tubes very slender, throats gradually or abruptly expanded, ± cylindric or short-campanulate, lobes linear;</text>
+      <structure id="o2955" name="corolla">
+        <character char_type="range_value" name="coloration" from="yellow" to="red" />
+        <character name="coloration" value="yellow" />
+        <character name="coloration" value="red" />
+        <character name="coloration" value="purple" modifier="±" />
+      </structure>
+      <structure id="o2956" name="tube">
+        <character name="size" value="slender" modifier="very" />
+      </structure>
+      <structure id="o2957" name="throat">
+        <character name="size" value="expanded" modifier="gradually abruptly" />
+        <character name="shape" value="cylindric" modifier="±" />
+        <character name="shape" value="short-campanulate" modifier="±" />
+      </structure>
+      <structure id="o2958" name="lobe">
+        <character name="arrangement_or_shape" value="linear" />
+      </structure>
+    </statement>
+    <statement id="200.txt-11">
+      <text>anther bases short-tailed, apical appendages oblong;</text>
+      <structure id="o2959" name="base" constraint="anther">
+        <character name="shape" value="short-tailed" />
+      </structure>
+      <structure id="o2960" name="appendage" constraint="apical">
+        <character name="shape" value="oblong" />
+      </structure>
+    </statement>
+    <statement id="200.txt-12">
+      <text>style branches:</text>
+      <structure id="o2961" name="branch" constraint="style" />
+    </statement>
+    <statement id="200.txt-13">
+      <text>fused portions with slightly swollen basal nodes minutely hairy, distally minutely papillate, distinct portions very short.</text>
+      <structure id="o2962" name="portion" constraint="fused">
+        <character name="relief_or_pubescence" value="papillate" modifier="distally minutely" />
+      </structure>
+      <structure id="o2963" name="node" constraint="basal">
+        <character name="shape" value="swollen" modifier="slightly" />
+        <character name="pubescence" value="hairy" modifier="minutely" />
+      </structure>
+      <relation id="r419" name="with" from="o2962" to="o2963" negation="false" />
+      <structure id="o2964" name="portion">
+        <character name="fusion" value="distinct" />
+        <character name="size" value="short" modifier="very" />
+      </structure>
+    </statement>
+    <statement id="200.txt-14">
+      <text>Cypselae oblong to obpyramidal, ± 4-angled, apices with smooth or dentate rims, faces usually ± roughened (outer) or smooth (inner), glabrous, attachment scars lateral;</text>
+      <structure id="o2965" name="cypsela">
+        <character char_type="range_value" name="shape" from="oblong" to="obpyramidal" />
+        <character name="shape" value="oblong" />
+        <character name="shape" value="obpyramidal" />
+        <character name="shape" value="4-angled" modifier="±" />
+      </structure>
+      <structure id="o2966" name="apex" />
+      <structure id="o2967" name="rim">
+        <character name="architecture_or_relief" value="smooth" />
+        <character name="shape" value="dentate" />
+      </structure>
+      <relation id="r420" name="with" from="o2966" to="o2967" negation="false" />
+      <structure id="o2968" name="face">
+        <character name="texture" value="roughened" modifier="usually ±" />
+        <character name="architecture_or_relief" value="smooth" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+      <structure id="o2969" name="scar" constraint="attachment">
+        <character name="insertion_or_position" value="lateral" />
+      </structure>
+    </statement>
+    <statement id="200.txt-15">
+      <text>pappi 0 or (usually only inner cypselae) ± persistent, of many, usually unequal, narrow scales overlapping in several series.</text>
+      <structure id="o2970" name="pappus">
+        <character name="count" value="0" />
+        <character name="duration" value="persistent" modifier="±" />
+      </structure>
+      <structure id="o2971" name="scale">
+        <character name="count" value="many" />
+        <character name="size" value="unequal" modifier="usually" />
+        <character name="size" value="narrow" />
+        <character name="aestivation_or_arrangement" value="overlapping" constraint="in series" constraintid="o2972" />
+      </structure>
+      <relation id="r421" name="consist_of" from="o2970" to="o2971" negation="false" />
+      <structure id="o2972" name="series">
+        <character name="count" value="several" />
+      </structure>
+    </statement>
+    <statement id="200.txt-16">
+      <text>x = 10, 12.</text>
+      <structure id="o2973" name="chromosome">
+        <character name="count" value="10" />
+        <character name="count" value="12" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species 14 (4 in the flora):</number_of_infrataxa>
+  <introduced>introduced;</introduced>
+  <general_distribution>United States</general_distribution>
+  <general_distribution>Mediterranean region.</general_distribution>
+  <references>SELECTED REFERENCES Ashri, A. and P. F. Knowles. 1959. Further notes on Carthamus in California. Leafl. W. Bot. 9: 5–8. Ashri, A. and P. F. Knowles. 1960. Cytogenetics of safflower (Carthamus L.) species and their hybrids. Agron. J. 52: 11–17. Hanelt, P. 1963. Monographisch Übersicht der Gattung Carthamus L. (Compositae). Feddes Repert. Spec. Nov. Regni Veg. 67: 41–180. Hanelt, P. 1976. Carthamus. In: T. G. Tutin et al., eds. 1964–1980. Flora Europaea. 5 vols. Cambridge. Vol. 4, pp. 302–303. Khidir, M. O. and P. F. Knowles. 1970. Cytogenetic studies of Carthamus species (Compositae) with 32 pairs of chromosomes. I. Intrasectional hybridization. Amer. J. Bot. 57: 123–129. Khidir, M. O. and P. F. Knowles. 1970b. Cytogenetic studies of Carthamus species (Compositae) with 32 pairs of chromosomes. II. Intersectional hybridization. Canad. J. Genet. Cytol. 12: 90–99.</references>
+  <key>1.Corollas pink or pale purple; cauline leaves ± deeply lobed1. Carthamus leucocaulos</key>
+  <key>1.Corollas yellow to red; cauline leaves toothed to deeply lobed.</key>
+  <key>2.Cauline leaves toothed, otherwise undivided, weakly spiny; corollas yellow to red; cypselae white4. Carthamus tinctorius</key>
+  <key>2.Cauline leaves ± divided, very spiny; corollas yellow; cypselae brown.</key>
+  <key>3.Anthers yellow, pollen yellow; corollas bright yellow; outer phyllaries usually not more than 1.5 times as long as inner; herbage ± cobwebby; stems stramineous 2. Carthamus lanatus</key>
+  <key>3.Anthers white with purple lines, pollen white; corollas pale yellow; outer phyl-laries usually 2 times as long as inner; herbage ± sparsely hairy; stems white or stramineous3. Carthamus creticus</key>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

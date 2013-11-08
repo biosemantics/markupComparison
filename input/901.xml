@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>33a.</number>
+  <subspecies_name>Artemisia globularia Chamisso ex Besser subsp. globularia</subspecies_name>
+  <description>
+    <statement id="901.txt-0">
+      <text>Flowering stems 2–12(–16) cm.</text>
+      <structure id="o18689" name="stem" constraint="flowering">
+        <character char_type="range_value" name="atypical_size" from="12" to="16" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="2" from_unit="cm" to="12" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="901.txt-1">
+      <text>Corollas reddish black, eglandular.</text>
+      <structure id="o18690" name="corolla">
+        <character name="coloration" value="black" modifier="reddish" />
+        <character name="architecture" value="eglandular" />
+      </structure>
+    </statement>
+    <statement id="901.txt-2">
+      <text>Cypselae ca. 2.5 mm, margins with relatively narrow ribs.</text>
+      <structure id="o18691" name="cypsela">
+        <character name="size" value="2.5" unit="mm" />
+      </structure>
+      <structure id="o18692" name="margin" />
+      <structure id="o18693" name="rib">
+        <character name="size" value="narrow" modifier="relatively" />
+      </structure>
+      <relation id="r1979" name="with" from="o18692" to="o18693" negation="false" />
+    </statement>
+    <statement id="901.txt-3">
+      <text>2 n = 18, 36.</text>
+      <structure id="o18694" name="chromosome">
+        <character name="count" value="18" />
+        <character name="count" value="36" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>late summer</flowering_time>
+  <habitat>arctic and alpine tundra</habitat>
+  <habitat>interior mountains</habitat>
+  <elevation>200–1300 m;</elevation>
+  <ca_distribution>Yukon</ca_distribution>
+  <us_distribution>Alaska</us_distribution>
+  <global_distribution>e Asia (Russian Far East).</global_distribution>
+  <discussion>The red color of the glabrous corollas and the larger heads of subsp. globularia distinguish it from the morphologically similar Artemisia glomerata.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

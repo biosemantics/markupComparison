@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>4b.</number>
+  <subspecies_name>Antennaria luzuloides Torrey &amp; A. Gray subsp. luzuloides</subspecies_name>
+  <synonym_of_subspecies_name>Antennaria luzuloides var . oblanceolata (Rydberg) M. Peck; A. oblanceolata Rydberg</synonym_of_subspecies_name>
+  <description>
+    <statement id="631.txt-0">
+      <text>Basal leaves (1–)3-nerved, linear to narrowly spatulate, 2–10 mm.</text>
+      <structure id="o13228" name="leaf" constraint="basal">
+        <character name="architecture" value="(1-)3-nerved" />
+        <character char_type="range_value" name="shape" from="linear" to="narrowly spatulate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="spatulate" modifier="narrowly" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="631.txt-1">
+      <text>Heads 10–110+ in corymbiform arrays.</text>
+      <structure id="o13229" name="head">
+        <character char_type="range_value" name="count" from="10" to="110" upper_restricted="false" constraint="in arrays" constraintid="o13230" />
+      </structure>
+      <structure id="o13230" name="array">
+        <character name="architecture" value="corymbiform" />
+      </structure>
+    </statement>
+    <statement id="631.txt-2">
+      <text>Involucres :</text>
+      <structure id="o13231" name="involucre" />
+    </statement>
+    <statement id="631.txt-3">
+      <text>staminate 4–5.5 mm;</text>
+      <structure id="o13232" name="involucre" constraint="staminate">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="5.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="631.txt-4">
+      <text>pistillate 5–6.5 mm.</text>
+      <structure id="o13233" name="involucre" constraint="pistillate">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="6.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="631.txt-5">
+      <text>Phyllaries proximally golden brown, distally white.</text>
+      <structure id="o13234" name="phyllary">
+        <character name="coloration" value="brown" modifier="proximally;golden" />
+        <character name="coloration" value="white" modifier="distally" />
+      </structure>
+    </statement>
+    <statement id="631.txt-6">
+      <text>Corollas :</text>
+      <structure id="o13235" name="corolla" />
+    </statement>
+    <statement id="631.txt-7">
+      <text>staminate 3–4 mm;</text>
+      <structure id="o13236" name="corolla" constraint="staminate">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="631.txt-8">
+      <text>pistillate 2.5–4 mm.</text>
+      <structure id="o13237" name="corolla" constraint="pistillate">
+        <character char_type="range_value" name="size" from="2.5" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="631.txt-9">
+      <text>Cypselae 1–2 mm, sparingly papillate;</text>
+      <structure id="o13238" name="cypsela">
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="2" to_unit="mm" />
+        <character name="relief_or_pubescence" value="papillate" modifier="sparingly" />
+      </structure>
+    </statement>
+    <statement id="631.txt-10">
+      <text>pappi :</text>
+      <structure id="o13239" name="pappus" />
+    </statement>
+    <statement id="631.txt-11">
+      <text>staminate 3–4.5 mm;</text>
+      <structure id="o13240" name="pappus" constraint="staminate">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="4.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="631.txt-12">
+      <text>pistillate 3–4 mm.</text>
+      <structure id="o13241" name="pappus" constraint="pistillate">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>semidry meadows and drainages</habitat>
+  <habitat>lower montane</habitat>
+  <habitat>ponderosa pine zone</habitat>
+  <elevation>900–3200 m;</elevation>
+  <ca_distribution>Alta.</ca_distribution>
+  <ca_distribution>B.C.</ca_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>S.Dak.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <discussion>Subspecies luzuloides is characterized by non-stoloniferous habit and relatively small heads in corymbiform arrays.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

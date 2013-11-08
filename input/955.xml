@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>129.</number>
+  <genus_name>TRIPLEUROSPERMUM</genus_name>
+  <authority>Schultz-Bipontinus</authority>
+  <place_of_publication>Tanaceteen, 31. 1844</place_of_publication>
+  <common_name>Mayweed</common_name>
+  <derivation>Greek tri- , three-, pleuro- , ribbed, and sperma , seed, alluding to strongly 3-ribbed cypselae</derivation>
+  <author_of_tribe_genus>Luc Brouillet</author_of_tribe_genus>
+  <description>
+    <statement id="955.txt-0">
+      <text>Annuals, biennials, or perennials, 5–80 cm (taprooted; scentless or nearly so).</text>
+      <structure id="o19704" name="whole_organism">
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="80" to_unit="cm" />
+        <character name="life_style" value="annual" />
+        <character name="life_style" value="biennial" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="955.txt-1">
+      <text>Stems 1–5+, usually erect or ascending, sometimes procumbent, branched or simple, glabrous or sparsely hairy (hairs basifixed).</text>
+      <structure id="o19707" name="stem">
+        <character char_type="range_value" name="count" from="1" to="5" upper_restricted="false" />
+        <character name="orientation" value="erect" modifier="usually" />
+        <character name="orientation" value="ascending" modifier="usually" />
+        <character name="habit" value="procumbent" modifier="sometimes" />
+        <character name="architecture" value="branched" />
+        <character name="architecture" value="simple" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="hairy" modifier="sparsely" />
+      </structure>
+    </statement>
+    <statement id="955.txt-2">
+      <text>Leaves (not marcescent) basal (usually withering by flowering) and cauline;</text>
+    </statement>
+    <statement id="955.txt-3">
+      <text>petiolate or sessile;</text>
+      <structure id="o19708" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="architecture" value="petiolate" />
+        <character name="architecture" value="sessile" />
+      </structure>
+    </statement>
+    <statement id="955.txt-4">
+      <text>blades oblong, 1–3-pinnately lobed, ultimate margins crenate or serrate, faces glabrous or sparsely hairy.</text>
+      <structure id="o19709" name="blade">
+        <character name="shape" value="oblong" />
+        <character name="shape" value="lobed" modifier="1-3-pinnately" />
+      </structure>
+      <structure id="o19710" name="margin" constraint="ultimate">
+        <character name="shape" value="crenate" />
+        <character name="shape" value="serrate" />
+      </structure>
+      <structure id="o19711" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="hairy" modifier="sparsely" />
+      </structure>
+    </statement>
+    <statement id="955.txt-5">
+      <text>Heads radiate [discoid or disciform], borne singly or in corymbiform arrays.</text>
+      <structure id="o19712" name="head">
+        <character name="architecture_or_arrangement" value="radiate" />
+        <character name="arrangement" value="singly" />
+        <character name="arrangement" value="in corymbiform arrays" />
+      </structure>
+      <structure id="o19713" name="array">
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <relation id="r2055" name="in" from="o19712" to="o19713" negation="false" />
+    </statement>
+    <statement id="955.txt-6">
+      <text>Involucres hemispheric to patelliform, 8–12+ mm diam.</text>
+      <structure id="o19714" name="involucre">
+        <character char_type="range_value" name="shape" from="hemispheric" to="patelliform" />
+        <character name="shape" value="hemispheric" />
+        <character name="shape" value="patelliform" />
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="12" to_unit="mm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="955.txt-7">
+      <text>Phyllaries persistent, 28–60+ in 2–5 series, distinct, broadly ovate, unequal to subequal, margins and apices (pale to dark brown or black) narrowly to widely scarious (abaxial faces glabrous).</text>
+      <structure id="o19715" name="phyllary">
+        <character name="duration" value="persistent" />
+        <character char_type="range_value" name="count" from="28" to="60" upper_restricted="false" constraint="in series" constraintid="o19716" />
+        <character name="fusion" value="distinct" />
+        <character name="shape" value="ovate" modifier="broadly" />
+        <character char_type="range_value" name="size" from="unequal" to="subequal" />
+        <character name="size" value="unequal" />
+        <character name="size" value="subequal" />
+      </structure>
+      <structure id="o19716" name="series">
+        <character char_type="range_value" name="count" from="2" to="5" />
+      </structure>
+      <structure id="o19717" name="margin" />
+      <structure id="o19718" name="apex">
+        <character name="texture" value="scarious" modifier="narrowly widely" />
+      </structure>
+    </statement>
+    <statement id="955.txt-8">
+      <text>Receptacles convex to conic (± solid), epaleate.</text>
+      <structure id="o19719" name="receptacle">
+        <character char_type="range_value" name="shape" from="convex" to="conic" />
+        <character name="shape" value="convex" />
+        <character name="shape" value="conic" />
+        <character name="architecture" value="epaleate" />
+      </structure>
+    </statement>
+    <statement id="955.txt-9">
+      <text>Ray florets [0] 10–34+, pistillate, fertile;</text>
+      <structure id="o19720" name="floret" constraint="ray">
+        <character name="atypical_count" value="0" />
+        <character char_type="range_value" name="count" from="10" to="34" upper_restricted="false" />
+        <character name="architecture" value="pistillate" />
+        <character name="reproduction" value="fertile" />
+      </structure>
+    </statement>
+    <statement id="955.txt-10">
+      <text>corollas white [seldom pinkish], laminae mostly oblong.</text>
+      <structure id="o19721" name="corolla">
+        <character name="coloration" value="white" />
+      </structure>
+      <structure id="o19722" name="lamina">
+        <character name="shape" value="oblong" modifier="mostly" />
+      </structure>
+    </statement>
+    <statement id="955.txt-11">
+      <text>Disc florets 300–500, bisexual, fertile;</text>
+      <structure id="o19723" name="floret" constraint="disc">
+        <character char_type="range_value" name="count" from="300" to="500" />
+        <character name="reproduction" value="bisexual" />
+        <character name="reproduction" value="fertile" />
+      </structure>
+    </statement>
+    <statement id="955.txt-12">
+      <text>corollas yellow [greenish], tubes cylindric (sessile-glandular), throats narrowly campanulate (cylindric or compressed), lobes 5, deltate (with resin sacs).</text>
+      <structure id="o19724" name="corolla">
+        <character name="coloration" value="yellow" />
+      </structure>
+      <structure id="o19725" name="tube">
+        <character name="shape" value="cylindric" />
+      </structure>
+      <structure id="o19726" name="throat">
+        <character name="shape" value="campanulate" modifier="narrowly" />
+      </structure>
+      <structure id="o19727" name="lobe">
+        <character name="count" value="5" />
+        <character name="shape" value="deltate" />
+      </structure>
+    </statement>
+    <statement id="955.txt-13">
+      <text>Cypselae trigonous, ± compressed (apices truncate), ribs 3–5 (0–2 abaxial, 2 lateral, 1 adaxial, usually whitish, relatively thick, smooth), faces often rugose or tuberculate abaxially and between ribs and glabrous (pericarps sometimes with myxogenic cells and usually 2–3, sometimes 1–5, abaxial-apical resin sacs; embryo sac development tetrasporic);</text>
+      <structure id="o19728" name="cypsela">
+        <character name="shape" value="trigonous" />
+        <character name="shape" value="compressed" modifier="±" />
+      </structure>
+      <structure id="o19729" name="rib">
+        <character char_type="range_value" name="count" from="3" to="5" />
+      </structure>
+      <structure id="o19730" name="face">
+        <character name="relief" value="rugose" modifier="often abaxially" />
+        <character name="relief" value="tuberculate" modifier="often abaxially" constraint="between ribs" constraintid="o19731" />
+      </structure>
+      <structure id="o19731" name="rib">
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="955.txt-14">
+      <text>pappi 0 [coroniform or each an adaxial auricle].</text>
+      <structure id="o19732" name="pappus">
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+    <statement id="955.txt-15">
+      <text>x = 9.</text>
+      <structure id="o19733" name="chromosome">
+        <character name="count" value="9" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species ca. 40 (2 in the flora):</number_of_infrataxa>
+  <general_distribution>North America</general_distribution>
+  <general_distribution>Eurasia</general_distribution>
+  <general_distribution>North Africa</general_distribution>
+  <general_distribution>introduced in New Zealand</general_distribution>
+  <general_distribution>one species widespread as a weed.</general_distribution>
+  <discussion>Tripleurospermum often has been included within Matricaria. It is distinguished from the latter by 3-ribbed cypselae with 2 abaxial-apical resin sacs versus 5-ribbed cypselae without apical sacs, and by production of 7-glycoside flavonols versus 3-glycosides (K. Bremer and C. J. Humphries 1993). C. Oberprieler (2001) showed that Tripleurospermum is closely related to Anthemis in the strict sense and not to Matricaria. This is supported by the tetrasporic embryo sac shared by Tripleurospermum and Anthemis (versus monosporic in Matricaria and other anthemid genera), similarity of karyotype, and the presence in both genera of matricaria ester in the polyacetylene pathway, otherwise unknown in the tribe.</discussion>
+  <discussion>Although W. L. Applequist (2002) favored a single species, Tripleurospermum maritimum, for the three taxa (as subspecies) present in North America, based in large parts on the findings of A. Vaarama (1953) on crossing ability among these taxa, on the existence of hybrid populations, and on the (mistaken) supposition that they form a polyploid series, some recent authors (e.g., Q. O. N. Kay 1976b, 1994; A. R. Clapham et al. 1987; E. G. Voss 1972–1996, vol. 3) have maintained two species based on morphologic characters, notably perennial versus annual habit, spacing of ribs (closer versus wider), elongate versus ± circular resin sacs on cypselae, relative infrequency of hybrid populations, and relative sterility of some hybrid individuals, as well as both species harboring diploid and tetraploid populations (Clapham et al.; Kay 1994). Success in interbreeding among plants does not always indicate conspecific status. In North America, authors such as M. L. Fernald (1950) and H. A. Gleason and A. Cronquist (1991) treated (in Matricaria) T. inodorum and T. maritimum subsp. maritimum as a single species with varieties or as a single entity, resulting in confusion about the distinctness of the two taxa in their ranges of introduction, and also difficulty in recognizing the presence of T. inodorum in areas where T. maritimum subsp. maritimum is present in coastal northeastern United States (e.g., D. W. Magee and H. E. Ahles 1999). N. N. Tzvelev (2002b) segregated the subspecies of T. maritimum as species; under his scheme, three species are present in North America: T. inodorum, T. maritimum in the strict sense, and T. hookeri (= T. maritimum subsp. phaeocephalum). Pending further taxonomic work on this complex, I have here retained the taxonomy (except generic assignment) adopted by Kay (1976b), with two species, one including two subspecies.</discussion>
+  <key>1.Annuals (sometimes biennials or perennials); stems ascending to erect; ultimate leaf lobes not fleshy; cypselae: ribs separated by at least 1/3 their widths, resin glands ± circular (lengths mostly 1–1.5 times widths); scarious margins of phyllaries light brown, relatively narrow; cultivated and waste grounds1. Tripleurospermum inodorum</key>
+  <key>1.Perennials (or biennials); stems usually procumbent, sometimes ascending; ultimate leaf lobes fleshy; cypselae: ribs contiguous or separated by less than 1/4 their widths, resin glands ± elongate (lengths 2+ times widths); scarious margins of phyllaries pale to dark brown, relatively wide; open coastal habitats2. Tripleurospermum maritimum</key>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Pinaropappus parvus</species_name>
+  <authority>S. F. Blake</authority>
+  <place_of_publication>Contr. U.S. Natl. Herb. 22: 655. 1924</place_of_publication>
+  <common_name>Small rocklettuce</common_name>
+  <description>
+    <statement id="605.txt-0">
+      <text>Perennials, 3–7 cm (forming dense clumps and mats).</text>
+      <structure id="o12624" name="whole_organism">
+        <character char_type="range_value" name="size" from="3" from_unit="cm" to="7" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="605.txt-1">
+      <text>Stems 3–10+, bases relatively think.</text>
+      <structure id="o12625" name="stem">
+        <character char_type="range_value" name="count" from="3" to="10" upper_restricted="false" />
+      </structure>
+      <structure id="o12626" name="base" />
+    </statement>
+    <statement id="605.txt-2">
+      <text>Leaf blades linear - oblanceolate, 2–5 cm × 1–3 mm;</text>
+      <structure id="o12627" name="blade" constraint="leaf">
+        <character name="shape" value="linear-oblanceolate" />
+        <character char_type="range_value" name="length" from="2" from_unit="cm" to="5" to_unit="cm" />
+        <character char_type="range_value" name="width" from="1" from_unit="mm" to="3" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="605.txt-3">
+      <text>cauline progressively reduced to linear bracts.</text>
+      <structure id="o12628" name="blade" constraint="cauline leaf">
+        <character name="size" value="reduced" modifier="progressively" />
+      </structure>
+      <structure id="o12629" name="bract">
+        <character name="arrangement_or_shape" value="linear" />
+      </structure>
+    </statement>
+    <statement id="605.txt-4">
+      <text>Involucres narrowly cylindric, 8–10 × 3–5 mm.</text>
+      <structure id="o12630" name="involucre">
+        <character name="shape" value="cylindric" modifier="narrowly" />
+        <character char_type="range_value" name="length" from="8" from_unit="mm" to="10" to_unit="mm" />
+        <character char_type="range_value" name="width" from="3" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="605.txt-5">
+      <text>Phyllaries purplish (margins white), broadly lanceolate, 6–8 mm, apices purple to dull brown (necrotic), acute.</text>
+      <structure id="o12631" name="phyllary">
+        <character name="coloration" value="purplish" />
+        <character name="shape" value="lanceolate" modifier="broadly" />
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+      <structure id="o12632" name="apex">
+        <character char_type="range_value" name="coloration" from="purple" to="dull-brown" />
+        <character name="coloration" value="purple" />
+        <character name="coloration" value="brown" modifier="dull" />
+        <character name="shape" value="acute" />
+      </structure>
+    </statement>
+    <statement id="605.txt-6">
+      <text>Paleae 7–8 mm.</text>
+      <structure id="o12633" name="palea">
+        <character char_type="range_value" name="size" from="7" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="605.txt-7">
+      <text>Florets 20–30;</text>
+      <structure id="o12634" name="floret">
+        <character char_type="range_value" name="count" from="20" to="30" />
+      </structure>
+    </statement>
+    <statement id="605.txt-8">
+      <text>corollas pink , 6–8 mm.</text>
+      <structure id="o12635" name="corolla">
+        <character name="coloration" value="pink" />
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="605.txt-9">
+      <text>Cypselae 4–5 mm;</text>
+      <structure id="o12636" name="cypsela">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="605.txt-10">
+      <text>pappi 2–3 mm.</text>
+      <structure id="o12637" name="pappus">
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="3" to_unit="mm" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <habitat>exposed slopes</habitat>
+  <habitat>rocky ledges</habitat>
+  <habitat>limestone cliffs</habitat>
+  <elevation>1800–2200 m;</elevation>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <discussion>Pinaropappus parvus is easily recognized by the extremely dense clumping habit, relatively short stems, and relatively small heads. At flowering, the phyllaries are usually purple in the center with scarious margins and purple to dull brown tips.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

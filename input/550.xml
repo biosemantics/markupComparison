@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>2.</number>
+  <species_name>Stephanomeria diegensis</species_name>
+  <authority>Gottlieb</authority>
+  <place_of_publication>Madroño 21: 476, figs. 2,3. 1972</place_of_publication>
+  <common_name>San Diego wirelettuce</common_name>
+  <description>
+    <statement id="550.txt-0">
+      <text>Annuals, 50–200 cm.</text>
+      <structure id="o11348" name="whole_organism">
+        <character char_type="range_value" name="size" from="50" from_unit="cm" to="200" to_unit="cm" />
+        <character name="life_style" value="annual" />
+      </structure>
+    </statement>
+    <statement id="550.txt-1">
+      <text>Stems single, branches ascending or spreading, glabrous.</text>
+      <structure id="o11349" name="stem">
+        <character name="count" value="single" />
+      </structure>
+      <structure id="o11350" name="branch">
+        <character name="orientation" value="ascending" />
+        <character name="orientation" value="spreading" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="550.txt-2">
+      <text>Leaves withered at flowering (glabrous) ;</text>
+      <structure id="o11351" name="leaf">
+        <character name="duration" value="withered" modifier="at flowering" />
+      </structure>
+    </statement>
+    <statement id="550.txt-3">
+      <text>basal blades linear to oblanceolate, runcinate , 3–10 cm, margins pinnately lobed ;</text>
+      <structure id="o11352" name="blade" constraint="basal">
+        <character name="arrangement_or_shape" value="linear" />
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="runcinate" />
+        <character char_type="range_value" name="size" from="3" from_unit="cm" to="10" to_unit="cm" />
+      </structure>
+      <structure id="o11353" name="margin">
+        <character name="shape" value="lobed" modifier="pinnately" />
+      </structure>
+    </statement>
+    <statement id="550.txt-4">
+      <text>cauline much reduced, bractlike .</text>
+      <structure id="o11354" name="leaf" constraint="cauline">
+        <character name="size" value="reduced" modifier="much" />
+        <character name="shape" value="bractlike" />
+      </structure>
+    </statement>
+    <statement id="550.txt-5">
+      <text>Heads borne singly or clustered along branches .</text>
+      <structure id="o11355" name="head">
+        <character name="arrangement" value="clustered" constraint="along branches" constraintid="o11356" />
+      </structure>
+      <structure id="o11356" name="branch" />
+    </statement>
+    <statement id="550.txt-6">
+      <text>Peduncles 3–4 mm.</text>
+      <structure id="o11357" name="peduncle">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="550.txt-7">
+      <text>Calyculi of reflexed bractlets.</text>
+      <structure id="o11358" name="calyculus" />
+      <structure id="o11359" name="bractlet">
+        <character name="orientation" value="reflexed" />
+      </structure>
+      <relation id="r1298" name="consist_of" from="o11358" to="o11359" negation="false" />
+    </statement>
+    <statement id="550.txt-8">
+      <text>Involucres 7–9 mm (sparsely glandular-puberulent).</text>
+      <structure id="o11360" name="involucre">
+        <character char_type="range_value" name="size" from="7" from_unit="mm" to="9" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="550.txt-9">
+      <text>Florets 11–13.</text>
+      <structure id="o11361" name="floret">
+        <character char_type="range_value" name="count" from="11" to="13" />
+      </structure>
+    </statement>
+    <statement id="550.txt-10">
+      <text>Cypselae light tan to brown, 1.9–2.3 mm, faces smooth, slightly bumpy or tuberculate, grooved;</text>
+      <structure id="o11362" name="cypsela">
+        <character char_type="range_value" name="coloration" from="light-tan" to="brown" />
+        <character name="coloration" value="tan" modifier="light" />
+        <character name="coloration" value="brown" />
+        <character char_type="range_value" name="size" from="1.9" from_unit="mm" to="2.3" to_unit="mm" />
+      </structure>
+      <structure id="o11363" name="face">
+        <character name="architecture_or_relief" value="smooth" />
+        <character name="texture" value="bumpy" modifier="slightly" />
+        <character name="relief" value="tuberculate" />
+        <character name="architecture" value="grooved" />
+      </structure>
+    </statement>
+    <statement id="550.txt-11">
+      <text>pappi of 19–21, white bristles (falling), plumose on distal 80–85%.</text>
+      <structure id="o11364" name="pappus">
+        <character name="architecture" value="plumose" modifier="on distal 80-85%" />
+      </structure>
+      <structure id="o11365" name="bristle">
+        <character char_type="range_value" name="count" from="19" to="21" />
+        <character name="coloration" value="white" />
+      </structure>
+      <relation id="r1299" name="consist_of" from="o11364" to="o11365" negation="false" />
+    </statement>
+    <statement id="550.txt-12">
+      <text>2 n = 16.</text>
+      <structure id="o11366" name="chromosome">
+        <character name="count" value="16" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <flowering_time>nov</flowering_time>
+  <habitat>open, pioneer sites such as old clearings</habitat>
+  <habitat>sand dunes</habitat>
+  <habitat>coastal sage communities</habitat>
+  <habitat>chaparral openings</habitat>
+  <habitat>and sandy roadside embankments</habitat>
+  <elevation>20–600 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <global_distribution>Mexico (Baja California).</global_distribution>
+  <discussion>The morphologic characteristics of Stephanomeria diegensis are a combination of those of S. exigua and S. virgata, and the species is thought to have evolved from genetic segregates of their hybridization (L. D. Gottlieb 1971; G. P. Gallez and Gottlieb 1982).</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

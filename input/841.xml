@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>4.</number>
+  <species_name>Sphaeromeria ruthiae</species_name>
+  <authority>A. H. Holmgren</authority>
+  <place_of_publication>L. M. Shultz &amp; Lowrey, Brittonia 28: 257, fig. 1. 1976</place_of_publication>
+  <common_name>Zion chickensage or tansy</common_name>
+  <description>
+    <statement id="841.txt-0">
+      <text>Subshrubs, 30–60(–70) cm (aromatic).</text>
+      <structure id="o17704" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="60" to="70" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="30" from_unit="cm" to="60" to_unit="cm" />
+        <character name="life_style" value="subshrub" />
+      </structure>
+    </statement>
+    <statement id="841.txt-1">
+      <text>Stems erect to ± decumbent at bases, tomentose.</text>
+      <structure id="o17705" name="stem">
+        <character name="orientation" value="erect" />
+        <character name="habit" value="decumbent" modifier="±" constraint="at bases" constraintid="o17706" />
+        <character name="pubescence" value="tomentose" />
+      </structure>
+      <structure id="o17706" name="base" />
+    </statement>
+    <statement id="841.txt-2">
+      <text>Leaves mostly cauline;</text>
+      <structure id="o17707" name="leaf">
+        <character name="insertion_or_position" value="cauline" modifier="mostly" />
+      </structure>
+    </statement>
+    <statement id="841.txt-3">
+      <text>blades (20–90 mm) 1-pinnately lobed to 3-fid (proximal) or entire (distal), faces tomentose-canescent and gland-dotted.</text>
+      <structure id="o17708" name="blade">
+        <character char_type="range_value" name="shape" from="1-pinnately lobed" to="3-fid or entire" />
+        <character name="shape" value="lobed" modifier="1-pinnately" />
+        <character name="shape" value="3-fid" modifier="1-pinnately" />
+        <character name="shape" value="entire" modifier="1-pinnately" />
+      </structure>
+      <structure id="o17709" name="face">
+        <character name="pubescence" value="tomentose-canescent" />
+        <character name="coloration_or_relief" value="gland-dotted" />
+      </structure>
+    </statement>
+    <statement id="841.txt-4">
+      <text>Heads (8–)10–30(–60) in paniculiform arrays (longer than wide).</text>
+      <structure id="o17710" name="head">
+        <character char_type="range_value" name="atypical_count" from="8" to="10" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_count" from="30" to="60" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="10" to="30" constraint="in arrays" constraintid="o17711" />
+      </structure>
+      <structure id="o17711" name="array">
+        <character name="architecture" value="paniculiform" />
+      </structure>
+    </statement>
+    <statement id="841.txt-5">
+      <text>Involucres 4–4.5(–5) mm.</text>
+      <structure id="o17712" name="involucre">
+        <character char_type="range_value" name="atypical_size" from="4.5" to="5" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="4.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="841.txt-6">
+      <text>Phyllaries 12–16, densely tomentose.</text>
+      <structure id="o17713" name="phyllary">
+        <character char_type="range_value" name="count" from="12" to="16" />
+        <character name="pubescence" value="tomentose" modifier="densely" />
+      </structure>
+    </statement>
+    <statement id="841.txt-7">
+      <text>Cypselae 1.5–2 mm (obscurely 10-ribbed, apices with thickened rims, faces gland-dotted).</text>
+      <structure id="o17714" name="cypsela">
+        <character char_type="range_value" name="size" from="1.5" from_unit="mm" to="2" to_unit="mm" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>crevices in sandstone cliffs</habitat>
+  <elevation>1900–2000 m;</elevation>
+  <us_distribution>Utah.</us_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

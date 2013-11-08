@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>3.</number>
+  <species_name>Microseris laciniata</species_name>
+  <authority>(Hooker) Schultz-Bipontinus</authority>
+  <place_of_publication>Jahresber. Pollichia 22–24: 309. 1866</place_of_publication>
+  <common_name>Cutleaf or cut-leaved silverpuffs</common_name>
+  <synonym_of_species_name>Hymenonema laciniatum Hooker, Fl. Bor.-Amer. 1: 301. 1833; Scorzonella laciniata (Hooker) Nuttall</synonym_of_species_name>
+  <description>
+    <statement id="524.txt-0">
+      <text>Perennials, 15–120 cm;</text>
+    </statement>
+    <statement id="524.txt-1">
+      <text>taprooted.</text>
+      <structure id="o10779" name="whole_organism">
+        <character char_type="range_value" name="size" from="15" from_unit="cm" to="120" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+        <character name="architecture" value="taprooted" />
+      </structure>
+    </statement>
+    <statement id="524.txt-2">
+      <text>Stems branched and leafy distally, or simple and leafy only proximally (subsp. detlingii and plants of extreme environments).</text>
+      <structure id="o10780" name="stem">
+        <character name="architecture_or_shape" value="branched" />
+        <character name="architecture" value="leafy" modifier="distally" />
+        <character name="architecture" value="simple" />
+        <character name="architecture" value="leafy" modifier="only proximally" />
+      </structure>
+    </statement>
+    <statement id="524.txt-3">
+      <text>Leaves basal and cauline;</text>
+    </statement>
+    <statement id="524.txt-4">
+      <text>petiolate (distal often sessile, clasping);</text>
+      <structure id="o10781" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="architecture" value="petiolate" />
+      </structure>
+    </statement>
+    <statement id="524.txt-5">
+      <text>blades linear to broadly lanceolate, 10–50 cm, margins entire, dentate, lacerate, or pinnatifid, apices obtuse to acuminate, faces glabrous or scurfy-puberulent.</text>
+      <structure id="o10782" name="blade">
+        <character char_type="range_value" name="shape" from="linear" to="broadly lanceolate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="lanceolate" modifier="broadly" />
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="50" to_unit="cm" />
+      </structure>
+      <structure id="o10783" name="margin">
+        <character name="shape" value="entire" />
+        <character name="shape" value="dentate" />
+        <character name="shape" value="lacerate" />
+        <character name="shape" value="pinnatifid" />
+      </structure>
+      <structure id="o10784" name="apex">
+        <character char_type="range_value" name="shape" from="obtuse" to="acuminate" />
+        <character name="shape" value="obtuse" />
+        <character name="shape" value="acuminate" />
+      </structure>
+      <structure id="o10785" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="scurfy-puberulent" />
+      </structure>
+    </statement>
+    <statement id="524.txt-6">
+      <text>Peduncles erect or curved-ascending, ebracteate or leafy (10–70 cm).</text>
+      <structure id="o10786" name="peduncle">
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="curved-ascending" />
+        <character name="architecture" value="ebracteate" />
+        <character name="architecture" value="leafy" />
+      </structure>
+    </statement>
+    <statement id="524.txt-7">
+      <text>Involucres globose to narrowly ovoid in fruit, 10–30 mm.</text>
+      <structure id="o10787" name="involucre">
+        <character char_type="range_value" name="shape" from="globose" to="narrowly ovoid" />
+        <character name="shape" value="globose" />
+        <character name="shape" value="ovoid" modifier="narrowly" constraint="in fruit" constraintid="o10788" />
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="30" to_unit="mm" />
+      </structure>
+      <structure id="o10788" name="fruit" />
+    </statement>
+    <statement id="524.txt-8">
+      <text>Phyllaries:</text>
+    </statement>
+    <statement id="524.txt-9">
+      <text>often purple-spotted (especially in subsp. laciniata ), apices erect , abaxial faces glabrous or scurfy-puberulent (often black-villous in subsp. leptosepala );</text>
+      <structure id="o10789" name="phyllary">
+        <character name="coloration" value="spotted" modifier="often;purple" />
+      </structure>
+      <structure id="o10790" name="apex">
+        <character name="orientation" value="erect" />
+      </structure>
+      <structure id="o10791" name="face" constraint="abaxial">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="scurfy-puberulent" />
+      </structure>
+    </statement>
+    <statement id="524.txt-10">
+      <text>outer lanceolate to broadly ovate, deltate, or linear, slightly to much shorter than inner, 0.5–9 mm wide , apices cuspidate to acute;</text>
+      <structure id="o10792" name="phyllary" constraint="outer">
+        <character name="size" value="shorter" modifier="slightly much" constraint="than inner phyllary" constraintid="o10793" />
+        <character char_type="range_value" name="size" from="0.5" from_unit="mm" to="9" to_unit="mm" />
+      </structure>
+      <structure id="o10793" name="phyllary" constraint="inner" />
+      <structure id="o10794" name="apex">
+        <character char_type="range_value" name="shape" from="cuspidate" to="acute" />
+        <character name="shape" value="cuspidate" />
+        <character name="shape" value="acute" />
+      </structure>
+    </statement>
+    <statement id="524.txt-11">
+      <text>inner broadly to narrowly lanceolate, apices acuminate.</text>
+      <structure id="o10795" name="phyllary" constraint="inner">
+        <character name="shape" value="lanceolate" modifier="broadly narrowly" />
+      </structure>
+      <structure id="o10796" name="apex">
+        <character name="shape" value="acuminate" />
+      </structure>
+    </statement>
+    <statement id="524.txt-12">
+      <text>Florets 13–300;</text>
+      <structure id="o10797" name="floret">
+        <character char_type="range_value" name="count" from="13" to="300" />
+      </structure>
+    </statement>
+    <statement id="524.txt-13">
+      <text>corollas yellow, surpassing phyllaries by 5+ mm.</text>
+      <structure id="o10798" name="corolla">
+        <character name="coloration" value="yellow" />
+      </structure>
+      <structure id="o10799" name="phyllary" constraint="by 5+ mm">
+        <character name="comparison" value="surpassing" />
+      </structure>
+    </statement>
+    <statement id="524.txt-14">
+      <text>Cypselae columnar, 3.5–8 mm (tapering to bases);</text>
+      <structure id="o10800" name="cypsela">
+        <character name="shape" value="columnar" />
+        <character char_type="range_value" name="size" from="3.5" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="524.txt-15">
+      <text>pappi of 5–10(–15 in subsp. detlingii , or –24 in subsp. siskiyouensis ), white to dull yellowish, deltate to lanceolate, aristate scales 0.5–8 mm, aristae barbellulate to barbellate.</text>
+      <structure id="o10801" name="pappus" />
+      <structure id="o10802" name="scale">
+        <character char_type="range_value" name="count" from="5" to="10" />
+        <character char_type="range_value" name="coloration" from="white" to="dull-yellowish" />
+        <character name="coloration" value="white" />
+        <character name="coloration" value="yellowish" modifier="dull" />
+        <character name="shape" value="deltate" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="aristate" />
+        <character char_type="range_value" name="size" from="0.5" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+      <relation id="r1235" name="consist_of" from="o10801" to="o10802" negation="false" />
+      <structure id="o10803" name="arista">
+        <character char_type="range_value" name="architecture" from="barbellulate" to="barbellate" />
+        <character name="architecture" value="barbellulate" />
+        <character name="architecture" value="barbellate" />
+      </structure>
+    </statement>
+    <statement id="524.txt-16">
+      <text>2 n = 18.</text>
+      <structure id="o10804" name="chromosome">
+        <character name="count" value="18" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Subspecies 4 (4 in the flora):</number_of_infrataxa>
+  <general_distribution>w North America.</general_distribution>
+  <discussion>Microseris laciniata comprises four, mostly allopatric subspecies, the diagnostic features of which are found mainly in the phyllaries and pappi. These races intergrade where they come in contact, with the greatest diversity occurring in the Klamath Mountains of northern California and southern Oregon (K. L. Chambers 2004b). S. Mauthe et al. (1981) reported on a detailed morphologic analysis of the heads and pappi of M. laciniata and proposed that the observed variation could be explained by the interaction of a limited number of major genes. The species is consistently self-sterile and outcrossing. It also may reproduce clonally by adventitious buds borne on lateral roots.</discussion>
+  <couplet>1.Stems simple; leaves lanceolate or oblanceolate, usually entire, rarely sparingly pinnately lobed; outer phyllaries elliptic-ovate, smallest (2.5–)4 mm wide, apices acute or cuspidate; pappus scales 4–8 mm3d. Microseris laciniata subsp. detlingii</couplet>
+  <couplet>1.Stems usually branched; leaves linear to lanceolate or oblanceolate, entire or pinnately lobed; outer phyllaries linear to ovate, smallest 1–9 mm wide, apices acuminate to cuspidate; pappus scales 0.5–3(–4) mm.</couplet>
+  <couplet>[2. Shifted to left margin.—Ed.]</couplet>
+  <couplet>2.Pappus scales 9–24, aristae barbellate; Klamath Mountains, Oregon and California3c. Microseris laciniata subsp. siskiyouensis</couplet>
+  <couplet>2.Pappus scales 5–10, aristae usually barbellulate, rarely barbellate; Klamath Mountains and elsewhere.</couplet>
+  <couplet>3.Outer phyllaries often purple-spotted, ovate-lanceolate to broadly ovate, smallest 2.5–9 mm wide, apices acute to cuspidate, abaxial faces usually glabrous; widespread3a. Microseris laciniata subsp. laciniata</couplet>
+  <couplet>3.Outer phyllaries rarely purple-spotted, linear to lanceolate or deltate, smallest 0.5–2.5 mm wide, apices acute to acuminate, abaxial faces often scurfy-puberulent, sometimes black-villous; principally Coast Range and Klamath Mountains, rarely e to Great Basin Region, California, Oregon, Washington3b. Microseris laciniata subsp. leptosepala</couplet>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

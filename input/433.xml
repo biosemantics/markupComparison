@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Hypochaeris chillensis</species_name>
+  <authority>(Kunth) Britton</authority>
+  <place_of_publication>Bull. Torrey Bot. Club 19: 371. 1892</place_of_publication>
+  <past_name>chilensis</past_name>
+  <synonym_of_species_name>Apargia chillensis Kunth in A. von Humboldt et al., Nov. Gen. Sp. 4(fol.): 2. 1818; 4(qto.): 3. 1820; Achyrophorus chillensis (Kunth) Schultz-Bipontinus ; Hypochaeris brasiliensis (Lessing) Bentham &amp; Hooker f. ex Grisebach; Porcellites brasiliensis Lessing</synonym_of_species_name>
+  <description>
+    <statement id="433.txt-0">
+      <text>Biennials or perennials, 30–70 cm;</text>
+      <structure id="o8589" name="whole_organism">
+        <character char_type="range_value" name="size" from="30" from_unit="cm" to="70" to_unit="cm" />
+        <character name="life_style" value="biennial" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="433.txt-1">
+      <text>taproots vertical, deep, thick, caudices stout.</text>
+      <structure id="o8591" name="taproot">
+        <character name="orientation" value="vertical" />
+        <character name="depth" value="deep" />
+        <character name="thickness" value="thick" />
+      </structure>
+      <structure id="o8592" name="caudex">
+        <character name="fragility" value="stout" />
+      </structure>
+    </statement>
+    <statement id="433.txt-2">
+      <text>Stems (1–5) erect or ascending, simple or sparingly branched distally, glabrous or pilose proximally.</text>
+      <structure id="o8593" name="stem">
+        <character char_type="range_value" name="atypical_count" from="1" to="5" />
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="ascending" />
+        <character name="architecture" value="simple" modifier="distally" />
+        <character name="architecture" value="branched" modifier="sparingly distally" />
+        <character name="pubescence" value="glabrous" modifier="proximally" />
+        <character name="pubescence" value="pilose" modifier="proximally" />
+      </structure>
+    </statement>
+    <statement id="433.txt-3">
+      <text>Leaves basal and proximally cauline;</text>
+      <structure id="o8594" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" modifier="proximally" />
+      </structure>
+    </statement>
+    <statement id="433.txt-4">
+      <text>basal blades elliptic to oblanceolate, 60–200 × 10 – 50 mm, margins coarsely and sharply dentate or 2-dentate, ciliate, faces glabrous or coarsely hirsute (cauline sessile, blades lanceolate, 50–100 × 10–30 mm, margins sharply dentate or pinnatifid; distal reduced, entire).</text>
+      <structure id="o8595" name="blade" constraint="basal">
+        <character char_type="range_value" name="shape" from="elliptic" to="oblanceolate" />
+        <character name="shape" value="elliptic" />
+        <character name="shape" value="oblanceolate" />
+        <character char_type="range_value" name="length" from="60" from_unit="mm" to="200" to_unit="mm" />
+        <character char_type="range_value" name="width" from="10" from_unit="mm" to="50" to_unit="mm" />
+      </structure>
+      <structure id="o8596" name="margin">
+        <character name="shape" value="dentate" modifier="sharply" />
+        <character name="shape" value="2-dentate" />
+        <character name="architecture_or_shape" value="ciliate" />
+      </structure>
+      <structure id="o8597" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="hirsute" modifier="coarsely" />
+      </structure>
+    </statement>
+    <statement id="433.txt-5">
+      <text>Heads 1–10, in loose, paniculiform to corymbiform arrays .</text>
+      <structure id="o8598" name="head">
+        <character char_type="range_value" name="count" from="1" to="10" />
+      </structure>
+      <structure id="o8599" name="array">
+        <character char_type="range_value" name="architecture" from="loose , paniculiform" to="corymbiform" />
+        <character name="architecture" value="loose" />
+        <character name="architecture" value="paniculiform" />
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <relation id="r1016" name="in" from="o8598" to="o8599" negation="false" />
+    </statement>
+    <statement id="433.txt-6">
+      <text>Involucres broadly campanulate, 10–20 × 5–20 mm.</text>
+      <structure id="o8600" name="involucre">
+        <character name="shape" value="campanulate" modifier="broadly" />
+        <character char_type="range_value" name="length" from="10" from_unit="mm" to="20" to_unit="mm" />
+        <character char_type="range_value" name="width" from="5" from_unit="mm" to="20" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="433.txt-7">
+      <text>Phyllaries 20–30, linear-lanceolate, 4–15 mm, unequal, ± hirsute (at least medially).</text>
+      <structure id="o8601" name="phyllary">
+        <character char_type="range_value" name="count" from="20" to="30" />
+        <character name="shape" value="linear-lanceolate" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="15" to_unit="mm" />
+        <character name="size" value="unequal" />
+        <character name="pubescence" value="hirsute" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="433.txt-8">
+      <text>Florets 50–100+;</text>
+      <structure id="o8602" name="floret">
+        <character char_type="range_value" name="count" from="50" to="100" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="433.txt-9">
+      <text>corollas yellow, 5–7 mm, equaling phyllaries at flowering.</text>
+      <structure id="o8603" name="corolla">
+        <character name="coloration" value="yellow" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+      <structure id="o8604" name="phyllary" constraint="at flowering">
+        <character name="comparison" value="equaling" />
+      </structure>
+    </statement>
+    <statement id="433.txt-10">
+      <text>Cypselae monomorphic, all beaked;</text>
+      <structure id="o8605" name="cypsela">
+        <character name="habit" value="monomorphic" />
+        <character name="shape" value="beaked" />
+      </structure>
+    </statement>
+    <statement id="433.txt-11">
+      <text>bodies golden brown, fusiform, 8–10 mm, muricate, ribs 4–5;</text>
+      <structure id="o8606" name="body">
+        <character name="coloration" value="brown" modifier="golden" />
+        <character name="shape" value="fusiform" />
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="10" to_unit="mm" />
+        <character name="relief" value="muricate" />
+      </structure>
+      <structure id="o8607" name="rib">
+        <character char_type="range_value" name="count" from="4" to="5" />
+      </structure>
+    </statement>
+    <statement id="433.txt-12">
+      <text>pappi of white, plumose bristles in 1 series, 6–8 mm.</text>
+      <structure id="o8608" name="pappus">
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+      <structure id="o8609" name="bristle">
+        <character name="coloration" value="white" />
+        <character name="architecture" value="plumose" />
+      </structure>
+      <relation id="r1017" name="consist_of" from="o8608" to="o8609" negation="false" />
+      <structure id="o8610" name="series">
+        <character name="count" value="1" />
+      </structure>
+      <relation id="r1018" name="in" from="o8609" to="o8610" negation="false" />
+    </statement>
+    <statement id="433.txt-13">
+      <text>2 n = 8, 10.</text>
+      <structure id="o8611" name="chromosome">
+        <character name="count" value="8" />
+        <character name="count" value="10" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <habitat>waste areas with sandy soil</habitat>
+  <habitat>roadsides</habitat>
+  <habitat>lawns</habitat>
+  <elevation>0–100 m;</elevation>
+  <introduced>introduced;</introduced>
+  <us_distribution>Ala.</us_distribution>
+  <us_distribution>Fla.</us_distribution>
+  <us_distribution>Ga.</us_distribution>
+  <us_distribution>La.</us_distribution>
+  <us_distribution>Miss.</us_distribution>
+  <us_distribution>N.C.</us_distribution>
+  <us_distribution>S.C.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <global_distribution>South America.</global_distribution>
+  <discussion>Hypochaeris chillensis is recognized by the sharply dentate or pinnatifid cauline leaves, yellow corollas, and monomorphic, beaked cypselae. Plants in the flora area differ from those found elsewhere mainly in having the outer phyllaries somewhat more hirsute medially.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Cota tinctoria</species_name>
+  <authority>(Linnaeus) J. Gay ex Gussone</authority>
+  <place_of_publication>Fl. Sicul. Syn. 2: 867. 1845</place_of_publication>
+  <common_name>Golden marguerite, yellow chamomile</common_name>
+  <synonym_of_species_name>Anthemis tinctoria Linnaeus, Sp. Pl. 2: 896. 1753</synonym_of_species_name>
+  <description>
+    <statement id="954.txt-0">
+      <text>Leaves 1–3(–5) cm, ultimate lobes narrowly oblong to spatulate or linear, ultimate margins entire or serrate (teeth apiculate).</text>
+      <structure id="o19692" name="leaf">
+        <character char_type="range_value" name="atypical_size" from="3" to="5" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="1" from_unit="cm" to="3" to_unit="cm" />
+      </structure>
+      <structure id="o19693" name="lobe" constraint="ultimate">
+        <character char_type="range_value" name="shape" from="narrowly oblong" to="spatulate or linear" />
+        <character name="shape" value="oblong" modifier="narrowly" />
+        <character name="shape" value="spatulate" modifier="narrowly" />
+        <character name="shape" value="linear" modifier="narrowly" />
+      </structure>
+      <structure id="o19694" name="margin" constraint="ultimate">
+        <character name="shape" value="entire" />
+        <character name="shape" value="serrate" />
+      </structure>
+    </statement>
+    <statement id="954.txt-1">
+      <text>Phyllaries:</text>
+      <structure id="o19695" name="phyllary" />
+    </statement>
+    <statement id="954.txt-2">
+      <text>abaxial faces sericeous to arachnose, margins often ciliolate.</text>
+      <structure id="o19696" name="face" constraint="abaxial">
+        <character char_type="range_value" name="pubescence" from="sericeous" to="arachnose" />
+        <character name="pubescence" value="sericeous" />
+        <character name="pubescence" value="arachnose" />
+      </structure>
+      <structure id="o19697" name="margin">
+        <character name="pubescence" value="ciliolate" modifier="often" />
+      </structure>
+    </statement>
+    <statement id="954.txt-3">
+      <text>Paleae 4–5 mm (including spinose tips).</text>
+      <structure id="o19698" name="palea">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="954.txt-4">
+      <text>Ray laminae yellow, 6–12+ mm.</text>
+      <structure id="o19699" name="lamina" constraint="ray">
+        <character name="coloration" value="yellow" />
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="12" to_unit="mm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="954.txt-5">
+      <text>Disc corollas 3.5–4 mm.</text>
+      <structure id="o19700" name="corolla" constraint="disc">
+        <character char_type="range_value" name="size" from="3.5" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="954.txt-6">
+      <text>Cypselae 1.8–2.2 mm;</text>
+      <structure id="o19701" name="cypsela">
+        <character char_type="range_value" name="size" from="1.8" from_unit="mm" to="2.2" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="954.txt-7">
+      <text>pappi usually 2–2.5 mm.</text>
+      <structure id="o19702" name="pappus">
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="2.5" to_unit="mm" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="954.txt-8">
+      <text>2 n = 18.</text>
+      <structure id="o19703" name="chromosome">
+        <character name="count" value="18" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>disturbed sites</habitat>
+  <habitat>fields</habitat>
+  <habitat>roadsides</habitat>
+  <elevation>10–600+ m;</elevation>
+  <introduced>introduced;</introduced>
+  <ca_distribution>Alta.</ca_distribution>
+  <ca_distribution>B.C.</ca_distribution>
+  <ca_distribution>Man.</ca_distribution>
+  <ca_distribution>N.B.</ca_distribution>
+  <ca_distribution>Nfld. and Labr. (Nfld.)</ca_distribution>
+  <ca_distribution>N.S.</ca_distribution>
+  <ca_distribution>Ont.</ca_distribution>
+  <ca_distribution>Que.</ca_distribution>
+  <ca_distribution>Sask.</ca_distribution>
+  <us_distribution>Alaska</us_distribution>
+  <us_distribution>Ark.</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Conn.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Ill.</us_distribution>
+  <us_distribution>Iowa</us_distribution>
+  <us_distribution>Maine</us_distribution>
+  <us_distribution>Md.</us_distribution>
+  <us_distribution>Mass.</us_distribution>
+  <us_distribution>Mich.</us_distribution>
+  <us_distribution>Minn.</us_distribution>
+  <us_distribution>Mo.</us_distribution>
+  <us_distribution>N.H.</us_distribution>
+  <us_distribution>N.J.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>N.Dak.</us_distribution>
+  <us_distribution>Ohio</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <us_distribution>R.I.</us_distribution>
+  <us_distribution>S.Dak.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Vt.</us_distribution>
+  <us_distribution>Va.</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <us_distribution>W.Va.</us_distribution>
+  <us_distribution>Wis.</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <global_distribution>Europe</global_distribution>
+  <global_distribution>Asia.</global_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

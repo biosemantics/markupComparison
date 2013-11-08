@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>11.</number>
+  <species_name>Taraxacum phymatocarpum</species_name>
+  <authority>J. Vahl</authority>
+  <place_of_publication>in G. C. Oeder et al., Fl. Dan. 13(39): 6, plate 2298. 1840</place_of_publication>
+  <common_name>Northern dandelion</common_name>
+  <description>
+    <statement id="328.txt-0">
+      <text>Plants 2–12(–30) cm (longer in fruit);</text>
+      <structure id="o6008" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="12" to="30" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="2" from_unit="cm" to="12" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="328.txt-1">
+      <text>taproots branched.</text>
+      <structure id="o6009" name="taproot">
+        <character name="architecture_or_shape" value="branched" />
+      </structure>
+    </statement>
+    <statement id="328.txt-2">
+      <text>Stems 1–(2–5), erect to ascending, reddish, glabrous.</text>
+      <structure id="o6010" name="stem">
+        <character name="count" value="1" />
+        <character char_type="range_value" name="atypical_count" from="2" to="5" />
+        <character char_type="range_value" name="orientation" from="erect" to="ascending" />
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="ascending" />
+        <character name="coloration" value="reddish" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="328.txt-3">
+      <text>Leaves fewer than 10, usually horizontal, sometimes patent, rarely erect;</text>
+      <structure id="o6011" name="leaf">
+        <character name="count" value="10]" modifier="fewer than" />
+        <character name="orientation" value="horizontal" modifier="usually" />
+        <character name="orientation" value="patent" modifier="sometimes" />
+        <character name="orientation" value="erect" modifier="rarely" />
+      </structure>
+    </statement>
+    <statement id="328.txt-4">
+      <text>petioles slightly winged;</text>
+      <structure id="o6012" name="petiole">
+        <character name="architecture" value="winged" modifier="slightly" />
+      </structure>
+    </statement>
+    <statement id="328.txt-5">
+      <text>blades oblanceolate to linear-oblance-olate (sometimes some nearly runcinate), 1.5–8 × 0.2–0.8(–1.3) cm, bases attenuate, margins usually toothed to denticulate in 1–5 pairs or entire, sometimes shallowly lobed, lobes (and teeth) retrorse or straight, triangular, apices acute to obtuse, faces usually glabrous, sometimes very sparsely villous (mostly along midveins).</text>
+      <structure id="o6013" name="blade">
+        <character name="shape" value="oblanceolate" />
+        <character char_type="range_value" name="length" from="1.5" from_unit="cm" to="8" to_unit="cm" />
+        <character char_type="range_value" name="atypical_width" from="0.8" to="1.3" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="width" from="0.2" from_unit="cm" to="0.8" to_unit="cm" />
+      </structure>
+      <structure id="o6014" name="base">
+        <character name="shape" value="attenuate" />
+      </structure>
+      <structure id="o6015" name="margin">
+        <character char_type="range_value" name="shape" from="usually toothed" to="denticulate" />
+        <character name="shape" value="toothed" modifier="usually" />
+        <character name="shape" value="denticulate" modifier="usually" constraint="in pairs" constraintid="o6016" />
+        <character name="shape" value="entire" />
+        <character name="shape" value="lobed" modifier="sometimes shallowly" />
+      </structure>
+      <structure id="o6016" name="pair">
+        <character char_type="range_value" name="count" from="1" to="5" />
+      </structure>
+      <structure id="o6017" name="lobe">
+        <character name="orientation" value="retrorse" />
+        <character name="course" value="straight" />
+        <character name="shape" value="triangular" />
+      </structure>
+      <structure id="o6018" name="apex">
+        <character char_type="range_value" name="shape" from="acute" to="obtuse" />
+        <character name="shape" value="acute" />
+        <character name="shape" value="obtuse" />
+      </structure>
+      <structure id="o6019" name="face">
+        <character name="pubescence" value="glabrous" modifier="usually" />
+        <character name="pubescence" value="villous" modifier="sometimes very sparsely" />
+      </structure>
+    </statement>
+    <statement id="328.txt-6">
+      <text>Calyculi of 8–14, appressed to spreading, later reflexed to revolute, sometimes purplish-tinged, broadly ovate or ovate to lance-ovate bractlets in 2–3 series, 3–5 × 1.8–2.5 mm, margins not or barely scarious, apices usually acuminate, sometimes acute, hornless, tips slightly scarious-erose.</text>
+      <structure id="o6020" name="calyculus">
+        <character char_type="range_value" name="length" from="3" from_unit="mm" to="5" to_unit="mm" />
+        <character char_type="range_value" name="width" from="1.8" from_unit="mm" to="2.5" to_unit="mm" />
+      </structure>
+      <structure id="o6021" name="bractlet">
+        <character char_type="range_value" name="count" from="8" to="14" />
+        <character char_type="range_value" name="orientation" from="appressed" to="spreading" />
+        <character name="orientation" value="appressed" />
+        <character name="orientation" value="spreading" />
+        <character name="orientation" value="reflexed" modifier="later" />
+        <character name="shape_or_vernation" value="revolute" />
+        <character name="coloration" value="tinged" modifier="sometimes ;purplish" />
+        <character char_type="range_value" name="shape" from="ovate" to="lance-ovate" />
+        <character name="shape" value="ovate" modifier="broadly" />
+        <character name="shape" value="ovate" modifier="broadly" />
+        <character name="shape" value="lance-ovate" modifier="broadly" />
+      </structure>
+      <relation id="r758" name="consist_of" from="o6020" to="o6021" negation="false" />
+      <structure id="o6022" name="series">
+        <character char_type="range_value" name="count" from="2" to="3" />
+      </structure>
+      <relation id="r759" name="in" from="o6021" to="o6022" negation="false" />
+      <structure id="o6023" name="margin">
+        <character name="texture" value="scarious" modifier="not barely" />
+      </structure>
+      <structure id="o6024" name="apex">
+        <character name="shape" value="acuminate" modifier="usually" />
+        <character name="shape" value="acute" modifier="sometimes" />
+        <character name="architecture" value="hornless" />
+      </structure>
+      <structure id="o6025" name="tip">
+        <character name="shape_or_relief" value="scarious-erose" modifier="slightly" />
+      </structure>
+    </statement>
+    <statement id="328.txt-7">
+      <text>Involucres dark to blackish green, narrowly campanulate (urceolate when closed), 9–14 mm.</text>
+      <structure id="o6026" name="involucre">
+        <character char_type="range_value" name="coloration" from="dark" to="blackish-green" />
+        <character name="coloration" value="dark" />
+        <character name="coloration" value="green" modifier="blackish" />
+        <character name="shape" value="campanulate" modifier="narrowly" />
+        <character char_type="range_value" name="size" from="9" from_unit="mm" to="14" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="328.txt-9">
+      <text>Florets 35–50;</text>
+      <structure id="o6027" name="floret">
+        <character char_type="range_value" name="count" from="35" to="50" />
+      </structure>
+    </statement>
+    <statement id="328.txt-10">
+      <text>corollas pale yellow (sometimes lemon), sometimes drying pinkish (not striped adaxially), outer abaxially gray to purple striped, 10–12 × 2–3.1 mm.</text>
+      <structure id="o6028" name="corolla">
+        <character char_type="range_value" name="coloration" from="pale-yellow , sometimes drying pinkish , outer abaxially gray" to="purple-striped" />
+        <character name="coloration" value="yellow" modifier="pale" />
+        <character name="coloration" value="striped" modifier="sometimes ;purple" />
+        <character char_type="range_value" name="length" from="10" from_unit="mm" to="12" to_unit="mm" />
+        <character char_type="range_value" name="width" from="2" from_unit="mm" to="3.1" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="328.txt-12">
+      <text>pappi creamy or white, 4–5.5(–7.5) mm.</text>
+      <structure id="o6029" name="pappus">
+        <character name="coloration" value="creamy" />
+        <character name="coloration" value="white" />
+        <character char_type="range_value" name="atypical_size" from="5.5" to="7.5" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="5.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="328.txt-13">
+      <text>2 n = 24, 32, 40.</text>
+      <structure id="o6030" name="chromosome">
+        <character name="count" value="24" />
+        <character name="count" value="32" />
+        <character name="count" value="40" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>slopes to stream banks in tundra</habitat>
+  <habitat>usually dry to drained areas</habitat>
+  <habitat>usually calcareous, rocky taluses</habitat>
+  <habitat>gravel</habitat>
+  <habitat>sand</habitat>
+  <habitat>clay</habitat>
+  <habitat>exposed gravelly-turfy limestone barrens (south</habitat>
+  <elevation>0–700 m;</elevation>
+  <global_distribution>Greenland</global_distribution>
+  <ca_distribution>Nfld. and Labr. (Nfld.)</ca_distribution>
+  <ca_distribution>N.W.T.</ca_distribution>
+  <ca_distribution>Nunavut</ca_distribution>
+  <us_distribution>Alaska</us_distribution>
+  <global_distribution>Eurasia.</global_distribution>
+  <discussion>A single disjunct population of Taraxacum phymatocarpum was found by M. L. Fernald and colleagues on Burnt Cape, Northern Peninsula, Newfoundland; otherwise the species is arctic. This diminutive species is characterized by its mostly unlobed leaves, pale yellow ligules, and usually dark cypselae.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

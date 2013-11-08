@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>20.</number>
+  <species_name>Crepis runcinata</species_name>
+  <authority>(E. James) Torrey &amp; A. Gray</authority>
+  <place_of_publication>Fl. N. Amer. 2: 487. 1843</place_of_publication>
+  <synonym_of_species_name>Hieracium runcinatum E. James, Account Exped. Pittsburgh 1: 453. 1823</synonym_of_species_name>
+  <description>
+    <statement id="305.txt-0">
+      <text>Perennials, 15–65 cm (taproots relatively long, caudices swollen).</text>
+      <structure id="o5493" name="whole_organism">
+        <character char_type="range_value" name="size" from="15" from_unit="cm" to="65" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="305.txt-1">
+      <text>Stems 1–3, erect or ascending, scapiform, branched near middles, glabrous or hispid, sometimes stipitate-glandular distally.</text>
+      <structure id="o5494" name="stem">
+        <character char_type="range_value" name="count" from="1" to="3" />
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="ascending" />
+        <character name="shape" value="scapiform" />
+        <character name="architecture_or_shape" value="branched" constraint="near middles" constraintid="o5495" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="hispid" />
+        <character name="architecture_or_exudation_or_pubescence" value="stipitate-glandular" modifier="sometimes ; distally" />
+      </structure>
+      <structure id="o5495" name="middle" />
+    </statement>
+    <statement id="305.txt-2">
+      <text>Leaves mostly basal (rosettes);</text>
+    </statement>
+    <statement id="305.txt-3">
+      <text>petiolate;</text>
+      <structure id="o5496" name="leaf">
+        <character name="insertion_or_position" value="basal" modifier="mostly" />
+        <character name="architecture" value="petiolate" />
+      </structure>
+    </statement>
+    <statement id="305.txt-4">
+      <text>blades elliptic, lanceolate, linear, oblanceolate, obovate, or spatulate, 3–30 × 0.5–8 cm (bases attenuate) margins usually entire or weakly dentate, sometimes serrate, dentate, or pinnately lobed, apices rounded, faces glabrous or hispid to hispidulous (sometimes glaucous).</text>
+      <structure id="o5497" name="blade">
+        <character name="shape" value="elliptic" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="obovate" />
+        <character name="shape" value="spatulate" />
+        <character char_type="range_value" name="size" from="3" to="30" />
+        <character char_type="range_value" name="size" from="0.5" to="8" />
+        <character name="shape" value="entire" modifier="usually" />
+        <character name="shape" value="dentate" modifier="weakly" />
+        <character name="shape" value="serrate" modifier="sometimes" />
+        <character name="shape" value="dentate" modifier="sometimes" />
+        <character name="shape" value="lobed" modifier="pinnately" />
+      </structure>
+      <structure id="o5498" name="margin" />
+      <structure id="o5499" name="apex">
+        <character name="shape" value="rounded" />
+      </structure>
+      <structure id="o5500" name="face">
+        <character char_type="range_value" name="pubescence" from="hispid" to="hispidulous" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="hispid" />
+        <character name="pubescence" value="hispidulous" />
+      </structure>
+    </statement>
+    <statement id="305.txt-5">
+      <text>Heads (1–)3–15(–30), borne singly or in ± corymbiform arrays.</text>
+      <structure id="o5501" name="head">
+        <character char_type="range_value" name="atypical_count" from="1" to="3" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_count" from="15" to="30" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="3" to="15" />
+        <character name="arrangement" value="singly" />
+        <character name="arrangement" value="in moreorless corymbiform arrays" />
+      </structure>
+      <structure id="o5502" name="array">
+        <character name="architecture" value="corymbiform" modifier="±" />
+      </structure>
+      <relation id="r718" name="in" from="o5501" to="o5502" negation="false" />
+    </statement>
+    <statement id="305.txt-6">
+      <text>Calyculi of 5–12, narrowly triangular, glabrous or tomentulose bractlets 1–3 mm.</text>
+      <structure id="o5503" name="calyculus" />
+      <structure id="o5504" name="bractlet">
+        <character char_type="range_value" name="count" from="5" to="12" />
+        <character name="shape" value="triangular" modifier="narrowly" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="tomentulose" />
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="3" to_unit="mm" />
+      </structure>
+      <relation id="r719" name="consist_of" from="o5503" to="o5504" negation="false" />
+    </statement>
+    <statement id="305.txt-7">
+      <text>Involucres turbinate-campanulate, 7–21 × 8–12 mm.</text>
+      <structure id="o5505" name="involucre">
+        <character name="shape" value="turbinate-campanulate" />
+        <character char_type="range_value" name="length" from="7" from_unit="mm" to="21" to_unit="mm" />
+        <character char_type="range_value" name="width" from="8" from_unit="mm" to="12" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="305.txt-8">
+      <text>Phyllaries 10–16, lanceolate or oblong, 8–10 mm, (bases keeled and thickened, margins scarious) apices usually acute, sometimes attenuate or obtuse (often ciliate-tufted), abaxial faces glabrous or tomentulose, sometimes stipitate-glandular, adaxial glabrous.</text>
+      <structure id="o5506" name="phyllary">
+        <character char_type="range_value" name="count" from="10" to="16" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="oblong" />
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+      <structure id="o5507" name="apex">
+        <character name="shape" value="acute" modifier="usually" />
+        <character name="shape" value="attenuate" modifier="sometimes" />
+        <character name="shape" value="obtuse" modifier="sometimes" />
+      </structure>
+      <structure id="o5508" name="face" constraint="abaxial">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="tomentulose" />
+        <character name="architecture_or_exudation_or_pubescence" value="stipitate-glandular" modifier="sometimes" />
+        <character name="insertion_or_position" value="adaxial" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="305.txt-9">
+      <text>Florets 20–50;</text>
+      <structure id="o5509" name="floret">
+        <character char_type="range_value" name="count" from="20" to="50" />
+      </structure>
+    </statement>
+    <statement id="305.txt-10">
+      <text>corollas golden yellow, 9–18 mm.</text>
+      <structure id="o5510" name="corolla">
+        <character name="coloration" value="yellow" modifier="golden" />
+        <character char_type="range_value" name="size" from="9" from_unit="mm" to="18" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="305.txt-11">
+      <text>Cypselae dark to golden reddish or yellowish brown, fusiform, 3.5–8 mm, tapered distally or beaked, ribs 10–13 (strong);</text>
+      <structure id="o5511" name="cypsela">
+        <character char_type="range_value" name="coloration" from="dark" to="golden-reddish or yellowish-brown" />
+        <character name="coloration" value="dark" />
+        <character name="coloration" value="reddish" modifier="golden" />
+        <character name="coloration" value="brown" modifier="yellowish" />
+        <character name="shape" value="fusiform" />
+        <character char_type="range_value" name="size" from="3.5" from_unit="mm" to="8" to_unit="mm" />
+        <character name="shape" value="tapered" modifier="distally" />
+        <character name="shape" value="beaked" />
+      </structure>
+      <structure id="o5512" name="rib">
+        <character char_type="range_value" name="count" from="10" to="13" />
+      </structure>
+    </statement>
+    <statement id="305.txt-12">
+      <text>pappi white, 4–9 mm.</text>
+      <structure id="o5513" name="pappus">
+        <character name="coloration" value="white" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="9" to_unit="mm" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Subspecies 7 (7 in the flora):</number_of_infrataxa>
+  <general_distribution>North America</general_distribution>
+  <general_distribution>n Mexico.</general_distribution>
+  <discussion>Crepis runcinata is recognized by its basal rosettes of weakly dentate or almost entire leaves, scapiform stems, branching near middles, and reduced cauline leaves. The stems and leaves are usually glabrous. Multiple subspecies were described by E. B. Babcock (1947); the variation is continuous. Babcock suggested that this is the only American species that shows a relationship to Asian species.</discussion>
+  <couplet>1.Phyllaries eglandular.</couplet>
+  <couplet>2.Leaves obovate, oblanceolate, or spatulate, 1.5–4 cm wide20d. Crepis runcinata</couplet>
+  <couplet>subsp. glauca</couplet>
+  <couplet>2.Leaves narrowly oblanceolate or linear, 0.5–2 cm wide20c. Crepis runcinata</couplet>
+  <couplet>subsp. barberi</couplet>
+  <couplet>1.Phyllaries usually stipitate-glandular or finely glandular-hispid.</couplet>
+  <couplet>3.Teeth of leaves prominently white-tipped; phyllaries broadly lanceolate or oblong (California, Nevada, Oregon).</couplet>
+  <couplet>4.Involucres 19–21 mm; phyllaries broadly lanceolate, apices long-acuminate; cypselae ± distinctly beaked20b. Crepis runcinata subsp. andersonii</couplet>
+  <couplet>4.Involucres 10–13 mm; phyllaries oblong, apices obtuse or acute; cypselae not beaked 20g. Crepis runcinata subsp. imbricata</couplet>
+  <couplet>[3. Shifted to left margin.—Ed.]</couplet>
+  <couplet>3.Teeth of leaves not prominently white-tipped (or only minutely so); phyllaries lanceolate.</couplet>
+  <couplet>5.Leaves coarsely dentate or pinnately lobed (glaucous)20e. Crepis runcinata subsp. hallii</couplet>
+  <couplet>5.Leaves remotely toothed or serrate, or pinnately lobed, or entire.</couplet>
+  <couplet>6.Leaves 0.5–3.5 cm wide20a. Crepis runcinata subsp. runcinata</couplet>
+  <couplet>6.Leaves 2.5–8 cm wide20f. Crepis runcinata subsp. hispidulosa</couplet>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

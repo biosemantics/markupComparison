@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>4.</number>
+  <species_name>Logfia arizonica</species_name>
+  <authority>(A. Gray) Holub</authority>
+  <place_of_publication>Preslia 70: 107. 1998</place_of_publication>
+  <common_name>Arizona cottonrose</common_name>
+  <synonym_of_species_name>Filago arizonica A. Gray, Proc. Amer. Acad. Arts 8: 652. 1873; Oglifa arizonica (A. Gray) Chrtek &amp; Holub</synonym_of_species_name>
+  <description>
+    <statement id="738.txt-0">
+      <text>Plants 2–10(–20) cm.</text>
+      <structure id="o15470" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="10" to="20" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="2" from_unit="cm" to="10" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="738.txt-1">
+      <text>Stems (1–)3–10, spreading to sometimes ascending;</text>
+      <structure id="o15471" name="stem">
+        <character char_type="range_value" name="atypical_count" from="1" to="3" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="3" to="10" />
+        <character char_type="range_value" name="orientation" from="spreading" to="sometimes ascending" />
+        <character name="orientation" value="spreading" />
+        <character name="orientation" value="ascending" modifier="sometimes" />
+      </structure>
+    </statement>
+    <statement id="738.txt-2">
+      <text>branches usually leafless between proximal forks, becoming purplish to black, glabrescent.</text>
+      <structure id="o15472" name="branch">
+        <character name="architecture" value="leafless" modifier="usually" constraint="between forks" constraintid="o15473" />
+        <character char_type="range_value" name="coloration" from="purplish" to="black" modifier="becoming" />
+        <character name="coloration" value="purplish" modifier="becoming" />
+        <character name="coloration" value="black" modifier="becoming" />
+        <character name="pubescence" value="glabrescent" />
+      </structure>
+      <structure id="o15473" name="fork" constraint="proximal" />
+    </statement>
+    <statement id="738.txt-3">
+      <text>Leaves linear to narrowly oblanceolate, largest 15–20(–25) × 1–1.5 mm, pliant;</text>
+      <structure id="o15474" name="leaf">
+        <character char_type="range_value" name="shape" from="linear" to="narrowly oblanceolate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="oblanceolate" modifier="narrowly" />
+        <character name="size" value="largest" />
+        <character char_type="range_value" name="atypical_length" from="20" to="25" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="15" from_unit="mm" to="20" to_unit="mm" />
+        <character char_type="range_value" name="width" from="1" from_unit="mm" to="1.5" to_unit="mm" />
+        <character name="texture" value="pliant" />
+      </structure>
+    </statement>
+    <statement id="738.txt-4">
+      <text>longest capitular leaves 2–5 times head heights, acute.</text>
+      <structure id="o15475" name="leaf" constraint="longest capitular">
+        <character char_type="range_value" name="size" from="2" to="5" constraint="times head" constraintid="o15476" />
+        <character name="shape" value="acute" />
+      </structure>
+      <structure id="o15476" name="head" />
+    </statement>
+    <statement id="738.txt-5">
+      <text>Heads in glomerules of 4–10 in strictly dichasiiform arrays, ± pyramidal, largest ± 4 × 3 mm.</text>
+      <structure id="o15477" name="head">
+        <character name="shape" value="pyramidal" modifier="±" />
+        <character name="size" value="largest" modifier="±" />
+        <character name="length" value="4" unit="mm" />
+        <character name="width" value="3" unit="mm" />
+      </structure>
+      <structure id="o15478" name="glomerule" />
+      <relation id="r1671" name="in" from="o15477" to="o15478" negation="false" />
+      <structure id="o15479" name="array">
+        <character char_type="range_value" name="count" from="4" to="10" />
+        <character name="architecture" value="dichasiiform" modifier="strictly" />
+      </structure>
+      <relation id="r1672" name="consist_of" from="o15478" to="o15479" negation="false" />
+    </statement>
+    <statement id="738.txt-6">
+      <text>Phyllaries 0 or vestigial.</text>
+      <structure id="o15480" name="phyllary">
+        <character name="count" value="0" />
+        <character name="manifestation" value="vestigial" />
+      </structure>
+    </statement>
+    <statement id="738.txt-7">
+      <text>Receptacles obovoid, 0.4–0.9 mm, heights 1–1.6 times diams.</text>
+      <structure id="o15481" name="receptacle">
+        <character name="shape" value="obovoid" />
+        <character char_type="range_value" name="size" from="0.4" from_unit="mm" to="0.9" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="738.txt-8">
+      <text>Pistillate paleae (except innermost) 9–13(–17) in 2–3 series, vertically ranked, loosely saccate, incurved 20–60°, somewhat gibbous, not galeate, longest 2.2–2.7 mm, distal 15–25% of lengths glabrous abaxially;</text>
+      <structure id="o15482" name="palea" constraint="pistillate">
+        <character char_type="range_value" name="atypical_count" from="13" to="17" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="9" to="13" constraint="in series" constraintid="o15483" />
+        <character name="arrangement" value="ranked" modifier="vertically" />
+        <character name="architecture_or_shape" value="saccate" modifier="loosely" />
+        <character name="orientation" value="incurved" modifier="20-60°" />
+        <character name="shape" value="gibbous" modifier="somewhat" />
+        <character name="shape" value="galeate" modifier="not" />
+        <character name="size" value="longest" />
+        <character char_type="range_value" name="size" from="2.2" from_unit="mm" to="2.7" to_unit="mm" />
+        <character name="insertion_or_position" value="distal" modifier="15-25%" constraint="of lengths" constraintid="o15484" />
+      </structure>
+      <structure id="o15483" name="series">
+        <character char_type="range_value" name="count" from="2" to="3" />
+      </structure>
+      <structure id="o15484" name="length">
+        <character name="pubescence" value="glabrous" modifier="abaxially" />
+      </structure>
+    </statement>
+    <statement id="738.txt-9">
+      <text>bodies cartilaginous, obcompressed;</text>
+      <structure id="o15485" name="body">
+        <character name="texture" value="cartilaginous" />
+        <character name="shape" value="obcompressed" />
+      </structure>
+    </statement>
+    <statement id="738.txt-10">
+      <text>wings prominent.</text>
+      <structure id="o15486" name="wing">
+        <character name="prominence" value="prominent" />
+      </structure>
+    </statement>
+    <statement id="738.txt-11">
+      <text>Innermost paleae ± 5, spreading in 1 series, bisexual and (usually) pistillate.</text>
+      <structure id="o15487" name="palea" constraint="innermost">
+        <character name="count" value="5" modifier="±" />
+        <character name="orientation" value="spreading" constraint="in series" constraintid="o15488" />
+        <character name="reproduction" value="bisexual" />
+        <character name="architecture" value="pistillate" />
+      </structure>
+      <structure id="o15488" name="series">
+        <character name="count" value="1" />
+      </structure>
+    </statement>
+    <statement id="738.txt-12">
+      <text>Pistillate florets:</text>
+      <structure id="o15489" name="floret" constraint="pistillate" />
+    </statement>
+    <statement id="738.txt-13">
+      <text>outer 9–13(–17) epappose, inner (0–)1–2 pappose.</text>
+      <structure id="o15490" name="floret" constraint="outer pistillate">
+        <character char_type="range_value" name="atypical_count" from="13" to="17" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="9" to="13" />
+        <character name="architecture" value="epappose" />
+      </structure>
+      <structure id="o15491" name="floret" constraint="inner">
+        <character char_type="range_value" name="atypical_count" from="0" to="1" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="1" to="2" />
+        <character name="architecture" value="pappose" />
+      </structure>
+    </statement>
+    <statement id="738.txt-14">
+      <text>Bisexual florets 4–10;</text>
+      <structure id="o15492" name="floret" constraint="bisexual">
+        <character char_type="range_value" name="count" from="4" to="10" />
+      </structure>
+    </statement>
+    <statement id="738.txt-15">
+      <text>corollas 1.2–1.7 mm, lobes mostly 5, brownish to yellowish.</text>
+      <structure id="o15493" name="corolla">
+        <character char_type="range_value" name="size" from="1.2" from_unit="mm" to="1.7" to_unit="mm" />
+      </structure>
+      <structure id="o15494" name="lobe">
+        <character name="count" value="5" modifier="mostly" />
+        <character char_type="range_value" name="coloration" from="brownish" to="yellowish" />
+        <character name="coloration" value="brownish" />
+        <character name="coloration" value="yellowish" />
+      </structure>
+    </statement>
+    <statement id="738.txt-16">
+      <text>Cypselae:</text>
+      <structure id="o15495" name="cypsela" />
+    </statement>
+    <statement id="738.txt-17">
+      <text>outer incurved, proximally ascending, distally erect, obcompressed, mostly 0.9–1 mm;</text>
+      <structure id="o15496" name="cypsela" constraint="outer">
+        <character name="orientation" value="incurved" />
+        <character name="orientation" value="ascending" modifier="proximally" />
+        <character name="orientation" value="erect" modifier="distally" />
+        <character name="shape" value="obcompressed" />
+        <character char_type="range_value" name="size" from="0.9" from_unit="mm" to="1" to_unit="mm" modifier="mostly" />
+      </structure>
+    </statement>
+    <statement id="738.txt-18">
+      <text>inner densely muriculate;</text>
+      <structure id="o15497" name="cypsela" constraint="inner">
+        <character name="relief" value="muriculate" modifier="densely" />
+      </structure>
+    </statement>
+    <statement id="738.txt-19">
+      <text>pappi mostly of 17–23 bristles falling in complete or partial rings, 1.3–2 mm.</text>
+      <structure id="o15498" name="pappus">
+        <character char_type="range_value" name="size" from="1.3" from_unit="mm" to="2" to_unit="mm" />
+      </structure>
+      <structure id="o15499" name="bristle">
+        <character char_type="range_value" name="count" from="17" to="23" />
+        <character name="orientation" value="falling" constraint="in rings" constraintid="o15500" />
+      </structure>
+      <relation id="r1673" name="consist_of" from="o15498" to="o15499" negation="false" modifier="mostly" />
+      <structure id="o15500" name="ring">
+        <character name="architecture" value="complete" />
+        <character name="extent" value="partial" />
+      </structure>
+    </statement>
+    <statement id="738.txt-20">
+      <text>2 n = 28.</text>
+      <structure id="o15501" name="chromosome">
+        <character name="count" value="28" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>feb</flowering_time>
+  <flowering_time>winter</flowering_time>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>mid jun</flowering_time>
+  <habitat>seasonally moist clay flats</habitat>
+  <habitat>sandy drainages</habitat>
+  <habitat>coastal slopes</habitat>
+  <habitat>flood plains</habitat>
+  <habitat>rocky places</habitat>
+  <habitat>roadsides</habitat>
+  <habitat>mediterranean to arid climates</habitat>
+  <elevation>0–1000(–1400) m;</elevation>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <global_distribution>Mexico (Baja California).</global_distribution>
+  <global_distribution>Mexico (Baja California Sur).</global_distribution>
+  <global_distribution>Mexico (Sonora).</global_distribution>
+  <discussion>Logfia arizonica is known from southwestern California to northern Baja California Sur to southern Arizona and adjacent Sonora (except Colorado River valley) and from the Channel Islands (Santa Catalina, San Clemente) and Angel de la Guarda, Cedros, and Guadalupe islands in Mexico.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

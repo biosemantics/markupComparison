@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>9.</number>
+  <species_name>Hieracium gronovii</species_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 802. 1753</place_of_publication>
+  <description>
+    <statement id="396.txt-0">
+      <text>Plants 30–45(–80) cm.</text>
+      <structure id="o7638" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="45" to="80" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="30" from_unit="cm" to="45" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="396.txt-1">
+      <text>Stems proximally piloso-hirsute (hairs 2–4+ mm), sometimes stellate-pubescent as well, distally stellate-pubescent, sometimes piloso-hirsute as well.</text>
+      <structure id="o7639" name="stem">
+        <character name="pubescence" value="piloso-hirsute" modifier="proximally" />
+        <character name="pubescence" value="stellate-pubescent" modifier="sometimes" />
+        <character name="pubescence" value="stellate-pubescent" modifier="distally" />
+        <character name="pubescence" value="piloso-hirsute" modifier="sometimes" />
+      </structure>
+    </statement>
+    <statement id="396.txt-2">
+      <text>Leaves:</text>
+      <structure id="o7640" name="leaf" />
+    </statement>
+    <statement id="396.txt-3">
+      <text>basal 0(–2+), cauline (3–)6–12+;</text>
+      <structure id="o7641" name="leaf" constraint="basal">
+        <character char_type="range_value" name="atypical_count" from="0" to="2" upper_restricted="false" from_inclusive="false" />
+        <character name="count" value="0" />
+      </structure>
+      <structure id="o7642" name="leaf" constraint="cauline">
+        <character char_type="range_value" name="atypical_count" from="3" to="6" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="6" to="12" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="396.txt-4">
+      <text>blades elliptic or obovate to oblanceolate, 20–35(–90) × 10–40(–50) mm, lengths 2–4+ times widths, bases cuneate to rounded (sometimes ± clasping), margins entire, apices rounded to acute, abaxial faces piloso-hirsute (hairs 2–4 mm) and stellate-pubescent, adaxial piloso-hirsute.</text>
+      <structure id="o7643" name="blade">
+        <character char_type="range_value" name="shape" from="obovate" to="oblanceolate" />
+        <character name="shape" value="elliptic" />
+        <character name="shape" value="obovate" />
+        <character name="shape" value="oblanceolate" />
+        <character char_type="range_value" name="atypical_length" from="35" to="90" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="20" from_unit="mm" to="35" to_unit="mm" />
+        <character char_type="range_value" name="atypical_width" from="40" to="50" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="width" from="10" from_unit="mm" to="40" to_unit="mm" />
+        <character name="size" value="widths" modifier="2-4+ times" />
+      </structure>
+      <structure id="o7644" name="base">
+        <character char_type="range_value" name="shape" from="cuneate" to="rounded" />
+        <character name="shape" value="cuneate" />
+        <character name="shape" value="rounded" />
+      </structure>
+      <structure id="o7645" name="margin">
+        <character name="shape" value="entire" />
+      </structure>
+      <structure id="o7646" name="apex">
+        <character char_type="range_value" name="shape" from="rounded" to="acute" />
+        <character name="shape" value="rounded" />
+        <character name="shape" value="acute" />
+      </structure>
+      <structure id="o7647" name="face" constraint="abaxial">
+        <character name="pubescence" value="piloso-hirsute" />
+        <character name="pubescence" value="stellate-pubescent" />
+        <character name="insertion_or_position" value="adaxial" />
+        <character name="pubescence" value="piloso-hirsute" />
+      </structure>
+    </statement>
+    <statement id="396.txt-5">
+      <text>Heads (5–)25–50 in usually narrow, thyrsiform arrays (lengths of arrays usually 3–6+ times diams., sometimes shorter).</text>
+      <structure id="o7648" name="head">
+        <character char_type="range_value" name="atypical_count" from="5" to="25" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="25" to="50" constraint="in arrays" constraintid="o7649" />
+      </structure>
+      <structure id="o7649" name="array">
+        <character name="size" value="narrow" modifier="usually" />
+        <character name="architecture" value="thyrsiform" />
+      </structure>
+    </statement>
+    <statement id="396.txt-6">
+      <text>Peduncles stellate-pubescent and stipitate-glandular.</text>
+      <structure id="o7650" name="peduncle">
+        <character name="pubescence" value="stellate-pubescent" />
+        <character name="architecture_or_exudation_or_pubescence" value="stipitate-glandular" />
+      </structure>
+    </statement>
+    <statement id="396.txt-7">
+      <text>Calyculi:</text>
+      <structure id="o7651" name="calyculus" />
+    </statement>
+    <statement id="396.txt-8">
+      <text>bractlets 8–12+.</text>
+      <structure id="o7652" name="bractlet">
+        <character char_type="range_value" name="count" from="8" to="12" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="396.txt-9">
+      <text>Involucres cylindric to campanulate, 7–10 mm.</text>
+      <structure id="o7653" name="involucre">
+        <character char_type="range_value" name="shape" from="cylindric" to="campanulate" />
+        <character name="shape" value="cylindric" />
+        <character name="shape" value="campanulate" />
+        <character char_type="range_value" name="size" from="7" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="396.txt-10">
+      <text>Phyllaries 12–15+, apices rounded to acute or acuminate, abaxial faces glabrous or stellate-pubescent, rarely stipitate-glandular as well.</text>
+      <structure id="o7654" name="phyllary">
+        <character char_type="range_value" name="count" from="12" to="15" upper_restricted="false" />
+      </structure>
+      <structure id="o7655" name="apex">
+        <character char_type="range_value" name="shape" from="rounded" to="acute or acuminate" />
+        <character name="shape" value="rounded" />
+        <character name="shape" value="acute" />
+        <character name="shape" value="acuminate" />
+      </structure>
+      <structure id="o7656" name="face" constraint="abaxial">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="stellate-pubescent" />
+        <character name="architecture_or_exudation_or_pubescence" value="stipitate-glandular" modifier="rarely" />
+      </structure>
+    </statement>
+    <statement id="396.txt-11">
+      <text>Florets 12–20+;</text>
+      <structure id="o7657" name="floret">
+        <character char_type="range_value" name="count" from="12" to="20" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="396.txt-12">
+      <text>corollas yellow, 8–9+ mm.</text>
+      <structure id="o7658" name="corolla">
+        <character name="coloration" value="yellow" />
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="9" to_unit="mm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="396.txt-13">
+      <text>Cypselae urceolate, 3.5–4.5+ mm;</text>
+      <structure id="o7659" name="cypsela">
+        <character name="shape" value="urceolate" />
+        <character char_type="range_value" name="size" from="3.5" from_unit="mm" to="4.5" to_unit="mm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="396.txt-14">
+      <text>pappi of ca. 40+, stramineous bristles in 2+ series, ca. 5 mm.</text>
+      <structure id="o7660" name="pappus">
+        <character name="size" value="5" unit="mm" />
+      </structure>
+      <structure id="o7661" name="bristle">
+        <character name="count" char_type="range_value" from="40" upper_restricted="false" />
+        <character name="coloration" value="stramineous" />
+      </structure>
+      <relation id="r921" name="consist_of" from="o7660" to="o7661" negation="false" />
+      <structure id="o7662" name="series">
+        <character name="count" char_type="range_value" from="2" upper_restricted="false" />
+      </structure>
+      <relation id="r922" name="in" from="o7661" to="o7662" negation="false" />
+    </statement>
+  </description>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <habitat>openings in pine and pine-oak woods</habitat>
+  <habitat>bogs</habitat>
+  <habitat>sands</habitat>
+  <elevation>30–600 m;</elevation>
+  <ca_distribution>Ont.</ca_distribution>
+  <us_distribution>Ala.</us_distribution>
+  <us_distribution>Ark.</us_distribution>
+  <us_distribution>Conn.</us_distribution>
+  <us_distribution>Del.</us_distribution>
+  <us_distribution>D.C.</us_distribution>
+  <us_distribution>Fla.</us_distribution>
+  <us_distribution>Ga.</us_distribution>
+  <us_distribution>Ill.</us_distribution>
+  <us_distribution>Ind.</us_distribution>
+  <us_distribution>Kans.</us_distribution>
+  <us_distribution>Ky.</us_distribution>
+  <us_distribution>La.</us_distribution>
+  <us_distribution>Maine</us_distribution>
+  <us_distribution>Md.</us_distribution>
+  <us_distribution>Mass.</us_distribution>
+  <us_distribution>Mich.</us_distribution>
+  <us_distribution>Minn.</us_distribution>
+  <us_distribution>Miss.</us_distribution>
+  <us_distribution>Mo.</us_distribution>
+  <us_distribution>N.J.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>N.C.</us_distribution>
+  <us_distribution>Ohio</us_distribution>
+  <us_distribution>Okla.</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <us_distribution>R.I.</us_distribution>
+  <us_distribution>S.C.</us_distribution>
+  <us_distribution>Tenn.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <us_distribution>Va.</us_distribution>
+  <us_distribution>W.Va.</us_distribution>
+  <global_distribution>Mexico</global_distribution>
+  <global_distribution>Central America.</global_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

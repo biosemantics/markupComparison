@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Crepis acuminata</species_name>
+  <authority>Nuttall</authority>
+  <place_of_publication>Trans. Amer. Philos. Soc., n. s. 7: 437. 1841</place_of_publication>
+  <common_name>Longleaf or tapertip hawksbeard</common_name>
+  <synonym_of_species_name>Crepis acuminata subsp. pluriflora Babcock &amp; Stebbins; C. angustata Rydberg; C. seselifolia Rydberg</synonym_of_species_name>
+  <description>
+    <statement id="275.txt-0">
+      <text>Perennials, 20–65 cm (taproots deep, woody, caudices swollen, branched, often covered by old leaf bases).</text>
+      <structure id="o4817" name="whole_organism">
+        <character char_type="range_value" name="size" from="20" from_unit="cm" to="65" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="275.txt-1">
+      <text>Stems 1–5, erect, stout, branched near or beyond middles, tomentulose (at least proximally).</text>
+      <structure id="o4818" name="stem">
+        <character char_type="range_value" name="count" from="1" to="5" />
+        <character name="orientation" value="erect" />
+        <character name="fragility" value="stout" />
+        <character name="architecture_or_shape" value="branched" constraint="near or beyond middles" constraintid="o4819" />
+        <character name="pubescence" value="tomentulose" />
+      </structure>
+      <structure id="o4819" name="middle" />
+    </statement>
+    <statement id="275.txt-2">
+      <text>Leaves basal and cauline ;</text>
+    </statement>
+    <statement id="275.txt-3">
+      <text>petiolate;</text>
+      <structure id="o4820" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="architecture" value="petiolate" />
+      </structure>
+    </statement>
+    <statement id="275.txt-4">
+      <text>blades elliptic to lanceolate, 8–40 × 0.5–6(–11) cm, margins deeply pinnately lobed, lobes 5–10 pairs, usually lobed (± halfway to midveins, lobes entire), apices long-acuminate, faces ± tomentulose.</text>
+      <structure id="o4821" name="blade">
+        <character char_type="range_value" name="shape" from="elliptic" to="lanceolate" />
+        <character name="shape" value="elliptic" />
+        <character name="shape" value="lanceolate" />
+        <character char_type="range_value" name="length" from="8" from_unit="cm" to="40" to_unit="cm" />
+        <character char_type="range_value" name="atypical_width" from="6" to="11" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="width" from="0.5" from_unit="cm" to="6" to_unit="cm" />
+      </structure>
+      <structure id="o4822" name="margin">
+        <character name="shape" value="lobed" modifier="deeply pinnately" />
+      </structure>
+      <structure id="o4823" name="lobe">
+        <character char_type="range_value" name="count" from="5" to="10" />
+        <character name="shape" value="lobed" modifier="usually" />
+      </structure>
+      <structure id="o4824" name="apex">
+        <character name="shape" value="long-acuminate" />
+      </structure>
+      <structure id="o4825" name="face">
+        <character name="pubescence" value="tomentulose" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="275.txt-5">
+      <text>Heads 30–70(–100+), in compound, corymbiform arrays .</text>
+      <structure id="o4826" name="head">
+        <character char_type="range_value" name="atypical_count" from="70" to="100" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="30" to="70" />
+      </structure>
+      <structure id="o4827" name="array">
+        <character name="architecture" value="compound" />
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <relation id="r655" name="in" from="o4826" to="o4827" negation="false" />
+    </statement>
+    <statement id="275.txt-6">
+      <text>Calyculi of 5–7, triangular, tomentulose bractlets 1–2 mm.</text>
+      <structure id="o4828" name="calyculus" />
+      <structure id="o4829" name="bractlet">
+        <character char_type="range_value" name="count" from="5" to="7" />
+        <character name="shape" value="triangular" />
+        <character name="pubescence" value="tomentulose" />
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="2" to_unit="mm" />
+      </structure>
+      <relation id="r656" name="consist_of" from="o4828" to="o4829" negation="false" />
+    </statement>
+    <statement id="275.txt-7">
+      <text>Involucres cylindro-campanulate, 8–16 × 2–3 mm.</text>
+      <structure id="o4830" name="involucre">
+        <character name="shape" value="cylindro-campanulate" />
+        <character char_type="range_value" name="length" from="8" from_unit="mm" to="16" to_unit="mm" />
+        <character char_type="range_value" name="width" from="2" from_unit="mm" to="3" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="275.txt-8">
+      <text>Phyllaries 5–8, (medially green) lanceolate, 8–12 mm, (margins yellowish, often scarious), apices acute (ciliate), abaxial faces usually glabrous, sometimes sparsely tomentulose, adaxial glabrous.</text>
+      <structure id="o4831" name="phyllary">
+        <character char_type="range_value" name="count" from="5" to="8" />
+        <character name="shape" value="lanceolate" />
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="12" to_unit="mm" />
+      </structure>
+      <structure id="o4832" name="apex">
+        <character name="shape" value="acute" />
+      </structure>
+      <structure id="o4833" name="face" constraint="abaxial">
+        <character name="pubescence" value="glabrous" modifier="usually" />
+        <character name="pubescence" value="tomentulose" modifier="sometimes sparsely" />
+        <character name="insertion_or_position" value="adaxial" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="275.txt-9">
+      <text>Florets 5–10(–15);</text>
+      <structure id="o4834" name="floret">
+        <character char_type="range_value" name="atypical_count" from="10" to="15" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="5" to="10" />
+      </structure>
+    </statement>
+    <statement id="275.txt-10">
+      <text>corollas yellow, 10–18 mm.</text>
+      <structure id="o4835" name="corolla">
+        <character name="coloration" value="yellow" />
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="18" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="275.txt-11">
+      <text>Cypselae pale yellowish brown, subcylindric, 6–9 mm, apices ± narrowed (not beaked), ribs 12;</text>
+      <structure id="o4836" name="cypsela">
+        <character name="coloration" value="brown" modifier="pale-yellowish" />
+        <character name="shape" value="subcylindric" />
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="9" to_unit="mm" />
+      </structure>
+      <structure id="o4837" name="apex">
+        <character name="size" value="narrowed" modifier="±" />
+      </structure>
+      <structure id="o4838" name="rib">
+        <character name="count" value="12" />
+      </structure>
+    </statement>
+    <statement id="275.txt-12">
+      <text>pappi white, 6–9 mm.</text>
+      <structure id="o4839" name="pappus">
+        <character name="coloration" value="white" />
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="9" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="275.txt-13">
+      <text>2 n = 22, 33, 44, 55, 88.</text>
+      <structure id="o4840" name="chromosome">
+        <character name="count" value="22" />
+        <character name="count" value="33" />
+        <character name="count" value="44" />
+        <character name="count" value="55" />
+        <character name="count" value="88" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>may</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>dry rocky hillsides</habitat>
+  <habitat>ridges</habitat>
+  <habitat>grassy flats</habitat>
+  <habitat>open pine woods</habitat>
+  <elevation>1000–3300 m;</elevation>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Iowa</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>Nebr.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <discussion>Crepis acuminata is identified by the narrow, pinnately lobed leaves cleft about half way to the midrib and with long-acuminate apices, heads with relatively few florets, relatively small involucres, and glabrous phyllaries. The fertile diploid form of this species is most widespread (E. B. Babcock 1947). In addition, there are apomictic, polyploid populations. The latter often are more variable in leaf size, shape, and indument, and can be difficult to distinguish from C. pleurocarpa and C. intermedia.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,12 +1,12 @@
 package edu.arizona.sirls.etc.markupSimilarity.io;
 
 import java.io.File;
-import java.util.List;
+import java.io.IOException;
 
-import edu.arizona.sirls.etc.markupSimilarity.model.Treatment;
+import edu.arizona.sirls.etc.markupSimilarity.model.DescriptionsFileList;
 
 public interface ITreatmentReader {
 
-	public List<Treatment> read(File input);
+	public DescriptionsFileList read(File input) throws IOException;
 	
 }

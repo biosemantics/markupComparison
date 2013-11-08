@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>25.</number>
+  <species_name>Artemisia alaskana</species_name>
+  <authority>Rydberg</authority>
+  <place_of_publication>in N. L. Britton et al., N. Amer. Fl. 34: 281. 1916</place_of_publication>
+  <common_name>Siberian wormwood</common_name>
+  <synonym_of_species_name>Artemisia tyrrellii Rydberg</synonym_of_species_name>
+  <description>
+    <statement id="892.txt-0">
+      <text>Perennials or subshrubs, 15–30(–60) cm (not cespitose), aromatic (caudices woody).</text>
+      <structure id="o18482" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="30" to="60" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="15" from_unit="cm" to="30" to_unit="cm" />
+        <character name="odor" value="aromatic" />
+        <character name="life_style" value="perennial" />
+        <character name="life_style" value="subshrub" />
+      </structure>
+    </statement>
+    <statement id="892.txt-1">
+      <text>Stems 1–10, erect, gray-green, simple (suf-frutescent from woody offsets), densely hairy to glabrescent.</text>
+      <structure id="o18484" name="stem">
+        <character char_type="range_value" name="count" from="1" to="10" />
+        <character name="orientation" value="erect" />
+        <character name="coloration" value="green" modifier="gray" />
+        <character name="architecture" value="simple" />
+        <character char_type="range_value" name="pubescence" from="densely hairy" to="glabrescent" />
+        <character name="pubescence" value="hairy" modifier="densely" />
+        <character name="pubescence" value="glabrescent" modifier="densely" />
+      </structure>
+    </statement>
+    <statement id="892.txt-2">
+      <text>Leaves basal and cauline, mostly gray-green;</text>
+      <structure id="o18485" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="coloration" value="green" modifier="mostly;gray" />
+      </structure>
+    </statement>
+    <statement id="892.txt-3">
+      <text>blades obovate, 1.5–5 × 0.5–1.5 cm, 3-lobed to 2-ternately lobed (lobes 0.5–3 mm wide, margins flat; cauline leaves smaller, sometimes entire), faces tomentose.</text>
+      <structure id="o18486" name="blade">
+        <character name="shape" value="obovate" />
+        <character char_type="range_value" name="length" from="1.5" from_unit="cm" to="5" to_unit="cm" />
+        <character char_type="range_value" name="width" from="0.5" from_unit="cm" to="1.5" to_unit="cm" />
+        <character name="shape" value="3-lobed" />
+        <character name="shape" value="lobed" modifier="2-ternately" />
+      </structure>
+      <structure id="o18487" name="face">
+        <character name="pubescence" value="tomentose" />
+      </structure>
+    </statement>
+    <statement id="892.txt-4">
+      <text>Heads (peduncles 0 or to 30 mm) in (leafy) paniculiform to racemiform arrays 12–25 × 1–4.5 cm.</text>
+      <structure id="o18488" name="head" />
+      <structure id="o18489" name="array">
+        <character char_type="range_value" name="architecture" from="paniculiform" to="racemiform" />
+        <character name="architecture" value="paniculiform" />
+        <character name="architecture" value="racemiform" />
+        <character char_type="range_value" name="length" from="12" from_unit="cm" to="25" to_unit="cm" />
+        <character char_type="range_value" name="width" from="1" from_unit="cm" to="4.5" to_unit="cm" />
+      </structure>
+      <relation id="r1954" name="in" from="o18488" to="o18489" negation="false" />
+    </statement>
+    <statement id="892.txt-5">
+      <text>Involucres broadly campanulate, 3.5–5 × 6–9 mm.</text>
+      <structure id="o18490" name="involucre">
+        <character name="shape" value="campanulate" modifier="broadly" />
+        <character char_type="range_value" name="length" from="3.5" from_unit="mm" to="5" to_unit="mm" />
+        <character char_type="range_value" name="width" from="6" from_unit="mm" to="9" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="892.txt-6">
+      <text>Phyllaries ovate (margins brownish or hyaline), tomentose.</text>
+      <structure id="o18491" name="phyllary">
+        <character name="shape" value="ovate" />
+        <character name="pubescence" value="tomentose" />
+      </structure>
+    </statement>
+    <statement id="892.txt-7">
+      <text>Florets:</text>
+      <structure id="o18492" name="floret" />
+    </statement>
+    <statement id="892.txt-8">
+      <text>pistillate 8–10;</text>
+      <structure id="o18493" name="floret" constraint="pistillate">
+        <character char_type="range_value" name="count" from="8" to="10" />
+      </structure>
+    </statement>
+    <statement id="892.txt-9">
+      <text>bisexual 20–45;</text>
+      <structure id="o18494" name="floret" constraint="bisexual">
+        <character char_type="range_value" name="count" from="20" to="45" />
+      </structure>
+    </statement>
+    <statement id="892.txt-10">
+      <text>corollas yellow, 2–2.5 mm, glabrous or glandular.</text>
+      <structure id="o18495" name="corolla">
+        <character name="coloration" value="yellow" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="2.5" to_unit="mm" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="glandular" />
+      </structure>
+    </statement>
+    <statement id="892.txt-11">
+      <text>Cypselae ellipsoid (flattened), 1–1.5 mm, glabrous.</text>
+      <structure id="o18496" name="cypsela">
+        <character name="shape" value="ellipsoid" />
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="1.5" to_unit="mm" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="892.txt-12">
+      <text>2 n = 18.</text>
+      <structure id="o18497" name="chromosome">
+        <character name="count" value="18" />
+      </structure>
+    </statement>
+  </description>
+  <habitat>well-drained soils</habitat>
+  <habitat>flood plains</habitat>
+  <habitat>gravel stream banks</habitat>
+  <habitat>roadsides</habitat>
+  <habitat>dry, rocky slopes</habitat>
+  <habitat>forest openings</habitat>
+  <habitat>alpine and arctic tundras</habitat>
+  <elevation>100–2500 m;</elevation>
+  <ca_distribution>B.C.</ca_distribution>
+  <ca_distribution>N.W.T.</ca_distribution>
+  <ca_distribution>Yukon</ca_distribution>
+  <us_distribution>Alaska.</us_distribution>
+  <discussion>As circumscribed here, Artemisia alaskana is known from northwestern North America. The type specimen of A. alaskana is atypical, with longer peduncles and narrower leaf lobes than are found in most populations.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

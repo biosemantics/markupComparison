@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>19.</number>
+  <species_name>Crepis rubra</species_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 806. 1753</place_of_publication>
+  <common_name>Red hawksbeard</common_name>
+  <description>
+    <statement id="304.txt-0">
+      <text>Annuals, 4–40 cm (taproots shallow).</text>
+      <structure id="o5470" name="whole_organism">
+        <character char_type="range_value" name="size" from="4" from_unit="cm" to="40" to_unit="cm" />
+        <character name="life_style" value="annual" />
+      </structure>
+    </statement>
+    <statement id="304.txt-1">
+      <text>Stems 1–8, decumbent to ascending, scapiform, branched proximally, glabrate to tomen-tulose.</text>
+      <structure id="o5471" name="stem">
+        <character char_type="range_value" name="count" from="1" to="8" />
+        <character name="habit" value="decumbent" />
+        <character name="orientation" value="ascending" />
+        <character name="shape" value="scapiform" />
+        <character name="architecture_or_shape" value="branched" modifier="proximally" />
+        <character name="pubescence" value="glabrate" />
+        <character name="pubescence" value="tomen-tulose" />
+      </structure>
+    </statement>
+    <statement id="304.txt-2">
+      <text>Leaves basal and cauline;</text>
+    </statement>
+    <statement id="304.txt-3">
+      <text>petiolate;</text>
+      <structure id="o5472" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="architecture" value="petiolate" />
+      </structure>
+    </statement>
+    <statement id="304.txt-4">
+      <text>blades (at least basal) oblanceolate or runcinate, 2–15 × 0.5–3 cm, (bases attenuate) margins pinnately lobed to dentate, apices acute, faces hirsute.</text>
+      <structure id="o5473" name="blade">
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="runcinate" />
+        <character char_type="range_value" name="length" from="2" from_unit="cm" to="15" to_unit="cm" />
+        <character char_type="range_value" name="width" from="0.5" from_unit="cm" to="3" to_unit="cm" />
+      </structure>
+      <structure id="o5474" name="margin">
+        <character char_type="range_value" name="shape" from="pinnately lobed" to="dentate" />
+        <character name="shape" value="lobed" modifier="pinnately" />
+        <character name="shape" value="dentate" modifier="pinnately" />
+      </structure>
+      <structure id="o5475" name="apex">
+        <character name="shape" value="acute" />
+      </structure>
+      <structure id="o5476" name="face">
+        <character name="pubescence" value="hirsute" />
+      </structure>
+    </statement>
+    <statement id="304.txt-5">
+      <text>Heads 1(–2), usually borne singly (peduncles scapiform).</text>
+      <structure id="o5477" name="head">
+        <character char_type="range_value" name="atypical_count" from="1" to="2" from_inclusive="false" />
+        <character name="count" value="1" />
+        <character name="arrangement" value="singly" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="304.txt-6">
+      <text>Calyculi of 8–10, ovate-lanceolate, glabrous bractlets 4–8 mm.</text>
+      <structure id="o5478" name="calyculus" />
+      <structure id="o5479" name="bractlet">
+        <character char_type="range_value" name="count" from="8" to="10" />
+        <character name="shape" value="ovate-lanceolate" />
+        <character name="pubescence" value="glabrous" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+      <relation id="r717" name="consist_of" from="o5478" to="o5479" negation="false" />
+    </statement>
+    <statement id="304.txt-7">
+      <text>Involucres cylindro-campanulate, 11–15 × 4–7 mm.</text>
+      <structure id="o5480" name="involucre">
+        <character name="shape" value="cylindro-campanulate" />
+        <character char_type="range_value" name="length" from="11" from_unit="mm" to="15" to_unit="mm" />
+        <character char_type="range_value" name="width" from="4" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="304.txt-8">
+      <text>Phyllaries 8–14, (dark medially), lanceolate, 10–12 mm, (margins yellowish) apices acute, abaxial faces sparsely to densely stipitate-glandular, adaxial with fine, appressed hairs.</text>
+      <structure id="o5481" name="phyllary">
+        <character char_type="range_value" name="count" from="8" to="14" />
+        <character name="shape" value="lanceolate" />
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="12" to_unit="mm" />
+      </structure>
+      <structure id="o5482" name="apex">
+        <character name="shape" value="acute" />
+      </structure>
+      <structure id="o5483" name="face" constraint="abaxial">
+        <character name="architecture_or_exudation_or_pubescence" value="stipitate-glandular" modifier="sparsely densely" />
+        <character name="insertion_or_position" value="adaxial" constraint="with hairs" constraintid="o5484" />
+      </structure>
+      <structure id="o5484" name="hair">
+        <character name="texture" value="fine" />
+        <character name="orientation" value="appressed" />
+      </structure>
+    </statement>
+    <statement id="304.txt-9">
+      <text>Florets 40–100;</text>
+      <structure id="o5485" name="floret">
+        <character char_type="range_value" name="count" from="40" to="100" />
+      </structure>
+    </statement>
+    <statement id="304.txt-10">
+      <text>corollas pink or white, 16–17 mm.</text>
+      <structure id="o5486" name="corolla">
+        <character name="coloration" value="pink" />
+        <character name="coloration" value="white" />
+        <character char_type="range_value" name="size" from="16" from_unit="mm" to="17" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="304.txt-11">
+      <text>Cypselae dimorphic, dark brown, fusiform:</text>
+      <structure id="o5487" name="cypsela">
+        <character name="habit" value="dimorphic" />
+        <character name="coloration" value="brown" modifier="dark" />
+        <character name="shape" value="fusiform" />
+      </structure>
+    </statement>
+    <statement id="304.txt-12">
+      <text>outer curved, 8–9 mm, coarsely beaked, inner straight, 12–21 mm, finely beaked, ribs 10 (sharply spiculate);</text>
+      <structure id="o5488" name="cypsela" constraint="outer">
+        <character name="shape" value="curved" />
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="9" to_unit="mm" />
+        <character name="shape" value="beaked" modifier="coarsely" />
+      </structure>
+      <structure id="o5489" name="cypsela" constraint="inner">
+        <character name="course" value="straight" />
+        <character char_type="range_value" name="size" from="12" from_unit="mm" to="21" to_unit="mm" />
+        <character name="shape" value="beaked" modifier="finely" />
+      </structure>
+      <structure id="o5490" name="rib">
+        <character name="count" value="10" />
+      </structure>
+    </statement>
+    <statement id="304.txt-13">
+      <text>pappi yellowish white to dusky white (fine), 5–8 mm.</text>
+      <structure id="o5491" name="pappus">
+        <character char_type="range_value" name="coloration" from="yellowish-white" to="dusky-white" />
+        <character name="coloration" value="white" modifier="yellowish" />
+        <character name="coloration" value="white" modifier="dusky" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="304.txt-14">
+      <text>2 n = 10.</text>
+      <structure id="o5492" name="chromosome">
+        <character name="count" value="10" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <habitat>rocky fields</habitat>
+  <habitat>waste places</habitat>
+  <elevation>200–300 m;</elevation>
+  <introduced>introduced;</introduced>
+  <us_distribution>Calif.</us_distribution>
+  <global_distribution>Eurasia</global_distribution>
+  <global_distribution>also introduced widely.</global_distribution>
+  <discussion>Native to the Mediterranean region and Asia Minor, Crepis rubra is widely cultivated throughout the world and occasionally escapes. It can be easily recognized by its annual habit, scapiform stems, relatively large, often single heads, and pink or white corollas. Wild plants are shorter than cultivated ones.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

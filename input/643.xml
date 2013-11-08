@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>14.</number>
+  <species_name>Antennaria parlinii</species_name>
+  <authority>Fernald</authority>
+  <place_of_publication>Gard. &amp; Forest 10: 284. 1897</place_of_publication>
+  <common_name>Parlin’s pussytoes</common_name>
+  <description>
+    <statement id="643.txt-0">
+      <text>Dioecious or gynoecious (staminate plants in equal frequencies as pistillates or none in populations, respectively).</text>
+      <structure id="o13472" name="whole_organism">
+        <character name="reproduction" value="dioecious" />
+        <character name="reproduction" value="gynoecious" />
+      </structure>
+    </statement>
+    <statement id="643.txt-1">
+      <text>Plants 12–35(–45) cm.</text>
+      <structure id="o13473" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="35" to="45" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="12" from_unit="cm" to="35" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="643.txt-2">
+      <text>Stolons 3.5–11(–14) cm (mostly decumbent when young).</text>
+      <structure id="o13474" name="stolon">
+        <character char_type="range_value" name="atypical_size" from="11" to="14" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="3.5" from_unit="cm" to="11" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="643.txt-3">
+      <text>Basal leaves 3–5-nerved, obovate-spatulate, obovate, rhombic-obovate, or suborbiculate, 30–95 × 12–45 mm, tips mucronate, faces gray-pubescent to floccose-glabrescent.</text>
+      <structure id="o13475" name="leaf" constraint="basal">
+        <character name="architecture" value="3-5-nerved" />
+        <character name="shape" value="obovate-spatulate" />
+        <character name="shape" value="obovate" />
+        <character name="shape" value="rhombic-obovate" />
+        <character name="shape" value="suborbiculate" />
+        <character char_type="range_value" name="length" from="30" from_unit="mm" to="95" to_unit="mm" />
+        <character char_type="range_value" name="width" from="12" from_unit="mm" to="45" to_unit="mm" />
+      </structure>
+      <structure id="o13476" name="tip">
+        <character name="shape" value="mucronate" />
+      </structure>
+      <structure id="o13477" name="face">
+        <character char_type="range_value" name="pubescence" from="gray-pubescent" to="floccose-glabrescent" />
+        <character name="pubescence" value="gray-pubescent" />
+        <character name="pubescence" value="floccose-glabrescent" />
+      </structure>
+    </statement>
+    <statement id="643.txt-4">
+      <text>Cauline leaves oblong-lanceolate, 3.5–45 mm, distalmost flagged.</text>
+      <structure id="o13478" name="leaf" constraint="cauline">
+        <character name="shape" value="oblong-lanceolate" />
+        <character char_type="range_value" name="size" from="3.5" from_unit="mm" to="45" to_unit="mm" />
+        <character name="position" value="distalmost" />
+        <character name="orientation" value="flagged" />
+      </structure>
+    </statement>
+    <statement id="643.txt-5">
+      <text>Heads 4–12(–15) in tight corymbiform arrays.</text>
+      <structure id="o13479" name="head">
+        <character char_type="range_value" name="atypical_count" from="12" to="15" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="4" to="12" constraint="in arrays" constraintid="o13480" />
+      </structure>
+      <structure id="o13480" name="array">
+        <character name="texture" value="tight" />
+        <character name="architecture" value="corymbiform" />
+      </structure>
+    </statement>
+    <statement id="643.txt-6">
+      <text>Involucres:</text>
+      <structure id="o13481" name="involucre" />
+    </statement>
+    <statement id="643.txt-7">
+      <text>staminate 6–9 mm;</text>
+      <structure id="o13482" name="involucre" constraint="staminate">
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="9" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="643.txt-8">
+      <text>pistillate (7–)8–13 mm.</text>
+      <structure id="o13483" name="involucre" constraint="pistillate">
+        <character char_type="range_value" name="atypical_size" from="7" to="8" from_unit="mm" to_unit="mm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="13" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="643.txt-9">
+      <text>Phyllaries distally white.</text>
+      <structure id="o13484" name="phyllary">
+        <character name="coloration" value="white" modifier="distally" />
+      </structure>
+    </statement>
+    <statement id="643.txt-10">
+      <text>Corollas:</text>
+      <structure id="o13485" name="corolla" />
+    </statement>
+    <statement id="643.txt-11">
+      <text>staminate 3.5–5 mm;</text>
+      <structure id="o13486" name="corolla" constraint="staminate">
+        <character char_type="range_value" name="size" from="3.5" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="643.txt-12">
+      <text>pistillate 4–7 mm.</text>
+      <structure id="o13487" name="corolla" constraint="pistillate">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="643.txt-13">
+      <text>Cypselae 1–2 mm, minutely papillate;</text>
+      <structure id="o13488" name="cypsela">
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="2" to_unit="mm" />
+        <character name="relief_or_pubescence" value="papillate" modifier="minutely" />
+      </structure>
+    </statement>
+    <statement id="643.txt-14">
+      <text>pappi:</text>
+      <structure id="o13489" name="pappus" />
+    </statement>
+    <statement id="643.txt-15">
+      <text>staminate 4–5 mm;</text>
+      <structure id="o13490" name="pappus" constraint="staminate">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="643.txt-16">
+      <text>pistillate 5–8 mm.</text>
+      <structure id="o13491" name="pappus" constraint="pistillate">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="643.txt-17">
+      <text>2 n = 56, 84, 70, 112.</text>
+      <structure id="o13492" name="chromosome">
+        <character name="count" value="56" />
+        <character name="count" value="84" />
+        <character name="count" value="70" />
+        <character name="count" value="112" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Subspecies 2 (2 in the flora):</number_of_infrataxa>
+  <general_distribution>e North America.</general_distribution>
+  <discussion>The Antennaria parlinii complex consists of two fairly distinct subspecies that differ in induments of basal leaves (tomentose in subsp. fallax; glabrous in subsp. parlinii) and other characters (R. J. Bayer and G. L. Stebbins 1982). Antennaria parlinii is the most common eastern North American species (Bayer and Stebbins 1982, 1983). This complex of polyploid sexual and apomictic populations is the result of multiple hybridizations among sexual diploid species including A. plantaginifolia, A. racemosa, and A. solitaria (Bayer 1985b; Bayer and D. J. Crawford 1986). A. Cronquist (1945; H. A. Gleason and Cronquist 1991) included A. parlinii within his circumscription of A. plantaginifolia. By not including the hybrid poly-ploid within the circumscription of a single one of its sexual progenitors, the circumscription here better portrays the evolutionary relationships between A. parlinii and its sexual progenitors.</discussion>
+  <couplet>1.Stems usually glandless; basal leaves adaxially tomentose14a. Antennaria parlinii subsp. fallax</couplet>
+  <couplet>1.Stems usually with purple glandular hairs (at least near summits of young flowering stems); basal leaves adaxially green-glabrous 14b. Antennaria parlinii subsp. parlinii</couplet>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

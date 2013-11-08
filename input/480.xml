@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>12a.</number>
+  <variety_name>Malacothrix saxatilis (Nuttall) Torrey &amp; A. Gray var. implicata</variety_name>
+  <authority>(Eastwood) H. M. Hall</authority>
+  <place_of_publication>Univ. Calif. Publ. Bot. 3: 269. 1907</place_of_publication>
+  <synonym_of_variety_name>Malacothrix implicata Eastwood, Proc. Calif. Acad. Sci., ser. 3, 1: 113. 1898</synonym_of_variety_name>
+  <description>
+    <statement id="480.txt-0">
+      <text>Plants rhizomatous or with woody caudices.</text>
+      <structure id="o9609" name="whole_organism">
+        <character name="architecture" value="rhizomatous" />
+        <character name="architecture" value="with woody caudices" />
+        <character name="life_style" value="plant" />
+      </structure>
+      <structure id="o9610" name="caudex" constraint="woody" />
+      <relation id="r1114" name="with" from="o9609" to="o9610" negation="false" />
+    </statement>
+    <statement id="480.txt-1">
+      <text>Herbage glabrous or sparsely hairy (arachnose).</text>
+      <structure id="o9611" name="herbage">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="hairy" modifier="sparsely" />
+      </structure>
+    </statement>
+    <statement id="480.txt-2">
+      <text>Stems usually 1, erect, branched distally, proximally woody, relatively densely leafy distally.</text>
+      <structure id="o9612" name="stem">
+        <character name="count" value="1" modifier="usually" />
+        <character name="orientation" value="erect" />
+        <character name="architecture_or_shape" value="branched" modifier="distally" />
+        <character name="texture" value="woody" modifier="proximally" />
+        <character name="architecture" value="leafy" modifier="relatively densely ; distally" />
+      </structure>
+    </statement>
+    <statement id="480.txt-3">
+      <text>Cauline leaves:</text>
+      <structure id="o9613" name="leaf" constraint="cauline" />
+    </statement>
+    <statement id="480.txt-4">
+      <text>proximal (1–)2-pinnately lobed (lobes linear, apices obtuse or acute), ultimate margins entire or denticulate, apices usually obtuse;</text>
+      <structure id="o9614" name="leaf" constraint="proximal cauline">
+        <character name="shape" value="lobed" modifier="1-2-pinnately" />
+      </structure>
+      <structure id="o9615" name="margin" constraint="ultimate">
+        <character name="shape" value="entire" />
+        <character name="shape" value="denticulate" />
+      </structure>
+      <structure id="o9616" name="apex">
+        <character name="shape" value="obtuse" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="480.txt-5">
+      <text>distal linear to filiform (sometimes pinnately lobed, lobes linear to filiform).</text>
+      <structure id="o9617" name="leaf" constraint="distal cauline" />
+    </statement>
+    <statement id="480.txt-6">
+      <text>Arrays of heads relatively crowded.</text>
+      <structure id="o9618" name="head">
+        <character name="architecture" value="crowded" modifier="relatively" />
+      </structure>
+    </statement>
+    <statement id="480.txt-7">
+      <text>Cypselae 1.8–2.2 mm.</text>
+      <structure id="o9619" name="cypsela">
+        <character char_type="range_value" name="size" from="1.8" from_unit="mm" to="2.2" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="480.txt-8">
+      <text>2 n = 18.</text>
+      <structure id="o9620" name="chromosome">
+        <character name="count" value="18" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>feb</flowering_time>
+  <flowering_time>winter</flowering_time>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <flowering_time>nov</flowering_time>
+  <flowering_time>dec</flowering_time>
+  <habitat>clay flats or canyon slopes</habitat>
+  <elevation>50–400 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <discussion>Variety implicata grows on Anacapa, San Nicolas, San Miguel, Santa Cruz, and Santa Rosa islands. Plants with 1-pinnately parted leaves are present in some populations on Santa Cruz Island.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

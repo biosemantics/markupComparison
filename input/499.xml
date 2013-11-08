@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>2b.</number>
+  <variety_name>Agoseris aurantiaca (Hooker) Greene var. purpurea</variety_name>
+  <authority>(A. Gray) Cronquist</authority>
+  <place_of_publication>Rhodora 50: 33. 1948</place_of_publication>
+  <common_name>Colorado Plateau agoseris</common_name>
+  <synonym_of_variety_name>Macrorhynchus purpureus A. Gray, Mem. Amer. Acad. Arts, n. s. 4: 114. 1849; Agoseris arizonica (Greene) Greene; A. attenuata Rydberg; A. aurantiaca subsp. purpurea (A. Gray) G. W. Douglas; A. confinis Greene; A. frondifera Osterhout; A. glauca (Pursh) Rafinesque var. cronquistii S. L. Welsh; A. graminifolia Greene; A. longirostris Greene; A. purpurea (A. Gray) Greene; A. purpurea var. arizonica (Greene) G. L. Wittrock; A. roseata Rydberg; A. rostrata Rydberg</synonym_of_variety_name>
+  <description>
+    <statement id="499.txt-0">
+      <text>Leaf blades:</text>
+      <structure id="o10108" name="blade" constraint="leaf" />
+    </statement>
+    <statement id="499.txt-1">
+      <text>margins usually dentate to laciniately pinnatifid, rarely entire, faces mostly glabrous and often glaucous.</text>
+      <structure id="o10109" name="margin">
+        <character name="shape" value="dentate" modifier="usually" />
+        <character name="shape" value="pinnatifid" modifier="laciniately" />
+        <character name="shape" value="entire" modifier="rarely" />
+      </structure>
+      <structure id="o10110" name="face">
+        <character name="pubescence" value="glabrous" modifier="mostly" />
+        <character name="coating" value="glaucous" modifier="often" />
+      </structure>
+    </statement>
+    <statement id="499.txt-2">
+      <text>Peduncles mostly longer than leaves at flowering, glabrate or apically ± villous to lanate.</text>
+      <structure id="o10111" name="peduncle">
+        <character name="size" value="longer" modifier="mostly" constraint="than leaves at flowering" constraintid="o10112" />
+        <character name="pubescence" value="glabrate" />
+        <character name="pubescence" value="villous to lanate" />
+        <character char_type="range_value" name="pubescence" from="villous" to="lanate" modifier="apically ±" />
+        <character name="pubescence" value="villous" modifier="apically ±" />
+        <character name="pubescence" value="lanate" modifier="apically ±" />
+      </structure>
+      <structure id="o10112" name="leaf" />
+    </statement>
+    <statement id="499.txt-3">
+      <text>Phyllaries ± stramineous proximally, green, often purple-black blotched or spotted, or with a purple-black midstripes, rarely nearly all black, usually ovate or obovate, sometimes lanceolate, subequal to unequal at flowering, margins ± ciliate, especially distally, faces glabrous or slightly pubescent basally or medially;</text>
+      <structure id="o10113" name="phyllary">
+        <character name="coloration" value="stramineous" modifier="± ; proximally" />
+        <character name="coloration" value="green" />
+        <character name="coloration" value="blotched" modifier="often ;purple-black" />
+        <character name="coloration" value="spotted" modifier="often" />
+        <character name="coloration" value="black" />
+        <character name="shape" value="ovate" modifier="usually" />
+        <character name="shape" value="obovate" />
+        <character name="shape" value="lanceolate" modifier="sometimes" />
+        <character char_type="range_value" name="size" from="subequal" to="unequal" />
+        <character name="size" value="subequal" />
+        <character name="size" value="unequal" modifier="at flowering" />
+      </structure>
+      <structure id="o10114" name="midstripe">
+        <character name="coloration" value="black" modifier="purple" />
+      </structure>
+      <relation id="r1170" name="with" from="o10113" to="o10114" negation="false" />
+      <structure id="o10115" name="margin">
+        <character name="architecture_or_shape" value="ciliate" modifier="±" />
+      </structure>
+      <structure id="o10116" name="face">
+        <character name="pubescence" value="glabrous" modifier="basally" />
+        <character name="pubescence" value="pubescent" modifier="slightly basally" />
+        <character name="pubescence" value="pubescent" modifier="slightly basally; medially" />
+      </structure>
+    </statement>
+    <statement id="499.txt-4">
+      <text>outer mostly glabrous adaxially.</text>
+      <structure id="o10117" name="phyllary" constraint="outer">
+        <character name="pubescence" value="glabrous" modifier="mostly ; adaxially" />
+      </structure>
+    </statement>
+    <statement id="499.txt-5">
+      <text>Corollas usually orange or yellow, sometimes pinkish, subequal to or surpassing inner phyllaries.</text>
+      <structure id="o10118" name="corolla">
+        <character name="coloration" value="orange" modifier="usually" />
+        <character name="coloration" value="yellow" />
+        <character name="coloration" value="pinkish" modifier="sometimes" />
+        <character name="size" value="subequal" />
+        <character name="size" value="surpassing inner phyllaries" />
+      </structure>
+      <structure id="o10119" name="phyllary" constraint="inner">
+        <character name="comparison" value="surpassing" />
+      </structure>
+    </statement>
+    <statement id="499.txt-6">
+      <text>Cypselae:</text>
+      <structure id="o10120" name="cypsela" />
+    </statement>
+    <statement id="499.txt-7">
+      <text>bodies ± gradually tapered to beaks, ribs ± weakly and uniformly ridged (not thickened distally).</text>
+      <structure id="o10121" name="body" />
+      <structure id="o10122" name="beak" />
+      <relation id="r1171" name="moreorless gradually tapered to" from="o10121" to="o10122" negation="false" />
+      <structure id="o10123" name="rib">
+        <character name="shape" value="ridged" modifier="uniformly" />
+      </structure>
+    </statement>
+    <statement id="499.txt-8">
+      <text>2 n = 18, 34, 36.</text>
+      <structure id="o10124" name="chromosome">
+        <character name="count" value="18" />
+        <character name="count" value="34" />
+        <character name="count" value="36" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>moist, subalpine meadows and forests to alpine tundra</habitat>
+  <habitat>often disturbed areas</habitat>
+  <elevation>1800–3600 m;</elevation>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <discussion>Variety purpurea is known mainly from the Colorado Plateau and southern Rocky Mountains. The two varieties are partially sympatric in the mountains of Colorado, Utah, southern Wyoming, and northern New Mexico, var. aurantiaca occurring only at very high elevations in that region. Wherever var. purpurea and var. aurantiaca occur together, they intergrade. Hybrids between var. purpurea and A. glauca or A. parviflora occur. One hybrid has been named (as a species): Agoseris aurantiaca var. purpurea × A. glauca var. dasycephala (= A. ×montana Osterhout) occurs sporadically at high elevations in the Rocky Mountains of Colorado.</discussion>
+  <discussion>Variety purpurea tends to exhibit a higher frequency of yellow-flowered populations than var. aurantiaca. Plants of var. purpurea from the Rocky Mountains usually have orange corollas; those from the plateaus of southern Utah and northern Arizona often have yellow corollas. These more southwestern populations have been called A. arizonica (or A. purpurea var. arizonica); the two regional phases cannot be adequately separated and their segregation is arbitrary.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>30a.</number>
+  <variety_name>Cirsium clavatum (M. E. Jones) Petrak var. clavatum</variety_name>
+  <common_name>Fish Lake thistle</common_name>
+  <synonym_of_variety_name>Cirsium clavatum var. markaguntense S. L. Welsh</synonym_of_variety_name>
+  <description>
+    <statement id="91.txt-0">
+      <text>Abaxial leaf faces glabrous to ± tomentose.</text>
+      <structure id="o18778" name="face" constraint="abaxial leaf">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="tomentose" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="91.txt-1">
+      <text>Involucres ovoid to campanulate, 1.5–2 × 1–2 cm, glabrous or thinly arachnoid-tomentose with fine, non-septate trichomes.</text>
+      <structure id="o18779" name="involucre">
+        <character char_type="range_value" name="shape" from="ovoid" to="campanulate" />
+        <character name="shape" value="ovoid" />
+        <character name="shape" value="campanulate" />
+        <character char_type="range_value" name="length" from="1.5" from_unit="cm" to="2" to_unit="cm" />
+        <character char_type="range_value" name="width" from="1" from_unit="cm" to="2" to_unit="cm" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="arachnoid-tomentose" modifier="thinly" constraint="with trichomes" constraintid="o18780" />
+      </structure>
+      <structure id="o18780" name="trichome">
+        <character name="texture" value="fine" />
+        <character name="architecture" value="non-septate" />
+      </structure>
+    </statement>
+    <statement id="91.txt-2">
+      <text>Phyllaries in 5–6 series, strongly imbricate, green or with dark subapical patch, lanceolate to ovate, abaxial faces with narrow glutinous ridge;</text>
+      <structure id="o18781" name="phyllary">
+        <character name="aestivation_or_arrangement" value="imbricate" modifier="strongly" />
+        <character name="coloration" value="green" />
+        <character name="coloration" value="with dark subapical patch" />
+        <character char_type="range_value" name="shape" from="lanceolate" to="ovate" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="ovate" />
+      </structure>
+      <structure id="o18782" name="series">
+        <character char_type="range_value" name="count" from="5" to="6" />
+      </structure>
+      <relation id="r1987" name="in" from="o18781" to="o18782" negation="false" />
+      <structure id="o18783" name="patch" constraint="subapical">
+        <character name="coloration" value="dark" />
+      </structure>
+      <relation id="r1988" name="with" from="o18781" to="o18783" negation="false" />
+      <structure id="o18784" name="face" constraint="abaxial" />
+      <structure id="o18785" name="ridge">
+        <character name="size" value="narrow" />
+        <character name="coating_or_texture" value="glutinous" />
+      </structure>
+      <relation id="r1989" name="with" from="o18784" to="o18785" negation="false" />
+    </statement>
+    <statement id="91.txt-3">
+      <text>outer and middle bases appressed, apical appendages erect or ascending, linear-lanceolate, entire, usually not scarious or fringed, acicular-acuminate, spines erect or ascending, 3–6 mm;</text>
+      <structure id="o18786" name="base" constraint="outer and middle">
+        <character name="orientation" value="appressed" />
+      </structure>
+      <structure id="o18787" name="appendage" constraint="apical">
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="ascending" />
+        <character name="shape" value="linear-lanceolate" />
+        <character name="shape" value="entire" />
+        <character name="texture" value="scarious" modifier="usually not" />
+        <character name="shape" value="fringed" />
+        <character name="shape" value="acicular-acuminate" />
+      </structure>
+      <structure id="o18788" name="spine">
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="ascending" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="91.txt-4">
+      <text>apices of inner sometimes flexuous or reflexed, narrow, flat, and entire or minutely toothed to slightly expanded and erose.</text>
+      <structure id="o18789" name="apex">
+        <character name="course" value="flexuous" modifier="sometimes" />
+        <character name="orientation" value="reflexed" />
+        <character name="size" value="narrow" />
+        <character name="shape" value="flat" />
+        <character name="shape" value="entire" />
+        <character name="shape" value="toothed" modifier="minutely" />
+        <character name="size" value="expanded" modifier="slightly" />
+        <character name="shape_or_relief" value="erose" />
+      </structure>
+      <structure id="o18790" name="phyllary" constraint="inner" />
+      <relation id="r1990" name="part_of" from="o18789" to="o18790" negation="false" />
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>sagebrush scrub</habitat>
+  <habitat>aspen groves</habitat>
+  <habitat>meadows</habitat>
+  <habitat>openings in montane coniferous forests</habitat>
+  <elevation>2100–3400 m;</elevation>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Utah.</us_distribution>
+  <discussion>Cirsium clavatum grows from the Colorado Plateau of central Utah eastward into the Rocky Mountains of western Colorado. R. J. Moore and C. Frankton (1965) suggested that C. clavatum (i.e., var. clavatum here) is a derivative of hybridization between C. eatonii and C. centaureae (i.e., C. clavatum var. americanum here). S. L. Welsh (1983) noted that the distribution of var. clavatum is distinct from those of var. americanum and C. eatonii. It is certainly possible that ancient hybridization may have contributed to the origin of var. clavatum, but there is no indication that the modern plants over most of its range are hybrids. The morphology of certain plants from southeastern Utah indicates a possibility of hybridization between C. clavatum and C. eatonii var. eatonii. The close relationship between var. clavatum and var. americanum is evident in the many overlapping vegetative features. The recently described C. clavatum var. markaguntense S. L. Welsh is a minor variant with subentire glabrous leaves.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

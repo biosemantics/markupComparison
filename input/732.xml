@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>96.</number>
+  <genus_name>FACELIS</genus_name>
+  <authority>Facelis Cassini</authority>
+  <place_of_publication>Bull. Sci. Soc. Philom. Paris 1819: 94. 1819</place_of_publication>
+  <author_of_tribe_genus>Guy L. Nesom</author_of_tribe_genus>
+  <description>
+    <statement id="732.txt-0">
+      <text>Annuals, 3–30 cm (taprooted or fibrous-rooted, not stoloniferous).</text>
+      <structure id="o15302" name="whole_organism">
+        <character char_type="range_value" name="size" from="3" from_unit="cm" to="30" to_unit="cm" />
+        <character name="life_style" value="annual" />
+      </structure>
+    </statement>
+    <statement id="732.txt-1">
+      <text>Stems usually 1, erect to decumbent.</text>
+      <structure id="o15303" name="stem">
+        <character name="count" value="1" modifier="usually" />
+        <character name="orientation" value="erect" />
+        <character name="habit" value="decumbent" />
+      </structure>
+    </statement>
+    <statement id="732.txt-2">
+      <text>Leaves cauline;</text>
+    </statement>
+    <statement id="732.txt-3">
+      <text>alternate;</text>
+    </statement>
+    <statement id="732.txt-4">
+      <text>sessile;</text>
+      <structure id="o15304" name="leaf">
+        <character name="insertion_or_position" value="cauline" />
+        <character name="arrangement" value="alternate" />
+        <character name="architecture" value="sessile" />
+      </structure>
+    </statement>
+    <statement id="732.txt-5">
+      <text>blades spatulate or oblanceolate to lance-linear, bases ± cuneate, margins entire (usually revolute), faces bicolor, abaxial gray, tomentose, adaxial green, glabrous.</text>
+      <structure id="o15305" name="blade">
+        <character char_type="range_value" name="shape" from="oblanceolate" to="lance-linear" />
+        <character name="shape" value="spatulate" />
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="lance-linear" />
+      </structure>
+      <structure id="o15306" name="base">
+        <character name="shape" value="cuneate" modifier="±" />
+      </structure>
+      <structure id="o15307" name="margin">
+        <character name="shape" value="entire" />
+      </structure>
+      <structure id="o15308" name="face">
+        <character name="coloration" value="bicolor" />
+        <character name="insertion_or_position" value="abaxial" />
+        <character name="coloration" value="gray" />
+        <character name="pubescence" value="tomentose" />
+        <character name="insertion_or_position" value="adaxial" />
+        <character name="coloration" value="green" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="732.txt-6">
+      <text>Heads disciform, usually in ± capitate to loose, spiciform arrays, rarely borne singly (in leaf axils).</text>
+      <structure id="o15309" name="head">
+        <character name="shape_or_architecture" value="disciform" />
+        <character name="arrangement" value="singly" modifier="rarely" />
+      </structure>
+      <structure id="o15310" name="array">
+        <character name="architecture_or_shape" value="capitate" modifier="±" />
+        <character name="architecture_or_texture" value="loose" />
+        <character name="architecture" value="spiciform" />
+      </structure>
+      <relation id="r1650" name="in" from="o15309" to="o15310" negation="false" modifier="usually" />
+    </statement>
+    <statement id="732.txt-7">
+      <text>Involucres narrowly ovoid or nearly cylindric [campanulate or broadly turbinate], 8–11 mm.</text>
+      <structure id="o15311" name="involucre">
+        <character name="shape" value="ovoid" modifier="narrowly" />
+        <character name="shape" value="cylindric" modifier="nearly" />
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="11" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="732.txt-8">
+      <text>Phyllaries in 3–5+ series, usually greenish to stramineous, sometimes purplish (hyaline, stereomes not glandular), unequal, chartaceous toward tips.</text>
+      <structure id="o15312" name="phyllary">
+        <character name="coloration" value="greenish" modifier="usually" />
+        <character name="coloration" value="stramineous" />
+        <character name="coloration" value="purplish" modifier="sometimes" />
+        <character name="size" value="unequal" />
+        <character name="texture" value="chartaceous" constraint="toward tips" constraintid="o15314" />
+      </structure>
+      <structure id="o15313" name="series">
+        <character char_type="range_value" name="count" from="3" to="5" upper_restricted="false" />
+      </structure>
+      <relation id="r1651" name="in" from="o15312" to="o15313" negation="false" />
+      <structure id="o15314" name="tip" />
+    </statement>
+    <statement id="732.txt-9">
+      <text>Receptacles flat, smooth, epaleate.</text>
+      <structure id="o15315" name="receptacle">
+        <character name="shape" value="flat" />
+        <character name="architecture_or_relief" value="smooth" />
+        <character name="architecture" value="epaleate" />
+      </structure>
+    </statement>
+    <statement id="732.txt-10">
+      <text>Peripheral (pistillate) florets 10–25 (more numerous than bisexual);</text>
+      <structure id="o15316" name="floret" constraint="peripheral">
+        <character char_type="range_value" name="count" from="10" to="25" />
+      </structure>
+    </statement>
+    <statement id="732.txt-11">
+      <text>corollas whitish to purplish.</text>
+      <structure id="o15317" name="corolla">
+        <character char_type="range_value" name="coloration" from="whitish" to="purplish" />
+        <character name="coloration" value="whitish" />
+        <character name="coloration" value="purplish" />
+      </structure>
+    </statement>
+    <statement id="732.txt-12">
+      <text>Inner (bisexual) florets 3–5;</text>
+      <structure id="o15318" name="floret" constraint="inner">
+        <character char_type="range_value" name="count" from="3" to="5" />
+      </structure>
+    </statement>
+    <statement id="732.txt-13">
+      <text>corollas white to purplish.</text>
+      <structure id="o15319" name="corolla">
+        <character char_type="range_value" name="coloration" from="white" to="purplish" />
+        <character name="coloration" value="white" />
+        <character name="coloration" value="purplish" />
+      </structure>
+    </statement>
+    <statement id="732.txt-14">
+      <text>Cypselae obovoid, ± compressed (2–3-nerved), faces silvery sericeous (hairs not myxogenic);</text>
+      <structure id="o15320" name="cypsela">
+        <character name="shape" value="obovoid" />
+        <character name="shape" value="compressed" modifier="±" />
+      </structure>
+      <structure id="o15321" name="face">
+        <character name="coloration" value="silvery" />
+        <character name="pubescence" value="sericeous" />
+      </structure>
+    </statement>
+    <statement id="732.txt-15">
+      <text>pappi persistent, of 20–30+, distinct or basally connate, ± plumose bristles in 1 series.</text>
+      <structure id="o15322" name="pappus">
+        <character name="duration" value="persistent" />
+      </structure>
+      <structure id="o15323" name="bristle">
+        <character char_type="range_value" name="count" from="20" to="30" upper_restricted="false" />
+        <character name="fusion" value="distinct" />
+        <character name="fusion" value="connate" modifier="basally" />
+        <character name="architecture" value="plumose" modifier="±" />
+      </structure>
+      <relation id="r1652" name="consist_of" from="o15322" to="o15323" negation="false" />
+      <structure id="o15324" name="series">
+        <character name="count" value="1" />
+      </structure>
+      <relation id="r1653" name="in" from="o15323" to="o15324" negation="false" />
+    </statement>
+    <statement id="732.txt-16">
+      <text>x = 14.</text>
+      <structure id="o15325" name="chromosome">
+        <character name="count" value="14" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species 3 or 4 (1 in the flora):</number_of_infrataxa>
+  <general_distribution>North America</general_distribution>
+  <general_distribution>South America</general_distribution>
+  <general_distribution>Africa</general_distribution>
+  <general_distribution>Australia.</general_distribution>
+  <references>SELECTED REFERENCE Beauverd, G. 1913. Le genre Facelis Cassini (emend. Beauverd). Bull. Soc. Bot. Genève, sér. 2, 5: 212–220.</references>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

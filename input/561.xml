@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>8.</number>
+  <species_name>Stephanomeria paniculata</species_name>
+  <authority>Nuttall</authority>
+  <place_of_publication>Trans. Amer. Philos. Soc., n. s. 7: 428. 1841</place_of_publication>
+  <common_name>Stiff-branched wirelettuce</common_name>
+  <description>
+    <statement id="561.txt-0">
+      <text>Annuals, 0–100 cm.</text>
+      <structure id="o11559" name="whole_organism">
+        <character char_type="range_value" name="size" from="0" from_unit="cm" to="100" to_unit="cm" />
+        <character name="life_style" value="annual" />
+      </structure>
+    </statement>
+    <statement id="561.txt-1">
+      <text>Stems single, branched (branches nearly at right angles, stiff), glabrous.</text>
+      <structure id="o11560" name="stem">
+        <character name="count" value="single" />
+        <character name="architecture_or_shape" value="branched" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="561.txt-2">
+      <text>Leaves withered at flowering;</text>
+      <structure id="o11561" name="leaf">
+        <character name="duration" value="withered" modifier="at flowering" />
+      </structure>
+    </statement>
+    <statement id="561.txt-3">
+      <text>basal blades oblanceolate, 6–10 cm, margins entire or toothed (teeth minute, faces glabrous);</text>
+      <structure id="o11562" name="blade" constraint="basal">
+        <character name="shape" value="oblanceolate" />
+        <character char_type="range_value" name="size" from="6" from_unit="cm" to="10" to_unit="cm" />
+      </structure>
+      <structure id="o11563" name="margin">
+        <character name="shape" value="entire" />
+        <character name="shape" value="toothed" />
+      </structure>
+    </statement>
+    <statement id="561.txt-4">
+      <text>cauline much reduced, bractlike.</text>
+      <structure id="o11564" name="leaf" constraint="cauline">
+        <character name="size" value="reduced" modifier="much" />
+        <character name="shape" value="bractlike" />
+      </structure>
+    </statement>
+    <statement id="561.txt-5">
+      <text>Heads borne singly along branches or in paniculiform arrays .</text>
+      <structure id="o11565" name="head" />
+      <structure id="o11566" name="branch" />
+      <relation id="r1333" name="borne along" from="o11565" to="o11566" negation="false" />
+      <structure id="o11567" name="array">
+        <character name="architecture" value="paniculiform" />
+      </structure>
+      <relation id="r1334" name="in" from="o11565" to="o11567" negation="false" />
+    </statement>
+    <statement id="561.txt-6">
+      <text>Peduncles 2–10 mm.</text>
+      <structure id="o11568" name="peduncle">
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="561.txt-7">
+      <text>Calyculi of appressed bractlets.</text>
+      <structure id="o11569" name="calyculus" />
+      <structure id="o11570" name="bractlet">
+        <character name="orientation" value="appressed" />
+      </structure>
+      <relation id="r1335" name="consist_of" from="o11569" to="o11570" negation="false" />
+    </statement>
+    <statement id="561.txt-8">
+      <text>Involucres 6–9 mm.</text>
+      <structure id="o11571" name="involucre">
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="9" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="561.txt-9">
+      <text>Florets 5.</text>
+      <structure id="o11572" name="floret">
+        <character name="count" value="5" />
+      </structure>
+    </statement>
+    <statement id="561.txt-10">
+      <text>Cypselae light to dark tan, 3.8–4.2 mm, faces slightly bumpy to tuberculate, (grooved);</text>
+      <structure id="o11573" name="cypsela">
+        <character char_type="range_value" name="coloration" from="light" to="dark-tan" />
+        <character name="coloration" value="light" />
+        <character name="coloration" value="tan" modifier="dark" />
+        <character char_type="range_value" name="size" from="3.8" from_unit="mm" to="4.2" to_unit="mm" />
+      </structure>
+      <structure id="o11574" name="face">
+        <character name="texture" value="bumpy" modifier="slightly" />
+        <character name="relief" value="tuberculate" />
+      </structure>
+    </statement>
+    <statement id="561.txt-11">
+      <text>pappi of 15–18 tan bristles (connate in groups of 2–4, bases persistent), plumose to tops of bases.</text>
+      <structure id="o11575" name="pappus" />
+      <structure id="o11576" name="bristle">
+        <character char_type="range_value" name="count" from="15" to="18" />
+        <character name="coloration" value="tan" />
+      </structure>
+      <relation id="r1336" name="consist_of" from="o11575" to="o11576" negation="false" />
+      <structure id="o11577" name="top" />
+      <relation id="r1337" name="plumose to" from="o11575" to="o11577" negation="false" />
+      <structure id="o11578" name="base" />
+      <relation id="r1338" name="part_of" from="o11577" to="o11578" negation="false" />
+    </statement>
+    <statement id="561.txt-12">
+      <text>2 n = 16.</text>
+      <structure id="o11579" name="chromosome">
+        <character name="count" value="16" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>open, sandy or volcanic soils</habitat>
+  <habitat>plains and foothills</habitat>
+  <habitat>often growing as weed along roads</habitat>
+  <elevation>200–1400 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>9.</number>
+  <species_name>Microseris campestris</species_name>
+  <authority>Greene</authority>
+  <place_of_publication>Pittonia 5: 15. 1902</place_of_publication>
+  <common_name>San Joaquin silverpuffs</common_name>
+  <description>
+    <statement id="537.txt-0">
+      <text>Annuals, 5–50 cm;</text>
+    </statement>
+    <statement id="537.txt-1">
+      <text>taprooted.</text>
+      <structure id="o11006" name="whole_organism">
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="50" to_unit="cm" />
+        <character name="life_style" value="annual" />
+        <character name="architecture" value="taprooted" />
+      </structure>
+    </statement>
+    <statement id="537.txt-2">
+      <text>Stems 0.</text>
+      <structure id="o11007" name="stem">
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+    <statement id="537.txt-3">
+      <text>Leaves basal;</text>
+    </statement>
+    <statement id="537.txt-4">
+      <text>petiolate;</text>
+      <structure id="o11008" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="architecture" value="petiolate" />
+      </structure>
+    </statement>
+    <statement id="537.txt-5">
+      <text>blades linear to narrowly elliptic or oblanceolate, 3–22 cm, margins entire, dentate, or pinnately lobed, apices acute or attenuate, faces glabrous or lightly scurfy-puberulent.</text>
+      <structure id="o11009" name="blade">
+        <character name="arrangement_or_shape" value="linear" />
+        <character name="shape" value="elliptic" modifier="narrowly" />
+        <character name="shape" value="oblanceolate" modifier="narrowly" />
+        <character char_type="range_value" name="size" from="3" from_unit="cm" to="22" to_unit="cm" />
+      </structure>
+      <structure id="o11010" name="margin">
+        <character name="shape" value="entire" />
+        <character name="shape" value="dentate" />
+        <character name="shape" value="lobed" modifier="pinnately" />
+      </structure>
+      <structure id="o11011" name="apex">
+        <character name="shape" value="acute" />
+        <character name="shape" value="attenuate" />
+      </structure>
+      <structure id="o11012" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="scurfy-puberulent" modifier="lightly" />
+      </structure>
+    </statement>
+    <statement id="537.txt-6">
+      <text>Peduncles erect or curved-ascending , ebracteate.</text>
+      <structure id="o11013" name="peduncle">
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="curved-ascending" />
+        <character name="architecture" value="ebracteate" />
+      </structure>
+    </statement>
+    <statement id="537.txt-7">
+      <text>Involucres ovoid to fusiform in fruit, 5–20 mm.</text>
+      <structure id="o11014" name="involucre">
+        <character char_type="range_value" name="shape" from="ovoid" to="fusiform" />
+        <character name="shape" value="ovoid" />
+        <character name="shape" value="fusiform" constraint="in fruit" constraintid="o11015" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="20" to_unit="mm" />
+      </structure>
+      <structure id="o11015" name="fruit" />
+    </statement>
+    <statement id="537.txt-8">
+      <text>Phyllaries:</text>
+      <structure id="o11016" name="phyllary" />
+    </statement>
+    <statement id="537.txt-9">
+      <text>apices acute to acuminate, abaxial faces glabrous;</text>
+      <structure id="o11017" name="apex">
+        <character char_type="range_value" name="shape" from="acute" to="acuminate" />
+        <character name="shape" value="acute" />
+        <character name="shape" value="acuminate" />
+      </structure>
+      <structure id="o11018" name="face" constraint="abaxial">
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="537.txt-10">
+      <text>outer deltate;</text>
+      <structure id="o11019" name="phyllary" constraint="outer">
+        <character name="shape" value="deltate" />
+      </structure>
+    </statement>
+    <statement id="537.txt-11">
+      <text>inner lanceolate (midveins often purple, thickened).</text>
+      <structure id="o11020" name="phyllary" constraint="inner">
+        <character name="shape" value="lanceolate" />
+      </structure>
+    </statement>
+    <statement id="537.txt-12">
+      <text>Florets 5–120;</text>
+      <structure id="o11021" name="floret">
+        <character char_type="range_value" name="count" from="5" to="120" />
+      </structure>
+    </statement>
+    <statement id="537.txt-13">
+      <text>corollas yellow or white, equaling or surpassing phyllaries by 1–3 mm.</text>
+      <structure id="o11022" name="corolla">
+        <character name="coloration" value="yellow" />
+        <character name="coloration" value="white" />
+      </structure>
+      <structure id="o11023" name="phyllary" constraint="by 1-3 mm">
+        <character name="comparison" value="equaling" />
+        <character name="comparison" value="surpassing" />
+      </structure>
+    </statement>
+    <statement id="537.txt-14">
+      <text>Cypselae columnar, 3–5.5 mm;</text>
+      <structure id="o11024" name="cypsela">
+        <character name="shape" value="columnar" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="5.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="537.txt-15">
+      <text>pappi of 5, white or light brownish, lanceolate or ovate to deltate, aristate scales 1–4.5 mm (straight to slightly arcuate, plane or slightly involute, glabrous, midveins brown, broadened at bases, widths less than 1 / 5 bodies, linear distally), aristae (straw-colored or brown) barbellulate proximally, barbellate distally.</text>
+      <structure id="o11025" name="pappus" />
+      <structure id="o11026" name="scale">
+        <character name="count" value="5" />
+        <character name="coloration" value="white" />
+        <character name="coloration" value="brownish" modifier="light" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="deltate" />
+        <character name="shape" value="aristate" />
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="4.5" to_unit="mm" />
+      </structure>
+      <relation id="r1253" name="consist_of" from="o11025" to="o11026" negation="false" />
+      <structure id="o11027" name="arista">
+        <character name="architecture" value="barbellulate" modifier="proximally" />
+        <character name="architecture" value="barbellate" modifier="distally" />
+      </structure>
+    </statement>
+    <statement id="537.txt-16">
+      <text>2 n = 36.</text>
+      <structure id="o11028" name="chromosome">
+        <character name="count" value="36" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <habitat>clay soils</habitat>
+  <habitat>flats and hillsides</habitat>
+  <habitat>sometimes near vernal pools</habitat>
+  <habitat>grasslands</habitat>
+  <elevation>30–500 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <discussion>The tetraploid Microseris campestris is morphologically intermediate between M. elegans and M. douglasii, and the molecular data of D. Roelofs et al. (1997) show a particularly close relationship with the former species. It is known only from the San Joaquin Valley and surrounding foothills. Diploid plants assignable to M. douglasii but with fruit morphology similar to M. campestris, found much closer to the coast near San Luis Obispo, are thought to be the result of introgression between M. douglasii and M. bigelovii (K. L. Chambers 1955).</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

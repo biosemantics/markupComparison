@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>3.</number>
+  <species_name>Malacothrix coulteri</species_name>
+  <authority>Harvey &amp; A. Gray</authority>
+  <place_of_publication>Mem. Amer. Acad. Arts Sci., n. s. 4: 113. 1849</place_of_publication>
+  <common_name>Snake’s head desertdandelion, snake’s head</common_name>
+  <synonym_of_species_name>Malacolepis coulteri (Harvey &amp; A. Gray) A. Heller; Malacothrix coulteri var. cognata Jepson; Zollikoferia elquiensis Philippi</synonym_of_species_name>
+  <description>
+    <statement id="466.txt-0">
+      <text>Annuals, 10–60 cm.</text>
+      <structure id="o9264" name="whole_organism">
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="60" to_unit="cm" />
+        <character name="life_style" value="annual" />
+      </structure>
+    </statement>
+    <statement id="466.txt-1">
+      <text>Stems 1–6, ascending or erect, simple or branched proximally and distally, glaucous or glabrous.</text>
+      <structure id="o9265" name="stem">
+        <character char_type="range_value" name="count" from="1" to="6" />
+        <character name="orientation" value="ascending" />
+        <character name="orientation" value="erect" />
+        <character name="architecture" value="simple" modifier="proximally" />
+        <character name="architecture" value="branched" modifier="proximally" />
+        <character name="coating" value="glaucous" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="466.txt-2">
+      <text>Cauline leaves:</text>
+      <structure id="o9266" name="leaf" constraint="cauline" />
+    </statement>
+    <statement id="466.txt-3">
+      <text>proximal linear to obovate, sometimes pinnately lobed, not fleshy, ultimate margins entire or dentate, faces glabrous;</text>
+      <structure id="o9267" name="leaf" constraint="proximal cauline">
+        <character name="arrangement_or_shape" value="linear" />
+        <character name="shape" value="obovate" />
+        <character name="shape" value="lobed" modifier="sometimes pinnately" />
+        <character name="texture" value="fleshy" modifier="not" />
+      </structure>
+      <structure id="o9268" name="margin" constraint="ultimate">
+        <character name="shape" value="entire" />
+        <character name="shape" value="dentate" />
+      </structure>
+      <structure id="o9269" name="face">
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="466.txt-4">
+      <text>distal reduced (ovate to lanceolate, rarely pinnately lobed, bases clasping).</text>
+      <structure id="o9270" name="leaf" constraint="distal cauline">
+        <character name="size" value="reduced" />
+      </structure>
+    </statement>
+    <statement id="466.txt-5">
+      <text>Calyculi 0.</text>
+      <structure id="o9271" name="calyculus">
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+    <statement id="466.txt-7">
+      <text>Phyllaries (25–)40–60+ in 4–6+ series, (midstripes usually reddish or purple) orbiculate to ovate, oblong, lance-oblong, or linear, unequal, hyaline margins 1–2.5 mm wide, faces glabrous.</text>
+      <structure id="o9272" name="phyllary">
+        <character char_type="range_value" name="atypical_count" from="25" to="40" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="40" to="60" upper_restricted="false" constraint="in series" constraintid="o9273" />
+        <character char_type="range_value" name="shape" from="orbiculate" to="ovate , oblong , lance-oblong , or linear" />
+        <character name="shape" value="orbiculate" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="oblong" />
+        <character name="shape" value="lance-oblong" />
+        <character name="shape" value="linear" />
+        <character name="size" value="unequal" />
+      </structure>
+      <structure id="o9273" name="series">
+        <character char_type="range_value" name="count" from="4" to="6" upper_restricted="false" />
+      </structure>
+      <structure id="o9274" name="margin">
+        <character name="coloration" value="hyaline" />
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="2.5" to_unit="mm" />
+      </structure>
+      <structure id="o9275" name="face">
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="466.txt-8">
+      <text>Receptacles densely bristly.</text>
+      <structure id="o9276" name="receptacle">
+        <character name="pubescence" value="bristly" modifier="densely" />
+      </structure>
+    </statement>
+    <statement id="466.txt-9">
+      <text>Florets 85–257;</text>
+      <structure id="o9277" name="floret">
+        <character char_type="range_value" name="count" from="85" to="257" />
+      </structure>
+    </statement>
+    <statement id="466.txt-10">
+      <text>corollas usually pale yellow, sometimes white, 8–12 mm;</text>
+      <structure id="o9278" name="corolla">
+        <character name="coloration" value="yellow" modifier="usually;pale" />
+        <character name="coloration" value="white" modifier="sometimes" />
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="12" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="466.txt-11">
+      <text>outer ligules exserted 2–5 mm.</text>
+      <structure id="o9279" name="ligule" constraint="outer">
+        <character name="position" value="exserted" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="466.txt-12">
+      <text>Cypselae ± prismatic, 1.6–3.2 mm, ribs extending beyond apices, 5 more prominent than others;</text>
+      <structure id="o9280" name="cypsela">
+        <character name="shape" value="prismatic" modifier="±" />
+        <character char_type="range_value" name="size" from="1.6" from_unit="mm" to="3.2" to_unit="mm" />
+      </structure>
+      <structure id="o9281" name="rib">
+        <character name="count" value="5" />
+        <character name="prominence" value="prominent" modifier="more" constraint="than others" constraintid="o9283" />
+      </structure>
+      <structure id="o9282" name="apex" />
+      <relation id="r1080" name="extending beyond" from="o9281" to="o9282" negation="false" />
+      <structure id="o9283" name="other" />
+    </statement>
+    <statement id="466.txt-13">
+      <text>persistent pappi of 20–25+, blunt teeth plus 2–6 bristles.</text>
+      <structure id="o9284" name="pappus" constraint="persistent" />
+      <structure id="o9285" name="tooth">
+        <character char_type="range_value" name="count" from="20" to="25" upper_restricted="false" />
+        <character name="shape" value="blunt" />
+        <character char_type="range_value" name="count" from="2" to="6" />
+      </structure>
+      <relation id="r1081" name="consist_of" from="o9284" to="o9285" negation="false" />
+      <structure id="o9286" name="bristle" />
+    </statement>
+    <statement id="466.txt-14">
+      <text>Pollen 70–100% 3-porate.</text>
+      <structure id="o9287" name="pollen">
+        <character name="architecture" value="3-porate" modifier="70-100%" />
+      </structure>
+    </statement>
+    <statement id="466.txt-15">
+      <text>2 n = 14.</text>
+      <structure id="o9288" name="chromosome">
+        <character name="count" value="14" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <habitat>sandy, open areas in coastal sage</habitat>
+  <habitat>grasslands</habitat>
+  <habitat>deserts</habitat>
+  <elevation>100–1800 m;</elevation>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <global_distribution>introduced</global_distribution>
+  <global_distribution>South America (Argentina).</global_distribution>
+  <global_distribution>South America (Chile).</global_distribution>
+  <discussion>Variety cognata, indistinguishable in floral characters from var. coulteri and differing in cauline leaves parted almost to midribs, occurs at some mainland sites in southern California and has been collected on the Channel Islands. In California, Malacothrix coulteri grows in the San Joaquin Valley, central western areas, western Transverse Ranges, Peninsular Ranges, and Mojave Desert. In Arizona, it grows in the Sonoran Desert in the Santa Rita and Tucson mountains, and similar places.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

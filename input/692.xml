@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>13.</number>
+  <species_name>Pseudognaphalium viscosum</species_name>
+  <authority>(Kunth) Anderberg</authority>
+  <place_of_publication>Opera Bot. 104: 148. 1991</place_of_publication>
+  <common_name>Sticky rabbit-tobacco</common_name>
+  <synonym_of_species_name>Gnaphalium viscosum Kunth in A. von Humboldt et al., Nov. Gen. Sp. 4(fol.): 64. 1818; 4(qto.): 82. 1820</synonym_of_species_name>
+  <description>
+    <statement id="692.txt-0">
+      <text>Annuals (viscid and unpleasantly aromatic), 30–100 cm;</text>
+    </statement>
+    <statement id="692.txt-1">
+      <text>taprooted.</text>
+      <structure id="o14453" name="whole_organism">
+        <character char_type="range_value" name="size" from="30" from_unit="cm" to="100" to_unit="cm" />
+        <character name="life_style" value="annual" />
+        <character name="architecture" value="taprooted" />
+      </structure>
+    </statement>
+    <statement id="692.txt-2">
+      <text>Stems persistently white-tomentose and stipitate-glandular.</text>
+      <structure id="o14454" name="stem">
+        <character name="pubescence" value="white-tomentose" modifier="persistently" />
+        <character name="architecture_or_exudation_or_pubescence" value="stipitate-glandular" />
+      </structure>
+    </statement>
+    <statement id="692.txt-3">
+      <text>Leaf blades (crowded, internodes mostly 1–3, sometimes to 10, mm) linear-lanceolate, (2–)4–8 cm × 3–10 mm, bases not clasping, usually (at least the proximal) decurrent 3–10 mm, margins strongly revolute to revolute-undulate, faces bicolor, abaxial densely white-tomentose, adaxial densely stipitate-glandular.</text>
+      <structure id="o14455" name="blade" constraint="leaf">
+        <character name="shape" value="linear-lanceolate" />
+        <character char_type="range_value" name="atypical_length" from="2" to="4" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="length" from="4" from_unit="cm" to="8" to_unit="cm" />
+        <character char_type="range_value" name="width" from="3" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+      <structure id="o14456" name="base">
+        <character name="architecture" value="clasping" modifier="not" />
+        <character name="shape" value="decurrent" modifier="usually" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+      <structure id="o14457" name="margin">
+        <character char_type="range_value" name="shape" from="strongly revolute" to="revolute-undulate" />
+        <character name="shape" value="revolute" modifier="strongly" />
+        <character name="shape" value="revolute-undulate" modifier="strongly" />
+      </structure>
+      <structure id="o14458" name="face">
+        <character name="coloration" value="bicolor" />
+        <character name="insertion_or_position" value="abaxial" modifier="densely" />
+        <character name="pubescence" value="white-tomentose" />
+        <character name="insertion_or_position" value="adaxial" modifier="densely" />
+        <character name="architecture_or_exudation_or_pubescence" value="stipitate-glandular" />
+      </structure>
+    </statement>
+    <statement id="692.txt-4">
+      <text>Heads in corymbiform arrays.</text>
+      <structure id="o14459" name="head" />
+      <structure id="o14460" name="array">
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <relation id="r1548" name="in" from="o14459" to="o14460" negation="false" />
+    </statement>
+    <statement id="692.txt-5">
+      <text>Involucres campanulate, 5–6 mm.</text>
+      <structure id="o14461" name="involucre">
+        <character name="shape" value="campanulate" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="692.txt-6">
+      <text>Phyllaries in 5–6 series, tawny-silvery to silvery white (hyaline, shiny), ovate-lanceolate (not keeled or thickened along midribs, not apiculate), glabrous.</text>
+      <structure id="o14462" name="phyllary">
+        <character char_type="range_value" name="coloration" from="tawny-silvery" to="silvery-white" />
+        <character name="coloration" value="silvery" modifier="tawny" />
+        <character name="coloration" value="white" modifier="silvery" />
+        <character name="shape" value="ovate-lanceolate" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+      <structure id="o14463" name="series">
+        <character char_type="range_value" name="count" from="5" to="6" />
+      </structure>
+      <relation id="r1549" name="in" from="o14462" to="o14463" negation="false" />
+    </statement>
+    <statement id="692.txt-7">
+      <text>Pistillate florets 200–250.</text>
+      <structure id="o14464" name="floret" constraint="pistillate">
+        <character char_type="range_value" name="count" from="200" to="250" />
+      </structure>
+    </statement>
+    <statement id="692.txt-8">
+      <text>Bisexual florets (13–)16–29.</text>
+      <structure id="o14465" name="floret" constraint="bisexual">
+        <character char_type="range_value" name="atypical_count" from="13" to="16" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="16" to="29" />
+      </structure>
+    </statement>
+    <statement id="692.txt-9">
+      <text>Cypselae not ridged, papillate-roughened.</text>
+      <structure id="o14466" name="cypsela">
+        <character name="shape" value="ridged" modifier="not" />
+        <character name="texture" value="papillate-roughened" />
+      </structure>
+    </statement>
+    <statement id="692.txt-10">
+      <text>2 n = 28.</text>
+      <structure id="o14467" name="chromosome">
+        <character name="count" value="28" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>rocky open sites</habitat>
+  <habitat>roadsides</habitat>
+  <elevation>1400–1800 m;</elevation>
+  <us_distribution>Tex.</us_distribution>
+  <global_distribution>Mexico</global_distribution>
+  <global_distribution>Central America.</global_distribution>
+  <discussion>Reports of Pseudognaphalium viscosum from the flora for states other than Texas are based on plants of P. macounii. Pseudognaphalium viscosum is similar to P. leucocephalum, which has broader and white-opaque phyllaries, longer bisexual corollas, and smooth cypselae.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

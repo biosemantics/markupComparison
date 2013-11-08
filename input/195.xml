@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>21.</number>
+  <genus_name>PLECTOCEPHALUS</genus_name>
+  <authority>D. Don</authority>
+  <place_of_publication>in R. Sweet, Brit. Fl. Gard., ser. 2, 1: plate 51. 1830</place_of_publication>
+  <common_name>Basketflower</common_name>
+  <derivation>Greek plektos , woven, and kephale , head, alluding to interwoven fringes of phyllaries</derivation>
+  <author_of_tribe_genus>David J. Keil</author_of_tribe_genus>
+  <synonym_of_genus_name>Centaurea Linnaeus sect. Plectocephalus (D. Don) de Candolle</synonym_of_genus_name>
+  <description>
+    <statement id="195.txt-0">
+      <text>Annuals, 30–200 cm, not spiny.</text>
+      <structure id="o2719" name="whole_organism">
+        <character char_type="range_value" name="size" from="30" from_unit="cm" to="200" to_unit="cm" />
+        <character name="architecture_or_shape" value="spiny" modifier="not" />
+        <character name="life_style" value="annual" />
+      </structure>
+    </statement>
+    <statement id="195.txt-1">
+      <text>Stems erect, branched .</text>
+      <structure id="o2720" name="stem">
+        <character name="orientation" value="erect" />
+        <character name="architecture_or_shape" value="branched" />
+      </structure>
+    </statement>
+    <statement id="195.txt-2">
+      <text>Leaves basal and cauline;</text>
+    </statement>
+    <statement id="195.txt-3">
+      <text>petiolate or sessile;</text>
+      <structure id="o2721" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="architecture" value="petiolate" />
+        <character name="architecture" value="sessile" />
+      </structure>
+    </statement>
+    <statement id="195.txt-4">
+      <text>blade margins entire or dentate, faces puberulent , minutely glandular-punctate.</text>
+      <structure id="o2722" name="margin" constraint="blade">
+        <character name="shape" value="entire" />
+        <character name="shape" value="dentate" />
+      </structure>
+      <structure id="o2723" name="face">
+        <character name="pubescence" value="puberulent" />
+        <character name="coloration_or_relief" value="glandular-punctate" modifier="minutely" />
+      </structure>
+    </statement>
+    <statement id="195.txt-5">
+      <text>Heads radiant, borne singly or in open cymiform arrays.</text>
+      <structure id="o2724" name="head">
+        <character name="architecture_or_arrangement" value="radiant" />
+        <character name="arrangement" value="singly" />
+        <character name="arrangement" value="in open cymiform arrays" />
+      </structure>
+      <structure id="o2725" name="array">
+        <character name="architecture" value="open" />
+        <character name="architecture" value="cymiform" />
+      </structure>
+      <relation id="r386" name="in" from="o2724" to="o2725" negation="false" />
+    </statement>
+    <statement id="195.txt-6">
+      <text>Peduncles fistulose.</text>
+      <structure id="o2726" name="peduncle">
+        <character name="shape" value="fistulose" />
+      </structure>
+    </statement>
+    <statement id="195.txt-7">
+      <text>Involucres ovoid to hemispheric or campanulate, 30–60 mm diam.</text>
+      <structure id="o2727" name="involucre">
+        <character char_type="range_value" name="shape" from="ovoid" to="hemispheric or campanulate" />
+        <character name="shape" value="ovoid" />
+        <character name="shape" value="hemispheric" />
+        <character name="shape" value="campanulate" />
+        <character char_type="range_value" name="size" from="30" from_unit="mm" to="60" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="195.txt-8">
+      <text>Phyllaries many in 8–10+ series, unequal, narrow, bodies linear, appressed, entire , apices expanded into erect to spreading, narrowly triangular, fringed appendages.</text>
+      <structure id="o2728" name="phyllary">
+        <character name="count" value="many" constraint="in series" constraintid="o2729" />
+        <character name="size" value="unequal" />
+        <character name="size" value="narrow" />
+      </structure>
+      <structure id="o2729" name="series">
+        <character char_type="range_value" name="count" from="8" to="10" upper_restricted="false" />
+      </structure>
+      <structure id="o2730" name="body">
+        <character name="arrangement_or_shape" value="linear" />
+        <character name="orientation" value="appressed" />
+        <character name="shape" value="entire" />
+      </structure>
+      <structure id="o2731" name="apex">
+        <character name="size" value="expanded" constraint="into appendages" constraintid="o2732" />
+      </structure>
+      <structure id="o2732" name="appendage">
+        <character char_type="range_value" name="orientation" from="erect" to="spreading" />
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="spreading" />
+        <character name="shape" value="triangular" modifier="narrowly" />
+        <character name="shape" value="fringed" />
+      </structure>
+    </statement>
+    <statement id="195.txt-9">
+      <text>Receptacles flat, epaleate, bristly.</text>
+      <structure id="o2733" name="receptacle">
+        <character name="shape" value="flat" />
+        <character name="architecture" value="epaleate" />
+        <character name="pubescence" value="bristly" />
+      </structure>
+    </statement>
+    <statement id="195.txt-10">
+      <text>Florets many, peripheral neuter;</text>
+      <structure id="o2734" name="floret">
+        <character name="count" value="many" />
+        <character name="insertion_or_position" value="peripheral" />
+        <character name="architecture" value="neuter" />
+      </structure>
+    </statement>
+    <statement id="195.txt-11">
+      <text>corollas pink to purple, ± zygomorphic, elongate and expanded;</text>
+      <structure id="o2735" name="corolla">
+        <character char_type="range_value" name="coloration" from="pink" to="purple" />
+        <character name="coloration" value="pink" />
+        <character name="coloration" value="purple" />
+        <character name="architecture" value="zygomorphic" modifier="±" />
+        <character name="shape" value="elongate" />
+        <character name="size" value="expanded" />
+      </structure>
+    </statement>
+    <statement id="195.txt-12">
+      <text>inner fertile, corollas pink, purple, cream, or pale yellow, zygomorphic or actinomorphic, ± bent at junction of tubes and throats, tubes elongate, very slender, throats cylindric, lobes linear;</text>
+      <structure id="o2736" name="floret" constraint="inner">
+        <character name="reproduction" value="fertile" />
+      </structure>
+      <structure id="o2737" name="corolla">
+        <character name="coloration" value="pink" />
+        <character name="coloration" value="purple" />
+        <character name="coloration" value="cream" />
+        <character name="coloration" value="yellow" modifier="pale" />
+        <character name="architecture" value="zygomorphic" />
+        <character name="architecture" value="actinomorphic" />
+        <character name="shape" value="bent" modifier="±" constraint="at junction" constraintid="o2738" />
+      </structure>
+      <structure id="o2738" name="junction" />
+      <structure id="o2739" name="tube" />
+      <structure id="o2740" name="throat" />
+      <relation id="r387" name="part_of" from="o2738" to="o2739" negation="false" />
+      <relation id="r388" name="part_of" from="o2738" to="o2740" negation="false" />
+      <structure id="o2741" name="tube">
+        <character name="shape" value="elongate" />
+        <character name="size" value="slender" modifier="very" />
+      </structure>
+      <structure id="o2742" name="throat">
+        <character name="shape" value="cylindric" />
+      </structure>
+      <structure id="o2743" name="lobe">
+        <character name="arrangement_or_shape" value="linear" />
+      </structure>
+    </statement>
+    <statement id="195.txt-13">
+      <text>anther bases tailed, apical appendages oblong;</text>
+      <structure id="o2744" name="base" constraint="anther">
+        <character name="shape" value="tailed" />
+      </structure>
+      <structure id="o2745" name="appendage" constraint="apical">
+        <character name="shape" value="oblong" />
+      </structure>
+    </statement>
+    <statement id="195.txt-14">
+      <text>style branches:</text>
+      <structure id="o2746" name="branch" constraint="style" />
+    </statement>
+    <statement id="195.txt-15">
+      <text>fused portions with minutely hairy nodes, distinct portions minute.</text>
+      <structure id="o2747" name="portion" constraint="fused" />
+      <structure id="o2748" name="node">
+        <character name="pubescence" value="hairy" modifier="minutely" />
+      </structure>
+      <relation id="r389" name="with" from="o2747" to="o2748" negation="false" />
+      <structure id="o2749" name="portion">
+        <character name="fusion" value="distinct" />
+        <character name="size" value="minute" />
+      </structure>
+    </statement>
+    <statement id="195.txt-16">
+      <text>Cypselae:</text>
+      <structure id="o2750" name="cypsela" />
+    </statement>
+    <statement id="195.txt-17">
+      <text>basal attachment scars oblique (with small elaiosome on one side), obovoid or ± barrel-shaped , ± compressed , weakly ribbed, glabrous or puberulent with 2-celled hairs;</text>
+      <structure id="o2751" name="scar" constraint="basal attachment">
+        <character name="shape_or_orientation" value="oblique" />
+        <character name="shape" value="obovoid" />
+        <character name="shape" value="barrel-shaped" modifier="±" />
+        <character name="shape" value="compressed" modifier="±" />
+        <character name="architecture_or_shape" value="ribbed" modifier="weakly" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="puberulent" constraint="with hairs" constraintid="o2752" />
+      </structure>
+      <structure id="o2752" name="hair">
+        <character name="architecture" value="2-celled" />
+      </structure>
+    </statement>
+    <statement id="195.txt-18">
+      <text>pappi readily falling, of 1–3 series of stiff, minutely barbed bristles .</text>
+      <structure id="o2753" name="pappus">
+        <character name="orientation" value="falling" modifier="readily" />
+      </structure>
+      <structure id="o2754" name="series">
+        <character char_type="range_value" name="count" from="1" to="3" />
+      </structure>
+      <relation id="r390" name="consist_of" from="o2753" to="o2754" negation="false" />
+      <structure id="o2755" name="bristle">
+        <character name="texture" value="stiff" />
+        <character name="architecture" value="barbed" modifier="minutely" />
+      </structure>
+      <relation id="r391" name="part_of" from="o2754" to="o2755" negation="false" />
+    </statement>
+    <statement id="195.txt-19">
+      <text>x = 13.</text>
+      <structure id="o2756" name="chromosome">
+        <character name="count" value="13" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species 4 (2 in the flora):</number_of_infrataxa>
+  <general_distribution>North America</general_distribution>
+  <general_distribution>Mexico</general_distribution>
+  <general_distribution>South America</general_distribution>
+  <general_distribution>Africa.</general_distribution>
+  <discussion>Molecular phylogenetic studies have been informative regarding the relationships of members of Cynareae, Centaureinae. Centaurea as traditionally recognized is polyphyletic. Plectocephalus is part of the basal grade in Centaureinae and is not closely related to Centaurea in a narrow sense (A. Susanna et al. 1995). Morphologically Plectocephalus is difficult to separate from the more derived and highly diverse Centaurea. Plectocephalus cypselae have obliquely basal attachment scars and the hilum of the seeds is basal. Centaurea cypselae have lateral attachment scars and hilum of the seed is lateral. The ovaries of Plectocephalus initially have 2-celled hairs; these may be absent from mature cypselae. Centaurea produces only 1-celled hairs on ovaries.</discussion>
+  <references>SELECTED REFERENCE Roalson, E. H. and K. W. Allred. 1998. A clarification of Centaurea americana and Centaurea rothrockii (Compositae: Cardueae). New Mexico Botanist 7: 3–5.</references>
+  <key>1.Mid phyllaries with (4–)5–7(–8) pairs of lobes, distally light to dark stramineous 1. Plectocephalus americanus</key>
+  <key>1.Mid phyllaries with (9–)10–13(–15) pairs of lobes, distally medium brown to dark brown 2. Plectocephalus rothrockii</key>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

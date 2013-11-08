@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>8.</number>
+  <species_name>Antennaria anaphaloides</species_name>
+  <authority>Rydberg</authority>
+  <place_of_publication>Mem. New York Bot. Gard. 1: 409. 1900</place_of_publication>
+  <common_name>Pearly or handsome or tall pussytoes</common_name>
+  <synonym_of_species_name>Antennaria anaphaloides var. straminea B. Boivin; A. pulcherrima (Hooker) Greene subsp. anaphaloides (Rydberg) W. A. Weber; A. pulcherrima var. anaphaloides (Rydberg) G. W. Douglas</synonym_of_species_name>
+  <description>
+    <statement id="635.txt-0">
+      <text>Dioecious.</text>
+      <structure id="o13303" name="whole_organism">
+        <character name="reproduction" value="dioecious" />
+      </structure>
+    </statement>
+    <statement id="635.txt-1">
+      <text>Plants 15–35(–50) cm.</text>
+      <structure id="o13304" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="35" to="50" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="15" from_unit="cm" to="35" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="635.txt-2">
+      <text>Stolons none.</text>
+      <structure id="o13305" name="stolon" />
+    </statement>
+    <statement id="635.txt-3">
+      <text>Basal leaves (ephemeral) 3–5-nerved, narrowly oblanceolate or narrowly elliptic, 25–150(–200) × 4–20(–25) mm, tips mucronate, faces gray-pubescent.</text>
+      <structure id="o13306" name="leaf" constraint="basal">
+        <character name="architecture" value="3-5-nerved" />
+        <character name="shape" value="oblanceolate" modifier="narrowly" />
+        <character name="shape" value="elliptic" modifier="narrowly" />
+        <character char_type="range_value" name="atypical_length" from="150" to="200" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="25" from_unit="mm" to="150" to_unit="mm" />
+        <character char_type="range_value" name="atypical_width" from="20" to="25" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="width" from="4" from_unit="mm" to="20" to_unit="mm" />
+      </structure>
+      <structure id="o13307" name="tip">
+        <character name="shape" value="mucronate" />
+      </structure>
+      <structure id="o13308" name="face">
+        <character name="pubescence" value="gray-pubescent" />
+      </structure>
+    </statement>
+    <statement id="635.txt-4">
+      <text>Cauline leaves oblanceolate or linear, 10–80 mm, usually flagged.</text>
+      <structure id="o13309" name="leaf" constraint="cauline">
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="linear" />
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="80" to_unit="mm" />
+        <character name="orientation" value="flagged" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="635.txt-5">
+      <text>Heads 8–30(–50+) in corymbiform arrays.</text>
+      <structure id="o13310" name="head">
+        <character char_type="range_value" name="atypical_count" from="30" to="50" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="8" to="30" constraint="in arrays" constraintid="o13311" />
+      </structure>
+      <structure id="o13311" name="array">
+        <character name="architecture" value="corymbiform" />
+      </structure>
+    </statement>
+    <statement id="635.txt-6">
+      <text>Involucres:</text>
+      <structure id="o13312" name="involucre" />
+    </statement>
+    <statement id="635.txt-7">
+      <text>staminate (4–)5–6.5 mm;</text>
+      <structure id="o13313" name="involucre" constraint="staminate">
+        <character char_type="range_value" name="atypical_size" from="4" to="5" from_unit="mm" to_unit="mm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="6.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="635.txt-8">
+      <text>pistillate 4.5–7 mm .</text>
+      <structure id="o13314" name="involucre" constraint="pistillate">
+        <character char_type="range_value" name="size" from="4.5" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="635.txt-9">
+      <text>Phyllaries (each with dark brown or blackish spot in middle) distally white or cream (sometimes suffused pink to rose).</text>
+      <structure id="o13315" name="phyllary">
+        <character name="coloration" value="white" modifier="distally" />
+        <character name="coloration" value="cream" modifier="distally" />
+      </structure>
+    </statement>
+    <statement id="635.txt-10">
+      <text>Corollas:</text>
+      <structure id="o13316" name="corolla" />
+    </statement>
+    <statement id="635.txt-11">
+      <text>staminate 2.5–4 mm;</text>
+      <structure id="o13317" name="corolla" constraint="staminate">
+        <character char_type="range_value" name="size" from="2.5" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="635.txt-12">
+      <text>pistillate 3–4.5 mm.</text>
+      <structure id="o13318" name="corolla" constraint="pistillate">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="4.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="635.txt-13">
+      <text>Cypselae 1–1.8 mm, glabrous;</text>
+      <structure id="o13319" name="cypsela">
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="1.8" to_unit="mm" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="635.txt-14">
+      <text>pappi:</text>
+      <structure id="o13320" name="pappus" />
+    </statement>
+    <statement id="635.txt-15">
+      <text>staminate 3–4.5 mm;</text>
+      <structure id="o13321" name="pappus" constraint="staminate">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="4.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="635.txt-16">
+      <text>pistillate 3.5–4.5(–5.5) mm.</text>
+      <structure id="o13322" name="pappus" constraint="pistillate">
+        <character char_type="range_value" name="atypical_size" from="4.5" to="5.5" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="3.5" from_unit="mm" to="4.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="635.txt-17">
+      <text>2 n = 28.</text>
+      <structure id="o13323" name="chromosome">
+        <character name="count" value="28" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>dry meadows and aspen forest openings</habitat>
+  <elevation>1000–3400 m;</elevation>
+  <ca_distribution>Alta.</ca_distribution>
+  <ca_distribution>B.C.</ca_distribution>
+  <ca_distribution>Sask.</ca_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <discussion>Antennaria anaphaloides is native to the northern Rocky Mountains and is characterized by whitish phyllaries, each with a black spot at the base. Some morphologic overlap occurs between A. anaphaloides and A. pulcherrima; the two occur in different habitats: A. anaphaloides grows in dry meadows and aspen forest openings; A. pulcherrima is usually found in moist willow thickets along streams (K. M. Urbanska 1983). Antennaria anaphaloides is closely related to the other members of the Pulcherrimae group (R. J. Bayer 1990; Bayer et al. 1996).</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

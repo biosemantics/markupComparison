@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>2.</number>
+  <species_name>Achillea nobilis</species_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 899. 1753</place_of_publication>
+  <common_name>Noble yarrow</common_name>
+  <description>
+    <statement id="823.txt-0">
+      <text>Perennials, (10–)15–60 cm (taprooted).</text>
+      <structure id="o17324" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="10" to="15" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="15" from_unit="cm" to="60" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="823.txt-1">
+      <text>Stems 1(–4), erect, simple, glabrous or sparsely tomentose.</text>
+      <structure id="o17325" name="stem">
+        <character char_type="range_value" name="atypical_count" from="1" to="4" from_inclusive="false" />
+        <character name="count" value="1" />
+        <character name="orientation" value="erect" />
+        <character name="architecture" value="simple" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="tomentose" modifier="sparsely" />
+      </structure>
+    </statement>
+    <statement id="823.txt-2">
+      <text>Leaves sessile;</text>
+      <structure id="o17326" name="leaf">
+        <character name="architecture" value="sessile" />
+      </structure>
+    </statement>
+    <statement id="823.txt-3">
+      <text>blades ovate, 1.5–3 cm × 10–15 mm, 1–2-pinnately lobed, (bases auriculate, slightly clasping) faces ± hairy.</text>
+      <structure id="o17327" name="blade">
+        <character name="shape" value="ovate" />
+        <character char_type="range_value" name="length" from="1.5" from_unit="cm" to="3" to_unit="cm" />
+        <character char_type="range_value" name="width" from="10" from_unit="mm" to="15" to_unit="mm" />
+        <character name="shape" value="lobed" modifier="1-2-pinnately" />
+      </structure>
+      <structure id="o17328" name="face">
+        <character name="pubescence" value="hairy" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="823.txt-4">
+      <text>Heads 30–100+, in simple or compound, corymbiform arrays.</text>
+      <structure id="o17329" name="head">
+        <character char_type="range_value" name="count" from="30" to="100" upper_restricted="false" />
+      </structure>
+      <structure id="o17330" name="array">
+        <character name="architecture" value="simple" />
+        <character name="architecture" value="compound" />
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <relation id="r1859" name="in" from="o17329" to="o17330" negation="false" />
+    </statement>
+    <statement id="823.txt-5">
+      <text>Phyllaries 10–13+ in (1–)2 series, (midribs light green) oblong (apices papillose, translucent), abaxial faces glabrous.</text>
+      <structure id="o17331" name="phyllary">
+        <character char_type="range_value" name="count" from="10" to="13" upper_restricted="false" constraint="in 1-, series" constraintid="o17332" />
+        <character name="shape" value="oblong" />
+      </structure>
+      <structure id="o17332" name="series" constraint="1-2" />
+      <structure id="o17333" name="face" constraint="abaxial">
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="823.txt-6">
+      <text>Receptacles flat to slightly convex;</text>
+      <structure id="o17334" name="receptacle">
+        <character char_type="range_value" name="shape" from="flat" to="slightly convex" />
+        <character name="shape" value="flat" />
+        <character name="shape" value="convex" modifier="slightly" />
+      </structure>
+    </statement>
+    <statement id="823.txt-7">
+      <text>paleae narrowly oblong, 2–2.5 mm.</text>
+      <structure id="o17335" name="palea">
+        <character name="shape" value="oblong" modifier="narrowly" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="2.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="823.txt-8">
+      <text>Ray florets 8–10(–13), pistillate, fertile;</text>
+      <structure id="o17336" name="floret" constraint="ray">
+        <character char_type="range_value" name="atypical_count" from="10" to="13" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="8" to="10" />
+        <character name="architecture" value="pistillate" />
+        <character name="reproduction" value="fertile" />
+      </structure>
+    </statement>
+    <statement id="823.txt-9">
+      <text>corollas white, laminae 1–1.5 × 2–2.5 mm.</text>
+      <structure id="o17337" name="corolla">
+        <character name="coloration" value="white" />
+      </structure>
+      <structure id="o17338" name="lamina">
+        <character char_type="range_value" name="length" from="1" from_unit="mm" to="1.5" to_unit="mm" />
+        <character char_type="range_value" name="width" from="2" from_unit="mm" to="2.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="823.txt-10">
+      <text>Disc florets 10–25+;</text>
+      <structure id="o17339" name="floret" constraint="disc">
+        <character char_type="range_value" name="count" from="10" to="25" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="823.txt-11">
+      <text>corollas grayish white, 1.5–2.5 mm.</text>
+      <structure id="o17340" name="corolla">
+        <character name="coloration" value="white" modifier="grayish" />
+        <character char_type="range_value" name="size" from="1.5" from_unit="mm" to="2.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="823.txt-12">
+      <text>Cypselae 0.75–1 mm.</text>
+      <structure id="o17341" name="cypsela">
+        <character char_type="range_value" name="size" from="0.75" from_unit="mm" to="1" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="823.txt-13">
+      <text>2 n = 18, 27.</text>
+      <structure id="o17342" name="chromosome">
+        <character name="count" value="18" />
+        <character name="count" value="27" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>pastures</habitat>
+  <habitat>disturbed roadsides</habitat>
+  <elevation>900–1500 m;</elevation>
+  <introduced>introduced;</introduced>
+  <us_distribution>Mont.</us_distribution>
+  <global_distribution>Europe.</global_distribution>
+  <discussion>Achillea nobilis was introduced in the flora area through cultivation. It has been reported in Minnesota, Massachusetts, and New York; herbarium sheets indicate that those reports were based on cultivated specimens. It was first collected in Montana in 1902; it appears to have become established in that state, where it is known from Lake and Flathead counties.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>6.</number>
+  <species_name>Malacothrix foliosa</species_name>
+  <authority>A. Gray</authority>
+  <place_of_publication>in A. Gray et al., Syn. Fl. N. Amer. ed. 2, 1: 455. 1886</place_of_publication>
+  <common_name>Leafy desertdandelion</common_name>
+  <description>
+    <statement id="469.txt-0">
+      <text>Annuals, 4–45 cm.</text>
+      <structure id="o9372" name="whole_organism">
+        <character char_type="range_value" name="size" from="4" from_unit="cm" to="45" to_unit="cm" />
+        <character name="life_style" value="annual" />
+      </structure>
+    </statement>
+    <statement id="469.txt-1">
+      <text>Stems 1, erect, simple or branched proximally and/or distally or 2–10, decumbent to ascending, and ± branched distally, glabrous or sparsely arachnose (sometimes only in leaf axils).</text>
+      <structure id="o9373" name="stem">
+        <character name="count" value="1" />
+        <character name="orientation" value="erect" />
+        <character name="architecture" value="simple" modifier="proximally" />
+        <character name="architecture" value="branched" modifier="proximally" />
+        <character char_type="range_value" name="count" from="2" to="10" modifier="distally" />
+        <character name="habit" value="decumbent" />
+        <character name="orientation" value="ascending" />
+        <character name="architecture_or_shape" value="branched" modifier="± ; distally" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="arachnose" modifier="sparsely" />
+      </structure>
+    </statement>
+    <statement id="469.txt-2">
+      <text>Cauline leaves:</text>
+      <structure id="o9374" name="leaf" constraint="cauline" />
+    </statement>
+    <statement id="469.txt-3">
+      <text>proximal oblanceolate to narrowly obovate, usually pinnately lobed (lobes usually unequal, apices acute or obtuse), sometimes ± fleshy, ultimate margins entire or dentate, faces glabrous (proximalmost cauline usually more deeply divided);</text>
+      <structure id="o9375" name="leaf" constraint="proximal cauline">
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="obovate" modifier="narrowly" />
+        <character name="shape" value="lobed" modifier="usually pinnately" />
+        <character name="texture" value="fleshy" modifier="sometimes ±" />
+      </structure>
+      <structure id="o9376" name="margin" constraint="ultimate">
+        <character name="shape" value="entire" />
+        <character name="shape" value="dentate" />
+      </structure>
+      <structure id="o9377" name="face">
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="469.txt-4">
+      <text>distal seldom notably reduced (sometimes pinnately lobed).</text>
+      <structure id="o9378" name="leaf" constraint="distal cauline">
+        <character name="size" value="reduced" modifier="seldom notably" />
+      </structure>
+    </statement>
+    <statement id="469.txt-5">
+      <text>Calyculi 0 (i.e., outer phyllaries intergrading with inner), or of 5–12+, oblong or ovate to lanceolate or linear bractlets, hyaline margins 0.1–0.3 mm wide.</text>
+      <structure id="o9379" name="calyculus">
+        <character name="count" value="0" />
+      </structure>
+      <structure id="o9380" name="bractlet">
+        <character char_type="range_value" name="count" from="5" to="12" upper_restricted="false" />
+        <character char_type="range_value" name="shape" from="ovate" to="lanceolate or linear" />
+        <character name="shape" value="oblong" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="linear" />
+      </structure>
+      <relation id="r1092" name="consist_of" from="o9379" to="o9380" negation="false" />
+      <structure id="o9381" name="margin">
+        <character name="coloration" value="hyaline" />
+        <character char_type="range_value" name="size" from="0.1" from_unit="mm" to="0.3" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="469.txt-6">
+      <text>Involucres ± campanulate, 5–12 × 2–7 mm.</text>
+      <structure id="o9382" name="involucre">
+        <character name="shape" value="campanulate" modifier="±" />
+        <character char_type="range_value" name="length" from="5" from_unit="mm" to="12" to_unit="mm" />
+        <character char_type="range_value" name="width" from="2" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="469.txt-7">
+      <text>Phyllaries 12–22(–40+, without calyculi) in 2–3(–5+) series, (usually red-tinged) lanceolate to linear, hyaline margins 0.05–0.2 mm wide, faces glabrous.</text>
+      <structure id="o9383" name="phyllary">
+        <character char_type="range_value" name="count" from="12" to="22" constraint="in -5+ series" constraintid="o9384" />
+        <character char_type="range_value" name="shape" from="lanceolate" to="linear" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="linear" />
+      </structure>
+      <structure id="o9384" name="series" constraint="-5+">
+        <character char_type="range_value" name="count" from="2" to="3" />
+      </structure>
+      <structure id="o9385" name="margin">
+        <character name="coloration" value="hyaline" />
+        <character char_type="range_value" name="size" from="0.05" from_unit="mm" to="0.2" to_unit="mm" />
+      </structure>
+      <structure id="o9386" name="face">
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="469.txt-8">
+      <text>Receptacles not bristly.</text>
+      <structure id="o9387" name="receptacle">
+        <character name="pubescence" value="bristly" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="469.txt-9">
+      <text>Florets 10–123;</text>
+      <structure id="o9388" name="floret">
+        <character char_type="range_value" name="count" from="10" to="123" />
+      </structure>
+    </statement>
+    <statement id="469.txt-10">
+      <text>corollas light to medium yellow, 5–17 mm;</text>
+      <structure id="o9389" name="corolla">
+        <character char_type="range_value" name="coloration" from="light" to="medium yellow" />
+        <character name="coloration" value="light" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="17" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="469.txt-11">
+      <text>outer ligules exserted 1–10 mm.</text>
+      <structure id="o9390" name="ligule" constraint="outer">
+        <character name="position" value="exserted" />
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="469.txt-12">
+      <text>Cypselae ± cylindro-fusiform or ± prismatic, 0.9–1.7 mm, ribs extending to apices, ± equal or 5 more prominent than others;</text>
+      <structure id="o9391" name="cypsela">
+        <character name="shape" value="cylindro-fusiform" modifier="±" />
+        <character name="shape" value="prismatic" modifier="±" />
+        <character char_type="range_value" name="size" from="0.9" from_unit="mm" to="1.7" to_unit="mm" />
+      </structure>
+      <structure id="o9392" name="rib">
+        <character name="size" value="equal" modifier="±" />
+        <character name="count" value="5" />
+        <character name="prominence" value="prominent" modifier="more" constraint="than others" constraintid="o9394" />
+      </structure>
+      <structure id="o9393" name="apex" />
+      <relation id="r1093" name="extending to" from="o9392" to="o9393" negation="false" />
+      <structure id="o9394" name="other" />
+    </statement>
+    <statement id="469.txt-13">
+      <text>persistent pappi usually 0, rarely of 1–2 bristles.</text>
+      <structure id="o9395" name="pappus" constraint="persistent">
+        <character name="count" value="0" modifier="usually" />
+      </structure>
+      <structure id="o9396" name="bristle">
+        <character char_type="range_value" name="count" from="1" to="2" />
+      </structure>
+      <relation id="r1094" name="consist_of" from="o9395" to="o9396" negation="false" modifier="rarely" />
+    </statement>
+    <statement id="469.txt-14">
+      <text>Pollen 70–100% 3-porate.</text>
+      <structure id="o9397" name="pollen">
+        <character name="architecture" value="3-porate" modifier="70-100%" />
+      </structure>
+    </statement>
+    <statement id="469.txt-15">
+      <text>2 n = 14.</text>
+      <structure id="o9398" name="chromosome">
+        <character name="count" value="14" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Subspecies 4 (4 in the flora):</number_of_infrataxa>
+  <general_distribution>Channel Islands</general_distribution>
+  <general_distribution>California.</general_distribution>
+  <couplet>1.Outer ligules usually exserted 1–4 mm.</couplet>
+  <couplet>2.Calyculi 0 or bractlets intergrading with phyllaries; cypselae ± prismatic (5-angled), 1.3–1.6 mm, 5 ribs more prominent than others; Anacapa Island, California6a. Malacothrix</couplet>
+  <couplet>foliosa subsp. crispifolia</couplet>
+  <couplet>2.Calyculi of 8–12+, oblong to linear bractlets; cypselae ± cylindro-fusiform, 0.9–1.5 mm, ribs ± equal; San Nicolas Island, California 6b. Malacothrix foliosa subsp. polycephala</couplet>
+  <couplet>1.Outer ligules exserted 5–15 mm.</couplet>
+  <couplet>3.Stems 1, usually erect; distal cauline leaves usually pinnately lobed (near bases, lobes 1–2 pairs, narrow); cypselae ± cylindro-fusiform, 0.9–1.5 mm, ribs ± equal; San Clemente Island, California6c. Malacothrix foliosa</couplet>
+  <couplet>subsp. foliosa</couplet>
+  <couplet>3.Stems (1–)3–5(–10), erect or decumbent to ascending; distal cauline leaves usually pinnately lobed (from bases to near apices); cypselae ± prismatic (5-angled) 1.3–1.7 mm, 5 ribs more prominent than others; Santa Barbara Island, California 6d. Malacothrix foliosa subsp. philbrickii</couplet>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

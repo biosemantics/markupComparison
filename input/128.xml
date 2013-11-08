@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>43d.</number>
+  <variety_name>Cirsium arizonicum (A. Gray) Petrak var. chellyense</variety_name>
+  <authority>(R. J. Moore &amp; Frankton) D. J. Keil</authority>
+  <place_of_publication>Sida 21: 209. 2004</place_of_publication>
+  <common_name>Navajo thistle</common_name>
+  <synonym_of_variety_name>Cirsium chellyense R. J. Moore &amp; Frankton, Canad. J. Bot. 52: 547, plate 2. 1974; C. chuskaense R. J. Moore &amp; Frankton; C. navajoense R. J. Moore &amp; Frankton</synonym_of_variety_name>
+  <description>
+    <statement id="128.txt-0">
+      <text>Stems glabrous or villous to tomentose with septate trichomes.</text>
+      <structure id="o672" name="stem">
+        <character char_type="range_value" name="pubescence" from="villous" to="tomentose" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="villous" />
+        <character name="pubescence" value="tomentose" constraint="with trichomes" constraintid="o673" />
+      </structure>
+      <structure id="o673" name="trichome">
+        <character name="architecture" value="septate" />
+      </structure>
+    </statement>
+    <statement id="128.txt-1">
+      <text>Leaf blades deeply 1–2× divided, (lobes many, narrow, closely spaced), faces glabrous or abaxial villous along midveins with septate trichomes;</text>
+      <structure id="o674" name="blade" constraint="leaf" />
+      <structure id="o675" name="face">
+        <character name="pubescence" value="glabrous" constraint="along midveins" constraintid="o676" />
+      </structure>
+      <structure id="o676" name="midvein" />
+      <structure id="o677" name="trichome">
+        <character name="architecture" value="septate" />
+      </structure>
+      <relation id="r127" name="with" from="o676" to="o677" negation="false" />
+    </statement>
+    <statement id="128.txt-2">
+      <text>main marginal spines usually very slender, 5–12 mm;</text>
+      <structure id="o678" name="spine" constraint="main marginal">
+        <character name="size" value="slender" modifier="usually very" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="12" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="128.txt-3">
+      <text>cauline bases usually decurrent as spiny wings to 30 mm.</text>
+      <structure id="o679" name="base" constraint="cauline">
+        <character name="shape" value="decurrent" modifier="usually" constraint="as wings" constraintid="o680" />
+      </structure>
+      <structure id="o680" name="wing">
+        <character name="architecture_or_shape" value="spiny" />
+        <character char_type="range_value" name="size" to="30" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="128.txt-4">
+      <text>Involucres cylindric to narrowly ovoid.</text>
+      <structure id="o681" name="involucre">
+        <character char_type="range_value" name="shape" from="cylindric" to="narrowly ovoid" />
+        <character name="shape" value="cylindric" />
+        <character name="shape" value="ovoid" modifier="narrowly" />
+      </structure>
+    </statement>
+    <statement id="128.txt-5">
+      <text>Phyllary spines slender to ± stout, 1–20 mm.</text>
+      <structure id="o682" name="spine" constraint="phyllary">
+        <character name="size" value="slender" />
+        <character name="fragility" value="stout" modifier="±" />
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="20" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="128.txt-6">
+      <text>Corollas usually reddish purple, 25–32 mm, tubes 7–11, throats 4–7.5 mm, lobes 11–16 mm;</text>
+      <structure id="o683" name="corolla">
+        <character name="coloration" value="purple" modifier="usually;reddish" />
+        <character char_type="range_value" name="size" from="25" from_unit="mm" to="32" to_unit="mm" />
+      </structure>
+      <structure id="o684" name="tube">
+        <character char_type="range_value" name="count" from="7" to="11" />
+      </structure>
+      <structure id="o685" name="throat">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="7.5" to_unit="mm" />
+      </structure>
+      <structure id="o686" name="lobe">
+        <character char_type="range_value" name="size" from="11" from_unit="mm" to="16" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="128.txt-7">
+      <text>style tips 2.5–3.5 mm.</text>
+      <structure id="o687" name="tip" constraint="style">
+        <character char_type="range_value" name="size" from="2.5" from_unit="mm" to="3.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="128.txt-8">
+      <text>2 n = 34 (as C. chuskaense ).</text>
+      <structure id="o688" name="chromosome">
+        <character name="count" value="34" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>desert scrub</habitat>
+  <habitat>grasslands</habitat>
+  <habitat>pine-oak-juniper woodlands</habitat>
+  <habitat>ponderosa pine forests</habitat>
+  <conservation>of conservation concern;</conservation>
+  <elevation>1600–2800 m;</elevation>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <discussion>R. J. Moore and C. Frankton (1974b) recognized three narrowly defined new species in the Cirsium arizonicum complex, all from a small area in the Defiance Plateau and Chuska Mountains in northeastern Arizona and northwestern New Mexico. The characters used to differentiate these taxa break down when additional specimens are examined, and they are all combined here as a single variety of C. arizonicum.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

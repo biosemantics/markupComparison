@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Oncosiphon piluliferum</species_name>
+  <authority>(Linnaeus f.) Källersjö</authority>
+  <place_of_publication>Bot. J. Linn. Soc. 96: 314. 1988</place_of_publication>
+  <common_name>Stinknet, globe chamomile</common_name>
+  <synonym_of_species_name>Cotula pilulifera Linnaeus f., Suppl. Pl., 378. 1782; Matricaria globifera (Thunberg) Fenzl ex Harvey; Pentzia globifera (Thunberg) Hutchinson</synonym_of_species_name>
+  <description>
+    <statement id="939.txt-0">
+      <text>Herbage with vile odor.</text>
+      <structure id="o19343" name="herbage" constraint="with vile odor" />
+    </statement>
+    <statement id="939.txt-1">
+      <text>Leaf blades mostly obovate, 20–35 mm, ultimate lobes linear to spatulate or oblanceolate, 0.5–1 mm wide, sparsely puberulent or strigillose, minutely gland-dotted (in pits).</text>
+      <structure id="o19344" name="blade" constraint="leaf">
+        <character name="shape" value="obovate" modifier="mostly" />
+        <character char_type="range_value" name="size" from="20" from_unit="mm" to="35" to_unit="mm" />
+      </structure>
+      <structure id="o19345" name="lobe" constraint="ultimate">
+        <character char_type="range_value" name="shape" from="linear" to="spatulate or oblanceolate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="spatulate" />
+        <character name="shape" value="oblanceolate" />
+        <character char_type="range_value" name="size" from="0.5" from_unit="mm" to="1" to_unit="mm" />
+        <character name="pubescence" value="puberulent" modifier="sparsely" />
+        <character name="pubescence" value="strigillose" modifier="sparsely" />
+        <character name="coloration_or_relief" value="gland-dotted" modifier="minutely" />
+      </structure>
+    </statement>
+    <statement id="939.txt-2">
+      <text>Heads borne singly or 2–4 in corymbiform arrays.</text>
+      <structure id="o19346" name="head">
+        <character name="arrangement" value="singly" />
+        <character char_type="range_value" name="count" from="2" to="4" constraint="in arrays" constraintid="o19347" />
+      </structure>
+      <structure id="o19347" name="array">
+        <character name="architecture" value="corymbiform" />
+      </structure>
+    </statement>
+    <statement id="939.txt-3">
+      <text>Peduncles 1–2(–8) cm, ebracteate.</text>
+      <structure id="o19348" name="peduncle">
+        <character char_type="range_value" name="atypical_size" from="2" to="8" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="1" from_unit="cm" to="2" to_unit="cm" />
+        <character name="architecture" value="ebracteate" />
+      </structure>
+    </statement>
+    <statement id="939.txt-4">
+      <text>Involucres 3–3.5 × 4–6 mm.</text>
+      <structure id="o19349" name="involucre">
+        <character char_type="range_value" name="length" from="3" from_unit="mm" to="3.5" to_unit="mm" />
+        <character char_type="range_value" name="width" from="4" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="939.txt-5">
+      <text>Receptacles ± conic to subspheric, muricate.</text>
+      <structure id="o19350" name="receptacle">
+        <character char_type="range_value" name="shape" from="conic" to="subspheric" modifier="±" />
+        <character name="shape" value="conic" modifier="±" />
+        <character name="shape" value="subspheric" modifier="±" />
+        <character name="relief" value="muricate" />
+      </structure>
+    </statement>
+    <statement id="939.txt-6">
+      <text>Disc corollas 1.5–2 mm.</text>
+      <structure id="o19351" name="corolla" constraint="disc">
+        <character char_type="range_value" name="size" from="1.5" from_unit="mm" to="2" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="939.txt-7">
+      <text>Cypselae slightly curved, 0.6–0.8 mm, sparingly dotted with minute, glistening oil glands;</text>
+      <structure id="o19352" name="cypsela">
+        <character name="shape" value="curved" modifier="slightly" />
+        <character char_type="range_value" name="size" from="0.6" from_unit="mm" to="0.8" to_unit="mm" />
+        <character name="coloration_or_relief" value="dotted" modifier="sparingly" constraint="with glands" constraintid="o19353" />
+      </structure>
+      <structure id="o19353" name="gland">
+        <character name="size" value="minute" />
+        <character name="reflectance" value="glistening" />
+        <character name="coating" value="oil" />
+      </structure>
+    </statement>
+    <statement id="939.txt-8">
+      <text>pappi coroniform, 0.05–0.1 mm, margins subentire or minutely dentate.</text>
+      <structure id="o19354" name="pappus">
+        <character name="shape" value="coroniform" />
+        <character char_type="range_value" name="size" from="0.05" from_unit="mm" to="0.1" to_unit="mm" />
+      </structure>
+      <structure id="o19355" name="margin">
+        <character name="shape" value="subentire" />
+        <character name="shape" value="dentate" modifier="minutely" />
+      </structure>
+    </statement>
+    <statement id="939.txt-9">
+      <text>2 n = 12.</text>
+      <structure id="o19356" name="chromosome">
+        <character name="count" value="12" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <habitat>disturbed sites</habitat>
+  <habitat>coastal scrub</habitat>
+  <elevation>500–900 m;</elevation>
+  <introduced>introduced;</introduced>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <global_distribution>South Africa.</global_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

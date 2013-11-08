@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Pterocaulon pycnostachyum</species_name>
+  <authority>(Michaux) Elliott</authority>
+  <place_of_publication>Sketch Bot. S. Carolina 2: 324. 1823</place_of_publication>
+  <common_name>Fox-tail or coastal blackroot</common_name>
+  <synonym_of_species_name>Conyza pycnostachya Michaux, Fl. Bor.-Amer. 2: 126. 1803; Pterocaulon undulatum C. Mohr</synonym_of_species_name>
+  <description>
+    <statement id="799.txt-0">
+      <text>Plants 2–8 dm.</text>
+      <structure id="o16919" name="whole_organism">
+        <character char_type="range_value" name="size" from="2" from_unit="dm" to="8" to_unit="dm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="799.txt-1">
+      <text>Leaf blades lance-olate to obovate-lanceolate, oblong, or elliptic, 3–11 × 1–3(–3.5) cm, lengths mostly 2–7 times widths, margins usually dentate or denticulate, slightly repand, sometimes nearly entire.</text>
+      <structure id="o16920" name="blade" constraint="leaf">
+        <character char_type="range_value" name="shape" from="lance-olate" to="obovate-lanceolate , oblong , or elliptic" />
+        <character name="shape" value="lance-olate" />
+        <character name="shape" value="obovate-lanceolate" />
+        <character name="shape" value="oblong" />
+        <character name="shape" value="elliptic" />
+        <character char_type="range_value" name="length" from="3" from_unit="cm" to="11" to_unit="cm" />
+        <character char_type="range_value" name="atypical_width" from="3" to="3.5" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="width" from="1" from_unit="cm" to="3" to_unit="cm" />
+        <character name="size" value="widths" modifier="mostly" />
+      </structure>
+      <structure id="o16921" name="margin">
+        <character name="shape" value="dentate" modifier="usually" />
+        <character name="shape" value="denticulate" />
+        <character name="shape" value="repand" modifier="slightly" />
+        <character name="shape" value="entire" modifier="sometimes nearly" />
+      </structure>
+    </statement>
+    <statement id="799.txt-2">
+      <text>Heads in dense, usually contin uous, rarely interrupted (then near bases), narrow, ± ovoid arrays (2–)3–8(–10) cm (usually single, sometimes with 1–2 basal branches).</text>
+      <structure id="o16922" name="head" />
+      <structure id="o16923" name="array">
+        <character name="texture" value="dense" />
+        <character name="architecture" value="interrupted" modifier="usually rarely" />
+        <character name="size" value="narrow" />
+        <character name="shape" value="ovoid" modifier="±" />
+        <character char_type="range_value" name="atypical_size" from="2" to="3" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_size" from="8" to="10" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="3" from_unit="cm" to="8" to_unit="cm" />
+      </structure>
+      <relation id="r1823" name="in" from="o16922" to="o16923" negation="false" />
+    </statement>
+    <statement id="799.txt-3">
+      <text>Involucres campanulate, 4–5 mm.</text>
+      <structure id="o16924" name="involucre">
+        <character name="shape" value="campanulate" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="799.txt-4">
+      <text>Pistillate florets 23–44.</text>
+      <structure id="o16925" name="floret" constraint="pistillate">
+        <character char_type="range_value" name="count" from="23" to="44" />
+      </structure>
+    </statement>
+    <statement id="799.txt-5">
+      <text>Functionally staminate florets 6–10(–15).</text>
+      <structure id="o16926" name="floret" constraint="functionally staminate">
+        <character char_type="range_value" name="atypical_count" from="10" to="15" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="6" to="10" />
+      </structure>
+    </statement>
+    <statement id="799.txt-6">
+      <text>Cypselae 1–1.3 mm.</text>
+      <structure id="o16927" name="cypsela">
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="1.3" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="799.txt-7">
+      <text>2 n = 20.</text>
+      <structure id="o16928" name="chromosome">
+        <character name="count" value="20" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>may</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <habitat>sandy pinelands</habitat>
+  <habitat>sandy fields</habitat>
+  <habitat>depressions</habitat>
+  <habitat>ditches</habitat>
+  <elevation>0–20 m;</elevation>
+  <us_distribution>Ala.</us_distribution>
+  <us_distribution>Fla.</us_distribution>
+  <us_distribution>Ga.</us_distribution>
+  <us_distribution>Miss.</us_distribution>
+  <us_distribution>N.C.</us_distribution>
+  <us_distribution>S.C.</us_distribution>
+  <discussion>Differences between Pterocaulon pycnostachyum and P. alopecuroides (Lamarck) de Candolle, which is widespread in the West Indies and South America, are these: plants 50–70 cm high in P. pycnostachyum (versus 70–150 cm in P. alopecuroides), arrays of heads 4–8 cm (versus 3–17 cm) long, involucres 3.5–4 mm (versus 4.5–5 mm) high, and 6–15 (versus 1–3) functionally staminate florets (A. L. Cabrera and A. M. Ragonese 1978). In P. alopecuroides, the arrays of heads are almost always interrupted proximally, commonly producing sessile to subsessile branches. A count of functionally staminate florets provides a clear determinant for plants that might appear ambiguous in other features.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>4.</number>
+  <genus_name>GOCHNATIA</genus_name>
+  <authority>Kunth</authority>
+  <place_of_publication>in A. von Humboldt et al., Nov. Gen. Sp. 4(fol.): 15. 1818; 4(qto.): 19. 1820</place_of_publication>
+  <common_name />
+  <derivation>For Frédéric Karl Gochnat, d. 1816, a botanist who worked with Cichorieae</derivation>
+  <author_of_tribe_genus>Beryl B. Simpson</author_of_tribe_genus>
+  <description>
+    <statement id="15.txt-0">
+      <text>Subshrubs or shrubs [herbs, trees], 100–400[–1000+] cm (sometimes dioecious).</text>
+      <structure id="o1333" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="400" to="1000" from_unit="cm" to_unit="cm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="100" from_unit="cm" to="400" to_unit="cm" />
+        <character name="life_style" value="subshrub" />
+        <character name="life_style" value="shrub" />
+      </structure>
+    </statement>
+    <statement id="15.txt-1">
+      <text>Leaves cauline;</text>
+    </statement>
+    <statement id="15.txt-2">
+      <text>petiolate [sessile];</text>
+      <structure id="o1335" name="leaf">
+        <character name="insertion_or_position" value="cauline" />
+        <character name="architecture" value="petiolate" />
+      </structure>
+    </statement>
+    <statement id="15.txt-3">
+      <text>blades lance-elliptic to lanceolate [elliptic, linear, ovate] (stiff), bases ± cuneate [rounded], margins entire [denticulate to dentate] (often revolute), abaxial faces usually tomentose [minutely stipitate-glandular or gland-dotted and/or hirtellous], adaxial faces usually glabrous or glabrescent.</text>
+      <structure id="o1336" name="blade">
+        <character char_type="range_value" name="shape" from="lance-elliptic" to="lanceolate" />
+        <character name="shape" value="lance-elliptic" />
+        <character name="shape" value="lanceolate" />
+      </structure>
+      <structure id="o1337" name="base">
+        <character name="shape" value="cuneate" modifier="±" />
+      </structure>
+      <structure id="o1338" name="margin">
+        <character name="shape" value="entire" />
+      </structure>
+      <structure id="o1339" name="face" constraint="abaxial">
+        <character name="pubescence" value="tomentose" modifier="usually" />
+      </structure>
+      <structure id="o1340" name="face" constraint="adaxial">
+        <character name="pubescence" value="glabrous" modifier="usually" />
+        <character name="pubescence" value="glabrescent" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="15.txt-4">
+      <text>Heads discoid [quasi-discoid or disciform], in ± corymbiform or glomerulate arrays [borne singly].</text>
+      <structure id="o1341" name="head">
+        <character name="shape_or_architecture" value="discoid" />
+      </structure>
+      <structure id="o1342" name="array">
+        <character name="architecture" value="corymbiform" />
+        <character name="architecture" value="glomerulate" />
+      </structure>
+      <relation id="r222" name="in" from="o1341" to="o1342" negation="false" />
+    </statement>
+    <statement id="15.txt-5">
+      <text>Involucres obconic or campanulate to cylindric, 5–8[–15] mm.</text>
+      <structure id="o1343" name="involucre">
+        <character char_type="range_value" name="shape" from="campanulate" to="cylindric" />
+        <character name="shape" value="obconic" />
+        <character name="shape" value="campanulate" />
+        <character name="shape" value="cylindric" />
+        <character char_type="range_value" name="atypical_size" from="8" to="15" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="15.txt-6">
+      <text>Phyllaries in 3–10(–15) series (outer often intergrading with peduncular bractlets), ovate to lanceolate, unequal, apices obtuse to acute.</text>
+      <structure id="o1344" name="phyllary">
+        <character char_type="range_value" name="shape" from="ovate" to="lanceolate" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="lanceolate" />
+        <character name="size" value="unequal" />
+      </structure>
+      <structure id="o1345" name="series" constraint="-15">
+        <character char_type="range_value" name="count" from="3" to="10" />
+      </structure>
+      <relation id="r223" name="in" from="o1344" to="o1345" negation="false" />
+      <structure id="o1346" name="apex">
+        <character char_type="range_value" name="shape" from="obtuse" to="acute" />
+        <character name="shape" value="obtuse" />
+        <character name="shape" value="acute" />
+      </structure>
+    </statement>
+    <statement id="15.txt-7">
+      <text>Receptacles flat, smooth or alveolate, usually glabrous, rarely glandular-hairy, epaleate.</text>
+      <structure id="o1347" name="receptacle">
+        <character name="shape" value="flat" />
+        <character name="relief" value="smooth" />
+        <character name="relief" value="alveolate" />
+        <character name="pubescence" value="glabrous" modifier="usually" />
+        <character name="pubescence" value="glandular-hairy" modifier="rarely" />
+        <character name="architecture" value="epaleate" />
+      </structure>
+    </statement>
+    <statement id="15.txt-8">
+      <text>Florets 4–25[–150], bisexual or unisexual, fertile [pistillate or functionally staminate];</text>
+      <structure id="o1348" name="floret">
+        <character char_type="range_value" name="atypical_count" from="25" to="150" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="4" to="25" />
+        <character name="reproduction" value="bisexual" />
+        <character name="reproduction" value="unisexual" />
+        <character name="reproduction" value="fertile" />
+      </structure>
+    </statement>
+    <statement id="15.txt-9">
+      <text>corollas whitish [cream-colored to yellow], actinomorphic (lobes 5, lanceolate to lance-linear, glabrous);</text>
+      <structure id="o1349" name="corolla">
+        <character name="coloration" value="whitish" />
+        <character name="architecture" value="actinomorphic" />
+      </structure>
+    </statement>
+    <statement id="15.txt-10">
+      <text>anther basal appendages laciniate [entire], apical appendages lanceolate, rounded to apiculate;</text>
+      <structure id="o1350" name="appendage" constraint="anther basal">
+        <character name="shape" value="laciniate" />
+      </structure>
+      <structure id="o1351" name="appendage" constraint="apical">
+        <character char_type="range_value" name="shape" from="lanceolate , rounded" to="apiculate" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="rounded" />
+        <character name="shape" value="apiculate" />
+      </structure>
+    </statement>
+    <statement id="15.txt-11">
+      <text>style branches relatively short, apices rounded.</text>
+      <structure id="o1352" name="branch" constraint="style">
+        <character name="size" value="short" modifier="relatively" />
+      </structure>
+      <structure id="o1353" name="apex">
+        <character name="shape" value="rounded" />
+      </structure>
+    </statement>
+    <statement id="15.txt-12">
+      <text>Cypselae ± obpyramidal [cylindric or turbinate], not beaked, obscurely ribbed, faces usually ± sericeous to velutinous and/or glandular-hairy;</text>
+      <structure id="o1354" name="cypsela">
+        <character name="shape" value="obpyramidal" modifier="±" />
+        <character name="shape" value="beaked" modifier="not" />
+        <character name="architecture_or_shape" value="ribbed" modifier="obscurely" />
+      </structure>
+      <structure id="o1355" name="face">
+        <character char_type="range_value" name="pubescence" from="sericeous" to="velutinous" modifier="usually ±" />
+        <character name="pubescence" value="sericeous" modifier="usually ±" />
+        <character name="pubescence" value="velutinous" modifier="usually ±" />
+        <character name="pubescence" value="glandular-hairy" />
+      </structure>
+    </statement>
+    <statement id="15.txt-13">
+      <text>pappi of 20–30+ whitish to stramineous, smooth or ± barbellate bristles and/or setiform-subulate scales in 1–2 series.</text>
+      <structure id="o1356" name="pappus" />
+      <structure id="o1357" name="bristle">
+        <character char_type="range_value" name="count" from="20" to="30" upper_restricted="false" />
+        <character char_type="range_value" name="coloration" from="whitish" to="stramineous" />
+        <character name="coloration" value="whitish" />
+        <character name="coloration" value="stramineous" />
+        <character name="architecture_or_relief" value="smooth" />
+        <character name="architecture" value="barbellate" modifier="±" />
+        <character name="shape" value="setiform-subulate" />
+      </structure>
+      <relation id="r224" name="consist_of" from="o1356" to="o1357" negation="false" />
+      <structure id="o1358" name="scale" />
+      <structure id="o1359" name="series">
+        <character char_type="range_value" name="count" from="1" to="2" />
+      </structure>
+      <relation id="r225" name="in" from="o1358" to="o1359" negation="false" />
+    </statement>
+  </description>
+  <number_of_infrataxa>Species ca. 68 (1 in the flora):</number_of_infrataxa>
+  <general_distribution>mostly tropical and warm North America and South America</general_distribution>
+  <general_distribution>West Indies</general_distribution>
+  <general_distribution>two species in tropical mountains of southeast Asia.</general_distribution>
+  <discussion>In an analysis of DNA sequences from a sample of species in Gochnatiinae, H. G. Kim et al. (2002) found that Gochnatia is monophyletic and the subtribe is not. K. Bremer (1994) concluded that Gochnatia is paraphyletic to other genera in Mutisieae. N. Roque and D. J. N. Hind (2001) segregated one species from Gochnatia as a monotypic genus, Ianthopappus.</discussion>
+  <references>SELECTED REFERENCES Cabrera, A. L. 1971. Revisión del género Gochnatia (Compositae). Revista Mus. La Plata, Secc. Bot. 12: 1–160. Roque, N. and M. S. F. Silvestre Capelato. 2001. Generic delimitation of Gochnatia, Richterago, and Ianthopappus (Compositae–Mutisieae) based on pollen morphology. Grana 40: 197–204.</references>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

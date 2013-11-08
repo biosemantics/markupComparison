@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>24.</number>
+  <species_name>Artemisia abrotanum</species_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 845. 1753</place_of_publication>
+  <common_name>Southernwood, lad’s love, old man, armoise aurone</common_name>
+  <description>
+    <statement id="891.txt-0">
+      <text>Perennials or subshrubs, 50–130(–170) cm (not cespitose), aromatic (roots thick, woody).</text>
+      <structure id="o18466" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="130" to="170" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="50" from_unit="cm" to="130" to_unit="cm" />
+        <character name="odor" value="aromatic" />
+        <character name="life_style" value="perennial" />
+        <character name="life_style" value="subshrub" />
+      </structure>
+    </statement>
+    <statement id="891.txt-1">
+      <text>Stems relatively numerous, erect, brown, branched, (woody, brittle), glabrous or sparsely hairy.</text>
+      <structure id="o18468" name="stem">
+        <character name="count" value="numerous" modifier="relatively" />
+        <character name="orientation" value="erect" />
+        <character name="coloration" value="brown" />
+        <character name="architecture_or_shape" value="branched" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="hairy" modifier="sparsely" />
+      </structure>
+    </statement>
+    <statement id="891.txt-2">
+      <text>Leaves cauline, dark green;</text>
+      <structure id="o18469" name="leaf">
+        <character name="insertion_or_position" value="cauline" />
+        <character name="coloration" value="green" modifier="dark" />
+      </structure>
+    </statement>
+    <statement id="891.txt-3">
+      <text>blades broadly ovate, (2–)3–6 × 0.02–0.15 cm, 2–3-pinnatifid (lobes linear or filiform), faces sparsely hairy (abaxial) or glabrous (adaxial).</text>
+      <structure id="o18470" name="blade">
+        <character name="shape" value="ovate" modifier="broadly" />
+        <character char_type="range_value" name="atypical_length" from="2" to="3" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="length" from="3" from_unit="cm" to="6" to_unit="cm" />
+        <character char_type="range_value" name="width" from="0.02" from_unit="cm" to="0.15" to_unit="cm" />
+        <character name="shape" value="2-3-pinnatifid" />
+      </structure>
+      <structure id="o18471" name="face">
+        <character name="pubescence" value="hairy" modifier="sparsely" />
+        <character name="pubescence" value="glabrous" modifier="sparsely" />
+      </structure>
+    </statement>
+    <statement id="891.txt-4">
+      <text>Heads (nodding at maturity) in open, widely branched arrays 10–30 × 2–10 cm.</text>
+      <structure id="o18472" name="head" />
+      <structure id="o18473" name="array" constraint="branched">
+        <character name="architecture" value="open" />
+        <character char_type="range_value" name="length" from="10" from_unit="cm" to="30" to_unit="cm" />
+        <character char_type="range_value" name="width" from="2" from_unit="cm" to="10" to_unit="cm" />
+      </structure>
+      <relation id="r1953" name="in" from="o18472" to="o18473" negation="false" />
+    </statement>
+    <statement id="891.txt-5">
+      <text>Involucres ovoid, (1–)2–3.5 × (1–)2–2.5 mm.</text>
+      <structure id="o18474" name="involucre">
+        <character name="shape" value="ovoid" />
+        <character char_type="range_value" name="atypical_length" from="1" to="2" from_unit="mm" to_unit="mm" to_inclusive="false" />
+        <character char_type="range_value" name="length" from="2" from_unit="mm" to="3.5" to_unit="mm" />
+        <character char_type="range_value" name="atypical_width" from="1" to="2" from_unit="mm" to_unit="mm" to_inclusive="false" />
+        <character char_type="range_value" name="width" from="2" from_unit="mm" to="2.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="891.txt-6">
+      <text>Phyllaries oblong-elliptic, sparsely hairy.</text>
+      <structure id="o18475" name="phyllary">
+        <character name="arrangement_or_shape" value="oblong-elliptic" />
+        <character name="pubescence" value="hairy" modifier="sparsely" />
+      </structure>
+    </statement>
+    <statement id="891.txt-7">
+      <text>Florets:</text>
+      <structure id="o18476" name="floret" />
+    </statement>
+    <statement id="891.txt-8">
+      <text>pistillate 4–8(–15);</text>
+      <structure id="o18477" name="floret" constraint="pistillate">
+        <character char_type="range_value" name="atypical_count" from="8" to="15" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="4" to="8" />
+      </structure>
+    </statement>
+    <statement id="891.txt-9">
+      <text>bisexual 14–16(–20);</text>
+      <structure id="o18478" name="floret" constraint="bisexual">
+        <character char_type="range_value" name="atypical_count" from="16" to="20" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="14" to="16" />
+      </structure>
+    </statement>
+    <statement id="891.txt-10">
+      <text>corollas yellow, 0.5–1 mm, glandular.</text>
+      <structure id="o18479" name="corolla">
+        <character name="coloration" value="yellow" />
+        <character char_type="range_value" name="size" from="0.5" from_unit="mm" to="1" to_unit="mm" />
+        <character name="architecture_or_exudation_or_pubescence" value="glandular" />
+      </structure>
+    </statement>
+    <statement id="891.txt-11">
+      <text>Cypselae (light brown) ellipsoid (2–5-angled, flattened, furrowed), 0.5–1 mm, glabrous.</text>
+      <structure id="o18480" name="cypsela">
+        <character name="shape" value="ellipsoid" />
+        <character char_type="range_value" name="size" from="0.5" from_unit="mm" to="1" to_unit="mm" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="891.txt-12">
+      <text>2 n = 18.</text>
+      <structure id="o18481" name="chromosome">
+        <character name="count" value="18" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <flowering_time>nov</flowering_time>
+  <habitat>waste places</habitat>
+  <elevation>0–3000 m;</elevation>
+  <introduced>introduced;</introduced>
+  <ca_distribution>Alta.</ca_distribution>
+  <ca_distribution>Man.</ca_distribution>
+  <ca_distribution>N.B.</ca_distribution>
+  <ca_distribution>Ont.</ca_distribution>
+  <ca_distribution>Que.</ca_distribution>
+  <ca_distribution>Sask.</ca_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Conn.</us_distribution>
+  <us_distribution>Del.</us_distribution>
+  <us_distribution>D.C.</us_distribution>
+  <us_distribution>Ill.</us_distribution>
+  <us_distribution>Iowa</us_distribution>
+  <us_distribution>Kans.</us_distribution>
+  <us_distribution>Maine</us_distribution>
+  <us_distribution>Md.</us_distribution>
+  <us_distribution>Mass.</us_distribution>
+  <us_distribution>Mich.</us_distribution>
+  <us_distribution>Minn.</us_distribution>
+  <us_distribution>Nebr.</us_distribution>
+  <us_distribution>N.H.</us_distribution>
+  <us_distribution>N.J.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>N.C.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <us_distribution>S.C.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Vt.</us_distribution>
+  <us_distribution>Wis.</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <global_distribution>Eurasia</global_distribution>
+  <global_distribution>Africa.</global_distribution>
+  <discussion>Artemisia abrotanum has been widely cultivated in gardens for old-time uses such as a fly and parasite repellent. It has had a renewed popularity in xeriscape gardening; it is drought tolerant and can fill difficult garden spaces (e.g., dry rocky slopes). Reports of naturalization may be exaggerated; it is not known to become weedy in any of its known locations in North America.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

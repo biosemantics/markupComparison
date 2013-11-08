@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>3.</number>
+  <species_name>Achillea ptarmica</species_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 898. 1753</place_of_publication>
+  <common_name>Sneezeweed, sneezewort, achillée ptarmique, herbe-à-éternuer</common_name>
+  <description>
+    <statement id="824.txt-0">
+      <text>Perennials, 30–60+ cm (rhizomatous).</text>
+      <structure id="o17343" name="whole_organism">
+        <character char_type="range_value" name="size" from="30" from_unit="cm" to="60" to_unit="cm" upper_restricted="false" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="824.txt-1">
+      <text>Stems 1, erect, branched distally, proximally glabrate, distally villous or tomentose.</text>
+      <structure id="o17344" name="stem">
+        <character name="count" value="1" />
+        <character name="orientation" value="erect" />
+        <character name="architecture_or_shape" value="branched" modifier="distally" />
+        <character name="pubescence" value="glabrate" modifier="proximally" />
+        <character name="pubescence" value="villous" modifier="distally" />
+        <character name="pubescence" value="tomentose" modifier="distally" />
+      </structure>
+    </statement>
+    <statement id="824.txt-2">
+      <text>Leaves sessile;</text>
+      <structure id="o17345" name="leaf">
+        <character name="architecture" value="sessile" />
+      </structure>
+    </statement>
+    <statement id="824.txt-3">
+      <text>blades linear to narrowly lanceolate, 3–10 × 3–5 mm, (bases slightly clasping, margins usually serrulate, rarely subentire), faces glabrous or sparsely hairy on midveins adaxially.</text>
+      <structure id="o17346" name="blade">
+        <character char_type="range_value" name="shape" from="linear" to="narrowly lanceolate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="lanceolate" modifier="narrowly" />
+        <character char_type="range_value" name="length" from="3" from_unit="mm" to="10" to_unit="mm" />
+        <character char_type="range_value" name="width" from="3" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+      <structure id="o17347" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="hairy" modifier="sparsely" constraint="on midveins" constraintid="o17348" />
+      </structure>
+      <structure id="o17348" name="midvein" />
+    </statement>
+    <statement id="824.txt-4">
+      <text>Heads 3–15+, in simple or compound, corymbiform arrays.</text>
+      <structure id="o17349" name="head">
+        <character char_type="range_value" name="count" from="3" to="15" upper_restricted="false" />
+      </structure>
+      <structure id="o17350" name="array">
+        <character name="architecture" value="simple" />
+        <character name="architecture" value="compound" />
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <relation id="r1860" name="in" from="o17349" to="o17350" negation="false" />
+    </statement>
+    <statement id="824.txt-5">
+      <text>Phyllaries 25–30+ in ± 3 series, (light green, midribs yellowish, margins light brown) lanceolate to oblanceolate, faces tomentose.</text>
+      <structure id="o17351" name="phyllary">
+        <character char_type="range_value" name="count" from="25" to="30" upper_restricted="false" constraint="in series" constraintid="o17352" />
+        <character char_type="range_value" name="shape" from="lanceolate" to="oblanceolate" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="oblanceolate" />
+      </structure>
+      <structure id="o17352" name="series">
+        <character name="count" value="3" modifier="±" />
+      </structure>
+      <structure id="o17353" name="face">
+        <character name="pubescence" value="tomentose" />
+      </structure>
+    </statement>
+    <statement id="824.txt-6">
+      <text>Receptacles flat to slightly convex;</text>
+      <structure id="o17354" name="receptacle">
+        <character char_type="range_value" name="shape" from="flat" to="slightly convex" />
+        <character name="shape" value="flat" />
+        <character name="shape" value="convex" modifier="slightly" />
+      </structure>
+    </statement>
+    <statement id="824.txt-7">
+      <text>paleae oblanceolate, 3–4 mm.</text>
+      <structure id="o17355" name="palea">
+        <character name="shape" value="oblanceolate" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="824.txt-8">
+      <text>Ray florets 8–10(–13), styliferous and sterile (45–70, pistillate, fertile, in horticultural doubles);</text>
+      <structure id="o17356" name="floret" constraint="ray">
+        <character char_type="range_value" name="atypical_count" from="10" to="13" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="8" to="10" />
+        <character name="architecture" value="styliferous" />
+        <character name="reproduction" value="sterile" />
+      </structure>
+    </statement>
+    <statement id="824.txt-9">
+      <text>corollas white, laminae suborbiculate, 4–5 × 4–5 mm (5–7 × 3.5–4.5 mm in doubles).</text>
+      <structure id="o17357" name="corolla">
+        <character name="coloration" value="white" />
+      </structure>
+      <structure id="o17358" name="lamina">
+        <character name="shape" value="suborbiculate" />
+        <character char_type="range_value" name="length" from="4" from_unit="mm" to="5" to_unit="mm" />
+        <character char_type="range_value" name="width" from="4" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="824.txt-10">
+      <text>Disc florets 45–75+ (sometimes 0 in doubles);</text>
+      <structure id="o17359" name="floret" constraint="disc">
+        <character char_type="range_value" name="count" from="45" to="75" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="824.txt-11">
+      <text>corollas grayish white, ca. 3 mm.</text>
+      <structure id="o17360" name="corolla">
+        <character name="coloration" value="white" modifier="grayish" />
+        <character name="size" value="3" unit="mm" />
+      </structure>
+    </statement>
+    <statement id="824.txt-12">
+      <text>Cypselae 1.5–2 mm.</text>
+      <structure id="o17361" name="cypsela">
+        <character char_type="range_value" name="size" from="1.5" from_unit="mm" to="2" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="824.txt-13">
+      <text>2 n = 18.</text>
+      <structure id="o17362" name="chromosome">
+        <character name="count" value="18" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>roadsides</habitat>
+  <habitat>disturbed sites</habitat>
+  <habitat>open fields and pastures</habitat>
+  <habitat>in sandy or gravelly soils or in moist to drying silty soils</habitat>
+  <elevation>0–2400 m;</elevation>
+  <introduced>introduced;</introduced>
+  <global_distribution>Greenland</global_distribution>
+  <ca_distribution>Alta.</ca_distribution>
+  <ca_distribution>Man.</ca_distribution>
+  <ca_distribution>N.B.</ca_distribution>
+  <ca_distribution>Nfld. and Labrador (Nfld.)</ca_distribution>
+  <ca_distribution>N.S.</ca_distribution>
+  <ca_distribution>Ont.</ca_distribution>
+  <ca_distribution>P.E.I.</ca_distribution>
+  <ca_distribution>Que.</ca_distribution>
+  <us_distribution>Alaska</us_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Conn.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Ind.</us_distribution>
+  <us_distribution>Maine</us_distribution>
+  <us_distribution>Mass.</us_distribution>
+  <us_distribution>Mich.</us_distribution>
+  <us_distribution>Minn.</us_distribution>
+  <us_distribution>Mo.</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>N.H.</us_distribution>
+  <us_distribution>N.J.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>N.Dak.</us_distribution>
+  <us_distribution>Ohio</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <us_distribution>R.I.</us_distribution>
+  <us_distribution>Vt.</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <us_distribution>W.Va.</us_distribution>
+  <us_distribution>Wis.</us_distribution>
+  <global_distribution>Eurasia.</global_distribution>
+  <discussion>Achillea ptarmica is naturalized from Eurasia. “Double-flowered” plants originated as cultivars; apparently, they persist outside of cultivation.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>3.</number>
+  <species_name>Pseudognaphalium canescens</species_name>
+  <authority>(de Candolle) Anderberg</authority>
+  <place_of_publication>Opera Bot. 104: 147. 1991</place_of_publication>
+  <common_name>Wright’s rabbit-tobacco</common_name>
+  <synonym_of_species_name>Gnaphalium canescens de Candolle in A. P. de Candolle and A. L. P. P. de Candolle, Prodr. 6: 228. 1838; G. sonorae I. M. Johnston; G. texanum I. M Johnston; G. viridulum I. M. Johnston; G. wrightii A. Gray</synonym_of_species_name>
+  <description>
+    <statement id="682.txt-0">
+      <text>Annuals or perennials, 20–70(–100+) cm;</text>
+    </statement>
+    <statement id="682.txt-1">
+      <text>taprooted.</text>
+      <structure id="o14246" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="70" to="100" from_unit="cm" to_unit="cm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="20" from_unit="cm" to="70" to_unit="cm" />
+        <character name="life_style" value="annual" />
+        <character name="life_style" value="perennial" />
+        <character name="architecture" value="taprooted" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="682.txt-2">
+      <text>Stems persistently tomentose, not glandular (2–3 mm diam. near bases).</text>
+      <structure id="o14248" name="stem">
+        <character name="pubescence" value="tomentose" modifier="persistently" />
+        <character name="architecture_or_exudation_or_pubescence" value="glandular" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="682.txt-3">
+      <text>Leaf blades narrowly to broadly oblanceolate, mostly 2–4(–5) cm × 2–8(–15) mm, bases not clasping, not decurrent, margins flat, faces weakly bicolor, tomentose (adaxial less densely tomentose, sometimes sessile-glandular beneath tomentum).</text>
+      <structure id="o14249" name="blade" constraint="leaf">
+        <character name="shape" value="oblanceolate" modifier="narrowly broadly" />
+      </structure>
+      <structure id="o14250" name="base">
+        <character name="architecture" value="clasping" modifier="not" />
+        <character name="shape" value="decurrent" modifier="not" />
+      </structure>
+      <structure id="o14251" name="margin">
+        <character name="shape" value="flat" />
+      </structure>
+      <structure id="o14252" name="face">
+        <character name="coloration" value="bicolor" modifier="weakly" />
+        <character name="pubescence" value="tomentose" />
+      </structure>
+    </statement>
+    <statement id="682.txt-4">
+      <text>Heads usually in loose, corymbiform arrays.</text>
+      <structure id="o14253" name="head" />
+      <structure id="o14254" name="array">
+        <character name="architecture_or_texture" value="loose" />
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <relation id="r1519" name="in" from="o14253" to="o14254" negation="false" modifier="usually" />
+    </statement>
+    <statement id="682.txt-5">
+      <text>Involucres turbinate-campanulate, 4–5 mm.</text>
+      <structure id="o14255" name="involucre">
+        <character name="shape" value="turbinate-campanulate" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="682.txt-6">
+      <text>Phyllaries in 3–4 series, white (opaque to hyaline, dull to shiny), narrowly ovate-lanceolate, glabrous.</text>
+      <structure id="o14256" name="phyllary">
+        <character name="coloration" value="white" />
+        <character name="shape" value="ovate-lanceolate" modifier="narrowly" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+      <structure id="o14257" name="series">
+        <character char_type="range_value" name="count" from="3" to="4" />
+      </structure>
+      <relation id="r1520" name="in" from="o14256" to="o14257" negation="false" />
+    </statement>
+    <statement id="682.txt-7">
+      <text>Pistillate florets (16–)24–44.</text>
+      <structure id="o14258" name="floret" constraint="pistillate">
+        <character char_type="range_value" name="atypical_count" from="16" to="24" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="24" to="44" />
+      </structure>
+    </statement>
+    <statement id="682.txt-8">
+      <text>Bisexual florets (1–)2–5(–6), 5–6 more common in northern part of range.</text>
+      <structure id="o14259" name="floret" constraint="bisexual">
+        <character char_type="range_value" name="atypical_count" from="1" to="2" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_count" from="5" to="6" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="2" to="5" />
+        <character char_type="range_value" name="count" from="5" to="6" constraint="in part" constraintid="o14260" />
+      </structure>
+      <structure id="o14260" name="part" />
+      <structure id="o14261" name="range" />
+      <relation id="r1521" name="part_of" from="o14260" to="o14261" negation="false" />
+    </statement>
+    <statement id="682.txt-9">
+      <text>Cypselae ridged, weakly papillate-roughened.</text>
+      <structure id="o14262" name="cypsela">
+        <character name="shape" value="ridged" />
+        <character name="texture" value="papillate-roughened" modifier="weakly" />
+      </structure>
+    </statement>
+    <statement id="682.txt-10">
+      <text>2 n = 28.</text>
+      <structure id="o14263" name="chromosome">
+        <character name="count" value="28" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <flowering_time>nov</flowering_time>
+  <flowering_time>jan</flowering_time>
+  <flowering_time>winter</flowering_time>
+  <habitat>lava beds</habitat>
+  <habitat>rocky sites</habitat>
+  <habitat>grasslands</habitat>
+  <habitat>oak, pine-oak, and pine woodlands</habitat>
+  <elevation>1100–2500(–2700) m;</elevation>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>Okla.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <global_distribution>Mexico.</global_distribution>
+  <discussion>Most plants of Pseudognaphalium canescens produce white, opaque, keeled, apiculate phyllaries; in the southern portion of its range (Jalisco southeastward) and scattered localities elsewhere, the phyllaries may be more hyaline and lack a pronounced keel and apiculum.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

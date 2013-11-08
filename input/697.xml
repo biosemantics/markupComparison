@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>18.</number>
+  <species_name>Pseudognaphalium roseum</species_name>
+  <authority>(Kunth) Anderberg</authority>
+  <place_of_publication>Opera Bot. 104: 148. 1991</place_of_publication>
+  <common_name>Rosy rabbit-tobacco</common_name>
+  <synonym_of_species_name>Gnaphalium roseum Kunth in A. von Humboldt et al., Nov. Gen. Sp. 4(fol.): 63. 1818; 4(qto.): 81. 1820</synonym_of_species_name>
+  <description>
+    <statement id="697.txt-0">
+      <text>Annuals or perennials, 50–200 cm;</text>
+    </statement>
+    <statement id="697.txt-1">
+      <text>taprooted.</text>
+      <structure id="o14533" name="whole_organism">
+        <character char_type="range_value" name="size" from="50" from_unit="cm" to="200" to_unit="cm" />
+        <character name="life_style" value="annual" />
+        <character name="life_style" value="perennial" />
+        <character name="architecture" value="taprooted" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="697.txt-2">
+      <text>Stems persistently woolly-tomentose, not glandular.</text>
+      <structure id="o14535" name="stem">
+        <character name="pubescence" value="woolly-tomentose" modifier="persistently" />
+        <character name="architecture_or_exudation_or_pubescence" value="glandular" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="697.txt-3">
+      <text>Leaf blades oblong-lanceolate to oblanceolate, mid-cauline 3–7 cm × (3–)6–15(–20) mm, bases clasping to subclasping, not decurrent, margins usually undulate, faces concolor or weakly bicolor, usually woolly-tomentose, sometimes tardily glabrescent adaxially, stipitate- or sessile-glandular beneath tomentum.</text>
+      <structure id="o14536" name="blade" constraint="leaf">
+        <character char_type="range_value" name="shape" from="oblong-lanceolate" to="oblanceolate" />
+        <character name="shape" value="oblong-lanceolate" />
+        <character name="shape" value="oblanceolate" />
+        <character name="insertion_or_position" value="mid-cauline" />
+        <character char_type="range_value" name="length" from="3" from_unit="cm" to="7" to_unit="cm" />
+        <character char_type="range_value" name="atypical_width" from="]6-15" to="20" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="width" from="3" from_unit="mm" to="]6-15" to_unit="mm" />
+      </structure>
+      <structure id="o14537" name="base">
+        <character name="architecture" value="clasping" />
+        <character name="orientation" value="subclasping" />
+        <character name="shape" value="decurrent" modifier="not" />
+      </structure>
+      <structure id="o14538" name="margin">
+        <character name="shape" value="undulate" modifier="usually" />
+      </structure>
+      <structure id="o14539" name="face">
+        <character name="coloration" value="concolor" />
+        <character name="coloration" value="bicolor" modifier="weakly" />
+        <character name="pubescence" value="woolly-tomentose" modifier="usually" />
+        <character name="pubescence" value="glabrescent" modifier="sometimes tardily ; adaxially" />
+        <character name="architecture_or_exudation_or_pubescence" value="stipitate-or-sessile-glandular" constraint="beneath tomentum" constraintid="o14540" />
+      </structure>
+      <structure id="o14540" name="tomentum" />
+    </statement>
+    <statement id="697.txt-4">
+      <text>Heads in corymbiform arrays.</text>
+      <structure id="o14541" name="head" />
+      <structure id="o14542" name="array">
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <relation id="r1561" name="in" from="o14541" to="o14542" negation="false" />
+    </statement>
+    <statement id="697.txt-5">
+      <text>Involucres campanulate, 4–4.5 mm.</text>
+      <structure id="o14543" name="involucre">
+        <character name="shape" value="campanulate" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="4.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="697.txt-6">
+      <text>Phyllaries in 5–6 series, usually white, sometimes pink (opaque or hyaline, dull to shiny), ovate to ovate-oblong, glabrous.</text>
+      <structure id="o14544" name="phyllary">
+        <character name="coloration" value="white" modifier="usually" />
+        <character name="coloration" value="pink" modifier="sometimes" />
+        <character char_type="range_value" name="shape" from="ovate" to="ovate-oblong" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="ovate-oblong" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+      <structure id="o14545" name="series">
+        <character char_type="range_value" name="count" from="5" to="6" />
+      </structure>
+      <relation id="r1562" name="in" from="o14544" to="o14545" negation="false" />
+    </statement>
+    <statement id="697.txt-7">
+      <text>Pistillate florets 45–90(–110).</text>
+      <structure id="o14546" name="floret" constraint="pistillate">
+        <character char_type="range_value" name="atypical_count" from="90" to="110" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="45" to="90" />
+      </structure>
+    </statement>
+    <statement id="697.txt-8">
+      <text>Bisexual florets (5–)6–12(–18).</text>
+      <structure id="o14547" name="floret" constraint="bisexual">
+        <character char_type="range_value" name="atypical_count" from="5" to="6" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_count" from="12" to="18" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="6" to="12" />
+      </structure>
+    </statement>
+    <statement id="697.txt-9">
+      <text>Cypselae weakly ridged, smooth.</text>
+      <structure id="o14548" name="cypsela">
+        <character name="shape" value="ridged" modifier="weakly" />
+        <character name="architecture_or_relief" value="smooth" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <habitat>open, disturbed sites</habitat>
+  <elevation>10–50 [–1000+] m;</elevation>
+  <introduced>introduced;</introduced>
+  <us_distribution>Calif.</us_distribution>
+  <global_distribution>Mexico</global_distribution>
+  <global_distribution>Central America.</global_distribution>
+  <discussion>Pseudognaphalium roseum usually grows above 1000 m in Mexico; it grows below 50 m in California, where it is probably adventive. The closest collections of the species southward from California are from Sinaloa and southern Chihuahua. It is abundant in Mexico only in the eastern and southern states.</discussion>
+  <discussion>Pseudognaphalium roseum is recognized by its persistently tomentose stems and leaves, the leaves clasping to subclasping and non-decurrent, weakly bicolor and sessile-glandular beneath the tomentum, often relatively thick stems, relatively large heads with relatively numerous, white or pink, opaque phyllaries, relatively numerous florets, and smooth-faced cypselae. It has been confused with P. canescens; plants of P. roseum with relatively few bisexual florets can be distinguished from P. canescens by their subclasping leaves commonly with closely wavy margins, broader and more numerous phyllaries, and smooth-faced cypselae. Plants from southern California are atypical in their slightly smaller heads.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

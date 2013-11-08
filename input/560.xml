@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>7.</number>
+  <species_name>Stephanomeria malheurensis</species_name>
+  <authority>Gottlieb</authority>
+  <place_of_publication>Madroño 25: 44, fig. 1. 1978</place_of_publication>
+  <common_name>Malheur wirelettuce</common_name>
+  <description>
+    <statement id="560.txt-0">
+      <text>Annuals, 10–60 cm.</text>
+      <structure id="o11539" name="whole_organism">
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="60" to_unit="cm" />
+        <character name="life_style" value="annual" />
+      </structure>
+    </statement>
+    <statement id="560.txt-1">
+      <text>Stems single, branches ascending, glabrous.</text>
+      <structure id="o11540" name="stem">
+        <character name="count" value="single" />
+      </structure>
+      <structure id="o11541" name="branch">
+        <character name="orientation" value="ascending" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="560.txt-2">
+      <text>Leaves withered at flowering;</text>
+      <structure id="o11542" name="leaf">
+        <character name="duration" value="withered" modifier="at flowering" />
+      </structure>
+    </statement>
+    <statement id="560.txt-3">
+      <text>basal blades oblanceolate to spatulate, 5–7 cm, margins entire to pinnately lobed (faces glabrous);</text>
+      <structure id="o11543" name="blade" constraint="basal">
+        <character char_type="range_value" name="shape" from="oblanceolate" to="spatulate" />
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="spatulate" />
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="7" to_unit="cm" />
+      </structure>
+      <structure id="o11544" name="margin">
+        <character char_type="range_value" name="shape" from="entire" to="pinnately lobed" />
+        <character name="shape" value="entire" />
+        <character name="shape" value="lobed" modifier="pinnately" />
+      </structure>
+    </statement>
+    <statement id="560.txt-4">
+      <text>cauline much reduced, bractlike.</text>
+      <structure id="o11545" name="leaf" constraint="cauline">
+        <character name="size" value="reduced" modifier="much" />
+        <character name="shape" value="bractlike" />
+      </structure>
+    </statement>
+    <statement id="560.txt-5">
+      <text>Heads borne singly along branches.</text>
+      <structure id="o11546" name="head" />
+      <structure id="o11547" name="branch" />
+      <relation id="r1329" name="borne along" from="o11546" to="o11547" negation="false" />
+    </statement>
+    <statement id="560.txt-6">
+      <text>Peduncles 5–10 mm (glabrous).</text>
+      <structure id="o11548" name="peduncle">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="560.txt-7">
+      <text>Calyculi of appressed bractlets.</text>
+      <structure id="o11549" name="calyculus" />
+      <structure id="o11550" name="bractlet">
+        <character name="orientation" value="appressed" />
+      </structure>
+      <relation id="r1330" name="consist_of" from="o11549" to="o11550" negation="false" />
+    </statement>
+    <statement id="560.txt-8">
+      <text>Involucres 8–9.5 mm.</text>
+      <structure id="o11551" name="involucre">
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="9.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="560.txt-9">
+      <text>Florets 5–6 (ligules usually pink, rarely white or orange-yellow).</text>
+      <structure id="o11552" name="floret">
+        <character char_type="range_value" name="count" from="5" to="6" />
+      </structure>
+    </statement>
+    <statement id="560.txt-10">
+      <text>Cypselae tan to light brown, 3.3–3.8 mm, faces moderately tuberculate, grooved;</text>
+      <structure id="o11553" name="cypsela">
+        <character char_type="range_value" name="coloration" from="tan" to="light-brown" />
+        <character name="coloration" value="tan" />
+        <character name="coloration" value="brown" modifier="light" />
+        <character char_type="range_value" name="size" from="3.3" from_unit="mm" to="3.8" to_unit="mm" />
+      </structure>
+      <structure id="o11554" name="face">
+        <character name="relief" value="tuberculate" modifier="moderately" />
+        <character name="architecture" value="grooved" />
+      </structure>
+    </statement>
+    <statement id="560.txt-11">
+      <text>pappi of 9–12(–15), light tan bristles (connate in groups of 2–4, bristles and/or bases persistent), plumose on distal 50–60%.</text>
+      <structure id="o11555" name="pappus">
+        <character name="architecture" value="plumose" modifier="on distal 50-60%" />
+      </structure>
+      <structure id="o11556" name="15">
+        <character char_type="range_value" name="count" from="9" to="12" />
+      </structure>
+      <structure id="o11557" name="bristle">
+        <character name="coloration" value="tan" modifier="light" />
+        <character char_type="range_value" name="count" from="9" to="12" />
+      </structure>
+      <relation id="r1331" name="consist_of" from="o11555" to="o11556" negation="false" />
+      <relation id="r1332" name="consist_of" from="o11555" to="o11557" negation="false" />
+    </statement>
+    <statement id="560.txt-12">
+      <text>2 n = 16.</text>
+      <structure id="o11558" name="chromosome">
+        <character name="count" value="16" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>soils derived from volcanic tuff, high desert</habitat>
+  <conservation>of conservation concern;</conservation>
+  <elevation>1600 m;</elevation>
+  <us_distribution>Oreg.</us_distribution>
+  <discussion>Stephanomeria malheurensis has been examined in a series of studies (L. D. Gottlieb 1973b, 1977, 1978b, 1979, 1991; Gottlieb and J. P. Bennett 1983; S. Brauner and Gottlieb 1987, 1989; B. A. Bohm and Gottlieb 1989) because it is one of the very few examples of the recent, natural origin of a diploid, annual plant species. At the type locality, it grows with a population of S. exigua subsp. coronaria that is thought to be its progenitor.</discussion>
+  <discussion>Stephanomeria malheurensis is known from a single locality in Harney County, Oregon, growing in soil derived from volcanic tuff in the high desert of eastern Oregon. It is a federally listed rare and endangered species, and is in the Center for Plant Conservation’s National Collection of Endangered Plants.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

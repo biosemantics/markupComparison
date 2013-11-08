@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>2.</number>
+  <species_name>Lactuca floridana</species_name>
+  <authority>(Linnaeus) Gaertner</authority>
+  <place_of_publication>Fruct. Sem. Pl. 2: 362. 1791</place_of_publication>
+  <synonym_of_species_name>Sonchus floridanus Linnaeus, Sp. Pl. 2: 794. 1753; Lactuca floridana var. villosa (Jacquin) Cronquist; Mulgedium floridanum (Linnaeus) de Candolle</synonym_of_species_name>
+  <description>
+    <statement id="349.txt-0">
+      <text>Annuals or biennials, 25–150(–200+) cm.</text>
+      <structure id="o6513" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="150" to="200" from_unit="cm" to_unit="cm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="25" from_unit="cm" to="150" to_unit="cm" />
+        <character name="life_style" value="annual" />
+        <character name="life_style" value="biennial" />
+      </structure>
+    </statement>
+    <statement id="349.txt-2">
+      <text>blades of undivided cauline leaves oblong, ovate, or elliptic, margins entire or denticulate, midribs sometimes sparsely pilose.</text>
+      <structure id="o6515" name="blade">
+        <character name="shape" value="oblong" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="elliptic" />
+      </structure>
+      <structure id="o6516" name="leaf" constraint="undivided cauline" />
+      <relation id="r811" name="part_of" from="o6515" to="o6516" negation="false" />
+      <structure id="o6517" name="margin">
+        <character name="shape" value="entire" />
+        <character name="shape" value="denticulate" />
+      </structure>
+      <structure id="o6518" name="midrib">
+        <character name="pubescence" value="pilose" modifier="sometimes sparsely" />
+      </structure>
+    </statement>
+    <statement id="349.txt-3">
+      <text>Heads in (± pyramidal) paniculiform arrays.</text>
+      <structure id="o6519" name="head" />
+      <structure id="o6520" name="array">
+        <character name="architecture" value="paniculiform" />
+      </structure>
+      <relation id="r812" name="in" from="o6519" to="o6520" negation="false" />
+    </statement>
+    <statement id="349.txt-4">
+      <text>Involucres (8–)10–12+ mm.</text>
+      <structure id="o6521" name="involucre">
+        <character char_type="range_value" name="atypical_size" from="8" to="10" from_unit="mm" to_unit="mm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="12" to_unit="mm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="349.txt-5">
+      <text>Phyllaries usually reflexed in fruit.</text>
+      <structure id="o6522" name="phyllary">
+        <character name="orientation" value="reflexed" modifier="usually" constraint="in fruit" constraintid="o6523" />
+      </structure>
+      <structure id="o6523" name="fruit" />
+    </statement>
+    <statement id="349.txt-6">
+      <text>Florets 10–15(–25+);</text>
+      <structure id="o6524" name="floret">
+        <character char_type="range_value" name="atypical_count" from="15" to="25" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="10" to="15" />
+      </structure>
+    </statement>
+    <statement id="349.txt-7">
+      <text>corollas bluish or whitish, seldom deliquescent.</text>
+      <structure id="o6525" name="corolla">
+        <character name="coloration" value="bluish" />
+        <character name="coloration" value="whitish" />
+        <character name="architecture_or_texture" value="deliquescent" modifier="seldom" />
+      </structure>
+    </statement>
+    <statement id="349.txt-8">
+      <text>Cypselae:</text>
+      <structure id="o6526" name="cypsela" />
+    </statement>
+    <statement id="349.txt-9">
+      <text>bodies brown (often mottled), ± compressed-lanceoloid to -fusiform, 4–5 mm, beaks ± stout, 0.1–0.5(–1) mm, faces 5–6-nerved;</text>
+      <structure id="o6527" name="body">
+        <character name="coloration" value="brown" />
+        <character name="shape" value="compressed-lanceoloid-to-fusiform" modifier="±" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+      <structure id="o6528" name="beak">
+        <character name="fragility" value="stout" modifier="±" />
+        <character char_type="range_value" name="atypical_size" from="0.5" to="1" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="0.1" from_unit="mm" to="0.5" to_unit="mm" />
+      </structure>
+      <structure id="o6529" name="face">
+        <character name="architecture" value="5-6-nerved" />
+      </structure>
+    </statement>
+    <statement id="349.txt-10">
+      <text>pappi white, 4–5 mm.</text>
+      <structure id="o6530" name="pappus">
+        <character name="coloration" value="white" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="349.txt-11">
+      <text>2 n = 34.</text>
+      <structure id="o6531" name="chromosome">
+        <character name="count" value="34" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <habitat>moist to wet places</habitat>
+  <habitat>margins of thickets and woods</habitat>
+  <elevation>10–200 m;</elevation>
+  <ca_distribution>Man.</ca_distribution>
+  <ca_distribution>Ont.</ca_distribution>
+  <us_distribution>Ala.</us_distribution>
+  <us_distribution>Ark.</us_distribution>
+  <us_distribution>Del.</us_distribution>
+  <us_distribution>D.C.</us_distribution>
+  <us_distribution>Fla.</us_distribution>
+  <us_distribution>Ga.</us_distribution>
+  <us_distribution>Ill.</us_distribution>
+  <us_distribution>Ind.</us_distribution>
+  <us_distribution>Iowa</us_distribution>
+  <us_distribution>Kans.</us_distribution>
+  <us_distribution>Ky.</us_distribution>
+  <us_distribution>La.</us_distribution>
+  <us_distribution>Md.</us_distribution>
+  <us_distribution>Mass.</us_distribution>
+  <us_distribution>Mich.</us_distribution>
+  <us_distribution>Miss.</us_distribution>
+  <us_distribution>Mo.</us_distribution>
+  <us_distribution>Nebr.</us_distribution>
+  <us_distribution>N.J.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>N.C.</us_distribution>
+  <us_distribution>Ohio</us_distribution>
+  <us_distribution>Okla.</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <us_distribution>S.C.</us_distribution>
+  <us_distribution>S.Dak.</us_distribution>
+  <us_distribution>Tenn.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <us_distribution>Va.</us_distribution>
+  <us_distribution>W.Va.</us_distribution>
+  <us_distribution>Wis.</us_distribution>
+  <discussion>The “double” pappi of Lactuca floridana (and L. biennis) are very similar to pappi found in species assigned to Cicerbita Wallroth (ca. 35 spp., Europe, Asia, Africa). Return of the species to Cicerbita as C. floridana (Linnaeus) Wallroth may have merit.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>58.</number>
+  <species_name>Cirsium rhothophilum</species_name>
+  <authority>S. F. Blake</authority>
+  <place_of_publication>J. Wash. Acad. Sci. 21: 336. 1931</place_of_publication>
+  <common_name>Surf thistle</common_name>
+  <synonym_of_species_name>Carduus maritima Elmer, Bot. Gaz. 39: 45. 1905, not Cirsium maritimum Makino 1910</synonym_of_species_name>
+  <description>
+    <statement id="162.txt-0">
+      <text>Biennials or short-lived, usually monocarpic perennials , 10–100 cm;</text>
+    </statement>
+    <statement id="162.txt-1">
+      <text>taprooted with simple or branched caudices.</text>
+      <structure id="o1758" name="whole_organism">
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="100" to_unit="cm" />
+        <character name="life_style" value="biennial" />
+        <character name="life_style" value="perennial" />
+        <character name="architecture" value="taprooted" />
+        <character name="life_style" value="perennial" />
+      </structure>
+      <structure id="o1760" name="caudex">
+        <character name="architecture" value="simple" />
+        <character name="architecture" value="branched" />
+      </structure>
+    </statement>
+    <statement id="162.txt-2">
+      <text>Stems 1–several, spreading to erect, bushlike or forming low rounded mounds, gray-tomentose with appressed feltlike trichomes;</text>
+      <structure id="o1761" name="stem">
+        <character char_type="range_value" name="count" from="1" to="several" />
+        <character char_type="range_value" name="orientation" from="spreading" to="erect" />
+        <character name="orientation" value="spreading" />
+        <character name="orientation" value="erect" />
+        <character name="habit" value="bushlike" />
+        <character name="habit" value="forming low rounded mounds" />
+        <character name="pubescence" value="gray-tomentose" constraint="with trichomes" constraintid="o1763" />
+      </structure>
+      <structure id="o1762" name="mound">
+        <character name="location" value="low" />
+        <character name="shape" value="rounded" />
+      </structure>
+      <structure id="o1763" name="trichome">
+        <character name="orientation" value="appressed" />
+        <character name="texture" value="feltlike" />
+      </structure>
+    </statement>
+    <statement id="162.txt-3">
+      <text>branches 0–several, inclined to ascending, stiff.</text>
+      <structure id="o1764" name="branch">
+        <character char_type="range_value" name="count" from="0" to="several" />
+        <character char_type="range_value" name="orientation" from="inclined" to="ascending" />
+        <character name="orientation" value="inclined" />
+        <character name="orientation" value="ascending" />
+        <character name="texture" value="stiff" />
+      </structure>
+    </statement>
+    <statement id="162.txt-4">
+      <text>Leaves:</text>
+      <structure id="o1765" name="leaf" />
+    </statement>
+    <statement id="162.txt-5">
+      <text>blades elliptic to ovate, 10–25 cm, strongly undulate, usually broadly pinnatifid, lobes entire or coarsely few-toothed or -lobed, main spines abrupt, 1–4 mm, faces gray-white-tomentose with appressed feltlike, non-septate trichomes;</text>
+      <structure id="o1766" name="blade">
+        <character char_type="range_value" name="shape" from="elliptic" to="ovate" />
+        <character name="shape" value="elliptic" />
+        <character name="shape" value="ovate" />
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="25" to_unit="cm" />
+        <character name="shape" value="undulate" modifier="strongly" />
+        <character name="shape" value="pinnatifid" modifier="usually broadly" />
+      </structure>
+      <structure id="o1767" name="lobe">
+        <character name="shape" value="entire" />
+        <character name="shape" value="few-toothed-" modifier="coarsely" />
+      </structure>
+      <structure id="o1768" name="spine" constraint="main">
+        <character name="shape" value="abrupt" />
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+      <structure id="o1769" name="face">
+        <character name="pubescence" value="gray-white-tomentose" constraint="with trichomes" constraintid="o1770" />
+      </structure>
+      <structure id="o1770" name="trichome">
+        <character name="orientation" value="appressed" />
+        <character name="texture" value="feltlike" />
+        <character name="architecture" value="non-septate" />
+      </structure>
+    </statement>
+    <statement id="162.txt-6">
+      <text>basal present or withered at flowering, winged-petiolate;</text>
+      <structure id="o1771" name="leaf" constraint="basal">
+        <character name="presence" value="present" />
+        <character name="duration" value="withered" modifier="at flowering" />
+        <character name="architecture" value="winged-petiolate" />
+      </structure>
+    </statement>
+    <statement id="162.txt-7">
+      <text>principal cauline well distributed, winged-petiolate to sessile, gradually reduced, bases clasping with expanded auricles;</text>
+      <structure id="o1772" name="leaf" constraint="principal cauline">
+        <character name="arrangement" value="distributed" modifier="well" />
+        <character char_type="range_value" name="architecture" from="winged-petiolate" to="sessile" />
+        <character name="architecture" value="winged-petiolate" />
+        <character name="architecture" value="sessile" />
+        <character name="size" value="reduced" modifier="gradually" />
+      </structure>
+      <structure id="o1773" name="base">
+        <character name="architecture" value="clasping" constraint="with auricles" constraintid="o1774" />
+      </structure>
+      <structure id="o1774" name="auricle">
+        <character name="size" value="expanded" />
+      </structure>
+    </statement>
+    <statement id="162.txt-8">
+      <text>distal reduced, spines to 8 mm.</text>
+      <structure id="o1775" name="leaf" constraint="distal">
+        <character name="size" value="reduced" />
+      </structure>
+      <structure id="o1776" name="spine">
+        <character char_type="range_value" name="size" to="8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="162.txt-9">
+      <text>Heads 1–many, erect, terminal on branches in subcapitate to congested, corymbiform arrays, closely subtended by clustered, ± leafy bracts.</text>
+      <structure id="o1777" name="head">
+        <character char_type="range_value" name="count" from="1" to="many" />
+        <character name="orientation" value="erect" />
+        <character name="insertion_or_position" value="terminal" constraint="on branches" constraintid="o1778" />
+      </structure>
+      <structure id="o1778" name="branch" />
+      <structure id="o1779" name="array">
+        <character name="architecture" value="subcapitate" />
+        <character name="architecture" value="congested" />
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <relation id="r274" name="in" from="o1778" to="o1779" negation="false" />
+      <structure id="o1780" name="bract">
+        <character name="arrangement_or_habit" value="clustered" />
+        <character name="architecture" value="leafy" modifier="±" />
+      </structure>
+      <relation id="r275" name="subtended by" from="o1777" to="o1780" negation="false" />
+    </statement>
+    <statement id="162.txt-10">
+      <text>Peduncles 0–7 cm.</text>
+      <structure id="o1781" name="peduncle">
+        <character char_type="range_value" name="size" from="0" from_unit="cm" to="7" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="162.txt-11">
+      <text>Involucres hemispheric or campanulate, 3–4 × 4–6 cm, densely arachnoid.</text>
+      <structure id="o1782" name="involucre">
+        <character name="shape" value="hemispheric" />
+        <character name="shape" value="campanulate" />
+        <character char_type="range_value" name="length" from="3" from_unit="cm" to="4" to_unit="cm" />
+        <character char_type="range_value" name="width" from="4" from_unit="cm" to="6" to_unit="cm" />
+        <character name="pubescence" value="arachnoid" modifier="densely" />
+      </structure>
+    </statement>
+    <statement id="162.txt-12">
+      <text>Phyllaries in 8–10 series, imbricate, linear, abaxial faces without glutinous ridge;</text>
+      <structure id="o1783" name="phyllary">
+        <character name="aestivation_or_arrangement" value="imbricate" />
+        <character name="arrangement_or_shape" value="linear" />
+      </structure>
+      <structure id="o1784" name="series">
+        <character char_type="range_value" name="count" from="8" to="10" />
+      </structure>
+      <relation id="r276" name="in" from="o1783" to="o1784" negation="false" />
+      <structure id="o1785" name="face" constraint="abaxial" />
+      <structure id="o1786" name="ridge">
+        <character name="coating_or_texture" value="glutinous" />
+      </structure>
+      <relation id="r277" name="without" from="o1785" to="o1786" negation="false" />
+    </statement>
+    <statement id="162.txt-13">
+      <text>outer and mid bases short- appressed, margins spiny-ciliate, apices long, spreading to erect, spines straight, 2–5 mm;</text>
+      <structure id="o1787" name="base" constraint="outer and mid">
+        <character name="orientation" value="short-appressed" />
+      </structure>
+      <structure id="o1788" name="margin">
+        <character name="architecture_or_shape" value="spiny-ciliate" />
+      </structure>
+      <structure id="o1789" name="apex">
+        <character char_type="range_value" name="orientation" from="spreading" to="erect" />
+        <character name="orientation" value="spreading" />
+        <character name="orientation" value="erect" />
+      </structure>
+      <structure id="o1790" name="spine">
+        <character name="course" value="straight" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="162.txt-14">
+      <text>apices of inner flattened or spine-tipped, serrate to scabrid, sometimes pectinately fringed.</text>
+      <structure id="o1791" name="apex">
+        <character name="shape" value="flattened" />
+        <character name="shape" value="flattened" modifier="spine tipped" />
+        <character name="shape" value="serrate" />
+        <character name="relief" value="scabrid" />
+        <character name="shape" value="fringed" modifier="sometimes pectinately" />
+      </structure>
+      <structure id="o1792" name="phyllary" constraint="inner" />
+      <relation id="r278" name="part_of" from="o1791" to="o1792" negation="false" />
+    </statement>
+    <statement id="162.txt-15">
+      <text>Corollas white to pale yellow, 20–34 mm, tubes 11–15 mm, throats 5–8 mm, lobes 5–8 mm;</text>
+      <structure id="o1793" name="corolla">
+        <character char_type="range_value" name="coloration" from="white" to="pale-yellow" />
+        <character name="coloration" value="white" />
+        <character name="coloration" value="yellow" modifier="pale" />
+        <character char_type="range_value" name="size" from="20" from_unit="mm" to="34" to_unit="mm" />
+      </structure>
+      <structure id="o1794" name="tube">
+        <character char_type="range_value" name="size" from="11" from_unit="mm" to="15" to_unit="mm" />
+      </structure>
+      <structure id="o1795" name="throat">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+      <structure id="o1796" name="lobe">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="162.txt-16">
+      <text>style tips 3–4 mm.</text>
+      <structure id="o1797" name="tip" constraint="style">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="162.txt-17">
+      <text>Cypselae light–brown to black, 5–7 mm, apical collars whitish, 0.2–0.3 mm;</text>
+      <structure id="o1798" name="cypsela">
+        <character char_type="range_value" name="coloration" from="light-brown" to="black" />
+        <character name="coloration" value="brown" modifier="light" />
+        <character name="coloration" value="black" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+      <structure id="o1799" name="collar" constraint="apical">
+        <character name="coloration" value="whitish" />
+        <character char_type="range_value" name="size" from="0.2" from_unit="mm" to="0.3" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="162.txt-18">
+      <text>pappi 15–25 mm.</text>
+      <structure id="o1800" name="pappus">
+        <character char_type="range_value" name="size" from="15" from_unit="mm" to="25" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="162.txt-19">
+      <text>2 n = 34.</text>
+      <structure id="o1801" name="chromosome">
+        <character name="count" value="34" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>year round</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>winter</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>nov</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>dec</flowering_time>
+  <flowering_time>jan</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>feb</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>mar</flowering_time>
+  <habitat>coastal dunes and bluffs</habitat>
+  <conservation>of conservation concern;</conservation>
+  <elevation>0–20 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <discussion>Cirsium rhothophilum is endemic to the dunes of southern San Luis Obispo and northern Santa Barbara counties. It rarely forms hybrids with C. occidentale var. occidentale and C. scariosum var. citrinum.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

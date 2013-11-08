@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>46.</number>
+  <genus_name>PRENANTHES</genus_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 797. 1753; Gen. Pl. ed. 5, 349. 1754</place_of_publication>
+  <past_name>Prenantes</past_name>
+  <common_name>Rattlesnakeroot, cankerweed, gall-of-the-earth, prenanthe</common_name>
+  <derivation>Greek prenes , drooping, and anthos , flower, alluding to drooping heads</derivation>
+  <author_of_tribe_genus>David J. Bogler</author_of_tribe_genus>
+  <description>
+    <statement id="358.txt-0">
+      <text>Perennials , 5–250 cm;</text>
+    </statement>
+    <statement id="358.txt-1">
+      <text>taprooted, often producing offshoots connected by slender rhizomes.</text>
+      <structure id="o6677" name="whole_organism">
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="250" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+        <character name="architecture" value="taprooted" />
+      </structure>
+      <structure id="o6678" name="offshoot">
+        <character name="fusion" value="connected" constraint="by rhizomes" constraintid="o6679" />
+      </structure>
+      <relation id="r829" name="producing" from="o6677" to="o6678" negation="false" />
+      <structure id="o6679" name="rhizome">
+        <character name="size" value="slender" />
+      </structure>
+    </statement>
+    <statement id="358.txt-2">
+      <text>Stems 1–5, usually erect, sometimes decumbent ( P. bootii ), usually simple (leafy), usually glabrous proximally, tomentulose distally.</text>
+      <structure id="o6680" name="stem">
+        <character char_type="range_value" name="count" from="1" to="5" />
+        <character name="orientation" value="erect" modifier="usually" />
+        <character name="habit" value="decumbent" modifier="sometimes" />
+        <character name="architecture" value="simple" modifier="usually" />
+        <character name="pubescence" value="glabrous" modifier="usually ; proximally" />
+        <character name="pubescence" value="tomentulose" modifier="distally" />
+      </structure>
+    </statement>
+    <statement id="358.txt-3">
+      <text>Leaves basal and cauline;</text>
+    </statement>
+    <statement id="358.txt-4">
+      <text>petiolate or sessile;</text>
+      <structure id="o6681" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="architecture" value="petiolate" />
+        <character name="architecture" value="sessile" />
+      </structure>
+    </statement>
+    <statement id="358.txt-5">
+      <text>blades deltate to triangular, or ovate to oblanceolate, or oblong to linear, or spatulate, margins often pinnately or palmately lobed (sometimes deeply cleft and appearing compound), ultimate margins entire or coarsely serrate or dentate (apices acute, obtuse, or rounded);</text>
+      <structure id="o6682" name="blade">
+        <character char_type="range_value" name="shape" from="deltate" to="triangular , or ovate" />
+        <character name="shape" value="deltate" />
+        <character name="shape" value="triangular" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="oblong" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="spatulate" />
+      </structure>
+      <structure id="o6683" name="margin">
+        <character name="shape" value="lobed" modifier="often pinnately palmately" />
+      </structure>
+      <structure id="o6684" name="margin" constraint="ultimate">
+        <character name="shape" value="entire" />
+        <character name="shape" value="serrate" modifier="coarsely" />
+        <character name="shape" value="dentate" modifier="coarsely" />
+      </structure>
+    </statement>
+    <statement id="358.txt-6">
+      <text>distal leaves reduced in size and lobing.</text>
+      <structure id="o6685" name="leaf" constraint="distal">
+        <character name="size" value="reduced" modifier="in size" />
+        <character name="shape" value="lobing" />
+      </structure>
+    </statement>
+    <statement id="358.txt-7">
+      <text>Heads (usually nodding at flowering) in racemiform, paniculiform, thyrsiform, or corymbiform arrays.</text>
+      <structure id="o6686" name="head" />
+      <structure id="o6687" name="array">
+        <character name="architecture" value="racemiform" />
+        <character name="architecture" value="paniculiform" />
+        <character name="architecture" value="thyrsiform" />
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <relation id="r830" name="in" from="o6686" to="o6687" negation="false" />
+    </statement>
+    <statement id="358.txt-8">
+      <text>Peduncles not inflated distally, bracteate.</text>
+      <structure id="o6688" name="peduncle">
+        <character name="shape" value="inflated" modifier="not ; distally" />
+        <character name="architecture" value="bracteate" />
+      </structure>
+    </statement>
+    <statement id="358.txt-9">
+      <text>Calyculi of 2–12, triangular to linear-lanceolate or subulate, unequal bractlets.</text>
+      <structure id="o6689" name="calyculus" />
+      <structure id="o6690" name="bractlet">
+        <character char_type="range_value" name="count" from="2" to="12" />
+        <character char_type="range_value" name="shape" from="triangular" to="linear-lanceolate or subulate" />
+        <character name="shape" value="triangular" />
+        <character name="shape" value="linear-lanceolate" />
+        <character name="shape" value="subulate" />
+        <character name="size" value="unequal" />
+      </structure>
+      <relation id="r831" name="consist_of" from="o6689" to="o6690" negation="false" />
+    </statement>
+    <statement id="358.txt-10">
+      <text>Involucres narrowly cylindric to campanulate (bases often attenuate), 2–14 mm diam.</text>
+      <structure id="o6691" name="involucre">
+        <character char_type="range_value" name="shape" from="narrowly cylindric" to="campanulate" />
+        <character name="shape" value="cylindric" modifier="narrowly" />
+        <character name="shape" value="campanulate" modifier="narrowly" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="14" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="358.txt-11">
+      <text>Phyllaries 3–15 in 1 series, (yellow green or green to purple or blackish) subulate or linear to lanceolate or elliptic, equal, margins scarious, apices acute, faces glabrous, tomentulose, hispid, or coarsely setose.</text>
+      <structure id="o6692" name="phyllary">
+        <character char_type="range_value" name="count" from="3" to="15" constraint="in series" constraintid="o6693" />
+        <character char_type="range_value" name="shape" from="linear" to="lanceolate or elliptic" />
+        <character name="shape" value="subulate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="elliptic" />
+        <character name="size" value="equal" />
+      </structure>
+      <structure id="o6693" name="series">
+        <character name="count" value="1" />
+      </structure>
+      <structure id="o6694" name="margin">
+        <character name="texture" value="scarious" />
+      </structure>
+      <structure id="o6695" name="apex">
+        <character name="shape" value="acute" />
+      </structure>
+      <structure id="o6696" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="tomentulose" />
+        <character name="pubescence" value="hispid" />
+        <character name="pubescence" value="setose" modifier="coarsely" />
+      </structure>
+    </statement>
+    <statement id="358.txt-12">
+      <text>Receptacles slightly convex, smooth, glabrous, epaleate.</text>
+      <structure id="o6697" name="receptacle">
+        <character name="shape" value="convex" modifier="slightly" />
+        <character name="architecture_or_relief" value="smooth" />
+        <character name="pubescence" value="glabrous" />
+        <character name="architecture" value="epaleate" />
+      </structure>
+    </statement>
+    <statement id="358.txt-13">
+      <text>Florets 4–38;</text>
+      <structure id="o6698" name="floret">
+        <character char_type="range_value" name="count" from="4" to="38" />
+      </structure>
+    </statement>
+    <statement id="358.txt-14">
+      <text>corollas usually creamy white, pink, or lavender, rarely yellow or red (glabrous).</text>
+      <structure id="o6699" name="corolla">
+        <character name="coloration" value="white" modifier="usually ;creamy" />
+        <character name="coloration" value="pink" modifier="usually" />
+        <character name="coloration" value="lavender" modifier="usually" />
+        <character name="coloration" value="yellow" modifier="rarely" />
+        <character name="coloration" value="red" modifier="rarely" />
+      </structure>
+    </statement>
+    <statement id="358.txt-15">
+      <text>Cypselae golden brown to light tan, narrowly subcylindric, or fusiform to oblanceoloid, or oblong to linear, subterete or angled, apices truncate, not beaked, faces finely 5–12-ribbed, usually glabrous;</text>
+      <structure id="o6700" name="cypsela">
+        <character char_type="range_value" name="coloration" from="golden-brown" to="light-tan" />
+        <character name="coloration" value="brown" modifier="golden" />
+        <character name="coloration" value="tan" modifier="light" />
+        <character char_type="range_value" name="shape" from="fusiform" to="oblanceoloid , or oblong" />
+        <character name="shape" value="subcylindric" modifier="narrowly" />
+        <character name="shape" value="fusiform" modifier="narrowly" />
+        <character name="shape" value="oblanceoloid" modifier="narrowly" />
+        <character name="shape" value="oblong" modifier="narrowly" />
+        <character name="shape" value="linear" modifier="narrowly" />
+        <character name="shape" value="subterete" modifier="narrowly" />
+        <character name="shape" value="angled" modifier="narrowly" />
+      </structure>
+      <structure id="o6701" name="apex">
+        <character name="shape" value="truncate" />
+        <character name="shape" value="beaked" modifier="not" />
+      </structure>
+      <structure id="o6702" name="face">
+        <character name="architecture_or_shape" value="5-12-ribbed" modifier="finely" />
+        <character name="pubescence" value="glabrous" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="358.txt-16">
+      <text>pappi persistent, of 30–50, dull white to yellow or tan, rarely reddish brown, ± equal, barbellulate bristles in 1 series.</text>
+      <structure id="o6703" name="pappus">
+        <character name="duration" value="persistent" />
+      </structure>
+      <structure id="o6704" name="bristle">
+        <character char_type="range_value" name="count" from="30" to="50" />
+        <character name="coloration" value="white" modifier="dull" />
+        <character name="coloration" value="yellow" />
+        <character name="coloration" value="tan" />
+        <character name="coloration" value="brown" modifier="rarely ;reddish" />
+        <character name="size" value="equal" modifier="±" />
+        <character name="architecture" value="barbellulate" />
+      </structure>
+      <relation id="r832" name="consist_of" from="o6703" to="o6704" negation="false" />
+      <structure id="o6705" name="series">
+        <character name="count" value="1" />
+      </structure>
+      <relation id="r833" name="in" from="o6704" to="o6705" negation="false" />
+    </statement>
+    <statement id="358.txt-17">
+      <text>x = 8.</text>
+      <structure id="o6706" name="chromosome">
+        <character name="count" value="8" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species ca. 26–30 (14 in the flora):</number_of_infrataxa>
+  <general_distribution>North America</general_distribution>
+  <general_distribution>n Asia</general_distribution>
+  <general_distribution>sc Africa (1 species).</general_distribution>
+  <discussion>Prenanthes is recognized by the erect and simple habit, deeply divided proximal leaves, whitish, yellow, or pinkish corollas in nodding heads, calyculate involucres, and pappi of barbellulate bristles. Leaf shape, size, and degree of lobing are often used for distinguishing species but are sometimes exceptionally variable. The proximal leaves are usually different in size, shape, and lobing from the distal leaves. Other taxonomic characters include size and habit, corolla color, number of florets per head, and phyllary number, color, and indument. The cypselae and pappi tend to be uniform.</discussion>
+  <discussion>Molecular ITS studies by S. C. Kim et al. (1996) suggested that Prenanthes, as here circumscribed, may be polyphyletic; additional sampling including North American taxa is needed to confirm the relationships of Prenanthes and recognition of Nabalus Cassini at the genus level.</discussion>
+  <references>SELECTED REFERENCES Johnson, M. F. 1979. The genus Prenanthes L. (Cichorieae–Asteraceae) in Virginia. Castanea 45: 24–30. Milstead, W. L. 1964. A Revision of the North American Species of Prenanthes. Ph.D. dissertation. Purdue University. Singhurst, J. R., R. J. O’Kennon, and W. C. Holmes. 2004. The genus Prenanthes (Asteraceae: Lactuceae) in Texas. Sida 21: 181–191.</references>
+  <key>1.Phyllaries glabrous.</key>
+  <key>2.Florets and phyllaries (4–)5(–6)3. Prenanthes altissima</key>
+  <key>2.Florets and phyllaries 6–20.</key>
+  <key>3.Heads in elongate, slender, spikelike, narrowly racemiform arrays; proximal leaves oblong to linear, pinnately lobed, lobes narrow and at right angles; corollas pinkish 5. Prenanthes autumnalis</key>
+  <key>3.Heads in racemiform, paniculiform, or narrowly thyrsiform arrays; proximal leaves ovate to deltate, palmately lobed, irregularly dentate or entire; corollas whitish, pinkish, or pale yellow.</key>
+  <key>4.Phyllaries ± purplish or maroon (dark on old specimens); corollas whitish to pinkish; pappi usually reddish brown (rarely yellowish)2. Prenanthes alba</key>
+  <key>4.Phyllaries green to tan, dark green, or blackish; corollas white or pale yellow; pappi pale yellow.</key>
+  <key>5.Proximal leaves palmately 3(–5)-lobed (often deeply cleft, compound, lobes lanceolate, sinuses angular); involucres campanulate (attenuate at bases); calyculus bractlets triangular; corollas pale yellow14. Prenanthes trifoliolata</key>
+  <key>5.Proximal leaves entire or shallowly lobed (bases hastate or sagittate to truncate or rounded); involucres cylindro-campanulate or narrowly campanulate (rounded, not attentuate at bases); calyculus bractlets subulate to narrowly lanceolate; corollas white.</key>
+  <key>6.Plants 5–25 cm; stems decumbent; alpine regions, n Appalachians 7. Prenanthes bootii</key>
+  <key>6.Plants 8–75 cm; stems erect; n Rocky Mountains12. Prenanthes sagittata</key>
+  <key>1.Phyllaries tomentulose, hispid, or coarsely setose.</key>
+  <key>7.Proximal leaves petiolate, petioles ± winged, blades spatulate, usually unlobed, apices usually rounded or obtuse; mid cauline leaves sessile, often clasping; heads ± ascending.</key>
+  <key>8.Midstems roughly hispid or coarsely setose; proximalmost leaves withered or deciduous by flowering; leaves ± hispid abaxially; corollas pale yellow to creamy white4. Prenanthes aspera</key>
+  <key>8.Midstems glabrous; proximalmost leaves persistent to flowering; leaves glabrous; corollas usually pinkish (sometimes white or lavender)10. Prenanthes racemosa</key>
+  <key>7.Proximal leaves petiolate, petioles winged, blades deltate or triangular to elliptic or ovate (not spatulate), sometimes lobed, apices acute or obtuse; mid cauline leaves sessile or petiolate; heads nodding.</key>
+  <key>9.Proximal leaves sagittate, lobed; phyllaries hispid or tomentulose.</key>
+  <key>10.Plants 80–150 cm; proximal leaves sagittate, bases sagittate; phyllaries hispid along midveins; Edwards Plateau, Texas8. Prenanthes carrii</key>
+  <key>10.Plants 15–80 cm; proximal leaves triangular or irregularly elliptic, bases truncate or hastate; phyllaries finely tomentulose; Pacific Northwest to Alaska1. Prenanthes alata</key>
+  <key>9.Proximal leaves deltate, ovate, or elliptic, lobed or unlobed; phyllaries coarsely setose.</key>
+  <key>11.Proximal leaves deltate, ovate, or hastate, margins entire or coarsely serrate; phyllaries (9–)12–15, dark green to blackish; florets 15–389. Prenanthes crepidinea</key>
+  <key>11.Proximal leaves deltate to ovate or elliptic, margins palmately or pinnately lobed or unlobed, dentate or entire; phyllaries 5–10, green or purple to lavender; florets 5–15.</key>
+  <key>12.Proximal leaves coarsely dentate or serrate (unlobed); phyllaries purple or lavender6. Prenanthes barbata</key>
+  <key>12.Proximal leaves 3–5-lobed; phyllaries usually green (sometimes purple in P. serpentaria).</key>
+  <key>13.Leaves about twice as long as wide, pinnately lobed, lobes and sinuses rounded; heads in broad paniculiform or corymbiform arrays, at least some branches elongate; phyllaries green or often purple, with appressed, green or tan, coarse setae, sometimes reduced to a single seta per phyllary; florets 8–14; widespread in e, s United States 13. Prenanthes serpentaria</key>
+  <key>13.Leaves about as long as wide, palmately lobed, lobes angular; heads and sinuses angular; heads in narrow paniculiform or thyrsiform arrays, branches short; phyllaries dark green, with erect, coarse setae; florets 5–7(–13); mid to high elevations in Blue Ridge Mountains of North Carolina, Tennessee, Virginia11. Prenanthes roanensis</key>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

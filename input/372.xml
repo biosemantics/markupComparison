@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>14.</number>
+  <species_name>Prenanthes trifoliolata</species_name>
+  <authority>(Cassini) Fernald</authority>
+  <place_of_publication>Contr. Bot. Vermont 8: 89. 1900</place_of_publication>
+  <common_name>Threeleaved rattlesnakeroot, prenanthe trifoliolée</common_name>
+  <synonym_of_species_name>Nabalus trifoliolatus Cassini in F. Cuvier, Dict. Sci. Nat. ed. 2, 34: 95. 1825; P. trifoliolata var. nana (Bigelow) Fernald</synonym_of_species_name>
+  <description>
+    <statement id="372.txt-0">
+      <text>Plants 10–150 cm;</text>
+      <structure id="o7079" name="whole_organism">
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="150" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="372.txt-1">
+      <text>taproots thick, with lateral roots.</text>
+      <structure id="o7080" name="taproot">
+        <character name="thickness" value="thick" />
+      </structure>
+      <structure id="o7081" name="root" constraint="lateral" />
+      <relation id="r871" name="with" from="o7080" to="o7081" negation="false" />
+    </statement>
+    <statement id="372.txt-2">
+      <text>Stems erect, green or sometimes mottled purple, usually glabrous, some-times tomentulose distally.</text>
+      <structure id="o7082" name="stem">
+        <character name="orientation" value="erect" />
+        <character name="coloration" value="green" />
+        <character name="coloration" value="purple" modifier="sometimes ;mottled" />
+        <character name="pubescence" value="glabrous" modifier="usually" />
+        <character name="pubescence" value="tomentulose" modifier="some-times ; distally" />
+      </structure>
+    </statement>
+    <statement id="372.txt-3">
+      <text>Leaves :</text>
+      <structure id="o7083" name="leaf" />
+    </statement>
+    <statement id="372.txt-4">
+      <text>proximal usually present at flowering;</text>
+    </statement>
+    <statement id="372.txt-5">
+      <text>petiolate (petioles winged, 1–25 cm);</text>
+      <structure id="o7084" name="leaf" constraint="proximal">
+        <character name="presence" value="present" modifier="usually; at flowering" />
+        <character name="architecture" value="petiolate" />
+      </structure>
+    </statement>
+    <statement id="372.txt-6">
+      <text>blades deltate to ovate, 3–12 × 1–15 cm, thin, bases cordate to rounded, margins palmately 3(–5 ) -lobed to -divided (then leaves compound), lobes and sinuses usually angular (not rounded), lobes short and lanceolate, ultimate margins irregularly serrate, faces glabrous or ciliate along abaxial veins and margins;</text>
+      <structure id="o7085" name="blade">
+        <character char_type="range_value" name="shape" from="deltate" to="ovate" />
+        <character name="shape" value="deltate" />
+        <character name="shape" value="ovate" />
+        <character char_type="range_value" name="length" from="3" from_unit="cm" to="12" to_unit="cm" />
+        <character char_type="range_value" name="width" from="1" from_unit="cm" to="15" to_unit="cm" />
+        <character name="thickness" value="thin" />
+      </structure>
+      <structure id="o7086" name="base">
+        <character char_type="range_value" name="shape" from="cordate" to="rounded" />
+        <character name="shape" value="cordate" />
+        <character name="shape" value="rounded" />
+      </structure>
+      <structure id="o7087" name="margin">
+        <character name="shape" value="3(-5)-lobed-to-divided" modifier="palmately" />
+      </structure>
+      <structure id="o7088" name="lobe">
+        <character name="shape_or_arrangement" value="angular" modifier="usually" />
+      </structure>
+      <structure id="o7089" name="sinus">
+        <character name="shape_or_arrangement" value="angular" modifier="usually" />
+      </structure>
+      <structure id="o7090" name="lobe">
+        <character name="size" value="short" />
+        <character name="shape" value="lanceolate" />
+      </structure>
+      <structure id="o7091" name="margin" constraint="ultimate">
+        <character name="shape" value="serrate" modifier="irregularly" />
+      </structure>
+      <structure id="o7092" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="architecture_or_shape" value="ciliate" constraint="along veins, margins" constraintid="o7093  o7094" />
+      </structure>
+      <structure id="o7093" name="vein" constraint="abaxial" />
+      <structure id="o7094" name="margin" />
+    </statement>
+    <statement id="372.txt-7">
+      <text>distal reduced, palmately lobed or entire.</text>
+      <structure id="o7095" name="leaf" constraint="distal">
+        <character name="size" value="reduced" />
+        <character name="shape" value="lobed" modifier="palmately" />
+        <character name="shape" value="entire" modifier="palmately" />
+      </structure>
+    </statement>
+    <statement id="372.txt-8">
+      <text>Heads (2–7, nodding, in irregular clusters) in racemiform or paniculiform arrays.</text>
+      <structure id="o7096" name="head" />
+      <structure id="o7097" name="array">
+        <character name="architecture" value="racemiform" />
+        <character name="architecture" value="paniculiform" />
+      </structure>
+      <relation id="r872" name="in" from="o7096" to="o7097" negation="false" />
+    </statement>
+    <statement id="372.txt-9">
+      <text>Involucres narrowly campanulate (bases attenuate to bracteate peduncles), 10–13 × 4–5 mm.</text>
+      <structure id="o7098" name="involucre">
+        <character name="shape" value="campanulate" modifier="narrowly" />
+        <character char_type="range_value" name="length" from="10" from_unit="mm" to="13" to_unit="mm" />
+        <character char_type="range_value" name="width" from="4" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="372.txt-10">
+      <text>Calyculi of 5–7, green to dark green or blackish, triangular bractlets 1–3 mm, glabrous.</text>
+      <structure id="o7099" name="calyculus">
+        <character name="pubescence" value="glabrous" />
+      </structure>
+      <structure id="o7100" name="bractlet">
+        <character char_type="range_value" name="count" from="5" to="7" />
+        <character char_type="range_value" name="coloration" from="green" to="dark-green or blackish" />
+        <character name="coloration" value="green" />
+        <character name="coloration" value="green" modifier="dark" />
+        <character name="coloration" value="blackish" />
+        <character name="shape" value="triangular" />
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="3" to_unit="mm" />
+      </structure>
+      <relation id="r873" name="consist_of" from="o7099" to="o7100" negation="false" />
+    </statement>
+    <statement id="372.txt-11">
+      <text>Phyllaries 7–10, green to dark green or blackish proximally, lanceolate to elliptic, 10–11 mm, margins scarious , sometimes ciliate, faces glabrous.</text>
+      <structure id="o7101" name="phyllary">
+        <character char_type="range_value" name="count" from="7" to="10" />
+        <character char_type="range_value" name="coloration" from="green" to="dark-green or blackish proximally" />
+        <character name="coloration" value="green" modifier="proximally" />
+        <character name="coloration" value="green" modifier="proximally ;dark" />
+        <character name="coloration" value="blackish" modifier="proximally" />
+        <character char_type="range_value" name="shape" from="lanceolate" to="elliptic" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="elliptic" />
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="11" to_unit="mm" />
+      </structure>
+      <structure id="o7102" name="margin">
+        <character name="texture" value="scarious" />
+        <character name="architecture_or_shape" value="ciliate" modifier="sometimes" />
+      </structure>
+      <structure id="o7103" name="face">
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="372.txt-12">
+      <text>Florets 8–13;</text>
+      <structure id="o7104" name="floret">
+        <character char_type="range_value" name="count" from="8" to="13" />
+      </structure>
+    </statement>
+    <statement id="372.txt-13">
+      <text>corollas pale yellow, 9–15 mm.</text>
+      <structure id="o7105" name="corolla">
+        <character name="coloration" value="yellow" modifier="pale" />
+        <character char_type="range_value" name="size" from="9" from_unit="mm" to="15" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="372.txt-14">
+      <text>Cypselae tan to brown, subcylindric, subterete to angled, 4–5 mm, distinctly 8–11-ribbed;</text>
+      <structure id="o7106" name="cypsela">
+        <character char_type="range_value" name="coloration" from="tan" to="brown" />
+        <character name="coloration" value="tan" />
+        <character name="coloration" value="brown" />
+        <character char_type="range_value" name="shape" from="subcylindric , subterete" to="angled" />
+        <character name="shape" value="subcylindric" />
+        <character name="shape" value="subterete" />
+        <character name="shape" value="angled" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="5" to_unit="mm" />
+        <character name="architecture_or_shape" value="8-11-ribbed" modifier="distinctly" />
+      </structure>
+    </statement>
+    <statement id="372.txt-15">
+      <text>pappi pale yellow, 7–9 mm.</text>
+      <structure id="o7107" name="pappus">
+        <character name="coloration" value="yellow" modifier="pale" />
+        <character char_type="range_value" name="size" from="7" from_unit="mm" to="9" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="372.txt-16">
+      <text>2 n = 16.</text>
+      <structure id="o7108" name="chromosome">
+        <character name="count" value="16" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <habitat>moist oak-hickory woods</habitat>
+  <habitat>swampy thickets</habitat>
+  <habitat>sandy areas</habitat>
+  <habitat>cliffs</habitat>
+  <habitat>sometimes saline habitats</habitat>
+  <elevation>0–1400 m;</elevation>
+  <global_distribution>St. Pierre and Miquelon</global_distribution>
+  <ca_distribution>N.B.</ca_distribution>
+  <ca_distribution>Nfld. and Labr.</ca_distribution>
+  <ca_distribution>N.S.</ca_distribution>
+  <ca_distribution>Ont.</ca_distribution>
+  <ca_distribution>P.E.I.</ca_distribution>
+  <ca_distribution>Que.</ca_distribution>
+  <us_distribution>Conn.</us_distribution>
+  <us_distribution>Ga.</us_distribution>
+  <us_distribution>Ind.</us_distribution>
+  <us_distribution>Ky.</us_distribution>
+  <us_distribution>Maine</us_distribution>
+  <us_distribution>Md.</us_distribution>
+  <us_distribution>Mass.</us_distribution>
+  <us_distribution>Mich.</us_distribution>
+  <us_distribution>N.H.</us_distribution>
+  <us_distribution>N.J.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>N.C.</us_distribution>
+  <us_distribution>Ohio</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <us_distribution>R.I.</us_distribution>
+  <us_distribution>S.C.</us_distribution>
+  <us_distribution>Tenn.</us_distribution>
+  <us_distribution>Vt.</us_distribution>
+  <us_distribution>Va.</us_distribution>
+  <us_distribution>W.Va.</us_distribution>
+  <discussion>Prenanthes trifoliolata is recognized by its relatively large, palmately 3–5-lobed leaves with angular lobes and sinuses, basally attenuate involucres, dark green and glabrous calyculi and phyllaries, and pale yellow corollas. Dwarf plants with deeply parted leaves found in alpine areas of northern New England and Canada have been recognized as P. nana or P. trifoliolata var. nana. This form is probably no more than a phenotypic adaptation to harsh environments. In at least some localities, it intergrades with more typical P. trifoliolata at lower elevations.</discussion>
+  <discussion>Hybrids between Prenanthes trifoliolata and P. racemosa, known as P. ×mainensis A. Gray, have been found in Maine, New Brunswick, Nova Scotia, and southern Quebec, usually where the two parents come together in cliff or saline habitats. The leaves of the hybrids are intermediate between 3-lobed and spatulate, the distal are sessile, the heads are nodding, and the phyllaries are glabrous, as in the P. trifoliolata parent.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>3a.</number>
+  <variety_name>Hypochaeris microcephala (Schultz-Bipontinus) Cabrera var. albiflora</variety_name>
+  <authority>(Kuntze) Cabrera</authority>
+  <place_of_publication>Notas Mus. La Plata, Bot. 2: 201. 1937</place_of_publication>
+  <past_name>Hypochoeris</past_name>
+  <synonym_of_variety_name>Hypochaeris brasiliensis (Lessing) Grisebach var. albiflora Kuntze, Revis. Gen. Pl. 3([3]): 159. 1898</synonym_of_variety_name>
+  <description>
+    <statement id="436.txt-0">
+      <text>Perennials, 10–60 cm ;</text>
+      <structure id="o8638" name="whole_organism">
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="60" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="436.txt-1">
+      <text>taproots vertical, thick, caudices woody.</text>
+      <structure id="o8639" name="taproot">
+        <character name="orientation" value="vertical" />
+        <character name="thickness" value="thick" />
+      </structure>
+      <structure id="o8640" name="caudex">
+        <character name="texture" value="woody" />
+      </structure>
+    </statement>
+    <statement id="436.txt-2">
+      <text>Stems erect, simple or branched distally, glabrous or sparsely hairy proximally.</text>
+      <structure id="o8641" name="stem">
+        <character name="orientation" value="erect" />
+        <character name="architecture" value="simple" modifier="distally" />
+        <character name="architecture" value="branched" modifier="distally" />
+        <character name="pubescence" value="glabrous" modifier="proximally" />
+        <character name="pubescence" value="hairy" modifier="sparsely proximally" />
+      </structure>
+    </statement>
+    <statement id="436.txt-3">
+      <text>Leaves basal and proximally cauline;</text>
+      <structure id="o8642" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" modifier="proximally" />
+      </structure>
+    </statement>
+    <statement id="436.txt-4">
+      <text>basal blades narrowly oblanceolate, 40–102(–250) × 10–50 mm, margins entire to sharply dentate or deeply pinnatifid (lobes long and narrow, ciliate), faces glabrous or ± glabrate; (cauline blades not clasping, distally reduced, margins shallowly dentate to coarsely pinnatifid).</text>
+      <structure id="o8643" name="blade" constraint="basal">
+        <character name="shape" value="oblanceolate" modifier="narrowly" />
+        <character char_type="range_value" name="atypical_length" from="102" to="250" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="40" from_unit="mm" to="102" to_unit="mm" />
+        <character char_type="range_value" name="width" from="10" from_unit="mm" to="50" to_unit="mm" />
+      </structure>
+      <structure id="o8644" name="margin">
+        <character char_type="range_value" name="shape" from="entire" to="sharply dentate or deeply pinnatifid" />
+        <character name="shape" value="entire" />
+        <character name="shape" value="dentate" modifier="sharply" />
+        <character name="shape" value="pinnatifid" modifier="deeply" />
+      </structure>
+      <structure id="o8645" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="glabrate" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="436.txt-5">
+      <text>Heads borne singly or 2–13 in paniculiform to corymbiform arrays.</text>
+      <structure id="o8646" name="head">
+        <character name="arrangement" value="singly" />
+        <character char_type="range_value" name="count" from="2" to="13" constraint="in arrays" constraintid="o8647" />
+      </structure>
+      <structure id="o8647" name="array">
+        <character char_type="range_value" name="architecture" from="paniculiform" to="corymbiform" />
+        <character name="architecture" value="paniculiform" />
+        <character name="architecture" value="corymbiform" />
+      </structure>
+    </statement>
+    <statement id="436.txt-6">
+      <text>Involucres cylindric or narrowly campanulate, 8–15(–18) × 5–10(–12) mm.</text>
+      <structure id="o8648" name="involucre">
+        <character name="shape" value="cylindric" />
+        <character name="shape" value="campanulate" modifier="narrowly" />
+        <character char_type="range_value" name="atypical_length" from="15" to="18" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="8" from_unit="mm" to="15" to_unit="mm" />
+        <character char_type="range_value" name="atypical_width" from="10" to="12" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="width" from="5" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="436.txt-7">
+      <text>Phyllaries 20–24, narrowly lanceolate, 1–14 mm, unequal, margins scarious (apices darkened), faces glabrous or sparsely tomentulose.</text>
+      <structure id="o8649" name="phyllary">
+        <character char_type="range_value" name="count" from="20" to="24" />
+        <character name="shape" value="lanceolate" modifier="narrowly" />
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="14" to_unit="mm" />
+        <character name="size" value="unequal" />
+      </structure>
+      <structure id="o8650" name="margin">
+        <character name="texture" value="scarious" />
+      </structure>
+      <structure id="o8651" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="tomentulose" modifier="sparsely" />
+      </structure>
+    </statement>
+    <statement id="436.txt-8">
+      <text>Florets 50–100+;</text>
+      <structure id="o8652" name="floret">
+        <character char_type="range_value" name="count" from="50" to="100" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="436.txt-9">
+      <text>corollas white, 5–7 mm, not surpassing phyllaries at flowering.</text>
+      <structure id="o8653" name="corolla">
+        <character name="coloration" value="white" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+      <structure id="o8654" name="phyllary" constraint="at flowering">
+        <character name="comparison" value="surpassing" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="436.txt-10">
+      <text>Cypselae monomorphic, all beaked (beaks 4–5 mm) ;</text>
+      <structure id="o8655" name="cypsela">
+        <character name="habit" value="monomorphic" />
+        <character name="shape" value="beaked" />
+      </structure>
+    </statement>
+    <statement id="436.txt-11">
+      <text>bodies brown , fusiform, 7–8 mm, 10-nerved , muricate-roughened;</text>
+      <structure id="o8656" name="body">
+        <character name="coloration" value="brown" />
+        <character name="shape" value="fusiform" />
+        <character char_type="range_value" name="size" from="7" from_unit="mm" to="8" to_unit="mm" />
+        <character name="architecture" value="10-nerved" />
+        <character name="texture" value="muricate-roughened" />
+      </structure>
+    </statement>
+    <statement id="436.txt-12">
+      <text>pappi of white, plumose bristles in 1 series, 7–8 mm.</text>
+      <structure id="o8657" name="pappus">
+        <character char_type="range_value" name="size" from="7" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+      <structure id="o8658" name="bristle">
+        <character name="coloration" value="white" />
+        <character name="architecture" value="plumose" />
+      </structure>
+      <relation id="r1021" name="consist_of" from="o8657" to="o8658" negation="false" />
+      <structure id="o8659" name="series">
+        <character name="count" value="1" />
+      </structure>
+      <relation id="r1022" name="in" from="o8658" to="o8659" negation="false" />
+    </statement>
+    <statement id="436.txt-13">
+      <text>2 n = 8, 10.</text>
+      <structure id="o8660" name="chromosome">
+        <character name="count" value="8" />
+        <character name="count" value="10" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>may</flowering_time>
+  <habitat>grazed woodlands</habitat>
+  <habitat>stream bottoms</habitat>
+  <habitat>ditches</habitat>
+  <habitat>sandy or silty soils</habitat>
+  <elevation>1–50 m;</elevation>
+  <introduced>introduced;</introduced>
+  <us_distribution>La.</us_distribution>
+  <us_distribution>Okla.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <global_distribution>South America.</global_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

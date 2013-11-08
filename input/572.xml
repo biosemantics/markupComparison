@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>74.</number>
+  <genus_name>PLEIACANTHUS</genus_name>
+  <authority>(Nuttall) Rydberg</authority>
+  <place_of_publication>Fl. Rocky Mts., 1069. 1917</place_of_publication>
+  <common_name>Thorny skeletonweed</common_name>
+  <derivation>Greek pleio , in compounds, more than usual, and acanthos , a prickly plant, or acantha , thorn</derivation>
+  <author_of_tribe_genus>L. D. Gottlieb</author_of_tribe_genus>
+  <synonym_of_genus_name>Lygodesmia D. Don subgen. Pleiacanthus Nuttall, Trans. Amer. Philos. Soc., n. s. 7: 444. 1841</synonym_of_genus_name>
+  <description>
+    <statement id="572.txt-0">
+      <text>Perennials, 10–50 cm;</text>
+      <structure id="o11775" name="whole_organism">
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="50" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="572.txt-1">
+      <text>root crowns woody, branched.</text>
+      <structure id="o11776" name="crown" constraint="root">
+        <character name="texture" value="woody" />
+        <character name="architecture_or_shape" value="branched" />
+      </structure>
+    </statement>
+    <statement id="572.txt-2">
+      <text>Stems 1–4[–8] , branches divaricate, rigid, spine-tipped, with conspicuous tufts of light brown, wool in axils of bud scales at and just below ground level, otherwise glabrous (bud scales lanceolate, 8–30 × 5–8 mm, entire).</text>
+      <structure id="o11777" name="stem">
+        <character char_type="range_value" name="atypical_count" from="4" to="8" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="1" to="4" />
+      </structure>
+      <structure id="o11778" name="branch">
+        <character name="arrangement" value="divaricate" />
+        <character name="texture" value="rigid" />
+      </structure>
+      <structure id="o11779" name="tuft" constraint="of light-brown">
+        <character name="manifestation" value="conspicuous" />
+      </structure>
+      <relation id="r1369" name="with" from="o11778" to="o11779" negation="false" />
+      <structure id="o11780" name="wool">
+        <character name="pubescence" value="glabrous" modifier="otherwise" />
+      </structure>
+      <structure id="o11781" name="axil" />
+      <relation id="r1370" name="in" from="o11780" to="o11781" negation="false" />
+      <structure id="o11782" name="scale" constraint="bud" />
+      <relation id="r1371" name="part_of" from="o11781" to="o11782" negation="false" />
+      <structure id="o11783" name="level" />
+      <relation id="r1372" name="at" from="o11781" to="o11783" negation="false" />
+    </statement>
+    <statement id="572.txt-3">
+      <text>Leaves cauline;</text>
+    </statement>
+    <statement id="572.txt-4">
+      <text>sessile;</text>
+      <structure id="o11784" name="leaf">
+        <character name="insertion_or_position" value="cauline" />
+        <character name="architecture" value="sessile" />
+      </structure>
+    </statement>
+    <statement id="572.txt-5">
+      <text>proximal blades linear, margins entire;</text>
+      <structure id="o11785" name="blade" constraint="proximal">
+        <character name="arrangement_or_shape" value="linear" />
+      </structure>
+      <structure id="o11786" name="margin">
+        <character name="shape" value="entire" />
+      </structure>
+    </statement>
+    <statement id="572.txt-6">
+      <text>distal bractlike.</text>
+      <structure id="o11787" name="leaf" constraint="distal">
+        <character name="shape" value="bractlike" />
+      </structure>
+    </statement>
+    <statement id="572.txt-7">
+      <text>Heads (± subsessile, erect), borne singly or in paniculiform arrays.</text>
+      <structure id="o11788" name="head">
+        <character name="arrangement" value="singly" />
+        <character name="arrangement" value="in paniculiform arrays" />
+      </structure>
+      <structure id="o11789" name="array">
+        <character name="architecture" value="paniculiform" />
+      </structure>
+      <relation id="r1373" name="in" from="o11788" to="o11789" negation="false" />
+    </statement>
+    <statement id="572.txt-8">
+      <text>Peduncles not inflated, not bracteate.</text>
+      <structure id="o11790" name="peduncle">
+        <character name="shape" value="inflated" modifier="not" />
+        <character name="architecture" value="bracteate" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="572.txt-9">
+      <text>Calyculi of 4–6 bractlets (unequal, lengths to 1 / 2 phyllaries).</text>
+      <structure id="o11791" name="calyculus" />
+      <structure id="o11792" name="bractlet">
+        <character char_type="range_value" name="count" from="4" to="6" />
+      </structure>
+      <relation id="r1374" name="consist_of" from="o11791" to="o11792" negation="false" />
+    </statement>
+    <statement id="572.txt-10">
+      <text>Involucres cylindric , 2–3+ mm diam.</text>
+      <structure id="o11793" name="involucre">
+        <character name="shape" value="cylindric" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="3" to_unit="mm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="572.txt-11">
+      <text>Phyllaries 3–5 in ±1 series, linear-lanceolate.</text>
+      <structure id="o11794" name="phyllary">
+        <character char_type="range_value" name="count" from="3" to="5" constraint="in series" constraintid="o11795" />
+        <character name="shape" value="linear-lanceolate" />
+      </structure>
+      <structure id="o11795" name="series">
+        <character name="count" value="1" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="572.txt-12">
+      <text>Receptacles flat or convex , smooth, glabrous, epaleate.</text>
+      <structure id="o11796" name="receptacle">
+        <character name="shape" value="flat" />
+        <character name="shape" value="convex" />
+        <character name="architecture_or_relief" value="smooth" />
+        <character name="pubescence" value="glabrous" />
+        <character name="architecture" value="epaleate" />
+      </structure>
+    </statement>
+    <statement id="572.txt-13">
+      <text>Florets 3–5;</text>
+      <structure id="o11797" name="floret">
+        <character char_type="range_value" name="count" from="3" to="5" />
+      </structure>
+    </statement>
+    <statement id="572.txt-14">
+      <text>corollas pink or lavender.</text>
+      <structure id="o11798" name="corolla">
+        <character name="coloration" value="pink" />
+        <character name="coloration" value="lavender" />
+      </structure>
+    </statement>
+    <statement id="572.txt-15">
+      <text>Cypselae tan, columnar, apices truncate (beaks 0), with 5 equal faces , separated by weakly rounded ribs, each face with central , narrow, shallow, longitudinal groove, glabrous;</text>
+      <structure id="o11799" name="cypsela">
+        <character name="coloration" value="tan" />
+        <character name="shape" value="columnar" />
+      </structure>
+      <structure id="o11800" name="apex">
+        <character name="shape" value="truncate" />
+        <character name="arrangement" value="separated" constraint="by ribs" constraintid="o11802" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+      <structure id="o11801" name="face">
+        <character name="count" value="5" />
+        <character name="size" value="equal" />
+      </structure>
+      <relation id="r1375" name="with" from="o11800" to="o11801" negation="false" />
+      <structure id="o11802" name="rib">
+        <character name="shape" value="rounded" modifier="weakly" />
+      </structure>
+      <structure id="o11803" name="face" />
+      <structure id="o11804" name="groove">
+        <character name="insertion_or_position" value="central" />
+        <character name="size" value="narrow" />
+        <character name="depth" value="shallow" />
+        <character name="dehiscence_or_orientation" value="longitudinal" />
+      </structure>
+      <relation id="r1376" name="with" from="o11803" to="o11804" negation="false" />
+    </statement>
+    <statement id="572.txt-16">
+      <text>pappi persistent, of 50–60, distinct, light tan, barbellate bristles (of 2 lengths).</text>
+      <structure id="o11805" name="pappus">
+        <character name="duration" value="persistent" />
+      </structure>
+      <structure id="o11806" name="bristle">
+        <character char_type="range_value" name="count" from="50" to="60" />
+        <character name="fusion" value="distinct" />
+        <character name="coloration" value="tan" modifier="light" />
+        <character name="architecture" value="barbellate" />
+      </structure>
+      <relation id="r1377" name="consist_of" from="o11805" to="o11806" negation="false" />
+    </statement>
+    <statement id="572.txt-17">
+      <text>x = 8.</text>
+      <structure id="o11807" name="chromosome">
+        <character name="count" value="8" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species 1:</number_of_infrataxa>
+  <general_distribution>w United States</general_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

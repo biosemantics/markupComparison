@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>119d.</number>
+  <subgenus_name>ARTEMISIA Linnaeus subg. ARTEMISIA</subgenus_name>
+  <synonym_of_tribe_genus>Artemisia sect. Abrotanum Besser</synonym_of_tribe_genus>
+  <description>
+    <statement id="890.txt-0">
+      <text>Annuals, biennials, or perennials (shrubs in A. californica , subshrubs in A. nesiotica );</text>
+    </statement>
+    <statement id="890.txt-1">
+      <text>usually fibrous-rooted, sometimes taprooted, caudices sometimes woody, rhizomes sometimes present.</text>
+      <structure id="o18453" name="whole_organism">
+        <character name="life_style" value="annual" />
+        <character name="life_style" value="biennial" />
+        <character name="life_style" value="perennial" />
+        <character name="architecture" value="fibrous-rooted" modifier="usually" />
+        <character name="architecture" value="taprooted" modifier="sometimes" />
+        <character name="life_style" value="biennial" />
+        <character name="life_style" value="perennial" />
+      </structure>
+      <structure id="o18456" name="caudex">
+        <character name="texture" value="woody" modifier="sometimes" />
+      </structure>
+      <structure id="o18457" name="rhizome">
+        <character name="presence" value="present" modifier="sometimes" />
+      </structure>
+    </statement>
+    <statement id="890.txt-2">
+      <text>Stems usually not wandlike (wandlike in A. californica , A. nesiotica , A. palmeri ).</text>
+      <structure id="o18458" name="stem">
+        <character name="shape" value="wandlike" modifier="usually not" />
+      </structure>
+    </statement>
+    <statement id="890.txt-3">
+      <text>Leaves usually deciduous, rarely persistent, basal (rosettes) and/or cauline (not in fascicles).</text>
+      <structure id="o18459" name="leaf">
+        <character name="duration_or_habit" value="deciduous" modifier="usually" />
+        <character name="duration" value="persistent" modifier="rarely" />
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+      </structure>
+    </statement>
+    <statement id="890.txt-4">
+      <text>Heads usually disciform (discoid in A. nesiotica and A. palmeri ).</text>
+      <structure id="o18460" name="head">
+        <character name="shape_or_architecture" value="disciform" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="890.txt-5">
+      <text>Receptacles glabrous (paleate in A. palmeri ).</text>
+      <structure id="o18461" name="receptacle">
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="890.txt-6">
+      <text>Florets:</text>
+      <structure id="o18462" name="floret" />
+    </statement>
+    <statement id="890.txt-7">
+      <text>usually peripheral 3–20 pistillate and fertile (0 pistillate in A. nesiotica , A. palmeri );</text>
+      <structure id="o18463" name="floret" constraint="peripheral">
+        <character char_type="range_value" name="count" from="3" to="20" />
+        <character name="architecture" value="pistillate" />
+        <character name="reproduction" value="fertile" />
+      </structure>
+    </statement>
+    <statement id="890.txt-8">
+      <text>central (or all) 14–70 bisexual and fertile;</text>
+      <structure id="o18464" name="floret" constraint="central">
+        <character char_type="range_value" name="count" from="14" to="70" />
+        <character name="reproduction" value="bisexual" />
+        <character name="reproduction" value="fertile" />
+      </structure>
+    </statement>
+    <statement id="890.txt-9">
+      <text>corollas funnelform.</text>
+      <structure id="o18465" name="corolla">
+        <character name="shape" value="funnelform" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species ca. 220 (27 in the flora):</number_of_infrataxa>
+  <general_distribution>widespread in Northern Hemisphere</general_distribution>
+  <general_distribution>especially North America</general_distribution>
+  <general_distribution>Europe</general_distribution>
+  <general_distribution>and central and northern Asia</general_distribution>
+  <general_distribution>sporadic in South America and northern Africa.</general_distribution>
+  <references>SELECTED REFERENCES Estes, J. R. 1969. Evidence for autoploid evolution in the Artemisia ludoviciana complex of the Pacific Northwest. Brittonia 21: 29–43. Keck, D. D. 1946. A revision of the Artemisia vulgaris complex in North America. Proc. Calif. Acad. Sci., ser. 4, 25: 421–468.</references>
+  <key>1.Subshrubs or shrubs (stems wandlike).</key>
+  <key>2.Plants 100–350 cm; leaves relatively deeply and coarsely pinnately lobed (lobes 3–7+; coastal California and Baja California)42. Artemisia palmeri</key>
+  <key>2.Plants 10–250 cm; leaves pinnately lobed or 3-lobed.</key>
+  <key>3.Shrubs (20–250 cm); leaves pinnately lobed (lobes 0.5–1 mm wide); California (chaparral)28. Artemisia californica</key>
+  <key>3.Subshrubs (10–60 cm, stems mostly prostrate); leaves 3-lobed (lobes 1–2 mm wide); Channel Islands, California39. Artemisia nesiotica</key>
+  <key>1.Annuals, biennials, perennials, subshrubs, or shrubs (stems sometimes brittle, not wandlike).</key>
+  <key>4.Annuals or biennials; leaves among heads (relatively deeply) lobed.</key>
+  <key>5.Annuals, 30–200(–300) cm, sweetly aromatic; leaves 2–3-pinnatifid; arrays of heads 10–20 cm diam26. Artemisia annua</key>
+  <key>5.Annuals or biennials, (10–)30–80(–150) cm, not aromatic; leaves 1–2-pinnately lobed; arrays of heads 2–4 cm diam27. Artemisia biennis</key>
+  <key>4.Perennials, subshrubs, or shrubs; leaves among heads mostly entire.</key>
+  <key>6.Perennials, subshrubs, or shrubs (not rhizomatous).</key>
+  <key>7.Heads in capitate or dense, corymbiform arrays (plants cespitose).</key>
+  <key>8.Leaves pinnately lobed; involucres 3–5 mm diam.; phyllaries lanceolate to ovate (margins white)45. Artemisia senjavinensis</key>
+  <key>8.Leaves 1–2-palmatifid; involucres 3.5–11 mm diam.; phyllaries lanceolate (margins brown or white).</key>
+  <key>9.Involucres 3.5–6 × 6–11 mm; phyllaries lanceolate (margins brown); corollas yellow or reddish black, glabrous or glandular (not pilose) 33. Artemisia globularia</key>
+  <key>9.Involucres 3–4 × 3.5–5 mm; phyllaries lanceolate (margins white); corollas yellow, glabrous or pilose34. Artemisia glomerata</key>
+  <key>7.Heads in paniculiform or racemiform arrays (plants not cespitose).</key>
+  <key>10.Leaves entire, irregularly palmatifid, or palmately 3-lobed to 2-ternately lobed.</key>
+  <key>11.Pappi coroniform; Idaho, Nevada, Oregon43. Artemisia papposa</key>
+  <key>11.Pappi 0; Alberta, British Columbia, Northwest Territories, Nunavut; Alaska, Washington.</key>
+  <key>12.Plants 15–70 cm; leaves palmately 3-lobed to 2-ternately lobed 25. Artemisia alaskana</key>
+  <key>12.Plants (5–)10–40 cm; leaves 1–3-palmately lobed32. Artemisia furcata</key>
+  <key>10.Leaves 2–3-pinnatifid.</key>
+  <key>13.Perennials or subshrubs, 50–170 cm (widely branched, stems brittle); leaf lobes less than 1 mm wide; heads erect; involucres 1.5–3 mm diam. (gardens, waste places, much of North America)24. Artemisia abrotanum</key>
+  <key>13.Perennials, 10–50 cm (erect, stems not brittle); leaf lobes 1+ mm wide (margins coarsely toothed); heads nodding; involucres 4–10 mm diam.</key>
+  <key>14.Peduncles 0 or to 10 mm35. Artemisia laciniata</key>
+  <key>14.Peduncles to 50 mm40. Artemisia norvegica</key>
+  <key>6.Perennials (usually rhizomatous, stems sometimes woody at bases).</key>
+  <key>15.Leaves entire, serrate, toothed, or lobed (sinuses to 1/2 blade widths).</key>
+  <key>16.Plants 20–50(–80, rarely more) cm.</key>
+  <key>17.Leaves usually entire, sometimes toothed or lobed; involucres 4–5 mm diam.36. Artemisia longifolia</key>
+  <key>17.Leaves usually lobed, sometimes entire; involucres (1–)2–5 mm diam.</key>
+  <key>18.Involucres 2–4(–5.5) mm; phyllaries (gray-green) densely tomentose 37. Artemisia ludoviciana</key>
+  <key>18.Involucres 3.5–4 mm; phyllaries (violet-brown) sparsely tomentose (w North America)49. Artemisia tilesii</key>
+  <key>16.Plants 50–300 cm.</key>
+  <key>19.Phyllaries glabrous or sparsely hairy (coast, n California to British Columbia)48. Artemisia suksdorfii</key>
+  <key>19.Phyllaries usually densely hairy.</key>
+  <key>20.Leaves densely hairy (both faces, broadly lanceolate, mostly entire, the proximal lobed; w North America, mostly inland grasslands) 30. Artemisia douglasiana</key>
+  <key>20.Leaves (bicolor) hairy abaxially, glabrate or glabrous adaxially.</key>
+  <key>21.Leaves serrate (teeth ca. 2 mm; inland grasslands and barren areas, high plains)46. Artemisia serrata</key>
+  <key>21.Leaves mostly deeply lobed (lobes 4–20 mm; mostly e North America, introduced w coast)50. Artemisia vulgaris</key>
+  <key>[15. Shifted to left margin.—Ed.]</key>
+  <key>15.Leaves (relatively deeply) lobed (sinuses 1/2+ blade widths).</key>
+  <key>22. Leaves not bicolor (both faces bright green or silvery), lobes acute or rounded.</key>
+  <key>23.Leaves silver-gray, lobes rounded (coastal dunes)47. Artemisia stelleriana</key>
+  <key>23.Leaves bright green, lobes acute (not coastal dunes).</key>
+  <key>24.Involucres (4–)5–8 × 4–10 mm; 0–3800 m40. Artemisia norvegica</key>
+  <key>24.Involucres 2.5–3.5 × 2–4.5 mm; 100–2400 m41. Artemisia packardiae</key>
+  <key>22.Leaves bicolor (abaxial faces silvery, adaxial green), lobes acute.</key>
+  <key>25.Plants 30–100 cm, lemon-scented; heads usually erect (subalpine and alpine) 38. Artemisia michauxiana</key>
+  <key>25.Plants 15–70 cm, not lemon-scented; heads usually nodding.</key>
+  <key>26.Perennials (widely spreading, stems brittle); garden escapes, c, e North America 44. Artemisia pontica</key>
+  <key>26.Biennials or perennials (erect).</key>
+  <key>27.Leaves pinnatifid (lobes 3–5, 0.5–1 mm wide); grasslands or deserts, 600– 2900 m29. Artemisia carruthii</key>
+  <key>27.Leaves 2–3-pinnately lobed (lobes elliptic, 2–6 mm wide); w mountains, 2200–3100 m31. Artemisia franserioides</key>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

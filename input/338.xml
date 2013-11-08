@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Lapsanastrum apogonoides</species_name>
+  <authority>(Maximowicz) J. H. Pak &amp; K. Bremer</authority>
+  <place_of_publication>Taxon 44: 19. 1995</place_of_publication>
+  <common_name>Japanese nipplewort</common_name>
+  <synonym_of_species_name>Lapsana apogonoides Maximowicz, Bull. Acad. Imp. Sci. Saint-Pétersbourg 18: 288. 1873</synonym_of_species_name>
+  <description>
+    <statement id="338.txt-0">
+      <text>Stems slender, weak, flattened.</text>
+      <structure id="o6252" name="stem">
+        <character name="size" value="slender" />
+        <character name="texture" value="weak" />
+        <character name="shape" value="flattened" />
+      </structure>
+    </statement>
+    <statement id="338.txt-1">
+      <text>Leaves:</text>
+      <structure id="o6253" name="leaf" />
+    </statement>
+    <statement id="338.txt-2">
+      <text>basal blades 40–100 × 10–25 mm, dentate, apices obtuse.</text>
+      <structure id="o6254" name="blade" constraint="basal">
+        <character char_type="range_value" name="length" from="40" from_unit="mm" to="100" to_unit="mm" />
+        <character char_type="range_value" name="width" from="10" from_unit="mm" to="25" to_unit="mm" />
+        <character name="shape" value="dentate" />
+      </structure>
+      <structure id="o6255" name="apex">
+        <character name="shape" value="obtuse" />
+      </structure>
+    </statement>
+    <statement id="338.txt-3">
+      <text>Phyllaries broadly lanceolate, thin, scarcely keeled, 4–5 mm, stellately spreading in fruit.</text>
+      <structure id="o6256" name="phyllary">
+        <character name="shape" value="lanceolate" modifier="broadly" />
+        <character name="thickness" value="thin" />
+        <character name="shape" value="keeled" modifier="scarcely" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="5" to_unit="mm" />
+        <character name="orientation" value="spreading" modifier="stellately" constraint="in fruit" constraintid="o6257" />
+      </structure>
+      <structure id="o6257" name="fruit" />
+    </statement>
+    <statement id="338.txt-4">
+      <text>Corollas 6–10 mm.</text>
+      <structure id="o6258" name="corolla">
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="338.txt-5">
+      <text>Cypselae straight, 4–5 mm.</text>
+      <structure id="o6259" name="cypsela">
+        <character name="course" value="straight" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="338.txt-6">
+      <text>2 n = 16.</text>
+      <structure id="o6260" name="chromosome">
+        <character name="count" value="16" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>may</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <habitat>cultivated fields</habitat>
+  <habitat>disturbed areas</habitat>
+  <habitat>low boggy areas</habitat>
+  <elevation>10–100 m;</elevation>
+  <introduced>introduced;</introduced>
+  <us_distribution>Oreg.</us_distribution>
+  <global_distribution>Asia (China).</global_distribution>
+  <global_distribution>Asia (Japan).</global_distribution>
+  <global_distribution>Asia (Korea).</global_distribution>
+  <discussion>Lapsanastrum apogonoides is distinguished by its prostrate habit, weak stems, lyrate leaves, and 5 phyllaries spreading in fruit.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

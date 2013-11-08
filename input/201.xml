@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Carthamus leucocaulos</species_name>
+  <authority>Sibthorp &amp; Smith</authority>
+  <place_of_publication>Fl. Graec. Prodr. 2(1): 160. 1813</place_of_publication>
+  <common_name>White-stem distaff thistle</common_name>
+  <description>
+    <statement id="201.txt-0">
+      <text>Plants 30–100 cm, herbage glabrescent.</text>
+      <structure id="o2974" name="whole_organism">
+        <character char_type="range_value" name="size" from="30" from_unit="cm" to="100" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+      <structure id="o2975" name="herbage">
+        <character name="pubescence" value="glabrescent" />
+      </structure>
+    </statement>
+    <statement id="201.txt-1">
+      <text>Stems rigidly erect, shiny white, often much-branched distally.</text>
+      <structure id="o2976" name="stem">
+        <character name="orientation" value="erect" modifier="rigidly" />
+        <character name="reflectance" value="shiny" />
+        <character name="coloration" value="white" />
+        <character name="architecture_or_shape" value="much-branched" modifier="often ; distally" />
+      </structure>
+    </statement>
+    <statement id="201.txt-2">
+      <text>Leaves basal and cauline;</text>
+      <structure id="o2977" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+      </structure>
+    </statement>
+    <statement id="201.txt-3">
+      <text>basal often absent at anthesis, petioles winged , blades pinnately divided into 6–8 pairs of narrow lobes;</text>
+      <structure id="o2978" name="leaf" constraint="basal">
+        <character name="presence" value="absent" modifier="often" constraint="at anthesis" constraintid="o2979" />
+      </structure>
+      <structure id="o2979" name="anthesi" />
+      <structure id="o2980" name="petiole">
+        <character name="architecture" value="winged" />
+      </structure>
+      <structure id="o2981" name="blade">
+        <character name="shape" value="divided" modifier="pinnately" constraint="into pairs" constraintid="o2982" />
+      </structure>
+      <structure id="o2982" name="pair">
+        <character char_type="range_value" name="count" from="6" to="8" />
+      </structure>
+      <structure id="o2983" name="lobe">
+        <character name="size" value="narrow" />
+      </structure>
+      <relation id="r422" name="part_of" from="o2982" to="o2983" negation="false" />
+    </statement>
+    <statement id="201.txt-4">
+      <text>cauline spreading or recurved, lanceolate to ovate, rigid, clasping, 3–7-veined from base, margins pinnately divided into 2–3 pairs of short, spine-tipped lobes, apices spine-tipped.</text>
+      <structure id="o2984" name="leaf" constraint="cauline">
+        <character char_type="range_value" name="shape" from="lanceolate" to="ovate" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="ovate" />
+        <character name="texture" value="rigid" />
+        <character name="architecture" value="clasping" />
+        <character name="architecture" value="3-7-veined" constraint="from base" constraintid="o2985" />
+      </structure>
+      <structure id="o2985" name="base" />
+      <structure id="o2986" name="margin">
+        <character name="shape" value="divided" modifier="pinnately" constraint="into pairs" constraintid="o2987" />
+      </structure>
+      <structure id="o2987" name="pair">
+        <character char_type="range_value" name="count" from="2" to="3" />
+      </structure>
+      <structure id="o2988" name="lobe">
+        <character name="size" value="short" />
+      </structure>
+      <relation id="r423" name="part_of" from="o2987" to="o2988" negation="false" />
+      <structure id="o2989" name="apex" />
+    </statement>
+    <statement id="201.txt-5">
+      <text>Involucres ovoid, 10–13 mm, usually ± glabrous.</text>
+      <structure id="o2990" name="involucre">
+        <character name="shape" value="ovoid" />
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="13" to_unit="mm" />
+        <character name="pubescence" value="glabrous" modifier="usually ±" />
+      </structure>
+    </statement>
+    <statement id="201.txt-6">
+      <text>Outer phyllaries ascending or ± spreading, very shiny, 40–50 mm, 2.5–3.5 times as long as inner, terminal appendages spreading to ascending, spiny-lobed, prominently spine-tipped.</text>
+      <structure id="o2991" name="phyllary" constraint="outer">
+        <character name="orientation" value="ascending" />
+        <character name="orientation" value="spreading" modifier="±" />
+        <character name="reflectance" value="shiny" modifier="very" />
+        <character char_type="range_value" name="size" from="40" from_unit="mm" to="50" to_unit="mm" />
+        <character name="position" value="inner" modifier="2.5-3.5 times" />
+      </structure>
+      <structure id="o2992" name="appendage" constraint="terminal">
+        <character char_type="range_value" name="orientation" from="spreading" to="ascending" />
+        <character name="orientation" value="spreading" />
+        <character name="orientation" value="ascending" />
+        <character name="shape" value="spiny-lobed" />
+      </structure>
+    </statement>
+    <statement id="201.txt-7">
+      <text>Corollas pink or pale purple, 13–17 mm, throats abruptly expanded;</text>
+      <structure id="o2993" name="corolla">
+        <character name="coloration" value="pink" />
+        <character name="coloration" value="purple" modifier="pale" />
+        <character char_type="range_value" name="size" from="13" from_unit="mm" to="17" to_unit="mm" />
+      </structure>
+      <structure id="o2994" name="throat">
+        <character name="size" value="expanded" modifier="abruptly" />
+      </structure>
+    </statement>
+    <statement id="201.txt-8">
+      <text>anthers white or pink with purple stripes;</text>
+      <structure id="o2995" name="anther" />
+      <structure id="o2996" name="stripe">
+        <character name="coloration" value="white" />
+      </structure>
+    </statement>
+    <statement id="201.txt-9">
+      <text>pollen white.</text>
+      <structure id="o2997" name="pollen">
+        <character name="coloration" value="white" />
+      </structure>
+    </statement>
+    <statement id="201.txt-10">
+      <text>Cypselae brown, 3–5 mm, outer roughened;</text>
+      <structure id="o2998" name="cypsela">
+        <character name="coloration" value="brown" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="5" to_unit="mm" />
+        <character name="position" value="outer" />
+        <character name="texture" value="roughened" />
+      </structure>
+    </statement>
+    <statement id="201.txt-11">
+      <text>pappus scales 5–7 mm.</text>
+      <structure id="o2999" name="scale" constraint="pappus">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="201.txt-12">
+      <text>2 n = 20 (Greece).</text>
+      <structure id="o3000" name="chromosome">
+        <character name="count" value="20" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>disturbed sites</habitat>
+  <elevation>0–200 m;</elevation>
+  <introduced>introduced;</introduced>
+  <us_distribution>Calif.</us_distribution>
+  <global_distribution>Europe (Greece).</global_distribution>
+  <global_distribution>Europe (islands of Aegean Sea).</global_distribution>
+  <discussion>Between 1969 and 1990 an infestation of this noxious weed was documented in Sonoma County. Efforts to eradicate it were apparently successful.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

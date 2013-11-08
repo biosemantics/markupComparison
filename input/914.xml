@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>37f.</number>
+  <subspecies_name>Artemisia ludoviciana Nuttall subsp. redolens</subspecies_name>
+  <authority>(A. Gray) D. D. Keck</authority>
+  <place_of_publication>Proc. Calif. Acad. Sci., ser. 4, 25: 454. 1946</place_of_publication>
+  <synonym_of_subspecies_name>Artemisia redolens A. Gray, Proc. Amer. Acad. Arts 21: 393. 1886; A. vulgaris Linnaeus subsp. redolens (A. Gray) H. M. Hall &amp; Clements</synonym_of_subspecies_name>
+  <description>
+    <statement id="914.txt-0">
+      <text>Stems 20–80 cm, mostly unbranched, glabrous.</text>
+      <structure id="o18849" name="stem">
+        <character char_type="range_value" name="size" from="20" from_unit="cm" to="80" to_unit="cm" />
+        <character name="architecture" value="unbranched" modifier="mostly" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="914.txt-1">
+      <text>Leaves bicolor (white and green);</text>
+      <structure id="o18850" name="leaf">
+        <character name="coloration" value="bicolor" />
+      </structure>
+    </statement>
+    <statement id="914.txt-2">
+      <text>blades lanceolate to ovate, 5–7 × 0.5–1 cm, irregularly pinnatifid;</text>
+      <structure id="o18851" name="blade">
+        <character char_type="range_value" name="shape" from="lanceolate" to="ovate" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="ovate" />
+        <character char_type="range_value" name="length" from="5" from_unit="cm" to="7" to_unit="cm" />
+        <character char_type="range_value" name="width" from="0.5" from_unit="cm" to="1" to_unit="cm" />
+        <character name="shape" value="pinnatifid" modifier="irregularly" />
+      </structure>
+    </statement>
+    <statement id="914.txt-3">
+      <text>abaxial faces tomentose (abaxial) or glabrate (adaxial).</text>
+      <structure id="o18852" name="face" constraint="abaxial">
+        <character name="pubescence" value="tomentose" />
+        <character name="pubescence" value="glabrate" />
+      </structure>
+    </statement>
+    <statement id="914.txt-4">
+      <text>Involucres campanulate, 2–3 × 2–3 mm.</text>
+      <structure id="o18853" name="involucre">
+        <character name="shape" value="campanulate" />
+        <character char_type="range_value" name="length" from="2" from_unit="mm" to="3" to_unit="mm" />
+        <character char_type="range_value" name="width" from="2" from_unit="mm" to="3" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="914.txt-5">
+      <text>Heads in paniculiform or racemiform arrays 10–15 × 2–6 cm.</text>
+      <structure id="o18854" name="head" />
+      <structure id="o18855" name="array">
+        <character name="architecture" value="paniculiform" />
+        <character name="architecture" value="racemiform" />
+        <character char_type="range_value" name="length" from="10" from_unit="cm" to="15" to_unit="cm" />
+        <character char_type="range_value" name="width" from="2" from_unit="cm" to="6" to_unit="cm" />
+      </structure>
+      <relation id="r1996" name="in" from="o18854" to="o18855" negation="false" />
+    </statement>
+    <statement id="914.txt-6">
+      <text>Florets:</text>
+      <structure id="o18856" name="floret" />
+    </statement>
+    <statement id="914.txt-7">
+      <text>pistillate ca. 10;</text>
+      <structure id="o18857" name="floret" constraint="pistillate">
+        <character name="count" value="10" />
+      </structure>
+    </statement>
+    <statement id="914.txt-8">
+      <text>bisexual 3–8;</text>
+      <structure id="o18858" name="floret" constraint="bisexual">
+        <character char_type="range_value" name="count" from="3" to="8" />
+      </structure>
+    </statement>
+    <statement id="914.txt-9">
+      <text>corollas 2 mm.</text>
+      <structure id="o18859" name="corolla">
+        <character name="size" value="2" unit="mm" />
+      </structure>
+    </statement>
+  </description>
+  <habitat>rocky loam soils</habitat>
+  <elevation>100–300 m;</elevation>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <global_distribution>Mexico.</global_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

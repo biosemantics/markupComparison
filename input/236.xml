@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>187d.</number>
+  <tribe_name>Asteraceae Martinov tribe Vernonieae</tribe_name>
+  <authority>Vernonieae Cassini</authority>
+  <place_of_publication>J. Phys. Chim. Hist. Nat. Arts 88: 203. 1819</place_of_publication>
+  <description>
+    <statement id="236.txt-0">
+      <text>Annuals, biennials, perennials, or shrubs [trees or lianas] (sap rarely milky).</text>
+      <structure id="o3969" name="whole_organism">
+        <character name="life_style" value="annual" />
+        <character name="life_style" value="perennial" />
+        <character name="life_style" value="shrub" />
+      </structure>
+    </statement>
+    <statement id="236.txt-1">
+      <text>Leaves usually cauline, sometimes basal or basal and cauline;</text>
+    </statement>
+    <statement id="236.txt-2">
+      <text>alternate (rarely subopposite distally) [opposite];</text>
+    </statement>
+    <statement id="236.txt-3">
+      <text>usually petiolate, sometimes sessile (or petioles winged);</text>
+      <structure id="o3972" name="leaf">
+        <character name="insertion_or_position" value="cauline" modifier="usually" />
+        <character name="insertion_or_position" value="basal" modifier="sometimes" />
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="arrangement" value="alternate" />
+        <character name="architecture" value="petiolate" modifier="usually" />
+        <character name="architecture" value="sessile" modifier="sometimes" />
+      </structure>
+    </statement>
+    <statement id="236.txt-4">
+      <text>margins usually ± dentate, sometimes entire [lobed or dissected].</text>
+      <structure id="o3973" name="margin">
+        <character name="shape" value="dentate" modifier="usually ±" />
+        <character name="shape" value="entire" modifier="sometimes" />
+      </structure>
+    </statement>
+    <statement id="236.txt-5">
+      <text>Heads homogamous (discoid, pseudo-radiant or -liguliflorous in Stokesia ), usually in corymbiform, paniculiform, or scorpioid arrays, sometimes borne singly or in glomerules [aggregated in second-order heads ] .</text>
+      <structure id="o3974" name="head">
+        <character name="maturation_or_reproduction" value="homogamous" />
+        <character name="arrangement" value="singly" modifier="sometimes" />
+        <character name="arrangement" value="in glomerules" />
+      </structure>
+      <structure id="o3975" name="array">
+        <character name="architecture" value="corymbiform" />
+        <character name="architecture" value="paniculiform" />
+        <character name="arrangement" value="scorpioid" />
+      </structure>
+      <relation id="r562" name="in" from="o3974" to="o3975" negation="false" modifier="usually" />
+      <structure id="o3976" name="glomerule" />
+      <relation id="r563" name="in" from="o3974" to="o3976" negation="false" />
+    </statement>
+    <statement id="236.txt-6">
+      <text>Calyculi 0.</text>
+      <structure id="o3977" name="calyculus">
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+    <statement id="236.txt-7">
+      <text>Phyllaries usually persistent [readily falling], in 2–8+ series, distinct, unequal, herbaceous to chartaceous, margins and/or apices sometimes scarious.</text>
+      <structure id="o3978" name="phyllary">
+        <character name="duration" value="persistent" modifier="usually" />
+        <character name="fusion" value="distinct" />
+        <character name="size" value="unequal" />
+        <character char_type="range_value" name="texture" from="herbaceous" to="chartaceous" />
+        <character name="texture" value="herbaceous" />
+        <character name="texture" value="chartaceous" />
+      </structure>
+      <structure id="o3979" name="series">
+        <character char_type="range_value" name="count" from="2" to="8" upper_restricted="false" />
+      </structure>
+      <relation id="r564" name="in" from="o3978" to="o3979" negation="false" />
+      <structure id="o3980" name="margin" />
+      <structure id="o3981" name="apex">
+        <character name="texture" value="scarious" modifier="sometimes" />
+      </structure>
+    </statement>
+    <statement id="236.txt-8">
+      <text>Receptacles flat to convex, usually epaleate (often foveolate, sometimes setose).</text>
+      <structure id="o3982" name="receptacle">
+        <character char_type="range_value" name="shape" from="flat" to="convex" />
+        <character name="shape" value="flat" />
+        <character name="shape" value="convex" />
+        <character name="architecture" value="epaleate" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="236.txt-9">
+      <text>Ray florets 0 (corollas of peripheral florets enlarged, zygomorphic, ± raylike in Stokesia ).</text>
+      <structure id="o3983" name="floret" constraint="ray">
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+    <statement id="236.txt-10">
+      <text>Disc florets bisexual, fertile;</text>
+      <structure id="o3984" name="floret" constraint="disc">
+        <character name="reproduction" value="bisexual" />
+        <character name="reproduction" value="fertile" />
+      </structure>
+    </statement>
+    <statement id="236.txt-11">
+      <text>corollas white, ochroleucous, or pink to cyanic [yellow];</text>
+      <structure id="o3985" name="corolla">
+        <character char_type="range_value" name="coloration" from="pink" to="cyanic" />
+        <character name="coloration" value="white" />
+        <character name="coloration" value="ochroleucous" />
+        <character name="coloration" value="pink" />
+        <character name="coloration" value="cyanic" />
+      </structure>
+    </statement>
+    <statement id="236.txt-12">
+      <text>anther bases ± sagittate [tailed], apical appendages ovate to lanceolate;</text>
+      <structure id="o3986" name="base" constraint="anther">
+        <character name="shape" value="sagittate" modifier="±" />
+      </structure>
+      <structure id="o3987" name="appendage" constraint="apical">
+        <character char_type="range_value" name="shape" from="ovate" to="lanceolate" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="lanceolate" />
+      </structure>
+    </statement>
+    <statement id="236.txt-13">
+      <text>styles abaxially hirsutulous (at least distally), branches lance-linear to ± lanceolate, adaxially continuously stigmatic from bases nearly to apices, apices acute, appendages essentially none.</text>
+      <structure id="o3988" name="style">
+        <character name="pubescence" value="hirsutulous" modifier="abaxially" />
+      </structure>
+      <structure id="o3989" name="branch">
+        <character name="arrangement_or_shape" value="lance-linear" />
+        <character name="shape" value="lanceolate" modifier="±" />
+        <character name="habit" value="stigmatic" modifier="adaxially continuously" constraint="from bases" constraintid="o3990" />
+      </structure>
+      <structure id="o3990" name="base" />
+      <structure id="o3991" name="apex">
+        <character name="shape" value="lanceolate" modifier="±" />
+      </structure>
+      <relation id="r565" name="nearly to" from="o3990" to="o3991" negation="false" />
+      <structure id="o3992" name="apex">
+        <character name="shape" value="acute" />
+      </structure>
+      <structure id="o3993" name="appendage" />
+    </statement>
+    <statement id="236.txt-14">
+      <text>Cypselae ± monomorphic within heads, columnar to clavate, fusiform, or prismatic, sometimes compressed, not beaked, bodies smooth, nerved, or ribbed (glabrous or hirsutulous to strigillose, sometimes resin-gland-dotted as well);</text>
+      <structure id="o3994" name="cypsela">
+        <character name="habit" value="monomorphic" modifier="±" constraint="within heads" constraintid="o3995" />
+        <character name="shape" value="columnar" />
+        <character name="shape" value="clavate" />
+        <character name="shape" value="fusiform" />
+        <character name="shape" value="prismatic" />
+        <character name="shape" value="compressed" modifier="sometimes" />
+        <character name="shape" value="beaked" modifier="not" />
+      </structure>
+      <structure id="o3995" name="head" />
+      <structure id="o3996" name="body">
+        <character name="architecture" value="smooth" />
+        <character name="architecture" value="nerved" />
+        <character name="architecture" value="ribbed" />
+      </structure>
+    </statement>
+    <statement id="236.txt-15">
+      <text>pappi usually persistent, usually in 2 series (outer series of shorter, stouter bristles or narrow scales, inner of longer, usually barbellate bristles), sometimes in 1 series (bristles or scales, scales often aristate).</text>
+      <structure id="o3997" name="pappus">
+        <character name="duration" value="persistent" modifier="usually" />
+      </structure>
+      <structure id="o3998" name="series">
+        <character name="count" value="2" />
+      </structure>
+      <relation id="r566" name="in" from="o3997" to="o3998" negation="false" modifier="usually" />
+      <structure id="o3999" name="series">
+        <character name="count" value="1" />
+      </structure>
+      <relation id="r567" name="in" from="o3997" to="o3999" negation="false" modifier="sometimes" />
+    </statement>
+  </description>
+  <number_of_infrataxa>Genera 100–140, species ca. 1300 (6 genera, 25 species in the flora):</number_of_infrataxa>
+  <general_distribution>mostly tropics and warm-temperate regions of New World and Old World.</general_distribution>
+  <discussion>Most members of Vernonieae are herbs, subshrubs, or shrubs (Vernonia arborea Buchanan-Hamilton of tropical Asia may form trees to 33 m). They are characterized by discoid heads of bisexual florets with purple to pink or white corollas, calcarate anthers, attenuate, abaxially hirsutulous style branches stigmatic ± uniformly (rather than in two lines or bands) nearly to their tips, and pollen grains with regular, polygonal, patterns of ± spiny to smooth ridges. Centers of species concentration for the tribe are found in Africa, Madagascar, South America, and Antilles. In the flora, most species are found in the eastern and southern states of the United States. The plants are often associated with open, prairie or savanna-like areas.</discussion>
+  <discussion>Treating clades recognized by J. L. Panero and V. A. Funk (2002) as corresponding to tribes, Vernonieae is sister to Liabeae (none in the flora) and is included with Arctotideae (introduced), Cichorieae, and Gundelieae (none in the flora) within Cichorioideae.</discussion>
+  <discussion>Historically, 80% or so of the species in the tribe were included in Vernonia. H. Robinson (1999) has argued for resurrections and recircumscriptions of some old genera and recognition of some “new” genera, resulting in a Vernonia of ca. 20 species.</discussion>
+  <discussion>Stokesia laevis and some Vernonia species are grown as ornamentals. Some Vernonia species have been used medicinally in folk remedies and some may be locally troublesome as weeds (e.g., V. baldwinii).</discussion>
+  <references>SELECTED REFERENCE Robinson, H. 1999. Generic and subtribal classification of American Vernonieae. Smithsonian Contr. Bot. 89.</references>
+  <key>1.Heads pseudo-radiant (corollas of peripheral, bisexual florets enlarged, zygomorphic); margins of phyllaries (at least the outer), pectinately spinose-toothed28. Stokesia, p. 201</key>
+  <key>1.Heads ± discoid; margins of phyllaries not pectinately spinose-toothed.</key>
+  <key>[2. Shifted to left margin.—Ed.]</key>
+  <key>2.Heads sessile, borne in congested clusters; florets (1–)4(–5) in each head.</key>
+  <key>3.Heads (1–)10–40 per cluster, each cluster subtended by (2–)3 ± deltate bracts; pappi of 5(–6) 1-aristate scales (look closely for squamiform, gradually to abruptly tapering base of each arista), no scales tipped with plicate aristae29. Elephantopus, p. 202</key>
+  <key>3.Heads 1–5+ per cluster, each cluster subtended by 1–2 lanceolate to spatulate or linear bracts; pappi of 6–10 ± laciniate to aristate scales, 2(–3+) of aristate scales each with awnlike arista plicate (2-folded) distally30. Pseudelephantopus, p. 204</key>
+  <key>2.Heads mostly pedunculate, not borne in congested clusters; florets 9–100+ in each head.</key>
+  <key>4.Annuals (perhaps persisting); cypselae not ribbed31. Cyanthillium, p. 204</key>
+  <key>4.Perennials or functionally annuals; cypselae 8–10-ribbed.</key>
+  <key>5.Heads each subtended by 3–8+, ± foliaceous bracts; pappi caducous32. Centratherum, p. 206</key>
+  <key>5.Heads not each subtended by foliaceous bracts; pappi persistent33. Vernonia, p. 206</key>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>10.</number>
+  <species_name>Pseudognaphalium micradenium</species_name>
+  <authority>(Weatherby) G. L. Nesom</authority>
+  <place_of_publication>Sida 19: 618. 2001</place_of_publication>
+  <common_name>Delicate rabbit-tobacco</common_name>
+  <synonym_of_species_name>Gnaphalium obtusifolium Linnaeus var. micradenium Weatherby, Rhodora 25: 22. 1923; G. helleri Britton var. micradenium (Weatherby) Mahler; Pseudognaphalium helleri (Britton) Anderberg subsp. micradenium (Weatherby) Kartesz</synonym_of_species_name>
+  <description>
+    <statement id="689.txt-0">
+      <text>Annuals (fragrant), 15–60 cm;</text>
+    </statement>
+    <statement id="689.txt-1">
+      <text>taprooted or fibrous-rooted.</text>
+      <structure id="o14405" name="whole_organism">
+        <character char_type="range_value" name="size" from="15" from_unit="cm" to="60" to_unit="cm" />
+        <character name="life_style" value="annual" />
+        <character name="architecture" value="taprooted" />
+        <character name="architecture" value="fibrous-rooted" />
+      </structure>
+    </statement>
+    <statement id="689.txt-2">
+      <text>Stems glandular-puberulent (without persistent tomentum), stipitate glands 0.1–0.2 mm, stalks narrower than gland widths.</text>
+      <structure id="o14406" name="stem">
+        <character name="pubescence" value="glandular-puberulent" />
+      </structure>
+      <structure id="o14407" name="gland">
+        <character name="architecture" value="stipitate" />
+        <character char_type="range_value" name="size" from="0.1" from_unit="mm" to="0.2" to_unit="mm" />
+      </structure>
+      <structure id="o14408" name="stalk">
+        <character name="size" value="narrower" constraint="than gland widths" constraintid="o14409" />
+      </structure>
+      <structure id="o14409" name="gland">
+        <character name="size" value="widths" />
+      </structure>
+    </statement>
+    <statement id="689.txt-3">
+      <text>Leaf blades linear to linear-lanceolate or linear-oblanceolate, 1.5–5.5 cm × 1.5–10 mm, bases not clasping, not decurrent, margins flat, faces bicolor, abaxial white to gray, tomentose, adaxial green, both minutely stipitate-glandular.</text>
+      <structure id="o14410" name="blade" constraint="leaf">
+        <character char_type="range_value" name="shape" from="linear" to="linear-lanceolate or linear-oblanceolate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="linear-lanceolate" />
+        <character name="shape" value="linear-oblanceolate" />
+        <character char_type="range_value" name="length" from="1.5" from_unit="cm" to="5.5" to_unit="cm" />
+        <character char_type="range_value" name="width" from="1.5" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+      <structure id="o14411" name="base">
+        <character name="architecture" value="clasping" modifier="not" />
+        <character name="shape" value="decurrent" modifier="not" />
+      </structure>
+      <structure id="o14412" name="margin">
+        <character name="shape" value="flat" />
+      </structure>
+      <structure id="o14413" name="face">
+        <character name="coloration" value="bicolor" />
+        <character name="insertion_or_position" value="abaxial" />
+        <character name="coloration" value="white" />
+        <character name="coloration" value="gray" />
+        <character name="pubescence" value="tomentose" />
+        <character name="insertion_or_position" value="adaxial" />
+        <character name="coloration" value="green" />
+        <character name="architecture_or_exudation_or_pubescence" value="stipitate-glandular" modifier="minutely" />
+      </structure>
+    </statement>
+    <statement id="689.txt-4">
+      <text>Heads in corymbiform arrays.</text>
+      <structure id="o14414" name="head" />
+      <structure id="o14415" name="array">
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <relation id="r1542" name="in" from="o14414" to="o14415" negation="false" />
+    </statement>
+    <statement id="689.txt-5">
+      <text>Involucres turbinate-campanulate, 5–6 mm.</text>
+      <structure id="o14416" name="involucre">
+        <character name="shape" value="turbinate-campanulate" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="689.txt-6">
+      <text>Phyllaries in 4–6 series, white to tawny white (hyaline, shiny), narrowly ovate to oblong, glabrous.</text>
+      <structure id="o14417" name="phyllary">
+        <character char_type="range_value" name="coloration" from="white" to="tawny-white" />
+        <character name="coloration" value="white" />
+        <character name="coloration" value="white" modifier="tawny" />
+        <character char_type="range_value" name="shape" from="narrowly ovate" to="oblong" />
+        <character name="shape" value="ovate" modifier="narrowly" />
+        <character name="shape" value="oblong" modifier="narrowly" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+      <structure id="o14418" name="series">
+        <character char_type="range_value" name="count" from="4" to="6" />
+      </structure>
+      <relation id="r1543" name="in" from="o14417" to="o14418" negation="false" />
+    </statement>
+    <statement id="689.txt-7">
+      <text>Pistillate florets 47–78.</text>
+      <structure id="o14419" name="floret" constraint="pistillate">
+        <character char_type="range_value" name="count" from="47" to="78" />
+      </structure>
+    </statement>
+    <statement id="689.txt-8">
+      <text>Bisexual florets (7–)11–20.</text>
+      <structure id="o14420" name="floret" constraint="bisexual">
+        <character char_type="range_value" name="atypical_count" from="7" to="11" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="11" to="20" />
+      </structure>
+    </statement>
+    <statement id="689.txt-9">
+      <text>Cypselae ridged, smooth.</text>
+      <structure id="o14421" name="cypsela">
+        <character name="shape" value="ridged" />
+        <character name="architecture_or_relief" value="smooth" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <habitat>dry woods and openings</habitat>
+  <habitat>roadsides</habitat>
+  <elevation>10–600 m;</elevation>
+  <us_distribution>Ga.</us_distribution>
+  <us_distribution>Ind.</us_distribution>
+  <us_distribution>Ky.</us_distribution>
+  <us_distribution>Maine</us_distribution>
+  <us_distribution>Md.</us_distribution>
+  <us_distribution>Mass.</us_distribution>
+  <us_distribution>Mich.</us_distribution>
+  <us_distribution>Minn.</us_distribution>
+  <us_distribution>Mo.</us_distribution>
+  <us_distribution>N.H.</us_distribution>
+  <us_distribution>N.J.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>N.C.</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <us_distribution>S.C.</us_distribution>
+  <us_distribution>Tenn.</us_distribution>
+  <us_distribution>Va.</us_distribution>
+  <us_distribution>Wis.</us_distribution>
+  <discussion>Pseudognaphalium micradenium has a more northern and Appalachian distribution than P. helleri. A report of P. micradenium for Louisiana probably was based on specimens of P. helleri. The two species differ in vestiture and other features; stems of P. micradenium are more slender than those of its close relatives.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

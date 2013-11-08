@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>85.</number>
+  <genus_name>CALENDULA</genus_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 921. 1753; Gen. Pl. ed. 5, 393. 1754</place_of_publication>
+  <common_name>Pot marigold</common_name>
+  <derivation>Latin calends , first day of the month, and -ula , tendency; perhaps meaning “through the months” and alluding to ± year-round flowering</derivation>
+  <author_of_tribe_genus>John L. Strother</author_of_tribe_genus>
+  <description>
+    <statement id="618.txt-0">
+      <text>Annuals, perennials [subshrubs], 5–50(–70+) cm.</text>
+      <structure id="o12913" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="50" to="70" from_unit="cm" to_unit="cm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="50" to_unit="cm" />
+        <character name="life_style" value="annual" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="618.txt-1">
+      <text>Stems procumbent to erect, glabrous or arachnose and/or stipitate-glandular.</text>
+      <structure id="o12915" name="stem">
+        <character name="habit" value="procumbent" />
+        <character name="orientation" value="erect" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="arachnose" />
+        <character name="architecture_or_exudation_or_pubescence" value="stipitate-glandular" />
+      </structure>
+    </statement>
+    <statement id="618.txt-2">
+      <text>Leaves sessile or petiolate;</text>
+      <structure id="o12916" name="leaf">
+        <character name="architecture" value="sessile" />
+        <character name="architecture" value="petiolate" />
+      </structure>
+    </statement>
+    <statement id="618.txt-3">
+      <text>blades elliptic, obovate, or oblong to oblanceolate, spatulate, or linear (bases sometimes clasping), margins entire or denticulate, faces sparsely arachnose and/or stipitate-glandular.</text>
+      <structure id="o12917" name="blade">
+        <character char_type="range_value" name="shape" from="oblong" to="oblanceolate , spatulate , or linear" />
+        <character name="shape" value="elliptic" />
+        <character name="shape" value="obovate" />
+        <character name="shape" value="oblong" />
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="spatulate" />
+        <character name="shape" value="linear" />
+      </structure>
+      <structure id="o12918" name="margin">
+        <character name="shape" value="entire" />
+        <character name="shape" value="denticulate" />
+      </structure>
+      <structure id="o12919" name="face">
+        <character name="pubescence" value="arachnose" modifier="sparsely" />
+        <character name="architecture_or_exudation_or_pubescence" value="stipitate-glandular" />
+      </structure>
+    </statement>
+    <statement id="618.txt-4">
+      <text>Heads borne singly.</text>
+      <structure id="o12920" name="head">
+        <character name="arrangement" value="singly" />
+      </structure>
+    </statement>
+    <statement id="618.txt-5">
+      <text>Involucres campanulate to hemispheric or broader, 10–30+ mm diam.</text>
+      <structure id="o12921" name="involucre">
+        <character char_type="range_value" name="shape" from="campanulate" to="hemispheric" />
+        <character name="shape" value="campanulate" />
+        <character name="shape" value="hemispheric" />
+        <character name="size" value="broader" />
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="30" to_unit="mm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="618.txt-6">
+      <text>Phyllaries 13–40+ in 2+ series, lanceolate to lance-linear.</text>
+      <structure id="o12922" name="phyllary">
+        <character char_type="range_value" name="count" from="13" to="40" upper_restricted="false" constraint="in series" constraintid="o12923" />
+        <character char_type="range_value" name="shape" from="lanceolate" to="lance-linear" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="lance-linear" />
+      </structure>
+      <structure id="o12923" name="series">
+        <character name="count" char_type="range_value" from="2" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="618.txt-7">
+      <text>Receptacles flat.</text>
+      <structure id="o12924" name="receptacle">
+        <character name="shape" value="flat" />
+      </structure>
+    </statement>
+    <statement id="618.txt-8">
+      <text>Ray florets 13–50(–100+) in 1–3+ series;</text>
+      <structure id="o12925" name="floret" constraint="ray">
+        <character char_type="range_value" name="atypical_count" from="50" to="100" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="13" to="50" constraint="in series" constraintid="o12926" />
+      </structure>
+      <structure id="o12926" name="series">
+        <character char_type="range_value" name="count" from="1" to="3" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="618.txt-9">
+      <text>corollas yellow to orange, laminae linear to oblanceolate.</text>
+      <structure id="o12927" name="corolla">
+        <character char_type="range_value" name="coloration" from="yellow" to="orange" />
+        <character name="coloration" value="yellow" />
+        <character name="coloration" value="orange" />
+      </structure>
+      <structure id="o12928" name="lamina">
+        <character char_type="range_value" name="shape" from="linear" to="oblanceolate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="oblanceolate" />
+      </structure>
+    </statement>
+    <statement id="618.txt-10">
+      <text>Disc florets 20–60(–150+), functionally staminate;</text>
+      <structure id="o12929" name="floret" constraint="disc">
+        <character char_type="range_value" name="atypical_count" from="60" to="150" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="20" to="60" />
+        <character name="architecture" value="staminate" modifier="functionally" />
+      </structure>
+    </statement>
+    <statement id="618.txt-11">
+      <text>corollas yellow, reddish, or purplish, tubes shorter than ± campanulate throats.</text>
+      <structure id="o12930" name="corolla">
+        <character name="coloration" value="yellow" />
+        <character name="coloration" value="reddish" />
+        <character name="coloration" value="purplish" />
+      </structure>
+      <structure id="o12931" name="tube">
+        <character name="size" value="shorter" constraint="than ± campanulate throats" constraintid="o12932" />
+      </structure>
+      <structure id="o12932" name="throat">
+        <character name="shape" value="campanulate" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="618.txt-12">
+      <text>Cypselae arcuate to ± coiled (usually some beaked, some 2–3-winged, some both beaked and winged), abaxial faces usually tuberculate and/or transversely ridged.</text>
+      <structure id="o12933" name="cypsela">
+        <character name="course_or_shape" value="arcuate" />
+        <character name="shape" value="coiled" modifier="±" />
+      </structure>
+      <structure id="o12934" name="face" constraint="abaxial">
+        <character name="relief" value="tuberculate" modifier="usually" />
+        <character name="shape" value="ridged" modifier="transversely" />
+      </structure>
+    </statement>
+    <statement id="618.txt-13">
+      <text>x = 11.</text>
+      <structure id="o12935" name="chromosome">
+        <character name="count" value="11" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species 15 or fewer (2 in the flora):</number_of_infrataxa>
+  <introduced>introduced;</introduced>
+  <general_distribution>Macaronesia</general_distribution>
+  <general_distribution>Mediterranean Europe</general_distribution>
+  <general_distribution>Near East</general_distribution>
+  <general_distribution>North Africa</general_distribution>
+  <general_distribution>widely cultivated</general_distribution>
+  <general_distribution>sometimes escaping and/or persisting.</general_distribution>
+  <references>SELECTED REFERENCE Heyn, C. C., O. Dagan, and B. Nachman. 1974. The annual Calendula species: Taxonomy and relationships. Israel J. Bot. 23: 169–201.</references>
+  <key>1.Phyllaries 13–21+, 6–10+ mm; ray florets 13–18+, corolla laminae 5–8(–12+) mm1. Calendula arvensis</key>
+  <key>1.Phyllaries 12–40+, (8–)10–12+ mm; ray florets 30–50(–100+), corolla laminae 12–20+ mm 2. Calendula officinalis</key>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Santolina chamaecyparissus</species_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 842. 1753</place_of_publication>
+  <common_name>Lavender-cotton</common_name>
+  <description>
+    <statement id="832.txt-0">
+      <text>Subshrubs, silvery-gray to white.</text>
+      <structure id="o17543" name="whole_organism">
+        <character char_type="range_value" name="coloration" from="silvery-gray" to="white" />
+        <character name="coloration" value="gray" modifier="silvery" />
+        <character name="coloration" value="white" />
+        <character name="life_style" value="subshrub" />
+      </structure>
+    </statement>
+    <statement id="832.txt-1">
+      <text>Leaf blades 1-pinnately lobed, 10–20(–40) × 1–3(–5) mm.</text>
+      <structure id="o17544" name="blade" constraint="leaf">
+        <character name="shape" value="lobed" modifier="1-pinnately" />
+        <character char_type="range_value" name="atypical_length" from="20" to="40" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="10" from_unit="mm" to="20" to_unit="mm" />
+        <character char_type="range_value" name="atypical_width" from="3" to="5" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="width" from="1" from_unit="mm" to="3" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="832.txt-2">
+      <text>Peduncles 3–6 cm.</text>
+      <structure id="o17545" name="peduncle">
+        <character char_type="range_value" name="size" from="3" from_unit="cm" to="6" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="832.txt-3">
+      <text>Phyllaries carinate, apices of inner rounded, ± lacerate to fimbrillate.</text>
+      <structure id="o17546" name="phyllary">
+        <character name="shape" value="carinate" />
+      </structure>
+      <structure id="o17547" name="apex">
+        <character name="shape" value="rounded" />
+        <character char_type="range_value" name="shape" from="lacerate" to="fimbrillate" modifier="±" />
+        <character name="shape" value="lacerate" modifier="±" />
+        <character name="shape" value="fimbrillate" modifier="±" />
+      </structure>
+      <structure id="o17548" name="phyllary" constraint="inner" />
+      <relation id="r1871" name="part_of" from="o17547" to="o17548" negation="false" />
+    </statement>
+    <statement id="832.txt-4">
+      <text>Corollas 3–4 mm, gland-dotted.</text>
+      <structure id="o17549" name="corolla">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="4" to_unit="mm" />
+        <character name="coloration_or_relief" value="gland-dotted" />
+      </structure>
+    </statement>
+    <statement id="832.txt-5">
+      <text>Cypselae 2.5–3 mm, angles sometimes narrowly winged.</text>
+      <structure id="o17550" name="cypsela">
+        <character char_type="range_value" name="size" from="2.5" from_unit="mm" to="3" to_unit="mm" />
+      </structure>
+      <structure id="o17551" name="angle">
+        <character name="architecture" value="winged" modifier="sometimes narrowly" />
+      </structure>
+    </statement>
+    <statement id="832.txt-6">
+      <text>2 n = 18.</text>
+      <structure id="o17552" name="chromosome">
+        <character name="count" value="18" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <habitat>disturbed sites</habitat>
+  <habitat>abandoned plantings</habitat>
+  <elevation>0–400 m;</elevation>
+  <introduced>introduced;</introduced>
+  <us_distribution>Ark.</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Ga.</us_distribution>
+  <us_distribution>La.</us_distribution>
+  <us_distribution>Mass.</us_distribution>
+  <us_distribution>N.C.</us_distribution>
+  <us_distribution>S.C.</us_distribution>
+  <global_distribution>s Europe</global_distribution>
+  <global_distribution>n Africa.</global_distribution>
+  <discussion>Santolina chamaecyparissus is widely cultivated and probably persists in the flora area in states other than those listed here.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

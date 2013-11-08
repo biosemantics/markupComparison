@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Cirsium vulgare</species_name>
+  <authority>(Savi) Tenore</authority>
+  <place_of_publication>Fl. Napol. 5: 209. 1835</place_of_publication>
+  <common_name>Bull or common or spear thistle, gros chardon, chardon vulgaire ou lancéolé, piqueux</common_name>
+  <synonym_of_species_name>Carduus vulgaris Savi, Fl. Pis. 2: 241. 1798; C. lanceolatus Linnaeus 1753, not Cirsium lanceolatum Hill 1769</synonym_of_species_name>
+  <description>
+    <statement id="52.txt-0">
+      <text>Biennials , 30–200(–300) cm;</text>
+      <structure id="o10616" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="200" to="300" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="30" from_unit="cm" to="200" to_unit="cm" />
+        <character name="life_style" value="biennial" />
+      </structure>
+    </statement>
+    <statement id="52.txt-1">
+      <text>taproots.</text>
+      <structure id="o10617" name="taproot" />
+    </statement>
+    <statement id="52.txt-2">
+      <text>Stems 1–many, erect or ascending, branches few–many, ascending, villous with septate trichomes.</text>
+      <structure id="o10618" name="stem">
+        <character char_type="range_value" name="count" from="1" to="many" />
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="ascending" />
+      </structure>
+      <structure id="o10619" name="branch">
+        <character char_type="range_value" name="count" from="few" to="many" />
+        <character name="orientation" value="ascending" />
+        <character name="pubescence" value="villous" constraint="with trichomes" constraintid="o10620" />
+      </structure>
+      <structure id="o10620" name="trichome">
+        <character name="architecture" value="septate" />
+      </structure>
+    </statement>
+    <statement id="52.txt-3">
+      <text>Leaves:</text>
+      <structure id="o10621" name="leaf" />
+    </statement>
+    <statement id="52.txt-4">
+      <text>blades oblong-lanceolate to obovate, 15–40 × 6–15 cm, margins plane or revolute, coarsely 1–2-pinnatifid with rigidly divergent lobes, sometimes merely spinose-dentate, lobes triangular to lanceolate, entire to spiny-dentate, main spines 2–10 mm, abaxial faces gray-tomentose, villous with septate trichomes along veins, adaxial green, covered with short appressed bristlelike spines, sometimes tomentose when young;</text>
+      <structure id="o10622" name="blade">
+        <character char_type="range_value" name="shape" from="oblong-lanceolate" to="obovate" />
+        <character name="shape" value="oblong-lanceolate" />
+        <character name="shape" value="obovate" />
+        <character char_type="range_value" name="length" from="15" from_unit="cm" to="40" to_unit="cm" />
+        <character char_type="range_value" name="width" from="6" from_unit="cm" to="15" to_unit="cm" />
+      </structure>
+      <structure id="o10623" name="plane" constraint="margins">
+        <character name="shape_or_vernation" value="revolute" />
+        <character name="shape" value="1-2-pinnatifid" modifier="coarsely" constraint="with lobes" constraintid="o10624" />
+        <character name="shape" value="spinose-dentate" modifier="sometimes merely" />
+      </structure>
+      <structure id="o10624" name="lobe">
+        <character name="arrangement" value="divergent" modifier="rigidly" />
+      </structure>
+      <structure id="o10625" name="lobe">
+        <character char_type="range_value" name="shape" from="triangular" to="lanceolate , entire" />
+        <character name="shape" value="triangular" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="entire" />
+        <character name="shape" value="spiny-dentate" />
+      </structure>
+      <structure id="o10626" name="spine" constraint="main">
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+      <structure id="o10627" name="face" constraint="abaxial">
+        <character name="pubescence" value="gray-tomentose" />
+        <character name="pubescence" value="villous" constraint="with trichomes" constraintid="o10628" />
+        <character name="insertion_or_position" value="adaxial" />
+        <character name="coloration" value="green" />
+        <character name="pubescence" value="tomentose" modifier="sometimes" />
+        <character name="age" value="young" />
+      </structure>
+      <structure id="o10628" name="trichome">
+        <character name="architecture" value="septate" />
+      </structure>
+      <structure id="o10629" name="vein" />
+      <relation id="r1215" name="along" from="o10628" to="o10629" negation="false" />
+      <structure id="o10630" name="spine">
+        <character name="size" value="short" />
+        <character name="orientation" value="appressed" />
+        <character name="shape" value="bristlelike" />
+      </structure>
+      <relation id="r1216" name="covered with" from="o10627" to="o10630" negation="false" />
+    </statement>
+    <statement id="52.txt-5">
+      <text>basal present or absent at flowering, petioles winged, bases tapered;</text>
+      <structure id="o10631" name="leaf" constraint="basal; at flowering" />
+      <structure id="o10632" name="petiole">
+        <character name="architecture" value="winged" />
+      </structure>
+      <structure id="o10633" name="base">
+        <character name="shape" value="tapered" />
+      </structure>
+    </statement>
+    <statement id="52.txt-6">
+      <text>principal cauline winged-petiolate, mid and distal becoming sessile, well distributed or not, progressively reduced distally, at least distal decurrent as long spiny wings;</text>
+      <structure id="o10634" name="leaf" constraint="principal cauline">
+        <character name="architecture" value="winged-petiolate" />
+        <character name="position" value="mid" />
+        <character name="arrangement" value="distributed" modifier="well" />
+        <character name="arrangement" value="distributed" modifier="well; not" />
+        <character name="size" value="reduced" modifier="progressively ; distally" />
+      </structure>
+      <structure id="o10635" name="leaf" constraint="distal">
+        <character name="architecture" value="sessile" modifier="becoming" />
+      </structure>
+      <structure id="o10636" name="leaf" constraint="distal">
+        <character name="shape" value="decurrent" constraint="as wings" constraintid="o10637" />
+      </structure>
+      <structure id="o10637" name="wing">
+        <character name="size" value="long" />
+        <character name="architecture_or_shape" value="spiny" />
+      </structure>
+    </statement>
+    <statement id="52.txt-7">
+      <text>distal cauline often more deeply lobed than proximal, main lobes rigidly spiny, margins spinulose, otherwise entire.</text>
+      <structure id="o10638" name="leaf" constraint="distal cauline">
+        <character name="shape" value="more deeply lobed than proximal" modifier="often" />
+      </structure>
+      <structure id="o10639" name="lobe" constraint="main">
+        <character name="architecture_or_shape" value="spiny" modifier="rigidly" />
+      </structure>
+      <structure id="o10640" name="margin">
+        <character name="shape_or_architecture" value="spinulose" />
+        <character name="shape" value="entire" modifier="otherwise" />
+      </structure>
+    </statement>
+    <statement id="52.txt-8">
+      <text>Heads few–many in corymbiform or paniculiform arrays.</text>
+      <structure id="o10641" name="head">
+        <character char_type="range_value" name="count" from="few" to="many" constraint="in arrays" constraintid="o10642" />
+      </structure>
+      <structure id="o10642" name="array">
+        <character name="architecture" value="corymbiform" />
+        <character name="architecture" value="paniculiform" />
+      </structure>
+    </statement>
+    <statement id="52.txt-9">
+      <text>Peduncles 1–6 cm.</text>
+      <structure id="o10643" name="peduncle">
+        <character char_type="range_value" name="size" from="1" from_unit="cm" to="6" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="52.txt-10">
+      <text>Involucres hemispheric to campanulate, 3–4 × 2–4 cm, loosely arachnoid-tomentose.</text>
+      <structure id="o10644" name="involucre">
+        <character char_type="range_value" name="shape" from="hemispheric" to="campanulate" />
+        <character name="shape" value="hemispheric" />
+        <character name="shape" value="campanulate" />
+        <character char_type="range_value" name="length" from="3" from_unit="cm" to="4" to_unit="cm" />
+        <character char_type="range_value" name="width" from="2" from_unit="cm" to="4" to_unit="cm" />
+        <character name="pubescence" value="arachnoid-tomentose" modifier="loosely" />
+      </structure>
+    </statement>
+    <statement id="52.txt-11">
+      <text>Phyllaries in 10–12 series, strongly imbricate, linear-lanceolate (outer) to linear (inner), outer and middle appressed, (bases stramineous), margins entire, abaxial faces without glutinous ridge, apices radiating, greenish, spines 2–5 mm;</text>
+      <structure id="o10645" name="phyllary">
+        <character name="aestivation_or_arrangement" value="imbricate" modifier="strongly" />
+        <character char_type="range_value" name="shape" from="linear-lanceolate" to="linear" />
+        <character name="shape" value="linear-lanceolate" />
+        <character name="shape" value="linear" />
+        <character name="position" value="outer" />
+      </structure>
+      <structure id="o10646" name="series">
+        <character char_type="range_value" name="count" from="10" to="12" />
+      </structure>
+      <relation id="r1217" name="in" from="o10645" to="o10646" negation="false" />
+      <structure id="o10647" name="middle">
+        <character name="orientation" value="appressed" />
+      </structure>
+      <structure id="o10648" name="margin">
+        <character name="shape" value="entire" />
+      </structure>
+      <structure id="o10649" name="face" constraint="abaxial" />
+      <structure id="o10650" name="ridge">
+        <character name="coating_or_texture" value="glutinous" />
+      </structure>
+      <relation id="r1218" name="without" from="o10649" to="o10650" negation="false" />
+      <structure id="o10651" name="apex">
+        <character name="orientation" value="radiating" />
+        <character name="coloration" value="greenish" />
+      </structure>
+      <structure id="o10652" name="spine">
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="52.txt-12">
+      <text>apices of inner phyllaries flat, serrulate to minutely erose.</text>
+      <structure id="o10653" name="apex">
+        <character char_type="range_value" name="shape" from="flat , serrulate" to="minutely erose" />
+        <character name="shape" value="flat" />
+        <character name="shape" value="serrulate" />
+        <character name="shape" value="erose" modifier="minutely" />
+      </structure>
+      <structure id="o10654" name="phyllary" constraint="inner" />
+      <relation id="r1219" name="part_of" from="o10653" to="o10654" negation="false" />
+    </statement>
+    <statement id="52.txt-13">
+      <text>Corollas purple (rarely white), 25–35 mm, tubes 18–25 mm, throats 5–6 mm, lobes 5–7 mm;</text>
+      <structure id="o10655" name="corolla">
+        <character name="coloration" value="purple" />
+        <character char_type="range_value" name="size" from="25" from_unit="mm" to="35" to_unit="mm" />
+      </structure>
+      <structure id="o10656" name="tube">
+        <character char_type="range_value" name="size" from="18" from_unit="mm" to="25" to_unit="mm" />
+      </structure>
+      <structure id="o10657" name="throat">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+      <structure id="o10658" name="lobe">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="52.txt-14">
+      <text>style tips 3.5–6 mm.</text>
+      <structure id="o10659" name="tip" constraint="style">
+        <character char_type="range_value" name="size" from="3.5" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="52.txt-15">
+      <text>Cypselae light brown with darker streaks, 3–4.5 mm, apical collar not differentiated;</text>
+      <structure id="o10660" name="cypsela">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="4.5" to_unit="mm" />
+      </structure>
+      <structure id="o10661" name="streak">
+        <character name="coloration" value="brown with darker" modifier="light" />
+      </structure>
+      <structure id="o10662" name="collar" constraint="apical">
+        <character name="differentiation" value="differentiated" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="52.txt-16">
+      <text>pappi 20–30 mm.</text>
+      <structure id="o10663" name="pappus">
+        <character char_type="range_value" name="size" from="20" from_unit="mm" to="30" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="52.txt-17">
+      <text>2 n = 68.</text>
+      <structure id="o10664" name="chromosome">
+        <character name="count" value="68" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>year round</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>winter</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>nov</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>dec</flowering_time>
+  <flowering_time>jan</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>feb</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>mar</flowering_time>
+  <habitat>invasive weed of disturbed sites</habitat>
+  <habitat>pastures</habitat>
+  <habitat>meadows</habitat>
+  <habitat>forest openings</habitat>
+  <habitat>roadsides</habitat>
+  <elevation>0–2200 m;</elevation>
+  <introduced>introduced;</introduced>
+  <global_distribution>St. Pierre and Miquelon</global_distribution>
+  <ca_distribution>Alta.</ca_distribution>
+  <ca_distribution>B.C.</ca_distribution>
+  <ca_distribution>Man.</ca_distribution>
+  <ca_distribution>N.B.</ca_distribution>
+  <ca_distribution>Nfld. and Labr. (Nfld.)</ca_distribution>
+  <ca_distribution>N.S.</ca_distribution>
+  <ca_distribution>Ont.</ca_distribution>
+  <ca_distribution>P.E.I.</ca_distribution>
+  <ca_distribution>Que.</ca_distribution>
+  <ca_distribution>Sask.</ca_distribution>
+  <us_distribution>Ala.</us_distribution>
+  <us_distribution>Alaska</us_distribution>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Ark.</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Conn.</us_distribution>
+  <us_distribution>Del.</us_distribution>
+  <us_distribution>D.C.</us_distribution>
+  <us_distribution>Fla.</us_distribution>
+  <us_distribution>Ga.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Ill.</us_distribution>
+  <us_distribution>Ind.</us_distribution>
+  <us_distribution>Iowa</us_distribution>
+  <us_distribution>Kans.</us_distribution>
+  <us_distribution>Ky.</us_distribution>
+  <us_distribution>La.</us_distribution>
+  <us_distribution>Maine</us_distribution>
+  <us_distribution>Md.</us_distribution>
+  <us_distribution>Mass.</us_distribution>
+  <us_distribution>Mich.</us_distribution>
+  <us_distribution>Minn.</us_distribution>
+  <us_distribution>Miss.</us_distribution>
+  <us_distribution>Mo.</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>Nebr.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>N.H.</us_distribution>
+  <us_distribution>N.J.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>N.C.</us_distribution>
+  <us_distribution>N.Dak.</us_distribution>
+  <us_distribution>Ohio</us_distribution>
+  <us_distribution>Okla.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <us_distribution>R.I.</us_distribution>
+  <us_distribution>S.C.</us_distribution>
+  <us_distribution>S.Dak.</us_distribution>
+  <us_distribution>Tenn.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Vt.</us_distribution>
+  <us_distribution>Va.</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <us_distribution>W.Va.</us_distribution>
+  <us_distribution>Wis.</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <global_distribution>Eurasia.</global_distribution>
+  <discussion>Native to Eurasia, Cirsium vulgare is the only thistle in North America with bristlelike spines borne on the adaxial leaf faces. These structures are variously described in the literature as trichomes (“spreading hirsute,” “scabrous-hispid,” “coarsely hispid,” “rigid, rather pungent setae,” “prickly-hairy”), prickles, or spines (“setose-spinulose,” “appressed and dense spines”). My examination of cleared leaves of C. vulgare indicated that these structures are not epidermal outgrowths (trichomes or prickles) but emerge from fine veinlets within the tissues of the leaf. As such, they are properly treated as spines.</discussion>
+  <discussion>Bull thistle is a noxious weed that has invaded disturbed habitats across the continent. Distasteful to livestock, it can increase in heavily grazed pastures. It occurs in a wide variety of habitats.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

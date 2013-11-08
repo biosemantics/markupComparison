@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Uropappus lindleyi</species_name>
+  <authority>(de Candolle) Nuttall</authority>
+  <place_of_publication>Trans. Amer. Philos. Soc., n. s. 7: 425. 1841</place_of_publication>
+  <common_name>Lindley’s silver puff</common_name>
+  <synonym_of_species_name>Calaïs lindleyi de Candolle in A. P. de Candolle and A. L. P. P. de Candolle, Prodr. 7: 85. 1838; Microseris lindleyi (de Candolle) A. Gray; M. linearifolia (Nuttall) Schultz Bipontinus; Uropappus linearifolius Nuttall</synonym_of_species_name>
+  <description>
+    <statement id="492.txt-0">
+      <text>Leaves 5–30 cm.</text>
+      <structure id="o9892" name="leaf">
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="30" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="492.txt-1">
+      <text>Peduncles 5–40 cm.</text>
+      <structure id="o9893" name="peduncle">
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="40" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="492.txt-2">
+      <text>Involucres 10–40 mm after flowering.</text>
+      <structure id="o9894" name="involucre">
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="40" to_unit="mm" modifier="after flowering" />
+      </structure>
+    </statement>
+    <statement id="492.txt-3">
+      <text>Phyllaries reflexed in fruit, oftenreddish, outer 2–8, inner 3–18.</text>
+      <structure id="o9895" name="phyllary">
+        <character name="orientation" value="reflexed" constraint="in fruit" constraintid="o9896" />
+        <character name="position" value="outer" />
+        <character char_type="range_value" name="count" from="2" to="8" />
+        <character name="position" value="inner" />
+        <character char_type="range_value" name="count" from="3" to="18" />
+      </structure>
+      <structure id="o9896" name="fruit" />
+    </statement>
+    <statement id="492.txt-4">
+      <text>Ligules 2-–10 mm, equaling or barely surpassing phyllaries at flowering .</text>
+      <structure id="o9897" name="ligule">
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="-10" to_unit="mm" />
+      </structure>
+      <structure id="o9898" name="phyllary" constraint="at flowering">
+        <character name="comparison" value="equaling" />
+        <character name="comparison" value="surpassing" modifier="barely" />
+      </structure>
+    </statement>
+    <statement id="492.txt-5">
+      <text>Cypselae 7–17 mm;</text>
+      <structure id="o9899" name="cypsela">
+        <character char_type="range_value" name="size" from="7" from_unit="mm" to="17" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="492.txt-6">
+      <text>pappi:</text>
+      <structure id="o9900" name="pappus" />
+    </statement>
+    <statement id="492.txt-7">
+      <text>scales 5–15 mm, apices notched 1–2 mm, bristles delicate, 4–6 mm.</text>
+      <structure id="o9901" name="scale">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="15" to_unit="mm" />
+      </structure>
+      <structure id="o9902" name="apex">
+        <character name="shape" value="notched" />
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="2" to_unit="mm" />
+      </structure>
+      <structure id="o9903" name="bristle">
+        <character name="fragility" value="delicate" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="492.txt-8">
+      <text>2 n = 18.</text>
+      <structure id="o9904" name="chromosome">
+        <character name="count" value="18" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <habitat>grasslands</habitat>
+  <habitat>shrub steppe</habitat>
+  <habitat>open oak woodlands</habitat>
+  <habitat>chaparral</habitat>
+  <habitat>s coastal scrub</habitat>
+  <habitat>deserts</habitat>
+  <habitat>usually well drained soils on slopes</habitat>
+  <habitat>road banks</habitat>
+  <habitat>serpentine gravels</habitat>
+  <habitat>sandy desert flats</habitat>
+  <elevation>10–1800 m;</elevation>
+  <ca_distribution>B.C.</ca_distribution>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <global_distribution>Mexico (Baja California).</global_distribution>
+  <global_distribution>Mexico (Sonora).</global_distribution>
+  <discussion>Uropappus lindleyi grows in the Columbia-Snake Rivers Plateau Province, Basin and Range Province, Interior Mountains and Plateaus System, and the Pacific Border System.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>2.</number>
+  <species_name>Arctotis stoechadifolia</species_name>
+  <authority>P. J. Bergius</authority>
+  <place_of_publication>Descr. Pl. Cap., 324. 1767</place_of_publication>
+  <common_name>Blue-eyed African-daisy</common_name>
+  <synonym_of_species_name>Arctotis grandis Thunberg; A. stoechadifolia var. grandis (Thunberg) Lessing; A. venusta Norlindh</synonym_of_species_name>
+  <description>
+    <statement id="235.txt-0">
+      <text>Annuals or short-lived perennials, (20–)40–70(–100) cm, arachnose, pannose, or woolly.</text>
+      <structure id="o3950" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="20" to="40" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_size" from="70" to="100" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="40" from_unit="cm" to="70" to_unit="cm" />
+        <character name="pubescence" value="arachnose" />
+        <character name="pubescence" value="pannose" />
+        <character name="pubescence" value="woolly" />
+        <character name="life_style" value="annual" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="235.txt-1">
+      <text>Leaves:</text>
+    </statement>
+    <statement id="235.txt-2">
+      <text>basal and cauline, obovate, 5–20 cm × 10–45 mm, margins usually entire to undulate, sometimes dentate, lyrate, or pinnately lobed (basal and proximal cauline usually withering before flowering, their bases petioliform);</text>
+      <structure id="o3952" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="shape" value="obovate" />
+        <character char_type="range_value" name="length" from="5" from_unit="cm" to="20" to_unit="cm" />
+        <character char_type="range_value" name="width" from="10" from_unit="mm" to="45" to_unit="mm" />
+      </structure>
+      <structure id="o3953" name="margin">
+        <character char_type="range_value" name="shape" from="usually entire" to="undulate , sometimes dentate , lyrate , or pinnately lobed" />
+        <character name="shape" value="entire" modifier="usually" />
+        <character name="shape" value="undulate" modifier="usually" />
+        <character name="shape" value="dentate" modifier="sometimes" />
+        <character name="shape" value="lyrate" modifier="sometimes" />
+        <character name="shape" value="lobed" modifier="pinnately" />
+      </structure>
+    </statement>
+    <statement id="235.txt-3">
+      <text>distal cauline smaller (sessile, bases clasping).</text>
+      <structure id="o3954" name="leaf" constraint="distal cauline">
+        <character name="size" value="smaller" />
+      </structure>
+    </statement>
+    <statement id="235.txt-4">
+      <text>Peduncles (6–)10–20(–30) cm, sometimes with 1 or 2 leaves (1–3 cm).</text>
+      <structure id="o3955" name="peduncle">
+        <character char_type="range_value" name="atypical_size" from="6" to="10" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_size" from="20" to="30" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="20" to_unit="cm" />
+      </structure>
+      <structure id="o3956" name="leaf">
+        <character name="count" value="1" />
+        <character name="count" value="2" />
+      </structure>
+      <relation id="r560" name="with" from="o3955" to="o3956" negation="false" modifier="sometimes" />
+    </statement>
+    <statement id="235.txt-5">
+      <text>Phyllaries:</text>
+      <structure id="o3957" name="phyllary" />
+    </statement>
+    <statement id="235.txt-6">
+      <text>outer appressed, linear to linear-lanceolate, abaxial faces arachnose (appendages 1–3 mm, blunt, woolly);</text>
+      <structure id="o3958" name="phyllary" constraint="outer">
+        <character name="orientation" value="appressed" />
+        <character char_type="range_value" name="shape" from="linear" to="linear-lanceolate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="linear-lanceolate" />
+      </structure>
+      <structure id="o3959" name="face" constraint="abaxial">
+        <character name="pubescence" value="arachnose" />
+      </structure>
+    </statement>
+    <statement id="235.txt-7">
+      <text>inner appressed, ± lanceolate (appendages 4–6 mm, rounded to acute, ciliate).</text>
+      <structure id="o3960" name="phyllary" constraint="inner">
+        <character name="orientation" value="appressed" />
+        <character name="shape" value="lanceolate" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="235.txt-8">
+      <text>Ray florets 22–30 in 1 series;</text>
+      <structure id="o3961" name="floret" constraint="ray">
+        <character char_type="range_value" name="count" from="22" to="30" constraint="in series" constraintid="o3962" />
+      </structure>
+      <structure id="o3962" name="series">
+        <character name="count" value="1" />
+      </structure>
+    </statement>
+    <statement id="235.txt-9">
+      <text>corolla laminae (17–)20–30 × 2–4 mm, abaxial faces violet, adaxial white (sometimes yellowish proximally).</text>
+      <structure id="o3963" name="lamina" constraint="corolla">
+        <character char_type="range_value" name="atypical_length" from="17" to="20" from_unit="mm" to_unit="mm" to_inclusive="false" />
+        <character char_type="range_value" name="length" from="20" from_unit="mm" to="30" to_unit="mm" />
+        <character char_type="range_value" name="width" from="2" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+      <structure id="o3964" name="face" constraint="abaxial">
+        <character name="coloration" value="violet" />
+        <character name="insertion_or_position" value="adaxial" />
+        <character name="coloration" value="white" />
+      </structure>
+    </statement>
+    <statement id="235.txt-10">
+      <text>Cypselae obovoid, 2–3 mm, sericeous (hairs from bases) and tomentulose (on faces);</text>
+      <structure id="o3965" name="cypsela">
+        <character name="shape" value="obovoid" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="3" to_unit="mm" />
+        <character name="pubescence" value="sericeous" />
+        <character name="pubescence" value="tomentulose" />
+      </structure>
+    </statement>
+    <statement id="235.txt-11">
+      <text>pappi of 5–8, ovate to oblong, hyaline scales 0.5–4 mm (outer shorter).</text>
+      <structure id="o3966" name="pappus" />
+      <structure id="o3967" name="scale">
+        <character char_type="range_value" name="count" from="5" to="8" />
+        <character char_type="range_value" name="shape" from="ovate" to="oblong" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="oblong" />
+        <character name="coloration" value="hyaline" />
+        <character char_type="range_value" name="size" from="0.5" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+      <relation id="r561" name="consist_of" from="o3966" to="o3967" negation="false" />
+    </statement>
+    <statement id="235.txt-12">
+      <text>2 n = 18.</text>
+      <structure id="o3968" name="chromosome">
+        <character name="count" value="18" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jan</flowering_time>
+  <flowering_time>winter</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <flowering_time>nov</flowering_time>
+  <habitat>roadsides</habitat>
+  <habitat>waste places</habitat>
+  <habitat>especially in sandy soils near coasts</habitat>
+  <elevation>0–300 m;</elevation>
+  <introduced>introduced;</introduced>
+  <us_distribution>Calif.</us_distribution>
+  <global_distribution>Africa.</global_distribution>
+  <discussion>N. T. Norlindh (1964, 1965) treated Arctotis venusta as separate from A. stoechadifolia. In the sense of Norlindh, the latter is a rare endemic of sand dunes of the Southwestern Cape of Africa and A. venusta is common, more widespread, sometimes weedy in its native range, and cultivated elsewhere as an ornamental. Specimens from California examined for this treatment most closely resemble A. venusta in having tap roots with erect stems not rooting at nodes and phyllaries with blunt, woolly appendages less than 3 mm.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

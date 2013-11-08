@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Glebionis segetum</species_name>
+  <authority>(Linnaeus) Fourreau</authority>
+  <place_of_publication>Ann. Soc. Linn. Lyon, n. s. 17: 90. 1869</place_of_publication>
+  <common_name>Corn marigold</common_name>
+  <synonym_of_species_name>Chrysanthemum segetum Linnaeus, Sp. Pl. 2: 889. 1753; Xantophtalmum segetum (Linnaeus) Schultz-Bipontinus</synonym_of_species_name>
+  <description>
+    <statement id="969.txt-1">
+      <text>Ray corollas golden yellow, laminae oblong-ovate, 8–20 mm.</text>
+      <structure id="o19952" name="corolla" constraint="ray">
+        <character name="coloration" value="yellow" modifier="golden" />
+      </structure>
+      <structure id="o19953" name="lamina">
+        <character name="shape" value="oblong-ovate" />
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="20" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="969.txt-2">
+      <text>Ray cypselae weakly triquetrous, 2.5–3 mm, obscurely, if at all, winged, lateral faces 2-ribbed, abaxial faces 3-ribbed;</text>
+      <structure id="o19954" name="cypsela" constraint="ray">
+        <character name="shape" value="triquetrous" modifier="weakly" />
+        <character char_type="range_value" name="size" from="2.5" from_unit="mm" to="3" to_unit="mm" />
+        <character name="architecture" value="winged" />
+      </structure>
+      <structure id="o19955" name="face" constraint="lateral">
+        <character name="architecture_or_shape" value="2-ribbed" />
+      </structure>
+      <structure id="o19956" name="face" constraint="abaxial">
+        <character name="architecture_or_shape" value="3-ribbed" />
+      </structure>
+    </statement>
+    <statement id="969.txt-3">
+      <text>disc cypselae ± compressed-columnar, 2–3 mm, 10-ribbed, not winged.</text>
+      <structure id="o19957" name="cypsela" constraint="disc">
+        <character name="shape" value="compressed-columnar" modifier="±" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="3" to_unit="mm" />
+        <character name="architecture_or_shape" value="10-ribbed" />
+        <character name="architecture" value="winged" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="969.txt-4">
+      <text>2 n = 18.</text>
+      <structure id="o19958" name="chromosome">
+        <character name="count" value="18" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>disturbed sites</habitat>
+  <elevation>0–100 m;</elevation>
+  <introduced>introduced;</introduced>
+  <us_distribution>Ala.</us_distribution>
+  <us_distribution>Alaska</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Conn.</us_distribution>
+  <us_distribution>La.</us_distribution>
+  <us_distribution>Maine</us_distribution>
+  <us_distribution>Mass.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>N.C.</us_distribution>
+  <us_distribution>Ohio</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <us_distribution>S.C.</us_distribution>
+  <global_distribution>Eurasia</global_distribution>
+  <global_distribution>n Africa.</global_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

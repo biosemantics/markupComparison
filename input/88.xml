@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>29a.</number>
+  <variety_name>Cirsium pulcherrimum (Rydberg) K. Schumann var. aridum</variety_name>
+  <authority>(Dorn) D. J. Keil</authority>
+  <place_of_publication>Sida 21: 215. 2004</place_of_publication>
+  <common_name>Cedar Rim thistle</common_name>
+  <synonym_of_variety_name>Cirsium aridum Dorn, Vasc. Pl. Wyoming ed. 2, 304, plate [p. 305]. 1992</synonym_of_variety_name>
+  <description>
+    <statement id="88.txt-0">
+      <text>Stems often clustered from branched rootstock, 15–40 cm, bases not thickened.</text>
+      <structure id="o18303" name="stem">
+        <character name="arrangement_or_habit" value="clustered" modifier="often" constraint="from rootstock" constraintid="o18304" />
+        <character char_type="range_value" name="size" from="15" from_unit="cm" to="40" to_unit="cm" />
+      </structure>
+      <structure id="o18304" name="rootstock" constraint="branched" />
+      <structure id="o18305" name="base">
+        <character name="thickness" value="thickened" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="88.txt-1">
+      <text>Adaxial leaf faces gray- to white-tomentose.</text>
+      <structure id="o18306" name="face" constraint="adaxial leaf">
+        <character name="pubescence" value="gray-to-white-tomentose" />
+      </structure>
+    </statement>
+    <statement id="88.txt-2">
+      <text>Heads 1–4, in compact arrays.</text>
+      <structure id="o18307" name="head">
+        <character char_type="range_value" name="count" from="1" to="4" />
+      </structure>
+      <structure id="o18308" name="array">
+        <character name="architecture" value="compact" />
+      </structure>
+      <relation id="r1937" name="in" from="o18307" to="o18308" negation="false" />
+    </statement>
+    <statement id="88.txt-3">
+      <text>Cypselae without stramineous apical collars.</text>
+      <structure id="o18309" name="cypsela" />
+      <structure id="o18310" name="collar" constraint="apical">
+        <character name="coloration" value="stramineous" />
+      </structure>
+      <relation id="r1938" name="without" from="o18309" to="o18310" negation="false" />
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>barren slopes in shallow, stony soil in very open, arid grasslands</habitat>
+  <conservation>of conservation concern;</conservation>
+  <elevation>2000–2200 m;</elevation>
+  <us_distribution>Wyo.</us_distribution>
+  <discussion>In describing variety aridum, Dorn suggested that it “seems to belong to the C. hookerianum group,” but I fail to see this relationship. Its affinities clearly lie with Cirsium pulcherrimum. It is usually differentiable from var. pulcherrimum by the characters above, but it grows and intergrades with var. pulcherrimum on the Sweetwater Plateau in Fremont County. W. Fertig (unpubl.) has studied the ecology and distribution of var. aridum [as C. aridum] and the very similar pubescent forms of var. pulcherriumum [as C. pulcherrimum].</discussion>
+  <discussion>Variety aridum occurs in scattered localities on barren hills in Carbon, Fremont, and Sweetwater counties. It is a rare taxon, but it has not received official recognition by governmental agencies. However it is in the Center for Plant Conservation’s National Collection of Endangered Plants.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

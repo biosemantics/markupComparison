@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>106.</number>
+  <genus_name>PULICARIA</genus_name>
+  <authority>Gaertner</authority>
+  <place_of_publication>Fruct. Sem. Pl. 2: 461, plate 173, fig. 7. 1791</place_of_publication>
+  <common_name>False fleabane</common_name>
+  <derivation>Latin pulex , flea, and -aria , pertaining to; alluding to use of the plants as flea repellent</derivation>
+  <author_of_tribe_genus>Robert E. Preston</author_of_tribe_genus>
+  <description>
+    <statement id="789.txt-0">
+      <text>Annuals (biennials, or perennials) [shrubs, subshrubs], (5–)20–120 cm (sometimes rhizomatous).</text>
+      <structure id="o16649" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="5" to="20" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="20" from_unit="cm" to="120" to_unit="cm" />
+        <character name="life_style" value="annual" />
+      </structure>
+    </statement>
+    <statement id="789.txt-1">
+      <text>Leaves basal and/or cauline (mostly cauline at flowering), alternate;</text>
+    </statement>
+    <statement id="789.txt-2">
+      <text>usually sessile;</text>
+      <structure id="o16650" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="arrangement" value="alternate" />
+        <character name="architecture" value="sessile" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="789.txt-3">
+      <text>blade margins entire or ± dentate to serrate.</text>
+      <structure id="o16651" name="margin" constraint="blade">
+        <character name="shape" value="entire" />
+        <character name="shape" value="dentate to serrate" />
+        <character char_type="range_value" name="shape" from="dentate" to="serrate" modifier="±" />
+        <character name="shape" value="dentate" modifier="±" />
+        <character name="shape" value="serrate" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="789.txt-4">
+      <text>Heads radiate [disciform or discoid], in corymbiform, racemiform, or paniculiform arrays.</text>
+      <structure id="o16652" name="head">
+        <character name="architecture_or_arrangement" value="radiate" />
+      </structure>
+      <structure id="o16653" name="array">
+        <character name="architecture" value="corymbiform" />
+        <character name="architecture" value="racemiform" />
+        <character name="architecture" value="paniculiform" />
+      </structure>
+      <relation id="r1791" name="in" from="o16652" to="o16653" negation="false" />
+    </statement>
+    <statement id="789.txt-5">
+      <text>Involucres hemispheric to campanulate, [3–]5–10[–20+] mm diam.</text>
+      <structure id="o16654" name="involucre">
+        <character char_type="range_value" name="shape" from="hemispheric" to="campanulate" />
+        <character name="shape" value="hemispheric" />
+        <character name="shape" value="campanulate" />
+        <character char_type="range_value" name="atypical_size" from="3" to="5" from_unit="mm" to_unit="mm" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_size" from="10" to="20" from_unit="mm" to_unit="mm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="789.txt-6">
+      <text>Phyllaries persistent (reflexed in fruit), in (2–)3–4+ series, unequal to subequal.</text>
+      <structure id="o16655" name="phyllary">
+        <character name="duration" value="persistent" />
+        <character char_type="range_value" name="size" from="unequal" to="subequal" />
+        <character name="size" value="unequal" />
+        <character name="size" value="subequal" />
+      </structure>
+      <structure id="o16656" name="series" constraint="2-3-4+" />
+      <relation id="r1792" name="in" from="o16655" to="o16656" negation="false" />
+    </statement>
+    <statement id="789.txt-7">
+      <text>Receptacles flat, smooth or minutely alveolate, epaleate.</text>
+      <structure id="o16657" name="receptacle">
+        <character name="shape" value="flat" />
+        <character name="relief" value="smooth" />
+        <character name="relief" value="alveolate" modifier="minutely" />
+        <character name="architecture" value="epaleate" />
+      </structure>
+    </statement>
+    <statement id="789.txt-8">
+      <text>Ray florets (10–)20–30[–60+], pistillate, fertile;</text>
+      <structure id="o16658" name="floret" constraint="ray">
+        <character char_type="range_value" name="atypical_count" from="10" to="20" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_count" from="30" to="60" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="20" to="30" />
+        <character name="architecture" value="pistillate" />
+        <character name="reproduction" value="fertile" />
+      </structure>
+    </statement>
+    <statement id="789.txt-9">
+      <text>corollas yellow, laminae 1.5–2+ mm.</text>
+      <structure id="o16659" name="corolla">
+        <character name="coloration" value="yellow" />
+      </structure>
+      <structure id="o16660" name="lamina">
+        <character char_type="range_value" name="size" from="1.5" from_unit="mm" to="2" to_unit="mm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="789.txt-10">
+      <text>Disc florets (9–)40–100[–150+];</text>
+      <structure id="o16661" name="floret" constraint="disc">
+        <character char_type="range_value" name="atypical_count" from="9" to="40" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_count" from="100" to="150" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="40" to="100" />
+      </structure>
+    </statement>
+    <statement id="789.txt-11">
+      <text>corollas yellow, lobes 5.</text>
+      <structure id="o16662" name="corolla">
+        <character name="coloration" value="yellow" />
+      </structure>
+      <structure id="o16663" name="lobe">
+        <character name="count" value="5" />
+      </structure>
+    </statement>
+    <statement id="789.txt-12">
+      <text>Cypselae ellipsoid (abruptly constricted distally; often glandular distally);</text>
+      <structure id="o16664" name="cypsela">
+        <character name="shape" value="ellipsoid" />
+      </structure>
+    </statement>
+    <statement id="789.txt-13">
+      <text>pappi persistent, outer of basally connate, ± erose scales (usually forming cups), inner of distinct (fragile), barbellate or flattened bristles.</text>
+      <structure id="o16665" name="pappus">
+        <character name="duration" value="persistent" />
+        <character name="position" value="outer" constraint="of scales" constraintid="o16666" />
+        <character name="position" value="inner" constraint="of bristles" constraintid="o16667" />
+      </structure>
+      <structure id="o16666" name="scale">
+        <character name="fusion" value="connate" modifier="basally" />
+        <character name="shape_or_relief" value="erose" modifier="±" />
+      </structure>
+      <structure id="o16667" name="bristle">
+        <character name="fusion" value="distinct" />
+        <character name="architecture" value="barbellate" />
+        <character name="shape" value="flattened" />
+      </structure>
+    </statement>
+    <statement id="789.txt-14">
+      <text>x = 7, 9, 10.</text>
+      <structure id="o16668" name="chromosome">
+        <character name="count" value="7" />
+        <character name="count" value="9" />
+        <character name="count" value="10" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species 100+ (1 in the flora):</number_of_infrataxa>
+  <introduced>introduced;</introduced>
+  <general_distribution>Europe</general_distribution>
+  <general_distribution>Asia</general_distribution>
+  <general_distribution>Africa.</general_distribution>
+  <discussion>Pulicaria arabica (Linnaeus) Cassini (Vicoa auriculata Cassini) was collected in Alabama, California, and Florida in the late 1800s. It does not appear to have become naturalized at any of those locations (A. Cronquist 1980; J. E. Arriagada 1998).</discussion>
+  <discussion>Pulicaria dysenterica (Linnaeus) Bernhardi was collected in the late 1800s as a ballast weed in New Jersey and in Pennsylvania. It was collected in the 1920s growing on the margins of a marsh in Maryland. Although it is widely cultivated for its insecticidal properties, there is no evidence that it has ever become established in the flora (J. E. Arriagada 1998).</discussion>
+  <discussion>Pulicaria vulgaris Gaertner was collected as a ballast weed in New Jersey in 1879. No other collections of the species from North America are known to me.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

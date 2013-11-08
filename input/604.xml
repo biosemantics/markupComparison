@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>81.</number>
+  <genus_name>PINAROPAPPUS</genus_name>
+  <authority>Lessing</authority>
+  <place_of_publication>Syn. Gen. Compos., 143. 1832</place_of_publication>
+  <common_name>Rocklettuce</common_name>
+  <derivation>Greek pinaro, dirty, squalid, and pappos , pappus, alluding to color of pappi</derivation>
+  <author_of_tribe_genus>David J. Bogler</author_of_tribe_genus>
+  <description>
+    <statement id="604.txt-0">
+      <text>Perennials, 3–40 cm;</text>
+    </statement>
+    <statement id="604.txt-1">
+      <text>taprooted (taproots deep, woody) or rhizomatous.</text>
+      <structure id="o12600" name="whole_organism">
+        <character char_type="range_value" name="size" from="3" from_unit="cm" to="40" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+        <character name="architecture" value="taprooted" />
+        <character name="architecture" value="rhizomatous" />
+      </structure>
+    </statement>
+    <statement id="604.txt-2">
+      <text>Stems 1–20+, erect or ascending, simple or branched proximally, ± scapiform, glabrous.</text>
+      <structure id="o12601" name="stem">
+        <character char_type="range_value" name="count" from="1" to="20" upper_restricted="false" />
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="ascending" />
+        <character name="architecture" value="simple" />
+        <character name="architecture_or_shape" value="branched" modifier="proximally" />
+        <character name="shape" value="scapiform" modifier="±" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="604.txt-3">
+      <text>Leaves basal and cauline;</text>
+    </statement>
+    <statement id="604.txt-4">
+      <text>petiolate;</text>
+      <structure id="o12602" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="architecture" value="petiolate" />
+      </structure>
+    </statement>
+    <statement id="604.txt-5">
+      <text>basal blades linear to lanceolate, margins entire, toothed, or pinnately lobed (faces glabrous);</text>
+      <structure id="o12603" name="blade" constraint="basal">
+        <character char_type="range_value" name="shape" from="linear" to="lanceolate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="lanceolate" />
+      </structure>
+      <structure id="o12604" name="margin">
+        <character name="shape" value="entire" />
+        <character name="shape" value="toothed" />
+        <character name="shape" value="lobed" modifier="pinnately" />
+      </structure>
+    </statement>
+    <statement id="604.txt-6">
+      <text>cauline foliaceous or reduced to minute bracts distally.</text>
+      <structure id="o12605" name="leaf" constraint="cauline">
+        <character name="architecture" value="foliaceous" />
+        <character name="architecture" value="reduced to minute bracts" />
+      </structure>
+      <structure id="o12606" name="bract">
+        <character char_type="range_value" name="size" from="reduced" to="minute" />
+        <character name="size" value="reduced" />
+        <character name="size" value="minute" />
+      </structure>
+    </statement>
+    <statement id="604.txt-7">
+      <text>Heads borne singly.</text>
+      <structure id="o12607" name="head">
+        <character name="arrangement" value="singly" />
+      </structure>
+    </statement>
+    <statement id="604.txt-8">
+      <text>Peduncles not inflated distally, sometimes bracteate.</text>
+      <structure id="o12608" name="peduncle">
+        <character name="shape" value="inflated" modifier="not ; distally" />
+        <character name="architecture" value="bracteate" modifier="sometimes" />
+      </structure>
+    </statement>
+    <statement id="604.txt-9">
+      <text>Calyculi 0.</text>
+      <structure id="o12609" name="calyculus">
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+    <statement id="604.txt-10">
+      <text>Involucres cylindric to campanulate, 3–20 mm diam.</text>
+      <structure id="o12610" name="involucre">
+        <character char_type="range_value" name="shape" from="cylindric" to="campanulate" />
+        <character name="shape" value="cylindric" />
+        <character name="shape" value="campanulate" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="20" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="604.txt-11">
+      <text>Phyllaries 18–22 in 3–5 series, ovate to lanceolate, unequal, margins scarious, apices acute.</text>
+      <structure id="o12611" name="phyllary">
+        <character char_type="range_value" name="count" from="18" to="22" constraint="in series" constraintid="o12612" />
+        <character char_type="range_value" name="shape" from="ovate" to="lanceolate" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="lanceolate" />
+        <character name="size" value="unequal" />
+      </structure>
+      <structure id="o12612" name="series">
+        <character char_type="range_value" name="count" from="3" to="5" />
+      </structure>
+      <structure id="o12613" name="margin">
+        <character name="texture" value="scarious" />
+      </structure>
+      <structure id="o12614" name="apex">
+        <character name="shape" value="acute" />
+      </structure>
+    </statement>
+    <statement id="604.txt-12">
+      <text>Receptacles slightly convex, slightly pitted, glabrous, paleate (paleae scarious, acuminate).</text>
+      <structure id="o12615" name="receptacle">
+        <character name="shape" value="convex" modifier="slightly" />
+        <character name="relief" value="pitted" modifier="slightly" />
+        <character name="pubescence" value="glabrous" />
+        <character name="architecture" value="paleate" />
+      </structure>
+    </statement>
+    <statement id="604.txt-13">
+      <text>Florets (10–)20–40(–60);</text>
+      <structure id="o12616" name="floret">
+        <character char_type="range_value" name="atypical_count" from="10" to="20" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_count" from="40" to="60" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="20" to="40" />
+      </structure>
+    </statement>
+    <statement id="604.txt-14">
+      <text>corollas pink, purple, lavender, or nearly white.</text>
+      <structure id="o12617" name="corolla">
+        <character name="coloration" value="pink" />
+        <character name="coloration" value="purple" />
+        <character name="coloration" value="lavender" />
+        <character name="coloration" value="white" modifier="nearly" />
+      </structure>
+    </statement>
+    <statement id="604.txt-15">
+      <text>Cypselae golden or yellowish brown, cylindric or fusiform, tapered to slender beaks, ribs 5–6, rounded, obscure, scabrous or hispidulous;</text>
+      <structure id="o12618" name="cypsela">
+        <character name="coloration" value="golden" />
+        <character name="coloration" value="brown" modifier="yellowish" />
+        <character name="shape" value="cylindric" />
+        <character name="shape" value="fusiform" />
+      </structure>
+      <structure id="o12619" name="beak">
+        <character name="size" value="slender" />
+      </structure>
+      <relation id="r1458" name="tapered to" from="o12618" to="o12619" negation="false" />
+      <structure id="o12620" name="rib">
+        <character char_type="range_value" name="count" from="5" to="6" />
+        <character name="shape" value="rounded" />
+        <character name="manifestation" value="obscure" />
+        <character name="pubescence" value="scabrous" />
+        <character name="pubescence" value="hispidulous" />
+      </structure>
+    </statement>
+    <statement id="604.txt-16">
+      <text>pappi persistent, of 15–60, distinct, tawny or yellowish brown, unequal, barbellulate bristles in 1 series.</text>
+      <structure id="o12621" name="pappus">
+        <character name="duration" value="persistent" />
+      </structure>
+      <structure id="o12622" name="bristle">
+        <character char_type="range_value" name="count" from="15" to="60" />
+        <character name="fusion" value="distinct" />
+        <character name="coloration" value="tawny" />
+        <character name="coloration" value="brown" modifier="yellowish" />
+        <character name="size" value="unequal" />
+        <character name="architecture" value="barbellulate" />
+      </structure>
+      <relation id="r1459" name="consist_of" from="o12621" to="o12622" negation="false" />
+      <structure id="o12623" name="series">
+        <character name="count" value="1" />
+      </structure>
+      <relation id="r1460" name="in" from="o12622" to="o12623" negation="false" />
+    </statement>
+  </description>
+  <number_of_infrataxa>Species 7–10 (2 in the flora):</number_of_infrataxa>
+  <general_distribution>North America</general_distribution>
+  <general_distribution>Mexico</general_distribution>
+  <general_distribution>Central America.</general_distribution>
+  <discussion>Plants of Pinaropappus are recognized by the glabrous leaves in dense rosettes, scapiform stems, graduated phyllaries, and pale lavender and whitish corollas. They are commonly found in dry, rocky, limestone habitats; some species are cliff-dwellers.</discussion>
+  <key>1.Plants 3–7 cm (forming dense clumps and mats); involucres cylindric, 8–10 × 3–5 mm; phyllaries purplish, margins white, apices purplish to dull brown (necrotic)1. Pinaropappus parvus</key>
+  <key>1.Plants 10–30 cm (forming individual rosettes or clumps); involucres campanulate, 10–15 × 12–20 mm; phyllaries pale green, margins pink, apices dark brown2. Pinaropappus roseus</key>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

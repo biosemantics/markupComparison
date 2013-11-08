@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>7.</number>
+  <species_name>Stylocline masonii</species_name>
+  <authority>Morefield</authority>
+  <place_of_publication>Madroño 39: 117, fig. 1. 1992</place_of_publication>
+  <common_name>Mason neststraw</common_name>
+  <description>
+    <statement id="752.txt-0">
+      <text>Plants 1–7(–10) cm.</text>
+      <structure id="o15865" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="7" to="10" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="1" from_unit="cm" to="7" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="752.txt-1">
+      <text>Leaves blunt, not mucronate, longest 5–9 mm;</text>
+      <structure id="o15866" name="leaf">
+        <character name="shape" value="blunt" />
+        <character name="shape" value="mucronate" modifier="not" />
+        <character name="size" value="longest" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="9" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="752.txt-2">
+      <text>largest capitular leaves linear-oblong to narrowly elliptic, 2–5 × ± 1 mm.</text>
+      <structure id="o15867" name="leaf" constraint="largest capitular">
+        <character char_type="range_value" name="shape" from="linear-oblong" to="narrowly elliptic" />
+        <character name="shape" value="linear-oblong" />
+        <character name="shape" value="elliptic" modifier="narrowly" />
+        <character name="size" value="1" unit="mm" />
+      </structure>
+    </statement>
+    <statement id="752.txt-3">
+      <text>Heads in dichasiform or proximally racemiform arrays, ± ellipsoid, largest 2–5 × 1.5–2.5 mm, thinly lanuginose.</text>
+      <structure id="o15868" name="head">
+        <character name="shape" value="ellipsoid" modifier="±" />
+        <character name="size" value="largest" />
+        <character char_type="range_value" name="length" from="2" from_unit="mm" to="5" to_unit="mm" />
+        <character char_type="range_value" name="width" from="1.5" from_unit="mm" to="2.5" to_unit="mm" />
+        <character name="pubescence" value="lanuginose" modifier="thinly" />
+      </structure>
+      <structure id="o15869" name="array">
+        <character name="arrangement" value="dichasiform" />
+        <character name="architecture" value="racemiform" modifier="proximally" />
+      </structure>
+      <relation id="r1713" name="in" from="o15868" to="o15869" negation="false" />
+    </statement>
+    <statement id="752.txt-4">
+      <text>Phyllaries 0, vestigial, or falling, ± subulate, mostly 0.1–0.5 mm, unequal.</text>
+      <structure id="o15870" name="phyllary">
+        <character name="count" value="0" />
+        <character name="manifestation" value="vestigial" />
+        <character name="orientation" value="falling" />
+        <character name="shape" value="subulate" modifier="±" />
+        <character char_type="range_value" name="size" from="0.1" from_unit="mm" to="0.5" to_unit="mm" modifier="mostly" />
+        <character name="size" value="unequal" />
+      </structure>
+    </statement>
+    <statement id="752.txt-5">
+      <text>Receptacles ± cylindric, 2–3 mm, heights 5–8 times diams.;</text>
+      <structure id="o15871" name="receptacle">
+        <character name="shape" value="cylindric" modifier="±" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="3" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="752.txt-6">
+      <text>scars concentrated proximally and distally, raised, peglike.</text>
+      <structure id="o15872" name="scar">
+        <character name="arrangement" value="concentrated" modifier="proximally" />
+        <character name="prominence" value="raised" />
+        <character name="shape" value="peglike" />
+      </structure>
+    </statement>
+    <statement id="752.txt-7">
+      <text>Pistillate paleae:</text>
+      <structure id="o15873" name="palea" constraint="pistillate" />
+    </statement>
+    <statement id="752.txt-8">
+      <text>longest 2–2.7 mm, winged distally;</text>
+      <structure id="o15874" name="palea" constraint="longest">
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="2.7" to_unit="mm" />
+        <character name="architecture" value="winged" modifier="distally" />
+      </structure>
+    </statement>
+    <statement id="752.txt-10">
+      <text>bodies cartilaginous;</text>
+      <structure id="o15875" name="body">
+        <character name="texture" value="cartilaginous" />
+      </structure>
+    </statement>
+    <statement id="752.txt-11">
+      <text>outermost paleae open, concave.</text>
+      <structure id="o15876" name="palea" constraint="outermost">
+        <character name="architecture" value="open" />
+        <character name="shape" value="concave" />
+      </structure>
+    </statement>
+    <statement id="752.txt-12">
+      <text>Functionally staminate florets 2–4;</text>
+      <structure id="o15877" name="floret" constraint="functionally staminate">
+        <character char_type="range_value" name="count" from="2" to="4" />
+      </structure>
+    </statement>
+    <statement id="752.txt-13">
+      <text>ovaries vestigial, 0–0.1 mm;</text>
+      <structure id="o15878" name="ovary">
+        <character name="manifestation" value="vestigial" />
+        <character char_type="range_value" name="size" from="0" from_unit="mm" to="0.1" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="752.txt-14">
+      <text>corollas 0.8–1.1 mm (lobes usually 4).</text>
+      <structure id="o15879" name="corolla">
+        <character char_type="range_value" name="size" from="0.8" from_unit="mm" to="1.1" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="752.txt-15">
+      <text>Cypselae 0.7–1 mm, obcompressed;</text>
+      <structure id="o15880" name="cypsela">
+        <character char_type="range_value" name="size" from="0.7" from_unit="mm" to="1" to_unit="mm" />
+        <character name="shape" value="obcompressed" />
+      </structure>
+    </statement>
+    <statement id="752.txt-16">
+      <text>pappi:</text>
+      <structure id="o15881" name="pappus" />
+    </statement>
+    <statement id="752.txt-17">
+      <text>staminate 0 or of 1 smooth bristle 0.7–1 mm.</text>
+      <structure id="o15882" name="pappus" constraint="staminate">
+        <character name="count" value="0" />
+        <character name="count" value="of 1 smooth bristle" />
+      </structure>
+      <structure id="o15883" name="bristle">
+        <character name="count" value="1" />
+        <character name="architecture_or_relief" value="smooth" />
+        <character char_type="range_value" name="size" from="0.7" from_unit="mm" to="1" to_unit="mm" />
+      </structure>
+      <relation id="r1714" name="consist_of" from="o15882" to="o15883" negation="false" />
+    </statement>
+  </description>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <habitat>open, loose, sandy soils</habitat>
+  <habitat>usually in dry washes</habitat>
+  <conservation>of conservation concern;</conservation>
+  <elevation>100–1200 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <discussion>Stylocline masonii is known from the southern San Joaquin Valley and adjacent mountains of Kern, Los Angeles, Monterey, and San Luis Obispo counties. Reportedly, it is in identifiable condition for only 2–4 weeks in wet years. On average, it is the least conspicuous Stylocline.</discussion>
+  <discussion>Stylocline masonii is sister to, and largely allopatric with, S. psilocarphoides (J. D. Morefield 1992), from which it remains distinct when sympatric (T. S. Ross and S. Boyd 1996).</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

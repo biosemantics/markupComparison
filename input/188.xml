@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Acroptilon repens</species_name>
+  <authority>(Linnaeus) de Candolle</authority>
+  <place_of_publication>in A. P. de Candolle and A. L. P. P. de Candolle, Prodr. 6: 663. 1838</place_of_publication>
+  <synonym_of_species_name>Centaurea repens Linnaeus, Sp. Pl. ed. 2, 2: 1293. 1763; Acroptilon picris (Pallas ex Willdenow) C. A. Meyer; C. picris Pallas ex Willdenow</synonym_of_species_name>
+  <description>
+    <statement id="188.txt-0">
+      <text>Creeping roots usually dark brown or black, with scaly adventitious buds.</text>
+      <structure id="o2492" name="root" constraint="creeping">
+        <character name="coloration" value="brown" modifier="usually ;dark" />
+        <character name="coloration" value="black" modifier="usually" />
+      </structure>
+      <structure id="o2493" name="bud">
+        <character name="pubescence_or_architecture" value="scaly" />
+        <character name="derivation" value="adventitious" />
+      </structure>
+      <relation id="r358" name="with" from="o2492" to="o2493" negation="false" />
+    </statement>
+    <statement id="188.txt-1">
+      <text>Stems ± cobwebby-tomentose.</text>
+      <structure id="o2494" name="stem">
+        <character name="pubescence" value="cobwebby-tomentose" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="188.txt-2">
+      <text>Leaves:</text>
+      <structure id="o2495" name="leaf" />
+    </statement>
+    <statement id="188.txt-3">
+      <text>basal and proximal cauline often deciduous by flowering, blades oblong, 4–15 cm;</text>
+      <structure id="o2496" name="leaf" constraint="basal and proximal cauline">
+        <character name="duration_or_habit" value="deciduous" modifier="often; by flowering" />
+      </structure>
+      <structure id="o2497" name="blade">
+        <character name="shape" value="oblong" />
+        <character char_type="range_value" name="size" from="4" from_unit="cm" to="15" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="188.txt-4">
+      <text>mid and distal linear to linear-lanceolate or oblong, 1–7 cm.</text>
+      <structure id="o2498" name="leaf" constraint="mid and distal">
+        <character char_type="range_value" name="size" from="1" from_unit="cm" to="7" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="188.txt-5">
+      <text>Involucres 9–17 mm, loosely cobwebby.</text>
+      <structure id="o2499" name="involucre">
+        <character char_type="range_value" name="size" from="9" from_unit="mm" to="17" to_unit="mm" />
+        <character name="pubescence" value="cobwebby" modifier="loosely" />
+      </structure>
+    </statement>
+    <statement id="188.txt-6">
+      <text>Phyllaries:</text>
+      <structure id="o2500" name="phyllary" />
+    </statement>
+    <statement id="188.txt-7">
+      <text>apices of inner acute or acuminate, densely short-pilose.</text>
+      <structure id="o2501" name="apex">
+        <character name="shape" value="acute" />
+        <character name="shape" value="acuminate" />
+        <character name="pubescence" value="short-pilose" modifier="densely" />
+      </structure>
+      <structure id="o2502" name="phyllary" constraint="inner" />
+      <relation id="r359" name="part_of" from="o2501" to="o2502" negation="false" />
+    </statement>
+    <statement id="188.txt-8">
+      <text>Corollas 11–14 mm, tubes 6.5–7.5 mm, throats 2–3.5 mm, lobes 3–3.5 mm.</text>
+      <structure id="o2503" name="corolla">
+        <character char_type="range_value" name="size" from="11" from_unit="mm" to="14" to_unit="mm" />
+      </structure>
+      <structure id="o2504" name="tube">
+        <character char_type="range_value" name="size" from="6.5" from_unit="mm" to="7.5" to_unit="mm" />
+      </structure>
+      <structure id="o2505" name="throat">
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="3.5" to_unit="mm" />
+      </structure>
+      <structure id="o2506" name="lobe">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="3.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="188.txt-9">
+      <text>Cypselae ivory to grayish or brown, 2–4 mm;</text>
+      <structure id="o2507" name="cypsela">
+        <character char_type="range_value" name="coloration" from="ivory" to="grayish or brown" />
+        <character name="coloration" value="ivory" />
+        <character name="coloration" value="grayish" />
+        <character name="coloration" value="brown" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="188.txt-10">
+      <text>pappus bristles white, 6–11 mm.</text>
+      <structure id="o2508" name="bristle" constraint="pappus">
+        <character name="coloration" value="white" />
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="11" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="188.txt-11">
+      <text>2 n = 26.</text>
+      <structure id="o2509" name="chromosome">
+        <character name="count" value="26" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>fields</habitat>
+  <habitat>roadsides</habitat>
+  <habitat>riverbanks</habitat>
+  <habitat>ditch banks</habitat>
+  <habitat>clearcuts</habitat>
+  <habitat>cultivated ground</habitat>
+  <elevation>0–2300 m;</elevation>
+  <introduced>introduced;</introduced>
+  <ca_distribution>Alta.</ca_distribution>
+  <ca_distribution>B.C.</ca_distribution>
+  <ca_distribution>Man.</ca_distribution>
+  <ca_distribution>Ont.</ca_distribution>
+  <ca_distribution>Sask.</ca_distribution>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Iowa</us_distribution>
+  <us_distribution>Kans.</us_distribution>
+  <us_distribution>Minn.</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>Nebr.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>N.Dak.</us_distribution>
+  <us_distribution>Okla.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>S.Dak.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <global_distribution>Mexico (Baja California)</global_distribution>
+  <global_distribution>c Asia.</global_distribution>
+  <discussion>Acroptilon repens has been reported also from Arkansas, Illinois, Indiana, Kentucky, Louisiana, Michigan, Missouri, New York, Ohio, Virginia, and Wisconsin; I have not seen specimens from those states.</discussion>
+  <discussion>Acroptilon repens is a serious weed pest, especially in the western United States. It is a strong competitor in infested areas, often forming dense colonies, and has allelopathic effects on other plants growing nearby. It is very difficult to control or eradicate once it becomes established. It reproduces vigorously from seed and spreads from adventitious buds borne on deep-seated runner roots. Root fragments readily regenerate as new individuals after cultivation. In addition, Russian knapweed is very poisonous to horses, causing neurological symptoms. Because of its bitter taste, it is usually avoided by grazing animals, and consequently it tends to spread when more palatable plants are consumed.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

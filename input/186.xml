@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>3.</number>
+  <species_name>Arctium minus</species_name>
+  <authority>(Hill) Bernhardi</authority>
+  <place_of_publication>Syst. Verz., 154. 1800</place_of_publication>
+  <common_name>Common or lesser burdock, petite bardane, cibourroche, chou bourache, bourrier</common_name>
+  <synonym_of_species_name>Lappa minor Hill, Veg. Syst. 4: 28. 1762</synonym_of_species_name>
+  <description>
+    <statement id="186.txt-0">
+      <text>Plants to 50–300 cm.</text>
+      <structure id="o2431" name="whole_organism">
+        <character char_type="range_value" name="size" to="50-300" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="186.txt-1">
+      <text>Basal leaves:</text>
+      <structure id="o2432" name="leaf" constraint="basal" />
+    </statement>
+    <statement id="186.txt-2">
+      <text>petioles hollow (sometimes only at base), 15–50 cm, thinly to densely cobwebby;</text>
+      <structure id="o2433" name="petiole">
+        <character name="architecture" value="hollow" />
+        <character char_type="range_value" name="size" from="15" from_unit="cm" to="50" to_unit="cm" />
+        <character name="pubescence" value="cobwebby" modifier="thinly densely" />
+      </structure>
+    </statement>
+    <statement id="186.txt-3">
+      <text>blades 30–60 × 15–35 cm, coarsely dentate to subentire (rarely deeply dissected), abaxially ± thinly gray-tomentose, adaxially green, sparsely short-hairy.</text>
+      <structure id="o2434" name="blade">
+        <character char_type="range_value" name="length" from="30" from_unit="cm" to="60" to_unit="cm" />
+        <character char_type="range_value" name="width" from="15" from_unit="cm" to="35" to_unit="cm" />
+        <character char_type="range_value" name="shape" from="coarsely dentate" to="subentire" />
+        <character name="shape" value="dentate" modifier="coarsely" />
+        <character name="shape" value="subentire" modifier="coarsely" />
+        <character name="pubescence" value="gray-tomentose" modifier="abaxially ± thinly" />
+        <character name="coloration" value="green" modifier="adaxially" />
+        <character name="pubescence" value="short-hairy" modifier="sparsely" />
+      </structure>
+    </statement>
+    <statement id="186.txt-4">
+      <text>Heads in racemiform or paniculiform clusters, sessile to pedunculate.</text>
+      <structure id="o2435" name="head">
+        <character char_type="range_value" name="architecture" from="sessile" to="pedunculate" />
+        <character name="architecture" value="sessile" />
+        <character name="architecture" value="pedunculate" />
+      </structure>
+      <structure id="o2436" name="cluster">
+        <character name="architecture" value="racemiform" />
+        <character name="architecture" value="paniculiform" />
+      </structure>
+      <relation id="r350" name="in" from="o2435" to="o2436" negation="false" />
+    </statement>
+    <statement id="186.txt-5">
+      <text>Peduncles 0–9.5 cm.</text>
+      <structure id="o2437" name="peduncle">
+        <character char_type="range_value" name="size" from="0" from_unit="cm" to="9.5" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="186.txt-6">
+      <text>Involucres 15–40 mm diam.</text>
+      <structure id="o2438" name="involucre">
+        <character char_type="range_value" name="size" from="15" from_unit="mm" to="40" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="186.txt-7">
+      <text>Phyllaries linear to linear-lanceolate, glabrous to densely cobwebby, inner often purplish tinged, margins often minutely serrate with fine teeth, puberulent with glandular and or eglandular hairs.</text>
+      <structure id="o2439" name="phyllary">
+        <character char_type="range_value" name="shape" from="linear" to="linear-lanceolate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="linear-lanceolate" />
+        <character char_type="range_value" name="pubescence" from="glabrous" to="densely cobwebby" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="cobwebby" modifier="densely" />
+        <character name="position" value="inner" modifier="often" />
+        <character name="coloration" value="tinged" modifier="purplish" />
+      </structure>
+      <structure id="o2440" name="margin">
+        <character name="shape" value="serrate" modifier="often minutely" constraint="with teeth" constraintid="o2441" />
+        <character name="pubescence" value="puberulent" constraint="with hairs" constraintid="o2442" />
+      </structure>
+      <structure id="o2441" name="tooth">
+        <character name="texture" value="fine" />
+      </structure>
+      <structure id="o2442" name="hair">
+        <character name="architecture_or_exudation_or_pubescence" value="glandular" />
+        <character name="architecture" value="eglandular" />
+      </structure>
+    </statement>
+    <statement id="186.txt-8">
+      <text>Florets 30+;</text>
+      <structure id="o2443" name="floret">
+        <character name="count" char_type="range_value" from="30" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="186.txt-9">
+      <text>corollas purple, pink, or white, 7.5–12 mm, glabrous or limb glandular-puberulent.</text>
+      <structure id="o2444" name="corolla">
+        <character name="coloration" value="purple" />
+        <character name="coloration" value="pink" />
+        <character name="coloration" value="white" />
+        <character char_type="range_value" name="size" from="7.5" from_unit="mm" to="12" to_unit="mm" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="limb" />
+      </structure>
+      <structure id="o2445" name="limb">
+        <character name="pubescence" value="glandular-puberulent" />
+      </structure>
+    </statement>
+    <statement id="186.txt-10">
+      <text>Cypselae dark brown or with darker spots, 5–8 mm;</text>
+      <structure id="o2446" name="cypsela">
+        <character name="coloration" value="brown" modifier="dark" />
+        <character name="coloration" value="with darker spots" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+      <structure id="o2447" name="spot">
+        <character name="coloration" value="darker" />
+      </structure>
+      <relation id="r351" name="with" from="o2446" to="o2447" negation="false" />
+    </statement>
+    <statement id="186.txt-11">
+      <text>pappus bristles 1–3.5 mm.</text>
+      <structure id="o2448" name="bristle" constraint="pappus">
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="3.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="186.txt-12">
+      <text>2 n = 32 (Germany), 36 (as A. nemorosum ).</text>
+      <structure id="o2449" name="chromosome">
+        <character name="count" value="32" />
+        <character name="count" value="36" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <flowering_time>nov</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <habitat>waste places</habitat>
+  <habitat>roadsides</habitat>
+  <habitat>fields</habitat>
+  <habitat>forest clearings</habitat>
+  <elevation>0–2200 m;</elevation>
+  <introduced>introduced;</introduced>
+  <global_distribution>St. Pierre and Miquelon</global_distribution>
+  <ca_distribution>Alta.</ca_distribution>
+  <ca_distribution>B.C.</ca_distribution>
+  <ca_distribution>Man.</ca_distribution>
+  <ca_distribution>N.B.</ca_distribution>
+  <ca_distribution>Nfld. and Labr. (Nfld.)</ca_distribution>
+  <ca_distribution>N.S</ca_distribution>
+  <ca_distribution>Ont.</ca_distribution>
+  <ca_distribution>P.E.I</ca_distribution>
+  <ca_distribution>Que.</ca_distribution>
+  <ca_distribution>Sask.</ca_distribution>
+  <us_distribution>Ala.</us_distribution>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Ark.</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Conn.</us_distribution>
+  <us_distribution>Del.</us_distribution>
+  <us_distribution>D.C.</us_distribution>
+  <us_distribution>Ga.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Ill.</us_distribution>
+  <us_distribution>Ind.</us_distribution>
+  <us_distribution>Iowa</us_distribution>
+  <us_distribution>Kans.</us_distribution>
+  <us_distribution>Ky.</us_distribution>
+  <us_distribution>Maine</us_distribution>
+  <us_distribution>Md.</us_distribution>
+  <us_distribution>Mass.</us_distribution>
+  <us_distribution>Mich.</us_distribution>
+  <us_distribution>Minn.</us_distribution>
+  <us_distribution>Miss.</us_distribution>
+  <us_distribution>Mo.</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>Nebr.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>N.H.</us_distribution>
+  <us_distribution>N.J.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>N.C.</us_distribution>
+  <us_distribution>N.Dak.</us_distribution>
+  <us_distribution>Ohio</us_distribution>
+  <us_distribution>Okla.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <us_distribution>R.I.</us_distribution>
+  <us_distribution>S.C.</us_distribution>
+  <us_distribution>S.Dak.</us_distribution>
+  <us_distribution>Tenn.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Vt.</us_distribution>
+  <us_distribution>Va.</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <us_distribution>W.Va.</us_distribution>
+  <us_distribution>Wis.</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <global_distribution>Eurasia.</global_distribution>
+  <discussion>Arctium minus has been reported from Delaware and Texas; I have not seen specimens.</discussion>
+  <discussion>Arctium minus is a complex species with many variants that have been recognized at ranks ranging from forma to species (J. Arènes 1950). Some North American workers (e.g., R. J. Moore and C. Frankton 1974) have often distinguished plants with involucres more than 3 cm diameter that equal or overtop the corollas as A. nemorosum. Arènes treated those plants as a subspecies of A. minus. Arctium nemorosum was recognized as a species distinct from A. minus (H. Duistermaat 1996), with a different and more restricted circumscription than that used by North American workers. Although most of the characters that Duistermaat used to separate those A. nemorosum from A. minus overlap extensively, the consistently wider mid phyllaries of A. nemorosum (1.7–2.5 mm wide versus 0.6–1.6 mm in A. minus) supposedly distinguish the species. None of the North American specimens examined in preparation of this treatment had the wide phyllaries of A. nemorosum in the sense of Duistermaat, who stated that she had seen no material of this taxon from the American continent. Some American authors have taken up the name Arctium vulgare in place of A. nemorosum and applied A. vulgare (dubbed woodland burdock) to the larger-headed North American plants. Duistermaat considers A. vulgare to be a synonym of A. lappa.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

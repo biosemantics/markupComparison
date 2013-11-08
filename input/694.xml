@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>15.</number>
+  <species_name>Pseudognaphalium leucocephalum</species_name>
+  <authority>(A. Gray) Anderberg</authority>
+  <place_of_publication>Opera Bot. 104: 147. 1991</place_of_publication>
+  <common_name>White rabbit-tobacco</common_name>
+  <synonym_of_species_name>Gnaphalium leucocephalum A. Gray, Smithsonian Contr. Knowl. 5(6): 99. 1853</synonym_of_species_name>
+  <description>
+    <statement id="694.txt-0">
+      <text>Biennials or short-lived perennials, 30–60 cm;</text>
+    </statement>
+    <statement id="694.txt-1">
+      <text>taprooted.</text>
+      <structure id="o14482" name="whole_organism">
+        <character char_type="range_value" name="size" from="30" from_unit="cm" to="60" to_unit="cm" />
+        <character name="life_style" value="biennial" />
+        <character name="life_style" value="perennial" />
+        <character name="architecture" value="taprooted" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="694.txt-2">
+      <text>Stems densely and persistently white-tomentose, usually with stipitate-glandular hairs protruding through tomentum.</text>
+      <structure id="o14484" name="stem">
+        <character name="pubescence" value="white-tomentose" modifier="persistently" />
+      </structure>
+      <structure id="o14485" name="hair">
+        <character name="architecture_or_exudation_or_pubescence" value="stipitate-glandular" />
+        <character name="orientation" value="protruding" constraint="through tomentum" constraintid="o14486" />
+      </structure>
+      <relation id="r1552" name="with" from="o14484" to="o14485" negation="false" modifier="usually" />
+      <structure id="o14486" name="tomentum" />
+    </statement>
+    <statement id="694.txt-3">
+      <text>Leaf blades (crowded, internodes mostly 1–3, sometimes to 10 mm) linear-lanceolate, 3–7 cm × 1–5(–6) mm, bases subclasping, not decurrent, margins strongly revolute, faces bicolor, abaxial densely white-tomentose, adaxial green, densely stipitate-glandular.</text>
+      <structure id="o14487" name="blade" constraint="leaf">
+        <character name="shape" value="linear-lanceolate" />
+        <character char_type="range_value" name="length" from="3" from_unit="cm" to="7" to_unit="cm" />
+        <character char_type="range_value" name="atypical_width" from="5" to="6" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="width" from="1" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+      <structure id="o14488" name="base">
+        <character name="orientation" value="subclasping" />
+        <character name="shape" value="decurrent" modifier="not" />
+      </structure>
+      <structure id="o14489" name="margin">
+        <character name="shape_or_vernation" value="revolute" modifier="strongly" />
+      </structure>
+      <structure id="o14490" name="face">
+        <character name="coloration" value="bicolor" />
+        <character name="insertion_or_position" value="abaxial" modifier="densely" />
+        <character name="pubescence" value="white-tomentose" />
+        <character name="insertion_or_position" value="adaxial" />
+        <character name="coloration" value="green" />
+        <character name="architecture_or_exudation_or_pubescence" value="stipitate-glandular" modifier="densely" />
+      </structure>
+    </statement>
+    <statement id="694.txt-4">
+      <text>Heads in corymbiform arrays.</text>
+      <structure id="o14491" name="head" />
+      <structure id="o14492" name="array">
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <relation id="r1553" name="in" from="o14491" to="o14492" negation="false" />
+    </statement>
+    <statement id="694.txt-5">
+      <text>Involucres broadly campanulate, 5–6 mm.</text>
+      <structure id="o14493" name="involucre">
+        <character name="shape" value="campanulate" modifier="broadly" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="694.txt-6">
+      <text>Phyllaries in 5–7 series, bright white (opaque, dull), oblong to oblong-ovate, glabrous.</text>
+      <structure id="o14494" name="phyllary">
+        <character name="coloration" value="white" modifier="bright" />
+        <character char_type="range_value" name="shape" from="oblong" to="oblong-ovate" />
+        <character name="shape" value="oblong" />
+        <character name="shape" value="oblong-ovate" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+      <structure id="o14495" name="series">
+        <character char_type="range_value" name="count" from="5" to="7" />
+      </structure>
+      <relation id="r1554" name="in" from="o14494" to="o14495" negation="false" />
+    </statement>
+    <statement id="694.txt-7">
+      <text>Pistillate florets 66–85.</text>
+      <structure id="o14496" name="floret" constraint="pistillate">
+        <character char_type="range_value" name="count" from="66" to="85" />
+      </structure>
+    </statement>
+    <statement id="694.txt-8">
+      <text>Bisexual florets (6–14, California)29–44.</text>
+      <structure id="o14497" name="floret" constraint="bisexual">
+        <character char_type="range_value" name="count" from="29" to="44" />
+      </structure>
+    </statement>
+    <statement id="694.txt-9">
+      <text>Cypselae ridged, smooth.</text>
+      <structure id="o14498" name="cypsela">
+        <character name="shape" value="ridged" />
+        <character name="architecture_or_relief" value="smooth" />
+      </structure>
+    </statement>
+    <statement id="694.txt-10">
+      <text>2 n = 28.</text>
+      <structure id="o14499" name="chromosome">
+        <character name="count" value="28" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <flowering_time>nov</flowering_time>
+  <flowering_time>dec</flowering_time>
+  <flowering_time>winter</flowering_time>
+  <habitat>sandy or gravelly slopes</habitat>
+  <habitat>stream bottoms</habitat>
+  <habitat>arroyos</habitat>
+  <habitat>areas of oak-sycamore, oak-pine</habitat>
+  <habitat>to pine woodlands</habitat>
+  <habitat>commonly in riparian vegetation</habitat>
+  <elevation>50–2100 m;</elevation>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <global_distribution>Mexico (Baja California).</global_distribution>
+  <global_distribution>Mexico (Baja California Sur).</global_distribution>
+  <global_distribution>Mexico (Chihuahua).</global_distribution>
+  <global_distribution>Mexico (Durango).</global_distribution>
+  <global_distribution>Mexico (Sinaloa).</global_distribution>
+  <global_distribution>Mexico (Sonora).</global_distribution>
+  <discussion>Pseudognaphalium leucocephalum is similar to P. viscosum, which has shiny, hyaline, ovate-lanceolate phyllaries, 200–250 pistillate florets, (13–)16–29 bisexual florets, and papillate-roughened cypselae. Some plants of P. leucocephalum also appear to approach P. biolettii in general appearance, and it is possible that some of them may represent hybrids. Plants of P. biolettii differ from P. leucocephalum in their typically eglandular stems, broader, basally ampliate, clasping, more widely spaced, and less densely glandular leaves, and thinner, shiny phyllaries.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

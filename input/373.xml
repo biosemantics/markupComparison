@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>47.</number>
+  <genus_name>LAUNAEA</genus_name>
+  <authority>Cassini</authority>
+  <place_of_publication>in F. Cuvier, Dict. Sci. Nat. ed. 2, 25: 61, 321. 1822</place_of_publication>
+  <common_name />
+  <derivation>For J. Cl. M. Mordant de Launay, 1750–1816, lawyer, later librarian at Musée d’Histoire Naturelle, Paris</derivation>
+  <author_of_tribe_genus>R. David Whetstone</author_of_tribe_genus>
+  <author_of_tribe_genus>Kristin R. Brodeur</author_of_tribe_genus>
+  <synonym_of_genus_name>Brachyramphus de Candolle</synonym_of_genus_name>
+  <description>
+    <statement id="373.txt-0">
+      <text>Annuals or biennials [perennials, shrubs, sometimes spiny], [5–]30–150 cm;</text>
+    </statement>
+    <statement id="373.txt-1">
+      <text>usually taprooted [stoloniferous].</text>
+      <structure id="o7109" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="5" to="30" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="30" from_unit="cm" to="150" to_unit="cm" />
+        <character name="life_style" value="annual" />
+        <character name="life_style" value="biennial" />
+        <character name="architecture" value="taprooted" modifier="usually" />
+        <character name="life_style" value="biennial" />
+      </structure>
+    </statement>
+    <statement id="373.txt-2">
+      <text>Stems erect [prostrate], distally branched, glabrous [± hairy ] .</text>
+      <structure id="o7111" name="stem">
+        <character name="orientation" value="erect" />
+        <character name="architecture_or_shape" value="branched" modifier="distally" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="373.txt-3">
+      <text>Leaves basal or basal and proximally cauline;</text>
+    </statement>
+    <statement id="373.txt-4">
+      <text>petiolate or sessile;</text>
+      <structure id="o7112" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" modifier="proximally" />
+        <character name="architecture" value="petiolate" />
+        <character name="architecture" value="sessile" />
+      </structure>
+    </statement>
+    <statement id="373.txt-5">
+      <text>blades ± oblanceolate, often pinnately lobed, ultimate margins usually dentate (teeth usually ± prickly; faces glabrous [± hairy]).</text>
+      <structure id="o7113" name="blade">
+        <character name="shape" value="oblanceolate" modifier="±" />
+        <character name="shape" value="lobed" modifier="often pinnately" />
+      </structure>
+      <structure id="o7114" name="margin" constraint="ultimate">
+        <character name="shape" value="dentate" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="373.txt-6">
+      <text>Heads in spiciform or racemiform to paniculiform arrays [borne singly].</text>
+      <structure id="o7115" name="head" />
+      <structure id="o7116" name="array">
+        <character char_type="range_value" name="architecture" from="racemiform" to="paniculiform" />
+        <character name="architecture" value="spiciform" />
+        <character name="architecture" value="racemiform" />
+        <character name="architecture" value="paniculiform" />
+      </structure>
+      <relation id="r874" name="in" from="o7115" to="o7116" negation="false" />
+    </statement>
+    <statement id="373.txt-7">
+      <text>Peduncles not inflated distally, bracteolate.</text>
+      <structure id="o7117" name="peduncle">
+        <character name="shape" value="inflated" modifier="not ; distally" />
+        <character name="architecture" value="bracteolate" />
+      </structure>
+    </statement>
+    <statement id="373.txt-8">
+      <text>Calyculi 0 (or bractlets intergrading with phyllaries).</text>
+      <structure id="o7118" name="calyculus">
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+    <statement id="373.txt-9">
+      <text>Involucres cylindric [urceolate, campanulate, or obconic], 3–5[–16] mm diam.</text>
+      <structure id="o7119" name="involucre">
+        <character name="shape" value="cylindric" />
+        <character char_type="range_value" name="atypical_size" from="5" to="16" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="373.txt-10">
+      <text>Phyllaries (persistent, reflexed in fruit) 18–25 in 3–5+ series, unequal, ovate to lanceolate (outer) or linear (inner), margins scarious, apices obtuse to acuminate (faces glabrous [± hairy]).</text>
+      <structure id="o7120" name="phyllary">
+        <character char_type="range_value" name="count" from="18" to="25" constraint="in series" constraintid="o7121" />
+        <character name="size" value="unequal" />
+        <character char_type="range_value" name="shape" from="ovate" to="lanceolate or linear" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="linear" />
+      </structure>
+      <structure id="o7121" name="series">
+        <character char_type="range_value" name="count" from="3" to="5" upper_restricted="false" />
+      </structure>
+      <structure id="o7122" name="margin">
+        <character name="texture" value="scarious" />
+      </structure>
+      <structure id="o7123" name="apex">
+        <character char_type="range_value" name="shape" from="obtuse" to="acuminate" />
+        <character name="shape" value="obtuse" />
+        <character name="shape" value="acuminate" />
+      </structure>
+    </statement>
+    <statement id="373.txt-11">
+      <text>Receptacles flat to convex, epaleate.</text>
+      <structure id="o7124" name="receptacle">
+        <character char_type="range_value" name="shape" from="flat" to="convex" />
+        <character name="shape" value="flat" />
+        <character name="shape" value="convex" />
+        <character name="architecture" value="epaleate" />
+      </structure>
+    </statement>
+    <statement id="373.txt-12">
+      <text>Florets 25–30;</text>
+      <structure id="o7125" name="floret">
+        <character char_type="range_value" name="count" from="25" to="30" />
+      </structure>
+    </statement>
+    <statement id="373.txt-13">
+      <text>corollas yellow to ochroleucous [cyanic].</text>
+      <structure id="o7126" name="corolla">
+        <character char_type="range_value" name="coloration" from="yellow" to="ochroleucous" />
+        <character name="coloration" value="yellow" />
+        <character name="coloration" value="ochroleucous" />
+      </structure>
+    </statement>
+    <statement id="373.txt-14">
+      <text>Cypselae blackish to grayish, cylindric to fusiform or ± prismatic, sometimes ± compressed, beaks 0 (or lengths 0.05–0.1 times bodies), 4–5-ribbed (or -grooved), ribs usually muricate, faces glabrous;</text>
+      <structure id="o7127" name="cypsela">
+        <character char_type="range_value" name="coloration" from="blackish" to="grayish" />
+        <character name="coloration" value="blackish" />
+        <character name="coloration" value="grayish" />
+        <character char_type="range_value" name="shape" from="cylindric" to="fusiform" />
+        <character name="shape" value="cylindric" />
+        <character name="shape" value="fusiform" />
+        <character name="shape" value="prismatic" modifier="±" />
+        <character name="shape" value="compressed" modifier="sometimes ±" />
+      </structure>
+      <structure id="o7128" name="beak">
+        <character name="count" value="0" />
+        <character name="architecture_or_shape" value="4-5-ribbed" />
+      </structure>
+      <structure id="o7129" name="rib">
+        <character name="relief" value="muricate" modifier="usually" />
+      </structure>
+      <structure id="o7130" name="face">
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="373.txt-15">
+      <text>pappi persistent or tardily falling [readily falling], double [simple], of 60–100+, outer, white, often ± coiled or crisped (frizzy) hairs or bristles in 2–3 series plus 80–120+, white, coarser, barbellulate to smooth bristles in 2–3+ series, all distinct or some basally connate.</text>
+      <structure id="o7131" name="pappus">
+        <character name="duration" value="persistent" />
+        <character name="orientation" value="falling" modifier="tardily" />
+        <character name="coloration" value="white" />
+        <character name="texture" value="coarser" />
+      </structure>
+      <structure id="o7132" name="hair">
+        <character char_type="range_value" name="count" from="60" to="100" upper_restricted="false" />
+        <character name="position" value="outer" />
+        <character name="coloration" value="white" />
+        <character name="shape" value="coiled" />
+        <character name="shape" value="crisped" />
+      </structure>
+      <relation id="r875" name="consist_of" from="o7131" to="o7132" negation="false" />
+      <structure id="o7133" name="bristle" />
+      <structure id="o7134" name="series">
+        <character char_type="range_value" name="count" from="2" to="3" />
+        <character char_type="range_value" name="count" from="80" to="120" upper_restricted="false" />
+      </structure>
+      <relation id="r876" name="in" from="o7133" to="o7134" negation="false" />
+      <structure id="o7135" name="bristle">
+        <character char_type="range_value" name="architecture" from="barbellulate" to="smooth" />
+        <character name="architecture" value="barbellulate" />
+        <character name="architecture" value="smooth" />
+        <character name="fusion" value="distinct" />
+        <character name="fusion" value="connate" modifier="basally" />
+      </structure>
+      <structure id="o7136" name="series">
+        <character char_type="range_value" name="count" from="2" to="3" upper_restricted="false" />
+      </structure>
+      <relation id="r877" name="in" from="o7135" to="o7136" negation="false" />
+    </statement>
+    <statement id="373.txt-16">
+      <text>x = 9.</text>
+      <structure id="o7137" name="chromosome">
+        <character name="count" value="9" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species ca. 50 (1 in the flora):</number_of_infrataxa>
+  <introduced>introduced;</introduced>
+  <general_distribution>Mexico</general_distribution>
+  <general_distribution>West Indies</general_distribution>
+  <general_distribution>Central America</general_distribution>
+  <general_distribution>South America</general_distribution>
+  <general_distribution>introduced also in Europe</general_distribution>
+  <general_distribution>n Africa</general_distribution>
+  <general_distribution>Atlantic Islands</general_distribution>
+  <general_distribution>sw</general_distribution>
+  <general_distribution>c Asia.</general_distribution>
+  <references>SELECTED REFERENCE Kilian, N. 1997. Revision of Launaea Cass. (Compositae, Lactuceae, Sonchinae). Englera 17.</references>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>11c.</number>
+  <variety_name>Cirsium horridulum Michaux var. vittatum</variety_name>
+  <authority>(Small) R. W. Long</authority>
+  <place_of_publication>Rhodora 72: 45. 1970</place_of_publication>
+  <common_name>Florida thistle</common_name>
+  <synonym_of_variety_name>Carduus vittatus Small, Bull. New York Bot. Gard. 3: 439. 1905; C. smallii (Britton) H. E. Ahles; Cirsium smallii Britton; C. vittatum (Small) Small</synonym_of_variety_name>
+  <description>
+    <statement id="65.txt-0">
+      <text>Plants 30–90 cm.</text>
+      <structure id="o13561" name="whole_organism">
+        <character char_type="range_value" name="size" from="30" from_unit="cm" to="90" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="65.txt-1">
+      <text>Stems glabrous to sparsely tomentose.</text>
+      <structure id="o13562" name="stem">
+        <character char_type="range_value" name="pubescence" from="glabrous" to="sparsely tomentose" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="tomentose" modifier="sparsely" />
+      </structure>
+    </statement>
+    <statement id="65.txt-2">
+      <text>Leaves:</text>
+      <structure id="o13563" name="leaf" />
+    </statement>
+    <statement id="65.txt-3">
+      <text>blades linear to oblong, 10–30 cm, spinose-dentate to shallowly pinnatifid, main spines mostly 5–10 mm, abaxial faces glabrous or nearly so.</text>
+      <structure id="o13564" name="blade">
+        <character char_type="range_value" name="shape" from="linear" to="oblong" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="oblong" />
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="30" to_unit="cm" />
+        <character char_type="range_value" name="shape" from="spinose-dentate" to="shallowly pinnatifid" />
+        <character name="shape" value="spinose-dentate" />
+        <character name="shape" value="pinnatifid" modifier="shallowly" />
+      </structure>
+      <structure id="o13565" name="spine" constraint="main">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="10" to_unit="mm" modifier="mostly" />
+      </structure>
+      <structure id="o13566" name="face" constraint="abaxial">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="glabrous" modifier="nearly" />
+      </structure>
+    </statement>
+    <statement id="65.txt-4">
+      <text>Heads 1–10.</text>
+      <structure id="o13567" name="head">
+        <character char_type="range_value" name="count" from="1" to="10" />
+      </structure>
+    </statement>
+    <statement id="65.txt-5">
+      <text>Involucres 3–4 × 3–6 cm, glabrous.</text>
+      <structure id="o13568" name="involucre">
+        <character char_type="range_value" name="length" from="3" from_unit="cm" to="4" to_unit="cm" />
+        <character char_type="range_value" name="width" from="3" from_unit="cm" to="6" to_unit="cm" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="65.txt-6">
+      <text>Phyllaries :</text>
+      <structure id="o13569" name="phyllary" />
+    </statement>
+    <statement id="65.txt-7">
+      <text>outer and middle bodies densely scabridulous, marginal spinules 0.1–0.5 mm.</text>
+      <structure id="o13570" name="body" constraint="outer and middle">
+        <character name="relief" value="scabridulous" modifier="densely" />
+      </structure>
+      <structure id="o13571" name="spinule" constraint="marginal">
+        <character char_type="range_value" name="size" from="0.1" from_unit="mm" to="0.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="65.txt-8">
+      <text>Corollas purple.</text>
+      <structure id="o13572" name="corolla">
+        <character name="coloration" value="purple" />
+      </structure>
+    </statement>
+    <statement id="65.txt-9">
+      <text>2 n = 32, 33, 34, 35.</text>
+      <structure id="o13573" name="chromosome">
+        <character name="count" value="32" />
+        <character name="count" value="33" />
+        <character name="count" value="34" />
+        <character name="count" value="35" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>winter</flowering_time>
+  <flowering_time>dec</flowering_time>
+  <flowering_time>jan</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>feb</flowering_time>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>meadows</habitat>
+  <habitat>pastures</habitat>
+  <habitat>old fields</habitat>
+  <habitat>pinelands</habitat>
+  <habitat>usually in damp soil</habitat>
+  <elevation>0–100 m;</elevation>
+  <us_distribution>Ala.</us_distribution>
+  <us_distribution>Fla.</us_distribution>
+  <us_distribution>Ga.</us_distribution>
+  <us_distribution>La.</us_distribution>
+  <us_distribution>Miss.</us_distribution>
+  <us_distribution>N.C.</us_distribution>
+  <us_distribution>S.C.</us_distribution>
+  <discussion>Variety vittatum grows on the coastal plain.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

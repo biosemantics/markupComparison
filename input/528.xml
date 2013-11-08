@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>3d.</number>
+  <subspecies_name>Microseris laciniata (Hooker) Schultz-Bipontinus subsp. detlingii</subspecies_name>
+  <authority>K. L. Chambers</authority>
+  <place_of_publication>Sida 21: 200, figs. 2E, F, 4. 2004</place_of_publication>
+  <common_name>Detling’s silverpuffs</common_name>
+  <description>
+    <statement id="528.txt-0">
+      <text>Stems simple.</text>
+      <structure id="o10832" name="stem">
+        <character name="architecture" value="simple" />
+      </structure>
+    </statement>
+    <statement id="528.txt-1">
+      <text>Leaves lanceolate or oblanceolate , usually entire, rarely sparingly pinnately lobed.</text>
+      <structure id="o10833" name="leaf">
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="entire" modifier="usually" />
+        <character name="shape" value="lobed" modifier="rarely sparingly pinnately" />
+      </structure>
+    </statement>
+    <statement id="528.txt-2">
+      <text>Outer phyllaries sometimes purple-spotted , elliptic-ovate, smallest (2.5–)4 mm wide, apices (erect), acute or cuspidate, abaxial faces glabrous.</text>
+      <structure id="o10834" name="phyllary" constraint="outer">
+        <character name="coloration" value="spotted" modifier="sometimes;purple" />
+        <character name="shape" value="elliptic-ovate" />
+        <character name="size" value="smallest" />
+        <character char_type="range_value" name="atypical_size" from="2.5" to="4" from_unit="mm" to_unit="mm" to_inclusive="false" />
+        <character name="size" value="4" unit="mm" />
+      </structure>
+      <structure id="o10835" name="apex">
+        <character name="shape" value="acute" />
+        <character name="shape" value="cuspidate" />
+      </structure>
+      <structure id="o10836" name="face" constraint="abaxial">
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="528.txt-3">
+      <text>Pappi of 9–15, silvery to dull white, linear-lanceolate aristate scales 4–8 mm, aristae barbellate.</text>
+      <structure id="o10837" name="pappus" />
+      <structure id="o10838" name="scale">
+        <character char_type="range_value" name="count" from="9" to="15" />
+        <character char_type="range_value" name="coloration" from="silvery" to="dull-white" />
+        <character name="coloration" value="silvery" />
+        <character name="coloration" value="white" modifier="dull" />
+        <character name="shape" value="linear-lanceolate" />
+        <character name="shape" value="aristate" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+      <relation id="r1239" name="consist_of" from="o10837" to="o10838" negation="false" />
+      <structure id="o10839" name="arista">
+        <character name="architecture" value="barbellate" />
+      </structure>
+    </statement>
+    <statement id="528.txt-4">
+      <text>2 n = 18.</text>
+      <structure id="o10840" name="chromosome">
+        <character name="count" value="18" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>may</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <habitat>heavy clay soils</habitat>
+  <habitat>open hillsides</habitat>
+  <habitat>grasslands</habitat>
+  <habitat>and shrublands</habitat>
+  <conservation>of conservation concern;</conservation>
+  <elevation>600–1500 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <discussion>Subspecies detlingii is known only from the Siskiyou Pass region and adjacent foothills of southern Jackson County, Oregon, and Siskiyou County, California. It is found only in clay soils that become very sticky when wet. The plants are unusual in their relatively long pappus scales, simple habit, and deeply penetrating taproots (K. L. Chambers 2004b). Clonal reproduction occurs by buds arising on lateral roots.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

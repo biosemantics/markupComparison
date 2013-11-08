@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>187i.</number>
+  <tribe_name>Asteraceae Martinov tribe Plucheeae</tribe_name>
+  <authority>(Cassini ex Dumortier) Anderberg</authority>
+  <place_of_publication>Canad. J. Bot. 67: 2293. 1989</place_of_publication>
+  <past_name>Plucheae</past_name>
+  <synonym_of_tribe_name>Plucheinae Cassini ex Dumortier, Anal. Fam. Pl., 31. 1829 (as Plucheae)</synonym_of_tribe_name>
+  <description>
+    <statement id="797.txt-0">
+      <text>Herbs, subshrubs, shrubs, or trees.</text>
+      <structure id="o16787" name="whole_organism">
+        <character name="life_style" value="herb" />
+        <character name="life_style" value="subshrub" />
+        <character name="life_style" value="shrub" />
+        <character name="life_style" value="tree" />
+      </structure>
+    </statement>
+    <statement id="797.txt-1">
+      <text>Leaves usually cauline, sometimes mostly basal;</text>
+    </statement>
+    <statement id="797.txt-2">
+      <text>alternate;</text>
+    </statement>
+    <statement id="797.txt-3">
+      <text>petiolate or sessile;</text>
+      <structure id="o16791" name="leaf">
+        <character name="insertion_or_position" value="cauline" modifier="usually" />
+        <character name="insertion_or_position" value="basal" modifier="sometimes mostly" />
+        <character name="arrangement" value="alternate" />
+        <character name="architecture" value="petiolate" />
+        <character name="architecture" value="sessile" />
+      </structure>
+    </statement>
+    <statement id="797.txt-4">
+      <text>margins entire or denticulate to serrate or dentate [1–2-pinnately divided].</text>
+      <structure id="o16792" name="margin">
+        <character char_type="range_value" name="shape" from="denticulate" to="serrate or dentate" />
+        <character name="shape" value="entire" />
+        <character name="shape" value="denticulate" />
+        <character name="shape" value="serrate" />
+        <character name="shape" value="dentate" />
+      </structure>
+    </statement>
+    <statement id="797.txt-5">
+      <text>Heads heterogamous (usually disciform, rarely obscurely radiate), usually in corymbiform, paniculiform, or spiciform arrays, sometimes borne singly (on scapiform stems in Sachsia ).</text>
+      <structure id="o16793" name="head">
+        <character name="reproduction" value="heterogamous" />
+        <character name="arrangement" value="singly" modifier="sometimes" />
+      </structure>
+      <structure id="o16794" name="array">
+        <character name="architecture" value="corymbiform" />
+        <character name="architecture" value="paniculiform" />
+        <character name="architecture" value="spiciform" />
+      </structure>
+      <relation id="r1804" name="in" from="o16793" to="o16794" negation="false" modifier="usually" />
+    </statement>
+    <statement id="797.txt-6">
+      <text>Calyculi 0.</text>
+      <structure id="o16795" name="calyculus">
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+    <statement id="797.txt-7">
+      <text>Phyllaries persistent or falling, (12–30+) in 3–6+ series, distinct, unequal, usually ± herbaceous to chartaceous, sometimes indurate, margins and/or apices seldom notably scarious.</text>
+      <structure id="o16796" name="phyllary">
+        <character name="duration" value="persistent" />
+        <character name="orientation" value="falling" />
+        <character char_type="range_value" name="atypical_count" from="12" to="30" upper_restricted="false" constraint="in series" constraintid="o16797" />
+        <character name="fusion" value="distinct" />
+        <character name="size" value="unequal" />
+        <character name="habit_or_texture" value="herbaceous" modifier="usually ±" />
+        <character name="texture" value="chartaceous" />
+        <character name="texture" value="indurate" modifier="sometimes" />
+      </structure>
+      <structure id="o16797" name="series">
+        <character char_type="range_value" name="count" from="3" to="6" upper_restricted="false" />
+      </structure>
+      <structure id="o16798" name="margin" />
+      <structure id="o16799" name="apex">
+        <character name="texture" value="scarious" modifier="seldom notably" />
+      </structure>
+    </statement>
+    <statement id="797.txt-8">
+      <text>Receptacles flat to convex, epaleate [paleate].</text>
+      <structure id="o16800" name="receptacle">
+        <character char_type="range_value" name="shape" from="flat" to="convex" />
+        <character name="shape" value="flat" />
+        <character name="shape" value="convex" />
+        <character name="architecture" value="epaleate" />
+      </structure>
+    </statement>
+    <statement id="797.txt-9">
+      <text>Ray florets 0 (whitish corollas of peripheral pistillate florets sometimes with minute, 3-toothed laminae in Sachsia ) [in 1(–2+) series, pistillate and fertile or neuter].</text>
+      <structure id="o16801" name="floret" constraint="ray">
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+    <statement id="797.txt-10">
+      <text>Peripheral (pistillate) florets [0] (in disciform heads) in 1–10+ series;</text>
+      <structure id="o16802" name="floret" constraint="peripheral">
+        <character name="atypical_count" value="0" constraint="in series" constraintid="o16803" />
+      </structure>
+      <structure id="o16803" name="series">
+        <character char_type="range_value" name="count" from="1" to="10" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="797.txt-11">
+      <text>corollas (usually present) usually pink to purplish, sometimes whitish or ochroleucous, rarely yellowish.</text>
+      <structure id="o16804" name="corolla">
+        <character name="coloration" value="pink" modifier="usually" />
+        <character name="coloration" value="purplish" />
+        <character name="coloration" value="whitish" modifier="sometimes" />
+        <character name="coloration" value="ochroleucous" />
+        <character name="coloration" value="yellowish" modifier="rarely" />
+      </structure>
+    </statement>
+    <statement id="797.txt-12">
+      <text>Disc (inner) florets bisexual or functionally staminate;</text>
+      <structure id="o16805" name="floret" constraint="disc">
+        <character name="reproduction" value="bisexual" />
+        <character name="architecture" value="staminate" modifier="functionally" />
+      </structure>
+    </statement>
+    <statement id="797.txt-13">
+      <text>corollas usually pink to purplish, sometimes whitish or ochroleucous, rarely yellowish, not 2-lipped, lobes (4–)5, deltate;</text>
+      <structure id="o16806" name="corolla">
+        <character name="coloration" value="pink" modifier="usually" />
+        <character name="coloration" value="purplish" />
+        <character name="coloration" value="whitish" modifier="sometimes" />
+        <character name="coloration" value="ochroleucous" />
+        <character name="coloration" value="yellowish" modifier="rarely" />
+        <character name="architecture" value="2-lipped" modifier="not" />
+      </structure>
+      <structure id="o16807" name="lobe">
+        <character char_type="range_value" name="atypical_count" from="4" to="5" to_inclusive="false" />
+        <character name="count" value="5" />
+        <character name="shape" value="deltate" />
+      </structure>
+    </statement>
+    <statement id="797.txt-14">
+      <text>anther bases ± tailed, apical appendages ovate to lance-ovate or linear;</text>
+      <structure id="o16808" name="base" constraint="anther">
+        <character name="shape" value="tailed" modifier="±" />
+      </structure>
+      <structure id="o16809" name="appendage" constraint="apical">
+        <character char_type="range_value" name="shape" from="ovate" to="lance-ovate or linear" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="lance-ovate" />
+        <character name="shape" value="linear" />
+      </structure>
+    </statement>
+    <statement id="797.txt-15">
+      <text>styles abaxially papillate or hairy (sweeping hairs usually obtuse, usually present from proximal to the separation of the branches to near the tips), branches linear, adaxially stigmatic in 2 lines from bases to apices (lines ± confluent distally), apices obtuse to rounded, appendages essentially none.</text>
+      <structure id="o16810" name="style">
+        <character name="pubescence" value="papillate" modifier="abaxially" />
+        <character name="pubescence" value="hairy" modifier="abaxially" />
+      </structure>
+      <structure id="o16811" name="branch">
+        <character name="arrangement_or_shape" value="linear" />
+        <character name="habit" value="stigmatic" modifier="adaxially" constraint="in lines" constraintid="o16812" />
+      </structure>
+      <structure id="o16812" name="line">
+        <character name="count" value="2" />
+      </structure>
+      <structure id="o16813" name="base" />
+      <relation id="r1805" name="from" from="o16812" to="o16813" negation="false" />
+      <structure id="o16814" name="apex" />
+      <relation id="r1806" name="to" from="o16813" to="o16814" negation="false" />
+      <structure id="o16815" name="apex">
+        <character char_type="range_value" name="shape" from="obtuse" to="rounded" />
+        <character name="shape" value="obtuse" />
+        <character name="shape" value="rounded" />
+      </structure>
+      <structure id="o16816" name="appendage" />
+    </statement>
+    <statement id="797.txt-16">
+      <text>Cypselae mostly monomorphic within heads, usually columnar, cylindric, ellipsoid, or fusiform, sometimes ± prismatic, sometimes compressed or flattened, not beaked, bodies smooth or ribbed (glabrous or ± hirsutulous, hairs straight-tipped, uncinate, or glochidiform, faces sometimes glandular as well);</text>
+      <structure id="o16817" name="cypsela">
+        <character name="habit" value="monomorphic" modifier="mostly" constraint="within heads" constraintid="o16818" />
+        <character name="shape" value="columnar" modifier="usually" />
+        <character name="shape" value="cylindric" modifier="usually" />
+        <character name="shape" value="ellipsoid" modifier="usually" />
+        <character name="shape" value="fusiform" modifier="usually" />
+        <character name="shape" value="prismatic" modifier="sometimes ±" />
+        <character name="shape" value="compressed" modifier="sometimes" />
+        <character name="shape" value="flattened" modifier="sometimes" />
+        <character name="shape" value="beaked" modifier="not" />
+      </structure>
+      <structure id="o16818" name="head" />
+      <structure id="o16819" name="body">
+        <character name="architecture" value="smooth" />
+        <character name="architecture" value="ribbed" />
+      </structure>
+    </statement>
+    <statement id="797.txt-17">
+      <text>pappi [sometimes 0] persistent or tardily falling, usually of smooth to barbellate [plumose] bristles or setiform scales (in 1–2 series).</text>
+      <structure id="o16820" name="pappus">
+        <character name="duration" value="persistent" />
+        <character name="orientation" value="falling" modifier="tardily" />
+      </structure>
+      <structure id="o16821" name="bristle">
+        <character char_type="range_value" name="architecture" from="smooth" to="barbellate" />
+        <character name="architecture" value="smooth" />
+        <character name="architecture" value="barbellate" />
+      </structure>
+      <structure id="o16822" name="scale">
+        <character name="shape" value="setiform" />
+        <character char_type="range_value" name="architecture" from="smooth" to="barbellate" />
+        <character name="architecture" value="smooth" />
+        <character name="architecture" value="barbellate" />
+      </structure>
+      <relation id="r1807" name="consist_of" from="o16820" to="o16821" negation="false" modifier="usually" />
+      <relation id="r1808" name="consist_of" from="o16820" to="o16822" negation="false" modifier="usually" />
+    </statement>
+  </description>
+  <number_of_infrataxa>Genera ca. 27, species ca. 219 (3 genera, 12 species in the flora):</number_of_infrataxa>
+  <general_distribution>mostly tropical and subtropical areas of Central America</general_distribution>
+  <general_distribution>South America</general_distribution>
+  <general_distribution>Africa</general_distribution>
+  <general_distribution>Asia</general_distribution>
+  <general_distribution>and Australia</general_distribution>
+  <general_distribution>some species are widely introduced and established in local floras.</general_distribution>
+  <discussion>Plucheeae were segregated from traditionally circumscribed Inuleae by Anderberg in 1989 (see discussion in A. A. Anderberg 1994b).</discussion>
+  <references>SELECTED REFERENCES Anderberg, A. A. 1991b. Taxonomy and phylogeny of the tribe Plucheae (Asteraceae). Pl. Syst. Evol. 176: 145–177. Anderberg, A. A. 1994b. Tribe Plucheeae. In: K. Bremer. 1994. Asteraceae: Cladistics &amp; Classification. Portland. Pp. 292–303</references>
+  <key>1.Stems winged; heads in spiciform arrays109. Pterocaulon, p. 476</key>
+  <key>1.Stems seldom winged (see Pluchea sagittalis); heads usually in corymbiform or paniculiform arrays, rarely borne singly.</key>
+  <key>2.Leaves all or mostly basal110. Sachsia, p. 477</key>
+  <key>2.Leaves all or mostly cauline111. Pluchea, p. 478</key>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,9 +1,10 @@
 package edu.arizona.sirls.etc.markupSimilarity.algorithm.treatment;
 
-import edu.arizona.sirls.etc.markupSimilarity.model.Treatment;
+import edu.arizona.sirls.etc.markupSimilarity.io.Score;
+import edu.arizona.sirls.etc.markupSimilarity.model.TreatmentRoot;
 
 public interface ISimilarityCalculator {
 
-	public double getSimilarity(Treatment a, Treatment b);
+	public Score getSimilarity(TreatmentRoot a, TreatmentRoot b);
 	
 }

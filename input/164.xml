@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>59a.</number>
+  <variety_name>Cirsium fontinale (Greene) Jepson var. campylon</variety_name>
+  <authority>(H. Sharsmith) Pilz ex D. J. Keil &amp; C. E. Turner</authority>
+  <place_of_publication>Phytologia 73: 313. 1992</place_of_publication>
+  <common_name>Mt. Hamilton thistle</common_name>
+  <synonym_of_variety_name>Cirsium campylon H. Sharsmith, Madroño 5: 85, fig. 1. 1939</synonym_of_variety_name>
+  <description>
+    <statement id="164.txt-0">
+      <text>Basal leaves:</text>
+      <structure id="o1846" name="leaf" constraint="basal" />
+    </statement>
+    <statement id="164.txt-1">
+      <text>longer spines 4–15 mm, distal faces equally glandular and tomentose.</text>
+      <structure id="o1847" name="spine" constraint="longer">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="15" to_unit="mm" />
+      </structure>
+      <structure id="o1848" name="face" constraint="distal">
+        <character name="architecture_or_exudation_or_pubescence" value="glandular" modifier="equally" />
+        <character name="pubescence" value="tomentose" />
+      </structure>
+    </statement>
+    <statement id="164.txt-2">
+      <text>Cauline leaves:</text>
+      <structure id="o1849" name="leaf" constraint="cauline" />
+    </statement>
+    <statement id="164.txt-3">
+      <text>longer spines 10–18 mm.</text>
+      <structure id="o1850" name="spine" constraint="longer">
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="18" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="164.txt-4">
+      <text>Distalmost stem bracts typically separated from heads.</text>
+      <structure id="o1851" name="bract" constraint="distalmost stem">
+        <character name="arrangement" value="separated" modifier="typically" constraint="from heads" constraintid="o1852" />
+      </structure>
+      <structure id="o1852" name="head" />
+    </statement>
+    <statement id="164.txt-5">
+      <text>Phyllaries 65–85, 25–35 of them reflexed;</text>
+      <structure id="o1853" name="phyllary">
+        <character char_type="range_value" name="count" from="65" to="85" />
+        <character char_type="range_value" name="count" from="25" to="35" constraint="of them" constraintid="o1854" />
+      </structure>
+      <structure id="o1854" name="them">
+        <character name="orientation" value="reflexed" />
+      </structure>
+    </statement>
+    <statement id="164.txt-6">
+      <text>apical spines 3–6 mm;</text>
+      <structure id="o1855" name="spine" constraint="apical">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="164.txt-7">
+      <text>marginal spines usually absent.</text>
+      <structure id="o1856" name="spine" constraint="marginal">
+        <character name="presence" value="absent" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="164.txt-8">
+      <text>Cypselae 3.4–4.1 mm.</text>
+      <structure id="o1857" name="cypsela">
+        <character char_type="range_value" name="size" from="3.4" from_unit="mm" to="4.1" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="164.txt-9">
+      <text>2 n = 34.</text>
+      <structure id="o1858" name="chromosome">
+        <character name="count" value="34" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>serpentine seeps in areas of chaparral</habitat>
+  <habitat>valley grasslands</habitat>
+  <habitat>foothill woodlands</habitat>
+  <conservation>of conservation concern;</conservation>
+  <elevation>300–800 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <discussion>Variety campylon is endemic to the Mt. Hamilton Range in Alameda, Santa Clara, and Stanislaus counties.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

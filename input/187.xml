@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>17.</number>
+  <genus_name>ACROPTILON</genus_name>
+  <authority>Cassini</authority>
+  <place_of_publication>in F. Cuvier, Dict. Sci. Nat. ed. 2, 50: 464. 1827</place_of_publication>
+  <common_name>Russian knapweed, creeping knapweed, Russian centaurea, mountain-bluet, Turkestan thistle, centaurée de Russie</common_name>
+  <derivation>Greek akron , tip, and ptilon , feather, describing the pappus bristles</derivation>
+  <author_of_tribe_genus>David J. Keil</author_of_tribe_genus>
+  <description>
+    <statement id="187.txt-0">
+      <text>Perennials , 30–100 cm, not spiny.</text>
+      <structure id="o2450" name="whole_organism">
+        <character char_type="range_value" name="size" from="30" from_unit="cm" to="100" to_unit="cm" />
+        <character name="architecture_or_shape" value="spiny" modifier="not" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="187.txt-1">
+      <text>Stems erect, branched distally or throughout , branches ascending, not winged.</text>
+      <structure id="o2451" name="stem">
+        <character name="orientation" value="erect" />
+        <character name="architecture_or_shape" value="branched" modifier="distally" />
+        <character name="architecture_or_shape" value="branched" modifier="distally; throughout" />
+      </structure>
+      <structure id="o2452" name="branch">
+        <character name="orientation" value="ascending" />
+        <character name="architecture" value="winged" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="187.txt-2">
+      <text>Leaves:</text>
+    </statement>
+    <statement id="187.txt-3">
+      <text>basal and proximal cauline;</text>
+    </statement>
+    <statement id="187.txt-4">
+      <text>sessile or petiolate;</text>
+      <structure id="o2453" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="proximal cauline" />
+        <character name="architecture" value="sessile" />
+        <character name="architecture" value="petiolate" />
+      </structure>
+    </statement>
+    <statement id="187.txt-5">
+      <text>blade margins coarsely dentate or 1–2-pinnately lobed, margins of mid and distal cauline dentate or entire, faces loosely tomentose or glabrate, puberulent and resin-gland-dotted.</text>
+      <structure id="o2454" name="margin" constraint="blade">
+        <character name="shape" value="dentate" modifier="coarsely" />
+        <character name="shape" value="lobed" modifier="1-2-pinnately" />
+      </structure>
+      <structure id="o2455" name="margin">
+        <character name="shape" value="dentate" />
+        <character name="shape" value="entire" />
+      </structure>
+      <structure id="o2456" name="leaf" constraint="mid and distal cauline" />
+      <relation id="r352" name="part_of" from="o2455" to="o2456" negation="false" />
+      <structure id="o2457" name="face">
+        <character name="pubescence" value="tomentose" modifier="loosely" />
+        <character name="pubescence" value="glabrate" />
+        <character name="pubescence" value="puberulent" />
+        <character name="coloration_or_relief" value="resin-gland-dotted" />
+      </structure>
+    </statement>
+    <statement id="187.txt-6">
+      <text>Heads discoid, in (leafy-bracted) corymbiform or paniculiform arrays.</text>
+      <structure id="o2458" name="head">
+        <character name="shape_or_architecture" value="discoid" />
+      </structure>
+      <structure id="o2459" name="array">
+        <character name="architecture" value="corymbiform" />
+        <character name="architecture" value="paniculiform" />
+      </structure>
+      <relation id="r353" name="in" from="o2458" to="o2459" negation="false" />
+    </statement>
+    <statement id="187.txt-7">
+      <text>Involucres ovoid to subspheric, constricted, 6–10 mm diam .</text>
+      <structure id="o2460" name="involucre">
+        <character char_type="range_value" name="shape" from="ovoid" to="subspheric" />
+        <character name="shape" value="ovoid" />
+        <character name="shape" value="subspheric" />
+        <character name="size" value="constricted" />
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="187.txt-8">
+      <text>Phyllaries many in 6–8 series, outer round to ovate, bases tightly appressed, margins entire, apices widely scarious, obtuse or acute, inner lanceolate, margins entire, apices acute to acuminate, those of innermost bristly-ciliate or -plumose.</text>
+      <structure id="o2461" name="phyllary">
+        <character name="count" value="many" constraint="in series" constraintid="o2462" />
+      </structure>
+      <structure id="o2462" name="series">
+        <character char_type="range_value" name="count" from="6" to="8" />
+      </structure>
+      <structure id="o2463" name="phyllary" constraint="outer">
+        <character char_type="range_value" name="shape" from="round" to="ovate" />
+        <character name="shape" value="round" />
+        <character name="shape" value="ovate" />
+      </structure>
+      <structure id="o2464" name="base">
+        <character name="orientation" value="appressed" modifier="tightly" />
+      </structure>
+      <structure id="o2465" name="margin">
+        <character name="shape" value="entire" />
+      </structure>
+      <structure id="o2466" name="apex">
+        <character name="texture" value="scarious" modifier="widely" />
+        <character name="shape" value="obtuse" />
+        <character name="shape" value="acute" />
+      </structure>
+      <structure id="o2467" name="phyllary" constraint="inner">
+        <character name="shape" value="lanceolate" />
+      </structure>
+      <structure id="o2468" name="margin">
+        <character name="shape" value="entire" />
+      </structure>
+      <structure id="o2469" name="apex">
+        <character char_type="range_value" name="shape" from="acute" to="acuminate" />
+        <character name="shape" value="acute" />
+        <character name="shape" value="acuminate" />
+      </structure>
+      <structure id="o2470" name="phyllary">
+        <character name="architecture" value="bristly-ciliate-or-plumose" />
+      </structure>
+      <structure id="o2471" name="phyllary" constraint="innermost" />
+      <relation id="r354" name="part_of" from="o2470" to="o2471" negation="false" />
+    </statement>
+    <statement id="187.txt-9">
+      <text>Receptacles flat, epaleate , bearing setiform scales (“flattened bristles”).</text>
+      <structure id="o2472" name="receptacle">
+        <character name="shape" value="flat" />
+        <character name="architecture" value="epaleate" />
+      </structure>
+      <structure id="o2473" name="scale">
+        <character name="shape" value="setiform" />
+      </structure>
+    </statement>
+    <statement id="187.txt-10">
+      <text>Florets 15–36;</text>
+      <structure id="o2474" name="floret">
+        <character char_type="range_value" name="count" from="15" to="36" />
+      </structure>
+    </statement>
+    <statement id="187.txt-11">
+      <text>corollas blue, pink, or white, tubes very slender, usually bent distally, throats abruptly expanded, lobes linear;</text>
+      <structure id="o2475" name="corolla">
+        <character name="coloration" value="blue" />
+        <character name="coloration" value="pink" />
+        <character name="coloration" value="white" />
+      </structure>
+      <structure id="o2476" name="tube">
+        <character name="size" value="slender" modifier="very" />
+        <character name="shape" value="bent" modifier="usually ; distally" />
+      </structure>
+      <structure id="o2477" name="throat">
+        <character name="size" value="expanded" modifier="abruptly" />
+      </structure>
+      <structure id="o2478" name="lobe">
+        <character name="arrangement_or_shape" value="linear" />
+      </structure>
+    </statement>
+    <statement id="187.txt-12">
+      <text>anther bases short-tailed, apical appendages oblong;</text>
+      <structure id="o2479" name="base" constraint="anther">
+        <character name="shape" value="short-tailed" />
+      </structure>
+      <structure id="o2480" name="appendage" constraint="apical">
+        <character name="shape" value="oblong" />
+      </structure>
+    </statement>
+    <statement id="187.txt-13">
+      <text>style branches:</text>
+      <structure id="o2481" name="branch" constraint="style" />
+    </statement>
+    <statement id="187.txt-14">
+      <text>fused portions with slightly swollen basal nodes minutely hairy, distally papillate, distinct portions very short, apices triangular.</text>
+      <structure id="o2482" name="portion" constraint="fused">
+        <character name="relief_or_pubescence" value="papillate" modifier="distally" />
+      </structure>
+      <structure id="o2483" name="node" constraint="basal">
+        <character name="shape" value="swollen" modifier="slightly" />
+        <character name="pubescence" value="hairy" modifier="minutely" />
+      </structure>
+      <relation id="r355" name="with" from="o2482" to="o2483" negation="false" />
+      <structure id="o2484" name="portion">
+        <character name="fusion" value="distinct" />
+        <character name="size" value="short" modifier="very" />
+      </structure>
+      <structure id="o2485" name="apex">
+        <character name="shape" value="triangular" />
+      </structure>
+    </statement>
+    <statement id="187.txt-15">
+      <text>Cypselae obovoid, slightly compressed, smooth or with indistinct ribs, glabrous, attachment scars subbasal;</text>
+      <structure id="o2486" name="cypsela">
+        <character name="shape" value="obovoid" />
+        <character name="shape" value="compressed" modifier="slightly" />
+        <character name="architecture_or_relief" value="smooth" />
+        <character name="architecture_or_relief" value="with indistinct ribs" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+      <structure id="o2487" name="rib">
+        <character name="manifestation" value="indistinct" />
+      </structure>
+      <relation id="r356" name="with" from="o2486" to="o2487" negation="false" />
+      <structure id="o2488" name="scar" constraint="attachment">
+        <character name="position" value="subbasal" />
+      </structure>
+    </statement>
+    <statement id="187.txt-16">
+      <text>pappi ± falling, of many unequal setiform scales (“flattened bristles”), proximally barbed, distally plumose (at least the longer).</text>
+      <structure id="o2489" name="pappus">
+        <character name="orientation" value="falling" modifier="±" />
+        <character name="architecture" value="barbed" modifier="proximally" />
+        <character name="architecture" value="plumose" modifier="distally" />
+      </structure>
+      <structure id="o2490" name="scale">
+        <character name="count" value="many" />
+        <character name="size" value="unequal" />
+        <character name="shape" value="setiform" />
+      </structure>
+      <relation id="r357" name="consist_of" from="o2489" to="o2490" negation="false" />
+    </statement>
+    <statement id="187.txt-17">
+      <text>x = 13.</text>
+      <structure id="o2491" name="chromosome">
+        <character name="count" value="13" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species 1:</number_of_infrataxa>
+  <introduced>introduced;</introduced>
+  <general_distribution>Eurasia.</general_distribution>
+  <discussion>In most American floristic literature Acroptilon has been included within Centaurea, from which it differs by the subbasal rather than lateral attachment scars on the cypselae and the absence of sterile outer florets. The chromosome base number x = 13 is higher than that in most species of Centaurea in the strict sense. Molecular phylogenetic studies of the relationships of Cynareae genera (A. Susanna et al. 1995) support the segregation of Acroptilon from Centaurea.</discussion>
+  <references>SELECTED REFERENCE Watson, A. K. 1980. The biology of Canadian weeds. 43. Acroptilon (Centaurea) repens (L.) DC. Canad. J. Pl. Sci. 60: 993–1004.</references>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

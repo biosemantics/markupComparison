@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>28.</number>
+  <genus_name>STOKESIA</genus_name>
+  <authority>Stokesia L’Héritier</authority>
+  <place_of_publication>Sert. Angl., 27. 1789</place_of_publication>
+  <common_name />
+  <derivation>For Jonathan Stokes, 1755–1831, English physician and botanist</derivation>
+  <author_of_tribe_genus>John L. Strother</author_of_tribe_genus>
+  <description>
+    <statement id="237.txt-0">
+      <text>Perennials , 2–5+ dm;</text>
+    </statement>
+    <statement id="237.txt-1">
+      <text>perhaps rhizomatous.</text>
+      <structure id="o4000" name="whole_organism">
+        <character char_type="range_value" name="size" from="2" from_unit="dm" to="5" to_unit="dm" upper_restricted="false" />
+        <character name="life_style" value="perennial" />
+        <character name="architecture" value="rhizomatous" modifier="perhaps" />
+      </structure>
+    </statement>
+    <statement id="237.txt-2">
+      <text>Leaves basal and cauline;</text>
+      <structure id="o4001" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+      </structure>
+    </statement>
+    <statement id="237.txt-3">
+      <text>proximal petiolate, blades ovate to lanceolate or lance-linear;</text>
+      <structure id="o4002" name="leaf" constraint="proximal">
+        <character name="architecture" value="petiolate" />
+      </structure>
+      <structure id="o4003" name="blade">
+        <character char_type="range_value" name="shape" from="ovate" to="lanceolate or lance-linear" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="lance-linear" />
+      </structure>
+    </statement>
+    <statement id="237.txt-4">
+      <text>distal ± sessile, blades ovate or elliptic to lanceolate or lance-linear, bases ± clasping, margins entire or spinose-toothed;</text>
+      <structure id="o4004" name="leaf" constraint="distal">
+        <character name="architecture" value="sessile" modifier="±" />
+      </structure>
+      <structure id="o4005" name="blade">
+        <character char_type="range_value" name="shape" from="elliptic" to="lanceolate or lance-linear" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="elliptic" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="lance-linear" />
+      </structure>
+      <structure id="o4006" name="base">
+        <character name="architecture" value="clasping" modifier="±" />
+      </structure>
+      <structure id="o4007" name="margin">
+        <character name="shape" value="entire" />
+        <character name="shape" value="spinose-toothed" />
+      </structure>
+    </statement>
+    <statement id="237.txt-5">
+      <text>all with apices rounded to acute, faces glabrous or glabrate, resin-gland-dotted.</text>
+      <structure id="o4008" name="leaf">
+        <character char_type="range_value" name="shape" from="rounded" to="acute" />
+        <character name="shape" value="rounded" />
+        <character name="shape" value="acute" />
+      </structure>
+      <structure id="o4009" name="apex" />
+      <relation id="r568" name="with" from="o4008" to="o4009" negation="false" />
+      <structure id="o4010" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="glabrate" />
+        <character name="coloration_or_relief" value="resin-gland-dotted" />
+      </structure>
+    </statement>
+    <statement id="237.txt-6">
+      <text>Heads pseudo-radiant (see here at corollas), ± pedunculate, not individually bracteate;</text>
+    </statement>
+    <statement id="237.txt-7">
+      <text>borne singly or in loose, ± corymbiform arrays 6–12 cm diam.</text>
+      <structure id="o4011" name="head">
+        <character name="architecture_or_arrangement" value="pseudo-radiant" />
+        <character name="architecture" value="pedunculate" modifier="±" />
+        <character name="architecture" value="bracteate" modifier="not individually" />
+        <character name="arrangement" value="singly" />
+        <character name="arrangement" value="in loose , moreorless corymbiform arrays" />
+      </structure>
+      <structure id="o4012" name="array">
+        <character name="architecture_or_texture" value="loose" />
+        <character name="architecture" value="corymbiform" modifier="±" />
+        <character char_type="range_value" name="size" from="6" from_unit="cm" to="12" to_unit="cm" />
+      </structure>
+      <relation id="r569" name="in" from="o4011" to="o4012" negation="false" />
+    </statement>
+    <statement id="237.txt-8">
+      <text>Involucres ± hemispheric, 25–45 mm diam.</text>
+      <structure id="o4013" name="involucre">
+        <character name="shape" value="hemispheric" modifier="±" />
+        <character char_type="range_value" name="size" from="25" from_unit="mm" to="45" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="237.txt-9">
+      <text>Phyllaries 25–35+ in 5–7 series, the outer with appressed, ± chartaceous bases, distally ± foliaceous, margins pectinately spiny-toothed (at least at base), inner ± chartaceous throughout, mostly entire, faces ± tomentulose and resin-gland-dotted.</text>
+      <structure id="o4014" name="phyllary">
+        <character char_type="range_value" name="count" from="25" to="35" upper_restricted="false" constraint="in series" constraintid="o4015" />
+        <character name="position" value="outer" constraint="with bases" constraintid="o4016" />
+        <character name="architecture" value="foliaceous" modifier="distally ±" />
+      </structure>
+      <structure id="o4015" name="series">
+        <character char_type="range_value" name="count" from="5" to="7" />
+      </structure>
+      <structure id="o4016" name="base">
+        <character name="orientation" value="appressed" />
+        <character name="texture" value="chartaceous" modifier="±" />
+      </structure>
+      <structure id="o4017" name="margin">
+        <character name="shape" value="spiny-toothed" modifier="pectinately" />
+        <character name="position" value="inner" modifier="±" />
+        <character name="texture" value="chartaceous" modifier="throughout" />
+        <character name="shape" value="entire" modifier="mostly" />
+      </structure>
+      <structure id="o4018" name="face">
+        <character name="pubescence" value="tomentulose" modifier="±" />
+        <character name="coloration_or_relief" value="resin-gland-dotted" />
+      </structure>
+    </statement>
+    <statement id="237.txt-10">
+      <text>Florets 12–35(–70+);</text>
+      <structure id="o4019" name="floret">
+        <character char_type="range_value" name="atypical_count" from="35" to="70" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="12" to="35" />
+      </structure>
+    </statement>
+    <statement id="237.txt-11">
+      <text>corollas usually blue to purplish blue (rarely white or lilac), tubes longer than funnelform throats, lobes 5, lance-linear (in peripheral florets adaxial sinus much deeper than others and corollas zygomorphic, ± raylike or ligulelike, in central florets corollas ± actinomorphic).</text>
+      <structure id="o4020" name="corolla">
+        <character char_type="range_value" name="coloration" from="usually blue" to="purplish-blue" />
+        <character name="coloration" value="blue" modifier="usually" />
+        <character name="coloration" value="blue" modifier="usually ;purplish" />
+      </structure>
+      <structure id="o4021" name="tube">
+        <character name="size" value="longer" constraint="than funnelform throats" constraintid="o4022" />
+      </structure>
+      <structure id="o4022" name="throat">
+        <character name="shape" value="funnelform" />
+      </structure>
+      <structure id="o4023" name="lobe">
+        <character name="count" value="5" />
+        <character name="arrangement_or_shape" value="lance-linear" />
+      </structure>
+    </statement>
+    <statement id="237.txt-12">
+      <text>Cypselae ± columnar, 3–4-angled, glabrous;</text>
+      <structure id="o4024" name="cypsela">
+        <character name="shape" value="columnar" modifier="±" />
+        <character name="shape" value="3-4-angled" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="237.txt-13">
+      <text>pappi caducous, of 4–5 scales.</text>
+      <structure id="o4025" name="pappus">
+        <character name="duration" value="caducous" />
+      </structure>
+      <structure id="o4026" name="scale">
+        <character char_type="range_value" name="count" from="4" to="5" />
+      </structure>
+      <relation id="r570" name="consist_of" from="o4025" to="o4026" negation="false" />
+    </statement>
+    <statement id="237.txt-14">
+      <text>x = 7.</text>
+      <structure id="o4027" name="chromosome">
+        <character name="count" value="7" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species 1:</number_of_infrataxa>
+  <general_distribution>se United States.</general_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

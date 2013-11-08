@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>3.</number>
+  <species_name>Prenanthes altissima</species_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 797. 1753</place_of_publication>
+  <common_name>Tall rattlesnakeroot, prenanthe élevée</common_name>
+  <synonym_of_species_name>Nabalus altissimus (Linnaeus) Hooker; Prenanthes altissima var. cinnamomea Fernald; P. altissima var. hispidula Fernald</synonym_of_species_name>
+  <description>
+    <statement id="361.txt-0">
+      <text>Plants 40–250 cm;</text>
+      <structure id="o6783" name="whole_organism">
+        <character char_type="range_value" name="size" from="40" from_unit="cm" to="250" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="361.txt-1">
+      <text>taproots thickened, knotty, tuberous.</text>
+      <structure id="o6784" name="taproot">
+        <character name="thickness" value="thickened" />
+        <character name="shape" value="knotty" />
+        <character name="architecture" value="tuberous" />
+      </structure>
+    </statement>
+    <statement id="361.txt-2">
+      <text>Stems erect, greenish to purplish, glabrous proximally, often tomentulose distally.</text>
+      <structure id="o6785" name="stem">
+        <character name="orientation" value="erect" />
+        <character char_type="range_value" name="coloration" from="greenish" to="purplish" />
+        <character name="coloration" value="greenish" />
+        <character name="coloration" value="purplish" />
+        <character name="pubescence" value="glabrous" modifier="proximally" />
+        <character name="pubescence" value="tomentulose" modifier="often ; distally" />
+      </structure>
+    </statement>
+    <statement id="361.txt-3">
+      <text>Leaves:</text>
+      <structure id="o6786" name="leaf" />
+    </statement>
+    <statement id="361.txt-4">
+      <text>proximal present at flowering;</text>
+      <structure id="o6787" name="leaf" constraint="proximal">
+        <character name="presence" value="present" modifier="at flowering" />
+      </structure>
+    </statement>
+    <statement id="361.txt-5">
+      <text>petioles winged;</text>
+      <structure id="o6788" name="petiole">
+        <character name="architecture" value="winged" />
+      </structure>
+    </statement>
+    <statement id="361.txt-6">
+      <text>blades usually ovate or triangular, 4–15 × 2–16 cm, thin, bases truncate to hastate or cordate, margins entire or shallowly dentate, often deeply 3-lobed, faces glabrous or with scattered hairs on veins;</text>
+      <structure id="o6789" name="blade">
+        <character name="shape" value="ovate" modifier="usually" />
+        <character name="shape" value="triangular" modifier="usually" />
+        <character char_type="range_value" name="length" from="4" from_unit="cm" to="15" to_unit="cm" />
+        <character char_type="range_value" name="width" from="2" from_unit="cm" to="16" to_unit="cm" />
+        <character name="thickness" value="thin" />
+      </structure>
+      <structure id="o6790" name="base">
+        <character char_type="range_value" name="shape" from="truncate" to="hastate or cordate" />
+        <character name="shape" value="truncate" />
+        <character name="shape" value="hastate" />
+        <character name="shape" value="cordate" />
+      </structure>
+      <structure id="o6791" name="margin">
+        <character name="shape" value="entire" />
+        <character name="shape" value="dentate" modifier="shallowly" />
+        <character name="shape" value="3-lobed" modifier="often deeply" />
+      </structure>
+      <structure id="o6792" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="with scattered hairs" />
+      </structure>
+      <structure id="o6793" name="hair">
+        <character name="arrangement" value="scattered" />
+      </structure>
+      <relation id="r842" name="with" from="o6792" to="o6793" negation="false" />
+      <structure id="o6794" name="vein" />
+      <relation id="r843" name="on" from="o6793" to="o6794" negation="false" />
+    </statement>
+    <statement id="361.txt-7">
+      <text>distal reduced in size and lobing.</text>
+      <structure id="o6795" name="leaf" constraint="distal">
+        <character name="size" value="reduced" modifier="in size" />
+        <character name="shape" value="lobing" />
+      </structure>
+    </statement>
+    <statement id="361.txt-8">
+      <text>Heads in narrow or spreading, paniculiform arrays.</text>
+      <structure id="o6796" name="head" />
+      <structure id="o6797" name="array">
+        <character name="size" value="narrow" />
+        <character name="orientation" value="spreading" />
+        <character name="architecture" value="paniculiform" />
+      </structure>
+      <relation id="r844" name="in" from="o6796" to="o6797" negation="false" />
+    </statement>
+    <statement id="361.txt-9">
+      <text>Involucres cylindric, 9–14 × 2–3 mm.</text>
+      <structure id="o6798" name="involucre">
+        <character name="shape" value="cylindric" />
+        <character char_type="range_value" name="length" from="9" from_unit="mm" to="14" to_unit="mm" />
+        <character char_type="range_value" name="width" from="2" from_unit="mm" to="3" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="361.txt-10">
+      <text>Calyculi of 4–6, blackish, triangular bractlets 1–4 mm, glabrous.</text>
+      <structure id="o6799" name="calyculus">
+        <character name="pubescence" value="glabrous" />
+      </structure>
+      <structure id="o6800" name="bractlet">
+        <character char_type="range_value" name="count" from="4" to="6" />
+        <character name="coloration" value="blackish" />
+        <character name="shape" value="triangular" />
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+      <relation id="r845" name="consist_of" from="o6799" to="o6800" negation="false" />
+    </statement>
+    <statement id="361.txt-11">
+      <text>Phyllaries (4–)5(–6), pale green, often blackish at bases and apices, linear to lanceolate, 10–12 mm, glabrous or sparsely hairy.</text>
+      <structure id="o6801" name="phyllary">
+        <character char_type="range_value" name="atypical_count" from="4" to="5" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_count" from="5" to="6" from_inclusive="false" />
+        <character name="count" value="5" />
+        <character name="coloration" value="green" modifier="pale" />
+        <character name="coloration" value="blackish" modifier="often" constraint="at bases, apices" constraintid="o6802  o6803" />
+        <character char_type="range_value" name="shape" from="linear" to="lanceolate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="lanceolate" />
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="12" to_unit="mm" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="hairy" modifier="sparsely" />
+      </structure>
+      <structure id="o6802" name="base" />
+      <structure id="o6803" name="apex" />
+    </statement>
+    <statement id="361.txt-12">
+      <text>Florets (4–)5(–6) ;</text>
+      <structure id="o6804" name="floret">
+        <character char_type="range_value" name="atypical_count" from="4" to="5" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_count" from="5" to="6" from_inclusive="false" />
+        <character name="count" value="5" />
+      </structure>
+    </statement>
+    <statement id="361.txt-13">
+      <text>corollas pale yellow to greenish yellow, 7–15 mm.</text>
+      <structure id="o6805" name="corolla">
+        <character char_type="range_value" name="coloration" from="pale-yellow" to="greenish-yellow" />
+        <character name="coloration" value="yellow" modifier="pale" />
+        <character name="coloration" value="yellow" modifier="greenish" />
+        <character char_type="range_value" name="size" from="7" from_unit="mm" to="15" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="361.txt-14">
+      <text>Cypselae brown to tan, subcylindric, subterete, 4–5 mm, indistinctly 5–10-ribbed;</text>
+      <structure id="o6806" name="cypsela">
+        <character char_type="range_value" name="coloration" from="brown" to="tan" />
+        <character name="coloration" value="brown" />
+        <character name="coloration" value="tan" />
+        <character name="shape" value="subcylindric" />
+        <character name="shape" value="subterete" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="5" to_unit="mm" />
+        <character name="architecture_or_shape" value="5-10-ribbed" modifier="indistinctly" />
+      </structure>
+    </statement>
+    <statement id="361.txt-15">
+      <text>pappi usually whitish or pale yellow, sometimes reddish brown, 5–6 mm.</text>
+      <structure id="o6807" name="pappus">
+        <character name="coloration" value="whitish" modifier="usually" />
+        <character name="coloration" value="yellow" modifier="pale" />
+        <character name="coloration" value="brown" modifier="sometimes;reddish" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="361.txt-16">
+      <text>2 n = 16.</text>
+      <structure id="o6808" name="chromosome">
+        <character name="count" value="16" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <flowering_time>nov</flowering_time>
+  <habitat>open deciduous hardwood or mixed woods</habitat>
+  <habitat>shaded slopes</habitat>
+  <habitat>bluffs</habitat>
+  <habitat>disturbed areas</habitat>
+  <habitat>roadsides</habitat>
+  <elevation>50–800 m;</elevation>
+  <ca_distribution>N.B.</ca_distribution>
+  <ca_distribution>N.S.</ca_distribution>
+  <ca_distribution>Ont.</ca_distribution>
+  <ca_distribution>P.E.I.</ca_distribution>
+  <ca_distribution>Que.</ca_distribution>
+  <us_distribution>Ala.</us_distribution>
+  <us_distribution>Ark.</us_distribution>
+  <us_distribution>Conn.</us_distribution>
+  <us_distribution>Del.</us_distribution>
+  <us_distribution>Ga.</us_distribution>
+  <us_distribution>Ill.</us_distribution>
+  <us_distribution>Ind.</us_distribution>
+  <us_distribution>Ky.</us_distribution>
+  <us_distribution>La.</us_distribution>
+  <us_distribution>Maine</us_distribution>
+  <us_distribution>Md.</us_distribution>
+  <us_distribution>Mass.</us_distribution>
+  <us_distribution>Mich.</us_distribution>
+  <us_distribution>Mo.</us_distribution>
+  <us_distribution>N.H.</us_distribution>
+  <us_distribution>N.J.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>N.C.</us_distribution>
+  <us_distribution>Ohio</us_distribution>
+  <us_distribution>Okla.</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <us_distribution>R.I.</us_distribution>
+  <us_distribution>S.C.</us_distribution>
+  <us_distribution>Tenn.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <us_distribution>Vt.</us_distribution>
+  <us_distribution>Va.</us_distribution>
+  <us_distribution>W.Va.</us_distribution>
+  <discussion>Prenanthes altissima is recognized by its narrow involucres with 5 pale green, glabrous phyllaries, (4–)5(–6) florets, and pale yellow to greenish yellow corollas. Pappi in this species are most commonly whitish or pale yellow. Specimens with reddish brown to orange pappi have been recognized as var. cinnamomea, found in Arkansas, Louisiana, and Missouri. Specimens with densely hairy stems and pale yellow pappi have been recognized as var. hispidula, found mostly in New York, New England, and adjacent Canada.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

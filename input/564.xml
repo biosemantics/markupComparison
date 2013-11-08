@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>11.</number>
+  <species_name>Stephanomeria runcinata</species_name>
+  <authority>Nuttall</authority>
+  <place_of_publication>Trans. Amer. Philos. Soc., n. s. 7: 428. 1841</place_of_publication>
+  <common_name>Desert or sawtooth wirelettuce</common_name>
+  <description>
+    <statement id="564.txt-0">
+      <text>Perennials, 10–20(–25) cm (rhizomes stout).</text>
+      <structure id="o11616" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="20" to="25" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="20" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="564.txt-1">
+      <text>Stems erect or ascending, glabrous or weakly scabrous-puberulent.</text>
+      <structure id="o11617" name="stem">
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="ascending" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="scabrous-puberulent" modifier="weakly" />
+      </structure>
+    </statement>
+    <statement id="564.txt-2">
+      <text>Leaves usually withered at flowering;</text>
+      <structure id="o11618" name="leaf">
+        <character name="duration" value="withered" modifier="usually; at flowering" />
+      </structure>
+    </statement>
+    <statement id="564.txt-3">
+      <text>basal blades narrowly lanceolate, markedly runcinate, 3–7 cm, margins pinnately lobed (faces glabrous or weakly scabrous-puberulent) ;</text>
+      <structure id="o11619" name="blade" constraint="basal">
+        <character name="shape" value="lanceolate" modifier="narrowly" />
+        <character name="shape" value="runcinate" modifier="markedly" />
+        <character char_type="range_value" name="size" from="3" from_unit="cm" to="7" to_unit="cm" />
+      </structure>
+      <structure id="o11620" name="margin">
+        <character name="shape" value="lobed" modifier="pinnately" />
+      </structure>
+    </statement>
+    <statement id="564.txt-4">
+      <text>cauline much reduced, bractlike .</text>
+      <structure id="o11621" name="leaf" constraint="cauline">
+        <character name="size" value="reduced" modifier="much" />
+        <character name="shape" value="bractlike" />
+      </structure>
+    </statement>
+    <statement id="564.txt-5">
+      <text>Heads borne singly on branch tips .</text>
+      <structure id="o11622" name="head" />
+      <structure id="o11623" name="tip" constraint="branch" />
+      <relation id="r1344" name="borne on" from="o11622" to="o11623" negation="false" />
+    </statement>
+    <statement id="564.txt-6">
+      <text>Peduncles 10–50 mm (usually minutely bracteolate).</text>
+      <structure id="o11624" name="peduncle">
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="50" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="564.txt-7">
+      <text>Calyculi of appressed bractlets (unequal, lengths to 1 / 2 phyllaries).</text>
+      <structure id="o11625" name="calyculus" />
+      <structure id="o11626" name="bractlet">
+        <character name="orientation" value="appressed" />
+      </structure>
+      <relation id="r1345" name="consist_of" from="o11625" to="o11626" negation="false" />
+    </statement>
+    <statement id="564.txt-8">
+      <text>Involucres 9–12(–13) mm (phyllaries 5–6, glabrous).</text>
+      <structure id="o11627" name="involucre">
+        <character char_type="range_value" name="atypical_size" from="12" to="13" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="9" from_unit="mm" to="12" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="564.txt-9">
+      <text>Florets 5–6.</text>
+      <structure id="o11628" name="floret">
+        <character char_type="range_value" name="count" from="5" to="6" />
+      </structure>
+    </statement>
+    <statement id="564.txt-10">
+      <text>Cypselae tan, 3–5 mm, faces smooth to slightly bumpy, grooved;</text>
+      <structure id="o11629" name="cypsela">
+        <character name="coloration" value="tan" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+      <structure id="o11630" name="face">
+        <character name="architecture_or_relief" value="smooth" />
+        <character name="texture" value="bumpy" modifier="slightly" />
+        <character name="architecture" value="grooved" />
+      </structure>
+    </statement>
+    <statement id="564.txt-11">
+      <text>pappi of 15–25, white bristles (persistent), wholly plumose.</text>
+      <structure id="o11631" name="pappus">
+        <character name="architecture" value="plumose" modifier="wholly" />
+      </structure>
+      <structure id="o11632" name="bristle">
+        <character char_type="range_value" name="count" from="15" to="25" />
+        <character name="coloration" value="white" />
+      </structure>
+      <relation id="r1346" name="consist_of" from="o11631" to="o11632" negation="false" />
+    </statement>
+    <statement id="564.txt-12">
+      <text>2 n = 16.</text>
+      <structure id="o11633" name="chromosome">
+        <character name="count" value="16" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>open sandy places</habitat>
+  <habitat>eroded siltstones</habitat>
+  <habitat>clay flats</habitat>
+  <habitat>alkali soils</habitat>
+  <elevation>600–1800 m;</elevation>
+  <ca_distribution>Alta.</ca_distribution>
+  <ca_distribution>Sask.</ca_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>Nebr.</us_distribution>
+  <us_distribution>N.Dak.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <discussion>Stephanomeria runcinata grows in the upper Great Plains and adjacent intermontane valleys.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

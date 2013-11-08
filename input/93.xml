@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>30c.</number>
+  <variety_name>Cirsium clavatum (M. E. Jones) Petrak var. osterhoutii</variety_name>
+  <authority>(Rydberg) D. J. Keil</authority>
+  <place_of_publication>Sida 21: 212. 2004</place_of_publication>
+  <common_name>Osterhout’s thistle</common_name>
+  <synonym_of_variety_name>Carduus osterhoutii Rydberg, Bull. Torrey Bot. Club 32: 131. 1905; Cirsium osterhoutii (Rydberg) Petrak; C. araneans Rydberg</synonym_of_variety_name>
+  <description>
+    <statement id="93.txt-0">
+      <text>Abaxial leaf faces ± tomentose.</text>
+      <structure id="o19067" name="face" constraint="abaxial leaf">
+        <character name="pubescence" value="tomentose" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="93.txt-1">
+      <text>Involucres ovoid to campanulate, 2–2.8 × 1.5–3 cm, villous-ciliate with long septate trichomes connecting adjacent phyllaries and/or thinly arachnoid-tomentose.</text>
+      <structure id="o19068" name="involucre">
+        <character char_type="range_value" name="shape" from="ovoid" to="campanulate" />
+        <character name="shape" value="ovoid" />
+        <character name="shape" value="campanulate" />
+        <character char_type="range_value" name="length" from="2" from_unit="cm" to="2.8" to_unit="cm" />
+        <character char_type="range_value" name="width" from="1.5" from_unit="cm" to="3" to_unit="cm" />
+        <character name="architecture_or_shape" value="villous-ciliate" constraint="with trichomes" constraintid="o19069" />
+      </structure>
+      <structure id="o19069" name="trichome">
+        <character name="size" value="long" />
+        <character name="architecture" value="septate" />
+      </structure>
+      <structure id="o19070" name="phyllary" constraint="adjacent">
+        <character name="fusion" value="connecting" />
+        <character name="pubescence" value="arachnoid-tomentose" modifier="thinly" />
+      </structure>
+    </statement>
+    <statement id="93.txt-2">
+      <text>Phyllaries in 5–6 series, imbricate or subequal, green or with maroon to dark brown subapical patch or appendage, linear to linear-lanceolate, abaxial faces with narrow glutinous ridge that is often concealed by trichomes;</text>
+      <structure id="o19071" name="phyllary">
+        <character name="aestivation_or_arrangement" value="imbricate" />
+        <character name="size" value="subequal" />
+        <character name="coloration" value="green" />
+        <character name="coloration" value="with maroon to dark-brown subapical patch or appendage" />
+        <character char_type="range_value" name="shape" from="linear" to="linear-lanceolate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="linear-lanceolate" />
+      </structure>
+      <structure id="o19072" name="series">
+        <character char_type="range_value" name="count" from="5" to="6" />
+      </structure>
+      <relation id="r2015" name="in" from="o19071" to="o19072" negation="false" />
+      <structure id="o19073" name="patch" constraint="subapical">
+        <character name="coloration" value="maroon" />
+        <character name="coloration" value="brown" modifier="dark" />
+      </structure>
+      <structure id="o19074" name="appendage">
+        <character name="coloration" value="maroon" />
+        <character name="coloration" value="brown" modifier="dark" />
+      </structure>
+      <relation id="r2016" name="with" from="o19071" to="o19073" negation="false" />
+      <relation id="r2017" name="with" from="o19071" to="o19074" negation="false" />
+      <structure id="o19075" name="face" constraint="abaxial" />
+      <structure id="o19076" name="ridge">
+        <character name="size" value="narrow" />
+        <character name="coating_or_texture" value="glutinous" />
+        <character name="manifestation" value="concealed" modifier="often" constraint="by trichomes" constraintid="o19077" />
+      </structure>
+      <relation id="r2018" name="with" from="o19075" to="o19076" negation="false" />
+      <structure id="o19077" name="trichome" />
+    </statement>
+    <statement id="93.txt-3">
+      <text>outer and middle bases appressed, apical appendages erect or stiffly ascending, linear-lanceolate to acicular, entire or spinulose-dentate, spines erect or ascending, 2–5 mm;</text>
+      <structure id="o19078" name="base" constraint="outer and middle">
+        <character name="orientation" value="appressed" />
+      </structure>
+      <structure id="o19079" name="appendage" constraint="apical">
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="ascending" modifier="stiffly" />
+        <character char_type="range_value" name="shape" from="linear-lanceolate" to="acicular , entire or spinulose-dentate" />
+        <character name="shape" value="linear-lanceolate" />
+        <character name="shape" value="acicular" />
+        <character name="shape" value="entire" />
+        <character name="shape" value="spinulose-dentate" />
+      </structure>
+      <structure id="o19080" name="spine">
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="ascending" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="93.txt-4">
+      <text>apices of inner sometimes flexuous or reflexed, narrow, flat, and entire or expanded, scarious, and lacerate-dentate.</text>
+      <structure id="o19081" name="apex">
+        <character name="course" value="flexuous" modifier="sometimes" />
+        <character name="orientation" value="reflexed" />
+        <character name="size" value="narrow" />
+        <character name="shape" value="flat" />
+        <character name="shape" value="entire" />
+        <character name="size" value="expanded" />
+        <character name="texture" value="scarious" />
+        <character name="shape" value="lacerate-dentate" />
+      </structure>
+      <structure id="o19082" name="phyllary" constraint="inner" />
+      <relation id="r2019" name="part_of" from="o19081" to="o19082" negation="false" />
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>openings in montane coniferous forests</habitat>
+  <habitat>subalpine</habitat>
+  <habitat>alpine</habitat>
+  <elevation>3000–3600 m;</elevation>
+  <us_distribution>Colo.</us_distribution>
+  <discussion>The densely pubescent involucre of var. osterhoutii is a feature that links those plants with Cirsium eatonii var. eriocephalum. Some specimens tentatively assigned to C. clavatum var. osterhoutiii may be derivatives of past introgression with C. eatonii var. eriocephalum. Congested heads and strongly undulate leaves with numerous closely spaced lobes are features that suggest such a relationship. Further studies at both population and regional levels are needed to establish the nature of the variation patterns. Where I have observed var. osterhoutii in the field, populations appeared to be morpologically stable, and there was no evidence of current introgression with C. eatonii.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>2.</number>
+  <species_name>Pterocaulon virgatum</species_name>
+  <authority>(Linnaeus) de Candolle</authority>
+  <place_of_publication>in A. P. de Candolle and A. L. P. P. de Candolle, Prodr. 5: 454. 1836</place_of_publication>
+  <common_name>Wand blackroot</common_name>
+  <synonym_of_species_name>Gnaphalium virgatum Linnaeus, Syst. Nat. ed. 10, 2: 1211. 1759</synonym_of_species_name>
+  <description>
+    <statement id="800.txt-0">
+      <text>Plants 4–15 dm.</text>
+      <structure id="o16929" name="whole_organism">
+        <character char_type="range_value" name="size" from="4" from_unit="dm" to="15" to_unit="dm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="800.txt-1">
+      <text>Leaf blades linear to narrowly elliptic or linear-lanceolate, 5–10(–15) cm × (2–)5–10(–14) mm, lengths mostly 6–8 times widths, margins entire or minutely denticulate (revolute).</text>
+      <structure id="o16930" name="blade" constraint="leaf">
+        <character name="arrangement_or_shape" value="linear" />
+        <character name="shape" value="elliptic" modifier="narrowly" />
+        <character name="shape" value="linear-lanceolate" modifier="narrowly" />
+        <character char_type="range_value" name="atypical_length" from="10" to="15" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="5" from_unit="cm" to="10" to_unit="cm" />
+        <character char_type="range_value" name="atypical_width" from="]5-10" to="14" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="width" from="2" from_unit="mm" to="]5-10" to_unit="mm" />
+        <character name="size" value="widths" modifier="mostly" />
+      </structure>
+      <structure id="o16931" name="margin">
+        <character name="shape" value="entire" />
+        <character name="shape" value="denticulate" modifier="minutely" />
+      </structure>
+    </statement>
+    <statement id="800.txt-2">
+      <text>Heads in open, inter-rupted, ± cylindric arrays (5–)8–20 cm (main axes visible between glomerules of heads).</text>
+      <structure id="o16932" name="head" />
+      <structure id="o16933" name="array">
+        <character name="architecture" value="open" />
+        <character name="architecture" value="inter-rupted" />
+        <character name="shape" value="cylindric" modifier="±" />
+        <character char_type="range_value" name="atypical_size" from="5" to="8" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="8" from_unit="cm" to="20" to_unit="cm" />
+      </structure>
+      <relation id="r1824" name="in" from="o16932" to="o16933" negation="false" />
+    </statement>
+    <statement id="800.txt-3">
+      <text>Involucres campanulate to cylindric, 4–5 mm.</text>
+      <structure id="o16934" name="involucre">
+        <character char_type="range_value" name="shape" from="campanulate" to="cylindric" />
+        <character name="shape" value="campanulate" />
+        <character name="shape" value="cylindric" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="800.txt-4">
+      <text>Pistillate florets 25–50.</text>
+      <structure id="o16935" name="floret" constraint="pistillate">
+        <character char_type="range_value" name="count" from="25" to="50" />
+      </structure>
+    </statement>
+    <statement id="800.txt-5">
+      <text>Functionally staminate florets 2–4(–5).</text>
+      <structure id="o16936" name="floret" constraint="functionally staminate">
+        <character char_type="range_value" name="atypical_count" from="4" to="5" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="2" to="4" />
+      </structure>
+    </statement>
+    <statement id="800.txt-6">
+      <text>Cypselae 1–1.4 mm.</text>
+      <structure id="o16937" name="cypsela">
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="1.4" to_unit="mm" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <habitat>marshy areas</habitat>
+  <habitat>ditches</habitat>
+  <habitat>moist places in woods</habitat>
+  <habitat>in sand</habitat>
+  <habitat>sandy loam, and sandy clay</habitat>
+  <elevation>0–20 m;</elevation>
+  <us_distribution>La.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <global_distribution>Mexico (Tamaulipas)</global_distribution>
+  <global_distribution>West Indies</global_distribution>
+  <global_distribution>Central America</global_distribution>
+  <global_distribution>South America.</global_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

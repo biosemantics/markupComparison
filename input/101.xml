@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>35.</number>
+  <species_name>Cirsium hydrophilum</species_name>
+  <authority>(Greene) Jepson</authority>
+  <place_of_publication>Fl. W. Calif., 507. 1901</place_of_publication>
+  <synonym_of_species_name>Carduus hydrophilus Greene, Proc. Acad. Nat. Sci. Philadelphia 44: 358. 1893; Cirsium vaseyi (A. Gray) Jepson var. hydrophilum (Greene) Petrak</synonym_of_species_name>
+  <description>
+    <statement id="101.txt-0">
+      <text>Biennials or monocarpic perennials , 100–220 cm;</text>
+    </statement>
+    <statement id="101.txt-1">
+      <text>taprooted.</text>
+      <structure id="o126" name="whole_organism">
+        <character char_type="range_value" name="size" from="100" from_unit="cm" to="220" to_unit="cm" />
+        <character name="life_style" value="biennial" />
+        <character name="life_style" value="perennial" />
+        <character name="architecture" value="taprooted" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="101.txt-2">
+      <text>Stems 1–several, erect, (hollow), openly branched distally or throughout, thinly arachnoid with fine, non-septate trichomes, glabrate.</text>
+      <structure id="o128" name="stem">
+        <character char_type="range_value" name="count" from="1" to="several" />
+        <character name="orientation" value="erect" />
+        <character name="architecture_or_shape" value="branched" modifier="openly ; distally" />
+        <character name="architecture_or_shape" value="branched" modifier="openly ; distally; throughout" />
+        <character name="pubescence" value="arachnoid" modifier="thinly" constraint="with trichomes" constraintid="o129" />
+        <character name="pubescence" value="glabrate" />
+      </structure>
+      <structure id="o129" name="trichome">
+        <character name="texture" value="fine" />
+        <character name="architecture" value="non-septate" />
+      </structure>
+    </statement>
+    <statement id="101.txt-3">
+      <text>Leaves:</text>
+      <structure id="o130" name="leaf" />
+    </statement>
+    <statement id="101.txt-5">
+      <text>basal present or withered at flowering, winged-petiolate;</text>
+      <structure id="o131" name="leaf" constraint="basal">
+        <character name="presence" value="present" />
+        <character name="duration" value="withered" modifier="at flowering" />
+        <character name="architecture" value="winged-petiolate" />
+      </structure>
+    </statement>
+    <statement id="101.txt-6">
+      <text>principal cauline sessile, progressively reduced distally, bases auriculate-clasping or shortly decurrent;</text>
+      <structure id="o132" name="leaf" constraint="principal cauline">
+        <character name="architecture" value="sessile" />
+        <character name="size" value="reduced" modifier="progressively ; distally" />
+      </structure>
+      <structure id="o133" name="base">
+        <character name="architecture" value="auriculate-clasping" />
+        <character name="shape" value="decurrent" modifier="shortly" />
+      </structure>
+    </statement>
+    <statement id="101.txt-7">
+      <text>distal cauline reduced, bractlike, often spinier than proximal.</text>
+      <structure id="o134" name="leaf" constraint="distal cauline">
+        <character name="size" value="reduced" />
+        <character name="shape" value="bractlike" />
+        <character name="architecture" value="spinier" modifier="often" constraint="than proximal leaf" constraintid="o135" />
+      </structure>
+      <structure id="o135" name="leaf" constraint="proximal" />
+    </statement>
+    <statement id="101.txt-8">
+      <text>Heads borne singly or few at branch tips, sometimes subtended by clustered, ± leafy bracts, collectively forming ± open, many-headed paniculiform arrays.</text>
+      <structure id="o136" name="head">
+        <character name="arrangement" value="singly" />
+        <character name="count" value="few" constraint="at branch tips" constraintid="o137" />
+        <character name="architecture" value="open" modifier="collectively ±" />
+        <character name="architecture_or_shape" value="many-headed" />
+        <character name="architecture" value="paniculiform" />
+      </structure>
+      <structure id="o137" name="tip" constraint="branch" />
+      <structure id="o138" name="bract">
+        <character name="arrangement_or_habit" value="clustered" />
+        <character name="architecture" value="leafy" modifier="±" />
+      </structure>
+      <relation id="r28" name="subtended by" from="o136" to="o138" negation="false" />
+    </statement>
+    <statement id="101.txt-9">
+      <text>Peduncles 0–10+ cm.</text>
+      <structure id="o139" name="peduncle">
+        <character char_type="range_value" name="size" from="0" from_unit="cm" to="10" to_unit="cm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="101.txt-10">
+      <text>Involucres ovoid to campanulate, 1.5–2.5 × 1.5–3 cm, thinly arachnoid, glabrate.</text>
+      <structure id="o140" name="involucre">
+        <character char_type="range_value" name="shape" from="ovoid" to="campanulate" />
+        <character name="shape" value="ovoid" />
+        <character name="shape" value="campanulate" />
+        <character char_type="range_value" name="length" from="1.5" from_unit="cm" to="2.5" to_unit="cm" />
+        <character char_type="range_value" name="width" from="1.5" from_unit="cm" to="3" to_unit="cm" />
+        <character name="pubescence" value="arachnoid" modifier="thinly" />
+        <character name="pubescence" value="glabrate" />
+      </structure>
+    </statement>
+    <statement id="101.txt-11">
+      <text>Phyllaries in 6–9 series, imbricate, dark green to brownish, lanceolate (outer) to linear (inner), abaxial faces with narrow glutinous ridge;</text>
+      <structure id="o141" name="phyllary">
+        <character name="aestivation_or_arrangement" value="imbricate" />
+        <character char_type="range_value" name="coloration" from="dark-green" to="brownish" />
+        <character name="coloration" value="green" modifier="dark" />
+        <character name="coloration" value="brownish" />
+        <character char_type="range_value" name="shape" from="lanceolate" to="linear" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="linear" />
+      </structure>
+      <structure id="o142" name="series">
+        <character char_type="range_value" name="count" from="6" to="9" />
+      </structure>
+      <relation id="r29" name="in" from="o141" to="o142" negation="false" />
+      <structure id="o143" name="face" constraint="abaxial" />
+      <structure id="o144" name="ridge">
+        <character name="size" value="narrow" />
+        <character name="coating_or_texture" value="glutinous" />
+      </structure>
+      <relation id="r30" name="with" from="o143" to="o144" negation="false" />
+    </statement>
+    <statement id="101.txt-12">
+      <text>outer and middle appressed, apices spreading, finely serrulate, spines slender, 1–2 mm;</text>
+      <structure id="o145" name="phyllary" constraint="outer and middle">
+        <character name="orientation" value="appressed" />
+      </structure>
+      <structure id="o146" name="apex">
+        <character name="orientation" value="spreading" />
+        <character name="shape" value="serrulate" modifier="finely" />
+      </structure>
+      <structure id="o147" name="spine">
+        <character name="size" value="slender" />
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="2" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="101.txt-13">
+      <text>apices of inner erect, ± flexuous.</text>
+      <structure id="o148" name="apex">
+        <character name="orientation" value="erect" />
+        <character name="course" value="flexuous" modifier="±" />
+      </structure>
+      <structure id="o149" name="phyllary" constraint="inner" />
+      <relation id="r31" name="part_of" from="o148" to="o149" negation="false" />
+    </statement>
+    <statement id="101.txt-14">
+      <text>Corollas pale rose-purple, 18–23 mm, tubes 8–10 mm, throats 5–6 mm, lobes 5–7 mm;</text>
+      <structure id="o150" name="corolla">
+        <character name="coloration" value="purple" modifier="pale-rose" />
+        <character char_type="range_value" name="size" from="18" from_unit="mm" to="23" to_unit="mm" />
+      </structure>
+      <structure id="o151" name="tube">
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+      <structure id="o152" name="throat">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+      <structure id="o153" name="lobe">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="101.txt-15">
+      <text>style tips 3.5–4.5 mm.</text>
+      <structure id="o154" name="tip" constraint="style">
+        <character char_type="range_value" name="size" from="3.5" from_unit="mm" to="4.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="101.txt-16">
+      <text>Cypselae dark brown to black, 4–5 mm, collars very narrow, stramineous;</text>
+      <structure id="o155" name="cypsela">
+        <character char_type="range_value" name="coloration" from="dark-brown" to="black" />
+        <character name="coloration" value="brown" modifier="dark" />
+        <character name="coloration" value="black" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+      <structure id="o156" name="collar">
+        <character name="size" value="narrow" modifier="very" />
+        <character name="coloration" value="stramineous" />
+      </structure>
+    </statement>
+    <statement id="101.txt-17">
+      <text>pappi ca. 15 mm.</text>
+      <structure id="o157" name="pappus">
+        <character name="size" value="15" unit="mm" />
+      </structure>
+    </statement>
+    <statement id="101.txt-18">
+      <text>2 n = 32.</text>
+      <structure id="o158" name="chromosome">
+        <character name="count" value="32" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Varieties 2 (2 in the flora):</number_of_infrataxa>
+  <general_distribution>California.</general_distribution>
+  <couplet>1.Heads usually 2.5–3 cm; cypselae ca. 5 mm, oblong; tidal marshes35a. Cirsium hydrophilum var. hydrophilum</couplet>
+  <couplet>1.Heads usually 3–3.5 cm; cypselae 4–5 mm, oblong or elliptic; serpentine springs35b. Cirsium hydrophilum var. vaseyi</couplet>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

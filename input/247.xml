@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Cyanthillium cinereum</species_name>
+  <authority>(Linnaeus) H. Robinson</authority>
+  <place_of_publication>Proc. Biol. Soc. Wash. 103: 252. 1990</place_of_publication>
+  <synonym_of_species_name>Conyza cinerea Linnaeus, Sp. Pl. 2: 862. 1753; Vernonia cinerea (Linnaeus) Lessing</synonym_of_species_name>
+  <description>
+    <statement id="247.txt-0">
+      <text>Leaf blades 20–35(–50+) × 12–25(–30+) mm (including petioles) .</text>
+      <structure id="o4185" name="blade" constraint="leaf">
+        <character char_type="range_value" name="atypical_length" from="35" to="50" from_unit="mm" to_unit="mm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="20" from_unit="mm" to="35" to_unit="mm" />
+        <character char_type="range_value" name="atypical_width" from="25" to="30" from_unit="mm" to_unit="mm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="width" from="12" from_unit="mm" to="25" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="247.txt-1">
+      <text>Peduncles 3–10(–20+) mm.</text>
+      <structure id="o4186" name="peduncle">
+        <character char_type="range_value" name="atypical_size" from="10" to="20" from_unit="mm" to_unit="mm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="247.txt-2">
+      <text>Bracts ± linear at proximal nodes, wanting distally.</text>
+      <structure id="o4187" name="bract">
+        <character name="arrangement_or_shape" value="linear" modifier="±" constraint="at nodes" constraintid="o4188" />
+        <character name="presence" value="wanting" modifier="distally" />
+      </structure>
+      <structure id="o4188" name="node" constraint="proximal" />
+    </statement>
+    <statement id="247.txt-3">
+      <text>Phyllaries 3–4 mm.</text>
+      <structure id="o4189" name="phyllary">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="247.txt-4">
+      <text>Cypselae 1.5–2 mm;</text>
+      <structure id="o4190" name="cypsela">
+        <character char_type="range_value" name="size" from="1.5" from_unit="mm" to="2" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="247.txt-5">
+      <text>pappi white, outer scales 0.1–0.3 mm, inner bristles 3–4 mm.</text>
+      <structure id="o4191" name="pappus">
+        <character name="coloration" value="white" />
+      </structure>
+      <structure id="o4192" name="scale" constraint="outer">
+        <character char_type="range_value" name="size" from="0.1" from_unit="mm" to="0.3" to_unit="mm" />
+      </structure>
+      <structure id="o4193" name="bristle" constraint="inner">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="247.txt-6">
+      <text>2 n = 36.</text>
+      <structure id="o4194" name="chromosome">
+        <character name="count" value="36" />
+      </structure>
+    </statement>
+  </description>
+  <habitat>disturbed places</habitat>
+  <elevation>0–10 m;</elevation>
+  <introduced>introduced;</introduced>
+  <us_distribution>Fla.</us_distribution>
+  <global_distribution>Mexico</global_distribution>
+  <global_distribution>West Indies</global_distribution>
+  <global_distribution>Central America</global_distribution>
+  <global_distribution>South America</global_distribution>
+  <global_distribution>Asia</global_distribution>
+  <global_distribution>Africa</global_distribution>
+  <global_distribution>Indian Ocean Islands</global_distribution>
+  <global_distribution>Pacific Islands.</global_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

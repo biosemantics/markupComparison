@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Matricaria discoidea</species_name>
+  <authority>de Candolle</authority>
+  <place_of_publication>in A. P. de Candolle and A. L. P. P. de Candolle, Prodr. 6: 50. 1838</place_of_publication>
+  <common_name>Pineappleweed, disc mayweed, rayless chamomile, matricaire odorante</common_name>
+  <synonym_of_species_name>Chamomilla suaveolens (Pursh) Rydberg; C. discoidea (de Candolle) J. Gay ex A. Braun; Santolina suaveolens Pursh 1813, not Matricaria suaveolens Linnaeus 1755</synonym_of_species_name>
+  <description>
+    <statement id="941.txt-0">
+      <text>Annuals, (1–)4–40(–50) cm;</text>
+    </statement>
+    <statement id="941.txt-1">
+      <text>aromatic (pineapple odor when bruised).</text>
+      <structure id="o19386" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="1" to="4" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_size" from="40" to="50" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="4" from_unit="cm" to="40" to_unit="cm" />
+        <character name="life_style" value="annual" />
+        <character name="odor" value="aromatic" />
+      </structure>
+    </statement>
+    <statement id="941.txt-2">
+      <text>Stems 1–10+, usually erect or ascending, sometimes decumbent, branched from bases.</text>
+      <structure id="o19387" name="stem">
+        <character char_type="range_value" name="count" from="1" to="10" upper_restricted="false" />
+        <character name="orientation" value="erect" modifier="usually" />
+        <character name="orientation" value="ascending" modifier="usually" />
+        <character name="habit" value="decumbent" modifier="sometimes" />
+        <character name="architecture_or_shape" value="branched" constraint="from bases" constraintid="o19388" />
+      </structure>
+      <structure id="o19388" name="base" />
+    </statement>
+    <statement id="941.txt-3">
+      <text>Leaf blades (5–)10–65(–85) × 2–20 mm.</text>
+      <structure id="o19389" name="blade" constraint="leaf">
+        <character char_type="range_value" name="atypical_length" from="5" to="10" from_unit="mm" to_unit="mm" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_length" from="65" to="85" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="10" from_unit="mm" to="65" to_unit="mm" />
+        <character char_type="range_value" name="width" from="2" from_unit="mm" to="20" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="941.txt-4">
+      <text>Heads discoid, (1–)4–50(–300), usually borne singly, sometimes in open, corymbiform arrays.</text>
+      <structure id="o19390" name="head">
+        <character name="shape_or_architecture" value="discoid" />
+        <character char_type="range_value" name="atypical_count" from="1" to="4" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_count" from="50" to="300" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="4" to="50" />
+        <character name="arrangement" value="singly" modifier="usually" />
+      </structure>
+      <structure id="o19391" name="array">
+        <character name="architecture" value="open" />
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <relation id="r2036" name="in" from="o19390" to="o19391" negation="false" modifier="sometimes" />
+    </statement>
+    <statement id="941.txt-5">
+      <text>Peduncles 2–25(–30) mm (sometimes villous near heads).</text>
+      <structure id="o19392" name="peduncle">
+        <character char_type="range_value" name="atypical_size" from="25" to="30" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="25" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="941.txt-6">
+      <text>Involucres 2.5–3.8 mm.</text>
+      <structure id="o19393" name="involucre">
+        <character char_type="range_value" name="size" from="2.5" from_unit="mm" to="3.8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="941.txt-7">
+      <text>Phyllaries 29–47+ in 3 series, margins mostly entire.</text>
+      <structure id="o19394" name="phyllary">
+        <character char_type="range_value" name="count" from="29" to="47" upper_restricted="false" constraint="in series" constraintid="o19395" />
+      </structure>
+      <structure id="o19395" name="series">
+        <character name="count" value="3" />
+      </structure>
+      <structure id="o19396" name="margin">
+        <character name="shape" value="entire" modifier="mostly" />
+      </structure>
+    </statement>
+    <statement id="941.txt-8">
+      <text>Receptacles 2.5–7.5 mm, ± acute or obtuse.</text>
+      <structure id="o19397" name="receptacle">
+        <character char_type="range_value" name="size" from="2.5" from_unit="mm" to="7.5" to_unit="mm" />
+        <character name="shape" value="acute" modifier="±" />
+        <character name="shape" value="obtuse" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="941.txt-9">
+      <text>Ray florets 0.</text>
+      <structure id="o19398" name="floret" constraint="ray">
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+    <statement id="941.txt-10">
+      <text>Discs hemispheric to broadly ovoid, 4–7(–11) × 4–7.5(–10) mm.</text>
+      <structure id="o19399" name="disc">
+        <character char_type="range_value" name="shape" from="hemispheric" to="broadly ovoid" />
+        <character name="shape" value="hemispheric" />
+        <character name="shape" value="ovoid" modifier="broadly" />
+        <character char_type="range_value" name="atypical_length" from="7" to="11" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="4" from_unit="mm" to="7" to_unit="mm" />
+        <character char_type="range_value" name="atypical_width" from="7.5" to="10" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="width" from="4" from_unit="mm" to="7.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="941.txt-11">
+      <text>Disc florets 125–535+;</text>
+      <structure id="o19400" name="floret" constraint="disc">
+        <character char_type="range_value" name="count" from="125" to="535" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="941.txt-12">
+      <text>corollas greenish yellow, 1.1–1.3 mm (± glandular), lobes 4(–5).</text>
+      <structure id="o19401" name="corolla">
+        <character name="coloration" value="yellow" modifier="greenish" />
+        <character char_type="range_value" name="size" from="1.1" from_unit="mm" to="1.3" to_unit="mm" />
+      </structure>
+      <structure id="o19402" name="lobe">
+        <character char_type="range_value" name="atypical_count" from="4" to="5" from_inclusive="false" />
+        <character name="count" value="4" />
+      </structure>
+    </statement>
+    <statement id="941.txt-13">
+      <text>Cypselae pale brown to tan, ± cylindric-obconic (asymmetric, abaxially ± gibbous distally), 1.15–1.5 mm, ribs white (lateral 2 each with reddish brown mucilage gland along ± entire length, glands sometimes distally expanded, abaxial 1–2 weak, sometimes each with elongate mucilaginous gland), faces not glandular;</text>
+      <structure id="o19403" name="cypsela">
+        <character char_type="range_value" name="coloration" from="pale-brown" to="tan" />
+        <character name="coloration" value="brown" modifier="pale" />
+        <character name="coloration" value="tan" />
+        <character name="shape" value="cylindric-obconic" modifier="±" />
+        <character char_type="range_value" name="size" from="1.15" from_unit="mm" to="1.5" to_unit="mm" />
+      </structure>
+      <structure id="o19404" name="rib">
+        <character name="coloration" value="white" />
+      </structure>
+      <structure id="o19405" name="face">
+        <character name="architecture_or_exudation_or_pubescence" value="glandular" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="941.txt-14">
+      <text>pappi coroniform, entire.</text>
+      <structure id="o19406" name="pappus">
+        <character name="shape" value="coroniform" />
+        <character name="shape" value="entire" />
+      </structure>
+    </statement>
+    <statement id="941.txt-15">
+      <text>2 n = 18.</text>
+      <structure id="o19407" name="chromosome">
+        <character name="count" value="18" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <flowering_time>nov</flowering_time>
+  <habitat>open areas</habitat>
+  <habitat>bare disturbed areas and rural or urban waste grounds</habitat>
+  <habitat>sometimes alkaline</habitat>
+  <habitat>roadsides</habitat>
+  <habitat>railroads</habitat>
+  <habitat>footpaths</habitat>
+  <habitat>cultivated and abandoned fields and gardens</habitat>
+  <habitat>irrigation ditches</habitat>
+  <habitat>stream banks</habitat>
+  <habitat>sandbars</habitat>
+  <elevation>0–2700 m;</elevation>
+  <global_distribution>Greenland</global_distribution>
+  <global_distribution>St. Pierre and Miquelon</global_distribution>
+  <ca_distribution>Alta.</ca_distribution>
+  <ca_distribution>B.C.</ca_distribution>
+  <ca_distribution>Man.</ca_distribution>
+  <ca_distribution>N.B.</ca_distribution>
+  <ca_distribution>Nfld. and Labr.</ca_distribution>
+  <ca_distribution>N.W.T.</ca_distribution>
+  <ca_distribution>N.S.</ca_distribution>
+  <ca_distribution>Ont.</ca_distribution>
+  <ca_distribution>P.E.I.</ca_distribution>
+  <ca_distribution>Que.</ca_distribution>
+  <ca_distribution>Sask.</ca_distribution>
+  <ca_distribution>Yukon</ca_distribution>
+  <us_distribution>Alaska</us_distribution>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Ark.</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Conn.</us_distribution>
+  <us_distribution>Del.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Ill.</us_distribution>
+  <us_distribution>Ind.</us_distribution>
+  <us_distribution>Iowa</us_distribution>
+  <us_distribution>Kansas</us_distribution>
+  <us_distribution>Ky.</us_distribution>
+  <us_distribution>La.</us_distribution>
+  <us_distribution>Maine</us_distribution>
+  <us_distribution>Md.</us_distribution>
+  <us_distribution>Mass.</us_distribution>
+  <us_distribution>Mich.</us_distribution>
+  <us_distribution>Minn.</us_distribution>
+  <us_distribution>Miss.</us_distribution>
+  <us_distribution>Mo.</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>N.H.</us_distribution>
+  <us_distribution>N.J.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>N.C.</us_distribution>
+  <us_distribution>N.Dak.</us_distribution>
+  <us_distribution>Ohio</us_distribution>
+  <us_distribution>Okla.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <us_distribution>R.I.</us_distribution>
+  <us_distribution>S.C.</us_distribution>
+  <us_distribution>S.Dak.</us_distribution>
+  <us_distribution>Tenn.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Vt.</us_distribution>
+  <us_distribution>Va.</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <us_distribution>W.Va.</us_distribution>
+  <us_distribution>Wis.</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <global_distribution>introduced in Eurasia</global_distribution>
+  <global_distribution>Australia.</global_distribution>
+  <discussion>Matricaria discoidea has been used as a medicinal and aromatic plant by Native American tribes (D. E. Moerman 1998). It also is considered a weed, and it is resistant to a photosystem II inhibitor herbicide in the United Kingdom (www.weedscience.org). It is a northwestern North American native that has spread to eastern and northern North America and elsewhere (E. McClintock 1993b; E. G. Voss 1972–1996, vol. 3; A. Cronquist 1994). NatureServe (www.natureserve.org) and Natural Resources Conservation Service (plants.usda.gov) erroneously present M. discoidea as introduced on the continent. Its natural habitat is ill-defined because the species has become ruderal even in its native range. For discussion of the nomenclature of this taxon, see S. Rauschert (1974); K. N. Gandhi and R. D. Thomas (1991); Cronquist; and Voss.</discussion>
+  <discussion>“Matricaria matricarioides (Lessing) Porter” cannot be applied to the American taxon; M. matricarioides was originally published as Artemisia matricarioides Lessing, a new name for Tanacetum pauciflorum Richardson (see S. Rauschert 1974), itself a synonym of T. huronense Nuttall. W. Greuter (pers. comm.), who accepts M. discodea, considers Rauschert’s treating Artemisia matricarioides as homotypic with T. pauciflorum as equivalent to a lectotype designation.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

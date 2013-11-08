@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>35.</number>
+  <genus_name>CICHORIUM</genus_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 813. 1753; Gen. Pl. ed. 5, 354. 1754</place_of_publication>
+  <common_name />
+  <derivation>Ancient Arabic name</derivation>
+  <author_of_tribe_genus>John L. Strother</author_of_tribe_genus>
+  <description>
+    <statement id="272.txt-0">
+      <text>Perennials [annuals, biennials], [2–]10–120+ cm;</text>
+    </statement>
+    <statement id="272.txt-1">
+      <text>taprooted.</text>
+      <structure id="o4744" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="2" to="10" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="120" to_unit="cm" upper_restricted="false" />
+        <character name="life_style" value="perennial" />
+        <character name="architecture" value="taprooted" />
+      </structure>
+    </statement>
+    <statement id="272.txt-2">
+      <text>Stems usually 1, erect, branched distally or throughout, setose or hispid to pilose, or glabrous.</text>
+      <structure id="o4745" name="stem">
+        <character name="count" value="1" modifier="usually" />
+        <character name="orientation" value="erect" />
+        <character name="architecture_or_shape" value="branched" modifier="distally" />
+        <character name="architecture_or_shape" value="branched" modifier="distally; throughout" />
+        <character char_type="range_value" name="pubescence" from="hispid" to="pilose , or glabrous" />
+        <character name="pubescence" value="setose" />
+        <character name="pubescence" value="hispid" />
+        <character name="pubescence" value="pilose" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="272.txt-3">
+      <text>Leaves basal and cauline;</text>
+    </statement>
+    <statement id="272.txt-4">
+      <text>usually sessile;</text>
+      <structure id="o4746" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="architecture" value="sessile" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="272.txt-5">
+      <text>basal blades oblanceolate to lance-linear, margins usually runcinate-pinnate to dentate, rarely entire;</text>
+      <structure id="o4747" name="blade" constraint="basal">
+        <character char_type="range_value" name="shape" from="oblanceolate" to="lance-linear" />
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="lance-linear" />
+      </structure>
+      <structure id="o4748" name="margin">
+        <character name="architecture" value="runcinate-pinnate" modifier="usually" />
+        <character name="shape" value="dentate" />
+        <character name="shape" value="entire" modifier="rarely" />
+      </structure>
+    </statement>
+    <statement id="272.txt-6">
+      <text>cauline similar, smaller, margins dentate or entire.</text>
+      <structure id="o4749" name="leaf" constraint="cauline">
+        <character name="size" value="smaller" />
+      </structure>
+      <structure id="o4750" name="margin">
+        <character name="shape" value="dentate" />
+        <character name="shape" value="entire" />
+      </structure>
+    </statement>
+    <statement id="272.txt-7">
+      <text>Heads mostly in glomerules (axillary and nearly sessile), some borne singly (on ± elongate peduncles).</text>
+      <structure id="o4751" name="head">
+        <character name="arrangement" value="singly" />
+      </structure>
+      <structure id="o4752" name="glomerule" />
+      <relation id="r644" name="in" from="o4751" to="o4752" negation="false" modifier="mostly" />
+    </statement>
+    <statement id="272.txt-8">
+      <text>Peduncles (dimorphic: most 0–2 mm, some 12–85+ mm):</text>
+      <structure id="o4753" name="peduncle" />
+    </statement>
+    <statement id="272.txt-9">
+      <text>the longer often slightly inflated distally, not bracteate.</text>
+      <structure id="o4754" name="bristile" constraint="longer">
+        <character name="shape" value="inflated" modifier="often slightly ; distally" />
+        <character name="architecture" value="bracteate" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="272.txt-10">
+      <text>Calyculi 0 (or interpreted as outer phyllaries).</text>
+      <structure id="o4755" name="calyculus">
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+    <statement id="272.txt-11">
+      <text>Involucres ± cylindric, 3–5+ mm diam.</text>
+      <structure id="o4756" name="involucre">
+        <character name="shape" value="cylindric" modifier="±" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="5" to_unit="mm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="272.txt-12">
+      <text>Phyllaries 10–15+ in 2+ series, lance-ovate to lanceolate or linear, unequal, margins little, if at all, scarious, apices obtuse to acute.</text>
+      <structure id="o4757" name="phyllary">
+        <character char_type="range_value" name="count" from="10" to="15" upper_restricted="false" constraint="in series" constraintid="o4758" />
+        <character char_type="range_value" name="shape" from="lance-ovate" to="lanceolate or linear" />
+        <character name="shape" value="lance-ovate" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="linear" />
+        <character name="size" value="unequal" />
+      </structure>
+      <structure id="o4758" name="series">
+        <character name="count" char_type="range_value" from="2" upper_restricted="false" />
+      </structure>
+      <structure id="o4759" name="margin">
+        <character name="texture" value="scarious" />
+      </structure>
+      <structure id="o4760" name="apex">
+        <character char_type="range_value" name="shape" from="obtuse" to="acute" />
+        <character name="shape" value="obtuse" />
+        <character name="shape" value="acute" />
+      </structure>
+    </statement>
+    <statement id="272.txt-13">
+      <text>Receptacles flat, pitted, ± hispid, usually epaleate.</text>
+      <structure id="o4761" name="receptacle">
+        <character name="shape" value="flat" />
+        <character name="relief" value="pitted" />
+        <character name="pubescence" value="hispid" modifier="±" />
+        <character name="architecture" value="epaleate" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="272.txt-14">
+      <text>Florets 8–25+;</text>
+      <structure id="o4762" name="floret">
+        <character char_type="range_value" name="count" from="8" to="25" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="272.txt-15">
+      <text>corollas usually blue [purple], sometimes pink or white.</text>
+      <structure id="o4763" name="corolla">
+        <character name="coloration" value="blue" modifier="usually" />
+        <character name="coloration" value="pink" modifier="sometimes" />
+        <character name="coloration" value="white" modifier="sometimes" />
+      </structure>
+    </statement>
+    <statement id="272.txt-16">
+      <text>Cypselae brownish, ± prismatic (3–5-angled), not beaked, faces smooth, glabrous;</text>
+      <structure id="o4764" name="cypsela">
+        <character name="coloration" value="brownish" />
+        <character name="shape" value="prismatic" modifier="±" />
+        <character name="shape" value="beaked" modifier="not" />
+      </structure>
+      <structure id="o4765" name="face">
+        <character name="architecture_or_relief" value="smooth" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="272.txt-17">
+      <text>pappi persistent, coroniform (of 40–60+, whitish, subequal, erose scales in 1–2 series).</text>
+      <structure id="o4766" name="pappus">
+        <character name="duration" value="persistent" />
+        <character name="shape" value="coroniform" />
+      </structure>
+    </statement>
+    <statement id="272.txt-18">
+      <text>x = 9.</text>
+      <structure id="o4767" name="chromosome">
+        <character name="count" value="9" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species 6 (1 in the flora):</number_of_infrataxa>
+  <introduced>introduced;</introduced>
+  <general_distribution>Europe</general_distribution>
+  <general_distribution>n Africa</general_distribution>
+  <general_distribution>Asia</general_distribution>
+  <general_distribution>introduced also in South America</general_distribution>
+  <general_distribution>Africa</general_distribution>
+  <general_distribution>Pacific Old World.</general_distribution>
+  <discussion>The salad green known as endive (Cichorium endivia Linnaeus) may sometimes be found as an escape from gardens or agricultural plantings. It differs from C. intybus in having purple corollas, cypselae 1.5–2.5 mm, and pappi 0.6–1+ mm.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

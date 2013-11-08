@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>27.</number>
+  <species_name>Antennaria rosea</species_name>
+  <authority>Greene</authority>
+  <place_of_publication>Pittonia 3: 281. 1898</place_of_publication>
+  <common_name>Rosy pussytoes , antennaire rosée</common_name>
+  <description>
+    <statement id="662.txt-0">
+      <text>Gynoecious (staminate plants uncommon).</text>
+      <structure id="o13878" name="whole_organism">
+        <character name="reproduction" value="gynoecious" />
+      </structure>
+    </statement>
+    <statement id="662.txt-1">
+      <text>Plants 4–30 cm.</text>
+      <structure id="o13879" name="whole_organism">
+        <character char_type="range_value" name="size" from="4" from_unit="cm" to="30" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="662.txt-2">
+      <text>Stolons 1–7 cm.</text>
+      <structure id="o13880" name="stolon">
+        <character char_type="range_value" name="size" from="1" from_unit="cm" to="7" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="662.txt-3">
+      <text>Basal leaves 1-nerved, 8–40 × 2–10 mm, spatulate, oblanceolate, or cuneate, tips mucronate, faces usually gray-pubescent, adaxial sometimes green-glabrous.</text>
+      <structure id="o13881" name="leaf" constraint="basal">
+        <character name="architecture" value="1-nerved" />
+        <character char_type="range_value" name="length" from="8" from_unit="mm" to="40" to_unit="mm" />
+        <character char_type="range_value" name="width" from="2" from_unit="mm" to="10" to_unit="mm" />
+        <character name="shape" value="spatulate" />
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="cuneate" />
+      </structure>
+      <structure id="o13882" name="tip">
+        <character name="shape" value="mucronate" />
+      </structure>
+      <structure id="o13883" name="face">
+        <character name="pubescence" value="gray-pubescent" modifier="usually" />
+        <character name="insertion_or_position" value="adaxial" modifier="sometimes" />
+        <character name="pubescence" value="green-glabrous" />
+      </structure>
+    </statement>
+    <statement id="662.txt-4">
+      <text>Cauline leaves linear, 6–36 mm, usually not flagged (apices acute to subulate or with lanceolate flags).</text>
+      <structure id="o13884" name="leaf" constraint="cauline">
+        <character name="arrangement_or_shape" value="linear" />
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="36" to_unit="mm" />
+        <character name="orientation" value="flagged" modifier="usually not" />
+      </structure>
+    </statement>
+    <statement id="662.txt-5">
+      <text>Heads 3–20 in corymbiform arrays.</text>
+      <structure id="o13885" name="head">
+        <character char_type="range_value" name="count" from="3" to="20" constraint="in arrays" constraintid="o13886" />
+      </structure>
+      <structure id="o13886" name="array">
+        <character name="architecture" value="corymbiform" />
+      </structure>
+    </statement>
+    <statement id="662.txt-6">
+      <text>Involucres:</text>
+      <structure id="o13887" name="involucre" />
+    </statement>
+    <statement id="662.txt-7">
+      <text>staminate unknown;</text>
+      <structure id="o13888" name="involucre" constraint="staminate">
+        <character name="presence" value="unknown" />
+      </structure>
+    </statement>
+    <statement id="662.txt-8">
+      <text>pistillate 4–10 mm.</text>
+      <structure id="o13889" name="involucre" constraint="pistillate">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="662.txt-9">
+      <text>Phyllaries distally brown, cream, gray, green, pink, red, white, or yellow (apices acute or erose-obtuse).</text>
+      <structure id="o13890" name="phyllary">
+        <character name="coloration" value="brown" modifier="distally" />
+        <character name="coloration" value="cream" modifier="distally" />
+        <character name="coloration" value="gray" modifier="distally" />
+        <character name="coloration" value="green" modifier="distally" />
+        <character name="coloration" value="pink" modifier="distally" />
+        <character name="coloration" value="red" modifier="distally" />
+        <character name="coloration" value="white" modifier="distally" />
+        <character name="coloration" value="yellow" modifier="distally" />
+      </structure>
+    </statement>
+    <statement id="662.txt-10">
+      <text>Corollas:</text>
+      <structure id="o13891" name="corolla" />
+    </statement>
+    <statement id="662.txt-11">
+      <text>staminate unknown;</text>
+      <structure id="o13892" name="corolla" constraint="staminate">
+        <character name="presence" value="unknown" />
+      </structure>
+    </statement>
+    <statement id="662.txt-12">
+      <text>pistillate 2.5–6 mm.</text>
+      <structure id="o13893" name="corolla" constraint="pistillate">
+        <character char_type="range_value" name="size" from="2.5" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="662.txt-13">
+      <text>Cypselae 0.7–1.8 mm, glabrous or papillate;</text>
+      <structure id="o13894" name="cypsela">
+        <character char_type="range_value" name="size" from="0.7" from_unit="mm" to="1.8" to_unit="mm" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="papillate" />
+      </structure>
+    </statement>
+    <statement id="662.txt-14">
+      <text>pappi:</text>
+      <structure id="o13895" name="pappus" />
+    </statement>
+    <statement id="662.txt-15">
+      <text>staminate unknown;</text>
+      <structure id="o13896" name="pappus" constraint="staminate">
+        <character name="presence" value="unknown" />
+      </structure>
+    </statement>
+    <statement id="662.txt-16">
+      <text>pistillate 3.5–6.5 mm.</text>
+      <structure id="o13897" name="pappus" constraint="pistillate">
+        <character char_type="range_value" name="size" from="3.5" from_unit="mm" to="6.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="662.txt-17">
+      <text>2 n = 42, 56, (70).</text>
+      <structure id="o13898" name="chromosome">
+        <character name="count" value="42" />
+        <character name="count" value="56" />
+        <character name="atypical_count" value="70" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Subspecies 4 (4 in the flora):</number_of_infrataxa>
+  <general_distribution>North America.</general_distribution>
+  <discussion>Antennaria rosea is the most widespread Antennaria of North America, occurring in dry to moist habitats from near sea level to the alpine zone. The A. rosea polyploid agamic complex is one of the more morphologically diverse complexes of North American Antennaria. It occurs from the western cordillera of North America from southern California, Arizona, and New Mexico north to subarctic Alaska and east to Greenland and, disjunctly, in the Canadian maritime provinces, eastern Quebec, and immediately north of and adjacent to Lake Superior (R. J. Bayer et al. 1991). Antennaria chilensis (including A. chilensis var. magellanica) is a Patagonian endemic that morphologically fits within the circumscription of A. rosea and may well be an amphitropical disjunct member of the complex.</discussion>
+  <discussion>Antennaria rosea is taxonomically confusing; it includes agamospermous microspecies that have been recognized as distinct taxonomic species. Morphometric and isozyme analyses have demonstrated that the primary source of morphologic variability in the complex derives from six sexually reproducing progenitors, A. aromatica, A. corymbosa, A. pulchella, A. microphylla, A. racemosa, and A. umbrinella (R. J. Bayer 1989b, 1990b, 1990c). Additionally, three other sexually reproducing species, A. marginata, A. suffrutescens, and A. rosulata, may have contributed to the genetic complexity of the A. rosea complex (Bayer 1990b). Here, four reasonably distinct subspecies are recognized within the complex.</discussion>
+  <couplet>1.Basal leaves 20–40 mm; phyllaries distally usually green, pink, red or white, seldom brown 27d. Antennaria rosea subsp. rosea</couplet>
+  <couplet>1.Basal leaves 8–20 mm; phyllaries distally brown, cream, gray, green, pink, red, white, or yellow.</couplet>
+  <couplet>2.Pistillate: involucres 4–6.5 mm, corollas 2.5–4, pappi 3.5–5; cauline leaves 6–20 mm (tips subulate); phyllaries usually distally brown, sometimes cream, gray, or yellow27b. Antennaria rosea subsp. confinis</couplet>
+  <couplet>2.Pistillate: involucres 6.5–10 mm, corollas 3.5–6 mm, pappi 5–6.5 mm; cauline leaves 6–19 or 9–26 mm (tips sometimes with flat, lanceolate scarious appendages); phyllaries distally brown, green, pink, red, or white.</couplet>
+  <couplet>3.Plants 19–30 cm; cauline leaves 9–26 mm (proximalmost usually 19+ mm); heads usu- ally 6–12 27a. Antennaria rosea subsp. arida</couplet>
+  <couplet>3.Plants 4–17 cm; cauline leaves 6–19 mm (proximalmost usually less than 19 mm); heads usually 3–527c. Antennaria rosea subsp. pulvinata</couplet>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

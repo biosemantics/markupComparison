@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>9.</number>
+  <species_name>Antennaria lanata</species_name>
+  <authority>(Hooker) Greene</authority>
+  <place_of_publication>Pittonia 3: 288. 1898</place_of_publication>
+  <common_name>Woolly pussytoes</common_name>
+  <synonym_of_species_name>Antennaria carpatica (Wahlenberg) Hooker var. lanata Hooker, Fl. Bor.-Amer. 1: 329. 1834</synonym_of_species_name>
+  <description>
+    <statement id="636.txt-0">
+      <text>Dioecious.</text>
+      <structure id="o13324" name="whole_organism">
+        <character name="reproduction" value="dioecious" />
+      </structure>
+    </statement>
+    <statement id="636.txt-1">
+      <text>Plants 3–20 cm (caudices branching or rhizomes stout).</text>
+      <structure id="o13325" name="whole_organism">
+        <character char_type="range_value" name="size" from="3" from_unit="cm" to="20" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="636.txt-2">
+      <text>Stolons none.</text>
+      <structure id="o13326" name="stolon" />
+    </statement>
+    <statement id="636.txt-3">
+      <text>Basal leaves 3-nerved, narrowly oblanceolate, 10–60(–100) × 3–12 mm, tips acute, faces gray-woolly or tomentose.</text>
+      <structure id="o13327" name="leaf" constraint="basal">
+        <character name="architecture" value="3-nerved" />
+        <character name="shape" value="oblanceolate" modifier="narrowly" />
+        <character char_type="range_value" name="atypical_length" from="60" to="100" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="10" from_unit="mm" to="60" to_unit="mm" />
+        <character char_type="range_value" name="width" from="3" from_unit="mm" to="12" to_unit="mm" />
+      </structure>
+      <structure id="o13328" name="tip">
+        <character name="shape" value="acute" />
+      </structure>
+      <structure id="o13329" name="face">
+        <character name="pubescence" value="gray-woolly" />
+        <character name="pubescence" value="tomentose" />
+      </structure>
+    </statement>
+    <statement id="636.txt-4">
+      <text>Cauline leaves linear, 5–40 mm, mid and distal flagged.</text>
+      <structure id="o13330" name="leaf" constraint="cauline">
+        <character name="arrangement_or_shape" value="linear" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="40" to_unit="mm" />
+      </structure>
+      <structure id="o13331" name="mid">
+        <character name="insertion_or_position" value="distal" />
+        <character name="orientation" value="flagged" />
+      </structure>
+    </statement>
+    <statement id="636.txt-5">
+      <text>Heads 3–9 in corymbiform arrays.</text>
+      <structure id="o13332" name="head">
+        <character char_type="range_value" name="count" from="3" to="9" constraint="in arrays" constraintid="o13333" />
+      </structure>
+      <structure id="o13333" name="array">
+        <character name="architecture" value="corymbiform" />
+      </structure>
+    </statement>
+    <statement id="636.txt-6">
+      <text>Involucres:</text>
+      <structure id="o13334" name="involucre" />
+    </statement>
+    <statement id="636.txt-7">
+      <text>staminate 4.5–6 mm;</text>
+      <structure id="o13335" name="involucre" constraint="staminate">
+        <character char_type="range_value" name="size" from="4.5" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="636.txt-8">
+      <text>pistillate 5–8 mm.</text>
+      <structure id="o13336" name="involucre" constraint="pistillate">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="636.txt-9">
+      <text>Phyllaries (proximally light brown, dark brown, or olivaceous) distally whitish or light brown.</text>
+      <structure id="o13337" name="phyllary">
+        <character name="coloration" value="whitish" modifier="distally" />
+        <character name="coloration" value="brown" modifier="distally ;light" />
+      </structure>
+    </statement>
+    <statement id="636.txt-10">
+      <text>Corollas:</text>
+      <structure id="o13338" name="corolla" />
+    </statement>
+    <statement id="636.txt-11">
+      <text>staminate 3–4.5 mm;</text>
+      <structure id="o13339" name="corolla" constraint="staminate">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="4.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="636.txt-12">
+      <text>pistillate 2.5–4 mm.</text>
+      <structure id="o13340" name="corolla" constraint="pistillate">
+        <character char_type="range_value" name="size" from="2.5" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="636.txt-13">
+      <text>Cypselae 1–1.6 mm, glabrous;</text>
+      <structure id="o13341" name="cypsela">
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="1.6" to_unit="mm" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="636.txt-14">
+      <text>pappi:</text>
+      <structure id="o13342" name="pappus" />
+    </statement>
+    <statement id="636.txt-15">
+      <text>staminate 4–5 mm;</text>
+      <structure id="o13343" name="pappus" constraint="staminate">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="636.txt-16">
+      <text>pistillate 3.5–5 mm.</text>
+      <structure id="o13344" name="pappus" constraint="pistillate">
+        <character char_type="range_value" name="size" from="3.5" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="636.txt-17">
+      <text>2 n = 28 (under A. neodioica ).</text>
+      <structure id="o13345" name="chromosome">
+        <character name="count" value="28" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>protected alpine and subalpine sites</habitat>
+  <habitat>gravelly or sandy soils near conifers at timberline</habitat>
+  <elevation>1400–3400 m;</elevation>
+  <ca_distribution>Alta.</ca_distribution>
+  <ca_distribution>B.C.</ca_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>35a.</number>
+  <subspecies_name>Artemisia laciniata Willdenow subsp. laciniata</subspecies_name>
+  <synonym_of_subspecies_name>Artemisia laciniatiformis Komarov; A. macrobotrys Ledebour</synonym_of_subspecies_name>
+  <description>
+    <statement id="905.txt-0">
+      <text>Stems 20–50 cm, hairy.</text>
+      <structure id="o18729" name="stem">
+        <character char_type="range_value" name="size" from="20" from_unit="cm" to="50" to_unit="cm" />
+        <character name="pubescence" value="hairy" />
+      </structure>
+    </statement>
+    <statement id="905.txt-1">
+      <text>Leaves mostly cauline, blades 5–20 × 1–2 cm, sparsely hairy.</text>
+      <structure id="o18730" name="leaf">
+        <character name="insertion_or_position" value="cauline" modifier="mostly" />
+      </structure>
+      <structure id="o18731" name="blade">
+        <character char_type="range_value" name="length" from="5" from_unit="cm" to="20" to_unit="cm" />
+        <character char_type="range_value" name="width" from="1" from_unit="cm" to="2" to_unit="cm" />
+        <character name="pubescence" value="hairy" modifier="sparsely" />
+      </structure>
+    </statement>
+    <statement id="905.txt-2">
+      <text>Heads in arrays 8–18 × 1–4 cm.</text>
+      <structure id="o18732" name="head" />
+      <structure id="o18733" name="array">
+        <character char_type="range_value" name="length" from="8" from_unit="cm" to="18" to_unit="cm" />
+        <character char_type="range_value" name="width" from="1" from_unit="cm" to="4" to_unit="cm" />
+      </structure>
+      <relation id="r1983" name="in" from="o18732" to="o18733" negation="false" />
+    </statement>
+    <statement id="905.txt-3">
+      <text>Involucres 3–5 × 4–8 mm.</text>
+      <structure id="o18734" name="involucre">
+        <character char_type="range_value" name="length" from="3" from_unit="mm" to="5" to_unit="mm" />
+        <character char_type="range_value" name="width" from="4" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="905.txt-4">
+      <text>Corollas yellowish, 1–1.5 mm.</text>
+      <structure id="o18735" name="corolla">
+        <character name="coloration" value="yellowish" />
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="1.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="905.txt-5">
+      <text>Cypselae 0.5–1 mm .</text>
+      <structure id="o18736" name="cypsela">
+        <character char_type="range_value" name="size" from="0.5" from_unit="mm" to="1" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="905.txt-6">
+      <text>2 n = 18.</text>
+      <structure id="o18737" name="chromosome">
+        <character name="count" value="18" />
+      </structure>
+    </statement>
+  </description>
+  <habitat>dry, gravelly stream banks</habitat>
+  <habitat>grassy flats</habitat>
+  <habitat>forested areas</habitat>
+  <habitat>dry hillsides</habitat>
+  <elevation>100–1500 m;</elevation>
+  <ca_distribution>Yukon</ca_distribution>
+  <us_distribution>Alaska</us_distribution>
+  <global_distribution>Eurasia.</global_distribution>
+  <discussion>Widely distributed in Eurasia and often confused with Artemisia norvegica, A. laciniata subsp. laciniata can be distinguished by its well-developed basal leaves and smaller heads.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>8.</number>
+  <species_name>Malacothrix incana</species_name>
+  <authority>(Nuttall) Torrey &amp; A. Gray</authority>
+  <place_of_publication>Fl. N. Amer. 2: 486. 1843</place_of_publication>
+  <common_name>Dunedelion, dune malacothrix</common_name>
+  <synonym_of_species_name>Malacomeris incanus Nuttall, Trans. Amer. Philos. Soc., n. s. 7: 435. 1841; Malacothrix incana var. succulenta (Elmer) E. W. Williams; M. succulenta Elmer</synonym_of_species_name>
+  <description>
+    <statement id="475.txt-0">
+      <text>Perennials, 12–70 cm (often mounded).</text>
+      <structure id="o9476" name="whole_organism">
+        <character char_type="range_value" name="size" from="12" from_unit="cm" to="70" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="475.txt-1">
+      <text>Stems 1, branched proximally and distally, usually tomentose, sometimes glabrous.</text>
+      <structure id="o9477" name="stem">
+        <character name="count" value="1" />
+        <character name="architecture_or_shape" value="branched" modifier="proximally" />
+        <character name="pubescence" value="tomentose" modifier="usually" />
+        <character name="pubescence" value="glabrous" modifier="sometimes" />
+      </structure>
+    </statement>
+    <statement id="475.txt-2">
+      <text>Cauline leaves:</text>
+      <structure id="o9478" name="leaf" constraint="cauline" />
+    </statement>
+    <statement id="475.txt-3">
+      <text>proximal obovate to narrowly spatulate, sometimes pinnately lobed (lobes 1–2+ pairs, subequal, apices obtuse), sometimes ± fleshy, margins usually obtuse-lobed, sometimes entire;</text>
+      <structure id="o9479" name="leaf" constraint="proximal cauline">
+        <character name="shape" value="obovate" />
+        <character name="shape" value="spatulate" modifier="narrowly" />
+        <character name="shape" value="lobed" modifier="sometimes pinnately" />
+        <character name="texture" value="fleshy" modifier="sometimes ±" />
+      </structure>
+      <structure id="o9480" name="margin">
+        <character name="shape" value="obtuse-lobed" modifier="usually" />
+        <character name="shape" value="entire" modifier="sometimes" />
+      </structure>
+    </statement>
+    <statement id="475.txt-4">
+      <text>distal not notably reduced (similar to others).</text>
+      <structure id="o9481" name="leaf" constraint="distal cauline">
+        <character name="size" value="reduced" modifier="not notably" />
+      </structure>
+    </statement>
+    <statement id="475.txt-5">
+      <text>Calyculi of 5–16+, ovate to lanceolate bractlets, hyaline margins 0.05–0.2 mm.</text>
+      <structure id="o9482" name="calyculus" />
+      <structure id="o9483" name="bractlet">
+        <character char_type="range_value" name="count" from="5" to="16" upper_restricted="false" />
+        <character char_type="range_value" name="shape" from="ovate" to="lanceolate" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="lanceolate" />
+      </structure>
+      <relation id="r1101" name="consist_of" from="o9482" to="o9483" negation="false" />
+      <structure id="o9484" name="margin">
+        <character name="coloration" value="hyaline" />
+        <character char_type="range_value" name="size" from="0.05" from_unit="mm" to="0.2" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="475.txt-6">
+      <text>Involucres 10–14 × 4–8+ mm.</text>
+      <structure id="o9485" name="involucre">
+        <character char_type="range_value" name="length" from="10" from_unit="mm" to="14" to_unit="mm" />
+        <character char_type="range_value" name="width" from="4" from_unit="mm" to="8" to_unit="mm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="475.txt-7">
+      <text>Phyllaries 16–30 in 2–3 series, (red-tinged) lanceolate or oblong to linear, hyaline margins 0.05–0.1 mm wide, faces glabrous.</text>
+      <structure id="o9486" name="phyllary">
+        <character char_type="range_value" name="count" from="16" to="30" constraint="in series" constraintid="o9487" />
+        <character char_type="range_value" name="shape" from="oblong" to="linear" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="oblong" />
+        <character name="shape" value="linear" />
+      </structure>
+      <structure id="o9487" name="series">
+        <character char_type="range_value" name="count" from="2" to="3" />
+      </structure>
+      <structure id="o9488" name="margin">
+        <character name="coloration" value="hyaline" />
+        <character char_type="range_value" name="size" from="0.05" from_unit="mm" to="0.1" to_unit="mm" />
+      </structure>
+      <structure id="o9489" name="face">
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="475.txt-8">
+      <text>Receptacles not bristly.</text>
+      <structure id="o9490" name="receptacle">
+        <character name="pubescence" value="bristly" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="475.txt-9">
+      <text>Florets 47–99;</text>
+      <structure id="o9491" name="floret">
+        <character char_type="range_value" name="count" from="47" to="99" />
+      </structure>
+    </statement>
+    <statement id="475.txt-10">
+      <text>corollas medium yellow, 11–20 mm;</text>
+      <structure id="o9492" name="corolla">
+        <character name="coloration" value="yellow" />
+        <character char_type="range_value" name="size" from="11" from_unit="mm" to="20" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="475.txt-11">
+      <text>outer ligules exserted 5–10 mm.</text>
+      <structure id="o9493" name="ligule" constraint="outer">
+        <character name="position" value="exserted" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="475.txt-12">
+      <text>Cypselae usually cylindro-fusiform, sometimes weakly prismatic, 1.5–2.2 mm, ribs extending to apices, ± equal;</text>
+      <structure id="o9494" name="cypsela">
+        <character name="shape" value="cylindro-fusiform" modifier="usually" />
+        <character name="shape" value="prismatic" modifier="sometimes weakly" />
+        <character char_type="range_value" name="size" from="1.5" from_unit="mm" to="2.2" to_unit="mm" />
+      </structure>
+      <structure id="o9495" name="rib">
+        <character name="size" value="equal" modifier="±" />
+      </structure>
+      <structure id="o9496" name="apex" />
+      <relation id="r1102" name="extending to" from="o9495" to="o9496" negation="false" />
+    </statement>
+    <statement id="475.txt-13">
+      <text>persistent pappi 0.</text>
+      <structure id="o9497" name="pappus" constraint="persistent">
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+    <statement id="475.txt-14">
+      <text>Pollen 70–100% 3-porate.</text>
+      <structure id="o9498" name="pollen">
+        <character name="architecture" value="3-porate" modifier="70-100%" />
+      </structure>
+    </statement>
+    <statement id="475.txt-15">
+      <text>2 n = 14.</text>
+      <structure id="o9499" name="chromosome">
+        <character name="count" value="14" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jan</flowering_time>
+  <flowering_time>winter</flowering_time>
+  <flowering_time>feb</flowering_time>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <flowering_time>nov</flowering_time>
+  <flowering_time>dec</flowering_time>
+  <habitat>coastal dunes</habitat>
+  <elevation>0–10(–100) m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <discussion>Malacothrix incana, a dune endemic, grows currently on the coastal mainland in Santa Barbara and San Luis Obispo counties, and on San Miguel, San Nicolas, Santa Cruz, and Santa Rosa islands. Its nomenclatural type specimen was collected at San Diego, probably from the Silver Strand dune areas on Coronado Island.</discussion>
+  <discussion>Populations of a glabrous form, var. succulenta, occur in Santa Barbara County (e.g., Casmalia Beach) and San Luis Obispo County (e.g., west of Oso Flaco Lake). Glabrous forms and tomentose forms grow together on San Miguel and San Nicolas islands.</discussion>
+  <discussion>Extensive hybridization between Malacothrix incana and M. foliosa subsp. polycephala occurs on San Nicolas Island where dunes have extended into areas of normal soil, particularly along the western and southwestern portions of the island.</discussion>
+  <discussion>Hybridization between Malacothrix incana and M. saxatilis var. implicata occurs on San Miguel Island on east-facing slopes above Cuyler Harbor.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

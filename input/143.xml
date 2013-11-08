@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>51c.</number>
+  <variety_name>Cirsium eatonii (A. Gray) B. L. Robinson var. viperinum</variety_name>
+  <authority>D. J. Keil</authority>
+  <place_of_publication>Sida 21: 212. 2004</place_of_publication>
+  <common_name>Snake Range thistle</common_name>
+  <description>
+    <statement id="143.txt-0">
+      <text>Stems erect or ascending, 25–40 cm.</text>
+      <structure id="o1174" name="stem">
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="ascending" />
+        <character char_type="range_value" name="size" from="25" from_unit="cm" to="40" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="143.txt-1">
+      <text>Leaf faces glabrous or nearly so.</text>
+      <structure id="o1175" name="face" constraint="leaf">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="glabrous" modifier="nearly" />
+      </structure>
+    </statement>
+    <statement id="143.txt-2">
+      <text>Heads 1–5, subsessile or short-pedunculate, in erect, racemiform or corymbiform arrays.</text>
+      <structure id="o1176" name="head">
+        <character char_type="range_value" name="count" from="1" to="5" />
+        <character name="architecture" value="subsessile" />
+        <character name="architecture" value="short-pedunculate" />
+      </structure>
+      <structure id="o1177" name="array">
+        <character name="orientation" value="erect" />
+        <character name="architecture" value="racemiform" />
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <relation id="r201" name="in" from="o1176" to="o1177" negation="false" />
+    </statement>
+    <statement id="143.txt-3">
+      <text>Involucres 3–5 cm, thinly arachnoid with non-septate trichomes, individual phyllaries evident.</text>
+      <structure id="o1178" name="involucre">
+        <character char_type="range_value" name="size" from="3" from_unit="cm" to="5" to_unit="cm" />
+        <character name="pubescence" value="arachnoid" modifier="thinly" constraint="with trichomes" constraintid="o1179" />
+      </structure>
+      <structure id="o1179" name="trichome">
+        <character name="architecture" value="non-septate" />
+      </structure>
+      <structure id="o1180" name="phyllary" constraint="individual">
+        <character name="manifestation" value="evident" />
+      </structure>
+    </statement>
+    <statement id="143.txt-4">
+      <text>Phyllaries green or purplish-tinged;</text>
+      <structure id="o1181" name="phyllary">
+        <character name="coloration" value="green" />
+        <character name="coloration" value="tinged" modifier="purplish" />
+      </structure>
+    </statement>
+    <statement id="143.txt-5">
+      <text>outer with numerous lateral spines;</text>
+      <structure id="o1182" name="phyllary" constraint="outer" />
+      <structure id="o1183" name="spine" constraint="lateral">
+        <character name="count" value="numerous" />
+      </structure>
+      <relation id="r202" name="with" from="o1182" to="o1183" negation="false" />
+    </statement>
+    <statement id="143.txt-6">
+      <text>apical spines stout.</text>
+      <structure id="o1184" name="spine" constraint="apical">
+        <character name="fragility" value="stout" />
+      </structure>
+    </statement>
+    <statement id="143.txt-7">
+      <text>Corollas lavender to purple, 29–35 mm, tubes 9–12.5 mm, throats 9–12 mm, lobes 9–11 mm.</text>
+      <structure id="o1185" name="corolla">
+        <character char_type="range_value" name="coloration" from="lavender" to="purple" />
+        <character name="coloration" value="lavender" />
+        <character name="coloration" value="purple" />
+        <character char_type="range_value" name="size" from="29" from_unit="mm" to="35" to_unit="mm" />
+      </structure>
+      <structure id="o1186" name="tube">
+        <character char_type="range_value" name="size" from="9" from_unit="mm" to="12.5" to_unit="mm" />
+      </structure>
+      <structure id="o1187" name="throat">
+        <character char_type="range_value" name="size" from="9" from_unit="mm" to="12" to_unit="mm" />
+      </structure>
+      <structure id="o1188" name="lobe">
+        <character char_type="range_value" name="size" from="9" from_unit="mm" to="11" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="143.txt-8">
+      <text>Pappi 20–25 mm.</text>
+      <structure id="o1189" name="pappus">
+        <character char_type="range_value" name="size" from="20" from_unit="mm" to="25" to_unit="mm" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>rocky subalpine slopes</habitat>
+  <habitat>open bristlecone pine forests</habitat>
+  <elevation>3300–3500 m;</elevation>
+  <us_distribution>Nev.</us_distribution>
+  <discussion>Variety viperinum is apparently endemic to upper elevations of the Snake Range of White Pine County, Nevada. Heads of var. viperinum are similar in size to those of var. clokeyi. These taxa can be distinguished readily by the features in the key. Ranges of the two varieties are separated by about 340 km. Hybridization with Cirsium inamoenum is suspected based upon apparently intermediate specimens.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

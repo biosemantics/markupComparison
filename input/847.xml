@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>119a.</number>
+  <subgenus_name>ARTEMISIA Linnaeus subg. DRANCUNCULUS</subgenus_name>
+  <authority>Besser</authority>
+  <place_of_publication>Bull. Soc. Imp. Naturalistes Moscou 1: 223. 1829</place_of_publication>
+  <past_name>Dracunculi</past_name>
+  <description>
+    <statement id="847.txt-0">
+      <text>Biennials, perennials, or subshrubs (shrubs in A. filifolia );</text>
+    </statement>
+    <statement id="847.txt-1">
+      <text>fibrous rooted or taprooted, caudices woody, rhizomes absent.</text>
+      <structure id="o17788" name="whole_organism">
+        <character name="life_style" value="biennial" />
+        <character name="life_style" value="perennial" />
+        <character name="life_style" value="subshrub" />
+        <character name="architecture" value="taprooted" />
+        <character name="life_style" value="perennial" />
+        <character name="life_style" value="subshrub" />
+      </structure>
+      <structure id="o17791" name="caudex">
+        <character name="texture" value="woody" />
+      </structure>
+      <structure id="o17792" name="rhizome">
+        <character name="presence" value="absent" />
+      </structure>
+    </statement>
+    <statement id="847.txt-2">
+      <text>Stems wandlike (new stems may sprout from caudices).</text>
+      <structure id="o17793" name="stem">
+        <character name="shape" value="wandlike" />
+      </structure>
+    </statement>
+    <statement id="847.txt-3">
+      <text>Leaves deciduous (persistent in A. aleutica and A. borealis ), usually cauline, sometimes basal, not in fascicles.</text>
+      <structure id="o17794" name="leaf">
+        <character name="duration_or_habit" value="deciduous" />
+        <character name="insertion_or_position" value="cauline" modifier="usually" />
+        <character name="insertion_or_position" value="basal" modifier="sometimes" />
+      </structure>
+      <structure id="o17795" name="fascicle" />
+      <relation id="r1882" name="in" from="o17794" to="o17795" negation="true" />
+    </statement>
+    <statement id="847.txt-4">
+      <text>Heads disciform.</text>
+      <structure id="o17796" name="head">
+        <character name="shape_or_architecture" value="disciform" />
+      </structure>
+    </statement>
+    <statement id="847.txt-5">
+      <text>Receptacles epaleate, glabrous.</text>
+      <structure id="o17797" name="receptacle">
+        <character name="architecture" value="epaleate" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="847.txt-6">
+      <text>Florets:</text>
+      <structure id="o17798" name="floret" />
+    </statement>
+    <statement id="847.txt-7">
+      <text>peripheral 1–25 pistillate and fertile;</text>
+      <structure id="o17799" name="floret" constraint="peripheral">
+        <character char_type="range_value" name="count" from="1" to="25" />
+        <character name="architecture" value="pistillate" />
+        <character name="reproduction" value="fertile" />
+      </structure>
+    </statement>
+    <statement id="847.txt-8">
+      <text>central 3–32 functionally staminate (not setting fruits);</text>
+      <structure id="o17800" name="floret" constraint="central">
+        <character char_type="range_value" name="count" from="3" to="32" />
+        <character name="architecture" value="staminate" modifier="functionally" />
+      </structure>
+    </statement>
+    <statement id="847.txt-9">
+      <text>corollas subglobose.</text>
+      <structure id="o17801" name="corolla">
+        <character name="shape" value="subglobose" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species ca. 80 (8 in the flora):</number_of_infrataxa>
+  <general_distribution>North America</general_distribution>
+  <general_distribution>Eurasia.</general_distribution>
+  <key>1. Plants 5–30(–80+) cm (often cespitose and/or mounded).</key>
+  <key>2.Perennials; leaves 2–3-palmately or -pinnately lobed.</key>
+  <key>3.Leaves 2-palmately lobed; corollas purplish red; Aleutian Islands1. Artemisia aleutica</key>
+  <key>3.Leaves 2–3-pinnately or -ternately lobed; corollas (at least lobes) usually yellow- orange or deep red; n latitudes and w mountains2. Artemisia borealis</key>
+  <key>2.Perennials or subshrubs; leaves 1–2-pinnately or -ternately lobed.</key>
+  <key>4.Leaves gray-green, lobes 1–2 mm wide; involucres 3–4 × 3–4 mm; corollas yellow, usually red-tinged, glabrous6. Artemisia pedatifida</key>
+  <key>4.Leaves silver-green, lobes mostly 2–3 mm wide; involucres 4–5(–7) × 2–3 mm wide; corollas pale yellow, glandular7. Artemisia porteri</key>
+  <key>1.Plants (10–)50–180 cm (not cespitose).</key>
+  <key>5.Plants tarragon-scented or not aromatic; leaves mostly entire, sometimes (basal) irregularly lobed, faces usually glabrous, sometimes glabrescent (deserts)4. Artemisia dracunculus</key>
+  <key>5.Plants faintly to strongly aromatic (not tarragon-scented); leaves lobed, faces hairy.</key>
+  <key>6.Shrubs, 60–180 cm (rounded, stems wandlike); involucres 1.5–2 mm diam5. Artemisia filifolia</key>
+  <key>6.Biennials or perennials, (10–)30–80(–150) cm; involucres 2–4.5(–7) mm diam.</key>
+  <key>7.Stems usually 1–5; heads in (mostly leafless) paniculiform arrays3. Artemisia campestris</key>
+  <key>7.Stems usually 10+; heads (clustered in glomerules) in (densely leafy) paniculiform to spiciform arrays8. Artemisia pycnocephala</key>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>35b.</number>
+  <subspecies_name>Artemisia laciniata subsp. parryi</subspecies_name>
+  <authority>(A. Gray) W. A. Weber</authority>
+  <place_of_publication>Phytologia 58: 382. 1985</place_of_publication>
+  <common_name>Parry sagewort</common_name>
+  <synonym_of_subspecies_name>Artemisia parryi A. Gray, Proc. Amer. Acad. Arts 7: 361. 1868; A. saxicola Rydberg var. parryi A. Nelson</synonym_of_subspecies_name>
+  <description>
+    <statement id="906.txt-0">
+      <text>Stems 10–40 cm, glabrous.</text>
+      <structure id="o18738" name="stem">
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="40" to_unit="cm" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="906.txt-1">
+      <text>Leaves mostly basal, faces sericeous;</text>
+      <structure id="o18739" name="leaf">
+        <character name="insertion_or_position" value="basal" modifier="mostly" />
+      </structure>
+      <structure id="o18740" name="face">
+        <character name="pubescence" value="sericeous" />
+      </structure>
+    </statement>
+    <statement id="906.txt-2">
+      <text>proximalmost 4–8 × 0.5–1 cm, cauline 1.5–0.8 × 0.2 cm.</text>
+      <structure id="o18741" name="leaf" constraint="proximalmost">
+        <character char_type="range_value" name="length" from="4" from_unit="cm" to="8" to_unit="cm" />
+        <character char_type="range_value" name="width" from="0.5" from_unit="cm" to="1" to_unit="cm" />
+      </structure>
+      <structure id="o18742" name="leaf" constraint="cauline">
+        <character char_type="range_value" name="length" from="1.5" from_unit="cm" to="0.8" to_unit="cm" />
+        <character name="width" value="0.2" unit="cm" />
+      </structure>
+    </statement>
+    <statement id="906.txt-3">
+      <text>Heads in 2–5 × 0.5–1 cm arrays.</text>
+      <structure id="o18743" name="head" />
+      <structure id="o18744" name="array">
+        <character char_type="range_value" name="count" from="2" to="5" />
+        <character char_type="range_value" name="count" from="0.5" to="1" />
+      </structure>
+      <relation id="r1984" name="in" from="o18743" to="o18744" negation="false" />
+    </statement>
+    <statement id="906.txt-4">
+      <text>Involucres 3–4 × 4–5 mm.</text>
+      <structure id="o18745" name="involucre">
+        <character char_type="range_value" name="length" from="3" from_unit="mm" to="4" to_unit="mm" />
+        <character char_type="range_value" name="width" from="4" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="906.txt-5">
+      <text>Corollas yellow or reddish-tinged, 1.5–2 mm.</text>
+      <structure id="o18746" name="corolla">
+        <character name="coloration" value="yellow" />
+        <character name="coloration" value="tinged" modifier="reddish" />
+        <character char_type="range_value" name="size" from="1.5" from_unit="mm" to="2" to_unit="mm" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <flowering_time>nov</flowering_time>
+  <habitat>subalpine and alpine meadows</habitat>
+  <habitat>rocky soils</habitat>
+  <elevation>2700–3900 m;</elevation>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>Utah.</us_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>5.</number>
+  <species_name>Logfia minima</species_name>
+  <authority>(Smith) Dumortier</authority>
+  <place_of_publication>Fl. Belg., 68. 1827</place_of_publication>
+  <common_name>Little cottonrose , cotonnière naine</common_name>
+  <synonym_of_species_name>Gnaphalium minimum Smith, Fl. Brit., 873. 1804; Filago minima (Smith) Persoon; Oglifa minima (Smith) Reichenbach f.</synonym_of_species_name>
+  <description>
+    <statement id="739.txt-0">
+      <text>Plants 2–20[–30] cm.</text>
+      <structure id="o15544" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="20" to="30" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="2" from_unit="cm" to="20" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="739.txt-1">
+      <text>Stems 1, ± erect, or 2–5, ascending to spreading;</text>
+      <structure id="o15545" name="stem">
+        <character name="count" value="1" />
+        <character name="orientation" value="erect" modifier="±" />
+        <character char_type="range_value" name="count" from="2" to="5" />
+        <character char_type="range_value" name="orientation" from="ascending" to="spreading" />
+        <character name="orientation" value="ascending" />
+        <character name="orientation" value="spreading" />
+      </structure>
+    </statement>
+    <statement id="739.txt-2">
+      <text>branches leafy between proximal forks, remaining grayish, arachnoid-sericeous.</text>
+      <structure id="o15546" name="branch">
+        <character name="architecture" value="leafy" constraint="between forks" constraintid="o15547" />
+        <character name="coloration" value="grayish" />
+        <character name="pubescence" value="arachnoid-sericeous" />
+      </structure>
+      <structure id="o15547" name="fork" constraint="proximal" />
+    </statement>
+    <statement id="739.txt-3">
+      <text>Leaves narrowly elliptic to narrowly ovate, largest 7–10(–12) × 1–1.5(–2) mm, pliant;</text>
+      <structure id="o15548" name="leaf">
+        <character char_type="range_value" name="shape" from="narrowly elliptic" to="narrowly ovate" />
+        <character name="shape" value="elliptic" modifier="narrowly" />
+        <character name="shape" value="ovate" modifier="narrowly" />
+        <character name="size" value="largest" />
+        <character char_type="range_value" name="atypical_length" from="10" to="12" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="7" from_unit="mm" to="10" to_unit="mm" />
+        <character char_type="range_value" name="atypical_width" from="1.5" to="2" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="width" from="1" from_unit="mm" to="1.5" to_unit="mm" />
+        <character name="texture" value="pliant" />
+      </structure>
+    </statement>
+    <statement id="739.txt-4">
+      <text>longest capitular leaves 0.8–1.5 times head heights, acute.</text>
+      <structure id="o15549" name="leaf" constraint="longest capitular">
+        <character char_type="range_value" name="size" from="0.8" to="1.5" constraint="times head" constraintid="o15550" />
+        <character name="shape" value="acute" />
+      </structure>
+      <structure id="o15550" name="head" />
+    </statement>
+    <statement id="739.txt-5">
+      <text>Heads in glomerules of 3–7 in mostly dichasiiform, sometimes racemiform or paniculiform arrays, ± pyriform, largest 3–3.5 × 2 mm.</text>
+      <structure id="o15551" name="head">
+        <character name="shape" value="pyriform" modifier="±" />
+        <character name="size" value="largest" />
+        <character char_type="range_value" name="length" from="3" from_unit="mm" to="3.5" to_unit="mm" />
+        <character name="width" value="2" unit="mm" />
+      </structure>
+      <structure id="o15552" name="glomerule" />
+      <relation id="r1679" name="in" from="o15551" to="o15552" negation="false" />
+      <structure id="o15553" name="array">
+        <character char_type="range_value" name="count" from="3" to="7" />
+        <character name="architecture" value="dichasiiform" modifier="mostly" />
+        <character name="architecture" value="racemiform" modifier="sometimes" />
+        <character name="architecture" value="paniculiform" modifier="sometimes" />
+      </structure>
+      <relation id="r1680" name="consist_of" from="o15552" to="o15553" negation="false" />
+    </statement>
+    <statement id="739.txt-6">
+      <text>Phyllaries usually 5, equal, ± like paleae.</text>
+      <structure id="o15554" name="phyllary">
+        <character name="count" value="5" modifier="usually" />
+        <character name="size" value="equal" />
+      </structure>
+      <structure id="o15555" name="palea" />
+      <relation id="r1681" name="like" from="o15554" to="o15555" negation="false" modifier="±" />
+    </statement>
+    <statement id="739.txt-7">
+      <text>Receptacles ± fungiform, mostly 0.3–0.4 mm, heights 0.4–0.6 times diams.</text>
+      <structure id="o15556" name="receptacle">
+        <character name="shape" value="fungiform" modifier="±" />
+        <character char_type="range_value" name="size" from="0.3" from_unit="mm" to="0.4" to_unit="mm" modifier="mostly" />
+      </structure>
+    </statement>
+    <statement id="739.txt-8">
+      <text>Pistillate paleae (except innermost) 8–12 in 1–2 series, ± vertically ranked, saccate, inflexed 70–90° proximally, gibbous, ± galeate, longest 2.6–3.1 mm, distal 15–30% of lengths glabrous abaxially;</text>
+      <structure id="o15557" name="palea" constraint="pistillate">
+        <character char_type="range_value" name="count" from="8" to="12" constraint="in series" constraintid="o15558" />
+        <character name="arrangement" value="ranked" modifier="± vertically" />
+        <character name="architecture_or_shape" value="saccate" />
+        <character name="orientation" value="inflexed" modifier="70-90°" />
+        <character name="shape" value="gibbous" />
+        <character name="shape" value="galeate" modifier="±" />
+        <character name="size" value="longest" />
+        <character char_type="range_value" name="size" from="2.6" from_unit="mm" to="3.1" to_unit="mm" />
+        <character name="insertion_or_position" value="distal" modifier="15-30%" constraint="of lengths" constraintid="o15559" />
+      </structure>
+      <structure id="o15558" name="series">
+        <character char_type="range_value" name="count" from="1" to="2" />
+      </structure>
+      <structure id="o15559" name="length">
+        <character name="pubescence" value="glabrous" modifier="abaxially" />
+      </structure>
+    </statement>
+    <statement id="739.txt-9">
+      <text>bodies ± bony, ± terete;</text>
+      <structure id="o15560" name="body">
+        <character name="texture" value="bony" modifier="±" />
+        <character name="shape" value="terete" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="739.txt-10">
+      <text>wings prominent.</text>
+      <structure id="o15561" name="wing">
+        <character name="prominence" value="prominent" />
+      </structure>
+    </statement>
+    <statement id="739.txt-11">
+      <text>Innermost paleae ± 8, spreading in 2 series, pistillate.</text>
+      <structure id="o15562" name="palea" constraint="innermost">
+        <character name="count" value="8" modifier="±" />
+        <character name="orientation" value="spreading" constraint="in series" constraintid="o15563" />
+        <character name="architecture" value="pistillate" />
+      </structure>
+      <structure id="o15563" name="series">
+        <character name="count" value="2" />
+      </structure>
+    </statement>
+    <statement id="739.txt-12">
+      <text>Pistillate florets:</text>
+      <structure id="o15564" name="floret" constraint="pistillate" />
+    </statement>
+    <statement id="739.txt-13">
+      <text>outer 8–12 epappose, inner 18–30+ pappose.</text>
+      <structure id="o15565" name="floret" constraint="outer pistillate">
+        <character char_type="range_value" name="count" from="8" to="12" />
+        <character name="architecture" value="epappose" />
+      </structure>
+      <structure id="o15566" name="floret" constraint="inner">
+        <character char_type="range_value" name="count" from="18" to="30" upper_restricted="false" />
+        <character name="architecture" value="pappose" />
+      </structure>
+    </statement>
+    <statement id="739.txt-14">
+      <text>Bisexual florets 3–5;</text>
+      <structure id="o15567" name="floret" constraint="bisexual">
+        <character char_type="range_value" name="count" from="3" to="5" />
+      </structure>
+    </statement>
+    <statement id="739.txt-15">
+      <text>corollas 1.6–2.1 mm, lobes mostly 4, brownish to yellowish.</text>
+      <structure id="o15568" name="corolla">
+        <character char_type="range_value" name="size" from="1.6" from_unit="mm" to="2.1" to_unit="mm" />
+      </structure>
+      <structure id="o15569" name="lobe">
+        <character name="count" value="4" modifier="mostly" />
+        <character char_type="range_value" name="coloration" from="brownish" to="yellowish" />
+        <character name="coloration" value="brownish" />
+        <character name="coloration" value="yellowish" />
+      </structure>
+    </statement>
+    <statement id="739.txt-16">
+      <text>Cypselae:</text>
+      <structure id="o15570" name="cypsela" />
+    </statement>
+    <statement id="739.txt-17">
+      <text>outer incurved, proximally ± horizontal, distally erect, compressed, 0.8–0.9 mm;</text>
+      <structure id="o15571" name="cypsela" constraint="outer">
+        <character name="orientation" value="incurved" />
+        <character name="orientation" value="horizontal" modifier="proximally ±" />
+        <character name="orientation" value="erect" modifier="distally" />
+        <character name="shape" value="compressed" />
+        <character char_type="range_value" name="size" from="0.8" from_unit="mm" to="0.9" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="739.txt-18">
+      <text>inner papillate;</text>
+      <structure id="o15572" name="cypsela" constraint="inner">
+        <character name="relief_or_pubescence" value="papillate" />
+      </structure>
+    </statement>
+    <statement id="739.txt-20">
+      <text>2 n = 28</text>
+      <structure id="o15573" name="chromosome">
+        <character name="count" value="28" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>ballast dumps (probably temporary), sometimes open disturbed sites away from coast</habitat>
+  <elevation>0–400 m;</elevation>
+  <introduced>introduced;</introduced>
+  <us_distribution>Mass.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <global_distribution>Eurasia.</global_distribution>
+  <discussion>Reports of Logfia minima from British Columbia and Washington have not been confirmed by me. A report from California was erroneous. The earliest known specimen from the flora area came from Girard Point, Pennsylvania, in 1878.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

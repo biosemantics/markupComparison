@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>4.</number>
+  <species_name>Carthamus tinctorius</species_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 830. 1753</place_of_publication>
+  <common_name>Safflower</common_name>
+  <description>
+    <statement id="204.txt-0">
+      <text>Plants 30–100+ cm, herbage ± glabrous.</text>
+      <structure id="o3047" name="whole_organism">
+        <character char_type="range_value" name="size" from="30" from_unit="cm" to="100" to_unit="cm" upper_restricted="false" />
+        <character name="life_style" value="plant" />
+      </structure>
+      <structure id="o3048" name="herbage">
+        <character name="pubescence" value="glabrous" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="204.txt-1">
+      <text>Stems ± stramineous, glabrous.</text>
+      <structure id="o3049" name="stem">
+        <character name="coloration" value="stramineous" modifier="±" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="204.txt-2">
+      <text>Leaves usually all cauline, dark green;</text>
+      <structure id="o3050" name="leaf">
+        <character name="insertion_or_position" value="cauline" />
+        <character name="coloration" value="green" modifier="dark" />
+      </structure>
+    </statement>
+    <statement id="204.txt-3">
+      <text>blades lanceolate to elliptic or broadly ovate, 2–8.5 cm, margins dentate with minutely spine-tipped teeth, veiny, shiny.</text>
+      <structure id="o3051" name="blade">
+        <character char_type="range_value" name="shape" from="lanceolate" to="elliptic or broadly ovate" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="elliptic" />
+        <character name="shape" value="ovate" modifier="broadly" />
+        <character char_type="range_value" name="size" from="2" from_unit="cm" to="8.5" to_unit="cm" />
+      </structure>
+      <structure id="o3052" name="margin">
+        <character name="shape" value="dentate" constraint="with teeth" constraintid="o3053" />
+        <character name="architecture" value="veiny" />
+        <character name="reflectance" value="shiny" />
+      </structure>
+      <structure id="o3053" name="tooth" />
+    </statement>
+    <statement id="204.txt-4">
+      <text>Involucres ovoid, 20–40 mm diam., ± glabrous.</text>
+      <structure id="o3054" name="involucre">
+        <character name="shape" value="ovoid" />
+        <character char_type="range_value" name="size" from="20" from_unit="mm" to="40" to_unit="mm" />
+        <character name="pubescence" value="glabrous" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="204.txt-5">
+      <text>Outer phyllaries spreading to reflexed, 1.5–2 times longer than inner, terminal appendages minutely spiny-toothed, minutely spine-tipped.</text>
+      <structure id="o3055" name="phyllary" constraint="outer">
+        <character char_type="range_value" name="orientation" from="spreading" to="reflexed" />
+        <character name="orientation" value="spreading" />
+        <character name="orientation" value="reflexed" />
+        <character char_type="range_value" name="size" from="1.5" to="2" modifier="times longer than inner" />
+      </structure>
+      <structure id="o3056" name="appendage" constraint="terminal">
+        <character name="shape" value="spiny-toothed" modifier="minutely" />
+      </structure>
+    </statement>
+    <statement id="204.txt-6">
+      <text>Corollas yellow to red, 20–30 mm, throats abruptly expanded;</text>
+      <structure id="o3057" name="corolla">
+        <character char_type="range_value" name="coloration" from="yellow" to="red" />
+        <character name="coloration" value="yellow" />
+        <character name="coloration" value="red" />
+        <character char_type="range_value" name="size" from="20" from_unit="mm" to="30" to_unit="mm" />
+      </structure>
+      <structure id="o3058" name="throat">
+        <character name="size" value="expanded" modifier="abruptly" />
+      </structure>
+    </statement>
+    <statement id="204.txt-7">
+      <text>anthers yellow to red;</text>
+      <structure id="o3059" name="anther">
+        <character char_type="range_value" name="coloration" from="yellow" to="red" />
+        <character name="coloration" value="yellow" />
+        <character name="coloration" value="red" />
+      </structure>
+    </statement>
+    <statement id="204.txt-8">
+      <text>pollen yellow to red.</text>
+      <structure id="o3060" name="pollen">
+        <character char_type="range_value" name="coloration" from="yellow" to="red" />
+        <character name="coloration" value="yellow" />
+        <character name="coloration" value="red" />
+      </structure>
+    </statement>
+    <statement id="204.txt-9">
+      <text>Cypselae white, 7–9 mm, slightly roughened;</text>
+      <structure id="o3061" name="cypsela">
+        <character name="coloration" value="white" />
+        <character char_type="range_value" name="size" from="7" from_unit="mm" to="9" to_unit="mm" />
+        <character name="texture" value="roughened" modifier="slightly" />
+      </structure>
+    </statement>
+    <statement id="204.txt-10">
+      <text>pappus scales absent or if present, 1–4 mm.</text>
+      <structure id="o3062" name="scale" constraint="pappus">
+        <character name="presence" value="absent" />
+        <character name="presence" value="present" />
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="204.txt-11">
+      <text>2 n = 24.</text>
+      <structure id="o3063" name="chromosome">
+        <character name="count" value="24" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>escaped from cultivation in disturbed sites</habitat>
+  <elevation>0–900 m;</elevation>
+  <introduced>introduced;</introduced>
+  <ca_distribution>Alta.</ca_distribution>
+  <ca_distribution>B.C.</ca_distribution>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Ill.</us_distribution>
+  <us_distribution>Iowa</us_distribution>
+  <us_distribution>Kans.</us_distribution>
+  <us_distribution>Mass.</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>Nebr.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>N.Dak. Ohio</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <global_distribution>Europe.</global_distribution>
+  <discussion>Carthamus tinctorius is apparently native originally to the eastern Mediterranean; it is known only in cultivation and as escapes today. Safflower has been reported from Texas; I have not seen the specimen.</discussion>
+  <discussion>Safflower is cultivated as an oil seed, a source of vegetable dye, as birdseed, and as an ornamental. It is one of the earliest known crop plants, with cultivation dating back to prehistoric times. In the United States safflower is grown principally in California and Arizona; it has been a successful crop in every state west of the 100th meridian.</discussion>
+  <discussion>Carthamus oxyacantha M. Bieberstein (wild safflower) was collected in 1978 in Monterey County, California. It is considered by the United States Department of Food and Agriculture to be a noxious weed subject to eradication if found. In central and southern Asia it is a pernicious weed of agricultural lands and other disturbed ground. Carthamus oxyacantha most closely resembles cultivated safflower; it has smaller heads and much spinier leaves. Its cypselae are usually darkly pigmented, smaller (4–5 mm versus 5.5–9 mm), and almost always lack pappi.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

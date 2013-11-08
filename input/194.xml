@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Volutaria muricata</species_name>
+  <authority>(Linnaeus) Maire</authority>
+  <place_of_publication>in É. Jahandiez et al., Cat. Pl. Maroc, 3. 817. 1934</place_of_publication>
+  <common_name>Morocco knapweed</common_name>
+  <synonym_of_species_name>Centaurea muricata Linnaeus, Sp. Pl. 2: 918. 1753; Amberboa muricata (Linnaeus) de Candolle; Cyanopsis muricata (Linnaeus) Dostál; Volutarella muricata (Linnaeus) Bentham &amp; Hooker f.</synonym_of_species_name>
+  <description>
+    <statement id="194.txt-0">
+      <text>Leaves:</text>
+      <structure id="o2692" name="leaf" />
+    </statement>
+    <statement id="194.txt-1">
+      <text>proximal oblanceolate, margins denticulate to deeply pinnatifid, distal smaller, linear, ± entire or lobed, faces villous with septate hairs, minutely resin-gland-dotted.</text>
+      <structure id="o2693" name="leaf" constraint="proximal">
+        <character name="shape" value="oblanceolate" />
+      </structure>
+      <structure id="o2694" name="margin">
+        <character char_type="range_value" name="shape" from="denticulate" to="deeply pinnatifid" />
+        <character name="shape" value="denticulate" />
+        <character name="shape" value="pinnatifid" modifier="deeply" />
+      </structure>
+      <structure id="o2695" name="leaf" constraint="distal">
+        <character name="size" value="smaller" />
+        <character name="arrangement_or_shape" value="linear" />
+        <character name="shape" value="entire" modifier="±" />
+        <character name="shape" value="lobed" modifier="±" />
+      </structure>
+      <structure id="o2696" name="face">
+        <character name="pubescence" value="villous" constraint="with hairs" constraintid="o2697" />
+        <character name="coloration_or_relief" value="resin-gland-dotted" modifier="minutely" />
+      </structure>
+      <structure id="o2697" name="hair">
+        <character name="architecture" value="septate" />
+      </structure>
+    </statement>
+    <statement id="194.txt-2">
+      <text>Heads 3–5 cm diam.</text>
+      <structure id="o2698" name="head">
+        <character char_type="range_value" name="size" from="3" from_unit="cm" to="5" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="194.txt-3">
+      <text>Peduncles 5–15 cm, distally leafless, finely arachnoid-tomentose, especially near tips.</text>
+      <structure id="o2699" name="peduncle">
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="15" to_unit="cm" />
+        <character name="architecture" value="leafless" modifier="distally" />
+        <character name="pubescence" value="arachnoid-tomentose" modifier="finely" />
+      </structure>
+      <structure id="o2700" name="tip" />
+      <relation id="r380" name="near" from="o2699" to="o2700" negation="false" modifier="especially" />
+    </statement>
+    <statement id="194.txt-4">
+      <text>Involucres 15–18 mm.</text>
+      <structure id="o2701" name="involucre">
+        <character char_type="range_value" name="size" from="15" from_unit="mm" to="18" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="194.txt-5">
+      <text>Phyllaries in 5–7 series, minutely spinulose-serrulate, finely pilose, outer and mid ovate, appressed, dark-margined, abruptly tipped by spreading or reflexed, flattened spine tips 3–5 mm, inner lanceolate, with erect or flaring, flattened, ± spineless tips.</text>
+      <structure id="o2702" name="phyllary">
+        <character name="shape" value="spinulose-serrulate" modifier="minutely" />
+        <character name="pubescence" value="pilose" modifier="finely" />
+        <character name="position" value="outer" />
+        <character name="orientation" value="appressed" />
+        <character name="shape" value="dark-margined" />
+        <character name="position" value="inner" />
+        <character name="shape" value="lanceolate" />
+      </structure>
+      <structure id="o2703" name="series">
+        <character char_type="range_value" name="count" from="5" to="7" />
+      </structure>
+      <relation id="r381" name="in" from="o2702" to="o2703" negation="false" />
+      <structure id="o2704" name="mid">
+        <character name="shape" value="ovate" />
+      </structure>
+      <structure id="o2705" name="tip" constraint="spine">
+        <character name="orientation" value="spreading" />
+        <character name="orientation" value="reflexed" />
+        <character name="shape" value="flattened" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+      <relation id="r382" name="tipped by" from="o2702" to="o2705" negation="false" />
+      <structure id="o2706" name="tip">
+        <character name="orientation" value="erect" />
+        <character name="shape" value="flaring" />
+        <character name="shape" value="flattened" />
+        <character name="architecture" value="spineless" modifier="±" />
+      </structure>
+      <relation id="r383" name="with" from="o2702" to="o2706" negation="false" />
+    </statement>
+    <statement id="194.txt-6">
+      <text>Florets:</text>
+      <structure id="o2707" name="floret" />
+    </statement>
+    <statement id="194.txt-7">
+      <text>corolla lobes of sterile 10–15 mm, spreading;</text>
+      <structure id="o2708" name="lobe" constraint="corolla; of sterile 10-15 mm">
+        <character name="orientation" value="spreading" />
+      </structure>
+    </statement>
+    <statement id="194.txt-8">
+      <text>corollas of fertile 13–14 mm, tubes 5–6 mm, throats 2–4 mm, lobes 5–6 mm.</text>
+      <structure id="o2709" name="corolla" constraint="of fertile 13-14 mm" />
+      <structure id="o2710" name="tube">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+      <structure id="o2711" name="throat">
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+      <structure id="o2712" name="lobe">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="194.txt-9">
+      <text>Cypselae pale gray-brown, scars with cartilaginous rims;</text>
+      <structure id="o2713" name="cypsela">
+        <character name="coloration" value="brown" modifier="pale-gray" />
+      </structure>
+      <structure id="o2714" name="scar" />
+      <structure id="o2715" name="rim">
+        <character name="texture" value="cartilaginous" />
+      </structure>
+      <relation id="r384" name="with" from="o2714" to="o2715" negation="false" />
+    </statement>
+    <statement id="194.txt-10">
+      <text>pappi of irregularly toothed scales 1–2.5 mm, outer shorter and narrower than inner.</text>
+      <structure id="o2716" name="pappus">
+        <character name="size" value="outer shorter and narrower than inner" />
+      </structure>
+      <structure id="o2717" name="scale">
+        <character name="shape" value="toothed" modifier="irregularly" />
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="2.5" to_unit="mm" />
+      </structure>
+      <relation id="r385" name="consist_of" from="o2716" to="o2717" negation="false" />
+    </statement>
+    <statement id="194.txt-11">
+      <text>2 n = 24 (n Africa, as Cyanopsis muricata ).</text>
+      <structure id="o2718" name="chromosome">
+        <character name="count" value="24" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <habitat>disturbed sites</habitat>
+  <habitat>sparingly established, in coastal regions</habitat>
+  <habitat>probably escaped from cultivation</habitat>
+  <elevation>0–100 m;</elevation>
+  <introduced>introduced;</introduced>
+  <us_distribution>Calif.</us_distribution>
+  <global_distribution>sw Europe</global_distribution>
+  <global_distribution>n Africa.</global_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

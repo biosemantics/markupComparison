@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>5.</number>
+  <species_name>Krigia occidentalis</species_name>
+  <authority>Nuttall</authority>
+  <place_of_publication>J. Acad. Nat. Sci. Philadelphia 7: 104. 1834</place_of_publication>
+  <common_name>Western dwarfdandelion</common_name>
+  <synonym_of_species_name>Cymbia occidentalis (Nuttall) Standley</synonym_of_species_name>
+  <description>
+    <statement id="582.txt-0">
+      <text>Annuals, 4–16 cm;</text>
+    </statement>
+    <statement id="582.txt-1">
+      <text>taprooted.</text>
+      <structure id="o12062" name="whole_organism">
+        <character char_type="range_value" name="size" from="4" from_unit="cm" to="16" to_unit="cm" />
+        <character name="life_style" value="annual" />
+        <character name="architecture" value="taprooted" />
+      </structure>
+    </statement>
+    <statement id="582.txt-2">
+      <text>Stems 1–20+, ± scapiform, erect, eglandular or lightly glandular-villous .</text>
+      <structure id="o12063" name="stem">
+        <character char_type="range_value" name="count" from="1" to="20" upper_restricted="false" />
+        <character name="shape" value="scapiform" modifier="±" />
+        <character name="orientation" value="erect" />
+        <character name="architecture" value="eglandular" />
+        <character name="pubescence" value="glandular-villous" modifier="lightly" />
+      </structure>
+    </statement>
+    <statement id="582.txt-3">
+      <text>Leaves basal (rosettes) and proximally cauline (on scarcely elongated branches close to ground);</text>
+    </statement>
+    <statement id="582.txt-4">
+      <text>petiolate (petioles sometimes ciliate-glandular);</text>
+      <structure id="o12064" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" modifier="proximally" />
+        <character name="architecture" value="petiolate" />
+      </structure>
+    </statement>
+    <statement id="582.txt-5">
+      <text>blades linear, oblanceolate, or obovate, 1–7 cm, margins entire or sparingly lobed, lobes linear or triangular to rounded , apices acute or obtuse, faces eglandular.</text>
+      <structure id="o12065" name="blade">
+        <character name="shape" value="linear" />
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="obovate" />
+        <character char_type="range_value" name="size" from="1" from_unit="cm" to="7" to_unit="cm" />
+      </structure>
+      <structure id="o12066" name="margin">
+        <character name="shape" value="entire" />
+        <character name="shape" value="lobed" modifier="sparingly" />
+      </structure>
+      <structure id="o12067" name="lobe">
+        <character char_type="range_value" name="shape" from="triangular" to="rounded" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="triangular" />
+        <character name="shape" value="rounded" />
+      </structure>
+      <structure id="o12068" name="apex">
+        <character name="shape" value="acute" />
+        <character name="shape" value="obtuse" />
+      </structure>
+      <structure id="o12069" name="face">
+        <character name="architecture" value="eglandular" />
+      </structure>
+    </statement>
+    <statement id="582.txt-6">
+      <text>Heads borne singly.</text>
+      <structure id="o12070" name="head">
+        <character name="arrangement" value="singly" />
+      </structure>
+    </statement>
+    <statement id="582.txt-7">
+      <text>Peduncles from basal rosettes.</text>
+      <structure id="o12071" name="peduncle" />
+      <structure id="o12072" name="rosette" constraint="basal" />
+      <relation id="r1406" name="from" from="o12071" to="o12072" negation="false" />
+    </statement>
+    <statement id="582.txt-8">
+      <text>Involucres 2.5–6.5 mm.</text>
+      <structure id="o12073" name="involucre">
+        <character char_type="range_value" name="size" from="2.5" from_unit="mm" to="6.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="582.txt-9">
+      <text>Phyllaries 4–7, erect in fruit, lanceolate in flower, becoming ovate-lanceolate in fruit, midveins and sometimes secondary veins becoming prominent in fruit, curving inward at bases to form keels, apices acute .</text>
+      <structure id="o12074" name="phyllary">
+        <character char_type="range_value" name="count" from="4" to="7" />
+        <character name="orientation" value="erect" constraint="in fruit" constraintid="o12075" />
+        <character name="shape" value="lanceolate" constraint="in flower" constraintid="o12076" />
+        <character name="shape" value="ovate-lanceolate" modifier="becoming" constraint="in fruit" constraintid="o12077" />
+      </structure>
+      <structure id="o12075" name="fruit" />
+      <structure id="o12076" name="flower" />
+      <structure id="o12077" name="fruit" />
+      <structure id="o12078" name="midvein">
+        <character name="shape" value="curving" />
+        <character name="orientation" value="inward" constraint="at bases" constraintid="o12081" />
+      </structure>
+      <structure id="o12079" name="vein" constraint="secondary">
+        <character name="prominence" value="prominent" modifier="becoming" constraint="in fruit" constraintid="o12080" />
+      </structure>
+      <structure id="o12080" name="fruit" />
+      <structure id="o12081" name="base" />
+      <structure id="o12082" name="keel" />
+      <relation id="r1407" name="to" from="o12081" to="o12082" negation="false" />
+      <structure id="o12083" name="apex">
+        <character name="shape" value="acute" />
+      </structure>
+    </statement>
+    <statement id="582.txt-10">
+      <text>Florets 5–25;</text>
+      <structure id="o12084" name="floret">
+        <character char_type="range_value" name="count" from="5" to="25" />
+      </structure>
+    </statement>
+    <statement id="582.txt-11">
+      <text>corollas yellow, 5–9 mm.</text>
+      <structure id="o12085" name="corolla">
+        <character name="coloration" value="yellow" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="9" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="582.txt-12">
+      <text>Cypselae reddish brown, broadly obconic, 1.2–1.8 mm (apical areas broader than basal areoles) , 10–15-ribbed;</text>
+      <structure id="o12086" name="cypsela">
+        <character name="coloration" value="brown" modifier="reddish" />
+        <character name="shape" value="obconic" modifier="broadly" />
+        <character char_type="range_value" name="size" from="1.2" from_unit="mm" to="1.8" to_unit="mm" />
+        <character name="architecture_or_shape" value="10-15-ribbed" />
+      </structure>
+    </statement>
+    <statement id="582.txt-13">
+      <text>pappi of 5, hyaline, rounded outer scales 0.4–0.6 mm plus usually 5, sometimes 0, scabrous inner bristles 1.2–2 mm.</text>
+      <structure id="o12087" name="pappus">
+        <character name="count" value="5" modifier="usually" />
+        <character name="count" value="0" modifier="sometimes" />
+      </structure>
+      <structure id="o12088" name="scale" constraint="outer">
+        <character name="count" value="5" />
+        <character name="coloration" value="hyaline" />
+        <character name="shape" value="rounded" />
+        <character char_type="range_value" name="size" from="0.4" from_unit="mm" to="0.6" to_unit="mm" />
+      </structure>
+      <relation id="r1408" name="consist_of" from="o12087" to="o12088" negation="false" />
+      <structure id="o12089" name="bristle" constraint="inner">
+        <character name="pubescence_or_relief" value="scabrous" />
+        <character char_type="range_value" name="size" from="1.2" from_unit="mm" to="2" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="582.txt-14">
+      <text>2 n = 12.</text>
+      <structure id="o12090" name="chromosome">
+        <character name="count" value="12" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <habitat>sandy or clay soils</habitat>
+  <habitat>meadows</habitat>
+  <habitat>prairies</habitat>
+  <habitat>edges of open oak-hickory and pine woods</habitat>
+  <elevation>10–400 m;</elevation>
+  <us_distribution>Ark.</us_distribution>
+  <us_distribution>Ga.</us_distribution>
+  <us_distribution>Kans.</us_distribution>
+  <us_distribution>La.</us_distribution>
+  <us_distribution>Mo.</us_distribution>
+  <us_distribution>Okla.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <discussion>Krigia occidentalis grows in the Eastern deciduous forest biome, tallgrass prairie, and mixedgrass prairie. It has superficial similarity in pappus form to K. virginica; it was consistently placed as the sister species to K. cespitosa in chloroplast cpDNA and nuclear rDNA studies by K. J. Kim et al. (1992b, 1992c). In morphology, it is most similar to the polyploid species K. wrightii, with 2n = 18.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

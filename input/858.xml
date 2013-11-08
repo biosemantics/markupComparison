@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>6.</number>
+  <species_name>Artemisia pedatifida</species_name>
+  <authority>Nuttall</authority>
+  <place_of_publication>Trans. Amer. Philos. Soc., n. s. 7: 399. 1841</place_of_publication>
+  <common_name>Matted sagewort</common_name>
+  <description>
+    <statement id="858.txt-0">
+      <text>Perennials or subshrubs, 5–15 cm (cespitose), aromatic.</text>
+      <structure id="o17960" name="whole_organism">
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="15" to_unit="cm" />
+        <character name="odor" value="aromatic" />
+        <character name="life_style" value="perennial" />
+        <character name="life_style" value="subshrub" />
+      </structure>
+    </statement>
+    <statement id="858.txt-1">
+      <text>Stems 5–20, gray-green, glabrescent.</text>
+      <structure id="o17962" name="stem">
+        <character char_type="range_value" name="count" from="5" to="20" />
+        <character name="coloration" value="green" modifier="gray" />
+        <character name="pubescence" value="glabrescent" />
+      </structure>
+    </statement>
+    <statement id="858.txt-2">
+      <text>Leaves persistent , gray-green, mostly basal;</text>
+      <structure id="o17963" name="leaf">
+        <character name="duration" value="persistent" />
+        <character name="coloration" value="green" modifier="gray" />
+        <character name="insertion_or_position" value="basal" modifier="mostly" />
+      </structure>
+    </statement>
+    <statement id="858.txt-3">
+      <text>proximal blades reduced, mostly less than 1 cm, lobed or entire;</text>
+      <structure id="o17964" name="blade" constraint="proximal">
+        <character name="size" value="reduced" />
+        <character name="size" value="1" unit="cm" modifier="mostly less than" />
+        <character name="shape" value="lobed" />
+        <character name="shape" value="entire" />
+      </structure>
+    </statement>
+    <statement id="858.txt-4">
+      <text>distal blades 1–2 × 0.5–0.8 cm, 1–2-ternately lobed, lobes 1–2 mm wide, apices acute, faces densely tomentose.</text>
+      <structure id="o17965" name="blade" constraint="distal">
+        <character char_type="range_value" name="length" from="1" from_unit="cm" to="2" to_unit="cm" />
+        <character char_type="range_value" name="width" from="0.5" from_unit="cm" to="0.8" to_unit="cm" />
+        <character name="shape" value="lobed" modifier="1-2-ternately" />
+      </structure>
+      <structure id="o17966" name="lobe">
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="2" to_unit="mm" />
+      </structure>
+      <structure id="o17967" name="apex">
+        <character name="shape" value="acute" />
+      </structure>
+      <structure id="o17968" name="face">
+        <character name="pubescence" value="tomentose" modifier="densely" />
+      </structure>
+    </statement>
+    <statement id="858.txt-5">
+      <text>Heads (mostly 6–15, 1 or 3–4 on lateral branches; mostly erect, sessile or pedunculate) in racemiform-paniculiform arrays, 5–8 × 0.5–0.8 cm.</text>
+      <structure id="o17969" name="head">
+        <character char_type="range_value" name="length" from="5" from_unit="cm" to="8" to_unit="cm" />
+        <character char_type="range_value" name="width" from="0.5" from_unit="cm" to="0.8" to_unit="cm" />
+      </structure>
+      <structure id="o17970" name="array">
+        <character name="architecture" value="racemiform-paniculiform" />
+      </structure>
+      <relation id="r1897" name="in" from="o17969" to="o17970" negation="false" />
+    </statement>
+    <statement id="858.txt-6">
+      <text>Involucres globose, 3–4 × 3–4 mm.</text>
+      <structure id="o17971" name="involucre">
+        <character name="shape" value="globose" />
+        <character char_type="range_value" name="length" from="3" from_unit="mm" to="4" to_unit="mm" />
+        <character char_type="range_value" name="width" from="3" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="858.txt-7">
+      <text>Phyllaries (margins scarious, obscured) white-tomentose.</text>
+      <structure id="o17972" name="phyllary">
+        <character name="pubescence" value="white-tomentose" />
+      </structure>
+    </statement>
+    <statement id="858.txt-8">
+      <text>Florets:</text>
+      <structure id="o17973" name="floret" />
+    </statement>
+    <statement id="858.txt-9">
+      <text>pistillate 4–7;</text>
+      <structure id="o17974" name="floret" constraint="pistillate">
+        <character char_type="range_value" name="count" from="4" to="7" />
+      </structure>
+    </statement>
+    <statement id="858.txt-10">
+      <text>functionally staminate 5–9;</text>
+      <structure id="o17975" name="floret" constraint="functionally staminate">
+        <character char_type="range_value" name="count" from="5" to="9" />
+      </structure>
+    </statement>
+    <statement id="858.txt-11">
+      <text>corollas yellow, usually red-tinged, 2–3 mm, glabrous.</text>
+      <structure id="o17976" name="corolla">
+        <character name="coloration" value="yellow" />
+        <character name="coloration" value="tinged" modifier="usually;red" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="3" to_unit="mm" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="858.txt-12">
+      <text>Cypselae (brown) ellipsoid (angled), 0.8–1 mm, (sometimes with white ribs) glabrous.</text>
+      <structure id="o17977" name="cypsela">
+        <character name="shape" value="ellipsoid" />
+        <character char_type="range_value" name="size" from="0.8" from_unit="mm" to="1" to_unit="mm" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>high plains</habitat>
+  <habitat>grasslands</habitat>
+  <elevation>1600–1800 m;</elevation>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

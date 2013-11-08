@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>37.</number>
+  <genus_name>TARAXACUM</genus_name>
+  <authority>F. H. Wiggers</authority>
+  <place_of_publication>Prim. Fl. Holsat., 56. 1780</place_of_publication>
+  <conserved>name conserved ·</conserved>
+  <common_name>Dandelion, pissenlit</common_name>
+  <derivation>Arabic to Persian talkh chakok , a bitter herb</derivation>
+  <author_of_tribe_genus>Luc Brouillet</author_of_tribe_genus>
+  <description>
+    <statement id="317.txt-0">
+      <text>Perennials, (10–)30–400(–600+ in fruit) cm (sexual or apomictic);</text>
+    </statement>
+    <statement id="317.txt-1">
+      <text>taprooted or with branched caudices.</text>
+      <structure id="o5723" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="10" to="30" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="30" from_unit="cm" to="400" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+        <character name="architecture" value="taprooted" />
+        <character name="architecture" value="with branched caudices" />
+      </structure>
+      <structure id="o5724" name="caudex" constraint="branched" />
+      <relation id="r729" name="with" from="o5723" to="o5724" negation="false" />
+    </statement>
+    <statement id="317.txt-2">
+      <text>Stems (1–10+) erect or ascending, scapiform (terete), simple (hollow), glabrous or villous proximal to heads.</text>
+      <structure id="o5725" name="stem">
+        <character char_type="range_value" name="atypical_count" from="1" to="10" upper_restricted="false" />
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="ascending" />
+        <character name="shape" value="scapiform" />
+        <character name="architecture" value="simple" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="villous proximal to heads" />
+      </structure>
+      <structure id="o5726" name="head" />
+      <relation id="r730" name="villous proximal to" from="o5725" to="o5726" negation="false" />
+    </statement>
+    <statement id="317.txt-3">
+      <text>Leaves basal (in rosettes, erect or patent to nearly horizontal);</text>
+    </statement>
+    <statement id="317.txt-4">
+      <text>petiolate or sessile;</text>
+      <structure id="o5727" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="architecture" value="petiolate" />
+        <character name="architecture" value="sessile" />
+      </structure>
+    </statement>
+    <statement id="317.txt-5">
+      <text>blades oblong to obovate or oblanceolate to linear-oblanceolate, runcinate or lyrate (bases cuneate to ± attenuate), margins subentire to dentate or pinnately lobed (apices rounded or obtuse to acute or acuminate, faces glabrous or glabrate to sparsely villous, pilose, or villosulous).</text>
+      <structure id="o5728" name="blade">
+        <character char_type="range_value" name="shape" from="oblong" to="obovate or oblanceolate" />
+        <character name="shape" value="oblong" />
+        <character name="shape" value="obovate" />
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="linear-oblanceolate" />
+        <character name="shape" value="runcinate" />
+        <character name="shape" value="lyrate" />
+      </structure>
+      <structure id="o5729" name="margin">
+        <character char_type="range_value" name="shape" from="subentire" to="dentate or pinnately lobed" />
+        <character name="shape" value="subentire" />
+        <character name="shape" value="dentate" />
+        <character name="shape" value="lobed" modifier="pinnately" />
+      </structure>
+    </statement>
+    <statement id="317.txt-6">
+      <text>Heads borne singly.</text>
+      <structure id="o5730" name="head">
+        <character name="arrangement" value="singly" />
+      </structure>
+    </statement>
+    <statement id="317.txt-7">
+      <text>Calyculi persistent, of (6–)8–18(–20) broadly ovate to lanceolate bractlets in (1–)2–3 series, distinct (appressed before flowering, recurved to spreading or reflexed in fruit), unequal (shorter than phyllaries, margins scarious, ciliate or not, apices corniculate, callous, or neither).</text>
+      <structure id="o5731" name="calyculus">
+        <character name="duration" value="persistent" />
+        <character name="fusion" value="distinct" />
+        <character name="size" value="unequal" />
+      </structure>
+      <structure id="o5732" name="bractlet">
+        <character char_type="range_value" name="atypical_count" from="6" to="8" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_count" from="18" to="20" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="8" to="18" />
+        <character char_type="range_value" name="shape" from="broadly ovate" to="lanceolate" />
+        <character name="shape" value="ovate" modifier="broadly" />
+        <character name="shape" value="lanceolate" modifier="broadly" />
+      </structure>
+      <relation id="r731" name="consist_of" from="o5731" to="o5732" negation="false" />
+      <structure id="o5733" name="series" constraint="1-2-3" />
+      <relation id="r732" name="in" from="o5732" to="o5733" negation="false" />
+    </statement>
+    <statement id="317.txt-8">
+      <text>Involucres campanulate to cylindro-campanulate or urceolate to cylindric, 8–40 mm diam.</text>
+      <structure id="o5734" name="involucre">
+        <character char_type="range_value" name="shape" from="campanulate" to="cylindro-campanulate or urceolate" />
+        <character name="shape" value="campanulate" />
+        <character name="shape" value="cylindro-campanulate" />
+        <character name="shape" value="urceolate" />
+        <character name="shape" value="cylindric" />
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="40" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="317.txt-9">
+      <text>Phyllaries 7–25 in 2(–3) series, weakly coherent proximally in buds (interlocking folded margins), distinct later, erect (sometimes slightly spreading) in flower, closing at fruit maturation, reflexed at dispersal (exposing globes of cypselae with fully spread pappi), ± equal, herbaceous, glabrous;</text>
+      <structure id="o5735" name="phyllary">
+        <character char_type="range_value" name="count" from="7" to="25" constraint="in -3 series" constraintid="o5736" />
+        <character name="fusion" value="coherent" modifier="weakly ; proximally" constraint="in buds" constraintid="o5737" />
+        <character name="fusion" value="distinct" modifier="later" />
+        <character name="orientation" value="erect" constraint="in flower" constraintid="o5738" />
+        <character name="architecture" value="closing" constraint="at fruit maturation" constraintid="o5739" />
+        <character name="orientation" value="reflexed" modifier="at dispersal" />
+        <character name="size" value="equal" modifier="±" />
+        <character name="habit_or_texture" value="herbaceous" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+      <structure id="o5736" name="series" constraint="-3">
+        <character name="count" value="2" />
+      </structure>
+      <structure id="o5737" name="bud" />
+      <structure id="o5738" name="flower" />
+      <structure id="o5739" name="maturation" constraint="fruit" />
+    </statement>
+    <statement id="317.txt-10">
+      <text>inner lanceolate to linear-lanceolate, margins scarious, ciliate or not, apices acuminate, sometimes corniculate, callous, or flat.</text>
+      <structure id="o5740" name="phyllary" constraint="inner" />
+      <structure id="o5741" name="margin">
+        <character name="texture" value="scarious" />
+        <character name="architecture_or_shape" value="ciliate" />
+        <character name="architecture_or_shape" value="ciliate" modifier="not" />
+      </structure>
+      <structure id="o5742" name="apex">
+        <character name="shape" value="acuminate" />
+        <character name="shape" value="corniculate" modifier="sometimes" />
+        <character name="texture" value="callous" />
+        <character name="shape" value="flat" />
+      </structure>
+    </statement>
+    <statement id="317.txt-11">
+      <text>Receptacles ± flat, epaleate.</text>
+      <structure id="o5743" name="receptacle">
+        <character name="shape" value="flat" modifier="±" />
+        <character name="architecture" value="epaleate" />
+      </structure>
+    </statement>
+    <statement id="317.txt-12">
+      <text>Florets (15–)20–150;</text>
+      <structure id="o5744" name="floret">
+        <character char_type="range_value" name="atypical_count" from="15" to="20" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="20" to="150" />
+      </structure>
+    </statement>
+    <statement id="317.txt-13">
+      <text>corollas yellow, sometimes greenish, rarely cream or pale pink [white], often purplish- or gray-striped abaxially (anthers yellow or yellow-cream, sometimes darker; styles yellow or greenish, sometimes grayish to blackish).</text>
+      <structure id="o5745" name="corolla">
+        <character name="coloration" value="yellow" />
+        <character name="coloration" value="greenish" modifier="sometimes" />
+        <character name="coloration" value="cream" modifier="rarely" />
+        <character name="coloration" value="pink" modifier="pale" />
+        <character name="coloration" value="striped" modifier="often ; abaxially;purplish-or-gray" />
+      </structure>
+    </statement>
+    <statement id="317.txt-14">
+      <text>Cypselae straw-colored to olive, brown, or red to pale or dark gray, bodies oblanceoloid to obovoid, ± flattened (distally ± swollen, forming discrete, conic, or terete “cones” supporting beaks [without cones]), beaked [beakless], ribs 4–12(–15), faces muricate (at least distally) [nearly smooth], glabrous;</text>
+      <structure id="o5746" name="cypsela">
+        <character char_type="range_value" name="coloration" from="straw-colored" to="olive , brown , or red" />
+        <character name="coloration" value="colored" modifier="straw" />
+        <character name="coloration" value="olive" />
+        <character name="coloration" value="brown" />
+        <character name="coloration" value="red" />
+        <character name="coloration" value="pale" />
+        <character name="coloration" value="gray" modifier="dark" />
+      </structure>
+      <structure id="o5747" name="body">
+        <character char_type="range_value" name="shape" from="oblanceoloid" to="obovoid" />
+        <character name="shape" value="oblanceoloid" />
+        <character name="shape" value="obovoid" />
+        <character name="shape" value="flattened" modifier="±" />
+        <character name="shape" value="beaked" />
+      </structure>
+      <structure id="o5748" name="rib">
+        <character char_type="range_value" name="atypical_count" from="12" to="15" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="4" to="12" />
+      </structure>
+      <structure id="o5749" name="face">
+        <character name="relief" value="muricate" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="317.txt-15">
+      <text>pappi persistent, of 50–105+ distinct, white to cream-colored or yellowish to sordid, equal, barbellulate bristles in 1 series.</text>
+      <structure id="o5750" name="pappus">
+        <character name="duration" value="persistent" />
+      </structure>
+      <structure id="o5751" name="bristle">
+        <character char_type="range_value" name="count" from="50" to="105" upper_restricted="false" />
+        <character name="fusion" value="distinct" />
+        <character char_type="range_value" name="coloration" from="white" to="cream-colored or yellowish" />
+        <character name="coloration" value="white" />
+        <character name="coloration" value="colored" modifier="cream" />
+        <character name="coloration" value="yellowish" />
+        <character name="coloration" value="sordid" />
+        <character name="size" value="equal" />
+        <character name="architecture" value="barbellulate" />
+      </structure>
+      <relation id="r733" name="consist_of" from="o5750" to="o5751" negation="false" />
+      <structure id="o5752" name="series">
+        <character name="count" value="1" />
+      </structure>
+      <relation id="r734" name="in" from="o5751" to="o5752" negation="false" />
+    </statement>
+    <statement id="317.txt-16">
+      <text>x = 8.</text>
+      <structure id="o5753" name="chromosome">
+        <character name="count" value="8" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species 60(–2000) (15 in the flora):</number_of_infrataxa>
+  <general_distribution>North America</general_distribution>
+  <general_distribution>South America</general_distribution>
+  <general_distribution>Eurasia</general_distribution>
+  <general_distribution>worldwide weeds (e.g.).</general_distribution>
+  <general_distribution>worldwide weeds (Taraxacum officinale).</general_distribution>
+  <general_distribution>worldwide weeds (T. erythrospermum).</general_distribution>
+  <discussion>The type of the genus, Taraxacum officinale, is conserved. This name is linked to the (very general) description of Leontodon taraxacum Linnaeus. A. J. Richards (1985) typified T. officinale, via L. taraxacum, on a specimen that is apparently referable to T. campylodes Haglund, a microspecies of sect. Crocea restricted to Lapland, which thus became the basis of sect. Taraxacum. J. Kirschner and J. Štepánek (1987) underlined that this typification of T. officinale does not reflect usage of the name, which raises considerable ambiguity as to its application, because Richards essentially defined a new content for it. The species usually referred to as T. officinale must now be referred to sect. Ruderalia (Kirschner and Štepánek); no name was proposed that would correspond closely with the species currently called T. officinale. A proposal to conserve the name T. officinale with a neotype that would preserve its common usage for this widespread entity has been suggested; this has yet to be discussed fully.</discussion>
+  <discussion>Taraxacum Zinn (1757) (= Leontodon Linnaeus) is a rejected name.</discussion>
+  <discussion>The genus has been monographed by H. Handel-Mazzetti (1907) and by R. Doll (1974). Infrageneric nomenclature has recently been reviewed by A. J. Richards (1985) and by J. Kirschner and J. Štepánek (1987, 1997). The European species were treated by Richards and P. D. Sell (1973) and much work has been done since; there is no overall treatment for Asia; Russian authors have covered Siberia. The number of species in the genus depends on the disposition of agamic microspecies within species complexes, which varies greatly among authors, particularly in Europe [e.g., A. A. Dudman and Richards (1997) recognized 105 species for Great Britain and Ireland]. North American Taraxacum, particularly in the boreal and arctic zones, has been investigated by numerous researchers, many of whom incorporated new taxa described by H. Dahlstedt (1906); only works touching North America north of Mexico are mentioned here. Obviously, Scandinavian and Russian works also were significant (e.g., Dahlstedt; Doll 1977; M. L. Fernald 1933; E. L. Greene 1901b; G. Haglund 1943, 1946, 1948, 1949; M. P. Porsild 1930; P. A. Rydberg 1901), but often in a manner limited geographically or taxonomically, and no complete review exists. Most often, the taxonomy of the genus has been presented within the context of floras (e.g., S. G. Aiken et al., http://www.mun.ca/biology/delta/arcticf/_ca/www/asta.htm, with excellent photographs of Arctic species; T. W. Böcher et al. 1978; A. Cronquist 1955, 1994; Fernald 1950; H. A. Gleason and A. Cronquist 1991; E. Hultén 1955, 1968; A. E. Porsild 1950b, 1957, 1964; A. E. Porsild and W. J. Cody 1980; H. J. Scoggan 1978–1979, part 4; Rydberg 1900c). The result of all these efforts has not been a clarification of the North American situation, but rather a taxonomy and nomenclature in utter confusion (Cronquist 1994). The current treatment does not solve all nomenclatural and taxonomic problems, many of which will depend for their ultimate solution on work done in Europe.</discussion>
+  <discussion>I have adopted a broad definition of Taraxacum species for North America, broader at least than what is usually seen in European treatments. For instance, the species most familiar to North Americans were introduced from Europe (T. officinale and T. erythrospermum; see below for a justification of the use of these names), possibly several times, and represent variable agamic complexes, but this variation appears continuous and multidimensional. There seems to be no utility for the users in describing a multitude of narrowly defined microspecies. For the native arctic and western alpine species, the impact of the Pleistocene glaciations, which covered much of the territory now occupied by those species except for ice-free parts of Alaska and Yukon, must be considered. It is likely that most populations spread recently from southern or Beringian refugia after the ice withdrew and that the number of species that migrated is restricted. Isolation in the Rocky Mountains and adjacent areas may explain some of the phenotypic diversity, but not enough to warrant a large number of narrowly defined, endemic entities. The situation in eastern North America (Greenland, Labrador, Newfoundland, and adjacent areas) may have been influenced by the amphi-Atlantic dispersal of some taxa. Again, given the small number of such species in the North American flora, all concentrated in that region, it is unlikely that the number of species actually present would reach the number that has been described for the area. Therefore, at the present time, delimitation of readily distinguishable taxa appears more useful than trying to dissect finely the variation present into microspecies that would have little experimental validation.</discussion>
+  <discussion>Another reason for using broad species limits is provided by population genetics. For instance, in Europe, S. B. J. Menken et al. (1995) showed that diploid and triploid members of Taraxacum sect. Ruderalia are less genetically isolated than formerly supposed and form a cohesive unit, because of the exchange of genetic material between ploidy levels despite the fact that the latter are usually agamic. The molecular study of genetic variation by L. M. King (1993) in introduced asexual Taraxacum taxa in North America also shows the importance of hybridization to explain variation, in addition to mutations, another important factor (King and B. A. Schaal 1990). M. T. Brock (2004) also documented gene exchange between the introduced agamic T. officinale and native diploid populations of T. ceratophorum in Colorado. This is cause for conservation concern in areas where introduced dandelions, notably the common dandelion, invade populations of native species, such as in the Gulf of Saint Lawrence area or the western Cordilleras. It is also possible that the prolific common dandelions not only genetically assimilate but also competitively displace native populations, which might be the case for some populations of T. laurentianum in western Newfoundland.</discussion>
+  <discussion>A. A. Dudman and A. J. Richards (1997) described some of the sources of phenotypic plasticity (or drying artifacts) in Taraxacum that may affect the identification (or delimitation) of species: juvenile and shaded leaves usually are less divided than older, sun-exposed or stressed ones, and the terminal lobes usually are smaller; some traits described as characteristic of a species may occur on only some leaves of a rosette; ligule color may change in dried material; cypsela size, though mostly consistent within species, may vary considerably within a head, the outer often being shorter; finally, cypsela color changes with maturity and insolation, and fades on specimens, and in some groups, the variation in color is such that this trait may lose its significance in delimiting entities. R. J. Taylor (1987) also emphasized the importance of phenotypic plasticity in weedy dandelion morphologic variation.</discussion>
+  <discussion>There is a spontaneous mutant form of Taraxacum erythrospermum (called T. laevigatum forma scapifolium F. C. Gates &amp; S. F. Prince) in which one or more lobed and dentate leaves (or bracts), progressively reduced distally, are present on the scape or peduncle. Also, calyculus bracts are more or less modified to enlarged, lobed and dentate bracts, instead of the usual bractlets. The phyllaries appear unaffected. The form is genetically determined, as it bred true. This shows that scapes of dandelions are modified stems where leaf expression is repressed, and that calyculi are indeed distinct in origin from the involucres and should be considered as a separate structure and not as an external series of the involucre, as is often done in descriptions.</discussion>
+  <discussion>Evolution and population biology in Taraxacum, notably with respect to breeding systems, apomixis, and variation, has been the object of numerous studies (e.g., J. C. M. den Nijs and S. B. J. Menken 1994; J. Hughes and A. J. Richards 1988, 1989; L. M. King 1993; King and B. A. Schaal 1990; J. C. Lyman and N. C. Ellstrand 1998; M. Mogie and H. Ford 1988; Mogie and Richards 1983; Richards 1970, 1970b, 1973, 1989, 1996; O. T. Solbrig 1971; R. J. Taylor 1987). Molecular phylogenetic studies have not been effective so far in solving problems of relationships within Taraxacum (e.g., J. Kirschner et al. 2003).</discussion>
+  <discussion>Chromosome counts of North American Taraxacum species are few and mainly come from A. W. Johnson and J. G. Packer (1968), T. Mosquin and D. E. Hayley (1966), G. A. Mulligan (1984), and Packer and G. D. McPherson (1974). I have not been able to examine all vouchers, and it has been difficult sometimes to attribute reports to species. The same problem exists with Russian chromosome number reports and I prefer not to include them here (see the website of S. G. Aiken et al. for such references).</discussion>
+  <discussion>The synonymy provided below must be taken with caution. Few types were seen (though many photographs were).</discussion>
+  <discussion>Taraxacum species have been used medicinally (mostly as a diuretic) and in alimentation (as greens and to make wine); they are particularly rich sources of vitamin C (E. Small and P. M. Catling 1999).</discussion>
+  <discussion>North American species of Taraxacum fall within the following sections: Ruderalia Kirschner, H. Øllgaard &amp; Štepánek (T. officinale, T. latilobum); Erythrosperma Dahlstedt (T. erythrospermum); Palustria Dahlstedt (T. palustre); Spectabilia Dahlstedt (T. lapponicum, T. spectabile); Borealia Handel-Mazzetti (T. californicum, T. ceratophorum, T. laurentianum, T. trigonolobum); and Arctica Jurtzev (T. alaskanum, T. carneocoloratum, T. holmenianum, T. hyparcticum, T. phymatocarpum, T. scopulorum).</discussion>
+  <discussion>D. F. Brunton (1989) reported the presence of small populations of an undetermined sect. Spectabilia species in wet ditches while collecting Taraxacum palustre in Ontario and New York state; he did not collect vouchers (Brunton, pers. comm.). In part on this basis, H. A. Gleason and A. Cronquist (1991, 2004) included T. spectabile Dahlstedt (Bot. Not. 1905: 159) in the northeastern North American flora, from southern Ontario and New York state. Apart from an old specimen from New York state, I have been unable to locate vouchers of the species for New York or Ontario. Establishments of the species in North America needs to be more rigorously documented. The taxon can be recognized by its hairy, abaxially purple-spotted and veined leaves, by its non-corniculate phyllaries and calyculus bractlets, and by its ovate to lanceolate bractlets that are reflexed at flowering.</discussion>
+  <discussion>I am indebted to S. G. Aiken, with whom I was able to discuss Taraxacum while she was preparing her flora of the Canadian Arctic Archipelago, and to her, D. F. Murray, and R. Elven for having shared unpublished information assembled for the Panarctic Flora project. They cannot be blamed for the treatment presented here, because the interpretation of data is wholly mine.</discussion>
+  <references>SELECTED REFERENCES Handel-Mazzetti, H. 1907. Monographie der Gattung Taraxacum. Leipzig and Vienna. Richards, A. J. and P. D. Sell. 1973. Taraxacum. In: T. G. Tutin et al., eds. 1964–1980. Flora Europaea. 5 vols. Cambridge. Vol. 4, pp. 332–343.</references>
+  <key>1.All or some phyllary apices notably horned; calyculus bractlets notably horned (sect. Borealia in part).</key>
+  <key>2.Involucres 18–26 mm; calyculus bractlets 15–21 × 3.5–5.5 mm; phyllaries 18–25; florets ca. 150+; cypsela beaks 10–17 mm; leaves usually erect, sometimes patent; coastal meadows, Gulf of St. Lawrence, Quebec, Newfoundland7. Taraxacum laurentianum</key>
+  <key>2.Involucres 8–20 mm; calyculus bractlets 5–12 × 1.5–5 mm; phyllaries 12–16(–20); florets 40–150; cypsela beaks 4–10(–14) mm; leaves usually horizontal to patent, sometimes ± erect; boreal and low arctic North America, Rocky Mountains.</key>
+  <key>3.Leaves horizontal or patent to ± erect, oblanceolate-obovate (largest in distal 1/5) to oblanceolate (often runcinate), usually ± strongly toothed proximally, less so on distal 1/5–1/4, sometimes lobed proximally or ± regularly and deeply, apices rounded or truncate to obtuse (rarely acute), apiculate; calyculus bractlets 14–20; involucres 15–20 mm; florets 120–150; Aleutian Islands and islands of the Bering Sea, Alaska9. Taraxacum trigonolobum</key>
+  <key>3.Leaves horizontal to patent (sometimes erect), narrowly oblanceolate to ± linear-oblanceolate or linear-oblong (often ± runcinate), margins irregularly to regularly, ± deeply lobed to lacerate, often toothed or subentire, teeth ± well developed, apices obtuse to sometimes acute, sometimes mucronate; involucres (5–)8–19(–21) mm; calyculus bractlets 12–16(–20); florets 40–85+; widespread, boreal and Low Arctic, w Mountains6. Taraxacum ceratophorum</key>
+  <key>1.Phyllary apices usually hornless (sometimes callous or horns relatively small); calyculus bractlets usually hornless or horns relatively small.</key>
+  <key />
+  <key>[4. Shifted to left margin.—Ed.]</key>
+  <key>4.Plants often 5–75 cm; leaves 10+, horizontal to erect, lobes (when present) mostly retrorse, triangular to lanceolate; calyculus bractlets soon reflexed to recurved (appressed to spreading in T. palustre); phyllaries 13–19; florets (40–)50–100+; ± widespread introduced taxa (temperate and boreal zones), or boreal to low Arctic native species (often moist habitats, seaside meadows or streamsides in eastern boreal zone).</key>
+  <key>5.Plants 5–6.5(–10 in fruit) cm; leaves ± 10, 2.5–9 × 0.2–1.1 cm, toothed to sometimes shallowly lobed; calyculus bractlets appressed to spreading, margins widely scarious; florets ca. 50; flowering early spring (mainly wet ditches)4. Taraxacum palustre</key>
+  <key>5.Plants (1–)5–40(–75 in fruit), leaves 10–20+, 4–47.5 × (0.7–)1–10 cm; calyculus bractlets soon reflexed to recurved, or spreading and eventually reflexed, margins narrowly or not scarious; florets 40–100+; flowering spring to early summer (north) or nearly year-round (south).</key>
+  <key>6.Leaves lacerate (lobes often lanceolate), petioles ± slightly winged distally; cypselae brick red to reddish brown or purple3. Taraxacum erythrospermum</key>
+  <key>6.Leaves usually shallowly to deeply lobed or toothed (occasionally lacerate in T. officinale, then often some early leaves less deeply so), petioles narrowly to broadly winged; cypselae olive or olive-brown to tan, reddish brown, or grayish.</key>
+  <key>7.Leaves sessile to ± broadly winged-petiolate, bases usually cuneate, sometimes attenuate, lobed or dentate; calyculus bractlets 10–12, margins usually not scarious; phyllary margins not or narrowly scarious; cypselae tan to reddish brown, cones conic; e boreal to low Arctic5. Taraxacum lapponicum</key>
+  <key>7.Leaves petiolate, petioles ± narrowly winged, bases usually attenuate, margins usually lobed and ± dentate; calyculus bractlets 12–18, margins narrowly scarious; phyllary margins scarious; cypselae olive to tan or grayish, cones terete; temperate to boreal regions.</key>
+  <key>8.Terminal leaf lobes ± as large as distal laterals, teeth few, sometimes 0; calyculus bractlets lanceolate; florets 40–100+; cypsela bodies (2–)2.5–2.8(–4) mm, beaks 7–9 mm, faces proximally smooth to ± tuberculate; wide- spread temperate to boreal weed1. Taraxacum officinale</key>
+  <key>8.Terminal leaf lobes broader than laterals, teeth 5–7 on lobes and sinuses; calyculus bractlets ovate to broadly lanceolate; florets ca. 150; cypsela bodies 2.8–3.8 mm, beaks 8–12 mm, tuberculate proximally; seaside grassy slopes and taluses or clifftops, Gulf of St. Lawrence, and adjacent areas2. Taraxacum latilobum</key>
+  <key>4.Plants 1–12(–30 in fruit) cm; leaves usually fewer than 10 (10–20 in T. californicum), horizontal to patent (rarely erect), lobes often straight, deltate to triangular; calyculus bractlets appressed to spreading (becoming reflexed in fruit); phyllaries 7–14(–16); florets 20–50+; w montane and high alpine, or Arctic regions.</key>
+  <key>9.Leaves not lobed or lobes slightly retrorse or straight, lanceolate to triangular-acuminate, teeth narrowly to broadly triangular; calyculus bractlets ovate-lanceolate, margins scarious; involucres green, tips purplish gray, broadly campanulate; San Bernardino Mountains, California8. Taraxacum californicum</key>
+  <key>9.Leaves usually regularly lobed (dentate to denticulate or entire in T. phymatocarpum), usually not dentate; outer calyculus bractlets ovate to broadly ovate, margins narrowly or not scarious; involucres dark green, mostly narrowly campanulate; Rocky Mountains and Arctic (sect. Arctica).</key>
+  <key>10.Corollas pink (sometimes ± bronze when fresh) or cream-colored to white or pink distally, abaxially pinkish-striped.</key>
+  <key>11.Leaves deeply and regularly lobed to subentire; calyculus bractlets horned; involucres narrowly campanulate, 15–30 mm; corollas cream-colored to white or pink distally, outer abaxially pinkish-striped, 15–20 × 1.2–3 mm; cypselae tan or straw-colored to brown, sometimes grayish, muricate in distal 1/2; pappi white or sordid10. Taraxacum hyparcticum</key>
+  <key>11.Leaves sometimes shallowly lobed; calyculus bractlets hornless; involucres broadly campanulate, (10–)12–16 mm; corollas pink (± bronze when fresh), outer 13–14 × 2.4–2.6 mm; cypselae grayish, greenish, or yellowish, muricate in distal 1/4; pappi yellowish; Yukon, Alaska15. Taraxacum carneocoloratum</key>
+  <key>[10. Shifted to left margin.—Ed.]</key>
+  <key>10.Corollas pale to dark yellow.</key>
+  <key>12.Leaves oblanceolate to linear-oblanceolate, margins entire or toothed to denticulate (sometimes some nearly runcinate); corollas pale yellow, sometimes lemon-colored; cypselae dark brown, grayish or blackish, muricate 1/2–3/4+11. Taraxacum phymatocarpum</key>
+  <key>12.Leaves runcinate, regularly lobed, lobes straight, deltate to triangular; corollas yellow to dark yellow; cypselae usually yellowish to brown or reddish brown, sometimes grayish, muricate in distal 1/2 or less.</key>
+  <key>13.Plants 1–5 cm; leaves linear-oblanceolate to narrowly oblanceolate, (1–)1.5–4 × 0.5–1 cm; outer corollas 7.5–8.8 mm; cypsela cones 0.5–0.6 mm12. Taraxacum scopulorum</key>
+  <key>13.Plants (1.5–)3–15(–20) cm; leaves oblanceolate to oblong-oblanceolate or narrowly oblong, (1.5–)2–11.6 × 0.3–2.2; outer corollas 11–20 mm; cypsela cones 0.8–1.1 mm.</key>
+  <key>14.Plants 5–15(–20) cm; leaves dark green; calyculus bractlets 10–14; phyllaries ca. 14, apices sometimes callous and/or horned; cypselae yellowish or straw- colored, beaks slender; Arctic13. Taraxacum holmenianum</key>
+  <key>14.Plants (1.5–)3–9(–16 in fruit) cm; leaves green; calyculus bractlets 7–9; phyllaries 7–8, apices not callous, hornless; cypselae maroon to brown or reddish brown, sometimes grayish, beaks stout14. Taraxacum alaskanum</key>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>90.</number>
+  <genus_name>ANAPHALIS</genus_name>
+  <authority>Anaphalis de Candolle</authority>
+  <place_of_publication>in A. P. de Candolle and A. L. P. P. de Candolle, Prodr. 6: 271. 1838</place_of_publication>
+  <common_name />
+  <derivation>An ancient name or, perhaps, derived from generic name Gnaphalium</derivation>
+  <author_of_tribe_genus>Guy L. Nesom</author_of_tribe_genus>
+  <description>
+    <statement id="703.txt-0">
+      <text>Perennials [subshrubs] (dioecious or subdioecious), 20–80(–120+) cm;</text>
+    </statement>
+    <statement id="703.txt-1">
+      <text>fibrous-rooted (rhizomatous, not stoloniferous).</text>
+      <structure id="o14689" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="80" to="120" from_unit="cm" to_unit="cm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="20" from_unit="cm" to="80" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+        <character name="architecture" value="fibrous-rooted" />
+      </structure>
+    </statement>
+    <statement id="703.txt-2">
+      <text>Stems usually 1, usually erect.</text>
+      <structure id="o14690" name="stem">
+        <character name="count" value="1" modifier="usually" />
+        <character name="orientation" value="erect" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="703.txt-3">
+      <text>Leaves basal and cauline;</text>
+    </statement>
+    <statement id="703.txt-4">
+      <text>alternate;</text>
+    </statement>
+    <statement id="703.txt-5">
+      <text>petiolate or sessile;</text>
+      <structure id="o14691" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="arrangement" value="alternate" />
+        <character name="architecture" value="petiolate" />
+        <character name="architecture" value="sessile" />
+      </structure>
+    </statement>
+    <statement id="703.txt-6">
+      <text>blades oblanceolate or lanceolate to linear, bases ± cuneate, margins entire, faces usually bicolor [concolor], abaxial usually white to gray and tomentose (sometimes glandular as well, proximal leaves sometimes ± glabrate), adaxial usually greenish and glabrate or glabrous, sometimes grayish and sparsely arachnose.</text>
+      <structure id="o14692" name="blade">
+        <character char_type="range_value" name="shape" from="lanceolate" to="linear" />
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="linear" />
+      </structure>
+      <structure id="o14693" name="base">
+        <character name="shape" value="cuneate" modifier="±" />
+      </structure>
+      <structure id="o14694" name="margin">
+        <character name="shape" value="entire" />
+      </structure>
+      <structure id="o14695" name="face">
+        <character name="coloration" value="bicolor" modifier="usually" />
+        <character name="insertion_or_position" value="abaxial" modifier="usually" />
+        <character name="coloration" value="white" />
+        <character name="coloration" value="gray" />
+        <character name="pubescence" value="tomentose" />
+        <character name="insertion_or_position" value="adaxial" modifier="usually" />
+        <character name="coloration" value="greenish" />
+        <character name="pubescence" value="glabrate" />
+        <character name="pubescence" value="glabrous" />
+        <character name="coloration" value="grayish" modifier="sometimes" />
+        <character name="pubescence" value="arachnose" modifier="sparsely" />
+      </structure>
+    </statement>
+    <statement id="703.txt-7">
+      <text>Heads usually discoid (unisexual or nearly so) or disciform, in glomerules in corymbiform or paniculiform arrays.</text>
+      <structure id="o14696" name="head">
+        <character name="shape_or_architecture" value="discoid" modifier="usually" />
+        <character name="shape_or_architecture" value="disciform" />
+      </structure>
+      <structure id="o14697" name="glomerule" />
+      <relation id="r1580" name="in" from="o14696" to="o14697" negation="false" />
+      <structure id="o14698" name="array">
+        <character name="architecture" value="corymbiform" />
+        <character name="architecture" value="paniculiform" />
+      </structure>
+      <relation id="r1581" name="in" from="o14697" to="o14698" negation="false" />
+    </statement>
+    <statement id="703.txt-8">
+      <text>Involucres subglobose, 6–8(–10) mm.</text>
+      <structure id="o14699" name="involucre">
+        <character name="shape" value="subglobose" />
+        <character char_type="range_value" name="atypical_size" from="8" to="10" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="703.txt-9">
+      <text>Phyllaries in 8–12 series, bright white (opaque, at least toward tips, often proximally woolly; stereomes not glandular), unequal, ± papery (at least toward tips).</text>
+      <structure id="o14700" name="phyllary">
+        <character name="coloration" value="white" modifier="bright" />
+        <character name="size" value="unequal" />
+        <character name="texture" value="papery" modifier="±" />
+      </structure>
+      <structure id="o14701" name="series">
+        <character char_type="range_value" name="count" from="8" to="12" />
+      </structure>
+      <relation id="r1582" name="in" from="o14700" to="o14701" negation="false" />
+    </statement>
+    <statement id="703.txt-10">
+      <text>Peripheral (pistillate) florets 50–150 (more numerous than staminate; sometimes a few pistillate florets peripheral in predominantly staminate heads or 1–9 staminate florets central in predominantly pistillate heads);</text>
+      <structure id="o14702" name="floret" constraint="peripheral">
+        <character char_type="range_value" name="count" from="50" to="150" />
+      </structure>
+    </statement>
+    <statement id="703.txt-11">
+      <text>corollas yellowish.</text>
+      <structure id="o14703" name="corolla">
+        <character name="coloration" value="yellowish" />
+      </structure>
+    </statement>
+    <statement id="703.txt-12">
+      <text>Inner (functionally staminate) florets 30–55;</text>
+      <structure id="o14704" name="floret" constraint="inner">
+        <character char_type="range_value" name="count" from="30" to="55" />
+      </structure>
+    </statement>
+    <statement id="703.txt-13">
+      <text>corollas yellowish.</text>
+      <structure id="o14705" name="corolla">
+        <character name="coloration" value="yellowish" />
+      </structure>
+    </statement>
+    <statement id="703.txt-14">
+      <text>Cypselae oblong [obclavate, ovoid, or cylindric] (2-nerved), faces ± scabrous (hairs clavate, not myxogenic);</text>
+      <structure id="o14706" name="cypsela">
+        <character name="shape" value="oblong" />
+      </structure>
+      <structure id="o14707" name="face">
+        <character name="pubescence_or_relief" value="scabrous" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="703.txt-15">
+      <text>pappi usually readily falling, of 10–20 distinct or basally connate, barbellate bristles (tips of bristles ± clavate in bisexual or functionally staminate florets).</text>
+      <structure id="o14708" name="pappus">
+        <character name="orientation" value="falling" modifier="usually readily" />
+      </structure>
+      <structure id="o14709" name="bristle">
+        <character char_type="range_value" name="count" from="10" to="20" />
+        <character name="fusion" value="distinct" />
+        <character name="fusion" value="connate" modifier="basally" />
+        <character name="architecture" value="barbellate" />
+      </structure>
+      <relation id="r1583" name="consist_of" from="o14708" to="o14709" negation="false" />
+    </statement>
+    <statement id="703.txt-16">
+      <text>x = 14.</text>
+      <structure id="o14710" name="chromosome">
+        <character name="count" value="14" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species ca. 110 or fewer (1 in the flora):</number_of_infrataxa>
+  <general_distribution>North America</general_distribution>
+  <general_distribution>mostly central Asia and India.</general_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

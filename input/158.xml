@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>54h.</number>
+  <variety_name>Cirsium scariosum Nuttall var. robustum</variety_name>
+  <authority>D. J. Keil</authority>
+  <place_of_publication>Sida 21: 215. 2004</place_of_publication>
+  <common_name>Shasta Valley thistle</common_name>
+  <description>
+    <statement id="158.txt-0">
+      <text>Plants caulescent, 25–70 cm.</text>
+      <structure id="o1597" name="whole_organism">
+        <character name="architecture" value="caulescent" />
+        <character char_type="range_value" name="size" from="25" from_unit="cm" to="70" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="158.txt-1">
+      <text>Stems (1) often very stout, branched distally or throughout, leafy, glabrous, villous with septate trichomes, or arachnoid-tomentose.</text>
+      <structure id="o1598" name="stem">
+        <character name="atypical_count" value="1" />
+        <character name="fragility" value="stout" modifier="often very" />
+        <character name="architecture_or_shape" value="branched" modifier="distally" />
+        <character name="architecture_or_shape" value="branched" modifier="distally; throughout" />
+        <character name="architecture" value="leafy" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="villous" constraint="with trichomes" constraintid="o1599" />
+        <character name="pubescence" value="arachnoid-tomentose" />
+      </structure>
+      <structure id="o1599" name="trichome">
+        <character name="architecture" value="septate" />
+      </structure>
+    </statement>
+    <statement id="158.txt-2">
+      <text>Leaves oblanceolate to elliptic, deeply pinnately lobed, longer spines slender or stout, usually 1 cm or shorter, abaxial thinly to densely arachnoid-tomentose, villous with septate trichomes along midveins, adaxial villous with septate trichomes or thinly arachnoid-tomentose.</text>
+      <structure id="o1600" name="leaf">
+        <character name="shape" value="oblanceolate" />
+        <character name="arrangement_or_shape" value="elliptic" />
+        <character name="shape" value="lobed" modifier="deeply pinnately" />
+      </structure>
+      <structure id="o1601" name="spine" constraint="longer">
+        <character name="size" value="slender" />
+        <character name="fragility" value="stout" />
+        <character name="size" value="1" unit="cm" modifier="usually" />
+        <character name="size" value="shorter" />
+        <character name="insertion_or_position" value="abaxial" modifier="thinly" />
+        <character name="pubescence" value="arachnoid-tomentose" modifier="densely" />
+        <character name="pubescence" value="villous" constraint="with trichomes" constraintid="o1602" />
+        <character name="insertion_or_position" value="adaxial" />
+        <character name="pubescence" value="villous" constraint="with trichomes" constraintid="o1604" />
+        <character name="pubescence" value="arachnoid-tomentose" modifier="thinly" />
+      </structure>
+      <structure id="o1602" name="trichome">
+        <character name="architecture" value="septate" />
+      </structure>
+      <structure id="o1603" name="midvein" />
+      <relation id="r251" name="along" from="o1602" to="o1603" negation="false" />
+      <structure id="o1604" name="trichome">
+        <character name="architecture" value="septate" />
+      </structure>
+    </statement>
+    <statement id="158.txt-3">
+      <text>Heads 3–many, evidently pedunculate, in corymbiform or subcapitate arrays at stem tips (in age clustered axillary heads sometimes developing), subtended and ± overtopped by distal leaves or these ± reduced.</text>
+      <structure id="o1605" name="head">
+        <character char_type="range_value" name="count" from="3" to="many" />
+        <character name="architecture" value="pedunculate" modifier="evidently" />
+        <character name="position" value="overtopped" modifier="±" constraint="by leaves" constraintid="o1608" />
+        <character name="size" value="reduced" modifier="±" />
+      </structure>
+      <structure id="o1606" name="array">
+        <character name="architecture" value="corymbiform" />
+        <character name="architecture" value="subcapitate" />
+      </structure>
+      <relation id="r252" name="in" from="o1605" to="o1606" negation="false" />
+      <structure id="o1607" name="tip" constraint="stem" />
+      <relation id="r253" name="at" from="o1606" to="o1607" negation="false" />
+      <structure id="o1608" name="leaf" constraint="distal" />
+    </statement>
+    <statement id="158.txt-4">
+      <text>Involucres 2.5–4 cm.</text>
+      <structure id="o1609" name="involucre">
+        <character char_type="range_value" name="size" from="2.5" from_unit="cm" to="4" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="158.txt-5">
+      <text>Phyllaries:</text>
+      <structure id="o1610" name="phyllary" />
+    </statement>
+    <statement id="158.txt-6">
+      <text>outer and mid lanceolate to ovate, spines slender to ± broad and flat, 1–6 mm;</text>
+      <structure id="o1611" name="phyllary" constraint="outer and mid" />
+      <structure id="o1612" name="spine">
+        <character name="size" value="slender" />
+        <character name="CHARACTER" value="width" modifier="±" />
+        <character name="shape" value="flat" />
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="158.txt-7">
+      <text>apices of inner linear-acuminate or more commonly expanded as scarious, erose-toothed appendages, often contorted.</text>
+      <structure id="o1613" name="apex">
+        <character name="shape" value="linear-acuminate" />
+        <character name="size" value="expanded" modifier="commonly" constraint="as appendages" constraintid="o1615" />
+        <character name="aestivation_or_architecture" value="contorted" modifier="often" />
+      </structure>
+      <structure id="o1614" name="phyllary" constraint="inner" />
+      <relation id="r254" name="part_of" from="o1613" to="o1614" negation="false" />
+      <structure id="o1615" name="appendage">
+        <character name="texture" value="scarious" />
+        <character name="shape" value="erose-toothed" />
+      </structure>
+    </statement>
+    <statement id="158.txt-8">
+      <text>Corollas white, 30–36 mm, tubes 14–22 mm, throats 7–12 mm, lobes 5–10 mm;</text>
+      <structure id="o1616" name="corolla">
+        <character name="coloration" value="white" />
+        <character char_type="range_value" name="size" from="30" from_unit="mm" to="36" to_unit="mm" />
+      </structure>
+      <structure id="o1617" name="tube">
+        <character char_type="range_value" name="size" from="14" from_unit="mm" to="22" to_unit="mm" />
+      </structure>
+      <structure id="o1618" name="throat">
+        <character char_type="range_value" name="size" from="7" from_unit="mm" to="12" to_unit="mm" />
+      </structure>
+      <structure id="o1619" name="lobe">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="158.txt-9">
+      <text>style tips 6–8 mm.</text>
+      <structure id="o1620" name="tip" constraint="style">
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="158.txt-10">
+      <text>Cypselae 4–6.5 mm;</text>
+      <structure id="o1621" name="cypsela">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="6.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="158.txt-11">
+      <text>pappi 22–32 mm.</text>
+      <structure id="o1622" name="pappus">
+        <character char_type="range_value" name="size" from="22" from_unit="mm" to="32" to_unit="mm" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <habitat>wet ground</habitat>
+  <habitat>meadows</habitat>
+  <habitat>pastures</habitat>
+  <habitat>marshes</habitat>
+  <elevation>900–1900 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <discussion>Variety robustum is known only from northern California (Siskiyou County) and south central Oregon (Klamath and Lake counties). It differs from var. scariosum in its larger, evidently pedunculate heads.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

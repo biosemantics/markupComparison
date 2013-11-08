@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>3.</number>
+  <species_name>Stephanomeria elata</species_name>
+  <authority>Nuttall</authority>
+  <place_of_publication>Proc. Acad. Nat. Sci. Philadelphia 4: 20. 1848</place_of_publication>
+  <common_name>Nuttall’s wirelettuce</common_name>
+  <description>
+    <statement id="551.txt-0">
+      <text>Annuals, 50–150 cm.</text>
+      <structure id="o11367" name="whole_organism">
+        <character char_type="range_value" name="size" from="50" from_unit="cm" to="150" to_unit="cm" />
+        <character name="life_style" value="annual" />
+      </structure>
+    </statement>
+    <statement id="551.txt-1">
+      <text>Stems single, branches ascending or spreading, glabrous, puberulent, or glandular-pubescent.</text>
+      <structure id="o11368" name="stem">
+        <character name="count" value="single" />
+      </structure>
+      <structure id="o11369" name="branch">
+        <character name="orientation" value="ascending" />
+        <character name="orientation" value="spreading" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="puberulent" />
+        <character name="pubescence" value="glandular-pubescent" />
+      </structure>
+    </statement>
+    <statement id="551.txt-2">
+      <text>Leaves withered at flowering (glabrous or puberulent);</text>
+      <structure id="o11370" name="leaf">
+        <character name="duration" value="withered" modifier="at flowering" />
+      </structure>
+    </statement>
+    <statement id="551.txt-3">
+      <text>basal blades linear to oblanceolate, runcinate, 3–10 cm, margins pinnately lobed ;</text>
+      <structure id="o11371" name="blade" constraint="basal">
+        <character name="arrangement_or_shape" value="linear" />
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="runcinate" />
+        <character char_type="range_value" name="size" from="3" from_unit="cm" to="10" to_unit="cm" />
+      </structure>
+      <structure id="o11372" name="margin">
+        <character name="shape" value="lobed" modifier="pinnately" />
+      </structure>
+    </statement>
+    <statement id="551.txt-4">
+      <text>cauline much reduced, bractlike.</text>
+      <structure id="o11373" name="leaf" constraint="cauline">
+        <character name="size" value="reduced" modifier="much" />
+        <character name="shape" value="bractlike" />
+      </structure>
+    </statement>
+    <statement id="551.txt-5">
+      <text>Heads borne singly or clustered along branches.</text>
+      <structure id="o11374" name="head">
+        <character name="arrangement" value="clustered" constraint="along branches" constraintid="o11375" />
+      </structure>
+      <structure id="o11375" name="branch" />
+    </statement>
+    <statement id="551.txt-6">
+      <text>Peduncles 3–7 mm .</text>
+      <structure id="o11376" name="peduncle">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="551.txt-7">
+      <text>Calyculi of usually reflexed, rarely appressed bractlets.</text>
+      <structure id="o11377" name="calyculus" />
+      <structure id="o11378" name="bractlet">
+        <character name="orientation" value="reflexed" modifier="usually" />
+        <character name="orientation" value="appressed" modifier="rarely" />
+      </structure>
+      <relation id="r1300" name="consist_of" from="o11377" to="o11378" negation="false" />
+    </statement>
+    <statement id="551.txt-8">
+      <text>Involucres 5–7 mm (glabrous, puberulent, or stipitate-glandular).</text>
+      <structure id="o11379" name="involucre">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="551.txt-9">
+      <text>Florets 9–15.</text>
+      <structure id="o11380" name="floret">
+        <character char_type="range_value" name="count" from="9" to="15" />
+      </structure>
+    </statement>
+    <statement id="551.txt-10">
+      <text>Cypselae light tan to dark brown, 2.8–4.5 mm, faces smooth to strongly tuberculate, grooved;</text>
+      <structure id="o11381" name="cypsela">
+        <character char_type="range_value" name="coloration" from="light-tan" to="dark-brown" />
+        <character name="coloration" value="tan" modifier="light" />
+        <character name="coloration" value="brown" modifier="dark" />
+        <character char_type="range_value" name="size" from="2.8" from_unit="mm" to="4.5" to_unit="mm" />
+      </structure>
+      <structure id="o11382" name="face">
+        <character char_type="range_value" name="relief" from="smooth" to="strongly tuberculate" />
+        <character name="relief" value="smooth" />
+        <character name="relief" value="tuberculate" modifier="strongly" />
+        <character name="architecture" value="grooved" />
+      </structure>
+    </statement>
+    <statement id="551.txt-11">
+      <text>pappi of 17–22 white or tan bristles (falling or widened bases persistent, bases connate in groups of 2–4, distal portions breaking off), wholly plumose.</text>
+      <structure id="o11383" name="pappus">
+        <character name="architecture" value="plumose" modifier="wholly" />
+      </structure>
+      <structure id="o11384" name="bristle">
+        <character char_type="range_value" name="count" from="17" to="22" />
+        <character name="coloration" value="white" />
+        <character name="coloration" value="tan" />
+      </structure>
+      <relation id="r1301" name="consist_of" from="o11383" to="o11384" negation="false" />
+    </statement>
+    <statement id="551.txt-12">
+      <text>2 n = 32.</text>
+      <structure id="o11385" name="chromosome">
+        <character name="count" value="32" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <habitat>chaparral openings</habitat>
+  <habitat>grassy meadows</habitat>
+  <habitat>forest openings</habitat>
+  <habitat>roadsides</habitat>
+  <habitat>often growing as weed</habitat>
+  <elevation>100–1400 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <discussion>Stephanomeria elata grows in the coastal foothills and mountains, the western slopes of Sierra Nevada, and southwest Oregon.</discussion>
+  <discussion>All the tetraploid populations of annual stephanomerias are placed into Stephanomeria elata. The plants are self-compatible and are highly self-pollinating. Stephanomeria elata is an allotetraploid species that arose following hybridization between S. exigua and S. virgata (L. D. Gottlieb 1972). Substantial interpopulation morphologic variability occurs in the length, width, and color of ligules, number of florets, and degree of reflexing of bractlets of the calyculi. Two groups of populations can be distinguished. One group has large cypselae, averaging 3.9–4.5 mm, the bristle bases are widened, and about 30% of the pollen grains have four pores. The second group has smaller cypselae, averaging 2.8–3.3 mm, the bristle bases are not widened, and less than 10% of the pollen grains have four pores. The former group of populations is generally found from southwestern Oregon south to Monterey County in the Coast Ranges of California and on the western slopes of the Sierra Nevada to Fresno County. The latter group is distributed near the coast from Marin County to Santa Barbara County, California. The two groups overlap in Santa Cruz, Santa Clara, and Monterey counties; the distinctions are less evident there.</discussion>
+  <discussion>Stephanomeria elata and its parents S. exigua and S. virgata form a polyploid complex that perplexed taxonomists for many years. Once the morphologic distinctions between parental species were clarified (L. D. Gottlieb 1972), particularly, the presence versus absence of the longitudinal groove on each face of their cypselae that distinguishes S. exigua and S. elata from S. virgata, and the allotetraploidy of S. elata was recognized, it has become much simpler to distinguish the three species in the field.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Filago vulgaris</species_name>
+  <authority>Lamarck</authority>
+  <place_of_publication>Fl. Franç. 2: 61. 1779</place_of_publication>
+  <common_name>Common cottonrose , cotonnière commune</common_name>
+  <synonym_of_species_name>Filago germanica Linnaeus, Sp. Pl. ed. 2, 2: 1311. 1763, not Hudson 1762; Gifola germanica Dumortier</synonym_of_species_name>
+  <description>
+    <statement id="742.txt-0">
+      <text>Leaves:</text>
+      <structure id="o15638" name="leaf" />
+    </statement>
+    <statement id="742.txt-2">
+      <text>longest distal capitular leaves 0.8–1.1 times head heights, acute.</text>
+      <structure id="o15639" name="leaf" constraint="longest distal capitular">
+        <character char_type="range_value" name="size" from="0.8" to="1.1" constraint="times head" constraintid="o15640" />
+        <character name="shape" value="acute" />
+      </structure>
+      <structure id="o15640" name="head" />
+    </statement>
+    <statement id="742.txt-3">
+      <text>Heads in glomerules of (15–)20–35+, narrowly ± ampulliform, largest (4–)5–6 × 1.5–2 mm;</text>
+      <structure id="o15641" name="head" />
+      <structure id="o15642" name="glomerule" constraint="of (15-)20-35+, narrowly ± ampulliform, largest (4-)5-6×1.5-2 mm" />
+      <relation id="r1689" name="in" from="o15641" to="o15642" negation="false" />
+    </statement>
+    <statement id="742.txt-4">
+      <text>largest glomerules 9–13 mm diam.</text>
+      <structure id="o15643" name="glomerule" constraint="largest">
+        <character char_type="range_value" name="size" from="9" from_unit="mm" to="13" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="742.txt-5">
+      <text>Receptacles clavate.</text>
+      <structure id="o15644" name="receptacle">
+        <character name="shape" value="clavate" />
+      </structure>
+    </statement>
+    <statement id="742.txt-6">
+      <text>Pistillate paleae (except innermost) ± (10–)15 in (2–)3 series, spirally ranked, rounded in cross section, longest 3.5–4.2 mm;</text>
+      <structure id="o15645" name="palea" constraint="pistillate">
+        <character char_type="range_value" name="atypical_count" from="10" to="15" to_inclusive="false" modifier="±" />
+        <character name="count" value="15" modifier="±" constraint="in 2-, series" constraintid="o15646" />
+        <character name="arrangement" value="ranked" modifier="spirally" />
+        <character name="shape" value="rounded" constraint="in section" constraintid="o15647" />
+        <character name="size" value="longest" />
+        <character char_type="range_value" name="size" from="3.5" from_unit="mm" to="4.2" to_unit="mm" />
+      </structure>
+      <structure id="o15646" name="series" constraint="2-3" />
+      <structure id="o15647" name="section" />
+    </statement>
+    <statement id="742.txt-7">
+      <text>wings yellowish tinged reddish, apices erect.</text>
+      <structure id="o15648" name="wing">
+        <character name="coloration" value="reddish" modifier="yellowish-tinged" />
+      </structure>
+      <structure id="o15649" name="apex">
+        <character name="orientation" value="erect" />
+      </structure>
+    </statement>
+    <statement id="742.txt-8">
+      <text>Innermost paleae pistillate, surrounding 14–25+ florets.</text>
+      <structure id="o15650" name="palea" constraint="innermost">
+        <character name="architecture" value="pistillate" />
+        <character name="architecture" value="surrounding" />
+        <character char_type="range_value" name="count" from="14" to="25" upper_restricted="false" />
+      </structure>
+      <structure id="o15651" name="floret" />
+    </statement>
+    <statement id="742.txt-9">
+      <text>Pistillate florets:</text>
+      <structure id="o15652" name="floret" constraint="pistillate" />
+    </statement>
+    <statement id="742.txt-10">
+      <text>outer ± (10–)15 epappose, inner 10–20+ pappose.</text>
+      <structure id="o15653" name="floret" constraint="outer pistillate">
+        <character char_type="range_value" name="atypical_count" from="10" to="15" to_inclusive="false" modifier="±" />
+        <character name="count" value="15" modifier="±" />
+        <character name="architecture" value="epappose" />
+      </structure>
+      <structure id="o15654" name="floret" constraint="inner">
+        <character char_type="range_value" name="count" from="10" to="20" upper_restricted="false" />
+        <character name="architecture" value="pappose" />
+      </structure>
+    </statement>
+    <statement id="742.txt-11">
+      <text>Bisexual florets (1–)2–3(–4).</text>
+      <structure id="o15655" name="floret" constraint="bisexual">
+        <character char_type="range_value" name="atypical_count" from="1" to="2" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_count" from="3" to="4" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="2" to="3" />
+      </structure>
+    </statement>
+    <statement id="742.txt-12">
+      <text>2 n = 28 (British Isles, Bulgaria, Czechoslovakia, Greece).</text>
+      <structure id="o15656" name="chromosome">
+        <character name="count" value="28" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>relatively dry, usually sandy soils</habitat>
+  <habitat>old fields</habitat>
+  <habitat>pastures</habitat>
+  <habitat>usually disturbed</habitat>
+  <elevation>10–1000 m;</elevation>
+  <introduced>introduced;</introduced>
+  <ca_distribution>B.C.</ca_distribution>
+  <us_distribution>Del.</us_distribution>
+  <us_distribution>D.C.</us_distribution>
+  <us_distribution>Fla.</us_distribution>
+  <us_distribution>La.</us_distribution>
+  <us_distribution>Md.</us_distribution>
+  <us_distribution>Mass.</us_distribution>
+  <us_distribution>N.J.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>N.C.</us_distribution>
+  <us_distribution>Ohio</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <us_distribution>S.C.</us_distribution>
+  <us_distribution>Va.</us_distribution>
+  <us_distribution>W.Va.</us_distribution>
+  <global_distribution>Eurasia</global_distribution>
+  <global_distribution>n Africa.</global_distribution>
+  <discussion>Filago vulgaris arrived in North America before 1739 (G. Wagenitz 1976). Paucity of modern collections suggests that it may not spread much or persist for long in the flora area. Reports from southern Ontario, Alabama, Georgia, and Kentucky have not been confirmed by me. The illustration of “Filago germanica” in L. Abrams and R. S. Ferris (1923–1960, vol. 4) depicts F. pyramidata var. pyramidata.</discussion>
+  <discussion>I agree with G. Wagenitz’s (1965) nomenclatural analysis. Filago vulgaris replaced F. germanica Linnaeus, which is a later homonym of F. germanica Hudson, which in turn is a superfluous name for F. pyramidata Linnaeus.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>29.</number>
+  <species_name>Antennaria pulchella</species_name>
+  <authority>Greene</authority>
+  <place_of_publication>Leafl. Bot. Observ. Crit. 2: 149. 1911</place_of_publication>
+  <common_name>Sierra pussytoes</common_name>
+  <synonym_of_species_name>Antennaria alpina (Linnaeus) Gaertner var. scabra (Greene) Jepson; A. media Greene subsp. ciliata E. E. Nelson; A. media subsp. pulchella (Greene) Chmielewski; A. scabra Greene</synonym_of_species_name>
+  <description>
+    <statement id="668.txt-0">
+      <text>Dioecious.</text>
+      <structure id="o13975" name="whole_organism">
+        <character name="reproduction" value="dioecious" />
+      </structure>
+    </statement>
+    <statement id="668.txt-1">
+      <text>Plants (1–)3–12 cm (stems usually stipitate-glandular).</text>
+      <structure id="o13976" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="1" to="3" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="3" from_unit="cm" to="12" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="668.txt-2">
+      <text>Stolons 1–4(–9) cm.</text>
+      <structure id="o13977" name="stolon">
+        <character char_type="range_value" name="atypical_size" from="4" to="9" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="1" from_unit="cm" to="4" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="668.txt-3">
+      <text>Basal leaves 1-nerved, spatulate to linear-cuneate, 6–12 × 1.5–4.5 mm, tips mucronate, faces glabrescent-scabrous to gray-pubescent (often with purple glandular hairs).</text>
+      <structure id="o13978" name="leaf" constraint="basal">
+        <character name="architecture" value="1-nerved" />
+        <character char_type="range_value" name="shape" from="spatulate" to="linear-cuneate" />
+        <character name="shape" value="spatulate" />
+        <character name="shape" value="linear-cuneate" />
+        <character char_type="range_value" name="length" from="6" from_unit="mm" to="12" to_unit="mm" />
+        <character char_type="range_value" name="width" from="1.5" from_unit="mm" to="4.5" to_unit="mm" />
+      </structure>
+      <structure id="o13979" name="tip">
+        <character name="shape" value="mucronate" />
+      </structure>
+      <structure id="o13980" name="face">
+        <character char_type="range_value" name="pubescence" from="glabrescent-scabrous" to="gray-pubescent" />
+        <character name="pubescence" value="glabrescent-scabrous" />
+        <character name="pubescence" value="gray-pubescent" />
+      </structure>
+    </statement>
+    <statement id="668.txt-4">
+      <text>Cauline leaves linear, 3–11(–13) mm, usually not flagged (apices acute to acuminate), rarely distal flagged.</text>
+      <structure id="o13981" name="leaf" constraint="cauline">
+        <character name="arrangement_or_shape" value="linear" />
+        <character char_type="range_value" name="atypical_size" from="11" to="13" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="11" to_unit="mm" />
+        <character name="orientation" value="flagged" modifier="usually not" />
+        <character name="insertion_or_position" value="distal" modifier="rarely" />
+        <character name="orientation" value="flagged" />
+      </structure>
+    </statement>
+    <statement id="668.txt-5">
+      <text>Heads 4–6 in corymbiform arrays.</text>
+      <structure id="o13982" name="head">
+        <character char_type="range_value" name="count" from="4" to="6" constraint="in arrays" constraintid="o13983" />
+      </structure>
+      <structure id="o13983" name="array">
+        <character name="architecture" value="corymbiform" />
+      </structure>
+    </statement>
+    <statement id="668.txt-6">
+      <text>Involucres:</text>
+      <structure id="o13984" name="involucre" />
+    </statement>
+    <statement id="668.txt-7">
+      <text>staminate 4–5 mm;</text>
+      <structure id="o13985" name="involucre" constraint="staminate">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="668.txt-8">
+      <text>pistillate 3.5–4.5 mm.</text>
+      <structure id="o13986" name="involucre" constraint="pistillate">
+        <character char_type="range_value" name="size" from="3.5" from_unit="mm" to="4.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="668.txt-9">
+      <text>Phyllaries (relatively wide) distally dark brown-black (sometimes light brown or whitish at very tips; apices blunt).</text>
+      <structure id="o13987" name="phyllary">
+        <character name="coloration" value="black" modifier="distally;dark-brown" />
+      </structure>
+    </statement>
+    <statement id="668.txt-10">
+      <text>Corollas:</text>
+      <structure id="o13988" name="corolla" />
+    </statement>
+    <statement id="668.txt-11">
+      <text>staminate 1.9–2.8 mm;</text>
+      <structure id="o13989" name="corolla" constraint="staminate">
+        <character char_type="range_value" name="size" from="1.9" from_unit="mm" to="2.8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="668.txt-12">
+      <text>pistillate 2–3 mm.</text>
+      <structure id="o13990" name="corolla" constraint="pistillate">
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="3" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="668.txt-13">
+      <text>Cypselae 0.7–1.3 mm, glabrous or slightly papillate;</text>
+      <structure id="o13991" name="cypsela">
+        <character char_type="range_value" name="size" from="0.7" from_unit="mm" to="1.3" to_unit="mm" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="papillate" modifier="slightly" />
+      </structure>
+    </statement>
+    <statement id="668.txt-14">
+      <text>pappi:</text>
+      <structure id="o13992" name="pappus" />
+    </statement>
+    <statement id="668.txt-15">
+      <text>staminate 2.5–3.5 mm;</text>
+      <structure id="o13993" name="pappus" constraint="staminate">
+        <character char_type="range_value" name="size" from="2.5" from_unit="mm" to="3.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="668.txt-16">
+      <text>pistillate 2.5–3.5 mm.</text>
+      <structure id="o13994" name="pappus" constraint="pistillate">
+        <character char_type="range_value" name="size" from="2.5" from_unit="mm" to="3.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="668.txt-17">
+      <text>2 n = 28 (as A. media ).</text>
+      <structure id="o13995" name="chromosome">
+        <character name="count" value="28" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>moist subalpine-alpine meadows</habitat>
+  <habitat>snow basins</habitat>
+  <habitat>margins of tarns</habitat>
+  <habitat>streams</habitat>
+  <habitat>or run-off from snow masses</habitat>
+  <elevation>2800–3700 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <discussion>Antennaria pulchella is the diploid progenitor of A. media and, consequently, a progenitor of the A. alpina complex (R. J. Bayer 1990d). The A. rosea and A. parvifolia complexes also have the genome of A. pulchella, shown in the high elevation clones with dark phyllaries in these two polyploid complexes. Antennaria pulchella is differentiated from A. media by shorter pistillate or staminate corollas and shorter cauline leaves (Bayer). This sexually reproducing diploid ranges from the area around Lake Tahoe to the Mt. Whitney region (Bayer).</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

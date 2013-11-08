@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>48.</number>
+  <species_name>Artemisia suksdorfii</species_name>
+  <authority>Piper</authority>
+  <place_of_publication>Bull. Torrey Bot. Club 28: 42. 1901</place_of_publication>
+  <common_name>Suksdorf sagewort</common_name>
+  <synonym_of_species_name>Artemisia heterophylla Nuttall, Trans. Amer. Philos. Soc., n. s. 7: 400. 1841, not Besser 1834; A. vulgaris Linnaeus var. littoralis Suksdorf</synonym_of_species_name>
+  <description>
+    <statement id="926.txt-0">
+      <text>Perennials, 50–170(–200) cm, aromatic (rhizomes woody, coarse).</text>
+      <structure id="o19022" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="170" to="200" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="50" from_unit="cm" to="170" to_unit="cm" />
+        <character name="odor" value="aromatic" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="926.txt-1">
+      <text>Stems usually 10+, erect, light brown, simple, usually glabrous.</text>
+      <structure id="o19023" name="stem">
+        <character name="count" char_type="range_value" from="10" upper_restricted="false" modifier="usually" />
+        <character name="orientation" value="erect" />
+        <character name="coloration" value="brown" modifier="light" />
+        <character name="architecture" value="simple" />
+        <character name="pubescence" value="glabrous" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="926.txt-2">
+      <text>Leaves cauline (sessile), bicolor (white and dark green);</text>
+      <structure id="o19024" name="leaf">
+        <character name="insertion_or_position" value="cauline" />
+        <character name="coloration" value="bicolor" />
+      </structure>
+    </statement>
+    <statement id="926.txt-3">
+      <text>blades lanceolate, 5–10(–15) × 1–5 cm (bases strongly tapered, attenuate), coarsely and irregularly lobed, faces tomentose (abaxial) or glabrous (adaxial).</text>
+      <structure id="o19025" name="blade">
+        <character name="shape" value="lanceolate" />
+        <character char_type="range_value" name="atypical_length" from="10" to="15" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="5" from_unit="cm" to="10" to_unit="cm" />
+        <character char_type="range_value" name="width" from="1" from_unit="cm" to="5" to_unit="cm" />
+        <character name="shape" value="lobed" modifier="irregularly" />
+      </structure>
+      <structure id="o19026" name="face">
+        <character name="pubescence" value="tomentose" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="926.txt-4">
+      <text>Heads (erect) in crowded (proximally leafy), paniculiform or racemiform arrays 17–30 × (2–)4–5 cm (lateral branches stiff, erect).</text>
+      <structure id="o19027" name="head" />
+      <structure id="o19028" name="array">
+        <character name="architecture" value="crowded" />
+        <character name="architecture" value="paniculiform" />
+        <character name="architecture" value="racemiform" />
+        <character char_type="range_value" name="length" from="17" from_unit="cm" to="30" to_unit="cm" />
+        <character char_type="range_value" name="atypical_width" from="2" to="4" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="width" from="4" from_unit="cm" to="5" to_unit="cm" />
+      </structure>
+      <relation id="r2012" name="in" from="o19027" to="o19028" negation="false" />
+    </statement>
+    <statement id="926.txt-5">
+      <text>Involucres narrowly turbinate or globose, 1.5–2.5 × 1–1.5 mm.</text>
+      <structure id="o19029" name="involucre">
+        <character name="shape" value="turbinate" modifier="narrowly" />
+        <character name="shape" value="globose" modifier="narrowly" />
+        <character char_type="range_value" name="length" from="1.5" from_unit="mm" to="2.5" to_unit="mm" />
+        <character char_type="range_value" name="width" from="1" from_unit="mm" to="1.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="926.txt-6">
+      <text>Phyllaries (straw-colored to yellow-green, shiny) lanceolate, glabrous or sparsely hairy.</text>
+      <structure id="o19030" name="phyllary">
+        <character name="shape" value="lanceolate" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="hairy" modifier="sparsely" />
+      </structure>
+    </statement>
+    <statement id="926.txt-7">
+      <text>Florets:</text>
+      <structure id="o19031" name="floret" />
+    </statement>
+    <statement id="926.txt-8">
+      <text>pistillate 2–5;</text>
+      <structure id="o19032" name="floret" constraint="pistillate">
+        <character char_type="range_value" name="count" from="2" to="5" />
+      </structure>
+    </statement>
+    <statement id="926.txt-9">
+      <text>bisexual 2–7;</text>
+      <structure id="o19033" name="floret" constraint="bisexual">
+        <character char_type="range_value" name="count" from="2" to="7" />
+      </structure>
+    </statement>
+    <statement id="926.txt-10">
+      <text>corollas yellow, 1.5–3 mm, glabrous.</text>
+      <structure id="o19034" name="corolla">
+        <character name="coloration" value="yellow" />
+        <character char_type="range_value" name="size" from="1.5" from_unit="mm" to="3" to_unit="mm" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="926.txt-11">
+      <text>Cypselae ellipsoid, 0.8–1.5 mm, glabrous.</text>
+      <structure id="o19035" name="cypsela">
+        <character name="shape" value="ellipsoid" />
+        <character char_type="range_value" name="size" from="0.8" from_unit="mm" to="1.5" to_unit="mm" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="926.txt-12">
+      <text>2 n = 18.</text>
+      <structure id="o19036" name="chromosome">
+        <character name="count" value="18" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <flowering_time>nov</flowering_time>
+  <habitat>coastal habitats</habitat>
+  <habitat>often along roads or drainages</habitat>
+  <elevation>0–200 m;</elevation>
+  <ca_distribution>B.C.</ca_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <discussion>Artemisia suksdorfii is similar morphologically to A. douglasiana; it has more and smaller heads, and glabrous phyllaries. The two species hybridize where their ranges overlap.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

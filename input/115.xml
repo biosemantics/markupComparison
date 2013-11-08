@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>40a.</number>
+  <variety_name>Cirsium occidentale (Nuttall) Jepson var. occidentale</variety_name>
+  <common_name>Cobwebby thistle</common_name>
+  <description>
+    <statement id="115.txt-0">
+      <text>Plants erect, usually 30–150 cm or taller.</text>
+      <structure id="o409" name="whole_organism">
+        <character name="orientation" value="erect" />
+        <character char_type="range_value" name="size" from="30" from_unit="cm" to="150" to_unit="cm" modifier="usually" />
+        <character name="size" value="taller" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="115.txt-1">
+      <text>Leaf faces usually densely tomentose abaxially, less so and sometimes glabrate adaxially.</text>
+      <structure id="o410" name="face" constraint="leaf">
+        <character name="pubescence" value="tomentose" modifier="usually densely ; abaxially" />
+        <character name="pubescence" value="glabrate" modifier="sometimes ; adaxially" />
+      </structure>
+    </statement>
+    <statement id="115.txt-2">
+      <text>Heads usually long- pedunculate, sometimes in tight clusters at ends of peduncles, elevated well above proximal leaves.</text>
+      <structure id="o411" name="head">
+        <character name="architecture" value="long-pedunculate" modifier="usually" />
+        <character name="prominence" value="elevated" modifier="well" constraint="above leaves" constraintid="o415" />
+      </structure>
+      <structure id="o412" name="cluster">
+        <character name="texture" value="tight" />
+      </structure>
+      <relation id="r72" name="in" from="o411" to="o412" negation="false" modifier="sometimes" />
+      <structure id="o413" name="end" />
+      <relation id="r73" name="at" from="o412" to="o413" negation="false" />
+      <structure id="o414" name="peduncle" />
+      <relation id="r74" name="part_of" from="o413" to="o414" negation="false" />
+      <structure id="o415" name="leaf" constraint="proximal" />
+    </statement>
+    <statement id="115.txt-3">
+      <text>Involucres usually wider than long, 4–5 cm diam., ± densely and persistently arachnoid with fine trichomes connecting tips of adjacent phyllaries.</text>
+      <structure id="o416" name="involucre">
+        <character name="size" value="wider than long" modifier="usually" />
+        <character char_type="range_value" name="size" from="4" from_unit="cm" to="5" to_unit="cm" />
+        <character name="pubescence" value="arachnoid" modifier="persistently" constraint="with trichomes" constraintid="o417" />
+      </structure>
+      <structure id="o417" name="trichome">
+        <character name="texture" value="fine" />
+      </structure>
+      <structure id="o418" name="tip" />
+      <relation id="r75" name="connecting" from="o416" to="o418" negation="false" />
+      <structure id="o419" name="phyllary" constraint="adjacent" />
+      <relation id="r76" name="part_of" from="o418" to="o419" negation="false" />
+    </statement>
+    <statement id="115.txt-4">
+      <text>Phyllaries usually ± imbricate, outer ascending or spreading or reflexed, mid phyllary apices ascending to spreading, straight or distally curved, usually 1–2 cm × 1–2 mm.</text>
+      <structure id="o420" name="phyllary">
+        <character name="aestivation_or_arrangement" value="imbricate" modifier="usually ±" />
+        <character name="orientation" value="spreading" />
+        <character name="orientation" value="reflexed" />
+      </structure>
+      <structure id="o421" name="apex" constraint="mid phyllary">
+        <character char_type="range_value" name="orientation" from="ascending" to="spreading" />
+        <character name="orientation" value="ascending" />
+        <character name="orientation" value="spreading" />
+        <character name="course" value="straight" />
+        <character name="shape" value="curved" modifier="distally" />
+      </structure>
+    </statement>
+    <statement id="115.txt-5">
+      <text>Corollas ± bright purple, usually 25–35 mm.</text>
+      <structure id="o422" name="corolla">
+        <character name="coloration" value="purple" modifier="±;bright" />
+        <character char_type="range_value" name="size" from="25" from_unit="mm" to="35" to_unit="mm" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="115.txt-6">
+      <text>2 n = 28, 29, 30.</text>
+      <structure id="o423" name="chromosome">
+        <character name="count" value="28" />
+        <character name="count" value="29" />
+        <character name="count" value="30" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <habitat>coastal scrub</habitat>
+  <habitat>chaparral</habitat>
+  <habitat>oak woodlands</habitat>
+  <habitat>stabilized dunes</habitat>
+  <habitat>roadsides</habitat>
+  <elevation>0–200 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <discussion>Variety occidentale occupies a variety of habitats in the coastal zone of southern and central California. Considerable variation occurs from population to population in head size, flower color, and pubescence. It sometimes occurs together with and appears to intergrade with var. coulteri. Where there has been no hybridization, the two may be strikingly dissimilar, but individuals of some populations cannot be assigned with confidence to either variety.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

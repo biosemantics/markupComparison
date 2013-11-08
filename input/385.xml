@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>50.</number>
+  <genus_name>TOLPIS</genus_name>
+  <authority>Adanson</authority>
+  <place_of_publication>Fam. Pl. 2: 112, 612. 1763</place_of_publication>
+  <common_name />
+  <derivation>No etymology in protologue; no readily discernible meaning from Greek or Latin roots</derivation>
+  <author_of_tribe_genus>John L. Strother</author_of_tribe_genus>
+  <description>
+    <statement id="385.txt-0">
+      <text>Annuals [perennials, shrubs], 5–100+ cm;</text>
+    </statement>
+    <statement id="385.txt-1">
+      <text>taprooted.</text>
+      <structure id="o7343" name="whole_organism">
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="100" to_unit="cm" upper_restricted="false" />
+        <character name="life_style" value="annual" />
+        <character name="architecture" value="taprooted" />
+      </structure>
+    </statement>
+    <statement id="385.txt-2">
+      <text>Stems usually 1, erect, branched distally, glabrous or hairy.</text>
+      <structure id="o7344" name="stem">
+        <character name="count" value="1" modifier="usually" />
+        <character name="orientation" value="erect" />
+        <character name="architecture_or_shape" value="branched" modifier="distally" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="hairy" />
+      </structure>
+    </statement>
+    <statement id="385.txt-3">
+      <text>Leaves basal and cauline;</text>
+      <structure id="o7345" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+      </structure>
+    </statement>
+    <statement id="385.txt-4">
+      <text>basal sessile or petiolate, distal usually sessile;</text>
+      <structure id="o7346" name="leaf" constraint="basal" />
+      <structure id="o7347" name="leaf" constraint="distal">
+        <character name="architecture" value="sessile" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="385.txt-5">
+      <text>blades ovate-lanceolate or oblanceolate to lanceolate or linear, margins entire or dentate to pinnately lobed or pinnatisect (faces glabrous or sparsely pubescent or arachnose to villous).</text>
+      <structure id="o7348" name="blade">
+        <character char_type="range_value" name="shape" from="oblanceolate" to="lanceolate or linear" />
+        <character name="shape" value="ovate-lanceolate" />
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="linear" />
+      </structure>
+      <structure id="o7349" name="margin">
+        <character char_type="range_value" name="shape" from="dentate" to="pinnately lobed or pinnatisect" />
+        <character name="shape" value="entire" />
+        <character name="shape" value="dentate" />
+        <character name="shape" value="lobed" modifier="pinnately" />
+        <character name="shape" value="pinnatisect" modifier="pinnately" />
+      </structure>
+    </statement>
+    <statement id="385.txt-6">
+      <text>Heads borne singly or in loose, corymbiform arrays (terminal heads often surpassed by others).</text>
+      <structure id="o7350" name="head">
+        <character name="arrangement" value="singly" />
+        <character name="arrangement" value="in loose , corymbiform arrays" />
+      </structure>
+      <structure id="o7351" name="array">
+        <character name="architecture_or_texture" value="loose" />
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <relation id="r890" name="in" from="o7350" to="o7351" negation="false" />
+    </statement>
+    <statement id="385.txt-7">
+      <text>Peduncles not inflated, bracteate.</text>
+      <structure id="o7352" name="peduncle">
+        <character name="shape" value="inflated" modifier="not" />
+        <character name="architecture" value="bracteate" />
+      </structure>
+    </statement>
+    <statement id="385.txt-8">
+      <text>Calyculi of 8–13, linear to filiform bractlets (often intergrading with peduncular bracts).</text>
+      <structure id="o7353" name="calyculus" />
+      <structure id="o7354" name="bractlet">
+        <character char_type="range_value" name="count" from="8" to="13" />
+        <character char_type="range_value" name="shape" from="linear" to="filiform" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="filiform" />
+      </structure>
+      <relation id="r891" name="consist_of" from="o7353" to="o7354" negation="false" />
+    </statement>
+    <statement id="385.txt-9">
+      <text>Involucres campanulate, 5–10[–15+] mm diam. (larger in fruit).</text>
+      <structure id="o7355" name="involucre">
+        <character name="shape" value="campanulate" />
+        <character char_type="range_value" name="atypical_size" from="10" to="15" from_unit="mm" to_unit="mm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="385.txt-10">
+      <text>Phyllaries 20–25+ in 2+ series, lance-linear to linear (± navicular proximally, enfolding ovaries/cypselae of subtended florets, sometimes keeled abaxially), subequal to equal, margins little, if at all, scarious, apices filiform, faces ± arachnose.</text>
+      <structure id="o7356" name="phyllary">
+        <character char_type="range_value" name="count" from="20" to="25" upper_restricted="false" constraint="in series" constraintid="o7357" />
+        <character char_type="range_value" name="arrangement_or_shape" from="lance-linear" to="linear" />
+        <character name="arrangement_or_shape" value="lance-linear" />
+        <character name="arrangement_or_shape" value="linear" />
+        <character char_type="range_value" name="size" from="subequal" to="equal" />
+        <character name="size" value="subequal" />
+        <character name="size" value="equal" />
+      </structure>
+      <structure id="o7357" name="series">
+        <character name="count" char_type="range_value" from="2" upper_restricted="false" />
+      </structure>
+      <structure id="o7358" name="margin">
+        <character name="texture" value="scarious" />
+      </structure>
+      <structure id="o7359" name="apex">
+        <character name="shape" value="filiform" />
+      </structure>
+      <structure id="o7360" name="face">
+        <character name="pubescence" value="arachnose" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="385.txt-11">
+      <text>Receptacles flat, pitted, glabrous, epaleate.</text>
+      <structure id="o7361" name="receptacle">
+        <character name="shape" value="flat" />
+        <character name="relief" value="pitted" />
+        <character name="pubescence" value="glabrous" />
+        <character name="architecture" value="epaleate" />
+      </structure>
+    </statement>
+    <statement id="385.txt-12">
+      <text>Florets 30–100+;</text>
+      <structure id="o7362" name="floret">
+        <character char_type="range_value" name="count" from="30" to="100" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="385.txt-13">
+      <text>corollas mostly yellow (inner sometimes purplish or brown).</text>
+      <structure id="o7363" name="corolla">
+        <character name="coloration" value="yellow" modifier="mostly" />
+      </structure>
+    </statement>
+    <statement id="385.txt-14">
+      <text>Cypselae brownish to blackish, ± columnar [obconic], not beaked, ribs or nerves usually 6–8(–10), faces glabrous or ± hirtellous;</text>
+      <structure id="o7364" name="cypsela">
+        <character char_type="range_value" name="coloration" from="brownish" to="blackish" />
+        <character name="coloration" value="brownish" />
+        <character name="coloration" value="blackish" />
+        <character name="shape" value="columnar" modifier="±" />
+        <character name="shape" value="beaked" modifier="not" />
+      </structure>
+      <structure id="o7365" name="rib">
+        <character char_type="range_value" name="atypical_count" from="8" to="10" from_inclusive="false" modifier="usually" />
+        <character char_type="range_value" name="count" from="6" to="8" modifier="usually" />
+      </structure>
+      <structure id="o7366" name="nerve">
+        <character char_type="range_value" name="atypical_count" from="8" to="10" from_inclusive="false" modifier="usually" />
+        <character char_type="range_value" name="count" from="6" to="8" modifier="usually" />
+      </structure>
+      <structure id="o7367" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="hirtellous" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="385.txt-15">
+      <text>pappi persistent, of 4–15(–30+), whitish, smooth or barbellulate, setiform scales plus bristles (often equal on outer cypselae and unequal on inner ones).</text>
+      <structure id="o7368" name="pappus">
+        <character name="duration" value="persistent" />
+      </structure>
+      <structure id="o7369" name="30">
+        <character char_type="range_value" name="count" from="4" to="15" />
+      </structure>
+      <structure id="o7370" name="scale">
+        <character name="coloration" value="whitish" />
+        <character name="architecture" value="smooth" />
+        <character name="architecture" value="barbellulate" />
+        <character name="shape" value="setiform" />
+        <character char_type="range_value" name="count" from="4" to="15" />
+      </structure>
+      <relation id="r892" name="consist_of" from="o7368" to="o7369" negation="false" />
+      <relation id="r893" name="consist_of" from="o7368" to="o7370" negation="false" />
+      <structure id="o7371" name="bristle" />
+    </statement>
+    <statement id="385.txt-16">
+      <text>x = 9.</text>
+      <structure id="o7372" name="chromosome">
+        <character name="count" value="9" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species ca. 20 (1 in the flora):</number_of_infrataxa>
+  <introduced>introduced;</introduced>
+  <general_distribution>Europe</general_distribution>
+  <general_distribution>Africa</general_distribution>
+  <general_distribution>Atlantic Islands.</general_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

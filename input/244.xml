@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>30.</number>
+  <genus_name>PSEUDELEPHANTOPUS</genus_name>
+  <authority>Pseudelephantopus Rohr</authority>
+  <place_of_publication>Skr. Naturhist.-Selsk. 2: 214. 1792</place_of_publication>
+  <past_name>Pseudo-Elephantopus</past_name>
+  <common_name>False elephant’s foot</common_name>
+  <derivation>Greek pseudo- , false or resembling, and generic name Elephantopus</derivation>
+  <author_of_tribe_genus>John L. Strother</author_of_tribe_genus>
+  <description>
+    <statement id="244.txt-0">
+      <text>Perennials (sometimes suffrutescent), 2–6(–10+) dm;</text>
+    </statement>
+    <statement id="244.txt-1">
+      <text>usually ± rhizomatous.</text>
+      <structure id="o4123" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="6" to="10" from_unit="dm" to_unit="dm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="2" from_unit="dm" to="6" to_unit="dm" />
+        <character name="life_style" value="perennial" />
+        <character name="architecture" value="rhizomatous" modifier="usually ±" />
+      </structure>
+    </statement>
+    <statement id="244.txt-2">
+      <text>Leaves mostly cauline at flowering;</text>
+    </statement>
+    <statement id="244.txt-3">
+      <text>sessile or petiolate, petioles ± winged (often clasping at bases);</text>
+      <structure id="o4124" name="leaf">
+        <character name="insertion_or_position" value="cauline" modifier="mostly; at flowering" />
+        <character name="architecture" value="sessile" />
+        <character name="architecture" value="petiolate" />
+      </structure>
+      <structure id="o4125" name="petiole">
+        <character name="architecture" value="winged" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="244.txt-4">
+      <text>blades mostly obovate to oblanceolate, spatulate, or linear, bases cuneate, margins usually toothed (rarely entire), apices obtuse to acute, abaxial faces usually resin-gland-dotted.</text>
+      <structure id="o4126" name="blade">
+        <character char_type="range_value" name="shape" from="mostly obovate" to="oblanceolate , spatulate , or linear" />
+        <character name="shape" value="obovate" modifier="mostly" />
+        <character name="shape" value="oblanceolate" modifier="mostly" />
+        <character name="shape" value="spatulate" modifier="mostly" />
+        <character name="shape" value="linear" modifier="mostly" />
+      </structure>
+      <structure id="o4127" name="base">
+        <character name="shape" value="cuneate" />
+      </structure>
+      <structure id="o4128" name="margin">
+        <character name="shape" value="toothed" modifier="usually" />
+      </structure>
+      <structure id="o4129" name="apex">
+        <character char_type="range_value" name="shape" from="obtuse" to="acute" />
+        <character name="shape" value="obtuse" />
+        <character name="shape" value="acute" />
+      </structure>
+      <structure id="o4130" name="face" constraint="abaxial">
+        <character name="coloration_or_relief" value="resin-gland-dotted" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="244.txt-5">
+      <text>Heads ± discoid, sessile, not individually bracteate, in clusters of 1–5+ in spiciform or paniculo-spiciform arrays 5–10 mm diam., each cluster subtended by 1–2 lanceolate to spatulate or linear bracts.</text>
+      <structure id="o4131" name="head">
+        <character name="shape_or_architecture" value="discoid" modifier="±" />
+        <character name="architecture" value="sessile" />
+        <character name="architecture" value="bracteate" modifier="not individually" />
+        <character name="arrangement" value="cluster" modifier="each" />
+      </structure>
+      <structure id="o4132" name="cluster" />
+      <relation id="r577" name="in" from="o4131" to="o4132" negation="false" />
+      <structure id="o4133" name="array">
+        <character char_type="range_value" name="count" from="1" to="5" upper_restricted="false" />
+        <character name="architecture" value="spiciform" />
+        <character name="architecture" value="paniculo-spiciform" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+      <relation id="r578" name="consist_of" from="o4132" to="o4133" negation="false" />
+      <structure id="o4134" name="bract">
+        <character char_type="range_value" name="count" from="1" to="2" />
+        <character char_type="range_value" name="shape" from="lanceolate" to="spatulate or linear" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="spatulate" />
+        <character name="shape" value="linear" />
+      </structure>
+      <relation id="r579" name="subtended by" from="o4131" to="o4134" negation="false" />
+    </statement>
+    <statement id="244.txt-6">
+      <text>Involucres ± cylindric to fusiform, 2–3+ mm diam.</text>
+      <structure id="o4135" name="involucre">
+        <character char_type="range_value" name="shape" from="cylindric" to="fusiform" modifier="±" />
+        <character name="shape" value="cylindric" modifier="±" />
+        <character name="shape" value="fusiform" modifier="±" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="3" to_unit="mm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="244.txt-7">
+      <text>Phyllaries 8 in 4 decussate pairs, the outer ovate, inner lanceolate, all ± chartaceous, margins entire, tips ± spinose or cuspidate (abaxial faces of inner 4 usually resin-gland-dotted distally).</text>
+      <structure id="o4136" name="phyllary">
+        <character name="count" value="8" constraint="in pairs" constraintid="o4137" />
+        <character name="position" value="outer" />
+        <character name="shape" value="ovate" />
+        <character name="position" value="inner" />
+        <character name="shape" value="lanceolate" />
+        <character name="texture" value="chartaceous" modifier="±" />
+      </structure>
+      <structure id="o4137" name="pair">
+        <character name="count" value="4" />
+        <character name="arrangement" value="decussate" />
+      </structure>
+      <structure id="o4138" name="margin">
+        <character name="shape" value="entire" />
+      </structure>
+      <structure id="o4139" name="tip">
+        <character name="shape" value="spinose" modifier="±" />
+        <character name="shape" value="cuspidate" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="244.txt-8">
+      <text>Florets (2–)4(–5+);</text>
+      <structure id="o4140" name="floret">
+        <character char_type="range_value" name="atypical_count" from="2" to="4" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_count" from="4" to="5" upper_restricted="false" from_inclusive="false" />
+        <character name="count" value="4" />
+      </structure>
+    </statement>
+    <statement id="244.txt-9">
+      <text>corollas white or pink to purple, tubes longer than abruptly funnelform throats, lobes 5, lance-linear, unequal (abaxial sinus deepest).</text>
+      <structure id="o4141" name="corolla">
+        <character char_type="range_value" name="coloration" from="pink" to="purple" />
+        <character name="coloration" value="white" />
+        <character name="coloration" value="pink" />
+        <character name="coloration" value="purple" />
+      </structure>
+      <structure id="o4142" name="tube">
+        <character name="size" value="longer" constraint="than abruptly funnelform throats" constraintid="o4143" />
+      </structure>
+      <structure id="o4143" name="throat">
+        <character name="shape" value="funnelform" modifier="abruptly" />
+      </structure>
+      <structure id="o4144" name="lobe">
+        <character name="count" value="5" />
+        <character name="arrangement_or_shape" value="lance-linear" />
+        <character name="size" value="unequal" />
+      </structure>
+    </statement>
+    <statement id="244.txt-10">
+      <text>Cypselae ± clavate, sometimes ± flattened, 8–10-nerved or -ribbed, closely strigillose to hirsutulous;</text>
+      <structure id="o4145" name="cypsela">
+        <character name="shape" value="clavate" modifier="±" />
+        <character name="shape" value="flattened" modifier="sometimes ±" />
+        <character name="architecture_or_shape" value="8-10-nerved-or-ribbed" />
+        <character char_type="range_value" name="pubescence" from="closely strigillose" to="hirsutulous" />
+        <character name="pubescence" value="strigillose" modifier="closely" />
+        <character name="pubescence" value="hirsutulous" modifier="closely" />
+      </structure>
+    </statement>
+    <statement id="244.txt-11">
+      <text>pappi persistent, of 6–10 ± laciniate to aristate scales, 2(–3+) of aristate scales each with awnlike arista plicate (2-folded) distally.</text>
+      <structure id="o4146" name="pappus">
+        <character name="duration" value="persistent" />
+        <character char_type="range_value" name="atypical_count" from="2" to="3" upper_restricted="false" from_inclusive="false" />
+        <character name="count" value="2" constraint="of scales" constraintid="o4148" />
+      </structure>
+      <structure id="o4147" name="scale">
+        <character char_type="range_value" name="count" from="6" to="10" />
+        <character char_type="range_value" name="shape" from="laciniate" to="aristate" />
+        <character name="shape" value="laciniate" />
+        <character name="shape" value="aristate" />
+      </structure>
+      <relation id="r580" name="consist_of" from="o4146" to="o4147" negation="false" />
+      <structure id="o4148" name="scale">
+        <character name="shape" value="aristate" />
+      </structure>
+      <structure id="o4149" name="arista">
+        <character name="shape" value="awnlike" />
+        <character name="aestivation_or_shape_or_vernation" value="plicate" modifier="distally" />
+      </structure>
+      <relation id="r581" name="with" from="o4148" to="o4149" negation="false" modifier="each" />
+    </statement>
+    <statement id="244.txt-12">
+      <text>x = 14?.</text>
+      <structure id="o4150" name="chromosome">
+        <character name="count" value="14" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species 2–3 (1 in the flora):</number_of_infrataxa>
+  <introduced>introduced;</introduced>
+  <general_distribution>Florida</general_distribution>
+  <general_distribution>Neotropics</general_distribution>
+  <general_distribution>introduced in Paleotropics.</general_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

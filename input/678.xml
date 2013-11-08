@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>34.</number>
+  <species_name>Antennaria alpina</species_name>
+  <authority>(Linnaeus) Gaertner</authority>
+  <place_of_publication>Fruct. Sem. Pl. 2: 410. 1791</place_of_publication>
+  <common_name>Alpine pussytoes</common_name>
+  <synonym_of_species_name>Gnaphalium alpinum Linnaeus, Sp. Pl. 2: 856. 1753; Antennaria alpina subsp. canescens (Lange) Chmielewski; A. alpina subsp. porsildii (E. Ekman) Chmielewski; A. alpina var. cana Fernald &amp; Wiegand; A. alpina var. canescens Lange; A. alpina var. compacta (Malte) S. L. Welsh; A. alpina var. glabrata J. Vahl; A. alpina var. intermedia Rosenvinge; A. alpina var. porsildii (E. Ekman) T. J. Sørensen; A. alpina var. stolonifera (A. E. Porsild) S. L. Welsh; A. alpina var. ungavensis Fernald; A. arenicola Malte; A. atriceps Fernald ex Raup; A. bayardi Fernald; A. boecheriana A. E. Porsild; A. brevistyla Fernald; A. brunnescens Fernald; A. cana Fernald &amp; Wiegand (Fernald); A. canescens (Lange) Malte; A. canescens subsp. porsildii (E. Ekman) Á. Löve &amp; D. Löve; A. canescens var. pseudoporsildii Böcher; A. columnaris Fernald; A. compacta Malte; A. confusa Fernald; A. crymophila A. E. Porsild; A. foggii Fernald; A. friesiana (Trautvetter) E. Ekman subsp. compacta (Malte) Hultén; A. glabrata (J. Vahl) Greene; A. intermedia (Rosenvinge) Porsild; A. labradorica Nuttall; A. longii Fernald; A. media Greene subsp. compacta (Malte) Chmielewski; A. pallida E. E. Nelson; A. pedunculata A. E. Porsild; A. porsildii E. Ekman; A. sornborgeri Fernald; A. stolonifera A. E. Porsild; A. subcanescens Ostenfeld ex Malte; A. ungavensis (Fernald) Malte; A. vexillifera Fernald; A. wiegandii Fernald</synonym_of_species_name>
+  <description>
+    <statement id="678.txt-0">
+      <text>Gynoecious (staminate plants uncommon).</text>
+      <structure id="o14151" name="whole_organism">
+        <character name="reproduction" value="gynoecious" />
+      </structure>
+    </statement>
+    <statement id="678.txt-1">
+      <text>Plants 3–18 cm.</text>
+      <structure id="o14152" name="whole_organism">
+        <character char_type="range_value" name="size" from="3" from_unit="cm" to="18" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="678.txt-2">
+      <text>Stolons 1–7 cm.</text>
+      <structure id="o14153" name="stolon">
+        <character char_type="range_value" name="size" from="1" from_unit="cm" to="7" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="678.txt-3">
+      <text>Basal leaves:</text>
+    </statement>
+    <statement id="678.txt-4">
+      <text>1-nerved, spatulate to oblanceolate, 6–25 × 2–7 mm, tips mucronate, abaxial faces tomentose, adaxial green-glabrescent to gray-pubescent.</text>
+      <structure id="o14154" name="leaf" constraint="basal">
+        <character name="architecture" value="1-nerved" />
+        <character char_type="range_value" name="shape" from="spatulate" to="oblanceolate" />
+        <character name="shape" value="spatulate" />
+        <character name="shape" value="oblanceolate" />
+        <character char_type="range_value" name="length" from="6" from_unit="mm" to="25" to_unit="mm" />
+        <character char_type="range_value" name="width" from="2" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+      <structure id="o14155" name="tip">
+        <character name="shape" value="mucronate" />
+      </structure>
+      <structure id="o14156" name="face" constraint="abaxial">
+        <character name="pubescence" value="tomentose" />
+        <character name="insertion_or_position" value="adaxial" />
+        <character name="pubescence" value="green-glabrescent" />
+        <character name="pubescence" value="gray-pubescent" />
+      </structure>
+    </statement>
+    <statement id="678.txt-5">
+      <text>Cauline leaves linear, 5–20 mm, at least mid and distal flagged.</text>
+      <structure id="o14157" name="leaf" constraint="cauline">
+        <character name="arrangement_or_shape" value="linear" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="20" to_unit="mm" />
+        <character name="orientation" value="flagged" />
+      </structure>
+      <structure id="o14158" name="mid">
+        <character name="insertion_or_position" value="distal" />
+      </structure>
+    </statement>
+    <statement id="678.txt-6">
+      <text>Heads 2–5 in corymbiform arrays.</text>
+      <structure id="o14159" name="head">
+        <character char_type="range_value" name="count" from="2" to="5" constraint="in arrays" constraintid="o14160" />
+      </structure>
+      <structure id="o14160" name="array">
+        <character name="architecture" value="corymbiform" />
+      </structure>
+    </statement>
+    <statement id="678.txt-7">
+      <text>Involucres:</text>
+      <structure id="o14161" name="involucre" />
+    </statement>
+    <statement id="678.txt-8">
+      <text>staminate 5–6.5 mm;</text>
+      <structure id="o14162" name="involucre" constraint="staminate">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="6.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="678.txt-9">
+      <text>pistillate 4–7(–10) mm.</text>
+      <structure id="o14163" name="involucre" constraint="pistillate">
+        <character char_type="range_value" name="atypical_size" from="7" to="10" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="678.txt-10">
+      <text>Phyllaries distally dark brown, black, or olivaceous.</text>
+      <structure id="o14164" name="phyllary">
+        <character name="coloration" value="brown" modifier="distally ;dark" />
+        <character name="coloration" value="black" modifier="distally" />
+        <character name="coloration" value="olivaceous" modifier="distally" />
+      </structure>
+    </statement>
+    <statement id="678.txt-11">
+      <text>Corollas:</text>
+      <structure id="o14165" name="corolla" />
+    </statement>
+    <statement id="678.txt-12">
+      <text>staminate 3–3.5 mm;</text>
+      <structure id="o14166" name="corolla" constraint="staminate">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="3.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="678.txt-13">
+      <text>pistillate 3.5–5 mm.</text>
+      <structure id="o14167" name="corolla" constraint="pistillate">
+        <character char_type="range_value" name="size" from="3.5" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="678.txt-14">
+      <text>Cypselae 1–1.8 mm, sparingly papillate;</text>
+      <structure id="o14168" name="cypsela">
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="1.8" to_unit="mm" />
+        <character name="relief_or_pubescence" value="papillate" modifier="sparingly" />
+      </structure>
+    </statement>
+    <statement id="678.txt-15">
+      <text>pappi:</text>
+      <structure id="o14169" name="pappus" />
+    </statement>
+    <statement id="678.txt-16">
+      <text>staminate 3.5–4 mm;</text>
+      <structure id="o14170" name="pappus" constraint="staminate">
+        <character char_type="range_value" name="size" from="3.5" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="678.txt-17">
+      <text>pistillate 4.5–6 mm.</text>
+      <structure id="o14171" name="pappus" constraint="pistillate">
+        <character char_type="range_value" name="size" from="4.5" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="678.txt-18">
+      <text>2 n = 56, 84, 98, 112.</text>
+      <structure id="o14172" name="chromosome">
+        <character name="count" value="56" />
+        <character name="count" value="84" />
+        <character name="count" value="98" />
+        <character name="count" value="112" />
+      </structure>
+    </statement>
+  </description>
+  <habitat>dry to moist alpine tundra</habitat>
+  <elevation>100–2400 m;</elevation>
+  <global_distribution>Greenland</global_distribution>
+  <ca_distribution>Alta.</ca_distribution>
+  <ca_distribution>B.C.</ca_distribution>
+  <ca_distribution>Nfld. and Labr.</ca_distribution>
+  <ca_distribution>N.W.T.</ca_distribution>
+  <ca_distribution>Nunavut</ca_distribution>
+  <ca_distribution>Ont.</ca_distribution>
+  <ca_distribution>Que.</ca_distribution>
+  <ca_distribution>Yukon</ca_distribution>
+  <us_distribution>Alaska</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <global_distribution>Eurasia.</global_distribution>
+  <discussion>Antennaria alpina is one of the more morphologically variable agamic complexes in the genus. Some taxonomists have argued that true Antennaria alpina does not occur in North America, because none of the North American material exactly matches the type of A. alpina, which is from Lapland (M. O. Malte 1934; A. E. Porsild 1965). If one uses a strict typological species concept, then this is true; I recognize that this species complex is composed of innumerable apomictic clones and am circumscribing a broad species concept for A. alpina. The potential morphologic overlap between the A. media and A. alpina complexes is a major taxonomic problem. The chief difference between members of the two complexes is the presence of prominent flags on cauline leaves in A. alpina and their absence in A. media. Antennaria alpina of North America is gynoecious and characterized by its dark green to black phyllaries and conspicuous flags on the distal cauline leaves. The basal leaves vary from glabrous, as in the type material, to pubescent. The primary progenitors of the A. alpina complex include A. aromatica, A. densifolia, A. friesiana subsp. alaskana, A. friesiana subsp. neoalaskana, A. monocephala subsp. monocephala, and A. pulchella.</discussion>
+  <discussion>Excluded names:</discussion>
+  <discussion>Some Antennaria names are based on early-generation interspecific hybrids, including:</discussion>
+  <discussion>Antennaria ×erigeroides Greene = A. corymbosa × A. racemosa</discussion>
+  <discussion>A. ×foliacea Greene = A. microphylla × A. racemosa</discussion>
+  <discussion>A. ×macounii Greene = A. media × A. umbrinella</discussion>
+  <discussion>A. ×oblancifolia E. E. Nelson = A. racemosa × A. umbrinella</discussion>
+  <discussion>A. ×rousseaui A. E. Porsild = ? A. alpina × A. rosea</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

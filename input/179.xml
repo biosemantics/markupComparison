@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>4.</number>
+  <species_name>Saussurea nuda</species_name>
+  <authority>Ledebour</authority>
+  <place_of_publication>Icon. Pl. 1: 15, plate 61. 1829</place_of_publication>
+  <common_name>Chaffless or dwarf saw-wort</common_name>
+  <synonym_of_species_name>Saussurea alpina (Linnaeus) de Candolle; S . alpina var. ledebourii A. Gray; S. densa (Hooker) Rydberg; S . nuda subsp. densa (Hooker) G. W. Douglas; S. nuda var. densa (Hooker) Hultén</synonym_of_species_name>
+  <description>
+    <statement id="179.txt-0">
+      <text>Plants 5–60 cm;</text>
+      <structure id="o2262" name="whole_organism">
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="60" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="179.txt-1">
+      <text>branched caudices;</text>
+      <structure id="o2263" name="caudex" constraint="branched" />
+    </statement>
+    <statement id="179.txt-2">
+      <text>herbage subglabrous to loosely tomentose when young, ± glabrescent, at least proximally.</text>
+      <structure id="o2264" name="herbage">
+        <character char_type="range_value" name="pubescence" from="subglabrous" to="loosely tomentose" />
+        <character name="pubescence" value="subglabrous" />
+        <character name="pubescence" value="tomentose" modifier="loosely" />
+        <character name="age" value="young" modifier="pubescence~list~subglabrous~to~loosely~tomentose" />
+        <character name="pubescence" value="glabrescent" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="179.txt-3">
+      <text>Stems usually simple.</text>
+      <structure id="o2265" name="stem">
+        <character name="architecture" value="simple" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="179.txt-4">
+      <text>Leaves basal and cauline ± smaller distally, tapered to winged petioles to 7 cm, blades elliptic or lanceolate to ovate, 5–15 cm, bases obtuse to acute, margins subentire to sinuate, dentate or denticulate, apices acute to acuminate;</text>
+      <structure id="o2266" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" modifier="±" />
+        <character name="size" value="smaller" modifier="distally" />
+      </structure>
+      <structure id="o2267" name="petiole">
+        <character name="architecture" value="winged" />
+        <character char_type="range_value" name="size" to="7" to_unit="cm" />
+      </structure>
+      <relation id="r330" name="tapered to" from="o2266" to="o2267" negation="false" />
+      <structure id="o2268" name="blade">
+        <character char_type="range_value" name="shape" from="lanceolate" to="ovate" />
+        <character name="shape" value="elliptic" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="ovate" />
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="15" to_unit="cm" />
+      </structure>
+      <structure id="o2269" name="base">
+        <character char_type="range_value" name="shape" from="obtuse" to="acute" />
+        <character name="shape" value="obtuse" />
+        <character name="shape" value="acute" />
+      </structure>
+      <structure id="o2270" name="margin">
+        <character char_type="range_value" name="shape" from="subentire" to="sinuate , dentate or denticulate" />
+        <character name="shape" value="subentire" />
+        <character name="shape" value="sinuate" />
+        <character name="shape" value="dentate" />
+        <character name="shape" value="denticulate" />
+      </structure>
+      <structure id="o2271" name="apex">
+        <character char_type="range_value" name="shape" from="acute" to="acuminate" />
+        <character name="shape" value="acute" />
+        <character name="shape" value="acuminate" />
+      </structure>
+    </statement>
+    <statement id="179.txt-5">
+      <text>distal cauline sessile, ± decurrent.</text>
+      <structure id="o2272" name="leaf" constraint="distal cauline">
+        <character name="architecture" value="sessile" />
+        <character name="shape" value="decurrent" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="179.txt-6">
+      <text>Heads 3–20+ in corymbiform to subcapitate arrays; ( peduncles 0–5 cm ) .</text>
+      <structure id="o2273" name="head">
+        <character char_type="range_value" name="count" from="3" to="20" upper_restricted="false" constraint="in arrays" constraintid="o2274" />
+      </structure>
+      <structure id="o2274" name="array">
+        <character char_type="range_value" name="architecture" from="corymbiform" to="subcapitate" />
+        <character name="architecture" value="corymbiform" />
+        <character name="architecture" value="subcapitate" />
+      </structure>
+    </statement>
+    <statement id="179.txt-7">
+      <text>Involucres 10–15 mm.</text>
+      <structure id="o2275" name="involucre">
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="15" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="179.txt-8">
+      <text>Phyllaries in 3–4 series subequal or weakly imbricate, linear to lanceolate, abaxial faces dark green, often tinged dark purplish, loosely villous or ± tomentose.</text>
+      <structure id="o2276" name="phyllary">
+        <character name="aestivation_or_arrangement" value="imbricate" modifier="weakly" />
+        <character char_type="range_value" name="shape" from="linear" to="lanceolate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="lanceolate" />
+      </structure>
+      <structure id="o2277" name="series">
+        <character char_type="range_value" name="count" from="3" to="4" />
+        <character name="size" value="subequal" />
+      </structure>
+      <relation id="r331" name="in" from="o2276" to="o2277" negation="false" />
+      <structure id="o2278" name="face" constraint="abaxial">
+        <character name="coloration" value="green" modifier="dark" />
+        <character name="coloration" value="purplish" modifier="often;tinged-dark" />
+        <character name="pubescence" value="villous" modifier="loosely" />
+        <character name="pubescence" value="tomentose" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="179.txt-9">
+      <text>Receptacles naked.</text>
+      <structure id="o2279" name="receptacle">
+        <character name="architecture" value="naked" />
+      </structure>
+    </statement>
+    <statement id="179.txt-10">
+      <text>Florets 15–20;</text>
+      <structure id="o2280" name="floret">
+        <character char_type="range_value" name="count" from="15" to="20" />
+      </structure>
+    </statement>
+    <statement id="179.txt-11">
+      <text>corollas purple, 8–11 mm, tubes 4–6 mm, throats 1.5–2 mm, lobes 3–3.5 mm;</text>
+      <structure id="o2281" name="corolla">
+        <character name="coloration" value="purple" />
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="11" to_unit="mm" />
+      </structure>
+      <structure id="o2282" name="tube">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+      <structure id="o2283" name="throat">
+        <character char_type="range_value" name="size" from="1.5" from_unit="mm" to="2" to_unit="mm" />
+      </structure>
+      <structure id="o2284" name="lobe">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="3.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="179.txt-12">
+      <text>anthers dark purple.</text>
+      <structure id="o2285" name="anther">
+        <character name="coloration" value="purple" modifier="dark" />
+      </structure>
+    </statement>
+    <statement id="179.txt-13">
+      <text>Cypselae stramineous, 6–7 mm;</text>
+      <structure id="o2286" name="cypsela">
+        <character name="coloration" value="stramineous" />
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="179.txt-14">
+      <text>pappi of white to brownish, outer bristles 1–3 mm, inner 9–10 mm.</text>
+      <structure id="o2287" name="pappus">
+        <character name="position" value="inner" />
+        <character char_type="range_value" name="size" from="9" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+      <structure id="o2288" name="bristle" constraint="outer">
+        <character char_type="range_value" name="coloration" from="white" to="brownish" />
+        <character name="coloration" value="white" />
+        <character name="coloration" value="brownish" />
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="3" to_unit="mm" />
+      </structure>
+      <relation id="r332" name="consist_of" from="o2287" to="o2288" negation="false" />
+    </statement>
+    <statement id="179.txt-15">
+      <text>2 n = 26 (as S. densa ).</text>
+      <structure id="o2289" name="chromosome">
+        <character name="count" value="26" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>coastal dunes</habitat>
+  <habitat>estuaries</habitat>
+  <habitat>alpine tundra</habitat>
+  <elevation>0–100, 2000–2800 m;</elevation>
+  <ca_distribution>Alta.</ca_distribution>
+  <ca_distribution>B.C.</ca_distribution>
+  <us_distribution>Alaska</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <global_distribution>Russian Far East.</global_distribution>
+  <discussion>North American populations of Saussurea nuda occur in two distinctly different sets of habitats. Plants from coastal Alaska have been recognized as var. nuda and dwarfed alpine plants from the northern Rockies as var. densa. According to E. Hultén (1941–1950, vol. 10), the only differences between var. densa and var. nuda are the “more densely denticulated leaves and very congested inflorescences” of the former. Notwithstanding the very different habitats, some coastal Alaskan specimens [e.g., Ward 53 (ALA)] are indistinguishable from the alpine forms. In Siberia, S. nuda is a polymorphic species occurring from coastal sites to alpine areas (S. J. Lipschitz 1979).</discussion>
+  <discussion>Saussurea ×tschuktschorum Lipschitz is apparently a hybrid between S. angustifolia and S. nuda. It resembles S. angustifolia; it has naked receptacles like S. nuda.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

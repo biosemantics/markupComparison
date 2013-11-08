@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Psilocarphus brevissimus</species_name>
+  <authority>Nuttall</authority>
+  <place_of_publication>Trans. Amer. Philos. Soc., n. s. 7: 340. 1840</place_of_publication>
+  <common_name>Short woollyheads</common_name>
+  <description>
+    <statement id="759.txt-0">
+      <text>Plants greenish to grayish, sericeous to densely lanuginose.</text>
+      <structure id="o16025" name="whole_organism">
+        <character char_type="range_value" name="coloration" from="greenish" to="grayish" />
+        <character name="coloration" value="greenish" />
+        <character name="coloration" value="grayish" />
+        <character char_type="range_value" name="pubescence" from="sericeous" to="densely lanuginose" />
+        <character name="pubescence" value="sericeous" />
+        <character name="pubescence" value="lanuginose" modifier="densely" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="759.txt-1">
+      <text>Stems (1–)2–10, erect to prostrate;</text>
+      <structure id="o16026" name="stem">
+        <character char_type="range_value" name="atypical_count" from="1" to="2" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="2" to="10" />
+        <character char_type="range_value" name="orientation" from="erect" to="prostrate" />
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="prostrate" />
+      </structure>
+    </statement>
+    <statement id="759.txt-2">
+      <text>proximal internode lengths mostly 0.5–1.5(–2) times leaf lengths.</text>
+      <structure id="o16027" name="internode" constraint="proximal">
+        <character char_type="range_value" name="atypical_size" from="1.5" to="2" from_inclusive="false" modifier="mostly" constraint="times leaf" constraintid="o16028" />
+        <character char_type="range_value" name="size" from="0.5" to="1.5" modifier="mostly" constraint="times leaf" constraintid="o16028" />
+      </structure>
+      <structure id="o16028" name="leaf" />
+    </statement>
+    <statement id="759.txt-4">
+      <text>Heads ± spheric, rarely ovoid, largest 6–14 mm.</text>
+      <structure id="o16029" name="head">
+        <character name="shape" value="spheric" modifier="±" />
+        <character name="shape" value="ovoid" modifier="rarely" />
+      </structure>
+    </statement>
+    <statement id="759.txt-5">
+      <text>Receptacles unlobed or ± lobed.</text>
+      <structure id="o16030" name="receptacle">
+        <character name="shape" value="unlobed" />
+        <character name="shape" value="lobed" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="759.txt-6">
+      <text>Pistillate paleae hidden by or visible through indument, longest 2.8–4 mm (lengths 1.5–6 times longest diams.; wings subapical to ± median).</text>
+      <structure id="o16031" name="palea" constraint="pistillate">
+        <character name="manifestation" value="hidden" constraint="by or visible through indument" constraintid="o16032" />
+        <character name="size" value="longest" />
+        <character char_type="range_value" name="size" from="2.8" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+      <structure id="o16032" name="indument" />
+    </statement>
+    <statement id="759.txt-7">
+      <text>Staminate corollas 0.8–1.6 mm, lobes mostly 5.</text>
+      <structure id="o16033" name="corolla" constraint="staminate">
+        <character char_type="range_value" name="size" from="0.8" from_unit="mm" to="1.6" to_unit="mm" />
+      </structure>
+      <structure id="o16034" name="lobe">
+        <character name="count" value="5" modifier="mostly" />
+      </structure>
+    </statement>
+    <statement id="759.txt-8">
+      <text>Cypselae narrowly obovoid, ± compressed, 0.8–1.9 mm.</text>
+      <structure id="o16035" name="cypsela">
+        <character name="shape" value="obovoid" modifier="narrowly" />
+        <character name="shape" value="compressed" modifier="±" />
+        <character char_type="range_value" name="size" from="0.8" from_unit="mm" to="1.9" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="759.txt-9">
+      <text>2 n = 28.</text>
+      <structure id="o16036" name="chromosome">
+        <character name="count" value="28" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Varieties 2 (2 in the flora):</number_of_infrataxa>
+  <general_distribution>w North America (including nw Mexico)</general_distribution>
+  <general_distribution>s South America.</general_distribution>
+  <couplet>1.Heads ± spheric, largest 6–9 mm, receptacles unlobed or shallowly lobed; pistillate paleae obovoid, lengths 1.5–3 times longest diams., wings supramedian to subapical1a. Psilocarphus brevissimus var. brevissimus</couplet>
+  <couplet>1.Heads ovoid, largest 9–14 mm, receptacles deeply lobed; pistillate paleae ± cylindric, lengths mostly 3.5–6 times longest diams., wings ± median1b. Psilocarphus brevissimus var. multiflorus</couplet>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

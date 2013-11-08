@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>32.</number>
+  <species_name>Antennaria monocephala</species_name>
+  <authority>de Candolle</authority>
+  <place_of_publication>in A. P. de Candolle and A. L. P. P. de Candolle, Prodr. 6: 269. 1838</place_of_publication>
+  <common_name>Pygmy pussytoes</common_name>
+  <synonym_of_species_name>Antennaria alpina (Linnaeus) Gaertner var. monocephala (de Candolle) Torrey &amp; A. Gray</synonym_of_species_name>
+  <description>
+    <statement id="671.txt-0">
+      <text>Dioecious or gynoecious (stamin-ates uncommon or in equal frequen-cies as pistillates, respectively).</text>
+      <structure id="o14054" name="whole_organism">
+        <character name="reproduction" value="dioecious" />
+        <character name="reproduction" value="gynoecious" />
+      </structure>
+    </statement>
+    <statement id="671.txt-1">
+      <text>Plants 5–13 cm (stems usually stipitate-glandular).</text>
+      <structure id="o14055" name="whole_organism">
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="13" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="671.txt-2">
+      <text>Stolons 2–4 cm.</text>
+      <structure id="o14056" name="stolon">
+        <character char_type="range_value" name="size" from="2" from_unit="cm" to="4" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="671.txt-3">
+      <text>Basal leaves 1-nerved, spatulate to narrowly spatulate or oblanceolate, 9–18 × 2–4 mm, tips mucronate, abaxial faces tomentose, adaxial glabrous or green-glabrescent, or both gray-pubescent.</text>
+      <structure id="o14057" name="leaf" constraint="basal">
+        <character name="architecture" value="1-nerved" />
+        <character char_type="range_value" name="shape" from="spatulate" to="narrowly spatulate or oblanceolate" />
+        <character name="shape" value="spatulate" />
+        <character name="shape" value="spatulate" modifier="narrowly" />
+        <character name="shape" value="oblanceolate" modifier="narrowly" />
+        <character char_type="range_value" name="length" from="9" from_unit="mm" to="18" to_unit="mm" />
+        <character char_type="range_value" name="width" from="2" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+      <structure id="o14058" name="tip">
+        <character name="shape" value="mucronate" />
+      </structure>
+      <structure id="o14059" name="face" constraint="abaxial">
+        <character name="pubescence" value="tomentose" />
+        <character name="insertion_or_position" value="adaxial" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="green-glabrescent" />
+        <character name="pubescence" value="gray-pubescent" />
+      </structure>
+    </statement>
+    <statement id="671.txt-4">
+      <text>Cauline leaves linear, 4–11 mm, flagged.</text>
+      <structure id="o14060" name="leaf" constraint="cauline">
+        <character name="arrangement_or_shape" value="linear" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="11" to_unit="mm" />
+        <character name="orientation" value="flagged" />
+      </structure>
+    </statement>
+    <statement id="671.txt-5">
+      <text>Heads usually borne singly (rarely 2–3).</text>
+      <structure id="o14061" name="head">
+        <character name="arrangement" value="singly" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="671.txt-6">
+      <text>Involucres:</text>
+      <structure id="o14062" name="involucre" />
+    </statement>
+    <statement id="671.txt-7">
+      <text>staminate 5–7 mm;</text>
+      <structure id="o14063" name="involucre" constraint="staminate">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="671.txt-8">
+      <text>pistillate 5–8 mm.</text>
+      <structure id="o14064" name="involucre" constraint="pistillate">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="671.txt-9">
+      <text>Phyllaries distally brown, dark brown, black, or olivaceous.</text>
+      <structure id="o14065" name="phyllary">
+        <character name="coloration" value="brown" modifier="distally" />
+        <character name="coloration" value="brown" modifier="distally ;dark" />
+        <character name="coloration" value="black" modifier="distally" />
+        <character name="coloration" value="olivaceous" modifier="distally" />
+      </structure>
+    </statement>
+    <statement id="671.txt-10">
+      <text>Corollas:</text>
+      <structure id="o14066" name="corolla" />
+    </statement>
+    <statement id="671.txt-11">
+      <text>staminate 2.5–3.5 mm;</text>
+      <structure id="o14067" name="corolla" constraint="staminate">
+        <character char_type="range_value" name="size" from="2.5" from_unit="mm" to="3.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="671.txt-12">
+      <text>pistillate 3.5–4 mm.</text>
+      <structure id="o14068" name="corolla" constraint="pistillate">
+        <character char_type="range_value" name="size" from="3.5" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="671.txt-13">
+      <text>Cypselae 1–1.3 mm, usually glabrous;</text>
+      <structure id="o14069" name="cypsela">
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="1.3" to_unit="mm" />
+        <character name="pubescence" value="glabrous" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="671.txt-14">
+      <text>pappi:</text>
+      <structure id="o14070" name="pappus" />
+    </statement>
+    <statement id="671.txt-15">
+      <text>staminate 3–4 mm (none in gynoecious populations);</text>
+      <structure id="o14071" name="pappus" constraint="staminate">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="671.txt-16">
+      <text>pistillate 4–5 mm.</text>
+      <structure id="o14072" name="pappus" constraint="pistillate">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="671.txt-17">
+      <text>2 n = 28, 56, 60?, 70.</text>
+      <structure id="o14073" name="chromosome">
+        <character name="count" value="28" />
+        <character name="count" value="56" />
+        <character name="count" value="60" />
+        <character name="count" value="70" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Subspecies 2 (2 in the flora):</number_of_infrataxa>
+  <general_distribution>n North America</general_distribution>
+  <general_distribution>Russian Far East (Chukotka Peninsula).</general_distribution>
+  <discussion>It seems reasonable to follow in part E. Hultén’s (1968) broad concept of Antennaria monocephala (R. J. Bayer 1991). Hultén circumscribed it as containing three subspecies. The sexual phase of A. monocephala (i.e., subsp. monocephala and subsp. philonipha) is known from southern Alaska, south of the Brooks Range, and to Yukon Territory and adjacent areas of the Northwest Territories and across the Bering Strait on the Chukotka Peninsula. Within his concept of A. monocephala, Hultén also circumscribed the presumably autopolyploid apomictic form of the species as A. monocephala subsp. angustata, thereby extending the range of the species across the Canadian arctic into Greenland and down the western Cordillera into Montana and Wyoming.</discussion>
+  <discussion>Antennaria monocephala subsp. monocephala is an amphimictic progenitor of the A. alpina agamic complex, as well as the sexual progenitor of the apomicts of subsp. angustata.</discussion>
+  <couplet>1.Plants gynoecious (staminate plants unknown) 32a. Antennaria monocephala subsp. angustata</couplet>
+  <couplet>1.Plants dioecious (staminates and pistillates in equal frequencies in populations)32b. Antennaria monocephala subsp. monocephala</couplet>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

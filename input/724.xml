@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>94.</number>
+  <genus_name>OMALOTHECA</genus_name>
+  <authority>Omalotheca Cassini</authority>
+  <place_of_publication>in F. Cuvier, Dict. Sci. Nat. ed. 2, 56: 218. 1828</place_of_publication>
+  <author_of_tribe_genus>Guy L. Nesom</author_of_tribe_genus>
+  <description>
+    <statement id="724.txt-0">
+      <text>Perennials, 2–70 cm (fibrous-rooted, rhizomatous, not stoloniferous).</text>
+      <structure id="o15106" name="whole_organism">
+        <character char_type="range_value" name="size" from="2" from_unit="cm" to="70" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="724.txt-1">
+      <text>Stems usually 1, erect (branched from bases or distally, woolly-tomentose to sericeous).</text>
+      <structure id="o15107" name="stem">
+        <character name="count" value="1" modifier="usually" />
+        <character name="orientation" value="erect" />
+      </structure>
+    </statement>
+    <statement id="724.txt-2">
+      <text>Leaves basal (persistent in rosettes) and cauline;</text>
+    </statement>
+    <statement id="724.txt-3">
+      <text>alternate;</text>
+    </statement>
+    <statement id="724.txt-4">
+      <text>sessile;</text>
+      <structure id="o15108" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="arrangement" value="alternate" />
+        <character name="architecture" value="sessile" />
+      </structure>
+    </statement>
+    <statement id="724.txt-5">
+      <text>blades mostly narrowly lanceolate to oblanceolate, bases cuneate, margins entire, faces bicolor or concolor, abaxial white to gray, thinly tomentose, adaxial white to grayish and sericeous to thinly woolly or greenish and glabrate.</text>
+      <structure id="o15109" name="blade">
+        <character char_type="range_value" name="shape" from="mostly narrowly lanceolate" to="oblanceolate" />
+        <character name="shape" value="lanceolate" modifier="mostly narrowly" />
+        <character name="shape" value="oblanceolate" modifier="mostly narrowly" />
+      </structure>
+      <structure id="o15110" name="base">
+        <character name="shape" value="cuneate" />
+      </structure>
+      <structure id="o15111" name="margin">
+        <character name="shape" value="entire" />
+      </structure>
+      <structure id="o15112" name="face">
+        <character name="coloration" value="bicolor" />
+        <character name="coloration" value="concolor" />
+        <character char_type="range_value" name="coloration" from="abaxial white" to="gray" />
+        <character name="coloration" value="gray" />
+        <character name="pubescence" value="tomentose" modifier="thinly" />
+        <character char_type="range_value" name="coloration" from="adaxial white" to="grayish" />
+        <character name="coloration" value="grayish" />
+        <character char_type="range_value" name="pubescence" from="sericeous" to="thinly woolly" />
+        <character name="pubescence" value="sericeous" />
+        <character name="pubescence" value="woolly" modifier="thinly" />
+        <character name="coloration" value="greenish" />
+        <character name="pubescence" value="glabrate" />
+      </structure>
+    </statement>
+    <statement id="724.txt-6">
+      <text>Heads disciform, in spiciform or subcapitate arrays.</text>
+      <structure id="o15113" name="head">
+        <character name="shape_or_architecture" value="disciform" />
+      </structure>
+      <structure id="o15114" name="array">
+        <character name="architecture" value="spiciform" />
+        <character name="architecture" value="subcapitate" />
+      </structure>
+      <relation id="r1631" name="in" from="o15113" to="o15114" negation="false" />
+    </statement>
+    <statement id="724.txt-7">
+      <text>Involucres campanulate to turbinate, 5–6 mm.</text>
+      <structure id="o15115" name="involucre">
+        <character char_type="range_value" name="shape" from="campanulate" to="turbinate" />
+        <character name="shape" value="campanulate" />
+        <character name="shape" value="turbinate" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="724.txt-8">
+      <text>Phyllaries in 2–3 series, stramineous to brownish (sometimes mottled; hyaline, stereomes not glandular), unequal, chartaceous toward apices.</text>
+      <structure id="o15116" name="phyllary">
+        <character char_type="range_value" name="coloration" from="stramineous" to="brownish" />
+        <character name="coloration" value="stramineous" />
+        <character name="coloration" value="brownish" />
+        <character name="size" value="unequal" />
+        <character name="texture" value="chartaceous" constraint="toward apices" constraintid="o15118" />
+      </structure>
+      <structure id="o15117" name="series">
+        <character char_type="range_value" name="count" from="2" to="3" />
+      </structure>
+      <relation id="r1632" name="in" from="o15116" to="o15117" negation="false" />
+      <structure id="o15118" name="apex" />
+    </statement>
+    <statement id="724.txt-9">
+      <text>Receptacles flat to concave, smooth, epaleate.</text>
+      <structure id="o15119" name="receptacle">
+        <character char_type="range_value" name="shape" from="flat" to="concave" />
+        <character name="shape" value="flat" />
+        <character name="shape" value="concave" />
+        <character name="architecture_or_relief" value="smooth" />
+        <character name="architecture" value="epaleate" />
+      </structure>
+    </statement>
+    <statement id="724.txt-10">
+      <text>Peripheral (pistillate) florets 35–70+ (more numerous than bisexual);</text>
+      <structure id="o15120" name="floret" constraint="peripheral">
+        <character char_type="range_value" name="count" from="35" to="70" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="724.txt-11">
+      <text>corollas purplish or whitish.</text>
+      <structure id="o15121" name="corolla">
+        <character name="coloration" value="purplish" />
+        <character name="coloration" value="whitish" />
+      </structure>
+    </statement>
+    <statement id="724.txt-12">
+      <text>Inner (bisexual) florets 3–4;</text>
+      <structure id="o15122" name="floret" constraint="inner">
+        <character char_type="range_value" name="count" from="3" to="4" />
+      </structure>
+    </statement>
+    <statement id="724.txt-13">
+      <text>corollas purplish or whitish, distally purplish or reddish.</text>
+      <structure id="o15123" name="corolla">
+        <character name="coloration" value="purplish" />
+        <character name="coloration" value="whitish" />
+        <character name="coloration" value="purplish" modifier="distally" />
+        <character name="coloration" value="reddish" modifier="distally" />
+      </structure>
+    </statement>
+    <statement id="724.txt-14">
+      <text>Cypselae obovoid to cylindric or fusiform, sometimes slightly compressed, faces strigillose (hairs not myxogenic, lengths 6–12 times diams.) and papillate (carpopodia forming minute stipes);</text>
+      <structure id="o15124" name="cypsela">
+        <character name="shape" value="obovoid" />
+        <character name="shape" value="cylindric" />
+        <character name="shape" value="fusiform" />
+        <character name="shape" value="compressed" modifier="sometimes slightly" />
+      </structure>
+      <structure id="o15125" name="face">
+        <character name="pubescence" value="strigillose" />
+        <character name="relief_or_pubescence" value="papillate" />
+      </structure>
+    </statement>
+    <statement id="724.txt-15">
+      <text>pappi falling readily, of 15–25 distinct (falling separately) or basally connate (falling together), barbellate bristles in 1 series.</text>
+      <structure id="o15126" name="pappus">
+        <character name="orientation" value="falling" modifier="readily" />
+      </structure>
+      <structure id="o15127" name="bristle">
+        <character char_type="range_value" name="count" from="15" to="25" />
+        <character name="fusion" value="distinct" />
+        <character name="fusion" value="connate" modifier="basally" />
+        <character name="architecture" value="barbellate" />
+      </structure>
+      <relation id="r1633" name="consist_of" from="o15126" to="o15127" negation="false" />
+      <structure id="o15128" name="series">
+        <character name="count" value="1" />
+      </structure>
+      <relation id="r1634" name="in" from="o15127" to="o15128" negation="false" />
+    </statement>
+    <statement id="724.txt-16">
+      <text>x = 14.</text>
+      <structure id="o15129" name="chromosome">
+        <character name="count" value="14" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species 8–10 (3 in the flora):</number_of_infrataxa>
+  <general_distribution>mostly Eurasian</general_distribution>
+  <general_distribution>three species reaching North America in native distribution (Omalotheca sylvatica perhaps not native).</general_distribution>
+  <general_distribution>three species reaching North America in native distribution (see below).</general_distribution>
+  <discussion>The species of Omalotheca have been placed in subg. Omalotheca (capitulescences of 1–10 heads, cypselae compressed-obovoid, and pappus bristles distinct and falling separately) and subg. Gamochaetiopsis Schultz-Bipontinus &amp; F. W. Schultz (capitulescences of 10–100 heads, cypselae cylindric, and pappus bristles basally connate and falling together). In the flora, O. norvegica and O. sylvatica belong in subg. Gamochaetiopsis; O. supina is in subg. Omalotheca.</discussion>
+  <references>SELECTED REFERENCE Nesom, G. L. 1990b. Taxonomic summary of Omalotheca (Asteraceae: Inuleae). Phytologia 68: 241–246.</references>
+  <key>1.Plants 2–8(–12) cm; heads in subcapitate to loose, spiciform arrays; pappus bristles distinct, falling separately 1. Omalotheca supina</key>
+  <key>1.Plants 10–70 cm; heads in compact or loose, spiciform arrays; pappus bristles basally connate, falling together.</key>
+  <key>2.Leaf blades: basal and proximal cauline 3-nerved, 6–30 mm wide, distal cauline oblanceolate, faces concolor or weakly bicolor; arrays of heads 1.5–5 cm, rarely interrupted; alpine sites2. Omalotheca norvegica</key>
+  <key>2.Leaf blades: basal and proximal cauline 1-nerved, 2–10 mm wide, distal cauline linear, faces bicolor; arrays of heads 4–35 cm, usually interrupted; lower elevations3. Omalotheca sylvatica</key>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

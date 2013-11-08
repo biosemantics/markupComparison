@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>57.</number>
+  <species_name>Cirsium praeteriens</species_name>
+  <authority>J. F. Macbride</authority>
+  <place_of_publication>Contr. Gray Herb. 53: 19. 1918</place_of_publication>
+  <common_name>Lost or Palo Alto thistle</common_name>
+  <description>
+    <statement id="161.txt-0">
+      <text>Biennials or perennials , probably more than 100 cm;</text>
+      <structure id="o1724" name="whole_organism">
+        <character name="size" value="100" unit="cm" modifier="probably more than" />
+        <character name="life_style" value="biennial" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="161.txt-1">
+      <text>rootstock unknown.</text>
+      <structure id="o1726" name="rootstock">
+        <character name="presence" value="unknown" />
+      </structure>
+    </statement>
+    <statement id="161.txt-2">
+      <text>Stems stout, erect, loosely arachnoid with fine trichomes and villous with jointed trichomes;</text>
+      <structure id="o1728" name="trichome">
+        <character name="texture" value="fine" />
+        <character name="pubescence" value="villous" constraint="with trichomes" constraintid="o1729" />
+      </structure>
+      <structure id="o1729" name="trichome">
+        <character name="architecture" value="jointed" />
+      </structure>
+    </statement>
+    <statement id="161.txt-3">
+      <text>branching unknown.</text>
+      <structure id="o1727" name="stem">
+        <character name="fragility" value="stout" />
+        <character name="orientation" value="erect" />
+        <character name="pubescence" value="arachnoid" modifier="loosely" constraint="with trichomes" constraintid="o1728" />
+        <character name="architecture" value="branching" />
+        <character name="presence" value="unknown" />
+      </structure>
+    </statement>
+    <statement id="161.txt-4">
+      <text>Leaves:</text>
+      <structure id="o1730" name="leaf" />
+    </statement>
+    <statement id="161.txt-6">
+      <text>basal not observed;</text>
+      <structure id="o1731" name="leaf" constraint="basal" />
+    </statement>
+    <statement id="161.txt-7">
+      <text>cauline well distributed, distally not much reduced, sessile, bases clasping, not decurrent.</text>
+      <structure id="o1732" name="leaf" constraint="cauline">
+        <character name="arrangement" value="distributed" modifier="well" />
+        <character name="size" value="reduced" modifier="distally not much" />
+        <character name="architecture" value="sessile" />
+      </structure>
+      <structure id="o1733" name="base">
+        <character name="architecture" value="clasping" />
+        <character name="shape" value="decurrent" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="161.txt-8">
+      <text>Heads 1–5, terminal and in distal axils in spiciform arrays.</text>
+      <structure id="o1734" name="head">
+        <character char_type="range_value" name="count" from="1" to="5" />
+        <character name="insertion_or_position" value="terminal" constraint="in axils" constraintid="o1735" />
+      </structure>
+      <structure id="o1735" name="axil" constraint="distal" />
+      <structure id="o1736" name="array">
+        <character name="architecture" value="spiciform" />
+      </structure>
+      <relation id="r271" name="in" from="o1735" to="o1736" negation="false" />
+    </statement>
+    <statement id="161.txt-9">
+      <text>Peduncles 0–1 cm.</text>
+      <structure id="o1737" name="peduncle">
+        <character char_type="range_value" name="size" from="0" from_unit="cm" to="1" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="161.txt-10">
+      <text>Involucres hemispheric to broadly campanulate, 3–4 × 4–5+ cm, arachnoid.</text>
+      <structure id="o1738" name="involucre">
+        <character char_type="range_value" name="shape" from="hemispheric" to="broadly campanulate" />
+        <character name="shape" value="hemispheric" />
+        <character name="shape" value="campanulate" modifier="broadly" />
+        <character char_type="range_value" name="length" from="3" from_unit="cm" to="4" to_unit="cm" />
+        <character char_type="range_value" name="width" from="4" from_unit="cm" to="5" to_unit="cm" upper_restricted="false" />
+        <character name="pubescence" value="arachnoid" />
+      </structure>
+    </statement>
+    <statement id="161.txt-11">
+      <text>Phyllaries in 6–8 series, narrowly lanceolate to linear, outer subequal, rigidly spreading, spines 5–10 mm, inner ± imbricate, bodies appressed, glutinous ridge absent, apices spreading, margins spinulose or scabrid, apices of mid and inner flattened, spineless, scabrid.</text>
+      <structure id="o1739" name="phyllary">
+        <character char_type="range_value" name="shape" from="narrowly lanceolate" to="linear" />
+        <character name="shape" value="lanceolate" modifier="narrowly" />
+        <character name="shape" value="linear" modifier="narrowly" />
+      </structure>
+      <structure id="o1740" name="series">
+        <character char_type="range_value" name="count" from="6" to="8" />
+      </structure>
+      <relation id="r272" name="in" from="o1739" to="o1740" negation="false" />
+      <structure id="o1741" name="phyllary" constraint="outer">
+        <character name="size" value="subequal" />
+        <character name="orientation" value="spreading" modifier="rigidly" />
+      </structure>
+      <structure id="o1742" name="spine">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+      <structure id="o1743" name="phyllary" constraint="inner">
+        <character name="aestivation_or_arrangement" value="imbricate" modifier="±" />
+      </structure>
+      <structure id="o1744" name="body">
+        <character name="orientation" value="appressed" />
+      </structure>
+      <structure id="o1745" name="ridge">
+        <character name="coating_or_texture" value="glutinous" />
+        <character name="presence" value="absent" />
+      </structure>
+      <structure id="o1746" name="apex">
+        <character name="orientation" value="spreading" />
+      </structure>
+      <structure id="o1747" name="margin">
+        <character name="shape_or_architecture" value="spinulose" />
+        <character name="relief" value="scabrid" />
+      </structure>
+      <structure id="o1748" name="apex">
+        <character name="position" value="inner" />
+        <character name="shape" value="flattened" />
+        <character name="architecture" value="spineless" />
+        <character name="relief" value="scabrid" />
+      </structure>
+      <structure id="o1749" name="phyllary" constraint="mid" />
+      <relation id="r273" name="part_of" from="o1748" to="o1749" negation="false" />
+    </statement>
+    <statement id="161.txt-12">
+      <text>Corollas white, 30–33 mm, tubes 16 mm, throats 9–12 mm, lobes 5.5–9 mm;</text>
+      <structure id="o1750" name="corolla">
+        <character name="coloration" value="white" />
+        <character char_type="range_value" name="size" from="30" from_unit="mm" to="33" to_unit="mm" />
+      </structure>
+      <structure id="o1751" name="tube">
+        <character name="size" value="16" unit="mm" />
+      </structure>
+      <structure id="o1752" name="throat">
+        <character char_type="range_value" name="size" from="9" from_unit="mm" to="12" to_unit="mm" />
+      </structure>
+      <structure id="o1753" name="lobe">
+        <character char_type="range_value" name="size" from="5.5" from_unit="mm" to="9" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="161.txt-13">
+      <text>style tips 6 mm.</text>
+      <structure id="o1754" name="tip" constraint="style">
+        <character name="size" value="6" unit="mm" />
+      </structure>
+    </statement>
+    <statement id="161.txt-14">
+      <text>Cypselae light brown, 6 mm, collars also light brown, ca. 0.75 mm;</text>
+      <structure id="o1755" name="cypsela">
+        <character name="coloration" value="brown" modifier="light" />
+        <character name="size" value="6" unit="mm" />
+      </structure>
+      <structure id="o1756" name="collar">
+        <character name="coloration" value="brown" modifier="light" />
+        <character name="size" value="0.75" unit="mm" />
+      </structure>
+    </statement>
+    <statement id="161.txt-15">
+      <text>pappi 25–33 mm.</text>
+      <structure id="o1757" name="pappus">
+        <character char_type="range_value" name="size" from="25" from_unit="mm" to="33" to_unit="mm" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <habitat>habitat unknown</habitat>
+  <conservation>of conservation concern;</conservation>
+  <elevation>0–100 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <discussion>Cirsium praeteriens is known only from Santa Clara County, where J. W. Congdon collected it in Palo Alto in 1897 and 1901. It is presumed extinct.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

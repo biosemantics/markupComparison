@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>3.</number>
+  <species_name>Diaperia prolifera</species_name>
+  <authority>(Nuttall ex de Candolle) Nuttall</authority>
+  <place_of_publication>Trans. Amer. Philos. Soc., n. s. 7: 338. 1840</place_of_publication>
+  <common_name>Big-head rabbit-tobacco</common_name>
+  <synonym_of_species_name>Evax prolifera Nuttall ex de Candolle in A. P. de Candolle and A. L. P. P. de Candolle, Prodr. 5: 459. 1836</synonym_of_species_name>
+  <description>
+    <statement id="771.txt-0">
+      <text>Plants grayish green to silvery, 3–15 cm, sericeous to lanuginose.</text>
+      <structure id="o16219" name="whole_organism">
+        <character char_type="range_value" name="coloration" from="grayish-green" to="silvery" />
+        <character name="coloration" value="green" modifier="grayish" />
+        <character name="coloration" value="silvery" />
+        <character char_type="range_value" name="size" from="3" from_unit="cm" to="15" to_unit="cm" />
+        <character char_type="range_value" name="pubescence" from="sericeous" to="lanuginose" />
+        <character name="pubescence" value="sericeous" />
+        <character name="pubescence" value="lanuginose" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="771.txt-1">
+      <text>Stems mostly 2–10;</text>
+      <structure id="o16220" name="stem">
+        <character char_type="range_value" name="count" from="2" to="10" modifier="mostly" />
+      </structure>
+    </statement>
+    <statement id="771.txt-2">
+      <text>branches proximal and distal (distal opposite or, sometimes, appearing alternate when unequal), rarely none.</text>
+      <structure id="o16221" name="branch">
+        <character name="insertion_or_position" value="proximal" />
+        <character name="insertion_or_position" value="distal" />
+      </structure>
+    </statement>
+    <statement id="771.txt-3">
+      <text>Leaves:</text>
+      <structure id="o16222" name="leaf" />
+    </statement>
+    <statement id="771.txt-4">
+      <text>largest 7–15 × 2–4 mm;</text>
+      <structure id="o16223" name="leaf" constraint="largest">
+        <character char_type="range_value" name="length" from="7" from_unit="mm" to="15" to_unit="mm" />
+        <character char_type="range_value" name="width" from="2" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="771.txt-5">
+      <text>capitular leaves subtending glomerules, also visible between and surpassing heads.</text>
+      <structure id="o16224" name="leaf" constraint="capitular">
+        <character name="manifestation" value="visible" constraint="between heads" constraintid="o16226" />
+      </structure>
+      <structure id="o16225" name="glomerule" />
+      <relation id="r1742" name="subtending" from="o16224" to="o16225" negation="false" />
+      <structure id="o16226" name="head">
+        <character name="comparison" value="surpassing" />
+      </structure>
+    </statement>
+    <statement id="771.txt-6">
+      <text>Heads in strictly dichasiform or pseudo-polytomous arrays (sometimes appearing monochasiiform), cylindric to ± ellipsoid, 3.5–4.5 mm, heights 2–3 times diams.</text>
+      <structure id="o16227" name="head">
+        <character name="shape" value="cylindric" />
+        <character name="shape" value="ellipsoid" modifier="±" />
+        <character char_type="range_value" name="size" from="3.5" from_unit="mm" to="4.5" to_unit="mm" />
+      </structure>
+      <structure id="o16228" name="array">
+        <character name="arrangement" value="dichasiform" modifier="strictly" />
+        <character name="architecture" value="pseudo-polytomous" />
+      </structure>
+      <relation id="r1743" name="in" from="o16227" to="o16228" negation="false" />
+    </statement>
+    <statement id="771.txt-7">
+      <text>Receptacles broadly or narrowly conic, 0.4–0.6 mm or ± 0.9–1.1 mm, heights 0.5–0.7 or 2–2.4 times diams.</text>
+      <structure id="o16229" name="receptacle">
+        <character name="shape" value="conic" modifier="broadly narrowly" />
+        <character char_type="range_value" name="size" from="0.4" from_unit="mm" to="0.6" to_unit="mm" />
+        <character char_type="range_value" name="size" from="0.9" from_unit="mm" to="1.1" to_unit="mm" modifier="±" />
+        <character char_type="range_value" name="size" from="0.5" to="0.7" />
+      </structure>
+    </statement>
+    <statement id="771.txt-8">
+      <text>Pistillate paleae imbricate, longest 2.5–4 mm.</text>
+      <structure id="o16230" name="palea" constraint="pistillate">
+        <character name="aestivation_or_arrangement" value="imbricate" />
+        <character name="size" value="longest" />
+        <character char_type="range_value" name="size" from="2.5" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="771.txt-9">
+      <text>Staminate paleae ± 3, apices erect to somewhat spreading, ± plane.</text>
+      <structure id="o16231" name="palea" constraint="staminate">
+        <character name="count" value="3" modifier="±" />
+      </structure>
+      <structure id="o16232" name="apex">
+        <character char_type="range_value" name="orientation" from="erect" to="somewhat spreading" />
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="spreading" modifier="somewhat" />
+      </structure>
+      <structure id="o16233" name="plane" />
+    </statement>
+    <statement id="771.txt-10">
+      <text>Functionally staminate florets 2–4;</text>
+      <structure id="o16234" name="floret" constraint="functionally staminate">
+        <character char_type="range_value" name="count" from="2" to="4" />
+      </structure>
+    </statement>
+    <statement id="771.txt-11">
+      <text>ovaries partly developed, 0.4–0.6 mm;</text>
+      <structure id="o16235" name="ovary">
+        <character name="development" value="developed" modifier="partly" />
+        <character char_type="range_value" name="size" from="0.4" from_unit="mm" to="0.6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="771.txt-12">
+      <text>corollas hidden in heads, actinomorphic, 1.4–2 mm, glabrous, lobes equal.</text>
+      <structure id="o16236" name="corolla">
+        <character name="manifestation" value="hidden" constraint="in heads" constraintid="o16237" />
+        <character name="architecture" value="actinomorphic" />
+        <character char_type="range_value" name="size" from="1.4" from_unit="mm" to="2" to_unit="mm" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+      <structure id="o16237" name="head" />
+      <structure id="o16238" name="lobe">
+        <character name="size" value="equal" />
+      </structure>
+    </statement>
+    <statement id="771.txt-13">
+      <text>Bisexual florets 0.</text>
+      <structure id="o16239" name="floret" constraint="bisexual">
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+    <statement id="771.txt-14">
+      <text>Cypselae ± angular, obcompressed, mostly 0.9–1.2 mm.</text>
+      <structure id="o16240" name="cypsela">
+        <character name="shape_or_arrangement" value="angular" modifier="±" />
+        <character name="shape" value="obcompressed" />
+        <character char_type="range_value" name="size" from="0.9" from_unit="mm" to="1.2" to_unit="mm" modifier="mostly" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Varieties 2 (2 in the flora):</number_of_infrataxa>
+  <general_distribution>sw United States.</general_distribution>
+  <discussion>Intermediates between the two varieties of Diaperia prolifera occur where their ranges meet in central Texas and central Oklahoma. The strictly dichasiform or pseudo-polytomous branching pattern of D. prolifera is distinctive and diagnostic within the genus. Specimens of D. prolifera from introductions around a wool mill in South Carolina (G. L. Nesom 2004c, as Evax prolifera) are as yet undetermined to variety and are not included in the distributions below.</discussion>
+  <couplet>1.Plants grayish to greenish, loosely lanuginose; heads 4–40+ in largest glomerules; receptacle heights mostly 0.5–0.7 times diams.; capitular leaves usually ± spreading, scarcely involucral, not or scarcely carinate, pliant to somewhat rigid; distal branches mostly spreading to ascending; longest pistillate paleae 3.3–4 mm3a. Diaperia prolifera var. prolifera</couplet>
+  <couplet>1.Plants silvery white, tightly sericeous; heads borne singly, or 2–3 in largest glomerules; receptacle heights mostly 2–2.4 times diams.; capitular leaves erect, involucral, proximally carinate, becoming indurate; distal branches strictly ascending to erect; longest pistillate paleae 2.5–3.2 mm3b. Diaperia prolifera var. barnebyi</couplet>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

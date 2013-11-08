@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>11b.</number>
+  <subspecies_name>Artemisia cana Pursh subsp. bolanderi</subspecies_name>
+  <authority>(A. Gray) G. H. Ward</authority>
+  <place_of_publication>Contr. Dudley Herb. 4: 192. 1953</place_of_publication>
+  <common_name>Bolander sagebrush</common_name>
+  <synonym_of_subspecies_name>Artemisia bolanderi A. Gray, Proc. Amer. Acad. Arts 19: 50. 1883; A. tridentata Nuttall subsp. bolanderi (A. Gray) H. M. Hall &amp; Clements; Seriphidium bolanderi (A. Gray) Y. R. Ling; S. canum (Pursh) W. A. Weber subsp. bolanderi (A. Gray) W. A. Weber</synonym_of_subspecies_name>
+  <description>
+    <statement id="869.txt-0">
+      <text>Shrubs, 50–60(–80) cm.</text>
+      <structure id="o18182" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="60" to="80" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="50" from_unit="cm" to="60" to_unit="cm" />
+        <character name="life_style" value="shrub" />
+      </structure>
+    </statement>
+    <statement id="869.txt-1">
+      <text>Stems white (felty-tomentose when young).</text>
+      <structure id="o18183" name="stem">
+        <character name="coloration" value="white" />
+      </structure>
+    </statement>
+    <statement id="869.txt-2">
+      <text>Leaves sometimes bright green, blades linear to narrowly lanceolate, (1.5–)3–4 × 0.2–0.6 cm, usually entire, sometimes with irregular lobes.</text>
+      <structure id="o18184" name="leaf">
+        <character name="coloration" value="green" modifier="sometimes;bright" />
+      </structure>
+      <structure id="o18185" name="blade">
+        <character char_type="range_value" name="shape" from="linear" to="narrowly lanceolate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="lanceolate" modifier="narrowly" />
+        <character char_type="range_value" name="atypical_length" from="1.5" to="3" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="length" from="3" from_unit="cm" to="4" to_unit="cm" />
+        <character char_type="range_value" name="width" from="0.2" from_unit="cm" to="0.6" to_unit="cm" />
+        <character name="shape" value="entire" modifier="usually" />
+      </structure>
+      <structure id="o18186" name="lobe">
+        <character name="architecture_or_course" value="irregular" />
+      </structure>
+      <relation id="r1924" name="with" from="o18185" to="o18186" negation="false" modifier="sometimes" />
+    </statement>
+    <statement id="869.txt-3">
+      <text>Heads (2–3 per branch) in (sparsely leafy) arrays 12–18 × 1–2 cm.</text>
+      <structure id="o18187" name="head" />
+      <structure id="o18188" name="array">
+        <character char_type="range_value" name="length" from="12" from_unit="cm" to="18" to_unit="cm" />
+        <character char_type="range_value" name="width" from="1" from_unit="cm" to="2" to_unit="cm" />
+      </structure>
+      <relation id="r1925" name="in" from="o18187" to="o18188" negation="false" />
+    </statement>
+    <statement id="869.txt-4">
+      <text>Involucres broadly campanulate, 3–4 × 4–5 mm.</text>
+      <structure id="o18189" name="involucre">
+        <character name="shape" value="campanulate" modifier="broadly" />
+        <character char_type="range_value" name="length" from="3" from_unit="mm" to="4" to_unit="mm" />
+        <character char_type="range_value" name="width" from="4" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="869.txt-5">
+      <text>Phyllaries narrowly ovate-lanceolate, acute (outer) or obtuse, densely hairy.</text>
+      <structure id="o18190" name="phyllary">
+        <character name="shape" value="ovate-lanceolate" modifier="narrowly" />
+        <character name="shape" value="acute" modifier="narrowly" />
+        <character name="shape" value="obtuse" modifier="narrowly" />
+        <character name="pubescence" value="hairy" modifier="densely" />
+      </structure>
+    </statement>
+    <statement id="869.txt-6">
+      <text>Florets 8–16.</text>
+      <structure id="o18191" name="floret">
+        <character char_type="range_value" name="count" from="8" to="16" />
+      </structure>
+    </statement>
+    <statement id="869.txt-7">
+      <text>Cypselae 1–1.5 mm.</text>
+      <structure id="o18192" name="cypsela">
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="1.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="869.txt-8">
+      <text>2 n = 18, 36.</text>
+      <structure id="o18193" name="chromosome">
+        <character name="count" value="18" />
+        <character name="count" value="36" />
+      </structure>
+    </statement>
+  </description>
+  <habitat>gravel soils</habitat>
+  <habitat>mountain meadows</habitat>
+  <habitat>stream banks</habitat>
+  <elevation>1600–3300 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <discussion>Subspecies bolanderi is known only from the western United States.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>19.</number>
+  <genus_name>MANTISALCA</genus_name>
+  <authority>Cassini</authority>
+  <place_of_publication>Bull. Sci. Soc. Philom. Paris 1818: 142. 1818</place_of_publication>
+  <common_name />
+  <derivation>Anagram of specific epithet salmantica</derivation>
+  <author_of_tribe_genus>David J. Keil</author_of_tribe_genus>
+  <description>
+    <statement id="191.txt-0">
+      <text>Biennials or perennials, 50–100 cm , herbage not spiny.</text>
+      <structure id="o2599" name="whole_organism">
+        <character char_type="range_value" name="size" from="50" from_unit="cm" to="100" to_unit="cm" />
+        <character name="life_style" value="biennial" />
+        <character name="life_style" value="perennial" />
+      </structure>
+      <structure id="o2601" name="herbage">
+        <character name="architecture_or_shape" value="spiny" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="191.txt-1">
+      <text>Stems erect, branched.</text>
+      <structure id="o2602" name="stem">
+        <character name="orientation" value="erect" />
+        <character name="architecture_or_shape" value="branched" />
+      </structure>
+    </statement>
+    <statement id="191.txt-2">
+      <text>Leaves basal and cauline;</text>
+    </statement>
+    <statement id="191.txt-3">
+      <text>petiolate (basal) or sessile (cauline);</text>
+      <structure id="o2603" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="architecture" value="petiolate" />
+        <character name="architecture" value="sessile" />
+      </structure>
+    </statement>
+    <statement id="191.txt-4">
+      <text>blade margins ± lobed (proximal) or dentate or lobed (distal), sparsely hirsute (basal and proximal cauline) or glabrous (distal cauline) .</text>
+      <structure id="o2604" name="margin" constraint="blade">
+        <character name="shape" value="lobed" modifier="±" />
+        <character name="shape" value="dentate" modifier="±" />
+        <character name="shape" value="lobed" modifier="±" />
+        <character name="pubescence" value="hirsute" modifier="sparsely" />
+        <character name="pubescence" value="glabrous" modifier="sparsely" />
+      </structure>
+    </statement>
+    <statement id="191.txt-5">
+      <text>Heads radiant, borne singly.</text>
+      <structure id="o2605" name="head">
+        <character name="architecture_or_arrangement" value="radiant" />
+        <character name="arrangement" value="singly" />
+      </structure>
+    </statement>
+    <statement id="191.txt-6">
+      <text>Involucres ovoid to spheric, 10–15 mm diam.</text>
+      <structure id="o2606" name="involucre">
+        <character char_type="range_value" name="shape" from="ovoid" to="spheric" />
+        <character name="shape" value="ovoid" />
+        <character name="shape" value="spheric" />
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="15" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="191.txt-7">
+      <text>Phyllaries many in 6–8 series, unequal, appressed, ovate , margins entire, apices obtuse to acute , narrowly membranous fringed, each with a short deciduous spine.</text>
+      <structure id="o2607" name="phyllary">
+        <character name="count" value="many" constraint="in series" constraintid="o2608" />
+        <character name="size" value="unequal" />
+        <character name="orientation" value="appressed" />
+        <character name="shape" value="ovate" />
+      </structure>
+      <structure id="o2608" name="series">
+        <character char_type="range_value" name="count" from="6" to="8" />
+      </structure>
+      <structure id="o2609" name="margin">
+        <character name="shape" value="entire" />
+      </structure>
+      <structure id="o2610" name="apex">
+        <character name="shape" value="obtuse" />
+        <character name="shape" value="acute" />
+        <character name="texture" value="membranous" modifier="narrowly" />
+        <character name="shape" value="fringed" />
+      </structure>
+      <structure id="o2611" name="spine">
+        <character name="size" value="short" />
+        <character name="duration_or_habit" value="deciduous" />
+      </structure>
+      <relation id="r369" name="with" from="o2610" to="o2611" negation="false" modifier="each" />
+    </statement>
+    <statement id="191.txt-8">
+      <text>Receptacles flat, epaleate, long-bristly.</text>
+      <structure id="o2612" name="receptacle">
+        <character name="shape" value="flat" />
+        <character name="architecture" value="epaleate" />
+      </structure>
+    </statement>
+    <statement id="191.txt-9">
+      <text>Florets many;</text>
+      <structure id="o2613" name="floret">
+        <character name="count" value="many" />
+      </structure>
+    </statement>
+    <statement id="191.txt-10">
+      <text>outer neuter, corollas expanded and ± raylike, ± bilateral, staminodes present;</text>
+      <structure id="o2614" name="floret" constraint="outer">
+        <character name="architecture" value="neuter" />
+      </structure>
+      <structure id="o2615" name="corolla">
+        <character name="size" value="expanded" />
+        <character name="shape" value="raylike" modifier="±" />
+        <character name="arrangement" value="bilateral" modifier="±" />
+      </structure>
+      <structure id="o2616" name="staminode">
+        <character name="presence" value="present" />
+      </structure>
+    </statement>
+    <statement id="191.txt-11">
+      <text>inner fertile, corollas purple (rarely white), radial, tubes very slender, throats narrowly funnelform, lobes linear;</text>
+      <structure id="o2617" name="floret" constraint="inner">
+        <character name="reproduction" value="fertile" />
+      </structure>
+      <structure id="o2618" name="corolla">
+        <character name="coloration" value="purple" />
+        <character name="arrangement" value="radial" />
+      </structure>
+      <structure id="o2619" name="tube">
+        <character name="size" value="slender" modifier="very" />
+      </structure>
+      <structure id="o2620" name="throat">
+        <character name="shape" value="funnelform" modifier="narrowly" />
+      </structure>
+      <structure id="o2621" name="lobe">
+        <character name="arrangement_or_shape" value="linear" />
+      </structure>
+    </statement>
+    <statement id="191.txt-12">
+      <text>anther bases tailed, apical appendages oblong;</text>
+      <structure id="o2622" name="base" constraint="anther">
+        <character name="shape" value="tailed" />
+      </structure>
+      <structure id="o2623" name="appendage" constraint="apical">
+        <character name="shape" value="oblong" />
+      </structure>
+    </statement>
+    <statement id="191.txt-13">
+      <text>style branches:</text>
+      <structure id="o2624" name="branch" constraint="style" />
+    </statement>
+    <statement id="191.txt-14">
+      <text>fused portions with minutely hairy nodes, distinct portions minute.</text>
+      <structure id="o2625" name="portion" constraint="fused" />
+      <structure id="o2626" name="node">
+        <character name="pubescence" value="hairy" modifier="minutely" />
+      </structure>
+      <relation id="r370" name="with" from="o2625" to="o2626" negation="false" />
+      <structure id="o2627" name="portion">
+        <character name="fusion" value="distinct" />
+        <character name="size" value="minute" />
+      </structure>
+    </statement>
+    <statement id="191.txt-15">
+      <text>Cypselae ± barrel-shaped, ± compressed, with elaiosomes ribbed, transversely roughened, apices without prominent collars, smooth, faces glabrous, basal attachment scars oblique or lateral;</text>
+      <structure id="o2628" name="cypsela">
+        <character name="shape" value="barrel-shaped" modifier="±" />
+        <character name="shape" value="compressed" modifier="±" />
+        <character name="texture" value="roughened" modifier="transversely" />
+      </structure>
+      <structure id="o2629" name="elaiosome">
+        <character name="architecture_or_shape" value="ribbed" />
+      </structure>
+      <relation id="r371" name="with" from="o2628" to="o2629" negation="false" />
+      <structure id="o2630" name="apex">
+        <character name="architecture_or_relief" value="smooth" />
+      </structure>
+      <structure id="o2631" name="collar">
+        <character name="prominence" value="prominent" />
+      </structure>
+      <relation id="r372" name="without" from="o2630" to="o2631" negation="false" />
+      <structure id="o2632" name="face">
+        <character name="pubescence" value="glabrous" />
+      </structure>
+      <structure id="o2633" name="scar" constraint="basal attachment">
+        <character name="shape_or_orientation" value="oblique" />
+        <character name="insertion_or_position" value="lateral" />
+      </structure>
+    </statement>
+    <statement id="191.txt-16">
+      <text>pappi of several series, outer of stiff, scabrous bristles , inner a single abaxial scale.</text>
+      <structure id="o2634" name="pappus">
+        <character name="position" value="outer" constraint="of bristles" constraintid="o2636" />
+        <character name="position" value="inner" />
+      </structure>
+      <structure id="o2635" name="series">
+        <character name="count" value="several" />
+      </structure>
+      <relation id="r373" name="consist_of" from="o2634" to="o2635" negation="false" />
+      <structure id="o2636" name="bristle">
+        <character name="texture" value="stiff" />
+        <character name="pubescence_or_relief" value="scabrous" />
+      </structure>
+      <structure id="o2637" name="scale" constraint="abaxial">
+        <character name="count" value="single" />
+      </structure>
+    </statement>
+    <statement id="191.txt-17">
+      <text>x = 9, 10, 11.</text>
+      <structure id="o2638" name="chromosome">
+        <character name="count" value="9" />
+        <character name="count" value="10" />
+        <character name="count" value="11" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species 4 (1 in the flora):</number_of_infrataxa>
+  <introduced>introduced;</introduced>
+  <general_distribution>Mediterranean region.</general_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

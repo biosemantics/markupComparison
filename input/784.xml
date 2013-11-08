@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>2a.</number>
+  <variety_name>Hesperevax acaulis (Kellogg) Greene var. robustior</variety_name>
+  <authority>Morefield</authority>
+  <place_of_publication>Syst. Bot. 17: 308, fig. 5N. 1992</place_of_publication>
+  <common_name>Robust evax</common_name>
+  <description>
+    <statement id="784.txt-0">
+      <text>Plants mostly 2–7 cm.</text>
+      <structure id="o16498" name="whole_organism">
+        <character char_type="range_value" name="size" from="2" from_unit="cm" to="7" to_unit="cm" modifier="mostly" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="784.txt-1">
+      <text>Stems 1(–7), ± erect;</text>
+      <structure id="o16499" name="stem">
+        <character char_type="range_value" name="atypical_count" from="1" to="7" from_inclusive="false" />
+        <character name="count" value="1" />
+        <character name="orientation" value="erect" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="784.txt-2">
+      <text>branches usually 0.</text>
+      <structure id="o16500" name="branch">
+        <character name="count" value="0" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="784.txt-3">
+      <text>Leaves cauline, sessile or obscurely petiolate, largest (9–)12–22(–32) × 2–4(–5) mm;</text>
+      <structure id="o16501" name="leaf">
+        <character name="insertion_or_position" value="cauline" />
+        <character name="architecture" value="sessile" />
+        <character name="architecture" value="petiolate" modifier="obscurely" />
+      </structure>
+    </statement>
+    <statement id="784.txt-4">
+      <text>petiole lengths mostly 0–0.8 times blade lengths;</text>
+      <structure id="o16502" name="petiole">
+        <character char_type="range_value" name="size" from="0" to="0.8" modifier="mostly" constraint="times blade" constraintid="o16503" />
+      </structure>
+      <structure id="o16503" name="blade" />
+    </statement>
+    <statement id="784.txt-5">
+      <text>blades oblanceolate to obovate, acute to obtuse;</text>
+      <structure id="o16504" name="blade">
+        <character char_type="range_value" name="shape" from="oblanceolate" to="obovate , acute" />
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="obovate" />
+        <character name="shape" value="acute" />
+        <character name="shape" value="obtuse" />
+      </structure>
+    </statement>
+    <statement id="784.txt-6">
+      <text>capitular leaves erect or distally ± spreading.</text>
+      <structure id="o16505" name="leaf" constraint="capitular">
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="spreading" modifier="distally ±" />
+      </structure>
+    </statement>
+    <statement id="784.txt-7">
+      <text>Heads borne singly or, sometimes, in glomerules of 2–8, largest 3–4 × 2.5–3.5 mm.</text>
+      <structure id="o16506" name="head">
+        <character name="arrangement" value="singly" />
+        <character name="arrangement" value="singly" />
+      </structure>
+      <structure id="o16507" name="glomerule" constraint="of 2-8, largest 3-4×2.5-3.5 mm" />
+      <relation id="r1772" name="in" from="o16506" to="o16507" negation="false" />
+    </statement>
+    <statement id="784.txt-8">
+      <text>Receptacles 1.4–1.9 × 1.2–1.7 mm.</text>
+      <structure id="o16508" name="receptacle">
+        <character char_type="range_value" name="length" from="1.4" from_unit="mm" to="1.9" to_unit="mm" />
+        <character char_type="range_value" name="width" from="1.2" from_unit="mm" to="1.7" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="784.txt-9">
+      <text>Pistillate paleae in 3–5 series, 2.5–4 mm.</text>
+      <structure id="o16509" name="palea" constraint="pistillate">
+        <character char_type="range_value" name="size" from="2.5" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+      <structure id="o16510" name="series">
+        <character char_type="range_value" name="count" from="3" to="5" />
+      </structure>
+      <relation id="r1773" name="in" from="o16509" to="o16510" negation="false" />
+    </statement>
+    <statement id="784.txt-10">
+      <text>Staminate paleae:</text>
+      <structure id="o16511" name="palea" constraint="staminate" />
+    </statement>
+    <statement id="784.txt-11">
+      <text>longest 2.5–3.2 mm.</text>
+      <structure id="o16512" name="palea" constraint="longest">
+        <character char_type="range_value" name="size" from="2.5" from_unit="mm" to="3.2" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="784.txt-12">
+      <text>Functionally staminate florets 2–5(–10);</text>
+      <structure id="o16513" name="floret" constraint="functionally staminate">
+        <character char_type="range_value" name="atypical_count" from="5" to="10" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="2" to="5" />
+      </structure>
+    </statement>
+    <statement id="784.txt-13">
+      <text>corollas 0.7–1 mm.</text>
+      <structure id="o16514" name="corolla">
+        <character char_type="range_value" name="size" from="0.7" from_unit="mm" to="1" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="784.txt-14">
+      <text>Cypselae mostly 1–1.6 mm.</text>
+      <structure id="o16515" name="cypsela">
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="1.6" to_unit="mm" modifier="mostly" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <habitat>dry slopes</habitat>
+  <habitat>flats</habitat>
+  <habitat>woodlands</habitat>
+  <habitat>chaparral</habitat>
+  <habitat>in clearings or under shrubs</habitat>
+  <habitat>often with extra moisture (swales</habitat>
+  <habitat>canyons</habitat>
+  <habitat>roadsides</habitat>
+  <habitat>path edges</habitat>
+  <elevation>60–1100 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <discussion>Variety robustior is known from the mountains of west-central California to interior southwestern Oregon (most known Oregon collections occurred before 1925). Like var. ambusticola, it tends to occur higher than var. acaulis where sympatric. Toward the south, it intergrades about equally with the other varieties (J. D. Morefield 1992c). The largest sizes described above are from a garden-grown specimen; field-collected plants from the same gathering were depauperate but otherwise typical. Variety robustior and Hesperevax sparsiflora var. brevifolia are superficially similar and have been confused; they are not known to intergrade or hybridize.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

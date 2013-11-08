@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>21.</number>
+  <species_name>Antennaria corymbosa</species_name>
+  <authority>E. E. Nelson</authority>
+  <place_of_publication>Bot. Gaz. 27: 212. 1899</place_of_publication>
+  <common_name>Flat-top or meadow pussytoes</common_name>
+  <synonym_of_species_name>Antennaria acuta Rydberg; A. dioica (Linnaeus) Gaertner var. corymbosa (E. E. Nelson) Jepson; A. hygrophila Greene; A. nardina Greene</synonym_of_species_name>
+  <description>
+    <statement id="656.txt-0">
+      <text>Dioecious.</text>
+      <structure id="o13714" name="whole_organism">
+        <character name="reproduction" value="dioecious" />
+      </structure>
+    </statement>
+    <statement id="656.txt-1">
+      <text>Plants 6–15 cm.</text>
+      <structure id="o13715" name="whole_organism">
+        <character char_type="range_value" name="size" from="6" from_unit="cm" to="15" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="656.txt-2">
+      <text>Stolons 1–10 cm.</text>
+      <structure id="o13716" name="stolon">
+        <character char_type="range_value" name="size" from="1" from_unit="cm" to="10" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="656.txt-3">
+      <text>Basal leaves 1-nerved, spatulate, 18–45 × 2–4 mm, tips mucronate, faces ± gray-tomentose.</text>
+      <structure id="o13717" name="leaf" constraint="basal">
+        <character name="architecture" value="1-nerved" />
+        <character name="shape" value="spatulate" />
+        <character char_type="range_value" name="length" from="18" from_unit="mm" to="45" to_unit="mm" />
+        <character char_type="range_value" name="width" from="2" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+      <structure id="o13718" name="tip">
+        <character name="shape" value="mucronate" />
+      </structure>
+      <structure id="o13719" name="face">
+        <character name="pubescence" value="gray-tomentose" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="656.txt-4">
+      <text>Cauline leaves linear, 8–13 mm, not flagged (apices acuminate).</text>
+      <structure id="o13720" name="leaf" constraint="cauline">
+        <character name="arrangement_or_shape" value="linear" />
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="13" to_unit="mm" />
+        <character name="orientation" value="flagged" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="656.txt-5">
+      <text>Heads 3–7 in corymbiform arrays.</text>
+      <structure id="o13721" name="head">
+        <character char_type="range_value" name="count" from="3" to="7" constraint="in arrays" constraintid="o13722" />
+      </structure>
+      <structure id="o13722" name="array">
+        <character name="architecture" value="corymbiform" />
+      </structure>
+    </statement>
+    <statement id="656.txt-6">
+      <text>Involucres:</text>
+      <structure id="o13723" name="involucre" />
+    </statement>
+    <statement id="656.txt-7">
+      <text>staminate 4–5.3 mm;</text>
+      <structure id="o13724" name="involucre" constraint="staminate">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="5.3" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="656.txt-8">
+      <text>pistillate 4–5 mm.</text>
+      <structure id="o13725" name="involucre" constraint="pistillate">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="656.txt-9">
+      <text>Phyllaries (bases each with distinct dark brown or blackish spot) distally white or light brown.</text>
+      <structure id="o13726" name="phyllary">
+        <character name="coloration" value="white" modifier="distally" />
+        <character name="coloration" value="brown" modifier="distally ;light" />
+      </structure>
+    </statement>
+    <statement id="656.txt-10">
+      <text>Corollas:</text>
+      <structure id="o13727" name="corolla" />
+    </statement>
+    <statement id="656.txt-11">
+      <text>staminate 2–3.2 mm;</text>
+      <structure id="o13728" name="corolla" constraint="staminate">
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="3.2" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="656.txt-12">
+      <text>pistillate 2.5–3.5 mm.</text>
+      <structure id="o13729" name="corolla" constraint="pistillate">
+        <character char_type="range_value" name="size" from="2.5" from_unit="mm" to="3.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="656.txt-13">
+      <text>Cypselae 0.5–1 mm, slightly papillate;</text>
+      <structure id="o13730" name="cypsela">
+        <character char_type="range_value" name="size" from="0.5" from_unit="mm" to="1" to_unit="mm" />
+        <character name="relief_or_pubescence" value="papillate" modifier="slightly" />
+      </structure>
+    </statement>
+    <statement id="656.txt-14">
+      <text>pappi:</text>
+      <structure id="o13731" name="pappus" />
+    </statement>
+    <statement id="656.txt-15">
+      <text>staminate 2.5–3.5 mm;</text>
+      <structure id="o13732" name="pappus" constraint="staminate">
+        <character char_type="range_value" name="size" from="2.5" from_unit="mm" to="3.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="656.txt-16">
+      <text>pistillate 3.5–4.5 mm.</text>
+      <structure id="o13733" name="pappus" constraint="pistillate">
+        <character char_type="range_value" name="size" from="3.5" from_unit="mm" to="4.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="656.txt-17">
+      <text>2 n = 28.</text>
+      <structure id="o13734" name="chromosome">
+        <character name="count" value="28" />
+      </structure>
+    </statement>
+  </description>
+  <habitat>moist subalpine-alpine willow thickets in the rocky and cascade mountains</habitat>
+  <habitat>the sierra nevada and mountains of the great basin</habitat>
+  <elevation>1900–3500 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <discussion>Antennaria corymbosa is characterized by linear-oblanceolate basal leaves and white-tipped phyllaries, each with a distinct black spot near the base of the scarious portion. A form with black phyllaries (A. acuta) occurs sporadically throughout the range of the species (R. J. Bayer 1988). Antennaria corymbosa is a sexual progenitor of the A. rosea complex.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

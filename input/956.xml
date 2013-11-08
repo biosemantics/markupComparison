@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Tripleurospermum inodorum</species_name>
+  <authority>( Linnaeus) Schultz-Bipontinus</authority>
+  <place_of_publication>Tanaceteen, 32. 1844</place_of_publication>
+  <common_name>Scentless or false mayweed, false chamomile, matricaire inodore</common_name>
+  <synonym_of_species_name>Matricaria inodora Linnaeus, Fl. Suec. ed. 2, 297. 1755; Chamomilla inodora (Linnaeus) K. Koch; M. maritima Linnaeus var. agrestis (Knaf) Wilmott; M. maritima subsp. inodora (Linnaeus) Soó; M. maritima var. inodora (Linnaeus) Soó; M. perforata Mérat; Tripleurospermum maritimum (Linnaeus) W. D. J. Koch subsp. inodorum (Linnaeus) Applequist; T. perforatum (Mérat) M. Lainz</synonym_of_species_name>
+  <description>
+    <statement id="956.txt-0">
+      <text>Annuals (sometimes biennials or perennials), (5–)30–60(–80) cm.</text>
+      <structure id="o19734" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="5" to="30" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_size" from="60" to="80" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="30" from_unit="cm" to="60" to_unit="cm" />
+        <character name="life_style" value="annual" />
+      </structure>
+    </statement>
+    <statement id="956.txt-1">
+      <text>Stems 1, ascending to erect, usually branched distally, sometimes proximally, glabrous or glabrate (sparsely hairy when young).</text>
+      <structure id="o19735" name="stem">
+        <character name="count" value="1" />
+        <character char_type="range_value" name="orientation" from="ascending" to="erect" />
+        <character name="orientation" value="ascending" />
+        <character name="orientation" value="erect" />
+        <character name="architecture_or_shape" value="branched" modifier="usually ; distally" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="glabrate" />
+      </structure>
+    </statement>
+    <statement id="956.txt-2">
+      <text>Leaf blades 2–8 cm, ultimate lobes filiform, 4–20 mm, not fleshy, apices apiculate.</text>
+      <structure id="o19736" name="blade" constraint="leaf">
+        <character char_type="range_value" name="size" from="2" from_unit="cm" to="8" to_unit="cm" />
+      </structure>
+      <structure id="o19737" name="lobe" constraint="ultimate">
+        <character name="shape" value="filiform" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="20" to_unit="mm" />
+        <character name="texture" value="fleshy" modifier="not" />
+      </structure>
+      <structure id="o19738" name="apex">
+        <character name="shape" value="apiculate" />
+      </structure>
+    </statement>
+    <statement id="956.txt-3">
+      <text>Heads (1–)10–200+, 3–4.5 cm diam., in corymbiform arrays of solitary heads at ends of branches.</text>
+      <structure id="o19739" name="head">
+        <character char_type="range_value" name="atypical_count" from="1" to="10" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="10" to="200" upper_restricted="false" />
+        <character char_type="range_value" name="size" from="3" from_unit="cm" to="4.5" to_unit="cm" />
+      </structure>
+      <structure id="o19740" name="array">
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <relation id="r2056" name="in" from="o19739" to="o19740" negation="false" />
+      <structure id="o19741" name="head">
+        <character name="arrangement_or_habit" value="solitary" />
+      </structure>
+      <relation id="r2057" name="part_of" from="o19740" to="o19741" negation="false" />
+      <structure id="o19742" name="end" />
+      <relation id="r2058" name="at" from="o19740" to="o19742" negation="false" />
+      <structure id="o19743" name="branch" />
+      <relation id="r2059" name="part_of" from="o19742" to="o19743" negation="false" />
+    </statement>
+    <statement id="956.txt-4">
+      <text>Phyllaries centrally dark greenish or brownish, oblong, subequal, scarious margins colorless to light brown, 0.1–0.2 mm wide.</text>
+      <structure id="o19744" name="phyllary">
+        <character name="coloration" value="greenish" modifier="centrally ;dark" />
+        <character name="coloration" value="brownish" modifier="centrally" />
+        <character name="shape" value="oblong" />
+        <character name="size" value="subequal" />
+      </structure>
+      <structure id="o19745" name="margin">
+        <character name="texture" value="scarious" />
+        <character char_type="range_value" name="coloration" from="colorless" to="light-brown" />
+        <character name="coloration" value="colorless" />
+        <character name="coloration" value="brown" modifier="light" />
+        <character char_type="range_value" name="size" from="0.1" from_unit="mm" to="0.2" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="956.txt-5">
+      <text>Ray florets 10–25;</text>
+      <structure id="o19746" name="floret" constraint="ray">
+        <character char_type="range_value" name="count" from="10" to="25" />
+      </structure>
+    </statement>
+    <statement id="956.txt-6">
+      <text>corollas (4–)10–13(–20) mm.</text>
+      <structure id="o19747" name="corolla">
+        <character char_type="range_value" name="atypical_size" from="4" to="10" from_unit="mm" to_unit="mm" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_size" from="13" to="20" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="13" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="956.txt-7">
+      <text>Disc corollas 1–2.5 mm.</text>
+      <structure id="o19748" name="corolla" constraint="disc">
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="2.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="956.txt-9">
+      <text>2 n = 18, 36.</text>
+      <structure id="o19749" name="chromosome">
+        <character name="count" value="18" />
+        <character name="count" value="36" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>may</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>fields</habitat>
+  <habitat>dry shorelines</habitat>
+  <habitat>waste places</habitat>
+  <elevation>0–1500+ m;</elevation>
+  <introduced>introduced;</introduced>
+  <global_distribution>Greenland</global_distribution>
+  <ca_distribution>Alta.</ca_distribution>
+  <ca_distribution>B.C.</ca_distribution>
+  <ca_distribution>Man.</ca_distribution>
+  <ca_distribution>N.B.</ca_distribution>
+  <ca_distribution>Nfld. and Labr.</ca_distribution>
+  <ca_distribution>N.W.T.</ca_distribution>
+  <ca_distribution>N.S.</ca_distribution>
+  <ca_distribution>Ont.</ca_distribution>
+  <ca_distribution>P.E.I.</ca_distribution>
+  <ca_distribution>Que.</ca_distribution>
+  <ca_distribution>Sask.</ca_distribution>
+  <ca_distribution>Yukon</ca_distribution>
+  <us_distribution>Ala.</us_distribution>
+  <us_distribution>Alaska</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Conn.</us_distribution>
+  <us_distribution>Fla.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Ill.</us_distribution>
+  <us_distribution>Iowa</us_distribution>
+  <us_distribution>Kans.</us_distribution>
+  <us_distribution>Ky.</us_distribution>
+  <us_distribution>Maine</us_distribution>
+  <us_distribution>Md.</us_distribution>
+  <us_distribution>Mass.</us_distribution>
+  <us_distribution>Mich.</us_distribution>
+  <us_distribution>Minn.</us_distribution>
+  <us_distribution>Mo.</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>Nebr.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>N.H.</us_distribution>
+  <us_distribution>N.J.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>N.Dak.</us_distribution>
+  <us_distribution>Ohio</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <us_distribution>S.Dak.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <us_distribution>Wis.</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <global_distribution>also introduced in Europe</global_distribution>
+  <global_distribution>Pacific Islands (New Zealand).</global_distribution>
+  <discussion>Tripleurospermum inodorum has been classified as a noxious weed (class C) in the state of Washington and is considered invasive in other states (it is resistant to some herbicides); it is a weed of cereals in western Canada. W. L. Applequist (2002) has shown that the name Matricaria inodora is not a superfluous new name for M. chamomilla as earlier stated by S. Rauschert (1974). Therefore, the appropriate name under Tripleuro-spermum is T. inodorum. She also considered its type to belong in T. maritimum and formally recognized it there as subsp. inodorum, on the basis of hybridization with other T. maritimum subspecies (A. Vaarama 1953); on the same basis, however, Hämet-Ahti maintained the species distinction between T. inodorum and T. maritimum, while making T. phaeocephalum a subspecies of the latter. Q. O. N. Kay (1994), in a more extensive review of the literature and of hybridization data, also maintained T. inodorum and T. maritimum as distinct species, a conclusion followed here. From the standpoint of weed science, taxonomic merging of T. inodorum and T. maritimum has the inconvenience of grouping under a single specific name taxa that have different physiologies, ecologies, weed potentials, and, possibly, reactions to weed control measures.</discussion>
+  <discussion>The name Matricaria inodora var. agrestis Weiss was not validly published.</discussion>
+  <references>SELECTED REFERENCE Kay, Q. O. N. 1994. Biological flora of the British Isles: Tripleurospermum inodorum (L.) Schultz Bip. (Matricaria inodora L., Matricaria maritima auct. p.p. non L., Matricaria perforata Merat, Tripleurospermum perforatum (Merat) Wagenitz, Tripleurospermum maritimum (L.) Schultz Bip. p.p. non L.). J. Ecol. 82: 681–698.</references>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

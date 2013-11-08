@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Chondrilla juncea</species_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 796. 1753</place_of_publication>
+  <common_name>Rush skeletonweed</common_name>
+  <description>
+    <statement id="334.txt-0">
+      <text>Stems with retrorse, coarse, bristly hairs on basal 10–15 cm, distally glabrous.</text>
+      <structure id="o6180" name="stem">
+        <character name="pubescence" value="glabrous" modifier="distally" />
+      </structure>
+      <structure id="o6181" name="hair" constraint="on basal 10-15 cm">
+        <character name="orientation" value="retrorse" />
+        <character name="texture" value="coarse" />
+        <character name="pubescence" value="bristly" />
+      </structure>
+      <relation id="r776" name="with" from="o6180" to="o6181" negation="false" />
+    </statement>
+    <statement id="334.txt-1">
+      <text>Leaves:</text>
+      <structure id="o6182" name="leaf" />
+    </statement>
+    <statement id="334.txt-2">
+      <text>basal withered before flowering, blades 5–13 × 1.5–3 cm.</text>
+      <structure id="o6183" name="leaf" constraint="basal">
+        <character name="duration" value="withered" modifier="before flowering" />
+      </structure>
+      <structure id="o6184" name="blade">
+        <character char_type="range_value" name="length" from="5" from_unit="cm" to="13" to_unit="cm" />
+        <character char_type="range_value" name="width" from="1.5" from_unit="cm" to="3" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="334.txt-3">
+      <text>Involucres 9–12 mm.</text>
+      <structure id="o6185" name="involucre">
+        <character char_type="range_value" name="size" from="9" from_unit="mm" to="12" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="334.txt-4">
+      <text>Phyllaries tomentose.</text>
+      <structure id="o6186" name="phyllary">
+        <character name="pubescence" value="tomentose" />
+      </structure>
+    </statement>
+    <statement id="334.txt-5">
+      <text>Cypselae:</text>
+      <structure id="o6187" name="cypsela" />
+    </statement>
+    <statement id="334.txt-6">
+      <text>bodies 3–4 mm, beaks 5–6 mm, ribs with antrorse tubercles distally;</text>
+      <structure id="o6188" name="body">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+      <structure id="o6189" name="beak">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+      <structure id="o6190" name="rib" />
+      <structure id="o6191" name="tubercle">
+        <character name="orientation" value="antrorse" />
+      </structure>
+      <relation id="r777" name="with" from="o6190" to="o6191" negation="false" modifier="distally" />
+    </statement>
+    <statement id="334.txt-7">
+      <text>pappi 5–6 mm.</text>
+      <structure id="o6192" name="pappus">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="334.txt-8">
+      <text>2 n = 15.</text>
+      <structure id="o6193" name="chromosome">
+        <character name="count" value="15" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <habitat>roadsides</habitat>
+  <habitat>rangelands</habitat>
+  <habitat>grain fields</habitat>
+  <habitat>waste places and other disturbed ground</habitat>
+  <elevation>0–600 m;</elevation>
+  <introduced>introduced;</introduced>
+  <ca_distribution>B.C.</ca_distribution>
+  <ca_distribution>Ont.</ca_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Del.</us_distribution>
+  <us_distribution>D.C.</us_distribution>
+  <us_distribution>Ga.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Ill.</us_distribution>
+  <us_distribution>Md.</us_distribution>
+  <us_distribution>Mich.</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>N.J.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <us_distribution>Va.</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <us_distribution>W.Va.</us_distribution>
+  <global_distribution>Eurasia</global_distribution>
+  <global_distribution>Africa</global_distribution>
+  <global_distribution>Australia.</global_distribution>
+  <discussion>Chondrilla juncea is native to the Mediterranean region of Europe, North Africa, and Asia Minor. It is a weed in North America (not listed as noxious at the federal level). Its deep and extensive root system competes strongly for soil moisture and nutrients and makes control difficult because it helps the plants survive drought, cultivation, grazing, and most selective herbicides. The large, stiff branches and stems interfere with harvesting. The species is said to be “the most serious weed of Australian wheat-growing regions” (F. D. Panetta and J. Dodd 1987). It also infests millions of acres in California, Idaho, Oregon, and Washington.</discussion>
+  <discussion>Chondrilla juncea is an obligate apomict; its seeds are formed by a parthenogenetic process (E. Battaglia 1949). Nevertheless, the species is highly variable in morphology and biochemical traits.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

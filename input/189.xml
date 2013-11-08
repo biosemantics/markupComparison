@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>18.</number>
+  <genus_name>AMBERBOA</genus_name>
+  <authority>(Persoon) Lessing</authority>
+  <place_of_publication>Syn. Gen. Compos., 8. 1832</place_of_publication>
+  <conserved>name conserved ·</conserved>
+  <common_name />
+  <derivation>Pre-Linnaean genus name Amberboi Vaillant, cited by Linnaeus in his original publication of Centaurea</derivation>
+  <author_of_tribe_genus>David J. Keil</author_of_tribe_genus>
+  <synonym_of_genus_name>Centaurea Linnaeus subg. Amberboa Persoon, Syn. Pl. 2: 481. 1807</synonym_of_genus_name>
+  <description>
+    <statement id="189.txt-0">
+      <text>Annuals or biennials , 20–70 cm;</text>
+      <structure id="o2510" name="whole_organism">
+        <character char_type="range_value" name="size" from="20" from_unit="cm" to="70" to_unit="cm" />
+        <character name="life_style" value="annual" />
+        <character name="life_style" value="biennial" />
+      </structure>
+    </statement>
+    <statement id="189.txt-1">
+      <text>herbage not prickly, glabrate.</text>
+      <structure id="o2512" name="herbage">
+        <character name="architecture" value="prickly" modifier="not" />
+        <character name="pubescence" value="glabrate" />
+      </structure>
+    </statement>
+    <statement id="189.txt-2">
+      <text>Stems erect , usually branched from near bases.</text>
+      <structure id="o2513" name="stem">
+        <character name="orientation" value="erect" />
+        <character name="architecture_or_shape" value="branched" modifier="usually" constraint="from bases" constraintid="o2514" />
+      </structure>
+      <structure id="o2514" name="base" />
+    </statement>
+    <statement id="189.txt-3">
+      <text>Leaves basal and cauline (distal smaller);</text>
+    </statement>
+    <statement id="189.txt-4">
+      <text>petiolate (basal and proximal cauline) or sessile (distal cauline);</text>
+      <structure id="o2515" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="architecture" value="petiolate" />
+        <character name="architecture" value="sessile" />
+      </structure>
+    </statement>
+    <statement id="189.txt-5">
+      <text>blade margins dentate or ± lobed (basal) or entire to lobed (cauline).</text>
+      <structure id="o2516" name="margin" constraint="blade">
+        <character name="shape" value="dentate" />
+        <character name="shape" value="lobed or entire to lobed" />
+        <character char_type="range_value" name="shape" from="entire" to="lobed" modifier="±" />
+        <character name="shape" value="lobed" modifier="±" />
+        <character name="shape" value="entire" modifier="±" />
+        <character name="shape" value="lobed" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="189.txt-6">
+      <text>Heads ± radiant, borne singly.</text>
+      <structure id="o2517" name="head">
+        <character name="architecture_or_arrangement" value="radiant" modifier="±" />
+        <character name="arrangement" value="singly" />
+      </structure>
+    </statement>
+    <statement id="189.txt-7">
+      <text>Involucres ovoid, 12–16 mm diam.</text>
+      <structure id="o2518" name="involucre">
+        <character name="shape" value="ovoid" />
+        <character char_type="range_value" name="size" from="12" from_unit="mm" to="16" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="189.txt-8">
+      <text>Phyllaries many in several series, bases appressed, margins scarious, apices obtuse, inner with oblong, scarious appendages, these entire or spiny.</text>
+      <structure id="o2519" name="phyllary">
+        <character name="count" value="many" constraint="in series" constraintid="o2520" />
+      </structure>
+      <structure id="o2520" name="series">
+        <character name="count" value="several" />
+      </structure>
+      <structure id="o2521" name="base">
+        <character name="orientation" value="appressed" />
+      </structure>
+      <structure id="o2522" name="margin">
+        <character name="texture" value="scarious" />
+      </structure>
+      <structure id="o2523" name="apex">
+        <character name="shape" value="obtuse" />
+        <character name="position" value="inner" constraint="with appendages" constraintid="o2524" />
+        <character name="shape" value="entire" />
+        <character name="shape" value="spiny" />
+      </structure>
+      <structure id="o2524" name="appendage">
+        <character name="shape" value="oblong" />
+        <character name="texture" value="scarious" />
+      </structure>
+    </statement>
+    <statement id="189.txt-9">
+      <text>Receptacles flat, epaleate, bearing setiform scales (“flattened bristles”).</text>
+      <structure id="o2525" name="receptacle">
+        <character name="shape" value="flat" />
+        <character name="architecture" value="epaleate" />
+      </structure>
+      <structure id="o2526" name="scale">
+        <character name="shape" value="setiform" />
+      </structure>
+    </statement>
+    <statement id="189.txt-10">
+      <text>Florets many;</text>
+      <structure id="o2527" name="floret">
+        <character name="count" value="many" />
+      </structure>
+    </statement>
+    <statement id="189.txt-11">
+      <text>corollas white to pink, purple, or yellow;</text>
+      <structure id="o2528" name="corolla">
+        <character char_type="range_value" name="coloration" from="white" to="pink , purple , or yellow" />
+        <character name="coloration" value="white" />
+        <character name="coloration" value="pink" />
+        <character name="coloration" value="purple" />
+        <character name="coloration" value="yellow" />
+      </structure>
+    </statement>
+    <statement id="189.txt-12">
+      <text>outer sterile, corollas expanded, raylike, bilateral, 5–many-lobed;</text>
+      <structure id="o2529" name="floret" constraint="outer">
+        <character name="reproduction" value="sterile" />
+      </structure>
+      <structure id="o2530" name="corolla">
+        <character name="size" value="expanded" />
+        <character name="shape" value="raylike" />
+        <character name="arrangement" value="bilateral" />
+        <character name="shape" value="5-many-lobed" />
+      </structure>
+    </statement>
+    <statement id="189.txt-13">
+      <text>inner fertile, corollas actinomorphic;</text>
+      <structure id="o2531" name="floret" constraint="inner">
+        <character name="reproduction" value="fertile" />
+      </structure>
+      <structure id="o2532" name="corolla">
+        <character name="architecture" value="actinomorphic" />
+      </structure>
+    </statement>
+    <statement id="189.txt-14">
+      <text>anther bases tailed, apical appendages oblong;</text>
+      <structure id="o2533" name="base" constraint="anther">
+        <character name="shape" value="tailed" />
+      </structure>
+      <structure id="o2534" name="appendage" constraint="apical">
+        <character name="shape" value="oblong" />
+      </structure>
+    </statement>
+    <statement id="189.txt-15">
+      <text>styles branches:</text>
+      <structure id="o2535" name="branch" constraint="styles" />
+    </statement>
+    <statement id="189.txt-16">
+      <text>fused portions with basal nodes minutely hairy, distinct portions minute .</text>
+      <structure id="o2536" name="portion" constraint="fused" />
+      <structure id="o2537" name="node" constraint="basal">
+        <character name="pubescence" value="hairy" modifier="minutely" />
+      </structure>
+      <relation id="r360" name="with" from="o2536" to="o2537" negation="false" />
+      <structure id="o2538" name="portion">
+        <character name="fusion" value="distinct" />
+        <character name="size" value="minute" />
+      </structure>
+    </statement>
+    <statement id="189.txt-17">
+      <text>Cypselae oblong, compressed, (apices denticulate), faces ribbed, wrinkled, with long, ascending hairs, basal attachment scars lateral, surrounded by whitish, swollen rims;</text>
+      <structure id="o2539" name="cypsela">
+        <character name="shape" value="oblong" />
+        <character name="shape" value="compressed" />
+      </structure>
+      <structure id="o2540" name="face">
+        <character name="architecture_or_shape" value="ribbed" />
+        <character name="relief" value="wrinkled" />
+      </structure>
+      <structure id="o2541" name="hair">
+        <character name="size" value="long" />
+        <character name="orientation" value="ascending" />
+      </structure>
+      <relation id="r361" name="with" from="o2540" to="o2541" negation="false" />
+      <structure id="o2542" name="scar" constraint="basal attachment">
+        <character name="insertion_or_position" value="lateral" />
+        <character name="architecture" value="surrounded" constraint="by rims" constraintid="o2543" />
+      </structure>
+      <structure id="o2543" name="rim">
+        <character name="coloration" value="whitish" />
+        <character name="shape" value="swollen" />
+      </structure>
+    </statement>
+    <statement id="189.txt-18">
+      <text>pappi persistent, of many scales in several series, distinct, narrow [rarely 0].</text>
+      <structure id="o2544" name="pappus">
+        <character name="duration" value="persistent" />
+        <character name="fusion" value="distinct" />
+        <character name="size" value="narrow" />
+      </structure>
+      <structure id="o2545" name="scale">
+        <character name="count" value="many" />
+      </structure>
+      <relation id="r362" name="consist_of" from="o2544" to="o2545" negation="false" />
+      <structure id="o2546" name="series">
+        <character name="count" value="several" />
+      </structure>
+      <relation id="r363" name="in" from="o2545" to="o2546" negation="false" />
+    </statement>
+    <statement id="189.txt-19">
+      <text>x = 16.</text>
+      <structure id="o2547" name="chromosome">
+        <character name="count" value="16" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species 6 (1 in the flora):</number_of_infrataxa>
+  <introduced>introduced;</introduced>
+  <general_distribution>Mediterranean region to c Asia.</general_distribution>
+  <discussion>Amberboa has often been included within Centaurea, from which it differs by cypselae each with a denticulate apex and a conspicuous rim around the basal scar. The chromosome base number x = 16 is higher than that in most species of Centaurea in a strict sense. Molecular phylogenetic studies of the relationships of Cynareae genera (A. Susanna et al. 1995) place Amberboa as sister to the remaining genera of the Centaureinae.</discussion>
+  <references>SELECTED REFERENCES Gabrielian, E. and C. E. Jarvis. 1996. Amberboa moschata, A. glauca, and A. amberboi (Asteraceae: Cardueae). A note on their taxonomy and typification of their names. Taxon 45: 213–215. 1996. Iljin, M. M. 1932. A critical survey of the genus Amberboa Less. Izv. Bot. Sada Akad. Nauk S.S.S.R. 30: 101–116.</references>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

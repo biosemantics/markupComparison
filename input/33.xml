@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>3a.</number>
+  <subspecies_name>Echinops ritro Linnaeus subsp. ruthenicus</subspecies_name>
+  <authority>(M. Bieberstein) Nyman</authority>
+  <place_of_publication>Consp. Fl. Eur. 2: 399. 1879</place_of_publication>
+  <common_name>Southern globe-thistle</common_name>
+  <synonym_of_subspecies_name>Echinops ruthenicus M. Bieberstein, Fl. Taur.-Caucas. 3: 597. 1819</synonym_of_subspecies_name>
+  <description>
+    <statement id="33.txt-0">
+      <text>Plants 100–150 cm.</text>
+      <structure id="o6031" name="whole_organism">
+        <character char_type="range_value" name="size" from="100" from_unit="cm" to="150" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="33.txt-1">
+      <text>Stems simple or distally ± branched, ± white-tomentose, proximally sometimes ± glabrate.</text>
+      <structure id="o6032" name="stem">
+        <character name="architecture" value="simple" />
+        <character name="architecture_or_shape" value="branched" modifier="distally ±" />
+        <character name="pubescence" value="white-tomentose" modifier="±" />
+        <character name="pubescence" value="glabrate" modifier="proximally sometimes ±" />
+      </structure>
+    </statement>
+    <statement id="33.txt-2">
+      <text>Leaves:</text>
+      <structure id="o6033" name="leaf" />
+    </statement>
+    <statement id="33.txt-3">
+      <text>basal and proximal cauline winged-peti olate, mid cauline ± clasping;</text>
+      <structure id="o6034" name="leaf" constraint="basal and proximal cauline" />
+      <structure id="o6035" name="leaf" constraint="mid cauline">
+        <character name="architecture" value="clasping" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="33.txt-4">
+      <text>blades elliptic to obovate, margins 2-pinnately divided nearly to midvein, lobes linear to oblong, spiny-serrate, spine-tipped, abaxial faces white-tomentose, adaxial faces green, sparsely viscid-glandular;</text>
+      <structure id="o6036" name="blade">
+        <character char_type="range_value" name="shape" from="elliptic" to="obovate" />
+        <character name="shape" value="elliptic" />
+        <character name="shape" value="obovate" />
+      </structure>
+      <structure id="o6037" name="margin" />
+      <structure id="o6038" name="midvein" />
+      <relation id="r760" name="2-pinnately divided nearly to" from="o6037" to="o6038" negation="false" />
+      <structure id="o6039" name="lobe">
+        <character name="arrangement_or_shape" value="linear" />
+        <character name="shape" value="oblong" />
+        <character name="shape" value="spiny-serrate" />
+      </structure>
+      <structure id="o6040" name="face" constraint="abaxial">
+        <character name="pubescence" value="white-tomentose" />
+      </structure>
+      <structure id="o6041" name="face" constraint="adaxial">
+        <character name="coloration" value="green" />
+        <character name="architecture_or_exudation_or_pubescence" value="viscid-glandular" modifier="sparsely" />
+      </structure>
+    </statement>
+    <statement id="33.txt-5">
+      <text>distal smaller, less divided.</text>
+      <structure id="o6042" name="leaf" constraint="distal">
+        <character name="size" value="smaller" />
+        <character name="shape" value="divided" modifier="less" />
+      </structure>
+    </statement>
+    <statement id="33.txt-6">
+      <text>Secondary heads 3.5–4.5 cm diam.</text>
+      <structure id="o6043" name="head" constraint="secondary">
+        <character char_type="range_value" name="size" from="3.5" from_unit="cm" to="4.5" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="33.txt-7">
+      <text>Involucres 15–20 mm.</text>
+      <structure id="o6044" name="involucre">
+        <character char_type="range_value" name="size" from="15" from_unit="mm" to="20" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="33.txt-8">
+      <text>Inner phyllaries lavender, apices attenuate, serrulate, scabrous, not glandular.</text>
+      <structure id="o6045" name="phyllary" constraint="inner">
+        <character name="coloration" value="lavender" />
+      </structure>
+      <structure id="o6046" name="apex">
+        <character name="shape" value="attenuate" />
+        <character name="shape" value="serrulate" />
+        <character name="pubescence_or_relief" value="scabrous" />
+        <character name="architecture_or_exudation_or_pubescence" value="glandular" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="33.txt-9">
+      <text>Corollas blue to purple (white).</text>
+      <structure id="o6047" name="corolla">
+        <character char_type="range_value" name="coloration" from="blue" to="purple" />
+        <character name="coloration" value="blue" />
+        <character name="coloration" value="purple" />
+      </structure>
+    </statement>
+    <statement id="33.txt-10">
+      <text>Cypselae ca. 6 mm;</text>
+      <structure id="o6048" name="cypsela">
+        <character name="size" value="6" unit="mm" />
+      </structure>
+    </statement>
+    <statement id="33.txt-11">
+      <text>pappi of ± connate, minutely barbed scales ca. 1 mm.</text>
+      <structure id="o6049" name="pappus">
+        <character name="size" value="1" unit="mm" />
+      </structure>
+      <structure id="o6050" name="scale">
+        <character name="fusion" value="connate" modifier="±" />
+        <character name="architecture" value="barbed" modifier="minutely" />
+      </structure>
+      <relation id="r761" name="consist_of" from="o6049" to="o6050" negation="false" />
+    </statement>
+    <statement id="33.txt-12">
+      <text>2 n = 32 (Greece).</text>
+      <structure id="o6051" name="chromosome">
+        <character name="count" value="32" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>disturbed sites</habitat>
+  <elevation>0–500 m;</elevation>
+  <introduced>introduced;</introduced>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <global_distribution>Europe</global_distribution>
+  <global_distribution>Asia.</global_distribution>
+  <discussion>Subspecies ruthenicus sometimes escapes from cultivation.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

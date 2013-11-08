@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>15</number>
+  <genus_name>SAUSSUREA</genus_name>
+  <authority>EA de Candolle</authority>
+  <place_of_publication>Ann. Mus. Natl. Hist. Nat. 16: 156, 196, plates 10–13. 1810</place_of_publication>
+  <conserved>name conserved ·</conserved>
+  <common_name>Saw-wort</common_name>
+  <derivation>For Nicolas Théodore (1767–1845) and Horace Bénédict (1740–1799) de Saussure, Swiss naturalists</derivation>
+  <author_of_tribe_genus>David J. Keil</author_of_tribe_genus>
+  <description>
+    <statement id="172.txt-0">
+      <text>Perennials, 5–120+ cm;</text>
+      <structure id="o2091" name="whole_organism">
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="120" to_unit="cm" upper_restricted="false" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="172.txt-1">
+      <text>herbage tomentose or glabrescent, not spiny.</text>
+      <structure id="o2092" name="herbage">
+        <character name="pubescence" value="tomentose" />
+        <character name="pubescence" value="glabrescent" />
+        <character name="architecture_or_shape" value="spiny" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="172.txt-2">
+      <text>Stems erect or ascending, simple or branched.</text>
+      <structure id="o2093" name="stem">
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="ascending" />
+        <character name="architecture" value="simple" />
+        <character name="architecture" value="branched" />
+      </structure>
+    </statement>
+    <statement id="172.txt-3">
+      <text>Leaves basal or cauline (sometimes cauline only), sessile or petiolate;</text>
+      <structure id="o2094" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="architecture" value="sessile" />
+        <character name="architecture" value="petiolate" />
+      </structure>
+    </statement>
+    <statement id="172.txt-4">
+      <text>blade margins entire or dentate to pinnately lobed, faces glabrous to densely tomentose, glandular or eglandular.</text>
+      <structure id="o2095" name="margin" constraint="blade">
+        <character char_type="range_value" name="shape" from="dentate" to="pinnately lobed" />
+        <character name="shape" value="entire" />
+        <character name="shape" value="dentate" />
+        <character name="shape" value="lobed" modifier="pinnately" />
+      </structure>
+      <structure id="o2096" name="face">
+        <character char_type="range_value" name="pubescence" from="glabrous" to="densely tomentose" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="tomentose" modifier="densely" />
+        <character name="architecture" value="glandular" />
+        <character name="architecture" value="eglandular" />
+      </structure>
+    </statement>
+    <statement id="172.txt-5">
+      <text>Heads discoid, borne singly or in corymbiform arrays.</text>
+      <structure id="o2097" name="head">
+        <character name="shape_or_architecture" value="discoid" />
+        <character name="arrangement" value="singly" />
+        <character name="arrangement" value="in corymbiform arrays" />
+      </structure>
+      <structure id="o2098" name="array">
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <relation id="r313" name="in" from="o2097" to="o2098" negation="false" />
+    </statement>
+    <statement id="172.txt-6">
+      <text>Involucres ovoid to campanulate or ± turbinate.</text>
+      <structure id="o2099" name="involucre">
+        <character char_type="range_value" name="shape" from="ovoid" to="campanulate" />
+        <character name="shape" value="ovoid" />
+        <character name="shape" value="campanulate" />
+        <character name="shape" value="turbinate" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="172.txt-7">
+      <text>Phyllaries many in 3–5(–10+) series, subequal to strongly unequal, appressed or not, ovate to lanceolate, margins entire, toothed, or lobed, apices obtuse or acute, appendaged or not, not spine-tipped.</text>
+      <structure id="o2100" name="phyllary">
+        <character name="count" value="many" constraint="in -10+ series" constraintid="o2101" />
+        <character char_type="range_value" name="size" from="subequal" to="strongly unequal" />
+        <character name="size" value="subequal" />
+        <character name="size" value="unequal" modifier="strongly" />
+        <character name="orientation" value="appressed" />
+        <character name="orientation" value="appressed" modifier="not" />
+        <character char_type="range_value" name="shape" from="ovate" to="lanceolate" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="lanceolate" />
+      </structure>
+      <structure id="o2101" name="series" constraint="-10+">
+        <character char_type="range_value" name="count" from="3" to="5" />
+      </structure>
+      <structure id="o2102" name="margin">
+        <character name="shape" value="entire" />
+        <character name="shape" value="toothed" />
+        <character name="shape" value="lobed" />
+      </structure>
+      <structure id="o2103" name="apex">
+        <character name="shape" value="obtuse" />
+        <character name="shape" value="acute" />
+        <character name="architecture" value="appendaged" />
+        <character name="architecture" value="appendaged" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="172.txt-8">
+      <text>Receptacles flat or convex, epaleate, smooth, usually subulate-scaly, sometimes bristly or naked.</text>
+      <structure id="o2104" name="receptacle">
+        <character name="shape" value="flat" />
+        <character name="shape" value="convex" />
+        <character name="architecture" value="epaleate" />
+        <character name="architecture_or_relief" value="smooth" />
+        <character name="pubescence" value="bristly" modifier="sometimes" />
+        <character name="architecture" value="naked" />
+      </structure>
+    </statement>
+    <statement id="172.txt-9">
+      <text>Florets 10–20;</text>
+      <structure id="o2105" name="floret">
+        <character char_type="range_value" name="count" from="10" to="20" />
+      </structure>
+    </statement>
+    <statement id="172.txt-10">
+      <text>corollas white to blue or purple, tubes slender, abruptly expanded to throats, lobes linear;</text>
+      <structure id="o2106" name="corolla">
+        <character char_type="range_value" name="coloration" from="white" to="blue or purple" />
+        <character name="coloration" value="white" />
+        <character name="coloration" value="blue" />
+        <character name="coloration" value="purple" />
+      </structure>
+      <structure id="o2107" name="tube">
+        <character name="size" value="slender" />
+      </structure>
+      <structure id="o2108" name="throat" />
+      <relation id="r314" name="abruptly expanded to" from="o2107" to="o2108" negation="false" />
+      <structure id="o2109" name="lobe">
+        <character name="arrangement_or_shape" value="linear" />
+      </structure>
+    </statement>
+    <statement id="172.txt-11">
+      <text>anther bases short-tailed, apical appendages linear, acute;</text>
+      <structure id="o2110" name="base" constraint="anther">
+        <character name="shape" value="short-tailed" />
+      </structure>
+      <structure id="o2111" name="appendage" constraint="apical">
+        <character name="arrangement_or_shape" value="linear" />
+        <character name="shape" value="acute" />
+      </structure>
+    </statement>
+    <statement id="172.txt-12">
+      <text>style branches:</text>
+      <structure id="o2112" name="branch" constraint="style" />
+    </statement>
+    <statement id="172.txt-13">
+      <text>fused portions with minutely hairy subterminal nodes, distinct portions oblong to linear, short-papillate.</text>
+      <structure id="o2113" name="portion" constraint="fused" />
+      <structure id="o2114" name="node" constraint="subterminal">
+        <character name="pubescence" value="hairy" modifier="minutely" />
+      </structure>
+      <relation id="r315" name="with" from="o2113" to="o2114" negation="false" />
+      <structure id="o2115" name="portion">
+        <character name="fusion" value="distinct" />
+        <character char_type="range_value" name="shape" from="oblong" to="linear" />
+        <character name="shape" value="oblong" />
+        <character name="shape" value="linear" />
+        <character name="relief_or_pubescence" value="short-papillate" />
+      </structure>
+    </statement>
+    <statement id="172.txt-14">
+      <text>Cypselae oblong, ± angled, cylindric or 4–5-angled, ribs (when present) smooth or roughened, apices entire, glabrous or minutely glandular, attachment scars basal;</text>
+      <structure id="o2116" name="cypsela">
+        <character name="shape" value="oblong" />
+        <character name="shape" value="angled" modifier="±" />
+        <character name="shape" value="cylindric" modifier="±" />
+        <character name="shape" value="4-5-angled" modifier="±" />
+      </structure>
+      <structure id="o2117" name="rib">
+        <character name="architecture_or_relief" value="smooth" />
+        <character name="texture" value="roughened" />
+      </structure>
+      <structure id="o2118" name="apex">
+        <character name="shape" value="entire" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="glandular" modifier="minutely" />
+      </structure>
+      <structure id="o2119" name="scar" constraint="attachment">
+        <character name="insertion_or_position" value="basal" />
+      </structure>
+    </statement>
+    <statement id="172.txt-15">
+      <text>pappi usually of 2 series, outer of readily falling, short bristles, inner persistent or falling as unit, of basally connate, usually longer, plumose bristles.</text>
+      <structure id="o2120" name="pappus">
+        <character name="position" value="outer" constraint="of bristles" constraintid="o2122" />
+        <character name="position" value="inner" />
+        <character name="duration" value="persistent" />
+        <character name="orientation" value="falling" constraint="as unit" constraintid="o2123" />
+      </structure>
+      <structure id="o2121" name="series">
+        <character name="count" value="2" />
+      </structure>
+      <relation id="r316" name="consist_of" from="o2120" to="o2121" negation="false" modifier="usually" />
+      <structure id="o2122" name="bristle">
+        <character name="orientation" value="falling" modifier="readily" />
+        <character name="size" value="short" />
+      </structure>
+      <structure id="o2123" name="unit" />
+      <structure id="o2124" name="bristle">
+        <character name="fusion" value="connate" modifier="basally" />
+        <character name="size" value="longer" modifier="usually" />
+        <character name="architecture" value="plumose" />
+      </structure>
+      <relation id="r317" name="consist_of" from="o2120" to="o2124" negation="false" />
+    </statement>
+    <statement id="172.txt-16">
+      <text>x = 13, 14, 16, 17, 18, 19?.</text>
+      <structure id="o2125" name="chromosome">
+        <character name="count" value="13" />
+        <character name="count" value="14" />
+        <character name="count" value="16" />
+        <character name="count" value="17" />
+        <character name="count" value="18" />
+        <character name="count" value="19" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species 300–400 (6 in the flora):</number_of_infrataxa>
+  <general_distribution>North America</general_distribution>
+  <general_distribution>Eurasia</general_distribution>
+  <general_distribution>1 in Australia.</general_distribution>
+  <discussion>Saussurea is a notoriously difficult, largely Asiatic genus with species boundaries often indistinct.</discussion>
+  <references>SELECTED REFERENCE Lipschitz, S. J. 1979. Rod Saussurea DC. (Asteraceae). Leningrad.</references>
+  <key>1.Outer and mid phyllaries with toothed or lobed appendages6. Saussurea amara</key>
+  <key>1.Outer and mid phyllaries entire, without appendages.</key>
+  <key>2.Proximal leaves ovate to lanceolate, usually more than 30 mm wide, bases broadly obtuse to truncate or cordate; plants 30–120 cm.</key>
+  <key>3.Cauline leaves usually more than 20, finely to ± coarsely serrate or dentate; s Alaska and Yukon to California, Idaho, and Montana1. Saussurea americana</key>
+  <key>3.Cauline leaves usually 15 or fewer, coarsely laciniate-dentate; nw Alaska2. Sausserea triangulata</key>
+  <key>2.Proximal leaves linear to elliptic, 2–25 mm wide, bases acute to acuminate; plants 3–40 cm.</key>
+  <key>4.Phyllaries subequal, linear to lanceolate; receptacles naked4. Saussurea nuda</key>
+  <key>4.Phyllaries strongly unequal, the outer ovate to lanceolate, conspicuously shorter than inner; receptacles scaly.</key>
+  <key>5.Tips of outer and mid phyllaries acute; Alaska and nw Canada3. Saussurea angustifolia</key>
+  <key>5.Tips of outer and mid phyllaries ± rounded; Rocky Mountains5. Saussurea weberi</key>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

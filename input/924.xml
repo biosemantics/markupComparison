@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>46.</number>
+  <species_name>Artemisia serrata</species_name>
+  <authority>Nuttall</authority>
+  <place_of_publication>Gen. N. Amer. Pl. 2: 142. 1818</place_of_publication>
+  <common_name>Serrate-leaved sage</common_name>
+  <synonym_of_species_name>Artemisia vulgaris Linnaeus subsp. serrata (Nuttall) H. M. Hall &amp; Clements</synonym_of_species_name>
+  <description>
+    <statement id="924.txt-0">
+      <text>Perennials, 50–100(–300) cm (not cespitose), pleasantly aromatic (fibrous-rooted, rhizomes horizontal, relatively short).</text>
+      <structure id="o18992" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="100" to="300" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="50" from_unit="cm" to="100" to_unit="cm" />
+        <character name="odor" value="aromatic" modifier="pleasantly" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="924.txt-1">
+      <text>Stems 2–5, erect, brown, mostly simple (bases woody), sparsely tomentose.</text>
+      <structure id="o18993" name="stem">
+        <character char_type="range_value" name="count" from="2" to="5" />
+        <character name="orientation" value="erect" />
+        <character name="coloration" value="brown" />
+        <character name="architecture" value="simple" modifier="mostly" />
+        <character name="pubescence" value="tomentose" modifier="sparsely" />
+      </structure>
+    </statement>
+    <statement id="924.txt-2">
+      <text>Leaves cauline, bicolor (white and green);</text>
+      <structure id="o18994" name="leaf">
+        <character name="insertion_or_position" value="cauline" />
+        <character name="coloration" value="bicolor" />
+      </structure>
+    </statement>
+    <statement id="924.txt-3">
+      <text>blades lanceolate, 7–15 × 1–2.5 cm, serrate (teeth ca. 2 mm), faces densely tomentose (abaxial) or glabrate (adaxial).</text>
+      <structure id="o18995" name="blade">
+        <character name="shape" value="lanceolate" />
+        <character char_type="range_value" name="length" from="7" from_unit="cm" to="15" to_unit="cm" />
+        <character char_type="range_value" name="width" from="1" from_unit="cm" to="2.5" to_unit="cm" />
+        <character name="shape" value="serrate" />
+      </structure>
+      <structure id="o18996" name="face">
+        <character name="pubescence" value="tomentose" modifier="densely" />
+        <character name="pubescence" value="glabrate" modifier="densely" />
+      </structure>
+    </statement>
+    <statement id="924.txt-4">
+      <text>Heads (peduncles 0 or to 2 mm) in racemiform arrays 10–15 × 5–15 cm.</text>
+      <structure id="o18997" name="head" />
+      <structure id="o18998" name="array">
+        <character name="architecture" value="racemiform" />
+        <character char_type="range_value" name="length" from="10" from_unit="cm" to="15" to_unit="cm" />
+        <character char_type="range_value" name="width" from="5" from_unit="cm" to="15" to_unit="cm" />
+      </structure>
+      <relation id="r2010" name="in" from="o18997" to="o18998" negation="false" />
+    </statement>
+    <statement id="924.txt-5">
+      <text>Involucres campanulate, 2.5–3 × 2–2.5 mm.</text>
+      <structure id="o18999" name="involucre">
+        <character name="shape" value="campanulate" />
+        <character char_type="range_value" name="length" from="2.5" from_unit="mm" to="3" to_unit="mm" />
+        <character char_type="range_value" name="width" from="2" from_unit="mm" to="2.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="924.txt-6">
+      <text>Phyllaries lanceolate (margins hyaline), densely tomentose.</text>
+      <structure id="o19000" name="phyllary">
+        <character name="shape" value="lanceolate" />
+        <character name="pubescence" value="tomentose" modifier="densely" />
+      </structure>
+    </statement>
+    <statement id="924.txt-7">
+      <text>Florets:</text>
+      <structure id="o19001" name="floret" />
+    </statement>
+    <statement id="924.txt-8">
+      <text>pistillate 3–5;</text>
+      <structure id="o19002" name="floret" constraint="pistillate">
+        <character char_type="range_value" name="count" from="3" to="5" />
+      </structure>
+    </statement>
+    <statement id="924.txt-9">
+      <text>bisexual 9–10;</text>
+      <structure id="o19003" name="floret" constraint="bisexual">
+        <character char_type="range_value" name="count" from="9" to="10" />
+      </structure>
+    </statement>
+    <statement id="924.txt-10">
+      <text>corollas pale yellow, 1.5–2 mm, sparsely glandular.</text>
+      <structure id="o19004" name="corolla">
+        <character name="coloration" value="yellow" modifier="pale" />
+        <character char_type="range_value" name="size" from="1.5" from_unit="mm" to="2" to_unit="mm" />
+        <character name="architecture_or_exudation_or_pubescence" value="glandular" modifier="sparsely" />
+      </structure>
+    </statement>
+    <statement id="924.txt-11">
+      <text>Cypselae ellipsoid, ca. 1 mm, glabrous.</text>
+      <structure id="o19005" name="cypsela">
+        <character name="shape" value="ellipsoid" />
+        <character name="size" value="1" unit="mm" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="924.txt-12">
+      <text>2 n = 36.</text>
+      <structure id="o19006" name="chromosome">
+        <character name="count" value="36" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <flowering_time>nov</flowering_time>
+  <habitat>grasslands and barren areas on high plains</habitat>
+  <elevation>500–1800 m;</elevation>
+  <us_distribution>Ill.</us_distribution>
+  <us_distribution>Iowa</us_distribution>
+  <us_distribution>Minn.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>N.Dak.</us_distribution>
+  <us_distribution>Wis.</us_distribution>
+  <discussion>Artemisia serrata is closely related to A. ludoviciana and A. longifolia; it is distinguished by its prominent, serrated leaf margins. It is apparently native to the upper Mississippi Valley and naturalized in New York, presumably following introduction as a garden plant. Reports from Kansas and Missouri may be based on collections of A. ludoviciana.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

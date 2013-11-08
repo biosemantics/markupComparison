@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>3.</number>
+  <species_name>Gnaphalium uliginosum</species_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 856. 1753</place_of_publication>
+  <common_name>Marsh cudweed</common_name>
+  <synonym_of_species_name>Filaginella uliginosa (Linnaeus) Opiz</synonym_of_species_name>
+  <description>
+    <statement id="710.txt-0">
+      <text>Annuals, 3–15(–25) cm;</text>
+    </statement>
+    <statement id="710.txt-1">
+      <text>taprooted or fibrous-rooted.</text>
+      <structure id="o14859" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="15" to="25" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="3" from_unit="cm" to="15" to_unit="cm" />
+        <character name="life_style" value="annual" />
+        <character name="architecture" value="taprooted" />
+        <character name="architecture" value="fibrous-rooted" />
+      </structure>
+    </statement>
+    <statement id="710.txt-2">
+      <text>Stems erect, usually branched from bases, sometimes simple, closely to loosely tomentose.</text>
+      <structure id="o14860" name="stem">
+        <character name="orientation" value="erect" />
+        <character name="architecture_or_shape" value="branched" modifier="usually" constraint="from bases" constraintid="o14861" />
+        <character name="architecture" value="simple" modifier="sometimes" />
+        <character name="pubescence" value="tomentose" modifier="closely loosely" />
+      </structure>
+      <structure id="o14861" name="base" />
+    </statement>
+    <statement id="710.txt-3">
+      <text>Leaf blades oblanceolate, 1–5 cm × 1–3 mm.</text>
+      <structure id="o14862" name="blade" constraint="leaf">
+        <character name="shape" value="oblanceolate" />
+        <character char_type="range_value" name="length" from="1" from_unit="cm" to="5" to_unit="cm" />
+        <character char_type="range_value" name="width" from="1" from_unit="mm" to="3" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="710.txt-4">
+      <text>Bracts subtending heads linear, oblanceolate, or obovate, 5–15 × 1–2 mm, usually surpassing glomerules.</text>
+      <structure id="o14863" name="bract">
+        <character name="shape" value="linear" />
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="obovate" />
+        <character char_type="range_value" name="length" from="5" from_unit="mm" to="15" to_unit="mm" />
+        <character char_type="range_value" name="width" from="1" from_unit="mm" to="2" to_unit="mm" />
+      </structure>
+      <structure id="o14864" name="head" />
+      <relation id="r1603" name="subtending" from="o14863" to="o14864" negation="false" />
+      <structure id="o14865" name="glomerule">
+        <character name="comparison" value="surpassing" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="710.txt-5">
+      <text>Heads borne singly or in terminal, capitate glomerules, sometimes in axillary glomerules.</text>
+      <structure id="o14866" name="head">
+        <character name="arrangement" value="singly" />
+        <character name="arrangement" value="in terminal , capitate glomerules" />
+      </structure>
+      <structure id="o14867" name="glomerule">
+        <character name="insertion_or_position" value="terminal" />
+        <character name="architecture_or_shape" value="capitate" />
+      </structure>
+      <relation id="r1604" name="in" from="o14866" to="o14867" negation="false" />
+      <structure id="o14868" name="glomerule" constraint="axillary" />
+      <relation id="r1605" name="in" from="o14866" to="o14868" negation="false" modifier="sometimes" />
+    </statement>
+    <statement id="710.txt-6">
+      <text>Involucres 2–4 mm.</text>
+      <structure id="o14869" name="involucre">
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="710.txt-7">
+      <text>Phyllaries brownish, bases woolly, inner narrowly triangular with whitish, acute apices.</text>
+      <structure id="o14870" name="phyllary">
+        <character name="coloration" value="brownish" />
+      </structure>
+      <structure id="o14871" name="base">
+        <character name="pubescence" value="woolly" />
+        <character name="position" value="inner" modifier="narrowly" />
+        <character name="shape" value="triangular" constraint="with apices" constraintid="o14872" />
+      </structure>
+      <structure id="o14872" name="apex">
+        <character name="coloration" value="whitish" />
+        <character name="shape" value="acute" />
+      </structure>
+    </statement>
+    <statement id="710.txt-8">
+      <text>2 n = 14.</text>
+      <structure id="o14873" name="chromosome">
+        <character name="count" value="14" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <habitat>lake and pond margins</habitat>
+  <habitat>stream banks</habitat>
+  <habitat>wet meadows</habitat>
+  <habitat>other permanently or sporadically moist sites</habitat>
+  <habitat>disturbed sites</habitat>
+  <elevation>1400–3000 m;</elevation>
+  <global_distribution>Greenland</global_distribution>
+  <global_distribution>St. Pierre and Miquelon</global_distribution>
+  <ca_distribution>Alta.</ca_distribution>
+  <ca_distribution>B.C.</ca_distribution>
+  <ca_distribution>Man.</ca_distribution>
+  <ca_distribution>N.B.</ca_distribution>
+  <ca_distribution>Nfld. and Labr. (Nfld.)</ca_distribution>
+  <ca_distribution>N.S.</ca_distribution>
+  <ca_distribution>Ont.</ca_distribution>
+  <ca_distribution>P.E.I.</ca_distribution>
+  <ca_distribution>Que.</ca_distribution>
+  <ca_distribution>Sask.</ca_distribution>
+  <ca_distribution>Yukon</ca_distribution>
+  <us_distribution>Alaska</us_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Conn.</us_distribution>
+  <us_distribution>Del.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Ill.</us_distribution>
+  <us_distribution>Iowa</us_distribution>
+  <us_distribution>Kans.</us_distribution>
+  <us_distribution>Ky.</us_distribution>
+  <us_distribution>Maine</us_distribution>
+  <us_distribution>Md.</us_distribution>
+  <us_distribution>Mass.</us_distribution>
+  <us_distribution>Minn.</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>N.H.</us_distribution>
+  <us_distribution>N.J.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>Ohio</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <us_distribution>R.I.</us_distribution>
+  <us_distribution>S.Dak.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Vt.</us_distribution>
+  <us_distribution>Va.</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <us_distribution>W.Va.</us_distribution>
+  <us_distribution>Wis.</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <global_distribution>Europe.</global_distribution>
+  <discussion>Gnaphalium uliginosum is native to Europe; it is not clear whether some or all of the North American plants may have been introduced into the flora.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

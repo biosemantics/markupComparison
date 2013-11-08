@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>54c.</number>
+  <variety_name>Cirsium scariosum Nuttall var. americanum</variety_name>
+  <authority>(A. Gray) D. J. Keil</authority>
+  <place_of_publication>Sida 21: 215. 2004</place_of_publication>
+  <common_name>Dinnerplate or sessile or stemless thistle</common_name>
+  <synonym_of_variety_name>Cirsium acaule (Linnaeus) Scopoli var. americanum A. Gray, Proc. Acad. Nat. Sci. Philadelphia 15: 68. 1864; C. acaulescens (A. Gray) K. Schumann; C. americanum (A. Gray) K. Schumann; C. coloradense (Rydberg) Cockerell ex Daniels subsp. acaulescens (A. Gray) Petrak; C. coloradense subsp. longissimum (A. Heller) Petrak; C. drummondii Torrey &amp; A. Gray var. acaulescens (A. Gray) J. F. Macbride; C. drummondii subsp. latisquamum Petrak; C. drummondii var. oregonense Petrak; C. drummondii subsp. vexans Petrak; C. tioganum (J. W. Congdon) Petrak</synonym_of_variety_name>
+  <description>
+    <statement id="153.txt-0">
+      <text>Plants usually acaulescent or nearly so (with dense rosettes of leaves and cluster of sessile or subsessile heads), less commonly caulescent and to 45 cm.</text>
+      <structure id="o1467" name="whole_organism">
+        <character name="architecture" value="acaulescent" modifier="usually" />
+        <character name="architecture" value="acaulescent" modifier="usually; nearly" />
+        <character name="architecture" value="caulescent" modifier="less commonly" />
+        <character char_type="range_value" name="size" to="45" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="153.txt-1">
+      <text>Stems absent or short, stout, fleshy, usually unbranched, very leafy, villous or tomentose with septate trichomes.</text>
+      <structure id="o1468" name="stem">
+        <character name="presence" value="absent" />
+        <character name="size" value="short" />
+        <character name="fragility" value="stout" />
+        <character name="texture" value="fleshy" />
+        <character name="architecture" value="unbranched" modifier="usually" />
+        <character name="architecture" value="leafy" modifier="very" />
+        <character name="pubescence" value="villous" />
+        <character name="pubescence" value="tomentose" constraint="with trichomes" constraintid="o1469" />
+      </structure>
+      <structure id="o1469" name="trichome">
+        <character name="architecture" value="septate" />
+      </structure>
+    </statement>
+    <statement id="153.txt-2">
+      <text>Leaves:</text>
+      <structure id="o1470" name="leaf" />
+    </statement>
+    <statement id="153.txt-3">
+      <text>blades linear to oblong, oblanceolate, or narrowly elliptic, pinnately lobed or often unlobed, longer spines slender or stout, usually 1 cm or less, sometimes unpigmented proximally or tinged pink or purplish, abaxial faces gray-tomentose with fine, non-septate trichomes and/or villous with septate trichomes, adaxial glabrous or thinly villous with septate trichomes.</text>
+      <structure id="o1471" name="blade">
+        <character char_type="range_value" name="shape" from="linear" to="oblong , oblanceolate , or narrowly elliptic , pinnately lobed or often unlobed" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="oblong" />
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="elliptic" modifier="narrowly" />
+        <character name="shape" value="lobed" modifier="pinnately" />
+        <character name="shape" value="unlobed" modifier="often" />
+      </structure>
+      <structure id="o1472" name="spine" constraint="longer">
+        <character name="size" value="slender" />
+        <character name="fragility" value="stout" />
+        <character name="size" value="1" unit="cm" modifier="usually" />
+        <character name="size" value="1" unit="cm" modifier="usually; less" />
+        <character name="coloration" value="unpigmented" modifier="sometimes ; proximally" />
+        <character name="coloration" value="tinged-pink or purplish" />
+        <character name="coloration" value="pink" modifier="tinged" />
+        <character name="coloration" value="purplish" />
+      </structure>
+      <structure id="o1473" name="face" constraint="abaxial">
+        <character name="pubescence" value="gray-tomentose" constraint="with trichomes" constraintid="o1474" />
+        <character name="pubescence" value="villous" modifier="thinly" constraint="with trichomes" constraintid="o1476" />
+      </structure>
+      <structure id="o1474" name="trichome">
+        <character name="texture" value="fine" />
+        <character name="architecture" value="non-septate" />
+        <character name="pubescence" value="villous" constraint="with trichomes" constraintid="o1475" />
+      </structure>
+      <structure id="o1475" name="trichome">
+        <character name="architecture" value="septate" />
+      </structure>
+      <structure id="o1476" name="trichome">
+        <character name="architecture" value="septate" />
+      </structure>
+    </statement>
+    <statement id="153.txt-4">
+      <text>Heads 1–many, sessile or subsessile, crowded.</text>
+      <structure id="o1477" name="head">
+        <character char_type="range_value" name="count" from="1" to="many" />
+        <character name="architecture" value="sessile" />
+        <character name="architecture" value="subsessile" />
+        <character name="architecture" value="crowded" />
+      </structure>
+    </statement>
+    <statement id="153.txt-5">
+      <text>Involucres 1.5–3 cm.</text>
+      <structure id="o1478" name="involucre">
+        <character char_type="range_value" name="size" from="1.5" from_unit="cm" to="3" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="153.txt-6">
+      <text>Phyllaries:</text>
+      <structure id="o1479" name="phyllary" />
+    </statement>
+    <statement id="153.txt-7">
+      <text>outer and mid lanceolate to ovate, spines slender to stout, 1–12 mm;</text>
+      <structure id="o1480" name="phyllary" constraint="outer and mid" />
+      <structure id="o1481" name="spine">
+        <character name="size" value="slender" />
+        <character name="fragility" value="stout" />
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="12" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="153.txt-8">
+      <text>apices of inner acuminate and entire or abruptly expanded into scarious, erose-toothed appendage.</text>
+      <structure id="o1482" name="apex">
+        <character name="shape" value="acuminate" />
+        <character name="shape" value="entire" />
+        <character name="size" value="expanded" modifier="abruptly" constraint="into appendage" constraintid="o1484" />
+      </structure>
+      <structure id="o1483" name="phyllary" constraint="inner" />
+      <relation id="r242" name="part_of" from="o1482" to="o1483" negation="false" />
+      <structure id="o1484" name="appendage">
+        <character name="texture" value="scarious" />
+        <character name="shape" value="erose-toothed" />
+      </structure>
+    </statement>
+    <statement id="153.txt-9">
+      <text>Corollas white or pink-tinged (rarely purple), 22–30 mm, tubes 11.5–16.5 mm, throats 5–10.5 mm, lobes 5–6.5 mm;</text>
+      <structure id="o1485" name="corolla">
+        <character name="coloration" value="white" />
+        <character name="coloration" value="tinged" modifier="pink" />
+        <character char_type="range_value" name="size" from="22" from_unit="mm" to="30" to_unit="mm" />
+      </structure>
+      <structure id="o1486" name="tube">
+        <character char_type="range_value" name="size" from="11.5" from_unit="mm" to="16.5" to_unit="mm" />
+      </structure>
+      <structure id="o1487" name="throat">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="10.5" to_unit="mm" />
+      </structure>
+      <structure id="o1488" name="lobe">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="6.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="153.txt-10">
+      <text>style tips 3.5–6.5 mm.</text>
+      <structure id="o1489" name="tip" constraint="style">
+        <character char_type="range_value" name="size" from="3.5" from_unit="mm" to="6.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="153.txt-11">
+      <text>Cypselae 4.5–6 mm;</text>
+      <structure id="o1490" name="cypsela">
+        <character char_type="range_value" name="size" from="4.5" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="153.txt-12">
+      <text>pappi 20–25 mm.</text>
+      <structure id="o1491" name="pappus">
+        <character char_type="range_value" name="size" from="20" from_unit="mm" to="25" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="153.txt-13">
+      <text>2 n = 34 (as C. foliosum ).</text>
+      <structure id="o1492" name="chromosome">
+        <character name="count" value="34" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>seasonally damp, sometimes saline soil in meadows</habitat>
+  <habitat>grasslands</habitat>
+  <habitat>open forests</habitat>
+  <habitat>sagebrush scrub</habitat>
+  <elevation>1100–3800 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <global_distribution>Mexico (Baja California).</global_distribution>
+  <discussion>Variety americanum is a variable taxon widely distributed in mountains and valleys of the western United States from the eastern slope of the Cascades and Sierra Nevada across the northern Great Basin to the central Rocky Mountains. Within some populations dominated by acaulescent forms, occasional short, caulescent individuals or even taller plants may occur. These approach var. coloradense in the Colorado Rockies and resemble var. scariosum in the valleys of Oregon. Short caulescent individuals within populations of var. coloradense and var. scariosum approach var. americanum. Although the extremes are strikingly different, the genetic differences are apparently slight. Acaulescent individuals from the San Francisco Peaks and White Mountains of Arizona are treated here as var. coloradense. In the mountains of Colorado putative hybrids have been documented between Cirsium scariosum var. americanum and C. canescens and between C. scariosum var. americanum and C. undulatum.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

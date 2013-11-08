@@ -3,8 +3,8 @@ package edu.arizona.sirls.etc.markupSimilarity.io;
 public class Score {
 
 	private double similarity;
-	private String algorithm;
-	public Score(double similarity, String algorithm) {
+	private Class algorithm;
+	public Score(double similarity, Class algorithm) {
 		super();
 		this.similarity = similarity;
 		this.algorithm = algorithm;
@@ -15,10 +15,10 @@ public class Score {
 	public void setSimilarity(double similarity) {
 		this.similarity = similarity;
 	}
-	public String getAlgorithm() {
+	public Class getAlgorithm() {
 		return algorithm;
 	}
-	public void setAlgorithm(String algorithm) {
+	public void setAlgorithm(Class algorithm) {
 		this.algorithm = algorithm;
 	}
 	

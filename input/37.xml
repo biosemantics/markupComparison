@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>2.</number>
+  <species_name>Onopordum illyricum</species_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 827. 1753</place_of_publication>
+  <common_name>Illyrian thistle</common_name>
+  <description>
+    <statement id="37.txt-0">
+      <text>Plants 50–250 cm, herbage canescent-tomentose throughout.</text>
+      <structure id="o6978" name="whole_organism">
+        <character char_type="range_value" name="size" from="50" from_unit="cm" to="250" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+      <structure id="o6979" name="herbage">
+        <character name="pubescence" value="canescent-tomentose" modifier="throughout" />
+      </structure>
+    </statement>
+    <statement id="37.txt-1">
+      <text>Stems:</text>
+      <structure id="o6980" name="stem" />
+    </statement>
+    <statement id="37.txt-2">
+      <text>wings 0.5–2 cm wide.</text>
+      <structure id="o6981" name="wing">
+        <character char_type="range_value" name="size" from="0.5" from_unit="cm" to="2" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="37.txt-3">
+      <text>Leaves 10–50 cm, margins shallowly to ± deeply 1–2-pinnatifid with 8–10 pairs of triangular lobes.</text>
+      <structure id="o6982" name="leaf">
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="50" to_unit="cm" />
+      </structure>
+      <structure id="o6983" name="margin">
+        <character name="shape" value="1-2-pinnatifid" modifier="shallowly ± deeply" constraint="with pairs" constraintid="o6984" />
+      </structure>
+      <structure id="o6984" name="pair">
+        <character char_type="range_value" name="count" from="8" to="10" />
+      </structure>
+      <structure id="o6985" name="lobe">
+        <character name="shape" value="triangular" />
+      </structure>
+      <relation id="r861" name="part_of" from="o6984" to="o6985" negation="false" />
+    </statement>
+    <statement id="37.txt-4">
+      <text>Heads mostly borne singly at branch tips.</text>
+      <structure id="o6986" name="head" />
+      <structure id="o6987" name="tip" constraint="branch" />
+      <relation id="r862" name="borne at" from="o6986" to="o6987" negation="false" />
+    </statement>
+    <statement id="37.txt-5">
+      <text>Involucres 30–60 mm diam (excluding spines) ± spheric, bases truncate to concave.</text>
+      <structure id="o6988" name="involucre">
+        <character char_type="range_value" name="size" from="30" from_unit="mm" to="60" to_unit="mm" />
+        <character name="shape" value="spheric" modifier="±" />
+      </structure>
+      <structure id="o6989" name="base">
+        <character char_type="range_value" name="shape" from="truncate" to="concave" />
+        <character name="shape" value="truncate" />
+        <character name="shape" value="concave" />
+      </structure>
+    </statement>
+    <statement id="37.txt-6">
+      <text>Phyllaries lanceolate to ovate, bases 3–8 mm wide, glabrous or ± cobwebby-tomentose, spines to 5 mm.</text>
+      <structure id="o6990" name="phyllary">
+        <character char_type="range_value" name="shape" from="lanceolate" to="ovate" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="ovate" />
+      </structure>
+      <structure id="o6991" name="base">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="8" to_unit="mm" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="cobwebby-tomentose" modifier="±" />
+      </structure>
+      <structure id="o6992" name="spine">
+        <character char_type="range_value" name="size" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="37.txt-7">
+      <text>Corollas purple, 25–35 mm.</text>
+      <structure id="o6993" name="corolla">
+        <character name="coloration" value="purple" />
+        <character char_type="range_value" name="size" from="25" from_unit="mm" to="35" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="37.txt-8">
+      <text>Cypselae 4–5 mm;</text>
+      <structure id="o6994" name="cypsela">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="37.txt-9">
+      <text>pappi of many whitish, plumose bristles 10–12 mm.</text>
+      <structure id="o6995" name="pappus" />
+      <structure id="o6996" name="bristle">
+        <character name="count" value="many" />
+        <character name="coloration" value="whitish" />
+        <character name="architecture" value="plumose" />
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="12" to_unit="mm" />
+      </structure>
+      <relation id="r863" name="consist_of" from="o6995" to="o6996" negation="false" />
+    </statement>
+    <statement id="37.txt-10">
+      <text>2 n = 34 (France).</text>
+      <structure id="o6997" name="chromosome">
+        <character name="count" value="34" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>grasslands</habitat>
+  <habitat>fields</habitat>
+  <habitat>roadsides</habitat>
+  <habitat>oak woodlands</habitat>
+  <elevation>200–500 m;</elevation>
+  <introduced>introduced;</introduced>
+  <us_distribution>Calif.</us_distribution>
+  <global_distribution>s Europe (Mediterranean region)</global_distribution>
+  <global_distribution>introduced in Australia.</global_distribution>
+  <discussion>Illyrian thistle is considered to be a noxious weed in California where efforts to eradicate it from the state’s flora have been implemented. This species has also invaded rangelands in Australia, where it is introduced.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

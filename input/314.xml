@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>22.</number>
+  <species_name>Crepis tectorum</species_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 807. 1753</place_of_publication>
+  <common_name>Narrowleaf hawksbeard, crépis des troits</common_name>
+  <description>
+    <statement id="314.txt-0">
+      <text>Annuals, 10–100 cm (taproots shallow).</text>
+      <structure id="o5652" name="whole_organism">
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="100" to_unit="cm" />
+        <character name="life_style" value="annual" />
+      </structure>
+    </statement>
+    <statement id="314.txt-1">
+      <text>Stems 1, erect (fistu-lose), branched distally or from bases, tomentulose and/or hispid.</text>
+      <structure id="o5653" name="stem">
+        <character name="count" value="1" />
+        <character name="orientation" value="erect" />
+        <character name="architecture_or_shape" value="branched" modifier="distally" />
+        <character name="architecture_or_shape" value="from bases" />
+        <character name="pubescence" value="tomentulose" />
+        <character name="pubescence" value="hispid" />
+      </structure>
+      <structure id="o5654" name="base" />
+      <relation id="r723" name="from" from="o5653" to="o5654" negation="false" />
+    </statement>
+    <statement id="314.txt-2">
+      <text>Leaves basal and cauline;</text>
+    </statement>
+    <statement id="314.txt-3">
+      <text>pet-iolate;</text>
+      <structure id="o5655" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="architecture" value="petiolate" />
+      </structure>
+    </statement>
+    <statement id="314.txt-4">
+      <text>blades lanceolate to oblanceolate, often coarsely runcinate, 5–15 × 1–4 cm, margins entire, denticulate, or dentate to pinnately lobed (lobes remote, coarse, unequal), apices acute to acuminate, abaxial faces glabrous or tomentose, adaxial glabrous (proximal cauline sessile, bases auriculate, distal usually linear, entire).</text>
+      <structure id="o5656" name="blade">
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="runcinate" modifier="often coarsely" />
+        <character char_type="range_value" name="length" from="5" from_unit="cm" to="15" to_unit="cm" />
+        <character char_type="range_value" name="width" from="1" from_unit="cm" to="4" to_unit="cm" />
+      </structure>
+      <structure id="o5657" name="margin">
+        <character char_type="range_value" name="shape" from="dentate" to="pinnately lobed" />
+        <character name="shape" value="entire" />
+        <character name="shape" value="denticulate" />
+        <character name="shape" value="dentate" />
+        <character name="shape" value="lobed" modifier="pinnately" />
+      </structure>
+      <structure id="o5658" name="apex">
+        <character char_type="range_value" name="shape" from="acute" to="acuminate" />
+        <character name="shape" value="acute" />
+        <character name="shape" value="acuminate" />
+      </structure>
+      <structure id="o5659" name="face" constraint="abaxial">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="tomentose" />
+        <character name="insertion_or_position" value="adaxial" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="314.txt-5">
+      <text>Heads 5–20(–100+), in paniculiform or corymbiform arrays.</text>
+      <structure id="o5660" name="head">
+        <character char_type="range_value" name="atypical_count" from="20" to="100" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="5" to="20" />
+      </structure>
+      <structure id="o5661" name="array">
+        <character name="architecture" value="paniculiform" />
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <relation id="r724" name="in" from="o5660" to="o5661" negation="false" />
+    </statement>
+    <statement id="314.txt-6">
+      <text>Calyculi of ± 12, subulate, tomentose and hispidulous bractlets 2–5 mm (often becoming scarious).</text>
+      <structure id="o5662" name="calyculus" />
+      <structure id="o5663" name="bractlet">
+        <character name="count" value="12" modifier="±" />
+        <character name="shape" value="subulate" />
+        <character name="pubescence" value="tomentose" />
+        <character name="pubescence" value="hispidulous" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+      <relation id="r725" name="consist_of" from="o5662" to="o5663" negation="false" />
+    </statement>
+    <statement id="314.txt-7">
+      <text>Involucres cylindro-campanulate, 6–9 × 7–8 mm.</text>
+      <structure id="o5664" name="involucre">
+        <character name="shape" value="cylindro-campanulate" />
+        <character char_type="range_value" name="length" from="6" from_unit="mm" to="9" to_unit="mm" />
+        <character char_type="range_value" name="width" from="7" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="314.txt-8">
+      <text>Phyllaries 12–15, lanceolate, 5–9 mm, (bases becoming keeled and thickened, margins scarious), apices acute to attenuate (white-ciliate, tomentulose), abaxial faces tomentose to hispidulous, adaxial with fine, appressed hairs.</text>
+      <structure id="o5665" name="phyllary">
+        <character char_type="range_value" name="count" from="12" to="15" />
+        <character name="shape" value="lanceolate" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="9" to_unit="mm" />
+      </structure>
+      <structure id="o5666" name="apex">
+        <character char_type="range_value" name="shape" from="acute" to="attenuate" />
+        <character name="shape" value="acute" />
+        <character name="shape" value="attenuate" />
+      </structure>
+      <structure id="o5667" name="face" constraint="abaxial">
+        <character char_type="range_value" name="pubescence" from="tomentose" to="hispidulous" />
+        <character name="pubescence" value="tomentose" />
+        <character name="pubescence" value="hispidulous" />
+        <character name="insertion_or_position" value="adaxial" constraint="with hairs" constraintid="o5668" />
+      </structure>
+      <structure id="o5668" name="hair">
+        <character name="texture" value="fine" />
+        <character name="orientation" value="appressed" />
+      </structure>
+    </statement>
+    <statement id="314.txt-9">
+      <text>Florets 30–70;</text>
+      <structure id="o5669" name="floret">
+        <character char_type="range_value" name="count" from="30" to="70" />
+      </structure>
+    </statement>
+    <statement id="314.txt-10">
+      <text>corollas yellow (without red on ligules), 10–13 mm.</text>
+      <structure id="o5670" name="corolla">
+        <character name="coloration" value="yellow" />
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="13" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="314.txt-11">
+      <text>Cypselae dark reddish or purplish brown, fusiform, 3–4 mm, apices constricted (not beaked), ribs 10 (rounded, minutely spiculate);</text>
+      <structure id="o5671" name="cypsela">
+        <character name="coloration" value="reddish" modifier="dark" />
+        <character name="coloration" value="brown" modifier="purplish" />
+        <character name="shape" value="fusiform" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+      <structure id="o5672" name="apex">
+        <character name="size" value="constricted" />
+      </structure>
+      <structure id="o5673" name="rib">
+        <character name="count" value="10" />
+      </structure>
+    </statement>
+    <statement id="314.txt-12">
+      <text>pappi white (fine, soft), 4–5 mm.</text>
+      <structure id="o5674" name="pappus">
+        <character name="coloration" value="white" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="314.txt-13">
+      <text>2 n = 8.</text>
+      <structure id="o5675" name="chromosome">
+        <character name="count" value="8" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>may</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>dry, sandy, pine woods</habitat>
+  <habitat>disturbed places</habitat>
+  <habitat>abandoned fields</habitat>
+  <habitat>forest clearings</habitat>
+  <habitat>wooded slopes</habitat>
+  <habitat>dry streambeds</habitat>
+  <elevation>100–300 m;</elevation>
+  <introduced>introduced;</introduced>
+  <global_distribution>Greenland</global_distribution>
+  <ca_distribution>Alta.</ca_distribution>
+  <ca_distribution>B.C.</ca_distribution>
+  <ca_distribution>Man.</ca_distribution>
+  <ca_distribution>N.B.</ca_distribution>
+  <ca_distribution>Nfld. and Labr. (Labr.)</ca_distribution>
+  <ca_distribution>N.W.T.</ca_distribution>
+  <ca_distribution>N.S.</ca_distribution>
+  <ca_distribution>Ont.</ca_distribution>
+  <ca_distribution>Que.</ca_distribution>
+  <ca_distribution>Sask.</ca_distribution>
+  <ca_distribution>Yukon</ca_distribution>
+  <us_distribution>Alaska</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Conn.</us_distribution>
+  <us_distribution>D.C.</us_distribution>
+  <us_distribution>Ill.</us_distribution>
+  <us_distribution>Ind.</us_distribution>
+  <us_distribution>Iowa</us_distribution>
+  <us_distribution>Maine</us_distribution>
+  <us_distribution>Md.</us_distribution>
+  <us_distribution>Mass.</us_distribution>
+  <us_distribution>Mich.</us_distribution>
+  <us_distribution>Minn.</us_distribution>
+  <us_distribution>Mo.</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>Nebr.</us_distribution>
+  <us_distribution>N.J.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>N.C.</us_distribution>
+  <us_distribution>N.Dak.</us_distribution>
+  <us_distribution>Ohio</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <us_distribution>R.I.</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <us_distribution>Wis.</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <global_distribution>Europe</global_distribution>
+  <global_distribution>introduced</global_distribution>
+  <global_distribution>Asia.</global_distribution>
+  <discussion>Crepis tectorum is recognized by its annual habit, keeled phyllaries with minute hairs on adaxial faces, and dark reddish or purplish brown cypselae. It is widespread, often abundant, occurs in a great variety of habitats, and is considered a noxious weed in some states.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

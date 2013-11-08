@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Pseudelephantopus spicatus</species_name>
+  <authority>(Jussieu ex Aublet) C. F. Baker</authority>
+  <place_of_publication>Trans. Acad. Sci. St. Louis 12: 55. 1902</place_of_publication>
+  <synonym_of_species_name>Elephantopus spicatus Jussieu ex Aublet, Hist. Pl. Guian. 2: 808. 1775</synonym_of_species_name>
+  <description>
+    <statement id="245.txt-0">
+      <text>Leaf blades mostly 3–15(–20+) cm × 10–30(–45+) mm (including petioles), both faces sparsely pilose or hirsute, often glabrescent, abaxial resin-gland-dotted.</text>
+      <structure id="o4151" name="blade" constraint="leaf">
+        <character name="pubescence" value="hirsute" />
+        <character name="pubescence" value="glabrescent" modifier="often" />
+        <character name="insertion_or_position" value="abaxial" />
+        <character name="coloration_or_relief" value="resin-gland-dotted" />
+      </structure>
+      <structure id="o4152" name="face">
+        <character name="pubescence" value="pilose" modifier="sparsely" />
+      </structure>
+    </statement>
+    <statement id="245.txt-2">
+      <text>Inner phyllaries 9–12 mm, sparsely hispidulous to pilosulous (hairs 0.1–0.3 mm), often glabrescent.</text>
+      <structure id="o4153" name="phyllary" constraint="inner">
+        <character char_type="range_value" name="size" from="9" from_unit="mm" to="12" to_unit="mm" />
+        <character name="pubescence" value="hispidulous" modifier="sparsely" />
+        <character name="pubescence" value="pilosulous" />
+        <character name="pubescence" value="glabrescent" modifier="often" />
+      </structure>
+    </statement>
+    <statement id="245.txt-3">
+      <text>Cypselae 7–8 mm;</text>
+      <structure id="o4154" name="cypsela">
+        <character char_type="range_value" name="size" from="7" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="245.txt-4">
+      <text>pappi 1–9+ mm (including aristae).</text>
+      <structure id="o4155" name="pappus">
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="9" to_unit="mm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="245.txt-5">
+      <text>2 n = 26, 28 [3 reports, all from outside flora].</text>
+      <structure id="o4156" name="chromosome">
+        <character name="count" value="26" />
+        <character name="count" value="28" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jan</flowering_time>
+  <flowering_time>winter</flowering_time>
+  <habitat>open places on sandy soils</habitat>
+  <elevation>0–10+ m;</elevation>
+  <introduced>introduced;</introduced>
+  <us_distribution>Fla.</us_distribution>
+  <global_distribution>Mexico</global_distribution>
+  <global_distribution>West Indies</global_distribution>
+  <global_distribution>Central America</global_distribution>
+  <global_distribution>South America</global_distribution>
+  <global_distribution>Asia</global_distribution>
+  <global_distribution>Pacific Islands.</global_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

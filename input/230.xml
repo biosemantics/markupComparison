@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Gazania linearis</species_name>
+  <authority>(Thunberg) Druce</authority>
+  <place_of_publication>Rep. Bot. Soc. Exch. Club Brit. Isles 4: 624. 1917</place_of_publication>
+  <synonym_of_species_name>Gorteria linearis Thunberg, Prodr. Pl. Cap., 162. 1800; Gazania longiscapa de Candolle</synonym_of_species_name>
+  <description>
+    <statement id="230.txt-0">
+      <text>Stems sometimes proximally woody.</text>
+      <structure id="o3839" name="stem">
+        <character name="texture" value="woody" modifier="sometimes proximally" />
+      </structure>
+    </statement>
+    <statement id="230.txt-1">
+      <text>Leaves mostly basal;</text>
+      <structure id="o3840" name="leaf">
+        <character name="insertion_or_position" value="basal" modifier="mostly" />
+      </structure>
+    </statement>
+    <statement id="230.txt-2">
+      <text>blades either linear to lanceolate and not lobed, 10–20(–38) cm × 6–10 mm, or oblanceolate to oblong and pinnately lobed, 10–20 cm × 25–50 mm, or both;</text>
+      <structure id="o3841" name="blade">
+        <character char_type="range_value" name="shape" from="linear" to="lanceolate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="lobed" modifier="not" />
+        <character char_type="range_value" name="atypical_length" from="20" to="38" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="10" from_unit="cm" to="20" to_unit="cm" />
+        <character char_type="range_value" name="width" from="6" from_unit="mm" to="10" to_unit="mm" />
+        <character char_type="range_value" name="shape" from="oblanceolate" to="oblong" />
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="oblong" />
+        <character name="shape" value="lobed" modifier="pinnately" />
+        <character char_type="range_value" name="length" from="10" from_unit="cm" to="20" to_unit="cm" />
+        <character char_type="range_value" name="width" from="25" from_unit="mm" to="50" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="230.txt-3">
+      <text>bases usually attenuate, margins usually entire, sometimes ± prickly, revolute, midveins prominent, abaxial faces white-villous, adaxial faces glabrate to arachnose.</text>
+      <structure id="o3842" name="base">
+        <character name="shape" value="attenuate" modifier="usually" />
+      </structure>
+      <structure id="o3843" name="margin">
+        <character name="shape" value="entire" modifier="usually" />
+        <character name="architecture" value="prickly" modifier="sometimes ±" />
+        <character name="shape_or_vernation" value="revolute" />
+      </structure>
+      <structure id="o3844" name="midvein">
+        <character name="prominence" value="prominent" />
+      </structure>
+      <structure id="o3845" name="face" constraint="abaxial">
+        <character name="pubescence" value="white-villous" />
+      </structure>
+      <structure id="o3846" name="face" constraint="adaxial">
+        <character char_type="range_value" name="pubescence" from="glabrate" to="arachnose" />
+        <character name="pubescence" value="glabrate" />
+        <character name="pubescence" value="arachnose" />
+      </structure>
+    </statement>
+    <statement id="230.txt-4">
+      <text>Heads 3.5–8 cm diam. (across rays).</text>
+      <structure id="o3847" name="head">
+        <character char_type="range_value" name="size" from="3.5" from_unit="cm" to="8" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="230.txt-5">
+      <text>Peduncles scapiform, (6–)10–30(–35) cm.</text>
+      <structure id="o3848" name="peduncle">
+        <character name="shape" value="scapiform" />
+        <character char_type="range_value" name="atypical_size" from="6" to="10" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_size" from="30" to="35" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="30" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="230.txt-6">
+      <text>Phyllaries:</text>
+      <structure id="o3849" name="phyllary" />
+    </statement>
+    <statement id="230.txt-7">
+      <text>outer lanceolate, margins prickly-ciliate;</text>
+      <structure id="o3850" name="phyllary" constraint="outer">
+        <character name="shape" value="lanceolate" />
+      </structure>
+      <structure id="o3851" name="margin">
+        <character name="architecture_or_shape" value="prickly-ciliate" />
+      </structure>
+    </statement>
+    <statement id="230.txt-8">
+      <text>the inner with margins undulate, ciliate, with ± submarginal dark stripe, cuspidate.</text>
+      <structure id="o3852" name="phyllary" constraint="inner">
+        <character name="architecture_or_shape" value="ciliate" />
+        <character name="shape" value="cuspidate" />
+      </structure>
+      <structure id="o3853" name="margin">
+        <character name="shape" value="undulate" />
+      </structure>
+      <relation id="r550" name="with" from="o3852" to="o3853" negation="false" />
+      <structure id="o3854" name="stripe">
+        <character name="position" value="submarginal" modifier="±" />
+        <character name="coloration" value="dark" />
+      </structure>
+      <relation id="r551" name="with" from="o3852" to="o3854" negation="false" />
+    </statement>
+    <statement id="230.txt-9">
+      <text>Ray florets 13–18;</text>
+      <structure id="o3855" name="floret" constraint="ray">
+        <character char_type="range_value" name="count" from="13" to="18" />
+      </structure>
+    </statement>
+    <statement id="230.txt-10">
+      <text>corolla laminae yellow or orange, usually each with dark abaxial stripe and adaxial basal blotch or spot, (20–)35–42 × 10 mm.</text>
+      <structure id="o3856" name="lamina" constraint="corolla">
+        <character name="coloration" value="yellow" />
+        <character name="coloration" value="orange" />
+      </structure>
+      <structure id="o3857" name="stripe" constraint="abaxial">
+        <character name="coloration" value="dark" />
+      </structure>
+      <relation id="r552" name="with" from="o3856" to="o3857" negation="false" modifier="usually each" />
+      <structure id="o3858" name="blotch" constraint="adaxial basal">
+        <character char_type="range_value" name="atypical_length" from="20" to="35" from_unit="mm" to_unit="mm" to_inclusive="false" />
+        <character char_type="range_value" name="length" from="35" from_unit="mm" to="42" to_unit="mm" />
+        <character name="width" value="10" unit="mm" />
+      </structure>
+      <structure id="o3859" name="spot">
+        <character char_type="range_value" name="atypical_length" from="20" to="35" from_unit="mm" to_unit="mm" to_inclusive="false" />
+        <character char_type="range_value" name="length" from="35" from_unit="mm" to="42" to_unit="mm" />
+        <character name="width" value="10" unit="mm" />
+      </structure>
+    </statement>
+    <statement id="230.txt-11">
+      <text>Cypselae 1–2 mm;</text>
+      <structure id="o3860" name="cypsela">
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="2" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="230.txt-12">
+      <text>pappi of 7–8 scales 3–4 mm.</text>
+      <structure id="o3861" name="pappus" />
+      <structure id="o3862" name="scale">
+        <character char_type="range_value" name="count" from="7" to="8" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+      <relation id="r553" name="consist_of" from="o3861" to="o3862" negation="false" />
+    </statement>
+  </description>
+  <flowering_time>oct</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>nov</flowering_time>
+  <flowering_time>dec</flowering_time>
+  <flowering_time>winter</flowering_time>
+  <flowering_time>jan</flowering_time>
+  <flowering_time>feb</flowering_time>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <habitat>roadsides</habitat>
+  <habitat>waste places</habitat>
+  <habitat>especially in urban coastal areas</habitat>
+  <elevation>0–400(–900) m;</elevation>
+  <introduced>introduced;</introduced>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <global_distribution>Africa.</global_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

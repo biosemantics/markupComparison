@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>15.</number>
+  <species_name>Hieracium paniculatum</species_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 802. 1753</place_of_publication>
+  <description>
+    <statement id="402.txt-0">
+      <text>Plants 30–90 cm.</text>
+      <structure id="o7828" name="whole_organism">
+        <character char_type="range_value" name="size" from="30" from_unit="cm" to="90" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="402.txt-1">
+      <text>Stems proximally usually glabrous, sometimes piloso-hirsute (hairs 3–8+ mm) and/or stellate-pubescent, distally usually glabrous.</text>
+      <structure id="o7829" name="stem">
+        <character name="pubescence" value="glabrous" modifier="proximally usually" />
+        <character name="pubescence" value="piloso-hirsute" modifier="sometimes" />
+        <character name="pubescence" value="stellate-pubescent" />
+        <character name="pubescence" value="glabrous" modifier="distally usually" />
+      </structure>
+    </statement>
+    <statement id="402.txt-2">
+      <text>Leaves:</text>
+      <structure id="o7830" name="leaf" />
+    </statement>
+    <statement id="402.txt-3">
+      <text>basal 0(–2), cauline 6–12+;</text>
+      <structure id="o7831" name="leaf" constraint="basal">
+        <character char_type="range_value" name="atypical_count" from="0" to="2" from_inclusive="false" />
+        <character name="count" value="0" />
+      </structure>
+      <structure id="o7832" name="leaf" constraint="cauline">
+        <character char_type="range_value" name="count" from="6" to="12" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="402.txt-4">
+      <text>blades elliptic or oblanceolate to lanceolate, 30–80(–150) × 6–25(–35) mm, lengths 3–6+ times widths, bases cuneate, margins usually toothed, sometimes denticulate or entire, apices acute to acuminate, faces glabrous or piloso-hirsute (hairs 1–4+ mm).</text>
+      <structure id="o7833" name="blade">
+        <character char_type="range_value" name="shape" from="oblanceolate" to="lanceolate" />
+        <character name="shape" value="elliptic" />
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="lanceolate" />
+        <character char_type="range_value" name="atypical_length" from="80" to="150" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="30" from_unit="mm" to="80" to_unit="mm" />
+        <character char_type="range_value" name="atypical_width" from="25" to="35" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="width" from="6" from_unit="mm" to="25" to_unit="mm" />
+        <character name="size" value="widths" modifier="3-6+ times" />
+      </structure>
+      <structure id="o7834" name="base">
+        <character name="shape" value="cuneate" />
+      </structure>
+      <structure id="o7835" name="margin">
+        <character name="shape" value="toothed" modifier="usually" />
+        <character name="shape" value="denticulate" modifier="sometimes" />
+        <character name="shape" value="entire" modifier="sometimes" />
+      </structure>
+      <structure id="o7836" name="apex">
+        <character char_type="range_value" name="shape" from="acute" to="acuminate" />
+        <character name="shape" value="acute" />
+        <character name="shape" value="acuminate" />
+      </structure>
+      <structure id="o7837" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="piloso-hirsute" />
+      </structure>
+    </statement>
+    <statement id="402.txt-5">
+      <text>Heads (6–)12–50+ in corymbiform to paniculiform arrays.</text>
+      <structure id="o7838" name="head">
+        <character char_type="range_value" name="atypical_count" from="6" to="12" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="12" to="50" upper_restricted="false" constraint="in arrays" constraintid="o7839" />
+      </structure>
+      <structure id="o7839" name="array">
+        <character char_type="range_value" name="architecture" from="corymbiform" to="paniculiform" />
+        <character name="architecture" value="corymbiform" />
+        <character name="architecture" value="paniculiform" />
+      </structure>
+    </statement>
+    <statement id="402.txt-6">
+      <text>Peduncles usually glabrous, sometimes stipitate-glandular.</text>
+      <structure id="o7840" name="peduncle">
+        <character name="pubescence" value="glabrous" modifier="usually" />
+        <character name="architecture_or_exudation_or_pubescence" value="stipitate-glandular" modifier="sometimes" />
+      </structure>
+    </statement>
+    <statement id="402.txt-7">
+      <text>Calyculi:</text>
+      <structure id="o7841" name="calyculus" />
+    </statement>
+    <statement id="402.txt-8">
+      <text>bractlets 8–13+.</text>
+      <structure id="o7842" name="bractlet">
+        <character char_type="range_value" name="count" from="8" to="13" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="402.txt-9">
+      <text>Involucres campanulate to cylindric, 6–7 mm.</text>
+      <structure id="o7843" name="involucre">
+        <character char_type="range_value" name="shape" from="campanulate" to="cylindric" />
+        <character name="shape" value="campanulate" />
+        <character name="shape" value="cylindric" />
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="402.txt-10">
+      <text>Phyllaries 8–13+, apices acute to acuminate, abaxial faces usually glabrous, sometimes stipitate-glandular.</text>
+      <structure id="o7844" name="phyllary">
+        <character char_type="range_value" name="count" from="8" to="13" upper_restricted="false" />
+      </structure>
+      <structure id="o7845" name="apex">
+        <character char_type="range_value" name="shape" from="acute" to="acuminate" />
+        <character name="shape" value="acute" />
+        <character name="shape" value="acuminate" />
+      </structure>
+      <structure id="o7846" name="face" constraint="abaxial">
+        <character name="pubescence" value="glabrous" modifier="usually" />
+        <character name="architecture_or_exudation_or_pubescence" value="stipitate-glandular" modifier="sometimes" />
+      </structure>
+    </statement>
+    <statement id="402.txt-11">
+      <text>Florets 8–20(–30);</text>
+      <structure id="o7847" name="floret">
+        <character char_type="range_value" name="atypical_count" from="20" to="30" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="8" to="20" />
+      </structure>
+    </statement>
+    <statement id="402.txt-12">
+      <text>corollas ochroleucous to yellow, 5–8 mm.</text>
+      <structure id="o7848" name="corolla">
+        <character char_type="range_value" name="coloration" from="ochroleucous" to="yellow" />
+        <character name="coloration" value="ochroleucous" />
+        <character name="coloration" value="yellow" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="402.txt-13">
+      <text>Cypselae columnar, 2–2.5 mm;</text>
+      <structure id="o7849" name="cypsela">
+        <character name="shape" value="columnar" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="2.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="402.txt-14">
+      <text>pappi of 35–40+, stramineous bristles in ± 2 series, 4–5 mm.</text>
+      <structure id="o7850" name="pappus">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+      <structure id="o7851" name="bristle">
+        <character char_type="range_value" name="count" from="35" to="40" upper_restricted="false" />
+        <character name="coloration" value="stramineous" />
+      </structure>
+      <relation id="r938" name="consist_of" from="o7850" to="o7851" negation="false" />
+      <structure id="o7852" name="series">
+        <character name="count" value="2" modifier="±" />
+      </structure>
+      <relation id="r939" name="in" from="o7851" to="o7852" negation="false" />
+    </statement>
+  </description>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>openings in forests</habitat>
+  <elevation>(10–)500–800 m;</elevation>
+  <ca_distribution>N.B.</ca_distribution>
+  <ca_distribution>N.S.</ca_distribution>
+  <ca_distribution>Ont.</ca_distribution>
+  <ca_distribution>Que.</ca_distribution>
+  <us_distribution>Ala.</us_distribution>
+  <us_distribution>Conn.</us_distribution>
+  <us_distribution>Del.</us_distribution>
+  <us_distribution>Ga.</us_distribution>
+  <us_distribution>Ind.</us_distribution>
+  <us_distribution>Ky.</us_distribution>
+  <us_distribution>Maine</us_distribution>
+  <us_distribution>Md.</us_distribution>
+  <us_distribution>Mass.</us_distribution>
+  <us_distribution>Mich.</us_distribution>
+  <us_distribution>N.H.</us_distribution>
+  <us_distribution>N.J.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>N.C.</us_distribution>
+  <us_distribution>Ohio</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <us_distribution>R.I.</us_distribution>
+  <us_distribution>S.C.</us_distribution>
+  <us_distribution>Tenn.</us_distribution>
+  <us_distribution>Vt.</us_distribution>
+  <us_distribution>Va.</us_distribution>
+  <us_distribution>W.Va.</us_distribution>
+  <discussion>The type of Hieracium scribneri Small may have resulted from a cross between plants of H. paniculatum and H. venosum (A. Cronquist 1980).</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>19.</number>
+  <species_name>Pseudognaphalium arizonicum</species_name>
+  <authority>(A. Gray) Anderberg</authority>
+  <place_of_publication>Opera Bot. 104: 147. 1991</place_of_publication>
+  <common_name>Arizona rabbit-tobacco</common_name>
+  <synonym_of_species_name>Gnaphalium arizonicum A. Gray, Proc. Amer. Acad. Arts 19: 3. 1883</synonym_of_species_name>
+  <description>
+    <statement id="698.txt-0">
+      <text>Annuals or perennials, 20–50 cm;</text>
+    </statement>
+    <statement id="698.txt-1">
+      <text>taprooted.</text>
+      <structure id="o14549" name="whole_organism">
+        <character char_type="range_value" name="size" from="20" from_unit="cm" to="50" to_unit="cm" />
+        <character name="life_style" value="annual" />
+        <character name="life_style" value="perennial" />
+        <character name="architecture" value="taprooted" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="698.txt-2">
+      <text>Stems loosely and densely woolly-tomentose (hairs usually with reddish or purplish cross walls), not glandular.</text>
+      <structure id="o14551" name="stem">
+        <character name="pubescence" value="woolly-tomentose" modifier="densely" />
+        <character name="architecture_or_exudation_or_pubescence" value="glandular" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="698.txt-3">
+      <text>Leaf blades linear-oblanceolate to linear-lanceolate, 2–6 cm × 2–7 mm, bases not clasping, decurrent 3–15(–20) mm, margins weakly and narrowly revolute, faces concolor to weakly bicolor, tomentose (hairs commonly with reddish or purplish cross walls), not glandular.</text>
+      <structure id="o14552" name="blade" constraint="leaf">
+        <character char_type="range_value" name="shape" from="linear-oblanceolate" to="linear-lanceolate" />
+        <character name="shape" value="linear-oblanceolate" />
+        <character name="shape" value="linear-lanceolate" />
+        <character char_type="range_value" name="length" from="2" from_unit="cm" to="6" to_unit="cm" />
+        <character char_type="range_value" name="width" from="2" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+      <structure id="o14553" name="base">
+        <character name="architecture" value="clasping" modifier="not" />
+        <character name="shape" value="decurrent" />
+        <character char_type="range_value" name="atypical_size" from="15" to="20" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="15" to_unit="mm" />
+      </structure>
+      <structure id="o14554" name="margin">
+        <character name="shape_or_vernation" value="revolute" modifier="narrowly" />
+      </structure>
+      <structure id="o14555" name="face">
+        <character char_type="range_value" name="coloration" from="concolor" to="weakly bicolor" />
+        <character name="coloration" value="concolor" />
+        <character name="coloration" value="bicolor" modifier="weakly" />
+        <character name="pubescence" value="tomentose" />
+        <character name="architecture_or_exudation_or_pubescence" value="glandular" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="698.txt-4">
+      <text>Heads borne singly or in terminal glomerules or corymbiform arrays.</text>
+      <structure id="o14556" name="head">
+        <character name="arrangement" value="singly" />
+        <character name="arrangement" value="in terminal glomerules" />
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <structure id="o14557" name="glomerule" constraint="terminal" />
+      <relation id="r1563" name="in" from="o14556" to="o14557" negation="false" />
+    </statement>
+    <statement id="698.txt-5">
+      <text>Involucres turbinate-campanulate, 5–6 mm.</text>
+      <structure id="o14558" name="involucre">
+        <character name="shape" value="turbinate-campanulate" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="698.txt-6">
+      <text>Phyllaries in 4–5 series, usually brownish to tawny, rarely slightly rosy (opaque, shiny), ovate-lanceolate to lanceolate, glabrous.</text>
+      <structure id="o14559" name="phyllary">
+        <character name="coloration" value="brownish" modifier="usually" />
+        <character name="coloration" value="tawny" />
+        <character name="coloration" value="rosy" modifier="rarely slightly" />
+        <character char_type="range_value" name="shape" from="ovate-lanceolate" to="lanceolate" />
+        <character name="shape" value="ovate-lanceolate" />
+        <character name="shape" value="lanceolate" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+      <structure id="o14560" name="series">
+        <character char_type="range_value" name="count" from="4" to="5" />
+      </structure>
+      <relation id="r1564" name="in" from="o14559" to="o14560" negation="false" />
+    </statement>
+    <statement id="698.txt-7">
+      <text>Pistillate florets (25–)30–49.</text>
+      <structure id="o14561" name="floret" constraint="pistillate">
+        <character char_type="range_value" name="atypical_count" from="25" to="30" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="30" to="49" />
+      </structure>
+    </statement>
+    <statement id="698.txt-8">
+      <text>Bisexual florets (1–)3–6.</text>
+      <structure id="o14562" name="floret" constraint="bisexual">
+        <character char_type="range_value" name="atypical_count" from="1" to="3" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="3" to="6" />
+      </structure>
+    </statement>
+    <statement id="698.txt-9">
+      <text>Cypselae ridged, papillate-roughened.</text>
+      <structure id="o14563" name="cypsela">
+        <character name="shape" value="ridged" />
+        <character name="texture" value="papillate-roughened" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>open woodlands and chaparral [wide ranging habitats in mexico, agricultural land to oak and pine woodlands</habitat>
+  <elevation>1600–2300 m;</elevation>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <global_distribution>w Mexico.</global_distribution>
+  <discussion>Pseudognaphalium arizonicum is superficially similar to P. stramineum in its narrow, concolor leaves; P. stramineum has non-decurrent leaves, light yellowish phyllaries, and more pistillate and bisexual florets.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

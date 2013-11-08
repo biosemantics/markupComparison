@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Nothocalaïs alpestris</species_name>
+  <authority>(A. Gray) K. L. Chambers</authority>
+  <place_of_publication>Contr. Dudley Herb. 5: 66. 1957</place_of_publication>
+  <common_name>Alpine lake false dandelion</common_name>
+  <synonym_of_species_name>Troximon alpestre A. Gray, Proc. Amer. Acad. Arts 19: 70. 1883; Agoseris alpestris (A. Gray) Greene; Microseris alpestris (A. Gray) Q. Jones ex Cronquist</synonym_of_species_name>
+  <description>
+    <statement id="517.txt-0">
+      <text>Plants 3–45 cm.</text>
+      <structure id="o10580" name="whole_organism">
+        <character char_type="range_value" name="size" from="3" from_unit="cm" to="45" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="517.txt-1">
+      <text>Stems (peduncles) ebracteate.</text>
+      <structure id="o10581" name="stem">
+        <character name="architecture" value="ebracteate" />
+      </structure>
+    </statement>
+    <statement id="517.txt-2">
+      <text>Leaves:</text>
+      <structure id="o10582" name="leaf" />
+    </statement>
+    <statement id="517.txt-3">
+      <text>blades linear to oblanceolate, 3–20 cm, bases attenuate to obtuse, margins plane, usually coarsely toothed or pinnately lobed (lobes spreading or retrorse), sometimes entire, sometimes ciliolate, faces glabrous.</text>
+      <structure id="o10583" name="blade">
+        <character char_type="range_value" name="shape" from="linear" to="oblanceolate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="oblanceolate" />
+        <character char_type="range_value" name="size" from="3" from_unit="cm" to="20" to_unit="cm" />
+      </structure>
+      <structure id="o10584" name="base">
+        <character char_type="range_value" name="shape" from="attenuate" to="obtuse" />
+        <character name="shape" value="attenuate" />
+        <character name="shape" value="obtuse" />
+      </structure>
+      <structure id="o10585" name="plane" constraint="margins">
+        <character name="shape" value="toothed" modifier="usually coarsely" />
+        <character name="shape" value="lobed" modifier="pinnately" />
+        <character name="shape" value="entire" modifier="sometimes" />
+        <character name="pubescence" value="ciliolate" modifier="sometimes" />
+      </structure>
+      <structure id="o10586" name="face">
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="517.txt-4">
+      <text>Involucres 10–20 mm.</text>
+      <structure id="o10587" name="involucre">
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="20" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="517.txt-5">
+      <text>Phyllaries 8–35, evenly and minutely purple-dotted, ovate-lanceolate, apices acuminate , faces glabrous.</text>
+      <structure id="o10588" name="phyllary">
+        <character char_type="range_value" name="count" from="8" to="35" />
+        <character name="coloration_or_relief" value="purple-dotted" modifier="minutely" />
+        <character name="shape" value="ovate-lanceolate" />
+      </structure>
+      <structure id="o10589" name="apex">
+        <character name="shape" value="acuminate" />
+      </structure>
+      <structure id="o10590" name="face">
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="517.txt-6">
+      <text>Florets 13–75;</text>
+      <structure id="o10591" name="floret">
+        <character char_type="range_value" name="count" from="13" to="75" />
+      </structure>
+    </statement>
+    <statement id="517.txt-7">
+      <text>ligules 10–20 mm.</text>
+      <structure id="o10592" name="ligule">
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="20" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="517.txt-8">
+      <text>Cypselae brown, 5–10 mm, sometimes narrowed distally 1–3 mm, not beaked;</text>
+      <structure id="o10593" name="cypsela">
+        <character name="coloration" value="brown" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="10" to_unit="mm" />
+        <character name="size" value="narrowed" modifier="sometimes ; distally" />
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="3" to_unit="mm" />
+        <character name="shape" value="beaked" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="517.txt-9">
+      <text>pappi of 30–50, barbellulate bristles 6–10 mm.</text>
+      <structure id="o10594" name="pappus" />
+      <structure id="o10595" name="bristle">
+        <character char_type="range_value" name="count" from="30" to="50" />
+        <character name="architecture" value="barbellulate" />
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+      <relation id="r1213" name="consist_of" from="o10594" to="o10595" negation="false" />
+    </statement>
+    <statement id="517.txt-10">
+      <text>2 n = 18.</text>
+      <structure id="o10596" name="chromosome">
+        <character name="count" value="18" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>meadows</habitat>
+  <habitat>rocky slopes</habitat>
+  <habitat>pumice flats</habitat>
+  <habitat>mixed subalpine woodland and abies subalpine zone</habitat>
+  <elevation>1300–2500 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <discussion>Nothocalaïs alpestris grows in the subalpine Cascade Range, Klamath Mountains, and (rarely) the Sierra Nevada.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

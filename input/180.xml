@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>5.</number>
+  <species_name>Saussurea weberi</species_name>
+  <authority>Hultén</authority>
+  <place_of_publication>Svensk Bot. Tidskr. 53: 202, fig. 1. 1959</place_of_publication>
+  <description>
+    <statement id="180.txt-0">
+      <text>Plants 5–22 cm;</text>
+      <structure id="o2302" name="whole_organism">
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="22" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="180.txt-1">
+      <text>branched caudices.</text>
+      <structure id="o2303" name="caudex" constraint="branched" />
+    </statement>
+    <statement id="180.txt-2">
+      <text>Stems usually simple.</text>
+      <structure id="o2304" name="stem">
+        <character name="architecture" value="simple" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="180.txt-3">
+      <text>Leaves basal and cauline not much smaller distally, tapered to winged petioles 1–7 cm;</text>
+      <structure id="o2305" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" modifier="not much" />
+        <character name="size" value="smaller" modifier="distally" />
+      </structure>
+      <structure id="o2306" name="petiole">
+        <character name="architecture" value="winged" />
+        <character char_type="range_value" name="size" from="1" from_unit="cm" to="7" to_unit="cm" />
+      </structure>
+      <relation id="r333" name="tapered to" from="o2305" to="o2306" negation="false" />
+    </statement>
+    <statement id="180.txt-4">
+      <text>blades elliptic or lanceolate to ovate, 2–8 cm, bases acute, margins entire or denticulate, apices acute, thinly tomentose when young, glabrescent, abaxially minutely resin-gland-dotted;</text>
+      <structure id="o2307" name="blade">
+        <character char_type="range_value" name="shape" from="lanceolate" to="ovate" />
+        <character name="shape" value="elliptic" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="ovate" />
+        <character char_type="range_value" name="size" from="2" from_unit="cm" to="8" to_unit="cm" />
+      </structure>
+      <structure id="o2308" name="base">
+        <character name="shape" value="acute" />
+      </structure>
+      <structure id="o2309" name="margin">
+        <character name="shape" value="entire" />
+        <character name="shape" value="denticulate" />
+      </structure>
+      <structure id="o2310" name="apex">
+        <character name="shape" value="acute" />
+        <character name="pubescence" value="tomentose" modifier="thinly" />
+        <character name="age" value="young" />
+        <character name="pubescence" value="glabrescent" />
+        <character name="coloration_or_relief" value="resin-gland-dotted" modifier="abaxially minutely" />
+      </structure>
+    </statement>
+    <statement id="180.txt-5">
+      <text>distal cauline sessile.</text>
+      <structure id="o2311" name="leaf" constraint="distal cauline">
+        <character name="architecture" value="sessile" />
+      </structure>
+    </statement>
+    <statement id="180.txt-6">
+      <text>Heads 1–15 in condensed subcapitate arrays; (peduncles 0–1 cm ) .</text>
+      <structure id="o2312" name="head">
+        <character char_type="range_value" name="count" from="1" to="15" constraint="in arrays" constraintid="o2313" />
+      </structure>
+      <structure id="o2313" name="array">
+        <character name="architecture" value="condensed" />
+        <character name="architecture" value="subcapitate" />
+      </structure>
+    </statement>
+    <statement id="180.txt-7">
+      <text>Involucres 10–12 mm.</text>
+      <structure id="o2314" name="involucre">
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="12" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="180.txt-8">
+      <text>Phyllaries in 3–4 series, unequal, ovate to lanceolate, abaxial faces dark green and tinged dark purplish, long-pilose;</text>
+      <structure id="o2315" name="phyllary">
+        <character name="size" value="unequal" />
+        <character char_type="range_value" name="shape" from="ovate" to="lanceolate" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="lanceolate" />
+      </structure>
+      <structure id="o2316" name="series">
+        <character char_type="range_value" name="count" from="3" to="4" />
+      </structure>
+      <relation id="r334" name="in" from="o2315" to="o2316" negation="false" />
+      <structure id="o2317" name="face" constraint="abaxial">
+        <character name="coloration" value="purplish" modifier="dark-green and tinged-dark" />
+        <character name="pubescence" value="long-pilose" />
+      </structure>
+    </statement>
+    <statement id="180.txt-9">
+      <text>tips of outer and mid phyllaries ± rounded.</text>
+      <structure id="o2318" name="tip">
+        <character name="shape" value="rounded" modifier="±" />
+      </structure>
+      <structure id="o2319" name="phyllary" constraint="outer and mid" />
+      <relation id="r335" name="part_of" from="o2318" to="o2319" negation="false" />
+    </statement>
+    <statement id="180.txt-10">
+      <text>Receptacles scaly.</text>
+      <structure id="o2320" name="receptacle">
+        <character name="pubescence_or_architecture" value="scaly" />
+      </structure>
+    </statement>
+    <statement id="180.txt-11">
+      <text>Florets 9–10;</text>
+      <structure id="o2321" name="floret">
+        <character char_type="range_value" name="count" from="9" to="10" />
+      </structure>
+    </statement>
+    <statement id="180.txt-12">
+      <text>corollas purple, 10–12 mm, tubes 4.5–6 mm, throats 1.5–2 mm, lobes 3.5–4 mm;</text>
+      <structure id="o2322" name="corolla">
+        <character name="coloration" value="purple" />
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="12" to_unit="mm" />
+      </structure>
+      <structure id="o2323" name="tube">
+        <character char_type="range_value" name="size" from="4.5" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+      <structure id="o2324" name="throat">
+        <character char_type="range_value" name="size" from="1.5" from_unit="mm" to="2" to_unit="mm" />
+      </structure>
+      <structure id="o2325" name="lobe">
+        <character char_type="range_value" name="size" from="3.5" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="180.txt-13">
+      <text>anthers dark purple.</text>
+      <structure id="o2326" name="anther">
+        <character name="coloration" value="purple" modifier="dark" />
+      </structure>
+    </statement>
+    <statement id="180.txt-14">
+      <text>Cypselae 3–5 mm;</text>
+      <structure id="o2327" name="cypsela">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="180.txt-15">
+      <text>pappi of white or tawny, outer bristles 1–4 mm, inner 8–11 mm.</text>
+      <structure id="o2328" name="pappus">
+        <character name="position" value="inner" />
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="11" to_unit="mm" />
+      </structure>
+      <structure id="o2329" name="bristle" constraint="outer">
+        <character name="coloration" value="white" />
+        <character name="coloration" value="tawny" />
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+      <relation id="r336" name="consist_of" from="o2328" to="o2329" negation="false" />
+    </statement>
+    <statement id="180.txt-16">
+      <text>2 n = 26.</text>
+      <structure id="o2330" name="chromosome">
+        <character name="count" value="26" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>gravelly alpine tundras</habitat>
+  <habitat>scree slopes</habitat>
+  <elevation>2800–5200 m;</elevation>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <discussion>Saussurea weberi appears to be closely related to the S. angustifolia complex.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

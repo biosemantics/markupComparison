@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>41.</number>
+  <genus_name>YOUNGIA</genus_name>
+  <authority>Cassini</authority>
+  <place_of_publication>Ann. Sci. Nat. (Paris) 23: 88. 1831</place_of_publication>
+  <common_name />
+  <derivation>For “deux Anglais célèbres, l’un comme poète, l’autre comme physicien,” both named Young; the poet may have been Edward Young (also dramatist), 1683–1765; the physician may have been Thomas Young (also physicist and Egyptologist), 1773–1829</derivation>
+  <author_of_tribe_genus>Phyllis L. Spurr</author_of_tribe_genus>
+  <description>
+    <statement id="339.txt-0">
+      <text>Annuals, biennials [perennials], (10–)20–90+ cm;</text>
+    </statement>
+    <statement id="339.txt-1">
+      <text>taprooted.</text>
+      <structure id="o6295" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="10" to="20" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="20" from_unit="cm" to="90" to_unit="cm" upper_restricted="false" />
+        <character name="life_style" value="annual" />
+        <character name="life_style" value="biennial" />
+        <character name="architecture" value="taprooted" />
+        <character name="life_style" value="biennial" />
+      </structure>
+    </statement>
+    <statement id="339.txt-2">
+      <text>Stems 1–5+, erect (often scapiform), usually branched distally, sometimes throughout, proximally glabrous, puberulent, or tomentose.</text>
+      <structure id="o6297" name="stem">
+        <character char_type="range_value" name="count" from="1" to="5" upper_restricted="false" />
+        <character name="orientation" value="erect" />
+        <character name="architecture_or_shape" value="branched" modifier="usually ; distally" />
+        <character name="pubescence" value="glabrous" modifier="proximally" />
+        <character name="pubescence" value="puberulent" modifier="proximally" />
+        <character name="pubescence" value="tomentose" modifier="proximally" />
+      </structure>
+    </statement>
+    <statement id="339.txt-3">
+      <text>Leaves all or mostly basal;</text>
+    </statement>
+    <statement id="339.txt-4">
+      <text>petiolate (petiole bases often dilated, ± clasping);</text>
+      <structure id="o6298" name="leaf">
+        <character name="insertion_or_position" value="basal" modifier="mostly" />
+        <character name="architecture" value="petiolate" />
+      </structure>
+    </statement>
+    <statement id="339.txt-5">
+      <text>blades oblong or ovate to oblanceolate, margins usually pinnately lobed (± lyrate), ultimate margins denticulate.</text>
+      <structure id="o6299" name="blade">
+        <character char_type="range_value" name="shape" from="ovate" to="oblanceolate" />
+        <character name="shape" value="oblong" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="oblanceolate" />
+      </structure>
+      <structure id="o6300" name="margin">
+        <character name="shape" value="lobed" modifier="usually pinnately" />
+      </structure>
+      <structure id="o6301" name="margin" constraint="ultimate">
+        <character name="shape" value="denticulate" />
+      </structure>
+    </statement>
+    <statement id="339.txt-6">
+      <text>Heads (4–150) in corymbiform to paniculiform arrays.</text>
+      <structure id="o6302" name="head">
+        <character char_type="range_value" name="atypical_count" from="4" to="150" constraint="in arrays" constraintid="o6303" />
+      </structure>
+      <structure id="o6303" name="array">
+        <character char_type="range_value" name="architecture" from="corymbiform" to="paniculiform" />
+        <character name="architecture" value="corymbiform" />
+        <character name="architecture" value="paniculiform" />
+      </structure>
+    </statement>
+    <statement id="339.txt-7">
+      <text>Peduncles (filiform) not distally inflated, seldom bracteate.</text>
+      <structure id="o6304" name="peduncle">
+        <character name="shape" value="inflated" modifier="not distally" />
+        <character name="architecture" value="bracteate" modifier="seldom" />
+      </structure>
+    </statement>
+    <statement id="339.txt-8">
+      <text>Calyculi of 3–5+, deltate to ovate (membranous) bractlets.</text>
+      <structure id="o6305" name="calyculus" />
+      <structure id="o6306" name="bractlet">
+        <character char_type="range_value" name="count" from="3" to="5" upper_restricted="false" />
+        <character char_type="range_value" name="shape" from="deltate" to="ovate" />
+        <character name="shape" value="deltate" />
+        <character name="shape" value="ovate" />
+      </structure>
+      <relation id="r789" name="consist_of" from="o6305" to="o6306" negation="false" />
+    </statement>
+    <statement id="339.txt-9">
+      <text>Involucres cylindric to campanulate, 2–3+ mm diam.</text>
+      <structure id="o6307" name="involucre">
+        <character char_type="range_value" name="shape" from="cylindric" to="campanulate" />
+        <character name="shape" value="cylindric" />
+        <character name="shape" value="campanulate" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="3" to_unit="mm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="339.txt-10">
+      <text>Phyllaries usually 8 in 1–2 series, lanceolate to linear, ± equal (reflexed in fruit), margins ± scarious, apices obtuse to acute.</text>
+      <structure id="o6308" name="phyllary">
+        <character name="count" value="8" modifier="usually" constraint="in series" constraintid="o6309" />
+        <character char_type="range_value" name="shape" from="lanceolate" to="linear" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="linear" />
+        <character name="size" value="equal" modifier="±" />
+      </structure>
+      <structure id="o6309" name="series">
+        <character char_type="range_value" name="count" from="1" to="2" />
+      </structure>
+      <structure id="o6310" name="margin">
+        <character name="texture" value="scarious" modifier="±" />
+      </structure>
+      <structure id="o6311" name="apex">
+        <character char_type="range_value" name="shape" from="obtuse" to="acute" />
+        <character name="shape" value="obtuse" />
+        <character name="shape" value="acute" />
+      </structure>
+    </statement>
+    <statement id="339.txt-11">
+      <text>Receptacles flat to convex, ± pitted, glabrous, epaleate.</text>
+      <structure id="o6312" name="receptacle">
+        <character char_type="range_value" name="shape" from="flat" to="convex" />
+        <character name="shape" value="flat" />
+        <character name="shape" value="convex" />
+        <character name="relief" value="pitted" modifier="±" />
+        <character name="pubescence" value="glabrous" />
+        <character name="architecture" value="epaleate" />
+      </structure>
+    </statement>
+    <statement id="339.txt-12">
+      <text>Florets 8–25+;</text>
+      <structure id="o6313" name="floret">
+        <character char_type="range_value" name="count" from="8" to="25" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="339.txt-13">
+      <text>corollas yellow, sometimes abaxially purplish (anther bases with linear, acute auricles).</text>
+      <structure id="o6314" name="corolla">
+        <character name="coloration" value="yellow" />
+        <character name="coloration" value="purplish" modifier="sometimes abaxially" />
+      </structure>
+    </statement>
+    <statement id="339.txt-14">
+      <text>Cypselae ± reddish brown, ± fusiform and compressed [± terete], weakly or not beaked, ribs 11–13, ± spiculate to scabrellous on ribs;</text>
+      <structure id="o6315" name="cypsela">
+        <character name="coloration" value="brown" modifier="±;reddish" />
+        <character name="shape" value="fusiform" modifier="±" />
+        <character name="shape" value="compressed" />
+        <character name="shape" value="beaked" modifier="weakly not" />
+      </structure>
+      <structure id="o6316" name="rib">
+        <character char_type="range_value" name="count" from="11" to="13" />
+        <character char_type="range_value" name="relief" from="spiculate" to="scabrellous" modifier="±" />
+        <character name="relief" value="spiculate" modifier="±" />
+        <character name="relief" value="scabrellous" modifier="±" constraint="on ribs" constraintid="o6317" />
+      </structure>
+      <structure id="o6317" name="rib" />
+    </statement>
+    <statement id="339.txt-15">
+      <text>pappi (borne on discs at tips of cypselae) persistent (fragile) [falling], of 40–60+, basally coherent [distinct], white [yellowish or grayish], subequal, smooth to barbellulate bristles in ± 1 series.</text>
+      <structure id="o6318" name="pappus">
+        <character name="duration" value="persistent" />
+      </structure>
+      <structure id="o6319" name="bristle">
+        <character char_type="range_value" name="count" from="40" to="60" upper_restricted="false" />
+        <character name="fusion" value="coherent" modifier="basally" />
+        <character name="coloration" value="white" />
+        <character name="size" value="subequal" />
+        <character char_type="range_value" name="architecture" from="smooth" to="barbellulate" />
+        <character name="architecture" value="smooth" />
+        <character name="architecture" value="barbellulate" />
+      </structure>
+      <relation id="r790" name="consist_of" from="o6318" to="o6319" negation="false" />
+      <structure id="o6320" name="series">
+        <character name="count" value="1" modifier="±" />
+      </structure>
+      <relation id="r791" name="in" from="o6319" to="o6320" negation="false" />
+    </statement>
+    <statement id="339.txt-16">
+      <text>x = 5 or 8.</text>
+      <structure id="o6321" name="chromosome">
+        <character name="count" value="5" />
+        <character name="count" value="8" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species ca. 30 (1 in the flora):</number_of_infrataxa>
+  <introduced>introduced;</introduced>
+  <general_distribution>Asia</general_distribution>
+  <general_distribution>introduced also in South America</general_distribution>
+  <general_distribution>Europe</general_distribution>
+  <general_distribution>Africa</general_distribution>
+  <general_distribution>Pacific Islands</general_distribution>
+  <general_distribution>Australia.</general_distribution>
+  <discussion>Youngia americana Babcock (based on a specimen from Alaska) has not been used as an accepted name for plants in the flora area; it was treated as a synonym of Crepis nana var. lyratifolia (Turczaninow) Hultén by E. Hultén (1968).</discussion>
+  <references>SELECTED REFERENCE Babcock, E. B. and G. L. Stebbins. 1937. The genus Youngia. Publ. Carnegie Inst. Wash. 484.</references>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

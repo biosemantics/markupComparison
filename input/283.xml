@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>6.</number>
+  <species_name>Crepis bursifolia</species_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 805. 1753</place_of_publication>
+  <common_name>Italian hawksbit</common_name>
+  <description>
+    <statement id="283.txt-0">
+      <text>Perennials, 5–35 cm (taproots stout, caudices covered by old leaf bases).</text>
+      <structure id="o5005" name="whole_organism">
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="35" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="283.txt-1">
+      <text>Stems 2–9+, arcuate or decumbent, slender, scapiform, cymosely branched distally, glabrous.</text>
+      <structure id="o5006" name="stem">
+        <character char_type="range_value" name="count" from="2" to="9" upper_restricted="false" />
+        <character name="course_or_shape" value="arcuate" />
+        <character name="habit" value="decumbent" />
+        <character name="size" value="slender" />
+        <character name="shape" value="scapiform" />
+        <character name="architecture_or_shape" value="branched" modifier="cymosely ; distally" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="283.txt-2">
+      <text>Leaves mostly basal;</text>
+    </statement>
+    <statement id="283.txt-3">
+      <text>petiolate;</text>
+      <structure id="o5007" name="leaf">
+        <character name="insertion_or_position" value="basal" modifier="mostly" />
+        <character name="architecture" value="petiolate" />
+      </structure>
+    </statement>
+    <statement id="283.txt-4">
+      <text>blades oblanceolate, lyrate, 2.5–25 × 0.5–6 cm, margins pinnately lobed (lateral lobes lanceolate, dentate, acute, terminal lobes usually larger), apices obtuse or acute, faces glabrous.</text>
+      <structure id="o5008" name="blade">
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="lyrate" />
+        <character char_type="range_value" name="length" from="2.5" from_unit="cm" to="25" to_unit="cm" />
+        <character char_type="range_value" name="width" from="0.5" from_unit="cm" to="6" to_unit="cm" />
+      </structure>
+      <structure id="o5009" name="margin">
+        <character name="shape" value="lobed" modifier="pinnately" />
+      </structure>
+      <structure id="o5010" name="apex">
+        <character name="shape" value="obtuse" />
+        <character name="shape" value="acute" />
+      </structure>
+      <structure id="o5011" name="face">
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="283.txt-5">
+      <text>Heads 2–3 (peduncles slender), in cymiform arrays.</text>
+      <structure id="o5012" name="head">
+        <character char_type="range_value" name="count" from="2" to="3" />
+      </structure>
+      <structure id="o5013" name="array">
+        <character name="architecture" value="cymiform" />
+      </structure>
+      <relation id="r678" name="in" from="o5012" to="o5013" negation="false" />
+    </statement>
+    <statement id="283.txt-6">
+      <text>Calyculi of 10–14, (lax) linear, tomentose or glandular-pubescent bractlets 2–5 mm.</text>
+      <structure id="o5014" name="calyculus" />
+      <structure id="o5015" name="bractlet">
+        <character char_type="range_value" name="count" from="10" to="14" />
+        <character name="arrangement_or_shape" value="linear" />
+        <character name="pubescence" value="tomentose" />
+        <character name="pubescence" value="glandular-pubescent" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+      <relation id="r679" name="consist_of" from="o5014" to="o5015" negation="false" />
+    </statement>
+    <statement id="283.txt-7">
+      <text>Involucres cylindric, 8–11 × 3–4 mm.</text>
+      <structure id="o5016" name="involucre">
+        <character name="shape" value="cylindric" />
+        <character char_type="range_value" name="length" from="8" from_unit="mm" to="11" to_unit="mm" />
+        <character char_type="range_value" name="width" from="3" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="283.txt-8">
+      <text>Phyllaries 10–12 (reflexed, medially yellowish) lanceolate (bases keeled, margins dark greenish, sometimes scarious), apices acute (ciliate), abaxial faces tomentulose, adaxial with fine hairs.</text>
+      <structure id="o5017" name="phyllary">
+        <character char_type="range_value" name="count" from="10" to="12" />
+        <character name="shape" value="lanceolate" />
+      </structure>
+      <structure id="o5018" name="apex">
+        <character name="shape" value="acute" />
+      </structure>
+      <structure id="o5019" name="face" constraint="abaxial">
+        <character name="pubescence" value="tomentulose" />
+        <character name="insertion_or_position" value="adaxial" constraint="with hairs" constraintid="o5020" />
+      </structure>
+      <structure id="o5020" name="hair">
+        <character name="texture" value="fine" />
+      </structure>
+    </statement>
+    <statement id="283.txt-9">
+      <text>Florets 30–60;</text>
+      <structure id="o5021" name="floret">
+        <character char_type="range_value" name="count" from="30" to="60" />
+      </structure>
+    </statement>
+    <statement id="283.txt-10">
+      <text>corollas light yellow, greenish abaxially, 10–11 mm.</text>
+      <structure id="o5022" name="corolla">
+        <character name="coloration" value="yellow" modifier="light" />
+        <character name="coloration" value="greenish" modifier="abaxially" />
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="11" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="283.txt-11">
+      <text>Cypselae pale brown, fusiform, 6–7 mm, beaked, beaks pale (lengths nearly 2 times bodies), ribs 10;</text>
+      <structure id="o5023" name="cypsela">
+        <character name="coloration" value="brown" modifier="pale" />
+        <character name="shape" value="fusiform" />
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="7" to_unit="mm" />
+        <character name="shape" value="beaked" />
+      </structure>
+      <structure id="o5024" name="beak">
+        <character name="coloration" value="pale" />
+      </structure>
+      <structure id="o5025" name="rib">
+        <character name="count" value="10" />
+      </structure>
+    </statement>
+    <statement id="283.txt-12">
+      <text>pappi white, 3–4 mm.</text>
+      <structure id="o5026" name="pappus">
+        <character name="coloration" value="white" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="283.txt-13">
+      <text>2 n = 8.</text>
+      <structure id="o5027" name="chromosome">
+        <character name="count" value="8" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>waste places</habitat>
+  <habitat>lawns</habitat>
+  <elevation>0–100 m;</elevation>
+  <introduced>introduced;</introduced>
+  <us_distribution>Calif.</us_distribution>
+  <global_distribution>Europe.</global_distribution>
+  <discussion>Crepis bursifolia is identified by the dense basal rosettes of glabrous, lyrate leaves with dentate lateral lobes and relatively large terminal lobes, relatively few heads on slender peduncles, and cypselae with relatively thin beaks two times lengths of the bodies. It is an aggressive weed.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

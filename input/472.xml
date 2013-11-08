@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>6c.</number>
+  <subspecies_name>Malacothrix foliosa A. Gray subsp. foliosa</subspecies_name>
+  <description>
+    <statement id="472.txt-0">
+      <text>Stems usually 1, usually erect, branched distally.</text>
+      <structure id="o9423" name="stem">
+        <character name="count" value="1" modifier="usually" />
+        <character name="orientation" value="erect" modifier="usually" />
+        <character name="architecture_or_shape" value="branched" modifier="distally" />
+      </structure>
+    </statement>
+    <statement id="472.txt-1">
+      <text>Distal cauline leaves ovate to lanceolate, pinnately lobed (at bases, lobes 1–2 pairs, narrow).</text>
+      <structure id="o9424" name="leaf" constraint="distal cauline">
+        <character name="shape" value="ovate" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="lobed" modifier="pinnately" />
+      </structure>
+    </statement>
+    <statement id="472.txt-2">
+      <text>Calyculi of 8–12+, lance-deltate to lanceolate bractlets.</text>
+      <structure id="o9425" name="calyculus" />
+      <structure id="o9426" name="bractlet">
+        <character char_type="range_value" name="count" from="8" to="12" upper_restricted="false" />
+        <character char_type="range_value" name="shape" from="lance-deltate" to="lanceolate" />
+        <character name="shape" value="lance-deltate" />
+        <character name="shape" value="lanceolate" />
+      </structure>
+      <relation id="r1096" name="consist_of" from="o9425" to="o9426" negation="false" />
+    </statement>
+    <statement id="472.txt-3">
+      <text>Involucres 7–11 × 3–8 mm.</text>
+      <structure id="o9427" name="involucre">
+        <character char_type="range_value" name="length" from="7" from_unit="mm" to="11" to_unit="mm" />
+        <character char_type="range_value" name="width" from="3" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="472.txt-4">
+      <text>Phyllaries 18–22+ in 3 series.</text>
+      <structure id="o9428" name="phyllary">
+        <character char_type="range_value" name="count" from="18" to="22" upper_restricted="false" constraint="in series" constraintid="o9429" />
+      </structure>
+      <structure id="o9429" name="series">
+        <character name="count" value="3" />
+      </structure>
+    </statement>
+    <statement id="472.txt-5">
+      <text>Corollas light yellow, 10–17 mm;</text>
+      <structure id="o9430" name="corolla">
+        <character name="coloration" value="yellow" modifier="light" />
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="17" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="472.txt-6">
+      <text>outer ligules exserted 6–10 mm.</text>
+      <structure id="o9431" name="ligule" constraint="outer">
+        <character name="position" value="exserted" />
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="472.txt-7">
+      <text>Cypselae ± cylindro-fusiform, 0.9–1.5 mm, ribs ± equal.</text>
+      <structure id="o9432" name="cypsela">
+        <character name="shape" value="cylindro-fusiform" modifier="±" />
+        <character char_type="range_value" name="size" from="0.9" from_unit="mm" to="1.5" to_unit="mm" />
+      </structure>
+      <structure id="o9433" name="rib">
+        <character name="size" value="equal" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="472.txt-8">
+      <text>2 n = 14.</text>
+      <structure id="o9434" name="chromosome">
+        <character name="count" value="14" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <habitat>open sandy areas</habitat>
+  <habitat>dunes</habitat>
+  <habitat>between shrubs in chaparral</habitat>
+  <elevation>10–100 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <discussion>Subspecies foliosa is known only from San Clemente Island.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>10.</number>
+  <genus_name>ONOPORDUM</genus_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 827. 1753; Gen. Pl. ed. 5, 359. 1754</place_of_publication>
+  <common_name>Cotton thistle, onoporde</common_name>
+  <derivation>Greek onopordon , name for cotton thistle</derivation>
+  <author_of_tribe_genus>David J. Keil</author_of_tribe_genus>
+  <description>
+    <statement id="34.txt-0">
+      <text>Biennials , 50–400+ cm, coarse, prickly.</text>
+      <structure id="o6261" name="whole_organism">
+        <character char_type="range_value" name="size" from="50" from_unit="cm" to="400" to_unit="cm" upper_restricted="false" />
+        <character name="texture" value="coarse" />
+        <character name="architecture" value="prickly" />
+        <character name="life_style" value="biennial" />
+      </structure>
+    </statement>
+    <statement id="34.txt-1">
+      <text>Stems usually erect, ± branched, spiny-winged.</text>
+      <structure id="o6262" name="stem">
+        <character name="orientation" value="erect" modifier="usually" />
+        <character name="architecture_or_shape" value="branched" modifier="±" />
+        <character name="architecture" value="spiny-winged" />
+      </structure>
+    </statement>
+    <statement id="34.txt-2">
+      <text>Leaves basal and cauline;</text>
+    </statement>
+    <statement id="34.txt-3">
+      <text>winged-petiolate (basal) or sessile (cauline);</text>
+      <structure id="o6263" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="architecture" value="winged-petiolate" />
+        <character name="architecture" value="sessile" />
+      </structure>
+    </statement>
+    <statement id="34.txt-4">
+      <text>blade bases narrowing , margins pinnately lobed or divided and dentate, teeth and lobes tipped with stout spines.</text>
+      <structure id="o6264" name="base" constraint="blade">
+        <character name="size" value="narrowing" />
+      </structure>
+      <structure id="o6265" name="margin">
+        <character name="shape" value="lobed" modifier="pinnately" />
+        <character name="shape" value="divided" modifier="pinnately" />
+        <character name="shape" value="dentate" />
+      </structure>
+      <structure id="o6266" name="tooth" />
+      <structure id="o6267" name="lobe" />
+      <structure id="o6268" name="spine">
+        <character name="fragility" value="stout" />
+      </structure>
+      <relation id="r784" name="tipped with" from="o6267" to="o6268" negation="false" />
+    </statement>
+    <statement id="34.txt-5">
+      <text>Heads discoid, borne singly or in corymbiform arrays; (peduncles 0 or spiny winged).</text>
+      <structure id="o6269" name="head">
+        <character name="shape_or_architecture" value="discoid" />
+        <character name="arrangement" value="singly" />
+        <character name="arrangement" value="in corymbiform arrays" />
+      </structure>
+      <structure id="o6270" name="array">
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <relation id="r785" name="in" from="o6269" to="o6270" negation="false" />
+    </statement>
+    <statement id="34.txt-6">
+      <text>Involucres hemispheric to ovoid or spheric.</text>
+      <structure id="o6271" name="involucre">
+        <character char_type="range_value" name="shape" from="hemispheric" to="ovoid or spheric" />
+        <character name="shape" value="hemispheric" />
+        <character name="shape" value="ovoid" />
+        <character name="shape" value="spheric" />
+      </structure>
+    </statement>
+    <statement id="34.txt-7">
+      <text>Phyllaries many in 8–10+ series , linear to ovate, entire, tapered to stiff spines, middle and outer often spreading or reflexed.</text>
+      <structure id="o6272" name="phyllary">
+        <character name="count" value="many" constraint="in series" constraintid="o6273" />
+        <character name="arrangement_or_shape" value="linear" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="entire" />
+      </structure>
+      <structure id="o6273" name="series">
+        <character char_type="range_value" name="count" from="8" to="10" upper_restricted="false" />
+      </structure>
+      <structure id="o6274" name="spine">
+        <character name="shape" value="ovate" />
+        <character name="texture" value="stiff" />
+      </structure>
+      <relation id="r786" name="tapered to" from="o6272" to="o6274" negation="false" />
+      <structure id="o6275" name="middle">
+        <character name="orientation" value="reflexed" />
+      </structure>
+    </statement>
+    <statement id="34.txt-8">
+      <text>Receptacles flat to convex, epaleate, not bristly, alveolate with apically fringed pits.</text>
+      <structure id="o6276" name="receptacle">
+        <character char_type="range_value" name="shape" from="flat" to="convex" />
+        <character name="shape" value="flat" />
+        <character name="shape" value="convex" />
+        <character name="architecture" value="epaleate" />
+        <character name="pubescence" value="bristly" modifier="not" />
+        <character name="relief" value="alveolate" constraint="with pits" constraintid="o6277" />
+      </structure>
+      <structure id="o6277" name="pit">
+        <character name="shape" value="fringed" modifier="apically" />
+      </structure>
+    </statement>
+    <statement id="34.txt-9">
+      <text>Florets many;</text>
+      <structure id="o6278" name="floret">
+        <character name="count" value="many" />
+      </structure>
+    </statement>
+    <statement id="34.txt-10">
+      <text>corollas white or purple, actinomorphic or weakly zygmorphic, tubes slender, throats cylindric or narrowly goblet-shaped , lobes linear;</text>
+      <structure id="o6279" name="corolla">
+        <character name="coloration" value="white" />
+        <character name="coloration" value="purple" />
+        <character name="architecture" value="actinomorphic" />
+        <character name="architecture" value="zygmorphic" modifier="weakly" />
+      </structure>
+      <structure id="o6280" name="tube">
+        <character name="size" value="slender" />
+      </structure>
+      <structure id="o6281" name="throat">
+        <character name="shape" value="cylindric" />
+        <character name="shape" value="goblet-shaped" modifier="narrowly" />
+      </structure>
+      <structure id="o6282" name="lobe">
+        <character name="arrangement_or_shape" value="linear" />
+      </structure>
+    </statement>
+    <statement id="34.txt-11">
+      <text>anther bases acute-tailed, apical appendages subulate;</text>
+      <structure id="o6283" name="base" constraint="anther">
+        <character name="shape" value="acute-tailed" />
+      </structure>
+      <structure id="o6284" name="appendage" constraint="apical">
+        <character name="shape" value="subulate" />
+      </structure>
+    </statement>
+    <statement id="34.txt-12">
+      <text>style branches:</text>
+      <structure id="o6285" name="branch" constraint="style" />
+    </statement>
+    <statement id="34.txt-13">
+      <text>fused portions with minutely hairy nodes, long, cylindric, minutely papillate, distinct portions minute.</text>
+      <structure id="o6286" name="portion" constraint="fused">
+        <character name="shape" value="cylindric" />
+        <character name="relief_or_pubescence" value="papillate" modifier="minutely" />
+      </structure>
+      <structure id="o6287" name="node">
+        <character name="pubescence" value="hairy" modifier="minutely" />
+      </structure>
+      <relation id="r787" name="with" from="o6286" to="o6287" negation="false" />
+      <structure id="o6288" name="portion">
+        <character name="fusion" value="distinct" />
+        <character name="size" value="minute" />
+      </structure>
+    </statement>
+    <statement id="34.txt-14">
+      <text>Cypselae ± cylindric, 4–5-angled, usually ± transversely roughened, glabrous, attachment scars basal;</text>
+      <structure id="o6289" name="cypsela">
+        <character name="shape" value="cylindric" modifier="±" />
+        <character name="shape" value="4-5-angled" />
+        <character name="texture" value="roughened" modifier="usually ± transversely" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+      <structure id="o6290" name="scar" constraint="attachment">
+        <character name="insertion_or_position" value="basal" />
+      </structure>
+    </statement>
+    <statement id="34.txt-15">
+      <text>pappi falling in ring, of many barbed or plumose bristles, basally connate.</text>
+      <structure id="o6291" name="pappus">
+        <character name="orientation" value="falling" constraint="in ring" constraintid="o6292" />
+        <character name="fusion" value="connate" modifier="basally" />
+      </structure>
+      <structure id="o6292" name="ring" />
+      <structure id="o6293" name="bristle">
+        <character name="architecture" value="plumose" />
+      </structure>
+      <relation id="r788" name="consist_of" from="o6291" to="o6293" negation="false" />
+    </statement>
+    <statement id="34.txt-16">
+      <text>x = 17.</text>
+      <structure id="o6294" name="chromosome">
+        <character name="count" value="17" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species 25–60 (3 in the flora):</number_of_infrataxa>
+  <introduced>introduced;</introduced>
+  <general_distribution>Eurasia.</general_distribution>
+  <references>SELECTED REFERENCE Dress, W. J. 1966. Notes on the cultivated Compositae 9. Onopordum. Baileya 14: 74–86.</references>
+  <key>1.Herbage green, ± sticky-glandular3. Onopordum tauricum</key>
+  <key>1.Herbage ± canescent-tomentose.</key>
+  <key>2.Leaves dentate to shallowly pinnatifid; phyllaries linear, bases 2–2.5 mm wide 1. Onopordum acanthium</key>
+  <key>2.Leaves shallowly to ± deeply 1–2 pinnatifid; phyllaries lanceolate to ovate, bases 3–8 mm wide2. Onopordom illyricum</key>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

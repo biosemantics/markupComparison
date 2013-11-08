@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Arctotis fastuosa</species_name>
+  <authority>Jacquin</authority>
+  <place_of_publication>Pl. Hort. Schoenbr. 2: 20, plate 166. 1797</place_of_publication>
+  <common_name>Monarch-of-the-veld</common_name>
+  <synonym_of_species_name>Venidium fastuosum (Jacquin) Stapf</synonym_of_species_name>
+  <description>
+    <statement id="234.txt-0">
+      <text>Annuals, 10–45(–80) cm, hirsute to woolly.</text>
+      <structure id="o3932" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="45" to="80" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="45" to_unit="cm" />
+        <character char_type="range_value" name="pubescence" from="hirsute" to="woolly" />
+        <character name="pubescence" value="hirsute" />
+        <character name="pubescence" value="woolly" />
+        <character name="life_style" value="annual" />
+      </structure>
+    </statement>
+    <statement id="234.txt-1">
+      <text>Leaves:</text>
+      <structure id="o3933" name="leaf" />
+    </statement>
+    <statement id="234.txt-2">
+      <text>basal lance-olate to oblanceolate, 4–9 cm × 15–25 mm, margins pinnatifid to pinnatisect;</text>
+      <structure id="o3934" name="leaf" constraint="basal">
+        <character char_type="range_value" name="length" from="4" from_unit="cm" to="9" to_unit="cm" />
+        <character char_type="range_value" name="width" from="15" from_unit="mm" to="25" to_unit="mm" />
+      </structure>
+      <structure id="o3935" name="margin">
+        <character char_type="range_value" name="shape" from="pinnatifid" to="pinnatisect" />
+        <character name="shape" value="pinnatifid" />
+        <character name="shape" value="pinnatisect" />
+      </structure>
+    </statement>
+    <statement id="234.txt-3">
+      <text>distal cauline smaller (sessile, bases clasping, margins entire).</text>
+      <structure id="o3936" name="leaf" constraint="distal cauline">
+        <character name="size" value="smaller" />
+      </structure>
+    </statement>
+    <statement id="234.txt-4">
+      <text>Peduncles (10–)18–22 cm, with 3 or more leaves.</text>
+      <structure id="o3937" name="peduncle">
+        <character char_type="range_value" name="atypical_size" from="10" to="18" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="18" from_unit="cm" to="22" to_unit="cm" />
+      </structure>
+      <structure id="o3938" name="leaf">
+        <character name="count" value="3" />
+      </structure>
+      <relation id="r559" name="with" from="o3937" to="o3938" negation="false" />
+    </statement>
+    <statement id="234.txt-5">
+      <text>Phyllaries:</text>
+      <structure id="o3939" name="phyllary" />
+    </statement>
+    <statement id="234.txt-6">
+      <text>outer spreading linear (bases ± broad), abaxial faces arachnose to hirsute;</text>
+      <structure id="o3940" name="phyllary" constraint="outer">
+        <character name="orientation" value="spreading" />
+        <character name="arrangement_or_shape" value="linear" />
+      </structure>
+      <structure id="o3941" name="face" constraint="abaxial">
+        <character char_type="range_value" name="pubescence" from="arachnose" to="hirsute" />
+        <character name="pubescence" value="arachnose" />
+        <character name="pubescence" value="hirsute" />
+      </structure>
+    </statement>
+    <statement id="234.txt-7">
+      <text>inner appressed ± lanceolate (apices rounded, hyaline, ciliate).</text>
+      <structure id="o3942" name="phyllary" constraint="inner">
+        <character name="orientation" value="appressed" modifier="±" />
+        <character name="shape" value="lanceolate" />
+      </structure>
+    </statement>
+    <statement id="234.txt-8">
+      <text>Ray florets 35–50 in 2 series;</text>
+      <structure id="o3943" name="floret" constraint="ray">
+        <character char_type="range_value" name="count" from="35" to="50" constraint="in series" constraintid="o3944" />
+      </structure>
+      <structure id="o3944" name="series">
+        <character name="count" value="2" />
+      </structure>
+    </statement>
+    <statement id="234.txt-9">
+      <text>corolla laminae 30–55, 4–7 mm, adaxial faces orange to yellow (outer unmarked or with smaller or less distinct marks, inner marked basally with purple-brown fans 1 / 8 – 1 / 4 their lengths).</text>
+      <structure id="o3945" name="lamina" constraint="corolla">
+        <character char_type="range_value" name="count" from="30" to="55" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+      <structure id="o3946" name="face" constraint="adaxial">
+        <character char_type="range_value" name="coloration" from="orange" to="yellow" />
+        <character name="coloration" value="orange" />
+        <character name="coloration" value="yellow" />
+      </structure>
+    </statement>
+    <statement id="234.txt-10">
+      <text>Cypselae ovoid, 1.3–1.5 mm, glabrous;</text>
+      <structure id="o3947" name="cypsela">
+        <character name="shape" value="ovoid" />
+        <character char_type="range_value" name="size" from="1.3" from_unit="mm" to="1.5" to_unit="mm" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="234.txt-11">
+      <text>pappi 0 or coroniform.</text>
+      <structure id="o3948" name="pappus">
+        <character name="count" value="0" />
+        <character name="shape" value="coroniform" />
+      </structure>
+    </statement>
+    <statement id="234.txt-12">
+      <text>2 n = 18.</text>
+      <structure id="o3949" name="chromosome">
+        <character name="count" value="18" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>roadsides</habitat>
+  <habitat>urban waste places</habitat>
+  <elevation>0–500 m;</elevation>
+  <introduced>introduced;</introduced>
+  <us_distribution>Calif.</us_distribution>
+  <global_distribution>Africa.</global_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

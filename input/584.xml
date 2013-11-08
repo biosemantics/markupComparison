@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>7.</number>
+  <species_name>Krigia cespitosa</species_name>
+  <authority>(Rafinesque) K. L. Chambers</authority>
+  <place_of_publication>J. Arnold Arbor. 54: 52. 1973</place_of_publication>
+  <common_name>Common or opposite-leaved dwarfdandelion</common_name>
+  <synonym_of_species_name>Serinia cespitosa Rafinesque, Fl. Ludov., 149. 1817</synonym_of_species_name>
+  <description>
+    <statement id="584.txt-0">
+      <text>Annuals, 4–42 cm ;</text>
+    </statement>
+    <statement id="584.txt-1">
+      <text>taprooted.</text>
+      <structure id="o12115" name="whole_organism">
+        <character char_type="range_value" name="size" from="4" from_unit="cm" to="42" to_unit="cm" />
+        <character name="life_style" value="annual" />
+        <character name="architecture" value="taprooted" />
+      </structure>
+    </statement>
+    <statement id="584.txt-2">
+      <text>Stems erect or ascending, branched, eglandular or stipitate-glandular, especially distally.</text>
+      <structure id="o12116" name="stem">
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="ascending" />
+        <character name="architecture" value="branched" />
+        <character name="architecture" value="eglandular" />
+        <character name="architecture" value="stipitate-glandular" />
+      </structure>
+    </statement>
+    <statement id="584.txt-3">
+      <text>Leaves basal and cauline;</text>
+    </statement>
+    <statement id="584.txt-4">
+      <text>petiolate (at least basal);</text>
+      <structure id="o12117" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="architecture" value="petiolate" />
+      </structure>
+    </statement>
+    <statement id="584.txt-5">
+      <text>blades broadly to narrowly oblanceolate, 2–15 cm, margins entire or remotely toothed or lobed, lobes acute or rounded, apices acute to obtuse, faces glabrous or lightly glandular-villous;</text>
+      <structure id="o12118" name="blade">
+        <character name="shape" value="oblanceolate" modifier="broadly narrowly" />
+        <character char_type="range_value" name="size" from="2" from_unit="cm" to="15" to_unit="cm" />
+      </structure>
+      <structure id="o12119" name="margin">
+        <character name="shape" value="entire" />
+        <character name="shape" value="toothed" modifier="remotely" />
+        <character name="shape" value="lobed" modifier="remotely" />
+      </structure>
+      <structure id="o12120" name="lobe">
+        <character name="shape" value="acute" />
+        <character name="shape" value="rounded" />
+      </structure>
+      <structure id="o12121" name="apex">
+        <character char_type="range_value" name="shape" from="acute" to="obtuse" />
+        <character name="shape" value="acute" />
+        <character name="shape" value="obtuse" />
+      </structure>
+      <structure id="o12122" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="glandular-villous" modifier="lightly" />
+      </structure>
+    </statement>
+    <statement id="584.txt-6">
+      <text>cauline appearing unequal and opposite proximal to distal peduncles, petiolate or sessile, blades oblanceolate to linear, gradually reduced, bases ± clasping, margins entire or dentate.</text>
+      <structure id="o12123" name="leaf" constraint="cauline">
+        <character name="size" value="unequal" />
+        <character name="architecture" value="petiolate" />
+        <character name="architecture" value="sessile" />
+      </structure>
+      <structure id="o12124" name="peduncle">
+        <character char_type="range_value" name="insertion_or_position" from="opposite proximal" to="distal" />
+        <character name="insertion_or_position" value="distal" />
+      </structure>
+      <structure id="o12125" name="blade">
+        <character char_type="range_value" name="shape" from="oblanceolate" to="linear" />
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="linear" />
+        <character name="size" value="reduced" modifier="gradually" />
+      </structure>
+      <structure id="o12126" name="base">
+        <character name="architecture" value="clasping" modifier="±" />
+      </structure>
+      <structure id="o12127" name="margin">
+        <character name="shape" value="entire" />
+        <character name="shape" value="dentate" />
+      </structure>
+    </statement>
+    <statement id="584.txt-7">
+      <text>Heads borne singly.</text>
+      <structure id="o12128" name="head">
+        <character name="arrangement" value="singly" />
+      </structure>
+    </statement>
+    <statement id="584.txt-8">
+      <text>Peduncles from branching, leafy stems.</text>
+      <structure id="o12129" name="peduncle" />
+      <structure id="o12130" name="stem">
+        <character name="architecture" value="branching" />
+        <character name="architecture" value="leafy" />
+      </structure>
+      <relation id="r1411" name="from" from="o12129" to="o12130" negation="false" />
+    </statement>
+    <statement id="584.txt-9">
+      <text>Involucres 2–8 mm.</text>
+      <structure id="o12131" name="involucre">
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="584.txt-10">
+      <text>Phyllaries 5–10, erect in fruit, narrowly to broadly lanceolate, midveins evident, not prominent or keeled, apices acute.</text>
+      <structure id="o12132" name="phyllary">
+        <character char_type="range_value" name="count" from="5" to="10" />
+        <character name="orientation" value="erect" constraint="in fruit" constraintid="o12133" />
+        <character name="shape" value="lanceolate" modifier="narrowly broadly" />
+      </structure>
+      <structure id="o12133" name="fruit" />
+      <structure id="o12134" name="midvein">
+        <character name="manifestation" value="evident" />
+        <character name="prominence" value="prominent" modifier="not" />
+        <character name="shape" value="keeled" />
+      </structure>
+      <structure id="o12135" name="apex">
+        <character name="shape" value="acute" />
+      </structure>
+    </statement>
+    <statement id="584.txt-11">
+      <text>Florets 12–35;</text>
+      <structure id="o12136" name="floret">
+        <character char_type="range_value" name="count" from="12" to="35" />
+      </structure>
+    </statement>
+    <statement id="584.txt-12">
+      <text>corollas yellow, 2–11 mm (barely equaling to much surpassing phyllaries).</text>
+      <structure id="o12137" name="corolla">
+        <character name="coloration" value="yellow" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="11" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="584.txt-13">
+      <text>Cypselae fusiform, 1.4–1.7 mm, broadest at or ± beyond middles (apical areas ± equal to basal areoles), 15-ribbed;</text>
+      <structure id="o12138" name="cypsela">
+        <character name="shape" value="fusiform" />
+        <character char_type="range_value" name="size" from="1.4" from_unit="mm" to="1.7" to_unit="mm" />
+        <character name="size" value="broadest" constraint="at or ± beyond middles" constraintid="o12139" />
+        <character name="architecture_or_shape" value="15-ribbed" />
+      </structure>
+      <structure id="o12139" name="middle" />
+    </statement>
+    <statement id="584.txt-14">
+      <text>pappi 0. 2 n = 8.</text>
+      <structure id="o12140" name="pappus">
+        <character name="count" value="0" />
+      </structure>
+      <structure name="chromosome" id="o12141">
+        <character name="count" value="8" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Varieties 2 (2 in the flora):</number_of_infrataxa>
+  <general_distribution>se United States</general_distribution>
+  <general_distribution>ne Mexico.</general_distribution>
+  <discussion>The name Krigia oppositifolia Rafinesque, long in use for this species, was not accepted by Rafinesque in his original publication and is therefore invalid.</discussion>
+  <couplet>1.Involucres 2–4.5 mm in flower, 3.5–5 mm in fruit; ligules 2–6 mm7a. Krigia cespitosa var. cespitosa</couplet>
+  <couplet>1.Involucres 4.5–7 mm in flower, 5.5–8.5 mm in fruit; ligules 6.5–11 mm7b. Krigia cespitosa var. gracilis</couplet>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1b.</number>
+  <variety_name>Agoseris glauca (Pursh) Rafinesque var. dasycephala</variety_name>
+  <authority>(Torrey &amp; A. Gray) Jepson</authority>
+  <place_of_publication>Man. Fl. Pl. Calif., 1005. 1925</place_of_publication>
+  <common_name>Arctic agoseris</common_name>
+  <synonym_of_variety_name>Troximon glaucum Pursh var. dasycephalum Torrey &amp; A. Gray, Fl. N. Amer. 2: 490. 1843; Agoseris altissima Rydberg; A. aspera (Rydberg) Rydberg; A. eisenhoweri B. Boivin; A. glauca subsp. aspera (Rydberg) Piper; A. glauca var. aspera (Rydberg) Cronquist; A. glauca var. pumila (Nuttall) Garrett; A. glauca subsp. scorzonerifolia (Schrader) Piper; A. glauca var. villosa (Rydberg) G. L. Wittrock; A. isomeris Greene; A. lanulosa Greene; A. leontodon Rydberg var. aspera Rydberg; A. leontodon var. pygmaea Rydberg; A. maculata Rydberg; A. pubescens Rydberg; A. pumila (Nuttall) Rydberg; A. scorzonerifolia (Schrader) Greene; A. turbinata Rydberg; A. vestita Greene; A. villosa Rydberg</synonym_of_variety_name>
+  <description>
+    <statement id="496.txt-0">
+      <text>Leaf blades:</text>
+      <structure id="o9982" name="blade" constraint="leaf" />
+    </statement>
+    <statement id="496.txt-1">
+      <text>margins often undulate, usually entire, sometimes lobed, faces usually puberulent to densely villous, sometimes glabrous, rarely glaucous.</text>
+      <structure id="o9983" name="margin">
+        <character name="shape" value="undulate" modifier="often" />
+        <character name="shape" value="entire" modifier="usually" />
+        <character name="shape" value="lobed" modifier="sometimes" />
+      </structure>
+      <structure id="o9984" name="face">
+        <character name="pubescence" value="puberulent" modifier="usually" />
+        <character name="pubescence" value="villous" modifier="densely" />
+        <character name="pubescence" value="glabrous" modifier="sometimes" />
+        <character name="coating" value="glaucous" modifier="rarely" />
+      </structure>
+    </statement>
+    <statement id="496.txt-2">
+      <text>Peduncles usually apically villous to lanate (glabrous in one phase), sometimes ± stipitate-glandular.</text>
+      <structure id="o9985" name="peduncle">
+        <character char_type="range_value" name="pubescence" from="usually apically villous" to="lanate" />
+        <character name="pubescence" value="villous" modifier="usually apically" />
+        <character name="pubescence" value="lanate" modifier="usually apically" />
+        <character name="architecture_or_exudation_or_pubescence" value="stipitate-glandular" modifier="sometimes ±" />
+      </structure>
+    </statement>
+    <statement id="496.txt-3">
+      <text>Involucres obconic to hemispheric.</text>
+      <structure id="o9986" name="involucre">
+        <character char_type="range_value" name="shape" from="obconic" to="hemispheric" />
+        <character name="shape" value="obconic" />
+        <character name="shape" value="hemispheric" />
+      </structure>
+    </statement>
+    <statement id="496.txt-4">
+      <text>Phyllaries often medially rosy purple and usually with some combination of purple-black spots, speckles, midstripes, or tips, rarely all green, margins ± undulate or reflexed, often hairy, faces usually villous to hirsuto-tomentose, sometimes glabrous, mostly stipitate-glandular;</text>
+      <structure id="o9987" name="phyllary">
+        <character name="coloration" value="purple" modifier="often medially;rosy; usually" constraint="with combination" constraintid="o9988" />
+        <character name="coloration" value="green" />
+      </structure>
+      <structure id="o9988" name="combination" />
+      <structure id="o9989" name="spot">
+        <character name="coloration" value="black" modifier="purple" />
+      </structure>
+      <structure id="o9990" name="speckle">
+        <character name="coloration" value="black" modifier="purple" />
+      </structure>
+      <structure id="o9991" name="midstripe">
+        <character name="coloration" value="black" modifier="purple" />
+      </structure>
+      <structure id="o9992" name="tip" constraint="or">
+        <character name="coloration" value="black" modifier="purple" />
+      </structure>
+      <relation id="r1150" name="part_of" from="o9988" to="o9989" negation="false" />
+      <relation id="r1151" name="part_of" from="o9988" to="o9990" negation="false" />
+      <relation id="r1152" name="part_of" from="o9988" to="o9991" negation="false" />
+      <relation id="r1153" name="part_of" from="o9988" to="o9992" negation="false" />
+      <structure id="o9993" name="margin">
+        <character name="shape" value="undulate" modifier="±" />
+        <character name="orientation" value="reflexed" />
+        <character name="pubescence" value="hairy" modifier="often" />
+      </structure>
+      <structure id="o9994" name="face">
+        <character name="pubescence" value="villous" modifier="usually" />
+        <character name="pubescence" value="hirsuto-tomentose" />
+        <character name="pubescence" value="glabrous" modifier="sometimes" />
+        <character name="architecture_or_exudation_or_pubescence" value="stipitate-glandular" modifier="mostly" />
+      </structure>
+    </statement>
+    <statement id="496.txt-5">
+      <text>outer erect or spreading, usually adaxially villous, sometimes glabrous.</text>
+      <structure id="o9995" name="phyllary" constraint="outer">
+        <character name="pubescence" value="villous" modifier="usually adaxially" />
+        <character name="pubescence" value="glabrous" modifier="sometimes" />
+      </structure>
+    </statement>
+    <statement id="496.txt-6">
+      <text>Receptacles usually ± paleate.</text>
+      <structure id="o9996" name="receptacle">
+        <character name="architecture" value="paleate" modifier="usually ±" />
+      </structure>
+    </statement>
+    <statement id="496.txt-7">
+      <text>Cypselae usually glabrous, sometimes scabrous distally.</text>
+      <structure id="o9997" name="cypsela">
+        <character name="pubescence" value="glabrous" modifier="usually" />
+        <character name="pubescence_or_relief" value="scabrous" modifier="sometimes ; distally" />
+      </structure>
+    </statement>
+    <statement id="496.txt-8">
+      <text>2 n = 36.</text>
+      <structure id="o9998" name="chromosome">
+        <character name="count" value="36" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>moist to dry habitats</habitat>
+  <habitat>alpine meadows</habitat>
+  <habitat>montane forests</habitat>
+  <habitat>northern prairies</habitat>
+  <habitat>arctic tundra</habitat>
+  <habitat>in gravelly, rocky, and other coarse-textured soils</habitat>
+  <elevation>100–3600 m;</elevation>
+  <ca_distribution>Alta.</ca_distribution>
+  <ca_distribution>B.C.</ca_distribution>
+  <ca_distribution>Man.</ca_distribution>
+  <ca_distribution>N.W.T.</ca_distribution>
+  <ca_distribution>Sask.</ca_distribution>
+  <ca_distribution>Yukon</ca_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>N.Dak.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>S.Dak.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <discussion>Variety dasycephala occurs primarily at high elevations in the western cordillera, extending eastward onto the northern prairies, and disjunctively in the Canadian arctic (Caribou Hills). It is more readily distinguished from var. glauca southward, where the two varieties are ± elevationally separated. Difficulty in separating them occurs northward, where they are nearer each other and pockets of complete introgression occur, e.g., southeastern British Columbia and southwestern Alberta. Hybrids with Agoseris aurantiaca and A. parviflora also occur.</discussion>
+  <discussion>Variety dasycephala contains regional phases that exhibit a step-clinal distribution. The large number of synonyms reflects the variation. As circumscribed here, var. dasycephala encompasses most of what has been called Agoseris glauca var. agrestis (see discussion under var. glauca).</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

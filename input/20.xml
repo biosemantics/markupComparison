@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Chaptalia albicans</species_name>
+  <authority>(Swartz) Ventenat ex B. D. Jackson</authority>
+  <place_of_publication>Index Kew 1: 506. 1893</place_of_publication>
+  <common_name>White sunbonnet</common_name>
+  <synonym_of_species_name>Tussilago albicans Swartz, Prodr., 113. 1788; Chaptalia leiocarpa (de Candolle) Urban</synonym_of_species_name>
+  <description>
+    <statement id="20.txt-0">
+      <text>Leaves sessile or nearly so;</text>
+      <structure id="o2916" name="leaf">
+        <character name="architecture" value="sessile" />
+        <character name="architecture" value="sessile" modifier="nearly" />
+      </structure>
+    </statement>
+    <statement id="20.txt-1">
+      <text>blades obovate to obovate-elliptic, 2–14 cm, margins retrorsely serrulate to denticulate-apiculate, abaxial faces white-tomentose, adaxial faces green, glabrous or glabrate.</text>
+      <structure id="o2917" name="blade">
+        <character char_type="range_value" name="shape" from="obovate" to="obovate-elliptic" />
+        <character name="shape" value="obovate" />
+        <character name="shape" value="obovate-elliptic" />
+        <character char_type="range_value" name="size" from="2" from_unit="cm" to="14" to_unit="cm" />
+      </structure>
+      <structure id="o2918" name="margin">
+        <character char_type="range_value" name="shape" from="retrorsely serrulate" to="denticulate-apiculate" />
+        <character name="shape" value="serrulate" modifier="retrorsely" />
+        <character name="shape" value="denticulate-apiculate" modifier="retrorsely" />
+      </structure>
+      <structure id="o2919" name="face" constraint="abaxial">
+        <character name="pubescence" value="white-tomentose" />
+      </structure>
+      <structure id="o2920" name="face" constraint="adaxial">
+        <character name="coloration" value="green" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="glabrate" />
+      </structure>
+    </statement>
+    <statement id="20.txt-2">
+      <text>Heads erect in bud, flowering, and fruit.</text>
+      <structure id="o2921" name="head">
+        <character name="orientation" value="erect" constraint="in bud" constraintid="o2922" />
+      </structure>
+      <structure id="o2922" name="bud" />
+      <structure id="o2923" name="fruit" />
+    </statement>
+    <statement id="20.txt-3">
+      <text>Peduncles ebracteate, 6–15 cm in flowering, 12–37 cm in fruit, dilated distally.</text>
+      <structure id="o2924" name="peduncle">
+        <character name="architecture" value="ebracteate" />
+        <character char_type="range_value" name="size" from="6" from_unit="cm" to="15" to_unit="cm" constraint="in flowering, 12-37 cm in fruit" constraintid="o2925" />
+        <character name="shape" value="dilated" modifier="distally" />
+      </structure>
+      <structure id="o2925" name="fruit" />
+    </statement>
+    <statement id="20.txt-4">
+      <text>Florets :</text>
+      <structure id="o2926" name="floret" />
+    </statement>
+    <statement id="20.txt-5">
+      <text>outer pistillate, corollas creamy white, rarely purple tinged, laminae 0.2–0.3 mm wide;</text>
+      <structure id="o2927" name="floret" constraint="outer">
+        <character name="architecture" value="pistillate" />
+      </structure>
+      <structure id="o2928" name="corolla">
+        <character name="coloration" value="white" modifier="creamy" />
+        <character name="coloration" value="tinged" modifier="rarely;purple" />
+      </structure>
+      <structure id="o2929" name="lamina">
+        <character char_type="range_value" name="size" from="0.2" from_unit="mm" to="0.3" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="20.txt-6">
+      <text>inner florets bisexual, fertile.</text>
+      <structure id="o2930" name="floret" constraint="inner">
+        <character name="reproduction" value="bisexual" />
+        <character name="reproduction" value="fertile" />
+      </structure>
+    </statement>
+    <statement id="20.txt-7">
+      <text>Cypselae 8.4–11.2 mm, beaks filiform, lengths 0.5–0.6+ times bodies, faces glabrous or sparsely glandular (usually only along the nerves).</text>
+      <structure id="o2931" name="cypsela">
+        <character char_type="range_value" name="size" from="8.4" from_unit="mm" to="11.2" to_unit="mm" />
+      </structure>
+      <structure id="o2932" name="beak">
+        <character name="shape" value="filiform" />
+        <character char_type="range_value" name="size" from="0.5" to="0.6" upper_restricted="false" constraint="times bodies" constraintid="o2933" />
+      </structure>
+      <structure id="o2933" name="body" />
+      <structure id="o2934" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="glandular" modifier="sparsely" />
+      </structure>
+    </statement>
+    <statement id="20.txt-8">
+      <text>2 n = 24, ca. 29.</text>
+      <structure id="o2935" name="chromosome">
+        <character name="count" value="24" />
+        <character name="count" value="29" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>nov</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>grassy areas or open savannas</habitat>
+  <habitat>sometimes near evergreen oaks</habitat>
+  <elevation>0–50 m;</elevation>
+  <us_distribution>Fla.</us_distribution>
+  <global_distribution>Mexico</global_distribution>
+  <global_distribution>West Indies</global_distribution>
+  <global_distribution>Central America.</global_distribution>
+  <discussion>Chaptalia albicans was treated by A. Cronquist (1980) as C. dentata (Linnaeus) Cassini. The latter is known only from the West Indies (G. Nesom 1984) and contrasts with C. albicans in having outer pistillate florets with corollas white to greenish (versus white) and laminae (0.2–)0.4–0.7 mm (versus 0.2–0.3 mm) wide, style branches of pistillate florets (0.5–)0.7–0.9 mm (versus 0.8–1.3 mm), cypselae 5.5–7.5(–8.5) mm (versus 8.4–11.2 mm), orange (versus white) carpopodia, and pappus bristles 5.8–8.5 mm (versus 7.8–10.5 mm).</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

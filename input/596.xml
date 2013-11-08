@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>2c.</number>
+  <variety_name>Lygodesmia grandiflora (Nuttall) Torrey &amp; A. Gray var. dianthopsis</variety_name>
+  <authority>(D. C. Eaton) S. L. Welsh</authority>
+  <place_of_publication>Great Basin Naturalist 43: 314. 1983</place_of_publication>
+  <common_name>Antelope Island skeletonplant</common_name>
+  <synonym_of_variety_name>Lygodesmia juncea (Pursh) D. Don ex Hooker var. dianthopsis D. C. Eaton in S. Watson, Botany (Fortieth Parallel), 200. 1871; L. dianthopsis (D. C. Eaton) Tomb</synonym_of_variety_name>
+  <description>
+    <statement id="596.txt-0">
+      <text>Plants (5–)20–60 cm.</text>
+      <structure id="o12378" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="5" to="20" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="20" from_unit="cm" to="60" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="596.txt-1">
+      <text>Stems erect or ascending, purple proximally, slender, simple or sparingly branched from bases or distally, smooth (glabrous or tomentulose).</text>
+      <structure id="o12379" name="stem">
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="ascending" />
+        <character name="coloration" value="purple" modifier="proximally" />
+        <character name="size" value="slender" />
+        <character name="architecture" value="simple" />
+        <character name="architecture" value="branched" modifier="sparingly" constraint="from bases" constraintid="o12380" />
+        <character name="architecture_or_relief" value="smooth" />
+      </structure>
+      <structure id="o12380" name="base" />
+    </statement>
+    <statement id="596.txt-2">
+      <text>Leaves:</text>
+      <structure id="o12381" name="leaf" />
+    </statement>
+    <statement id="596.txt-3">
+      <text>proximal blades linear, 50–110 × 2–6 mm, ± lax;</text>
+      <structure id="o12382" name="blade" constraint="proximal">
+        <character name="arrangement_or_shape" value="linear" />
+        <character char_type="range_value" name="length" from="50" from_unit="mm" to="110" to_unit="mm" />
+        <character char_type="range_value" name="width" from="2" from_unit="mm" to="6" to_unit="mm" />
+        <character name="architecture" value="lax" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="596.txt-4">
+      <text>distal linear, less than 10 mm, distally reduced to linear scales.</text>
+      <structure id="o12383" name="leaf" constraint="distal">
+        <character name="arrangement_or_shape" value="linear" />
+        <character name="size" value="10" unit="mm" modifier="less than" />
+      </structure>
+      <structure id="o12384" name="scale">
+        <character name="arrangement_or_shape" value="linear" />
+      </structure>
+      <relation id="r1439" name="distally reduced to" from="o12383" to="o12384" negation="false" />
+    </statement>
+    <statement id="596.txt-5">
+      <text>Heads 2–13, in loose, corymbiform arrays.</text>
+      <structure id="o12385" name="head">
+        <character char_type="range_value" name="count" from="2" to="13" />
+      </structure>
+      <structure id="o12386" name="array">
+        <character name="architecture_or_texture" value="loose" />
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <relation id="r1440" name="in" from="o12385" to="o12386" negation="false" />
+    </statement>
+    <statement id="596.txt-6">
+      <text>Involucres subcylindric, 15–22 × 4–5 mm, apices narrow.</text>
+      <structure id="o12387" name="involucre">
+        <character name="shape" value="subcylindric" />
+        <character char_type="range_value" name="length" from="15" from_unit="mm" to="22" to_unit="mm" />
+        <character char_type="range_value" name="width" from="4" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+      <structure id="o12388" name="apex">
+        <character name="size" value="narrow" />
+      </structure>
+    </statement>
+    <statement id="596.txt-7">
+      <text>Phyllaries 5–6.</text>
+      <structure id="o12389" name="phyllary">
+        <character char_type="range_value" name="count" from="5" to="6" />
+      </structure>
+    </statement>
+    <statement id="596.txt-8">
+      <text>Florets 5;</text>
+      <structure id="o12390" name="floret">
+        <character name="count" value="5" />
+      </structure>
+    </statement>
+    <statement id="596.txt-9">
+      <text>corollas purple to lavender or white.</text>
+      <structure id="o12391" name="corolla">
+        <character char_type="range_value" name="coloration" from="purple" to="lavender or white" />
+        <character name="coloration" value="purple" />
+        <character name="coloration" value="lavender" />
+        <character name="coloration" value="white" />
+      </structure>
+    </statement>
+    <statement id="596.txt-10">
+      <text>Cypselae 12–19 mm, abaxial faces smooth, adaxial distinctly rugose, weakly sulcate.</text>
+      <structure id="o12392" name="cypsela">
+        <character char_type="range_value" name="size" from="12" from_unit="mm" to="19" to_unit="mm" />
+      </structure>
+      <structure id="o12393" name="face" constraint="abaxial">
+        <character name="architecture_or_relief" value="smooth" />
+        <character name="insertion_or_position" value="adaxial" modifier="distinctly" />
+        <character name="relief" value="rugose" />
+        <character name="architecture" value="sulcate" modifier="weakly" />
+      </structure>
+    </statement>
+    <statement id="596.txt-11">
+      <text>2 n = 18.</text>
+      <structure id="o12394" name="chromosome">
+        <character name="count" value="18" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <habitat>sandy and gravelly soils in juniper-pinyon scrub</habitat>
+  <habitat>open fields</habitat>
+  <habitat>sandy roadsides</habitat>
+  <elevation>1300–2500 m;</elevation>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>Utah.</us_distribution>
+  <discussion>Variety dianthopsis is recognized by its slender, erect, leafy stems, purplish at base, persistent cauline leaves, phyllaries with appendages, 5–6 florets per head, and distinctive rugose-roughened cypselae. It usually is taller than var. arizonica. The stems and leaves are occasionally sparsely tomentulose.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>4.</number>
+  <species_name>Artemisia dracunculus</species_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 849. 1753</place_of_publication>
+  <common_name>Wild tarragon</common_name>
+  <synonym_of_species_name>Artemisia aromatica A. Nelson; A. dracunculina S. Watson; A. dracunculoides Pursh; A. dracunculoides subsp. dracunculina (S. Watson) H. M. Hall &amp; Clements; A. glauca Pallas ex Willdenow; A. glauca var. megacephala B. Boivin</synonym_of_species_name>
+  <description>
+    <statement id="856.txt-0">
+      <text>Perennials or subshrubs, 50–120(–150) cm, strongly tarragon-scented or not aromatic;</text>
+    </statement>
+    <statement id="856.txt-1">
+      <text>rhizomatous, caudices coarse.</text>
+      <structure id="o17925" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="120" to="150" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="50" from_unit="cm" to="120" to_unit="cm" />
+        <character name="odor" value="tarragon-scented" modifier="strongly" />
+        <character name="odor" value="aromatic" modifier="not" />
+        <character name="life_style" value="perennial" />
+        <character name="life_style" value="subshrub" />
+        <character name="architecture" value="rhizomatous" />
+        <character name="life_style" value="subshrub" />
+      </structure>
+      <structure id="o17927" name="caudex">
+        <character name="texture" value="coarse" />
+      </structure>
+    </statement>
+    <statement id="856.txt-2">
+      <text>Stems relatively numerous, erect, green to brown or reddish brown, somewhat woody, glabrous.</text>
+      <structure id="o17928" name="stem">
+        <character name="count" value="numerous" modifier="relatively" />
+        <character name="orientation" value="erect" />
+        <character char_type="range_value" name="coloration" from="green" to="brown or reddish-brown" />
+        <character name="coloration" value="green" />
+        <character name="coloration" value="brown" />
+        <character name="coloration" value="brown" modifier="reddish" />
+        <character name="texture" value="woody" modifier="somewhat" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="856.txt-3">
+      <text>Leaves:</text>
+      <structure id="o17929" name="leaf" />
+    </statement>
+    <statement id="856.txt-4">
+      <text>proximal blades bright green and glabrous or gray-green and sparsely hairy, 5–8 cm;</text>
+      <structure id="o17930" name="blade" constraint="proximal">
+        <character name="coloration" value="green" modifier="bright" />
+        <character name="pubescence" value="glabrous" />
+        <character name="coloration" value="green" modifier="gray" />
+        <character name="pubescence" value="hairy" modifier="sparsely" />
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="8" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="856.txt-5">
+      <text>cauline blades bright green (gray-green in desert forms), linear, lanceolate, or oblong, 1–7 × 0.1–0.5(–0.9) cm, mostly entire, sometimes irregularly lobed, acute, usually glabrous, sometimes glabrescent (deserts).</text>
+      <structure id="o17931" name="blade" constraint="cauline">
+        <character name="coloration" value="green" modifier="bright" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="oblong" />
+        <character char_type="range_value" name="length" from="1" from_unit="cm" to="7" to_unit="cm" />
+        <character char_type="range_value" name="atypical_width" from="0.5" to="0.9" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="width" from="0.1" from_unit="cm" to="0.5" to_unit="cm" />
+        <character name="shape" value="entire" modifier="mostly" />
+        <character name="shape" value="lobed" modifier="sometimes irregularly" />
+        <character name="shape" value="acute" />
+        <character name="pubescence" value="glabrous" modifier="usually" />
+        <character name="pubescence" value="glabrescent" modifier="sometimes" />
+      </structure>
+    </statement>
+    <statement id="856.txt-6">
+      <text>Heads in terminal or lateral, leafy, paniculiform arrays 15–45 × 6–30 cm;</text>
+      <structure id="o17933" name="array">
+        <character name="insertion_or_position" value="terminal" />
+        <character name="insertion_or_position" value="lateral" />
+        <character name="architecture" value="leafy" />
+        <character name="architecture" value="paniculiform" />
+        <character char_type="range_value" name="length" from="15" from_unit="cm" to="45" to_unit="cm" />
+        <character char_type="range_value" name="width" from="6" from_unit="cm" to="30" to_unit="cm" />
+      </structure>
+      <relation id="r1894" name="in" from="o17932" to="o17933" negation="false" />
+    </statement>
+    <statement id="856.txt-7">
+      <text>appearing ball-like on slender, sometimes nodding peduncles.</text>
+      <structure id="o17932" name="head" />
+      <structure id="o17934" name="peduncle">
+        <character name="size" value="slender" />
+        <character name="orientation" value="nodding" modifier="sometimes" />
+      </structure>
+      <relation id="r1895" name="on" from="o17932" to="o17934" negation="false" />
+    </statement>
+    <statement id="856.txt-8">
+      <text>Involucres globose, 2–3 × 2–3.5(–6) mm.</text>
+      <structure id="o17935" name="involucre">
+        <character name="shape" value="globose" />
+        <character char_type="range_value" name="length" from="2" from_unit="mm" to="3" to_unit="mm" />
+        <character char_type="range_value" name="atypical_width" from="3.5" to="6" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="width" from="2" from_unit="mm" to="3.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="856.txt-9">
+      <text>Phyllaries (light brown, broadly lanceolate, membranous):</text>
+      <structure id="o17936" name="phyllary" />
+    </statement>
+    <statement id="856.txt-10">
+      <text>margins broadly hyaline, glabrous.</text>
+      <structure id="o17937" name="margin">
+        <character name="coloration" value="hyaline" modifier="broadly" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="856.txt-11">
+      <text>Florets:</text>
+      <structure id="o17938" name="floret" />
+    </statement>
+    <statement id="856.txt-12">
+      <text>pistillate 6–25;</text>
+      <structure id="o17939" name="floret" constraint="pistillate">
+        <character char_type="range_value" name="count" from="6" to="25" />
+      </structure>
+    </statement>
+    <statement id="856.txt-13">
+      <text>functionally staminate 8–20;</text>
+      <structure id="o17940" name="floret" constraint="functionally staminate">
+        <character char_type="range_value" name="count" from="8" to="20" />
+      </structure>
+    </statement>
+    <statement id="856.txt-14">
+      <text>corollas pale yellow, 1.8–2 mm, eglandular or sparsely glandular.</text>
+      <structure id="o17941" name="corolla">
+        <character name="coloration" value="yellow" modifier="pale" />
+        <character char_type="range_value" name="size" from="1.8" from_unit="mm" to="2" to_unit="mm" />
+        <character name="architecture" value="eglandular" />
+        <character name="architecture" value="glandular" modifier="sparsely" />
+      </structure>
+    </statement>
+    <statement id="856.txt-15">
+      <text>Cypselae oblong, 0.5–0.8 mm, faintly nerved, glabrous.</text>
+      <structure id="o17942" name="cypsela">
+        <character name="shape" value="oblong" />
+        <character char_type="range_value" name="size" from="0.5" from_unit="mm" to="0.8" to_unit="mm" />
+        <character name="architecture" value="nerved" modifier="faintly" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="856.txt-16">
+      <text>2 n = 18.</text>
+      <structure id="o17943" name="chromosome">
+        <character name="count" value="18" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <flowering_time>nov</flowering_time>
+  <habitat>open meadows and fields</habitat>
+  <habitat>desert scrub</habitat>
+  <habitat>moist drainages</habitat>
+  <habitat>roadsides</habitat>
+  <elevation>500–3000 m;</elevation>
+  <ca_distribution>Alta.</ca_distribution>
+  <ca_distribution>B.C.</ca_distribution>
+  <ca_distribution>Man.</ca_distribution>
+  <ca_distribution>Ont.</ca_distribution>
+  <ca_distribution>Sask.</ca_distribution>
+  <ca_distribution>Yukon</ca_distribution>
+  <us_distribution>Alaska</us_distribution>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Ill.</us_distribution>
+  <us_distribution>Iowa</us_distribution>
+  <us_distribution>Kans.</us_distribution>
+  <us_distribution>Minn.</us_distribution>
+  <us_distribution>Mo.</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>Nebr.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>N.Dak.</us_distribution>
+  <us_distribution>Okla.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>S.Dak.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <us_distribution>Wis.</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <global_distribution>Eurasia.</global_distribution>
+  <discussion>Artemisia dracunculus is widely cultivated as a culinary herb and may be introduced in parts of its range. It is easily cultivated from rootstocks, and while establishment from seeds is rare, seedlings can be found with amenable environmental conditions. Because of its popularity as an herb, it may suffer from overcollecting. Its scarcity in Missouri, Iowa, and Illinois (J. T. Kartesz and C. A. Meacham 1999) may have been caused by overly enthusiastic collecting as well as habitat loss.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

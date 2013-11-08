@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>49.</number>
+  <genus_name>ARNOSERIS</genus_name>
+  <authority>Gaertner</authority>
+  <place_of_publication>Fruct. Sem. Pl. 2: 355, plate 157, fig. 3. 1791</place_of_publication>
+  <common_name />
+  <derivation>Greek arnos , sheep, and seris , a kind of endive; allusion unclear</derivation>
+  <author_of_tribe_genus>John L. Strother</author_of_tribe_genus>
+  <description>
+    <statement id="383.txt-0">
+      <text>Annuals, (5–)10–30+ cm;</text>
+    </statement>
+    <statement id="383.txt-1">
+      <text>taprooted.</text>
+      <structure id="o7312" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="5" to="10" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="30" to_unit="cm" upper_restricted="false" />
+        <character name="life_style" value="annual" />
+        <character name="architecture" value="taprooted" />
+      </structure>
+    </statement>
+    <statement id="383.txt-2">
+      <text>Stems 1–10+ (scapiform), erect, simple or branched distally, glabrous.</text>
+      <structure id="o7313" name="stem">
+        <character char_type="range_value" name="count" from="1" to="10" upper_restricted="false" />
+        <character name="orientation" value="erect" />
+        <character name="architecture" value="simple" modifier="distally" />
+        <character name="architecture" value="branched" modifier="distally" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="383.txt-3">
+      <text>Leaves mostly basal;</text>
+    </statement>
+    <statement id="383.txt-4">
+      <text>obscurely petiolate;</text>
+      <structure id="o7314" name="leaf">
+        <character name="insertion_or_position" value="basal" modifier="mostly" />
+        <character name="architecture" value="petiolate" modifier="obscurely" />
+      </structure>
+    </statement>
+    <statement id="383.txt-5">
+      <text>blades oblanceolate to spatulate, margins dentate (faces usually scabridulous, mostly near margins).</text>
+      <structure id="o7315" name="blade">
+        <character char_type="range_value" name="shape" from="oblanceolate" to="spatulate" />
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="spatulate" />
+      </structure>
+      <structure id="o7316" name="margin">
+        <character name="shape" value="dentate" />
+      </structure>
+    </statement>
+    <statement id="383.txt-6">
+      <text>Heads borne singly or (2–3) in loose, corymbiform arrays.</text>
+      <structure id="o7317" name="head">
+        <character name="arrangement" value="singly" />
+        <character char_type="range_value" name="atypical_count" from="2" to="3" constraint="in arrays" constraintid="o7318" />
+      </structure>
+      <structure id="o7318" name="array">
+        <character name="architecture_or_texture" value="loose" />
+        <character name="architecture" value="corymbiform" />
+      </structure>
+    </statement>
+    <statement id="383.txt-7">
+      <text>Peduncles inflated (fistulose) distally, not bracteate.</text>
+      <structure id="o7319" name="peduncle">
+        <character name="shape" value="inflated" modifier="distally" />
+        <character name="architecture" value="bracteate" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="383.txt-8">
+      <text>Calyculi 0 or of 1–10+, lanceolate bractlets.</text>
+      <structure id="o7320" name="calyculus">
+        <character name="count" value="0" />
+        <character name="count" value="of 1-10+ , lanceolate bractlets" />
+      </structure>
+      <structure id="o7321" name="bractlet">
+        <character char_type="range_value" name="count" from="1" to="10" upper_restricted="false" />
+        <character name="shape" value="lanceolate" />
+      </structure>
+      <relation id="r889" name="consist_of" from="o7320" to="o7321" negation="false" />
+    </statement>
+    <statement id="383.txt-9">
+      <text>Involucres broadly campanulate or urceolate, 4–8 mm diam.</text>
+      <structure id="o7322" name="involucre">
+        <character name="shape" value="campanulate" modifier="broadly" />
+        <character name="shape" value="urceolate" modifier="broadly" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="383.txt-10">
+      <text>Phyllaries 10–22+ in 1(–2) series (basally connate), lanceolate to lance-linear (abaxially keeled proximally), equal or subequal, margins little, if at all, scarious, apices acuminate.</text>
+      <structure id="o7323" name="phyllary">
+        <character char_type="range_value" name="count" from="10" to="22" upper_restricted="false" constraint="in -2 series" constraintid="o7324" />
+        <character char_type="range_value" name="shape" from="lanceolate" to="lance-linear" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="lance-linear" />
+        <character name="size" value="equal" />
+        <character name="size" value="subequal" />
+      </structure>
+      <structure id="o7324" name="series" constraint="-2">
+        <character name="count" value="1" />
+      </structure>
+      <structure id="o7325" name="margin">
+        <character name="texture" value="scarious" />
+      </structure>
+      <structure id="o7326" name="apex">
+        <character name="shape" value="acuminate" />
+      </structure>
+    </statement>
+    <statement id="383.txt-11">
+      <text>Receptacles flat, pitted, glabrous, epaleate.</text>
+      <structure id="o7327" name="receptacle">
+        <character name="shape" value="flat" />
+        <character name="relief" value="pitted" />
+        <character name="pubescence" value="glabrous" />
+        <character name="architecture" value="epaleate" />
+      </structure>
+    </statement>
+    <statement id="383.txt-12">
+      <text>Florets 20–50+;</text>
+      <structure id="o7328" name="floret">
+        <character char_type="range_value" name="count" from="20" to="50" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="383.txt-13">
+      <text>corollas yellow.</text>
+      <structure id="o7329" name="corolla">
+        <character name="coloration" value="yellow" />
+      </structure>
+    </statement>
+    <statement id="383.txt-14">
+      <text>Cypselae dark brown, obovoid, not beaked, ribs 8–10 (3–5 stronger), stramineous, faces smooth or rugose between ribs, glabrous;</text>
+      <structure id="o7330" name="cypsela">
+        <character name="coloration" value="brown" modifier="dark" />
+        <character name="shape" value="obovoid" />
+        <character name="shape" value="beaked" modifier="not" />
+      </structure>
+      <structure id="o7331" name="rib">
+        <character char_type="range_value" name="count" from="8" to="10" />
+        <character name="coloration" value="stramineous" />
+      </structure>
+      <structure id="o7332" name="face">
+        <character name="relief" value="smooth" />
+        <character name="relief" value="rugose" constraint="between ribs" constraintid="o7333" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+      <structure id="o7333" name="rib" />
+    </statement>
+    <statement id="383.txt-15">
+      <text>pappi 0.</text>
+      <structure id="o7334" name="pappus">
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+    <statement id="383.txt-16">
+      <text>x = 9.</text>
+      <structure id="o7335" name="chromosome">
+        <character name="count" value="9" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species 1:</number_of_infrataxa>
+  <introduced>introduced;</introduced>
+  <general_distribution>Europe.</general_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

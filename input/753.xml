@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>100.</number>
+  <genus_name>MICROPUS</genus_name>
+  <authority>Micropus Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 927. 1753; Gen. Pl. ed. 5, 398. 1754</place_of_publication>
+  <common_name>Cottonseed , micrope , falzblume</common_name>
+  <derivation>Greek micros , small, and pous , foot, perhaps alluding to tiny receptacles</derivation>
+  <author_of_tribe_genus>James D. Morefield</author_of_tribe_genus>
+  <synonym_of_genus_name>Bombycilaena (de Candolle) Smoljaninova</synonym_of_genus_name>
+  <description>
+    <statement id="753.txt-0">
+      <text>Annuals, 1–50 cm.</text>
+      <structure id="o15884" name="whole_organism">
+        <character char_type="range_value" name="size" from="1" from_unit="cm" to="50" to_unit="cm" />
+        <character name="life_style" value="annual" />
+      </structure>
+    </statement>
+    <statement id="753.txt-1">
+      <text>Stems 1, ± erect, or 2–5[–10], ascending to erect [prostrate].</text>
+      <structure id="o15885" name="stem">
+        <character name="count" value="1" />
+        <character name="orientation" value="erect" modifier="±" />
+        <character char_type="range_value" name="atypical_count" from="5" to="10" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="2" to="5" />
+        <character char_type="range_value" name="orientation" from="ascending" to="erect" />
+        <character name="orientation" value="ascending" />
+        <character name="orientation" value="erect" />
+      </structure>
+    </statement>
+    <statement id="753.txt-2">
+      <text>Leaves cauline;</text>
+    </statement>
+    <statement id="753.txt-3">
+      <text>mostly alternate [opposite];</text>
+      <structure id="o15886" name="leaf">
+        <character name="insertion_or_position" value="cauline" />
+        <character name="arrangement" value="alternate" modifier="mostly" />
+      </structure>
+    </statement>
+    <statement id="753.txt-4">
+      <text>blades narrowly oblanceolate to elliptic [spatulate].</text>
+      <structure id="o15887" name="blade">
+        <character char_type="range_value" name="shape" from="narrowly oblanceolate" to="elliptic" />
+        <character name="shape" value="oblanceolate" modifier="narrowly" />
+        <character name="shape" value="elliptic" modifier="narrowly" />
+      </structure>
+    </statement>
+    <statement id="753.txt-5">
+      <text>Heads usually in glomerules of 2–5 in racemiform to paniculiform or distally ± dichasiform [axillary] arrays, sometimes borne singly.</text>
+      <structure id="o15888" name="head">
+        <character name="arrangement" value="singly" modifier="sometimes" />
+      </structure>
+      <structure id="o15889" name="glomerule" />
+      <relation id="r1715" name="in" from="o15888" to="o15889" negation="false" modifier="usually" />
+      <structure id="o15890" name="array">
+        <character char_type="range_value" name="count" from="2" to="5" />
+        <character char_type="range_value" name="architecture" from="racemiform" to="paniculiform" />
+        <character name="architecture" value="racemiform" />
+        <character name="architecture" value="paniculiform" />
+        <character name="arrangement" value="dichasiform" modifier="distally ±" />
+      </structure>
+      <relation id="r1716" name="consist_of" from="o15889" to="o15890" negation="false" />
+    </statement>
+    <statement id="753.txt-6">
+      <text>Involucres inconspicuous.</text>
+      <structure id="o15891" name="involucre">
+        <character name="manifestation" value="inconspicuous" />
+      </structure>
+    </statement>
+    <statement id="753.txt-7">
+      <text>Phyllaries 4–6, ± equal (unlike paleae, scarious, hyaline).</text>
+      <structure id="o15892" name="phyllary">
+        <character char_type="range_value" name="count" from="4" to="6" />
+        <character name="size" value="equal" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="753.txt-8">
+      <text>Receptacles depressed-spheric or obovoid (heights 0.5–1.8 times diams.), glabrous.</text>
+      <structure id="o15893" name="receptacle">
+        <character name="shape" value="depressed-spheric" />
+        <character name="shape" value="obovoid" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="753.txt-9">
+      <text>Pistillate paleae falling, erect to incurved;</text>
+      <structure id="o15894" name="palea" constraint="pistillate">
+        <character char_type="range_value" name="orientation" from="falling , erect" to="incurved" />
+        <character name="orientation" value="falling" />
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="incurved" />
+      </structure>
+    </statement>
+    <statement id="753.txt-10">
+      <text>bodies with 5+ nerves (nerves ± parallel, obscure), obovoid, saccate most of lengths (trigonously [evenly] compressed, galeate, abaxially rounded [corniculate-crested], each enclosing a floret);</text>
+      <structure id="o15895" name="body">
+        <character name="shape" value="obovoid" />
+        <character name="architecture_or_shape" value="saccate" constraint="of lengths" constraintid="o15897" />
+      </structure>
+      <structure id="o15896" name="nerve">
+        <character name="count" char_type="range_value" from="5" upper_restricted="false" />
+      </structure>
+      <relation id="r1717" name="with" from="o15895" to="o15896" negation="false" />
+      <structure id="o15897" name="length" />
+    </statement>
+    <statement id="753.txt-11">
+      <text>wings ± erect (and lateral) or inflexed (and subapical).</text>
+      <structure id="o15898" name="wing">
+        <character name="orientation" value="erect" modifier="±" />
+        <character name="orientation" value="inflexed" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="753.txt-12">
+      <text>Staminate paleae 0 or 1–3, falling, erect in fruit (not enlarged), shorter than pistillate paleae;</text>
+      <structure id="o15899" name="palea" constraint="staminate">
+        <character name="count" value="0" />
+        <character char_type="range_value" name="count" from="1" to="3" />
+        <character name="orientation" value="falling" />
+        <character name="orientation" value="erect" constraint="in fruit" constraintid="o15900" />
+        <character name="size" value="shorter" constraint="than pistillate paleae" constraintid="o15901" />
+      </structure>
+      <structure id="o15900" name="fruit" />
+      <structure id="o15901" name="palea" constraint="pistillate" />
+    </statement>
+    <statement id="753.txt-13">
+      <text>bodies linear-lanceolate to oblanceolate.</text>
+      <structure id="o15902" name="body">
+        <character char_type="range_value" name="shape" from="linear-lanceolate" to="oblanceolate" />
+        <character name="shape" value="linear-lanceolate" />
+        <character name="shape" value="oblanceolate" />
+      </structure>
+    </statement>
+    <statement id="753.txt-14">
+      <text>Pistillate florets 4–12.</text>
+      <structure id="o15903" name="floret" constraint="pistillate">
+        <character char_type="range_value" name="count" from="4" to="12" />
+      </structure>
+    </statement>
+    <statement id="753.txt-15">
+      <text>Functionally staminate florets 2–5;</text>
+      <structure id="o15904" name="floret" constraint="functionally staminate">
+        <character char_type="range_value" name="count" from="2" to="5" />
+      </structure>
+    </statement>
+    <statement id="753.txt-16">
+      <text>corolla lobes 4–5, ± equal.</text>
+      <structure id="o15905" name="lobe" constraint="corolla">
+        <character char_type="range_value" name="count" from="4" to="5" />
+        <character name="size" value="equal" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="753.txt-17">
+      <text>Bisexual florets 0.</text>
+      <structure id="o15906" name="floret" constraint="bisexual">
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+    <statement id="753.txt-18">
+      <text>Cypselae brown, monomorphic:</text>
+    </statement>
+    <statement id="753.txt-19">
+      <text>± trigonously [evenly] compressed, ± obovoid, curved, gibbous abaxially, faces glabrous, smooth, shiny, corolla scars ± lateral;</text>
+      <structure id="o15907" name="cypsela">
+        <character name="coloration" value="brown" />
+        <character name="habit" value="monomorphic" />
+        <character name="shape" value="compressed" modifier="± trigonously" />
+        <character name="shape" value="obovoid" modifier="±" />
+        <character name="shape" value="curved" />
+        <character name="shape" value="gibbous" modifier="abaxially" />
+      </structure>
+      <structure id="o15908" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="architecture_or_relief" value="smooth" />
+        <character name="reflectance" value="shiny" />
+      </structure>
+      <structure id="o15909" name="scar" constraint="corolla">
+        <character name="insertion_or_position" value="lateral" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="753.txt-20">
+      <text>pappi:</text>
+      <structure id="o15910" name="pappus" />
+    </statement>
+    <statement id="753.txt-21">
+      <text>pistillate 0, staminate 0 or of 1–5 bristles (hidden in heads).</text>
+      <structure id="o15911" name="pappus" constraint="pistillate">
+        <character name="count" value="0" />
+      </structure>
+      <structure id="o15912" name="pappus" constraint="staminate">
+        <character name="count" value="0" />
+        <character name="count" value="of 1-5 bristles" />
+      </structure>
+      <structure id="o15913" name="bristle">
+        <character char_type="range_value" name="count" from="1" to="5" />
+      </structure>
+      <relation id="r1718" name="consist_of" from="o15912" to="o15913" negation="false" />
+    </statement>
+    <statement id="753.txt-22">
+      <text>x = 14.</text>
+      <structure id="o15914" name="chromosome">
+        <character name="count" value="14" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species 5 (2 in the flora):</number_of_infrataxa>
+  <general_distribution>w United States</general_distribution>
+  <general_distribution>nw Mexico</general_distribution>
+  <general_distribution>s Europe</general_distribution>
+  <general_distribution>sw Asia</general_distribution>
+  <general_distribution>n Africa.</general_distribution>
+  <discussion>See discussion of Filagininae following the tribal description (p. 385).</discussion>
+  <discussion>Micropus species are found mostly in dry, open habitats of Mediterranean climates. In the flora, they are known only from west-draining portions of the Californian Floristic Province and the Willamette Valley in Oregon.</discussion>
+  <discussion>The two North American species constitute Micropus sect. Rhyncholepis Nuttall. Recent European workers (e.g., J. Holub 1998) have included sect. Rhyncholepis in Bombycilaena, leaving M. supinus Linnaeus in a monotypic genus. Based on phylogenetic data (J. D. Morefield 1992), that approach would include in Bombycilaena species ancestral to, and derived from ancestors of, Micropus. I maintain Micropus in its traditional sense here. Micropus and Psilocarphus appear to be monophyletic sister genera derived from near or within Stylocline. A malformed specimen from Monterey County, California, appears to be a sterile hybrid between M. californicus and a species of Psilocarphus.</discussion>
+  <key>1.Pistillate paleae 8–12 in 2 series, bodies mainly chartaceous, cartilaginous medially, wings prominent, subapical, inflexed, plane to concave; cypselae: corolla scars in distal 1/4; receptacle heights 1.2–1.8 times diams.; staminate paleae mostly 1–3; staminate corolla lobes 4 (–5); staminate pappi of 1–5 bristles1. Micropus amphibolus</key>
+  <key>1.Pistillate paleae 4–7(–8) in 1 series, bodies cartilaginous to bony throughout, wings obscure, lateral, ± erect, involute; cypselae: corolla scars ± median; receptacle heights 0.5–0.8 times diams.; staminate paleae 0; staminate corolla lobes usually 5; staminate pappi 0 or of 1 bristle2. Micropus californicus</key>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

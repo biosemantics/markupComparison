@@ -5,10 +5,14 @@ public class SimilarityResult {
 	private Object a;
 	private Object b;
 	private Score score;
+	private String aLabel;
+	private String bLabel;
 
-	public SimilarityResult(Object a, Object b, Score score) {
+	public SimilarityResult(Object a, String aLabel, Object b, String bLabel, Score score) {
 		this.a = a;
+		this.aLabel = aLabel;
 		this.b = b;
+		this.bLabel = bLabel;
 		this.score = score;
 	}
 
@@ -36,6 +40,35 @@ public class SimilarityResult {
 		this.score = score;
 	}
 
+	
+	
+	public String getaLabel() {
+		return aLabel;
+	}
+
+	public void setaLabel(String aLabel) {
+		this.aLabel = aLabel;
+	}
+
+	public String getbLabel() {
+		return bLabel;
+	}
+
+	public void setbLabel(String bLabel) {
+		this.bLabel = bLabel;
+	}
+
+	@Override
+	public String toString() {
+		if(aLabel != null && bLabel != null && !aLabel.isEmpty() && !bLabel.isEmpty())
+			return "similarity_" + score.getAlgorithm().getSimpleName() + "(" +
+			aLabel + ", " + bLabel + ")" +
+			" = " + score.getSimilarity();
+		else
+			return "similarity_" + score.getAlgorithm().getSimpleName() + "(" +
+					a.toString() + ", " + b.toString() + ")" +
+					" = " + score.getSimilarity();
+	}
 	
 
 }

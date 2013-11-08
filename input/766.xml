@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>102.</number>
+  <genus_name>DIAPERIA</genus_name>
+  <authority>Diaperia Nuttall</authority>
+  <place_of_publication>Trans. Amer. Philos. Soc., n. s. 7: 337. 1840</place_of_publication>
+  <common_name>Rabbit-tobacco , dwarf cudweed</common_name>
+  <derivation>Greek diapero , to pass through, alluding to pseudo-polytomous branching pattern (“proliferous inflorescence”) of type species</derivation>
+  <author_of_tribe_genus>James D. Morefield</author_of_tribe_genus>
+  <synonym_of_genus_name>Evax Gaertner sect. Diaperia (Nuttall) A. Gray</synonym_of_genus_name>
+  <description>
+    <statement id="766.txt-0">
+      <text>Annuals, 3–25 cm.</text>
+      <structure id="o16098" name="whole_organism">
+        <character char_type="range_value" name="size" from="3" from_unit="cm" to="25" to_unit="cm" />
+        <character name="life_style" value="annual" />
+      </structure>
+    </statement>
+    <statement id="766.txt-1">
+      <text>Stems 1, erect, or 2–10, ascending to ± prostrate.</text>
+      <structure id="o16099" name="stem">
+        <character name="count" value="1" />
+        <character name="orientation" value="erect" />
+        <character char_type="range_value" name="count" from="2" to="10" />
+        <character name="orientation" value="ascending" />
+        <character name="orientation" value="prostrate" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="766.txt-2">
+      <text>Leaves basal and cauline;</text>
+    </statement>
+    <statement id="766.txt-3">
+      <text>alternate;</text>
+      <structure id="o16100" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="arrangement" value="alternate" />
+      </structure>
+    </statement>
+    <statement id="766.txt-4">
+      <text>blades oblanceolate to obovate.</text>
+      <structure id="o16101" name="blade">
+        <character char_type="range_value" name="shape" from="oblanceolate" to="obovate" />
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="obovate" />
+      </structure>
+    </statement>
+    <statement id="766.txt-5">
+      <text>Heads borne singly or in glomerules of 2–40+ in ± dichasiform, pseudo-polytomous, spiciform, or racemiform arrays.</text>
+      <structure id="o16102" name="head">
+        <character name="arrangement" value="singly" />
+        <character name="arrangement" value="in glomerules" />
+      </structure>
+      <structure id="o16103" name="glomerule" />
+      <relation id="r1729" name="in" from="o16102" to="o16103" negation="false" />
+      <structure id="o16104" name="array">
+        <character char_type="range_value" name="count" from="2" to="40" upper_restricted="false" />
+        <character name="arrangement" value="dichasiform" modifier="±" />
+        <character name="architecture" value="pseudo-polytomous" />
+        <character name="architecture" value="spiciform" />
+        <character name="architecture" value="racemiform" />
+      </structure>
+      <relation id="r1730" name="consist_of" from="o16103" to="o16104" negation="false" />
+    </statement>
+    <statement id="766.txt-6">
+      <text>Involucres inconspicuous.</text>
+      <structure id="o16105" name="involucre">
+        <character name="manifestation" value="inconspicuous" />
+      </structure>
+    </statement>
+    <statement id="766.txt-7">
+      <text>Phyllaries (2–)4–6, ± equal (similar to paleae).</text>
+      <structure id="o16106" name="phyllary">
+        <character char_type="range_value" name="atypical_count" from="2" to="4" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="4" to="6" />
+        <character name="size" value="equal" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="766.txt-8">
+      <text>Receptacles pulvinate to conic (heights 0.2–2.4 times diams.), glabrous.</text>
+      <structure id="o16107" name="receptacle">
+        <character char_type="range_value" name="shape" from="pulvinate" to="conic" />
+        <character name="shape" value="pulvinate" />
+        <character name="shape" value="conic" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="766.txt-9">
+      <text>Pistillate paleae readily falling (all or inner together, ± coherent distally by tangled indument) or outermost sometimes persistent, erect to ascending;</text>
+      <structure id="o16108" name="palea" constraint="pistillate">
+        <character name="orientation" value="falling" modifier="readily" />
+        <character name="position" value="outermost" modifier="sometimes" />
+        <character name="duration" value="persistent" />
+        <character char_type="range_value" name="orientation" from="erect" to="ascending" />
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="ascending" />
+      </structure>
+    </statement>
+    <statement id="766.txt-10">
+      <text>bodies with 5+ nerves (nerves ± parallel, obscure), oblanceolate to oblong, flat to concave most of lengths (not enclosing florets);</text>
+      <structure id="o16109" name="body">
+        <character char_type="range_value" name="shape" from="oblanceolate" to="oblong , flat" />
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="oblong" />
+        <character name="shape" value="flat" />
+        <character name="shape" value="concave" constraint="of lengths" constraintid="o16111" />
+      </structure>
+      <structure id="o16110" name="nerve">
+        <character name="count" char_type="range_value" from="5" upper_restricted="false" />
+      </structure>
+      <relation id="r1731" name="with" from="o16109" to="o16110" negation="false" />
+      <structure id="o16111" name="length" />
+    </statement>
+    <statement id="766.txt-11">
+      <text>wings 0.</text>
+      <structure id="o16112" name="wing">
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+    <statement id="766.txt-12">
+      <text>Staminate or bisexual paleae readily falling (coherent with pistillate), (1–)3–5, erect to apically somewhat spreading or incurved (scarcely enlarged) in fruit, slightly surpassing pistillate paleae;</text>
+      <structure id="o16113" name="palea" constraint="staminate or bisexual">
+        <character name="orientation" value="falling" modifier="readily" />
+        <character char_type="range_value" name="atypical_count" from="1" to="3" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="3" to="5" />
+        <character char_type="range_value" name="orientation" from="erect" to="apically somewhat spreading or incurved" />
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="spreading" modifier="apically somewhat" />
+        <character name="orientation" value="incurved" modifier="apically somewhat" constraint="in fruit" constraintid="o16114" />
+      </structure>
+      <structure id="o16114" name="fruit" />
+      <structure id="o16115" name="palea" constraint="pistillate">
+        <character name="comparison" value="surpassing" modifier="slightly" />
+      </structure>
+    </statement>
+    <statement id="766.txt-13">
+      <text>bodies ± spatulate (apices entire, sometimes involute and ± gibbous).</text>
+      <structure id="o16116" name="body">
+        <character name="shape" value="spatulate" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="766.txt-14">
+      <text>Pistillate florets 13–35+.</text>
+      <structure id="o16117" name="floret" constraint="pistillate">
+        <character char_type="range_value" name="count" from="13" to="35" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="766.txt-15">
+      <text>Functionally staminate or bisexual florets 2–5;</text>
+      <structure id="o16118" name="floret" constraint="functionally staminate or bisexual">
+        <character char_type="range_value" name="count" from="2" to="5" />
+      </structure>
+    </statement>
+    <statement id="766.txt-16">
+      <text>corolla lobes mostly 4, equal or unequal.</text>
+      <structure id="o16119" name="lobe" constraint="corolla">
+        <character name="count" value="4" modifier="mostly" />
+        <character name="size" value="equal" />
+        <character name="size" value="unequal" />
+      </structure>
+    </statement>
+    <statement id="766.txt-17">
+      <text>Cypselae light to dark brown, monomorphic:</text>
+    </statement>
+    <statement id="766.txt-18">
+      <text>terete to obcompressed, ± obovoid, ± straight, not gibbous, faces glabrous, minutely papillate, dull or ± shiny;</text>
+      <structure id="o16120" name="cypsela">
+        <character char_type="range_value" name="coloration" from="light" to="dark-brown" />
+        <character name="coloration" value="light" />
+        <character name="coloration" value="brown" modifier="dark" />
+        <character name="habit" value="monomorphic" />
+        <character char_type="range_value" name="shape" from="terete" to="obcompressed" />
+        <character name="shape" value="terete" />
+        <character name="shape" value="obcompressed" />
+        <character name="shape" value="obovoid" modifier="±" />
+        <character name="course" value="straight" modifier="±" />
+        <character name="shape" value="gibbous" modifier="not" />
+      </structure>
+      <structure id="o16121" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="relief_or_pubescence" value="papillate" modifier="minutely" />
+        <character name="reflectance_or_coloration" value="dull" />
+        <character name="reflectance" value="shiny" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="766.txt-19">
+      <text>corolla scars apical;</text>
+      <structure id="o16122" name="scar" constraint="corolla">
+        <character name="insertion_or_position" value="apical" />
+      </structure>
+    </statement>
+    <statement id="766.txt-20">
+      <text>pappi 0.</text>
+      <structure id="o16123" name="pappus">
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+    <statement id="766.txt-21">
+      <text>x = 7.</text>
+      <structure id="o16124" name="chromosome">
+        <character name="count" value="7" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species 3 (3 in the flora):</number_of_infrataxa>
+  <general_distribution>c United States</general_distribution>
+  <general_distribution>n Mexico.</general_distribution>
+  <discussion>See discussion of Filagininae following the tribal description (p. 385).</discussion>
+  <discussion>Diaperia occurs in open, moist or dry habitats of humid to semiarid, temperate to subtropical climates. Though apparently not aggressively invasive in their native range, the species are competitive in disturbed habitats (vacant lots, fallow fields, lawns, cemeteries, and roadsides). Diaperia verna var. verna, in particular, is widely regarded as a weed; the species are potentially invasive outside the flora.</discussion>
+  <discussion>Diaperia appears to be monophyletic, with ancestors near Evax sect. Filaginoides Smoljaninova of the Mediterranean basin and central Asia (particularly E. eriosphaera Boissier &amp; Heldreich; J. D. Morefield 1992). It is separated from Evax by stems well-developed, leafy, usually branched, paleae falling together (coherent distally by tangled indument), and staminate paleae somewhat enlarged, apices obtuse, ± herbaceous, uniformly hairy (Morefield 2004). Species of Diaperia are sharply distinct by size, shape, and arrangement of branches, glomerules, heads, and capitular leaves.</discussion>
+  <discussion>Diaperia candida is aberrant by its inner florets bisexual, bisexual paleae distally gibbous, and reported chromosome complement of 2n = 14 (D. J. Keil and D. J. Pinkava 1976). These traits might eventually justify resurrection of the monotypic Calymmandra Torrey &amp; A. Gray, after further study and confirmation of the chromosome number. While 2n = 14 is common elsewhere in Gnaphalieae, all other 25 counted species of Filagininae have 2n = 28 (species of Evax, Filago, Logfia, Micropus, Psilocarphus, and Stylocline) or 2n = 26 (Diaperia and Evax). The implication that D. candida retains an ancestral diploid condition has no phylogenetic support (J. D. Morefield 1992).</discussion>
+  <references>SELECTED REFERENCE Shinners, L. H. 1951. The Texas species of Evax (Compositae). Field &amp; Lab. 19: 125–126.</references>
+  <key>1.Heads in racemiform or spiciform arrays, 1.5–2 mm; branches proximal or none; longest pistillate paleae 0.9–1.3 mm; bisexual florets 3–5 (corollas 0.5–0.9 mm, protruding from heads); functionally staminate florets usually 01. Diaperia candida</key>
+  <key>1.Heads in ± dichasiform or pseudo-polytomous arrays, 2–4.5 mm; branches proximal and distal, rarely none; longest pistillate paleae 1.9–4 mm; bisexual florets 0; functionally staminate florets 2–5 (corollas 1.4–2.5 mm, hidden in heads).</key>
+  <key>2.Heads in subdichasiform arrays, ± campanulate to spheric, 2–3.3 mm, heights ± equal to diams.; capitular leaves ± hidden between and surpassed by heads; pistillate paleae scarcely imbricate; cypselae mostly 0.7–0.9 mm2. Diaperia verna</key>
+  <key>2.Heads in strictly dichasiform or pseudo-polytomous arrays (sometimes appearing monochasiform), ellipsoid to ± cylindric, 3.5–4.5 mm, heights 2–3 times diams.; capitular leaves visible between and surpassing heads; pistillate paleae imbricate; cypselae mostly 0.9–1.2 mm3. Diaperia prolifera</key>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

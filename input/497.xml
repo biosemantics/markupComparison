@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>2.</number>
+  <species_name>Agoseris aurantiaca</species_name>
+  <authority>(Hooker) Greene</authority>
+  <place_of_publication>Pittonia 2: 177. 1891</place_of_publication>
+  <common_name>Orange or mountain agoseris</common_name>
+  <synonym_of_species_name>Troximon aurantiacum Hooker, Fl. Bor.-Amer. 1: 300, plate 104. 1833</synonym_of_species_name>
+  <description>
+    <statement id="497.txt-0">
+      <text>Stems 0.</text>
+      <structure id="o9999" name="stem">
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+    <statement id="497.txt-1">
+      <text>Leaves erect to decumbent;</text>
+      <structure id="o10000" name="leaf">
+        <character name="orientation" value="erect" />
+        <character name="habit" value="decumbent" />
+      </structure>
+    </statement>
+    <statement id="497.txt-2">
+      <text>petioles purplish, petiole margins ciliate to hairy;</text>
+      <structure id="o10001" name="petiole">
+        <character name="coloration" value="purplish" />
+      </structure>
+      <structure id="o10002" name="margin" constraint="petiole">
+        <character name="architecture_or_shape" value="ciliate" />
+        <character name="pubescence" value="hairy" />
+      </structure>
+    </statement>
+    <statement id="497.txt-3">
+      <text>blades 7–38 cm, linear-lanceolate to oblanceolate, margins entire or laciniately pinnatifid, lobes 2–4 pairs, linear to lanceolate, spreading to antrorse, lobules usually inconspicuous to subequaling lobes, rarely lacking, faces glabrous and ± glaucous or sparsely villous.</text>
+      <structure id="o10003" name="blade">
+        <character char_type="range_value" name="size" from="7" from_unit="cm" to="38" to_unit="cm" />
+        <character char_type="range_value" name="shape" from="linear-lanceolate" to="oblanceolate" />
+        <character name="shape" value="linear-lanceolate" />
+        <character name="shape" value="oblanceolate" />
+      </structure>
+      <structure id="o10004" name="margin">
+        <character name="shape" value="entire" />
+        <character name="shape" value="pinnatifid" modifier="laciniately" />
+      </structure>
+      <structure id="o10005" name="lobe">
+        <character char_type="range_value" name="count" from="2" to="4" />
+        <character char_type="range_value" name="shape" from="linear" to="lanceolate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="lanceolate" />
+        <character char_type="range_value" name="orientation" from="spreading" to="antrorse" />
+        <character name="orientation" value="spreading" />
+        <character name="orientation" value="antrorse" />
+      </structure>
+      <structure id="o10006" name="lobule">
+        <character name="presence" value="lacking" modifier="rarely" />
+      </structure>
+      <structure id="o10007" name="lobe">
+        <character name="comparison" value="subequaling" />
+      </structure>
+      <relation id="r1154" name="usually inconspicuous to" from="o10006" to="o10007" negation="false" />
+      <structure id="o10008" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="coating" value="glaucous" modifier="±" />
+        <character name="pubescence" value="villous" modifier="sparsely" />
+      </structure>
+    </statement>
+    <statement id="497.txt-4">
+      <text>Peduncles ± elongating after flowering, 8–40(–80) cm, glabrate, or apically villous to lanate, eglandular.</text>
+      <structure id="o10009" name="peduncle">
+        <character name="size" value="elongating" modifier="±; after flowering" />
+        <character char_type="range_value" name="atypical_size" from="40" to="80" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="8" from_unit="cm" to="40" to_unit="cm" />
+        <character char_type="range_value" name="pubescence" from="apically villous" to="lanate" />
+        <character name="pubescence" value="glabrate" />
+        <character name="pubescence" value="villous" modifier="apically" />
+        <character name="pubescence" value="lanate" modifier="apically" />
+        <character name="architecture" value="eglandular" />
+      </structure>
+    </statement>
+    <statement id="497.txt-5">
+      <text>Involucres cylindric to obconic or campanulate, 2.5–3 cm at maturity.</text>
+      <structure id="o10010" name="involucre">
+        <character char_type="range_value" name="shape" from="cylindric" to="obconic or campanulate" />
+        <character name="shape" value="cylindric" />
+        <character name="shape" value="obconic" />
+        <character name="shape" value="campanulate" />
+        <character char_type="range_value" name="size" from="2.5" from_unit="cm" to="3" to_unit="cm" constraint="at maturity" constraintid="o10011" />
+      </structure>
+      <structure id="o10011" name="maturity" />
+    </statement>
+    <statement id="497.txt-6">
+      <text>Phyllaries in 2–3 series, green or medially rosy purple, often with purple-black spots, blotches, and/or midstripes, or nearly all black, subequal to unequal, margins ciliate, faces glabrous or villous, eglandular;</text>
+      <structure id="o10012" name="phyllary">
+        <character name="coloration" value="green" />
+        <character name="coloration" value="purple" modifier="medially ;rosy" />
+      </structure>
+      <structure id="o10013" name="series">
+        <character char_type="range_value" name="count" from="2" to="3" />
+      </structure>
+      <relation id="r1155" name="in" from="o10012" to="o10013" negation="false" />
+      <structure id="o10014" name="spot">
+        <character name="coloration" value="black" modifier="purple" />
+      </structure>
+      <relation id="r1156" name="with" from="o10012" to="o10014" negation="false" modifier="often" />
+      <structure id="o10015" name="blotch">
+        <character name="coloration" value="black" />
+        <character char_type="range_value" name="size" from="subequal" to="unequal" />
+        <character name="size" value="subequal" />
+        <character name="size" value="unequal" />
+      </structure>
+      <structure id="o10016" name="midstripe" />
+      <structure id="o10017" name="margin">
+        <character name="architecture_or_shape" value="ciliate" />
+      </structure>
+      <structure id="o10018" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="villous" />
+        <character name="architecture" value="eglandular" />
+      </structure>
+    </statement>
+    <statement id="497.txt-7">
+      <text>outer mostly spreading, adaxially glabrous or villous;</text>
+      <structure id="o10019" name="phyllary" constraint="outer">
+        <character name="orientation" value="spreading" modifier="mostly" />
+        <character name="pubescence" value="glabrous" modifier="adaxially" />
+        <character name="pubescence" value="villous" modifier="adaxially" />
+      </structure>
+    </statement>
+    <statement id="497.txt-8">
+      <text>inner erect, elongating after flowering.</text>
+      <structure id="o10020" name="phyllary" constraint="inner">
+        <character name="orientation" value="erect" />
+        <character name="size" value="elongating" modifier="after flowering" />
+      </structure>
+    </statement>
+    <statement id="497.txt-9">
+      <text>Receptacles epaleate.</text>
+      <structure id="o10021" name="receptacle">
+        <character name="architecture" value="epaleate" />
+      </structure>
+    </statement>
+    <statement id="497.txt-10">
+      <text>Florets 15–100;</text>
+      <structure id="o10022" name="floret">
+        <character char_type="range_value" name="count" from="15" to="100" />
+      </structure>
+    </statement>
+    <statement id="497.txt-11">
+      <text>corollas usually orange, sometimes yellow, pink, red, purple, or white, tubes (4–)7–9 mm, ligules 4–12 × 1–3 mm;</text>
+      <structure id="o10023" name="corolla">
+        <character name="coloration" value="orange" modifier="usually" />
+        <character name="coloration" value="yellow" modifier="sometimes" />
+        <character name="coloration" value="pink" modifier="sometimes" />
+        <character name="coloration" value="red" modifier="sometimes" />
+        <character name="coloration" value="purple" modifier="sometimes" />
+        <character name="coloration" value="white" modifier="sometimes" />
+      </structure>
+      <structure id="o10024" name="tube">
+        <character char_type="range_value" name="atypical_size" from="4" to="7" from_unit="mm" to_unit="mm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="7" from_unit="mm" to="9" to_unit="mm" />
+      </structure>
+      <structure id="o10025" name="ligule">
+        <character char_type="range_value" name="length" from="4" from_unit="mm" to="12" to_unit="mm" />
+        <character char_type="range_value" name="width" from="1" from_unit="mm" to="3" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="497.txt-12">
+      <text>anthers 2–5 mm.</text>
+      <structure id="o10026" name="anther">
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="497.txt-13">
+      <text>Cypselae ± dimorphic, 8–18 mm, bodies cylindric to fusiform or obconic, 6–9(–11) mm, abruptly or gradually tapered to slender beaks (2–)5–10 mm, lengths mostly equaling bodies;</text>
+      <structure id="o10027" name="cypsela">
+        <character name="habit" value="dimorphic" modifier="±" />
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="18" to_unit="mm" />
+      </structure>
+      <structure id="o10028" name="body">
+        <character char_type="range_value" name="shape" from="cylindric" to="fusiform or obconic" />
+        <character name="shape" value="cylindric" />
+        <character name="shape" value="fusiform" />
+        <character name="shape" value="obconic" />
+        <character char_type="range_value" name="atypical_size" from="9" to="11" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="9" to_unit="mm" />
+      </structure>
+      <structure id="o10029" name="beak">
+        <character name="size" value="slender" />
+        <character char_type="range_value" name="atypical_size" from="2" to="5" from_unit="mm" to_unit="mm" to_inclusive="false" modifier="abruptly" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="10" to_unit="mm" modifier="abruptly" />
+      </structure>
+      <relation id="r1157" name="gradually tapered to" from="o10028" to="o10029" negation="false" />
+      <structure id="o10030" name="body">
+        <character name="comparison" value="equaling" modifier="mostly" />
+      </structure>
+    </statement>
+    <statement id="497.txt-14">
+      <text>ribs strongly ridged, straight, glabrous or scabrous;</text>
+      <structure id="o10031" name="rib">
+        <character name="shape" value="ridged" modifier="strongly" />
+        <character name="course" value="straight" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="scabrous" />
+      </structure>
+    </statement>
+    <statement id="497.txt-15">
+      <text>pappi in 2–3 series, 9–15 mm.</text>
+      <structure id="o10032" name="pappus">
+        <character char_type="range_value" name="size" from="9" from_unit="mm" to="15" to_unit="mm" />
+      </structure>
+      <structure id="o10033" name="series">
+        <character char_type="range_value" name="count" from="2" to="3" />
+      </structure>
+      <relation id="r1158" name="in" from="o10032" to="o10033" negation="false" />
+    </statement>
+    <statement id="497.txt-16">
+      <text>2 n = 18, 36.</text>
+      <structure id="o10034" name="chromosome">
+        <character name="count" value="18" />
+        <character name="count" value="36" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Varieties 2 (2 in the flora):</number_of_infrataxa>
+  <general_distribution>w North America.</general_distribution>
+  <couplet>1.Phyllaries ± lanceolate (± herbaceous throughout), margins ± ciliate proximally, usually villous, sometimes glabrous; corollas usually orange, sometimes pinkish or yellow, rarely white; cypselae ± abruptly tapered to beaks, ribs often thicker distally2a. Agoseris aurantiaca</couplet>
+  <couplet>var. aurantiaca</couplet>
+  <couplet>1.Phyllaries ± ovate or obovate (somewhat stramineous proximally), margins ± ciliate distally, usually glabrous, rarely villous; corollas usually orange or yellow, sometimes pinkish; cypselae ± gradually tapered to beaks, ribs not thicker distally2b. Agoseris aurantiaca var. purpurea</couplet>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

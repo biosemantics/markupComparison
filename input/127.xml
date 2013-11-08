@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>43c.</number>
+  <variety_name>Cirsium arizonicum (A. Gray) Petrak var. bipinnatum</variety_name>
+  <authority>(Eastwood) D. J. Keil</authority>
+  <place_of_publication>Sida 21: 209. 2004</place_of_publication>
+  <common_name>Four Corners thistle</common_name>
+  <synonym_of_variety_name>Cnicus drummondii Torrey &amp; A. Gray var. bipinnatus Eastwood, Zoë 4: 8. 1893; Cirsium bipinnatum (Eastwood) Rydberg; C. calcareum (M. E. Jones) Wooton &amp; Standley; C. calcareum var. bipinnatum (Eastwood) S. L. Welsh; C. calcareum var. pulchellum (Greene ex Rydberg) S. L. Welsh; C. diffusum (Eastwood) Rydberg; C. pulchellum (Greene ex Rydberg) Wooton &amp; Standley; C. pulchellum subsp. bipinnatum (Eastwood) Petrak; C. pulchellum subsp. diffusum (Eastwood) Petrak; C. pulchellum var. glabrescens Petrak</synonym_of_variety_name>
+  <description>
+    <statement id="127.txt-0">
+      <text>Stems glabrous to tomentose, usually without septate trichomes.</text>
+      <structure id="o656" name="stem">
+        <character char_type="range_value" name="pubescence" from="glabrous" to="tomentose" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="tomentose" />
+      </structure>
+      <structure id="o657" name="trichome">
+        <character name="architecture" value="septate" />
+      </structure>
+      <relation id="r125" name="without" from="o656" to="o657" negation="false" modifier="usually" />
+    </statement>
+    <statement id="127.txt-1">
+      <text>Leaf blades unlobed to deeply divided, faces glabrous to tomentose on one or both, usually without septate trichomes;</text>
+      <structure id="o658" name="blade" constraint="leaf">
+        <character char_type="range_value" name="shape" from="unlobed" to="deeply divided" />
+        <character name="shape" value="unlobed" />
+        <character name="shape" value="divided" modifier="deeply" />
+      </structure>
+      <structure id="o659" name="face">
+        <character char_type="range_value" name="pubescence" from="glabrous" to="tomentose" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="tomentose" constraint="on one or both, usually without trichomes" constraintid="o660" />
+      </structure>
+      <structure id="o660" name="trichome">
+        <character name="architecture" value="septate" />
+      </structure>
+    </statement>
+    <statement id="127.txt-2">
+      <text>main marginal spines slender to stout, 3–10 mm;</text>
+      <structure id="o661" name="spine" constraint="main marginal">
+        <character name="size" value="slender" />
+        <character name="fragility" value="stout" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="127.txt-3">
+      <text>cauline bases narrowed to truncate or clasping or decurrent as spiny wings to 30 mm.</text>
+      <structure id="o662" name="base" constraint="cauline">
+        <character name="size" value="narrowed" />
+        <character name="shape" value="truncate" />
+        <character name="architecture" value="clasping" />
+        <character name="shape" value="decurrent" constraint="as wings" constraintid="o663" />
+      </structure>
+      <structure id="o663" name="wing">
+        <character name="architecture_or_shape" value="spiny" />
+        <character char_type="range_value" name="size" to="30" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="127.txt-4">
+      <text>Involucres cylindric or ovoid to campanulate;</text>
+      <structure id="o664" name="involucre">
+        <character char_type="range_value" name="shape" from="ovoid" to="campanulate" />
+        <character name="shape" value="cylindric" />
+        <character name="shape" value="ovoid" />
+        <character name="shape" value="campanulate" />
+      </structure>
+    </statement>
+    <statement id="127.txt-5">
+      <text>spines of mid phyllaries 1–6 mm, slender to very stout.</text>
+      <structure id="o665" name="spine">
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="6" to_unit="mm" />
+        <character name="size" value="slender" />
+        <character name="fragility" value="stout" modifier="very" />
+      </structure>
+      <structure id="o666" name="phyllary" constraint="mid" />
+      <relation id="r126" name="part_of" from="o665" to="o666" negation="false" />
+    </statement>
+    <statement id="127.txt-6">
+      <text>Corollas usually lavender to purple or reddish purple, 22–34 mm, tubes 7–12, throats 4–9 mm, lobes 8–18 mm;</text>
+      <structure id="o667" name="corolla">
+        <character char_type="range_value" name="coloration" from="usually lavender" to="purple or reddish-purple" />
+        <character name="coloration" value="lavender" modifier="usually" />
+        <character name="coloration" value="purple" modifier="usually" />
+        <character name="coloration" value="purple" modifier="usually ;reddish" />
+        <character char_type="range_value" name="size" from="22" from_unit="mm" to="34" to_unit="mm" />
+      </structure>
+      <structure id="o668" name="tube">
+        <character char_type="range_value" name="count" from="7" to="12" />
+      </structure>
+      <structure id="o669" name="throat">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="9" to_unit="mm" />
+      </structure>
+      <structure id="o670" name="lobe">
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="18" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="127.txt-7">
+      <text>style tips 1.2–4.5 mm.</text>
+      <structure id="o671" name="tip" constraint="style">
+        <character char_type="range_value" name="size" from="1.2" from_unit="mm" to="4.5" to_unit="mm" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <habitat>canyons</habitat>
+  <habitat>rocky slopes</habitat>
+  <habitat>desert scrub</habitat>
+  <habitat>pine-oak-juniper woodlands</habitat>
+  <habitat>openings in montane coniferous forests</habitat>
+  <elevation>900–3100 m;</elevation>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>Utah.</us_distribution>
+  <discussion>Variety bipinnatum grows in the Colorado Plateau of New Mexico, northeastern Arizona, southeastern Utah, and southwestern Colorado south to the Sacramento Mountains of southern New Mexico. It is a polymorphic assemblage of races and local populations with overlapping patterns of variation. Extremes are diverse and strikingly different, and various authors have attempted to segregate variants as species, subspecies, or varieties. Apparently independent segregation of character states of multiple variable characters has resulted in a complex array of local morphotypes. Leaves range from wholly glabrous to densely tomentose on one or both faces. The bases of cauline leaves vary from sessile and not at all decurrent to prominently decurrent with spiny wings to 3 cm. Leaf lobing and spininess are similarly variable. Heads may be solitary at the branch tips or densely clustered. I have been unable to detect patterns that can consistently separate the many forms in any meaningful way.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

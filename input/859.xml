@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>7.</number>
+  <species_name>Artemisia porteri</species_name>
+  <authority>Cronquist</authority>
+  <place_of_publication>Madroño 11: 145. 1951</place_of_publication>
+  <common_name>Porter mugwort</common_name>
+  <description>
+    <statement id="859.txt-0">
+      <text>Perennials or subshrubs, (7–)8–14 cm (cespitose), faintly aromatic.</text>
+      <structure id="o18026" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="7" to="8" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="8" from_unit="cm" to="14" to_unit="cm" />
+        <character name="odor" value="aromatic" modifier="faintly" />
+        <character name="life_style" value="perennial" />
+        <character name="life_style" value="subshrub" />
+      </structure>
+    </statement>
+    <statement id="859.txt-1">
+      <text>Stems 5–8, silver-gray, densely tomentose.</text>
+      <structure id="o18028" name="stem">
+        <character char_type="range_value" name="count" from="5" to="8" />
+        <character name="coloration" value="gray" modifier="silver" />
+        <character name="pubescence" value="tomentose" modifier="densely" />
+      </structure>
+    </statement>
+    <statement id="859.txt-2">
+      <text>Leaves persistent, silver-green, mostly basal;</text>
+      <structure id="o18029" name="leaf">
+        <character name="duration" value="persistent" />
+        <character name="coloration" value="green" modifier="silver" />
+        <character name="insertion_or_position" value="basal" modifier="mostly" />
+      </structure>
+    </statement>
+    <statement id="859.txt-3">
+      <text>proximalmost blades 3–4 × 1–1.5 cm, 1-pinnately lobed, lobes mostly 2–3 mm wide;</text>
+      <structure id="o18030" name="blade" constraint="proximalmost">
+        <character char_type="range_value" name="length" from="3" from_unit="cm" to="4" to_unit="cm" />
+        <character char_type="range_value" name="width" from="1" from_unit="cm" to="1.5" to_unit="cm" />
+        <character name="shape" value="lobed" modifier="1-pinnately" />
+      </structure>
+      <structure id="o18031" name="lobe">
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="3" to_unit="mm" modifier="mostly" />
+      </structure>
+    </statement>
+    <statement id="859.txt-4">
+      <text>blades of flowering stems somewhat reduced, (1–)2–3(–5) × 0.15 cm, mostly entire;</text>
+      <structure id="o18032" name="blade">
+        <character name="size" value="reduced" modifier="somewhat" />
+        <character char_type="range_value" name="atypical_length" from="1" to="2" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_length" from="3" to="5" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="2" from_unit="cm" to="3" to_unit="cm" />
+        <character name="width" value="0.15" unit="cm" />
+        <character name="shape" value="entire" modifier="mostly" />
+      </structure>
+      <structure id="o18033" name="stem" constraint="flowering" />
+      <relation id="r1904" name="part_of" from="o18032" to="o18033" negation="false" />
+    </statement>
+    <statement id="859.txt-5">
+      <text>apices rounded, faces densely hairy.</text>
+      <structure id="o18034" name="apex">
+        <character name="shape" value="rounded" />
+      </structure>
+      <structure id="o18035" name="face">
+        <character name="pubescence" value="hairy" modifier="densely" />
+      </structure>
+    </statement>
+    <statement id="859.txt-6">
+      <text>Heads borne singly or (clustered in 2s and 3s on lateral branches; peduncles 0 or to 5 mm) in paniculiform arrays, (2–)4–9 × 1–1.5(–2) cm.</text>
+      <structure id="o18036" name="head">
+        <character name="arrangement" value="singly" />
+        <character name="arrangement" value="in paniculiform arrays" />
+        <character char_type="range_value" name="atypical_length" from="2" to="4" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="length" from="4" from_unit="cm" to="9" to_unit="cm" />
+        <character char_type="range_value" name="atypical_width" from="1.5" to="2" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="width" from="1" from_unit="cm" to="1.5" to_unit="cm" />
+      </structure>
+      <structure id="o18037" name="array">
+        <character name="architecture" value="paniculiform" />
+      </structure>
+      <relation id="r1905" name="in" from="o18036" to="o18037" negation="false" />
+    </statement>
+    <statement id="859.txt-7">
+      <text>Involucres broadly campanulate, 4–5(–7) × 2–3 mm.</text>
+      <structure id="o18038" name="involucre">
+        <character name="shape" value="campanulate" modifier="broadly" />
+        <character char_type="range_value" name="atypical_length" from="5" to="7" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="4" from_unit="mm" to="5" to_unit="mm" />
+        <character char_type="range_value" name="width" from="2" from_unit="mm" to="3" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="859.txt-8">
+      <text>Phyllaries (ovate, margins broadly scarious) densely tomentose.</text>
+      <structure id="o18039" name="phyllary">
+        <character name="pubescence" value="tomentose" modifier="densely" />
+      </structure>
+    </statement>
+    <statement id="859.txt-9">
+      <text>Florets:</text>
+      <structure id="o18040" name="floret" />
+    </statement>
+    <statement id="859.txt-10">
+      <text>pistillate 8–10 (2–2.8 mm);</text>
+      <structure id="o18041" name="floret" constraint="pistillate">
+        <character char_type="range_value" name="count" from="8" to="10" />
+      </structure>
+    </statement>
+    <statement id="859.txt-11">
+      <text>functionally staminate 22–32;</text>
+      <structure id="o18042" name="floret" constraint="functionally staminate">
+        <character char_type="range_value" name="count" from="22" to="32" />
+      </structure>
+    </statement>
+    <statement id="859.txt-12">
+      <text>corollas pale yellow, 2.2–4.5 mm, glandular.</text>
+      <structure id="o18043" name="corolla">
+        <character name="coloration" value="yellow" modifier="pale" />
+        <character char_type="range_value" name="size" from="2.2" from_unit="mm" to="4.5" to_unit="mm" />
+        <character name="architecture_or_exudation_or_pubescence" value="glandular" />
+      </structure>
+    </statement>
+    <statement id="859.txt-13">
+      <text>Cypselae (light brown) ellipsoid, flattened (faintly nerved), 1.5–2 mm, sparsely hairy, glabrous or resinous.</text>
+      <structure id="o18044" name="cypsela">
+        <character name="shape" value="ellipsoid" />
+        <character name="shape" value="flattened" />
+        <character char_type="range_value" name="size" from="1.5" from_unit="mm" to="2" to_unit="mm" />
+        <character name="pubescence" value="hairy" modifier="sparsely" />
+        <character name="pubescence" value="glabrous" />
+        <character name="coating_or_texture" value="resinous" />
+      </structure>
+    </statement>
+  </description>
+  <habitat>barren clay and gravelly soils</habitat>
+  <elevation>1800–2000 m;</elevation>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <discussion>Although Cronquist observed that Artemisia porteri may be an autopolyploid derivative of A. pedatifida, morphologic similarities to northerly cespitose taxa suggest a more complex origin.</discussion>
+  <discussion>Artemisia porteri is in the Center for Plant Conservation’s National Collection of Endangered Plants.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

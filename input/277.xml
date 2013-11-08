@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>3.</number>
+  <species_name>Crepis bakeri</species_name>
+  <authority>Greene</authority>
+  <place_of_publication>Erythea 3: 73. 1895</place_of_publication>
+  <description>
+    <statement id="277.txt-0">
+      <text>Perennials, 10–30 cm (taproots thick, caudices swollen, often covered by old leaf bases).</text>
+      <structure id="o4866" name="whole_organism">
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="30" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="277.txt-1">
+      <text>Stems 1–3, erect (often reddish), stout, mostly simple, sparsely to densely tomentose, often stipitate-gland-ular proximally.</text>
+      <structure id="o4867" name="stem">
+        <character char_type="range_value" name="count" from="1" to="3" />
+        <character name="orientation" value="erect" />
+        <character name="fragility" value="stout" />
+        <character name="architecture" value="simple" modifier="mostly" />
+        <character name="pubescence" value="tomentose" modifier="sparsely densely" />
+      </structure>
+    </statement>
+    <statement id="277.txt-2">
+      <text>Leaves basal and cauline;</text>
+    </statement>
+    <statement id="277.txt-3">
+      <text>petiolate (at least basal);</text>
+      <structure id="o4868" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="architecture" value="petiolate" />
+      </structure>
+    </statement>
+    <statement id="277.txt-4">
+      <text>blades elliptic, runcinate, 8–20 × 2–5 cm, margins pinnately lobed (lobes broadly lanceolate, coarsely dentate, midribs often reddish), apices acute, faces sparsely to densely tomentose, stipitate-glandular.</text>
+      <structure id="o4869" name="blade">
+        <character name="arrangement_or_shape" value="elliptic" />
+        <character name="shape" value="runcinate" />
+        <character char_type="range_value" name="length" from="8" from_unit="cm" to="20" to_unit="cm" />
+        <character char_type="range_value" name="width" from="2" from_unit="cm" to="5" to_unit="cm" />
+      </structure>
+      <structure id="o4870" name="margin">
+        <character name="shape" value="lobed" modifier="pinnately" />
+      </structure>
+      <structure id="o4871" name="apex">
+        <character name="shape" value="acute" />
+      </structure>
+      <structure id="o4872" name="face">
+        <character name="pubescence" value="tomentose" modifier="sparsely densely" />
+        <character name="architecture_or_exudation_or_pubescence" value="stipitate-glandular" />
+      </structure>
+    </statement>
+    <statement id="277.txt-5">
+      <text>Heads 2–22 (1–3 per branch), in cymiform arrays.</text>
+      <structure id="o4873" name="head">
+        <character char_type="range_value" name="count" from="2" to="22" />
+      </structure>
+      <structure id="o4874" name="array">
+        <character name="architecture" value="cymiform" />
+      </structure>
+      <relation id="r662" name="in" from="o4873" to="o4874" negation="false" />
+    </statement>
+    <statement id="277.txt-6">
+      <text>Calyculi of 8–10, deltate or lanceolate, tomentose bractlets 3–8 mm.</text>
+      <structure id="o4875" name="calyculus" />
+      <structure id="o4876" name="bractlet">
+        <character char_type="range_value" name="count" from="8" to="10" />
+        <character name="shape" value="deltate" />
+        <character name="shape" value="lanceolate" />
+        <character name="pubescence" value="tomentose" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+      <relation id="r663" name="consist_of" from="o4875" to="o4876" negation="false" />
+    </statement>
+    <statement id="277.txt-7">
+      <text>Involucres cylindric, 11–21 × 5–15 mm.</text>
+      <structure id="o4877" name="involucre">
+        <character name="shape" value="cylindric" />
+        <character char_type="range_value" name="length" from="11" from_unit="mm" to="21" to_unit="mm" />
+        <character char_type="range_value" name="width" from="5" from_unit="mm" to="15" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="277.txt-8">
+      <text>Phyllaries 10–14, lanceolate, 10–14 mm (margins yellowish), apices acute, abaxial faces glabrous or ± tomentose, sometimes setose and stipitate-glandular, adaxial glabrous or with fine hairs.</text>
+      <structure id="o4878" name="phyllary">
+        <character char_type="range_value" name="count" from="10" to="14" />
+        <character name="shape" value="lanceolate" />
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="14" to_unit="mm" />
+      </structure>
+      <structure id="o4879" name="apex">
+        <character name="shape" value="acute" />
+      </structure>
+      <structure id="o4880" name="face" constraint="abaxial">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="tomentose" modifier="±" />
+        <character name="pubescence" value="setose" modifier="sometimes" />
+        <character name="architecture_or_exudation_or_pubescence" value="stipitate-glandular" />
+        <character name="insertion_or_position" value="adaxial" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="with fine hairs" />
+      </structure>
+      <structure id="o4881" name="hair">
+        <character name="texture" value="fine" />
+      </structure>
+      <relation id="r664" name="with" from="o4880" to="o4881" negation="false" />
+    </statement>
+    <statement id="277.txt-9">
+      <text>Florets 11–40;</text>
+      <structure id="o4882" name="floret">
+        <character char_type="range_value" name="count" from="11" to="40" />
+      </structure>
+    </statement>
+    <statement id="277.txt-10">
+      <text>corollas yellow, 16–20 mm.</text>
+      <structure id="o4883" name="corolla">
+        <character name="coloration" value="yellow" />
+        <character char_type="range_value" name="size" from="16" from_unit="mm" to="20" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="277.txt-11">
+      <text>Cypselae dark or pale brown to yellowish, fusiform, 6–11 mm, apices ± tapered, ribs 10–13;</text>
+      <structure id="o4884" name="cypsela">
+        <character char_type="range_value" name="coloration" from="pale-brown" to="yellowish" />
+        <character name="coloration" value="dark" />
+        <character name="coloration" value="brown" modifier="pale" />
+        <character name="coloration" value="yellowish" />
+        <character name="shape" value="fusiform" />
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="11" to_unit="mm" />
+      </structure>
+      <structure id="o4885" name="apex">
+        <character name="shape" value="tapered" modifier="±" />
+      </structure>
+      <structure id="o4886" name="rib">
+        <character char_type="range_value" name="count" from="10" to="13" />
+      </structure>
+    </statement>
+    <statement id="277.txt-12">
+      <text>pappi whitish, 6–13 mm.</text>
+      <structure id="o4887" name="pappus">
+        <character name="coloration" value="whitish" />
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="13" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="277.txt-13">
+      <text>2 n = 22, 33, 44, 55.</text>
+      <structure id="o4888" name="chromosome">
+        <character name="count" value="22" />
+        <character name="count" value="33" />
+        <character name="count" value="44" />
+        <character name="count" value="55" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Subspecies 3 (3 in the flora):</number_of_infrataxa>
+  <general_distribution>w United States.</general_distribution>
+  <discussion>Crepis bakeri is generally recognized by the low stature, dense rosettes of pinnately lobed leaves with coarsely dentate lobes, tomentose stems and leaves, stipitate-glandular hairs distally on stems, relatively large involucres, and densely flowered heads. It is considered closely related to C. occidentalis. Three somewhat weakly defined subspecies were recognized by E. B. Babcock (1947).</discussion>
+  <couplet>1.Involucres narrowly cylindric or turbinate, 18–21 mm in fruit; calyculus bractlets deltate (longest much shorter than phyllaries); pappi longer than cypselae3c. Crepis bakeri subsp. idahoensis</couplet>
+  <couplet>1.Involucres broadly cylindric, 13–20 mm in fruit; calyculus bractlets lanceolate (longest ± 1/2 lengths of phyllaries); pappi ± equal to or shorter than cypselae.</couplet>
+  <couplet>2.Involucres 16–20 mm in fruit; cypselae 8–10.5 mm, apices somewhat narrow, not strongly tapered; pappi 9–10.5 mm3a. Crepis bakeri subsp. bakeri</couplet>
+  <couplet>2.Involucres 13–17 mm in fruit; cypselae 6–9 mm, apices strongly tapered; pappi 6–9 mm 3b. Crepis bakeri subsp. cusickii</couplet>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

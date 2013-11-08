@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1a.</number>
+  <variety_name>Sphaeromeria potentilloides (A. Gray) A. Heller var. potentilloides</variety_name>
+  <description>
+    <statement id="837.txt-0">
+      <text>Plants 10–30 cm.</text>
+      <structure id="o17628" name="whole_organism">
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="30" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="837.txt-1">
+      <text>Leaves basal and cauline;</text>
+      <structure id="o17629" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+      </structure>
+    </statement>
+    <statement id="837.txt-2">
+      <text>basal mostly 2-pinnately lobed;</text>
+      <structure id="o17630" name="leaf" constraint="basal">
+        <character name="shape" value="lobed" modifier="mostly 2-pinnately" />
+      </structure>
+    </statement>
+    <statement id="837.txt-3">
+      <text>cauline usually pinnately lobed, rarely 3-fid.</text>
+      <structure id="o17631" name="leaf" constraint="cauline">
+        <character name="shape" value="lobed" modifier="usually pinnately" />
+        <character name="shape" value="3-fid" modifier="rarely" />
+      </structure>
+    </statement>
+    <statement id="837.txt-4">
+      <text>Heads (3–)4–20.</text>
+      <structure id="o17632" name="head">
+        <character char_type="range_value" name="atypical_count" from="3" to="4" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="4" to="20" />
+      </structure>
+    </statement>
+    <statement id="837.txt-5">
+      <text>Involucres 3–4(–4.5) mm.</text>
+      <structure id="o17633" name="involucre">
+        <character char_type="range_value" name="atypical_size" from="4" to="4.5" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="837.txt-6">
+      <text>2 n = 18.</text>
+      <structure id="o17634" name="chromosome">
+        <character name="count" value="18" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>may</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <habitat>wet</habitat>
+  <habitat>± alkaline meadows</habitat>
+  <habitat>flats</habitat>
+  <habitat>seepage areas</habitat>
+  <elevation>1300–2100 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

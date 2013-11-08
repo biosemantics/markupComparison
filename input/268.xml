@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>187e.</number>
+  <tribe_name>Asteraceae Martinov tribe Cichorieae</tribe_name>
+  <authority>Lamarck &amp; de Candolle</authority>
+  <place_of_publication>Syn. Pl. Fl. Gall., 255. 1806</place_of_publication>
+  <past_name>Cichoraceae</past_name>
+  <synonym_of_tribe_name>Lactuceae Cassini</synonym_of_tribe_name>
+  <description>
+    <statement id="268.txt-0">
+      <text>Annuals, biennials, perennials, subshrubs, or shrubs [trees, vines] (sap usually milky).</text>
+      <structure id="o4648" name="whole_organism">
+        <character name="life_style" value="annual" />
+        <character name="life_style" value="biennial" />
+        <character name="life_style" value="subshrub" />
+        <character name="life_style" value="shrub" />
+      </structure>
+    </statement>
+    <statement id="268.txt-1">
+      <text>Leaves basal and/or cauline;</text>
+    </statement>
+    <statement id="268.txt-2">
+      <text>alternate (proximal opposite in Shinnersoseris ) [opposite];</text>
+    </statement>
+    <statement id="268.txt-3">
+      <text>petiolate or sessile;</text>
+      <structure id="o4652" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="arrangement" value="alternate" />
+        <character name="architecture" value="petiolate" />
+        <character name="architecture" value="sessile" />
+      </structure>
+    </statement>
+    <statement id="268.txt-4">
+      <text>margins usually dentate or pinnately lobed (then frequently runcinate), sometimes prickly, sometimes entire, rarely much divided (bases often clasping).</text>
+      <structure id="o4653" name="margin">
+        <character name="shape" value="dentate" modifier="usually" />
+        <character name="shape" value="lobed" modifier="pinnately" />
+        <character name="architecture" value="prickly" modifier="sometimes" />
+        <character name="shape" value="entire" modifier="sometimes" />
+        <character name="shape" value="divided" modifier="rarely much" />
+      </structure>
+    </statement>
+    <statement id="268.txt-5">
+      <text>Heads homogamous (liguliflorous), usually in corymbiform or paniculiform arrays, sometimes borne singly (on scapiform peduncles), sometimes subsessile in axillary clusters on stems or among leaves of basal rosettes [aggregated in second-order heads].</text>
+      <structure id="o4654" name="head">
+        <character name="maturation_or_reproduction" value="homogamous" />
+        <character name="arrangement" value="singly" modifier="sometimes" />
+        <character name="architecture" value="subsessile" modifier="sometimes" constraint="in clusters" constraintid="o4656" />
+      </structure>
+      <structure id="o4655" name="array">
+        <character name="architecture" value="corymbiform" />
+        <character name="architecture" value="paniculiform" />
+      </structure>
+      <relation id="r627" name="in" from="o4654" to="o4655" negation="false" modifier="usually" />
+      <structure id="o4656" name="cluster" constraint="axillary" />
+      <structure id="o4657" name="stem" />
+      <relation id="r628" name="on" from="o4656" to="o4657" negation="false" />
+      <structure id="o4658" name="leaf" />
+      <relation id="r629" name="among" from="o4654" to="o4658" negation="false" />
+      <structure id="o4659" name="rosette" constraint="basal" />
+      <relation id="r630" name="part_of" from="o4658" to="o4659" negation="false" />
+    </statement>
+    <statement id="268.txt-6">
+      <text>Calyculi 0 or of 1–15+ bractlets in 1–3+ series.</text>
+      <structure id="o4660" name="calyculus">
+        <character name="count" value="0" />
+        <character name="count" value="of 1-15+ bractlets" />
+      </structure>
+      <structure id="o4661" name="bractlet">
+        <character char_type="range_value" name="count" from="1" to="15" upper_restricted="false" />
+      </structure>
+      <relation id="r631" name="consist_of" from="o4660" to="o4661" negation="false" />
+      <structure id="o4662" name="series">
+        <character char_type="range_value" name="count" from="1" to="3" upper_restricted="false" />
+      </structure>
+      <relation id="r632" name="in" from="o4661" to="o4662" negation="false" />
+    </statement>
+    <statement id="268.txt-7">
+      <text>Phyllaries usually persistent, usually in 3–5+ series, distinct, and unequal, sometimes in 1–2 series, distinct or connate, and subequal to equal, margins (seldom prickly) and/or apices sometimes notably scarious (phyllaries sometimes enfold and fall with subtended florets or cypselae, e.g., in Rhagadiolus ).</text>
+      <structure id="o4663" name="phyllary">
+        <character name="duration" value="persistent" modifier="usually" />
+        <character name="fusion" value="distinct" />
+        <character name="size" value="unequal" />
+        <character name="fusion" value="distinct" />
+        <character name="fusion" value="connate" />
+        <character char_type="range_value" name="size" from="subequal" to="equal" />
+        <character name="size" value="subequal" />
+        <character name="size" value="equal" />
+      </structure>
+      <structure id="o4664" name="series">
+        <character char_type="range_value" name="count" from="3" to="5" upper_restricted="false" />
+      </structure>
+      <relation id="r633" name="in" from="o4663" to="o4664" negation="false" modifier="usually" />
+      <structure id="o4665" name="series">
+        <character char_type="range_value" name="count" from="1" to="2" />
+      </structure>
+      <relation id="r634" name="in" from="o4663" to="o4665" negation="false" modifier="sometimes" />
+      <structure id="o4666" name="margin" />
+      <structure id="o4667" name="apex">
+        <character name="texture" value="scarious" modifier="sometimes notably" />
+      </structure>
+    </statement>
+    <statement id="268.txt-8">
+      <text>Receptacles flat to convex, epaleate (sometimes bristly-setose) or paleate (paleae enfold and fall with subtended cypselae in Scolymus ).</text>
+      <structure id="o4668" name="receptacle">
+        <character char_type="range_value" name="shape" from="flat" to="convex" />
+        <character name="shape" value="flat" />
+        <character name="shape" value="convex" />
+        <character name="architecture" value="epaleate" />
+        <character name="architecture" value="paleate" />
+      </structure>
+    </statement>
+    <statement id="268.txt-9">
+      <text>Florets ligulate (bisexual, fertile);</text>
+      <structure id="o4669" name="floret">
+        <character name="architecture" value="ligulate" />
+      </structure>
+    </statement>
+    <statement id="268.txt-10">
+      <text>corollas usually yellow to orange, sometimes cyanic or white (zygomorphic, 5-toothed);</text>
+      <structure id="o4670" name="corolla">
+        <character char_type="range_value" name="coloration" from="usually yellow" to="orange , sometimes cyanic or white" />
+        <character name="coloration" value="yellow" modifier="usually" />
+        <character name="coloration" value="orange" modifier="usually" />
+        <character name="coloration" value="cyanic" modifier="sometimes" />
+        <character name="coloration" value="white" modifier="sometimes" />
+      </structure>
+    </statement>
+    <statement id="268.txt-11">
+      <text>anther bases usually tailed, apical appendages ovate to lanceolate or hardly developed (pollen sometimes brightly colored);</text>
+      <structure id="o4671" name="base" constraint="anther">
+        <character name="shape" value="tailed" modifier="usually" />
+      </structure>
+      <structure id="o4672" name="appendage" constraint="apical">
+        <character char_type="range_value" name="shape" from="ovate" to="lanceolate" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="lanceolate" />
+        <character name="development" value="developed" modifier="hardly" />
+      </structure>
+    </statement>
+    <statement id="268.txt-12">
+      <text>styles abaxially usually papillate to hirsute (mostly distally), branches filiform to stout, adaxially continuously stigmatic from bases almost to apices, apices rounded to acute, appendages essentially 0.</text>
+      <structure id="o4673" name="style">
+        <character char_type="range_value" name="pubescence" from="abaxially usually papillate" to="hirsute" />
+        <character name="pubescence" value="papillate" modifier="abaxially usually" />
+        <character name="pubescence" value="hirsute" modifier="abaxially usually" />
+      </structure>
+      <structure id="o4674" name="branch">
+        <character name="shape" value="filiform" />
+        <character name="fragility" value="stout" />
+        <character name="habit" value="stigmatic" modifier="adaxially continuously" constraint="from bases" constraintid="o4675" />
+      </structure>
+      <structure id="o4675" name="base" />
+      <structure id="o4676" name="apex">
+        <character name="fragility" value="stout" />
+      </structure>
+      <relation id="r635" name="almost to" from="o4675" to="o4676" negation="false" />
+      <structure id="o4677" name="apex">
+        <character char_type="range_value" name="shape" from="rounded" to="acute" />
+        <character name="shape" value="rounded" />
+        <character name="shape" value="acute" />
+      </structure>
+      <structure id="o4678" name="appendage">
+        <character name="count" value="0" modifier="essentially" />
+      </structure>
+    </statement>
+    <statement id="268.txt-13">
+      <text>Cypselae usually monomorphic within heads, ± clavate, columnar, ellipsoid, fusiform, or prismatic, often compressed, obcompressed, or flattened, often beaked or apically tapered, bodies smooth, muricate, rugose, or tuberculate, often ribbed, sometimes winged (glabrous or hairy);</text>
+      <structure id="o4679" name="cypsela">
+        <character name="habit" value="monomorphic" modifier="usually" constraint="within heads" constraintid="o4680" />
+        <character name="shape" value="clavate" modifier="±" />
+        <character name="shape" value="columnar" modifier="±" />
+        <character name="shape" value="ellipsoid" modifier="±" />
+        <character name="shape" value="fusiform" modifier="±" />
+        <character name="shape" value="prismatic" modifier="±" />
+        <character name="shape" value="compressed" modifier="often" />
+        <character name="shape" value="obcompressed" modifier="often" />
+        <character name="shape" value="flattened" modifier="often" />
+        <character name="shape" value="beaked" modifier="often" />
+        <character name="shape" value="tapered" modifier="apically" />
+      </structure>
+      <structure id="o4680" name="head" />
+      <structure id="o4681" name="body">
+        <character name="relief" value="smooth" />
+        <character name="relief" value="muricate" />
+        <character name="relief" value="rugose" />
+        <character name="relief" value="tuberculate" />
+        <character name="architecture_or_shape" value="ribbed" modifier="often" />
+        <character name="architecture" value="winged" modifier="sometimes" />
+      </structure>
+    </statement>
+    <statement id="268.txt-14">
+      <text>pappi (rarely 0) persistent or readily falling, usually of fine to coarse, often barbellate, sometimes plumose bristles, sometimes of awns or scales, sometimes combinations of bristles, awns, and/or scales (scales often aristate).</text>
+      <structure id="o4682" name="pappus">
+        <character name="duration" value="persistent" />
+        <character name="orientation" value="falling" modifier="readily" />
+      </structure>
+      <structure id="o4683" name="bristle">
+        <character char_type="range_value" name="texture" from="fine" to="coarse" />
+        <character name="texture" value="fine" />
+        <character name="texture" value="coarse" />
+        <character name="architecture" value="barbellate" modifier="often" />
+        <character name="architecture" value="plumose" modifier="sometimes" />
+      </structure>
+      <relation id="r636" name="consist_of" from="o4682" to="o4683" negation="false" modifier="usually" />
+      <structure id="o4684" name="awn" />
+      <structure id="o4685" name="scale" />
+      <relation id="r637" name="consist_of" from="o4682" to="o4684" negation="false" modifier="sometimes" />
+      <relation id="r638" name="consist_of" from="o4682" to="o4685" negation="false" modifier="sometimes" />
+      <structure id="o4686" name="combination" />
+      <structure id="o4687" name="bristle" />
+      <relation id="r639" name="part_of" from="o4686" to="o4687" negation="false" />
+      <structure id="o4688" name="awn" />
+      <structure id="o4689" name="scale" />
+    </statement>
+  </description>
+  <number_of_infrataxa>Genera ca. 100, species ca. 1600 (49 genera, 229 species in the flora):</number_of_infrataxa>
+  <general_distribution>nearly worldwide</general_distribution>
+  <general_distribution>mostly in Old World</general_distribution>
+  <general_distribution>mostly at temperate latitudes</general_distribution>
+  <general_distribution>some species widely introduced.</general_distribution>
+  <references>SELECTED REFERENCES Jansen, R. K. et al. 1991b. Systematic implications of chloroplast DNA variation in the subtribe Microseridinae (Asteraceae: Lactuceae). Amer. J. Bot. 78: 1015–1027. Kim, S. C., D. J. Crawford, and R. K. Jansen. 1996. Phylogenetic relationships among the genera of the subtribe Sonchinae (Asteraceae): Evidence from ITS sequences. Syst. Bot. 21: 417–432. Lee, J. and B. G. Baldwin. 2004. Subtribes of principally North American genera of Cichorieae (Compositae). Novon 14: 309–313. Lee, J., B. G. Baldwin, and L. D. Gottlieb. 2002. Phylogeny of Stephanomeria and related genera (Compositae–Lactuceae) based on 18S-26S nuclear rDNA ITS and ETS sequences. Amer. J. Bot. 89: 160–168. Lee, J., B. G. Baldwin, and L. D. Gottlieb. 2003. Phylogenetic relationships among the primarily North American genera of Cichorieae (Compositae) based on analysis of 18S–26S rDNA ITS and ETS sequences. Syst. Bot. 28: 616–626. Price, H. J. and K. Bachmann. 1975. DNA content and evolution in the Microseridinae. Amer. J. Bot. 62: 262–267. Stebbins, G. L. 1953. A new classification of the tribe Cichorieae, family Compositae. Madroño 12: 33–64. Tomb, A. S. 1974. Chromosome numbers and generic relationships in subtribe Stephanomeriinae (Compositae: Cichorieae). Brittonia 26: 203–216. Whitton, J., R. S. Wallace, and R. K. Jansen. 1995. Phylogenetic relationships and patterns of character change in the tribe Lactuceae (Asteraceae) based on chloroplast DNA restriction site variation. Canad. J. Bot. 73: 1058–1073.</references>
+  <key>1.Cypselae beaked (outer sometimes beakless in Hypochaeris).</key>
+  <key>2.Stems scapiform.</key>
+  <key>3.Heads usually in spiciform, paniculiform, cymiform, or corymbiform arrays (sometimes borne singly).</key>
+  <key>4. Leaf margins spiny; calyculi 0; phyllaries in 3–5+ series, unequal; pappi of crisped (frizzy), outer and straight, coarse, inner bristles47. Launaea (in part), p. 272</key>
+  <key>4.Leaf margins not spiny; calyculi of 5–12 bractlets; phyllaries in 1(–2) series, equal; pappi of uniform bristles36. Crepis (in part), p. 222</key>
+  <key>3.Heads borne singly.</key>
+  <key>5.Pappi of outer scales and inner bristles, or of aristate scales.</key>
+  <key>6.Cypsela beaks relatively long or 0; pappi of outer scales and inner, plumosebristles; annuals or perennials; leaves oblanceolate to oblong52. Leontodon (in part), p. 294</key>
+  <key>6.Cypsela beaks relatively short; pappi of lanceolate, apically notched, aristate scales, aristae smooth; annuals; leaves linear to narrowly lanceolate, grasslike65. Uropappus (in part), p. 322</key>
+  <key>5.Pappi of bristles.</key>
+  <key>7.Receptacles paleate; corollas pink, purple, lavender, or nearly white; perennials81. Pinaropappus, p. 374</key>
+  <key>7.Receptacles usually epaleate (if paleate, corollas yellow; some Agoseris); corollas usually yellow to orange, rarely ochroleucous, pink, pinkish, purplish, or white; annuals, biennials, or perennials.</key>
+  <key>8.Calyculi of (6–)8–18(–20) bractlets in 1–3 series; phyllaries equal; perennials37. Taraxacum, p. 239</key>
+  <key>8.Calyculi 0; phyllaries equal or unequal; annuals, biennials, or perennials.</key>
+  <key>9.Leaves entire, toothed, or pinnately lobed (not spiny); heads borne singly; corollas yellow, orange, pinkish, purplish, or white; pappi of ± barbellate bristles; annuals or perennials66. Agoseris (in part), p. 323</key>
+  <key>9.Leaves often pinnately lobed, ultimate margins dentate (spiny); heads borne singly or in spiciform or paniculiform arrays; corollas yellow to ochroleucous; pappi of crisped (frizzy), outer and straight, coarse, inner bristles; annuals or biennials47. Launaea (in part), p. 272</key>
+  <key>[2. Shifted to left margin.—Ed.]</key>
+  <key>2.Stems leafy.</key>
+  <key>10.Pappi of plumose bristles or subulate scales; annuals or biennials.</key>
+  <key>11.Corollas white, sometimes abaxially rose- or purple-veined; calyculi of spreading to reflexed, unequal bractlets; annuals70. Rafinesquia, p. 348</key>
+  <key>11.Corollas yellow, orange, purple, or pinkish to purplish; calyculi 0; annuals or biennials.</key>
+  <key>12.Leaves linear to lance-linear or lance-attenuate, entire; peduncles inflated distally; involucres campanulate; pappi of subulate scales; biennials (winter annuals); heads borne singly; corollas yellow or purple59. Tragopogon, p. 303</key>
+  <key>12.Leaves mostly obovate to oblong-obovate, the distal ovate to linear, usually pinnately lobed, sometimes dentate or entire; peduncles little, if at all, inflated distally; involucres urceolate; pappi of bristles; annuals; heads borne singly or in corymbiform arrays; corollas yellow, sometimes abaxially striped with red 53. Urospermum, p. 296</key>
+  <key>10.Pappi of smooth or barbellate bristles, or of subulate scales or awns, or of aristate scales; annuals, biennials, or perennials.</key>
+  <key>13.Perennials.</key>
+  <key>14.Involucres narrowly cylindric, 1–2+ mm diam.; phyllaries (4–)5; florets 5; cypselae obovoid to lanceoloid43. Mycelis (in part), p. 257</key>
+  <key>14.Involucres cylindric to campanulate, 2–5 mm diam.; phyllaries 5–21; florets 6–150+; cypselae cylindric to fusiform or lanceoloid.</key>
+  <key>15.Corollas usually bluish; cypselae lanceoloid44. Mulgedium (in part), p. 258</key>
+  <key>15.Corollas yellow to white; cypselae cylindric to fusiform.</key>
+  <key>16.Phyllaries 8–21+; pappi: outer crowns of spreading, white hairs plus 2–3+ inner series of rufous to stramineous bristles82. Pyrrhopappus, p. 376</key>
+  <key>16.Phyllaries 5–10; pappi of white bristles.</key>
+  <key>17.Calyculi of 3–4, minute bractlets; involucres cylindric; cypselae cylindric, 5+-ribbed (without rings of scales); pappi of 40–50+ bristles38. Chondrilla, p. 252</key>
+  <key>17.Calyculi of 3–10+, deltate to lanceolate bractlets; involucres campanulate to cylindric; cypselae fusiform, 10-ribbed or -winged (with rings of scales at bases of beaks); pappi of 20–30 bristles39. Ixeris, p. 254</key>
+  <key>[13. Shifted to left margin.—Ed.]</key>
+  <key>13.Annuals or biennials.</key>
+  <key>18.Peduncles inflated distally (fistulose); pappi of aristate scales65. Uropappus (in part), p. 322</key>
+  <key>18.Peduncles not inflated distally; pappi of bristles or subulate scales (not aristate).</key>
+  <key>19.Receptacles paleate; outer cypselae beakless; all or inner pappus bristles plumose 54. Hypochaeris, p. 297</key>
+  <key>19.Receptacles epaleate; all cypselae beaked; pappus bristles usually barbellulate or smooth (sometimes plumose in Helminthotheca).</key>
+  <key>20.Calyculi 0; leaves spiny47. Launaea (in part), p. 272</key>
+  <key>20.Calyculi of 2–16 bractlets; leaves not spiny.</key>
+  <key>21.Cypselae dimorphic, outer gibbous, inner ellipsoid to fusiform, not ribbed (rugulose); pappi of subulate to setiform scales55. Helminthotheca, p. 300</key>
+  <key>21.Cypselae monomorphic, ellipsoid, oblong, obovoid, or lanceoloid, or cylindric to fusiform, ribbed; pappi of bristles (sometimes with minute outer crowns as well).</key>
+  <key>22.Cypselae ellipsoid to oblong or obovoid to lanceoloid; pappi of minute outer crowns plus inner bristles (sometimes 2–3+ series of bristles in Lactuca).</key>
+  <key>23.Involucres narrowly cylindric, 1–2+ mm diam.; calyculi of 2–4 bractlets in 1 series43. Mycelis (in part), p. 257</key>
+  <key>23.Involucres campanulate to cylindric, 2–5 mm diam.; calyculi of 3– 10+ bractlets in 2–3 series45. Lactuca, p. 259</key>
+  <key>22.Cypselae fusiform, not or little compressed; pappi of bristles.</key>
+  <key>24.Stems dotted with tack-glands; pappus bristles basally connate (fall- ing in rings), white61. Calycoseris, p. 307</key>
+  <key>24.Stems eglandular or glandular (without tack-glands); pappus bristles distinct or inner basally connate, white to tawny.</key>
+  <key>25.Heads usually in cymiform, corymbiform, or paniculiform arrays, sometimes borne singly; corollas usually yellow or orange, sometimes white, pink, or reddish; cypselae 10–20- ribbed36. Crepis (in part), p. 222</key>
+  <key>25.Heads borne singly; corollas white to pale yellow; cypselae 4– 5-angled or -ribbed (angles roughened)75. Glyptopleura, p. 361</key>
+  <key>1.Cypselae beakless.</key>
+  <key>26.Stems scapiform.</key>
+  <key>27.Pappi 0 or coroniform.</key>
+  <key>28.Perennials; leaves (± fleshy) linear to oblanceolate, margins entire; calyculi 0 80. Phalacroseris, p. 374</key>
+  <key>28.Annuals or biennials; leaves obovate or oblanceolate to spatulate, margins ± dentate or lobed; calyculi of 1–10+ bractlets or 0.</key>
+  <key>29.Leaf margins pinnately lobed; cypselae oblong, 10–13-ribbed40. Lapsanastrum, p. 254</key>
+  <key>29.Leaf margins ± dentate to toothed; cypselae obovoid or subcylindric to weakly clavate, 4–5- or 8–10-ribbed.</key>
+  <key>30.Leaves oblanceolate to spatulate; heads borne singly or 2–3; peduncles naked, inflated distally; involucres broadly campanulate to urceolate; phyllaries basally connate; cypselae obovoid, 8–10-ribbed49. Arnoseris, p. 276</key>
+  <key>30.Leaves obovate; heads in corymbiform arrays; peduncles sometimes bracteate, not inflated distally; involucres cylindro-campanulate; phyllaries distinct; cypselae subcylindric or weakly clavate, 4–5-ribbed (ribs corky)62. Atrichoseris, p. 309</key>
+  <key>27.Pappi of bristles and/or scales, or of aristate scales.</key>
+  <key>31.Heads usually in corymbiform, paniculiform, or cymiform arrays; calyculi of 3–12 bractlets.</key>
+  <key>32.Leaves entire or dentate to pinnatifid (often lyrate or runcinate); cypselae 10– 20-ribbed; pappi of usually distinct, white to tawny bristles36. Crepis (in part), p. 222</key>
+  <key>32.Leaves pinnately lobed (lyrate); cypselae 11–13-ribbed (ribs spiculate); pappi of basally connate, white bristles41. Youngia, p. 255</key>
+  <key>31.Heads usually borne singly (sometimes in spiciform or paniculiform arrays in Launaea); calyculi 0.</key>
+  <key>33.Pappi of subulate or aristate scales.</key>
+  <key>34.Heads erect; cypselae narrowed distally; pappi of lustrous, white subulate or aristate scales (bodies narrowly lanceolate to subulate)67. Nothocalaïs (in part), p. 335</key>
+  <key>34.Heads nodding (at least in bud); cypsela apices truncate; pappus scales silvery to yellowish, brownish, or blackish (rarely white), plumose, barbellate, or barbellulate.</key>
+  <key>35.Involucres fusiform to ovoid or globose; pappi of deltate, lanceolate, linear, oblong, orbiculate, or ovate aristate scales, aristae plumose, barbellate, or barbellulate68. Microseris (in part), p. 338</key>
+  <key>35.Involucres campanulate; pappi of narrowly lanceolate aristate scales, aristae barbellulate69. Stebbinsoseris (in part), p. 346</key>
+  <key>33.Pappi wholly or partly of bristles (in Leontodon, pappi of outer cypselae of scales, of inner cypselae of bristles; sometimes scales + bristles in Krigia).</key>
+  <key>36.Pappi of outer cypselae of scales, of inner cypselae of plumose bristles 52. Leontodon (in part), p. 294</key>
+  <key>36.Pappi of bristles or of outer scales plus inner bristles.</key>
+  <key>37.Phyllary margins papery (wider than midribs); receptacles paleate; pappus bristles plumose63. Anisocoma, p. 309</key>
+  <key>37.Phyllary margins not papery; receptacles usually epaleate (sometimes paleate in Agoseris); pappus bristles mostly smooth, barbellulate, or ± barbellate.</key>
+  <key>38.Leaves spiny; corollas yellow to ochroleucous; pappi of crisped (frizzy), outer and coarse, straight, inner bristles47. Launaea (in part), p. 272</key>
+  <key>38.Leaves not spiny; corollas usually yellow to orange, sometimes pink, purple, or red; pappi of ± barbellate bristles.</key>
+  <key>39.Phyllaries in 1–2 series; cypselae 10–20-nerved or -ribbed; pappi of 5 outer scales plus 5–45 inner bristles76. Krigia (in part), p. 362</key>
+  <key>39.Phyllaries in 2–5(–7) series; cypselae 8–10(–15)-ribbed; pappi of bristles in 1–6 series.</key>
+  <key>40.Phyllaries hairy or glabrous; cypselae usually beaked (6– 31 mm)66. Agoseris (in part), p. 323</key>
+  <key>40.Phyllaries usually glabrous; cypselae not beaked (5–10 mm)</key>
+  <key>41.Plants taprooted; pappi of 30–80, whitish bristles 67. Nothocalaïs (in part), p. 335</key>
+  <key>41.Plants rhizomatous (usually in bogs); pappi of 24–48, brownish bristles68. Microseris (in part), p. 338</key>
+  <key>[26. Shifted to left margin.—Ed.]</key>
+  <key>26.Stems leafy.</key>
+  <key>42.Pappi 0, or of scales or aristate scales, or of awns plus bristles, or coroniform.</key>
+  <key>43.Pappi 0.</key>
+  <key>44.Stems winged, wings spiny; receptacles paleate34. Scolymus (in part), p. 220</key>
+  <key>44.Stems not winged; receptacles epaleate.</key>
+  <key>45.Heads borne singly; florets 5–35; cypselae ± monomorphic (1.3–1.7 mm) 76. Krigia (in part), p. 362</key>
+  <key>45.Heads in corymbiform or thyrsiform arrays; florets 5–15; cypselae heteromorphic (3–25 mm, outer longer than inner).</key>
+  <key>46.Leaves ovate to suborbiculate, coarsely dentate; heads in corymbiform to thyrsiform arrays; cypselae subcylindric (curved), terete to slightly compressed, ± 20-ribbed42. Lapsana, p. 257</key>
+  <key>46.Leaves ovate-lanceolate to linear, entire or dentate to pinnately lobed; heads in ± corymbiform arrays; cypselae ± terete (outer straight or arcuate, inner straight to coiled), not ribbed56. Rhagadiolus, p. 300</key>
+  <key>43.Pappi of scales or aristate scales, or of awns or subulate scales plus bristles, or coroniform.</key>
+  <key>47.Corollas usually blue, sometimes pink or white; cypselae prismatic, 3–5-angled; pappi coroniform (erose scales)35. Cichorium, p. 221</key>
+  <key>47.Corollas orange or yellow to white or pink to lavender; cypselae columnar or cylindric to fusiform or obconic, 6–15-ribbed; pappi usually of scales (scales sometimes aristate), sometimes of awns or subulate scales plus bristles, or coroniform (Krigia wrightii, annuals, cypselae 1.3–1.6 mm).</key>
+  <key>48.Phyllaries enfolding outer cypselae.</key>
+  <key>49.Peduncles inflated distally; calyculi of 3–10+, deltate to lanceolate bractlets; phyllaries 5–13+ in 1 series; florets 8–30+; cypselae cylindric to fusiform, 12–15-ribbed; pappi of outer cypselae coroniform (short scales), of inner cypselae of lance-aristate to subulate-aristate scales (0–5+ outer and 5+ inner)57. Hedypnois, p. 302</key>
+  <key>49.Peduncles not inflated distally; calyculi of 8–13, linear to filiform bractlets; phyllaries 20–25+ in 2+ series; florets 30–100+; cypselae columnar, 6–8(–10)-ribbed; pappi of setiform scales plus smooth or barbellate bristles50. Tolpis, p. 277</key>
+  <key>48.Phyllaries not enfolding outer cypselae.</key>
+  <key>50.Heads ± nodding (at least in bud); pappi of aristate scales.</key>
+  <key>51.Perennials; involucres campanulate, fusiform, ovoid, or globose; pappus scales deltate, lanceolate, linear, oblong, orbiculate, or ovate, aristae plumose, barbellate, or barbellulate68. Microseris (in part), p. 338</key>
+  <key>51.Annuals; involucres campanulate; pappus scales narrowly lanceolate, aristae barbellulate69. Stebbinsoseris (in part), p. 346</key>
+  <key>50.Heads erect; pappi of setiform, subulate, or aristate scales or of awns or subulate scales plus bristles.</key>
+  <key>52.Perennials; leaves linear to linear-lanceolate, entire; corollas pale lavender to white; cypselae 5-angled or -ridged; pappi of awns or subulate scales plus bristles77. Chaetadelpha, p. 368</key>
+  <key>52.Annuals, biennials, or perennials; leaves ovate-lanceolate or oblong to lanceolate or linear, entire or pinnately lobed; corollas white, yellow, or purplish; cypselae sometimes 10-nerved; pappi of setiform, subulate, or aristate scales.</key>
+  <key>53.Leaves oblong or lanceolate to oblanceolate or linear, spiny; involucres campanulate to urceolate; receptacles paleate; corollas yellow; cypselae obovoid, ribs 0; pappi (0 or) of 2–4 setiform to aristate scales plus 0–4 muticous to lanceolate scales 34. Scolymus (in part), p. 220</key>
+  <key>53.Leaves ovate-lanceolate to lanceolate or linear, not spiny; involucres ovoid to cylindric; receptacles epaleate; corollas whitish to yellow or purplish; cypselae columnar to obclavate or fusiform, not compressed, usually 10-nerved; pappi of 28–50+ plumose to barbellate, subulate to setiform scales60. Scorzonera, p. 306</key>
+  <key>[42. Shifted to left margin.—Ed.]</key>
+  <key>42.Pappi wholly or mostly of bristles (sometimes with minute outer scales).</key>
+  <key>54.Shrubs; California71. Munzothamnus, p. 349</key>
+  <key>54.Annuals, biennials, or perennials.</key>
+  <key>55.Corollas yellow, orange, ochroleucous, pinkish to reddish, or white (sometimes abaxially pinkish, reddish, or purplish).</key>
+  <key>56.Leaves spiny (on margins, bases often auriculate); phyllaries in 3–5+ series.</key>
+  <key>57.Involucres 3–5 mm diam.; phyllaries 18–25; cypselae weakly compressed, cylindric to prismatic or fusiform, 4–5-ribbed (or grooved), ribs muricate; pappi of crisped (frizzy, often basally coherent or connate), outer plus straight, coarse, inner bristles47. Launaea (in part), p. 272</key>
+  <key>57.Involucres 5–15+ mm diam.; phyllaries 27–50; cypselae compressed, oblong or oblanceoloid to elliptic, 2–4(–5)-ribbed, smooth, rugose, or tuberculate; pappi of distinct outer bristles plus basally coherent or connate inner bristles48. Sonchus, p. 273</key>
+  <key>56.Leaves not spiny (bases not auriculate); phyllaries in 1–2+, or 2–3, or 4–6 series.</key>
+  <key>58.Calyculi 0.</key>
+  <key>59.Heads borne singly; corollas yellow to orange; pappi (usually 2-seriate): outer of 5+ scales, inner of 5–45 bristles76. Krigia (in part), p. 362</key>
+  <key>59.Heads in corymbiform to paniculiform arrays; corollas yellow to white; pappi (1 or 2-seriate): outer pappi 0, or of minute teeth plus 0–6 bristles, inner (or only) pappi of 15–35, basally coherent bristles64. Malacothrix, p. 310</key>
+  <key>58.Calyculi usually of 3–16+ bractlets (sometimes intergrading with phyllaries).</key>
+  <key>60.Perennials; phyllaries in 2+ series; cypselae columnar or prismatic to ± urceolate51. Hieracium, p. 278</key>
+  <key>60.Annuals, biennials, or perennials; phyllaries in 1–2 series; cypselae subcylindric to fusiform.</key>
+  <key>61.Corollas yellow or orange (white, pink, reddish), not abaxially reddish; cypselae 10–20-ribbed, sometimes spiculate; pappi persistent, of distinct bristles36. Crepis (in part), p. 222</key>
+  <key>61.Corollas yellow, often abaxially reddish; cypselae 5–10-ribbed, transversely rugulose; pappi falling, of basally connate bristles58. Picris, p. 302</key>
+  <key>[55. Shifted to left margin.—Ed.]</key>
+  <key>55.Corollas usually purple, lavender, pink, or blue, sometimes white, rarely yellow.</key>
+  <key>62.Annuals.</key>
+  <key>63.Pappus bristles distinct, plumose (at least distally)72. Stephanomeria (in part), p. 350</key>
+  <key>63.Pappus bristles basally connate, smooth or barbellulate.</key>
+  <key>64.Stems glandular-puberulent to glabrescent; leaves basal and cauline, blades spatulate to oblanceolate or minute, margins irregularly dentate to runcinate, often spinulose; peduncles minutely bracteate; cypselae columnar (tapering slightly proximally), 5-ribbed73. Prenanthella, p. 359</key>
+  <key>64.Stems glabrous; leaves cauline (opposite proximally), blades linear, margins entire; peduncles ebracteate; cypselae subcylindric (apices abruptly constricted), 10-ribbed78. Shinnersoseris, p. 368</key>
+  <key>62.Perennials.</key>
+  <key>65.Heads (usually nodding) in racemiform, thyrsiform, corymbiform, or paniculiform arrays; corollas usually white to pink or lavender, rarely yellow46. Prenanthes, p. 264</key>
+  <key>65.Heads (erect) usually borne singly (sometimes in ± corymbiform to paniculiform arrays); corollas usually bluish, pink to lavender, or rose, rarely white.</key>
+  <key>66.Leaves oblong, elliptic, or ovate to lanceolate or linear; phyllaries 8–13+ in 1–2 series; florets (1–)15–50+; cypselae compressed, lanceoloid44. Mulgedium (in part), p. 258</key>
+  <key>66.Leaves linear to oblong (distal sometimes bractlike or subulate distally); phyllaries 3–10 in ± 1 series; florets 3–16; cypselae not compressed, columnar.</key>
+  <key>67.Stems rigid, spine-tipped (thorny); leaves cauline, entire; phyllaries 3–5; florets 3–574. Pleiacanthus, p. 361</key>
+  <key>67.Stems not spine-tipped; leaves basal and cauline, entire, dentate, or pinnately lobed; phyllaries 4–10; florets (4–)5–16.</key>
+  <key>68.Cypselae subcylindric, subterete, angled, or sulcate; pappus bristles barbellate79. Lygodesmia, p. 369</key>
+  <key>68.Cypselae columnar, 5-angled; pappus bristles (wholly or partly) plumose 72. Stephanomeria (in part), p. 350</key>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Vernonia acaulis</species_name>
+  <authority>(Walter) Gleason</authority>
+  <place_of_publication>Bull. New York Bot. Gard. 4: 222. 1906</place_of_publication>
+  <synonym_of_species_name>Chrysocoma acaulis Walter, Fl. Carol., 196. 1788</synonym_of_species_name>
+  <description>
+    <statement id="251.txt-0">
+      <text>Plants 4–6(–10) dm.</text>
+      <structure id="o4296" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="6" to="10" from_unit="dm" to_unit="dm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="4" from_unit="dm" to="6" to_unit="dm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="251.txt-1">
+      <text>Stems ± puberulent, glabrescent.</text>
+      <structure id="o4297" name="stem">
+        <character name="pubescence" value="puberulent" modifier="±" />
+        <character name="pubescence" value="glabrescent" />
+      </structure>
+    </statement>
+    <statement id="251.txt-2">
+      <text>Leaves mostly basal;</text>
+      <structure id="o4298" name="leaf">
+        <character name="insertion_or_position" value="basal" modifier="mostly" />
+      </structure>
+    </statement>
+    <statement id="251.txt-3">
+      <text>blades oblong-elliptic to spatulate (basal, the distal narrower), 11–25(–30) cm × (21–)60–75+ mm, l/w = 2–4(–5+), abaxially usually glabrous or glabrate, sometimes hirsutulous on veins, usually resin-gland-dotted, adaxially ± scabrellous or glabrate.</text>
+      <structure id="o4299" name="blade">
+        <character char_type="range_value" name="shape" from="oblong-elliptic" to="spatulate" />
+        <character name="shape" value="oblong-elliptic" />
+        <character name="shape" value="spatulate" />
+        <character char_type="range_value" name="atypical_length" from="25" to="30" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="11" from_unit="cm" to="25" to_unit="cm" />
+        <character char_type="range_value" name="width" from="21" from_unit="mm" to="]60-75" to_unit="mm" upper_restricted="false" />
+        <character char_type="range_value" name="atypical_lwratio" from="4" to="5" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="lwratio" from="2" to="4" />
+        <character name="pubescence" value="glabrous" modifier="abaxially usually" />
+        <character name="pubescence" value="glabrate" />
+        <character name="pubescence" value="hirsutulous" modifier="sometimes" constraint="on veins" constraintid="o4300" />
+        <character name="coloration_or_relief" value="resin-gland-dotted" modifier="usually" />
+        <character name="relief" value="scabrellous" modifier="adaxially ±" />
+        <character name="pubescence" value="glabrate" />
+      </structure>
+      <structure id="o4300" name="vein" />
+    </statement>
+    <statement id="251.txt-4">
+      <text>Heads in loose, corymbiform arrays.</text>
+      <structure id="o4301" name="head" />
+      <structure id="o4302" name="array">
+        <character name="architecture_or_texture" value="loose" />
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <relation id="r596" name="in" from="o4301" to="o4302" negation="false" />
+    </statement>
+    <statement id="251.txt-5">
+      <text>Peduncles 5–50 mm.</text>
+      <structure id="o4303" name="peduncle">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="50" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="251.txt-6">
+      <text>Involucres campanulate to hemispheric, 5–10 × 6–7 mm.</text>
+      <structure id="o4304" name="involucre">
+        <character char_type="range_value" name="shape" from="campanulate" to="hemispheric" />
+        <character name="shape" value="campanulate" />
+        <character name="shape" value="hemispheric" />
+        <character char_type="range_value" name="length" from="5" from_unit="mm" to="10" to_unit="mm" />
+        <character char_type="range_value" name="width" from="6" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="251.txt-7">
+      <text>Phyllaries 40–60 in 5–6 series, glabrate, margins ciliolate, the outer lance-linear, 2–4 mm, inner lance-ovate to lance-subulate, 5–9 mm, tips subulate to filiform.</text>
+      <structure id="o4305" name="phyllary">
+        <character char_type="range_value" name="count" from="40" to="60" constraint="in series" constraintid="o4306" />
+        <character name="pubescence" value="glabrate" />
+      </structure>
+      <structure id="o4306" name="series">
+        <character char_type="range_value" name="count" from="5" to="6" />
+      </structure>
+      <structure id="o4307" name="margin">
+        <character name="pubescence" value="ciliolate" />
+        <character name="position" value="outer" />
+        <character name="arrangement_or_shape" value="lance-linear" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="4" to_unit="mm" />
+        <character char_type="range_value" name="shape" from="inner lance-ovate" to="lance-subulate" />
+        <character name="shape" value="inner lance-ovate" />
+        <character name="shape" value="lance-subulate" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="9" to_unit="mm" />
+      </structure>
+      <structure id="o4308" name="tip">
+        <character char_type="range_value" name="shape" from="subulate" to="filiform" />
+        <character name="shape" value="subulate" />
+        <character name="shape" value="filiform" />
+      </structure>
+    </statement>
+    <statement id="251.txt-8">
+      <text>Florets 30–40(–55+).</text>
+      <structure id="o4309" name="floret">
+        <character char_type="range_value" name="atypical_count" from="40" to="55" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="30" to="40" />
+      </structure>
+    </statement>
+    <statement id="251.txt-9">
+      <text>Cypselae 2.5–3+ mm;</text>
+      <structure id="o4310" name="cypsela">
+        <character char_type="range_value" name="size" from="2.5" from_unit="mm" to="3" to_unit="mm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="251.txt-10">
+      <text>pappi whitish to stramineous, outer scales ca. 20, 0.6–1 mm, contrasting with 25–40, 5–7+ mm inner bristles.</text>
+      <structure id="o4311" name="pappus">
+        <character char_type="range_value" name="coloration" from="whitish" to="stramineous" />
+        <character name="coloration" value="whitish" />
+        <character name="coloration" value="stramineous" />
+      </structure>
+      <structure id="o4312" name="scale" constraint="outer">
+        <character name="count" value="20" />
+        <character char_type="range_value" name="size" from="0.6" from_unit="mm" to="1" to_unit="mm" />
+        <character name="size" value="contrasting" constraint="with bristles" constraintid="o4313" />
+      </structure>
+      <structure id="o4313" name="bristle" constraint="inner">
+        <character char_type="range_value" name="count" from="25" to="40" />
+        <character char_type="range_value" name="count" from="5" to="7" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="251.txt-11">
+      <text>2 n = 34.</text>
+      <structure id="o4314" name="chromosome">
+        <character name="count" value="34" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>open woods</habitat>
+  <habitat>pine savannas</habitat>
+  <habitat>bogs</habitat>
+  <habitat>disturbed places</habitat>
+  <elevation>10–300 m;</elevation>
+  <us_distribution>Fla.</us_distribution>
+  <us_distribution>Ga.</us_distribution>
+  <us_distribution>N.C.</us_distribution>
+  <us_distribution>S.C.</us_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

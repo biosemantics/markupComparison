@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>66.</number>
+  <genus_name>AGOSERIS</genus_name>
+  <authority>Rafinesque</authority>
+  <place_of_publication>Fl. Ludov., 58. 1817</place_of_publication>
+  <common_name>Mountain- or false dandelion</common_name>
+  <derivation>Greek agos , leader, and seris , chicory; allusion unclear</derivation>
+  <author_of_tribe_genus>Gary I. Baird</author_of_tribe_genus>
+  <description>
+    <statement id="493.txt-0">
+      <text>Annuals ( A. heterophylla ) or perennials, (2–)5–60(–96) cm (usually acaulescent);</text>
+    </statement>
+    <statement id="493.txt-1">
+      <text>taprooted or with caudices.</text>
+      <structure id="o9905" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="2" to="5" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_size" from="60" to="96" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="60" to_unit="cm" />
+        <character name="life_style" value="annual" />
+        <character name="life_style" value="perennial" />
+        <character name="architecture" value="taprooted" />
+        <character name="life_style" value="perennial" />
+      </structure>
+      <structure id="o9907" name="caudex" />
+      <relation id="r1143" name="with" from="o9905" to="o9907" negation="false" />
+      <relation id="r1144" name="with" from="o9906" to="o9907" negation="false" />
+    </statement>
+    <statement id="493.txt-2">
+      <text>Stems usually 0, sometimes 1–5+, erect to decumbent, simple.</text>
+      <structure id="o9908" name="stem">
+        <character name="count" value="0" modifier="usually" />
+        <character char_type="range_value" name="count" from="1" to="5" upper_restricted="false" modifier="sometimes" />
+        <character name="orientation" value="erect" />
+        <character name="habit" value="decumbent" />
+        <character name="architecture" value="simple" />
+      </structure>
+    </statement>
+    <statement id="493.txt-3">
+      <text>Leaves usually basal (in rosettes), sometimes cauline;</text>
+    </statement>
+    <statement id="493.txt-4">
+      <text>petiolate (petioles often purplish, erect to prostrate, ± sheathing);</text>
+      <structure id="o9909" name="leaf">
+        <character name="insertion_or_position" value="basal" modifier="usually" />
+        <character name="insertion_or_position" value="cauline" modifier="sometimes" />
+        <character name="architecture" value="petiolate" />
+      </structure>
+    </statement>
+    <statement id="493.txt-5">
+      <text>blades linear-lanceolate to spatulate, margins entire or toothed to pinnatifid (sometimes variable on same plant, lobes 2–11 pairs, opposite, subopposite, or irregular, filiform to spatulate, often each with 1, acroscopic, basal lobule, lobules ± triangular, inconspicuous to equaling lobes, faces glabrous and glaucous or pubescent to tomentose).</text>
+      <structure id="o9910" name="blade">
+        <character char_type="range_value" name="shape" from="linear-lanceolate" to="spatulate" />
+        <character name="shape" value="linear-lanceolate" />
+        <character name="shape" value="spatulate" />
+      </structure>
+      <structure id="o9911" name="margin">
+        <character char_type="range_value" name="shape" from="toothed" to="pinnatifid" />
+        <character name="shape" value="entire" />
+        <character name="shape" value="toothed" />
+        <character name="shape" value="pinnatifid" />
+      </structure>
+    </statement>
+    <statement id="493.txt-6">
+      <text>Heads borne singly (erect at end of peduncles).</text>
+      <structure id="o9912" name="head">
+        <character name="arrangement" value="singly" />
+      </structure>
+    </statement>
+    <statement id="493.txt-7">
+      <text>Peduncles not inflated distally, usually ebracteate.</text>
+      <structure id="o9913" name="peduncle">
+        <character name="shape" value="inflated" modifier="not ; distally" />
+        <character name="architecture" value="ebracteate" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="493.txt-8">
+      <text>Calyculi 0.</text>
+      <structure id="o9914" name="calyculus">
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+    <statement id="493.txt-9">
+      <text>Involucres cylindric to hemispheric, 2–20(–60) mm diam. (bases often broadening in fruit).</text>
+      <structure id="o9915" name="involucre">
+        <character char_type="range_value" name="shape" from="cylindric" to="hemispheric" />
+        <character name="shape" value="cylindric" />
+        <character name="shape" value="hemispheric" />
+        <character char_type="range_value" name="atypical_size" from="20" to="60" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="20" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="493.txt-10">
+      <text>Phyllaries 10–50 in 2–5(–7) series, green or medially rosy purple and often with purple-black midstripes, apices, or spots, rarely nearly all black, narrowly lanceolate to broadly ovate or obovate, unequal to subequal, ± herbaceous, margins usually entire (rarely dentate), sometimes scarious, glabrous or ciliate to lanate, apices obtuse to acuminate, faces glabrous or pubescent to tomentose, often stipitate-glandular, (outer appressed to squarrose, often adaxially hairy , at least on apices, not elongating after flowering);</text>
+      <structure id="o9916" name="phyllary">
+        <character char_type="range_value" name="count" from="10" to="50" constraint="in -7 series" constraintid="o9917" />
+        <character name="coloration" value="green" />
+        <character name="coloration" value="purple" modifier="medially ;rosy; often" constraint="with midstripes, apices, spots" constraintid="o9918  o9919  o9920" />
+        <character name="coloration" value="black" />
+        <character char_type="range_value" name="shape" from="narrowly lanceolate" to="broadly ovate or obovate" />
+        <character name="shape" value="lanceolate" modifier="narrowly" />
+        <character name="shape" value="ovate" modifier="broadly" />
+        <character name="shape" value="obovate" modifier="broadly" />
+        <character char_type="range_value" name="size" from="unequal" to="subequal" />
+        <character name="size" value="unequal" />
+        <character name="size" value="subequal" />
+        <character name="habit_or_texture" value="herbaceous" modifier="±" />
+      </structure>
+      <structure id="o9917" name="series" constraint="-7">
+        <character char_type="range_value" name="count" from="2" to="5" />
+      </structure>
+      <structure id="o9918" name="midstripe">
+        <character name="coloration" value="black" modifier="purple" />
+      </structure>
+      <structure id="o9919" name="apex">
+        <character name="coloration" value="black" modifier="purple" />
+      </structure>
+      <structure id="o9920" name="spot" constraint="or">
+        <character name="coloration" value="black" modifier="purple" />
+      </structure>
+      <structure id="o9921" name="margin">
+        <character name="shape" value="entire" modifier="usually" />
+        <character name="texture" value="scarious" modifier="sometimes" />
+        <character name="pubescence" value="glabrous" />
+        <character name="architecture_or_shape" value="ciliate" />
+        <character name="pubescence" value="lanate" />
+      </structure>
+      <structure id="o9922" name="apex">
+        <character char_type="range_value" name="shape" from="obtuse" to="acuminate" />
+        <character name="shape" value="obtuse" />
+        <character name="shape" value="acuminate" />
+      </structure>
+      <structure id="o9923" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="pubescent" />
+        <character name="pubescence" value="tomentose" />
+        <character name="architecture_or_exudation_or_pubescence" value="stipitate-glandular" modifier="often" />
+      </structure>
+    </statement>
+    <statement id="493.txt-11">
+      <text>inner erect, adaxially glabrous, often puberulent apically, sometimes elongating in fruit.</text>
+      <structure id="o9924" name="phyllary" constraint="inner">
+        <character name="orientation" value="erect" />
+        <character name="pubescence" value="glabrous" modifier="adaxially" />
+        <character name="pubescence" value="puberulent" modifier="often ; apically" />
+        <character name="size" value="elongating" modifier="sometimes" constraint="in fruit" constraintid="o9925" />
+      </structure>
+      <structure id="o9925" name="fruit" />
+    </statement>
+    <statement id="493.txt-12">
+      <text>Receptacles flat, pitted, glabrous, rarely paleate (paleae linear-lanceolate, 15–20 mm, ± acuminate, similar to inner phyllaries, ± accrescent).</text>
+      <structure id="o9926" name="receptacle">
+        <character name="shape" value="flat" />
+        <character name="relief" value="pitted" />
+        <character name="pubescence" value="glabrous" />
+        <character name="architecture" value="paleate" modifier="rarely" />
+      </structure>
+    </statement>
+    <statement id="493.txt-13">
+      <text>Florets 5–500 (± matutinal);</text>
+      <structure id="o9927" name="floret">
+        <character char_type="range_value" name="count" from="5" to="500" />
+      </structure>
+    </statement>
+    <statement id="493.txt-14">
+      <text>corollas yellow (outermost often with purplish abaxial stripe) (often drying whitish, purple stripe still evident), or orange, pink, red, or purple (usually drying purple).</text>
+      <structure id="o9928" name="corolla">
+        <character name="coloration" value="yellow" />
+        <character name="coloration" value="orange" />
+        <character name="coloration" value="pink" />
+        <character name="coloration" value="red" />
+        <character name="coloration" value="purple" />
+      </structure>
+    </statement>
+    <statement id="493.txt-15">
+      <text>Cypselae monomorphic or dimorphic (outermost differing in color, texture, vestiture, and/or shape from inner), white or tan to dark purple, columnar to fusiform, narrowly conic, or obconic (2–10 mm), ribs usually 10, faces glabrous or pubescent to hirsute, beaked (beak lengths 0.1–4 times bodies);</text>
+      <structure id="o9929" name="cypsela">
+        <character name="habit" value="monomorphic" />
+        <character name="habit" value="dimorphic" />
+        <character char_type="range_value" name="coloration" from="tan" to="dark-purple" />
+        <character name="coloration" value="white" />
+        <character name="coloration" value="tan" />
+        <character name="coloration" value="purple" modifier="dark" />
+        <character char_type="range_value" name="shape" from="columnar" to="fusiform , narrowly conic , or obconic" />
+        <character name="shape" value="columnar" />
+        <character name="shape" value="fusiform" />
+        <character name="shape" value="conic" modifier="narrowly" />
+        <character name="shape" value="obconic" modifier="narrowly" />
+      </structure>
+      <structure id="o9930" name="rib">
+        <character name="count" value="10" modifier="usually" />
+      </structure>
+      <structure id="o9931" name="face">
+        <character char_type="range_value" name="pubescence" from="pubescent" to="hirsute" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="pubescent" />
+        <character name="pubescence" value="hirsute" />
+        <character name="shape" value="beaked" />
+      </structure>
+    </statement>
+    <statement id="493.txt-16">
+      <text>pappi persistent, of 50–125, distinct, white, subequal, ± barbellate (sometimes flattened) bristles in 1–6 series.</text>
+      <structure id="o9932" name="pappus">
+        <character name="duration" value="persistent" />
+      </structure>
+      <structure id="o9933" name="bristle">
+        <character char_type="range_value" name="count" from="50" to="125" />
+        <character name="fusion" value="distinct" />
+        <character name="coloration" value="white" />
+        <character name="size" value="subequal" />
+        <character name="architecture" value="barbellate" modifier="±" />
+      </structure>
+      <relation id="r1145" name="consist_of" from="o9932" to="o9933" negation="false" />
+      <structure id="o9934" name="series">
+        <character char_type="range_value" name="count" from="1" to="6" />
+      </structure>
+      <relation id="r1146" name="in" from="o9933" to="o9934" negation="false" />
+    </statement>
+    <statement id="493.txt-17">
+      <text>x = 9.</text>
+      <structure id="o9935" name="chromosome">
+        <character name="count" value="9" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species 11 (10, including 1 hybrid, in the flora):</number_of_infrataxa>
+  <general_distribution>North America</general_distribution>
+  <general_distribution>South America.</general_distribution>
+  <discussion>Agoseris consists of widespread species that individually exhibit great morphologic plasticity. Difficulty in correctly identifying individual specimens is compounded by traits that may vary from region to region, the perpetuation of misleading or inaccurate traits in the literature, and the presence of intermediates. Correct identification of Agoseris specimens can be assisted by knowing that species may exhibit variable traits (e.g., pubescence, corolla color, cypsela morphology), some species have leaf lobing variable on single plants (e.g., outermost entire versus inner lobed), and intermediate specimens may occur with any sympatric taxa. Hybridization among members of the genus is common, especially among polyploid taxa, and some hybrid populations appear to be persistent. Autogamy has been demonstrated in some species (K. L. Chambers 1963) and is suspected in others. It appears to be correlated with a reduction in corolla and anther size. Autogamous populations or taxa often exhibit seemingly unique features that appear localized. Attempts at naming these variant populations or regional phases have resulted in a large number of synonyms.</discussion>
+  <discussion>Agoseris has a New World, amphitropical distribution. All of the species are restricted to North America except A. coronopifolia (D’Urville) K. L. Chambers, which is found in temperate regions of southern South America. The South American disjunction appears to be the result of long-distance dispersal from North America (K. L. Chambers 1963).</discussion>
+  <discussion>Agoseris appears to be most closely related to Nothocalaïs.</discussion>
+  <discussion>Cryptopleura Nuttall, referable here, is a rejected name.</discussion>
+  <discussion>In keys and descriptions, lengths of cypselae include beaks.</discussion>
+  <references>SELECTED REFERENCES Baird, G. I. 1996. The Systematics of Agoseris (Asteraceae: Lactuceae). Ph.D. dissertation. University of Texas. Chambers, K. L. 1963. Amphitropical species pairs in Microseris and Agoseris (Compositae: Cichorieae). Quart. Rev. Biol. 38: 124–140. Jones, Q. 1954. Monograph of Agoseris, Tribe Cichorieae. Ph.D. dissertation. Harvard University.</references>
+  <key>1.Annuals9. Agoseris heterophylla</key>
+  <key>1.Perennials.</key>
+  <key>2.Corollas orange, pink, red, or purplish (often drying purplish).</key>
+  <key>3.Peduncles (and phyllaries) eglandular; widespread in North America2. Agoseris aurantiaca (in part)</key>
+  <key>3.Peduncles (and phyllaries) ± stipitate-glandular; California, Oregon, and Washington10. Agoseris ×elata (in part)</key>
+  <key>2.Corollas yellow, outermost often each with abaxial purplish stripe (often drying whitish, purple stripe still evident).</key>
+  <key>4.Cypsela beaks 1–4(–10) mm (lengths to 1/2 bodies); inner phyllaries not elongating in fruit.</key>
+  <key>5.Leaf margins usually lobed, rarely entire, lobes (3–)5–8 pairs, retrorse to spreading; peduncles (and phyllaries) usually hairy to lanate, sometimes glabrous, eglandular; cypsela beaks (3–)4–10 mm, lengths (1/2–)2 times bodies3. Agoseris parviflora (in part)</key>
+  <key>5.Leaf margins entire or toothed to lobed, teeth or lobes usually 2–3 pairs, antrorse to spreading, or diverging; peduncles (and phyllaries) glabrous or puberulent to lanate, sometimes stipitate-glandular or eglandular; cypsela beaks 1–4 mm, lengths to 1/2 bodies.</key>
+  <key>6.Peduncles glabrous, or basally glabrate, apically puberulent to lanate, sometimes stipitate-glandular; leaves usually erect, sometimes decumbent, margins usually entire, sometimes dentate, rarely lobed or lacerate; receptacles sometimes paleate; phyllaries in 2–3 series; widespread, various soils and elevations, n Great Plains westward1. Agoseris glauca</key>
+  <key>6.Peduncles basally lanate, apically hairy to villous and stipitate-glandular; leaves usually decumbent or prostrate, margins usually dentate or lobed, rarely entire; receptacles rarely paleate; phyllaries in 2–4(–6) series; mostly at high elevations, volcanic or pyroclastic soils, Sierra Nevada and s Cascade Mountains, sporadically eastward to Blue Mountains and Great Basin4. Agoseris monticola</key>
+  <key>4.Cypsela beaks 5+ mm, lengths usually equaling or greater than bodies, if less than 5 mm, beaks usually 1/2+ bodies; inner phyllaries elongating in fruit.</key>
+  <key>7.Peduncles and phyllaries ± stipitate-glandular.</key>
+  <key>8.Leaves 3–10(–15) cm (plants usually ± caulescent, stems often buried by drifting sand, appearing pseudorhizomatous, sometimes acaulescent); mostly coastal dunes and beach heads, Pacific Coast7. Agoseris apargioides (in part)</key>
+  <key>8.Leaves (7–)10–30 cm (plants acaulescent); mostly grassy hills, meadows, or lowland prairies (not coastal sand dunes).</key>
+  <key>9.Leaf margins usually pinnately lobed, lobes 5–7(–9) pairs; corolla tubes 3–6 mm; cypselae 9–14 mm; pappus bristles in 3–4 series, 6–10 mm; Coast Ranges of California, especially around San Francisco Bay 8. Agoseris hirsuta</key>
+  <key>9.Leaf margins entire or laciniately pinnatifid, lobes 2–4 pairs; corolla tubes 8–10 mm; cypselae 14–20 mm; pappus bristles in 2–3 series, 10–14 mm; Washington to California (not Coast Ranges) 10. Agoseris ×elata (in part)</key>
+  <key>7.Peduncles and phyllaries glabrous or hairy, eglandular.</key>
+  <key>10.Cypsela beaks (9–)10–25 mm, lengths usually 3–4 times bodies; phyllaries in 3–6 series.</key>
+  <key>11.Leaf lobes antrorse to spreading; corolla tubes 4–7(–10) mm, ligules 3–7 mm, anthers 1–3 mm; pappus bristles in 2–3 series, 7–15 mm 5. Agoseris grandiflora</key>
+  <key>11.Leaf lobes retrorse to spreading; corolla tubes (8–)10–20 mm, ligules 6–12(–16) mm, anthers 2–5 mm; pappus bristles in 4–6 series, (11–) 15–20 mm6. Agoseris retrorsa</key>
+  <key>10.Cypsela beaks (1–)3–10 mm, lengths usually 1/2–2 times bodies; phyllaries in 2–3 series.</key>
+  <key>12.Corolla tubes 2–5.5 mm, ligules 3–16 mm, anthers 1.5–4.5 mm; cypsela bodies 3–5 mm; leaves 3–10(–15) cm; Pacific shore coastal dunes 7. Agoseris apargioides (in part)</key>
+  <key>12.Corolla tubes (4–)6–15 mm, ligules (4–)6–20 mm, anthers 2–5 mm; cypsela bodies 5–9 mm; leaves (5–)10–38 cm; widespread North America east of Pacific coast ranges.</key>
+  <key>13.Corolla ligules 4–12 mm; inner phyllaries elongating in fruit; leaf margins entire or laciniately lobed, lobes 2–4 pairs, spreading to antrorse; montane forests to alpine tundra, often disturbed habitats2. Agoseris aurantiaca (in part)</key>
+  <key>13.Corolla ligules 10–20 mm; inner phyllaries not elongating in fruit; leaf margins usually lobed, rarely entire, lobes (3–)5–8 pairs, mostly retrorse; sagebrush steppes, grasslands, pinyon-juniper woodlands, open forests at lower elevations3. Agoseris parviflora (in part)</key>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

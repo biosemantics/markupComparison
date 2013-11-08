@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>14.</number>
+  <species_name>Centaurea calcitrapa</species_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 917. 1753</place_of_publication>
+  <common_name>Purple star-thistle, caltrops, chausse-trappe, centaurée chausse-trappe</common_name>
+  <description>
+    <statement id="221.txt-0">
+      <text>Annuals, biennials, or short-lived perennials , 20–100 cm.</text>
+      <structure id="o3540" name="whole_organism">
+        <character char_type="range_value" name="size" from="20" from_unit="cm" to="100" to_unit="cm" />
+        <character name="life_style" value="annual" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="221.txt-1">
+      <text>Stems 1–several, often forming rounded mounds, puberulent to loosely tomentose.</text>
+      <structure id="o3542" name="stem">
+        <character char_type="range_value" name="count" from="1" to="several" />
+      </structure>
+      <structure id="o3543" name="mound">
+        <character name="shape" value="rounded" modifier="often" />
+        <character char_type="range_value" name="pubescence" from="puberulent" to="loosely tomentose" />
+        <character name="pubescence" value="puberulent" />
+        <character name="pubescence" value="tomentose" modifier="loosely" />
+      </structure>
+    </statement>
+    <statement id="221.txt-2">
+      <text>Leaves puberulent to loosely gray-tomentose, becoming ± glabrous, minutely resin-gland-dotted;</text>
+      <structure id="o3544" name="leaf">
+        <character char_type="range_value" name="pubescence" from="puberulent" to="loosely gray-tomentose" />
+        <character name="pubescence" value="puberulent" />
+        <character name="pubescence" value="gray-tomentose" modifier="loosely" />
+        <character name="pubescence" value="glabrous" modifier="becoming ±" />
+        <character name="coloration_or_relief" value="resin-gland-dotted" modifier="minutely" />
+      </structure>
+    </statement>
+    <statement id="221.txt-3">
+      <text>proximal leaves petiolate, blades 10–20 cm, 1–3 times pinnately dissected, rosette with central cluster of spines;</text>
+      <structure id="o3545" name="leaf" constraint="proximal">
+        <character name="architecture" value="petiolate" />
+      </structure>
+      <structure id="o3546" name="blade">
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="20" to_unit="cm" />
+        <character name="shape" value="dissected" modifier="1-3 times pinnately" />
+      </structure>
+      <structure id="o3547" name="rosette" />
+      <structure id="o3548" name="spine" />
+      <relation id="r502" name="with central cluster of" from="o3547" to="o3548" negation="false" />
+    </statement>
+    <statement id="221.txt-4">
+      <text>mid sessile, not decurrent, blades ovate, usually less than 10 cm, narrowly lobed;</text>
+      <structure id="o3549" name="leaf" constraint="mid">
+        <character name="architecture" value="sessile" />
+        <character name="shape" value="decurrent" modifier="not" />
+      </structure>
+      <structure id="o3550" name="blade">
+        <character name="shape" value="ovate" />
+        <character name="size" value="10" unit="cm" modifier="usually less than" />
+        <character name="shape" value="lobed" modifier="narrowly" />
+      </structure>
+    </statement>
+    <statement id="221.txt-5">
+      <text>distal blades linear to oblong, entire to shallowly lobed.</text>
+      <structure id="o3551" name="blade" constraint="distal">
+        <character char_type="range_value" name="shape" from="linear" to="oblong , entire" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="oblong" />
+        <character name="shape" value="entire" />
+        <character name="shape" value="lobed" modifier="shallowly" />
+      </structure>
+    </statement>
+    <statement id="221.txt-6">
+      <text>Heads disciform, borne singly or in leafy cymiform arrays, sessile or short-pedunculate.</text>
+      <structure id="o3552" name="head">
+        <character name="shape_or_architecture" value="disciform" />
+        <character name="arrangement" value="singly" />
+        <character name="arrangement" value="in leafy cymiform arrays" />
+        <character name="architecture" value="sessile" />
+        <character name="architecture" value="short-pedunculate" />
+      </structure>
+      <structure id="o3553" name="array">
+        <character name="architecture" value="leafy" />
+        <character name="architecture" value="cymiform" />
+      </structure>
+      <relation id="r503" name="in" from="o3552" to="o3553" negation="false" />
+    </statement>
+    <statement id="221.txt-7">
+      <text>Involucres ovoid, 15–20 × 6–8 mm.</text>
+      <structure id="o3554" name="involucre">
+        <character name="shape" value="ovoid" />
+        <character char_type="range_value" name="length" from="15" from_unit="mm" to="20" to_unit="mm" />
+        <character char_type="range_value" name="width" from="6" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="221.txt-8">
+      <text>Principal phyllaries:</text>
+      <structure id="o3555" name="phyllary" constraint="principal" />
+    </statement>
+    <statement id="221.txt-9">
+      <text>bodies greenish or stramineous, ovate, scarious-margined, appendages stramineous, spiny fringed at base, each tipped by a stout spreading spine 10–25 mm.</text>
+      <structure id="o3556" name="body">
+        <character name="coloration" value="greenish" />
+        <character name="coloration" value="stramineous" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="scarious-margined" />
+      </structure>
+      <structure id="o3557" name="appendage">
+        <character name="coloration" value="stramineous" />
+        <character name="architecture_or_shape" value="spiny fringed" constraint="at base" constraintid="o3558" />
+      </structure>
+      <structure id="o3558" name="base" />
+      <structure id="o3559" name="spine">
+        <character name="fragility" value="stout" />
+        <character name="orientation" value="spreading" />
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="25" to_unit="mm" />
+      </structure>
+      <relation id="r504" name="tipped by" from="o3557" to="o3559" negation="false" />
+    </statement>
+    <statement id="221.txt-10">
+      <text>Inner phyllaries :</text>
+      <structure id="o3560" name="phyllary" constraint="inner" />
+    </statement>
+    <statement id="221.txt-11">
+      <text>appendages truncate, spineless.</text>
+      <structure id="o3561" name="appendage">
+        <character name="shape" value="truncate" />
+        <character name="architecture" value="spineless" />
+      </structure>
+    </statement>
+    <statement id="221.txt-12">
+      <text>Florets 25–40;</text>
+      <structure id="o3562" name="floret">
+        <character char_type="range_value" name="count" from="25" to="40" />
+      </structure>
+    </statement>
+    <statement id="221.txt-13">
+      <text>corollas purple, all ± equal, 15–24 mm;</text>
+      <structure id="o3563" name="corolla">
+        <character name="coloration" value="purple" />
+        <character name="size" value="equal" modifier="±" />
+        <character char_type="range_value" name="size" from="15" from_unit="mm" to="24" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="221.txt-14">
+      <text>sterile corollas slender.</text>
+      <structure id="o3564" name="corolla" constraint="sterile">
+        <character name="size" value="slender" />
+      </structure>
+    </statement>
+    <statement id="221.txt-15">
+      <text>Cypselae white or brown-streaked, 2.5–3.4 mm, glabrous;</text>
+      <structure id="o3565" name="cypsela">
+        <character name="coloration" value="white" />
+        <character name="coloration" value="streaked" modifier="brown" />
+        <character char_type="range_value" name="size" from="2.5" from_unit="mm" to="3.4" to_unit="mm" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="221.txt-16">
+      <text>pappi 0. 2 n = 20.</text>
+      <structure id="o3566" name="pappus">
+        <character name="count" value="0" />
+      </structure>
+      <structure name="chromosome" id="o3567">
+        <character name="count" value="20" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <flowering_time>nov</flowering_time>
+  <habitat>pastures</habitat>
+  <habitat>fields</habitat>
+  <habitat>roadsides</habitat>
+  <elevation>0–1700 m;</elevation>
+  <ca_distribution>Ont.</ca_distribution>
+  <us_distribution>Ala.</us_distribution>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>D.C.</us_distribution>
+  <us_distribution>Fla.</us_distribution>
+  <us_distribution>Ga.</us_distribution>
+  <us_distribution>Ill.</us_distribution>
+  <us_distribution>Iowa</us_distribution>
+  <us_distribution>Md.</us_distribution>
+  <us_distribution>Mass.</us_distribution>
+  <us_distribution>N.J.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Va.</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <global_distribution>Europe</global_distribution>
+  <global_distribution>Africa.</global_distribution>
+  <discussion>Centaurea calcitrapa is native to southern Europe and northern Africa. It is listed as a noxious weed in Arizona, California, Nevada, New Mexico, Oregon, and Washington. These plants are unpalatable and increase on rangelands as more desirable forage plants are consumed. Dense stands are impenetrable because of the vicious spines on the mature involucres.</discussion>
+  <discussion>Centaurea ×pouzinii de Candolle, an apparently stabilized hybrid between Centaurea aspera (2n = 22) and C. calcitrapa (2n = 20), has been reported from California. A chromosome count of 2n = 42 has been reported from California material of this nothospecies (A. M. Powell et al. 1974). Centaurea ×pouzinii can be distinguished from C. calcitrapa by its shorter spines and by cypselae with a short pappus. Reports of C. calcitrapoides Linnaeus from North America are apparently based on this hybrid.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

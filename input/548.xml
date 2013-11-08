@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>72.</number>
+  <genus_name>STEPHANOMERIA</genus_name>
+  <authority>Nuttall</authority>
+  <place_of_publication>Trans. Amer. Philos. Soc., n. s., 7: 427. 1841</place_of_publication>
+  <conserved>name conserved ·</conserved>
+  <common_name>Stickweed, wirelettuce , skeletonweed</common_name>
+  <derivation>Greek stephanos , crown , wreath, and meris , part, presumably alluding to appearance of plumose bristles of pappus</derivation>
+  <author_of_tribe_genus>L. D. Gottlieb</author_of_tribe_genus>
+  <description>
+    <statement id="548.txt-0">
+      <text>Annuals, 10–200 cm, taprooted, or perennials , 10–100 cm , with deeply seated, woody caudices or stout or slender, creeping rhizomes.</text>
+      <structure id="o11259" name="whole_organism">
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="200" to_unit="cm" />
+        <character name="architecture" value="taprooted" />
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="100" to_unit="cm" />
+        <character name="fragility" value="stout" />
+        <character name="size" value="slender" />
+        <character name="life_style" value="annual" />
+        <character name="life_style" value="perennial" />
+      </structure>
+      <structure id="o11261" name="caudex" constraint="woody">
+        <character name="location" value="seated" modifier="deeply" />
+      </structure>
+      <relation id="r1283" name="with" from="o11259" to="o11261" negation="false" />
+      <structure id="o11262" name="rhizome" constraint="creeping" />
+    </statement>
+    <statement id="548.txt-1">
+      <text>Stems (1–8) erect, simple or branched, usually glabrous, sometimes hairy (especially when young).</text>
+      <structure id="o11263" name="stem">
+        <character char_type="range_value" name="atypical_count" from="1" to="8" />
+        <character name="orientation" value="erect" />
+        <character name="architecture" value="simple" />
+        <character name="architecture" value="branched" />
+        <character name="pubescence" value="glabrous" modifier="usually" />
+        <character name="pubescence" value="hairy" modifier="sometimes" />
+      </structure>
+    </statement>
+    <statement id="548.txt-2">
+      <text>Leaves basal (withered at flowering in annuals and some perennials) and/or cauline (much reduced, bractlike in annuals and some perennials);</text>
+    </statement>
+    <statement id="548.txt-3">
+      <text>usually sessile;</text>
+      <structure id="o11264" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="architecture" value="sessile" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="548.txt-4">
+      <text>blades linear to oblong, oblanceolate, or spatulate, usually runcinate, margins usually pinnately lobed (spinulose-tipped in S. parryi ), sometimes entire or toothed ( S . lactucina, S. tenuifolia , and S. fluminea) (faces glabrous, puberulent, or tomentose);</text>
+      <structure id="o11265" name="blade">
+        <character name="arrangement_or_shape" value="linear" />
+        <character name="shape" value="oblong" />
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="spatulate" />
+        <character name="shape" value="runcinate" modifier="usually" />
+      </structure>
+      <structure id="o11266" name="margin">
+        <character name="shape" value="lobed" modifier="usually pinnately" />
+        <character name="shape" value="entire" modifier="sometimes" />
+        <character name="shape" value="toothed" modifier="sometimes" />
+      </structure>
+    </statement>
+    <statement id="548.txt-5">
+      <text>distal bractlike (to 45 mm in S. fluminea ).</text>
+      <structure id="o11267" name="leaf" constraint="distal">
+        <character name="shape" value="bractlike" />
+      </structure>
+    </statement>
+    <statement id="548.txt-6">
+      <text>Heads borne singly or clustered (in paniculiform arrays in some subspecies of S. exigua ).</text>
+      <structure id="o11268" name="head">
+        <character name="arrangement" value="clustered" />
+      </structure>
+    </statement>
+    <statement id="548.txt-7">
+      <text>Peduncles not inflated distally, sometimes bracteate.</text>
+      <structure id="o11269" name="peduncle">
+        <character name="shape" value="inflated" modifier="not ; distally" />
+        <character name="architecture" value="bracteate" modifier="sometimes" />
+      </structure>
+    </statement>
+    <statement id="548.txt-8">
+      <text>Calyculi of 3–5, unequal bractlets (more numerous in some perennials; not distinguishable in S. cichoriacea ), appressed or reflexed (some annuals).</text>
+      <structure id="o11270" name="calyculus">
+        <character name="orientation" value="appressed" />
+        <character name="orientation" value="reflexed" />
+      </structure>
+      <structure id="o11271" name="bractlet">
+        <character char_type="range_value" name="count" from="3" to="5" />
+        <character name="size" value="unequal" />
+      </structure>
+      <relation id="r1284" name="consist_of" from="o11270" to="o11271" negation="false" />
+    </statement>
+    <statement id="548.txt-9">
+      <text>Involucres ± cylindric to turbinate, 2–3(–5+) mm diam.</text>
+      <structure id="o11272" name="involucre">
+        <character char_type="range_value" name="shape" from="cylindric" to="turbinate" modifier="±" />
+        <character name="shape" value="cylindric" modifier="±" />
+        <character name="shape" value="turbinate" modifier="±" />
+        <character char_type="range_value" name="atypical_size" from="3" to="5" from_unit="mm" to_unit="mm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="3" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="548.txt-10">
+      <text>Phyllaries usually 5–12 in 1 series, equal (20–25 in 2–3 series, unequal in S. cichoriacea, usually glabrous, rarely puberulent, densely stipitate-glandular in S. exigua subsp. deanei ).</text>
+      <structure id="o11273" name="phyllary">
+        <character char_type="range_value" name="count" from="5" to="12" modifier="usually" constraint="in series" constraintid="o11274" />
+        <character name="size" value="equal" />
+      </structure>
+      <structure id="o11274" name="series">
+        <character name="count" value="1" />
+      </structure>
+    </statement>
+    <statement id="548.txt-11">
+      <text>Receptacles flat, usually smooth (pitted in S. cichoriacea ), glabrous, epaleate.</text>
+      <structure id="o11275" name="receptacle">
+        <character name="shape" value="flat" />
+        <character name="architecture_or_relief" value="smooth" modifier="usually" />
+        <character name="pubescence" value="glabrous" />
+        <character name="architecture" value="epaleate" />
+      </structure>
+    </statement>
+    <statement id="548.txt-12">
+      <text>Florets (4–)5–16;</text>
+      <structure id="o11276" name="floret">
+        <character char_type="range_value" name="atypical_count" from="4" to="5" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="5" to="16" />
+      </structure>
+    </statement>
+    <statement id="548.txt-13">
+      <text>corollas usually pink or lavender, sometimes white (annuals often purple-tinged abaxially).</text>
+      <structure id="o11277" name="corolla">
+        <character name="coloration" value="pink" modifier="usually" />
+        <character name="coloration" value="lavender" />
+        <character name="coloration" value="white" modifier="sometimes" />
+      </structure>
+    </statement>
+    <statement id="548.txt-14">
+      <text>Cypselae light tan to dark brown, columnar, sometimes slightly curved, 5-angled, apices truncate, faces equal, sometimes with ribs between faces, each face with central, narrow, longitudinal groove or furrow (not grooved in S. virgata ), otherwise smooth or bumpy to tuberculate, usually glabrous (scaberulous in S. fluminea );</text>
+      <structure id="o11278" name="cypsela">
+        <character char_type="range_value" name="coloration" from="light-tan" to="dark-brown" />
+        <character name="coloration" value="tan" modifier="light" />
+        <character name="coloration" value="brown" modifier="dark" />
+        <character name="shape" value="columnar" />
+        <character name="shape" value="curved" modifier="sometimes slightly" />
+        <character name="shape" value="5-angled" />
+      </structure>
+      <structure id="o11279" name="apex">
+        <character name="shape" value="truncate" />
+      </structure>
+      <structure id="o11280" name="face">
+        <character name="size" value="equal" />
+        <character name="architecture_or_relief" value="smooth" modifier="otherwise" />
+        <character name="texture" value="bumpy" />
+        <character name="relief" value="tuberculate" />
+        <character name="pubescence" value="glabrous" modifier="usually" />
+      </structure>
+      <structure id="o11281" name="rib" />
+      <relation id="r1285" name="with" from="o11280" to="o11281" negation="false" modifier="sometimes" />
+      <structure id="o11282" name="face" />
+      <relation id="r1286" name="between" from="o11281" to="o11282" negation="false" />
+      <structure id="o11283" name="face" />
+      <structure id="o11284" name="groove">
+        <character name="insertion_or_position" value="central" />
+        <character name="size" value="narrow" />
+        <character name="dehiscence_or_orientation" value="longitudinal" />
+      </structure>
+      <structure id="o11285" name="furrow">
+        <character name="insertion_or_position" value="central" />
+        <character name="size" value="narrow" />
+        <character name="dehiscence_or_orientation" value="longitudinal" />
+      </structure>
+      <relation id="r1287" name="with" from="o11283" to="o11284" negation="false" />
+      <relation id="r1288" name="with" from="o11283" to="o11285" negation="false" />
+    </statement>
+    <statement id="548.txt-15">
+      <text>pappi persistent (or only widened bases of bristles persistent after distal portions break off) or falling, of 5–40, distinct or basally connate in groups, white to tan, wholly or distally plumose bristles in 1 series.</text>
+      <structure id="o11286" name="pappus">
+        <character name="duration" value="persistent" />
+        <character name="orientation" value="falling" />
+        <character char_type="range_value" name="coloration" from="white" to="tan" />
+        <character name="coloration" value="white" />
+        <character name="coloration" value="tan" />
+      </structure>
+      <structure id="o11287" name="group">
+        <character char_type="range_value" name="count" from="5" to="40" />
+        <character name="fusion" value="distinct" />
+        <character name="fusion" value="connate" modifier="basally" />
+      </structure>
+      <relation id="r1289" name="consist_of" from="o11286" to="o11287" negation="false" />
+      <structure id="o11288" name="bristle">
+        <character name="architecture" value="plumose" modifier="distally" />
+      </structure>
+      <structure id="o11289" name="series">
+        <character name="count" value="1" />
+      </structure>
+      <relation id="r1290" name="in" from="o11288" to="o11289" negation="false" />
+    </statement>
+    <statement id="548.txt-16">
+      <text>x = 8.</text>
+      <structure id="o11290" name="chromosome">
+        <character name="count" value="8" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species 16 (14 in the flora):</number_of_infrataxa>
+  <general_distribution>w North America</general_distribution>
+  <general_distribution>n Mexico.</general_distribution>
+  <discussion>Because all the species of Stephanomeria have not previously been examined at one time, the present treatment provides the first unified picture of their variability, ecologic specializations, and geographic distributions. The genus includes six annual species (all in the flora) and ten perennial species (eight in the flora, one in the mountains of northern Baja California, and one known only from Guadalupe Island, Mexico).</discussion>
+  <discussion>Taxonomic distinctions among annual species of Stephanomeria did not become evident until their morphology and geographic distributions were correlated with their chromosome numbers and reproductive compatibilities (L. D. Gottlieb 1971, 1972). The same studies also provided an hypothesis that satisfactorily accounted for their variability. Studies showed that S. exigua and S. virgata differed for a relatively large number of characters and that other annual species originated from genetic segregates that were formed by hybridization, at both diploid and tetraploid levels, as well as directly from S. exigua.</discussion>
+  <discussion>Stephanomeria exigua has five subspecies; S. virgata has two. Within each species, the subspecies share numerous morphologic features as well as chromosomal karyotype. They are recognized as polytypic because reproductive compatibility between any pair of subspecies of S. exigua or between subspecies of S. virgata is substantially higher than is the compatibility between the two species. The two species appear to represent a fundamental phylogenetic divergence within annuals; nevertheless their different features are combined in different ways in S. elata and S. diegensis.</discussion>
+  <discussion>Stephanomeria paniculata and S. malheurensis probably evolved more or less directly from S. exigua subsp. coronaria. The speciation process that gave rise to S. malheurensis (L. D. Gottlieb 1978) has been examined in a series of studies (Gottlieb 1973b, 1977, 1979; S. Brauner and Gottlieb 1987, 1989). The origin of the highly self-pollinating S. paniculata may have been similar but much less evidence is available. Stephanomeria malheurensis has served as a model for reintroduction of a species back into its original habitat after local extinction, in its case by competition from invasive cheatgrass (Bromus tectorum).</discussion>
+  <discussion>Information about evolution and speciation is not so available for the perennials as for the annuals. Treatment of perennials is based almost entirely on examination of herbarium specimens plus published information describing their chromosome numbers. Although little is known about phylogenetic relationships among perennial species of Stephanomeria, a recent DNA sequencing study of nuclear rDNA (J. Lee et al. 2002) showed that the genus does not include either Munzothamnus blairii (previously S. blairii) or Pleiacanthus spinosus (previously S. spinosa). Without them, Stephanomeria is a well-supported, monophyletic group of species.</discussion>
+  <discussion>The DNA analysis suggested that Stephanomeria tenuifolia, S. runcinata, S. fluminea, and S. thurberi comprise a subclade. Those four species are perennial and all have fully plumose, white pappus bristles. They differ markedly in their ecologic specializations, as indicated in their treatments below. The DNA studies also showed a very close relationship between S. malheurensis and S. exigua subsp. coronaria consistent with results of previous studies (cited above). It is to be hoped that taxonomic information presented below will make species of Stephanomeria more easily accessible to continuing studies.</discussion>
+  <references>SELECTED REFERENCES Gottlieb, L. D. 1971. Evolutionary relationships in the outcrossing diploid annual species of Stephanomeria (Compositae). Evolution 25: 312–329. Gottlieb, L. D. 1972. A proposal for classification of the annual species of Stephanomeria (Compositae). Madroño 21: 463–481.</references>
+  <key>1.Perennials.</key>
+  <key>2.Florets 8–16.</key>
+  <key>3.Calyculi 0 (phyllaries 20–25, unequal); receptacles pitted1. Stephanomeria cichoriacea</key>
+  <key>3.Calyculi of 4–8 bractlets (none longer than the 6–12 phyllaries); receptacles smooth.</key>
+  <key>4.Leaf margins thickened, minutely spinose (phyllaries 6–8); pappus bristles 10–15, plumose on distal 80%9. Stephanomeria parryi</key>
+  <key>4.Leaf margins not thickened, not spinose (phyllaries 6–12); pappus bristles 25–40, wholly plumose.</key>
+  <key>5.Basal leaves runcinate, pinnately lobed; phyllaries 6–8; pappus bristles 30–4013. Stephanomeria thurberi</key>
+  <key>5.Basal leaves entire or sparsely toothed; phyllaries 8–12; pappus bristles 25—306. Stephanomeria lactucina</key>
+  <key>2.Florets 4–6.</key>
+  <key>6.Plants with woody caudices; pappus bristles tan or sordid, plumose on distal 80% 10. Stephanomeria pauciflora</key>
+  <key>6.Plants with rhizomes; pappus bristles white, wholly plumose.</key>
+  <key>7.Cauline leaves present (green) at flowering (3–6 cm) 5. Stephanomeria fluminea</key>
+  <key>7.Cauline leaves much reduced, bractlike at flowering.</key>
+  <key>8.Plants 10–20(–25) cm; basal leaves runcinate, pinnately lobed11. Stephanomeria runcinata</key>
+  <key>8.Plants 20–70 cm; basal leaves entire or sparsely toothed 12. Stephanomeria tenuifolia</key>
+  <key>1.Annuals.</key>
+  <key>9.Cypselae without longitudinal groove on each face14. Stephanomeria virgata</key>
+  <key>9.Cypselae with longitudinal groove on each face.</key>
+  <key>10.Heads in paniculiform arrays; peduncles 10–40 mm4. Stephanomeria exigua (in part)</key>
+  <key>10.Heads borne singly or clustered; peduncles 2–10 mm.</key>
+  <key>11.Pappus bristles wholly plumose or at least to widened bases.</key>
+  <key>12.Florets 5; calyculus bractlets appressed8. Stephanomeria paniculata</key>
+  <key>12.Florets 9–15; calyculus bractlets usually reflexed, rarely appressed3. Stephanomeria elata</key>
+  <key>11.Pappus bristles plumose on distal 50–85%, bases widened or not.</key>
+  <key>13.Calyculus bractlets reflexed.</key>
+  <key>14.Florets 6–8; cypselae 5.5–6.8 mm; pappus bristles (persistent) plumose on distal 60–70%4. Stephanomeria exigua (in part)</key>
+  <key>14.Florets 11–13; cypselae 1.9–2.3 mm; pappus bristles (falling) plumose on distal 80–85%2. Stephanomeria diegensis</key>
+  <key>13.Calyculus bractlets appressed.</key>
+  <key>15.Florets 5–11; cypselae 2.3–3.1 mm; pappus bristles plumose on distal 60–85%4. Stephanomeria exigua (in part)</key>
+  <key>15. Florets 5–6; cypselae 3.3–3.8 mm; pappus bristles plumose on distal 50–60%7. Stephanomeria malheurensis</key>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

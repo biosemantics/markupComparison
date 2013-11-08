@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<xml-bindings
+    xmlns="http://www.eclipse.org/eclipselink/xsds/persistence/oxm"
+    package-name="edu.arizona.sirls.etc.markupSimilarity.model">
+    <java-types>
+                   <java-type name="DescriptionsFile">
+                        <xml-root-element name="treatment"/>
+            <java-attributes>
+                <xml-element java-attribute="meta" xml-path="meta" type="edu.arizona.sirls.etc.markupSimilarity.model.Meta"/>
+                                <xml-element java-attribute="treatmentRoot" xml-path="." type="edu.arizona.sirls.etc.markupSimilarity.model.TreatmentRoot" />
+            </java-attributes>
+        </java-type>
+    </java-types>
+</xml-bindings>

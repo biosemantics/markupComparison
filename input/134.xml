@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>46b.</number>
+  <variety_name>Cirsium edule Nuttall var. macounii</variety_name>
+  <authority>(Greene) D. J. Keil</authority>
+  <place_of_publication>Sida 21: 213. 2004</place_of_publication>
+  <common_name>Macoun’s thistle</common_name>
+  <synonym_of_variety_name>Carduus macounii Greene, Ottawa Naturalist 16: 38. 1902; Cirsium macounii (Greene) Petrak</synonym_of_variety_name>
+  <description>
+    <statement id="134.txt-0">
+      <text>Heads often densely crowded at stem tips.</text>
+      <structure id="o873" name="head">
+        <character name="architecture" value="crowded" modifier="often densely" constraint="at stem tips" constraintid="o874" />
+      </structure>
+      <structure id="o874" name="tip" constraint="stem" />
+    </statement>
+    <statement id="134.txt-1">
+      <text>Peduncles 0–5(–10) cm.</text>
+      <structure id="o875" name="peduncle">
+        <character char_type="range_value" name="atypical_size" from="5" to="10" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="0" from_unit="cm" to="5" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="134.txt-2">
+      <text>Involucres 2–4 × 2.5–4 cm, usually densely arachnoid.</text>
+      <structure id="o876" name="involucre">
+        <character char_type="range_value" name="length" from="2" from_unit="cm" to="4" to_unit="cm" />
+        <character char_type="range_value" name="width" from="2.5" from_unit="cm" to="4" to_unit="cm" />
+        <character name="pubescence" value="arachnoid" modifier="usually densely" />
+      </structure>
+    </statement>
+    <statement id="134.txt-3">
+      <text>Phyllary apices widely spreading, long-acicular, spines 5–15 mm.</text>
+      <structure id="o877" name="apex" constraint="phyllary">
+        <character name="orientation" value="spreading" modifier="widely" />
+        <character name="shape" value="long-acicular" />
+      </structure>
+      <structure id="o878" name="spine">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="15" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="134.txt-4">
+      <text>Corollas (15–)18–22 mm, tubes 7–11 mm, throats (4–)5–8.5 mm, lobes (2–)4.5–7 mm;</text>
+      <structure id="o879" name="corolla">
+        <character char_type="range_value" name="atypical_size" from="15" to="18" from_unit="mm" to_unit="mm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="18" from_unit="mm" to="22" to_unit="mm" />
+      </structure>
+      <structure id="o880" name="tube">
+        <character char_type="range_value" name="size" from="7" from_unit="mm" to="11" to_unit="mm" />
+      </structure>
+      <structure id="o881" name="throat">
+        <character char_type="range_value" name="atypical_size" from="4" to="5" from_unit="mm" to_unit="mm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="8.5" to_unit="mm" />
+      </structure>
+      <structure id="o882" name="lobe">
+        <character char_type="range_value" name="atypical_size" from="2" to="4.5" from_unit="mm" to_unit="mm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="4.5" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="134.txt-5">
+      <text>style tips 4–5 mm.</text>
+      <structure id="o883" name="tip" constraint="style">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="134.txt-6">
+      <text>Cypselae dark brown, 5–6.5 mm;</text>
+      <structure id="o884" name="cypsela">
+        <character name="coloration" value="brown" modifier="dark" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="6.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="134.txt-7">
+      <text>pappi 20–25 mm.</text>
+      <structure id="o885" name="pappus">
+        <character char_type="range_value" name="size" from="20" from_unit="mm" to="25" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="134.txt-8">
+      <text>2 n = 34 (as C. edule ).</text>
+      <structure id="o886" name="chromosome">
+        <character name="count" value="34" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <habitat>damp soil</habitat>
+  <habitat>mostly montane meadows</habitat>
+  <habitat>forests</habitat>
+  <habitat>alpine</habitat>
+  <elevation>0–1900 m;</elevation>
+  <ca_distribution>B.C.</ca_distribution>
+  <us_distribution>Alaska</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <discussion>Variety macounii ranges from the coastal mountains of southeastern Alaska and British Columbia to Vancouver Island, the Olympic Peninsula, and northern Cascades of Washington, and the mountains of northwestern Oregon.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

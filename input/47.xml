@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>3.</number>
+  <species_name>Carduus nutans</species_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 821. 1753</place_of_publication>
+  <common_name>Musk or nodding thistle, chardon penché</common_name>
+  <synonym_of_species_name>Carduus macrocephalus Desfontaines; C. macrolepis Petermann; C. nutans subsp. leiophyllus (Petrovic) Stojanov &amp; Stefanoff; C. nutans subsp. macrocephalus (Desfontaines) Nyman; C. nutans var. macrocephalus (Desfontaines) B. Boivin; C. nutans subsp. macrolepis (Petermann) Kazmi; C. nutans var. vestitus (Hallier) B. Boivin; C. thoermeri Weinmann</synonym_of_species_name>
+  <description>
+    <statement id="47.txt-0">
+      <text>Annuals or biennials, 40–200+ cm.</text>
+      <structure id="o9342" name="whole_organism">
+        <character char_type="range_value" name="size" from="40" from_unit="cm" to="200" to_unit="cm" upper_restricted="false" />
+        <character name="life_style" value="annual" />
+        <character name="life_style" value="biennial" />
+      </structure>
+    </statement>
+    <statement id="47.txt-1">
+      <text>Stems glabrous to tomentose;</text>
+      <structure id="o9344" name="stem">
+        <character char_type="range_value" name="pubescence" from="glabrous" to="tomentose" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="tomentose" />
+      </structure>
+    </statement>
+    <statement id="47.txt-2">
+      <text>teeth of wings to 10 mm, wing spines 2–10 mm.</text>
+      <structure id="o9345" name="tooth">
+        <character char_type="range_value" name="size" to="10" to_unit="mm" />
+      </structure>
+      <structure id="o9346" name="wing" />
+      <relation id="r1088" name="part_of" from="o9345" to="o9346" negation="false" />
+      <structure id="o9347" name="spine" constraint="wing">
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="47.txt-3">
+      <text>Leaves:</text>
+      <structure id="o9348" name="leaf" />
+    </statement>
+    <statement id="47.txt-4">
+      <text>basal tapering to winged petioles, blades 10–40 cm, margins 1–2×-pinnately lobed;</text>
+      <structure id="o9349" name="leaf" constraint="basal">
+        <character name="shape" value="tapering" />
+      </structure>
+      <structure id="o9350" name="petiole">
+        <character name="architecture" value="winged" />
+      </structure>
+      <structure id="o9351" name="blade">
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="40" to_unit="cm" />
+      </structure>
+      <structure id="o9352" name="margin">
+        <character name="shape" value="lobed" modifier="1-2×-pinnately" />
+      </structure>
+    </statement>
+    <statement id="47.txt-5">
+      <text>cauline sessile, shorter, margins less divided, glabrous or ± hairy.</text>
+      <structure id="o9353" name="leaf" constraint="cauline">
+        <character name="architecture" value="sessile" />
+        <character name="size" value="shorter" />
+      </structure>
+      <structure id="o9354" name="margin">
+        <character name="shape" value="divided" modifier="less" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="hairy" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="47.txt-6">
+      <text>Heads borne singly or in corymbiform arrays, sometimes a few axillary, at least terminal head usually conspicuously pedunculate, often nodding, 20–40 mm.</text>
+      <structure id="o9355" name="head">
+        <character name="arrangement" value="singly" />
+        <character name="arrangement" value="in corymbiform arrays" />
+        <character name="count" value="few" />
+        <character name="insertion_or_position" value="axillary" />
+        <character name="orientation" value="nodding" modifier="often" />
+        <character char_type="range_value" name="size" from="20" from_unit="mm" to="40" to_unit="mm" />
+      </structure>
+      <structure id="o9356" name="array">
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <relation id="r1089" name="in" from="o9355" to="o9356" negation="false" />
+      <structure id="o9357" name="head" constraint="terminal">
+        <character name="architecture" value="pedunculate" modifier="usually conspicuously" />
+      </structure>
+    </statement>
+    <statement id="47.txt-7">
+      <text>Peduncles 2–30 cm, unwinged distally or throughout, finely tomentose.</text>
+      <structure id="o9358" name="peduncle">
+        <character char_type="range_value" name="size" from="2" from_unit="cm" to="30" to_unit="cm" />
+        <character name="architecture" value="unwinged" modifier="distally" />
+        <character name="architecture" value="unwinged" modifier="distally; throughout" />
+        <character name="pubescence" value="tomentose" modifier="finely" />
+      </structure>
+    </statement>
+    <statement id="47.txt-8">
+      <text>Involucres hemispheric, 20–60 mm × 20–70 mm.</text>
+      <structure id="o9359" name="involucre">
+        <character name="shape" value="hemispheric" />
+        <character char_type="range_value" name="length" from="20" from_unit="mm" to="60" to_unit="mm" />
+        <character char_type="range_value" name="width" from="20" from_unit="mm" to="70" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="47.txt-9">
+      <text>Phyllaries lanceolate to ovate, outer and middle with appressed bases 2–4 mm wide and spreading to reflexed, appendages 2–7 mm wide, proximally glabrous or ± tomentose, distally glabrous to minutely scabridulous , spine tips 1–4 mm, inner phyllaries with unarmed, straight or twisted tips.</text>
+      <structure id="o9360" name="phyllary">
+        <character char_type="range_value" name="shape" from="lanceolate" to="ovate" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="ovate" />
+        <character name="position" value="outer" />
+        <character char_type="range_value" name="orientation" from="spreading" to="reflexed" />
+        <character name="orientation" value="spreading" />
+        <character name="orientation" value="reflexed" />
+      </structure>
+      <structure id="o9361" name="middle" />
+      <structure id="o9362" name="base">
+        <character name="orientation" value="appressed" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+      <relation id="r1090" name="with" from="o9361" to="o9362" negation="false" />
+      <structure id="o9363" name="appendage">
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="7" to_unit="mm" />
+        <character name="pubescence" value="glabrous" modifier="proximally" />
+        <character name="pubescence" value="tomentose" modifier="±" />
+        <character name="pubescence" value="glabrous" modifier="distally" />
+        <character name="relief" value="scabridulous" modifier="minutely" />
+      </structure>
+      <structure id="o9364" name="tip" constraint="spine">
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+      <structure id="o9365" name="phyllary" constraint="inner" />
+      <structure id="o9366" name="tip">
+        <character name="architecture" value="unarmed" />
+        <character name="course" value="straight" />
+        <character name="architecture" value="twisted" />
+      </structure>
+      <relation id="r1091" name="with" from="o9365" to="o9366" negation="false" />
+    </statement>
+    <statement id="47.txt-10">
+      <text>Corollas purple, 15–28 mm, lobes 2.5–3 times longer than throat.</text>
+      <structure id="o9367" name="corolla">
+        <character name="coloration" value="purple" />
+        <character char_type="range_value" name="size" from="15" from_unit="mm" to="28" to_unit="mm" />
+      </structure>
+      <structure id="o9368" name="lobe" />
+    </statement>
+    <statement id="47.txt-11">
+      <text>Cypselae golden to brown, 4–5 mm;</text>
+      <structure id="o9369" name="cypsela">
+        <character char_type="range_value" name="coloration" from="golden" to="brown" />
+        <character name="coloration" value="golden" />
+        <character name="coloration" value="brown" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="47.txt-12">
+      <text>pappus bristles 13–25 mm.</text>
+      <structure id="o9370" name="bristle" constraint="pappus">
+        <character char_type="range_value" name="size" from="13" from_unit="mm" to="25" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="47.txt-13">
+      <text>2 n = 16.</text>
+      <structure id="o9371" name="chromosome">
+        <character name="count" value="16" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>aggressive weed of waste ground</habitat>
+  <habitat>pastures</habitat>
+  <habitat>roadsides</habitat>
+  <habitat>fields</habitat>
+  <elevation>0–3000 m;</elevation>
+  <introduced>introduced;</introduced>
+  <ca_distribution>Alta.</ca_distribution>
+  <ca_distribution>B.C.</ca_distribution>
+  <ca_distribution>Man.</ca_distribution>
+  <ca_distribution>N.B.</ca_distribution>
+  <ca_distribution>Nfld. and Labr. (Nfld.)</ca_distribution>
+  <ca_distribution>N.S.</ca_distribution>
+  <ca_distribution>Ont.</ca_distribution>
+  <ca_distribution>Que.</ca_distribution>
+  <ca_distribution>Sask.</ca_distribution>
+  <us_distribution>Ala.</us_distribution>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Ark.</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>D.C.</us_distribution>
+  <us_distribution>Ga.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Ill.</us_distribution>
+  <us_distribution>Ind.</us_distribution>
+  <us_distribution>Iowa</us_distribution>
+  <us_distribution>Kans.</us_distribution>
+  <us_distribution>Ky.</us_distribution>
+  <us_distribution>La.</us_distribution>
+  <us_distribution>Md.</us_distribution>
+  <us_distribution>Miss.</us_distribution>
+  <us_distribution>Mo.</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>Nebr.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>N.J.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>N.C.</us_distribution>
+  <us_distribution>N.Dak.</us_distribution>
+  <us_distribution>Ohio</us_distribution>
+  <us_distribution>Okla.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <us_distribution>S.C.</us_distribution>
+  <us_distribution>S.Dak.</us_distribution>
+  <us_distribution>Tenn.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Va.</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <us_distribution>W.Va.</us_distribution>
+  <us_distribution>Wis.</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <global_distribution>Eurasia.</global_distribution>
+  <discussion>Although reported from Connecticut, Delaware, Indiana, Massachusetts, Michigan, New Hampshire, Ohio, and Rhode Island, I have seen no specimens of Carduus nutans from those places.</discussion>
+  <discussion>Carduus nutans is part of a variable complex that has been treated as one to several species or as a single species with several subspecies or varieties. The New World plants apparently represent multiple introductions, probably representing more than one of these taxa. Various intermediates are evident, and many specimens cannot be reliably assigned. Insufficient evidence exists to reliably apply the names of the various segregate entities to North American material. In a biosystematic study, two subspecies of C. nutans were differentiated in Canada (A. M. Desrochers et al. 1988). Subspecies nutans was characterized as having arachnoid phylla-ries with the terminal appendage only slightly wider than the appressed phyllary base, moderately to densely pubescent leaf bases, and a head diameter of 1.5–3.5 cm. Subspecies leiocephalus in contrast has glabrous phyllaries with the terminal appendage definitely wider than the base, glabrous or slightly pubescent bases, and heads 1.8–7 cm in diameter. Subspecies nutans was distributed in eastern Canada from Newfoundland to southern Ontario and subsp. leiocephalus from Ontario to British Columbia. Whether the results of the study (Desrochers et al.) are applicable to all the populations of musk thistles occurring in the United States has not been determined.</discussion>
+  <discussion>Hybrids between Carduus acanthoides and C. nutans (C. ×orthocephalus Wallroth) have been documented from Ontario and Wisconsin and probably occur at other sites where the parental taxa co-occur.</discussion>
+  <discussion>Nodding thistle is one of the most serious weeds in North America. It is unpalatable to wildlife and livestock and often forms dense, impenetrable stands in pastures and rangelands. It readily colonizes disturbed sites in many different habitats. A single large terminal head can produce as many as 1200 cypselae. Efforts to control musk thistle infestations with Rhinocyllus conicus, a European seed head weevil, have met with some success, but concerns have been raised because this parasite also attacks native Cirsium species.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

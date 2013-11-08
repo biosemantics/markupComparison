@@ -1,32 +1,50 @@
 package edu.arizona.sirls.etc.markupSimilarity.algorithm.text;
 
 import java.io.IOException;
-import java.util.*;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
 
-import org.apache.commons.math3.linear.*;
+import org.apache.commons.math3.linear.ArrayRealVector;
+import org.apache.commons.math3.linear.RealVector;
 import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.analysis.core.SimpleAnalyzer;
-import org.apache.lucene.document.*;
-import org.apache.lucene.index.*;
-import org.apache.lucene.store.*;
-import org.apache.lucene.util.*;
+import org.apache.lucene.document.Document;
+import org.apache.lucene.document.Field;
+import org.apache.lucene.document.FieldType;
+import org.apache.lucene.index.DirectoryReader;
+import org.apache.lucene.index.IndexReader;
+import org.apache.lucene.index.IndexWriter;
+import org.apache.lucene.index.IndexWriterConfig;
+import org.apache.lucene.index.Terms;
+import org.apache.lucene.index.TermsEnum;
+import org.apache.lucene.store.Directory;
+import org.apache.lucene.store.RAMDirectory;
+import org.apache.lucene.util.BytesRef;
+import org.apache.lucene.util.Version;
 
 import edu.arizona.sirls.etc.markupSimilarity.io.Score;
 
 public class CosineSimilarityCalculator implements ISimilarityCalculator {
 
 	@Override
-	public Score getSimilarity(String a, String b) throws IOException {
-        Directory directory = createIndex(a, b);
-        IndexReader reader = DirectoryReader.open(directory);
-
-        Set<String> terms = new HashSet<>();
-        Map<String, Integer> f1 = getTermFrequencies(reader, 0, terms);
-        Map<String, Integer> f2 = getTermFrequencies(reader, 1, terms);
-        reader.close();
-        RealVector v1 = toRealVector(f1, terms);
-        RealVector v2 = toRealVector(f2, terms);
-        return new Score((v1.dotProduct(v2)) / (v1.getNorm() * v2.getNorm()), this.getClass().toString());
+	public Score getSimilarity(String a, String b) {
+		try {
+	        Directory directory = createIndex(a, b);
+	        IndexReader reader = DirectoryReader.open(directory);
+	
+	        Set<String> terms = new HashSet<>();
+	        Map<String, Integer> f1 = getTermFrequencies(reader, 0, terms);
+	        Map<String, Integer> f2 = getTermFrequencies(reader, 1, terms);
+	        reader.close();
+	        RealVector v1 = toRealVector(f1, terms);
+	        RealVector v2 = toRealVector(f2, terms);
+	        return new Score((v1.dotProduct(v2)) / (v1.getNorm() * v2.getNorm()), this.getClass());
+		} catch(Exception e) {
+			e.printStackTrace();
+		}
+		return new Score(-1.0, this.getClass());
 	}
     
     private Directory createIndex(String a, String b) throws IOException {

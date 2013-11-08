@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>9.</number>
+  <species_name>Cirsium repandum</species_name>
+  <authority>Michaux</authority>
+  <place_of_publication>Fl. Bor.-Amer. 2: 89. 1803</place_of_publication>
+  <common_name>Sand-hill or coastal-plain thistle</common_name>
+  <synonym_of_species_name>Carduus repandus (Michaux) Persoon</synonym_of_species_name>
+  <description>
+    <statement id="60.txt-0">
+      <text>Perennials , 20–80 cm;</text>
+      <structure id="o12447" name="whole_organism">
+        <character char_type="range_value" name="size" from="20" from_unit="cm" to="80" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="60.txt-1">
+      <text>creeping roots deep-seated, sometimes appearing as taprooted biennials.</text>
+      <structure id="o12448" name="root" constraint="creeping">
+        <character name="location" value="deep-seated" />
+      </structure>
+      <structure id="o12449" name="whole_organism" constraint="taprooted">
+        <character name="life_style" value="biennial" />
+      </structure>
+      <relation id="r1444" name="appearing as" from="o12448" to="o12449" negation="false" />
+    </statement>
+    <statement id="60.txt-2">
+      <text>Stems 1–several, spreading to erect, (usually very leafy in distal 1 / 2 ), loosely arachnoid, and villous with jointed, multicellular trichomes;</text>
+      <structure id="o12450" name="stem">
+        <character char_type="range_value" name="count" from="1" to="several" />
+        <character char_type="range_value" name="orientation" from="spreading" to="erect" />
+        <character name="orientation" value="spreading" />
+        <character name="orientation" value="erect" />
+        <character name="pubescence" value="arachnoid" modifier="loosely" />
+        <character name="pubescence" value="villous" constraint="with trichomes" constraintid="o12451" />
+      </structure>
+      <structure id="o12451" name="trichome">
+        <character name="architecture" value="jointed" />
+        <character name="architecture" value="multicellular" />
+      </structure>
+    </statement>
+    <statement id="60.txt-3">
+      <text>branches 0–few from above middle, ascending.</text>
+      <structure id="o12452" name="branch">
+        <character char_type="range_value" name="count" from="0" to="few" constraint="from above middle" constraintid="o12453" />
+        <character name="orientation" value="ascending" />
+      </structure>
+      <structure id="o12453" name="middle" />
+    </statement>
+    <statement id="60.txt-4">
+      <text>Leaves linear to oblong or oblanceolate, 6–16 × 1–3.5 cm, unlobed to sinuate-dentate or shallowly pinnatifid, main spines 1–4 mm, fine, faces ± green, shaggy-villous with septate trichomes, abaxial loosely arachnoid when young;</text>
+      <structure id="o12454" name="leaf">
+        <character char_type="range_value" name="shape" from="linear" to="oblong or oblanceolate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="oblong" />
+        <character name="shape" value="oblanceolate" />
+        <character char_type="range_value" name="length" from="6" from_unit="cm" to="16" to_unit="cm" />
+        <character char_type="range_value" name="width" from="1" from_unit="cm" to="3.5" to_unit="cm" />
+        <character char_type="range_value" name="shape" from="unlobed" to="sinuate-dentate or shallowly pinnatifid" />
+        <character name="shape" value="unlobed" />
+        <character name="shape" value="sinuate-dentate" />
+        <character name="shape" value="pinnatifid" modifier="shallowly" />
+      </structure>
+      <structure id="o12455" name="spine" constraint="main">
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="4" to_unit="mm" />
+        <character name="texture" value="fine" />
+      </structure>
+      <structure id="o12456" name="face">
+        <character name="coloration" value="green" modifier="±" />
+        <character name="pubescence" value="shaggy-villous" constraint="with trichomes" constraintid="o12457" />
+        <character name="insertion_or_position" value="abaxial" modifier="loosely" />
+        <character name="pubescence" value="arachnoid" />
+        <character name="age" value="young" modifier="arachnoid" />
+      </structure>
+      <structure id="o12457" name="trichome">
+        <character name="architecture" value="septate" />
+      </structure>
+    </statement>
+    <statement id="60.txt-5">
+      <text>basal and proximal cauline usually absent at time of flowering;</text>
+      <structure id="o12458" name="leaf" constraint="basal and proximal cauline">
+        <character name="presence" value="absent" modifier="usually" constraint="at time" constraintid="o12459" />
+      </structure>
+      <structure id="o12459" name="time" constraint="of flowering" />
+    </statement>
+    <statement id="60.txt-6">
+      <text>mid and distal nearly uniform in size or gradually reduced, bases clasping;</text>
+      <structure id="o12460" name="leaf" constraint="mid and distal">
+        <character name="variability" value="uniform" modifier="nearly; in size" />
+        <character name="size" value="reduced" modifier="gradually" />
+      </structure>
+      <structure id="o12461" name="base">
+        <character name="architecture" value="clasping" />
+      </structure>
+    </statement>
+    <statement id="60.txt-7">
+      <text>distalmost cauline ± bractlike.</text>
+      <structure id="o12462" name="leaf" constraint="distalmost cauline">
+        <character name="shape" value="bractlike" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="60.txt-8">
+      <text>Heads 1–5, in corymbiform arrays.</text>
+      <structure id="o12463" name="head">
+        <character char_type="range_value" name="count" from="1" to="5" />
+      </structure>
+      <structure id="o12464" name="array">
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <relation id="r1445" name="in" from="o12463" to="o12464" negation="false" />
+    </statement>
+    <statement id="60.txt-9">
+      <text>Peduncles 0–2 cm.</text>
+      <structure id="o12465" name="peduncle">
+        <character char_type="range_value" name="size" from="0" from_unit="cm" to="2" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="60.txt-10">
+      <text>Involucres ovoid or cylindric to campanulate, 2–4 × 1.5–4 cm, loosely arachnoid, ± glabrate.</text>
+      <structure id="o12466" name="involucre">
+        <character char_type="range_value" name="shape" from="cylindric" to="campanulate" />
+        <character name="shape" value="ovoid" />
+        <character name="shape" value="cylindric" />
+        <character name="shape" value="campanulate" />
+        <character char_type="range_value" name="length" from="2" from_unit="cm" to="4" to_unit="cm" />
+        <character char_type="range_value" name="width" from="1.5" from_unit="cm" to="4" to_unit="cm" />
+        <character name="pubescence" value="arachnoid" modifier="loosely" />
+        <character name="pubescence" value="glabrate" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="60.txt-11">
+      <text>Phyllaries in 6–9 series, imbricate, lanceolate (outer) to linear (inner), abaxial faces with glutinous ridge, outer and middle tightly appressed, bodies scabrous or spinulose, spines erect or weakly ascending, 1–4 mm;</text>
+      <structure id="o12467" name="phyllary">
+        <character name="aestivation_or_arrangement" value="imbricate" />
+        <character char_type="range_value" name="shape" from="lanceolate" to="linear" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="linear" />
+      </structure>
+      <structure id="o12468" name="series">
+        <character char_type="range_value" name="count" from="6" to="9" />
+      </structure>
+      <relation id="r1446" name="in" from="o12467" to="o12468" negation="false" />
+      <structure id="o12469" name="face" constraint="abaxial">
+        <character name="position" value="outer" />
+      </structure>
+      <structure id="o12470" name="ridge">
+        <character name="coating_or_texture" value="glutinous" />
+      </structure>
+      <relation id="r1447" name="with" from="o12469" to="o12470" negation="false" />
+      <structure id="o12471" name="middle">
+        <character name="orientation" value="appressed" modifier="tightly" />
+      </structure>
+      <structure id="o12472" name="body">
+        <character name="pubescence_or_relief" value="scabrous" />
+        <character name="shape_or_architecture" value="spinulose" />
+      </structure>
+      <structure id="o12473" name="spine">
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="ascending" modifier="weakly" />
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="60.txt-12">
+      <text>apices of inner phyllaries long-acuminate, spineless.</text>
+      <structure id="o12474" name="apex">
+        <character name="shape" value="long-acuminate" />
+        <character name="architecture" value="spineless" />
+      </structure>
+      <structure id="o12475" name="phyllary" constraint="inner" />
+      <relation id="r1448" name="part_of" from="o12474" to="o12475" negation="false" />
+    </statement>
+    <statement id="60.txt-13">
+      <text>Corollas light purple, 33–40 mm, tubes 14–15 mm, throats 12–15 mm, lobes 7–9 mm;</text>
+      <structure id="o12476" name="corolla">
+        <character name="coloration" value="purple" modifier="light" />
+        <character char_type="range_value" name="size" from="33" from_unit="mm" to="40" to_unit="mm" />
+      </structure>
+      <structure id="o12477" name="tube">
+        <character char_type="range_value" name="size" from="14" from_unit="mm" to="15" to_unit="mm" />
+      </structure>
+      <structure id="o12478" name="throat">
+        <character char_type="range_value" name="size" from="12" from_unit="mm" to="15" to_unit="mm" />
+      </structure>
+      <structure id="o12479" name="lobe">
+        <character char_type="range_value" name="size" from="7" from_unit="mm" to="9" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="60.txt-14">
+      <text>style tips 4.5–6 mm.</text>
+      <structure id="o12480" name="tip" constraint="style">
+        <character char_type="range_value" name="size" from="4.5" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="60.txt-15">
+      <text>Cypselae light brown, 3.5–4 mm, apical collars yellowish, ca. 0.8 mm;</text>
+      <structure id="o12481" name="cypsela">
+        <character name="coloration" value="brown" modifier="light" />
+        <character char_type="range_value" name="size" from="3.5" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+      <structure id="o12482" name="collar" constraint="apical">
+        <character name="coloration" value="yellowish" />
+        <character name="size" value="0.8" unit="mm" />
+      </structure>
+    </statement>
+    <statement id="60.txt-16">
+      <text>pappi 15–30 mm.</text>
+      <structure id="o12483" name="pappus">
+        <character char_type="range_value" name="size" from="15" from_unit="mm" to="30" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="60.txt-17">
+      <text>2 n = 30.</text>
+      <structure id="o12484" name="chromosome">
+        <character name="count" value="30" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <habitat>sandhills</habitat>
+  <habitat>pine barrens</habitat>
+  <habitat>roadsides</habitat>
+  <elevation>0–150 m;</elevation>
+  <us_distribution>Ga.</us_distribution>
+  <us_distribution>N.C.</us_distribution>
+  <us_distribution>S.C.</us_distribution>
+  <us_distribution>Va.</us_distribution>
+  <discussion>Cirsium repandum occurs on the Atlantic coastal plain. R. J. Moore and C. Frankton (1969) suggested that Cirsium repandum originated through ancient hybridization between C. pumilum var. pumilum and C. horridulum. They noted that an artificial hybrid (2n = 32) between C. repandum (2n = 30) and C. horridulum (2n = 34) had a mosaic of features of the parental taxa.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

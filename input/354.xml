@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>7.</number>
+  <species_name>Lactuca virosa</species_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 795. 1753</place_of_publication>
+  <description>
+    <statement id="354.txt-0">
+      <text>Biennials, 20–120(–200+) cm.</text>
+      <structure id="o6604" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="120" to="200" from_unit="cm" to_unit="cm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="20" from_unit="cm" to="120" to_unit="cm" />
+        <character name="life_style" value="biennial" />
+      </structure>
+    </statement>
+    <statement id="354.txt-2">
+      <text>blades of undivided cauline leaves obovate to spatulate, margins denticulate, midribs usually prickly-setose.</text>
+      <structure id="o6605" name="blade">
+        <character char_type="range_value" name="shape" from="obovate" to="spatulate" />
+        <character name="shape" value="obovate" />
+        <character name="shape" value="spatulate" />
+      </structure>
+      <structure id="o6606" name="leaf" constraint="undivided cauline" />
+      <relation id="r821" name="part_of" from="o6605" to="o6606" negation="false" />
+      <structure id="o6607" name="margin">
+        <character name="shape" value="denticulate" />
+      </structure>
+      <structure id="o6608" name="midrib">
+        <character name="pubescence" value="prickly-setose" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="354.txt-3">
+      <text>Heads in paniculiform arrays.</text>
+      <structure id="o6609" name="head" />
+      <structure id="o6610" name="array">
+        <character name="architecture" value="paniculiform" />
+      </structure>
+      <relation id="r822" name="in" from="o6609" to="o6610" negation="false" />
+    </statement>
+    <statement id="354.txt-4">
+      <text>Involucres 12–15 mm.</text>
+      <structure id="o6611" name="involucre">
+        <character char_type="range_value" name="size" from="12" from_unit="mm" to="15" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="354.txt-5">
+      <text>Phyllaries usually reflexed in fruit.</text>
+      <structure id="o6612" name="phyllary">
+        <character name="orientation" value="reflexed" modifier="usually" constraint="in fruit" constraintid="o6613" />
+      </structure>
+      <structure id="o6613" name="fruit" />
+    </statement>
+    <statement id="354.txt-6">
+      <text>Florets 10–15;</text>
+      <structure id="o6614" name="floret">
+        <character char_type="range_value" name="count" from="10" to="15" />
+      </structure>
+    </statement>
+    <statement id="354.txt-7">
+      <text>corollas yellow, usually deliquescent.</text>
+      <structure id="o6615" name="corolla">
+        <character name="coloration" value="yellow" />
+        <character name="architecture_or_texture" value="deliquescent" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="354.txt-8">
+      <text>Cypselae:</text>
+      <structure id="o6616" name="cypsela" />
+    </statement>
+    <statement id="354.txt-9">
+      <text>bodies purplish to blackish, ± flattened, ± elliptic, 3.5–4 mm, beaks ± filiform, 2.5–3.5 mm, faces 5–7-nerved;</text>
+      <structure id="o6617" name="body">
+        <character char_type="range_value" name="coloration" from="purplish" to="blackish" />
+        <character name="coloration" value="purplish" />
+        <character name="coloration" value="blackish" />
+        <character name="shape" value="flattened" modifier="±" />
+        <character name="arrangement_or_shape" value="elliptic" modifier="±" />
+        <character char_type="range_value" name="size" from="3.5" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+      <structure id="o6618" name="beak">
+        <character name="shape" value="filiform" modifier="±" />
+        <character char_type="range_value" name="size" from="2.5" from_unit="mm" to="3.5" to_unit="mm" />
+      </structure>
+      <structure id="o6619" name="face">
+        <character name="architecture" value="5-7-nerved" />
+      </structure>
+    </statement>
+    <statement id="354.txt-10">
+      <text>pappi white, 5–6 mm.</text>
+      <structure id="o6620" name="pappus">
+        <character name="coloration" value="white" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="354.txt-11">
+      <text>2 n = 18.</text>
+      <structure id="o6621" name="chromosome">
+        <character name="count" value="18" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>may</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>disturbed sites</habitat>
+  <elevation>10–400 m;</elevation>
+  <introduced>introduced;</introduced>
+  <us_distribution>Ala.</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>D.C.</us_distribution>
+  <global_distribution>Europe.</global_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

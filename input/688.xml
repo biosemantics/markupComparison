@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>9.</number>
+  <species_name>Pseudognaphalium helleri</species_name>
+  <authority>(Britton) Anderberg</authority>
+  <place_of_publication>Opera Bot. 104: 147. 1991</place_of_publication>
+  <common_name>Heller’s rabbit-tobacco</common_name>
+  <synonym_of_species_name>Gnaphalium helleri Britton, Bull. Torrey Bot. Club 20: 280. 1893; G. obtusifolium Linnaeus var. helleri (Britton) S. F. Blake</synonym_of_species_name>
+  <description>
+    <statement id="688.txt-0">
+      <text>Annuals (fragrant), 30–100 cm;</text>
+    </statement>
+    <statement id="688.txt-1">
+      <text>fibrous-rooted (roots relatively thick and lignescent).</text>
+      <structure id="o14342" name="whole_organism">
+        <character char_type="range_value" name="size" from="30" from_unit="cm" to="100" to_unit="cm" />
+        <character name="life_style" value="annual" />
+        <character name="architecture" value="fibrous-rooted" />
+      </structure>
+    </statement>
+    <statement id="688.txt-2">
+      <text>Stems greenish, glandular-villous (without persistent tomentum, stipitate glands mostly 0.3–1 mm, often variable, stalks broadened toward bases, about equaling gland widths).</text>
+      <structure id="o14343" name="stem">
+        <character name="coloration" value="greenish" />
+        <character name="pubescence" value="glandular-villous" />
+      </structure>
+    </statement>
+    <statement id="688.txt-3">
+      <text>Leaf blades mostly oblong-lanceolate, 2.5–7 cm × 4–20 mm, bases not clasping, not decurrent, margins flat, faces bicolor, abaxial white to gray with lightly persistent tomentum, adaxial green, both minutely stipitate-glandular.</text>
+      <structure id="o14344" name="blade" constraint="leaf">
+        <character name="shape" value="oblong-lanceolate" modifier="mostly" />
+        <character char_type="range_value" name="length" from="2.5" from_unit="cm" to="7" to_unit="cm" />
+        <character char_type="range_value" name="width" from="4" from_unit="mm" to="20" to_unit="mm" />
+      </structure>
+      <structure id="o14345" name="base">
+        <character name="architecture" value="clasping" modifier="not" />
+        <character name="shape" value="decurrent" modifier="not" />
+      </structure>
+      <structure id="o14346" name="margin">
+        <character name="shape" value="flat" />
+      </structure>
+      <structure id="o14347" name="face">
+        <character name="coloration" value="bicolor" />
+        <character name="insertion_or_position" value="abaxial" />
+        <character name="coloration" value="white" />
+        <character name="coloration" value="gray" constraint="with tomentum" constraintid="o14348" />
+        <character name="insertion_or_position" value="adaxial" />
+        <character name="coloration" value="green" />
+        <character name="architecture_or_exudation_or_pubescence" value="stipitate-glandular" modifier="minutely" />
+      </structure>
+      <structure id="o14348" name="tomentum" constraint="persistent" />
+    </statement>
+    <statement id="688.txt-4">
+      <text>Heads in corymbiform arrays.</text>
+      <structure id="o14349" name="head" />
+      <structure id="o14350" name="array">
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <relation id="r1532" name="in" from="o14349" to="o14350" negation="false" />
+    </statement>
+    <statement id="688.txt-5">
+      <text>Involucres campanulate, 6–7 mm.</text>
+      <structure id="o14351" name="involucre">
+        <character name="shape" value="campanulate" />
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="688.txt-6">
+      <text>Phyllaries in 4–6 series, white (opaque, shiny), ovate to ovate-oblong or oblong, ± tomentose.</text>
+      <structure id="o14352" name="phyllary">
+        <character name="coloration" value="white" />
+        <character char_type="range_value" name="shape" from="ovate" to="ovate-oblong or oblong" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="ovate-oblong" />
+        <character name="shape" value="oblong" />
+        <character name="pubescence" value="tomentose" modifier="±" />
+      </structure>
+      <structure id="o14353" name="series">
+        <character char_type="range_value" name="count" from="4" to="6" />
+      </structure>
+      <relation id="r1533" name="in" from="o14352" to="o14353" negation="false" />
+    </statement>
+    <statement id="688.txt-7">
+      <text>Pistillate florets 83–107.</text>
+      <structure id="o14354" name="floret" constraint="pistillate">
+        <character char_type="range_value" name="count" from="83" to="107" />
+      </structure>
+    </statement>
+    <statement id="688.txt-8">
+      <text>Bisexual florets 9–15.</text>
+      <structure id="o14355" name="floret" constraint="bisexual">
+        <character char_type="range_value" name="count" from="9" to="15" />
+      </structure>
+    </statement>
+    <statement id="688.txt-9">
+      <text>Cypselae ridged, smooth.</text>
+      <structure id="o14356" name="cypsela">
+        <character name="shape" value="ridged" />
+        <character name="architecture_or_relief" value="smooth" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <flowering_time>nov</flowering_time>
+  <habitat>dry woods and openings</habitat>
+  <habitat>clay and sandy clay</habitat>
+  <habitat>sand hills</habitat>
+  <elevation>10–300 m;</elevation>
+  <us_distribution>Ala.</us_distribution>
+  <us_distribution>Ark.</us_distribution>
+  <us_distribution>Fla.</us_distribution>
+  <us_distribution>Ga.</us_distribution>
+  <us_distribution>La.</us_distribution>
+  <us_distribution>Miss.</us_distribution>
+  <us_distribution>N.C.</us_distribution>
+  <us_distribution>Okla.</us_distribution>
+  <us_distribution>S.C.</us_distribution>
+  <us_distribution>Tenn.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <us_distribution>Va.</us_distribution>
+  <discussion>Pseudognaphalium helleri and P. micradenium are similar to P. obtusifolium in most features; both differ in their glandular stems without the persistent whitish tomentum of P. obtusifolium.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>56.</number>
+  <genus_name>RHAGADIOLUS</genus_name>
+  <authority>Jussieu</authority>
+  <place_of_publication>Gen. Pl., 168. 1789</place_of_publication>
+  <conserved>name conserved ·</conserved>
+  <common_name />
+  <derivation>Greek rhagado , crack or split, and - olus, diminutive, perhaps alluding to gaps between margins of enfolding phyllaries</derivation>
+  <author_of_tribe_genus>John L. Strother</author_of_tribe_genus>
+  <description>
+    <statement id="440.txt-0">
+      <text>Annuals, 5–60+ cm;</text>
+    </statement>
+    <statement id="440.txt-1">
+      <text>taprooted.</text>
+      <structure id="o8735" name="whole_organism">
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="60" to_unit="cm" upper_restricted="false" />
+        <character name="life_style" value="annual" />
+        <character name="architecture" value="taprooted" />
+      </structure>
+    </statement>
+    <statement id="440.txt-2">
+      <text>Stems usually 1, erect, branched distally, glabrous.</text>
+      <structure id="o8736" name="stem">
+        <character name="count" value="1" modifier="usually" />
+        <character name="orientation" value="erect" />
+        <character name="architecture_or_shape" value="branched" modifier="distally" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="440.txt-3">
+      <text>Leaves basal and cauline (mostly cauline at flowering);</text>
+      <structure id="o8737" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+      </structure>
+    </statement>
+    <statement id="440.txt-4">
+      <text>basal sessile or ± petiolate, distal ± sessile;</text>
+      <structure id="o8738" name="leaf" constraint="basal">
+        <character name="architecture" value="sessile" />
+        <character name="architecture" value="petiolate" modifier="±" />
+      </structure>
+      <structure id="o8739" name="leaf" constraint="distal">
+        <character name="architecture" value="sessile" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="440.txt-5">
+      <text>blades ovate-lanceolate to lanceolate or linear (often runcinate), margins entire or dentate to pinnately lobed (faces glabrous or ± hispid).</text>
+      <structure id="o8740" name="blade">
+        <character char_type="range_value" name="shape" from="ovate-lanceolate" to="lanceolate or linear" />
+        <character name="shape" value="ovate-lanceolate" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="linear" />
+      </structure>
+      <structure id="o8741" name="margin">
+        <character char_type="range_value" name="shape" from="dentate" to="pinnately lobed" />
+        <character name="shape" value="entire" />
+        <character name="shape" value="dentate" />
+        <character name="shape" value="lobed" modifier="pinnately" />
+      </structure>
+    </statement>
+    <statement id="440.txt-6">
+      <text>Heads in ± corymbiform arrays (terminal heads often surpassed by others).</text>
+      <structure id="o8742" name="head" />
+      <structure id="o8743" name="array">
+        <character name="architecture" value="corymbiform" modifier="±" />
+      </structure>
+      <relation id="r1029" name="in" from="o8742" to="o8743" negation="false" />
+    </statement>
+    <statement id="440.txt-7">
+      <text>Peduncles not inflated, rarely bracteolate.</text>
+      <structure id="o8744" name="peduncle">
+        <character name="shape" value="inflated" modifier="not" />
+        <character name="architecture" value="bracteolate" modifier="rarely" />
+      </structure>
+    </statement>
+    <statement id="440.txt-8">
+      <text>Calyculi of 5, ovate to deltate bractlets.</text>
+      <structure id="o8745" name="calyculus" />
+      <structure id="o8746" name="bractlet">
+        <character name="count" value="5" />
+        <character char_type="range_value" name="shape" from="ovate" to="deltate" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="deltate" />
+      </structure>
+      <relation id="r1030" name="consist_of" from="o8745" to="o8746" negation="false" />
+    </statement>
+    <statement id="440.txt-9">
+      <text>Involucres campanulate to cylindric, 2–4+ mm diam. (larger in fruit).</text>
+      <structure id="o8747" name="involucre">
+        <character char_type="range_value" name="shape" from="campanulate" to="cylindric" />
+        <character name="shape" value="campanulate" />
+        <character name="shape" value="cylindric" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="4" to_unit="mm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="440.txt-10">
+      <text>Phyllaries (3–)5–8 in 1 series (closely enfolding ovaries/cypselae of subtended florets; ± patent in fruit), linear, equal, margins often scarious, apices acuminate (abaxially glabrous or ± hispid to scabrous).</text>
+      <structure id="o8748" name="phyllary">
+        <character char_type="range_value" name="atypical_count" from="3" to="5" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="5" to="8" constraint="in series" constraintid="o8749" />
+        <character name="arrangement_or_shape" value="linear" />
+        <character name="size" value="equal" />
+      </structure>
+      <structure id="o8749" name="series">
+        <character name="count" value="1" />
+      </structure>
+      <structure id="o8750" name="margin">
+        <character name="texture" value="scarious" modifier="often" />
+      </structure>
+      <structure id="o8751" name="apex">
+        <character name="shape" value="acuminate" />
+      </structure>
+    </statement>
+    <statement id="440.txt-11">
+      <text>Receptacles ± flat, smooth or ± pitted, glabrous, epaleate.</text>
+      <structure id="o8752" name="receptacle">
+        <character name="shape" value="flat" modifier="±" />
+        <character name="architecture_or_relief" value="smooth" />
+        <character name="relief" value="pitted" modifier="±" />
+        <character name="pubescence" value="glabrous" />
+        <character name="architecture" value="epaleate" />
+      </structure>
+    </statement>
+    <statement id="440.txt-12">
+      <text>Florets 5–6(–10+);</text>
+      <structure id="o8753" name="floret">
+        <character char_type="range_value" name="atypical_count" from="6" to="10" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="5" to="6" />
+      </structure>
+    </statement>
+    <statement id="440.txt-13">
+      <text>corollas yellow.</text>
+      <structure id="o8754" name="corolla">
+        <character name="coloration" value="yellow" />
+      </structure>
+    </statement>
+    <statement id="440.txt-14">
+      <text>Cypselae brownish, heteromorphic;</text>
+      <structure id="o8755" name="cypsela">
+        <character name="coloration" value="brownish" />
+        <character name="architecture" value="heteromorphic" />
+      </structure>
+    </statement>
+    <statement id="440.txt-15">
+      <text>outer (tardily falling with enfolding phyllary) ± terete, narrowed distally, straight to arcuate, not beaked, ribs 0, faces glabrous;</text>
+      <structure id="o8756" name="cypsela" constraint="outer">
+        <character name="shape" value="terete" modifier="±" />
+        <character name="size" value="narrowed" modifier="distally" />
+        <character name="course" value="straight" />
+        <character name="course_or_shape" value="arcuate" />
+        <character name="shape" value="beaked" modifier="not" />
+      </structure>
+      <structure id="o8757" name="rib">
+        <character name="count" value="0" />
+      </structure>
+      <structure id="o8758" name="face">
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="440.txt-16">
+      <text>inner (readily falling) terete, straight to ± coiled, faces glabrous or closely hirtellous;</text>
+      <structure id="o8759" name="cypsela" constraint="inner">
+        <character name="shape" value="terete" />
+        <character name="course" value="straight" />
+        <character name="shape" value="coiled" modifier="±" />
+      </structure>
+      <structure id="o8760" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="hirtellous" modifier="closely" />
+      </structure>
+    </statement>
+    <statement id="440.txt-17">
+      <text>pappi 0.</text>
+      <structure id="o8761" name="pappus">
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+    <statement id="440.txt-18">
+      <text>x = 5.</text>
+      <structure id="o8762" name="chromosome">
+        <character name="count" value="5" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species 1 or 2 (1 in the flora):</number_of_infrataxa>
+  <introduced>introduced;</introduced>
+  <general_distribution>Europe</general_distribution>
+  <general_distribution>Africa.</general_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

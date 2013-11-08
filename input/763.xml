@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>3.</number>
+  <species_name>Psilocarphus oregonus</species_name>
+  <authority>Nuttall</authority>
+  <place_of_publication>Trans. Amer. Philos. Soc., n. s. 7: 341. 1840</place_of_publication>
+  <common_name>Oregon woollyheads or woolly marbles</common_name>
+  <description>
+    <statement id="763.txt-0">
+      <text>Plants silvery to whitish, densely sericeous to somewhat lanuginose.</text>
+      <structure id="o16065" name="whole_organism">
+        <character char_type="range_value" name="coloration" from="silvery" to="whitish" />
+        <character name="coloration" value="silvery" />
+        <character name="coloration" value="whitish" />
+        <character char_type="range_value" name="pubescence" from="densely sericeous" to="somewhat lanuginose" />
+        <character name="pubescence" value="sericeous" modifier="densely" />
+        <character name="pubescence" value="lanuginose" modifier="somewhat" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="763.txt-1">
+      <text>Stems (1–)2–10, ascending to ± prostrate;</text>
+      <structure id="o16066" name="stem">
+        <character char_type="range_value" name="atypical_count" from="1" to="2" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="2" to="10" />
+        <character name="orientation" value="ascending" />
+        <character name="orientation" value="prostrate" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="763.txt-2">
+      <text>proximal internode lengths mostly 0.5–1.5(–2) times leaf lengths.</text>
+      <structure id="o16067" name="internode" constraint="proximal">
+        <character char_type="range_value" name="atypical_size" from="1.5" to="2" from_inclusive="false" modifier="mostly" constraint="times leaf" constraintid="o16068" />
+        <character char_type="range_value" name="size" from="0.5" to="1.5" modifier="mostly" constraint="times leaf" constraintid="o16068" />
+      </structure>
+      <structure id="o16068" name="leaf" />
+    </statement>
+    <statement id="763.txt-4">
+      <text>Heads ± spheric, largest 4–6 mm.</text>
+      <structure id="o16069" name="head">
+        <character name="shape" value="spheric" modifier="±" />
+        <character name="size" value="largest" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="763.txt-5">
+      <text>Receptacles unlobed.</text>
+      <structure id="o16070" name="receptacle">
+        <character name="shape" value="unlobed" />
+      </structure>
+    </statement>
+    <statement id="763.txt-6">
+      <text>Pistillate paleae individually visible through indument, longest mostly 1.5–2.7 mm.</text>
+      <structure id="o16071" name="palea" constraint="pistillate">
+        <character name="manifestation" value="visible" modifier="individually" constraint="through indument" constraintid="o16072" />
+        <character name="size" value="longest" modifier="mostly" />
+        <character char_type="range_value" name="size" from="1.5" from_unit="mm" to="2.7" to_unit="mm" />
+      </structure>
+      <structure id="o16072" name="indument" />
+    </statement>
+    <statement id="763.txt-7">
+      <text>Staminate corollas 0.7–1.4 mm, lobes mostly 4.</text>
+      <structure id="o16073" name="corolla" constraint="staminate">
+        <character char_type="range_value" name="size" from="0.7" from_unit="mm" to="1.4" to_unit="mm" />
+      </structure>
+      <structure id="o16074" name="lobe">
+        <character name="count" value="4" modifier="mostly" />
+      </structure>
+    </statement>
+    <statement id="763.txt-8">
+      <text>Cypselae narrowly ± cylindric, terete, 0.6–1.2 mm.</text>
+      <structure id="o16075" name="cypsela">
+        <character name="shape" value="cylindric" modifier="narrowly ±" />
+        <character name="shape" value="terete" />
+        <character char_type="range_value" name="size" from="0.6" from_unit="mm" to="1.2" to_unit="mm" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>seasonally inundated or flooded clay soils (vernal pool margins</habitat>
+  <habitat>drainages</habitat>
+  <habitat>moist rocky slopes</habitat>
+  <elevation>10–1800(–2400) m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <discussion>Psilocarphus oregonus occurs from west-central California through most of Oregon to southeastern Washington, western Idaho, and northern Nevada. Relatively narrow-leaved, montane forms of P. tenellus account for reports of P. oregonus from the southern Sierra Nevada to Baja California; further study may show these to be intermediates between the two taxa.</discussion>
+  <discussion>A malformed plant collected in Merced County, California, appears to have been a sterile hybrid between P. oregonus and Hesperevax caulescens (J. D. Morefield 1992c).</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

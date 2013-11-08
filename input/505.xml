@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>6.</number>
+  <species_name>Agoseris retrorsa</species_name>
+  <authority>(Bentham) Greene</authority>
+  <place_of_publication>Pittonia 2: 178. 1891</place_of_publication>
+  <common_name>Spearleaf agoseris</common_name>
+  <synonym_of_species_name>Macrorhynchus retrorsus Bentham, Pl. Hartw., 320. 1849; M. angustifolius Kellogg</synonym_of_species_name>
+  <description>
+    <statement id="505.txt-0">
+      <text>Stems 0.</text>
+      <structure id="o10240" name="stem">
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+    <statement id="505.txt-1">
+      <text>Leaves erect to ascending;</text>
+      <structure id="o10241" name="leaf">
+        <character char_type="range_value" name="orientation" from="erect" to="ascending" />
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="ascending" />
+      </structure>
+    </statement>
+    <statement id="505.txt-2">
+      <text>petioles often purplish;</text>
+      <structure id="o10242" name="petiole">
+        <character name="coloration" value="purplish" modifier="often" />
+      </structure>
+    </statement>
+    <statement id="505.txt-3">
+      <text>blades linear to linear-elliptic, (7–)10–30(–36) cm, margins usually lobed to pinnatifid, rarely toothed or entire, lobes (4–)7–9(–11) pairs, linear to lanceolate, mostly retrorse, sometimes spreading, lobules often present, faces sparsely villous to tomentose.</text>
+      <structure id="o10243" name="blade">
+        <character name="arrangement_or_shape" value="linear" />
+        <character name="arrangement_or_shape" value="linear-elliptic" />
+        <character char_type="range_value" name="atypical_size" from="7" to="10" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_size" from="30" to="36" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="30" to_unit="cm" />
+      </structure>
+      <structure id="o10244" name="margin">
+        <character char_type="range_value" name="shape" from="usually lobed" to="pinnatifid , rarely toothed or entire" />
+        <character name="shape" value="lobed" modifier="usually" />
+        <character name="shape" value="pinnatifid" modifier="usually" />
+        <character name="shape" value="toothed" modifier="rarely" />
+        <character name="shape" value="entire" modifier="rarely" />
+      </structure>
+      <structure id="o10245" name="lobe">
+        <character char_type="range_value" name="atypical_count" from="4" to="7" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_count" from="9" to="11" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="7" to="9" />
+        <character char_type="range_value" name="shape" from="linear" to="lanceolate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="lanceolate" />
+        <character name="orientation" value="retrorse" modifier="mostly" />
+        <character name="orientation" value="spreading" modifier="sometimes" />
+      </structure>
+      <structure id="o10246" name="lobule">
+        <character name="presence" value="present" modifier="often" />
+      </structure>
+      <structure id="o10247" name="face">
+        <character char_type="range_value" name="pubescence" from="sparsely villous" to="tomentose" />
+        <character name="pubescence" value="villous" modifier="sparsely" />
+        <character name="pubescence" value="tomentose" modifier="sparsely" />
+      </structure>
+    </statement>
+    <statement id="505.txt-4">
+      <text>Peduncles elongating after flowering, 15–65(–94) cm in fruit, ± glabrate, or apically villous to tomentose, eglandular.</text>
+      <structure id="o10248" name="peduncle">
+        <character name="size" value="elongating" constraint="after flowering, 15-65(-94) cm in fruit" constraintid="o10249" />
+        <character char_type="range_value" name="pubescence" from="apically villous" to="tomentose" modifier="±" />
+        <character name="pubescence" value="glabrate" modifier="±" />
+        <character name="pubescence" value="villous" modifier="apically" />
+        <character name="pubescence" value="tomentose" modifier="apically" />
+        <character name="architecture" value="eglandular" />
+      </structure>
+      <structure id="o10249" name="fruit" />
+    </statement>
+    <statement id="505.txt-5">
+      <text>Involucres cylindric to obconic or campanulate, 4–6 cm in fruit.</text>
+      <structure id="o10250" name="involucre">
+        <character char_type="range_value" name="shape" from="cylindric" to="obconic or campanulate" />
+        <character name="shape" value="cylindric" />
+        <character name="shape" value="obconic" />
+        <character name="shape" value="campanulate" />
+        <character char_type="range_value" name="size" from="4" from_unit="cm" to="6" to_unit="cm" constraint="in fruit" constraintid="o10251" />
+      </structure>
+      <structure id="o10251" name="fruit" />
+    </statement>
+    <statement id="505.txt-6">
+      <text>Phyllaries in 3–5 series, medially rosy purple or all green, lacking darker spots or midstripes, margins ciliate to tomentose, faces glabrous or villous, eglandular;</text>
+      <structure id="o10252" name="phyllary">
+        <character name="coloration" value="purple" modifier="medially;rosy" />
+        <character name="coloration" value="green" />
+      </structure>
+      <structure id="o10253" name="series">
+        <character char_type="range_value" name="count" from="3" to="5" />
+      </structure>
+      <relation id="r1179" name="in" from="o10252" to="o10253" negation="false" />
+      <structure id="o10254" name="spot">
+        <character name="presence" value="lacking" />
+        <character name="coloration" value="darker" />
+      </structure>
+      <structure id="o10255" name="midstripe" />
+      <structure id="o10256" name="margin">
+        <character name="architecture_or_shape" value="ciliate" />
+        <character name="pubescence" value="tomentose" />
+      </structure>
+      <structure id="o10257" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="villous" />
+        <character name="architecture" value="eglandular" />
+      </structure>
+    </statement>
+    <statement id="505.txt-7">
+      <text>outer erect to spreading, adaxially glabrous or tomentose;</text>
+      <structure id="o10258" name="phyllary" constraint="outer">
+        <character name="pubescence" value="glabrous" modifier="adaxially" />
+        <character name="pubescence" value="tomentose" modifier="adaxially" />
+      </structure>
+    </statement>
+    <statement id="505.txt-8">
+      <text>inner erect, often precociously elongating and much surpassing outer.</text>
+      <structure id="o10259" name="phyllary" constraint="inner">
+        <character name="orientation" value="erect" />
+        <character name="size" value="elongating" modifier="often precociously" />
+      </structure>
+      <structure id="o10260" name="phyllary" constraint="outer">
+        <character name="comparison" value="surpassing" modifier="much" />
+      </structure>
+    </statement>
+    <statement id="505.txt-9">
+      <text>Receptacles epaleate.</text>
+      <structure id="o10261" name="receptacle">
+        <character name="architecture" value="epaleate" />
+      </structure>
+    </statement>
+    <statement id="505.txt-10">
+      <text>Florets 10–100;</text>
+      <structure id="o10262" name="floret">
+        <character char_type="range_value" name="count" from="10" to="100" />
+      </structure>
+    </statement>
+    <statement id="505.txt-11">
+      <text>corollas yellow, tubes 8–20 mm, ligules 6–15 × 1.5–2.5 mm;</text>
+      <structure id="o10263" name="corolla">
+        <character name="coloration" value="yellow" />
+      </structure>
+      <structure id="o10264" name="tube">
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="20" to_unit="mm" />
+      </structure>
+      <structure id="o10265" name="ligule">
+        <character char_type="range_value" name="length" from="6" from_unit="mm" to="15" to_unit="mm" />
+        <character char_type="range_value" name="width" from="1.5" from_unit="mm" to="2.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="505.txt-12">
+      <text>anthers 2–5 mm.</text>
+      <structure id="o10266" name="anther">
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="505.txt-13">
+      <text>Cypselae (15–)20–31 mm, bodies narrowly obconic, 5–7 mm, beaks (10–)15–25 mm, lengths mostly 3–4 times bodies;</text>
+      <structure id="o10267" name="cypsela">
+        <character char_type="range_value" name="atypical_size" from="15" to="20" from_unit="mm" to_unit="mm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="20" from_unit="mm" to="31" to_unit="mm" />
+      </structure>
+      <structure id="o10268" name="body">
+        <character name="shape" value="obconic" modifier="narrowly" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+      <structure id="o10269" name="beak">
+        <character char_type="range_value" name="atypical_size" from="10" to="15" from_unit="mm" to_unit="mm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="15" from_unit="mm" to="25" to_unit="mm" />
+        <character char_type="range_value" name="size" from="3" to="4" modifier="mostly" constraint="times bodies" constraintid="o10270" />
+      </structure>
+      <structure id="o10270" name="body" />
+    </statement>
+    <statement id="505.txt-14">
+      <text>ribs strongly ridged, straight, often minutely cinereous-pannose;</text>
+      <structure id="o10271" name="rib">
+        <character name="shape" value="ridged" modifier="strongly" />
+        <character name="course" value="straight" />
+        <character name="pubescence" value="cinereous-pannose" modifier="often minutely" />
+      </structure>
+    </statement>
+    <statement id="505.txt-15">
+      <text>pappus bristles in 4–6 series, (11–)15–20 mm.</text>
+      <structure id="o10272" name="bristle" constraint="pappus">
+        <character char_type="range_value" name="atypical_size" from="11" to="15" from_unit="mm" to_unit="mm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="15" from_unit="mm" to="20" to_unit="mm" />
+      </structure>
+      <structure id="o10273" name="series">
+        <character char_type="range_value" name="count" from="4" to="6" />
+      </structure>
+      <relation id="r1180" name="in" from="o10272" to="o10273" negation="false" />
+    </statement>
+    <statement id="505.txt-16">
+      <text>2 n = 18.</text>
+      <structure id="o10274" name="chromosome">
+        <character name="count" value="18" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>mesic to dry habitats in scrub-lands</habitat>
+  <habitat>chaparral</habitat>
+  <habitat>steppe</habitat>
+  <habitat>and open oak or pine woodlands</habitat>
+  <elevation>400–2300 m;</elevation>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <global_distribution>Mexico (Baja California).</global_distribution>
+  <discussion>Agoseris retrorsa appears to be most closely related to A. grandiflora. It superficially resembles A. parviflora and the two are sometimes confused. Agoseris retrorsa occurs primarily west of the Sierra Nevada; A. parviflora occurs primarily east of the same range. Cypsela characteristics will quickly separate them. Putative hybrids between A. retrorsa and A. grandiflora, A. hirsuta, and A. parviflora have been identified.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

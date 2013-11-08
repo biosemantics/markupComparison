@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Munzothamnus blairii</species_name>
+  <authority>(Munz &amp; I. M. Johnston) P. H. Raven</authority>
+  <place_of_publication>Aliso 5: 345. 1963</place_of_publication>
+  <synonym_of_species_name>Stephanomeria blairii Munz &amp; I. M. Johnston, Bull. Torrey Bot. Club 51: 301. 1924 (as blairi); Malacothrix blairii (Munz &amp; I. M. Johnston) Munz &amp; I. M. Johnston</synonym_of_species_name>
+  <description>
+    <statement id="547.txt-0">
+      <text>Stems:</text>
+      <structure id="o11244" name="stem" />
+    </statement>
+    <statement id="547.txt-1">
+      <text>branches to 1 cm thick, fleshy, studded with persistent petiole bases proximally.</text>
+      <structure id="o11245" name="branch">
+        <character char_type="range_value" name="size" to="1" to_unit="cm" />
+        <character name="thickness" value="thick" />
+        <character name="texture" value="fleshy" />
+      </structure>
+      <structure id="o11246" name="base" constraint="persistent petiole" />
+      <relation id="r1281" name="studded with" from="o11245" to="o11246" negation="false" modifier="proximally" />
+    </statement>
+    <statement id="547.txt-2">
+      <text>Leaves crowded or tufted at ends of branches;</text>
+      <structure id="o11247" name="leaf">
+        <character name="architecture" value="crowded" />
+        <character name="habit_or_pubescence" value="tufted" constraint="at ends" constraintid="o11248" />
+      </structure>
+      <structure id="o11248" name="end" />
+      <structure id="o11249" name="branch" />
+      <relation id="r1282" name="part_of" from="o11248" to="o11249" negation="false" />
+    </statement>
+    <statement id="547.txt-3">
+      <text>petioles ca. 1 cm, narrowly winged, bases thickened;</text>
+      <structure id="o11250" name="petiole">
+        <character name="size" value="1" unit="cm" />
+        <character name="architecture" value="winged" modifier="narrowly" />
+      </structure>
+      <structure id="o11251" name="base">
+        <character name="thickness" value="thickened" />
+      </structure>
+    </statement>
+    <statement id="547.txt-4">
+      <text>blades bright green, 5–13 × 4–6 cm, relatively thin, bases cuneate, apices rounded or obtuse, faces ± tomentose, soon glabrescent.</text>
+      <structure id="o11252" name="blade">
+        <character name="coloration" value="green" modifier="bright" />
+        <character char_type="range_value" name="length" from="5" from_unit="cm" to="13" to_unit="cm" />
+        <character char_type="range_value" name="width" from="4" from_unit="cm" to="6" to_unit="cm" />
+        <character name="thickness" value="thin" modifier="relatively" />
+      </structure>
+      <structure id="o11253" name="base">
+        <character name="shape" value="cuneate" />
+      </structure>
+      <structure id="o11254" name="apex">
+        <character name="shape" value="rounded" />
+        <character name="shape" value="obtuse" />
+      </structure>
+      <structure id="o11255" name="face">
+        <character name="pubescence" value="tomentose" modifier="±" />
+        <character name="pubescence" value="glabrescent" modifier="soon" />
+      </structure>
+    </statement>
+    <statement id="547.txt-5">
+      <text>Heads 20–35.</text>
+      <structure id="o11256" name="head">
+        <character char_type="range_value" name="count" from="20" to="35" />
+      </structure>
+    </statement>
+    <statement id="547.txt-6">
+      <text>Cypselae 3–3.5 mm.</text>
+      <structure id="o11257" name="cypsela">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="3.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="547.txt-7">
+      <text>2 n = 16.</text>
+      <structure id="o11258" name="chromosome">
+        <character name="count" value="16" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <flowering_time>nov</flowering_time>
+  <habitat>rocky canyon walls</habitat>
+  <elevation>60–300 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <discussion>Munzothamnus blairii is known only from San Clemente Island. It has been placed in several taxonomic homes. It was initially placed in Stephanomeria; it was transferred to Malacothrix (P. A. Munz 1935). P. H. Raven (1963) considered it “clearly a relictual and highly isolated genus,” primarily on the basis of its leaf shape and vegetative architecture, which are significantly distinct from those found in any species of Stephanomeria or Malacothrix, and he erected Munzothamnus for it. Others emphasized the similar number and appearance of the chromosomes of M. blairii to those of Stephanomeria as well as certain similarities between their pappi (number and “coarseness”) and concluded that the species belongs in Stephanomeria (G. L. Stebbins et al. 1953). In addition, pollen size and sculpturing are similar to that of Stephanomeria (A. S. Tomb 1974).</discussion>
+  <discussion>The mode of branch growth was nicely described by S. Carlquist (1974). At the end of the first year, basal lateral buds on the main stem produce side shoots. At the end of the second year, those shoots produce terminal clusters of heads. At the end of the third year, those same side shoots produce new lateral shoots from distal nodes below the heads. Thus, the plants produce shoots from lateral buds both at the base of the stem and from nodes on side shoots below the terminal clusters.</discussion>
+  <discussion>The growth pattern, architecture, and habit of Munzothamnus blairii are not at all similar to those of Stephanomeria guadalupensis Brandegee, an endemic of Guadalupe Island, Mexico, nor to those of S. cichoriacea, which grows in the equable climate of southern coastal California and on off-shore islands. The contrast between M. blairii and those undoubted stephanomerias is noteworthy. That Munzothamnus blairii is best regarded as a monotypic genus is also supported by recent results of DNA sequencing studies (J. Lee et al. 2002), which showed that it is not in the clade of all stephanomerias.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

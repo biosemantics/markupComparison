@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>23.</number>
+  <species_name>Artemisia scopulorum</species_name>
+  <authority>A. Gray</authority>
+  <place_of_publication>Proc. Acad. Nat. Sci. Philadelphia 15: 66. 1863</place_of_publication>
+  <description>
+    <statement id="889.txt-0">
+      <text>Perennials, 10–25 cm (cespitose), mildly aromatic (caudices relatively slender).</text>
+      <structure id="o18438" name="whole_organism">
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="25" to_unit="cm" />
+        <character name="odor" value="aromatic" modifier="mildly" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="889.txt-1">
+      <text>Stems gray-green, glabrate.</text>
+      <structure id="o18439" name="stem">
+        <character name="coloration" value="green" modifier="gray" />
+        <character name="pubescence" value="glabrate" />
+      </structure>
+    </statement>
+    <statement id="889.txt-2">
+      <text>Leaves persistent, gray-green;</text>
+      <structure id="o18440" name="leaf">
+        <character name="duration" value="persistent" />
+        <character name="coloration" value="green" modifier="gray" />
+      </structure>
+    </statement>
+    <statement id="889.txt-3">
+      <text>blades (basal) oblanceolate, 2–7 × 0.1 cm, 2-pinnately lobed (lobes linear or oblanceolate; cauline blades smaller, 1–2-pinnate or entire), faces silky-canescent.</text>
+      <structure id="o18441" name="blade">
+        <character name="shape" value="oblanceolate" />
+        <character char_type="range_value" name="length" from="2" from_unit="cm" to="7" to_unit="cm" />
+        <character name="width" value="0.1" unit="cm" />
+        <character name="shape" value="lobed" modifier="2-pinnately" />
+      </structure>
+      <structure id="o18442" name="face">
+        <character name="pubescence" value="silky-canescent" />
+      </structure>
+    </statement>
+    <statement id="889.txt-4">
+      <text>Heads (5–22) in spiciform arrays 5–9 × 1–1.5 cm.</text>
+      <structure id="o18443" name="head">
+        <character char_type="range_value" name="atypical_count" from="5" to="22" constraint="in arrays" constraintid="o18444" />
+      </structure>
+      <structure id="o18444" name="array">
+        <character name="architecture" value="spiciform" />
+        <character char_type="range_value" name="length" from="5" from_unit="cm" to="9" to_unit="cm" />
+        <character char_type="range_value" name="width" from="1" from_unit="cm" to="1.5" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="889.txt-5">
+      <text>Involucres broadly globose or subglobose, 4 × 4–7 mm.</text>
+      <structure id="o18445" name="involucre">
+        <character name="shape" value="globose" modifier="broadly" />
+        <character name="shape" value="subglobose" modifier="broadly" />
+        <character name="length" value="4" unit="mm" />
+        <character char_type="range_value" name="width" from="4" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="889.txt-6">
+      <text>Phyllaries green (margins black or dark brown), densely villous.</text>
+      <structure id="o18446" name="phyllary">
+        <character name="coloration" value="green" />
+        <character name="pubescence" value="villous" modifier="densely" />
+      </structure>
+    </statement>
+    <statement id="889.txt-7">
+      <text>Florets:</text>
+      <structure id="o18447" name="floret" />
+    </statement>
+    <statement id="889.txt-8">
+      <text>pistillate 6–13;</text>
+      <structure id="o18448" name="floret" constraint="pistillate">
+        <character char_type="range_value" name="count" from="6" to="13" />
+      </structure>
+    </statement>
+    <statement id="889.txt-9">
+      <text>bisexual 15–30;</text>
+      <structure id="o18449" name="floret" constraint="bisexual">
+        <character char_type="range_value" name="count" from="15" to="30" />
+      </structure>
+    </statement>
+    <statement id="889.txt-10">
+      <text>corollas 1.5–2.5 mm, hairy (at least on lobes).</text>
+      <structure id="o18450" name="corolla">
+        <character char_type="range_value" name="size" from="1.5" from_unit="mm" to="2.5" to_unit="mm" />
+        <character name="pubescence" value="hairy" />
+      </structure>
+    </statement>
+    <statement id="889.txt-11">
+      <text>Cypselae 0.8–1 mm, glabrous.</text>
+      <structure id="o18451" name="cypsela">
+        <character char_type="range_value" name="size" from="0.8" from_unit="mm" to="1" to_unit="mm" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="889.txt-12">
+      <text>2 n = 18.</text>
+      <structure id="o18452" name="chromosome">
+        <character name="count" value="18" />
+      </structure>
+    </statement>
+  </description>
+  <habitat>alpine meadows</habitat>
+  <habitat>protected areas</habitat>
+  <habitat>bases of rocks</habitat>
+  <elevation>3100–4200 m;</elevation>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

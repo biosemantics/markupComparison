@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Urospermum picroides</species_name>
+  <authority>(Linnaeus) F. W. Schmidt</authority>
+  <place_of_publication>Samml. Phys.-Oekon. Aufsätze 1: 275. 1795</place_of_publication>
+  <synonym_of_species_name>Tragopogon picroides Linnaeus, Sp. Pl. 2: 790. 1753</synonym_of_species_name>
+  <description>
+    <statement id="431.txt-0">
+      <text>Leaves:</text>
+      <structure id="o8554" name="leaf" />
+    </statement>
+    <statement id="431.txt-2">
+      <text>Peduncles 5–15+ cm.</text>
+      <structure id="o8555" name="peduncle">
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="15" to_unit="cm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="431.txt-3">
+      <text>Phyllaries:</text>
+      <structure id="o8556" name="phyllary" />
+    </statement>
+    <statement id="431.txt-4">
+      <text>free portions lance-linear, abaxial faces setose or ± glabrate.</text>
+      <structure id="o8557" name="portion" constraint="free">
+        <character name="arrangement_or_shape" value="lance-linear" />
+      </structure>
+      <structure id="o8558" name="face" constraint="abaxial">
+        <character name="pubescence" value="setose" />
+        <character name="pubescence" value="glabrate" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="431.txt-5">
+      <text>Cypselae (including beaks) 10–15 mm;</text>
+      <structure id="o8559" name="cypsela">
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="15" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="431.txt-6">
+      <text>pappi 9–12 mm.</text>
+      <structure id="o8560" name="pappus">
+        <character char_type="range_value" name="size" from="9" from_unit="mm" to="12" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="431.txt-7">
+      <text>2 n = 8, 10.</text>
+      <structure id="o8561" name="chromosome">
+        <character name="count" value="8" />
+        <character name="count" value="10" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <habitat>disturbed sites</habitat>
+  <elevation>0–400 m;</elevation>
+  <introduced>introduced;</introduced>
+  <us_distribution>Calif.</us_distribution>
+  <global_distribution>Europe</global_distribution>
+  <global_distribution>Asia</global_distribution>
+  <global_distribution>also introduced in South America</global_distribution>
+  <global_distribution>s Africa.</global_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

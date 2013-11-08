@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>3a.</number>
+  <subspecies_name>Artemisia campestris Linnaeus subsp. canadensis</subspecies_name>
+  <authority>(Michaux) Scoggan</authority>
+  <place_of_publication>Fl. Canada 1: 52. 1978</place_of_publication>
+  <common_name>Armoise du Canada</common_name>
+  <synonym_of_subspecies_name>Artemisia canadensis Michaux, Fl. Bor.-Amer. 2: 128. 1803</synonym_of_subspecies_name>
+  <description>
+    <statement id="853.txt-0">
+      <text>Biennials, 20–40 cm.</text>
+      <structure id="o17904" name="whole_organism">
+        <character char_type="range_value" name="size" from="20" from_unit="cm" to="40" to_unit="cm" />
+        <character name="life_style" value="biennial" />
+      </structure>
+    </statement>
+    <statement id="853.txt-1">
+      <text>Stems usually 1.</text>
+      <structure id="o17905" name="stem">
+        <character name="count" value="1" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="853.txt-2">
+      <text>Leaves:</text>
+      <structure id="o17906" name="leaf" />
+    </statement>
+    <statement id="853.txt-3">
+      <text>basal rosettes not persistent.</text>
+      <structure id="o17907" name="rosette" constraint="basal">
+        <character name="duration" value="persistent" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="853.txt-4">
+      <text>Heads in arrays 8–10(–12) × 1–2(–3) cm.</text>
+      <structure id="o17908" name="head" />
+      <structure id="o17909" name="array">
+        <character char_type="range_value" name="atypical_length" from="10" to="12" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="8" from_unit="cm" to="10" to_unit="cm" />
+        <character char_type="range_value" name="atypical_width" from="2" to="3" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="width" from="1" from_unit="cm" to="2" to_unit="cm" />
+      </structure>
+      <relation id="r1891" name="in" from="o17908" to="o17909" negation="false" />
+    </statement>
+    <statement id="853.txt-5">
+      <text>Involucres globose , 3–4 × 3.5–5(–6) mm.</text>
+      <structure id="o17910" name="involucre">
+        <character name="shape" value="globose" />
+        <character char_type="range_value" name="length" from="3" from_unit="mm" to="4" to_unit="mm" />
+        <character char_type="range_value" name="atypical_width" from="5" to="6" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="width" from="3.5" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+  </description>
+  <habitat>open meadows</habitat>
+  <elevation>0–1000 m;</elevation>
+  <global_distribution>Greenland</global_distribution>
+  <ca_distribution>Man.</ca_distribution>
+  <ca_distribution>N.B.</ca_distribution>
+  <ca_distribution>Nfld. and Labr.</ca_distribution>
+  <ca_distribution>Nunavut</ca_distribution>
+  <ca_distribution>Ont.</ca_distribution>
+  <ca_distribution>Que.</ca_distribution>
+  <ca_distribution>Sask.</ca_distribution>
+  <us_distribution>Maine.</us_distribution>
+  <discussion>A more broadly circumscribed interpretation of the subsp. caudata complex would encompass subsp. canadensis.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

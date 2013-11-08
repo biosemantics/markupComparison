@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Ixeris stolonifera</species_name>
+  <authority>A. Gray</authority>
+  <place_of_publication>Mem. Amer. Acad. Arts, n. s. 6: 396. 1858</place_of_publication>
+  <synonym_of_species_name>Lactuca stolonifera (A. Gray) Bentham ex Maximowicz</synonym_of_species_name>
+  <description>
+    <statement id="336.txt-0">
+      <text>Plants stoloniferous.</text>
+      <structure id="o6222" name="whole_organism">
+        <character name="architecture" value="stoloniferous" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="336.txt-1">
+      <text>Aerial stems ± scapiform.</text>
+      <structure id="o6223" name="stem" constraint="aerial">
+        <character name="shape" value="scapiform" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="336.txt-3">
+      <text>Peduncles (1–)5–15+ cm.</text>
+      <structure id="o6224" name="peduncle">
+        <character char_type="range_value" name="atypical_size" from="1" to="5" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="15" to_unit="cm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="336.txt-4">
+      <text>Involucres 8–10 mm.</text>
+      <structure id="o6225" name="involucre">
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="336.txt-5">
+      <text>Cypselae 6 mm;</text>
+      <structure id="o6226" name="cypsela">
+        <character name="size" value="6" unit="mm" />
+      </structure>
+    </statement>
+    <statement id="336.txt-6">
+      <text>pappi 4–7 mm.</text>
+      <structure id="o6227" name="pappus">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="336.txt-7">
+      <text>2 n = 16, 24.</text>
+      <structure id="o6228" name="chromosome">
+        <character name="count" value="16" />
+        <character name="count" value="24" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>disturbed sites</habitat>
+  <elevation>0–100 m;</elevation>
+  <introduced>introduced;</introduced>
+  <us_distribution>Del.</us_distribution>
+  <us_distribution>N.J.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <global_distribution>Asia (Japan).</global_distribution>
+  <discussion>The combination Lactuca stolonifera has been mistakenly attributed to “(A. Gray) Bentham &amp; Hooker f.”</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>30b.</number>
+  <variety_name>Cirsium clavatum (M. E. Jones) Petrak var. americanum</variety_name>
+  <authority>(A. Gray) D. J. Keil</authority>
+  <place_of_publication>Sida 21: 211. 2004</place_of_publication>
+  <common_name>Rocky Mountain fringed thistle</common_name>
+  <synonym_of_variety_name>Cnicus carlinoides Schrank var. americanus A. Gray, Proc. Amer. Acad. Arts 10: 48. 1874; Cirsium centaureae (Rydberg) K. Schumann; C. griseum (Rydberg) K. Schumann; C. laterifolium (Osterhout) Petrak; C. modestum (Osterhout) Cockerell; C. scapanolepis Petrak; C. spathulifolium Rydberg</synonym_of_variety_name>
+  <description>
+    <statement id="92.txt-0">
+      <text>Abaxial leaf faces ± tomentose.</text>
+      <structure id="o18904" name="face" constraint="abaxial leaf">
+        <character name="pubescence" value="tomentose" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="92.txt-1">
+      <text>Involucres ovoid to campanulate, 1.5–3 × 1.5–3 cm, glabrous or thinly arachnoid-tomentose with fine, non-septate trichomes.</text>
+      <structure id="o18905" name="involucre">
+        <character char_type="range_value" name="shape" from="ovoid" to="campanulate" />
+        <character name="shape" value="ovoid" />
+        <character name="shape" value="campanulate" />
+        <character char_type="range_value" name="length" from="1.5" from_unit="cm" to="3" to_unit="cm" />
+        <character char_type="range_value" name="width" from="1.5" from_unit="cm" to="3" to_unit="cm" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="arachnoid-tomentose" modifier="thinly" constraint="with trichomes" constraintid="o18906" />
+      </structure>
+      <structure id="o18906" name="trichome">
+        <character name="texture" value="fine" />
+        <character name="architecture" value="non-septate" />
+      </structure>
+    </statement>
+    <statement id="92.txt-2">
+      <text>Phyllaries in 5–6 series, strongly imbricate to subequal, green or with maroon to dark brown subapical patch or appendage, linear to ovate, abaxial faces with narrow glutinous ridge;</text>
+      <structure id="o18907" name="phyllary">
+        <character name="aestivation_or_arrangement" value="imbricate" modifier="strongly" />
+        <character name="size" value="subequal" />
+        <character name="coloration" value="green" />
+        <character name="coloration" value="with maroon to dark-brown subapical patch or appendage" />
+        <character char_type="range_value" name="shape" from="linear" to="ovate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="ovate" />
+      </structure>
+      <structure id="o18908" name="series">
+        <character char_type="range_value" name="count" from="5" to="6" />
+      </structure>
+      <relation id="r2000" name="in" from="o18907" to="o18908" negation="false" />
+      <structure id="o18909" name="patch" constraint="subapical">
+        <character name="coloration" value="maroon" />
+        <character name="coloration" value="brown" modifier="dark" />
+      </structure>
+      <structure id="o18910" name="appendage">
+        <character name="coloration" value="maroon" />
+        <character name="coloration" value="brown" modifier="dark" />
+      </structure>
+      <relation id="r2001" name="with" from="o18907" to="o18909" negation="false" />
+      <relation id="r2002" name="with" from="o18907" to="o18910" negation="false" />
+      <structure id="o18911" name="face" constraint="abaxial" />
+      <structure id="o18912" name="ridge">
+        <character name="size" value="narrow" />
+        <character name="coating_or_texture" value="glutinous" />
+      </structure>
+      <relation id="r2003" name="with" from="o18911" to="o18912" negation="false" />
+    </statement>
+    <statement id="92.txt-3">
+      <text>outer and middle bases appressed, apical appendages erect or ascending, linear-lanceolate to obovate, entire or more commonly dilated, scarious, and erose-toothed to fringed, acicular-acuminate to broadly obtuse, spines erect or ascending, 1–6 mm, often flattened;</text>
+      <structure id="o18913" name="base" constraint="outer and middle">
+        <character name="orientation" value="appressed" />
+      </structure>
+      <structure id="o18914" name="appendage" constraint="apical">
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="ascending" />
+        <character name="shape" value="linear-lanceolate" />
+        <character name="shape" value="obovate" />
+        <character name="shape" value="entire" />
+        <character name="shape" value="dilated" modifier="commonly" />
+        <character name="texture" value="scarious" />
+        <character char_type="range_value" name="shape" from="erose-toothed" to="fringed , acicular-acuminate" />
+        <character name="shape" value="erose-toothed" />
+        <character name="shape" value="fringed" />
+        <character name="shape" value="acicular-acuminate" />
+        <character name="shape" value="obtuse" modifier="broadly" />
+      </structure>
+      <structure id="o18915" name="spine">
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="ascending" />
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="6" to_unit="mm" />
+        <character name="shape" value="flattened" modifier="often" />
+      </structure>
+    </statement>
+    <statement id="92.txt-4">
+      <text>apices of inner sometimes flexuous or reflexed, narrow, flat, and entire or more commonly ± expanded, scarious, and lacerate-dentate.</text>
+      <structure id="o18916" name="apex">
+        <character name="course" value="flexuous" modifier="sometimes" />
+        <character name="orientation" value="reflexed" />
+        <character name="size" value="narrow" />
+        <character name="shape" value="flat" />
+        <character name="shape" value="entire" />
+        <character name="size" value="expanded" modifier="commonly ±" />
+        <character name="texture" value="scarious" />
+        <character name="shape" value="lacerate-dentate" />
+      </structure>
+      <structure id="o18917" name="phyllary" constraint="inner" />
+      <relation id="r2004" name="part_of" from="o18916" to="o18917" negation="false" />
+    </statement>
+    <statement id="92.txt-5">
+      <text>2 n = 34, 36 (as C. centaureae ).</text>
+      <structure id="o18918" name="chromosome">
+        <character name="count" value="34" />
+        <character name="count" value="36" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>oak scrub</habitat>
+  <habitat>sagebrush scrub</habitat>
+  <habitat>grasslands</habitat>
+  <habitat>juniper-pine woodlands</habitat>
+  <habitat>aspen groves</habitat>
+  <habitat>openings in montane coniferous forests</habitat>
+  <elevation>2100–3100 m;</elevation>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <discussion>Variety americanum is scattered in the Rocky Mountains of south-central Wyoming and Colorado. The varietal epithet americanum was based upon syntypes from both Colorado and California. The latter are referable to Cirsium remotifolium.</discussion>
+  <discussion>Variations in leaf characteristics, head size, and phyllary features combined with a narrow species concept led Osterhout and Rydberg to propose several species and hybrids for what I am treating as one taxon. Variety americanum certainly is polymorphic and in need of further study focused on local and regional variation. It is possible that some of the local variants in Colorado may deserve taxonomic recognition, but I have been unable to detect consistent patterns in the variation. Some specimens from Route and Jackson counties there closely approach var. clavatum. Others from southeastern Wyoming approach Cirsium pulcherrimum var. pulcherrimum and may be hybrids or derivatives of past hybridization.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

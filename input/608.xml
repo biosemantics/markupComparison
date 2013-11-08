@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Pyrrhopappus grandiflorus</species_name>
+  <authority>(Nuttall) Nuttall</authority>
+  <place_of_publication>Trans. Amer. Philos. Soc., n. s. 7: 430. 1841</place_of_publication>
+  <synonym_of_species_name>Barkhausia grandiflora Nuttall, J. Acad. Nat. Sci. Philadelphia 7: 69. 1834 (as Borkhausia)</synonym_of_species_name>
+  <description>
+    <statement id="608.txt-0">
+      <text>Perennials (possibly flowering first year), 5–30(–45+) cm (roots or rootstocks producing tuberiform swellings 1–15 cm below soil surface).</text>
+      <structure id="o12685" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="30" to="45" from_unit="cm" to_unit="cm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="30" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="608.txt-1">
+      <text>Stems usually scapiform, usually branching from bases, proximally glabrous or sparsely to densely pilosulous.</text>
+      <structure id="o12686" name="stem">
+        <character name="shape" value="scapiform" modifier="usually" />
+        <character name="architecture" value="branching" modifier="usually" constraint="from bases" constraintid="o12687" />
+        <character name="pubescence" value="glabrous" modifier="proximally" />
+        <character name="pubescence" value="pilosulous" modifier="sparsely densely" />
+      </structure>
+      <structure id="o12687" name="base" />
+    </statement>
+    <statement id="608.txt-2">
+      <text>Cauline leaves 0(–3), proximal mostly lanceolate, margins usually pinnately lobed, distal linear-filiform, margins entire.</text>
+      <structure id="o12688" name="leaf" constraint="cauline">
+        <character char_type="range_value" name="atypical_count" from="0" to="3" from_inclusive="false" />
+        <character name="count" value="0" />
+        <character name="insertion_or_position" value="proximal" modifier="mostly" />
+        <character name="shape" value="lanceolate" />
+      </structure>
+      <structure id="o12689" name="margin">
+        <character name="shape" value="lobed" modifier="usually pinnately" />
+        <character name="insertion_or_position" value="distal" />
+        <character name="shape" value="linear-filiform" />
+      </structure>
+      <structure id="o12690" name="margin">
+        <character name="shape" value="entire" />
+      </structure>
+    </statement>
+    <statement id="608.txt-3">
+      <text>Heads borne singly or 2–3 in loose, corymbiform arrays.</text>
+      <structure id="o12691" name="head">
+        <character name="arrangement" value="singly" />
+        <character char_type="range_value" name="count" from="2" to="3" constraint="in arrays" constraintid="o12692" />
+      </structure>
+      <structure id="o12692" name="array">
+        <character name="architecture_or_texture" value="loose" />
+        <character name="architecture" value="corymbiform" />
+      </structure>
+    </statement>
+    <statement id="608.txt-4">
+      <text>Calyculi:</text>
+      <structure id="o12693" name="calyculus" />
+    </statement>
+    <statement id="608.txt-5">
+      <text>bractlets 8 in 1(–2) series, linear to subulate, 3–8 mm.</text>
+      <structure id="o12694" name="bractlet">
+        <character name="count" value="8" constraint="in -2 series" constraintid="o12695" />
+        <character char_type="range_value" name="shape" from="linear" to="subulate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="subulate" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+      <structure id="o12695" name="series" constraint="-2">
+        <character name="count" value="1" />
+      </structure>
+    </statement>
+    <statement id="608.txt-6">
+      <text>Involucres cylindric to turbinate, 17–25 mm.</text>
+      <structure id="o12696" name="involucre">
+        <character char_type="range_value" name="shape" from="cylindric" to="turbinate" />
+        <character name="shape" value="cylindric" />
+        <character name="shape" value="turbinate" />
+        <character char_type="range_value" name="size" from="17" from_unit="mm" to="25" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="608.txt-7">
+      <text>Phyllaries 13–22.</text>
+      <structure id="o12697" name="phyllary">
+        <character char_type="range_value" name="count" from="13" to="22" />
+      </structure>
+    </statement>
+    <statement id="608.txt-8">
+      <text>Florets 40–60+;</text>
+      <structure id="o12698" name="floret">
+        <character char_type="range_value" name="count" from="40" to="60" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="608.txt-9">
+      <text>anthers 4.5–5 mm (pollen equatorial diameters 46–52 µm).</text>
+      <structure id="o12699" name="anther">
+        <character char_type="range_value" name="size" from="4.5" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="608.txt-10">
+      <text>Cypselae:</text>
+      <structure id="o12700" name="cypsela" />
+    </statement>
+    <statement id="608.txt-11">
+      <text>bodies stramineous, 4–5 mm, beaks 6–7 mm;</text>
+      <structure id="o12701" name="body">
+        <character name="coloration" value="stramineous" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+      <structure id="o12702" name="beak">
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="608.txt-12">
+      <text>pappi 10–12 mm.</text>
+      <structure id="o12703" name="pappus">
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="12" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="608.txt-13">
+      <text>2 n = 24.</text>
+      <structure id="o12704" name="chromosome">
+        <character name="count" value="24" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <habitat>disturbed sites</habitat>
+  <habitat>calcareous, loamy, or sandy soils</habitat>
+  <elevation>100–800 m;</elevation>
+  <us_distribution>Kans.</us_distribution>
+  <us_distribution>Okla.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <discussion>Pyrrhopappus grandiflorus has been reported from Arkansas and New Mexico; I have seen no specimens of it from those states.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

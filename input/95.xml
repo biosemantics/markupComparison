@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>32.</number>
+  <species_name>Cirsium remotifolium</species_name>
+  <authority>(Hooker) de Candolle</authority>
+  <place_of_publication>in A. P. de Candolle and A. L. P. P. de Candolle, Prodr. 6: 655. 1838</place_of_publication>
+  <common_name>Remote-leaved or fewleaf thistle</common_name>
+  <synonym_of_species_name>Carduus remotifolius Hooker, Fl. Bor.-Amer. 1: 302. 1833</synonym_of_species_name>
+  <description>
+    <statement id="95.txt-0">
+      <text>Perennials , 20–150 cm , monocarpic;</text>
+    </statement>
+    <statement id="95.txt-1">
+      <text>taprooted or polycarpic, perennating by runner roots.</text>
+      <structure id="o19553" name="whole_organism">
+        <character char_type="range_value" name="size" from="20" from_unit="cm" to="150" to_unit="cm" />
+        <character name="reproduction" value="monocarpic" />
+        <character name="life_style" value="perennial" />
+        <character name="architecture" value="taprooted" />
+        <character name="reproduction" value="polycarpic" />
+        <character name="duration" value="perennating" constraint="by runner roots" constraintid="o19554" />
+      </structure>
+      <structure id="o19554" name="root" constraint="runner" />
+    </statement>
+    <statement id="95.txt-2">
+      <text>Stems usually 1, erect, finely arachnoid-tomentose, sometimes villous with septate trichomes below nodes;</text>
+      <structure id="o19555" name="stem">
+        <character name="count" value="1" modifier="usually" />
+        <character name="orientation" value="erect" />
+        <character name="pubescence" value="arachnoid-tomentose" modifier="finely" />
+        <character name="pubescence" value="villous" modifier="sometimes" constraint="with trichomes" constraintid="o19556" />
+      </structure>
+      <structure id="o19556" name="trichome">
+        <character name="architecture" value="septate" />
+      </structure>
+      <structure id="o19557" name="node" />
+      <relation id="r2043" name="below" from="o19556" to="o19557" negation="false" />
+    </statement>
+    <statement id="95.txt-4">
+      <text>Leaves:</text>
+      <structure id="o19558" name="leaf" />
+    </statement>
+    <statement id="95.txt-5">
+      <text>blades linear-oblong to oblanceolate or elliptic, 7–30 × 1–15 cm, unlobed and spinulose to dentate or shallowly to deeply pinnatifid, lobes well separated, linear to triangular-ovate, dentate to deeply lobed, main spines 2–5 mm, slender, abaxial faces green to gray, thinly to densely arachnoid-tomentose, sometimes glabrate, sometimes villous with septate trichomes along veins, adaxial green, glabrous;</text>
+      <structure id="o19559" name="blade">
+        <character char_type="range_value" name="shape" from="linear-oblong" to="oblanceolate or elliptic" />
+        <character name="shape" value="linear-oblong" />
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="elliptic" />
+        <character char_type="range_value" name="length" from="7" from_unit="cm" to="30" to_unit="cm" />
+        <character char_type="range_value" name="width" from="1" from_unit="cm" to="15" to_unit="cm" />
+        <character name="shape" value="unlobed" />
+        <character char_type="range_value" name="shape" from="spinulose" to="dentate" />
+        <character name="shape" value="spinulose" />
+        <character name="shape" value="dentate" />
+        <character name="shape" value="pinnatifid" modifier="shallowly deeply" />
+      </structure>
+      <structure id="o19560" name="lobe">
+        <character name="arrangement" value="separated" modifier="well" />
+        <character char_type="range_value" name="shape" from="linear" to="triangular-ovate , dentate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="triangular-ovate" />
+        <character name="shape" value="dentate" />
+        <character name="shape" value="lobed" modifier="deeply" />
+      </structure>
+      <structure id="o19561" name="spine" constraint="main">
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="5" to_unit="mm" />
+        <character name="size" value="slender" />
+      </structure>
+      <structure id="o19562" name="face" constraint="abaxial">
+        <character char_type="range_value" name="coloration" from="green" to="gray" />
+        <character name="coloration" value="green" />
+        <character name="coloration" value="gray" />
+        <character name="pubescence" value="arachnoid-tomentose" modifier="thinly densely" />
+        <character name="pubescence" value="glabrate" modifier="sometimes" />
+        <character name="pubescence" value="villous" modifier="sometimes" constraint="with trichomes" constraintid="o19563" />
+        <character name="insertion_or_position" value="adaxial" />
+        <character name="coloration" value="green" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+      <structure id="o19563" name="trichome">
+        <character name="architecture" value="septate" />
+      </structure>
+      <structure id="o19564" name="vein" />
+      <relation id="r2044" name="along" from="o19563" to="o19564" negation="false" />
+    </statement>
+    <statement id="95.txt-6">
+      <text>basal sometimes present at flowering, sessile or winged-petiolate;</text>
+      <structure id="o19565" name="leaf" constraint="basal">
+        <character name="presence" value="present" modifier="sometimes; at flowering" />
+        <character name="architecture" value="sessile" />
+        <character name="architecture" value="winged-petiolate" />
+      </structure>
+    </statement>
+    <statement id="95.txt-8">
+      <text>distal well separated, progressively reduced, becoming bractlike, often unlobed or less deeply divided than the proximal, sometimes spinier than proximal, bases often distally expanded and auriculate-clasping.</text>
+      <structure id="o19566" name="leaf" constraint="distal">
+        <character name="arrangement" value="separated" modifier="well" />
+        <character name="size" value="reduced" modifier="progressively" />
+        <character name="architecture" value="spinier" modifier="sometimes" constraint="than proximal leaf" constraintid="o19568" />
+      </structure>
+      <structure id="o19567" name="leaf" constraint="proximal" />
+      <structure id="o19568" name="leaf" constraint="proximal" />
+      <structure id="o19569" name="base">
+        <character name="size" value="expanded" modifier="often distally" />
+        <character name="architecture" value="auriculate-clasping" />
+      </structure>
+    </statement>
+    <statement id="95.txt-9">
+      <text>Heads few–many, borne singly or in openly branched in corymbiform, racemiform, or paniculiform arrays on main stem and branches, sometimes also in distal axils, not closely subtended by clustered leaf bracts.</text>
+      <structure id="o19570" name="head">
+        <character char_type="range_value" name="count" from="few" to="many" />
+        <character name="arrangement" value="singly" />
+        <character name="arrangement" value="in openly branched in corymbiform , racemiform , or paniculiform arrays" />
+      </structure>
+      <structure id="o19571" name="array">
+        <character name="architecture_or_shape" value="branched" modifier="openly" />
+        <character name="architecture" value="corymbiform" />
+        <character name="architecture" value="racemiform" />
+        <character name="architecture" value="paniculiform" />
+      </structure>
+      <relation id="r2045" name="in" from="o19570" to="o19571" negation="false" />
+      <structure id="o19572" name="stem" constraint="main" />
+      <structure id="o19573" name="branch" />
+      <relation id="r2046" name="on" from="o19571" to="o19572" negation="false" />
+      <relation id="r2047" name="on" from="o19571" to="o19573" negation="false" />
+      <structure id="o19574" name="axil" constraint="distal" />
+      <relation id="r2048" name="in" from="o19570" to="o19574" negation="false" />
+      <structure id="o19575" name="bract" constraint="leaf">
+        <character name="arrangement_or_habit" value="clustered" />
+      </structure>
+      <relation id="r2049" name="subtended by" from="o19570" to="o19575" negation="true" />
+    </statement>
+    <statement id="95.txt-10">
+      <text>Peduncles (0–)2–15 cm.</text>
+      <structure id="o19576" name="peduncle">
+        <character char_type="range_value" name="atypical_size" from="0" to="2" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="2" from_unit="cm" to="15" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="95.txt-11">
+      <text>Involucres ovoid to hemispheric or campanulate, 1.5–2.5 × 1.5–3.5 cm, glabrous to arachnoid-floccose.</text>
+      <structure id="o19577" name="involucre">
+        <character char_type="range_value" name="shape" from="ovoid" to="hemispheric or campanulate" />
+        <character name="shape" value="ovoid" />
+        <character name="shape" value="hemispheric" />
+        <character name="shape" value="campanulate" />
+        <character char_type="range_value" name="length" from="1.5" from_unit="cm" to="2.5" to_unit="cm" />
+        <character char_type="range_value" name="width" from="1.5" from_unit="cm" to="3.5" to_unit="cm" />
+        <character char_type="range_value" name="pubescence" from="glabrous" to="arachnoid-floccose" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="arachnoid-floccose" />
+      </structure>
+    </statement>
+    <statement id="95.txt-12">
+      <text>Phyllaries in 6–8 series, subequal to strongly imbricate, green, linear to obovate (outer) to linear (inner), abaxial faces with inconspicuous glutinous ridge;</text>
+      <structure id="o19578" name="phyllary">
+        <character name="size" value="subequal" />
+        <character name="aestivation_or_arrangement" value="imbricate" modifier="strongly" />
+        <character name="coloration" value="green" />
+        <character char_type="range_value" name="shape" from="linear" to="obovate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="obovate" />
+        <character name="shape" value="linear" />
+      </structure>
+      <structure id="o19579" name="series">
+        <character char_type="range_value" name="count" from="6" to="8" />
+      </structure>
+      <relation id="r2050" name="in" from="o19578" to="o19579" negation="false" />
+      <structure id="o19580" name="face" constraint="abaxial" />
+      <structure id="o19581" name="ridge">
+        <character name="manifestation" value="inconspicuous" />
+        <character name="coating_or_texture" value="glutinous" />
+      </structure>
+      <relation id="r2051" name="with" from="o19580" to="o19581" negation="false" />
+    </statement>
+    <statement id="95.txt-13">
+      <text>outer and middle bases appressed, margins entire to spinulose-dentate or broad, scarious, lacerate-dentate, spines absent or ascending to spreading, 1–2 mm;</text>
+      <structure id="o19582" name="base" constraint="outer and middle">
+        <character name="orientation" value="appressed" />
+      </structure>
+      <structure id="o19583" name="margin">
+        <character char_type="range_value" name="shape" from="entire" to="spinulose-dentate" />
+        <character name="shape" value="entire" />
+        <character name="shape" value="spinulose-dentate" />
+        <character name="texture" value="scarious" />
+        <character name="shape" value="lacerate-dentate" />
+      </structure>
+      <structure id="o19584" name="spine">
+        <character name="presence" value="absent" />
+        <character name="presence" value="ascending to spreading" />
+        <character char_type="range_value" name="orientation" from="ascending" to="spreading" />
+        <character name="orientation" value="ascending" />
+        <character name="orientation" value="spreading" />
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="2" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="95.txt-14">
+      <text>apices of inner sometimes flexuous or reflexed, narrow, flat, entire or expanded, scarious, and lacerate-dentate.</text>
+      <structure id="o19585" name="apex">
+        <character name="course" value="flexuous" modifier="sometimes" />
+        <character name="orientation" value="reflexed" />
+        <character name="size" value="narrow" />
+        <character name="shape" value="flat" />
+        <character name="shape" value="entire" />
+        <character name="size" value="expanded" />
+        <character name="texture" value="scarious" />
+        <character name="shape" value="lacerate-dentate" />
+      </structure>
+      <structure id="o19586" name="phyllary" constraint="inner" />
+      <relation id="r2052" name="part_of" from="o19585" to="o19586" negation="false" />
+    </statement>
+    <statement id="95.txt-15">
+      <text>Corollas creamy white to purple, 18–28 mm, tubes 7–12 mm, throats 5–12 mm, lobes 3.5–7 mm, style tips 4–6 mm.</text>
+      <structure id="o19587" name="corolla">
+        <character char_type="range_value" name="coloration" from="creamy-white" to="purple" />
+        <character name="coloration" value="white" modifier="creamy" />
+        <character name="coloration" value="purple" />
+        <character char_type="range_value" name="size" from="18" from_unit="mm" to="28" to_unit="mm" />
+      </structure>
+      <structure id="o19588" name="tube">
+        <character char_type="range_value" name="size" from="7" from_unit="mm" to="12" to_unit="mm" />
+      </structure>
+      <structure id="o19589" name="throat">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="12" to_unit="mm" />
+      </structure>
+      <structure id="o19590" name="lobe">
+        <character char_type="range_value" name="size" from="3.5" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+      <structure id="o19591" name="tip" constraint="style">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="95.txt-16">
+      <text>Cypselae tan to dark brown, 4.5–5.5 mm, apical collars differentiated or not;</text>
+      <structure id="o19592" name="cypsela">
+        <character char_type="range_value" name="coloration" from="tan" to="dark-brown" />
+        <character name="coloration" value="tan" />
+        <character name="coloration" value="brown" modifier="dark" />
+        <character char_type="range_value" name="size" from="4.5" from_unit="mm" to="5.5" to_unit="mm" />
+      </structure>
+      <structure id="o19593" name="collar" constraint="apical">
+        <character name="differentiation" value="differentiated" />
+        <character name="differentiation" value="differentiated" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="95.txt-17">
+      <text>pappi 13–23 mm.</text>
+      <structure id="o19594" name="pappus">
+        <character char_type="range_value" name="size" from="13" from_unit="mm" to="23" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="95.txt-18">
+      <text>2 n = 32.</text>
+      <structure id="o19595" name="chromosome">
+        <character name="count" value="32" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Varieties 3 (3 in the flora):</number_of_infrataxa>
+  <general_distribution>w United States</general_distribution>
+  <discussion>Cirsium remotifolium occurs from the Coast Ranges and valleys of the Pacific Northwest to the western slopes of the Cascade and Klamath ranges, south in the California North Coast Ranges to the San Francisco Bay region. It is closely related to the C. clavatum complex of the Rocky Mountains region. Both have a similar growth habit and some forms variably express the character of broadly scarious, lacerate-toothed phyllary margins. Gray, in naming Cnicus carlinoides var. americanus, included as syntypes both California and Colorado specimens. F. Petrak (1917) treated both the West Coast plants and those of the Rocky Mountains as Cirsium subsect. Americana, recognizing C. remotifolium with several infraspecific taxa plus two other species, C. callilepis and C. amblylepis from the West Coast, and four additional species from the Rocky Mountains. A. Cronquist (1955) rejected Petrak’s subspecies, treating C. remotifolium in a restricted sense, limited to plants of Washington and Oregon without dilated phyllary tips, and circumscribed C. centaureae broadly to include the Rocky Mountains and West Coast plants with dilated phyllary tips. Because of the frequent presence of dilated phyllary tips in C. remotifolium in the restricted sense, Cronquist acknowledged the likelihood of past introgression with C. centaureae in the broad sense.</discussion>
+  <discussion>J. T. Howell (1960b) recognized three species: Cirsium remotifolium, C. acanthodontum, and C. callilepis, the latter with four varieties collectively corresponding to the West Coast representatives of C. centaureae (in the sense of Cronquist). Because of the great similarity of the various West Coast plants and their intergradation, I see no value in recognizing two or more species.</discussion>
+  <discussion>The West Coast and Rocky Mountains plants are clearly related, but are separated by the Great Basin region and there is little chance of current genetic interchange. As is often the case with American Cirsium, genetic enrichment from past hybridization with other nearby species within their respective areas has likely been fertile ground for evolutionary diversification. Different species have contributed genes in the Pacific states and in the Rockies. I have chosen to recognize two geographically-based species complexes, each with intergrading races here treated as varieties. I treat the West Coast plants as C. remotifolium and the Rocky Mountains plants as C. clavatum.</discussion>
+  <couplet>1.Phyllary margins ciliate with tiny spreading to recurved spines32c. Cirsium remotifolium var. rivulare</couplet>
+  <couplet>1.Phyllary margins unappendaged or dilated, scarious, and ± lacerate-toothed.</couplet>
+  <couplet>2.Phyllaries narrowly oblong or linear, often ± subequal, all or most without scarious-dilated margins32a. Cirsium remotifolium var. remotifolium</couplet>
+  <couplet>2.Phyllaries oblong to obovate, often strongly graduated, most or all with dilated, scarious, erose to lacerate-dentate margins32b. Cirsium remotifolium var. odontolepis</couplet>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

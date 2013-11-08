@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <genus_name>HECASTOCLEIS</genus_name>
+  <authority>A. Gray</authority>
+  <place_of_publication>Proc. Amer. Acad. Arts 17: 220. 1882</place_of_publication>
+  <common_name />
+  <derivation>Greek hecastos, each, and cleios , to shut up, alluding to one floret enclosed in each involucre</derivation>
+  <author_of_tribe_genus>Beryl B. Simpson</author_of_tribe_genus>
+  <description>
+    <statement id="3.txt-0">
+      <text>Subshrubs or shrubs, 40–80(–150+) cm (usually with tufts of hairs in axils of leaves).</text>
+      <structure id="o5337" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="80" to="150" from_unit="cm" to_unit="cm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="40" from_unit="cm" to="80" to_unit="cm" />
+        <character name="life_style" value="subshrub" />
+        <character name="life_style" value="shrub" />
+      </structure>
+    </statement>
+    <statement id="3.txt-1">
+      <text>Leaves cauline;</text>
+    </statement>
+    <statement id="3.txt-2">
+      <text>sessile;</text>
+      <structure id="o5339" name="leaf">
+        <character name="insertion_or_position" value="cauline" />
+        <character name="architecture" value="sessile" />
+      </structure>
+    </statement>
+    <statement id="3.txt-3">
+      <text>blades linear, bases cuneate, margins entire or proximally spiny, faces tomentulose, glabrescent.</text>
+      <structure id="o5340" name="blade">
+        <character name="arrangement_or_shape" value="linear" />
+      </structure>
+      <structure id="o5341" name="base">
+        <character name="shape" value="cuneate" />
+      </structure>
+      <structure id="o5342" name="margin">
+        <character name="shape" value="entire" />
+        <character name="shape" value="spiny" modifier="proximally" />
+      </structure>
+      <structure id="o5343" name="face">
+        <character name="pubescence" value="tomentulose" />
+        <character name="pubescence" value="glabrescent" />
+      </structure>
+    </statement>
+    <statement id="3.txt-4">
+      <text>Heads discoid, clustered in second-order heads (each cluster 15–25 mm diam. and subtended by ovate to orbiculate, prickly-margined bracts).</text>
+      <structure id="o5344" name="head">
+        <character name="shape_or_architecture" value="discoid" />
+        <character name="arrangement_or_habit" value="clustered" constraint="in heads" constraintid="o5345" />
+      </structure>
+      <structure id="o5345" name="head" />
+    </statement>
+    <statement id="3.txt-5">
+      <text>Involucres (each enclosing 1 floret) cylindric to fusiform, 10 mm.</text>
+      <structure id="o5346" name="involucre">
+        <character char_type="range_value" name="shape" from="cylindric" to="fusiform" />
+        <character name="shape" value="cylindric" />
+        <character name="shape" value="fusiform" />
+        <character name="size" value="10" unit="mm" />
+      </structure>
+    </statement>
+    <statement id="3.txt-6">
+      <text>Phyllaries in 2–3 series, ovate to lanceolate or linear, unequal, apices acute to cuspidate.</text>
+      <structure id="o5347" name="phyllary">
+        <character char_type="range_value" name="shape" from="ovate" to="lanceolate or linear" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="linear" />
+        <character name="size" value="unequal" />
+      </structure>
+      <structure id="o5348" name="series">
+        <character char_type="range_value" name="count" from="2" to="3" />
+      </structure>
+      <relation id="r707" name="in" from="o5347" to="o5348" negation="false" />
+      <structure id="o5349" name="apex">
+        <character char_type="range_value" name="shape" from="acute" to="cuspidate" />
+        <character name="shape" value="acute" />
+        <character name="shape" value="cuspidate" />
+      </structure>
+    </statement>
+    <statement id="3.txt-7">
+      <text>Receptacles flat, smooth, glabrous, epaleate.</text>
+      <structure id="o5350" name="receptacle">
+        <character name="shape" value="flat" />
+        <character name="architecture_or_relief" value="smooth" />
+        <character name="pubescence" value="glabrous" />
+        <character name="architecture" value="epaleate" />
+      </structure>
+    </statement>
+    <statement id="3.txt-8">
+      <text>Florets 1, bisexual, fertile;</text>
+      <structure id="o5351" name="floret">
+        <character name="count" value="1" />
+        <character name="reproduction" value="bisexual" />
+        <character name="reproduction" value="fertile" />
+      </structure>
+    </statement>
+    <statement id="3.txt-9">
+      <text>corollas reddish purple to greenish white, actinomorphic (lobes 5, lance-linear, glabrous);</text>
+      <structure id="o5352" name="corolla">
+        <character char_type="range_value" name="coloration" from="reddish-purple" to="greenish-white" />
+        <character name="coloration" value="purple" modifier="reddish" />
+        <character name="coloration" value="white" modifier="greenish" />
+        <character name="architecture" value="actinomorphic" />
+      </structure>
+    </statement>
+    <statement id="3.txt-10">
+      <text>anther basal appendages slightly fimbriate, apical appendages lanceolate, acute;</text>
+      <structure id="o5353" name="appendage" constraint="anther basal">
+        <character name="shape" value="fimbriate" modifier="slightly" />
+      </structure>
+      <structure id="o5354" name="appendage" constraint="apical">
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="acute" />
+      </structure>
+    </statement>
+    <statement id="3.txt-11">
+      <text>style branches relatively stout (0.1–0.5 mm), apices rounded (abaxial faces papillose to pilose).</text>
+      <structure id="o5355" name="branch" constraint="style">
+        <character name="fragility" value="stout" modifier="relatively" />
+      </structure>
+      <structure id="o5356" name="apex">
+        <character name="shape" value="rounded" />
+      </structure>
+    </statement>
+    <statement id="3.txt-12">
+      <text>Cypselae ± terete (± 4 mm), not beaked, obscurely 4–5-nerved, faces glabrescent, not glandular-hairy;</text>
+      <structure id="o5357" name="cypsela">
+        <character name="shape" value="terete" modifier="±" />
+        <character name="shape" value="beaked" modifier="not" />
+        <character name="architecture" value="4-5-nerved" modifier="obscurely" />
+      </structure>
+      <structure id="o5358" name="face">
+        <character name="pubescence" value="glabrescent" />
+        <character name="pubescence" value="glandular-hairy" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="3.txt-13">
+      <text>pappi of 6 unequal, lanceolate or multitoothed scales (sometimes ± coalescent and forming lacerate crowns).</text>
+      <structure id="o5359" name="pappus" />
+      <structure id="o5360" name="scale">
+        <character name="count" value="6" />
+        <character name="size" value="unequal" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="multitoothed" />
+      </structure>
+      <relation id="r708" name="consist_of" from="o5359" to="o5360" negation="false" />
+    </statement>
+    <statement id="3.txt-14">
+      <text>x = 8.</text>
+      <structure id="o5361" name="chromosome">
+        <character name="count" value="8" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species 1:</number_of_infrataxa>
+  <general_distribution>sw United States.</general_distribution>
+  <references>SELECTED REFERENCE Williams, M. J. 1977. Hecastocleis shockleyi A. Gray. Mentzelia 3: 18.</references>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

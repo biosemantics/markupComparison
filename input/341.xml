@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>42.</number>
+  <genus_name>LAPSANA</genus_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 811. 1753; Gen. Pl. ed. 5, 353. 1754</place_of_publication>
+  <common_name>Nipplewort</common_name>
+  <derivation>Greek lapsanae , a vegetable mentioned by Dioscorides, perhaps actually Raphanus , with lyrate leaves resembling those of Lapsana</derivation>
+  <author_of_tribe_genus>David J. Bogler</author_of_tribe_genus>
+  <description>
+    <statement id="341.txt-0">
+      <text>Annuals [biennials], 15–150 cm;</text>
+    </statement>
+    <statement id="341.txt-1">
+      <text>fibrous-rooted.</text>
+      <structure id="o6345" name="whole_organism">
+        <character char_type="range_value" name="size" from="15" from_unit="cm" to="150" to_unit="cm" />
+        <character name="life_style" value="annual" />
+        <character name="architecture" value="fibrous-rooted" />
+      </structure>
+    </statement>
+    <statement id="341.txt-2">
+      <text>Stems 1, erect, simple or branched, glabrate to sparsely or densely pilose, hairs often stipitate-glandular.</text>
+      <structure id="o6346" name="stem">
+        <character name="count" value="1" />
+        <character name="orientation" value="erect" />
+        <character name="architecture" value="simple" />
+        <character name="architecture" value="branched" />
+        <character name="pubescence" value="glabrate" />
+        <character name="pubescence" value="pilose" modifier="sparsely densely" />
+      </structure>
+      <structure id="o6347" name="hair">
+        <character name="architecture_or_exudation_or_pubescence" value="stipitate-glandular" modifier="often" />
+      </structure>
+    </statement>
+    <statement id="341.txt-3">
+      <text>Leaves basal and cauline (not in rosettes);</text>
+    </statement>
+    <statement id="341.txt-4">
+      <text>narrowly winged-petiolate;</text>
+      <structure id="o6348" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="architecture" value="winged-petiolate" modifier="narrowly" />
+      </structure>
+    </statement>
+    <statement id="341.txt-5">
+      <text>blades ovate to suborbiculate (thin), margins entire, dentate, or lyrate-pinnatifid proximally (terminal lobes larger than laterals, faces glabrate to sparsely hirsute; distal sessile, lanceolate, reduced).</text>
+      <structure id="o6349" name="blade">
+        <character char_type="range_value" name="shape" from="ovate" to="suborbiculate" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="suborbiculate" />
+      </structure>
+      <structure id="o6350" name="margin">
+        <character name="shape" value="entire" modifier="proximally" />
+        <character name="shape" value="dentate" modifier="proximally" />
+        <character name="shape" value="lyrate-pinnatifid" modifier="proximally" />
+      </structure>
+    </statement>
+    <statement id="341.txt-6">
+      <text>Heads in open, corymbiform to thyrsiform arrays.</text>
+      <structure id="o6351" name="head" />
+      <structure id="o6352" name="array">
+        <character char_type="range_value" name="architecture" from="open , corymbiform" to="thyrsiform" />
+        <character name="architecture" value="open" />
+        <character name="architecture" value="corymbiform" />
+        <character name="architecture" value="thyrsiform" />
+      </structure>
+      <relation id="r792" name="in" from="o6351" to="o6352" negation="false" />
+    </statement>
+    <statement id="341.txt-7">
+      <text>Peduncles (slender) slightly inflated distally, ebracteate.</text>
+      <structure id="o6353" name="peduncle">
+        <character name="shape" value="inflated" modifier="slightly ; distally" />
+        <character name="architecture" value="ebracteate" />
+      </structure>
+    </statement>
+    <statement id="341.txt-8">
+      <text>Calyculi of 4–5 subulate or scalelike, glabrous bractlets.</text>
+      <structure id="o6354" name="calyculus" />
+      <structure id="o6355" name="bractlet">
+        <character char_type="range_value" name="count" from="4" to="5" />
+        <character name="shape" value="subulate" />
+        <character name="archiecture" value="scalelike" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+      <relation id="r793" name="consist_of" from="o6354" to="o6355" negation="false" />
+    </statement>
+    <statement id="341.txt-9">
+      <text>Involucres cylindric to campanulate, 2–5 mm diam.</text>
+      <structure id="o6356" name="involucre">
+        <character char_type="range_value" name="shape" from="cylindric" to="campanulate" />
+        <character name="shape" value="cylindric" />
+        <character name="shape" value="campanulate" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="341.txt-10">
+      <text>Phyllaries 8–10 in 1 series, linear-oblong, subequal, (strongly keeled) margins green, not scarious, apices acute, faces glabrous.</text>
+      <structure id="o6357" name="phyllary">
+        <character char_type="range_value" name="count" from="8" to="10" constraint="in series" constraintid="o6358" />
+        <character name="shape" value="linear-oblong" />
+        <character name="size" value="subequal" />
+      </structure>
+      <structure id="o6358" name="series">
+        <character name="count" value="1" />
+      </structure>
+      <structure id="o6359" name="margin">
+        <character name="coloration" value="green" />
+        <character name="texture" value="scarious" modifier="not" />
+      </structure>
+      <structure id="o6360" name="apex">
+        <character name="shape" value="acute" />
+      </structure>
+      <structure id="o6361" name="face">
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="341.txt-11">
+      <text>Receptacles flat, smooth, glabrous, epaleate.</text>
+      <structure id="o6362" name="receptacle">
+        <character name="shape" value="flat" />
+        <character name="architecture_or_relief" value="smooth" />
+        <character name="pubescence" value="glabrous" />
+        <character name="architecture" value="epaleate" />
+      </structure>
+    </statement>
+    <statement id="341.txt-12">
+      <text>Florets 8–15;</text>
+      <structure id="o6363" name="floret">
+        <character char_type="range_value" name="count" from="8" to="15" />
+      </structure>
+    </statement>
+    <statement id="341.txt-13">
+      <text>corollas yellow.</text>
+      <structure id="o6364" name="corolla">
+        <character name="coloration" value="yellow" />
+      </structure>
+    </statement>
+    <statement id="341.txt-14">
+      <text>Cypselae dimorphic (outer much longer than inner), tan to golden brown, subcylindric, curved, terete to slightly compressed, not beaked, ± 20-ribbed, glabrous;</text>
+      <structure id="o6365" name="cypsela">
+        <character name="habit" value="dimorphic" />
+        <character char_type="range_value" name="coloration" from="tan" to="golden-brown" />
+        <character name="coloration" value="tan" />
+        <character name="coloration" value="brown" modifier="golden" />
+        <character char_type="range_value" name="shape" from="subcylindric , curved , terete" to="slightly compressed" />
+        <character name="shape" value="subcylindric" />
+        <character name="shape" value="curved" />
+        <character name="shape" value="terete" />
+        <character name="shape" value="compressed" modifier="slightly" />
+        <character name="shape" value="beaked" modifier="not" />
+        <character name="architecture_or_shape" value="20-ribbed" modifier="±" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="341.txt-15">
+      <text>pappi 0.</text>
+      <structure id="o6366" name="pappus">
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+    <statement id="341.txt-16">
+      <text>x = 7.</text>
+      <structure id="o6367" name="chromosome">
+        <character name="count" value="7" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species 1:</number_of_infrataxa>
+  <introduced>introduced;</introduced>
+  <general_distribution>Europe</general_distribution>
+  <general_distribution>Asia.</general_distribution>
+  <discussion>Lapsana formerly included about 9 species, some from eastern Asia. Based on cladistic analysis of morphologic characters, the eastern Asian species have been removed to Lapasanastrum, a strongly supported monophyletic group characterized by spreading phyllaries and distinctive fruit anatomy (J. H. Pak and K. Bremer 1995).</discussion>
+  <references>SELECTED REFERENCE Pak, J. H. and K. Bremer. 1995. Phylogeny and reclassification of the genus Lapsana (Asteraceae: Lactuceae). Taxon 44: 13–21.</references>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

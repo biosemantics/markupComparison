@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>12b.</number>
+  <variety_name>Malacothrix saxatilis (Nuttall) Torrey &amp; A. Gray var. tenuifolia</variety_name>
+  <authority>(Nuttall) A. Gray</authority>
+  <place_of_publication>in A. Gray et al., Syn. Fl. N. Amer. 1(2): 423. 1884</place_of_publication>
+  <synonym_of_variety_name>Leucoseris tenuifolia Nuttall, Trans. Amer. Philos. Soc., n. s. 7: 440. 1841; Malacothrix saxatilis (Nuttall) Torrey &amp; A. Gray var. altissima (Greene) Ferris</synonym_of_variety_name>
+  <description>
+    <statement id="481.txt-0">
+      <text>Plants with woody caudices.</text>
+      <structure id="o9621" name="whole_organism">
+        <character name="life_style" value="plant" />
+      </structure>
+      <structure id="o9622" name="caudex" constraint="woody" />
+      <relation id="r1115" name="with" from="o9621" to="o9622" negation="false" />
+    </statement>
+    <statement id="481.txt-1">
+      <text>Herbage glabrous or sparsely hairy (floccose).</text>
+      <structure id="o9623" name="herbage">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="hairy" modifier="sparsely" />
+      </structure>
+    </statement>
+    <statement id="481.txt-2">
+      <text>Stems 1–3+, erect, branched distally, herbaceous, relatively sparsely leafy distally.</text>
+      <structure id="o9624" name="stem">
+        <character char_type="range_value" name="count" from="1" to="3" upper_restricted="false" />
+        <character name="orientation" value="erect" />
+        <character name="architecture_or_shape" value="branched" modifier="distally" />
+        <character name="habit_or_texture" value="herbaceous" />
+        <character name="architecture" value="leafy" modifier="relatively sparsely ; distally" />
+      </structure>
+    </statement>
+    <statement id="481.txt-3">
+      <text>Cauline leaves:</text>
+      <structure id="o9625" name="leaf" constraint="cauline" />
+    </statement>
+    <statement id="481.txt-4">
+      <text>proximal usually 1-pinnately lobed (lobes lanceolate to linear or filiform, sometimes antrorse, apices acute);</text>
+      <structure id="o9626" name="leaf" constraint="proximal cauline">
+        <character name="shape" value="lobed" modifier="usually 1-pinnately" />
+      </structure>
+    </statement>
+    <statement id="481.txt-5">
+      <text>distal linear to filiform (or pinnately lobed, lobes linear to filiform), ultimate margins entire, apices acute.</text>
+      <structure id="o9627" name="leaf" constraint="distal cauline" />
+      <structure id="o9628" name="margin" constraint="ultimate">
+        <character name="shape" value="entire" />
+      </structure>
+      <structure id="o9629" name="apex">
+        <character name="shape" value="acute" />
+      </structure>
+    </statement>
+    <statement id="481.txt-6">
+      <text>Arrays of heads relatively open.</text>
+      <structure id="o9630" name="head">
+        <character name="architecture" value="open" modifier="relatively" />
+      </structure>
+    </statement>
+    <statement id="481.txt-7">
+      <text>Cypselae 1.4–2 mm.</text>
+      <structure id="o9631" name="cypsela">
+        <character char_type="range_value" name="size" from="1.4" from_unit="mm" to="2" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="481.txt-8">
+      <text>2 n = 18.</text>
+      <structure id="o9632" name="chromosome">
+        <character name="count" value="18" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <flowering_time>nov</flowering_time>
+  <flowering_time>dec</flowering_time>
+  <flowering_time>winter</flowering_time>
+  <habitat>canyons</habitat>
+  <habitat>coastal-sage scrub</habitat>
+  <habitat>chaparral</habitat>
+  <elevation>10–2000 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <discussion>Variety tenuifolia occurs in the Transverse Ranges (Santa Monica, Santa Ynez, San Gabriel, and San Bernardino mountains), south to coastal areas in Orange and San Diego counties, and east to San Bernardino and Riverside counties, and on Santa Catalina Island with var. saxatilis. Single populations grow on San Clemente and San Nicolas islands on mounds of sand brought from the mainland.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

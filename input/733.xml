@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Facelis retusa</species_name>
+  <authority>(Lamarck) Schultz-Bipontinus</authority>
+  <place_of_publication>Linnaea 34: 532. 1866</place_of_publication>
+  <common_name>Annual trampweed</common_name>
+  <synonym_of_species_name>Gnaphalium retusum Lamarck in J. Lamarck et al., Encycl. 2: 758. 1788</synonym_of_species_name>
+  <description>
+    <statement id="733.txt-0">
+      <text>Stems usually with decumbent to nearly procumbent branches arising from bases, 3–30 cm, loosely tomentose.</text>
+      <structure id="o15326" name="stem">
+        <character char_type="range_value" name="size" from="3" from_unit="cm" to="30" to_unit="cm" />
+        <character name="pubescence" value="tomentose" modifier="loosely" />
+      </structure>
+      <structure id="o15327" name="branch">
+        <character char_type="range_value" name="habit" from="decumbent" to="nearly procumbent" />
+        <character name="habit" value="decumbent" />
+        <character name="habit" value="procumbent" modifier="nearly" />
+        <character name="orientation" value="arising" constraint="from bases" constraintid="o15328" />
+      </structure>
+      <relation id="r1654" name="with" from="o15326" to="o15327" negation="false" modifier="usually" />
+      <structure id="o15328" name="base" />
+    </statement>
+    <statement id="733.txt-1">
+      <text>Leaves crowded;</text>
+      <structure id="o15329" name="leaf">
+        <character name="architecture" value="crowded" />
+      </structure>
+    </statement>
+    <statement id="733.txt-2">
+      <text>blades 7–20(–30) × 1.5–4 mm, apices truncate-apiculate to retuse.</text>
+      <structure id="o15330" name="blade">
+        <character char_type="range_value" name="atypical_length" from="20" to="30" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="7" from_unit="mm" to="20" to_unit="mm" />
+        <character char_type="range_value" name="width" from="1.5" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+      <structure id="o15331" name="apex">
+        <character char_type="range_value" name="shape" from="truncate-apiculate" to="retuse" />
+        <character name="shape" value="truncate-apiculate" />
+        <character name="shape" value="retuse" />
+      </structure>
+    </statement>
+    <statement id="733.txt-3">
+      <text>Heads:</text>
+      <structure id="o15332" name="head" />
+    </statement>
+    <statement id="733.txt-4">
+      <text>clusters subtended by bractlike leaves.</text>
+      <structure id="o15333" name="head" />
+      <structure id="o15334" name="leaf">
+        <character name="shape" value="bractlike" />
+      </structure>
+      <relation id="r1655" name="subtended by" from="o15333" to="o15334" negation="false" />
+    </statement>
+    <statement id="733.txt-5">
+      <text>Cypselae 1.6 mm;</text>
+      <structure id="o15335" name="cypsela">
+        <character name="size" value="1.6" unit="mm" />
+      </structure>
+    </statement>
+    <statement id="733.txt-6">
+      <text>pappi 10–11 mm.</text>
+      <structure id="o15336" name="pappus">
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="11" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="733.txt-7">
+      <text>2 n = 14.</text>
+      <structure id="o15337" name="chromosome">
+        <character name="count" value="14" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <habitat>lawns</habitat>
+  <habitat>roadsides</habitat>
+  <habitat>pastures</habitat>
+  <habitat>other disturbed sites</habitat>
+  <habitat>usually on sandy soils</habitat>
+  <elevation>0–100 m;</elevation>
+  <us_distribution>Ala.</us_distribution>
+  <us_distribution>Ark.</us_distribution>
+  <us_distribution>Fla.</us_distribution>
+  <us_distribution>Ga.</us_distribution>
+  <us_distribution>Kans.</us_distribution>
+  <us_distribution>La.</us_distribution>
+  <us_distribution>Miss.</us_distribution>
+  <us_distribution>N.C.</us_distribution>
+  <us_distribution>Okla.</us_distribution>
+  <us_distribution>S.C.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <us_distribution>Va.</us_distribution>
+  <global_distribution>South America</global_distribution>
+  <global_distribution>Australia.</global_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

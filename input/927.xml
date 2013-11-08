@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>49.</number>
+  <species_name>Artemisia tilesii</species_name>
+  <authority>Ledebour</authority>
+  <place_of_publication>Mém. Acad. Imp. Sci. St. Pétersbourg Hist. Acad. 5: 568. 1814</place_of_publication>
+  <synonym_of_species_name>Artemisia hookeriana Besser; A. hultenii M. M. Maximova; A. tilesii var. aleutica (Hultén) S. L. Welsh; A. tilesii var. elatior Torrey &amp; A. Gray; A. tilesii subsp. gormanii (Rydberg) Hultén; A. tilesii subsp. hultenii (M. M. Maximova) V. G. Sergienko; A. tilesii var. unalaschcensis Besser; A. unalaskensis Rydberg var. aleutica Hultén; A. vulgaris Linnaeus subsp. tilesii (Ledebour) H. M. Hall &amp; Clements</synonym_of_species_name>
+  <description>
+    <statement id="927.txt-0">
+      <text>Perennials, 20–60(–80) cm, mildly aromatic (rhizomes coarse).</text>
+      <structure id="o19037" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="60" to="80" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="20" from_unit="cm" to="60" to_unit="cm" />
+        <character name="odor" value="aromatic" modifier="mildly" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="927.txt-1">
+      <text>Stems 1–3, erect, white, tomentose (on distal branches, hairs appressed) or glabrate.</text>
+      <structure id="o19038" name="stem">
+        <character char_type="range_value" name="count" from="1" to="3" />
+        <character name="orientation" value="erect" />
+        <character name="coloration" value="white" />
+        <character name="pubescence" value="tomentose" />
+        <character name="pubescence" value="glabrate" />
+      </structure>
+    </statement>
+    <statement id="927.txt-2">
+      <text>Leaves basal and cauline, bicolor (white and green);</text>
+      <structure id="o19039" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="coloration" value="bicolor" />
+      </structure>
+    </statement>
+    <statement id="927.txt-3">
+      <text>blades (basal) linear to broadly lanceolate, 3–7(–10) × 2–5(–6) cm, coarsely pinnately lobed (cauline becoming linear distally), faces tomentose (abaxial) or glabrous (adaxial).</text>
+      <structure id="o19040" name="blade">
+        <character char_type="range_value" name="shape" from="linear" to="broadly lanceolate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="lanceolate" modifier="broadly" />
+        <character char_type="range_value" name="atypical_length" from="7" to="10" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="3" from_unit="cm" to="7" to_unit="cm" />
+        <character char_type="range_value" name="atypical_width" from="5" to="6" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="width" from="2" from_unit="cm" to="5" to_unit="cm" />
+        <character name="shape" value="lobed" modifier="coarsely pinnately" />
+      </structure>
+      <structure id="o19041" name="face">
+        <character name="pubescence" value="tomentose" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="927.txt-4">
+      <text>Heads in compact to broadly branched, paniculiform arrays 1–20 × 2–6 cm.</text>
+      <structure id="o19042" name="head" />
+      <structure id="o19043" name="array">
+        <character name="architecture" value="compact" />
+        <character name="architecture_or_shape" value="branched" modifier="broadly" />
+        <character name="architecture" value="paniculiform" />
+        <character char_type="range_value" name="length" from="1" from_unit="cm" to="20" to_unit="cm" />
+        <character char_type="range_value" name="width" from="2" from_unit="cm" to="6" to_unit="cm" />
+      </structure>
+      <relation id="r2013" name="in" from="o19042" to="o19043" negation="false" />
+    </statement>
+    <statement id="927.txt-5">
+      <text>Involucres broadly campanulate, 4–5 × 3.5–4 mm.</text>
+      <structure id="o19044" name="involucre">
+        <character name="shape" value="campanulate" modifier="broadly" />
+        <character char_type="range_value" name="length" from="4" from_unit="mm" to="5" to_unit="mm" />
+        <character char_type="range_value" name="width" from="3.5" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="927.txt-6">
+      <text>Phyllaries (violet-brown) oval (outer) to elliptic or lanceolate, sparsely tomentose.</text>
+      <structure id="o19045" name="phyllary">
+        <character char_type="range_value" name="shape" from="oval" to="elliptic or lanceolate" />
+        <character name="shape" value="oval" />
+        <character name="shape" value="elliptic" />
+        <character name="shape" value="lanceolate" />
+        <character name="pubescence" value="tomentose" modifier="sparsely" />
+      </structure>
+    </statement>
+    <statement id="927.txt-7">
+      <text>Florets:</text>
+      <structure id="o19046" name="floret" />
+    </statement>
+    <statement id="927.txt-8">
+      <text>pistillate 9;</text>
+      <structure id="o19047" name="floret" constraint="pistillate">
+        <character name="count" value="9" />
+      </structure>
+    </statement>
+    <statement id="927.txt-9">
+      <text>bisexual 25–60;</text>
+      <structure id="o19048" name="floret" constraint="bisexual">
+        <character char_type="range_value" name="count" from="25" to="60" />
+      </structure>
+    </statement>
+    <statement id="927.txt-10">
+      <text>corollas yellow, 1.5–3 mm, glabrous (style branches included, erect, linear, relatively short, short-ciliate).</text>
+      <structure id="o19049" name="corolla">
+        <character name="coloration" value="yellow" />
+        <character char_type="range_value" name="size" from="1.5" from_unit="mm" to="3" to_unit="mm" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="927.txt-11">
+      <text>Cypselae oblong-linear (angular), 1.2–1.5 mm, glabrous.</text>
+      <structure id="o19050" name="cypsela">
+        <character name="arrangement_or_shape" value="oblong-linear" />
+        <character char_type="range_value" name="size" from="1.2" from_unit="mm" to="1.5" to_unit="mm" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="927.txt-12">
+      <text>2 n = 18, 36.</text>
+      <structure id="o19051" name="chromosome">
+        <character name="count" value="18" />
+        <character name="count" value="36" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <flowering_time>nov</flowering_time>
+  <habitat>arctic and alpine tundra</habitat>
+  <habitat>sandy, rocky slopes near shorelines</habitat>
+  <elevation>0–2000 m;</elevation>
+  <ca_distribution>Alta.</ca_distribution>
+  <ca_distribution>B.C.</ca_distribution>
+  <ca_distribution>Man.</ca_distribution>
+  <ca_distribution>N.W.T.</ca_distribution>
+  <ca_distribution>Nunavut</ca_distribution>
+  <ca_distribution>Ont.</ca_distribution>
+  <ca_distribution>Que.</ca_distribution>
+  <ca_distribution>Sask.</ca_distribution>
+  <ca_distribution>Yukon</ca_distribution>
+  <us_distribution>Alaska</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <global_distribution>Asia (Russia).</global_distribution>
+  <discussion>Artemisia tilesii has a bewildering array of variation in leaf and inflorescence morphology that has been separated into four infraspecific taxa recognized in some floras. I am unable to separate these taxa consistently and am including them within a broad circumscription of the species.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

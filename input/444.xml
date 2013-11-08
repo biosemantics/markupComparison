@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>58.</number>
+  <genus_name>PICRIS</genus_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 792. 1753; Gen. Pl. ed. 5, 347. 1754</place_of_publication>
+  <common_name>Oxtongue</common_name>
+  <derivation>Greek picris , bitter or sharp; allusion unclear</derivation>
+  <author_of_tribe_genus>John L. Strother</author_of_tribe_genus>
+  <description>
+    <statement id="444.txt-0">
+      <text>Annuals, biennials, or perennials, 10–100+ cm;</text>
+    </statement>
+    <statement id="444.txt-1">
+      <text>tap- or fibrous-rooted, sometimes rhizomatous.</text>
+      <structure id="o8805" name="whole_organism">
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="100" to_unit="cm" upper_restricted="false" />
+        <character name="life_style" value="annual" />
+        <character name="life_style" value="biennial" />
+        <character name="life_style" value="perennial" />
+        <character name="architecture" value="tap-or-fibrous-rooted" />
+        <character name="architecture" value="rhizomatous" modifier="sometimes" />
+        <character name="life_style" value="biennial" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="444.txt-2">
+      <text>Stems usually 1, erect, branched distally, hirsute to hispid or setose (hair tips often 2[–4]-hooked).</text>
+      <structure id="o8808" name="stem">
+        <character name="count" value="1" modifier="usually" />
+        <character name="orientation" value="erect" />
+        <character name="architecture_or_shape" value="branched" modifier="distally" />
+        <character char_type="range_value" name="pubescence" from="hirsute" to="hispid or setose" />
+        <character name="pubescence" value="hirsute" />
+        <character name="pubescence" value="hispid" />
+        <character name="pubescence" value="setose" />
+      </structure>
+    </statement>
+    <statement id="444.txt-3">
+      <text>Leaves basal and cauline (mostly cauline at flowering);</text>
+      <structure id="o8809" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+      </structure>
+    </statement>
+    <statement id="444.txt-4">
+      <text>basal ± petiolate, distal sessile;</text>
+      <structure id="o8810" name="leaf" constraint="basal">
+        <character name="architecture" value="petiolate" modifier="±" />
+      </structure>
+      <structure id="o8811" name="leaf" constraint="distal">
+        <character name="architecture" value="sessile" />
+      </structure>
+    </statement>
+    <statement id="444.txt-5">
+      <text>blades oblong, ovate, or lanceolate to oblanceolate or linear, margins entire or sinuate-dentate to pinnately lobed (faces hirsute to hispid or setose, hair tips 2[–4]-hooked).</text>
+      <structure id="o8812" name="blade">
+        <character char_type="range_value" name="shape" from="lanceolate" to="oblanceolate or linear" />
+        <character name="shape" value="oblong" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="linear" />
+      </structure>
+      <structure id="o8813" name="margin">
+        <character char_type="range_value" name="shape" from="sinuate-dentate" to="pinnately lobed" />
+        <character name="shape" value="entire" />
+        <character name="shape" value="sinuate-dentate" />
+        <character name="shape" value="lobed" modifier="pinnately" />
+      </structure>
+    </statement>
+    <statement id="444.txt-6">
+      <text>Heads usually in ± corymbiform arrays.</text>
+      <structure id="o8814" name="head" />
+      <structure id="o8815" name="array">
+        <character name="architecture" value="corymbiform" modifier="±" />
+      </structure>
+      <relation id="r1035" name="in" from="o8814" to="o8815" negation="false" modifier="usually" />
+    </statement>
+    <statement id="444.txt-7">
+      <text>Peduncles not inflated distally, sometimes bracteate.</text>
+      <structure id="o8816" name="peduncle">
+        <character name="shape" value="inflated" modifier="not ; distally" />
+        <character name="architecture" value="bracteate" modifier="sometimes" />
+      </structure>
+    </statement>
+    <statement id="444.txt-8">
+      <text>Calyculi of 8–13+, lanceolate to lance-linear bractlets (sometimes ± intergrading with phyllaries).</text>
+      <structure id="o8817" name="calyculus" />
+      <structure id="o8818" name="bractlet">
+        <character char_type="range_value" name="count" from="8" to="13" upper_restricted="false" />
+        <character char_type="range_value" name="shape" from="lanceolate" to="lance-linear" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="lance-linear" />
+      </structure>
+      <relation id="r1036" name="consist_of" from="o8817" to="o8818" negation="false" />
+    </statement>
+    <statement id="444.txt-9">
+      <text>Involucres campanulate to urceolate, 6–12+ mm diam. (sometimes larger in fruit).</text>
+      <structure id="o8819" name="involucre">
+        <character char_type="range_value" name="shape" from="campanulate" to="urceolate" />
+        <character name="shape" value="campanulate" />
+        <character name="shape" value="urceolate" />
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="12" to_unit="mm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="444.txt-10">
+      <text>Phyllaries (8–)13+ in 1–2 series (reflexed in fruit), lanceolate to lance-linear (± flat or navicular proximally, sometimes each ± enfolding its subtended floret), equal, margins often scarious, apices acute.</text>
+      <structure id="o8820" name="phyllary">
+        <character char_type="range_value" name="atypical_count" from="8" to="13" to_inclusive="false" />
+        <character name="count" char_type="range_value" from="13" upper_restricted="false" constraint="in series" constraintid="o8821" />
+        <character char_type="range_value" name="shape" from="lanceolate" to="lance-linear" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="lance-linear" />
+        <character name="size" value="equal" />
+      </structure>
+      <structure id="o8821" name="series">
+        <character char_type="range_value" name="count" from="1" to="2" />
+      </structure>
+      <structure id="o8822" name="margin">
+        <character name="texture" value="scarious" modifier="often" />
+      </structure>
+      <structure id="o8823" name="apex">
+        <character name="shape" value="acute" />
+      </structure>
+    </statement>
+    <statement id="444.txt-11">
+      <text>Receptacles flat to convex, ± pitted, glabrous, epaleate.</text>
+      <structure id="o8824" name="receptacle">
+        <character char_type="range_value" name="shape" from="flat" to="convex" />
+        <character name="shape" value="flat" />
+        <character name="shape" value="convex" />
+        <character name="relief" value="pitted" modifier="±" />
+        <character name="pubescence" value="glabrous" />
+        <character name="architecture" value="epaleate" />
+      </structure>
+    </statement>
+    <statement id="444.txt-12">
+      <text>Florets 30–100+;</text>
+      <structure id="o8825" name="floret">
+        <character char_type="range_value" name="count" from="30" to="100" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="444.txt-13">
+      <text>corollas yellow, often reddish abaxially.</text>
+      <structure id="o8826" name="corolla">
+        <character name="coloration" value="yellow" />
+        <character name="coloration" value="reddish" modifier="often ; abaxially" />
+      </structure>
+    </statement>
+    <statement id="444.txt-14">
+      <text>Cypselae homomorphic [heteromorphic], reddish brown [dark brown], bodies ± fusiform [compressed-ellipsoid], not beaked [beaks ± developed], ribs 5–10, faces transversely rugulose, glabrous;</text>
+      <structure id="o8827" name="cypsela">
+        <character name="architecture" value="homomorphic" />
+        <character name="coloration" value="brown" modifier="reddish" />
+      </structure>
+      <structure id="o8828" name="body">
+        <character name="shape" value="fusiform" modifier="±" />
+        <character name="shape" value="beaked" modifier="not" />
+      </structure>
+      <structure id="o8829" name="rib">
+        <character char_type="range_value" name="count" from="5" to="10" />
+      </structure>
+      <structure id="o8830" name="face">
+        <character name="relief" value="rugulose" modifier="transversely" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="444.txt-15">
+      <text>pappi falling, of 30–45+, whitish to stramineous, subequal, barbellulate to plumose bristles [scales] in 2–3+ series (basally connate, falling together).</text>
+      <structure id="o8831" name="pappus">
+        <character name="orientation" value="falling" />
+      </structure>
+      <structure id="o8832" name="bristle">
+        <character char_type="range_value" name="count" from="30" to="45" upper_restricted="false" />
+        <character char_type="range_value" name="coloration" from="whitish" to="stramineous" />
+        <character name="coloration" value="whitish" />
+        <character name="coloration" value="stramineous" />
+        <character name="size" value="subequal" />
+        <character char_type="range_value" name="architecture" from="barbellulate" to="plumose" />
+        <character name="architecture" value="barbellulate" />
+        <character name="architecture" value="plumose" />
+      </structure>
+      <relation id="r1037" name="consist_of" from="o8831" to="o8832" negation="false" />
+      <structure id="o8833" name="series">
+        <character char_type="range_value" name="count" from="2" to="3" upper_restricted="false" />
+      </structure>
+      <relation id="r1038" name="in" from="o8832" to="o8833" negation="false" />
+    </statement>
+    <statement id="444.txt-16">
+      <text>x = 5.</text>
+      <structure id="o8834" name="chromosome">
+        <character name="count" value="5" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species ca. 40 (2 in the flora):</number_of_infrataxa>
+  <introduced>introduced;</introduced>
+  <general_distribution>Europe</general_distribution>
+  <general_distribution>Asia</general_distribution>
+  <general_distribution>n Africa</general_distribution>
+  <general_distribution>also introduced in tropical Africa</general_distribution>
+  <general_distribution>Australia.</general_distribution>
+  <key>1.Annuals; phyllaries navicular proximally, each enfolding its subtended floret; cypselae 2.5– 3 mm1. Picris rhagadioloides</key>
+  <key>1.Biennials or perennials; phyllaries ± flat proximally, not each enfolding its subtended floret; cypselae 3–4(–6) mm2. Picris hieracioides</key>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

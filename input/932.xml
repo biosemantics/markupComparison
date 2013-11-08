@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Arctanthemum arcticum</species_name>
+  <authority>(Linnaeus) Tzvelev</authority>
+  <place_of_publication>in A. I. Tolmatchew, Fl. Arct. URSS 10: 115. 1987</place_of_publication>
+  <synonym_of_species_name>Chrysanthemum arcticum Linnaeus, Sp. Pl. 2: 889. 1753; Dendranthema arctica (Linnaeus) Tzvelev; Leucanthemum arcticum (Linnaeus) de Candolle</synonym_of_species_name>
+  <description>
+    <statement id="932.txt-0">
+      <text>Perennials, forming tufts of 1–10+ rosettes;</text>
+      <structure id="o19153" name="whole_organism">
+        <character name="life_style" value="perennial" />
+      </structure>
+      <structure id="o19154" name="tuft" />
+      <structure id="o19155" name="rosette">
+        <character char_type="range_value" name="count" from="1" to="10" upper_restricted="false" />
+      </structure>
+      <relation id="r2024" name="consist_of" from="o19154" to="o19155" negation="false" />
+    </statement>
+    <statement id="932.txt-1">
+      <text>rhizomes at or below ground, fleshy, tough, branched;</text>
+      <structure id="o19156" name="rhizome">
+        <character name="texture" value="fleshy" />
+        <character name="fragility" value="tough" />
+        <character name="architecture_or_shape" value="branched" />
+      </structure>
+    </statement>
+    <statement id="932.txt-2">
+      <text>taproots (young plants) 3–6(–10) mm diam.</text>
+      <structure id="o19157" name="taproot">
+        <character char_type="range_value" name="atypical_size" from="6" to="10" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="932.txt-3">
+      <text>Stems glabrous or sparsely woolly proximally to ± densely white-woolly near heads.</text>
+      <structure id="o19158" name="stem">
+        <character name="pubescence" value="glabrous" modifier="proximally" />
+        <character name="pubescence" value="woolly" modifier="sparsely proximally; ± densely white-woolly" constraint="near heads" constraintid="o19159" />
+      </structure>
+      <structure id="o19159" name="head" />
+    </statement>
+    <statement id="932.txt-4">
+      <text>Leaves sometimes glaucous;</text>
+      <structure id="o19160" name="leaf">
+        <character name="coating" value="glaucous" modifier="sometimes" />
+      </structure>
+    </statement>
+    <statement id="932.txt-5">
+      <text>petioles 0–95 mm;</text>
+      <structure id="o19161" name="petiole">
+        <character char_type="range_value" name="size" from="0" from_unit="mm" to="95" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="932.txt-6">
+      <text>bases cuneate to truncate, sheathing to clasping (distal), margins revolute, teeth obtuse to rounded, sometimes mucronulate, faces glabrous or sparsely woolly, glabrescent;</text>
+      <structure id="o19162" name="base">
+        <character char_type="range_value" name="shape" from="cuneate" to="truncate" />
+        <character name="shape" value="cuneate" />
+        <character name="shape" value="truncate" />
+        <character char_type="range_value" name="architecture" from="sheathing" to="clasping" />
+        <character name="architecture" value="sheathing" />
+        <character name="architecture" value="clasping" />
+      </structure>
+      <structure id="o19163" name="margin">
+        <character name="shape_or_vernation" value="revolute" />
+      </structure>
+      <structure id="o19164" name="tooth">
+        <character name="shape" value="obtuse" />
+        <character name="shape" value="rounded" />
+        <character name="shape" value="mucronulate" modifier="sometimes" />
+      </structure>
+      <structure id="o19165" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="woolly" modifier="sparsely" />
+        <character name="pubescence" value="glabrescent" />
+      </structure>
+    </statement>
+    <statement id="932.txt-7">
+      <text>basal and proximal cauline blades ± fan-shaped to cuneate or spatulate, 6–50 × 4–35 mm, lobes usually 3–7, apices blunt;</text>
+      <structure id="o19166" name="blade" constraint="basal and proximal cauline">
+        <character char_type="range_value" name="shape" from="fan-shaped" to="cuneate or spatulate" modifier="±" />
+        <character name="shape" value="fan-shaped" modifier="±" />
+        <character name="shape" value="cuneate" modifier="±" />
+        <character name="shape" value="spatulate" modifier="±" />
+        <character char_type="range_value" name="length" from="6" from_unit="mm" to="50" to_unit="mm" />
+        <character char_type="range_value" name="width" from="4" from_unit="mm" to="35" to_unit="mm" />
+      </structure>
+      <structure id="o19167" name="lobe">
+        <character char_type="range_value" name="count" from="3" to="7" modifier="usually" />
+      </structure>
+      <structure id="o19168" name="apex">
+        <character name="shape" value="blunt" />
+      </structure>
+    </statement>
+    <statement id="932.txt-8">
+      <text>distal blades linear, 4–35 × 1–28(–40) mm, bases attenuate, margins crenate, dentate, or entire, apices acute or obtuse;</text>
+      <structure id="o19169" name="blade" constraint="distal">
+        <character name="arrangement_or_shape" value="linear" />
+        <character char_type="range_value" name="length" from="4" from_unit="mm" to="35" to_unit="mm" />
+        <character char_type="range_value" name="atypical_width" from="28" to="40" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="width" from="1" from_unit="mm" to="28" to_unit="mm" />
+      </structure>
+      <structure id="o19170" name="base">
+        <character name="shape" value="attenuate" />
+      </structure>
+      <structure id="o19171" name="margin">
+        <character name="shape" value="crenate" />
+        <character name="shape" value="dentate" />
+        <character name="shape" value="entire" />
+      </structure>
+      <structure id="o19172" name="apex">
+        <character name="shape" value="acute" />
+        <character name="shape" value="obtuse" />
+      </structure>
+    </statement>
+    <statement id="932.txt-9">
+      <text>faces ± woolly, glabrescent.</text>
+      <structure id="o19173" name="face">
+        <character name="pubescence" value="woolly" modifier="±" />
+        <character name="pubescence" value="glabrescent" />
+      </structure>
+    </statement>
+    <statement id="932.txt-10">
+      <text>Peduncles usually bracteate, bracts 0–4, linear-lanceolate to linear, 6–19 mm.</text>
+      <structure id="o19174" name="peduncle">
+        <character name="architecture" value="bracteate" modifier="usually" />
+      </structure>
+      <structure id="o19175" name="bract">
+        <character char_type="range_value" name="count" from="0" to="4" />
+        <character char_type="range_value" name="shape" from="linear-lanceolate" to="linear" />
+        <character name="shape" value="linear-lanceolate" />
+        <character name="shape" value="linear" />
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="19" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="932.txt-11">
+      <text>Ray laminae 8–12 mm.</text>
+      <structure id="o19176" name="lamina" constraint="ray">
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="12" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="932.txt-12">
+      <text>Disc corollas:</text>
+      <structure id="o19177" name="corolla" constraint="disc" />
+    </statement>
+    <statement id="932.txt-13">
+      <text>tubes greenish yellow, (1.1–)1.4–2 mm, throats and lobes yellow turning brownish, throats 0.7–1 mm, sometimes very sparsely glandular, lobes (0.25–)0.4–0.6 mm.</text>
+      <structure id="o19178" name="tube">
+        <character name="coloration" value="yellow" modifier="greenish" />
+        <character char_type="range_value" name="atypical_size" from="1.1" to="1.4" from_unit="mm" to_unit="mm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="1.4" from_unit="mm" to="2" to_unit="mm" />
+      </structure>
+      <structure id="o19179" name="throat">
+        <character name="coloration" value="yellow" />
+        <character name="coloration" value="brownish" />
+      </structure>
+      <structure id="o19180" name="lobe">
+        <character name="coloration" value="yellow" />
+        <character name="coloration" value="brownish" />
+      </structure>
+      <structure id="o19181" name="throat">
+        <character char_type="range_value" name="size" from="0.7" from_unit="mm" to="1" to_unit="mm" />
+        <character name="architecture_or_exudation_or_pubescence" value="glandular" modifier="sometimes very sparsely" />
+      </structure>
+      <structure id="o19182" name="lobe">
+        <character char_type="range_value" name="atypical_size" from="0.25" to="0.4" from_unit="mm" to_unit="mm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="0.4" from_unit="mm" to="0.6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="932.txt-14">
+      <text>Cypselae 1.5–2.5 mm.</text>
+      <structure id="o19183" name="cypsela">
+        <character char_type="range_value" name="size" from="1.5" from_unit="mm" to="2.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="932.txt-15">
+      <text>2 n = 18 (72?).</text>
+      <structure id="o19184" name="chromosome">
+        <character name="count" value="18" />
+        <character name="atypical_count" value="72" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Subspecies 2 (2 in the flora):</number_of_infrataxa>
+  <general_distribution>coastal Alaska and low-arctic Canada</general_distribution>
+  <general_distribution>arctic Eurasia</general_distribution>
+  <general_distribution>ne Asia (s to Japan).</general_distribution>
+  <discussion>When Hultén described Chrysanthemum arcticum subsp. polare, he mapped the two subspecies. Along the Bering Strait in Alaska, all the material appears to belong to subsp. polare, except at Norton Bay, where a specimen (ALA) could be attributed to subsp. arcticum. That population would be very disjunct from the range of the subspecies along the south coast of Alaska. The two subspecies do not overlap widely in North America.</discussion>
+  <couplet>1.Plants 10–40 cm (more in fruit); stems sometimes branched; blades of basal leaves fan-shaped to cuneate or spatulate, 3–5(–7)-lobed; ray laminae (15–)17–25(–31) mm, veins (5–)8–10(–12)1a. Arctanthemum arcticum subsp. arcticum</couplet>
+  <couplet>1.Plants (2.5–)5–20(–26) cm (more in fruit); stems not branched; blades of basal leaves cuneate to spatulate, 0–3-lobed; ray laminae (7–)9–18(–21) mm, veins 4–5(–7)1b. Arctanthemum arcticum subsp. polare</couplet>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

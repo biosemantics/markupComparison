@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>4.</number>
+  <species_name>Hypochaeris radicata</species_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 811. 1753</place_of_publication>
+  <common_name>Hairy cat’s ear</common_name>
+  <description>
+    <statement id="437.txt-0">
+      <text>Perennials, 10–60 cm;</text>
+      <structure id="o8661" name="whole_organism">
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="60" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="437.txt-1">
+      <text>taproots vertical, thick, fibrous, caudices woody.</text>
+      <structure id="o8662" name="taproot">
+        <character name="orientation" value="vertical" />
+        <character name="thickness" value="thick" />
+        <character name="texture" value="fibrous" />
+      </structure>
+      <structure id="o8663" name="caudex">
+        <character name="texture" value="woody" />
+      </structure>
+    </statement>
+    <statement id="437.txt-2">
+      <text>Stems (1–15) erect, usually branched (2–3 times at mid stem and distally, sparsely bracteate or naked), glabrous or coarsely hirsute proximally.</text>
+      <structure id="o8664" name="stem">
+        <character char_type="range_value" name="atypical_count" from="1" to="15" />
+        <character name="orientation" value="erect" />
+        <character name="architecture_or_shape" value="branched" modifier="usually" />
+        <character name="pubescence" value="glabrous" modifier="proximally" />
+        <character name="pubescence" value="hirsute" modifier="coarsely proximally" />
+      </structure>
+    </statement>
+    <statement id="437.txt-3">
+      <text>Leaves all basal;</text>
+      <structure id="o8665" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+      </structure>
+    </statement>
+    <statement id="437.txt-4">
+      <text>blades oblanceolate, lyrate to slightly runcinate, 50-–350 × 5–30 mm, margins coarsely dentate to pinnatifid, faces ± hirsute (hairs coarse, spreading).</text>
+      <structure id="o8666" name="blade">
+        <character char_type="range_value" name="shape" from="oblanceolate , lyrate" to="slightly runcinate" />
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="lyrate" />
+        <character name="shape" value="runcinate" modifier="slightly" />
+        <character char_type="range_value" name="length" from="50" from_unit="mm" to="-350" to_unit="mm" />
+        <character char_type="range_value" name="width" from="5" from_unit="mm" to="30" to_unit="mm" />
+      </structure>
+      <structure id="o8667" name="margin">
+        <character char_type="range_value" name="shape" from="coarsely dentate" to="pinnatifid" />
+        <character name="shape" value="dentate" modifier="coarsely" />
+        <character name="shape" value="pinnatifid" modifier="coarsely" />
+      </structure>
+      <structure id="o8668" name="face">
+        <character name="pubescence" value="hirsute" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="437.txt-5">
+      <text>Heads usually 2–7 in loose arrays, sometimes borne singly.</text>
+      <structure id="o8669" name="head">
+        <character char_type="range_value" name="count" from="2" to="7" modifier="usually" constraint="in arrays" constraintid="o8670" />
+        <character name="arrangement" value="singly" modifier="sometimes" />
+      </structure>
+      <structure id="o8670" name="array">
+        <character name="architecture_or_texture" value="loose" />
+      </structure>
+    </statement>
+    <statement id="437.txt-6">
+      <text>Involucres cylindric or campanulate, 10–25 × 10–20 mm.</text>
+      <structure id="o8671" name="involucre">
+        <character name="shape" value="cylindric" />
+        <character name="shape" value="campanulate" />
+        <character char_type="range_value" name="length" from="10" from_unit="mm" to="25" to_unit="mm" />
+        <character char_type="range_value" name="width" from="10" from_unit="mm" to="20" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="437.txt-7">
+      <text>Phyllaries 20–30, narrowly lanceolate, 3–20 mm, unequal, margins scarious, green to darkened, faces glabrous or sparsely hirsute medially.</text>
+      <structure id="o8672" name="phyllary">
+        <character char_type="range_value" name="count" from="20" to="30" />
+        <character name="shape" value="lanceolate" modifier="narrowly" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="20" to_unit="mm" />
+        <character name="size" value="unequal" />
+      </structure>
+      <structure id="o8673" name="margin">
+        <character name="texture" value="scarious" />
+        <character char_type="range_value" name="coloration" from="green" to="darkened" />
+        <character name="coloration" value="green" />
+        <character name="coloration" value="darkened" />
+      </structure>
+      <structure id="o8674" name="face">
+        <character name="pubescence" value="glabrous" modifier="medially" />
+        <character name="pubescence" value="hirsute" modifier="sparsely medially" />
+      </structure>
+    </statement>
+    <statement id="437.txt-8">
+      <text>Florets 10–15 mm, surpassing phyllaries at flowering;</text>
+      <structure id="o8675" name="floret">
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="15" to_unit="mm" />
+      </structure>
+      <structure id="o8676" name="phyllary" constraint="at flowering">
+        <character name="comparison" value="surpassing" />
+      </structure>
+    </statement>
+    <statement id="437.txt-9">
+      <text>corollas bright yellow or grayish green.</text>
+      <structure id="o8677" name="corolla">
+        <character name="coloration" value="yellow" modifier="bright" />
+        <character name="coloration" value="green" modifier="grayish" />
+      </structure>
+    </statement>
+    <statement id="437.txt-10">
+      <text>Cypselae monomorphic, all beaked, beaks 3–5 mm;</text>
+      <structure id="o8678" name="cypsela">
+        <character name="habit" value="monomorphic" />
+        <character name="shape" value="beaked" />
+      </structure>
+      <structure id="o8679" name="beak">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="437.txt-11">
+      <text>bodies golden brown, fusiform, 6–10 mm, ribs 10–12, muricate;</text>
+      <structure id="o8680" name="body">
+        <character name="coloration" value="brown" modifier="golden" />
+        <character name="shape" value="fusiform" />
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+      <structure id="o8681" name="rib">
+        <character char_type="range_value" name="count" from="10" to="12" />
+        <character name="relief" value="muricate" />
+      </structure>
+    </statement>
+    <statement id="437.txt-12">
+      <text>pappi of whitish bristles in 2 series, outer barbellate, shorter than plumose inner, longest 10–12 mm.</text>
+      <structure id="o8682" name="pappus">
+        <character name="position" value="outer" />
+        <character name="architecture" value="barbellate" />
+        <character name="size" value="shorter than plumose inner" />
+        <character name="size" value="longest" />
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="12" to_unit="mm" />
+      </structure>
+      <structure id="o8683" name="bristle">
+        <character name="coloration" value="whitish" />
+      </structure>
+      <relation id="r1023" name="consist_of" from="o8682" to="o8683" negation="false" />
+      <structure id="o8684" name="series">
+        <character name="count" value="2" />
+      </structure>
+      <relation id="r1024" name="in" from="o8683" to="o8684" negation="false" />
+    </statement>
+    <statement id="437.txt-13">
+      <text>2 n = 8.</text>
+      <structure id="o8685" name="chromosome">
+        <character name="count" value="8" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <flowering_time>nov</flowering_time>
+  <habitat>oak-pine forest</habitat>
+  <habitat>coastal prairie</habitat>
+  <habitat>dunes</habitat>
+  <habitat>waste ground</habitat>
+  <habitat>dry fields</habitat>
+  <habitat>roadside ditches</habitat>
+  <habitat>railroads</habitat>
+  <habitat>lawns</habitat>
+  <elevation>0–1600 m;</elevation>
+  <introduced>introduced;</introduced>
+  <ca_distribution>B.C.</ca_distribution>
+  <ca_distribution>Nfld. and Labr. (Labr.)</ca_distribution>
+  <us_distribution>Ala.</us_distribution>
+  <us_distribution>Alaska</us_distribution>
+  <us_distribution>Ark.</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Conn.</us_distribution>
+  <us_distribution>Del.</us_distribution>
+  <us_distribution>Fla.</us_distribution>
+  <us_distribution>Ga.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Ill.</us_distribution>
+  <us_distribution>Ind.</us_distribution>
+  <us_distribution>Ky.</us_distribution>
+  <us_distribution>La.</us_distribution>
+  <us_distribution>Maine</us_distribution>
+  <us_distribution>Md.</us_distribution>
+  <us_distribution>Mass.</us_distribution>
+  <us_distribution>Mich.</us_distribution>
+  <us_distribution>Miss.</us_distribution>
+  <us_distribution>Mo.</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>N.H.</us_distribution>
+  <us_distribution>N.J.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>N.C.</us_distribution>
+  <us_distribution>Ohio</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <us_distribution>R.I.</us_distribution>
+  <us_distribution>S.C.</us_distribution>
+  <us_distribution>Tenn.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Vt.</us_distribution>
+  <us_distribution>Va.</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <us_distribution>W.Va.</us_distribution>
+  <us_distribution>Wis.</us_distribution>
+  <global_distribution>Europe</global_distribution>
+  <global_distribution>Asia.</global_distribution>
+  <discussion>Hypochaeris radicata is recognized by the coarse, perennial habit, stout roots, coarsely hirsute leaves and phyllaries, yellow corollas, and monomorphic, beaked cypselae. It is weedy and invasive in some areas.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

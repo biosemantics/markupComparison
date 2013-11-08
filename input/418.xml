@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>31.</number>
+  <species_name>Hieracium horridum</species_name>
+  <authority>Fries</authority>
+  <place_of_publication>Uppsala Univ. Årsskr. 1862: 154. 1862</place_of_publication>
+  <description>
+    <statement id="418.txt-0">
+      <text>Plants 5–25(–40+) cm.</text>
+      <structure id="o8240" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="25" to="40" from_unit="cm" to_unit="cm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="25" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="418.txt-1">
+      <text>Stems proximally piloso-hirsute (hairs 2–4+ mm), distally piloso-hirsute (hairs 1–3+ mm) and stellate-pubescent.</text>
+      <structure id="o8241" name="stem">
+        <character name="pubescence" value="piloso-hirsute" modifier="proximally" />
+        <character name="pubescence" value="piloso-hirsute" modifier="distally" />
+        <character name="pubescence" value="stellate-pubescent" />
+      </structure>
+    </statement>
+    <statement id="418.txt-2">
+      <text>Leaves:</text>
+      <structure id="o8242" name="leaf" />
+    </statement>
+    <statement id="418.txt-3">
+      <text>basal 3–6+, cauline 3–6+;</text>
+      <structure id="o8243" name="leaf" constraint="basal">
+        <character char_type="range_value" name="count" from="3" to="6" upper_restricted="false" />
+      </structure>
+      <structure id="o8244" name="leaf" constraint="cauline">
+        <character char_type="range_value" name="count" from="3" to="6" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="418.txt-4">
+      <text>blades oblong to spatulate or oblanceolate, (15–)25–75(–150+) × 6–12(–30+) mm, lengths 3–6+ times widths, bases cuneate, margins usually entire, sometimes denticulate, apices obtuse to acute, faces piloso-hirsute (to lanate, hairs 2–4 mm).</text>
+      <structure id="o8245" name="blade">
+        <character char_type="range_value" name="shape" from="oblong" to="spatulate or oblanceolate" />
+        <character name="shape" value="oblong" />
+        <character name="shape" value="spatulate" />
+        <character name="shape" value="oblanceolate" />
+        <character char_type="range_value" name="atypical_length" from="15" to="25" from_unit="mm" to_unit="mm" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_length" from="75" to="150" from_unit="mm" to_unit="mm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="25" from_unit="mm" to="75" to_unit="mm" />
+        <character char_type="range_value" name="atypical_width" from="12" to="30" from_unit="mm" to_unit="mm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="width" from="6" from_unit="mm" to="12" to_unit="mm" />
+        <character name="size" value="widths" modifier="3-6+ times" />
+      </structure>
+      <structure id="o8246" name="base">
+        <character name="shape" value="cuneate" />
+      </structure>
+      <structure id="o8247" name="margin">
+        <character name="shape" value="entire" modifier="usually" />
+        <character name="shape" value="denticulate" modifier="sometimes" />
+      </structure>
+      <structure id="o8248" name="apex">
+        <character char_type="range_value" name="shape" from="obtuse" to="acute" />
+        <character name="shape" value="obtuse" />
+        <character name="shape" value="acute" />
+      </structure>
+      <structure id="o8249" name="face">
+        <character name="pubescence" value="piloso-hirsute" />
+      </structure>
+    </statement>
+    <statement id="418.txt-5">
+      <text>Heads (3–)8–25(–100+) in corymbiform to paniculiform arrays.</text>
+      <structure id="o8250" name="head">
+        <character char_type="range_value" name="atypical_count" from="3" to="8" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_count" from="25" to="100" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="8" to="25" constraint="in arrays" constraintid="o8251" />
+      </structure>
+      <structure id="o8251" name="array">
+        <character char_type="range_value" name="architecture" from="corymbiform" to="paniculiform" />
+        <character name="architecture" value="corymbiform" />
+        <character name="architecture" value="paniculiform" />
+      </structure>
+    </statement>
+    <statement id="418.txt-6">
+      <text>Peduncles usually stellate-pubescent, sometimes piloso-hirsute as well (hairs 1–2 mm).</text>
+      <structure id="o8252" name="peduncle">
+        <character name="pubescence" value="stellate-pubescent" modifier="usually" />
+        <character name="pubescence" value="piloso-hirsute" modifier="sometimes" />
+      </structure>
+    </statement>
+    <statement id="418.txt-7">
+      <text>Calyculi:</text>
+      <structure id="o8253" name="calyculus" />
+    </statement>
+    <statement id="418.txt-8">
+      <text>bractlets 5–8+.</text>
+      <structure id="o8254" name="bractlet">
+        <character char_type="range_value" name="count" from="5" to="8" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="418.txt-9">
+      <text>Involucres ± cylindric to campanulate, 6–9 (× 3–4) mm.</text>
+      <structure id="o8255" name="involucre">
+        <character char_type="range_value" name="shape" from="cylindric" to="campanulate" modifier="±" />
+        <character name="shape" value="cylindric" modifier="±" />
+        <character name="shape" value="campanulate" modifier="±" />
+        <character char_type="range_value" name="length" from="6" from_unit="mm" to="9[" to_unit="mm" />
+        <character char_type="range_value" name="width" from="3" from_unit="mm" to="4]" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="418.txt-10">
+      <text>Phyllaries 12–15+, apices acute to acuminate, abaxial faces usually densely piloso-hirsute (hairs 1–2+ mm), sometimes stellate-pubescent or glabrous.</text>
+      <structure id="o8256" name="phyllary">
+        <character char_type="range_value" name="count" from="12" to="15" upper_restricted="false" />
+      </structure>
+      <structure id="o8257" name="apex">
+        <character char_type="range_value" name="shape" from="acute" to="acuminate" />
+        <character name="shape" value="acute" />
+        <character name="shape" value="acuminate" />
+      </structure>
+      <structure id="o8258" name="face" constraint="abaxial">
+        <character name="pubescence" value="piloso-hirsute" modifier="usually densely" />
+        <character name="pubescence" value="stellate-pubescent" modifier="sometimes" />
+        <character name="pubescence" value="glabrous" modifier="sometimes" />
+      </structure>
+    </statement>
+    <statement id="418.txt-11">
+      <text>Florets 6–12(–15+);</text>
+      <structure id="o8259" name="floret">
+        <character char_type="range_value" name="atypical_count" from="12" to="15" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="6" to="12" />
+      </structure>
+    </statement>
+    <statement id="418.txt-12">
+      <text>corollas yellow, 8–9 mm.</text>
+      <structure id="o8260" name="corolla">
+        <character name="coloration" value="yellow" />
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="9" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="418.txt-13">
+      <text>Cypselae (tan to red-brown) columnar, 3–3.5 mm;</text>
+      <structure id="o8261" name="cypsela">
+        <character name="shape" value="columnar" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="3.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="418.txt-14">
+      <text>pappi of ca. 60+, stramineous bristles in ± 2 series, 4–6 mm.</text>
+      <structure id="o8262" name="pappus">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+      <structure id="o8263" name="bristle">
+        <character name="count" char_type="range_value" from="60" upper_restricted="false" />
+        <character name="coloration" value="stramineous" />
+      </structure>
+      <relation id="r974" name="consist_of" from="o8262" to="o8263" negation="false" />
+      <structure id="o8264" name="series">
+        <character name="count" value="2" modifier="±" />
+      </structure>
+      <relation id="r975" name="in" from="o8263" to="o8264" negation="false" />
+    </statement>
+  </description>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>boulders</habitat>
+  <habitat>gravels</habitat>
+  <habitat>meadows</habitat>
+  <habitat>pine forests</habitat>
+  <elevation>1500–3700 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

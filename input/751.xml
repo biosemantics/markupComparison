@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>6.</number>
+  <species_name>Stylocline psilocarphoides</species_name>
+  <authority>M. Peck</authority>
+  <place_of_publication>Leafl. W. Bot. 4: 185. 1945</place_of_publication>
+  <common_name>Peck or baretwig neststraw , Malheur stylocline</common_name>
+  <description>
+    <statement id="751.txt-0">
+      <text>Plants 1–8(–18) cm (branches ± leafless between proximal forks).</text>
+      <structure id="o15846" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="8" to="18" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="1" from_unit="cm" to="8" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="751.txt-1">
+      <text>Leaves ± acute, mucronate, longest 8–18 mm;</text>
+      <structure id="o15847" name="leaf">
+        <character name="shape" value="acute" modifier="±" />
+        <character name="shape" value="mucronate" />
+        <character name="size" value="longest" />
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="18" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="751.txt-2">
+      <text>largest capitular leaves elliptic to spatulate, 3–10 × 1–2 mm.</text>
+      <structure id="o15848" name="leaf" constraint="largest capitular">
+        <character char_type="range_value" name="shape" from="elliptic" to="spatulate" />
+        <character name="shape" value="elliptic" />
+        <character name="shape" value="spatulate" />
+        <character char_type="range_value" name="length" from="3" from_unit="mm" to="10" to_unit="mm" />
+        <character char_type="range_value" name="width" from="1" from_unit="mm" to="2" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="751.txt-3">
+      <text>Heads in strictly dichasiform arrays, ovoid, largest 3.5–5 × 2.5–4 mm, thinly lanuginose.</text>
+      <structure id="o15849" name="head">
+        <character name="shape" value="ovoid" />
+        <character name="size" value="largest" />
+        <character char_type="range_value" name="length" from="3.5" from_unit="mm" to="5" to_unit="mm" />
+        <character char_type="range_value" name="width" from="2.5" from_unit="mm" to="4" to_unit="mm" />
+        <character name="pubescence" value="lanuginose" modifier="thinly" />
+      </structure>
+      <structure id="o15850" name="array">
+        <character name="arrangement" value="dichasiform" modifier="strictly" />
+      </structure>
+      <relation id="r1711" name="in" from="o15849" to="o15850" negation="false" />
+    </statement>
+    <statement id="751.txt-4">
+      <text>Phyllaries 0, vestigial, or falling, ± subulate, mostly 0.1–0.5 mm, unequal.</text>
+      <structure id="o15851" name="phyllary">
+        <character name="count" value="0" />
+        <character name="manifestation" value="vestigial" />
+        <character name="orientation" value="falling" />
+        <character name="shape" value="subulate" modifier="±" />
+        <character char_type="range_value" name="size" from="0.1" from_unit="mm" to="0.5" to_unit="mm" modifier="mostly" />
+        <character name="size" value="unequal" />
+      </structure>
+    </statement>
+    <statement id="751.txt-5">
+      <text>Receptacles ± cylindric, 2–3 mm, heights 5–8 times diams.;</text>
+      <structure id="o15852" name="receptacle">
+        <character name="shape" value="cylindric" modifier="±" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="3" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="751.txt-6">
+      <text>scars concentrated proximally and distally, raised, peglike.</text>
+      <structure id="o15853" name="scar">
+        <character name="arrangement" value="concentrated" modifier="proximally" />
+        <character name="prominence" value="raised" />
+        <character name="shape" value="peglike" />
+      </structure>
+    </statement>
+    <statement id="751.txt-7">
+      <text>Pistillate paleae:</text>
+      <structure id="o15854" name="palea" constraint="pistillate" />
+    </statement>
+    <statement id="751.txt-8">
+      <text>longest 2.8–3.3 mm, winged distally;</text>
+      <structure id="o15855" name="palea" constraint="longest">
+        <character char_type="range_value" name="size" from="2.8" from_unit="mm" to="3.3" to_unit="mm" />
+        <character name="architecture" value="winged" modifier="distally" />
+      </structure>
+    </statement>
+    <statement id="751.txt-10">
+      <text>bodies cartilaginous;</text>
+      <structure id="o15856" name="body">
+        <character name="texture" value="cartilaginous" />
+      </structure>
+    </statement>
+    <statement id="751.txt-11">
+      <text>outermost paleae open, concave.</text>
+      <structure id="o15857" name="palea" constraint="outermost">
+        <character name="architecture" value="open" />
+        <character name="shape" value="concave" />
+      </structure>
+    </statement>
+    <statement id="751.txt-12">
+      <text>Functionally staminate florets 2–5;</text>
+      <structure id="o15858" name="floret" constraint="functionally staminate">
+        <character char_type="range_value" name="count" from="2" to="5" />
+      </structure>
+    </statement>
+    <statement id="751.txt-13">
+      <text>ovaries ± vestigial, 0.1–0.3(–0.4) mm;</text>
+      <structure id="o15859" name="ovary">
+        <character name="manifestation" value="vestigial" modifier="±" />
+        <character char_type="range_value" name="atypical_size" from="0.3" to="0.4" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="0.1" from_unit="mm" to="0.3" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="751.txt-14">
+      <text>corollas 1.1–1.7 mm (lobes usually 5).</text>
+      <structure id="o15860" name="corolla">
+        <character char_type="range_value" name="size" from="1.1" from_unit="mm" to="1.7" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="751.txt-15">
+      <text>Cypselae 1.1–1.6 mm, obcompressed;</text>
+      <structure id="o15861" name="cypsela">
+        <character char_type="range_value" name="size" from="1.1" from_unit="mm" to="1.6" to_unit="mm" />
+        <character name="shape" value="obcompressed" />
+      </structure>
+    </statement>
+    <statement id="751.txt-16">
+      <text>pappi:</text>
+      <structure id="o15862" name="pappus" />
+    </statement>
+    <statement id="751.txt-17">
+      <text>staminate rarely 0, usually of 1–3 smooth bristles 1.1–1.5 mm.</text>
+      <structure id="o15863" name="pappus" constraint="staminate">
+        <character name="count" value="0" modifier="rarely" />
+      </structure>
+      <structure id="o15864" name="bristle">
+        <character char_type="range_value" name="count" from="1" to="3" />
+        <character name="architecture_or_relief" value="smooth" />
+        <character char_type="range_value" name="size" from="1.1" from_unit="mm" to="1.5" to_unit="mm" />
+      </structure>
+      <relation id="r1712" name="consist_of" from="o15863" to="o15864" negation="false" modifier="usually" />
+    </statement>
+  </description>
+  <flowering_time>feb</flowering_time>
+  <flowering_time>winter</flowering_time>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <habitat>open, relatively stable, often granitic, sandy to gravelly desert soils</habitat>
+  <habitat>often at rock bases</habitat>
+  <habitat>under shrubs</habitat>
+  <elevation>100–2000 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Utah.</us_distribution>
+  <discussion>Stylocline psilocarphoides is centered in the Mojave and western Great Basin deserts and extends to southeastern Oregon, southwestern Idaho, and through the western Sonoran Desert nearly to Mexico. Disjunct collections from southern Arizona in 1876 and 1941 are likely to be either labeling errors or from introductions that did not persist.</discussion>
+  <discussion>Circumscription of Stylocline psilocarphoides became clearer after recognition of S. intertexta and S. masonii (J. D. Morefield 1992b).</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

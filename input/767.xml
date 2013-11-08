@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Diaperia candida</species_name>
+  <authority>(Torrey &amp; A. Gray) Bentham &amp; Hooker f.</authority>
+  <place_of_publication>Gen. Pl. 2: 298. 1873</place_of_publication>
+  <common_name>Silver rabbit-tobacco</common_name>
+  <synonym_of_species_name>Calymmandra candida Torrey &amp; A. Gray, Fl. N. Amer. 2: 262. 1842; Evax candida (Torrey &amp; A. Gray) A. Gray</synonym_of_species_name>
+  <description>
+    <statement id="767.txt-0">
+      <text>Plants grayish silvery, 3–25 cm, densely sericeous.</text>
+      <structure id="o16125" name="whole_organism">
+        <character name="coloration" value="silvery" modifier="grayish" />
+        <character char_type="range_value" name="size" from="3" from_unit="cm" to="25" to_unit="cm" />
+        <character name="pubescence" value="sericeous" modifier="densely" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="767.txt-1">
+      <text>Stems mostly 1;</text>
+      <structure id="o16126" name="stem">
+        <character name="count" value="1" modifier="mostly" />
+      </structure>
+    </statement>
+    <statement id="767.txt-2">
+      <text>branches proximal or none.</text>
+      <structure id="o16127" name="branch">
+        <character name="insertion_or_position" value="proximal" />
+        <character name="insertion_or_position" value="proximal" modifier="none" />
+      </structure>
+    </statement>
+    <statement id="767.txt-3">
+      <text>Leaves:</text>
+      <structure id="o16128" name="leaf" />
+    </statement>
+    <statement id="767.txt-4">
+      <text>largest 10–18 × 2–3 mm;</text>
+      <structure id="o16129" name="leaf" constraint="largest">
+        <character char_type="range_value" name="length" from="10" from_unit="mm" to="18" to_unit="mm" />
+        <character char_type="range_value" name="width" from="2" from_unit="mm" to="3" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="767.txt-5">
+      <text>capitular leaves subtending glomerules only, or sometimes also hidden between and surpassed by heads.</text>
+      <structure id="o16130" name="leaf" constraint="capitular">
+        <character name="manifestation" value="hidden" constraint="between and surpassed by heads" constraintid="o16132" />
+      </structure>
+      <structure id="o16131" name="glomerule" />
+      <relation id="r1732" name="subtending" from="o16130" to="o16131" negation="false" />
+      <structure id="o16132" name="head" />
+    </statement>
+    <statement id="767.txt-6">
+      <text>Heads proximal and distal, in spiciform or racemiform arrays, ± spheric, 1.5–2 mm, heights ± equal to diams.</text>
+      <structure id="o16133" name="head">
+        <character name="insertion_or_position" value="proximal" />
+        <character name="insertion_or_position" value="distal" />
+        <character name="shape" value="spheric" modifier="±" />
+        <character char_type="range_value" name="size" from="1.5" from_unit="mm" to="2" to_unit="mm" />
+        <character name="size" value="equal" modifier="±" />
+      </structure>
+      <structure id="o16134" name="array">
+        <character name="architecture" value="spiciform" />
+        <character name="architecture" value="racemiform" />
+      </structure>
+      <relation id="r1733" name="in" from="o16133" to="o16134" negation="false" />
+    </statement>
+    <statement id="767.txt-7">
+      <text>Receptacles ± spheric, 0.3–0.5 mm, heights ± equal to diams.</text>
+      <structure id="o16135" name="receptacle">
+        <character name="shape" value="spheric" modifier="±" />
+        <character char_type="range_value" name="size" from="0.3" from_unit="mm" to="0.5" to_unit="mm" />
+        <character name="size" value="equal" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="767.txt-8">
+      <text>Pistillate paleae scarcely imbricate, longest 0.9–1.3 mm.</text>
+      <structure id="o16136" name="palea" constraint="pistillate">
+        <character name="aestivation_or_arrangement" value="imbricate" modifier="scarcely" />
+        <character name="size" value="longest" />
+        <character char_type="range_value" name="size" from="0.9" from_unit="mm" to="1.3" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="767.txt-9">
+      <text>Bisexual paleae mostly 1–3, apices incurved, ± involute, gibbous.</text>
+      <structure id="o16137" name="palea" constraint="bisexual">
+        <character char_type="range_value" name="count" from="1" to="3" modifier="mostly" />
+      </structure>
+      <structure id="o16138" name="apex">
+        <character name="orientation" value="incurved" />
+        <character name="shape_or_vernation" value="involute" modifier="±" />
+        <character name="shape" value="gibbous" />
+      </structure>
+    </statement>
+    <statement id="767.txt-10">
+      <text>Functionally staminate florets usually 0.</text>
+      <structure id="o16139" name="floret" constraint="functionally staminate">
+        <character name="count" value="0" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="767.txt-11">
+      <text>Bisexual florets 3–5;</text>
+      <structure id="o16140" name="floret" constraint="bisexual">
+        <character char_type="range_value" name="count" from="3" to="5" />
+      </structure>
+    </statement>
+    <statement id="767.txt-12">
+      <text>corollas protruding from heads, ± zygomorphic, 0.5–0.9 mm, glabrous, lobes unequal (1–2 enlarged).</text>
+      <structure id="o16141" name="corolla">
+        <character name="orientation" value="protruding" constraint="from heads" constraintid="o16142" />
+        <character name="architecture" value="zygomorphic" modifier="±" />
+        <character char_type="range_value" name="size" from="0.5" from_unit="mm" to="0.9" to_unit="mm" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+      <structure id="o16142" name="head" />
+      <structure id="o16143" name="lobe">
+        <character name="size" value="unequal" />
+      </structure>
+    </statement>
+    <statement id="767.txt-13">
+      <text>Cypselae rounded, ± terete, mostly 0.5–0.6 mm (bisexual slightly longer).</text>
+      <structure id="o16144" name="cypsela">
+        <character name="shape" value="rounded" />
+        <character name="shape" value="terete" modifier="±" />
+        <character char_type="range_value" name="size" from="0.5" from_unit="mm" to="0.6" to_unit="mm" modifier="mostly" />
+      </structure>
+    </statement>
+    <statement id="767.txt-14">
+      <text>2 n = 14.</text>
+      <structure id="o16145" name="chromosome">
+        <character name="count" value="14" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <habitat>open, dry, deep sandy soils</habitat>
+  <habitat>oak and pine woodlands</habitat>
+  <habitat>prairies</habitat>
+  <habitat>coastal areas</habitat>
+  <habitat>sometimes disturbed sites (fields</habitat>
+  <habitat>lawns</habitat>
+  <habitat>road beds</habitat>
+  <elevation>10–400 m;</elevation>
+  <us_distribution>Ark.</us_distribution>
+  <us_distribution>La.</us_distribution>
+  <us_distribution>Okla.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <discussion>Diaperia candida is the most restricted of the three species, occupying most of eastern Texas (including the coast) and extending to adjacent corners of southeastern Oklahoma, southwestern Arkansas, and northwestern Louisiana.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

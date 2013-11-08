@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>14.</number>
+  <genus_name>SILYBUM</genus_name>
+  <authority>Adanson</authority>
+  <place_of_publication>Fam. Pl. 2: 116, 605. 1763</place_of_publication>
+  <conserved>name conserved ·</conserved>
+  <common_name>Milk thistle</common_name>
+  <derivation>Greek silybon , a kind of thistle</derivation>
+  <author_of_tribe_genus>David J. Keil</author_of_tribe_genus>
+  <description>
+    <statement id="170.txt-0">
+      <text>Annuals or biennials, taprooted, 15–300 cm, herbage glabrous, puberulent, or slightly tomentose, spiny.</text>
+      <structure id="o2033" name="whole_organism">
+        <character name="architecture" value="taprooted" />
+        <character char_type="range_value" name="size" from="15" from_unit="cm" to="300" to_unit="cm" />
+        <character name="life_style" value="annual" />
+        <character name="life_style" value="biennial" />
+      </structure>
+      <structure id="o2035" name="herbage">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="puberulent" />
+        <character name="pubescence" value="tomentose" modifier="slightly" />
+        <character name="architecture_or_shape" value="spiny" />
+      </structure>
+    </statement>
+    <statement id="170.txt-1">
+      <text>Stems erect, usually simple.</text>
+      <structure id="o2036" name="stem">
+        <character name="orientation" value="erect" />
+        <character name="architecture" value="simple" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="170.txt-2">
+      <text>Leaves basal and cauline;</text>
+    </statement>
+    <statement id="170.txt-3">
+      <text>petiolate (basal and proximal cauline) or sessile (distal cauline);</text>
+      <structure id="o2037" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="architecture" value="petiolate" />
+        <character name="architecture" value="sessile" />
+      </structure>
+    </statement>
+    <statement id="170.txt-4">
+      <text>blades adaxially variegated, margins dentate and often coarsely pinnately lobed, teeth and lobes spine-tipped, glabrous or puberulent.</text>
+      <structure id="o2038" name="blade">
+        <character name="coloration" value="variegated" modifier="adaxially" />
+      </structure>
+      <structure id="o2039" name="margin">
+        <character name="shape" value="dentate" />
+        <character name="shape" value="lobed" modifier="often coarsely pinnately" />
+      </structure>
+      <structure id="o2040" name="tooth">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="puberulent" />
+      </structure>
+      <structure id="o2041" name="lobe" />
+    </statement>
+    <statement id="170.txt-5">
+      <text>Heads discoid, borne singly, terminal and in distal axils.</text>
+      <structure id="o2042" name="head">
+        <character name="shape_or_architecture" value="discoid" />
+        <character name="arrangement" value="singly" />
+        <character name="insertion_or_position" value="terminal" constraint="in axils" constraintid="o2043" />
+      </structure>
+      <structure id="o2043" name="axil" constraint="distal" />
+    </statement>
+    <statement id="170.txt-6">
+      <text>Involucres ovoid to spheric, 15–60 mm diam.</text>
+      <structure id="o2044" name="involucre">
+        <character char_type="range_value" name="shape" from="ovoid" to="spheric" />
+        <character name="shape" value="ovoid" />
+        <character name="shape" value="spheric" />
+        <character char_type="range_value" name="size" from="15" from_unit="mm" to="60" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="170.txt-7">
+      <text>Phyllaries many in 4–6 series , unequal, outer and mid with appressed bases and spreading, lanceolate to ovate, spiny-fringed, terminal appendages, at least mid spine-tipped, innermost with erect, flat, entire, spineless apices.</text>
+      <structure id="o2045" name="phyllary">
+        <character name="count" value="many" constraint="in series" constraintid="o2046" />
+        <character name="size" value="unequal" />
+        <character name="position" value="outer" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="spiny-fringed" />
+      </structure>
+      <structure id="o2046" name="series">
+        <character char_type="range_value" name="count" from="4" to="6" />
+      </structure>
+      <structure id="o2047" name="mid" />
+      <structure id="o2048" name="base">
+        <character name="orientation" value="appressed" />
+        <character name="orientation" value="spreading" />
+      </structure>
+      <relation id="r308" name="with" from="o2047" to="o2048" negation="false" />
+      <structure id="o2049" name="appendage" constraint="terminal">
+        <character name="position" value="innermost" constraint="with apices" constraintid="o2051" />
+      </structure>
+      <structure id="o2050" name="mid" />
+      <structure id="o2051" name="apex">
+        <character name="orientation" value="erect" />
+        <character name="shape" value="flat" />
+        <character name="shape" value="entire" />
+        <character name="architecture" value="spineless" />
+      </structure>
+    </statement>
+    <statement id="170.txt-8">
+      <text>Receptacles flat, epaleate, covered with whitish bristles.</text>
+      <structure id="o2052" name="receptacle">
+        <character name="shape" value="flat" />
+        <character name="architecture" value="epaleate" />
+      </structure>
+      <structure id="o2053" name="bristle">
+        <character name="coloration" value="whitish" />
+      </structure>
+      <relation id="r309" name="covered with" from="o2052" to="o2053" negation="false" />
+    </statement>
+    <statement id="170.txt-9">
+      <text>Florets 25–100+;</text>
+      <structure id="o2054" name="floret">
+        <character char_type="range_value" name="count" from="25" to="100" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="170.txt-10">
+      <text>corollas pink to purple, tubes slender, distally bent, abruptly expanded into short throats, lobes linear;</text>
+      <structure id="o2055" name="corolla">
+        <character char_type="range_value" name="coloration" from="pink" to="purple" />
+        <character name="coloration" value="pink" />
+        <character name="coloration" value="purple" />
+      </structure>
+      <structure id="o2056" name="tube">
+        <character name="size" value="slender" />
+        <character name="shape" value="bent" modifier="distally" />
+        <character name="size" value="expanded" modifier="abruptly" constraint="into throats" constraintid="o2057" />
+      </structure>
+      <structure id="o2057" name="throat">
+        <character name="size" value="short" />
+      </structure>
+      <structure id="o2058" name="lobe">
+        <character name="arrangement_or_shape" value="linear" />
+      </structure>
+    </statement>
+    <statement id="170.txt-11">
+      <text>stamen filaments connate , anther bases sharply short-tailed, anther appendages oblong;</text>
+      <structure id="o2059" name="filament" constraint="stamen">
+        <character name="fusion" value="connate" />
+      </structure>
+      <structure id="o2060" name="base" constraint="anther">
+        <character name="shape" value="short-tailed" modifier="sharply" />
+      </structure>
+      <structure id="o2061" name="appendage" constraint="anther">
+        <character name="shape" value="oblong" />
+      </structure>
+    </statement>
+    <statement id="170.txt-12">
+      <text>style branches:</text>
+      <structure id="o2062" name="branch" constraint="style" />
+    </statement>
+    <statement id="170.txt-13">
+      <text>fused portions with slightly swollen subterminal nodes, distally cylindric, distinct portions minute.</text>
+      <structure id="o2063" name="portion" constraint="fused">
+        <character name="shape" value="cylindric" modifier="distally" />
+      </structure>
+      <structure id="o2064" name="node" constraint="subterminal">
+        <character name="shape" value="swollen" modifier="slightly" />
+      </structure>
+      <relation id="r310" name="with" from="o2063" to="o2064" negation="false" />
+      <structure id="o2065" name="portion">
+        <character name="fusion" value="distinct" />
+        <character name="size" value="minute" />
+      </structure>
+    </statement>
+    <statement id="170.txt-14">
+      <text>Cypselae ovoid, slightly compressed, not ribbed, apices with smooth, entire rims, glabrous, basal attachment scars slightly angled;</text>
+      <structure id="o2066" name="cypsela">
+        <character name="shape" value="ovoid" />
+        <character name="shape" value="compressed" modifier="slightly" />
+        <character name="architecture_or_shape" value="ribbed" modifier="not" />
+      </structure>
+      <structure id="o2067" name="apex">
+        <character name="pubescence" value="glabrous" />
+      </structure>
+      <structure id="o2068" name="rim">
+        <character name="architecture_or_relief" value="smooth" />
+        <character name="shape" value="entire" />
+      </structure>
+      <relation id="r311" name="with" from="o2067" to="o2068" negation="false" />
+      <structure id="o2069" name="scar" constraint="basal attachment">
+        <character name="shape" value="angled" modifier="slightly" />
+      </structure>
+    </statement>
+    <statement id="170.txt-15">
+      <text>pappi falling in rings, outer of many minutely barbed, basally connate, subulate scales, inner of minute smooth bristles.</text>
+      <structure id="o2070" name="pappus">
+        <character name="orientation" value="falling" constraint="in rings" constraintid="o2071" />
+        <character name="position" value="outer" constraint="of scales" constraintid="o2072" />
+        <character name="position" value="inner" constraint="of bristles" constraintid="o2073" />
+      </structure>
+      <structure id="o2071" name="ring" />
+      <structure id="o2072" name="scale">
+        <character name="count" value="many" />
+        <character name="architecture" value="barbed" modifier="minutely" />
+        <character name="fusion" value="connate" modifier="basally" />
+        <character name="shape" value="subulate" />
+      </structure>
+      <structure id="o2073" name="bristle">
+        <character name="size" value="minute" />
+        <character name="architecture_or_relief" value="smooth" />
+      </structure>
+    </statement>
+    <statement id="170.txt-16">
+      <text>x = 17.</text>
+      <structure id="o2074" name="chromosome">
+        <character name="count" value="17" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species 2 (1 in the flora):</number_of_infrataxa>
+  <introduced>introduced;</introduced>
+  <general_distribution>Mediterranean region.</general_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

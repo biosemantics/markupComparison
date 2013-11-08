@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>10.</number>
+  <species_name>Malacothrix junakii</species_name>
+  <authority>W. S. Davis</authority>
+  <place_of_publication>Madroño 44: 241. 1997</place_of_publication>
+  <common_name>Junak’s desertdandelion, Anacapa Island desertdandelion</common_name>
+  <description>
+    <statement id="477.txt-0">
+      <text>Annuals, 5–30 cm.</text>
+      <structure id="o9526" name="whole_organism">
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="30" to_unit="cm" />
+        <character name="life_style" value="annual" />
+      </structure>
+    </statement>
+    <statement id="477.txt-1">
+      <text>Stems 1–4, ascending to erect, ± branched proximally and distally (leafy to apices), glabrous.</text>
+      <structure id="o9527" name="stem">
+        <character char_type="range_value" name="count" from="1" to="4" />
+        <character char_type="range_value" name="orientation" from="ascending" to="erect" />
+        <character name="orientation" value="ascending" />
+        <character name="orientation" value="erect" />
+        <character name="architecture_or_shape" value="branched" modifier="± ; proximally" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="477.txt-2">
+      <text>Cauline leaves:</text>
+      <structure id="o9528" name="leaf" constraint="cauline" />
+    </statement>
+    <statement id="477.txt-3">
+      <text>proximal oblanceolate, pinnately lobed (lobes 2–4 pairs, obtuse), ultimate margins entire or dentate;</text>
+      <structure id="o9529" name="leaf" constraint="proximal cauline">
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="lobed" modifier="pinnately" />
+      </structure>
+      <structure id="o9530" name="margin" constraint="ultimate">
+        <character name="shape" value="entire" />
+        <character name="shape" value="dentate" />
+      </structure>
+    </statement>
+    <statement id="477.txt-4">
+      <text>distal not much reduced (± linear, lobes usually 1–2 near bases, apices acute).</text>
+      <structure id="o9531" name="leaf" constraint="distal cauline">
+        <character name="size" value="reduced" modifier="not much" />
+      </structure>
+    </statement>
+    <statement id="477.txt-5">
+      <text>Calyculi of 7–11, ovate to lanceolate bractlets, hyaline margins 0.05–0.2 mm.</text>
+      <structure id="o9532" name="calyculus" />
+      <structure id="o9533" name="bractlet">
+        <character char_type="range_value" name="count" from="7" to="11" />
+        <character char_type="range_value" name="shape" from="ovate" to="lanceolate" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="lanceolate" />
+      </structure>
+      <relation id="r1105" name="consist_of" from="o9532" to="o9533" negation="false" />
+      <structure id="o9534" name="margin">
+        <character name="coloration" value="hyaline" />
+        <character char_type="range_value" name="size" from="0.05" from_unit="mm" to="0.2" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="477.txt-6">
+      <text>Involucres 7–8.5 × 3–6 mm.</text>
+      <structure id="o9535" name="involucre">
+        <character char_type="range_value" name="length" from="7" from_unit="mm" to="8.5" to_unit="mm" />
+        <character char_type="range_value" name="width" from="3" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="477.txt-7">
+      <text>Phyllaries 9–13+ in 2–3 series, (red-tinged) oblong to lanceolate or lance-linear, hyaline margins 0.1–0.2 mm wide, faces glabrous.</text>
+      <structure id="o9536" name="phyllary">
+        <character char_type="range_value" name="count" from="9" to="13" upper_restricted="false" constraint="in series" constraintid="o9537" />
+        <character char_type="range_value" name="shape" from="oblong" to="lanceolate or lance-linear" />
+        <character name="shape" value="oblong" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="lance-linear" />
+      </structure>
+      <structure id="o9537" name="series">
+        <character char_type="range_value" name="count" from="2" to="3" />
+      </structure>
+      <structure id="o9538" name="margin">
+        <character name="coloration" value="hyaline" />
+        <character char_type="range_value" name="size" from="0.1" from_unit="mm" to="0.2" to_unit="mm" />
+      </structure>
+      <structure id="o9539" name="face">
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="477.txt-8">
+      <text>Receptacles not bristly.</text>
+      <structure id="o9540" name="receptacle">
+        <character name="pubescence" value="bristly" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="477.txt-9">
+      <text>Florets 20–85:</text>
+      <structure id="o9541" name="floret">
+        <character char_type="range_value" name="count" from="20" to="85" />
+      </structure>
+    </statement>
+    <statement id="477.txt-10">
+      <text>corollas medium yellow, 7–11 mm;</text>
+      <structure id="o9542" name="corolla">
+        <character name="coloration" value="yellow" />
+        <character char_type="range_value" name="size" from="7" from_unit="mm" to="11" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="477.txt-11">
+      <text>outer ligules exserted 3.5–5.5 mm.</text>
+      <structure id="o9543" name="ligule" constraint="outer">
+        <character name="position" value="exserted" />
+        <character char_type="range_value" name="size" from="3.5" from_unit="mm" to="5.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="477.txt-12">
+      <text>Cypselae ± prismatic, 1.6–2 mm, ribs extending to apices, ± equal or 5 more prominent than others;</text>
+      <structure id="o9544" name="cypsela">
+        <character name="shape" value="prismatic" modifier="±" />
+        <character char_type="range_value" name="size" from="1.6" from_unit="mm" to="2" to_unit="mm" />
+      </structure>
+      <structure id="o9545" name="rib">
+        <character name="size" value="equal" modifier="±" />
+        <character name="count" value="5" />
+        <character name="prominence" value="prominent" modifier="more" constraint="than others" constraintid="o9547" />
+      </structure>
+      <structure id="o9546" name="apex" />
+      <relation id="r1106" name="extending to" from="o9545" to="o9546" negation="false" />
+      <structure id="o9547" name="other" />
+    </statement>
+    <statement id="477.txt-13">
+      <text>persistent pappi of 11–14, irregular, ± dentate teeth plus 1–2 bristles.</text>
+      <structure id="o9548" name="pappus" constraint="persistent" />
+      <structure id="o9549" name="tooth">
+        <character char_type="range_value" name="count" from="11" to="14" />
+        <character name="architecture_or_course" value="irregular" />
+        <character name="shape" value="dentate" modifier="±" />
+        <character char_type="range_value" name="count" from="1" to="2" />
+      </structure>
+      <relation id="r1107" name="consist_of" from="o9548" to="o9549" negation="false" />
+      <structure id="o9550" name="bristle" />
+    </statement>
+    <statement id="477.txt-14">
+      <text>Pollen 70–100% 4-porate.</text>
+      <structure id="o9551" name="pollen">
+        <character name="architecture" value="4-porate" modifier="70-100%" />
+      </structure>
+    </statement>
+    <statement id="477.txt-15">
+      <text>2 n = 28.</text>
+      <structure id="o9552" name="chromosome">
+        <character name="count" value="28" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>may</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <habitat>flats and adjacent coastal bluffs</habitat>
+  <conservation>of conservation concern;</conservation>
+  <elevation>0–30 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <discussion>Malacothrix junakii is known only from middle Anacapa Island.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

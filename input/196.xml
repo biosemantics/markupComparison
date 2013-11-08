@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Plectocephalus americanus</species_name>
+  <authority>(Nuttall) D. Don</authority>
+  <place_of_publication>in R. Sweet, Brit. Fl. Gard., ser. 2, 1: plate 51. 1830</place_of_publication>
+  <common_name>American basketflower, powderpuff or thornless thistle, American star-thistle, cardo del valle</common_name>
+  <synonym_of_species_name>Centaurea americana Nuttall, J. Acad. Nat. Sci. Philadelphia 2: 117. 1821</synonym_of_species_name>
+  <description>
+    <statement id="196.txt-0">
+      <text>Plants 50–200 cm.</text>
+      <structure id="o2757" name="whole_organism">
+        <character char_type="range_value" name="size" from="50" from_unit="cm" to="200" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="196.txt-1">
+      <text>Stems usually 1, erect, sparingly branched, glabrous, minutely scabrous and glandular.</text>
+      <structure id="o2758" name="stem">
+        <character name="count" value="1" modifier="usually" />
+        <character name="orientation" value="erect" />
+        <character name="architecture_or_shape" value="branched" modifier="sparingly" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence_or_relief" value="scabrous" modifier="minutely" />
+        <character name="architecture_or_exudation_or_pubescence" value="glandular" />
+      </structure>
+    </statement>
+    <statement id="196.txt-2">
+      <text>Leaves scabrous;</text>
+      <structure id="o2759" name="leaf">
+        <character name="pubescence_or_relief" value="scabrous" />
+      </structure>
+    </statement>
+    <statement id="196.txt-3">
+      <text>basal sessile or winged-petiolate, usually absent at anthesis, blades oblanceolate to narrowly obovate, 10–20 cm, margins entire or sparingly denticulate;</text>
+      <structure id="o2760" name="leaf" constraint="basal">
+        <character name="presence" value="absent" modifier="usually" constraint="at anthesis" constraintid="o2761" />
+      </structure>
+      <structure id="o2761" name="anthesi" />
+      <structure id="o2762" name="blade">
+        <character char_type="range_value" name="shape" from="oblanceolate" to="narrowly obovate" />
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="obovate" modifier="narrowly" />
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="20" to_unit="cm" />
+      </structure>
+      <structure id="o2763" name="margin">
+        <character name="shape" value="entire" />
+        <character name="shape" value="denticulate" modifier="sparingly" />
+      </structure>
+    </statement>
+    <statement id="196.txt-4">
+      <text>cauline sessile, usually not much smaller except among heads, blades ovate to lanceolate, mostly 5–10 cm, entire or serrulate.</text>
+      <structure id="o2764" name="leaf" constraint="cauline">
+        <character name="architecture" value="sessile" />
+        <character name="size" value="smaller" modifier="usually not much" />
+      </structure>
+      <structure id="o2765" name="head" />
+      <relation id="r392" name="except among" from="o2764" to="o2765" negation="false" />
+      <structure id="o2766" name="blade">
+        <character char_type="range_value" name="shape" from="ovate" to="lanceolate" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="lanceolate" />
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="10" to_unit="cm" modifier="mostly" />
+        <character name="shape" value="entire" />
+        <character name="shape" value="serrulate" />
+      </structure>
+    </statement>
+    <statement id="196.txt-5">
+      <text>Involucres broadly hemispheric, 30–50 mm.</text>
+      <structure id="o2767" name="involucre">
+        <character name="shape" value="hemispheric" modifier="broadly" />
+        <character char_type="range_value" name="size" from="30" from_unit="mm" to="50" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="196.txt-6">
+      <text>Phyllaries:</text>
+      <structure id="o2768" name="phyllary" />
+    </statement>
+    <statement id="196.txt-7">
+      <text>bodies pale green, broadly elliptic (outer) to linear (inner), apices with appendages erect to spreading, whitish to stramineous (less commonly pale brown to purple), fringed with 9–15 slender spinelike teeth 2–3 mm, teeth not conspicuously ciliate ;</text>
+      <structure id="o2769" name="body">
+        <character name="coloration" value="green" modifier="pale" />
+        <character char_type="range_value" name="arrangement_or_shape" from="broadly elliptic" to="linear" />
+        <character name="arrangement_or_shape" value="elliptic" modifier="broadly" />
+        <character name="arrangement_or_shape" value="linear" modifier="broadly" />
+      </structure>
+      <structure id="o2770" name="apex">
+        <character char_type="range_value" name="orientation" from="erect" to="spreading" />
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="spreading" />
+        <character char_type="range_value" name="coloration" from="whitish" to="stramineous" />
+        <character name="coloration" value="whitish" />
+        <character name="coloration" value="stramineous" />
+        <character name="shape" value="fringed" constraint="with teeth" constraintid="o2772" />
+      </structure>
+      <structure id="o2771" name="appendage" />
+      <relation id="r393" name="with" from="o2770" to="o2771" negation="false" />
+      <structure id="o2772" name="tooth">
+        <character char_type="range_value" name="count" from="9" to="15" />
+        <character name="size" value="slender" />
+        <character name="shape" value="spinelike" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="3" to_unit="mm" />
+      </structure>
+      <structure id="o2773" name="tooth">
+        <character name="architecture_or_shape" value="ciliate" modifier="not conspicuously" />
+      </structure>
+    </statement>
+    <statement id="196.txt-8">
+      <text>mid with (4–)5–7(–8) pairs of lobes;</text>
+      <structure id="o2774" name="phyllary" constraint="mid" />
+      <structure id="o2775" name="pair" constraint="4-5-7-8" />
+      <relation id="r394" name="with" from="o2774" to="o2775" negation="false" />
+      <structure id="o2776" name="lobe" />
+      <relation id="r395" name="part_of" from="o2775" to="o2776" negation="false" />
+    </statement>
+    <statement id="196.txt-9">
+      <text>faces glabrous or loosely cobwebby-tomentose.</text>
+      <structure id="o2777" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="cobwebby-tomentose" modifier="loosely" />
+      </structure>
+    </statement>
+    <statement id="196.txt-10">
+      <text>Corollas of neutral florets pink-purple (rarely white), 35–50 mm, enlarged, raylike;</text>
+      <structure id="o2778" name="corolla">
+        <character name="coloration" value="purple" modifier="pink" />
+        <character char_type="range_value" name="size" from="35" from_unit="mm" to="50" to_unit="mm" />
+        <character name="size" value="enlarged" />
+        <character name="shape" value="raylike" />
+      </structure>
+      <structure id="o2779" name="floret" constraint="neutral" />
+      <relation id="r396" name="part_of" from="o2778" to="o2779" negation="false" />
+    </statement>
+    <statement id="196.txt-11">
+      <text>of bisexual florets pinkish, 20–25 mm.</text>
+      <structure id="o2780" name="corolla" constraint="bisexual floret">
+        <character name="coloration" value="pinkish" />
+        <character char_type="range_value" name="size" from="20" from_unit="mm" to="25" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="196.txt-12">
+      <text>Cypselae grayish brown to black, 4–5 mm, glabrous or with white hairs near bases;</text>
+      <structure id="o2781" name="cypsela">
+        <character char_type="range_value" name="coloration" from="grayish-brown" to="black" />
+        <character name="coloration" value="brown" modifier="grayish" />
+        <character name="coloration" value="black" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="5" to_unit="mm" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="with white hairs" />
+      </structure>
+      <structure id="o2782" name="hair">
+        <character name="coloration" value="white" />
+      </structure>
+      <relation id="r397" name="with" from="o2781" to="o2782" negation="false" />
+      <structure id="o2783" name="base" />
+      <relation id="r398" name="near" from="o2782" to="o2783" negation="false" />
+    </statement>
+    <statement id="196.txt-13">
+      <text>pappus bristles unequal, stiff, 6–14 mm.</text>
+      <structure id="o2784" name="bristle" constraint="pappus">
+        <character name="size" value="unequal" />
+        <character name="texture" value="stiff" />
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="14" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="196.txt-14">
+      <text>2 n = 26.</text>
+      <structure id="o2785" name="chromosome">
+        <character name="count" value="26" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>feb</flowering_time>
+  <flowering_time>winter</flowering_time>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>prairies</habitat>
+  <habitat>fields</habitat>
+  <habitat>open woods</habitat>
+  <habitat>grasslands</habitat>
+  <habitat>roadsides</habitat>
+  <habitat>other disturbed sites</habitat>
+  <elevation>0–2100 m;</elevation>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Ark.</us_distribution>
+  <us_distribution>Kans.</us_distribution>
+  <us_distribution>La.</us_distribution>
+  <us_distribution>Mo.</us_distribution>
+  <us_distribution>Okla.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <global_distribution>Mexico (Chihuahua).</global_distribution>
+  <global_distribution>Mexico (Coahuila).</global_distribution>
+  <global_distribution>Mexico (Nuevo León).</global_distribution>
+  <global_distribution>Mexico (San Luis Potosí).</global_distribution>
+  <global_distribution>Mexico (Tamaulipas).</global_distribution>
+  <discussion>Plectocephalus americanus is an attractive and showy plant and has been in cultivation for many years. It occasionally escapes from cultivation outside its native range.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

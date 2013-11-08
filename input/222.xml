@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>15.</number>
+  <species_name>Centaurea iberica</species_name>
+  <authority>Treviranus ex Sprengel</authority>
+  <place_of_publication>Syst. Veg. 3: 406. 1826</place_of_publication>
+  <common_name>Iberian star thistle or knapweed</common_name>
+  <description>
+    <statement id="222.txt-0">
+      <text>Annuals, biennials, or short-lived perennials , 20–200 cm.</text>
+      <structure id="o3568" name="whole_organism">
+        <character char_type="range_value" name="size" from="20" from_unit="cm" to="200" to_unit="cm" />
+        <character name="life_style" value="annual" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="222.txt-1">
+      <text>Stems 1–several, divaricately much branched, often forming rounded mound, puberulent to loosely tomentose.</text>
+      <structure id="o3570" name="stem">
+        <character char_type="range_value" name="count" from="1" to="several" />
+        <character name="architecture_or_shape" value="branched" modifier="divaricately much" />
+        <character name="shape" value="rounded" modifier="often ; mound" />
+        <character char_type="range_value" name="pubescence" from="puberulent" to="loosely tomentose" />
+        <character name="pubescence" value="puberulent" />
+        <character name="pubescence" value="tomentose" modifier="loosely" />
+      </structure>
+    </statement>
+    <statement id="222.txt-2">
+      <text>Leaves hispidulous to loosely tomentose, ± glabrate, minutely resin- gland-dotted;</text>
+      <structure id="o3571" name="leaf">
+        <character char_type="range_value" name="pubescence" from="hispidulous" to="loosely tomentose" />
+        <character name="pubescence" value="hispidulous" />
+        <character name="pubescence" value="tomentose" modifier="loosely" />
+        <character name="pubescence" value="glabrate" modifier="±" />
+        <character name="coloration_or_relief" value="resin-gland-dotted" modifier="minutely" />
+      </structure>
+    </statement>
+    <statement id="222.txt-3">
+      <text>proximal leaves petiolate, blades 10–20 cm, margins 1–2 times pinnately lobed or dissected, rosette with central cluster of spines;</text>
+      <structure id="o3572" name="leaf" constraint="proximal">
+        <character name="architecture" value="petiolate" />
+      </structure>
+      <structure id="o3573" name="blade">
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="20" to_unit="cm" />
+      </structure>
+      <structure id="o3574" name="margin" />
+      <structure id="o3575" name="rosette" />
+      <structure id="o3576" name="spine" />
+      <relation id="r505" name="with central cluster of" from="o3575" to="o3576" negation="false" />
+    </statement>
+    <statement id="222.txt-4">
+      <text>mid sessile, not decurrent, blades ± lanceolate, shorter;</text>
+      <structure id="o3577" name="leaf" constraint="mid">
+        <character name="architecture" value="sessile" />
+        <character name="shape" value="decurrent" modifier="not" />
+      </structure>
+      <structure id="o3578" name="blade">
+        <character name="shape" value="lanceolate" modifier="±" />
+        <character name="size" value="shorter" />
+      </structure>
+    </statement>
+    <statement id="222.txt-5">
+      <text>distal blades linear to oblong, entire to coarsely dentate or shallowly lobed.</text>
+      <structure id="o3579" name="blade" constraint="distal">
+        <character char_type="range_value" name="shape" from="linear" to="oblong , entire" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="oblong" />
+        <character name="shape" value="entire" />
+        <character name="shape" value="dentate" modifier="coarsely" />
+        <character name="shape" value="lobed" modifier="shallowly" />
+      </structure>
+    </statement>
+    <statement id="222.txt-6">
+      <text>Heads disciform, borne singly or in leafy cymiform arrays, sessile or short-pedunculate.</text>
+      <structure id="o3580" name="head">
+        <character name="shape_or_architecture" value="disciform" />
+        <character name="arrangement" value="singly" />
+        <character name="arrangement" value="in leafy cymiform arrays" />
+        <character name="architecture" value="sessile" />
+        <character name="architecture" value="short-pedunculate" />
+      </structure>
+      <structure id="o3581" name="array">
+        <character name="architecture" value="leafy" />
+        <character name="architecture" value="cymiform" />
+      </structure>
+      <relation id="r506" name="in" from="o3580" to="o3581" negation="false" />
+    </statement>
+    <statement id="222.txt-7">
+      <text>Involucres ovoid to hemispheric, (10–)13–18 mm.</text>
+      <structure id="o3582" name="involucre">
+        <character char_type="range_value" name="shape" from="ovoid" to="hemispheric" />
+        <character name="shape" value="ovoid" />
+        <character name="shape" value="hemispheric" />
+        <character char_type="range_value" name="atypical_size" from="10" to="13" from_unit="mm" to_unit="mm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="13" from_unit="mm" to="18" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="222.txt-8">
+      <text>Principal phyllaries:</text>
+      <structure id="o3583" name="phyllary" constraint="principal" />
+    </statement>
+    <statement id="222.txt-9">
+      <text>bodies greenish or stramineous, ovate, scarious–margined, appendages stramineous, spiny–fringed at base, each tipped by stout spreading spine (0.5–)1–3 cm.</text>
+      <structure id="o3584" name="body">
+        <character name="coloration" value="greenish" />
+        <character name="coloration" value="stramineous" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="scarious-margined" />
+      </structure>
+      <structure id="o3585" name="appendage">
+        <character name="coloration" value="stramineous" />
+        <character name="shape" value="spiny-fringed" constraint="at base" constraintid="o3586" />
+      </structure>
+      <structure id="o3586" name="base" />
+      <structure id="o3587" name="spine">
+        <character name="fragility" value="stout" />
+        <character name="orientation" value="spreading" />
+        <character char_type="range_value" name="atypical_size" from="0.5" to="1" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="1" from_unit="cm" to="3" to_unit="cm" />
+      </structure>
+      <relation id="r507" name="tipped by" from="o3585" to="o3587" negation="false" />
+    </statement>
+    <statement id="222.txt-10">
+      <text>Inner phyllaries :</text>
+      <structure id="o3588" name="phyllary" constraint="inner" />
+    </statement>
+    <statement id="222.txt-11">
+      <text>appendages truncate, spineless.</text>
+      <structure id="o3589" name="appendage">
+        <character name="shape" value="truncate" />
+        <character name="architecture" value="spineless" />
+      </structure>
+    </statement>
+    <statement id="222.txt-12">
+      <text>Florets many;</text>
+      <structure id="o3590" name="floret">
+        <character name="count" value="many" />
+      </structure>
+    </statement>
+    <statement id="222.txt-13">
+      <text>corollas white, pink, or pale purple, those of sterile florets slender, 15–20 mm, those of fertile florets 15–20 mm.</text>
+      <structure id="o3591" name="corolla">
+        <character name="coloration" value="white" />
+        <character name="coloration" value="pink" />
+        <character name="coloration" value="purple" modifier="pale" />
+      </structure>
+      <structure id="o3592" name="corolla">
+        <character name="size" value="slender" />
+        <character char_type="range_value" name="size" from="15" from_unit="mm" to="20" to_unit="mm" />
+      </structure>
+      <structure id="o3593" name="floret" constraint="sterile" />
+      <relation id="r508" name="part_of" from="o3592" to="o3593" negation="false" />
+      <structure id="o3594" name="corolla">
+        <character char_type="range_value" name="size" from="15" from_unit="mm" to="20" to_unit="mm" />
+      </structure>
+      <structure id="o3595" name="floret" constraint="fertile" />
+      <relation id="r509" name="part_of" from="o3594" to="o3595" negation="false" />
+    </statement>
+    <statement id="222.txt-14">
+      <text>Cypselae white- or brown-streaked, 3–4 mm, glabrous;</text>
+      <structure id="o3596" name="cypsela">
+        <character name="coloration_or_relief" value="white-or-brown-streaked" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="4" to_unit="mm" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="222.txt-15">
+      <text>pappi of white bristles 1–2.5(–3) mm.</text>
+      <structure id="o3597" name="pappus" />
+      <structure id="o3598" name="bristle">
+        <character name="coloration" value="white" />
+        <character char_type="range_value" name="atypical_size" from="2.5" to="3" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="2.5" to_unit="mm" />
+      </structure>
+      <relation id="r510" name="consist_of" from="o3597" to="o3598" negation="false" />
+    </statement>
+    <statement id="222.txt-16">
+      <text>2 n = 16, 20.</text>
+      <structure id="o3599" name="chromosome">
+        <character name="count" value="16" />
+        <character name="count" value="20" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>roadsides</habitat>
+  <habitat>pastures</habitat>
+  <habitat>fields</habitat>
+  <elevation>0–1500 m;</elevation>
+  <introduced>introduced;</introduced>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Kans.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <global_distribution>Europe</global_distribution>
+  <global_distribution>Asia.</global_distribution>
+  <discussion>Centaurea iberica is native to southeastern Europe through central Asia.</discussion>
+  <discussion>Iberian star thistle is considered to be a noxious weed in several states of the western United States. Weed control measures in Oregon and Washington have apparently eradicated the species in those states. Centaurea iberica is very similar to C. calcitrapa, from which it differs by its pappose cypselae and often more robust habit. The Kansas and Wyoming plants were originally reported as C. calcitrapa (R. L. McGregor 1986).</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>3a.</number>
+  <subspecies_name>Microseris laciniata (Hooker) Schultz-Bipontinus subsp. laciniata</subspecies_name>
+  <synonym_of_subspecies_name>Calaïs glauca (Hooker) A. Gray var. procera A. Gray; Microseris procera (A. Gray) A. Gray; Scorzonella procera (A. Gray) Greene</synonym_of_subspecies_name>
+  <description>
+    <statement id="525.txt-0">
+      <text>Stems usually branched.</text>
+      <structure id="o10805" name="stem">
+        <character name="architecture_or_shape" value="branched" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="525.txt-1">
+      <text>Leaves usually lanceolate or oblanceolate, entire or pinnately lobed.</text>
+      <structure id="o10806" name="leaf">
+        <character name="shape" value="lanceolate" modifier="usually" />
+        <character name="shape" value="oblanceolate" modifier="usually" />
+        <character name="shape" value="entire" modifier="usually" />
+        <character name="shape" value="lobed" modifier="pinnately" />
+      </structure>
+    </statement>
+    <statement id="525.txt-2">
+      <text>Outer phyllaries often purple-spotted , broadly lanceolate to ovate, smallest 2.5–9 mm wide, apices (erect) acute to cuspidate, abaxial faces glabrous.</text>
+      <structure id="o10807" name="phyllary" constraint="outer">
+        <character name="coloration" value="spotted" modifier="often;purple" />
+        <character char_type="range_value" name="shape" from="broadly lanceolate" to="ovate" />
+        <character name="shape" value="lanceolate" modifier="broadly" />
+        <character name="shape" value="ovate" modifier="broadly" />
+        <character name="size" value="smallest" />
+        <character char_type="range_value" name="size" from="2.5" from_unit="mm" to="9" to_unit="mm" />
+      </structure>
+      <structure id="o10808" name="apex">
+        <character char_type="range_value" name="shape" from="acute" to="cuspidate" />
+        <character name="shape" value="acute" />
+        <character name="shape" value="cuspidate" />
+      </structure>
+      <structure id="o10809" name="face" constraint="abaxial">
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="525.txt-3">
+      <text>Pappi of 5–10, white, deltate to lanceolate, glabrous, aristate scales 0.5–3(–4) mm, aristae barbellulate.</text>
+      <structure id="o10810" name="pappus" />
+      <structure id="o10811" name="scale">
+        <character char_type="range_value" name="count" from="5" to="10" />
+        <character name="coloration" value="white" />
+        <character char_type="range_value" name="shape" from="deltate" to="lanceolate" />
+        <character name="shape" value="deltate" />
+        <character name="shape" value="lanceolate" />
+        <character name="pubescence" value="glabrous" />
+        <character name="shape" value="aristate" />
+        <character char_type="range_value" name="atypical_size" from="3" to="4" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="0.5" from_unit="mm" to="3" to_unit="mm" />
+      </structure>
+      <relation id="r1236" name="consist_of" from="o10810" to="o10811" negation="false" />
+      <structure id="o10812" name="arista">
+        <character name="architecture" value="barbellulate" />
+      </structure>
+    </statement>
+    <statement id="525.txt-4">
+      <text>2 n = 18.</text>
+      <structure id="o10813" name="chromosome">
+        <character name="count" value="18" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>clay</habitat>
+  <habitat>loam, or gravelly soils</habitat>
+  <elevation>open sites, in marshes, meadows, pastures, hillsides, shrublands, and open woods; 10–1900 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <discussion>Subspecies laciniata occurs principally away from the coast, in interior valleys and hills, rarely reaching high elevations. The width of the outer phyllaries is a convenient way to separate it from subsp. leptosepala, with which it intergrades in the Klamath Mountains and at various sites east of the Cascade Range. Intergradation with subsp. detlingii occurs in Jackson County, Oregon.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

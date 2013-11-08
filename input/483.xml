@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>12d.</number>
+  <variety_name>Malacothrix saxatilis (Nuttall) Torrey &amp; A. Gray var. arachnoidea</variety_name>
+  <authority>(E. A. McGregor) E. W. Williams</authority>
+  <place_of_publication>Amer. Midl. Naturalist 58: 509. 1957</place_of_publication>
+  <common_name>Carmel Valley malacothrix</common_name>
+  <synonym_of_variety_name>Malacothrix arachnoidea E. A. McGregor, Bull. Torrey Club 36: 605, fig. 3. 1909</synonym_of_variety_name>
+  <description>
+    <statement id="483.txt-0">
+      <text>Plants rhizomatous or with woody caudices.</text>
+      <structure id="o9645" name="whole_organism">
+        <character name="architecture" value="rhizomatous" />
+        <character name="architecture" value="with woody caudices" />
+        <character name="life_style" value="plant" />
+      </structure>
+      <structure id="o9646" name="caudex" constraint="woody" />
+      <relation id="r1117" name="with" from="o9645" to="o9646" negation="false" />
+    </statement>
+    <statement id="483.txt-1">
+      <text>Herbage tomentose.</text>
+      <structure id="o9647" name="herbage">
+        <character name="pubescence" value="tomentose" />
+      </structure>
+    </statement>
+    <statement id="483.txt-2">
+      <text>Stems 1 (from rhizomes) or 2–3+ (from caudices), erect, freely branched, herbaceous or proximally woody, relatively leafy distally.</text>
+      <structure id="o9648" name="stem">
+        <character name="count" value="1" />
+        <character char_type="range_value" name="count" from="2" to="3" upper_restricted="false" />
+        <character name="orientation" value="erect" />
+        <character name="architecture_or_shape" value="branched" modifier="freely" />
+        <character name="texture" value="herbaceous" />
+        <character name="texture" value="woody" modifier="proximally" />
+        <character name="architecture" value="leafy" modifier="relatively ; distally" />
+      </structure>
+    </statement>
+    <statement id="483.txt-3">
+      <text>Cauline leaves:</text>
+      <structure id="o9649" name="leaf" constraint="cauline" />
+    </statement>
+    <statement id="483.txt-4">
+      <text>proximal not pinnately lobed (lanceolate to elliptic, margins usually entire, apices acute);</text>
+      <structure id="o9650" name="leaf" constraint="proximal cauline">
+        <character name="shape" value="lobed" modifier="not pinnately" />
+      </structure>
+    </statement>
+    <statement id="483.txt-5">
+      <text>distal broadly lance-linear to elliptic or linear (firm, bases gradually tapering), margins usually entire, sometimes denticulate, apices usually acute.</text>
+      <structure id="o9651" name="leaf" constraint="distal cauline">
+        <character name="arrangement_or_shape" value="linear" />
+      </structure>
+      <structure id="o9652" name="margin">
+        <character name="shape" value="entire" modifier="usually" />
+        <character name="shape" value="denticulate" modifier="sometimes" />
+      </structure>
+      <structure id="o9653" name="apex">
+        <character name="shape" value="acute" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="483.txt-6">
+      <text>Arrays of heads relatively crowded to open.</text>
+      <structure id="o9654" name="head">
+        <character char_type="range_value" name="architecture" from="relatively crowded" to="open" />
+        <character name="architecture" value="crowded" modifier="relatively" />
+        <character name="architecture" value="open" modifier="relatively" />
+      </structure>
+    </statement>
+    <statement id="483.txt-7">
+      <text>Cypselae 2.2–2.5 mm.</text>
+      <structure id="o9655" name="cypsela">
+        <character char_type="range_value" name="size" from="2.2" from_unit="mm" to="2.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="483.txt-8">
+      <text>2 n = 18.</text>
+      <structure id="o9656" name="chromosome">
+        <character name="count" value="18" />
+      </structure>
+    </statement>
+  </description>
+  <habitat>rocky open banks</habitat>
+  <habitat>chaparral</habitat>
+  <habitat>coastal sage</habitat>
+  <conservation>of conservation concern;</conservation>
+  <elevation>200–2200 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <discussion>Variety arachnoidea grows in Carmel Valley (Monterey County) and in the San Rafael Mountains (Santa Barbara County).</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

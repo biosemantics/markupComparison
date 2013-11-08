@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>24.</number>
+  <genus_name>CENTAUREA</genus_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 909. 1753; Gen. Pl. ed. 5, 389. 1754</place_of_publication>
+  <common_name>Knapweed, star thistle, cornflower, centaurée</common_name>
+  <derivation>Greek kentaurieon , ancient plant name associated with Chiron, a centaur famous for knowledge of medicinal plants</derivation>
+  <author_of_tribe_genus>David J. Keil</author_of_tribe_genus>
+  <author_of_tribe_genus>Jörg Ochsmann</author_of_tribe_genus>
+  <synonym_of_genus_name>Acosta Adanson; Cnicus Linnaeus; Grossheimia Sosnowsky &amp; Takhtajan; Jacea Miller; Leucacantha Nieuwland &amp; Lunell</synonym_of_genus_name>
+  <description>
+    <statement id="205.txt-0">
+      <text>Annuals , biennials , or perennials , 20–300 cm, glabrous or tomentose.</text>
+      <structure id="o3064" name="whole_organism">
+        <character char_type="range_value" name="size" from="20" from_unit="cm" to="300" to_unit="cm" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="tomentose" />
+        <character name="life_style" value="annual" />
+        <character name="life_style" value="biennial" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="205.txt-1">
+      <text>Stems erect, ascending, or spreading, simple or branched.</text>
+      <structure id="o3067" name="stem">
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="ascending" />
+        <character name="orientation" value="spreading" />
+        <character name="architecture" value="simple" />
+        <character name="architecture" value="branched" />
+      </structure>
+    </statement>
+    <statement id="205.txt-2">
+      <text>Leaves basal and cauline;</text>
+    </statement>
+    <statement id="205.txt-3">
+      <text>petiolate or sessile;</text>
+      <structure id="o3068" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="architecture" value="petiolate" />
+        <character name="architecture" value="sessile" />
+      </structure>
+    </statement>
+    <statement id="205.txt-4">
+      <text>proximal blade margins often ± deeply lobed, ( spiny in C. benedicta ), distal ± smaller, often entire, faces glabrous or ± tomentose, sometimes also villous, strigose, or puberulent, often glandular-punctate.</text>
+      <structure id="o3069" name="margin" constraint="proximal blade">
+        <character name="shape" value="lobed" modifier="often ± deeply" />
+        <character name="insertion_or_position" value="distal" modifier="±" />
+        <character name="size" value="smaller" />
+        <character name="shape" value="entire" modifier="often" />
+      </structure>
+      <structure id="o3070" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="tomentose" modifier="±" />
+        <character name="pubescence" value="villous" />
+        <character name="pubescence" value="strigose" />
+        <character name="pubescence" value="puberulent" />
+        <character name="coloration_or_relief" value="glandular-punctate" modifier="often" />
+      </structure>
+    </statement>
+    <statement id="205.txt-5">
+      <text>Heads discoid, disciform, or radiant, borne singly or in corymbiform arrays.</text>
+      <structure id="o3071" name="head">
+        <character name="shape_or_architecture" value="discoid" />
+        <character name="shape_or_architecture" value="disciform" />
+        <character name="architecture_or_arrangement" value="radiant" />
+        <character name="arrangement" value="singly" />
+        <character name="arrangement" value="in corymbiform arrays" />
+      </structure>
+      <structure id="o3072" name="array">
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <relation id="r425" name="in" from="o3071" to="o3072" negation="false" />
+    </statement>
+    <statement id="205.txt-6">
+      <text>Involucres cylindric or ovoid to hemispheric .</text>
+      <structure id="o3073" name="involucre">
+        <character char_type="range_value" name="shape" from="ovoid" to="hemispheric" />
+        <character name="shape" value="cylindric" />
+        <character name="shape" value="ovoid" />
+        <character name="shape" value="hemispheric" />
+      </structure>
+    </statement>
+    <statement id="205.txt-7">
+      <text>Phyllaries many in 6–many series, unequal, proximal part appressed, body margins entire , distal parts expanded into erect to spreading, usually ± dentate or fringed, linear to ovate appendages, spine - tipped or spineless.</text>
+      <structure id="o3074" name="phyllary">
+        <character name="count" value="many" constraint="in series" constraintid="o3075" />
+        <character name="size" value="unequal" />
+      </structure>
+      <structure id="o3075" name="series">
+        <character char_type="range_value" name="count" from="6" to="many" />
+      </structure>
+      <structure id="o3076" name="part" constraint="proximal">
+        <character name="orientation" value="appressed" />
+      </structure>
+      <structure id="o3077" name="margin" constraint="body">
+        <character name="shape" value="entire" />
+      </structure>
+      <structure id="o3078" name="part" constraint="distal">
+        <character name="size" value="expanded" constraint="into appendages" constraintid="o3079" />
+        <character name="architecture" value="spineless" />
+      </structure>
+      <structure id="o3079" name="appendage">
+        <character char_type="range_value" name="orientation" from="erect" to="spreading" />
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="spreading" />
+        <character char_type="range_value" name="shape" from="fringed , linear" to="ovate" />
+        <character name="shape" value="dentate" />
+        <character name="shape" value="fringed" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="ovate" />
+      </structure>
+    </statement>
+    <statement id="205.txt-8">
+      <text>Receptacles flat, epaleate, bristly.</text>
+      <structure id="o3080" name="receptacle">
+        <character name="shape" value="flat" />
+        <character name="architecture" value="epaleate" />
+        <character name="pubescence" value="bristly" />
+      </structure>
+    </statement>
+    <statement id="205.txt-9">
+      <text>Florets 10–many;</text>
+      <structure id="o3081" name="floret">
+        <character char_type="range_value" name="count" from="10" to="many" />
+      </structure>
+    </statement>
+    <statement id="205.txt-10">
+      <text>outer usually sterile, corollas slender and inconspicuous to much expanded, ± bilateral;</text>
+      <structure id="o3082" name="floret" constraint="outer">
+        <character name="reproduction" value="sterile" modifier="usually" />
+      </structure>
+      <structure id="o3083" name="corolla">
+        <character name="size" value="slender" />
+        <character name="manifestation" value="inconspicuous" />
+        <character name="size" value="expanded" modifier="much" />
+        <character name="arrangement" value="bilateral" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="205.txt-11">
+      <text>inner fertile, corollas white to blue, pink, purple, or yellow, bilateral or radial, often bent at junction of tubes and throats, lobes linear-oblong, acute;</text>
+      <structure id="o3084" name="floret" constraint="inner">
+        <character name="reproduction" value="fertile" />
+      </structure>
+      <structure id="o3085" name="corolla">
+        <character char_type="range_value" name="coloration" from="white" to="blue , pink , purple , or yellow" />
+        <character name="coloration" value="white" />
+        <character name="coloration" value="blue" />
+        <character name="coloration" value="pink" />
+        <character name="coloration" value="purple" />
+        <character name="coloration" value="yellow" />
+        <character name="arrangement" value="bilateral" />
+        <character name="arrangement" value="radial" />
+        <character name="shape" value="bent" modifier="often" constraint="at junction" constraintid="o3086" />
+      </structure>
+      <structure id="o3086" name="junction" />
+      <structure id="o3087" name="tube" />
+      <structure id="o3088" name="throat" />
+      <relation id="r426" name="part_of" from="o3086" to="o3087" negation="false" />
+      <relation id="r427" name="part_of" from="o3086" to="o3088" negation="false" />
+      <structure id="o3089" name="lobe">
+        <character name="shape" value="linear-oblong" />
+        <character name="shape" value="acute" />
+      </structure>
+    </statement>
+    <statement id="205.txt-12">
+      <text>anther bases tailed, apical appendages oblong;</text>
+      <structure id="o3090" name="base" constraint="anther">
+        <character name="shape" value="tailed" />
+      </structure>
+      <structure id="o3091" name="appendage" constraint="apical">
+        <character name="shape" value="oblong" />
+      </structure>
+    </statement>
+    <statement id="205.txt-13">
+      <text>style branches:</text>
+      <structure id="o3092" name="branch" constraint="style" />
+    </statement>
+    <statement id="205.txt-14">
+      <text>fused portions with minutely hairy nodes, distinct portions minute.</text>
+      <structure id="o3093" name="portion" constraint="fused" />
+      <structure id="o3094" name="node">
+        <character name="pubescence" value="hairy" modifier="minutely" />
+      </structure>
+      <relation id="r428" name="with" from="o3093" to="o3094" negation="false" />
+      <structure id="o3095" name="portion">
+        <character name="fusion" value="distinct" />
+        <character name="size" value="minute" />
+      </structure>
+    </statement>
+    <statement id="205.txt-15">
+      <text>Cypselae ± barrel-shaped, ± compressed, smooth or ribbed, apices entire ( denticulate in C. benedicta ), glabrous or with fine, 1-celled hairs, attachment scars lateral (with or without elaiosomes);</text>
+      <structure id="o3096" name="cypsela">
+        <character name="shape" value="barrel-shaped" modifier="±" />
+        <character name="shape" value="compressed" modifier="±" />
+        <character name="architecture_or_relief" value="smooth" />
+        <character name="architecture_or_shape" value="ribbed" />
+      </structure>
+      <structure id="o3097" name="apex">
+        <character name="shape" value="entire" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="with fine , 1-celled hairs" />
+      </structure>
+      <structure id="o3098" name="hair">
+        <character name="texture" value="fine" />
+        <character name="architecture" value="1-celled" />
+      </structure>
+      <relation id="r429" name="with" from="o3097" to="o3098" negation="false" />
+      <structure id="o3099" name="scar" constraint="attachment">
+        <character name="insertion_or_position" value="lateral" />
+      </structure>
+    </statement>
+    <statement id="205.txt-16">
+      <text>pappi 0 or ± persistent, of 1–3 series of smooth or minutely barbed, stiff bristles or narrow scales .</text>
+      <structure id="o3100" name="pappus">
+        <character name="count" value="0" />
+        <character name="duration" value="persistent" modifier="±" />
+      </structure>
+      <structure id="o3101" name="series">
+        <character char_type="range_value" name="count" from="1" to="3" />
+      </structure>
+      <relation id="r430" name="consist_of" from="o3100" to="o3101" negation="false" />
+      <structure id="o3102" name="bristle">
+        <character name="architecture" value="smooth" />
+        <character name="architecture" value="barbed" modifier="minutely" />
+        <character name="texture" value="stiff" />
+      </structure>
+      <structure id="o3103" name="scale">
+        <character name="size" value="narrow" />
+        <character name="architecture" value="smooth" />
+        <character name="architecture" value="barbed" modifier="minutely" />
+        <character name="texture" value="stiff" />
+      </structure>
+      <relation id="r431" name="part_of" from="o3101" to="o3102" negation="false" />
+      <relation id="r432" name="part_of" from="o3101" to="o3103" negation="false" />
+    </statement>
+    <statement id="205.txt-17">
+      <text>x = 8, 9, 10, 11, 12, 13, 15.</text>
+      <structure id="o3104" name="chromosome">
+        <character name="count" value="8" />
+        <character name="count" value="9" />
+        <character name="count" value="10" />
+        <character name="count" value="11" />
+        <character name="count" value="12" />
+        <character name="count" value="13" />
+        <character name="count" value="15" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species ca. 500 (20 in the flora):</number_of_infrataxa>
+  <introduced>introduced;</introduced>
+  <general_distribution>Eurasia</general_distribution>
+  <general_distribution>n Africa</general_distribution>
+  <general_distribution>widely introduced worldwide.</general_distribution>
+  <discussion>Taxonomic limits of Centaurea have been controversial. The genus has great morphologic diversity, and studies have revealed much cytologic (e.g., N. Garcia-Jacas et al. 1996) and palynologic (e.g., G. Wagenitz 1955) variation as well. During the nineteenth and twentieth centuries, various taxonomists attempted, with limited success, to divide Centaurea into smaller genera or workable infrageneric taxa. The relations of several satellite genera have been controversial as well.</discussion>
+  <discussion>Recent molecular phylogenetic studies (A. Susanna et al. 1995; N. Garcia-Jacas et al. 2000, 2001) have begun to clarify relationships within Centaurea and between Centaurea and other genera. These studies make it clear that Centaurea as traditionally defined is polyphyletic, and that generic boundaries should be realigned if monophyletic taxa are to be recognized. Some taxa traditionally included within Centaurea (e.g., the two native North American species, Centaurea americana and C. rothrockii) fall outside the redefined generic boundaries and are here treated in Plectocephalus. Others usually placed into segregate genera (e.g., Cnicus benedictus) are firmly nested within Centaurea. Because the type species of Centaurea (C. centaurium Linnaeus, an African species) falls outside the main lineage of the genus, a proposal has been made to conserve Centaurea with a different type species (W. Greuter et al. 2001), thereby maintaining the nomenclatural stability of most of the numerous species that do fall within the principal Centaurea clade.</discussion>
+  <discussion>Although several Centaurea species are widely established as members of the North American flora, and some of these are widely distributed invasive weeds, some of the taxa listed by J. T. Kartesz and C. A. Meacham (1999) are apparently waifs and not permanent members of the flora. These taxa are discussed informally immediately below.</discussion>
+  <discussion>Centaurea aspera Linnaeus (rough star thistle) is known from nineteenth-century collections from ballast piles in New York; it does not appear to be established as a member of the North American flora. It can readily be distinguished from the similar C. diluta: the phyllary appendages are divided into palmately radiating clusters of short spines.</discussion>
+  <discussion>Centaurea babylonica Linnaeus has been reported from California as a waif (F. Hrusa et al. 2002); apparently it is not established as a permanent member of the flora. It is a tall (to 3 m), yellow-flowered Centaurea with numerous heads clustered in spiciform arrays. The phyllaries are leathery, and appendages are absent or reduced to spines 1 mm or shorter.</discussion>
+  <discussion>Centaurea cineraria Linnaeus (dusty miller), an Italian species known from casual garden escapes (California, Maryland, New York), probably is not permanently established as a member of the North American flora. It is a perennial with pinnately or bipinnately divided, densely gray-tomentose leaves, usually solitary, radiant heads somewhat larger than those of C. stoebe, and purple corollas.</discussion>
+  <discussion>Centaurea eriophora Linnaeus, reported from California and Colorado (J. T. Kartesz and C. A. Meacham 1999), would key below to C. sulphurea. It differs from C. sulphurea in having densely arachnoid-tomentose involucres. The California report is based on an early twentieth-century collection from Los Angeles County (A. Davidson 2334, UC). It is unlikely that this species is permanently established as a member of the California flora. The Colorado report is apparently erroneous, referenced to a report of Jacea pratensis Lamarck (= Centaurea jacea Miller), a wholly different plant, in W. A. Weber and R. C. Wittmann (1992).</discussion>
+  <discussion>A population of Centaurea trichocephala M. Bieberstein ex Willdenow (featherhead or hairy-head knapweed) was found in the late 1970s in a degraded pasture in eastern Washington (B. F. Roché and C. T. Roché 1991). A weed-control program was instituted, and the plants were successfully eradicated. Although it is apparently not established anywhere in North America, C. trichocephala is listed as a noxious weed in Oregon. These plants resemble C. phrygia in having elongate, pectinate-fringed phyllary appendages. In C. trichocephala the linear-filiform, featherlike appendages are much narrower than the phyllary bodies. Plants of the species spread by horizontal roots. According to Roché and Roché, C. trichocephala is apparently self-sterile; the Oregon plants spread clonally and formed no seeds.</discussion>
+  <discussion>Although Cnicus has usually been recognized as a distinctive monotypic genus, it has been merged into Centaurea by various authors (e.g., K. Bremer 1994; G. Wagenitz and F. H. Hellwig 1996). Recent molecular systematic studies (N. Garcia-Jacas et al. 2000) provide additional evidence that it is nested within Centaurea.</discussion>
+  <references>SELECTED REFERENCES Garcia-Jacas, N., A. Susanna, V. Mozaffarian, and R. Ilarslan. 2000. The natural delimitation of Centaurea (Asteraceae: Cardueae): ITS sequence analysis of the Centaurea jacea group. Pl. Syst. Evol. 223: 185–199. Moore, R. J. 1972. Distribution of native and introduced knapweeds (Centaurea) in Canada and the United States. Rhodora 74: 331–346. Roché, B. F. and C. T. Roché. 1991. Identification, introduction, distribution, ecology, and economics of Centaurea species. In: L. F. James et al., eds. 1991. Noxious Range Weeds. Boulder, San Francisco, and Oxford. Pp. 274–291. Wagenitz, G. 1955. Pollenmorphologie und Systematik in der Gattung Centaurea L. s.l. Flora 142: 213–279.</references>
+  <key>1.Corollas yellow.</key>
+  <key>2.Phyllary appendages broadly scarious, ± covering phyllary bodies, lacerate fringed, spineless or tipped by weak spines 1–2 mm4. Centaurea macrocephala</key>
+  <key>2.Phyllary appendages spiny fringed, not covering phyllary bodies, tipped with spines 5–25 mm.</key>
+  <key>3.Heads sessile, each closely subtended and ± concealed by involucrelike cluster of expanded, foliar bracts16. Centaurea benedicta</key>
+  <key>3.Heads evidently pedunculate, or if sessile, each not concealed by involucrelike cluster of expanded, foliar bracts.</key>
+  <key>4.Corollas usually longer than 25 mm20. Centaurea sulphurea</key>
+  <key>4.Corollas usually 10–20 mm.</key>
+  <key>5.Central spines of principal phyllaries 5–10 mm18. Centaurea melitensis</key>
+  <key>5.Central spines of principal phyllaries 10–25 mm19. Centaurea solstitialis</key>
+  <key>1.Corollas white to pink, blue, or purple.</key>
+  <key>6.Principal phyllaries tipped with spines.</key>
+  <key>7.Central spines of principal phyllaries 10–25 mm.</key>
+  <key>8.Young leaves ± gray tomentose when young; involucre bodies 6–8 mm diam.; florets 25–4014. Centaurea calcitrapa</key>
+  <key>8.Young leaves minutely bristly, green; involucre bodies 8–14 mm diam.; florets many15. Centaurea iberica</key>
+  <key>7.Central spines of principal phyllaries usually 1–5 mm.</key>
+  <key>9.Involucres 8–15 mm diam.17. Centaurea diluta</key>
+  <key>9.Involucres 3–5 mm diam.</key>
+  <key>10.Corollas 12–13 mm; involucres 10–13 mm12. Centaurea diffusa</key>
+  <key>10.Corollas 7–9 mm; involucres 7–8 mm13. Centaurea virgata</key>
+  <key>6.Principal phyllaries not spine-tipped.</key>
+  <key>11.Annuals.</key>
+  <key>12.Proximal leaves lanceolate, acute; phyllary appendages white to dark brown or black, teeth ± 1 mm; pappi 2–4 mm1. Centaurea cyanus</key>
+  <key>12.Proximal leaves oblong, obtuse; phyllary appendages silvery white to brown, teeth 1.5–2 mm; pappi 6–8 mm2. Centaurea depressa</key>
+  <key>11.Perennials.</key>
+  <key>13.Phyllary appendages tapering to long, often recurved, pectinately dissected, filiform tips10. Centaurea phrygia</key>
+  <key>13.Phyllary appendages obtuse to acute, erect or ascending.</key>
+  <key>14.Involucres 10–13 mm11. Centaurea stoebe</key>
+  <key>14.Involucres 15–25 mm.</key>
+  <key>15.Phyllary appendages evidently decurrent along phyllary margins.</key>
+  <key>16.Leaves decurrent, entire or remotely dentate, or proximal some- times pinnately lobed3. Centaurea montana</key>
+  <key>16.Leaves not decurrent, 1–2-pinnately divided or distal entire 5. Centaurea scabiosa</key>
+  <key>15.Phyllary appendages not or only slightly decurrent along phyllary margins.</key>
+  <key>[17. Shifted to left margin.—Ed.]</key>
+  <key>17.Phyllary appendages roundish, seldom triangular, scarious, light to dark brown, ± undivided to irregularly lacerate.</key>
+  <key>18.Pappus absent6. Centaurea jacea</key>
+  <key>18.Pappus present, 3–5 mm, of many white bristles17. Centaurea diluta</key>
+  <key>17.Phyllary appendages ± triangular, brown to black, ± wholly pectinately fimbriate; pappus present or absent.</key>
+  <key>19.Heads discoid; peripheral florets not expanded, showy; pappus blackish, shorter than 1 mm; green parts of phyllaries ± totally covered by black appendages, involucres appearing totally black7. Centaurea nigra</key>
+  <key>19Heads radiant; peripheral florets expanded, showy, raylike; pappus absent or rudimentary, when present usually not black; green part of phyllaries sometimes evident or appendages light to dark brown.</key>
+  <key>20.Heads relatively broad, the pressed involucres usually as wide as or wider than long; green parts of phyllaries usually fully covered by ± brown, variably pectinately fimbriate appendages, involucres light to dark brown8. Centaurea ×moncktonii</key>
+  <key>20.Heads relatively narrow, the pressed involucres usually longer than wide; green parts of phyllaries not fully covered by black appendages, involucres black and green9. Centaurea nigrescens</key>
+  <key />
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

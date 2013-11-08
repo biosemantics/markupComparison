@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>18.</number>
+  <species_name>Antennaria marginata</species_name>
+  <authority>Greene</authority>
+  <place_of_publication>Pittonia 3: 290. 1898</place_of_publication>
+  <common_name>Whitemargin pussytoes</common_name>
+  <synonym_of_species_name>Antennaria dioica (Linnaeus) Gaertner var. marginata (Greene) Jepson; A. fendleri Greene; A. marginata var. glandulifera A. Nelson; A. peramoena Greene</synonym_of_species_name>
+  <description>
+    <statement id="653.txt-0">
+      <text>Dioecious or gynoecious (staminate plants in equal frequency as pistillates or none in populations, respectively).</text>
+      <structure id="o13651" name="whole_organism">
+        <character name="reproduction" value="dioecious" />
+        <character name="reproduction" value="gynoecious" />
+      </structure>
+    </statement>
+    <statement id="653.txt-1">
+      <text>Plants 5–20 cm (stems sometimes stipitate-glandular, especially in dioecious diploids).</text>
+      <structure id="o13652" name="whole_organism">
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="20" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="653.txt-2">
+      <text>Stolons 2–7 cm (woolly).</text>
+      <structure id="o13653" name="stolon">
+        <character char_type="range_value" name="size" from="2" from_unit="cm" to="7" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="653.txt-3">
+      <text>Basal leaves 1–3-nerved, spatulate, 15–20 × 4–6 mm, tips mucronate, abaxial faces gray-tomentose, adaxial green-glabrous (margins white woolly).</text>
+      <structure id="o13654" name="leaf" constraint="basal">
+        <character name="architecture" value="1-3-nerved" />
+        <character name="shape" value="spatulate" />
+        <character char_type="range_value" name="length" from="15" from_unit="mm" to="20" to_unit="mm" />
+        <character char_type="range_value" name="width" from="4" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+      <structure id="o13655" name="tip">
+        <character name="shape" value="mucronate" />
+      </structure>
+      <structure id="o13656" name="face" constraint="abaxial">
+        <character name="pubescence" value="gray-tomentose" />
+        <character name="insertion_or_position" value="adaxial" />
+        <character name="pubescence" value="green-glabrous" />
+      </structure>
+    </statement>
+    <statement id="653.txt-4">
+      <text>Cauline leaves linear, 7–16 mm, (apices acute) not flagged.</text>
+      <structure id="o13657" name="leaf" constraint="cauline">
+        <character name="arrangement_or_shape" value="linear" />
+        <character char_type="range_value" name="size" from="7" from_unit="mm" to="16" to_unit="mm" />
+        <character name="orientation" value="flagged" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="653.txt-5">
+      <text>Heads 5–8 in corymbiform arrays.</text>
+      <structure id="o13658" name="head">
+        <character char_type="range_value" name="count" from="5" to="8" constraint="in arrays" constraintid="o13659" />
+      </structure>
+      <structure id="o13659" name="array">
+        <character name="architecture" value="corymbiform" />
+      </structure>
+    </statement>
+    <statement id="653.txt-6">
+      <text>Involucres:</text>
+      <structure id="o13660" name="involucre" />
+    </statement>
+    <statement id="653.txt-7">
+      <text>staminate 4.5–7 mm;</text>
+      <structure id="o13661" name="involucre" constraint="staminate">
+        <character char_type="range_value" name="size" from="4.5" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="653.txt-8">
+      <text>pistillate 5–7(–9) mm.</text>
+      <structure id="o13662" name="involucre" constraint="pistillate">
+        <character char_type="range_value" name="atypical_size" from="7" to="9" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="653.txt-9">
+      <text>Phyllaries (relatively wide), distally white (apices acuminate).</text>
+      <structure id="o13663" name="phyllary">
+        <character name="coloration" value="white" modifier="distally" />
+      </structure>
+    </statement>
+    <statement id="653.txt-10">
+      <text>Corollas:</text>
+      <structure id="o13664" name="corolla" />
+    </statement>
+    <statement id="653.txt-11">
+      <text>staminate 3–5 mm;</text>
+      <structure id="o13665" name="corolla" constraint="staminate">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="653.txt-12">
+      <text>pistillate 4.5–6.5 mm.</text>
+      <structure id="o13666" name="corolla" constraint="pistillate">
+        <character char_type="range_value" name="size" from="4.5" from_unit="mm" to="6.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="653.txt-13">
+      <text>Cypselae 0.8–2 mm, glabrous or slightly papillate;</text>
+      <structure id="o13667" name="cypsela">
+        <character char_type="range_value" name="size" from="0.8" from_unit="mm" to="2" to_unit="mm" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="papillate" modifier="slightly" />
+      </structure>
+    </statement>
+    <statement id="653.txt-14">
+      <text>pappi:</text>
+      <structure id="o13668" name="pappus" />
+    </statement>
+    <statement id="653.txt-15">
+      <text>staminate 3.5–5.5 mm;</text>
+      <structure id="o13669" name="pappus" constraint="staminate">
+        <character char_type="range_value" name="size" from="3.5" from_unit="mm" to="5.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="653.txt-16">
+      <text>pistillate 5.5–8.5 mm.</text>
+      <structure id="o13670" name="pappus" constraint="pistillate">
+        <character char_type="range_value" name="size" from="5.5" from_unit="mm" to="8.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="653.txt-17">
+      <text>2 n = 28, 56, 84, 112, 140.</text>
+      <structure id="o13671" name="chromosome">
+        <character name="count" value="28" />
+        <character name="count" value="56" />
+        <character name="count" value="84" />
+        <character name="count" value="112" />
+        <character name="count" value="140" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>moist forests</habitat>
+  <habitat>slopes and tops of ridges under douglas fir, ponderosa pine</habitat>
+  <habitat>engelmann spruce or gambel oaks</habitat>
+  <habitat>openings in the forests</habitat>
+  <elevation>1500–2900 m;</elevation>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <global_distribution>Mexico (Chihuahua).</global_distribution>
+  <global_distribution>Mexico (Coahuila).</global_distribution>
+  <discussion>Antennaria marginata has rims of white hairs (from the abaxial faces) around its adaxially glabrous leaves. It has both dioecious and gynoecious populations and cytotypes ranging from diploid to decaploid (R. J. Bayer and G. L. Stebbins 1987). It is probably a primary sexual progenitor of the A. parvifolia polyploid complex; the two taxa sometimes overlap morphologically; they differ in induments of basal leaves. Antennaria marginata may also be a contributor to the parentage of the A. howellii and A. rosea agamic complexes.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

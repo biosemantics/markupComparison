@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>42.</number>
+  <species_name>Artemisia palmeri</species_name>
+  <authority>A. Gray</authority>
+  <place_of_publication>Proc. Amer. Acad. Arts 11: 79. 1876</place_of_publication>
+  <common_name>Palmer sagewort</common_name>
+  <synonym_of_species_name>Artemisiastrum palmeri (A. Gray) Rydberg</synonym_of_species_name>
+  <description>
+    <statement id="920.txt-0">
+      <text>Subshrubs, 100–350 cm, mildly aromatic.</text>
+      <structure id="o18933" name="whole_organism">
+        <character char_type="range_value" name="size" from="100" from_unit="cm" to="350" to_unit="cm" />
+        <character name="odor" value="aromatic" modifier="mildly" />
+        <character name="life_style" value="subshrub" />
+      </structure>
+    </statement>
+    <statement id="920.txt-1">
+      <text>Stems usually 1–15, erect, brown, simple (wandlike, brittle, bases woody), glabrous.</text>
+      <structure id="o18934" name="stem">
+        <character char_type="range_value" name="count" from="1" to="15" modifier="usually" />
+        <character name="orientation" value="erect" />
+        <character name="coloration" value="brown" />
+        <character name="architecture" value="simple" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="920.txt-2">
+      <text>Leaves cauline (petiolate), bicolor (gray-green and dark green);</text>
+      <structure id="o18935" name="leaf">
+        <character name="insertion_or_position" value="cauline" />
+        <character name="coloration" value="bicolor" />
+      </structure>
+    </statement>
+    <statement id="920.txt-3">
+      <text>blades broadly lanceolate, 3.5–12(–15) × 0.2–10 cm, relatively deeply and coarsely pinnately lobed (lobes 3–7+), faces canescent (abaxial) or glabrous or sparsely hairy (adaxial).</text>
+      <structure id="o18936" name="blade">
+        <character name="shape" value="lanceolate" modifier="broadly" />
+        <character char_type="range_value" name="atypical_length" from="12" to="15" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="3.5" from_unit="cm" to="12" to_unit="cm" />
+        <character char_type="range_value" name="width" from="0.2" from_unit="cm" to="10" to_unit="cm" />
+        <character name="shape" value="lobed" modifier="coarsely pinnately" />
+      </structure>
+      <structure id="o18937" name="face">
+        <character name="pubescence" value="canescent" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="hairy" modifier="sparsely" />
+      </structure>
+    </statement>
+    <statement id="920.txt-4">
+      <text>Heads (erect or nodding, peduncles relatively slender) in open, paniculiform arrays, 15–40 × 3–10 cm (widely branched).</text>
+      <structure id="o18938" name="head">
+        <character char_type="range_value" name="length" from="15" from_unit="cm" to="40" to_unit="cm" />
+        <character char_type="range_value" name="width" from="3" from_unit="cm" to="10" to_unit="cm" />
+      </structure>
+      <structure id="o18939" name="array">
+        <character name="architecture" value="open" />
+        <character name="architecture" value="paniculiform" />
+      </structure>
+      <relation id="r2006" name="in" from="o18938" to="o18939" negation="false" />
+    </statement>
+    <statement id="920.txt-5">
+      <text>Involucres globose, 2.5–3.5 × 2–5 mm.</text>
+      <structure id="o18940" name="involucre">
+        <character name="shape" value="globose" />
+        <character char_type="range_value" name="length" from="2.5" from_unit="mm" to="3.5" to_unit="mm" />
+        <character char_type="range_value" name="width" from="2" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="920.txt-6">
+      <text>Phyllaries (pale green to stramineous) broadly ovate, glabrous or sparsely hairy (receptacles paleate).</text>
+      <structure id="o18941" name="phyllary">
+        <character name="shape" value="ovate" modifier="broadly" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="hairy" modifier="sparsely" />
+      </structure>
+    </statement>
+    <statement id="920.txt-7">
+      <text>Florets:</text>
+      <structure id="o18942" name="floret" />
+    </statement>
+    <statement id="920.txt-8">
+      <text>pistillate 0;</text>
+      <structure id="o18943" name="floret" constraint="pistillate">
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+    <statement id="920.txt-9">
+      <text>bisexual 8–30;</text>
+      <structure id="o18944" name="floret" constraint="bisexual">
+        <character char_type="range_value" name="count" from="8" to="30" />
+      </structure>
+    </statement>
+    <statement id="920.txt-10">
+      <text>corollas pale yellow, 1.5–2.2 mm, resinous-glandular (style branches exsert, truncate, erose).</text>
+      <structure id="o18945" name="corolla">
+        <character name="coloration" value="yellow" modifier="pale" />
+        <character char_type="range_value" name="size" from="1.5" from_unit="mm" to="2.2" to_unit="mm" />
+        <character name="architecture_or_exudation_or_pubescence" value="resinous-glandular" />
+      </structure>
+    </statement>
+    <statement id="920.txt-11">
+      <text>Cypselae (light brown, shiny) ellipsoid, 1–1.2 mm, (4-angled), glabrous or glandular.</text>
+      <structure id="o18946" name="cypsela">
+        <character name="shape" value="ellipsoid" />
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="1.2" to_unit="mm" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="glandular" />
+      </structure>
+    </statement>
+    <statement id="920.txt-12">
+      <text>2 n = 18.</text>
+      <structure id="o18947" name="chromosome">
+        <character name="count" value="18" />
+      </structure>
+    </statement>
+  </description>
+  <habitat>ravines</habitat>
+  <habitat>coastal areas</habitat>
+  <habitat>sandy soils</habitat>
+  <conservation>of conservation concern;</conservation>
+  <elevation>100–300 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <global_distribution>Mexico (Baja California).</global_distribution>
+  <discussion>Artemisia palmeri is known only from drainages near the coast, from northeast of San Diego to just south of Ensenada. Most of its habitat has been destroyed by urban development. It is of particular interest because of its paleate receptacles, an anomalous trait that confounds our understanding of its evolutionary relationship to other species of Artemisia.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

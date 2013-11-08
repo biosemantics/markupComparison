@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Leucanthemum vulgare</species_name>
+  <authority>Lamarck</authority>
+  <place_of_publication>Fl. Franç. 2: 137. 1779</place_of_publication>
+  <common_name>Ox-eye daisy, marguerite blanche</common_name>
+  <synonym_of_species_name>Chrysanthemum leucanthemum Linnaeus, Sp. Pl. 2: 888. 1753; C. leucanthemum var. pinnatifidum Lecoq &amp; Lamotte</synonym_of_species_name>
+  <description>
+    <statement id="976.txt-0">
+      <text>Perennials, 10–30(–100+) cm.</text>
+      <structure id="o20053" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="30" to="100" from_unit="cm" to_unit="cm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="30" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="976.txt-1">
+      <text>Stems simple or distally branched.</text>
+      <structure id="o20054" name="stem">
+        <character name="architecture" value="simple" />
+        <character name="architecture" value="branched" modifier="distally" />
+      </structure>
+    </statement>
+    <statement id="976.txt-2">
+      <text>Basal leaves:</text>
+      <structure id="o20055" name="leaf" constraint="basal" />
+    </statement>
+    <statement id="976.txt-3">
+      <text>petioles 10–30(–120) mm, expanding into obovate to spatulate blades 12–35(–50+) × 8–20(–30) mm, margins usually pinnately lobed (lobes 3–7+) and/or irregularly toothed.</text>
+      <structure id="o20056" name="petiole">
+        <character char_type="range_value" name="atypical_size" from="30" to="120" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="30" to_unit="mm" />
+        <character name="size" value="expanding" constraint="into blades" constraintid="o20057" />
+      </structure>
+      <structure id="o20057" name="blade">
+        <character char_type="range_value" name="shape" from="obovate" to="spatulate" />
+        <character name="shape" value="obovate" />
+        <character name="shape" value="spatulate" />
+        <character char_type="range_value" name="atypical_length" from="35" to="50" from_unit="mm" to_unit="mm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="12" from_unit="mm" to="35" to_unit="mm" />
+        <character char_type="range_value" name="atypical_width" from="20" to="30" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="width" from="8" from_unit="mm" to="20" to_unit="mm" />
+      </structure>
+      <structure id="o20058" name="margin">
+        <character name="shape" value="lobed" modifier="usually pinnately" />
+        <character name="shape" value="toothed" modifier="irregularly" />
+      </structure>
+    </statement>
+    <statement id="976.txt-4">
+      <text>Cauline leaves petiolate or sessile;</text>
+      <structure id="o20059" name="leaf" constraint="cauline">
+        <character name="architecture" value="petiolate" />
+        <character name="architecture" value="sessile" />
+      </structure>
+    </statement>
+    <statement id="976.txt-6">
+      <text>Involucres 12–20+ mm diam.</text>
+      <structure id="o20060" name="involucre">
+        <character char_type="range_value" name="size" from="12" from_unit="mm" to="20" to_unit="mm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="976.txt-7">
+      <text>Phyllaries (the larger) 2–3 mm wide.</text>
+      <structure id="o20061" name="phyllary">
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="3" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="976.txt-8">
+      <text>Ray florets usually 13–34+, rarely 0;</text>
+      <structure id="o20062" name="floret" constraint="ray">
+        <character char_type="range_value" name="count" from="13" to="34" upper_restricted="false" modifier="usually" />
+        <character name="count" value="0" modifier="rarely" />
+      </structure>
+    </statement>
+    <statement id="976.txt-9">
+      <text>laminae 12–20(–35+) mm.</text>
+      <structure id="o20063" name="lamina">
+        <character char_type="range_value" name="atypical_size" from="20" to="35" from_unit="mm" to_unit="mm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="12" from_unit="mm" to="20" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="976.txt-10">
+      <text>Ray cypselae 1.5–2.5 mm, apices usually coronate or auriculate.</text>
+      <structure id="o20064" name="cypsela" constraint="ray">
+        <character char_type="range_value" name="size" from="1.5" from_unit="mm" to="2.5" to_unit="mm" />
+      </structure>
+      <structure id="o20065" name="apex">
+        <character name="shape" value="coronate" modifier="usually" />
+        <character name="shape" value="auriculate" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="976.txt-11">
+      <text>2 n = 18, 36, 54, 72, 90.</text>
+      <structure id="o20066" name="chromosome">
+        <character name="count" value="18" />
+        <character name="count" value="36" />
+        <character name="count" value="54" />
+        <character name="count" value="72" />
+        <character name="count" value="90" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <flowering_time>nov</flowering_time>
+  <habitat>disturbed places</habitat>
+  <habitat>meadows</habitat>
+  <habitat>seeps</habitat>
+  <habitat>clearings</habitat>
+  <elevation>0–2000 m;</elevation>
+  <introduced>introduced;</introduced>
+  <ca_distribution>Alta.</ca_distribution>
+  <ca_distribution>B.C.</ca_distribution>
+  <ca_distribution>Ont.</ca_distribution>
+  <ca_distribution>Que.</ca_distribution>
+  <ca_distribution>Sask.</ca_distribution>
+  <us_distribution>Alaska</us_distribution>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Ark.</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Conn.</us_distribution>
+  <us_distribution>Fla.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Ill.</us_distribution>
+  <us_distribution>Ind.</us_distribution>
+  <us_distribution>Iowa</us_distribution>
+  <us_distribution>Kans.</us_distribution>
+  <us_distribution>Mass.</us_distribution>
+  <us_distribution>Mich.</us_distribution>
+  <us_distribution>Mo.</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>N.Dak.</us_distribution>
+  <us_distribution>Ohio</us_distribution>
+  <us_distribution>Okla.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <us_distribution>S.C.</us_distribution>
+  <us_distribution>S.Dak.</us_distribution>
+  <us_distribution>Tenn.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Va.</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <us_distribution>W.Va.</us_distribution>
+  <us_distribution>Wis.</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <global_distribution>Europe</global_distribution>
+  <global_distribution>widely adventive.</global_distribution>
+  <discussion>Some botanists (e.g., W. J. Cody 1996) have treated Leucanthemum ircutianum de Candolle, with blades of mid and distal cauline leaves oblong to oblong-lanceolate and not ± pinnate at bases, as distinct from L. vulgare.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

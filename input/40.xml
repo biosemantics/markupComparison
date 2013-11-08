@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Cynara cardunculus</species_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 827. 1753</place_of_publication>
+  <common_name>Cardoon, artichoke, artichoke thistle</common_name>
+  <description>
+    <statement id="40.txt-0">
+      <text>Taproots fleshy.</text>
+      <structure id="o7727" name="taproot">
+        <character name="texture" value="fleshy" />
+      </structure>
+    </statement>
+    <statement id="40.txt-1">
+      <text>Stems glabrous to densely arachnoid-tomentose.</text>
+      <structure id="o7728" name="stem">
+        <character char_type="range_value" name="pubescence" from="glabrous" to="densely arachnoid-tomentose" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="arachnoid-tomentose" modifier="densely" />
+      </structure>
+    </statement>
+    <statement id="40.txt-2">
+      <text>Leaves:</text>
+      <structure id="o7729" name="leaf" />
+    </statement>
+    <statement id="40.txt-3">
+      <text>basal blades 30–200 cm, margins deeply 1–2-pinnately lobed or divided to nearly compound, lobes oblong to lanceolate, entire to coarsely toothed, teeth and lobes innocuous to prominently spine-tipped, spines 1–30 mm, often clustered along petiole and at base of lobes, abaxial faces densely gray- or white-tomentose, adaxial faces thinly cobwebby-tomentose;</text>
+      <structure id="o7730" name="blade" constraint="basal">
+        <character char_type="range_value" name="size" from="30" from_unit="cm" to="200" to_unit="cm" />
+      </structure>
+      <structure id="o7731" name="margin">
+        <character name="shape" value="lobed" modifier="deeply 1-2-pinnately" />
+        <character name="shape" value="divided" modifier="deeply 1-2-pinnately" />
+        <character name="architecture" value="compound" modifier="nearly" />
+      </structure>
+      <structure id="o7732" name="lobe">
+        <character char_type="range_value" name="shape" from="oblong" to="lanceolate , entire" />
+        <character name="shape" value="oblong" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="entire" />
+        <character name="shape" value="toothed" modifier="coarsely" />
+      </structure>
+      <structure id="o7733" name="tooth" />
+      <structure id="o7734" name="lobe">
+        <character name="habit" value="innocuous" />
+      </structure>
+      <structure id="o7735" name="spine">
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="30" to_unit="mm" />
+        <character name="arrangement_or_habit" value="clustered" modifier="often" constraint="along petiole" constraintid="o7736" />
+      </structure>
+      <structure id="o7736" name="petiole" />
+      <structure id="o7737" name="base" />
+      <relation id="r928" name="at" from="o7736" to="o7737" negation="false" />
+      <structure id="o7738" name="lobe" />
+      <relation id="r929" name="part_of" from="o7737" to="o7738" negation="false" />
+      <structure id="o7739" name="face" constraint="abaxial">
+        <character name="pubescence" value="gray-or-white-tomentose" modifier="densely" />
+      </structure>
+      <structure id="o7740" name="face" constraint="adaxial">
+        <character name="pubescence" value="cobwebby-tomentose" modifier="thinly" />
+      </structure>
+    </statement>
+    <statement id="40.txt-4">
+      <text>cauline leaves often short-decurrent as spiny wings.</text>
+      <structure id="o7741" name="leaf" constraint="cauline">
+        <character name="shape" value="short-decurrent" modifier="often" constraint="as wings" constraintid="o7742" />
+      </structure>
+      <structure id="o7742" name="wing">
+        <character name="architecture_or_shape" value="spiny" />
+      </structure>
+    </statement>
+    <statement id="40.txt-5">
+      <text>Involucres often purplish tinged, 30–150 × 40–150 mm excluding spreading phyllary tips, constricted distally or not.</text>
+      <structure id="o7743" name="involucre">
+        <character name="coloration" value="tinged" modifier="often;purplish" />
+        <character char_type="range_value" name="length" from="30" from_unit="mm" to="150" to_unit="mm" />
+        <character char_type="range_value" name="width" from="40" from_unit="mm" to="150" to_unit="mm" />
+        <character name="size" value="constricted" modifier="distally" />
+        <character name="size" value="constricted" modifier="distally; not" />
+      </structure>
+      <structure id="o7744" name="tip" constraint="phyllary" />
+      <relation id="r930" name="excluding orientatiospreading" from="o7743" to="o7744" negation="false" />
+    </statement>
+    <statement id="40.txt-6">
+      <text>Phyllaries lanceolate to broadly ovate, bases appressed, spreading apices obtuse to acute or acuminate, spineless or tipped with spines 1–9 mm or truncate, abruptly mucronate, and spineless or minutely spine-tipped.</text>
+      <structure id="o7745" name="phyllary">
+        <character char_type="range_value" name="shape" from="lanceolate" to="broadly ovate" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="ovate" modifier="broadly" />
+      </structure>
+      <structure id="o7746" name="base">
+        <character name="orientation" value="appressed" />
+      </structure>
+      <structure id="o7747" name="apex">
+        <character name="orientation" value="spreading" />
+        <character char_type="range_value" name="shape" from="obtuse" to="acute or acuminate" />
+        <character name="shape" value="obtuse" />
+        <character name="shape" value="acute" />
+        <character name="shape" value="acuminate" />
+        <character name="architecture" value="spineless" />
+        <character name="architecture" value="tipped with spines" />
+        <character name="shape" value="truncate" />
+        <character name="shape" value="mucronate" modifier="abruptly" />
+        <character name="architecture" value="spineless" />
+        <character name="architecture" value="spineless" modifier="minutely spine tipped" />
+      </structure>
+      <structure id="o7748" name="spine">
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="9" to_unit="mm" />
+      </structure>
+      <relation id="r931" name="tipped with" from="o7747" to="o7748" negation="false" />
+    </statement>
+    <statement id="40.txt-7">
+      <text>Corollas blue or purple (rarely white), 3–5 cm;</text>
+      <structure id="o7749" name="corolla">
+        <character name="coloration" value="blue" />
+        <character name="coloration" value="purple" />
+        <character char_type="range_value" name="size" from="3" from_unit="cm" to="5" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="40.txt-8">
+      <text>styles long-exserted.</text>
+      <structure id="o7750" name="style">
+        <character name="position" value="long-exserted" />
+      </structure>
+    </statement>
+    <statement id="40.txt-9">
+      <text>Cypselae 4–8 mm;</text>
+      <structure id="o7751" name="cypsela">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="40.txt-10">
+      <text>pappus bristles 2–4 cm.</text>
+      <structure id="o7752" name="bristle" constraint="pappus">
+        <character char_type="range_value" name="size" from="2" from_unit="cm" to="4" to_unit="cm" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Subspecies 2 (2 in the flora):</number_of_infrataxa>
+  <introduced>introduced;</introduced>
+  <general_distribution>California</general_distribution>
+  <general_distribution>Mediterranean region</general_distribution>
+  <general_distribution>Macaronesia.</general_distribution>
+  <discussion>Cynara cardunculus is a species of considerable economic importance. The globe artichoke, formerly treated as C. scolymus, was included as a horticulturally derived form of C. cardunculus (A. Wiklund 1992). The artichoke and the cardoon, another horticultural race of C. cardunculus, have been cultivated for centuries–the former for edible phyllary bases and receptacles, and the latter for edible stems and leaf rachises. That species has a darker side, however. Wild type races (artichoke thistles) are invasive and tenacious weeds that have infested Mediterranean climate areas of California, South America, South Africa, and Australia. Wiklund recognized two subspecies of C. cardunculus: subsp. cardunculus includes the artichoke, cardoon, and various wild types; subsp. flavescens includes some of the most invasive weedy members of the species. It is not certain that all of the weedy artichoke thistles in California are members of the latter subspecies.</discussion>
+  <couplet>1.Middle involucral bracts broadly obtuse, truncate or emarginate to long-acuminate, apices with or without very narrow yellowish margins, spineless or tipped with slender spines to 9 mm1a. Cynara cardunculus subsp. cardunculus</couplet>
+  <couplet>1.Middle involucral bracts acute to short-acuminate, apices with yellowish margins 0.5–1 mm wide, tipped with stout spines to 2–5 mm1b. Cynara cardunculus subsp. flavescens</couplet>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

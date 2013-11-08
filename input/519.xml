@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>3.</number>
+  <species_name>Nothocalaïs nigrescens</species_name>
+  <authority>(L. F. Henderson) A. Heller</authority>
+  <place_of_publication>Muhlenbergia 1: 8. 1900</place_of_publication>
+  <common_name>Speckled false dandelion</common_name>
+  <synonym_of_species_name>Microseris nigrescens L. F. Henderson, Bull. Torrey Bot. Club 27: 348. 1900</synonym_of_species_name>
+  <description>
+    <statement id="519.txt-0">
+      <text>Plants 5–35 cm.</text>
+      <structure id="o10665" name="whole_organism">
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="35" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="519.txt-1">
+      <text>Stems (peduncles) often with 1–2, leafy bracts near bases.</text>
+      <structure id="o10666" name="stem" />
+      <structure id="o10667" name="bract">
+        <character char_type="range_value" name="count" from="1" to="2" />
+        <character name="architecture" value="leafy" />
+      </structure>
+      <relation id="r1220" name="with" from="o10666" to="o10667" negation="false" modifier="often" />
+      <structure id="o10668" name="base" />
+      <relation id="r1221" name="near" from="o10667" to="o10668" negation="false" />
+    </statement>
+    <statement id="519.txt-2">
+      <text>Leaves:</text>
+      <structure id="o10669" name="leaf" />
+    </statement>
+    <statement id="519.txt-3">
+      <text>blades lanceolate to oblanceolate, 4–20 cm, margins plane, entire, sometimes ciliolate, (apices acute) faces glabrous.</text>
+      <structure id="o10670" name="blade">
+        <character char_type="range_value" name="shape" from="lanceolate" to="oblanceolate" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="oblanceolate" />
+        <character char_type="range_value" name="size" from="4" from_unit="cm" to="20" to_unit="cm" />
+      </structure>
+      <structure id="o10671" name="plane" constraint="margins">
+        <character name="shape" value="entire" />
+        <character name="pubescence" value="ciliolate" modifier="sometimes" />
+      </structure>
+      <structure id="o10672" name="face">
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="519.txt-4">
+      <text>Involucres 12–22 mm.</text>
+      <structure id="o10673" name="involucre">
+        <character char_type="range_value" name="size" from="12" from_unit="mm" to="22" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="519.txt-5">
+      <text>Phyllaries 15–50, minutely purple-dotted except on membranous margins, sometimes purple-lined on midribs, broadly lanceolate to ovate, apices acute to acuminate, faces usually glabrous.</text>
+      <structure id="o10674" name="phyllary">
+        <character char_type="range_value" name="count" from="15" to="50" />
+        <character name="coloration_or_relief" value="purple-dotted" modifier="minutely" />
+        <character char_type="range_value" name="shape" from="acute" to="acuminate" />
+        <character name="shape" value="acute" />
+        <character name="shape" value="acuminate" />
+      </structure>
+      <structure id="o10675" name="apex">
+        <character char_type="range_value" name="shape" from="broadly lanceolate" to="ovate" />
+        <character name="shape" value="lanceolate" modifier="broadly" />
+        <character name="shape" value="ovate" modifier="broadly" />
+      </structure>
+      <relation id="r1222" name="except on membranous margins , sometimes purple-lined  on" from="o10674" to="o10675" negation="false" />
+      <structure id="o10676" name="face">
+        <character name="pubescence" value="glabrous" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="519.txt-6">
+      <text>Florets 13–100;</text>
+      <structure id="o10677" name="floret">
+        <character char_type="range_value" name="count" from="13" to="100" />
+      </structure>
+    </statement>
+    <statement id="519.txt-7">
+      <text>ligules 10–25 mm.</text>
+      <structure id="o10678" name="ligule">
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="25" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="519.txt-8">
+      <text>Cypselae brown, 6–10 mm, tapered distally, not beaked;</text>
+      <structure id="o10679" name="cypsela">
+        <character name="coloration" value="brown" />
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="10" to_unit="mm" />
+        <character name="shape" value="tapered" modifier="distally" />
+        <character name="shape" value="beaked" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="519.txt-9">
+      <text>pappi of 10–25, narrow, smooth to barbellulate, aristate scales 8–13 mm .</text>
+      <structure id="o10680" name="pappus" />
+      <structure id="o10681" name="scale">
+        <character char_type="range_value" name="count" from="10" to="25" />
+        <character name="size" value="narrow" />
+        <character char_type="range_value" name="architecture" from="smooth" to="barbellulate" />
+        <character name="architecture" value="smooth" />
+        <character name="architecture" value="barbellulate" />
+        <character name="shape" value="aristate" />
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="13" to_unit="mm" />
+      </structure>
+      <relation id="r1223" name="consist_of" from="o10680" to="o10681" negation="false" />
+    </statement>
+  </description>
+  <flowering_time>may</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <habitat>moist meadows</habitat>
+  <habitat>grassy slopes</habitat>
+  <habitat>and forest openings</habitat>
+  <habitat>juniper-ponderosa pine woodland</habitat>
+  <habitat>mixed conifer forest</habitat>
+  <habitat>and spruce-fir subalpine forest</habitat>
+  <elevation>1500–3000 m;</elevation>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <discussion>Nothocalaïs nigrescens grows in the northern and middle Rocky Mountains. It is generally well separated in habitat and elevation from N. cuspidata and N. troximoides; intermediate populations are sometimes found in areas of contact with the two related taxa. In Montana, apparent hybrids with N. cuspidata have been found in the upper valleys of the Yellowstone and Missouri rivers. Intermediates between N. nigrescens and N. troximoides occur rather widely in Idaho, in areas where the sagebrush steppe habitats of the latter species penetrate the coniferous zone. As discussed below, most of the assumed hybrid populations more closely resemble N. troximoides.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

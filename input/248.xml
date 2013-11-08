@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>32.</number>
+  <genus_name>CENTRATHERUM</genus_name>
+  <authority>Centratherum Cassini</authority>
+  <place_of_publication>Bull. Sci. Soc. Philom. Paris 1817: 31. 1817; in F. Cuvier, Dict. Sci. Nat. ed. 2, 7: 383. 1817</place_of_publication>
+  <common_name>Larkdaisy</common_name>
+  <derivation>Latin centrum , center, and atherum , prickle or awn, perhaps alluding to spine-tipped middle phyllaries of original species</derivation>
+  <author_of_tribe_genus>John L. Strother</author_of_tribe_genus>
+  <description>
+    <statement id="248.txt-0">
+      <text>Perennials (or functionally annuals), 1–3(–8+) dm (stems sometimes rooting at proximal nodes).</text>
+      <structure id="o4195" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="3" to="8" from_unit="dm" to_unit="dm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="1" from_unit="dm" to="3" to_unit="dm" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="248.txt-1">
+      <text>Leaves cauline;</text>
+    </statement>
+    <statement id="248.txt-2">
+      <text>sessile or petiolate, petioles ± winged;</text>
+      <structure id="o4196" name="leaf">
+        <character name="insertion_or_position" value="cauline" />
+        <character name="architecture" value="sessile" />
+        <character name="architecture" value="petiolate" />
+      </structure>
+      <structure id="o4197" name="petiole">
+        <character name="architecture" value="winged" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="248.txt-3">
+      <text>blades ovate to obovate, lanceolate, or linear, bases ± cuneate, margins toothed, apices acute, abaxial faces usually ± hirtellous to strigillose or tomentose, sometimes nearly glabrous, adaxial faces sparsely scabrellous or glabrate, both usually resin-gland-dotted.</text>
+      <structure id="o4198" name="blade">
+        <character char_type="range_value" name="shape" from="ovate" to="obovate , lanceolate , or linear" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="obovate" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="linear" />
+      </structure>
+      <structure id="o4199" name="base">
+        <character name="shape" value="cuneate" modifier="±" />
+      </structure>
+      <structure id="o4200" name="margin">
+        <character name="shape" value="toothed" />
+      </structure>
+      <structure id="o4201" name="apex">
+        <character name="shape" value="acute" />
+      </structure>
+      <structure id="o4202" name="face" constraint="abaxial">
+        <character name="pubescence" value="hirtellous" modifier="usually ±" />
+        <character name="pubescence" value="strigillose" />
+        <character name="pubescence" value="tomentose" />
+        <character name="pubescence" value="glabrous" modifier="sometimes nearly" />
+      </structure>
+      <structure id="o4203" name="face" constraint="adaxial">
+        <character name="relief" value="scabrellous" modifier="sparsely" />
+        <character name="pubescence" value="glabrate" />
+        <character name="coloration_or_relief" value="resin-gland-dotted" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="248.txt-4">
+      <text>Heads discoid (pedunculate, each subtended by 3–8+, ± foliaceous bracts), borne singly.</text>
+      <structure id="o4204" name="head">
+        <character name="shape_or_architecture" value="discoid" />
+        <character name="arrangement" value="singly" />
+      </structure>
+    </statement>
+    <statement id="248.txt-5">
+      <text>Involucres ± hemispheric, 6–12(–18+) mm diam.</text>
+      <structure id="o4205" name="involucre">
+        <character name="shape" value="hemispheric" modifier="±" />
+        <character char_type="range_value" name="atypical_size" from="12" to="18" from_unit="mm" to_unit="mm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="12" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="248.txt-6">
+      <text>Phyllaries 24–50+ in 4–8+ series, each proximally firm, distally ± scarious, the outer ovate to deltate or lanceolate, inner oblong to lanceolate, margins entire, tips rounded to acute, usually apiculate to seta-tipped or attenuate-spinose, abaxial faces glabrous or sparsely strigillose to tomentose and usually ± resin-gland-dotted distally.</text>
+      <structure id="o4206" name="phyllary">
+        <character char_type="range_value" name="count" from="24" to="50" upper_restricted="false" constraint="in series" constraintid="o4207" />
+        <character name="texture" value="firm" modifier="each proximally" />
+        <character name="texture" value="scarious" modifier="distally ±" />
+        <character char_type="range_value" name="shape" from="outer ovate" to="deltate or lanceolate , inner oblong" />
+        <character name="shape" value="deltate" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="lanceolate" />
+      </structure>
+      <structure id="o4207" name="series">
+        <character char_type="range_value" name="count" from="4" to="8" upper_restricted="false" />
+      </structure>
+      <structure id="o4208" name="margin">
+        <character name="shape" value="entire" />
+      </structure>
+      <structure id="o4209" name="tip">
+        <character name="shape" value="rounded" />
+        <character name="shape" value="acute" />
+        <character name="shape" value="apiculate" modifier="usually" />
+        <character name="shape_or_architecture" value="attenuate-spinose" />
+      </structure>
+      <structure id="o4210" name="face" constraint="abaxial">
+        <character char_type="range_value" name="pubescence" from="sparsely strigillose" to="tomentose" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="strigillose" modifier="sparsely" />
+        <character name="pubescence" value="tomentose" modifier="sparsely" />
+        <character name="coloration_or_relief" value="resin-gland-dotted" modifier="usually ± ; distally" />
+      </structure>
+    </statement>
+    <statement id="248.txt-7">
+      <text>Florets 30–50(–100+);</text>
+      <structure id="o4211" name="floret">
+        <character char_type="range_value" name="atypical_count" from="50" to="100" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="30" to="50" />
+      </structure>
+    </statement>
+    <statement id="248.txt-8">
+      <text>corollas usually lavender to purplish (rarely white), tubes longer than funnelform throats, lobes 5, lance-linear, ± equal.</text>
+      <structure id="o4212" name="corolla">
+        <character char_type="range_value" name="coloration" from="usually lavender" to="purplish" />
+        <character name="coloration" value="lavender" modifier="usually" />
+        <character name="coloration" value="purplish" modifier="usually" />
+      </structure>
+      <structure id="o4213" name="tube">
+        <character name="size" value="longer" constraint="than funnelform throats" constraintid="o4214" />
+      </structure>
+      <structure id="o4214" name="throat">
+        <character name="shape" value="funnelform" />
+      </structure>
+      <structure id="o4215" name="lobe">
+        <character name="count" value="5" />
+        <character name="arrangement_or_shape" value="lance-linear" />
+        <character name="size" value="equal" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="248.txt-9">
+      <text>Cypselae ± columnar to plumply clavate, 8–10-ribbed, glabrous, often resin-gland-dotted;</text>
+      <structure id="o4216" name="cypsela">
+        <character name="shape" value="columnar" modifier="±" />
+        <character name="shape" value="clavate" modifier="plumply" />
+        <character name="architecture_or_shape" value="8-10-ribbed" />
+        <character name="pubescence" value="glabrous" />
+        <character name="coloration_or_relief" value="resin-gland-dotted" modifier="often" />
+      </structure>
+    </statement>
+    <statement id="248.txt-10">
+      <text>pappi caducous, of 20–40 lance-linear to subulate scales.</text>
+      <structure id="o4217" name="pappus">
+        <character name="duration" value="caducous" />
+      </structure>
+      <structure id="o4218" name="scale">
+        <character char_type="range_value" name="count" from="20" to="40" />
+        <character char_type="range_value" name="shape" from="lance-linear" to="subulate" />
+        <character name="shape" value="lance-linear" />
+        <character name="shape" value="subulate" />
+      </structure>
+      <relation id="r584" name="consist_of" from="o4217" to="o4218" negation="false" />
+    </statement>
+    <statement id="248.txt-11">
+      <text>x = 16.</text>
+      <structure id="o4219" name="chromosome">
+        <character name="count" value="16" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species 2–4 (1 in the flora):</number_of_infrataxa>
+  <general_distribution>Florida</general_distribution>
+  <general_distribution>Neotropics</general_distribution>
+  <general_distribution>Pacific Islands (Philippines)</general_distribution>
+  <general_distribution>Australia.</general_distribution>
+  <references>SELECTED REFERENCES Gleason, H. A. 1922. Centratherum. In: N. L. Britton et al., eds. 1905+. North American Flora…. 47+ vols. New York. Vol. 33, pp. 49–50. Kirkman, L. K. 1981. Taxonomic revision of Centratherum and Phyllocephalum (Compositae: Vernonieae). Rhodora 83: 1–24.</references>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

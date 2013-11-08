@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>54e.</number>
+  <variety_name>Cirsium scariosum Nuttall var. congdonii</variety_name>
+  <authority>(R. J. Moore &amp; Frankton) D. J. Keil</authority>
+  <place_of_publication>Sida 21: 215. 2004</place_of_publication>
+  <common_name>Rosette thistle</common_name>
+  <synonym_of_variety_name>Cirsium congdonii R. J. Moore &amp; Frankton, Canad. J. Bot. 45: 1738. 1967</synonym_of_variety_name>
+  <description>
+    <statement id="155.txt-0">
+      <text>Plants acaulescent or nearly so (with dense rosettes of leaves and cluster of sessile or subsessile heads).</text>
+      <structure id="o1522" name="whole_organism">
+        <character name="architecture" value="acaulescent" />
+        <character name="architecture" value="acaulescent" modifier="nearly" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="155.txt-1">
+      <text>Stems absent or very short, simple, stout, fleshy, very leafy.</text>
+      <structure id="o1523" name="stem">
+        <character name="presence" value="absent" />
+        <character name="size" value="short" modifier="very" />
+        <character name="architecture" value="simple" />
+        <character name="fragility" value="stout" />
+        <character name="texture" value="fleshy" />
+        <character name="architecture" value="leafy" modifier="very" />
+      </structure>
+    </statement>
+    <statement id="155.txt-2">
+      <text>Leaves:</text>
+      <structure id="o1524" name="leaf" />
+    </statement>
+    <statement id="155.txt-3">
+      <text>blades oblong to oblanceolate or elliptic, shallowly pinnately lobed or sometimes unlobed, longer spines slender, less than 1 cm, abaxial faces green and ± glabrous to white-tomentose, adaxial faces green, glabrous or villous with septate trichomes.</text>
+      <structure id="o1525" name="blade">
+        <character char_type="range_value" name="shape" from="oblong" to="oblanceolate or elliptic , shallowly pinnately lobed or sometimes unlobed" />
+        <character name="shape" value="oblong" />
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="elliptic" />
+        <character name="shape" value="lobed" modifier="shallowly pinnately" />
+        <character name="shape" value="unlobed" modifier="sometimes" />
+      </structure>
+      <structure id="o1526" name="spine" constraint="longer">
+        <character name="size" value="slender" />
+        <character name="size" value="1" unit="cm" modifier="less than" />
+      </structure>
+      <structure id="o1527" name="face" constraint="abaxial">
+        <character name="coloration" value="green" />
+        <character char_type="range_value" name="pubescence" from="glabrous" to="white-tomentose" modifier="±" />
+        <character name="pubescence" value="glabrous" modifier="±" />
+        <character name="pubescence" value="white-tomentose" modifier="±" />
+      </structure>
+      <structure id="o1528" name="face" constraint="adaxial">
+        <character name="coloration" value="green" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="villous" constraint="with trichomes" constraintid="o1529" />
+      </structure>
+      <structure id="o1529" name="trichome">
+        <character name="architecture" value="septate" />
+      </structure>
+    </statement>
+    <statement id="155.txt-4">
+      <text>Heads 1–many, sessile or subsessile, crowded.</text>
+      <structure id="o1530" name="head">
+        <character char_type="range_value" name="count" from="1" to="many" />
+        <character name="architecture" value="sessile" />
+        <character name="architecture" value="subsessile" />
+        <character name="architecture" value="crowded" />
+      </structure>
+    </statement>
+    <statement id="155.txt-5">
+      <text>Involucres 2–3 cm.</text>
+      <structure id="o1531" name="involucre">
+        <character char_type="range_value" name="size" from="2" from_unit="cm" to="3" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="155.txt-6">
+      <text>Phyllaries:</text>
+      <structure id="o1532" name="phyllary" />
+    </statement>
+    <statement id="155.txt-7">
+      <text>outer and mid lanceolate to ovate, spines slender, 1–4 mm;</text>
+      <structure id="o1533" name="phyllary" constraint="outer and mid" />
+      <structure id="o1534" name="spine">
+        <character name="size" value="slender" />
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="155.txt-8">
+      <text>apices of inner linear-acuminate, often twisted, entire or minutely toothed.</text>
+      <structure id="o1535" name="apex">
+        <character name="shape" value="linear-acuminate" />
+        <character name="architecture" value="twisted" modifier="often" />
+        <character name="shape" value="entire" />
+        <character name="shape" value="toothed" modifier="minutely" />
+      </structure>
+      <structure id="o1536" name="phyllary" constraint="inner" />
+      <relation id="r246" name="part_of" from="o1535" to="o1536" negation="false" />
+    </statement>
+    <statement id="155.txt-9">
+      <text>Corollas pink to reddish purple, 22–30 mm, tubes 10–15 mm, throats 5–7.5 mm, lobes 4–7 mm;</text>
+      <structure id="o1537" name="corolla">
+        <character char_type="range_value" name="coloration" from="pink" to="reddish-purple" />
+        <character name="coloration" value="pink" />
+        <character name="coloration" value="purple" modifier="reddish" />
+        <character char_type="range_value" name="size" from="22" from_unit="mm" to="30" to_unit="mm" />
+      </structure>
+      <structure id="o1538" name="tube">
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="15" to_unit="mm" />
+      </structure>
+      <structure id="o1539" name="throat">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="7.5" to_unit="mm" />
+      </structure>
+      <structure id="o1540" name="lobe">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="155.txt-10">
+      <text>style tips 3–5 mm.</text>
+      <structure id="o1541" name="tip" constraint="style">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="155.txt-11">
+      <text>Cypselae 4–4.5 mm;</text>
+      <structure id="o1542" name="cypsela">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="4.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="155.txt-12">
+      <text>pappi 17–28 mm.</text>
+      <structure id="o1543" name="pappus">
+        <character char_type="range_value" name="size" from="17" from_unit="mm" to="28" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="155.txt-13">
+      <text>2 n = 34 (as C. congdonii ).</text>
+      <structure id="o1544" name="chromosome">
+        <character name="count" value="34" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>meadows</habitat>
+  <habitat>springs</habitat>
+  <habitat>stream banks</habitat>
+  <elevation>1500–3100 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <discussion>Variety congdonii grows from the Sierra Nevada of western Nevada and eastern California to the San Bernardino Mountains of southern California.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

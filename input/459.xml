@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>62.</number>
+  <genus_name>ATRICHOSERIS</genus_name>
+  <authority>A. Gray</authority>
+  <place_of_publication>in A. Gray et al., Syn. Fl. N. Amer. 1(2): 410. 1884</place_of_publication>
+  <common_name>Tobacco-weed, gravel-ghost, parachute plant</common_name>
+  <derivation>Greek a- , without, trichos , hair, and seris , chicory, alluding to lack of pappus</derivation>
+  <author_of_tribe_genus>David J. Keil</author_of_tribe_genus>
+  <synonym_of_genus_name>Malacothrix [unranked] Anathrix, A. Gray, Proc. Amer. Acad. Arts 9: 214. 1874</synonym_of_genus_name>
+  <description>
+    <statement id="459.txt-0">
+      <text>Annuals, 20–180 cm (± scapiform);</text>
+    </statement>
+    <statement id="459.txt-1">
+      <text>taprooted.</text>
+      <structure id="o9106" name="whole_organism">
+        <character char_type="range_value" name="size" from="20" from_unit="cm" to="180" to_unit="cm" />
+        <character name="life_style" value="annual" />
+        <character name="architecture" value="taprooted" />
+      </structure>
+    </statement>
+    <statement id="459.txt-2">
+      <text>Stems 1–3+, erect, branched distally, glabrous.</text>
+      <structure id="o9107" name="stem">
+        <character char_type="range_value" name="count" from="1" to="3" upper_restricted="false" />
+        <character name="orientation" value="erect" />
+        <character name="architecture_or_shape" value="branched" modifier="distally" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="459.txt-3">
+      <text>Leaves mostly basal or subbasal (usually flat against soil), proximal cauline relatively few;</text>
+    </statement>
+    <statement id="459.txt-4">
+      <text>sessile or petiolate (petioles winged);</text>
+      <structure id="o9108" name="leaf">
+        <character name="position" value="basal" modifier="mostly" />
+        <character name="position" value="subbasal" modifier="mostly" />
+        <character name="insertion_or_position" value="proximal cauline" modifier="relatively" />
+        <character name="count" value="few" />
+        <character name="architecture" value="sessile" />
+        <character name="architecture" value="petiolate" />
+      </structure>
+    </statement>
+    <statement id="459.txt-5">
+      <text>blades obovate, finely dentate (obtuse);</text>
+      <structure id="o9109" name="blade">
+        <character name="shape" value="obovate" />
+        <character name="shape" value="dentate" modifier="finely" />
+      </structure>
+    </statement>
+    <statement id="459.txt-6">
+      <text>distal cauline reduced to triangular scales.</text>
+      <structure id="o9110" name="leaf" constraint="distal cauline">
+        <character name="size" value="reduced" />
+      </structure>
+      <structure id="o9111" name="scale">
+        <character name="shape" value="triangular" />
+      </structure>
+    </statement>
+    <statement id="459.txt-7">
+      <text>Heads in corymbiform arrays.</text>
+      <structure id="o9112" name="head" />
+      <structure id="o9113" name="array">
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <relation id="r1062" name="in" from="o9112" to="o9113" negation="false" />
+    </statement>
+    <statement id="459.txt-8">
+      <text>Peduncles not inflated distally, sometimes bracteate.</text>
+      <structure id="o9114" name="peduncle">
+        <character name="shape" value="inflated" modifier="not ; distally" />
+        <character name="architecture" value="bracteate" modifier="sometimes" />
+      </structure>
+    </statement>
+    <statement id="459.txt-9">
+      <text>Calyculi of 4–6, triangular to lanceolate bractlets.</text>
+      <structure id="o9115" name="calyculus" />
+      <structure id="o9116" name="bractlet">
+        <character char_type="range_value" name="count" from="4" to="6" />
+        <character char_type="range_value" name="shape" from="triangular" to="lanceolate" />
+        <character name="shape" value="triangular" />
+        <character name="shape" value="lanceolate" />
+      </structure>
+      <relation id="r1063" name="consist_of" from="o9115" to="o9116" negation="false" />
+    </statement>
+    <statement id="459.txt-10">
+      <text>Involucres cylindro-campanulate, 6–13+ mm diam .</text>
+      <structure id="o9117" name="involucre">
+        <character name="shape" value="cylindro-campanulate" />
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="13" to_unit="mm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="459.txt-11">
+      <text>Phyllaries 10–15 in 1–2 series, lanceolate, ± equal, margins broadly hyaline, apices acuminate.</text>
+      <structure id="o9118" name="phyllary">
+        <character char_type="range_value" name="count" from="10" to="15" constraint="in series" constraintid="o9119" />
+        <character name="shape" value="lanceolate" />
+        <character name="size" value="equal" modifier="±" />
+      </structure>
+      <structure id="o9119" name="series">
+        <character char_type="range_value" name="count" from="1" to="2" />
+      </structure>
+      <structure id="o9120" name="margin">
+        <character name="coloration" value="hyaline" modifier="broadly" />
+      </structure>
+      <structure id="o9121" name="apex">
+        <character name="shape" value="acuminate" />
+      </structure>
+    </statement>
+    <statement id="459.txt-12">
+      <text>Receptacles flat or slightly convex, smooth or minutely pitted, epaleate.</text>
+      <structure id="o9122" name="receptacle">
+        <character name="shape" value="flat" />
+        <character name="shape" value="convex" modifier="slightly" />
+        <character name="relief" value="smooth" />
+        <character name="relief" value="pitted" modifier="minutely" />
+        <character name="architecture" value="epaleate" />
+      </structure>
+    </statement>
+    <statement id="459.txt-13">
+      <text>Florets 30–60 (fragrant);</text>
+      <structure id="o9123" name="floret">
+        <character char_type="range_value" name="count" from="30" to="60" />
+      </structure>
+    </statement>
+    <statement id="459.txt-14">
+      <text>corollas white, sometimes tipped with rose or purple (at least outer much longer than phyllaries).</text>
+      <structure id="o9124" name="corolla">
+        <character name="coloration" value="white" />
+      </structure>
+      <structure id="o9125" name="coloratio" />
+      <relation id="r1064" name="tipped with" from="o9124" to="o9125" negation="false" />
+    </statement>
+    <statement id="459.txt-15">
+      <text>Cypselae whitish, subcylindric or weakly clavate, not beaked, bluntly 4–5-angled or -ribbed, ribs corky-thickened, faces glabrous or minutely puberulent;</text>
+      <structure id="o9126" name="cypsela">
+        <character name="coloration" value="whitish" />
+        <character name="shape" value="subcylindric" />
+        <character name="shape" value="clavate" modifier="weakly" />
+        <character name="shape" value="beaked" modifier="not" />
+        <character name="architecture_or_shape" value="4-5-angled-or-ribbed" modifier="bluntly" />
+      </structure>
+      <structure id="o9127" name="rib">
+        <character name="thickness" value="corky-thickened" />
+      </structure>
+      <structure id="o9128" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="puberulent" modifier="minutely" />
+      </structure>
+    </statement>
+    <statement id="459.txt-16">
+      <text>pappi 0.</text>
+      <structure id="o9129" name="pappus">
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+    <statement id="459.txt-17">
+      <text>x = 9.</text>
+      <structure id="o9130" name="chromosome">
+        <character name="count" value="9" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species 1:</number_of_infrataxa>
+  <general_distribution>sw United States</general_distribution>
+  <general_distribution>nw Mexico.</general_distribution>
+  <discussion>Molecular phylogenetic studies by J. Lee et al. (2003) indicated that Malacothrix is polyphyletic and that Atrichoseris is basal to the subclade of Malacothrix that does not contain the type species of that genus. Atrichoseris differs in base chromosome number (x = 9) from the species of Malacothrix with which it is most closely grouped (x = 7). Atrichoseris differs from Malacothrix in having apically truncate cypselae that are wholly epappose.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

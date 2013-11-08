@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Stebbinsoseris decipiens</species_name>
+  <authority>(K. L. Chambers) K. L. Chambers</authority>
+  <place_of_publication>Amer. J. Bot. 78: 1025. 1991</place_of_publication>
+  <common_name>Santa Cruz silverpuffs</common_name>
+  <synonym_of_species_name>Microseris decipiens K. L. Chambers, Contr. Dudley Herb. 4: 290, fig. 17. 1955</synonym_of_species_name>
+  <description>
+    <statement id="541.txt-0">
+      <text>Peduncles 15–60 cm.</text>
+      <structure id="o11138" name="peduncle">
+        <character char_type="range_value" name="size" from="15" from_unit="cm" to="60" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="541.txt-1">
+      <text>Involucres 6–19 mm.</text>
+      <structure id="o11139" name="involucre">
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="19" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="541.txt-2">
+      <text>Florets 10–80(–100);</text>
+      <structure id="o11140" name="floret">
+        <character char_type="range_value" name="atypical_count" from="80" to="100" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="10" to="80" />
+      </structure>
+    </statement>
+    <statement id="541.txt-3">
+      <text>corollas yellow.</text>
+      <structure id="o11141" name="corolla">
+        <character name="coloration" value="yellow" />
+      </structure>
+    </statement>
+    <statement id="541.txt-4">
+      <text>Cypselae brown to purplish , narrowly truncate-fusiform, 5–8 mm, each filled by embryo or no more than distal 0.5 mm vacant, apices not enlarged at bases of pappi;</text>
+      <structure id="o11142" name="cypsela">
+        <character char_type="range_value" name="coloration" from="brown" to="purplish" />
+        <character name="coloration" value="brown" />
+        <character name="coloration" value="purplish" />
+        <character name="shape" value="truncate-fusiform" modifier="narrowly" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="8" to_unit="mm" />
+        <character name="size" value="0.5" unit="mm" modifier="more than distal" constraint="vacant" />
+      </structure>
+      <structure id="o11143" name="embryo" />
+      <relation id="r1263" name="filled by" from="o11142" to="o11143" negation="false" />
+      <structure id="o11144" name="apex">
+        <character name="size" value="enlarged" modifier="not" constraint="at bases" constraintid="o11145" />
+      </structure>
+      <structure id="o11145" name="base" />
+      <structure id="o11146" name="pappus" />
+      <relation id="r1264" name="part_of" from="o11145" to="o11146" negation="false" />
+    </statement>
+    <statement id="541.txt-5">
+      <text>pappi 7–10 mm, scale bodies 3–5 mm, faces glabrous, aristae 4–5 mm.</text>
+      <structure id="o11147" name="pappus">
+        <character char_type="range_value" name="size" from="7" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+      <structure id="o11148" name="body" constraint="scale">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+      <structure id="o11149" name="face">
+        <character name="pubescence" value="glabrous" />
+      </structure>
+      <structure id="o11150" name="arista">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="541.txt-6">
+      <text>2 n = 36.</text>
+      <structure id="o11151" name="chromosome">
+        <character name="count" value="36" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>may</flowering_time>
+  <habitat>sandy, shale</habitat>
+  <habitat>or serpentine soils</habitat>
+  <habitat>grasslands</habitat>
+  <habitat>coastal scrub</habitat>
+  <habitat>chaparral</habitat>
+  <habitat>closed-cone pine woods</habitat>
+  <habitat>roadsides</habitat>
+  <conservation>of conservation concern;</conservation>
+  <elevation>10–500 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <discussion>Morphologic and molecular evidence (K. L. Chambers 1955; C. Irmler et al. 1982; R. S. Wallace and R. K. Jansen 1990) proves that Stebbinsoseris decipiens is an allopolyploid derivative of the hybrid Microseris bigelovii × Uropappus lindleyi. It occurs in a limited area of central coastal California where the parental taxa are sympatric. Diploid hybrids between the parents, produced experimentally (Chambers), had irregular meiosis and were completely seed-sterile. The species is included in Inventory of Rare and Endangered Plants of California, ed. 6 (D. P. Tibor 2001).</discussion>
+  <references>SELECTED REFERENCE Irmler, C. et al. 1982. Enzymes and quantitative morphological characters compared between the allotetraploid Microseris decipiens and its diploid parental species. Beitr. Biol. Pflanzen 57: 269–289.</references>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

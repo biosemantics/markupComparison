@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>83.</number>
+  <genus_name>CHRYSANTHEMOIDES</genus_name>
+  <authority>Fabricius</authority>
+  <place_of_publication>Enum., 79. 1759</place_of_publication>
+  <common_name />
+  <derivation>Generic name Chrysanthemum and Latin -oides , resembling</derivation>
+  <author_of_tribe_genus>John L. Strother</author_of_tribe_genus>
+  <description>
+    <statement id="613.txt-0">
+      <text>Shrubs or trees (evergreen), 50–300+ cm.</text>
+      <structure id="o12840" name="whole_organism">
+        <character char_type="range_value" name="size" from="50" from_unit="cm" to="300" to_unit="cm" upper_restricted="false" />
+        <character name="life_style" value="shrub" />
+        <character name="life_style" value="tree" />
+      </structure>
+    </statement>
+    <statement id="613.txt-1">
+      <text>Stems erect, glabrous or ± tomentose [spiny].</text>
+      <structure id="o12842" name="stem">
+        <character name="orientation" value="erect" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="tomentose" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="613.txt-2">
+      <text>Leaves ± petiolate;</text>
+      <structure id="o12843" name="leaf">
+        <character name="architecture" value="petiolate" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="613.txt-3">
+      <text>blades ovate or elliptic to orbiculate, obovate, or oblanceolate, margins usually denticulate, sometimes entire, faces usually ± arachnose and glabrate, sometimes woolly or glabrous.</text>
+      <structure id="o12844" name="blade">
+        <character char_type="range_value" name="shape" from="elliptic" to="orbiculate , obovate , or oblanceolate" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="elliptic" />
+        <character name="shape" value="orbiculate" />
+        <character name="shape" value="obovate" />
+        <character name="shape" value="oblanceolate" />
+      </structure>
+      <structure id="o12845" name="margin">
+        <character name="shape" value="denticulate" modifier="usually" />
+        <character name="shape" value="entire" modifier="sometimes" />
+      </structure>
+      <structure id="o12846" name="face">
+        <character name="pubescence" value="arachnose" modifier="usually ±" />
+        <character name="pubescence" value="glabrate" />
+        <character name="pubescence" value="woolly" modifier="sometimes" />
+        <character name="pubescence" value="glabrous" modifier="sometimes" />
+      </structure>
+    </statement>
+    <statement id="613.txt-4">
+      <text>Heads borne singly or in loose, corymbiform arrays.</text>
+      <structure id="o12847" name="head">
+        <character name="arrangement" value="singly" />
+        <character name="arrangement" value="in loose , corymbiform arrays" />
+      </structure>
+      <structure id="o12848" name="array">
+        <character name="architecture_or_texture" value="loose" />
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <relation id="r1478" name="in" from="o12847" to="o12848" negation="false" />
+    </statement>
+    <statement id="613.txt-5">
+      <text>Involucres ± hemispheric or broader, 9–12+ mm diam.</text>
+      <structure id="o12849" name="involucre">
+        <character name="shape" value="hemispheric" modifier="±" />
+        <character name="size" value="broader" />
+        <character char_type="range_value" name="size" from="9" from_unit="mm" to="12" to_unit="mm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="613.txt-6">
+      <text>Phyllaries 12–24+ in 2–3 series, deltate or lanceolate to ovate, oblong, or linear.</text>
+      <structure id="o12850" name="phyllary">
+        <character char_type="range_value" name="count" from="12" to="24" upper_restricted="false" constraint="in series" constraintid="o12851" />
+        <character char_type="range_value" name="shape" from="lanceolate" to="ovate , oblong , or linear" />
+        <character name="shape" value="deltate" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="oblong" />
+        <character name="shape" value="linear" />
+      </structure>
+      <structure id="o12851" name="series">
+        <character char_type="range_value" name="count" from="2" to="3" />
+      </structure>
+    </statement>
+    <statement id="613.txt-7">
+      <text>Receptacles flat to convex.</text>
+      <structure id="o12852" name="receptacle">
+        <character char_type="range_value" name="shape" from="flat" to="convex" />
+        <character name="shape" value="flat" />
+        <character name="shape" value="convex" />
+      </structure>
+    </statement>
+    <statement id="613.txt-8">
+      <text>Ray florets 5–13 in 1 series;</text>
+      <structure id="o12853" name="floret" constraint="ray">
+        <character char_type="range_value" name="count" from="5" to="13" constraint="in series" constraintid="o12854" />
+      </structure>
+      <structure id="o12854" name="series">
+        <character name="count" value="1" />
+      </structure>
+    </statement>
+    <statement id="613.txt-9">
+      <text>corollas yellow, laminae ± ovate to elliptic or linear.</text>
+      <structure id="o12855" name="corolla">
+        <character name="coloration" value="yellow" />
+      </structure>
+      <structure id="o12856" name="lamina">
+        <character name="shape" value="ovate" modifier="±" />
+        <character name="arrangement_or_shape" value="elliptic" />
+        <character name="arrangement_or_shape" value="linear" />
+      </structure>
+    </statement>
+    <statement id="613.txt-10">
+      <text>Disc florets 30–80+, functionally staminate;</text>
+      <structure id="o12857" name="floret" constraint="disc">
+        <character char_type="range_value" name="count" from="30" to="80" upper_restricted="false" />
+        <character name="architecture" value="staminate" modifier="functionally" />
+      </structure>
+    </statement>
+    <statement id="613.txt-11">
+      <text>corollas yellow, tubes (± pilosulous) shorter than ± campanulate throats.</text>
+      <structure id="o12858" name="corolla">
+        <character name="coloration" value="yellow" />
+      </structure>
+      <structure id="o12859" name="tube">
+        <character name="size" value="shorter" constraint="than ± campanulate throats" constraintid="o12860" />
+      </structure>
+      <structure id="o12860" name="throat">
+        <character name="shape" value="campanulate" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="613.txt-12">
+      <text>Cypselae ± globose, fleshy (blue-black, becoming brown, drupelike).</text>
+      <structure id="o12861" name="cypsela">
+        <character name="shape" value="globose" modifier="±" />
+        <character name="texture" value="fleshy" />
+      </structure>
+    </statement>
+    <statement id="613.txt-13">
+      <text>x = 10.</text>
+      <structure id="o12862" name="chromosome">
+        <character name="count" value="10" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species 2 (1 in the flora):</number_of_infrataxa>
+  <introduced>introduced;</introduced>
+  <general_distribution>e tropical Africa</general_distribution>
+  <general_distribution>South Africa.</general_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

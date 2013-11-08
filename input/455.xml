@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>2.</number>
+  <species_name>Scorzonera hispanica</species_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 791. 1753</place_of_publication>
+  <common_name>Black or Spanish salsify</common_name>
+  <description>
+    <statement id="455.txt-0">
+      <text>Perennials.</text>
+      <structure id="o9007" name="whole_organism">
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="455.txt-1">
+      <text>Leaf blades 120–400 × (1–)3–6 mm, margins entire (flat or undulate).</text>
+      <structure id="o9008" name="blade" constraint="leaf">
+        <character char_type="range_value" name="length" from="120" from_unit="mm" to="400" to_unit="mm" />
+        <character char_type="range_value" name="atypical_width" from="1" to="3" from_unit="mm" to_unit="mm" to_inclusive="false" />
+        <character char_type="range_value" name="width" from="3" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+      <structure id="o9009" name="margin">
+        <character name="shape" value="entire" />
+      </structure>
+    </statement>
+    <statement id="455.txt-2">
+      <text>Involucres 20–30 × 8–12+ mm.</text>
+      <structure id="o9010" name="involucre">
+        <character char_type="range_value" name="length" from="20" from_unit="mm" to="30" to_unit="mm" />
+        <character char_type="range_value" name="width" from="8" from_unit="mm" to="12" to_unit="mm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="455.txt-3">
+      <text>Phyllaries ovate-lanceolate to lanceolate, glabrous.</text>
+      <structure id="o9011" name="phyllary">
+        <character char_type="range_value" name="shape" from="ovate-lanceolate" to="lanceolate" />
+        <character name="shape" value="ovate-lanceolate" />
+        <character name="shape" value="lanceolate" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="455.txt-4">
+      <text>Cypselae 10–15(–20) mm;</text>
+      <structure id="o9012" name="cypsela">
+        <character char_type="range_value" name="atypical_size" from="15" to="20" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="15" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="455.txt-5">
+      <text>pappi 9–15(–20) mm.</text>
+      <structure id="o9013" name="pappus">
+        <character char_type="range_value" name="atypical_size" from="15" to="20" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="9" from_unit="mm" to="15" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="455.txt-6">
+      <text>2 n = 14.</text>
+      <structure id="o9014" name="chromosome">
+        <character name="count" value="14" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <habitat>disturbed sites</habitat>
+  <elevation>10–200 m;</elevation>
+  <introduced>introduced;</introduced>
+  <us_distribution>Calif.</us_distribution>
+  <global_distribution>Europe.</global_distribution>
+  <discussion>Scorzonera hispanica sometimes is used culinarily.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

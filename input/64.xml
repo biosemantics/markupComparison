@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>11b.</number>
+  <variety_name>Cirsium horridulum Michaux var. megacanthum</variety_name>
+  <authority>(Nuttall) D. J. Keil</authority>
+  <place_of_publication>Sida 21: 214. 2004</place_of_publication>
+  <common_name>Bigspine thistle</common_name>
+  <synonym_of_variety_name>Cirsium megacanthum Nuttall, Trans. Amer. Philos. Soc., n. s. 7: 421. 1841 (as Circium )</synonym_of_variety_name>
+  <description>
+    <statement id="64.txt-0">
+      <text>Plants 100–250 cm.</text>
+      <structure id="o13383" name="whole_organism">
+        <character char_type="range_value" name="size" from="100" from_unit="cm" to="250" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="64.txt-1">
+      <text>Stems glabrous to sparsely tomentose.</text>
+      <structure id="o13384" name="stem">
+        <character char_type="range_value" name="pubescence" from="glabrous" to="sparsely tomentose" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="tomentose" modifier="sparsely" />
+      </structure>
+    </statement>
+    <statement id="64.txt-2">
+      <text>Leaves :</text>
+      <structure id="o13385" name="leaf" />
+    </statement>
+    <statement id="64.txt-3">
+      <text>blades oblanceolate or oblong-elliptic, 20–40 cm, shallowly to deeply pinnatifid, main spines 10–30 mm, abaxial faces glabrous or nearly so.</text>
+      <structure id="o13386" name="blade">
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="oblong-elliptic" />
+        <character char_type="range_value" name="size" from="20" from_unit="cm" to="40" to_unit="cm" />
+        <character name="shape" value="pinnatifid" modifier="shallowly deeply" />
+      </structure>
+      <structure id="o13387" name="spine" constraint="main">
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="30" to_unit="mm" />
+      </structure>
+      <structure id="o13388" name="face" constraint="abaxial">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="glabrous" modifier="nearly" />
+      </structure>
+    </statement>
+    <statement id="64.txt-4">
+      <text>Heads 10–20.</text>
+      <structure id="o13389" name="head">
+        <character char_type="range_value" name="count" from="10" to="20" />
+      </structure>
+    </statement>
+    <statement id="64.txt-5">
+      <text>Involucres 4–5 × 5–8 cm, glabrous.</text>
+      <structure id="o13390" name="involucre">
+        <character char_type="range_value" name="length" from="4" from_unit="cm" to="5" to_unit="cm" />
+        <character char_type="range_value" name="width" from="5" from_unit="cm" to="8" to_unit="cm" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="64.txt-6">
+      <text>Phyllaries :</text>
+      <structure id="o13391" name="phyllary" />
+    </statement>
+    <statement id="64.txt-7">
+      <text>outer and middle bodies scabridulous or minutely spinulose, marginal spinules usually 1 mm or shorter.</text>
+      <structure id="o13392" name="body" constraint="outer and middle">
+        <character name="relief" value="scabridulous" />
+        <character name="shape_or_architecture" value="spinulose" modifier="minutely" />
+      </structure>
+      <structure id="o13393" name="spinule" constraint="marginal">
+        <character name="size" value="1" unit="mm" modifier="usually" />
+        <character name="size" value="shorter" />
+      </structure>
+    </statement>
+    <statement id="64.txt-8">
+      <text>Corollas pink to purple.</text>
+      <structure id="o13394" name="corolla">
+        <character char_type="range_value" name="coloration" from="pink" to="purple" />
+        <character name="coloration" value="pink" />
+        <character name="coloration" value="purple" />
+      </structure>
+    </statement>
+    <statement id="64.txt-9">
+      <text>2 n = 32, 34.</text>
+      <structure id="o13395" name="chromosome">
+        <character name="count" value="32" />
+        <character name="count" value="34" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <habitat>meadows</habitat>
+  <habitat>pastures</habitat>
+  <habitat>roadsides</habitat>
+  <habitat>forest openings</habitat>
+  <habitat>low ground</habitat>
+  <habitat>often in damp soil</habitat>
+  <elevation>0–100 m;</elevation>
+  <us_distribution>Ala.</us_distribution>
+  <us_distribution>Ark.</us_distribution>
+  <us_distribution>Fla.</us_distribution>
+  <us_distribution>La.</us_distribution>
+  <us_distribution>Miss.</us_distribution>
+  <us_distribution>Okla.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <discussion>Variety megacanthum occurs on the coastal plain and lower piedmont from northern Florida to eastern Texas and southeastern Oklahoma. Nuttall described this thistle as “one of the most terribly armed plants in the genus.”</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

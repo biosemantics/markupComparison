@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>51d.</number>
+  <variety_name>Cirsium eatonii (A. Gray) B. L. Robinson var. eriocephalum</variety_name>
+  <authority>(A. Gray) D. J. Keil</authority>
+  <place_of_publication>Sida 21: 1645. 2005</place_of_publication>
+  <common_name>Mountain or alpine thistle</common_name>
+  <synonym_of_variety_name>Cnicus eriocephalus A. Gray, Proc. Amer. Acad. Arts 10: 46. 1874, based on Cirsium eriocephalum A. Gray, Proc. Acad. Nat. Sci. Philadelphia 15: 69. 1864, not Wallroth 1841; Carduus hookerianus Nuttall var. eriocephalus (A. Gray) A. Nelson; Cirsium scopulorum (Greene) Cockerell ex Daniels</synonym_of_variety_name>
+  <description>
+    <statement id="144.txt-0">
+      <text>Stems erect or ascending, 30–150 cm.</text>
+      <structure id="o1190" name="stem">
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="ascending" />
+        <character char_type="range_value" name="size" from="30" from_unit="cm" to="150" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="144.txt-1">
+      <text>Leaf faces thinly to densely arachnoid-tomentose, especially abaxially, and villous or tomentose with septate trichomes, especially along midveins, adaxially ± glabrate.</text>
+      <structure id="o1191" name="face" constraint="leaf">
+        <character name="pubescence" value="arachnoid-tomentose" modifier="thinly densely" />
+        <character name="pubescence" value="villous" />
+        <character name="pubescence" value="tomentose" constraint="with trichomes" constraintid="o1192" />
+        <character name="pubescence" value="glabrate" modifier="adaxially ±" />
+      </structure>
+      <structure id="o1192" name="trichome">
+        <character name="architecture" value="septate" />
+      </structure>
+      <structure id="o1193" name="midvein" />
+      <relation id="r203" name="along" from="o1191" to="o1193" negation="false" modifier="especially" />
+    </statement>
+    <statement id="144.txt-2">
+      <text>Heads sessile or short-pedunculate in usually nodding, densely woolly-tomentose, spiciform or racemiform arrays.</text>
+      <structure id="o1194" name="head">
+        <character name="architecture" value="sessile" />
+        <character name="architecture" value="short-pedunculate" constraint="in arrays" constraintid="o1195" />
+      </structure>
+      <structure id="o1195" name="array">
+        <character name="orientation" value="nodding" modifier="usually" />
+        <character name="pubescence" value="woolly-tomentose" modifier="densely" />
+        <character name="architecture" value="spiciform" />
+        <character name="architecture" value="racemiform" />
+      </structure>
+    </statement>
+    <statement id="144.txt-3">
+      <text>Involucres 2.5–3.5 cm, densely tomentose with septate trichomes (individual phyllaries obscured by tomentum).</text>
+      <structure id="o1196" name="involucre">
+        <character char_type="range_value" name="size" from="2.5" from_unit="cm" to="3.5" to_unit="cm" />
+        <character name="pubescence" value="tomentose" modifier="densely" constraint="with trichomes" constraintid="o1197" />
+      </structure>
+      <structure id="o1197" name="trichome">
+        <character name="architecture" value="septate" />
+      </structure>
+    </statement>
+    <statement id="144.txt-4">
+      <text>Phyllaries:</text>
+      <structure id="o1198" name="phyllary" />
+    </statement>
+    <statement id="144.txt-5">
+      <text>outer with stiff lateral spines;</text>
+      <structure id="o1199" name="phyllary" constraint="outer" />
+      <structure id="o1200" name="spine" constraint="lateral">
+        <character name="texture" value="stiff" />
+      </structure>
+      <relation id="r204" name="with" from="o1199" to="o1200" negation="false" />
+    </statement>
+    <statement id="144.txt-6">
+      <text>apical spines slender.</text>
+      <structure id="o1201" name="spine" constraint="apical">
+        <character name="size" value="slender" />
+      </structure>
+    </statement>
+    <statement id="144.txt-7">
+      <text>Corollas yellow (northern populations) or pink to pale purple (southern populations), 13–18 mm, tubes 6–9 mm, throats 3–5.5 mm, lobes 3–7 mm.</text>
+      <structure id="o1202" name="corolla">
+        <character char_type="range_value" name="coloration" from="pink" to="pale-purple" />
+        <character name="coloration" value="yellow" />
+        <character name="coloration" value="pink" />
+        <character name="coloration" value="purple" modifier="pale" />
+        <character char_type="range_value" name="size" from="13" from_unit="mm" to="18" to_unit="mm" />
+      </structure>
+      <structure id="o1203" name="tube">
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="9" to_unit="mm" />
+      </structure>
+      <structure id="o1204" name="throat">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="5.5" to_unit="mm" />
+      </structure>
+      <structure id="o1205" name="lobe">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="144.txt-8">
+      <text>Pappi 10–15 mm.</text>
+      <structure id="o1206" name="pappus">
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="15" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="144.txt-9">
+      <text>2 n = 34 (as C. scopulorum ).</text>
+      <structure id="o1207" name="chromosome">
+        <character name="count" value="34" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>forest openings</habitat>
+  <habitat>alpine and subalpine meadows</habitat>
+  <habitat>windswept alpine ridges</habitat>
+  <elevation>2200–3800 m;</elevation>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>Utah.</us_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

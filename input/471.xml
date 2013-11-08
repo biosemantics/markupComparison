@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>6b.</number>
+  <subspecies_name>Malacothrix foliosa A. Gray subsp. polycephala</subspecies_name>
+  <authority>W. S. Davis</authority>
+  <place_of_publication>Madroño 44: 237. 1997</place_of_publication>
+  <common_name>Many-head desertdandelion</common_name>
+  <description>
+    <statement id="471.txt-0">
+      <text>Stems usually 1, erect, branched distally.</text>
+      <structure id="o9411" name="stem">
+        <character name="count" value="1" modifier="usually" />
+        <character name="orientation" value="erect" />
+        <character name="architecture_or_shape" value="branched" modifier="distally" />
+      </structure>
+    </statement>
+    <statement id="471.txt-1">
+      <text>Distal cauline leaves narrowly triangular, usually pinnately lobed (near bases, lobes 1–2 pairs, narrow).</text>
+      <structure id="o9412" name="leaf" constraint="distal cauline">
+        <character name="shape" value="triangular" modifier="narrowly" />
+        <character name="shape" value="lobed" modifier="usually pinnately" />
+      </structure>
+    </statement>
+    <statement id="471.txt-2">
+      <text>Calyculi of 8–12+, oblong to linear bractlets.</text>
+      <structure id="o9413" name="calyculus" />
+      <structure id="o9414" name="bractlet">
+        <character char_type="range_value" name="count" from="8" to="12" upper_restricted="false" />
+        <character char_type="range_value" name="shape" from="oblong" to="linear" />
+        <character name="shape" value="oblong" />
+        <character name="shape" value="linear" />
+      </structure>
+      <relation id="r1095" name="consist_of" from="o9413" to="o9414" negation="false" />
+    </statement>
+    <statement id="471.txt-3">
+      <text>Involucres 5–7 × 2–4.5 mm.</text>
+      <structure id="o9415" name="involucre">
+        <character char_type="range_value" name="length" from="5" from_unit="mm" to="7" to_unit="mm" />
+        <character char_type="range_value" name="width" from="2" from_unit="mm" to="4.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="471.txt-4">
+      <text>Phyllaries 12–16+ in 2–3 series.</text>
+      <structure id="o9416" name="phyllary">
+        <character char_type="range_value" name="count" from="12" to="16" upper_restricted="false" constraint="in series" constraintid="o9417" />
+      </structure>
+      <structure id="o9417" name="series">
+        <character char_type="range_value" name="count" from="2" to="3" />
+      </structure>
+    </statement>
+    <statement id="471.txt-5">
+      <text>Corollas medium yellow, 5–9 mm;</text>
+      <structure id="o9418" name="corolla">
+        <character name="coloration" value="yellow" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="9" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="471.txt-6">
+      <text>outer ligules exserted 1.5–3.5 mm.</text>
+      <structure id="o9419" name="ligule" constraint="outer">
+        <character name="position" value="exserted" />
+        <character char_type="range_value" name="size" from="1.5" from_unit="mm" to="3.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="471.txt-7">
+      <text>Cypselae ± cylindro-fusiform, 0.9–1.5 mm, ribs ± equal.</text>
+      <structure id="o9420" name="cypsela">
+        <character name="shape" value="cylindro-fusiform" modifier="±" />
+        <character char_type="range_value" name="size" from="0.9" from_unit="mm" to="1.5" to_unit="mm" />
+      </structure>
+      <structure id="o9421" name="rib">
+        <character name="size" value="equal" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="471.txt-8">
+      <text>2 n = 14.</text>
+      <structure id="o9422" name="chromosome">
+        <character name="count" value="14" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <habitat>open sandy areas</habitat>
+  <habitat>dunes</habitat>
+  <habitat>between shrubs in chaparral</habitat>
+  <elevation>0–100 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <discussion>Subspecies polycephala is known only from San Nicolas Island.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

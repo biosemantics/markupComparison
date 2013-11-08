@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>5.</number>
+  <species_name>Tragopogon mirus</species_name>
+  <authority>Ownbey</authority>
+  <place_of_publication>Amer. J. Bot. 37: 497. 1950</place_of_publication>
+  <common_name>Remarkable goatsbeard</common_name>
+  <description>
+    <statement id="452.txt-0">
+      <text>Plants (40–)60–150+ cm.</text>
+      <structure id="o8955" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="40" to="60" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="60" from_unit="cm" to="150" to_unit="cm" upper_restricted="false" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="452.txt-1">
+      <text>Leaves:</text>
+      <structure id="o8956" name="leaf" />
+    </statement>
+    <statement id="452.txt-2">
+      <text>apices straight (not recurved or coiled), faces initially floccose to tomentulose, soon glabrescent.</text>
+      <structure id="o8957" name="apex">
+        <character name="course" value="straight" />
+      </structure>
+      <structure id="o8958" name="face">
+        <character char_type="range_value" name="pubescence" from="initially floccose" to="tomentulose" />
+        <character name="pubescence" value="floccose" modifier="initially" />
+        <character name="pubescence" value="tomentulose" modifier="initially" />
+        <character name="pubescence" value="glabrescent" modifier="soon" />
+      </structure>
+    </statement>
+    <statement id="452.txt-3">
+      <text>Peduncles distally inflated.</text>
+      <structure id="o8959" name="peduncle">
+        <character name="shape" value="inflated" modifier="distally" />
+      </structure>
+    </statement>
+    <statement id="452.txt-4">
+      <text>Involucres conic in bud.</text>
+      <structure id="o8960" name="involucre">
+        <character name="shape" value="conic" constraint="in bud" constraintid="o8961" />
+      </structure>
+      <structure id="o8961" name="bud" />
+    </statement>
+    <statement id="452.txt-5">
+      <text>Outer florets usually shorter than phyllaries;</text>
+      <structure id="o8962" name="floret" constraint="outer">
+        <character name="size" value="shorter" modifier="usually" constraint="than phyllaries" constraintid="o8963" />
+      </structure>
+      <structure id="o8963" name="phyllary" />
+    </statement>
+    <statement id="452.txt-6">
+      <text>corollas each proximally yellow and distally purple or brownish purple (giving each head a yellow “eye”).</text>
+      <structure id="o8964" name="corolla">
+        <character name="coloration" value="yellow" modifier="each proximally" />
+        <character name="coloration" value="purple" modifier="distally" />
+        <character name="coloration" value="purple" modifier="distally ;brownish" />
+      </structure>
+    </statement>
+    <statement id="452.txt-7">
+      <text>2 n = 24.</text>
+      <structure id="o8965" name="chromosome">
+        <character name="count" value="24" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>early summer</flowering_time>
+  <habitat>disturbed sites</habitat>
+  <elevation>700–800 m;</elevation>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <discussion>Tragopogon mirus is allotetraploid, formed from T. dubius and T. porrifolius. It originated (probably repeatedly) in the United States (eastern Washington, adjacent Idaho, and near Flagstaff, Arizona). F1 hybrids between T. dubius and T. porrifolius resemble T. mirus but are less robust, have low pollen stainability, and set few, if any, seeds. Tragopogon mirus does not occur in Europe, but T. dubius and T. porrifolius may occasionally hybridize there when sympatric.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

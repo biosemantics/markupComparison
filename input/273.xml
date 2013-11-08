@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Cichorium intybus</species_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 813. 1753</place_of_publication>
+  <common_name>Chicory, chicorée</common_name>
+  <description>
+    <statement id="273.txt-0">
+      <text>Perennials (sometimes flowering first year).</text>
+      <structure id="o4768" name="whole_organism">
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="273.txt-1">
+      <text>Leaves:</text>
+      <structure id="o4769" name="leaf" />
+    </statement>
+    <statement id="273.txt-3">
+      <text>cauline similar, smaller, narrower, distal mostly linear.</text>
+      <structure id="o4770" name="leaf" constraint="cauline">
+        <character name="size" value="smaller" />
+        <character name="size" value="narrower" />
+      </structure>
+      <structure id="o4771" name="leaf" constraint="distal">
+        <character name="arrangement_or_shape" value="linear" modifier="mostly" />
+      </structure>
+    </statement>
+    <statement id="273.txt-4">
+      <text>Peduncles mostly 0–2 mm, some narrowly clavate, 12–45(–85+) mm .</text>
+      <structure id="o4772" name="peduncle">
+        <character char_type="range_value" name="size" from="0" from_unit="mm" to="2" to_unit="mm" modifier="mostly" />
+        <character name="shape" value="clavate" modifier="narrowly" />
+        <character char_type="range_value" name="atypical_size" from="45" to="85" from_unit="mm" to_unit="mm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="12" from_unit="mm" to="45" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="273.txt-5">
+      <text>Phyllaries:</text>
+      <structure id="o4773" name="phyllary" />
+    </statement>
+    <statement id="273.txt-6">
+      <text>outer 5–6 lance-ovate to lanceolate, 4–7 mm, basally cartilaginous, distally herbaceous, inner 8+ lance-linear to linear, 6–12 mm, herbaceous, all usually with some gland-tipped hairs 0.5–0.8 mm on margins near bases or on abaxial faces toward tips.</text>
+      <structure id="o4774" name="floret" constraint="outer">
+        <character char_type="range_value" name="count" from="5" to="6" />
+        <character char_type="range_value" name="shape" from="lance-ovate" to="lanceolate" />
+        <character name="shape" value="lance-ovate" />
+        <character name="shape" value="lanceolate" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="7" to_unit="mm" />
+        <character name="texture" value="cartilaginous" modifier="basally" />
+        <character name="habit_or_texture" value="herbaceous" modifier="distally" />
+      </structure>
+      <structure id="o4775" name="floret" constraint="inner">
+        <character name="count" char_type="range_value" from="8" upper_restricted="false" />
+        <character char_type="range_value" name="arrangement_or_shape" from="lance-linear" to="linear" />
+        <character name="arrangement_or_shape" value="lance-linear" />
+        <character name="arrangement_or_shape" value="linear" />
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="12" to_unit="mm" />
+        <character name="habit_or_texture" value="herbaceous" />
+      </structure>
+      <structure id="o4776" name="hair">
+        <character char_type="range_value" name="size" from="0.5" from_unit="mm" to="0.8" to_unit="mm" constraint="on margins" constraintid="o4777" />
+      </structure>
+      <relation id="r645" name="with" from="o4775" to="o4776" negation="false" modifier="usually" />
+      <structure id="o4777" name="margin" />
+      <structure id="o4778" name="base" />
+      <relation id="r646" name="near" from="o4777" to="o4778" negation="false" />
+      <structure id="o4779" name="face" constraint="abaxial" />
+      <relation id="r647" name="on" from="o4775" to="o4779" negation="false" />
+      <structure id="o4780" name="tip" />
+      <relation id="r648" name="toward" from="o4779" to="o4780" negation="false" />
+    </statement>
+    <statement id="273.txt-7">
+      <text>Cypselae 2–3 mm;</text>
+      <structure id="o4781" name="cypsela">
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="3" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="273.txt-8">
+      <text>pappi 0.01–0.2 mm.</text>
+      <structure id="o4782" name="pappus">
+        <character char_type="range_value" name="size" from="0.01" from_unit="mm" to="0.2" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="273.txt-9">
+      <text>2 n = 18.</text>
+      <structure id="o4783" name="chromosome">
+        <character name="count" value="18" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <habitat>disturbed sites</habitat>
+  <elevation>0–1500 m;</elevation>
+  <introduced>introduced;</introduced>
+  <global_distribution>St. Pierre and Miquelon</global_distribution>
+  <ca_distribution>Alta.</ca_distribution>
+  <ca_distribution>B.C.</ca_distribution>
+  <ca_distribution>Man.</ca_distribution>
+  <ca_distribution>N.B.</ca_distribution>
+  <ca_distribution>Nfld. and Labr.</ca_distribution>
+  <ca_distribution>N.S.</ca_distribution>
+  <ca_distribution>Ont.</ca_distribution>
+  <ca_distribution>P.E.I.</ca_distribution>
+  <ca_distribution>Que.</ca_distribution>
+  <ca_distribution>Sask.</ca_distribution>
+  <us_distribution>Ark.</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Conn.</us_distribution>
+  <us_distribution>Ill.</us_distribution>
+  <us_distribution>Ind.</us_distribution>
+  <us_distribution>Iowa</us_distribution>
+  <us_distribution>Kans.</us_distribution>
+  <us_distribution>Maine</us_distribution>
+  <us_distribution>Mass.</us_distribution>
+  <us_distribution>Mich.</us_distribution>
+  <us_distribution>Mo.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>N.H.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>N.C.</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <us_distribution>R.I.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Vt.</us_distribution>
+  <global_distribution>Europe</global_distribution>
+  <global_distribution>Asia</global_distribution>
+  <global_distribution>introduced also in Africa</global_distribution>
+  <global_distribution>South America.</global_distribution>
+  <discussion>Leaves of Cichorium intybus are sometimes used as salad greens; the roasted roots are sometimes ground and used as an addition to (or adulterant of) coffee.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

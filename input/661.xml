@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>26.</number>
+  <species_name>Antennaria aromatica</species_name>
+  <authority>Evert</authority>
+  <place_of_publication>Madroño 31: 109, fig. 1. 1984</place_of_publication>
+  <common_name>Scented or aromatic pussytoes</common_name>
+  <description>
+    <statement id="661.txt-0">
+      <text>Dioecious.</text>
+      <structure id="o13857" name="whole_organism">
+        <character name="reproduction" value="dioecious" />
+      </structure>
+    </statement>
+    <statement id="661.txt-1">
+      <text>Plants 2–7 cm (stems stipitate-glandular).</text>
+      <structure id="o13858" name="whole_organism">
+        <character char_type="range_value" name="size" from="2" from_unit="cm" to="7" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="661.txt-2">
+      <text>Stolons 0.5–2.5 cm.</text>
+      <structure id="o13859" name="stolon">
+        <character char_type="range_value" name="size" from="0.5" from_unit="cm" to="2.5" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="661.txt-3">
+      <text>Basal leaves 1-nerved, usually cuneate-spatulate, sometimes oblanceolate, 5–16 × 3–10 mm, tips mucronate, faces gray-pubescent (and stipitate-glandular; fresh leaves citronella scented).</text>
+      <structure id="o13860" name="leaf" constraint="basal">
+        <character name="architecture" value="1-nerved" />
+        <character name="shape" value="cuneate-spatulate" modifier="usually" />
+        <character name="shape" value="oblanceolate" modifier="sometimes" />
+        <character char_type="range_value" name="length" from="5" from_unit="mm" to="16" to_unit="mm" />
+        <character char_type="range_value" name="width" from="3" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+      <structure id="o13861" name="tip">
+        <character name="shape" value="mucronate" />
+      </structure>
+      <structure id="o13862" name="face">
+        <character name="pubescence" value="gray-pubescent" />
+      </structure>
+    </statement>
+    <statement id="661.txt-4">
+      <text>Cauline leaves linear, 3–14 mm, not flagged (apices acute).</text>
+      <structure id="o13863" name="leaf" constraint="cauline">
+        <character name="arrangement_or_shape" value="linear" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="14" to_unit="mm" />
+        <character name="orientation" value="flagged" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="661.txt-5">
+      <text>Heads borne singly or 2–5 in corymbiform arrays.</text>
+      <structure id="o13864" name="head">
+        <character name="arrangement" value="singly" />
+        <character char_type="range_value" name="count" from="2" to="5" constraint="in arrays" constraintid="o13865" />
+      </structure>
+      <structure id="o13865" name="array">
+        <character name="architecture" value="corymbiform" />
+      </structure>
+    </statement>
+    <statement id="661.txt-6">
+      <text>Involucres:</text>
+      <structure id="o13866" name="involucre" />
+    </statement>
+    <statement id="661.txt-7">
+      <text>staminate 4.5–6.5 mm;</text>
+      <structure id="o13867" name="involucre" constraint="staminate">
+        <character char_type="range_value" name="size" from="4.5" from_unit="mm" to="6.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="661.txt-8">
+      <text>pistillate 5–7(–9) mm.</text>
+      <structure id="o13868" name="involucre" constraint="pistillate">
+        <character char_type="range_value" name="atypical_size" from="7" to="9" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="661.txt-9">
+      <text>Phyllaries distally light brown, dark brown, or olivaceous.</text>
+      <structure id="o13869" name="phyllary">
+        <character name="coloration" value="brown" modifier="distally ;light" />
+        <character name="coloration" value="brown" modifier="distally ;dark" />
+        <character name="coloration" value="olivaceous" modifier="distally" />
+      </structure>
+    </statement>
+    <statement id="661.txt-10">
+      <text>Corollas:</text>
+      <structure id="o13870" name="corolla" />
+    </statement>
+    <statement id="661.txt-11">
+      <text>staminate 2.5–3 mm;</text>
+      <structure id="o13871" name="corolla" constraint="staminate">
+        <character char_type="range_value" name="size" from="2.5" from_unit="mm" to="3" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="661.txt-12">
+      <text>pistillate 3.5–4.5 mm.</text>
+      <structure id="o13872" name="corolla" constraint="pistillate">
+        <character char_type="range_value" name="size" from="3.5" from_unit="mm" to="4.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="661.txt-13">
+      <text>Cypselae 0.9–2 mm, sparingly papillate;</text>
+      <structure id="o13873" name="cypsela">
+        <character char_type="range_value" name="size" from="0.9" from_unit="mm" to="2" to_unit="mm" />
+        <character name="relief_or_pubescence" value="papillate" modifier="sparingly" />
+      </structure>
+    </statement>
+    <statement id="661.txt-14">
+      <text>pappi:</text>
+      <structure id="o13874" name="pappus" />
+    </statement>
+    <statement id="661.txt-15">
+      <text>staminate 3–4 mm;</text>
+      <structure id="o13875" name="pappus" constraint="staminate">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="661.txt-16">
+      <text>pistillate 4.5–5.5 mm.</text>
+      <structure id="o13876" name="pappus" constraint="pistillate">
+        <character char_type="range_value" name="size" from="4.5" from_unit="mm" to="5.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="661.txt-17">
+      <text>2 n = 28, 56, 84.</text>
+      <structure id="o13877" name="chromosome">
+        <character name="count" value="28" />
+        <character name="count" value="56" />
+        <character name="count" value="84" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>mid summer</flowering_time>
+  <habitat>subalpine limestone talus</habitat>
+  <elevation>1600–3000 m;</elevation>
+  <ca_distribution>Alta.</ca_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <discussion>Known only from the northern Rockies, Antennaria aromatica is characterized by glandulosity, cuneate leaves, and odor of citronella in crushed leaves of living material. It is most closely related to A. densifolia of the Northwest Territories and Yukon (R. J. Bayer 1989c). Some collections of pistillate plants from Colorado and other areas of the Rockies superficially resemble A. aromatica and undoubtedly have A. aromatica in their parentage. They are non-glandular and odorless and are closer to the type of A. pulvinata, which is included in the circumscription of A. rosea, as A. rosea subsp. pulvinata (Bayer). Antennaria aromatica is a sexual progenitor of the A. rosea and A. alpina polyploid complexes.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>11.</number>
+  <species_name>Crepis modocensis</species_name>
+  <authority>Greene</authority>
+  <place_of_publication>Erythea 3: 48. 1895</place_of_publication>
+  <common_name>Modoc or Siskiyou hawksbeard</common_name>
+  <description>
+    <statement id="288.txt-0">
+      <text>Perennials, 5–35 cm (taproots slender, caudices branched).</text>
+      <structure id="o5119" name="whole_organism">
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="35" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="288.txt-1">
+      <text>Stems 1–4, erect, slender to stout, simple or sparsely branched, glabrate to tomentose and bristly-setose.</text>
+      <structure id="o5120" name="stem">
+        <character char_type="range_value" name="count" from="1" to="4" />
+        <character name="orientation" value="erect" />
+        <character name="size" value="slender" />
+        <character name="fragility" value="stout" />
+        <character name="architecture" value="simple" />
+        <character name="architecture" value="branched" modifier="sparsely" />
+        <character char_type="range_value" name="pubescence" from="glabrate" to="tomentose" />
+        <character name="pubescence" value="glabrate" />
+        <character name="pubescence" value="tomentose" />
+        <character name="pubescence" value="bristly-setose" />
+      </structure>
+    </statement>
+    <statement id="288.txt-2">
+      <text>Leaves basal and cauline;</text>
+    </statement>
+    <statement id="288.txt-3">
+      <text>petiolate;</text>
+      <structure id="o5121" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="architecture" value="petiolate" />
+      </structure>
+    </statement>
+    <statement id="288.txt-4">
+      <text>basal blades lanceolate, 7–25 × 2–4 cm, margins deeply pinnately lobed (lobes lanceolate, dentate, teeth mucronate), apices acuminate, faces tomentulose (at least when young).</text>
+      <structure id="o5122" name="blade" constraint="basal">
+        <character name="shape" value="lanceolate" />
+        <character char_type="range_value" name="length" from="7" from_unit="cm" to="25" to_unit="cm" />
+        <character char_type="range_value" name="width" from="2" from_unit="cm" to="4" to_unit="cm" />
+      </structure>
+      <structure id="o5123" name="margin">
+        <character name="shape" value="lobed" modifier="deeply pinnately" />
+      </structure>
+      <structure id="o5124" name="apex">
+        <character name="shape" value="acuminate" />
+      </structure>
+      <structure id="o5125" name="face">
+        <character name="pubescence" value="tomentulose" />
+      </structure>
+    </statement>
+    <statement id="288.txt-5">
+      <text>Heads 1–9, borne singly or 2–9 in cymiform arrays.</text>
+      <structure id="o5126" name="head">
+        <character char_type="range_value" name="count" from="1" to="9" />
+        <character name="arrangement" value="singly" />
+        <character char_type="range_value" name="count" from="2" to="9" constraint="in arrays" constraintid="o5127" />
+      </structure>
+      <structure id="o5127" name="array">
+        <character name="architecture" value="cymiform" />
+      </structure>
+    </statement>
+    <statement id="288.txt-6">
+      <text>Calyculi of 8–10, lanceolate, tomentose and often setose bractlets 2–4 mm.</text>
+      <structure id="o5128" name="calyculus" />
+      <structure id="o5129" name="bractlet">
+        <character char_type="range_value" name="count" from="8" to="10" />
+        <character name="shape" value="lanceolate" />
+        <character name="pubescence" value="tomentose" />
+        <character name="pubescence" value="setose" modifier="often" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+      <relation id="r689" name="consist_of" from="o5128" to="o5129" negation="false" />
+    </statement>
+    <statement id="288.txt-7">
+      <text>Involucres cylindric, 11–21 × 5–10 mm.</text>
+      <structure id="o5130" name="involucre">
+        <character name="shape" value="cylindric" />
+        <character char_type="range_value" name="length" from="11" from_unit="mm" to="21" to_unit="mm" />
+        <character char_type="range_value" name="width" from="5" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="288.txt-8">
+      <text>Phyllaries 8–18, (medially green) lanceolate, 10–16 mm, (bases keeled, margins yellowish, often scarious), apices acute, abaxial faces often densely, blackish or whitish tomentose or setose, sometimes glabrous, adaxial with fine (shiny) hairs.</text>
+      <structure id="o5131" name="phyllary">
+        <character char_type="range_value" name="count" from="8" to="18" />
+        <character name="shape" value="lanceolate" />
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="16" to_unit="mm" />
+      </structure>
+      <structure id="o5132" name="apex">
+        <character name="shape" value="acute" />
+      </structure>
+      <structure id="o5133" name="face" constraint="abaxial">
+        <character name="coloration" value="blackish" />
+        <character name="coloration" value="whitish" />
+        <character name="pubescence" value="tomentose" />
+        <character name="pubescence" value="setose" />
+        <character name="pubescence" value="glabrous" modifier="sometimes" />
+        <character name="insertion_or_position" value="adaxial" constraint="with hairs" constraintid="o5134" />
+      </structure>
+      <structure id="o5134" name="hair">
+        <character name="texture" value="fine" />
+      </structure>
+    </statement>
+    <statement id="288.txt-9">
+      <text>Florets 10–60;</text>
+      <structure id="o5135" name="floret">
+        <character char_type="range_value" name="count" from="10" to="60" />
+      </structure>
+    </statement>
+    <statement id="288.txt-10">
+      <text>corollas yellow, 13–22 mm.</text>
+      <structure id="o5136" name="corolla">
+        <character name="coloration" value="yellow" />
+        <character char_type="range_value" name="size" from="13" from_unit="mm" to="22" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="288.txt-11">
+      <text>Cypselae blackish or greenish, reddish, reddish brown, or yellowish, subcylindric to fusiform, 7–12 mm, apices tapered or beaked (beaks 1–3 mm), ribs 10 (strong to weak);</text>
+      <structure id="o5137" name="cypsela">
+        <character name="coloration" value="blackish" />
+        <character name="coloration" value="greenish" />
+        <character name="coloration" value="reddish" />
+        <character name="coloration" value="brown" modifier="reddish" />
+        <character name="coloration" value="yellowish" />
+        <character char_type="range_value" name="shape" from="subcylindric" to="fusiform" />
+        <character name="shape" value="subcylindric" />
+        <character name="shape" value="fusiform" />
+        <character char_type="range_value" name="size" from="7" from_unit="mm" to="12" to_unit="mm" />
+      </structure>
+      <structure id="o5138" name="apex">
+        <character name="shape" value="tapered" />
+        <character name="shape" value="beaked" />
+      </structure>
+      <structure id="o5139" name="rib">
+        <character name="count" value="10" />
+      </structure>
+    </statement>
+    <statement id="288.txt-12">
+      <text>pappi dusky white, 5–13 mm.</text>
+      <structure id="o5140" name="pappus">
+        <character name="coloration" value="white" modifier="dusky" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="13" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="288.txt-13">
+      <text>2 n = 22, 33, 44, 55, 66, 88.</text>
+      <structure id="o5141" name="chromosome">
+        <character name="count" value="22" />
+        <character name="count" value="33" />
+        <character name="count" value="44" />
+        <character name="count" value="55" />
+        <character name="count" value="66" />
+        <character name="count" value="88" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Subspecies 4 (4 in the flora):</number_of_infrataxa>
+  <general_distribution>w North America.</general_distribution>
+  <discussion>Crepis modocensis is recognized by its tomentose or coarsely bristly stems and petioles, rosettes of deeply pinnately lobed leaves, rather large heads with relatively many phyllaries, and blackish cypselae.</discussion>
+  <couplet>1.Setae of stems and petioles yellowish, ± straight, (those of phyllaries blackish or 0); cypselae tapered, not distinctly beaked.</couplet>
+  <couplet>2.Stems branching near middle; involucres 11–16 mm; pappi 5–10 mm11a. Crepis modocensis subsp. modocensis</couplet>
+  <couplet>2.Stems low, branching proximally; involucres 13–21 mm; pappi 9–13 mm11d. Crepis modocensis subsp. subacaulis</couplet>
+  <couplet>1.Setae of stems and petioles (and phyllaries) whitish, conspicuously curled; cypselae beaked (beaks 1–3 mm).</couplet>
+  <couplet>3.Plants 15–30 cm; involucres 12–17 mm; pappi 7–10 mm11c. Crepis modocensis subsp. rostrata</couplet>
+  <couplet>3.Plants 6–20 cm; involucres 11–13 mm; pappi 5– 7 mm11b. Crepis modocensis subsp. glareosa</couplet>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

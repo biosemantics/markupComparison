@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>114.</number>
+  <genus_name>CLADANTHUS</genus_name>
+  <authority>Cassini</authority>
+  <place_of_publication>Bull. Sci. Soc. Philom. Paris 1816: 199. 1816</place_of_publication>
+  <common_name />
+  <derivation>Derivation not given; possibly Greek klados , branch, and anthos , flower, alluding to branching of stems at bases of sessile heads in original species</derivation>
+  <author_of_tribe_genus>Linda E. Watson</author_of_tribe_genus>
+  <synonym_of_genus_name>Ormenis (Cassini) Cassini</synonym_of_genus_name>
+  <description>
+    <statement id="826.txt-0">
+      <text>Annuals [perennials, subshrubs], 10–60+ cm (usually aromatic).</text>
+      <structure id="o17382" name="whole_organism">
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="60" to_unit="cm" upper_restricted="false" />
+        <character name="life_style" value="annual" />
+      </structure>
+    </statement>
+    <statement id="826.txt-1">
+      <text>Stems usually 1, usually erect [prostrate], branched [immediately proximal to sessile, terminal heads], puberulent or villous to arachnose (hairs basifixed), glabrescent.</text>
+      <structure id="o17383" name="stem">
+        <character name="count" value="1" modifier="usually" />
+        <character name="orientation" value="erect" modifier="usually" />
+        <character name="architecture_or_shape" value="branched" />
+        <character name="pubescence" value="puberulent" />
+        <character name="pubescence" value="villous" />
+        <character name="pubescence" value="arachnose" />
+        <character name="pubescence" value="glabrescent" />
+      </structure>
+    </statement>
+    <statement id="826.txt-2">
+      <text>Leaves mostly cauline;</text>
+    </statement>
+    <statement id="826.txt-3">
+      <text>alternate;</text>
+    </statement>
+    <statement id="826.txt-4">
+      <text>petiolate (proximal) or sessile (distal);</text>
+      <structure id="o17384" name="leaf">
+        <character name="insertion_or_position" value="cauline" modifier="mostly" />
+        <character name="arrangement" value="alternate" />
+        <character name="architecture" value="petiolate" />
+        <character name="architecture" value="sessile" />
+      </structure>
+    </statement>
+    <statement id="826.txt-5">
+      <text>blades obovate or spatulate to oblong or linear, 1–2(–3)-pinnately lobed (ultimate lobes ± linear to filiform), ultimate margins entire or dentate, faces villous to arachnose, glabrescent.</text>
+      <structure id="o17385" name="blade">
+        <character char_type="range_value" name="shape" from="spatulate" to="oblong or linear" />
+        <character name="shape" value="obovate" />
+        <character name="shape" value="spatulate" />
+        <character name="shape" value="oblong" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="lobed" modifier="1-2-3-pinnately" />
+      </structure>
+      <structure id="o17386" name="margin" constraint="ultimate">
+        <character name="shape" value="entire" />
+        <character name="shape" value="dentate" />
+      </structure>
+      <structure id="o17387" name="face">
+        <character name="pubescence" value="villous" />
+        <character name="pubescence" value="arachnose" />
+        <character name="pubescence" value="glabrescent" />
+      </structure>
+    </statement>
+    <statement id="826.txt-6">
+      <text>Heads radiate, borne singly or in lax, corymbiform arrays.</text>
+      <structure id="o17388" name="head">
+        <character name="architecture_or_arrangement" value="radiate" />
+        <character name="arrangement" value="singly" />
+        <character name="arrangement" value="in lax , corymbiform arrays" />
+      </structure>
+      <structure id="o17389" name="array">
+        <character name="architecture" value="lax" />
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <relation id="r1862" name="in" from="o17388" to="o17389" negation="false" />
+    </statement>
+    <statement id="826.txt-7">
+      <text>Involucres hemispheric or broader, 5–8[–12+] mm diam.</text>
+      <structure id="o17390" name="involucre">
+        <character name="shape" value="hemispheric" />
+        <character name="size" value="broader" />
+        <character char_type="range_value" name="atypical_size" from="8" to="12" from_unit="mm" to_unit="mm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="826.txt-8">
+      <text>Phyllaries persistent, 16–24+ in 2–3+ series, lance-linear or lanceolate to oblong or obovate, subequal, margins and apices (hyaline) scarious (apices ± dilated, rounded, abaxial faces ± villous or arachnose, glabrescent).</text>
+      <structure id="o17391" name="phyllary">
+        <character name="duration" value="persistent" />
+        <character char_type="range_value" name="count" from="16" to="24" upper_restricted="false" constraint="in series" constraintid="o17392" />
+        <character char_type="range_value" name="shape" from="lanceolate" to="oblong or obovate" />
+        <character name="shape" value="lance-linear" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="oblong" />
+        <character name="shape" value="obovate" />
+        <character name="size" value="subequal" />
+      </structure>
+      <structure id="o17392" name="series">
+        <character char_type="range_value" name="count" from="2" to="3" upper_restricted="false" />
+      </structure>
+      <structure id="o17393" name="margin" />
+      <structure id="o17394" name="apex">
+        <character name="texture" value="scarious" />
+      </structure>
+    </statement>
+    <statement id="826.txt-9">
+      <text>Receptacles hemispheric to narrowly columnar or conic, paleate;</text>
+      <structure id="o17395" name="receptacle">
+        <character char_type="range_value" name="shape" from="hemispheric" to="narrowly columnar or conic" />
+        <character name="shape" value="hemispheric" />
+        <character name="shape" value="columnar" modifier="narrowly" />
+        <character name="shape" value="conic" modifier="narrowly" />
+        <character name="architecture" value="paleate" />
+      </structure>
+    </statement>
+    <statement id="826.txt-10">
+      <text>paleae ± folded (carinate, each with central, red-brown resin duct).</text>
+      <structure id="o17396" name="palea">
+        <character name="shape" value="folded" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="826.txt-11">
+      <text>Ray florets 12–18+, neuter or styliferous and sterile;</text>
+      <structure id="o17397" name="floret" constraint="ray">
+        <character char_type="range_value" name="count" from="12" to="18" upper_restricted="false" />
+        <character name="architecture" value="neuter" />
+        <character name="architecture" value="styliferous" />
+        <character name="reproduction" value="sterile" />
+      </structure>
+    </statement>
+    <statement id="826.txt-12">
+      <text>corollas orange, yellow, or white with yellow bases, laminae ± oblong (spreading to reflexed, ± marcescent).</text>
+      <structure id="o17398" name="corolla" />
+      <structure id="o17399" name="base">
+        <character name="coloration" value="orange" />
+        <character name="coloration" value="yellow" />
+      </structure>
+      <structure id="o17400" name="lamina">
+        <character name="shape" value="oblong" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="826.txt-13">
+      <text>Disc florets 40–150[–200+], bisexual, fertile;</text>
+      <structure id="o17401" name="floret" constraint="disc">
+        <character char_type="range_value" name="atypical_count" from="150" to="200" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="40" to="150" />
+        <character name="reproduction" value="bisexual" />
+        <character name="reproduction" value="fertile" />
+      </structure>
+    </statement>
+    <statement id="826.txt-14">
+      <text>corollas orange or yellow, tubes ± cylindric (bases saccate, each obliquely spurred, adaxially clasping distal 0.5+ of cypsela), throats campanulate to funnelform, lobes 5, deltate (apices minutely crested or dilated).</text>
+      <structure id="o17402" name="corolla">
+        <character name="coloration" value="orange" />
+        <character name="coloration" value="yellow" />
+      </structure>
+      <structure id="o17403" name="tube">
+        <character name="shape" value="cylindric" modifier="±" />
+      </structure>
+      <structure id="o17404" name="throat">
+        <character char_type="range_value" name="shape" from="campanulate" to="funnelform" />
+        <character name="shape" value="campanulate" />
+        <character name="shape" value="funnelform" />
+      </structure>
+      <structure id="o17405" name="lobe">
+        <character name="count" value="5" />
+        <character name="shape" value="deltate" />
+      </structure>
+    </statement>
+    <statement id="826.txt-15">
+      <text>Cypselae ± obovoid (apices oblique), weakly flattened (stylopodia sublateral), ribs or nerves (weak):</text>
+      <structure id="o17406" name="cypsela">
+        <character name="shape" value="obovoid" modifier="±" />
+        <character name="shape" value="flattened" modifier="weakly" />
+      </structure>
+      <structure id="o17408" name="nerve" />
+    </statement>
+    <statement id="826.txt-16">
+      <text>2 lateral, 1 adaxial, faces finely striate, glabrous [hairy] (pericarps with myxogenic cells in longitudinal rows, without resin sacs);</text>
+      <structure id="o17407" name="rib">
+        <character name="count" value="2" />
+        <character name="insertion_or_position" value="lateral" />
+        <character name="count" value="1" />
+        <character name="insertion_or_position" value="adaxial" />
+      </structure>
+      <structure id="o17409" name="face">
+        <character name="coloration_or_relief" value="striate" modifier="finely" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="826.txt-17">
+      <text>pappi 0.</text>
+      <structure id="o17410" name="pappus">
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+    <statement id="826.txt-18">
+      <text>x = 9.</text>
+      <structure id="o17411" name="chromosome">
+        <character name="count" value="9" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species ca. 5 (1 in the flora):</number_of_infrataxa>
+  <introduced>introduced;</introduced>
+  <general_distribution>s Europe</general_distribution>
+  <general_distribution>sw Asia</general_distribution>
+  <general_distribution>n Africa</general_distribution>
+  <general_distribution>introduced also in South America</general_distribution>
+  <general_distribution>elsewhere in Old World.</general_distribution>
+  <references>SELECTED REFERENCE Oberprieler, C. and R. Vogt. 2002. Cladanthus. In: Med Checklist notulae, 21. Willdenowia 32: 195. 208.</references>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

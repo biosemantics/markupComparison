@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>27.</number>
+  <species_name>Artemisia biennis</species_name>
+  <authority>Willdenow</authority>
+  <place_of_publication>Phytographia, 11. 1794</place_of_publication>
+  <common_name>Biennial wormwood, armoise bisannuelle</common_name>
+  <synonym_of_species_name>Artemisia biennis var. diffusa Dorn</synonym_of_species_name>
+  <description>
+    <statement id="894.txt-0">
+      <text>Annuals or biennials, (10–)30–80(–150) cm, not aromatic.</text>
+      <structure id="o18513" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="10" to="30" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_size" from="80" to="150" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="30" from_unit="cm" to="80" to_unit="cm" />
+        <character name="odor" value="aromatic" modifier="not" />
+        <character name="life_style" value="annual" />
+        <character name="life_style" value="biennial" />
+      </structure>
+    </statement>
+    <statement id="894.txt-1">
+      <text>Stems 1, erect, often reddish, simple (finely striate), glabrous.</text>
+      <structure id="o18515" name="stem">
+        <character name="count" value="1" />
+        <character name="orientation" value="erect" />
+        <character name="coloration" value="reddish" modifier="often" />
+        <character name="architecture" value="simple" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="894.txt-2">
+      <text>Leaves cauline, green or yellow-green (sessile);</text>
+      <structure id="o18516" name="leaf">
+        <character name="insertion_or_position" value="cauline" />
+        <character name="coloration" value="green" />
+        <character name="coloration" value="green" modifier="yellow" />
+      </structure>
+    </statement>
+    <statement id="894.txt-3">
+      <text>blades broadly lanceolate to ovate, 4–10(–13) × 1.5–4 cm, 1–2-pinnately lobed (ultimate lobes coarsely toothed), faces glabrous.</text>
+      <structure id="o18517" name="blade">
+        <character char_type="range_value" name="shape" from="broadly lanceolate" to="ovate" />
+        <character name="shape" value="lanceolate" modifier="broadly" />
+        <character name="shape" value="ovate" modifier="broadly" />
+        <character char_type="range_value" name="atypical_length" from="10" to="13" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="4" from_unit="cm" to="10" to_unit="cm" />
+        <character char_type="range_value" name="width" from="1.5" from_unit="cm" to="4" to_unit="cm" />
+        <character name="shape" value="lobed" modifier="1-2-pinnately" />
+      </structure>
+      <structure id="o18518" name="face">
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="894.txt-4">
+      <text>Heads (erect, subsessile) in (leafy) paniculiform to spiciform arrays 12–35(–40) × 2–4 cm (lateral branches relatively short).</text>
+      <structure id="o18519" name="head" />
+      <structure id="o18520" name="array">
+        <character char_type="range_value" name="architecture" from="paniculiform" to="spiciform" />
+        <character name="architecture" value="paniculiform" />
+        <character name="architecture" value="spiciform" />
+        <character char_type="range_value" name="atypical_length" from="35" to="40" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="12" from_unit="cm" to="35" to_unit="cm" />
+        <character char_type="range_value" name="width" from="2" from_unit="cm" to="4" to_unit="cm" />
+      </structure>
+      <relation id="r1956" name="in" from="o18519" to="o18520" negation="false" />
+    </statement>
+    <statement id="894.txt-5">
+      <text>Involucres globose, 2–4 × (1.5–)2–4 mm.</text>
+      <structure id="o18521" name="involucre">
+        <character name="shape" value="globose" />
+        <character char_type="range_value" name="length" from="2" from_unit="mm" to="4" to_unit="mm" />
+        <character char_type="range_value" name="atypical_width" from="1.5" to="2" from_unit="mm" to_unit="mm" to_inclusive="false" />
+        <character char_type="range_value" name="width" from="2" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="894.txt-6">
+      <text>Phyllaries (green) broadly elliptic to obovate, glabrous.</text>
+      <structure id="o18522" name="phyllary">
+        <character char_type="range_value" name="shape" from="broadly elliptic" to="obovate" />
+        <character name="shape" value="elliptic" modifier="broadly" />
+        <character name="shape" value="obovate" modifier="broadly" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="894.txt-7">
+      <text>Florets:</text>
+      <structure id="o18523" name="floret" />
+    </statement>
+    <statement id="894.txt-8">
+      <text>pistillate 6–25;</text>
+      <structure id="o18524" name="floret" constraint="pistillate">
+        <character char_type="range_value" name="count" from="6" to="25" />
+      </structure>
+    </statement>
+    <statement id="894.txt-9">
+      <text>bisexual 15–40;</text>
+      <structure id="o18525" name="floret" constraint="bisexual">
+        <character char_type="range_value" name="count" from="15" to="40" />
+      </structure>
+    </statement>
+    <statement id="894.txt-10">
+      <text>corollas pale yellow, ca. 2 mm, glabrous.</text>
+      <structure id="o18526" name="corolla">
+        <character name="coloration" value="yellow" modifier="pale" />
+        <character name="size" value="2" unit="mm" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="894.txt-11">
+      <text>Cypselae ellipsoid (4–5-nerved), 0.2–0.9 mm, glabrous.</text>
+      <structure id="o18527" name="cypsela">
+        <character name="shape" value="ellipsoid" />
+        <character char_type="range_value" name="size" from="0.2" from_unit="mm" to="0.9" to_unit="mm" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="894.txt-12">
+      <text>2 n = 18.</text>
+      <structure id="o18528" name="chromosome">
+        <character name="count" value="18" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <flowering_time>nov</flowering_time>
+  <habitat>disturbed habitats</habitat>
+  <habitat>margins of vernal pools</habitat>
+  <habitat>desert flats</habitat>
+  <habitat>usually clay or silty soils</habitat>
+  <elevation>600–2000 m;</elevation>
+  <ca_distribution>Alta.</ca_distribution>
+  <ca_distribution>B.C.</ca_distribution>
+  <ca_distribution>Man.</ca_distribution>
+  <ca_distribution>N.B.</ca_distribution>
+  <ca_distribution>N.W.T.</ca_distribution>
+  <ca_distribution>N.S.</ca_distribution>
+  <ca_distribution>Ont.</ca_distribution>
+  <ca_distribution>P.E.I.</ca_distribution>
+  <ca_distribution>Que.</ca_distribution>
+  <ca_distribution>Sask.</ca_distribution>
+  <ca_distribution>Yukon</ca_distribution>
+  <us_distribution>Alaska</us_distribution>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Conn.</us_distribution>
+  <us_distribution>Del.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Ill.</us_distribution>
+  <us_distribution>Ind.</us_distribution>
+  <us_distribution>Iowa</us_distribution>
+  <us_distribution>Kans.</us_distribution>
+  <us_distribution>Ky.</us_distribution>
+  <us_distribution>Maine</us_distribution>
+  <us_distribution>Md.</us_distribution>
+  <us_distribution>Mass.</us_distribution>
+  <us_distribution>Mich.</us_distribution>
+  <us_distribution>Minn.</us_distribution>
+  <us_distribution>Mo.</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>Nebr.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>N.H.</us_distribution>
+  <us_distribution>N.J.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>N.Dak.</us_distribution>
+  <us_distribution>Ohio</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <us_distribution>R.I.</us_distribution>
+  <us_distribution>S.Dak.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Vt.</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <us_distribution>W.Va.</us_distribution>
+  <us_distribution>Wis.</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <global_distribution>introduced in Europe</global_distribution>
+  <global_distribution>Pacific Islands (New Zealand).</global_distribution>
+  <discussion>Artemisia biennis is naturalized and weedy in the eastern portion of its range. It is morphologically similar to A. annua, differing primarily in the coarser leaf lobes and larger heads that are sessile in axils of leaflike bracts. Artemisia biennis is considered native to the northwest United States; it may be introduced in other parts of its range. The type specimen is a horticultural specimen from New Zealand.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

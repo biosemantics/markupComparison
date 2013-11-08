@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>38.</number>
+  <genus_name>CHONDRILLA</genus_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 796. 1753; Gen. Pl. ed. 5, 348. 1754</place_of_publication>
+  <common_name>Gum or Spanish succory</common_name>
+  <derivation>Name used by Dioscorides for plant that exudes milky juice or gum</derivation>
+  <author_of_tribe_genus>L. D. Gottlieb</author_of_tribe_genus>
+  <description>
+    <statement id="333.txt-0">
+      <text>Perennials, 40–150 cm;</text>
+    </statement>
+    <statement id="333.txt-1">
+      <text>taprooted.</text>
+      <structure id="o6158" name="whole_organism">
+        <character char_type="range_value" name="size" from="40" from_unit="cm" to="150" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+        <character name="architecture" value="taprooted" />
+      </structure>
+    </statement>
+    <statement id="333.txt-2">
+      <text>Stems 1–6, erect or ascending, much branched, basally setose, distally glabrous .</text>
+      <structure id="o6159" name="stem">
+        <character char_type="range_value" name="count" from="1" to="6" />
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="ascending" />
+        <character name="architecture_or_shape" value="branched" modifier="much" />
+        <character name="pubescence" value="setose" modifier="basally" />
+        <character name="pubescence" value="glabrous" modifier="distally" />
+      </structure>
+    </statement>
+    <statement id="333.txt-3">
+      <text>Leaves basal and cauline;</text>
+    </statement>
+    <statement id="333.txt-4">
+      <text>petiolate (basal and proximal cauline, petioles winged);</text>
+      <structure id="o6160" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="architecture" value="petiolate" />
+      </structure>
+    </statement>
+    <statement id="333.txt-5">
+      <text>blades (at least basal) oblanceolate, pinnatifid (often runcinate) or coarsely and irregularly toothed (apices acute; distal cauline reduced, entire).</text>
+      <structure id="o6161" name="blade">
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="pinnatifid" />
+        <character name="shape" value="toothed" modifier="irregularly" />
+      </structure>
+    </statement>
+    <statement id="333.txt-6">
+      <text>Heads (terminal and axillary) usually borne singly (sometimes clustered along stems and branches).</text>
+      <structure id="o6162" name="head">
+        <character name="arrangement" value="singly" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="333.txt-7">
+      <text>Peduncles (nearly 0) not inflated, not bracteate.</text>
+      <structure id="o6163" name="peduncle">
+        <character name="shape" value="inflated" modifier="not" />
+        <character name="architecture" value="bracteate" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="333.txt-8">
+      <text>Calyculi of 3–4, minute bractlets.</text>
+      <structure id="o6164" name="calyculus" />
+      <structure id="o6165" name="bractlet">
+        <character char_type="range_value" name="count" from="3" to="4" />
+        <character name="size" value="minute" />
+      </structure>
+      <relation id="r773" name="consist_of" from="o6164" to="o6165" negation="false" />
+    </statement>
+    <statement id="333.txt-9">
+      <text>Involucres cylindric, 2.5–5 mm diam.</text>
+      <structure id="o6166" name="involucre">
+        <character name="shape" value="cylindric" />
+        <character char_type="range_value" name="size" from="2.5" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="333.txt-10">
+      <text>Phyllaries 5–9 in ± 1 series, linear-lanceolate, equal.</text>
+      <structure id="o6167" name="phyllary">
+        <character char_type="range_value" name="count" from="5" to="9" constraint="in series" constraintid="o6168" />
+        <character name="shape" value="linear-lanceolate" />
+        <character name="size" value="equal" />
+      </structure>
+      <structure id="o6168" name="series">
+        <character name="count" value="1" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="333.txt-11">
+      <text>Receptacles pitted, glabrous, epaleate.</text>
+      <structure id="o6169" name="receptacle">
+        <character name="relief" value="pitted" />
+        <character name="pubescence" value="glabrous" />
+        <character name="architecture" value="epaleate" />
+      </structure>
+    </statement>
+    <statement id="333.txt-12">
+      <text>Florets 7–15;</text>
+      <structure id="o6170" name="floret">
+        <character char_type="range_value" name="count" from="7" to="15" />
+      </structure>
+    </statement>
+    <statement id="333.txt-13">
+      <text>corollas (soon withering) yellow.</text>
+      <structure id="o6171" name="corolla">
+        <character name="coloration" value="yellow" />
+      </structure>
+    </statement>
+    <statement id="333.txt-14">
+      <text>Cypselae tan to black, nearly cylindric, beaks slender or stout, ribs 5+ (with alternating grooves), faces glabrous;</text>
+      <structure id="o6172" name="cypsela">
+        <character char_type="range_value" name="coloration" from="tan" to="black" />
+        <character name="coloration" value="tan" />
+        <character name="coloration" value="black" />
+        <character name="shape" value="cylindric" modifier="nearly" />
+      </structure>
+      <structure id="o6173" name="beak">
+        <character name="size" value="slender" />
+        <character name="fragility" value="stout" />
+      </structure>
+      <structure id="o6174" name="rib">
+        <character name="count" char_type="range_value" from="5" upper_restricted="false" />
+      </structure>
+      <structure id="o6175" name="face">
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="333.txt-15">
+      <text>pappi persistent (on expanded discs at tips of beaks), of 40–50+, distinct, white, smooth bristles in 1 series.</text>
+      <structure id="o6176" name="pappus">
+        <character name="duration" value="persistent" />
+      </structure>
+      <structure id="o6177" name="bristle">
+        <character char_type="range_value" name="count" from="40" to="50" upper_restricted="false" />
+        <character name="fusion" value="distinct" />
+        <character name="coloration" value="white" />
+        <character name="architecture_or_relief" value="smooth" />
+      </structure>
+      <relation id="r774" name="consist_of" from="o6176" to="o6177" negation="false" />
+      <structure id="o6178" name="series">
+        <character name="count" value="1" />
+      </structure>
+      <relation id="r775" name="in" from="o6177" to="o6178" negation="false" />
+    </statement>
+    <statement id="333.txt-16">
+      <text>x = 5.</text>
+      <structure id="o6179" name="chromosome">
+        <character name="count" value="5" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species ca. 25 (1 in the flora):</number_of_infrataxa>
+  <introduced>introduced;</introduced>
+  <general_distribution>Eurasia.</general_distribution>
+  <references>SELECTED REFERENCE Heap, J. W. 1993. Control of rush skeletonweed (Chondrilla juncea) with herbicides. Weed Technol. 7: 954–959.</references>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

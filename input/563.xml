@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>10.</number>
+  <species_name>Stephanomeria pauciflora</species_name>
+  <authority>(Torrey) A. Nelson</authority>
+  <place_of_publication>in J. M. Coulter and A. Nelson, New Man. Bot. Centr. Rocky Mt., 588. 1909</place_of_publication>
+  <common_name>Prairie skeletonplant, brownplume or few-flowered wirelettuce</common_name>
+  <synonym_of_species_name>Prenanthes pauciflora Torrey, Ann. Lyceum Nat. Hist. New York 2: 210. 1827; Stephanomeria cinerea (S. F. Blake) S. F. Blake; S. lygodesmoides M. E. Jones ex L. F. Henderson; S. pauciflora var. parishii (Jepson) Munz</synonym_of_species_name>
+  <description>
+    <statement id="563.txt-0">
+      <text>Perennials, 20–50 cm (caudices woody).</text>
+      <structure id="o11598" name="whole_organism">
+        <character char_type="range_value" name="size" from="20" from_unit="cm" to="50" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="563.txt-1">
+      <text>Stems 1–5+, divaricately and intricately branched (often forming dense bushes), usually glabrous, rarely tomentose.</text>
+      <structure id="o11599" name="stem">
+        <character char_type="range_value" name="count" from="1" to="5" upper_restricted="false" />
+        <character name="architecture_or_shape" value="branched" modifier="intricately" />
+        <character name="pubescence" value="glabrous" modifier="usually" />
+        <character name="pubescence" value="tomentose" modifier="rarely" />
+      </structure>
+    </statement>
+    <statement id="563.txt-2">
+      <text>Leaves withered at flowering;</text>
+      <structure id="o11600" name="leaf">
+        <character name="duration" value="withered" modifier="at flowering" />
+      </structure>
+    </statement>
+    <statement id="563.txt-3">
+      <text>basal blades linear-lanceolate, runcinate, 3–7 cm, margins pinnately lobed (faces glabrous);</text>
+      <structure id="o11601" name="blade" constraint="basal">
+        <character name="shape" value="linear-lanceolate" />
+        <character name="shape" value="runcinate" />
+        <character char_type="range_value" name="size" from="3" from_unit="cm" to="7" to_unit="cm" />
+      </structure>
+      <structure id="o11602" name="margin">
+        <character name="shape" value="lobed" modifier="pinnately" />
+      </structure>
+    </statement>
+    <statement id="563.txt-4">
+      <text>cauline much reduced and bractlike.</text>
+      <structure id="o11603" name="leaf" constraint="cauline">
+        <character name="size" value="reduced" modifier="much" />
+        <character name="shape" value="bractlike" />
+      </structure>
+    </statement>
+    <statement id="563.txt-5">
+      <text>Heads borne singly along branches.</text>
+      <structure id="o11604" name="head" />
+      <structure id="o11605" name="branch" />
+      <relation id="r1342" name="borne along" from="o11604" to="o11605" negation="false" />
+    </statement>
+    <statement id="563.txt-6">
+      <text>Peduncles 3–10 mm.</text>
+      <structure id="o11606" name="peduncle">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="563.txt-7">
+      <text>Calyculi of appressed bractlets.</text>
+      <structure id="o11607" name="calyculus" />
+      <structure id="o11608" name="bractlet">
+        <character name="orientation" value="appressed" />
+      </structure>
+      <relation id="r1343" name="consist_of" from="o11607" to="o11608" negation="false" />
+    </statement>
+    <statement id="563.txt-8">
+      <text>Involucres 8–11 mm (phyllaries 4–6, glabrous).</text>
+      <structure id="o11609" name="involucre">
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="11" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="563.txt-9">
+      <text>Florets 5–6.</text>
+      <structure id="o11610" name="floret">
+        <character char_type="range_value" name="count" from="5" to="6" />
+      </structure>
+    </statement>
+    <statement id="563.txt-10">
+      <text>Cypselae tan , 3.5–5 mm, faces tuberculate, grooved;</text>
+      <structure id="o11611" name="cypsela">
+        <character name="coloration" value="tan" />
+        <character char_type="range_value" name="size" from="3.5" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+      <structure id="o11612" name="face">
+        <character name="relief" value="tuberculate" />
+        <character name="architecture" value="grooved" />
+      </structure>
+    </statement>
+    <statement id="563.txt-11">
+      <text>pappi of 15–20, usually tan, rarely white, bristles (connate in groups of 2–4, bases persistent), plumose on distal 80%.</text>
+      <structure id="o11613" name="pappus" constraint="of 15-20, usually tan">
+        <character name="coloration" value="white" modifier="rarely" />
+      </structure>
+      <structure id="o11614" name="bristle">
+        <character name="architecture" value="plumose" modifier="on distal 80%" />
+      </structure>
+    </statement>
+    <statement id="563.txt-12">
+      <text>2 n = 16.</text>
+      <structure id="o11615" name="chromosome">
+        <character name="count" value="16" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>may</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>sandy, gravelly washes and slopes in desert shrub communities</habitat>
+  <habitat>juniper woodlands</habitat>
+  <habitat>open, sandy short-grass plains</habitat>
+  <elevation>200–1500 m;</elevation>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Kans.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>Okla.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <global_distribution>Mexico (Chihuahua).</global_distribution>
+  <global_distribution>Mexico (Sonora).</global_distribution>
+  <discussion>Stephanomeria pauciflora generally grows as an intricately branched, often rounded bush. Occasional plants, usually from Arizona, New Mexico, Texas, and southern Utah, have long, flexuous stems and branches, an architecture that resembles one of the typical forms of S. tenuifolia. Some plants of S. pauciflora have white pappi, also typical of S. tenuifolia. It is not known if these plants represent uncommon and unusual individuals or if they are from populations in which all plants have those traits. It is also not known whether such plants of S. pauciflora grow near populations of S. tenuifolia; if so, they may result from interspecific hybridization. That is a possibility; experimental hybrid plants produced by crossing individuals from the two species were about 20% fertile. Such fertility suggests the species are sufficiently compatible that fully fertile segregants with variously intermediate morphologies could be expected where they hybridize in nature. The experimental crosses were made reciprocally between S. pauciflora from Riverside County, California (L. D. Gottlieb 6653), and S. tenuifolia from Wheeler County, Oregon (L. D. Gottlieb 6692); specimens of the six F1 hybrid plants that were produced are deposited at DAV. Plants of S. pauciflora that are densely tomentose throughout are occasionally found, particularly in the deserts of California and Nevada, and have been named S. cinerea or S. pauciflora var. parishii.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

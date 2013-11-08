@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>137.</number>
+  <genus_name>LEUCANTHEMUM</genus_name>
+  <authority>Miller</authority>
+  <place_of_publication>Gard. Dict. Abr. ed. 4, vol. 2. 1754</place_of_publication>
+  <common_name />
+  <derivation>Greek leuco- , white, and anthemon , flower</derivation>
+  <author_of_tribe_genus>John L. Strother</author_of_tribe_genus>
+  <description>
+    <statement id="975.txt-0">
+      <text>Perennials, (10–)40–130(–200+) cm (rhizomatous, roots usually red-tipped).</text>
+      <structure id="o20028" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="10" to="40" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_size" from="130" to="200" from_unit="cm" to_unit="cm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="40" from_unit="cm" to="130" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="975.txt-1">
+      <text>Stems usually 1, erect, simple or branched, glabrous or hairy (hairs basifixed).</text>
+      <structure id="o20029" name="stem">
+        <character name="count" value="1" modifier="usually" />
+        <character name="orientation" value="erect" />
+        <character name="architecture" value="simple" />
+        <character name="architecture" value="branched" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="hairy" />
+      </structure>
+    </statement>
+    <statement id="975.txt-2">
+      <text>Leaves mostly basal or basal and cauline;</text>
+    </statement>
+    <statement id="975.txt-3">
+      <text>petiolate or sessile;</text>
+      <structure id="o20030" name="leaf">
+        <character name="insertion_or_position" value="basal" modifier="mostly" />
+        <character name="insertion_or_position" value="basal" modifier="mostly" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="architecture" value="petiolate" />
+        <character name="architecture" value="sessile" />
+      </structure>
+    </statement>
+    <statement id="975.txt-4">
+      <text>blades obovate to lanceolate or linear, often 1[–2+]-pinnately lobed or toothed, ultimate margins dentate or entire, faces glabrous or sparsely hairy.</text>
+      <structure id="o20031" name="blade">
+        <character char_type="range_value" name="shape" from="obovate" to="lanceolate or linear" />
+        <character name="shape" value="obovate" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="lobed" modifier="1-2+-pinnately" />
+        <character name="shape" value="toothed" modifier="1-2+-pinnately" />
+      </structure>
+      <structure id="o20032" name="margin" constraint="ultimate">
+        <character name="shape" value="dentate" />
+        <character name="shape" value="entire" />
+      </structure>
+      <structure id="o20033" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="hairy" modifier="sparsely" />
+      </structure>
+    </statement>
+    <statement id="975.txt-6">
+      <text>Involucres hemispheric or broader, 12–35+ mm diam.</text>
+      <structure id="o20034" name="involucre">
+        <character name="shape" value="hemispheric" />
+        <character name="size" value="broader" />
+        <character char_type="range_value" name="size" from="12" from_unit="mm" to="35" to_unit="mm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="975.txt-7">
+      <text>Phyllaries persistent, 35–60+ in 3–4+ series, distinct, ovate or lance-ovate to oblanceolate, unequal, margins and apices (colorless or pale to dark brown) scarious (tips not notably dilated; abaxial faces glabrous or sparsely hairy).</text>
+      <structure id="o20035" name="phyllary">
+        <character name="duration" value="persistent" />
+        <character char_type="range_value" name="count" from="35" to="60" upper_restricted="false" constraint="in series" constraintid="o20036" />
+        <character name="fusion" value="distinct" />
+        <character char_type="range_value" name="shape" from="lance-ovate" to="oblanceolate" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="lance-ovate" />
+        <character name="shape" value="oblanceolate" />
+        <character name="size" value="unequal" />
+      </structure>
+      <structure id="o20036" name="series">
+        <character char_type="range_value" name="count" from="3" to="4" upper_restricted="false" />
+      </structure>
+      <structure id="o20037" name="margin" />
+      <structure id="o20038" name="apex">
+        <character name="texture" value="scarious" />
+      </structure>
+    </statement>
+    <statement id="975.txt-8">
+      <text>Receptacles convex, epaleate.</text>
+      <structure id="o20039" name="receptacle">
+        <character name="shape" value="convex" />
+        <character name="architecture" value="epaleate" />
+      </structure>
+    </statement>
+    <statement id="975.txt-9">
+      <text>Ray florets usually 13–34+, rarely 0, pistillate, fertile;</text>
+      <structure id="o20040" name="floret" constraint="ray">
+        <character char_type="range_value" name="count" from="13" to="34" upper_restricted="false" modifier="usually" />
+        <character name="count" value="0" modifier="rarely" />
+        <character name="architecture" value="pistillate" />
+        <character name="reproduction" value="fertile" />
+      </structure>
+    </statement>
+    <statement id="975.txt-10">
+      <text>corollas white (drying pinkish), laminae ovate to linear.</text>
+      <structure id="o20041" name="corolla">
+        <character name="coloration" value="white" />
+      </structure>
+      <structure id="o20042" name="lamina">
+        <character char_type="range_value" name="shape" from="ovate" to="linear" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="linear" />
+      </structure>
+    </statement>
+    <statement id="975.txt-11">
+      <text>Disc florets 120–200+, bisexual, fertile;</text>
+      <structure id="o20043" name="floret" constraint="disc">
+        <character char_type="range_value" name="count" from="120" to="200" upper_restricted="false" />
+        <character name="reproduction" value="bisexual" />
+        <character name="reproduction" value="fertile" />
+      </structure>
+    </statement>
+    <statement id="975.txt-12">
+      <text>corollas yellow, tubes ± cylindric (proximally swollen, becoming spongy in fruit), throats campanulate, lobes 5, deltate (without resin sacs).</text>
+      <structure id="o20044" name="corolla">
+        <character name="coloration" value="yellow" />
+      </structure>
+      <structure id="o20045" name="tube">
+        <character name="shape" value="cylindric" modifier="±" />
+      </structure>
+      <structure id="o20046" name="throat">
+        <character name="shape" value="campanulate" />
+      </structure>
+      <structure id="o20047" name="lobe">
+        <character name="count" value="5" />
+        <character name="shape" value="deltate" />
+      </structure>
+    </statement>
+    <statement id="975.txt-13">
+      <text>Cypselae ± columnar to obovoid, ribs ± 10, faces glabrous (pericarps with myxogenic cells on ribs and resin sacs between ribs; embryo sac development monosporic);</text>
+      <structure id="o20048" name="cypsela">
+        <character char_type="range_value" name="shape" from="columnar" to="obovoid" modifier="±" />
+        <character name="shape" value="columnar" modifier="±" />
+        <character name="shape" value="obovoid" modifier="±" />
+      </structure>
+      <structure id="o20049" name="rib">
+        <character name="count" value="10" modifier="±" />
+      </structure>
+      <structure id="o20050" name="face">
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="975.txt-14">
+      <text>pappi 0 (wall tissue of ray cypselae sometimes produced as coronas or auricles on some cypselae).</text>
+      <structure id="o20051" name="pappus">
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+    <statement id="975.txt-15">
+      <text>x = 9.</text>
+      <structure id="o20052" name="chromosome">
+        <character name="count" value="9" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species 20–40+ (3 in the flora):</number_of_infrataxa>
+  <introduced>introduced;</introduced>
+  <general_distribution>mostly temperate Europe (some widely cultivated and sparingly adventive).</general_distribution>
+  <discussion>The three leucanthemums recognized here are weakly distinct and are sometimes included (with a dozen or more others) in a single, polymorphic Leucanthemum vulgare.</discussion>
+  <references>SELECTED REFERENCE Vogt, R. 1991. Die Gattung Leucanthemum (Compositae–Anthemideae) auf der Iberischen Halbinsel. Ruizia 10: 1–261.</references>
+  <key>1.Blades of basal leaves usually pinnately lobed (lobes 3–7+) and/or irregularly toothed; margins of mid-stem leaves usually irregularly toothed proximally and distally1. Leucanthemum vulgare</key>
+  <key>1.Blades of basal leaves not lobed, usually toothed, rarely entire; margins of mid-stem leaves usually entire proximally, regularly serrate distally.</key>
+  <key>2.Blades of cauline leaves oblanceolate to lanceolate or linear, 50–120+ × 8–22+ mm; larger phyllaries 2–3 mm wide; ray cypselae 2–3(–4 mm), apices usually bare, rarely adaxially auriculate2. Leucanthemum maximum</key>
+  <key>2.Blades of cauline leaves elliptic to oblanceolate, 30–120+ × 12–25(–35+) mm; larger phyllaries 4–5 mm wide; ray cypselae 3–4 mm, apices usually adaxially auriculate 3. Leucanthemum lacustre</key>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>12e.</number>
+  <variety_name>Malacothrix saxatilis (Nuttall) Torrey &amp; A. Gray var. commutata</variety_name>
+  <authority>(Torrey &amp; A. Gray) Ferris</authority>
+  <place_of_publication>Aliso 4: 100. 1958</place_of_publication>
+  <synonym_of_variety_name>Malacothrix commutata Torrey &amp; A. Gray, Fl. N. Amer. 2: 487. 1843</synonym_of_variety_name>
+  <description>
+    <statement id="484.txt-0">
+      <text>Plants rhizomatous or with woody caudices.</text>
+      <structure id="o9657" name="whole_organism">
+        <character name="architecture" value="rhizomatous" />
+        <character name="architecture" value="with woody caudices" />
+        <character name="life_style" value="plant" />
+      </structure>
+      <structure id="o9658" name="caudex" constraint="woody" />
+      <relation id="r1118" name="with" from="o9657" to="o9658" negation="false" />
+    </statement>
+    <statement id="484.txt-1">
+      <text>Herbage glabrous or ± arachnose.</text>
+      <structure id="o9659" name="herbage">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="arachnose" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="484.txt-2">
+      <text>Stems 1 (plants rhizomatous) or 2–3+ (plants with woody caudices), erect, freely branched, herbaceous, relatively leafy distally.</text>
+      <structure id="o9660" name="stem">
+        <character name="count" value="1" />
+        <character char_type="range_value" name="count" from="2" to="3" upper_restricted="false" />
+        <character name="orientation" value="erect" />
+        <character name="architecture_or_shape" value="branched" modifier="freely" />
+        <character name="habit_or_texture" value="herbaceous" />
+        <character name="architecture" value="leafy" modifier="relatively ; distally" />
+      </structure>
+    </statement>
+    <statement id="484.txt-3">
+      <text>Cauline leaves:</text>
+      <structure id="o9661" name="leaf" constraint="cauline" />
+    </statement>
+    <statement id="484.txt-4">
+      <text>proximal not pinnately lobed (lanceolate to lance-linear, margins entire or denticulate, apices acute to acuminate);</text>
+      <structure id="o9662" name="leaf" constraint="proximal cauline">
+        <character name="shape" value="lobed" modifier="not pinnately" />
+      </structure>
+    </statement>
+    <statement id="484.txt-5">
+      <text>distal lanceolate or elliptic to linear, margins entire or denticulate, apices acute to acuminate.</text>
+      <structure id="o9663" name="leaf" constraint="distal cauline">
+        <character name="shape" value="lanceolate" />
+        <character name="arrangement_or_shape" value="elliptic" />
+        <character name="arrangement_or_shape" value="linear" />
+      </structure>
+      <structure id="o9664" name="margin">
+        <character name="shape" value="entire" />
+        <character name="shape" value="denticulate" />
+      </structure>
+      <structure id="o9665" name="apex">
+        <character char_type="range_value" name="shape" from="acute" to="acuminate" />
+        <character name="shape" value="acute" />
+        <character name="shape" value="acuminate" />
+      </structure>
+    </statement>
+    <statement id="484.txt-6">
+      <text>Arrays of heads relatively crowded.</text>
+      <structure id="o9666" name="head">
+        <character name="architecture" value="crowded" modifier="relatively" />
+      </structure>
+    </statement>
+    <statement id="484.txt-7">
+      <text>Cypselae 2–2.5 mm.</text>
+      <structure id="o9667" name="cypsela">
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="2.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="484.txt-8">
+      <text>2 n = 18.</text>
+      <structure id="o9668" name="chromosome">
+        <character name="count" value="18" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <flowering_time>nov</flowering_time>
+  <flowering_time>dec</flowering_time>
+  <flowering_time>winter</flowering_time>
+  <habitat>crumbling shale along roadcuts</habitat>
+  <habitat>in canyons</habitat>
+  <habitat>chaparral</habitat>
+  <habitat>foothill woodlands</habitat>
+  <elevation>200–1600 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <discussion>Variety commutata grows on the eastern face of the Transverse Range (Ventura County), in canyons in the Coast Ranges to Monterey County, and in the Breckenridge Mountains (Kern County).</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>12.</number>
+  <species_name>Stephanomeria tenuifolia</species_name>
+  <authority>(Rafinesque) H. M. Hall</authority>
+  <place_of_publication>Univ. Calif. Publ. Bot. 3: 256. 1907</place_of_publication>
+  <common_name>Slender wirelettuce , narrow-leaved skeletonplant</common_name>
+  <synonym_of_species_name>Ptiloria tenuifolia Rafinesque, Atlantic J. 1: 145. 1832, based on Prenanthes tenuifolia Torrey, Ann. Lyceum Nat. Hist. New York 2: 210. 1827, not Linnaeus 1753; Stephanomeria myrioclada D. C. Eaton; S. neomexicana (Greene) Cory; S. tenuifolia var. myrioclada (D. C. Eaton) Cronquist; S. tenuifolia var. uintaensis Goodrich &amp; S. L. Welsh; S. wrightii A. Gray</synonym_of_species_name>
+  <description>
+    <statement id="565.txt-0">
+      <text>Perennials, 20–70 cm (rhizomes stout).</text>
+      <structure id="o11634" name="whole_organism">
+        <character char_type="range_value" name="size" from="20" from_unit="cm" to="70" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="565.txt-1">
+      <text>Stems 1–5+, erect to ascending, relatively densely to sparsely branched, glabrous.</text>
+      <structure id="o11635" name="stem">
+        <character char_type="range_value" name="count" from="1" to="5" upper_restricted="false" />
+        <character char_type="range_value" name="orientation" from="erect" to="ascending" />
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="ascending" />
+        <character name="architecture_or_shape" value="branched" modifier="relatively densely sparsely" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="565.txt-2">
+      <text>Leaves withered at flowering;</text>
+      <structure id="o11636" name="leaf">
+        <character name="duration" value="withered" modifier="at flowering" />
+      </structure>
+    </statement>
+    <statement id="565.txt-3">
+      <text>basal blades linear to filiform, 5–8 cm, margins entire or toothed (teeth remote, faces glabrous) ;</text>
+      <structure id="o11637" name="blade" constraint="basal">
+        <character char_type="range_value" name="shape" from="linear" to="filiform" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="filiform" />
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="8" to_unit="cm" />
+      </structure>
+      <structure id="o11638" name="margin">
+        <character name="shape" value="entire" />
+        <character name="shape" value="toothed" />
+      </structure>
+    </statement>
+    <statement id="565.txt-4">
+      <text>cauline much reduced, bractlike .</text>
+      <structure id="o11639" name="leaf" constraint="cauline">
+        <character name="size" value="reduced" modifier="much" />
+        <character name="shape" value="bractlike" />
+      </structure>
+    </statement>
+    <statement id="565.txt-5">
+      <text>Heads borne singly on branch tips.</text>
+      <structure id="o11640" name="head" />
+      <structure id="o11641" name="tip" constraint="branch" />
+      <relation id="r1347" name="borne on" from="o11640" to="o11641" negation="false" />
+    </statement>
+    <statement id="565.txt-6">
+      <text>Peduncles 0, or 1–50+ mm (bracteolate).</text>
+      <structure id="o11642" name="peduncle">
+        <character name="count" value="0" />
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="50" to_unit="mm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="565.txt-7">
+      <text>Calyculi of appressed bractlets.</text>
+      <structure id="o11643" name="calyculus" />
+      <structure id="o11644" name="bractlet">
+        <character name="orientation" value="appressed" />
+      </structure>
+      <relation id="r1348" name="consist_of" from="o11643" to="o11644" negation="false" />
+    </statement>
+    <statement id="565.txt-8">
+      <text>Involucres 5–14(–15) mm (phyllaries 5–6, glabrous).</text>
+      <structure id="o11645" name="involucre">
+        <character char_type="range_value" name="atypical_size" from="14" to="15" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="14" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="565.txt-9">
+      <text>Florets 4–5(–6).</text>
+      <structure id="o11646" name="floret">
+        <character char_type="range_value" name="atypical_count" from="5" to="6" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="4" to="5" />
+      </structure>
+    </statement>
+    <statement id="565.txt-10">
+      <text>Cypselae tan, 3–6 mm, faces smooth, grooved;</text>
+      <structure id="o11647" name="cypsela">
+        <character name="coloration" value="tan" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+      <structure id="o11648" name="face">
+        <character name="architecture_or_relief" value="smooth" />
+        <character name="architecture" value="grooved" />
+      </structure>
+    </statement>
+    <statement id="565.txt-11">
+      <text>pappi of 15–25, white bristles (persistent), wholly plumose.</text>
+      <structure id="o11649" name="pappus">
+        <character name="architecture" value="plumose" modifier="wholly" />
+      </structure>
+      <structure id="o11650" name="bristle">
+        <character char_type="range_value" name="count" from="15" to="25" />
+        <character name="coloration" value="white" />
+      </structure>
+      <relation id="r1349" name="consist_of" from="o11649" to="o11650" negation="false" />
+    </statement>
+    <statement id="565.txt-12">
+      <text>2 n = 16.</text>
+      <structure id="o11651" name="chromosome">
+        <character name="count" value="16" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>crevices in volcanic, granitic, and sandstone outcrops</habitat>
+  <habitat>open rocky ridges and slopes</habitat>
+  <habitat>bases of cliffs</habitat>
+  <elevation>300–3000 m;</elevation>
+  <ca_distribution>B.C.</ca_distribution>
+  <ca_distribution>Sask.</ca_distribution>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>N.Dak.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <global_distribution>nw Mexico.</global_distribution>
+  <discussion>Stephanomeria tenuifolia is distributed over an immense region and is the most widespread species of the genus. It shows remarkable variability in the form and dimensions of its stems and branches. Plants described as S. myrioclada, from the northeasternmost corner of Nevada, present an architecture of relatively numerous, almost threadlike, densely crowded stems (1.5–4 dm) and branches with an irregularly dichotomous pattern. Continuous variation occurs from this form to another in the same region and elsewhere in which the stems are longer (3–7 dm), sparingly branched, and flexuous. The extreme variability in vegetative architecture may be adaptive and deserves further study.</discussion>
+  <discussion>Stephanomeria wrightii was described from western Texas. The type sheet has three specimens, all with a single, slender stem with paniculately disposed branches from a broken-off stub. A. Gray (1884, 1886) stated that those features indicated the plants were “seemingly biennial,” and distinguished them from S. minor Nuttall (an old synonym of S. tenuifolia), which he said has “thick and tortuous roots.” The slender stem of the specimens received by Gray may indicate their young age; they do not seem distinctive because other specimens from the same region have the bright white, fully plumose pappi and other features ascribed to S. wrightii, but also exhibit large, thick rhizomes. Gray noted that the “achenes are contracted under the summit”; this feature is not evident on the three specimens. Overall, S. wrightii does not seem different from S. tenuifolia.</discussion>
+  <discussion>The type specimen of Stephanomeria neomexicana, originally described as Ptiloria neomexicana by E. L. Greene, from New Mexico, exhibits multiple, long, flexuous stems with relatively few branches emerging from a stout rhizome. The pappi consist of plumose bristles, but the proximal 0.5–l mm is only minutely barbed. Plants with similar pappi are found occasionally in New Mexico and Arizona and differ in no other respect from S. tenuifolia.</discussion>
+  <discussion>Stephanomeria tenuifolia var. uintaensis grows “in one small isolated stand” (S. Goodrich and S. L. Welsh 1983) and was recognized primarily on the basis of relatively long phyllaries (10–16 mm) and runcinate-pinnatifid basal leaves. I measured phyllary lengths on isotypes; only one, from a terminal head, was 16 mm; others varied from 11–14(–15) mm. Although the lengths are 2–3 mm longer than typical, no other feature of the plants is unusual. Pinnately lobed leaves may not be typical of the species; because leaves are not often present on S. tenuifolia when it is in flower, and most specimens do not include them, the significance of the character is uncertain. The isotype collections are from young individuals and only the paratype from RM has cypselae. The variety does not seem worthy of taxonomic recognition.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

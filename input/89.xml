@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>29b.</number>
+  <variety_name>Cirsium pulcherrimum (Rydberg) K. Schumann var. pulcherrimum</variety_name>
+  <common_name>Wyoming thistle</common_name>
+  <description>
+    <statement id="89.txt-0">
+      <text>Stems from branched or unbranched rootstocks, 15–60(–90) cm, bases often thickened.</text>
+      <structure id="o18429" name="stem">
+        <character char_type="range_value" name="atypical_size" from="60" to="90" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="15" from_unit="cm" to="60" to_unit="cm" />
+      </structure>
+      <structure id="o18430" name="rootstock">
+        <character name="architecture" value="branched" />
+        <character name="architecture" value="unbranched" />
+      </structure>
+      <relation id="r1950" name="from" from="o18429" to="o18430" negation="false" />
+      <structure id="o18431" name="base">
+        <character name="thickness" value="thickened" modifier="often" />
+      </structure>
+    </statement>
+    <statement id="89.txt-1">
+      <text>Adaxial leaf faces glabrous to thinly gray-tomentose.</text>
+      <structure id="o18432" name="face" constraint="adaxial leaf">
+        <character char_type="range_value" name="pubescence" from="glabrous" to="thinly gray-tomentose" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="gray-tomentose" modifier="thinly" />
+      </structure>
+    </statement>
+    <statement id="89.txt-2">
+      <text>Heads often 4+, in ± elongate arrays.</text>
+      <structure id="o18433" name="head">
+        <character name="count" char_type="range_value" from="4" upper_restricted="false" modifier="often" />
+      </structure>
+      <structure id="o18434" name="array">
+        <character name="shape" value="elongate" modifier="±" />
+      </structure>
+      <relation id="r1951" name="in" from="o18433" to="o18434" negation="false" />
+    </statement>
+    <statement id="89.txt-3">
+      <text>Cypselae often with stramineous apical collars.</text>
+      <structure id="o18435" name="cypsela" />
+      <structure id="o18436" name="collar" constraint="apical">
+        <character name="coloration" value="stramineous" />
+      </structure>
+      <relation id="r1952" name="with" from="o18435" to="o18436" negation="false" modifier="often" />
+    </statement>
+    <statement id="89.txt-4">
+      <text>2 n = 34.</text>
+      <structure id="o18437" name="chromosome">
+        <character name="count" value="34" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>grasslands</habitat>
+  <habitat>sagebrush scrub</habitat>
+  <habitat>coniferous forest openings</habitat>
+  <habitat>roadsides</habitat>
+  <habitat>often in stony soil</habitat>
+  <elevation>1100–2400 m;</elevation>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>Nebr.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <discussion>Variety pulcherrimum occurs from eastern Montana and northeastern Utah across Wyoming in the Wyoming Basin, Rocky Mountains, and western Great Plains to northern Colorado and northwestern Nebraska. It is likely that it occurs in southeastern Idaho as well. In the online Atlas of the Vascular Flora of Wyoming, several localities are plotted for var. pulcherrimum in Lincoln County, close to the Idaho state line. R. E. Brooks (1986) included Idaho in the range of C. pulcherrimum; I have not seen documentation for such occurrence. Cirsium pulcherrimum (i.e., var. pulcherrimum) is included in the list of Nebraska Plants of Special Concern.</discussion>
+  <discussion>Variety pulcherrimum is known to hybridize with Cirsium eatonii var. murdockii in Wyoming.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

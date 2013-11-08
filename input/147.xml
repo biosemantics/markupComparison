@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>51g.</number>
+  <variety_name>Cirsium eatonii (A. Gray) B. L. Robinson var. peckii</variety_name>
+  <authority>(L. F. Henderson) D. J. Keil</authority>
+  <place_of_publication>Sida 21: 212. 2004</place_of_publication>
+  <common_name>Steens Mountain or ghost thistle</common_name>
+  <synonym_of_variety_name>Cirsium peckii L. F. Henderson, Madroño 5: 97. 1939</synonym_of_variety_name>
+  <description>
+    <statement id="147.txt-0">
+      <text>Stems erect or ascending, stout, 10–150 cm.</text>
+      <structure id="o1243" name="stem">
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="ascending" />
+        <character name="fragility" value="stout" />
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="150" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="147.txt-1">
+      <text>Leaf faces glabrous or nearly so or abaxial ± villous with septate trichomes.</text>
+      <structure id="o1244" name="face" constraint="leaf">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="or" />
+        <character name="insertion_or_position" value="abaxial" modifier="±" />
+        <character name="pubescence" value="villous" constraint="with trichomes" constraintid="o1245" />
+      </structure>
+      <structure id="o1245" name="trichome">
+        <character name="architecture" value="septate" />
+      </structure>
+    </statement>
+    <statement id="147.txt-2">
+      <text>Heads several–many, usually subsessile or short-pedunculate, crowded in erect , spiciform or racemiform arrays, less commonly openly branched.</text>
+      <structure id="o1246" name="head">
+        <character char_type="range_value" name="count" from="several" to="many" />
+        <character name="architecture" value="subsessile" modifier="usually" />
+        <character name="architecture" value="short-pedunculate" />
+        <character name="architecture" value="crowded" constraint="in arrays" constraintid="o1247" />
+        <character name="architecture_or_shape" value="branched" modifier="less commonly openly" />
+      </structure>
+      <structure id="o1247" name="array">
+        <character name="orientation" value="erect" />
+        <character name="architecture" value="spiciform" />
+        <character name="architecture" value="racemiform" />
+      </structure>
+    </statement>
+    <statement id="147.txt-3">
+      <text>Involucres 2–4 cm, loosely to densely villous with septate trichomes and thinly arachnoid with non-septate trichomes.</text>
+      <structure id="o1248" name="involucre">
+        <character char_type="range_value" name="size" from="2" from_unit="cm" to="4" to_unit="cm" />
+        <character name="pubescence" value="villous" modifier="loosely densely" constraint="with trichomes" constraintid="o1249" />
+      </structure>
+      <structure id="o1249" name="trichome">
+        <character name="architecture" value="septate" />
+        <character name="pubescence" value="arachnoid" modifier="thinly" constraint="with trichomes" constraintid="o1250" />
+      </structure>
+      <structure id="o1250" name="trichome">
+        <character name="architecture" value="non-septate" />
+      </structure>
+    </statement>
+    <statement id="147.txt-4">
+      <text>Phyllaries green;</text>
+      <structure id="o1251" name="phyllary">
+        <character name="coloration" value="green" />
+      </structure>
+    </statement>
+    <statement id="147.txt-5">
+      <text>outer with few or no lateral spines;</text>
+      <structure id="o1252" name="phyllary" constraint="outer" />
+      <structure id="o1253" name="spine" constraint="lateral">
+        <character name="count" value="few" />
+      </structure>
+      <relation id="r209" name="with" from="o1252" to="o1253" negation="false" />
+    </statement>
+    <statement id="147.txt-6">
+      <text>apical spines stout.</text>
+      <structure id="o1254" name="spine" constraint="apical">
+        <character name="fragility" value="stout" />
+      </structure>
+    </statement>
+    <statement id="147.txt-7">
+      <text>Corollas pink to purple, 21–25 mm, tubes 6.5–8 mm, throats 8–11.5 mm, lobes 5.5–7 mm.</text>
+      <structure id="o1255" name="corolla">
+        <character char_type="range_value" name="coloration" from="pink" to="purple" />
+        <character name="coloration" value="pink" />
+        <character name="coloration" value="purple" />
+        <character char_type="range_value" name="size" from="21" from_unit="mm" to="25" to_unit="mm" />
+      </structure>
+      <structure id="o1256" name="tube">
+        <character char_type="range_value" name="size" from="6.5" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+      <structure id="o1257" name="throat">
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="11.5" to_unit="mm" />
+      </structure>
+      <structure id="o1258" name="lobe">
+        <character char_type="range_value" name="size" from="5.5" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="147.txt-8">
+      <text>Pappi 17–22 mm.</text>
+      <structure id="o1259" name="pappus">
+        <character char_type="range_value" name="size" from="17" from_unit="mm" to="22" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="147.txt-9">
+      <text>2 n = 34 (as C. peckii ).</text>
+      <structure id="o1260" name="chromosome">
+        <character name="count" value="34" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>grasslands</habitat>
+  <habitat>juniper woodlands</habitat>
+  <habitat>grass-sagebrush steppes</habitat>
+  <habitat>subalpine slopes</habitat>
+  <habitat>roadsides</habitat>
+  <elevation>1300–2900 m;</elevation>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <discussion>Variety peckii occurs from Steens Mountain and the Pueblo Mountains of Harney County, Oregon, south to the Black Rock Range and Jackson Mountains of Humboldt County, Nevada. On the lower portion of its distribution along Steens Mountain Loop Road at an elevation of about 1900 m, var. peckii and Cirsium inamoenum grow together and freely hybridize, forming a complex hybrid swarm. Intermediates variably combine the features of the parent taxa, with the habit more openly branched than typical for C. eatonii var. peckii, variably arachnoid tomentose leaves, ± glandular phyllaries, and lavender to pale pink flowers. Variety peckii may range as far south as the West Humboldt Mountains. The type of Cirsium humboldtense Rydberg (Carduus nevadensis Greene) closely resembles some of the hybrids between C. inamoenum and C. eatonii var. peckii.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

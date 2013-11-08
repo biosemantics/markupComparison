@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>2.</number>
+  <species_name>Cotula coronopifolia</species_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 892. 1753</place_of_publication>
+  <common_name>Brass-buttons, cotule</common_name>
+  <description>
+    <statement id="948.txt-0">
+      <text>Perennials, (3–)5–15(–25+) cm tall or across.</text>
+      <structure id="o19537" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="3" to="5" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_size" from="15" to="25" from_unit="cm" to_unit="cm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="15" to_unit="cm" />
+        <character name="size" value="tall" />
+        <character name="size" value="tall" modifier="across" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="948.txt-1">
+      <text>Stems prostrate (rooting at nodes, ± fleshy) to decumbent or erect, glabrous.</text>
+      <structure id="o19538" name="stem">
+        <character name="orientation" value="prostrate" />
+        <character name="habit" value="decumbent" />
+        <character name="orientation" value="erect" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="948.txt-2">
+      <text>Leaves sessile (bases sheathing stems);</text>
+      <structure id="o19539" name="leaf">
+        <character name="architecture" value="sessile" />
+      </structure>
+    </statement>
+    <statement id="948.txt-3">
+      <text>blades linear to lanceolate or oblong (sometimes lobed, lobes lanceolate to linear), (1–)2–3(–7) cm, ultimate margins entire or irregularly toothed or lobed, faces gland-dotted.</text>
+      <structure id="o19540" name="blade">
+        <character char_type="range_value" name="shape" from="linear" to="lanceolate or oblong" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="oblong" />
+        <character char_type="range_value" name="atypical_size" from="1" to="2" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_size" from="3" to="7" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="2" from_unit="cm" to="3" to_unit="cm" />
+      </structure>
+      <structure id="o19541" name="margin" constraint="ultimate">
+        <character name="shape" value="entire" />
+        <character name="shape" value="toothed" modifier="irregularly" />
+        <character name="shape" value="lobed" modifier="irregularly" />
+      </structure>
+      <structure id="o19542" name="face">
+        <character name="coloration_or_relief" value="gland-dotted" />
+      </structure>
+    </statement>
+    <statement id="948.txt-4">
+      <text>Involucres 6–9(–12+) mm diam.</text>
+      <structure id="o19543" name="involucre">
+        <character char_type="range_value" name="atypical_size" from="9" to="12" from_unit="mm" to_unit="mm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="9" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="948.txt-5">
+      <text>Phyllaries 21–30+ in 2–3+ series.</text>
+      <structure id="o19544" name="phyllary">
+        <character char_type="range_value" name="count" from="21" to="30" upper_restricted="false" constraint="in series" constraintid="o19545" />
+      </structure>
+      <structure id="o19545" name="series">
+        <character char_type="range_value" name="count" from="2" to="3" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="948.txt-6">
+      <text>Ray florets 0 (peripheral pistillate florets 12–40+ in 1 series; corollas 0).</text>
+      <structure id="o19546" name="floret" constraint="ray">
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+    <statement id="948.txt-7">
+      <text>Disc corollas yellow, 1–1.5 mm.</text>
+      <structure id="o19547" name="corolla" constraint="disc">
+        <character name="coloration" value="yellow" />
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="1.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="948.txt-8">
+      <text>Cypselae:</text>
+      <structure id="o19548" name="cypsela" />
+    </statement>
+    <statement id="948.txt-9">
+      <text>outer 1.2–1.8 mm, winged, adaxial faces papillate;</text>
+      <structure id="o19549" name="cypsela" constraint="outer">
+        <character char_type="range_value" name="size" from="1.2" from_unit="mm" to="1.8" to_unit="mm" />
+        <character name="architecture" value="winged" />
+      </structure>
+      <structure id="o19550" name="face" constraint="adaxial">
+        <character name="relief_or_pubescence" value="papillate" />
+      </structure>
+    </statement>
+    <statement id="948.txt-10">
+      <text>inner 0.7–1 mm, scarcely, if at all, winged, not papillate.</text>
+      <structure id="o19551" name="cypsela" constraint="inner">
+        <character char_type="range_value" name="size" from="0.7" from_unit="mm" to="1" to_unit="mm" />
+        <character name="architecture" value="winged" />
+        <character name="relief_or_pubescence" value="papillate" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="948.txt-11">
+      <text>2 n = 20.</text>
+      <structure id="o19552" name="chromosome">
+        <character name="count" value="20" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <flowering_time>nov</flowering_time>
+  <flowering_time>dec</flowering_time>
+  <flowering_time>winter</flowering_time>
+  <habitat>saline and freshwater marshes</habitat>
+  <habitat>along streams</habitat>
+  <elevation>0–900 m;</elevation>
+  <global_distribution>presumed introduced</global_distribution>
+  <ca_distribution>B.C.</ca_distribution>
+  <ca_distribution>N.B.</ca_distribution>
+  <ca_distribution>N.S.</ca_distribution>
+  <ca_distribution>P.E.I.</ca_distribution>
+  <ca_distribution>Que.</ca_distribution>
+  <us_distribution>Alaska</us_distribution>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Md.</us_distribution>
+  <us_distribution>Mass.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <global_distribution>S Africa</global_distribution>
+  <global_distribution>Australia</global_distribution>
+  <global_distribution>also introduced in Mexico (Baja California)</global_distribution>
+  <global_distribution>South America</global_distribution>
+  <global_distribution>Europe.</global_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

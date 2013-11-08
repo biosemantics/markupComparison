@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>2.</number>
+  <species_name>Vernonia arkansana</species_name>
+  <authority>de Candolle</authority>
+  <place_of_publication>in A. P. de Candolle and A. L. P. P. de Candolle, Prodr. 7: 264. 1838</place_of_publication>
+  <synonym_of_species_name>Vernonia crinita Rafinesque</synonym_of_species_name>
+  <description>
+    <statement id="252.txt-0">
+      <text>Plants 8–12(–20) dm.</text>
+      <structure id="o4315" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="12" to="20" from_unit="dm" to_unit="dm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="8" from_unit="dm" to="12" to_unit="dm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="252.txt-1">
+      <text>Stems scab-rellous to pilosulous, glabrescent.</text>
+      <structure id="o4316" name="stem">
+        <character name="relief" value="scab-rellous" />
+        <character name="pubescence" value="pilosulous" />
+        <character name="pubescence" value="glabrescent" />
+      </structure>
+    </statement>
+    <statement id="252.txt-2">
+      <text>Leaves mostly cauline;</text>
+      <structure id="o4317" name="leaf">
+        <character name="insertion_or_position" value="cauline" modifier="mostly" />
+      </structure>
+    </statement>
+    <statement id="252.txt-3">
+      <text>blades lance-linear, 6–14(–20) cm × 7–15(–25) mm, l/w = 7–10(–18), abaxially scabrellous (hairs awl-shaped), resin-gland-dotted, adaxially scaberulous, glabrescent, resin-gland-dotted.</text>
+      <structure id="o4318" name="blade">
+        <character name="arrangement_or_shape" value="lance-linear" />
+        <character char_type="range_value" name="atypical_length" from="14" to="20" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="6" from_unit="cm" to="14" to_unit="cm" />
+        <character char_type="range_value" name="atypical_width" from="15" to="25" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="width" from="7" from_unit="mm" to="15" to_unit="mm" />
+        <character char_type="range_value" name="atypical_lwratio" from="10" to="18" from_inclusive="false" />
+        <character char_type="range_value" name="lwratio" from="7" to="10" />
+        <character name="relief" value="scabrellous" modifier="abaxially" />
+        <character name="coloration_or_relief" value="resin-gland-dotted" />
+        <character name="texture" value="scaberulous" modifier="adaxially" />
+        <character name="pubescence" value="glabrescent" />
+        <character name="coloration_or_relief" value="resin-gland-dotted" />
+      </structure>
+    </statement>
+    <statement id="252.txt-4">
+      <text>Heads in ± corymbiform arrays.</text>
+      <structure id="o4319" name="head" />
+      <structure id="o4320" name="array">
+        <character name="architecture" value="corymbiform" modifier="±" />
+      </structure>
+      <relation id="r597" name="in" from="o4319" to="o4320" negation="false" />
+    </statement>
+    <statement id="252.txt-5">
+      <text>Peduncles 2–5 cm.</text>
+      <structure id="o4321" name="peduncle">
+        <character char_type="range_value" name="size" from="2" from_unit="cm" to="5" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="252.txt-6">
+      <text>Involucres ± hemispheric, 11–15 × 11–15 mm.</text>
+      <structure id="o4322" name="involucre">
+        <character name="shape" value="hemispheric" modifier="±" />
+        <character char_type="range_value" name="length" from="11" from_unit="mm" to="15" to_unit="mm" />
+        <character char_type="range_value" name="width" from="11" from_unit="mm" to="15" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="252.txt-7">
+      <text>Phyllaries (50–)60–70+ in 5–6 series, scabrellous (and resin-gland-dotted), margins ciliolate, the outer lance-ovate, 3–8+ mm, inner lanceolate, 12–15 mm, tips subulate to filiform.</text>
+      <structure id="o4323" name="phyllary">
+        <character char_type="range_value" name="atypical_count" from="50" to="60" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="60" to="70" upper_restricted="false" constraint="in series" constraintid="o4324" />
+        <character name="relief" value="scabrellous" />
+      </structure>
+      <structure id="o4324" name="series">
+        <character char_type="range_value" name="count" from="5" to="6" />
+      </structure>
+      <structure id="o4325" name="margin">
+        <character name="pubescence" value="ciliolate" />
+        <character name="position" value="outer" />
+        <character name="shape" value="lance-ovate" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="8" to_unit="mm" upper_restricted="false" />
+        <character name="position" value="inner" />
+        <character name="shape" value="lanceolate" />
+        <character char_type="range_value" name="size" from="12" from_unit="mm" to="15" to_unit="mm" />
+      </structure>
+      <structure id="o4326" name="tip">
+        <character char_type="range_value" name="shape" from="subulate" to="filiform" />
+        <character name="shape" value="subulate" />
+        <character name="shape" value="filiform" />
+      </structure>
+    </statement>
+    <statement id="252.txt-8">
+      <text>Florets 50–100+.</text>
+      <structure id="o4327" name="floret">
+        <character char_type="range_value" name="count" from="50" to="100" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="252.txt-9">
+      <text>Cypselae 3–5 mm;</text>
+      <structure id="o4328" name="cypsela">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="252.txt-10">
+      <text>pappi fuscous to purplish, outer scales 25–30+, 0.5–1 mm, contrasting with 25–30+, 5–7 mm inner bristles.</text>
+      <structure id="o4329" name="pappus">
+        <character char_type="range_value" name="coloration" from="fuscous" to="purplish" />
+        <character name="coloration" value="fuscous" />
+        <character name="coloration" value="purplish" />
+      </structure>
+      <structure id="o4330" name="scale" constraint="outer">
+        <character char_type="range_value" name="count" from="25" to="30" upper_restricted="false" />
+        <character char_type="range_value" name="size" from="0.5" from_unit="mm" to="1" to_unit="mm" />
+        <character name="size" value="contrasting" constraint="with bristles" constraintid="o4331" />
+      </structure>
+      <structure id="o4331" name="bristle" constraint="inner">
+        <character char_type="range_value" name="count" from="25" to="30" upper_restricted="false" />
+        <character char_type="range_value" name="count" from="5" to="7" />
+      </structure>
+    </statement>
+    <statement id="252.txt-11">
+      <text>2 n = 34.</text>
+      <structure id="o4332" name="chromosome">
+        <character name="count" value="34" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <habitat>leas</habitat>
+  <habitat>roadsides</habitat>
+  <habitat>stream banks</habitat>
+  <habitat>in sand or on limestone</habitat>
+  <elevation>200–300 m;</elevation>
+  <us_distribution>Ark.</us_distribution>
+  <us_distribution>Kans.</us_distribution>
+  <us_distribution>Mo.</us_distribution>
+  <us_distribution>Okla.</us_distribution>
+  <discussion>Vernonia arkansana was published in April, V. crinita in October 1838.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

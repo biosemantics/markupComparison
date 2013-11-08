@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>5.</number>
+  <species_name>Stylocline intertexta</species_name>
+  <authority>Morefield</authority>
+  <place_of_publication>Madroño 39: 121, fig. 3. 1992</place_of_publication>
+  <common_name>Mojave or Morefield neststraw</common_name>
+  <description>
+    <statement id="750.txt-0">
+      <text>Plants 2–8(–11) cm.</text>
+      <structure id="o15827" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="8" to="11" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="2" from_unit="cm" to="8" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="750.txt-1">
+      <text>Leaves acute, mucronate, longest 6–15 mm;</text>
+      <structure id="o15828" name="leaf">
+        <character name="shape" value="acute" />
+        <character name="shape" value="mucronate" />
+        <character name="size" value="longest" />
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="15" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="750.txt-2">
+      <text>largest capitular leaves (all) ± elliptic to ± oblanceolate (widest in distal 2 / 3 ), 4–11 × 1–2.5 mm (distalmost mainly 0.8–1.2 times head heights).</text>
+      <structure id="o15829" name="leaf" constraint="largest capitular">
+        <character name="arrangement_or_shape" value="elliptic" modifier="±" />
+        <character name="shape" value="oblanceolate" modifier="±" />
+        <character char_type="range_value" name="length" from="4" from_unit="mm" to="11" to_unit="mm" />
+        <character char_type="range_value" name="width" from="1" from_unit="mm" to="2.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="750.txt-3">
+      <text>Heads in ± paniculiform to cymiform, rarely dichasiform, arrays, ± spheric, largest 5–6 mm, thickly lanuginose.</text>
+      <structure id="o15830" name="head">
+        <character name="shape" value="spheric" modifier="±" />
+        <character name="size" value="largest" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="6" to_unit="mm" />
+        <character name="pubescence" value="lanuginose" modifier="thickly" />
+      </structure>
+      <structure id="o15831" name="array">
+        <character char_type="range_value" name="architecture" from="paniculiform" to="cymiform" />
+        <character name="architecture" value="paniculiform" />
+        <character name="architecture" value="cymiform" />
+        <character name="arrangement" value="dichasiform" modifier="± rarely" />
+      </structure>
+      <relation id="r1709" name="in" from="o15830" to="o15831" negation="false" />
+    </statement>
+    <statement id="750.txt-4">
+      <text>Phyllaries 0, vestigial, or falling, ± subulate, mostly 0.1–0.5 mm, unequal.</text>
+      <structure id="o15832" name="phyllary">
+        <character name="count" value="0" />
+        <character name="manifestation" value="vestigial" />
+        <character name="orientation" value="falling" />
+        <character name="shape" value="subulate" modifier="±" />
+        <character char_type="range_value" name="size" from="0.1" from_unit="mm" to="0.5" to_unit="mm" modifier="mostly" />
+        <character name="size" value="unequal" />
+      </structure>
+    </statement>
+    <statement id="750.txt-5">
+      <text>Receptacles cylindric, 1.4–2.7 mm, heights 4–7 times diams.;</text>
+      <structure id="o15833" name="receptacle">
+        <character name="shape" value="cylindric" />
+        <character char_type="range_value" name="size" from="1.4" from_unit="mm" to="2.7" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="750.txt-6">
+      <text>scars ± evenly distributed, mamillate.</text>
+      <structure id="o15834" name="scar">
+        <character name="arrangement" value="distributed" modifier="± evenly" />
+        <character name="relief" value="mamillate" />
+      </structure>
+    </statement>
+    <statement id="750.txt-7">
+      <text>Pistillate paleae:</text>
+      <structure id="o15835" name="palea" constraint="pistillate" />
+    </statement>
+    <statement id="750.txt-8">
+      <text>longest 3.4–4.2 mm, winged distally;</text>
+      <structure id="o15836" name="palea" constraint="longest">
+        <character char_type="range_value" name="size" from="3.4" from_unit="mm" to="4.2" to_unit="mm" />
+        <character name="architecture" value="winged" modifier="distally" />
+      </structure>
+    </statement>
+    <statement id="750.txt-10">
+      <text>bodies cartilaginous;</text>
+      <structure id="o15837" name="body">
+        <character name="texture" value="cartilaginous" />
+      </structure>
+    </statement>
+    <statement id="750.txt-11">
+      <text>outermost paleae ± saccate.</text>
+      <structure id="o15838" name="palea" constraint="outermost">
+        <character name="architecture_or_shape" value="saccate" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="750.txt-12">
+      <text>Functionally staminate florets 3–6;</text>
+      <structure id="o15839" name="floret" constraint="functionally staminate">
+        <character char_type="range_value" name="count" from="3" to="6" />
+      </structure>
+    </statement>
+    <statement id="750.txt-13">
+      <text>ovaries vestigial, 0–0.3 mm;</text>
+      <structure id="o15840" name="ovary">
+        <character name="manifestation" value="vestigial" />
+        <character char_type="range_value" name="size" from="0" from_unit="mm" to="0.3" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="750.txt-14">
+      <text>corollas 1.1–2.3 mm.</text>
+      <structure id="o15841" name="corolla">
+        <character char_type="range_value" name="size" from="1.1" from_unit="mm" to="2.3" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="750.txt-15">
+      <text>Cypselae 1–1.4 mm, obcompressed;</text>
+      <structure id="o15842" name="cypsela">
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="1.4" to_unit="mm" />
+        <character name="shape" value="obcompressed" />
+      </structure>
+    </statement>
+    <statement id="750.txt-16">
+      <text>pappi:</text>
+      <structure id="o15843" name="pappus" />
+    </statement>
+    <statement id="750.txt-17">
+      <text>staminate rarely 0, usually of 1–4(–8) smooth to barbellulate bristles 1.1–2 mm.</text>
+      <structure id="o15844" name="pappus" constraint="staminate">
+        <character name="count" value="0" modifier="rarely" />
+      </structure>
+      <structure id="o15845" name="bristle">
+        <character name="count" value="8]" />
+        <character char_type="range_value" name="architecture" from="smooth" to="barbellulate" />
+        <character name="architecture" value="smooth" />
+        <character name="architecture" value="barbellulate" />
+        <character char_type="range_value" name="count" from="1" to="4" />
+        <character char_type="range_value" name="size" from="1.1" from_unit="mm" to="2" to_unit="mm" />
+      </structure>
+      <relation id="r1710" name="consist_of" from="o15844" to="o15845" negation="false" modifier="usually" />
+    </statement>
+  </description>
+  <flowering_time>feb</flowering_time>
+  <flowering_time>winter</flowering_time>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <habitat>open, stable, often calcareous desert gravels</habitat>
+  <habitat>sands</habitat>
+  <habitat>often with extra moisture (rock bases</habitat>
+  <habitat>shrub drip lines</habitat>
+  <habitat>dry drainages</habitat>
+  <habitat>depressions</habitat>
+  <elevation>40–1400 m;</elevation>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>Utah.</us_distribution>
+  <discussion>Stylocline intertexta is known from the Mojave and northwestern Sonoran deserts. It combines character states of S. micropoides and S. psilocarphoides, is often sympatric with both, and appears to be stable, uniform, and reproducing independently. Stylocline intertexta shares most character states with S. micropoides. Presence of some subulate to lanceolate capitular leaves in S. micropoides helps distinguish the species in the field.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

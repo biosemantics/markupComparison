@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>5.</number>
+  <species_name>Taraxacum lapponicum</species_name>
+  <authority>Kihlman ex Handel-Mazzetti</authority>
+  <place_of_publication>Monogr. Taraxacum, 73. 1907</place_of_publication>
+  <common_name>Lapland dandelion, pissenlit de Laponie</common_name>
+  <synonym_of_species_name>Taraxacum alukense R. Doll; T. ambigens Fernald; T. atroglaucum M. P. Christensen; T. campylodes G. E. Haglund; T. croceum Dahlstedt; T. curvidens M. P. Christensen; T. cyclocentrum M. P. Christensen; T. davidssonii M. P. Christensen; T. dilutisquameum M. P. Christensen; T. firmum Dahlstedt; T. latispinulosum M. P. Christensen; T. naevosum Dahlstedt; T. obtusatum Dahlstedt; T. pleniflorum M. P. Christensen; T. spectabile Dahlstedt; T. torngatense Fernald</synonym_of_species_name>
+  <description>
+    <statement id="322.txt-0">
+      <text>Plants (3–)5–37(–47 in fruit) cm;</text>
+      <structure id="o5866" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="3" to="5" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="37" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="322.txt-1">
+      <text>taproots sometimes branched.</text>
+      <structure id="o5867" name="taproot">
+        <character name="architecture_or_shape" value="branched" modifier="sometimes" />
+      </structure>
+    </statement>
+    <statement id="322.txt-2">
+      <text>Stems 1–5, erect to ascending, purplish, (usually exceeding leaves), glabrate to sparsely villous proximally, ± densely villous distally.</text>
+      <structure id="o5868" name="stem">
+        <character char_type="range_value" name="count" from="1" to="5" />
+        <character char_type="range_value" name="orientation" from="erect" to="ascending" />
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="ascending" />
+        <character name="coloration" value="purplish" />
+        <character char_type="range_value" name="pubescence" from="glabrate" to="sparsely villous proximally" />
+        <character name="pubescence" value="glabrate" modifier="proximally" />
+        <character name="pubescence" value="villous" modifier="sparsely proximally" />
+        <character name="pubescence" value="villous" modifier="± densely ; distally" />
+      </structure>
+    </statement>
+    <statement id="322.txt-3">
+      <text>Leaves 5–20, erect to patent, sometimes horizontal;</text>
+    </statement>
+    <statement id="322.txt-4">
+      <text>sessile (bases sometimes as wide as blade) to ± broadly winged petiolate (occasionally slender on young or deeply shaded specimens, usually at least some ± winged);</text>
+      <structure id="o5869" name="leaf">
+        <character char_type="range_value" name="count" from="5" to="20" />
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="patent" />
+        <character name="orientation" value="horizontal" modifier="sometimes" />
+        <character name="architecture" value="sessile" />
+        <character name="architecture" value="winged petiolate" modifier="± broadly" />
+      </structure>
+    </statement>
+    <statement id="322.txt-5">
+      <text>blades oblanceolate or oblong-oblanceolate (often runcinate), (3–)3.5–27 × 0.6–5 cm, bases usually cuneate, sometimes attenuate, margins regularly and shallowly lobed, sometimes ± deeply (not lacerate) to dentate, lobes mostly retrorse, usually triangular, sometimes deltate or lanceolate, ± acuminate, often replaced by teeth, teeth 0–5 on lobes or irregular, often coarse, triangular to lanceolate, ± acuminate, apices obtuse or acute to short-acuminate, faces glabrous or glabrate, midveins often sparsely villous.</text>
+      <structure id="o5870" name="blade">
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="oblong-oblanceolate" />
+        <character char_type="range_value" name="atypical_length" from="3" to="3.5" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="length" from="3.5" from_unit="cm" to="27" to_unit="cm" />
+        <character char_type="range_value" name="width" from="0.6" from_unit="cm" to="5" to_unit="cm" />
+      </structure>
+      <structure id="o5871" name="base">
+        <character name="shape" value="cuneate" modifier="usually" />
+        <character name="shape" value="attenuate" modifier="sometimes" />
+      </structure>
+      <structure id="o5872" name="margin">
+        <character name="shape" value="lobed" modifier="shallowly" />
+        <character name="shape" value="dentate" modifier="sometimes ± deeply" />
+      </structure>
+      <structure id="o5873" name="lobe">
+        <character name="orientation" value="retrorse" modifier="mostly" />
+        <character name="shape" value="triangular" modifier="usually" />
+        <character name="shape" value="deltate" modifier="sometimes" />
+        <character name="shape" value="lanceolate" modifier="sometimes" />
+        <character name="shape" value="acuminate" modifier="±" />
+      </structure>
+      <structure id="o5874" name="tooth" />
+      <relation id="r744" name="replaced by" from="o5873" to="o5874" negation="false" />
+      <structure id="o5875" name="tooth">
+        <character char_type="range_value" name="count" from="0" to="5" constraint="on lobes" constraintid="o5876" />
+        <character name="architecture_or_course" value="irregular" />
+        <character name="texture" value="coarse" modifier="often" />
+        <character char_type="range_value" name="shape" from="triangular" to="lanceolate" />
+        <character name="shape" value="triangular" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="acuminate" modifier="±" />
+      </structure>
+      <structure id="o5876" name="lobe" />
+      <structure id="o5877" name="apex">
+        <character char_type="range_value" name="shape" from="acute" to="short-acuminate" />
+        <character name="shape" value="obtuse" />
+        <character name="shape" value="acute" />
+        <character name="shape" value="short-acuminate" />
+      </structure>
+      <structure id="o5878" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="glabrate" />
+      </structure>
+      <structure id="o5879" name="midvein">
+        <character name="pubescence" value="villous" modifier="often sparsely" />
+      </structure>
+    </statement>
+    <statement id="322.txt-6">
+      <text>Calyculi of 10–12, spreading to eventually reflexed, often pale, sometimes purplish-tinged, lance-ovate to broadly lanceolate (thin) bractlets in 3 series, 5.5–9.5 × 1.8–2.7(–4.2) mm, margins not or narrowly scarious, apices long-acuminate, hornless.</text>
+      <structure id="o5880" name="calyculus">
+        <character char_type="range_value" name="length" from="5.5" from_unit="mm" to="9.5" to_unit="mm" />
+        <character char_type="range_value" name="atypical_width" from="2.7" to="4.2" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="width" from="1.8" from_unit="mm" to="2.7" to_unit="mm" />
+      </structure>
+      <structure id="o5881" name="bractlet">
+        <character char_type="range_value" name="count" from="10" to="12" />
+        <character char_type="range_value" name="orientation" from="spreading" to="eventually reflexed" />
+        <character name="orientation" value="spreading" />
+        <character name="orientation" value="reflexed" modifier="eventually" />
+        <character name="coloration" value="pale" modifier="often" />
+        <character name="coloration" value="tinged" modifier="sometimes ;purplish" />
+        <character char_type="range_value" name="shape" from="lance-ovate" to="broadly lanceolate" />
+        <character name="shape" value="lance-ovate" />
+        <character name="shape" value="lanceolate" modifier="broadly" />
+      </structure>
+      <relation id="r745" name="consist_of" from="o5880" to="o5881" negation="false" />
+      <structure id="o5882" name="series">
+        <character name="count" value="3" />
+      </structure>
+      <relation id="r746" name="in" from="o5881" to="o5882" negation="false" />
+      <structure id="o5883" name="margin">
+        <character name="texture" value="scarious" modifier="not narrowly" />
+      </structure>
+      <structure id="o5884" name="apex">
+        <character name="shape" value="long-acuminate" />
+        <character name="architecture" value="hornless" />
+      </structure>
+    </statement>
+    <statement id="322.txt-7">
+      <text>Involucres green to dark green, campanulate to cylindro-campanulate, 12–22 mm.</text>
+      <structure id="o5885" name="involucre">
+        <character char_type="range_value" name="coloration" from="green" to="dark-green" />
+        <character name="coloration" value="green" />
+        <character name="coloration" value="green" modifier="dark" />
+        <character char_type="range_value" name="shape" from="campanulate" to="cylindro-campanulate" />
+        <character name="shape" value="campanulate" />
+        <character name="shape" value="cylindro-campanulate" />
+        <character char_type="range_value" name="size" from="12" from_unit="mm" to="22" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="322.txt-9">
+      <text>Florets 60–110+;</text>
+      <structure id="o5886" name="floret">
+        <character char_type="range_value" name="count" from="60" to="110" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="322.txt-10">
+      <text>corollas yellow (outer abaxially gray and/or purplish striped), 15–22 × 1.1–1.7 mm.</text>
+      <structure id="o5887" name="corolla">
+        <character name="coloration" value="yellow" />
+        <character char_type="range_value" name="length" from="15" from_unit="mm" to="22" to_unit="mm" />
+        <character char_type="range_value" name="width" from="1.1" from_unit="mm" to="1.7" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="322.txt-12">
+      <text>pappi white to cream, 5–7.5 mm.</text>
+      <structure id="o5888" name="pappus">
+        <character char_type="range_value" name="coloration" from="white" to="cream" />
+        <character name="coloration" value="white" />
+        <character name="coloration" value="cream" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="7.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="322.txt-13">
+      <text>2 n = 32.</text>
+      <structure id="o5889" name="chromosome">
+        <character name="count" value="32" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>early summer</flowering_time>
+  <habitat>arctic marshes</habitat>
+  <habitat>snow patches</habitat>
+  <habitat>moist areas or seepage slopes</habitat>
+  <habitat>with high organic contents</habitat>
+  <habitat>shores of rivers and brooks (south</habitat>
+  <elevation>0–1100 m;</elevation>
+  <global_distribution>Greenland</global_distribution>
+  <ca_distribution>Nfld. and Labr.</ca_distribution>
+  <ca_distribution>Nunavut</ca_distribution>
+  <ca_distribution>Que.</ca_distribution>
+  <global_distribution>Eurasia.</global_distribution>
+  <discussion>Taraxacum lapponicum is an amphi-Atlantic taxon whose North American distribution lies in the eastern Arctic and boreal zones.</discussion>
+  <discussion>This species has the most controversial taxonomy. Barely distinguishable morphotypes have received species names, and the phenotypic plasticity of the taxon has not been taken into account in that process. In particular, it is often found in more shaded habitats than other dandelions in the south of its range, particularly when growing along streams in eastern Canada. The correct name to be applied to this species is controversial, and many European names have been applied to North American plants in the complex, sometimes without regard to the type. Here, I am recognizing a more widely defined species, using the name Taraxacum lapponicum, the one most often used in North America (correctly or not), pending more rigorous experimental study of variation in the complex.</discussion>
+  <discussion>The name Taraxacum islandiciforme Dahlstedt ex M. P. Chistiansen is invalid.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

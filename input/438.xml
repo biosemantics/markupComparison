@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>55.</number>
+  <genus_name>HELMINTHOTHECA</genus_name>
+  <authority>Zinn</authority>
+  <place_of_publication>Cat. Pl. Hort. Gott., 430. 1757</place_of_publication>
+  <common_name>Oxtongue</common_name>
+  <derivation>Greek helminthos , worm, and Latin theca , case or container; allusion unclear, perhaps to shapes of cypselae</derivation>
+  <author_of_tribe_genus>John L. Strother</author_of_tribe_genus>
+  <description>
+    <statement id="438.txt-0">
+      <text>Annuals or biennials, 10–100+ cm;</text>
+    </statement>
+    <statement id="438.txt-1">
+      <text>taprooted.</text>
+      <structure id="o8686" name="whole_organism">
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="100" to_unit="cm" upper_restricted="false" />
+        <character name="life_style" value="annual" />
+        <character name="life_style" value="biennial" />
+        <character name="architecture" value="taprooted" />
+        <character name="life_style" value="biennial" />
+      </structure>
+    </statement>
+    <statement id="438.txt-2">
+      <text>Stems usually 1, erect, branched distally or throughout, hirsute to hispid or setose (hair tips 2–4-hooked).</text>
+      <structure id="o8688" name="stem">
+        <character name="count" value="1" modifier="usually" />
+        <character name="orientation" value="erect" />
+        <character name="architecture_or_shape" value="branched" modifier="distally" />
+        <character name="architecture_or_shape" value="branched" modifier="distally; throughout" />
+        <character char_type="range_value" name="pubescence" from="hirsute" to="hispid or setose" />
+        <character name="pubescence" value="hirsute" />
+        <character name="pubescence" value="hispid" />
+        <character name="pubescence" value="setose" />
+      </structure>
+    </statement>
+    <statement id="438.txt-3">
+      <text>Leaves basal and cauline;</text>
+      <structure id="o8689" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+      </structure>
+    </statement>
+    <statement id="438.txt-4">
+      <text>basal ± petiolate, distal sessile;</text>
+      <structure id="o8690" name="leaf" constraint="basal">
+        <character name="architecture" value="petiolate" modifier="±" />
+      </structure>
+      <structure id="o8691" name="leaf" constraint="distal">
+        <character name="architecture" value="sessile" />
+      </structure>
+    </statement>
+    <statement id="438.txt-5">
+      <text>blades elliptic, lanceolate, oblanceolate, oblong, or ovate, margins usually dentate to pinnately lobed (faces hirsute to hispid, hair tips 2–4-hooked).</text>
+      <structure id="o8692" name="blade">
+        <character name="shape" value="elliptic" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="oblong" />
+        <character name="shape" value="ovate" />
+      </structure>
+      <structure id="o8693" name="margin">
+        <character char_type="range_value" name="shape" from="usually dentate" to="pinnately lobed" />
+        <character name="shape" value="dentate" modifier="usually" />
+        <character name="shape" value="lobed" modifier="pinnately" />
+      </structure>
+    </statement>
+    <statement id="438.txt-6">
+      <text>Heads borne singly or in loose, corymbiform arrays.</text>
+      <structure id="o8694" name="head">
+        <character name="arrangement" value="singly" />
+        <character name="arrangement" value="in loose , corymbiform arrays" />
+      </structure>
+      <structure id="o8695" name="array">
+        <character name="architecture_or_texture" value="loose" />
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <relation id="r1025" name="in" from="o8694" to="o8695" negation="false" />
+    </statement>
+    <statement id="438.txt-7">
+      <text>Peduncles (terminal and axillary) not inflated distally, seldom bracteate.</text>
+      <structure id="o8696" name="peduncle">
+        <character name="shape" value="inflated" modifier="not ; distally" />
+        <character name="architecture" value="bracteate" modifier="seldom" />
+      </structure>
+    </statement>
+    <statement id="438.txt-8">
+      <text>Calyculi of (3–)5, cordate or ovate to lance-ovate, foliaceous bracts.</text>
+      <structure id="o8697" name="calyculus" />
+      <structure id="o8698" name="bract">
+        <character char_type="range_value" name="atypical_count" from="3" to="5" to_inclusive="false" />
+        <character name="count" value="5" />
+        <character char_type="range_value" name="shape" from="ovate" to="lance-ovate" />
+        <character name="shape" value="cordate" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="lance-ovate" />
+        <character name="architecture" value="foliaceous" />
+      </structure>
+      <relation id="r1026" name="consist_of" from="o8697" to="o8698" negation="false" />
+    </statement>
+    <statement id="438.txt-9">
+      <text>Involucres ovoid to urceolate, 9–12+ mm diam. (larger in fruit).</text>
+      <structure id="o8699" name="involucre">
+        <character char_type="range_value" name="shape" from="ovoid" to="urceolate" />
+        <character name="shape" value="ovoid" />
+        <character name="shape" value="urceolate" />
+        <character char_type="range_value" name="size" from="9" from_unit="mm" to="12" to_unit="mm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="438.txt-10">
+      <text>Phyllaries (5–)8–13+ in 1 series, lance-linear to linear, subequal, margins little, if at all, scarious, apices acuminate.</text>
+      <structure id="o8700" name="phyllary">
+        <character char_type="range_value" name="atypical_count" from="5" to="8" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="8" to="13" upper_restricted="false" constraint="in series" constraintid="o8701" />
+        <character char_type="range_value" name="arrangement_or_shape" from="lance-linear" to="linear" />
+        <character name="arrangement_or_shape" value="lance-linear" />
+        <character name="arrangement_or_shape" value="linear" />
+        <character name="size" value="subequal" />
+      </structure>
+      <structure id="o8701" name="series">
+        <character name="count" value="1" />
+      </structure>
+      <structure id="o8702" name="margin">
+        <character name="texture" value="scarious" />
+      </structure>
+      <structure id="o8703" name="apex">
+        <character name="shape" value="acuminate" />
+      </structure>
+    </statement>
+    <statement id="438.txt-11">
+      <text>Receptacles flat, pitted, glabrous, epaleate.</text>
+      <structure id="o8704" name="receptacle">
+        <character name="shape" value="flat" />
+        <character name="relief" value="pitted" />
+        <character name="pubescence" value="glabrous" />
+        <character name="architecture" value="epaleate" />
+      </structure>
+    </statement>
+    <statement id="438.txt-12">
+      <text>Florets 30–60+;</text>
+      <structure id="o8705" name="floret">
+        <character char_type="range_value" name="count" from="30" to="60" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="438.txt-13">
+      <text>corollas yellow (often reddish abaxially).</text>
+      <structure id="o8706" name="corolla">
+        <character name="coloration" value="yellow" />
+      </structure>
+    </statement>
+    <statement id="438.txt-14">
+      <text>Cypselae (dimorphic):</text>
+      <structure id="o8707" name="cypsela" />
+    </statement>
+    <statement id="438.txt-15">
+      <text>outer whitish, bodies gibbous, ribs 5–10, beaks about equaling bodies, fragile, faces hirtellous to pilosulous adaxially;</text>
+      <structure id="o8708" name="cypsela" constraint="outer">
+        <character name="coloration" value="whitish" />
+      </structure>
+      <structure id="o8709" name="body">
+        <character name="shape" value="gibbous" />
+      </structure>
+      <structure id="o8710" name="rib">
+        <character char_type="range_value" name="count" from="5" to="10" />
+      </structure>
+      <structure id="o8711" name="beak">
+        <character name="fragility" value="fragile" />
+      </structure>
+      <structure id="o8712" name="body">
+        <character name="comparison" value="equaling" />
+      </structure>
+      <structure id="o8713" name="face">
+        <character char_type="range_value" name="pubescence" from="hirtellous" to="pilosulous adaxially" />
+        <character name="pubescence" value="hirtellous" modifier="adaxially" />
+        <character name="pubescence" value="pilosulous" modifier="adaxially" />
+      </structure>
+    </statement>
+    <statement id="438.txt-16">
+      <text>inner reddish brown, bodies ± compressed-ellipsoid to fusiform, beaks about equaling or longer than bodies, fragile, faces transversely rugulose to muricate, otherwise glabrous;</text>
+      <structure id="o8714" name="cypsela" constraint="inner">
+        <character name="coloration" value="brown" modifier="reddish" />
+      </structure>
+      <structure id="o8715" name="body">
+        <character char_type="range_value" name="shape" from="compressed-ellipsoid" to="fusiform" modifier="±" />
+        <character name="shape" value="compressed-ellipsoid" modifier="±" />
+        <character name="shape" value="fusiform" modifier="±" />
+      </structure>
+      <structure id="o8716" name="beak">
+        <character name="comparison" value="equaling" />
+        <character name="comparison" value="sizlonger constrainthan bodies" />
+        <character name="size" value="longer" constraint="than bodies" constraintid="o8717" />
+        <character name="fragility" value="fragile" />
+      </structure>
+      <structure id="o8717" name="body" />
+      <structure id="o8718" name="face">
+        <character char_type="range_value" name="relief" from="transversely rugulose" to="muricate" />
+        <character name="relief" value="rugulose" modifier="transversely" />
+        <character name="relief" value="muricate" modifier="transversely" />
+        <character name="pubescence" value="glabrous" modifier="otherwise" />
+      </structure>
+    </statement>
+    <statement id="438.txt-17">
+      <text>pappi persistent, of 10–15+, whitish, subequal, barbellate or plumose, subulate to setiform (basally connate) scales in 1–2 series.</text>
+      <structure id="o8719" name="pappus">
+        <character name="duration" value="persistent" />
+      </structure>
+      <structure id="o8720" name="scale">
+        <character char_type="range_value" name="count" from="10" to="15" upper_restricted="false" />
+        <character name="coloration" value="whitish" />
+        <character name="size" value="subequal" />
+        <character name="architecture" value="barbellate" />
+        <character name="architecture" value="plumose" />
+        <character char_type="range_value" name="shape" from="subulate" to="setiform" />
+        <character name="shape" value="subulate" />
+        <character name="shape" value="setiform" />
+      </structure>
+      <relation id="r1027" name="consist_of" from="o8719" to="o8720" negation="false" />
+      <structure id="o8721" name="series">
+        <character char_type="range_value" name="count" from="1" to="2" />
+      </structure>
+      <relation id="r1028" name="in" from="o8720" to="o8721" negation="false" />
+    </statement>
+    <statement id="438.txt-18">
+      <text>x = 5.</text>
+      <structure id="o8722" name="chromosome">
+        <character name="count" value="5" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species 4 (1 in the flora):</number_of_infrataxa>
+  <introduced>introduced;</introduced>
+  <general_distribution>Europe</general_distribution>
+  <general_distribution>widely introduced.</general_distribution>
+  <references>SELECTED REFERENCE Lack, H. W. 1975. A note on Helminthotheca Zinn (Compositae). Taxon 24: 111–112.</references>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>123.</number>
+  <genus_name>ONCOSIPHON</genus_name>
+  <authority>Källersjö</authority>
+  <place_of_publication>Bot. J. Linn. Soc. 96: 310, figs. 2F, 6, 16E1, 16E2. 1988</place_of_publication>
+  <common_name />
+  <derivation>Greek onkos , swelling, and siphon , tube; allusion unclear</derivation>
+  <author_of_tribe_genus>David J. Keil</author_of_tribe_genus>
+  <description>
+    <statement id="938.txt-0">
+      <text>Annuals, 5–15(–50+) cm (usually strongly scented).</text>
+      <structure id="o19270" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="15" to="50" from_unit="cm" to_unit="cm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="15" to_unit="cm" />
+        <character name="life_style" value="annual" />
+      </structure>
+    </statement>
+    <statement id="938.txt-1">
+      <text>Stems 1–5+ from bases, erect to ascending, branched ± throughout, ± puberulent or sparsely strigillose (hairs basifixed) and gland-dotted [glabrous].</text>
+      <structure id="o19271" name="stem">
+        <character char_type="range_value" name="count" from="1" to="5" upper_restricted="false" constraint="from bases" constraintid="o19272" />
+        <character char_type="range_value" name="orientation" from="erect" to="ascending" />
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="ascending" />
+        <character name="architecture_or_shape" value="branched" modifier="± throughout" />
+        <character name="pubescence" value="puberulent" modifier="±" />
+        <character name="pubescence" value="strigillose" modifier="sparsely" />
+        <character name="coloration_or_relief" value="gland-dotted" />
+      </structure>
+      <structure id="o19272" name="base" />
+    </statement>
+    <statement id="938.txt-2">
+      <text>Leaves mostly cauline;</text>
+    </statement>
+    <statement id="938.txt-3">
+      <text>alternate;</text>
+    </statement>
+    <statement id="938.txt-4">
+      <text>petiolate or sessile;</text>
+      <structure id="o19273" name="leaf">
+        <character name="insertion_or_position" value="cauline" modifier="mostly" />
+        <character name="arrangement" value="alternate" />
+        <character name="architecture" value="petiolate" />
+        <character name="architecture" value="sessile" />
+      </structure>
+    </statement>
+    <statement id="938.txt-5">
+      <text>blades ovate to obovate [linear], usually [1–]2(–3)-pinnately lobed, ultimate margins entire, faces ± puberulent or sparsely strigillose and gland-dotted [glabrous].</text>
+      <structure id="o19274" name="blade">
+        <character char_type="range_value" name="shape" from="ovate" to="obovate" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="obovate" />
+        <character name="shape" value="lobed" modifier="usually 1-2-3-pinnately" />
+      </structure>
+      <structure id="o19275" name="margin" constraint="ultimate">
+        <character name="shape" value="entire" />
+      </structure>
+      <structure id="o19276" name="face">
+        <character name="pubescence" value="puberulent" modifier="±" />
+        <character name="pubescence" value="strigillose" modifier="sparsely" />
+        <character name="coloration_or_relief" value="gland-dotted" />
+      </structure>
+    </statement>
+    <statement id="938.txt-6">
+      <text>Heads discoid [radiate], borne singly or in corymbiform arrays (pedunculate).</text>
+      <structure id="o19277" name="head">
+        <character name="shape_or_architecture" value="discoid" />
+        <character name="arrangement" value="singly" />
+        <character name="arrangement" value="in corymbiform arrays" />
+      </structure>
+      <structure id="o19278" name="array">
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <relation id="r2026" name="in" from="o19277" to="o19278" negation="false" />
+    </statement>
+    <statement id="938.txt-7">
+      <text>Involucres ± hemispheric or broader [cylindric], [3–]4–6[–8+] mm diam.</text>
+      <structure id="o19279" name="involucre">
+        <character name="shape" value="hemispheric" modifier="±" />
+        <character name="size" value="broader" />
+        <character char_type="range_value" name="atypical_size" from="3" to="4" from_unit="mm" to_unit="mm" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_size" from="6" to="8" from_unit="mm" to_unit="mm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="938.txt-8">
+      <text>Phyllaries persistent or tardily falling (± reflexed in fruit), [15–]22–35[–60+] in 3–4+ series, distinct, lance-triangular to ± ovate or elliptic (± navicular, carinate, sometimes each with central resin canal), unequal, margins and apices scarious.</text>
+      <structure id="o19280" name="phyllary">
+        <character name="duration" value="persistent" />
+        <character name="orientation" value="falling" modifier="tardily" />
+        <character char_type="range_value" name="atypical_count" from="15" to="22" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_count" from="35" to="60" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="22" to="35" constraint="in series" constraintid="o19281" />
+        <character name="fusion" value="distinct" />
+        <character name="shape" value="lance-triangular" />
+        <character name="shape" value="ovate" modifier="±" />
+        <character name="shape" value="elliptic" modifier="±" />
+        <character name="size" value="unequal" />
+      </structure>
+      <structure id="o19281" name="series">
+        <character char_type="range_value" name="count" from="3" to="4" upper_restricted="false" />
+      </structure>
+      <structure id="o19282" name="margin" />
+      <structure id="o19283" name="apex">
+        <character name="texture" value="scarious" />
+      </structure>
+    </statement>
+    <statement id="938.txt-9">
+      <text>Receptacles [± flat] hemispheric, ± globose, or conic, epaleate (often muricate).</text>
+      <structure id="o19284" name="receptacle">
+        <character name="shape" value="hemispheric" />
+        <character name="shape" value="globose" modifier="±" />
+        <character name="shape" value="conic" modifier="±" />
+        <character name="architecture" value="epaleate" />
+      </structure>
+    </statement>
+    <statement id="938.txt-10">
+      <text>Ray florets 0 [to 10, pistillate, fertile; corollas white, laminae ± obovate].</text>
+      <structure id="o19285" name="floret" constraint="ray">
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+    <statement id="938.txt-11">
+      <text>Disc florets [20–]100–250+, bisexual, fertile;</text>
+      <structure id="o19286" name="floret" constraint="disc">
+        <character char_type="range_value" name="atypical_count" from="20" to="100" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="100" to="250" upper_restricted="false" />
+        <character name="reproduction" value="bisexual" />
+        <character name="reproduction" value="fertile" />
+      </structure>
+    </statement>
+    <statement id="938.txt-12">
+      <text>corollas yellow, tubes ± cylindric (often basally invaginated and ± decurrent onto ovaries; tubes and proximal portions of throats externally continuous and ± dilated with relatively large, quadrate cells, often oblique, fragile when dry, distally constricted and texturally distinct from ± campanulate distal portions of throats), lobes 4, triangular.</text>
+      <structure id="o19287" name="corolla">
+        <character name="coloration" value="yellow" />
+      </structure>
+      <structure id="o19288" name="tube">
+        <character name="shape" value="cylindric" modifier="±" />
+      </structure>
+      <structure id="o19289" name="lobe">
+        <character name="count" value="4" />
+        <character name="shape" value="triangular" />
+      </structure>
+    </statement>
+    <statement id="938.txt-13">
+      <text>Cypselae columnar to prismatic (proximally tapered), ribs 4, faces gland-dotted between ribs, especially adaxially (pericarps without myxogenic cells or resin sacs; embryo sac development monosporic);</text>
+      <structure id="o19290" name="cypsela">
+        <character char_type="range_value" name="shape" from="columnar" to="prismatic" />
+        <character name="shape" value="columnar" />
+        <character name="shape" value="prismatic" />
+      </structure>
+      <structure id="o19291" name="rib">
+        <character name="count" value="4" />
+      </structure>
+      <structure id="o19292" name="face">
+        <character name="coloration_or_relief" value="gland-dotted" constraint="between ribs" constraintid="o19293" />
+      </structure>
+      <structure id="o19293" name="rib" />
+    </statement>
+    <statement id="938.txt-14">
+      <text>pappi coroniform (shorter adaxially), dentate or entire.</text>
+      <structure id="o19294" name="pappus">
+        <character name="shape" value="coroniform" />
+        <character name="shape" value="dentate" />
+        <character name="shape" value="entire" />
+      </structure>
+    </statement>
+    <statement id="938.txt-15">
+      <text>x = 6, 8.</text>
+      <structure id="o19295" name="chromosome">
+        <character name="count" value="6" />
+        <character name="count" value="8" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species 8 (1 in the flora):</number_of_infrataxa>
+  <introduced>introduced;</introduced>
+  <general_distribution>s Africa</general_distribution>
+  <general_distribution>also introduced in Australia.</general_distribution>
+  <discussion>Oncosiphon suffruticosum (Linnaeus) Källersjö [Matricaria suffruticosa (Linnaeus) Druce] was collected on ballast at Portland, Oregon, in 1902. It differs from O. piluliferum by smaller (3–5 mm diam.) heads clustered in dense, ± flat-topped, corymbiform arrays. Both O. piluliferum and O. suffruticosum are common weeds in their native southern Africa and in Australia. Both have the potential to become serious pests in western North America. They are unpalatable to livestock and tend to dominate infested pasturelands. When consumed by animals, they taint the flavor of milk and meat.</discussion>
+  <references>SELECTED REFERENCE Källersjö, M. 1988. A generic re-classification of Pentzia Thunb. (Compositae: Anthemideae) from southern Africa. Bot. J. Linn. Soc. 96: 299–322.</references>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

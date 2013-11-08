@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>5.</number>
+  <species_name>Antennaria stenophylla</species_name>
+  <authority>(A. Gray) A. Gray</authority>
+  <place_of_publication>Proc. Amer. Acad. Arts 17: 213. 1882</place_of_publication>
+  <common_name>Narrowleaf pussytoes</common_name>
+  <synonym_of_species_name>Antennaria alpina (Linnaeus) Gaertner var. stenophylla A. Gray in C. Wilkes et al., U.S. Expl. Exped. 17: 366. 1874; A. leucophaea Piper</synonym_of_species_name>
+  <description>
+    <statement id="632.txt-0">
+      <text>Dioecious.</text>
+      <structure id="o13242" name="whole_organism">
+        <character name="reproduction" value="dioecious" />
+      </structure>
+    </statement>
+    <statement id="632.txt-1">
+      <text>Plants (3–)10–15 cm.</text>
+      <structure id="o13243" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="3" to="10" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="15" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="632.txt-2">
+      <text>Stolons none.</text>
+      <structure id="o13244" name="stolon" />
+    </statement>
+    <statement id="632.txt-3">
+      <text>Basal leaves 1-nerved, linear to narrowly oblanceolate, 15–50 × 1–2(–4) mm, tips acute, not flagged, faces ± gray tomentose.</text>
+      <structure id="o13245" name="leaf" constraint="basal">
+        <character name="architecture" value="1-nerved" />
+        <character char_type="range_value" name="shape" from="linear" to="narrowly oblanceolate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="oblanceolate" modifier="narrowly" />
+        <character char_type="range_value" name="length" from="15" from_unit="mm" to="50" to_unit="mm" />
+        <character char_type="range_value" name="atypical_width" from="2" to="4" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="width" from="1" from_unit="mm" to="2" to_unit="mm" />
+      </structure>
+      <structure id="o13246" name="tip">
+        <character name="shape" value="acute" />
+        <character name="orientation" value="flagged" modifier="not" />
+      </structure>
+      <structure id="o13247" name="face">
+        <character name="coloration" value="gray" modifier="±" />
+        <character name="pubescence" value="tomentose" />
+      </structure>
+    </statement>
+    <statement id="632.txt-4">
+      <text>Cauline leaves (gradually reduced distally) narrowly linear, 5–60 mm, distalmost flagged.</text>
+      <structure id="o13248" name="leaf" constraint="cauline">
+        <character name="arrangement_or_shape" value="linear" modifier="narrowly" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="60" to_unit="mm" />
+        <character name="position" value="distalmost" />
+        <character name="orientation" value="flagged" />
+      </structure>
+    </statement>
+    <statement id="632.txt-5">
+      <text>Heads 2–8(–10) in subcapitate arrays.</text>
+      <structure id="o13249" name="head">
+        <character char_type="range_value" name="atypical_count" from="8" to="10" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="2" to="8" constraint="in arrays" constraintid="o13250" />
+      </structure>
+      <structure id="o13250" name="array">
+        <character name="architecture" value="subcapitate" />
+      </structure>
+    </statement>
+    <statement id="632.txt-6">
+      <text>Involucres:</text>
+      <structure id="o13251" name="involucre" />
+    </statement>
+    <statement id="632.txt-7">
+      <text>staminate 4–5 mm;</text>
+      <structure id="o13252" name="involucre" constraint="staminate">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="632.txt-8">
+      <text>pistillate 4–6.5 mm.</text>
+      <structure id="o13253" name="involucre" constraint="pistillate">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="6.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="632.txt-9">
+      <text>Phyllaries distally light brown, dingy brown, or olivaceous (apices acute-acuminate).</text>
+      <structure id="o13254" name="phyllary">
+        <character name="coloration" value="brown" modifier="distally ;light" />
+        <character name="coloration" value="olivaceous" modifier="distally" />
+      </structure>
+    </statement>
+    <statement id="632.txt-10">
+      <text>Corollas:</text>
+      <structure id="o13255" name="corolla" />
+    </statement>
+    <statement id="632.txt-11">
+      <text>staminate 2.5–3.5 mm;</text>
+      <structure id="o13256" name="corolla" constraint="staminate">
+        <character char_type="range_value" name="size" from="2.5" from_unit="mm" to="3.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="632.txt-12">
+      <text>pistillate 2.5–4 mm.</text>
+      <structure id="o13257" name="corolla" constraint="pistillate">
+        <character char_type="range_value" name="size" from="2.5" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="632.txt-13">
+      <text>Cypselae 1–1.8 mm, glandular-puberulent;</text>
+      <structure id="o13258" name="cypsela">
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="1.8" to_unit="mm" />
+        <character name="pubescence" value="glandular-puberulent" />
+      </structure>
+    </statement>
+    <statement id="632.txt-14">
+      <text>pappi:</text>
+      <structure id="o13259" name="pappus" />
+    </statement>
+    <statement id="632.txt-15">
+      <text>staminate 3–4.5 mm (bristles barbellate at tips);</text>
+      <structure id="o13260" name="pappus" constraint="staminate">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="4.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="632.txt-16">
+      <text>pistillate 3–4.5 mm.</text>
+      <structure id="o13261" name="pappus" constraint="pistillate">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="4.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="632.txt-17">
+      <text>2 n = 56.</text>
+      <structure id="o13262" name="chromosome">
+        <character name="count" value="56" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>dry, often sagebrush (artemisia) covered hillsides and dry margins around seasonally moist depressions in sagebrush steppe of the great basin and columbia plateau</habitat>
+  <elevation>1500–2300 m;</elevation>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <discussion>Antennaria stenophylla is a xerophyte in the Argenteae group. It is distinguished by relatively narrow leaves, heads in subcapitate clusters, and light brown, dingy brown, or olivaceous phyllary tips.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

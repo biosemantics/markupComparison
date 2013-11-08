@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>5b.</number>
+  <variety_name>Agoseris grandiflora (Nuttall) Greene var. leptophylla</variety_name>
+  <authority>G. I. Baird</authority>
+  <place_of_publication>Sida 21: 267. 2004</place_of_publication>
+  <common_name>Puget Sound agoseris</common_name>
+  <description>
+    <statement id="504.txt-0">
+      <text>Leaves :</text>
+      <structure id="o10227" name="leaf" />
+    </statement>
+    <statement id="504.txt-1">
+      <text>blades linear to filiform, 10–36 cm × 2–4(–8) mm (excluding lobes), margins usually laciniately or finely pinnatifid, sometimes toothed, lobes or teeth linear to filiform.</text>
+      <structure id="o10228" name="blade">
+        <character char_type="range_value" name="shape" from="linear" to="filiform" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="filiform" />
+        <character char_type="range_value" name="length" from="10" from_unit="cm" to="36" to_unit="cm" />
+        <character char_type="range_value" name="atypical_width" from="4" to="8" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="width" from="2" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+      <structure id="o10229" name="margin">
+        <character name="shape" value="pinnatifid" modifier="usually laciniately finely" />
+        <character name="shape" value="toothed" modifier="sometimes" />
+      </structure>
+      <structure id="o10230" name="lobe">
+        <character char_type="range_value" name="shape" from="linear" to="filiform" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="filiform" />
+      </structure>
+      <structure id="o10231" name="tooth" />
+    </statement>
+    <statement id="504.txt-2">
+      <text>Involucres campanulate, 2–4 cm in fruit.</text>
+      <structure id="o10232" name="involucre">
+        <character name="shape" value="campanulate" />
+        <character char_type="range_value" name="size" from="2" from_unit="cm" to="4" to_unit="cm" constraint="in fruit" constraintid="o10233" />
+      </structure>
+      <structure id="o10233" name="fruit" />
+    </statement>
+    <statement id="504.txt-3">
+      <text>Phyllaries mostly medially rosy purple and spotted, ± lanceolate, margins usually entire, rarely dentate;</text>
+      <structure id="o10234" name="phyllary">
+        <character name="coloration" value="purple and spotted" modifier="mostly medially;rosy" />
+        <character name="shape" value="lanceolate" modifier="±" />
+      </structure>
+      <structure id="o10235" name="margin">
+        <character name="shape" value="entire" modifier="usually" />
+        <character name="shape" value="dentate" modifier="rarely" />
+      </structure>
+    </statement>
+    <statement id="504.txt-4">
+      <text>outer mostly subequal to, sometimes surpassing inner at flowering.</text>
+      <structure id="o10236" name="phyllary" constraint="outer">
+        <character name="size" value="subequal" modifier="mostly" />
+      </structure>
+      <structure id="o10237" name="phyllary" constraint="inner; at flowering">
+        <character name="comparison" value="surpassing" modifier="sometimes" />
+      </structure>
+    </statement>
+    <statement id="504.txt-5">
+      <text>Florets 40–60+.</text>
+      <structure id="o10238" name="floret">
+        <character char_type="range_value" name="count" from="40" to="60" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="504.txt-6">
+      <text>2n = 18.</text>
+      <structure id="o10239" name="chromosome">
+        <character name="count" value="18" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <habitat>moist to dry lowland prairies</habitat>
+  <habitat>coastal forests</habitat>
+  <habitat>open coniferous woodlands</habitat>
+  <elevation>10–1800 m;</elevation>
+  <ca_distribution>B.C.</ca_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <discussion>Variety leptophylla is most commonly found west of the Cascade Mountains from Vancouver Island through the Puget Sound and Willamette Valley to the Siskiyou-Klamath Mountains region of southwestern Oregon and northwestern California. It also occurs sporadically in mesic forest areas on the eastern slopes of the Cascade Mountains, and disjunctively in the Selkirk-Clearwater Mountains region of British Columbia and northern Idaho. In the Selkirk-Clearwater Mountains region, Columbia River Gorge, southern Willamette Valley, and Siskiyou-Klamath Mountains region var. grandiflora and var. leptophylla are sympatric and appear to be introgressive. In those regions, intermediate specimens are not uncommon. It may be one of the parental taxa of A. ×elata (which see), especially the Puget Sound-Willamette Valley populations.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

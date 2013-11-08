@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1a.</number>
+  <subspecies_name>Onopordum acanthium Linnaeus subsp. acanthium</subspecies_name>
+  <description>
+    <statement id="36.txt-0">
+      <text>Plants 50–400 cm , herbage canescent-tomentose throughout or ± glabrescent.</text>
+      <structure id="o6707" name="whole_organism">
+        <character char_type="range_value" name="size" from="50" from_unit="cm" to="400" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+      <structure id="o6708" name="herbage">
+        <character name="pubescence" value="canescent-tomentose" modifier="throughout" />
+        <character name="pubescence" value="glabrescent" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="36.txt-1">
+      <text>Stems appressed-hairy;</text>
+      <structure id="o6709" name="stem">
+        <character name="pubescence" value="appressed-hairy" />
+      </structure>
+    </statement>
+    <statement id="36.txt-2">
+      <text>wings to 15 mm wide.</text>
+      <structure id="o6710" name="wing">
+        <character char_type="range_value" name="width" to="15" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="36.txt-3">
+      <text>Leaves 10–60 cm, margins dentate to shallowly pinnatifid, lobes 8–10 pairs, broadly triangular, densely tomentose, especially on abaxial faces.</text>
+      <structure id="o6711" name="leaf">
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="60" to_unit="cm" />
+      </structure>
+      <structure id="o6712" name="margin">
+        <character char_type="range_value" name="shape" from="dentate" to="shallowly pinnatifid" />
+        <character name="shape" value="dentate" />
+        <character name="shape" value="pinnatifid" modifier="shallowly" />
+      </structure>
+      <structure id="o6713" name="lobe">
+        <character char_type="range_value" name="count" from="8" to="10" />
+        <character name="shape" value="triangular" modifier="broadly" />
+        <character name="pubescence" value="tomentose" modifier="densely" />
+      </structure>
+      <structure id="o6714" name="face" constraint="abaxial" />
+      <relation id="r834" name="on" from="o6713" to="o6714" negation="false" modifier="especially" />
+    </statement>
+    <statement id="36.txt-4">
+      <text>Heads mostly in clusters of 2–3, at tips of branches.</text>
+      <structure id="o6715" name="head" />
+      <structure id="o6716" name="cluster" />
+      <relation id="r835" name="in" from="o6715" to="o6716" negation="false" modifier="mostly" />
+      <structure id="o6717" name="tip" />
+      <relation id="r836" name="of 2-3 , at" from="o6716" to="o6717" negation="false" />
+      <structure id="o6718" name="branch" />
+      <relation id="r837" name="part_of" from="o6717" to="o6718" negation="false" />
+    </statement>
+    <statement id="36.txt-5">
+      <text>Involucres ± spheric, 20 mm diam. (excluding spines), bases truncate to concave.</text>
+      <structure id="o6719" name="involucre">
+        <character name="shape" value="spheric" modifier="±" />
+        <character name="size" value="20" unit="mm" />
+      </structure>
+      <structure id="o6720" name="base">
+        <character char_type="range_value" name="shape" from="truncate" to="concave" />
+        <character name="shape" value="truncate" />
+        <character name="shape" value="concave" />
+      </structure>
+    </statement>
+    <statement id="36.txt-6">
+      <text>Phyllaries linear, bases 2–2.5 mm wide, puberulent, ± cobwebby-tomentose, spines to 6 mm, adaxially glabrous.</text>
+      <structure id="o6721" name="phyllary">
+        <character name="arrangement_or_shape" value="linear" />
+      </structure>
+      <structure id="o6722" name="base">
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="2.5" to_unit="mm" />
+        <character name="pubescence" value="puberulent" />
+        <character name="pubescence" value="cobwebby-tomentose" modifier="±" />
+      </structure>
+      <structure id="o6723" name="spine">
+        <character char_type="range_value" name="size" to="6" to_unit="mm" />
+        <character name="pubescence" value="glabrous" modifier="adaxially" />
+      </structure>
+    </statement>
+    <statement id="36.txt-7">
+      <text>Corollas purple or white, 22–25 mm, lobes glabrous.</text>
+      <structure id="o6724" name="corolla">
+        <character name="coloration" value="purple" />
+        <character name="coloration" value="white" />
+        <character char_type="range_value" name="size" from="22" from_unit="mm" to="25" to_unit="mm" />
+      </structure>
+      <structure id="o6725" name="lobe">
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="36.txt-8">
+      <text>Cypselae 4–5 mm, transversely roughened;</text>
+      <structure id="o6726" name="cypsela">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="5" to_unit="mm" />
+        <character name="texture" value="roughened" modifier="transversely" />
+      </structure>
+    </statement>
+    <statement id="36.txt-9">
+      <text>pappi of many pink to reddish, minutely barbed bristles 7–9 mm.</text>
+      <structure id="o6727" name="pappus" />
+      <structure id="o6728" name="bristle">
+        <character char_type="range_value" name="coloration" from="many pink" to="reddish" />
+        <character name="coloration" value="reddish" />
+        <character name="architecture" value="barbed" modifier="minutely" />
+        <character char_type="range_value" name="size" from="7" from_unit="mm" to="9" to_unit="mm" />
+      </structure>
+      <relation id="r838" name="consist_of" from="o6727" to="o6728" negation="false" />
+    </statement>
+    <statement id="36.txt-10">
+      <text>2 n = 34.</text>
+      <structure id="o6729" name="chromosome">
+        <character name="count" value="34" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>grasslands</habitat>
+  <habitat>woodlands</habitat>
+  <habitat>riparian areas</habitat>
+  <habitat>deserts</habitat>
+  <habitat>disturbed ground</habitat>
+  <habitat>roadsides</habitat>
+  <elevation>0–2200 m;</elevation>
+  <introduced>introduced;</introduced>
+  <ca_distribution>B.C.</ca_distribution>
+  <ca_distribution>N.B.</ca_distribution>
+  <ca_distribution>N.S.</ca_distribution>
+  <ca_distribution>Ont.</ca_distribution>
+  <ca_distribution>Que.</ca_distribution>
+  <us_distribution>Ala.</us_distribution>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Conn.</us_distribution>
+  <us_distribution>Del.</us_distribution>
+  <us_distribution>Fla.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Ill.</us_distribution>
+  <us_distribution>Ind.</us_distribution>
+  <us_distribution>Iowa</us_distribution>
+  <us_distribution>Kans.</us_distribution>
+  <us_distribution>Ky.</us_distribution>
+  <us_distribution>Md.</us_distribution>
+  <us_distribution>Mass.</us_distribution>
+  <us_distribution>Mich.</us_distribution>
+  <us_distribution>Minn.</us_distribution>
+  <us_distribution>Mo.</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>Nebr.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>N.J.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>Ohio</us_distribution>
+  <us_distribution>Okla.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <us_distribution>R.I.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Vt.</us_distribution>
+  <us_distribution>Va.</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <us_distribution>W.Va.</us_distribution>
+  <us_distribution>Wis.</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <global_distribution>Eurasia</global_distribution>
+  <global_distribution>introduced in Australia</global_distribution>
+  <discussion>Scotch thistle is the national emblem of Scotland. Although it is sometimes cultivated as an ornamental, Scotch thistle is considered to be a noxious weed both in Canada and the United States. Infestations severely degrade rangelands, and dense stands are practically impenetrable because of the spiny nature and large size of the plant. This species has also invaded rangelands in Australia.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>33b.</number>
+  <subspecies_name>Artemisia globularia Chamisso ex Besser subsp. lutea</subspecies_name>
+  <authority>(Hultén) L. M. Shultz</authority>
+  <place_of_publication>Sida 21: 1638. 2005</place_of_publication>
+  <synonym_of_subspecies_name>Artemisia globularia var. lutea Hultén, Fl. Alaska Yukon 10: 1567. 1950; A. flava Jurtzev</synonym_of_subspecies_name>
+  <description>
+    <statement id="902.txt-0">
+      <text>Flowering stems 5–9 cm.</text>
+      <structure id="o18695" name="stem" constraint="flowering">
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="9" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="902.txt-1">
+      <text>Corollas yellow, orange-glandular.</text>
+      <structure id="o18696" name="corolla">
+        <character name="coloration" value="yellow" />
+        <character name="architecture_or_exudation_or_pubescence" value="orange-glandular" />
+      </structure>
+    </statement>
+    <statement id="902.txt-2">
+      <text>Cypselae 1.5–2 mm, margins with relatively broad ribs.</text>
+      <structure id="o18697" name="cypsela">
+        <character char_type="range_value" name="size" from="1.5" from_unit="mm" to="2" to_unit="mm" />
+      </structure>
+      <structure id="o18698" name="margin" />
+      <structure id="o18699" name="rib">
+        <character name="size" value="broad" modifier="relatively" />
+      </structure>
+      <relation id="r1980" name="with" from="o18698" to="o18699" negation="false" />
+    </statement>
+  </description>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>rocky ridges and slopes</habitat>
+  <elevation>0–100 m;</elevation>
+  <us_distribution>Alaska.</us_distribution>
+  <discussion>Subspecies lutea is common on St. Mathew Island and infrequent on surrounding islands and the mainland (Seward Peninsula). It might be confused with Artemisia furcata.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

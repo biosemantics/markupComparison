@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>4a.</number>
+  <subspecies_name>Carduus pycnocephalus Linnaeus subsp. pycnocephalus</subspecies_name>
+  <description>
+    <statement id="49.txt-0">
+      <text>Annuals , 20–200 cm.</text>
+      <structure id="o9777" name="whole_organism">
+        <character char_type="range_value" name="size" from="20" from_unit="cm" to="200" to_unit="cm" />
+        <character name="life_style" value="annual" />
+      </structure>
+    </statement>
+    <statement id="49.txt-1">
+      <text>Stems simple to openly branched, loosely tomentose with fine single-celled hairs and villous with curled, septate hairs;</text>
+      <structure id="o9778" name="stem">
+        <character char_type="range_value" name="architecture" from="simple" to="openly branched" />
+        <character name="architecture" value="simple" />
+        <character name="architecture" value="branched" modifier="openly" />
+        <character name="pubescence" value="tomentose" modifier="loosely" constraint="with hairs" constraintid="o9779" />
+      </structure>
+      <structure id="o9779" name="hair">
+        <character name="texture" value="fine" />
+        <character name="architecture" value="single-celled" />
+        <character name="pubescence" value="villous" constraint="with hairs" constraintid="o9780" />
+      </structure>
+      <structure id="o9780" name="hair">
+        <character name="shape" value="curled" />
+        <character name="architecture" value="septate" />
+      </structure>
+    </statement>
+    <statement id="49.txt-2">
+      <text>teeth of wings to 10 mm, wing spines to 20 mm.</text>
+      <structure id="o9781" name="tooth">
+        <character char_type="range_value" name="size" to="10" to_unit="mm" />
+      </structure>
+      <structure id="o9782" name="wing" />
+      <relation id="r1129" name="part_of" from="o9781" to="o9782" negation="false" />
+      <structure id="o9783" name="spine" constraint="wing">
+        <character char_type="range_value" name="size" to="20" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="49.txt-3">
+      <text>Leaves:</text>
+      <structure id="o9784" name="leaf" />
+    </statement>
+    <statement id="49.txt-4">
+      <text>basal tapering to winged petioles, blades 10–25 cm, margins pinnately 2–5-lobed, abaxial faces ± tomentose, adaxial faces tomentose and pilose, ± glabrate;</text>
+      <structure id="o9785" name="leaf" constraint="basal">
+        <character name="shape" value="tapering" />
+      </structure>
+      <structure id="o9786" name="petiole">
+        <character name="architecture" value="winged" />
+      </structure>
+      <structure id="o9787" name="blade">
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="25" to_unit="cm" />
+      </structure>
+      <structure id="o9788" name="margin">
+        <character name="shape" value="2-5-lobed" modifier="pinnately" />
+      </structure>
+      <structure id="o9789" name="face" constraint="abaxial">
+        <character name="pubescence" value="tomentose" modifier="±" />
+      </structure>
+      <structure id="o9790" name="face" constraint="adaxial">
+        <character name="pubescence" value="tomentose" />
+        <character name="pubescence" value="pilose" />
+        <character name="pubescence" value="glabrate" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="49.txt-5">
+      <text>cauline sessile, shorter, margins less divided, distally reduced to bracts.</text>
+      <structure id="o9791" name="leaf" constraint="cauline">
+        <character name="architecture" value="sessile" />
+        <character name="size" value="shorter" />
+      </structure>
+      <structure id="o9792" name="margin">
+        <character name="shape" value="divided" modifier="less" />
+      </structure>
+      <structure id="o9793" name="bract" />
+      <relation id="r1130" name="distally reduced to" from="o9792" to="o9793" negation="false" />
+    </statement>
+    <statement id="49.txt-6">
+      <text>Heads borne singly or clustered in ± tight groups of 2–5 at ends of branches and sometimes in upper axils, sessile or short-pedunculate, 20–25 mm.</text>
+      <structure id="o9794" name="head">
+        <character name="arrangement" value="clustered" constraint="in groups" constraintid="o9795" />
+        <character name="architecture" value="sessile" />
+        <character name="architecture" value="short-pedunculate" />
+        <character char_type="range_value" name="size" from="20" from_unit="mm" to="25" to_unit="mm" />
+      </structure>
+      <structure id="o9795" name="group">
+        <character name="texture" value="tight" modifier="±" />
+      </structure>
+      <structure id="o9796" name="end" />
+      <relation id="r1131" name="of 2-5 at" from="o9795" to="o9796" negation="false" />
+      <structure id="o9797" name="branch" />
+      <relation id="r1132" name="part_of" from="o9796" to="o9797" negation="false" />
+      <structure id="o9798" name="axil" constraint="upper" />
+      <relation id="r1133" name="in" from="o9796" to="o9798" negation="false" modifier="sometimes" />
+    </statement>
+    <statement id="49.txt-7">
+      <text>Peduncles winged throughout or distally unwinged, 0–2 cm, tomentose.</text>
+      <structure id="o9799" name="peduncle">
+        <character name="architecture" value="winged" modifier="throughout or distally unwinged, 0-2 cm" />
+        <character name="pubescence" value="tomentose" />
+      </structure>
+    </statement>
+    <statement id="49.txt-8">
+      <text>Involucres cylindric to ellipsoid (appearing campanulate when pressed), 17–22 mm × 7–15 mm (diam.).</text>
+      <structure id="o9800" name="involucre">
+        <character char_type="range_value" name="shape" from="cylindric" to="ellipsoid" />
+        <character name="shape" value="cylindric" />
+        <character name="shape" value="ellipsoid" />
+        <character char_type="range_value" name="length" from="17" from_unit="mm" to="22" to_unit="mm" />
+        <character char_type="range_value" name="width" from="7" from_unit="mm" to="15" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="49.txt-9">
+      <text>Phyllaries linear-lanceolate, with appressed, loosely tomentose bases 2–3 mm wide and ascending, linear appendages 0.5–1.5 mm wide, not scarious-margined, distally scabrous on midribs and margins, spine tips 1–3 mm, the inner straight, erect, with unarmed or minutely armed tips.</text>
+      <structure id="o9801" name="phyllary">
+        <character name="shape" value="linear-lanceolate" />
+        <character name="orientation" value="ascending" />
+      </structure>
+      <structure id="o9802" name="base">
+        <character name="orientation" value="appressed" />
+        <character name="pubescence" value="tomentose" modifier="loosely" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="3" to_unit="mm" />
+      </structure>
+      <relation id="r1134" name="with" from="o9801" to="o9802" negation="false" />
+      <structure id="o9803" name="appendage">
+        <character name="arrangement_or_shape" value="linear" />
+        <character char_type="range_value" name="size" from="0.5" from_unit="mm" to="1.5" to_unit="mm" />
+        <character name="shape" value="scarious-margined" modifier="not" />
+        <character name="pubescence_or_relief" value="scabrous" modifier="distally" constraint="on midribs, margins" constraintid="o9804  o9805" />
+      </structure>
+      <structure id="o9804" name="midrib" />
+      <structure id="o9805" name="margin" />
+      <structure id="o9806" name="tip" constraint="spine">
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="3" to_unit="mm" />
+        <character name="position" value="inner" />
+        <character name="course" value="straight" />
+        <character name="orientation" value="erect" />
+      </structure>
+      <structure id="o9807" name="tip">
+        <character name="architecture" value="unarmed" />
+        <character name="architecture" value="armed" modifier="minutely" />
+      </structure>
+      <relation id="r1135" name="with" from="o9806" to="o9807" negation="false" />
+    </statement>
+    <statement id="49.txt-10">
+      <text>Corollas ± purple, 14–16 mm;</text>
+      <structure id="o9808" name="corolla">
+        <character name="coloration" value="purple" modifier="±" />
+        <character char_type="range_value" name="size" from="14" from_unit="mm" to="16" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="49.txt-11">
+      <text>lobes ca. 3 times longer than throat.</text>
+      <structure id="o9809" name="lobe" />
+    </statement>
+    <statement id="49.txt-12">
+      <text>Cypselae golden to brown, 4–6 mm, finely 20-nerved;</text>
+      <structure id="o9810" name="cypsela">
+        <character char_type="range_value" name="coloration" from="golden" to="brown" />
+        <character name="coloration" value="golden" />
+        <character name="coloration" value="brown" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="6" to_unit="mm" />
+        <character name="architecture" value="20-nerved" modifier="finely" />
+      </structure>
+    </statement>
+    <statement id="49.txt-13">
+      <text>pappus bristles 15–20 mm.</text>
+      <structure id="o9811" name="bristle" constraint="pappus">
+        <character char_type="range_value" name="size" from="15" from_unit="mm" to="20" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="49.txt-14">
+      <text>2 n = ca. 54 (Chile), 60, 62.</text>
+      <structure id="o9812" name="chromosome">
+        <character name="count" value="54" />
+        <character name="count" value="60" />
+        <character name="count" value="62" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <habitat>aggressive weed of waste ground</habitat>
+  <habitat>rangelands</habitat>
+  <habitat>pastures</habitat>
+  <habitat>roadsides</habitat>
+  <habitat>fields</habitat>
+  <elevation>0–1000 m;</elevation>
+  <introduced>introduced;</introduced>
+  <us_distribution>Ala.</us_distribution>
+  <us_distribution>Ark.</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Miss.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <us_distribution>S.C.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <global_distribution>Europe (Mediterranean region).</global_distribution>
+  <discussion>Carduus pycnocephalus var. pycnocephalus has been reported from New York; I have not seen a specimen from there.</discussion>
+  <discussion>Italian thistle is a serious rangeland pest in much of California, especially near the coast where it sometimes forms pure stands, both in full sun and in partial shade. Populations increase under grazing pressure as more palatable plants are preferentially consumed.</discussion>
+  <discussion>Old herbarium records indicate that Carduus pycnocephalus was introduced on ballast into several east-coast ports (e.g., Philadelphia, Mobile) in the 1800s; the lack of subsequent collections suggests that conditions were unsuitable for the species to become permanently established.</discussion>
+  <discussion>The only published chromosome counts for Carduus pycnocephalus from North American material are from California specimens (A. M. Powell et. al. 1974). Published chromosome counts (2n = 18, 31, 32, 54, 60, 64, 80) for C. pycnocephalus from a variety of Old World localities indicate that this is a complex species in need of further investigation.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

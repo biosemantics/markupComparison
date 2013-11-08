@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>11.</number>
+  <species_name>Prenanthes roanensis</species_name>
+  <authority>(Chickering) Chickering</authority>
+  <place_of_publication>Bot. Gaz. 6: 191. 1881</place_of_publication>
+  <common_name>Roan Mountain rattlesnakeroot</common_name>
+  <synonym_of_species_name>Nabalus roanensis Chickering, Bot. Gaz. 5: 155. 1880; Prenanthes cylindrica (Small) E. L. Braun</synonym_of_species_name>
+  <description>
+    <statement id="369.txt-0">
+      <text>Plants 18–150 cm;</text>
+      <structure id="o6998" name="whole_organism">
+        <character char_type="range_value" name="size" from="18" from_unit="cm" to="150" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="369.txt-1">
+      <text>taproots slender or short and thickened, tuberous.</text>
+      <structure id="o6999" name="taproot">
+        <character name="size" value="slender" />
+        <character name="size" value="short" />
+        <character name="thickness" value="thickened" />
+        <character name="architecture" value="tuberous" />
+      </structure>
+    </statement>
+    <statement id="369.txt-2">
+      <text>Stems erect, green or purple, simple, glabrous proxi-mally, crisply tomentulose distally.</text>
+      <structure id="o7000" name="stem">
+        <character name="orientation" value="erect" />
+        <character name="coloration" value="green" />
+        <character name="coloration" value="purple" />
+        <character name="architecture" value="simple" />
+        <character name="pubescence" value="glabrous" modifier="proxi-mally" />
+        <character name="pubescence" value="tomentulose" modifier="crisply ; distally" />
+      </structure>
+    </statement>
+    <statement id="369.txt-3">
+      <text>Leaves:</text>
+      <structure id="o7001" name="leaf" />
+    </statement>
+    <statement id="369.txt-4">
+      <text>proximal present at flowering;</text>
+    </statement>
+    <statement id="369.txt-5">
+      <text>petiolate (petioles not winged or distal narrowly winged);</text>
+      <structure id="o7002" name="leaf" constraint="proximal">
+        <character name="presence" value="present" modifier="at flowering" />
+        <character name="architecture" value="petiolate" />
+      </structure>
+    </statement>
+    <statement id="369.txt-6">
+      <text>blades ovate, 3–22 × 2–15 cm, cori-aceous, bases cordate to truncate or rounded, margins often deeply 3–5-palmately lobed or compound, lobes and sinuses angular, ultimate margins irregularly dentate, apices acute, faces usually finely tomentulose on veins;</text>
+      <structure id="o7003" name="blade">
+        <character name="shape" value="ovate" />
+        <character char_type="range_value" name="length" from="3" from_unit="cm" to="22" to_unit="cm" />
+        <character char_type="range_value" name="width" from="2" from_unit="cm" to="15" to_unit="cm" />
+        <character name="texture" value="cori-aceous" />
+      </structure>
+      <structure id="o7004" name="base">
+        <character char_type="range_value" name="shape" from="cordate" to="truncate or rounded" />
+        <character name="shape" value="cordate" />
+        <character name="shape" value="truncate" />
+        <character name="shape" value="rounded" />
+      </structure>
+      <structure id="o7005" name="margin">
+        <character name="shape" value="lobed" modifier="often deeply 3-5-palmately" />
+        <character name="architecture" value="compound" />
+      </structure>
+      <structure id="o7006" name="lobe" />
+      <structure id="o7007" name="sinus">
+        <character name="shape_or_arrangement" value="angular" />
+      </structure>
+      <structure id="o7008" name="margin" constraint="ultimate">
+        <character name="shape" value="dentate" modifier="irregularly" />
+      </structure>
+      <structure id="o7009" name="apex">
+        <character name="shape" value="acute" />
+      </structure>
+      <structure id="o7010" name="face">
+        <character name="pubescence" value="tomentulose" modifier="usually finely" constraint="on veins" constraintid="o7011" />
+      </structure>
+      <structure id="o7011" name="vein" />
+    </statement>
+    <statement id="369.txt-7">
+      <text>mid cauline short-petiolate or sessile;</text>
+      <structure id="o7012" name="leaf" constraint="mid cauline" />
+    </statement>
+    <statement id="369.txt-8">
+      <text>distal short-petiolate or sessile, reduced, lanceolate.</text>
+      <structure id="o7013" name="leaf" constraint="distal">
+        <character name="size" value="reduced" />
+        <character name="shape" value="lanceolate" />
+      </structure>
+    </statement>
+    <statement id="369.txt-9">
+      <text>Heads in narrowly paniculiform or thyrsiform arrays (nodding).</text>
+      <structure id="o7014" name="head" />
+      <structure id="o7015" name="array">
+        <character name="architecture" value="paniculiform" modifier="narrowly" />
+        <character name="architecture" value="thyrsiform" modifier="narrowly" />
+      </structure>
+      <relation id="r864" name="in" from="o7014" to="o7015" negation="false" />
+    </statement>
+    <statement id="369.txt-10">
+      <text>Involucres cylindric to narrowly campanulate, 12–14 × 2.5–3 mm.</text>
+      <structure id="o7016" name="involucre">
+        <character char_type="range_value" name="shape" from="cylindric" to="narrowly campanulate" />
+        <character name="shape" value="cylindric" />
+        <character name="shape" value="campanulate" modifier="narrowly" />
+        <character char_type="range_value" name="length" from="12" from_unit="mm" to="14" to_unit="mm" />
+        <character char_type="range_value" name="width" from="2.5" from_unit="mm" to="3" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="369.txt-11">
+      <text>Calyculi of 4–6, blackish green, triangular to lanceolate bractlets 1–3 mm, densely setose.</text>
+      <structure id="o7017" name="calyculus">
+        <character name="pubescence" value="setose" modifier="densely" />
+      </structure>
+      <structure id="o7018" name="bractlet">
+        <character char_type="range_value" name="count" from="4" to="6" />
+        <character name="coloration" value="green" modifier="blackish" />
+        <character char_type="range_value" name="shape" from="triangular" to="lanceolate" />
+        <character name="shape" value="triangular" />
+        <character name="shape" value="lanceolate" />
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="3" to_unit="mm" />
+      </structure>
+      <relation id="r865" name="consist_of" from="o7017" to="o7018" negation="false" />
+    </statement>
+    <statement id="369.txt-12">
+      <text>Phyllaries 5–9, green or dark green, apices blackish, linear to oblanceolate, 9–11 mm, sparsely and coarsely setose.</text>
+      <structure id="o7019" name="phyllary">
+        <character char_type="range_value" name="count" from="5" to="9" />
+        <character name="coloration" value="green" />
+        <character name="coloration" value="green" modifier="dark" />
+      </structure>
+      <structure id="o7020" name="apex">
+        <character name="coloration" value="blackish" />
+        <character char_type="range_value" name="shape" from="linear" to="oblanceolate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="oblanceolate" />
+        <character char_type="range_value" name="size" from="9" from_unit="mm" to="11" to_unit="mm" />
+        <character name="pubescence" value="setose" modifier="coarsely" />
+      </structure>
+    </statement>
+    <statement id="369.txt-13">
+      <text>Florets 5–7(–13);</text>
+      <structure id="o7021" name="floret">
+        <character char_type="range_value" name="atypical_count" from="7" to="13" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="5" to="7" />
+      </structure>
+    </statement>
+    <statement id="369.txt-14">
+      <text>corollas greenish yellow, 8–10 mm.</text>
+      <structure id="o7022" name="corolla">
+        <character name="coloration" value="yellow" modifier="greenish" />
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="369.txt-15">
+      <text>Cypselae tan to yellow, fusiform, subterete or angled, 4–5 mm, indistinctly 8–12-ribbed;</text>
+      <structure id="o7023" name="cypsela">
+        <character char_type="range_value" name="coloration" from="tan" to="yellow" />
+        <character name="coloration" value="tan" />
+        <character name="coloration" value="yellow" />
+        <character name="shape" value="fusiform" />
+        <character name="shape" value="subterete" />
+        <character name="shape" value="angled" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="5" to_unit="mm" />
+        <character name="architecture_or_shape" value="8-12-ribbed" modifier="indistinctly" />
+      </structure>
+    </statement>
+    <statement id="369.txt-16">
+      <text>pappi yellow to whitish, 5–6 mm.</text>
+      <structure id="o7024" name="pappus">
+        <character char_type="range_value" name="coloration" from="yellow" to="whitish" />
+        <character name="coloration" value="yellow" />
+        <character name="coloration" value="whitish" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="369.txt-17">
+      <text>2 n = 16.</text>
+      <structure id="o7025" name="chromosome">
+        <character name="count" value="16" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>spruce-hardwood forests</habitat>
+  <habitat>wooded slopes</habitat>
+  <habitat>open grassy summits</habitat>
+  <conservation>of conservation concern;</conservation>
+  <elevation>1600–1700 m;</elevation>
+  <us_distribution>N.C.</us_distribution>
+  <us_distribution>Tenn.</us_distribution>
+  <us_distribution>Va.</us_distribution>
+  <discussion>Prenanthes roanensis is recognized by its 5–7 florets and dark setae on the phyllaries. It is found at mid to high elevations in the Blue Ridge Province of the Appalachian Mountains. It is rather variable and often confused with other species. It is considered rare or threatened throughout its range.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

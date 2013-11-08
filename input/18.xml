@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Adenocaulon bicolor</species_name>
+  <authority>Hooker</authority>
+  <place_of_publication>Bot. Misc. 1: 19, plate 15. 1829</place_of_publication>
+  <common_name>Trail plant</common_name>
+  <description>
+    <statement id="18.txt-0">
+      <text>Aerial stems usually leafy only near bases, openly branched.</text>
+      <structure id="o2290" name="stem" constraint="aerial">
+        <character name="architecture" value="leafy" modifier="usually ; only" constraint="near bases" constraintid="o2291" />
+        <character name="architecture_or_shape" value="branched" modifier="openly" />
+      </structure>
+      <structure id="o2291" name="base" />
+    </statement>
+    <statement id="18.txt-1">
+      <text>Leaves:</text>
+      <structure id="o2292" name="leaf" />
+    </statement>
+    <statement id="18.txt-2">
+      <text>petioles winged;</text>
+      <structure id="o2293" name="petiole">
+        <character name="architecture" value="winged" />
+      </structure>
+    </statement>
+    <statement id="18.txt-3">
+      <text>blades 3–nerved, 3–25 cm.</text>
+      <structure id="o2294" name="blade">
+        <character name="architecture" value="3-nerved" />
+        <character char_type="range_value" name="size" from="3" from_unit="cm" to="25" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="18.txt-4">
+      <text>Phyllaries 5–6(–10), 1–2 mm.</text>
+      <structure id="o2295" name="phyllary">
+        <character char_type="range_value" name="atypical_count" from="6" to="10" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="5" to="6" />
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="2" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="18.txt-5">
+      <text>Peripheral florets:</text>
+      <structure id="o2296" name="floret" constraint="peripheral" />
+    </statement>
+    <statement id="18.txt-6">
+      <text>corollas soon falling, 0.5–1.2 mm.</text>
+      <structure id="o2297" name="corolla">
+        <character name="orientation" value="falling" modifier="soon" />
+        <character char_type="range_value" name="size" from="0.5" from_unit="mm" to="1.2" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="18.txt-7">
+      <text>Inner florets:</text>
+      <structure id="o2298" name="floret" constraint="inner" />
+    </statement>
+    <statement id="18.txt-8">
+      <text>corollas tardily falling, 1–2.3 mm.</text>
+      <structure id="o2299" name="corolla">
+        <character name="orientation" value="falling" modifier="tardily" />
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="2.3" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="18.txt-9">
+      <text>Cypselae 5–9 mm.</text>
+      <structure id="o2300" name="cypsela">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="9" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="18.txt-10">
+      <text>2 n = 46.</text>
+      <structure id="o2301" name="chromosome">
+        <character name="count" value="46" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <habitat>woods</habitat>
+  <habitat>forests</habitat>
+  <habitat>usually in shade</habitat>
+  <elevation>0–2000 m;</elevation>
+  <ca_distribution>Alta.</ca_distribution>
+  <ca_distribution>B.C.</ca_distribution>
+  <ca_distribution>Ont.</ca_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Mich.</us_distribution>
+  <us_distribution>Minn.</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>S.Dak.</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <us_distribution>Wis.</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <discussion>Adenocaulon bicolor is a common forest herb from southwestern Canada to central California. It is disjunct in the Black Hills (eastern Wyoming, western South Dakota) and the Great Lakes region (southern Ontario, northern Michigan). Reports of the species from Minnesota and Wisconsin are unverified.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

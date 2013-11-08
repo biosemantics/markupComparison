@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Echinops sphaerocephalus</species_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 814. 1753</place_of_publication>
+  <common_name>Great globe-thistle, boulette commune</common_name>
+  <description>
+    <statement id="30.txt-0">
+      <text>Plants 100–200 cm.</text>
+      <structure id="o5362" name="whole_organism">
+        <character char_type="range_value" name="size" from="100" from_unit="cm" to="200" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="30.txt-1">
+      <text>Stems simple to much branched, ± glandular, ± tomentose.</text>
+      <structure id="o5363" name="stem">
+        <character char_type="range_value" name="architecture" from="simple" to="much branched" />
+        <character name="architecture" value="simple" />
+        <character name="architecture" value="branched" modifier="much" />
+        <character name="architecture_or_exudation_or_pubescence" value="glandular" modifier="±" />
+        <character name="pubescence" value="tomentose" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="30.txt-2">
+      <text>Leaves:</text>
+      <structure id="o5364" name="leaf" />
+    </statement>
+    <statement id="30.txt-3">
+      <text>basal and proximal cauline leaves shortly winged-petiolate, distal cauline sessile, clasping;</text>
+      <structure id="o5365" name="leaf" constraint="basal and proximal cauline">
+        <character name="architecture" value="winged-petiolate" modifier="shortly" />
+        <character name="insertion_or_position" value="distal cauline" />
+        <character name="architecture" value="sessile" />
+        <character name="architecture" value="clasping" />
+      </structure>
+    </statement>
+    <statement id="30.txt-4">
+      <text>blades oblong-elliptic to narrowly obovate, margins ± subentire or 1–2-pinnately lobed, lobes lanceolate to triangular, margins revolute, spiny-dentate, spine-tipped, spines slender, 2–4 mm;</text>
+      <structure id="o5366" name="blade">
+        <character char_type="range_value" name="shape" from="oblong-elliptic" to="narrowly obovate" />
+        <character name="shape" value="oblong-elliptic" />
+        <character name="shape" value="obovate" modifier="narrowly" />
+      </structure>
+      <structure id="o5367" name="margin">
+        <character name="shape" value="subentire" modifier="±" />
+        <character name="shape" value="lobed" modifier="1-2-pinnately" />
+      </structure>
+      <structure id="o5368" name="lobe">
+        <character char_type="range_value" name="shape" from="lanceolate" to="triangular" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="triangular" />
+      </structure>
+      <structure id="o5369" name="margin">
+        <character name="shape_or_vernation" value="revolute" />
+        <character name="shape" value="spiny-dentate" />
+      </structure>
+      <structure id="o5370" name="spine">
+        <character name="size" value="slender" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="30.txt-5">
+      <text>abaxial faces densely gray- or white-tomentose, adaxial faces green, glandular-scabrous.</text>
+      <structure id="o5371" name="face" constraint="abaxial">
+        <character name="pubescence" value="gray-or-white-tomentose" modifier="densely" />
+      </structure>
+      <structure id="o5372" name="face" constraint="adaxial">
+        <character name="coloration" value="green" />
+        <character name="pubescence_or_relief" value="glandular-scabrous" />
+      </structure>
+    </statement>
+    <statement id="30.txt-6">
+      <text>Secondary heads 3–6 cm diam.</text>
+      <structure id="o5373" name="head" constraint="secondary">
+        <character char_type="range_value" name="size" from="3" from_unit="cm" to="6" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="30.txt-7">
+      <text>Involucres 15–25 mm.</text>
+      <structure id="o5374" name="involucre">
+        <character char_type="range_value" name="size" from="15" from_unit="mm" to="25" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="30.txt-8">
+      <text>Outer phyllaries ± glandular, inner phyllary apices attenuate, expanded, fringed.</text>
+      <structure id="o5375" name="phyllary" constraint="outer">
+        <character name="architecture_or_exudation_or_pubescence" value="glandular" modifier="±" />
+      </structure>
+      <structure id="o5376" name="apex" constraint="inner phyllary">
+        <character name="shape" value="attenuate" />
+        <character name="size" value="expanded" />
+        <character name="shape" value="fringed" />
+      </structure>
+    </statement>
+    <statement id="30.txt-9">
+      <text>Corollas white to pale blue, 12–14 mm, tube ca. 5.5 mm, lobes ca. 7 mm.</text>
+      <structure id="o5377" name="corolla">
+        <character char_type="range_value" name="coloration" from="white" to="pale-blue" />
+        <character name="coloration" value="white" />
+        <character name="coloration" value="blue" modifier="pale" />
+        <character char_type="range_value" name="size" from="12" from_unit="mm" to="14" to_unit="mm" />
+      </structure>
+      <structure id="o5378" name="tube">
+        <character name="size" value="5.5" unit="mm" />
+      </structure>
+      <structure id="o5379" name="lobe">
+        <character name="size" value="7" unit="mm" />
+      </structure>
+    </statement>
+    <statement id="30.txt-10">
+      <text>Cypselae 7–10 mm;</text>
+      <structure id="o5380" name="cypsela">
+        <character char_type="range_value" name="size" from="7" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="30.txt-11">
+      <text>pappi of ± connate, ciliate scales 1–1.5 mm.</text>
+      <structure id="o5381" name="pappus" />
+      <structure id="o5382" name="scale">
+        <character name="fusion" value="connate" modifier="±" />
+        <character name="architecture_or_shape" value="ciliate" />
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="1.5" to_unit="mm" />
+      </structure>
+      <relation id="r709" name="consist_of" from="o5381" to="o5382" negation="false" />
+    </statement>
+    <statement id="30.txt-12">
+      <text>2 n = 30, 32.</text>
+      <structure id="o5383" name="chromosome">
+        <character name="count" value="30" />
+        <character name="count" value="32" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>disturbed sites</habitat>
+  <elevation>0–1700 m;</elevation>
+  <introduced>introduced;</introduced>
+  <ca_distribution>Man.</ca_distribution>
+  <ca_distribution>Ont.</ca_distribution>
+  <ca_distribution>Que.</ca_distribution>
+  <ca_distribution>Sask.</ca_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Conn.</us_distribution>
+  <us_distribution>Ill.</us_distribution>
+  <us_distribution>Ind.</us_distribution>
+  <us_distribution>Iowa</us_distribution>
+  <us_distribution>Ky.</us_distribution>
+  <us_distribution>Maine</us_distribution>
+  <us_distribution>Md.</us_distribution>
+  <us_distribution>Mass.</us_distribution>
+  <us_distribution>Mich.</us_distribution>
+  <us_distribution>N.H.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <us_distribution>Vt.</us_distribution>
+  <us_distribution>Va.</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <us_distribution>W.Va.</us_distribution>
+  <us_distribution>Wis.</us_distribution>
+  <global_distribution>Eurasia.</global_distribution>
+  <discussion>Echinops sphaerocephalus is sometimes cultivated, and sometimes it escapes from cultivation. The species has been reported from Saskatchewan and may be introduced there; that appears questionable.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

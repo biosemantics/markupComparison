@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>6.</number>
+  <species_name>Centaurea jacea</species_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 914. 1753</place_of_publication>
+  <common_name>Brown or brown-ray knapweed, centaurée jacée, jacée des prés</common_name>
+  <synonym_of_species_name>Jacea pratensis Lamarck</synonym_of_species_name>
+  <description>
+    <statement id="211.txt-0">
+      <text>Perennials , 30–150 cm.</text>
+      <structure id="o3275" name="whole_organism">
+        <character char_type="range_value" name="size" from="30" from_unit="cm" to="150" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="211.txt-1">
+      <text>Stems 1–few, erect or ascending, openly branched distally, villous to scabrous with septate hairs, loosely tomentose, ± glabrate.</text>
+      <structure id="o3276" name="stem">
+        <character char_type="range_value" name="count" from="1" to="few" />
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="ascending" />
+        <character name="architecture_or_shape" value="branched" modifier="openly ; distally" />
+        <character char_type="range_value" name="pubescence" from="villous" to="scabrous" />
+        <character name="pubescence" value="villous" />
+        <character name="pubescence" value="scabrous" constraint="with hairs" constraintid="o3277" />
+        <character name="pubescence" value="tomentose" modifier="loosely" />
+        <character name="pubescence" value="glabrate" modifier="±" />
+      </structure>
+      <structure id="o3277" name="hair">
+        <character name="architecture" value="septate" />
+      </structure>
+    </statement>
+    <statement id="211.txt-2">
+      <text>Leaves:</text>
+      <structure id="o3278" name="leaf" />
+    </statement>
+    <statement id="211.txt-3">
+      <text>basal and proximal cauline petiolate, blades oblanceolate or elliptic, 5–25 cm, margins entire or shallowly dentate to irregularly pinnately lobed;</text>
+      <structure id="o3279" name="leaf" constraint="basal and proximal cauline">
+        <character name="architecture" value="petiolate" />
+      </structure>
+      <structure id="o3280" name="blade">
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="elliptic" />
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="25" to_unit="cm" />
+      </structure>
+      <structure id="o3281" name="margin">
+        <character char_type="range_value" name="shape" from="shallowly dentate" to="irregularly pinnately lobed" />
+        <character name="shape" value="entire" />
+        <character name="shape" value="dentate" modifier="shallowly" />
+        <character name="shape" value="lobed" modifier="irregularly pinnately" />
+      </structure>
+    </statement>
+    <statement id="211.txt-4">
+      <text>distal cauline sessile, not decurrent, gradually smaller, blades linear to lanceolate, entire or dentate.</text>
+      <structure id="o3282" name="leaf" constraint="distal cauline">
+        <character name="architecture" value="sessile" />
+        <character name="shape" value="decurrent" modifier="not" />
+        <character name="size" value="smaller" modifier="gradually" />
+      </structure>
+      <structure id="o3283" name="blade">
+        <character char_type="range_value" name="shape" from="linear" to="lanceolate , entire or dentate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="entire" />
+        <character name="shape" value="dentate" />
+      </structure>
+    </statement>
+    <statement id="211.txt-5">
+      <text>Heads radiant, in few-headed corymbiform arrays, leafy-bracted pedunculate.</text>
+      <structure id="o3284" name="head">
+        <character name="architecture_or_arrangement" value="radiant" />
+        <character name="architecture" value="leafy-bracted pedunculate" />
+      </structure>
+      <structure id="o3285" name="array">
+        <character name="architecture_or_shape" value="few-headed" />
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <relation id="r460" name="in" from="o3284" to="o3285" negation="false" />
+    </statement>
+    <statement id="211.txt-6">
+      <text>Involucres ovoid to campanulate or hemispheric, 15–l8 mm, usually about as wide as high.</text>
+      <structure id="o3286" name="involucre">
+        <character char_type="range_value" name="shape" from="ovoid" to="campanulate or hemispheric" />
+        <character name="shape" value="ovoid" />
+        <character name="shape" value="campanulate" />
+        <character name="shape" value="hemispheric" />
+        <character name="count" value="15" modifier="l8 mm" />
+      </structure>
+    </statement>
+    <statement id="211.txt-7">
+      <text>Principal phyllaries:</text>
+      <structure id="o3287" name="phyllary" constraint="principal" />
+    </statement>
+    <statement id="211.txt-8">
+      <text>bodies lanceolate to ovate, loosely tomentose or glabrous, usually concealed by expanded appendages, appendages usually light brown, erect, overlapping, ± concave, usually roundish, margins pale, broad, entire to coarsely dentate, membranous.</text>
+      <structure id="o3288" name="body">
+        <character char_type="range_value" name="shape" from="lanceolate" to="ovate" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="ovate" />
+        <character name="pubescence" value="tomentose" modifier="loosely" />
+        <character name="pubescence" value="glabrous" modifier="loosely" />
+        <character name="manifestation" value="concealed" modifier="usually" constraint="by appendages" constraintid="o3289" />
+      </structure>
+      <structure id="o3289" name="appendage">
+        <character name="size" value="expanded" />
+      </structure>
+      <structure id="o3290" name="appendage">
+        <character name="coloration" value="brown" modifier="usually;light" />
+        <character name="orientation" value="erect" />
+        <character name="aestivation_or_arrangement" value="overlapping" />
+        <character name="shape" value="concave" modifier="±" />
+        <character name="shape" value="roundish" modifier="usually" />
+      </structure>
+      <structure id="o3291" name="margin">
+        <character name="coloration" value="pale" />
+        <character char_type="range_value" name="shape" from="entire" to="coarsely dentate" />
+        <character name="shape" value="entire" />
+        <character name="shape" value="dentate" modifier="coarsely" />
+        <character name="texture" value="membranous" />
+      </structure>
+    </statement>
+    <statement id="211.txt-9">
+      <text>Inner phyllaries:</text>
+      <structure id="o3292" name="phyllary" constraint="inner" />
+    </statement>
+    <statement id="211.txt-10">
+      <text>tips truncate, irregularly dentate or lobed.</text>
+      <structure id="o3293" name="tip">
+        <character name="shape" value="truncate" />
+        <character name="shape" value="dentate" modifier="irregularly" />
+        <character name="shape" value="lobed" modifier="irregularly" />
+      </structure>
+    </statement>
+    <statement id="211.txt-11">
+      <text>Florets 40–100+;</text>
+      <structure id="o3294" name="floret">
+        <character char_type="range_value" name="count" from="40" to="100" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="211.txt-12">
+      <text>corollas purple (rarely white), those of sterile florets ± expanded, exceeding corollas of fertile florets, those of fertile florets 15–18 mm.</text>
+      <structure id="o3295" name="corolla">
+        <character name="coloration" value="purple" />
+      </structure>
+      <structure id="o3296" name="corolla">
+        <character name="size" value="expanded" modifier="±" />
+      </structure>
+      <structure id="o3297" name="floret" constraint="sterile" />
+      <relation id="r461" name="part_of" from="o3296" to="o3297" negation="false" />
+      <structure id="o3298" name="corolla" />
+      <structure id="o3299" name="floret" constraint="fertile" />
+      <relation id="r462" name="part_of" from="o3298" to="o3299" negation="false" />
+      <structure id="o3300" name="corolla">
+        <character char_type="range_value" name="size" from="15" from_unit="mm" to="18" to_unit="mm" />
+      </structure>
+      <structure id="o3301" name="floret" constraint="fertile" />
+      <relation id="r463" name="part_of" from="o3300" to="o3301" negation="false" />
+    </statement>
+    <statement id="211.txt-13">
+      <text>Cypselae tan, 2.5–3 mm, finely hairy;</text>
+      <structure id="o3302" name="cypsela">
+        <character name="coloration" value="tan" />
+        <character char_type="range_value" name="size" from="2.5" from_unit="mm" to="3" to_unit="mm" />
+        <character name="pubescence" value="hairy" modifier="finely" />
+      </structure>
+    </statement>
+    <statement id="211.txt-14">
+      <text>pappi absent.</text>
+      <structure id="o3303" name="pappus">
+        <character name="presence" value="absent" />
+      </structure>
+    </statement>
+    <statement id="211.txt-15">
+      <text>2 n = 22, 44.</text>
+      <structure id="o3304" name="chromosome">
+        <character name="count" value="22" />
+        <character name="count" value="44" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>nov</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <habitat>roadsides</habitat>
+  <habitat>fields</habitat>
+  <habitat>pastures</habitat>
+  <habitat>waste ground</habitat>
+  <elevation>50–1300 m;</elevation>
+  <introduced>introduced;</introduced>
+  <global_distribution>Greenland</global_distribution>
+  <ca_distribution>B.C.</ca_distribution>
+  <ca_distribution>N.B.</ca_distribution>
+  <ca_distribution>Ont.</ca_distribution>
+  <ca_distribution>Que.</ca_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Conn.</us_distribution>
+  <us_distribution>Del.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Ill.</us_distribution>
+  <us_distribution>Ind.</us_distribution>
+  <us_distribution>Iowa</us_distribution>
+  <us_distribution>Ky.</us_distribution>
+  <us_distribution>Maine</us_distribution>
+  <us_distribution>Md.</us_distribution>
+  <us_distribution>Mass.</us_distribution>
+  <us_distribution>Mich.</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>N.H.</us_distribution>
+  <us_distribution>N.J.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>Ohio</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <us_distribution>R.I.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Vt.</us_distribution>
+  <us_distribution>Va.</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <us_distribution>W.Va.</us_distribution>
+  <us_distribution>Wis.</us_distribution>
+  <global_distribution>Eurasia.</global_distribution>
+  <discussion>Brown knapweed is listed as a noxious weed in Washington.</discussion>
+  <discussion>The Centaurea jacea complex has been the subject of much controversy. The plants are widely distributed in Europe and variable in readily noticeable characters of the heads, florets, and cypselae. Several entities are commonly recognized, usually at the species level. The various named taxa are apparently all more or less interfertile, and natural hybridization has resulted in a plethora of intermediates that variously combine the features of the parental types. The numerous intermediates have been considered to be interspecific hybrids in some treatments or alternatively have been named as species or as infraspecific taxa within one or another of the parental species. The nomenclatural tangles are daunting, complicated by misapplication of names and the inadequate indexing of infraspecific names.</discussion>
+  <discussion>In an elegant biosystematic study of the representatives of this complex in England, E. M. Marsden-Jones and W. B. Turrill (1954) demonstrated the hazards of attempting to apply different names to all of the numerous intermediates. Despite the clear evidence that the entities are part of one biological species, Marsden-Jones and Turrill chose, for nomenclatural convenience, to treat the English plants as three species (Centaurea jacea, C. nigra, and C. nemoralis) with numerous interspecific hybrids rather than as a single variable species, thereby leaving a large number of sexually reproducing forms unassignable to species.</discussion>
+  <discussion>Further biosystematic studies of the Centaurea jacea complex involving additional races were carried out by C. Gardou (1972). She demonstrated that there are at least 18 diploid cytotypes within this complex plus a number of tetraploids. Most of the diploids have discrete geographic ranges in Europe. Some diploid members of the complex are apomictic, others autogamous, and still others outcrossers. Hybrids among the diploids are variably interfertile. Various tetraploids have arisen; some resemble one or another of the diploid races; many apparently allotetraploid races variously combine features of the diploids. The tetraploids of various origins are fully interfertile, have much wider ecologic tolerances than the diploids, and have spread widely. Introgression is common. Some of the diploids easily hybridize with tetraploids. The many intermediates are difficult to classify. Gardou’s conclusion was that if one were strictly to apply the biological species concept, one would have to consider the complex, which she treated as sect. Jacea Cassini, to be a single species. Gardou did not, however, offer a taxonomic treatment of the complex that reflected her conclusion.</discussion>
+  <discussion>J. Dostál’s (1976) treatment of Centaurea for Flora Europaea represents an opposing approach, with numerous species recognized in the C. jacea complex and distributed into three sections within what he treated as subg. Jacea (Miller) Hayek. He further divided some of these species into subspecies. This typological approach may be useful in sorting the variable entities into convenient pigeonholes, but it artificially applied a semblance of order to an unruly complex of interbreeding races.</discussion>
+  <discussion>North American botanists have usually recognized three or four species within the Centaurea jacea complex: C. jacea, C. nigra, C. nigrescens and/or C. dubia (under several different names), and C. ×pratensis, the last a collective for the various intermediates between C. jacea and C. nigra. According to G. Wagenitz (1987), the illegitimate name C. pratensis Thuillier refers to a dubious, ill-defined taxon of presumably hybrid origin that is also treated as C. thuillieri, C. debeauxii subsp. thuillieri, and as a subspecies of C. nigra. For spontaneous interspecific hybrids between C. jacea and C. nigra the name C. ×moncktonii C. E. Britton is accepted by C. A. Stace (1991) and in other recent European floras. The European sources of the North American plants have not been determined, and it is likely that multiple introductions have occurred. The taxon recognized as C. nemoralis Jordan by E. M. Marsden-Jones and W. B. Turrill (1954) has usually been included by American botanists in C. nigra (e.g., R. J. Moore and C. Frankton 1974). Both diploid and tetraploid counts have been published from North American material.</discussion>
+  <discussion>Neither E. M. Marsden-Jones and W. B. Turrill (1954) nor C. Gardou (1972) discussed the relationship of Centaurea nigrescens to C. jacea and C. nigra, though Gardou by implication included C. nigrescens in her conclusion that sect. Jacea is a single biological species. Centaurea nigrescens has been variously merged with C. jacea and C. nigra in past treatments or maintained as a distinct species, sometimes with multiple subspecies (e.g., J. Dostál 1976). H. A. Gleason and A. Cronquist (1991) and several other recent authors treated C. nigrescens as a synonym of C. dubia Suter.</discussion>
+  <discussion>We have chosen here to follow the traditional approach for North American material of recognizing three species, Centaurea jacea, C. nigra, and C. nigrescens plus a nothospecies, C. ×moncktonii, though, as indicated above, these could as well be treated as a single species, C. jacea, comprising broadly inclusive subspecies. For those who prefer the latter approach, the respective names are Centaurea jacea subsp. jacea, C. jacea subsp. nigra (Linnaeus) Bonnier &amp; Layens, and C. jacea subsp. nigrescens (Willdenow) Celakovsky. The hybrids between C. jacea and C. nigra may be treated as the nothosubspecies C. jacea subsp. ×pratensis (W. D. J. Koch) Celakovsky (as subsp.); the epithet pratensis is legitimate at the subspecific level.</discussion>
+  <discussion>We do not attempt here to differentiate for North American material the various subspecies of Centaurea jacea that have been recognized in European floras (e.g., J. Dostál 1976).</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

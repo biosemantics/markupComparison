@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>19.</number>
+  <species_name>Artemisia absinthium</species_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 848. 1753</place_of_publication>
+  <common_name>Common wormwood, armoise absinthe</common_name>
+  <description>
+    <statement id="885.txt-0">
+      <text>Perennials, 40–60(–100) cm (mat-forming), aromatic.</text>
+      <structure id="o18370" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="60" to="100" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="40" from_unit="cm" to="60" to_unit="cm" />
+        <character name="odor" value="aromatic" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="885.txt-1">
+      <text>Stems gray-green (sometimes woody proximally), densely canescent to glabrescent (hairs appressed).</text>
+      <structure id="o18371" name="stem">
+        <character name="coloration" value="green" modifier="gray" />
+        <character char_type="range_value" name="pubescence" from="densely canescent" to="glabrescent" />
+        <character name="pubescence" value="canescent" modifier="densely" />
+        <character name="pubescence" value="glabrescent" modifier="densely" />
+      </structure>
+    </statement>
+    <statement id="885.txt-2">
+      <text>Leaves deciduous, gray-green;</text>
+      <structure id="o18372" name="leaf">
+        <character name="duration_or_habit" value="deciduous" />
+        <character name="coloration" value="green" modifier="gray" />
+      </structure>
+    </statement>
+    <statement id="885.txt-3">
+      <text>blades broadly ovate, 3–8 × 1–4 cm, mostly pinnately lobed (basal 2–3-pinnatifid, lobes obovate), faces densely canescent.</text>
+      <structure id="o18373" name="blade">
+        <character name="shape" value="ovate" modifier="broadly" />
+        <character char_type="range_value" name="length" from="3" from_unit="cm" to="8" to_unit="cm" />
+        <character char_type="range_value" name="width" from="1" from_unit="cm" to="4" to_unit="cm" />
+        <character name="shape" value="lobed" modifier="mostly pinnately" />
+      </structure>
+      <structure id="o18374" name="face">
+        <character name="pubescence" value="canescent" modifier="densely" />
+      </structure>
+    </statement>
+    <statement id="885.txt-4">
+      <text>Heads (nodding) in open (diffusely branched), paniculiform arrays 10–20(–35) × (2–)10–13(–15) cm.</text>
+      <structure id="o18375" name="head" />
+      <structure id="o18376" name="array">
+        <character name="architecture" value="open" />
+        <character name="architecture" value="paniculiform" />
+        <character char_type="range_value" name="atypical_length" from="20" to="35" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="10" from_unit="cm" to="20" to_unit="cm" />
+        <character char_type="range_value" name="atypical_width" from="2" to="10" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_width" from="13" to="15" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="width" from="10" from_unit="cm" to="13" to_unit="cm" />
+      </structure>
+      <relation id="r1946" name="in" from="o18375" to="o18376" negation="false" />
+    </statement>
+    <statement id="885.txt-5">
+      <text>Involucres broadly ovoid, 2–3 × 3–5 mm.</text>
+      <structure id="o18377" name="involucre">
+        <character name="shape" value="ovoid" modifier="broadly" />
+        <character char_type="range_value" name="length" from="2" from_unit="mm" to="3" to_unit="mm" />
+        <character char_type="range_value" name="width" from="3" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="885.txt-6">
+      <text>Phyllaries gray-green, densely sericeous.</text>
+      <structure id="o18378" name="phyllary">
+        <character name="coloration" value="green" modifier="gray" />
+        <character name="pubescence" value="sericeous" modifier="densely" />
+      </structure>
+    </statement>
+    <statement id="885.txt-7">
+      <text>Florets:</text>
+      <structure id="o18379" name="floret" />
+    </statement>
+    <statement id="885.txt-8">
+      <text>pistillate 9–20;</text>
+      <structure id="o18380" name="floret" constraint="pistillate">
+        <character char_type="range_value" name="count" from="9" to="20" />
+      </structure>
+    </statement>
+    <statement id="885.txt-9">
+      <text>bisexual 30–50;</text>
+      <structure id="o18381" name="floret" constraint="bisexual">
+        <character char_type="range_value" name="count" from="30" to="50" />
+      </structure>
+    </statement>
+    <statement id="885.txt-10">
+      <text>corollas 1–2 mm, glandular.</text>
+      <structure id="o18382" name="corolla">
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="2" to_unit="mm" />
+        <character name="architecture_or_exudation_or_pubescence" value="glandular" />
+      </structure>
+    </statement>
+    <statement id="885.txt-11">
+      <text>Cypselae (± cylindric, slightly curved, obscurely nerved), ± 0.5 mm, glabrous (shiny).</text>
+      <structure id="o18383" name="cypsela">
+        <character name="size" value="0.5" unit="mm" modifier="±" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="885.txt-12">
+      <text>2 n = 18.</text>
+      <structure id="o18384" name="chromosome">
+        <character name="count" value="18" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <flowering_time>nov</flowering_time>
+  <habitat>widely cultivated</habitat>
+  <habitat>persisting from plantings</habitat>
+  <habitat>disturbed areas</habitat>
+  <elevation>0–1000 m;</elevation>
+  <introduced>introduced;</introduced>
+  <ca_distribution>Alta.</ca_distribution>
+  <ca_distribution>B.C.</ca_distribution>
+  <ca_distribution>Man.</ca_distribution>
+  <ca_distribution>N.B.</ca_distribution>
+  <ca_distribution>Nfld. and Labr. (Nfld.)</ca_distribution>
+  <ca_distribution>N.S.</ca_distribution>
+  <ca_distribution>Ont.</ca_distribution>
+  <ca_distribution>P.E.I.</ca_distribution>
+  <ca_distribution>Que.</ca_distribution>
+  <ca_distribution>Sask.</ca_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Conn.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Ill.</us_distribution>
+  <us_distribution>Ind.</us_distribution>
+  <us_distribution>Iowa</us_distribution>
+  <us_distribution>Kans.</us_distribution>
+  <us_distribution>Maine</us_distribution>
+  <us_distribution>Md.</us_distribution>
+  <us_distribution>Mass.</us_distribution>
+  <us_distribution>Mich.</us_distribution>
+  <us_distribution>Minn.</us_distribution>
+  <us_distribution>Mo.</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>Nebr.</us_distribution>
+  <us_distribution>N.H.</us_distribution>
+  <us_distribution>N.J.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>N.C.</us_distribution>
+  <us_distribution>N.Dak.</us_distribution>
+  <us_distribution>Ohio</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <us_distribution>R.I.</us_distribution>
+  <us_distribution>S.C.</us_distribution>
+  <us_distribution>S.Dak.</us_distribution>
+  <us_distribution>Tenn.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Vt.</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <us_distribution>Wis.</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <global_distribution>Europe.</global_distribution>
+  <discussion>Artemisia absinthium provides the flavoring as well as the psychoactive ingredient for absinthe liquor, a beverage that is illegal in some markets. Known as a powerful neurotoxin, absinthe in large quantities is addictive as well as deadly. The species is popular in the horticultural trade. Prized by gardeners for its gracefully scalloped leaves and gray-green foliage, it creates an attractive and winter-hardy flower border.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

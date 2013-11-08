@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>6.</number>
+  <species_name>Stephanomeria lactucina</species_name>
+  <authority>A. Gray</authority>
+  <place_of_publication>Proc. Amer. Acad. Arts 6: 552. 1865</place_of_publication>
+  <common_name>Woodland wirelettuce</common_name>
+  <description>
+    <statement id="559.txt-0">
+      <text>Perennials, 10–60 cm (rhizomes slender).</text>
+      <structure id="o11521" name="whole_organism">
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="60" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="559.txt-1">
+      <text>Stems single, branches erect or ascending (from near bases), glabrous or sparsely puberulent.</text>
+      <structure id="o11522" name="stem">
+        <character name="count" value="single" />
+      </structure>
+      <structure id="o11523" name="branch">
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="ascending" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="puberulent" modifier="sparsely" />
+      </structure>
+    </statement>
+    <statement id="559.txt-2">
+      <text>Leaves green at flowering;</text>
+      <structure id="o11524" name="leaf">
+        <character name="coloration" value="green" modifier="at flowering" />
+      </structure>
+    </statement>
+    <statement id="559.txt-3">
+      <text>blades linear-lanceolate, 3–8 cm, margins entire or toothed (teeth remote, faces glabrous or sparsely puberulent).</text>
+      <structure id="o11525" name="blade">
+        <character name="shape" value="linear-lanceolate" />
+        <character char_type="range_value" name="size" from="3" from_unit="cm" to="8" to_unit="cm" />
+      </structure>
+      <structure id="o11526" name="margin">
+        <character name="shape" value="entire" />
+        <character name="shape" value="toothed" />
+      </structure>
+    </statement>
+    <statement id="559.txt-4">
+      <text>Heads borne singly along branches.</text>
+      <structure id="o11527" name="head" />
+      <structure id="o11528" name="branch" />
+      <relation id="r1326" name="borne along" from="o11527" to="o11528" negation="false" />
+    </statement>
+    <statement id="559.txt-5">
+      <text>Peduncles 10–50 mm (bracteate).</text>
+      <structure id="o11529" name="peduncle">
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="50" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="559.txt-6">
+      <text>Calyculi of (4–7) appressed bractlets (unequal, lengths to 1 / 2 phyllaries).</text>
+      <structure id="o11530" name="calyculus" />
+      <structure id="o11531" name="bractlet">
+        <character char_type="range_value" name="atypical_count" from="4" to="7" />
+        <character name="orientation" value="appressed" />
+      </structure>
+      <relation id="r1327" name="consist_of" from="o11530" to="o11531" negation="false" />
+    </statement>
+    <statement id="559.txt-7">
+      <text>Involucres 12–14 mm (phyllaries 8–12, glabrous).</text>
+      <structure id="o11532" name="involucre">
+        <character char_type="range_value" name="size" from="12" from_unit="mm" to="14" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="559.txt-8">
+      <text>Florets (7–)8–10.</text>
+      <structure id="o11533" name="floret">
+        <character char_type="range_value" name="atypical_count" from="7" to="8" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="8" to="10" />
+      </structure>
+    </statement>
+    <statement id="559.txt-9">
+      <text>Cypselae light tan , 5–6 mm, faces smooth, grooved;</text>
+      <structure id="o11534" name="cypsela">
+        <character name="coloration" value="tan" modifier="light" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+      <structure id="o11535" name="face">
+        <character name="architecture_or_relief" value="smooth" />
+        <character name="architecture" value="grooved" />
+      </structure>
+    </statement>
+    <statement id="559.txt-10">
+      <text>pappi of 25–30, light tan bristles (sometimes connate in groups of 5–6+, persistent), wholly plumose.</text>
+      <structure id="o11536" name="pappus">
+        <character name="architecture" value="plumose" modifier="wholly" />
+      </structure>
+      <structure id="o11537" name="bristle">
+        <character char_type="range_value" name="count" from="25" to="30" />
+        <character name="coloration" value="tan" modifier="light" />
+      </structure>
+      <relation id="r1328" name="consist_of" from="o11536" to="o11537" negation="false" />
+    </statement>
+    <statement id="559.txt-11">
+      <text>2 n = 16.</text>
+      <structure id="o11538" name="chromosome">
+        <character name="count" value="16" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>sandy soils in dry, open yellow pine and red fir forests</habitat>
+  <elevation>1100–2300 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <discussion>Stephanomeria lactucina grows in the Cascade Mountains, Sierra Nevada, and North Coast Ranges. It rarely sets seed. The absence of seed is associated with reduced pollen viability, first reported by A. S. Tomb et al. (1978), who noted that “plants [from Siskiyou County, California] were seed-sterile and produced only 45% stainable pollen.” The ability of pollen to take up acetocarmine dye is a measure of their viability and, consequently, the fertility of the plant. I examined pollen from five randomly selected specimens collected from Oregon and California and found from 2% to 98% stainable pollen, with a mean of 47%. Pollen stainability and seed set have not been studied systematically in this species. Because these traits directly influence fitness and population persistence, further study would likely be rewarding.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

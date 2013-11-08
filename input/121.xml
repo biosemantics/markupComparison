@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>40g.</number>
+  <variety_name>Cirsium occidentale (Nuttall) Jepson var. candidissimum</variety_name>
+  <authority>(Greene) J. F. Macbride</authority>
+  <place_of_publication>Contr. Gray Herb. 53: 22. 1918</place_of_publication>
+  <common_name>Snowy thistle</common_name>
+  <synonym_of_variety_name>Carduus candidissimus Greene, Proc. Acad. Nat. Sci. Philadelphia 44: 359. 1893; Cirsium occidentale subsp. candidissimum (Greene) Petrak; C. pastoris J. T. Howell</synonym_of_variety_name>
+  <description>
+    <statement id="121.txt-0">
+      <text>Plants erect or ± bushy, usually 40–200 cm, (branches often stiffly spreading), densely white-tomentose.</text>
+      <structure id="o485" name="whole_organism">
+        <character name="orientation" value="erect" />
+        <character name="habit" value="bushy" modifier="±" />
+        <character char_type="range_value" name="size" from="40" from_unit="cm" to="200" to_unit="cm" modifier="usually" />
+        <character name="pubescence" value="white-tomentose" modifier="densely" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="121.txt-1">
+      <text>Leaf faces densely white-tomentose.</text>
+      <structure id="o486" name="face" constraint="leaf">
+        <character name="pubescence" value="white-tomentose" modifier="densely" />
+      </structure>
+    </statement>
+    <statement id="121.txt-2">
+      <text>Heads sometimes in tight clusters at ends of peduncles, short- to long-pedunculate, elevated well above proximal leaves.</text>
+      <structure id="o487" name="head">
+        <character name="architecture" value="short-to-long-pedunculate" />
+        <character name="prominence" value="elevated" modifier="well" constraint="above leaves" constraintid="o491" />
+      </structure>
+      <structure id="o488" name="cluster">
+        <character name="texture" value="tight" />
+      </structure>
+      <relation id="r96" name="in" from="o487" to="o488" negation="false" modifier="sometimes" />
+      <structure id="o489" name="end" />
+      <relation id="r97" name="at" from="o488" to="o489" negation="false" />
+      <structure id="o490" name="peduncle" />
+      <relation id="r98" name="part_of" from="o489" to="o490" negation="false" />
+      <structure id="o491" name="leaf" constraint="proximal" />
+    </statement>
+    <statement id="121.txt-3">
+      <text>Involucres as wide as to longer than wide, usually 2–6 cm, persistently and densely white-tomentose.</text>
+      <structure id="o492" name="involucre">
+        <character name="size" value="longer than wide" />
+        <character char_type="range_value" name="size" from="2" from_unit="cm" to="6" to_unit="cm" modifier="usually" />
+        <character name="pubescence" value="white-tomentose" modifier="densely" />
+      </structure>
+    </statement>
+    <statement id="121.txt-4">
+      <text>Phyllaries imbricate or subequal, outer usually very long, spreading to reflexed, mid apices usually 1.5–3 cm × 2–3 mm, rigidly spreading or reflexed.</text>
+      <structure id="o493" name="phyllary">
+        <character name="aestivation_or_arrangement" value="imbricate" />
+        <character name="size" value="subequal" />
+        <character name="length" value="outer" modifier="usually very" />
+        <character char_type="range_value" name="orientation" from="spreading" to="reflexed" />
+        <character name="orientation" value="spreading" />
+        <character name="orientation" value="reflexed" />
+      </structure>
+      <structure id="o494" name="apex" constraint="mid">
+        <character char_type="range_value" name="length" from="1.5" from_unit="cm" to="3" to_unit="cm" />
+        <character char_type="range_value" name="width" from="2" from_unit="mm" to="3" to_unit="mm" />
+        <character name="orientation" value="spreading" modifier="rigidly" />
+        <character name="orientation" value="reflexed" modifier="rigidly" />
+      </structure>
+    </statement>
+    <statement id="121.txt-5">
+      <text>Corollas red (rarely white or pink), 26–40 mm.</text>
+      <structure id="o495" name="corolla">
+        <character name="coloration" value="red" />
+        <character char_type="range_value" name="size" from="26" from_unit="mm" to="40" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="121.txt-6">
+      <text>2 n = 30, 31, 32, 33, 34, 60.</text>
+      <structure id="o496" name="chromosome">
+        <character name="count" value="30" />
+        <character name="count" value="31" />
+        <character name="count" value="32" />
+        <character name="count" value="33" />
+        <character name="count" value="34" />
+        <character name="count" value="60" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>coastal scrub</habitat>
+  <habitat>grassy openings in montane coniferous forests</habitat>
+  <habitat>arid woodlands</habitat>
+  <habitat>sagebrush scrub</habitat>
+  <habitat>roadsides</habitat>
+  <elevation>150–1500 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <discussion>Variety candidissimum is a very attractive taxon with snowy, white-tomentose foliage and involucres and bright red corollas. It comes into contact with var. venustum in the North Coast Ranges of California, and individuals of some populations are difficult to place with confidence into either variety. Some plants of northern Nevada are also intermediate in their features between var. candidissimum and var. venustum.</discussion>
+  <discussion>Most populations of var. candidissimum occur in the mountains of northern California. Upland populations range from the Klamath Range of southwestern Oregon to the northern North Coast Ranges of northern California and eastward through the Siskiyou and Cascade ranges and the northern Sierra Nevada to mountains of the Basin and Range Province in northeastern California and adjacent northwestern Nevada. An isolated occurrence in the Blue Mountains of northeastern Oregon may represent an introduction.</discussion>
+  <discussion>A remarkable lowland population from the Carmel Highlands range of central coastal California occurs on shrub-covered hillsides adjacent to coastal redwood groves. Its habitat is markedly different from that of the upland populations, but I have found no morpologic basis for recognizing it as a distinct taxon. One plant in the population was observed to have purple instead of red corollas–perhaps a result of past hybridization with var. occidentale.</discussion>
+  <discussion>Heads of var. candidissimum are actively visited by hummingbirds as well as a variety of insects (P. L. Barlow-Irick 2002).</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>36a.</number>
+  <variety_name>Cirsium douglasii de Candolle var. douglasii</variety_name>
+  <description>
+    <statement id="105.txt-0">
+      <text>Plants to 150 cm.</text>
+      <structure id="o198" name="whole_organism">
+        <character char_type="range_value" name="size" to="150" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="105.txt-1">
+      <text>Cauline leaves usually deeply lobed, spines usually 7–20 mm.</text>
+      <structure id="o199" name="leaf" constraint="cauline">
+        <character name="shape" value="lobed" modifier="usually deeply" />
+      </structure>
+      <structure id="o200" name="spine">
+        <character char_type="range_value" name="size" from="7" from_unit="mm" to="20" to_unit="mm" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="105.txt-2">
+      <text>Heads mostly 2.5–3.5 cm.</text>
+      <structure id="o201" name="head">
+        <character char_type="range_value" name="size" from="2.5" from_unit="cm" to="3.5" to_unit="cm" modifier="mostly" />
+      </structure>
+    </statement>
+    <statement id="105.txt-3">
+      <text>2 n = 34.</text>
+      <structure id="o202" name="chromosome">
+        <character name="count" value="34" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>springs</habitat>
+  <habitat>seeps</habitat>
+  <habitat>streamsides</habitat>
+  <habitat>coastal bluffs</habitat>
+  <habitat>coniferous and hardwood forests</habitat>
+  <habitat>often on serpentine</habitat>
+  <elevation>10–1200 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <discussion>Variety douglasii grows in the Coast Ranges from Humboldt to Monterey and San Benito counties.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

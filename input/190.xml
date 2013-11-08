@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Amberboa moschata</species_name>
+  <authority>(Linnaeus) de Candolle</authority>
+  <place_of_publication>in A. P. de Candolle and A. L. P. P. de Candolle, Prodr. 6: 560. 1838</place_of_publication>
+  <common_name>Sweet-sultan</common_name>
+  <synonym_of_species_name>Centaurea moschata Linnaeus, Sp. Pl. 2: 909. 1753</synonym_of_species_name>
+  <description>
+    <statement id="190.txt-0">
+      <text>Stems with slender branches.</text>
+      <structure id="o2583" name="stem" />
+      <structure id="o2584" name="branch">
+        <character name="size" value="slender" />
+      </structure>
+      <relation id="r368" name="with" from="o2583" to="o2584" negation="false" />
+    </statement>
+    <statement id="190.txt-1">
+      <text>Leaf blades oblanceolate, 10–25 cm, margins dentate to lyrate-pinnatifid;</text>
+      <structure id="o2585" name="blade" constraint="leaf">
+        <character name="shape" value="oblanceolate" />
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="25" to_unit="cm" />
+      </structure>
+      <structure id="o2586" name="margin">
+        <character char_type="range_value" name="shape" from="dentate" to="lyrate-pinnatifid" />
+        <character name="shape" value="dentate" />
+        <character name="shape" value="lyrate-pinnatifid" />
+      </structure>
+    </statement>
+    <statement id="190.txt-2">
+      <text>cauline blades linear to lanceolate, margins dentate to pinnately dissected into linear-lanceolate segments.</text>
+      <structure id="o2587" name="blade" constraint="cauline">
+        <character char_type="range_value" name="shape" from="linear" to="lanceolate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="lanceolate" />
+      </structure>
+      <structure id="o2588" name="margin">
+        <character char_type="range_value" name="shape" from="dentate" to="pinnately dissected" />
+        <character name="shape" value="dentate" />
+        <character name="shape" value="dissected" modifier="pinnately" constraint="into segments" constraintid="o2589" />
+      </structure>
+      <structure id="o2589" name="segment">
+        <character name="shape" value="linear-lanceolate" />
+      </structure>
+    </statement>
+    <statement id="190.txt-3">
+      <text>Heads long-pedunculate, ca. 5 cm diam.</text>
+      <structure id="o2590" name="head">
+        <character name="architecture" value="long-pedunculate" />
+        <character name="size" value="5" unit="cm" />
+      </structure>
+    </statement>
+    <statement id="190.txt-4">
+      <text>Involucres thinly hairy.</text>
+      <structure id="o2591" name="involucre">
+        <character name="pubescence" value="hairy" modifier="thinly" />
+      </structure>
+    </statement>
+    <statement id="190.txt-5">
+      <text>Phyllaries green, rounded, outer scarious margined, inner with oblong, scarious appendages .</text>
+      <structure id="o2592" name="phyllary">
+        <character name="coloration" value="green" />
+        <character name="shape" value="rounded" />
+        <character name="position" value="outer" />
+        <character name="texture" value="scarious" />
+        <character name="shape" value="margined" />
+        <character name="position" value="inner" constraint="with appendages" constraintid="o2593" />
+      </structure>
+      <structure id="o2593" name="appendage">
+        <character name="shape" value="oblong" />
+        <character name="texture" value="scarious" />
+      </structure>
+    </statement>
+    <statement id="190.txt-6">
+      <text>Florets fragrant;</text>
+      <structure id="o2594" name="floret">
+        <character name="odor" value="fragrant" />
+      </structure>
+    </statement>
+    <statement id="190.txt-7">
+      <text>outer conspicuously expanded, many lobed.</text>
+      <structure id="o2595" name="floret" constraint="outer">
+        <character name="size" value="expanded" modifier="conspicuously" />
+        <character name="count" value="many" />
+        <character name="shape" value="lobed" />
+      </structure>
+    </statement>
+    <statement id="190.txt-8">
+      <text>Cypselae dark brown, 3.5–4 mm, glabrous;</text>
+      <structure id="o2596" name="cypsela">
+        <character name="coloration" value="brown" modifier="dark" />
+        <character char_type="range_value" name="size" from="3.5" from_unit="mm" to="4" to_unit="mm" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="190.txt-9">
+      <text>pappus scales 3.5–4 mm.</text>
+      <structure id="o2597" name="scale" constraint="pappus">
+        <character char_type="range_value" name="size" from="3.5" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="190.txt-10">
+      <text>2 n = 32 (from cultivated material).</text>
+      <structure id="o2598" name="chromosome">
+        <character name="count" value="32" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>winter</flowering_time>
+  <flowering_time>dec</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>jan</flowering_time>
+  <flowering_time>feb</flowering_time>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <habitat>escaped or persistent from cultivation in disturbed sites</habitat>
+  <elevation>0–1200 m;</elevation>
+  <introduced>introduced;</introduced>
+  <ca_distribution>B.C.</ca_distribution>
+  <global_distribution>c Asia.</global_distribution>
+  <discussion>British Columbia is cited on the basis of a 1936 collection from ballast in Vancouver. Amberboa moschata has been reported from California, Illinois, Indiana, Iowa, Maine, and Utah; I have not seen specimens from those states.</discussion>
+  <discussion>Amberboa moschata has been cultivated as a garden ornamental since the 1600s. It occasionally grows as a casual garden escape in the United States and southern Canada. Wild forms of Amberboa moschata from Turkey and Armenia are described (E. Gabrielian and C. E. Jarvis 1996) as having pink or lilac marginal flowers, and a closely related species A. amberboi from central Asia as yellow-flowered. Corollas in garden forms are white, pink, purple, or yellow.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

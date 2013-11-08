@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>51.</number>
+  <species_name>Cirsium eatonii</species_name>
+  <authority>(A. Gray) B. L. Robinson</authority>
+  <place_of_publication>Rhodora 13: 240. 1911</place_of_publication>
+  <past_name>eatoni</past_name>
+  <common_name>Mountaintop or Eaton’s thistle</common_name>
+  <synonym_of_species_name>Cnicus eatonii A. Gray, Proc. Amer. Acad. Arts 19: 56. 1883 (as eatoni), based on Cirsium eriocephalum A. Gray [not Wallroth] var. leiocephalum D. C. Eaton in S. Watson, Botany (Fortieth Parallel), 196. 1871</synonym_of_species_name>
+  <description>
+    <statement id="140.txt-0">
+      <text>Perennials, 10–150 cm;</text>
+      <structure id="o1096" name="whole_organism">
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="150" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="140.txt-1">
+      <text>taprooted caudices.</text>
+      <structure id="o1097" name="caudex" constraint="taprooted" />
+    </statement>
+    <statement id="140.txt-3">
+      <text>branches on distal stems 0–many, ascending.</text>
+      <structure id="o1098" name="branch">
+        <character name="orientation" value="ascending" />
+      </structure>
+      <structure id="o1099" name="stem" constraint="distal">
+        <character char_type="range_value" name="count" from="0" to="many" />
+      </structure>
+      <relation id="r188" name="on" from="o1098" to="o1099" negation="false" />
+    </statement>
+    <statement id="140.txt-4">
+      <text>Leaves:</text>
+      <structure id="o1100" name="leaf" />
+    </statement>
+    <statement id="140.txt-5">
+      <text>blades oblong, 10–30 × 1–5 cm, margins usually strongly undulate, unlobed and spiny-dentate or shallowly to deeply pinnatifid with 10–20 pairs of lobes, teeth or lobes closely spaced, often overlapping, lance-oblong to broadly triangular, deeply 3-lobed, ± spiny-dentate, main spines 2–12 mm, abaxial faces glabrous or villous with septate trichomes along midveins to densely arachnoid-tomentose, adaxial glabrous or villous with septate trichomes along midveins;</text>
+      <structure id="o1101" name="blade">
+        <character name="shape" value="oblong" />
+        <character char_type="range_value" name="length" from="10" from_unit="cm" to="30" to_unit="cm" />
+        <character char_type="range_value" name="width" from="1" from_unit="cm" to="5" to_unit="cm" />
+      </structure>
+      <structure id="o1102" name="margin">
+        <character name="shape" value="undulate" modifier="usually strongly" />
+        <character name="shape" value="unlobed" />
+        <character name="shape" value="spiny-dentate" />
+        <character name="shape" value="pinnatifid" modifier="shallowly deeply" constraint="with pairs" constraintid="o1103" />
+        <character name="aestivation_or_arrangement" value="overlapping" modifier="often" />
+        <character name="shape" value="lance-oblong" />
+        <character name="shape" value="triangular" modifier="broadly" />
+        <character name="shape" value="3-lobed" modifier="deeply" />
+        <character name="shape" value="spiny-dentate" modifier="±" />
+      </structure>
+      <structure id="o1103" name="pair">
+        <character char_type="range_value" name="count" from="10" to="20" />
+        <character name="arrangement" value="spaced" modifier="closely" />
+      </structure>
+      <structure id="o1104" name="lobe" />
+      <structure id="o1105" name="tooth" />
+      <structure id="o1106" name="lobe" />
+      <relation id="r189" name="part_of" from="o1103" to="o1104" negation="false" />
+      <relation id="r190" name="part_of" from="o1103" to="o1105" negation="false" />
+      <relation id="r191" name="part_of" from="o1103" to="o1106" negation="false" />
+      <structure id="o1107" name="spine" constraint="main">
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="12" to_unit="mm" />
+      </structure>
+      <structure id="o1108" name="face" constraint="abaxial">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="villous" constraint="with trichomes" constraintid="o1109" />
+        <character name="insertion_or_position" value="adaxial" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="villous" constraint="with trichomes" constraintid="o1111" />
+      </structure>
+      <structure id="o1109" name="trichome">
+        <character name="architecture" value="septate" />
+      </structure>
+      <structure id="o1110" name="midvein">
+        <character name="pubescence" value="arachnoid-tomentose" modifier="densely" />
+      </structure>
+      <relation id="r192" name="along" from="o1109" to="o1110" negation="false" />
+      <structure id="o1111" name="trichome">
+        <character name="architecture" value="septate" />
+      </structure>
+      <structure id="o1112" name="midvein" />
+      <relation id="r193" name="along" from="o1111" to="o1112" negation="false" />
+    </statement>
+    <statement id="140.txt-6">
+      <text>basal often present at flowering, spiny winged-petiolate or sessile;</text>
+      <structure id="o1113" name="leaf" constraint="basal">
+        <character name="presence" value="present" modifier="often; at flowering" />
+        <character name="architecture" value="spiny winged-petiolate" />
+        <character name="architecture" value="sessile" />
+      </structure>
+    </statement>
+    <statement id="140.txt-7">
+      <text>principal cauline many, well distributed, proximally ± winged-petiolate, distally sessile, gradually reduced;</text>
+      <structure id="o1114" name="leaf" constraint="principal cauline">
+        <character name="count" value="many" />
+        <character name="arrangement" value="distributed" modifier="well" />
+        <character name="architecture" value="winged-petiolate" modifier="proximally ±" />
+        <character name="architecture" value="sessile" modifier="distally" />
+        <character name="size" value="reduced" modifier="gradually" />
+      </structure>
+    </statement>
+    <statement id="140.txt-8">
+      <text>distal not much reduced, often closely subtending heads.</text>
+      <structure id="o1115" name="leaf" constraint="distal">
+        <character name="size" value="reduced" modifier="not much" />
+      </structure>
+      <structure id="o1116" name="head" constraint="subtending" />
+    </statement>
+    <statement id="140.txt-9">
+      <text>Heads 1–many, erect or nodding, closely subtended by spiny-fringed bracts, usually sessile or short-pedunculate and crowded in subcapitate, spiciform, or racemiform (less commonly in openly branched) arrays.</text>
+      <structure id="o1117" name="head">
+        <character char_type="range_value" name="count" from="1" to="many" />
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="nodding" />
+        <character name="architecture" value="sessile" modifier="usually" />
+        <character name="architecture" value="short-pedunculate" modifier="usually" />
+        <character name="architecture" value="crowded" constraint="in arrays" constraintid="o1119" />
+      </structure>
+      <structure id="o1118" name="bract">
+        <character name="shape" value="spiny-fringed" />
+      </structure>
+      <relation id="r194" name="subtended by" from="o1117" to="o1118" negation="false" />
+      <structure id="o1119" name="array">
+        <character name="architecture" value="subcapitate" />
+        <character name="architecture" value="spiciform" />
+        <character name="architecture" value="racemiform" />
+      </structure>
+    </statement>
+    <statement id="140.txt-10">
+      <text>Peduncles 0–14+ cm.</text>
+      <structure id="o1120" name="peduncle">
+        <character char_type="range_value" name="size" from="0" from_unit="cm" to="14" to_unit="cm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="140.txt-11">
+      <text>Involucres green or suffused with dark purple, broadly ovoid to campanulate, 2–5 × 1.5–5 cm (appearing wider when pressed), loosely to densely villous or tomentose with septate trichomes and/or arachnoid-tomentose with finer, non-septate trichomes.</text>
+      <structure id="o1121" name="involucre">
+        <character name="coloration" value="green" />
+        <character name="coloration" value="purple" modifier="suffused with dark" />
+        <character char_type="range_value" name="shape" from="broadly ovoid" to="campanulate" />
+        <character name="shape" value="ovoid" modifier="broadly" />
+        <character name="shape" value="campanulate" modifier="broadly" />
+        <character char_type="range_value" name="length" from="2" from_unit="cm" to="5" to_unit="cm" />
+        <character char_type="range_value" name="width" from="1.5" from_unit="cm" to="5" to_unit="cm" />
+        <character name="pubescence" value="villous" modifier="densely" />
+        <character name="pubescence" value="tomentose" modifier="densely" constraint="with trichomes" constraintid="o1122" />
+      </structure>
+      <structure id="o1122" name="trichome">
+        <character name="architecture" value="septate" />
+        <character name="pubescence" value="arachnoid-tomentose" constraint="with trichomes" constraintid="o1123" />
+      </structure>
+      <structure id="o1123" name="trichome">
+        <character name="texture" value="finer" />
+        <character name="architecture" value="non-septate" />
+      </structure>
+    </statement>
+    <statement id="140.txt-12">
+      <text>Phyllaries in 4–5 series, subequal, bases short-appressed, abaxial faces without or with very narrow glutinous ridge, apices usually stiffly ascending to spreading, linear-acicular, tapering to spines 7–35 mm;</text>
+      <structure id="o1124" name="phyllary">
+        <character name="size" value="subequal" />
+      </structure>
+      <structure id="o1125" name="series">
+        <character char_type="range_value" name="count" from="4" to="5" />
+      </structure>
+      <relation id="r195" name="in" from="o1124" to="o1125" negation="false" />
+      <structure id="o1126" name="base">
+        <character name="orientation" value="short-appressed" />
+      </structure>
+      <structure id="o1127" name="face" constraint="abaxial" />
+      <structure id="o1128" name="ridge">
+        <character name="size" value="narrow" modifier="very" />
+        <character name="coating_or_texture" value="glutinous" />
+      </structure>
+      <relation id="r196" name="without or with" from="o1127" to="o1128" negation="false" />
+      <structure id="o1129" name="apex">
+        <character char_type="range_value" name="orientation" from="usually stiffly ascending" to="spreading" />
+        <character name="orientation" value="ascending" modifier="usually stiffly" />
+        <character name="orientation" value="spreading" modifier="usually stiffly" />
+        <character name="shape" value="linear-acicular" />
+      </structure>
+      <structure id="o1130" name="spine">
+        <character char_type="range_value" name="size" from="7" from_unit="mm" to="35" to_unit="mm" />
+      </structure>
+      <relation id="r197" name="tapering to" from="o1129" to="o1130" negation="false" />
+    </statement>
+    <statement id="140.txt-13">
+      <text>outer usually pinnately spiny, sometimes entire;</text>
+      <structure id="o1131" name="phyllary" constraint="outer">
+        <character name="architecture_or_shape" value="spiny" modifier="usually pinnately" />
+        <character name="shape" value="entire" modifier="sometimes" />
+      </structure>
+    </statement>
+    <statement id="140.txt-14">
+      <text>apices of inner straight, plane or spine-tipped.</text>
+      <structure id="o1132" name="apex">
+        <character name="course" value="straight" />
+      </structure>
+      <structure id="o1133" name="phyllary" constraint="inner" />
+      <relation id="r198" name="part_of" from="o1132" to="o1133" negation="false" />
+      <structure id="o1134" name="plane" />
+    </statement>
+    <statement id="140.txt-15">
+      <text>Corollas ochroleucous or yellow to lavender, pink, or purple, 15–35 mm, tubes 3.5–10 mm, throats 5–14 mm, lobes (linear), 4–12.5 mm;</text>
+      <structure id="o1135" name="corolla">
+        <character char_type="range_value" name="coloration" from="yellow" to="lavender , pink , or purple" />
+        <character name="coloration" value="ochroleucous" />
+        <character name="coloration" value="yellow" />
+        <character name="coloration" value="lavender" />
+        <character name="coloration" value="pink" />
+        <character name="coloration" value="purple" />
+        <character char_type="range_value" name="size" from="15" from_unit="mm" to="35" to_unit="mm" />
+      </structure>
+      <structure id="o1136" name="tube">
+        <character char_type="range_value" name="size" from="3.5" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+      <structure id="o1137" name="throat">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="14" to_unit="mm" />
+      </structure>
+      <structure id="o1138" name="lobe">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="12.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="140.txt-16">
+      <text>style tips 3–6 mm, conspicuously exserted beyond corolla lobes.</text>
+      <structure id="o1139" name="tip" constraint="style">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="6" to_unit="mm" />
+        <character name="position" value="exserted" modifier="conspicuously" constraint="beyond corolla lobes" constraintid="o1140" />
+      </structure>
+      <structure id="o1140" name="lobe" constraint="corolla" />
+    </statement>
+    <statement id="140.txt-17">
+      <text>Cypselae dark brown, 5.5–7 mm, apical collars stramineous or not differentiated;</text>
+      <structure id="o1141" name="cypsela">
+        <character name="coloration" value="brown" modifier="dark" />
+        <character char_type="range_value" name="size" from="5.5" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+      <structure id="o1142" name="collar" constraint="apical">
+        <character name="coloration" value="stramineous" />
+        <character name="differentiation" value="differentiated" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="140.txt-18">
+      <text>pappi 12–25 mm.</text>
+      <structure id="o1143" name="pappus">
+        <character char_type="range_value" name="size" from="12" from_unit="mm" to="25" to_unit="mm" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Varieties 7 (7 in the flora):</number_of_infrataxa>
+  <general_distribution>w United States</general_distribution>
+  <general_distribution>Rocky Mountains and high peaks of Great Basin desert region.</general_distribution>
+  <discussion>Cirsium eatonii is a polymorphic species widely distributed in a high elevation archipelago across the central Rocky Mountains and the Intermountain Region. During Pleistocene glacial episodes, the progenitors of this species complex undoubtedly occupied lower elevation sites and likely had more contiguous populations. Post-glacial isolation of these populations in allopatric high elevation sites has allowed them to differentiate to a greater or lesser extent. Prehistoric or recent introgressive hybridization with other thistle species probably has contributed to the diversification of the complex (R. J. Moore and C. Frankton 1965). Several of the races recognized here as varieties have been treated in the past as species (e.g., C. clokeyi, C. peckii). Their current geographic isolation and more or less distinctive features might support such recognition, but application of this approach across the complex would result in a proliferation of microspecies.</discussion>
+  <couplet>1.Involucres densely tomentose, individual phyllaries ± obscured by pubescence.</couplet>
+  <couplet>2.Arrays nodding; corollas yellow or pink to pale purple51d. Cirsium eatonii var. eriocephalum</couplet>
+  <couplet>2.Arrays erect; corollas white or pink to deep purple.</couplet>
+  <couplet>3.Corolla throats 8–11.5 mm; se Oregon, nw Nevada51g. Cirsium eatonii var. peckii</couplet>
+  <couplet>3.Corolla throats 3.5–8 mm.</couplet>
+  <couplet>4.Plants 50–150 cm, strictly erect; corollas pink or pale to deep purple; s Colorado51e. Cirsium eatonii var. hesperium</couplet>
+  <couplet>4.Plants 10–65 cm, ascending to erect; corollas white to pink or lavender; Idaho and Montana to Utah and n Colorado 51f. Cirsium eatonii var. murdockii</couplet>
+  <couplet>1.Involucres glabrous or thinly tomentose, individual phyllaries evident.</couplet>
+  <couplet>5.Corollas usually 25–35 mm.</couplet>
+  <couplet>6.Longest pappus bristles 16–18 mm51b. Cirsium eatonii var. clokeyi</couplet>
+  <couplet>6.Longest pappus bristles 20–25 mm51c. Cirsium eatonii var. viperinum</couplet>
+  <couplet>5.Corollas usually 17–25 mm.</couplet>
+  <couplet>7.Most outer phyllaries with lateral spines; Nevada and Utah51a. Cirsium eatonii var. eatonii</couplet>
+  <couplet>7.Most outer phyllaries without lateral spines; nw Nevada and se Oregon51g. Cirsium eatonii var. peckii</couplet>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

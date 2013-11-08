@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>33.</number>
+  <species_name>Cirsium wrightii</species_name>
+  <authority>A. Gray</authority>
+  <place_of_publication>Smithsonian Contr. Knowl. 5(6): 101. 1853</place_of_publication>
+  <common_name>Wright’s marsh thistle</common_name>
+  <description>
+    <statement id="99.txt-0">
+      <text>Biennials or monocarpic perennials, 100–300 cm;</text>
+      <structure id="o20100" name="whole_organism">
+        <character char_type="range_value" name="size" from="100" from_unit="cm" to="300" to_unit="cm" />
+        <character name="life_style" value="biennial" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="99.txt-1">
+      <text>taproots short with many slender, fibrous lateral roots.</text>
+      <structure id="o20102" name="taproot">
+        <character name="size" value="short" constraint="with roots" constraintid="o20103" />
+      </structure>
+      <structure id="o20103" name="root" constraint="fibrous lateral">
+        <character name="count" value="many" />
+        <character name="size" value="slender" />
+      </structure>
+    </statement>
+    <statement id="99.txt-2">
+      <text>Stems usually 1, erect, glabrous to ± tomentose;</text>
+      <structure id="o20104" name="stem">
+        <character name="count" value="1" modifier="usually" />
+        <character name="orientation" value="erect" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="tomentose" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="99.txt-3">
+      <text>branches many, usually restricted to distal part of stem, ascending.</text>
+      <structure id="o20105" name="branch">
+        <character name="count" value="many" />
+        <character name="orientation" value="ascending" />
+      </structure>
+      <structure id="o20106" name="part" constraint="distal" />
+      <relation id="r2066" name="usually restricted to" from="o20105" to="o20106" negation="false" />
+      <structure id="o20107" name="stem" />
+      <relation id="r2067" name="part_of" from="o20106" to="o20107" negation="false" />
+    </statement>
+    <statement id="99.txt-4">
+      <text>Leaves:</text>
+      <structure id="o20108" name="leaf" />
+    </statement>
+    <statement id="99.txt-5">
+      <text>blades oblong to elliptic, 10–60 × 5–20 cm, unlobed and merely spinulose to irregularly dentate or shallowly to deeply pinnatifid, lobes ± broadly triangular, separated by wide sinuses, obtuse to acute, sometimes coarsely toothed or lobed, main spines slender, 1–3 mm, faces thinly arachnoid, soon glabrescent;</text>
+      <structure id="o20109" name="blade">
+        <character char_type="range_value" name="shape" from="oblong" to="elliptic" />
+        <character name="shape" value="oblong" />
+        <character name="shape" value="elliptic" />
+        <character char_type="range_value" name="length" from="10" from_unit="cm" to="60" to_unit="cm" />
+        <character char_type="range_value" name="width" from="5" from_unit="cm" to="20" to_unit="cm" />
+        <character name="shape" value="unlobed" />
+        <character char_type="range_value" name="shape" from="merely spinulose" to="irregularly dentate" />
+        <character name="shape" value="spinulose" modifier="merely" />
+        <character name="shape" value="dentate" modifier="irregularly" />
+        <character name="shape" value="pinnatifid" modifier="shallowly deeply" />
+      </structure>
+      <structure id="o20110" name="lobe">
+        <character name="shape" value="triangular" modifier="± broadly" />
+        <character name="arrangement" value="separated" constraint="by sinuses" constraintid="o20111" />
+        <character char_type="range_value" name="shape" from="obtuse" to="acute , sometimes coarsely toothed or lobed" />
+        <character name="shape" value="obtuse" />
+        <character name="shape" value="acute" />
+        <character name="shape" value="toothed" modifier="sometimes coarsely" />
+        <character name="shape" value="lobed" modifier="sometimes coarsely" />
+      </structure>
+      <structure id="o20111" name="sinus">
+        <character name="size" value="wide" />
+      </structure>
+      <structure id="o20112" name="spine" constraint="main">
+        <character name="size" value="slender" />
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="3" to_unit="mm" />
+      </structure>
+      <structure id="o20113" name="face">
+        <character name="pubescence" value="arachnoid" modifier="thinly" />
+        <character name="pubescence" value="glabrescent" modifier="soon" />
+      </structure>
+    </statement>
+    <statement id="99.txt-6">
+      <text>basal often present at flowering, petioles slender, ± winged;</text>
+      <structure id="o20114" name="leaf" constraint="basal">
+        <character name="presence" value="present" modifier="often; at flowering" />
+      </structure>
+      <structure id="o20115" name="petiole">
+        <character name="size" value="slender" />
+        <character name="architecture" value="winged" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="99.txt-7">
+      <text>cauline progressively reduced, proximal petiolate, mid and distal sessile, long-decurrent;</text>
+      <structure id="o20116" name="leaf" constraint="cauline">
+        <character name="size" value="reduced" modifier="progressively" />
+      </structure>
+      <structure id="o20117" name="leaf" constraint="proximal">
+        <character name="architecture" value="petiolate" />
+        <character name="position" value="mid" />
+        <character name="shape" value="long-decurrent" />
+      </structure>
+      <structure id="o20118" name="leaf" constraint="distal">
+        <character name="architecture" value="sessile" />
+      </structure>
+    </statement>
+    <statement id="99.txt-8">
+      <text>distalmost linear to narrowly elliptic, bractlike, spinulose to irregularly dentate or shallowly lobed.</text>
+      <structure id="o20119" name="leaf" constraint="distalmost">
+        <character name="arrangement_or_shape" value="linear" />
+        <character char_type="range_value" name="shape" from="narrowly elliptic , bractlike , spinulose" to="irregularly dentate or shallowly lobed" />
+        <character name="shape" value="elliptic" modifier="narrowly" />
+        <character name="shape" value="bractlike" modifier="narrowly" />
+        <character name="shape" value="spinulose" modifier="narrowly" />
+        <character name="shape" value="dentate" modifier="irregularly" />
+        <character name="shape" value="lobed" modifier="shallowly" />
+      </structure>
+    </statement>
+    <statement id="99.txt-9">
+      <text>Heads many, in openly paniculiform arrays, borne singly at tips of peduncles.</text>
+      <structure id="o20120" name="head">
+        <character name="count" value="many" />
+      </structure>
+      <structure id="o20121" name="array">
+        <character name="architecture" value="paniculiform" modifier="openly" />
+      </structure>
+      <relation id="r2068" name="in" from="o20120" to="o20121" negation="false" />
+      <structure id="o20122" name="tip" />
+      <relation id="r2069" name="borne at" from="o20120" to="o20122" negation="false" />
+      <structure id="o20123" name="peduncle" />
+      <relation id="r2070" name="part_of" from="o20122" to="o20123" negation="false" />
+    </statement>
+    <statement id="99.txt-10">
+      <text>Peduncles slender, 1–15 cm.</text>
+      <structure id="o20124" name="peduncle">
+        <character name="size" value="slender" />
+        <character char_type="range_value" name="size" from="1" from_unit="cm" to="15" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="99.txt-11">
+      <text>Involucres ovoid to hemispheric, 1–2 × 1–2 cm, thinly arachnoid, glabrate.</text>
+      <structure id="o20125" name="involucre">
+        <character char_type="range_value" name="shape" from="ovoid" to="hemispheric" />
+        <character name="shape" value="ovoid" />
+        <character name="shape" value="hemispheric" />
+        <character char_type="range_value" name="length" from="1" from_unit="cm" to="2" to_unit="cm" />
+        <character char_type="range_value" name="width" from="1" from_unit="cm" to="2" to_unit="cm" />
+        <character name="pubescence" value="arachnoid" modifier="thinly" />
+        <character name="pubescence" value="glabrate" />
+      </structure>
+    </statement>
+    <statement id="99.txt-12">
+      <text>Phyllaries in 8–9 series, strongly imbricate, green, lanceolate (outer) to linear (inner), abaxial faces with prominent glutinous ridge;</text>
+      <structure id="o20126" name="phyllary">
+        <character name="aestivation_or_arrangement" value="imbricate" modifier="strongly" />
+        <character name="coloration" value="green" />
+        <character char_type="range_value" name="shape" from="lanceolate" to="linear" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="linear" />
+      </structure>
+      <structure id="o20127" name="series">
+        <character char_type="range_value" name="count" from="8" to="9" />
+      </structure>
+      <relation id="r2071" name="in" from="o20126" to="o20127" negation="false" />
+      <structure id="o20128" name="face" constraint="abaxial" />
+      <structure id="o20129" name="ridge">
+        <character name="prominence" value="prominent" />
+        <character name="coating_or_texture" value="glutinous" />
+      </structure>
+      <relation id="r2072" name="with" from="o20128" to="o20129" negation="false" />
+    </statement>
+    <statement id="99.txt-13">
+      <text>outer and middle appressed, bodies entire, apices acute, spines spreading, slender, ca. 1 mm;</text>
+      <structure id="o20130" name="phyllary" constraint="outer and middle">
+        <character name="orientation" value="appressed" />
+      </structure>
+      <structure id="o20131" name="body">
+        <character name="shape" value="entire" />
+      </structure>
+      <structure id="o20132" name="apex">
+        <character name="shape" value="acute" />
+      </structure>
+      <structure id="o20133" name="spine">
+        <character name="orientation" value="spreading" />
+        <character name="size" value="slender" />
+        <character name="size" value="1" unit="mm" />
+      </structure>
+    </statement>
+    <statement id="99.txt-14">
+      <text>apices of inner often flexuous, acuminate, flat, scabrid-ciliolate.</text>
+      <structure id="o20134" name="apex">
+        <character name="course" value="flexuous" modifier="often" />
+        <character name="shape" value="acuminate" />
+        <character name="shape" value="flat" />
+        <character name="pubescence" value="scabrid-ciliolate" />
+      </structure>
+      <structure id="o20135" name="phyllary" constraint="inner" />
+      <relation id="r2073" name="part_of" from="o20134" to="o20135" negation="false" />
+    </statement>
+    <statement id="99.txt-15">
+      <text>Corollas white to pink-purple, 19–21 mm, tubes 9–10 mm, throats 4–4.5 mm, lobes 5–7 mm;</text>
+      <structure id="o20136" name="corolla">
+        <character char_type="range_value" name="coloration" from="white" to="pink-purple" />
+        <character name="coloration" value="white" />
+        <character name="coloration" value="purple" modifier="pink" />
+        <character char_type="range_value" name="size" from="19" from_unit="mm" to="21" to_unit="mm" />
+      </structure>
+      <structure id="o20137" name="tube">
+        <character char_type="range_value" name="size" from="9" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+      <structure id="o20138" name="throat">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="4.5" to_unit="mm" />
+      </structure>
+      <structure id="o20139" name="lobe">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="99.txt-16">
+      <text>style tips 2–3.5 mm.</text>
+      <structure id="o20140" name="tip" constraint="style">
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="3.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="99.txt-17">
+      <text>Cypselae brown, ca. 4.5 mm, apical collars stramineous, 0.2 mm;</text>
+      <structure id="o20141" name="cypsela">
+        <character name="coloration" value="brown" />
+        <character name="size" value="4.5" unit="mm" />
+      </structure>
+      <structure id="o20142" name="collar" constraint="apical">
+        <character name="coloration" value="stramineous" />
+        <character name="size" value="0.2" unit="mm" />
+      </structure>
+    </statement>
+    <statement id="99.txt-18">
+      <text>pappi 15–16 mm.</text>
+      <structure id="o20143" name="pappus">
+        <character char_type="range_value" name="size" from="15" from_unit="mm" to="16" to_unit="mm" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>nov</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <habitat>springs</habitat>
+  <habitat>seeps</habitat>
+  <habitat>marshes</habitat>
+  <habitat>stream banks</habitat>
+  <habitat>often in alkaline soil</habitat>
+  <conservation>of conservation concern;</conservation>
+  <elevation>1100–2600 m;</elevation>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <global_distribution>Mexico (Chihuahua).</global_distribution>
+  <global_distribution>Mexico (Sonora).</global_distribution>
+  <discussion>Wright’s thistle occurs from the mountains of south-central New Mexico eastward to the cienegas of the adjacent southwestern Great Plains. Cirsium wrightii is listed by the state of New Mexico as a species of concern. The one known site in Cochise County, Arizona, is apparently historic.</discussion>
+  <discussion>Hybrids are known between Cirsium wrightii and C. vinaceum in the Sacramento Mountains of New Mexico. I have observed hummingbird visits to the heads of both species, though C. wrightii shows none of the apparent adaptations to hummingbirds (P. L. Barlow-Irick 2002) that are seen in such taxa as C. occidentale var. candidissimum, C. andersonii, and C. arizonicum.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

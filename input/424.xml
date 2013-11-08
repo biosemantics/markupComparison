@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>52.</number>
+  <genus_name>LEONTODON</genus_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 798. 1753; Gen. Pl. ed. 5, 349. 1754</place_of_publication>
+  <conserved>name conserved ·</conserved>
+  <common_name>Hawkbit</common_name>
+  <derivation>Greek leon , lion, and odons , tooth, alluding to deeply toothed leaves</derivation>
+  <author_of_tribe_genus>David J. Bogler</author_of_tribe_genus>
+  <description>
+    <statement id="424.txt-0">
+      <text>Annuals or perennials, 10–80 cm;</text>
+    </statement>
+    <statement id="424.txt-1">
+      <text>fibrous-rooted, sometimes tuberous, or with short caudices.</text>
+      <structure id="o8398" name="whole_organism">
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="80" to_unit="cm" />
+        <character name="life_style" value="annual" />
+        <character name="life_style" value="perennial" />
+        <character name="architecture" value="fibrous-rooted" />
+        <character name="architecture" value="tuberous" modifier="sometimes" />
+        <character name="life_style" value="perennial" />
+      </structure>
+      <structure id="o8400" name="caudex">
+        <character name="size" value="short" />
+      </structure>
+      <relation id="r989" name="with" from="o8398" to="o8400" negation="false" />
+      <relation id="r990" name="with" from="o8399" to="o8400" negation="false" />
+    </statement>
+    <statement id="424.txt-2">
+      <text>Stems 1–20+, simple and scapiform or sparingly branched, glabrous, tomentulose, or coarsely hirsute.</text>
+      <structure id="o8401" name="stem">
+        <character char_type="range_value" name="count" from="1" to="20" upper_restricted="false" />
+        <character name="architecture" value="simple" />
+        <character name="shape" value="scapiform" />
+        <character name="shape" value="branched" modifier="sparingly" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="tomentulose" />
+        <character name="pubescence" value="hirsute" modifier="coarsely" />
+      </structure>
+    </statement>
+    <statement id="424.txt-3">
+      <text>Leaves basal;</text>
+    </statement>
+    <statement id="424.txt-4">
+      <text>petiolate (petioles winged) ;</text>
+      <structure id="o8402" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="architecture" value="petiolate" />
+      </structure>
+    </statement>
+    <statement id="424.txt-5">
+      <text>blades oblanceolate, margins entire or dentate or deeply lobed (faces glabrous or hispid, hairs simple or minutely 2–3-fid).</text>
+      <structure id="o8403" name="blade">
+        <character name="shape" value="oblanceolate" />
+      </structure>
+      <structure id="o8404" name="margin">
+        <character name="shape" value="entire" />
+        <character name="shape" value="dentate" />
+        <character name="shape" value="lobed" modifier="deeply" />
+      </structure>
+    </statement>
+    <statement id="424.txt-6">
+      <text>Heads borne singly or 2–5 in loose, corymbiform arrays.</text>
+      <structure id="o8405" name="head">
+        <character name="arrangement" value="singly" />
+        <character char_type="range_value" name="count" from="2" to="5" constraint="in arrays" constraintid="o8406" />
+      </structure>
+      <structure id="o8406" name="array">
+        <character name="architecture_or_texture" value="loose" />
+        <character name="architecture" value="corymbiform" />
+      </structure>
+    </statement>
+    <statement id="424.txt-7">
+      <text>Peduncles slightly inflated, naked or minutely bracteate.</text>
+      <structure id="o8407" name="peduncle">
+        <character name="shape" value="inflated" modifier="slightly" />
+        <character name="architecture" value="naked" />
+        <character name="architecture" value="bracteate" modifier="minutely" />
+      </structure>
+    </statement>
+    <statement id="424.txt-8">
+      <text>Calyculi of 10–20, subulate to lanceolate bractlets in 1–2 series (unequal), glabrous, tomentulose, or hirsute.</text>
+      <structure id="o8408" name="calyculus">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="tomentulose" />
+        <character name="pubescence" value="hirsute" />
+      </structure>
+      <structure id="o8409" name="bractlet">
+        <character char_type="range_value" name="count" from="10" to="20" />
+        <character char_type="range_value" name="shape" from="subulate" to="lanceolate" />
+        <character name="shape" value="subulate" />
+        <character name="shape" value="lanceolate" />
+      </structure>
+      <relation id="r991" name="consist_of" from="o8408" to="o8409" negation="false" />
+      <structure id="o8410" name="series">
+        <character char_type="range_value" name="count" from="1" to="2" />
+      </structure>
+      <relation id="r992" name="in" from="o8409" to="o8410" negation="false" />
+    </statement>
+    <statement id="424.txt-9">
+      <text>Involucres campanulate, 4–15 mm diam.</text>
+      <structure id="o8411" name="involucre">
+        <character name="shape" value="campanulate" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="15" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="424.txt-10">
+      <text>Phyllaries 16–20 in 2+ series, narrowly lanceolate, subequal, glabrous, tomentulose, or hirsute.</text>
+      <structure id="o8412" name="phyllary">
+        <character char_type="range_value" name="count" from="16" to="20" constraint="in series" constraintid="o8413" />
+        <character name="shape" value="lanceolate" modifier="narrowly" />
+        <character name="size" value="subequal" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="tomentulose" />
+        <character name="pubescence" value="hirsute" />
+      </structure>
+      <structure id="o8413" name="series">
+        <character name="count" char_type="range_value" from="2" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="424.txt-11">
+      <text>Receptacles convex, pitted, sometimes slightly villous, epaleate.</text>
+      <structure id="o8414" name="receptacle">
+        <character name="shape" value="convex" />
+        <character name="relief" value="pitted" />
+        <character name="pubescence" value="villous" modifier="sometimes slightly" />
+        <character name="architecture" value="epaleate" />
+      </structure>
+    </statement>
+    <statement id="424.txt-12">
+      <text>Florets 20–30;</text>
+      <structure id="o8415" name="floret">
+        <character char_type="range_value" name="count" from="20" to="30" />
+      </structure>
+    </statement>
+    <statement id="424.txt-13">
+      <text>corollas yellow to orange (outer sometimes with reddish or greenish stripes).</text>
+      <structure id="o8416" name="corolla">
+        <character char_type="range_value" name="coloration" from="yellow" to="orange" />
+        <character name="coloration" value="yellow" />
+        <character name="coloration" value="orange" />
+      </structure>
+    </statement>
+    <statement id="424.txt-14">
+      <text>Cypselae light to dark brown or reddish brown , fusiform or cylindric, curved, distally narrowed and not beaked, or beaked, ribs 10–14, faces muricate, glabrous;</text>
+      <structure id="o8417" name="cypsela">
+        <character char_type="range_value" name="coloration" from="light" to="dark-brown or reddish-brown" />
+        <character name="coloration" value="light" />
+        <character name="coloration" value="brown" modifier="dark" />
+        <character name="coloration" value="brown" modifier="reddish" />
+        <character name="shape" value="fusiform" />
+        <character name="shape" value="cylindric" />
+        <character name="shape" value="curved" />
+        <character name="size" value="narrowed" modifier="distally" />
+        <character name="shape" value="beaked" modifier="not" />
+        <character name="shape" value="beaked" modifier="not" />
+      </structure>
+      <structure id="o8418" name="rib">
+        <character char_type="range_value" name="count" from="10" to="14" />
+      </structure>
+      <structure id="o8419" name="face">
+        <character name="relief" value="muricate" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="424.txt-15">
+      <text>pappi of ± distinct, yellowish white, tan, or pale brown bristles in 1–2 series (all uniformly plumose or outer reduced; pappi of outer cypselae sometimes reduced to crowns of bristlelike scales).</text>
+      <structure id="o8420" name="pappus" />
+      <structure id="o8421" name="bristle">
+        <character name="fusion" value="distinct" modifier="±" />
+        <character name="coloration" value="white" modifier="yellowish" />
+        <character name="coloration" value="tan" />
+        <character name="coloration" value="brown" modifier="pale" />
+      </structure>
+      <relation id="r993" name="consist_of" from="o8420" to="o8421" negation="false" />
+      <structure id="o8422" name="series">
+        <character char_type="range_value" name="count" from="1" to="2" />
+      </structure>
+      <relation id="r994" name="in" from="o8421" to="o8422" negation="false" />
+    </statement>
+    <statement id="424.txt-16">
+      <text>x = 4, 6, 7.</text>
+      <structure id="o8423" name="chromosome">
+        <character name="count" value="4" />
+        <character name="count" value="6" />
+        <character name="count" value="7" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species ca. 50 (3 in the flora):</number_of_infrataxa>
+  <introduced>introduced;</introduced>
+  <general_distribution>Europe</general_distribution>
+  <general_distribution>n North Africa</general_distribution>
+  <general_distribution>Mediterranean</general_distribution>
+  <general_distribution>w Asia.</general_distribution>
+  <discussion>Leontodon is recognized by the basal rosettes of pinnatifid leaves, scapiform stems, loosely imbricate phyllaries, yellow corollas, and plumose pappus bristles. Some species are somewhat doubtfully distinguished by an overlapping mixture of vestiture and pappus characters.</discussion>
+  <key>1.Heads (1–)2–5 in corymbiform arrays; peduncles minutely bracteate proximal to heads; pappi wholly of plumose bristles1. Leontodon autumnalis</key>
+  <key>1.Head borne singly on scapiform stems; peduncles usually ebracteate proximal to heads; pappi mixed (either outer series different from inner, or pappi of outer cypselae reduced to crowns of bristlelike scales).</key>
+  <key>2.Pappi mixed in all cypselae (outer series of bristlelike scales, inner of plumose bristles); phyllaries densely, coarsely hispid or hirsute2. Leontodon hispidus</key>
+  <key>2.Pappi of 2 types (on outer cypselae, crowns of bristlelike scales; on inner, of plumose bristles); phyllaries glabrate to coarsely hirsute3. Leontodon saxatilis</key>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

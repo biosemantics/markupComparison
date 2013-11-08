@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>10.</number>
+  <species_name>Antennaria pulcherrima</species_name>
+  <authority>(Hooker) Greene</authority>
+  <place_of_publication>Pittonia 3: 176. 1897</place_of_publication>
+  <common_name>Showy or handsome pussytoes , antennaire magnifique</common_name>
+  <synonym_of_species_name>Antennaria carpatica (Hooker) R. Brown var. pulcherrima Hooker, Fl. Bor.-Amer. 1: 329. 1834; A. pulcherrima var. angustisquama A. E. Porsild; A. pulcherrima var. sordida B. Boivin</synonym_of_species_name>
+  <description>
+    <statement id="637.txt-0">
+      <text>Dioecious.</text>
+      <structure id="o13346" name="whole_organism">
+        <character name="reproduction" value="dioecious" />
+      </structure>
+    </statement>
+    <statement id="637.txt-1">
+      <text>Plants (8–)30–65 cm (caudices branching or rhizomes stout).</text>
+      <structure id="o13347" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="8" to="30" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="30" from_unit="cm" to="65" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="637.txt-2">
+      <text>Stolons none.</text>
+      <structure id="o13348" name="stolon" />
+    </statement>
+    <statement id="637.txt-3">
+      <text>Basal leaves 3–5-nerved, spatulate to oblanceolate or lanceolate, 50–200 × 4–25 mm, tips acute, mucronate, faces gray-pubescent or silvery sericeous.</text>
+      <structure id="o13349" name="leaf" constraint="basal">
+        <character name="architecture" value="3-5-nerved" />
+        <character char_type="range_value" name="shape" from="spatulate" to="oblanceolate or lanceolate" />
+        <character name="shape" value="spatulate" />
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="lanceolate" />
+        <character char_type="range_value" name="length" from="50" from_unit="mm" to="200" to_unit="mm" />
+        <character char_type="range_value" name="width" from="4" from_unit="mm" to="25" to_unit="mm" />
+      </structure>
+      <structure id="o13350" name="tip">
+        <character name="shape" value="acute" />
+        <character name="shape" value="mucronate" />
+      </structure>
+      <structure id="o13351" name="face">
+        <character name="pubescence" value="gray-pubescent" />
+      </structure>
+    </statement>
+    <statement id="637.txt-4">
+      <text>Cauline leaves linear, 8–140 mm, distal flagged or not.</text>
+      <structure id="o13352" name="leaf" constraint="cauline">
+        <character name="arrangement_or_shape" value="linear" />
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="140" to_unit="mm" />
+        <character name="insertion_or_position" value="distal" />
+        <character name="orientation" value="flagged" />
+        <character name="orientation" value="flagged" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="637.txt-5">
+      <text>Heads 3–30 in corymbiform to paniculiform arrays.</text>
+      <structure id="o13353" name="head">
+        <character char_type="range_value" name="count" from="3" to="30" constraint="in arrays" constraintid="o13354" />
+      </structure>
+      <structure id="o13354" name="array">
+        <character char_type="range_value" name="architecture" from="corymbiform" to="paniculiform" />
+        <character name="architecture" value="corymbiform" />
+        <character name="architecture" value="paniculiform" />
+      </structure>
+    </statement>
+    <statement id="637.txt-6">
+      <text>Involucres:</text>
+      <structure id="o13355" name="involucre" />
+    </statement>
+    <statement id="637.txt-7">
+      <text>staminate 5–8 mm;</text>
+      <structure id="o13356" name="involucre" constraint="staminate">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="637.txt-8">
+      <text>pistillate 7–12 mm.</text>
+      <structure id="o13357" name="involucre" constraint="pistillate">
+        <character char_type="range_value" name="size" from="7" from_unit="mm" to="12" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="637.txt-9">
+      <text>Phyllaries distally black, dark brown, light brown, castaneous, or olivaceous.</text>
+      <structure id="o13358" name="phyllary">
+        <character name="coloration" value="black" modifier="distally" />
+        <character name="coloration" value="brown" modifier="distally ;dark" />
+        <character name="coloration" value="brown" modifier="distally ;light" />
+        <character name="coloration" value="castaneous" modifier="distally" />
+        <character name="coloration" value="olivaceous" modifier="distally" />
+      </structure>
+    </statement>
+    <statement id="637.txt-10">
+      <text>Corollas:</text>
+      <structure id="o13359" name="corolla" />
+    </statement>
+    <statement id="637.txt-11">
+      <text>staminate 3–5 mm;</text>
+      <structure id="o13360" name="corolla" constraint="staminate">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="637.txt-12">
+      <text>pistillate 3–6 mm.</text>
+      <structure id="o13361" name="corolla" constraint="pistillate">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="637.txt-13">
+      <text>Cypselae 1–1.5 mm, glabrous;</text>
+      <structure id="o13362" name="cypsela">
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="1.5" to_unit="mm" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="637.txt-14">
+      <text>pappi:</text>
+      <structure id="o13363" name="pappus" />
+    </statement>
+    <statement id="637.txt-15">
+      <text>staminate 4–6 mm;</text>
+      <structure id="o13364" name="pappus" constraint="staminate">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="637.txt-16">
+      <text>pistillate (5–)8–10 mm.</text>
+      <structure id="o13365" name="pappus" constraint="pistillate">
+        <character char_type="range_value" name="atypical_size" from="5" to="8" from_unit="mm" to_unit="mm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="637.txt-17">
+      <text>2 n = 28, 56.</text>
+      <structure id="o13366" name="chromosome">
+        <character name="count" value="28" />
+        <character name="count" value="56" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Subspecies 2 (2 in the flora):</number_of_infrataxa>
+  <general_distribution>North America.</general_distribution>
+  <discussion>Antennaria pulcherrima is characterized by relatively large basal leaves, rhizomatous growth, and dark-colored phyllaries, each with a relatively large black spot at the base (R. J. Bayer and G. L. Stebbins 1987).</discussion>
+  <couplet>1.Cauline leaves: distal usually flagged; corollas: staminate 3.5–5 mm; pistillate 4–6 mm; wet sites, willow thickets, subalpine or subarctic, Colorado to Alaska, e to Ontario, w Quebec10a. Antennaria pulcherrima subsp. pulcherrima</couplet>
+  <couplet>1.Cauline leaves: mostly not flagged (sometimes flagged near heads); corollas: staminate 3–4 mm; pistillate 3–4.3 mm; limestone near sea level, w Newfoundland, Anticosti Island 10b. Antennaria pulcherrima subsp. eucosma</couplet>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

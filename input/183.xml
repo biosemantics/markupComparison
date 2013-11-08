@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>16.</number>
+  <genus_name>ARCTIUM</genus_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 816. 1753; Gen. Pl. ed. 5, 357. 1754</place_of_publication>
+  <common_name>Burdock, clotbur, bardane</common_name>
+  <derivation>Greek arktion , from arktos , bear, perhaps alluding to rough involucre</derivation>
+  <author_of_tribe_genus>David J. Keil</author_of_tribe_genus>
+  <description>
+    <statement id="183.txt-0">
+      <text>Biennials or (monocarpic) perennials , 50–300 cm;</text>
+      <structure id="o2362" name="whole_organism">
+        <character char_type="range_value" name="size" from="50" from_unit="cm" to="300" to_unit="cm" />
+        <character name="life_style" value="biennial" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="183.txt-1">
+      <text>herbage not spiny.</text>
+      <structure id="o2364" name="herbage">
+        <character name="architecture_or_shape" value="spiny" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="183.txt-2">
+      <text>Stems erect, openly branched, branches ascending.</text>
+      <structure id="o2365" name="stem">
+        <character name="orientation" value="erect" />
+        <character name="architecture_or_shape" value="branched" modifier="openly" />
+      </structure>
+      <structure id="o2366" name="branch">
+        <character name="orientation" value="ascending" />
+      </structure>
+    </statement>
+    <statement id="183.txt-3">
+      <text>Leaves basal and cauline;</text>
+    </statement>
+    <statement id="183.txt-4">
+      <text>long-petiolate;</text>
+    </statement>
+    <statement id="183.txt-5">
+      <text>gradually smaller distally;</text>
+      <structure id="o2367" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="architecture" value="long-petiolate" />
+        <character name="size" value="smaller" modifier="gradually ; distally" />
+      </structure>
+    </statement>
+    <statement id="183.txt-6">
+      <text>blade margins entire or dentate (pinnately lobed or dissected), faces abaxially resin-gland-dotted, adaxially often tomentose.</text>
+      <structure id="o2368" name="margin" constraint="blade">
+        <character name="shape" value="entire" />
+        <character name="shape" value="dentate" />
+      </structure>
+      <structure id="o2369" name="face">
+        <character name="coloration_or_relief" value="resin-gland-dotted" modifier="abaxially" />
+        <character name="pubescence" value="tomentose" modifier="adaxially often" />
+      </structure>
+    </statement>
+    <statement id="183.txt-7">
+      <text>Heads discoid, in leafy-bracted racemiform to paniculiform or corymbiform arrays.</text>
+      <structure id="o2370" name="head">
+        <character name="shape_or_architecture" value="discoid" />
+      </structure>
+      <structure id="o2371" name="array">
+        <character char_type="range_value" name="architecture" from="leafy-bracted racemiform" to="paniculiform or corymbiform" />
+        <character name="architecture" value="paniculiform" />
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <relation id="r342" name="in" from="o2370" to="o2371" negation="false" />
+    </statement>
+    <statement id="183.txt-8">
+      <text>Involucres spheric to ovoid.</text>
+      <structure id="o2372" name="involucre">
+        <character char_type="range_value" name="shape" from="spheric" to="ovoid" />
+        <character name="shape" value="spheric" />
+        <character name="shape" value="ovoid" />
+      </structure>
+    </statement>
+    <statement id="183.txt-9">
+      <text>Phyllaries many in 9–17 series, outer and mid narrowly linear , bases appressed, margins entire , apices stiffly radiating, hooked-spiny tipped, inner linear, ascending or erect, straight tipped.</text>
+      <structure id="o2373" name="phyllary">
+        <character name="count" value="many" constraint="in series" constraintid="o2374" />
+        <character name="position" value="outer" />
+      </structure>
+      <structure id="o2374" name="series">
+        <character char_type="range_value" name="count" from="9" to="17" />
+      </structure>
+      <structure id="o2375" name="mid">
+        <character name="arrangement_or_shape" value="linear" modifier="narrowly" />
+      </structure>
+      <structure id="o2376" name="base">
+        <character name="orientation" value="appressed" />
+      </structure>
+      <structure id="o2377" name="margin">
+        <character name="shape" value="entire" />
+      </structure>
+      <structure id="o2378" name="apex">
+        <character name="orientation" value="radiating" modifier="stiffly" />
+        <character name="architecture_or_shape" value="hooked-spiny" />
+        <character name="position" value="inner" />
+        <character name="arrangement_or_shape" value="linear" />
+        <character name="orientation" value="ascending" />
+        <character name="orientation" value="erect" />
+        <character name="course" value="straight" />
+      </structure>
+    </statement>
+    <statement id="183.txt-10">
+      <text>Receptacles ± flat, epaleate, bearing subulate scales.</text>
+      <structure id="o2379" name="receptacle">
+        <character name="shape" value="flat" modifier="±" />
+        <character name="architecture" value="epaleate" />
+      </structure>
+      <structure id="o2380" name="scale">
+        <character name="shape" value="subulate" />
+      </structure>
+    </statement>
+    <statement id="183.txt-11">
+      <text>Florets (5–)20–40+;</text>
+      <structure id="o2381" name="floret">
+        <character char_type="range_value" name="atypical_count" from="5" to="20" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="20" to="40" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="183.txt-12">
+      <text>corollas pink to ± purple, glabrous or glandular-puberulent, tubes elongate , throats campanulate , lobes narrowly triangular, ± equal;</text>
+      <structure id="o2382" name="corolla">
+        <character name="coloration" value="pink" />
+        <character name="coloration" value="purple" modifier="±" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="glandular-puberulent" />
+      </structure>
+      <structure id="o2383" name="tube">
+        <character name="shape" value="elongate" />
+      </structure>
+      <structure id="o2384" name="throat">
+        <character name="shape" value="campanulate" />
+      </structure>
+      <structure id="o2385" name="lobe">
+        <character name="shape" value="triangular" modifier="narrowly" />
+        <character name="size" value="equal" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="183.txt-13">
+      <text>anther bases tailed, apical appendages ovate, obtuse to acute;</text>
+      <structure id="o2386" name="base" constraint="anther">
+        <character name="shape" value="tailed" />
+      </structure>
+      <structure id="o2387" name="appendage" constraint="apical">
+        <character char_type="range_value" name="shape" from="ovate , obtuse" to="acute" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="obtuse" />
+        <character name="shape" value="acute" />
+      </structure>
+    </statement>
+    <statement id="183.txt-14">
+      <text>style branches:</text>
+      <structure id="o2388" name="branch" constraint="style" />
+    </statement>
+    <statement id="183.txt-15">
+      <text>fused portions distally hairy-ringed, distinct portions oblong, acute or obtuse .</text>
+      <structure id="o2389" name="portion" constraint="fused">
+        <character name="relief" value="hairy-ringed" modifier="distally" />
+      </structure>
+      <structure id="o2390" name="portion">
+        <character name="fusion" value="distinct" />
+        <character name="shape" value="oblong" />
+        <character name="shape" value="acute" />
+        <character name="shape" value="obtuse" />
+      </structure>
+    </statement>
+    <statement id="183.txt-16">
+      <text>Cypselae obovoid , ± compressed, rough or ribbed, glabrous, attachment scars basal;</text>
+      <structure id="o2391" name="cypsela">
+        <character name="shape" value="obovoid" />
+        <character name="shape" value="compressed" modifier="±" />
+        <character name="pubescence_or_relief" value="rough" />
+        <character name="architecture_or_shape" value="ribbed" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+      <structure id="o2392" name="scar" constraint="attachment">
+        <character name="insertion_or_position" value="basal" />
+      </structure>
+    </statement>
+    <statement id="183.txt-17">
+      <text>pappi falling, of many bristles in 2–4 series .</text>
+      <structure id="o2393" name="pappus">
+        <character name="orientation" value="falling" />
+      </structure>
+      <structure id="o2394" name="bristle">
+        <character name="count" value="many" />
+      </structure>
+      <relation id="r343" name="consist_of" from="o2393" to="o2394" negation="false" />
+      <structure id="o2395" name="series">
+        <character char_type="range_value" name="count" from="2" to="4" />
+      </structure>
+      <relation id="r344" name="in" from="o2394" to="o2395" negation="false" />
+    </statement>
+    <statement id="183.txt-18">
+      <text>x = 18.</text>
+      <structure id="o2396" name="chromosome">
+        <character name="count" value="18" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species 10 (3 in the flora):</number_of_infrataxa>
+  <introduced>introduced;</introduced>
+  <general_distribution>Eurasia</general_distribution>
+  <general_distribution>n Africa</general_distribution>
+  <general_distribution>widely introduced worldwide.</general_distribution>
+  <discussion>At maturity the dry heads of Arctium species are readily caducous with the enclosed cypselae, and the hooked phyllary tips cling easily to fur or fabrics. Animal dispersal is a major factor in the spread of burdock species across North America. The burs are a major problem when they become entangled in the wool of sheep and fur of dogs and other animals.</discussion>
+  <discussion>Published chromosome reports for Arctium other than n = 18 are probably in error because of difficulty in interpretation of somatic chromosomes (R. J. Moore and C. Frankton 1974).</discussion>
+  <references>SELECTED REFERENCES Arènes, J. 1950. Monographie du genre Arctium L. Bull. Jard. Bot. État Bruxelles 29: 67–156. Duistermaat, H. 1996. Monograph of Arctium L. (Asteraceae). Gorteria, suppl. 3: 1–143.</references>
+  <key>1.Heads usually sessile to short-pedunculate in racemiform or paniculiform clusters 3. Arctium minus</key>
+  <key>1.Heads usually long-pedunculate in corymbiform clusters.</key>
+  <key>2.Involucre 2.5–4 cm diam.; phyllary apices glabrous or loosely cobwebby; corollas glabrous1. Arctium lappa</key>
+  <key>2.Involucre 1.5–2.5 mm diam.; phyllary apices densely cobwebby; corollas minutely glandular-puberulent2. Arctium tomentosum</key>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

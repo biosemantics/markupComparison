@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>4.</number>
+  <species_name>Lygodesmia ramosissima</species_name>
+  <authority>Greenman</authority>
+  <place_of_publication>Proc. Amer. Acad. Arts 35: 315. 1900</place_of_publication>
+  <common_name>Pecos River skeletonplant</common_name>
+  <description>
+    <statement id="600.txt-0">
+      <text>Perennials 25–60 cm (dense bushy clumps);</text>
+      <structure id="o12514" name="whole_organism">
+        <character char_type="range_value" name="size" from="25" from_unit="cm" to="60" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="600.txt-1">
+      <text>taproots deep, vertical, woody.</text>
+      <structure id="o12515" name="taproot">
+        <character name="depth" value="deep" />
+        <character name="orientation" value="vertical" />
+        <character name="texture" value="woody" />
+      </structure>
+    </statement>
+    <statement id="600.txt-2">
+      <text>Stems ascending to erect, pale green, striate, often much-branched from bases and distally, glabrous.</text>
+      <structure id="o12516" name="stem">
+        <character char_type="range_value" name="orientation" from="ascending" to="erect" />
+        <character name="orientation" value="ascending" />
+        <character name="orientation" value="erect" />
+        <character name="coloration" value="green" modifier="pale" />
+        <character name="coloration_or_relief" value="striate" />
+        <character name="architecture_or_shape" value="much-branched" modifier="often" constraint="from bases" constraintid="o12517" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+      <structure id="o12517" name="base" />
+    </statement>
+    <statement id="600.txt-3">
+      <text>Leaves:</text>
+      <structure id="o12518" name="leaf" />
+    </statement>
+    <statement id="600.txt-4">
+      <text>proximal blades linear , 50–70 × 1–2 mm, entire or sparingly laciniate;</text>
+      <structure id="o12519" name="blade" constraint="proximal">
+        <character name="arrangement_or_shape" value="linear" />
+        <character char_type="range_value" name="length" from="50" from_unit="mm" to="70" to_unit="mm" />
+        <character char_type="range_value" name="width" from="1" from_unit="mm" to="2" to_unit="mm" />
+        <character name="shape" value="entire" />
+        <character name="shape" value="laciniate" modifier="sparingly" />
+      </structure>
+    </statement>
+    <statement id="600.txt-5">
+      <text>cauline 40 mm or less, reduced to scales distally.</text>
+      <structure id="o12520" name="leaf" constraint="cauline">
+        <character name="size" value="40" unit="mm" />
+        <character name="size" value="40" unit="mm" modifier="less" />
+      </structure>
+      <structure id="o12521" name="scale" />
+      <relation id="r1451" name="reduced to" from="o12520" to="o12521" negation="false" modifier="distally" />
+    </statement>
+    <statement id="600.txt-6">
+      <text>Heads (1–6), borne singly.</text>
+      <structure id="o12522" name="head">
+        <character char_type="range_value" name="atypical_count" from="1" to="6" />
+        <character name="arrangement" value="singly" />
+      </structure>
+    </statement>
+    <statement id="600.txt-7">
+      <text>Involucres cylindric, 14–21 × 4–6 mm, apices narrow.</text>
+      <structure id="o12523" name="involucre">
+        <character name="shape" value="cylindric" />
+        <character char_type="range_value" name="length" from="14" from_unit="mm" to="21" to_unit="mm" />
+        <character char_type="range_value" name="width" from="4" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+      <structure id="o12524" name="apex">
+        <character name="size" value="narrow" />
+      </structure>
+    </statement>
+    <statement id="600.txt-8">
+      <text>Calyculi of 8–10, ovate bractlets 2–3 mm, margins ciliate (apices often purple, with small appendages, faces glabrous, sometimes roughened).</text>
+      <structure id="o12525" name="calyculus" />
+      <structure id="o12526" name="bractlet">
+        <character char_type="range_value" name="count" from="8" to="10" />
+        <character name="shape" value="ovate" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="3" to_unit="mm" />
+      </structure>
+      <relation id="r1452" name="consist_of" from="o12525" to="o12526" negation="false" />
+      <structure id="o12527" name="margin">
+        <character name="architecture_or_shape" value="ciliate" />
+      </structure>
+    </statement>
+    <statement id="600.txt-9">
+      <text>Phyllaries 5–7, linear-oblong, 16–20 mm, margins scarious, faces glabrous, apices appendaged (often dark).</text>
+      <structure id="o12528" name="phyllary">
+        <character char_type="range_value" name="count" from="5" to="7" />
+        <character name="shape" value="linear-oblong" />
+        <character char_type="range_value" name="size" from="16" from_unit="mm" to="20" to_unit="mm" />
+      </structure>
+      <structure id="o12529" name="margin">
+        <character name="texture" value="scarious" />
+      </structure>
+      <structure id="o12530" name="face">
+        <character name="pubescence" value="glabrous" />
+      </structure>
+      <structure id="o12531" name="apex">
+        <character name="architecture" value="appendaged" />
+      </structure>
+    </statement>
+    <statement id="600.txt-10">
+      <text>Florets 5–7;</text>
+      <structure id="o12532" name="floret">
+        <character char_type="range_value" name="count" from="5" to="7" />
+      </structure>
+    </statement>
+    <statement id="600.txt-11">
+      <text>corollas lavender, 12–16 mm, ligules 5–6 mm wide.</text>
+      <structure id="o12533" name="corolla">
+        <character name="coloration" value="lavender" />
+        <character char_type="range_value" name="size" from="12" from_unit="mm" to="16" to_unit="mm" />
+      </structure>
+      <structure id="o12534" name="ligule">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="600.txt-12">
+      <text>Cypselae 11–14 mm, faces smooth, adaxial weakly sulcate, glabrous ;</text>
+      <structure id="o12535" name="cypsela">
+        <character char_type="range_value" name="size" from="11" from_unit="mm" to="14" to_unit="mm" />
+      </structure>
+      <structure id="o12536" name="face">
+        <character name="architecture_or_relief" value="smooth" />
+        <character name="insertion_or_position" value="adaxial" modifier="weakly" />
+        <character name="architecture" value="sulcate" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="600.txt-13">
+      <text>pappi 11–13 mm.</text>
+      <structure id="o12537" name="pappus">
+        <character char_type="range_value" name="size" from="11" from_unit="mm" to="13" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="600.txt-14">
+      <text>2 n = 18.</text>
+      <structure id="o12538" name="chromosome">
+        <character name="count" value="18" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <habitat>rocky grasslands and oak forest</habitat>
+  <habitat>rocky soil</habitat>
+  <habitat>roadsides</habitat>
+  <elevation>1200–1900 m;</elevation>
+  <us_distribution>Tex.</us_distribution>
+  <global_distribution>Mexico (Chihuahua). Lygodesmia ramosissima is often confused with the more widespread L. texana</global_distribution>
+  <global_distribution>Mexico (Durango). Lygodesmia ramosissima is often confused with the more widespread L. texana</global_distribution>
+  <global_distribution>Mexico (Sonora). Lygodesmia ramosissima is often confused with the more widespread L. texana</global_distribution>
+  <global_distribution>it can be distinguished by its thinner</global_distribution>
+  <global_distribution>more intricately branched stems</global_distribution>
+  <global_distribution>5–7 florets per head</global_distribution>
+  <global_distribution>sulcate cypselae</global_distribution>
+  <global_distribution>and later daily flowering time (A. S. Tomb 1980).</global_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

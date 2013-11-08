@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>82.</number>
+  <genus_name>PYRRHOPAPPUS</genus_name>
+  <authority>de Candolle</authority>
+  <place_of_publication>in A. P. de Candolle and A. L. P. P. de Candolle, Prodr. 7: 144. 1838</place_of_publication>
+  <conserved>name conserved ·</conserved>
+  <common_name />
+  <derivation>Greek pyrrhos , yellowish red, and pappos , pappus, alluding to color of pappi</derivation>
+  <author_of_tribe_genus>John L. Strother</author_of_tribe_genus>
+  <description>
+    <statement id="607.txt-0">
+      <text>Annuals or perennials, 5–100+ cm;</text>
+    </statement>
+    <statement id="607.txt-1">
+      <text>taprooted or rhizomatous (roots producing tuberiform swellings in P. grandiflorus ).</text>
+      <structure id="o12653" name="whole_organism">
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="100" to_unit="cm" upper_restricted="false" />
+        <character name="life_style" value="annual" />
+        <character name="life_style" value="perennial" />
+        <character name="architecture" value="taprooted" />
+        <character name="architecture" value="rhizomatous" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="607.txt-2">
+      <text>Stems usually 1, sometimes 2–5+, erect, unbranched or branched proximally and/or distally, glabrous or pilosulous.</text>
+      <structure id="o12655" name="stem">
+        <character name="count" value="1" modifier="usually" />
+        <character char_type="range_value" name="count" from="2" to="5" upper_restricted="false" modifier="sometimes" />
+        <character name="orientation" value="erect" />
+        <character name="architecture" value="unbranched" modifier="proximally" />
+        <character name="architecture" value="branched" modifier="proximally" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="pilosulous" />
+      </structure>
+    </statement>
+    <statement id="607.txt-3">
+      <text>Leaves basal or basal and cauline;</text>
+      <structure id="o12656" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+      </structure>
+    </statement>
+    <statement id="607.txt-4">
+      <text>basal ± petiolate, distal usually sessile;</text>
+      <structure id="o12657" name="leaf" constraint="basal">
+        <character name="architecture" value="petiolate" modifier="±" />
+      </structure>
+      <structure id="o12658" name="leaf" constraint="distal">
+        <character name="architecture" value="sessile" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="607.txt-5">
+      <text>blades oblong, elliptic, or ovate to lanceolate or linear, margins entire or dentate to pinnately lobed (faces usually glabrous, sometimes pilosulous near margins).</text>
+      <structure id="o12659" name="blade">
+        <character char_type="range_value" name="shape" from="ovate" to="lanceolate or linear" />
+        <character name="shape" value="oblong" />
+        <character name="shape" value="elliptic" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="linear" />
+      </structure>
+      <structure id="o12660" name="margin">
+        <character char_type="range_value" name="shape" from="dentate" to="pinnately lobed" />
+        <character name="shape" value="entire" />
+        <character name="shape" value="dentate" />
+        <character name="shape" value="lobed" modifier="pinnately" />
+      </structure>
+    </statement>
+    <statement id="607.txt-6">
+      <text>Heads borne singly or in loose, corymbiform arrays.</text>
+      <structure id="o12661" name="head">
+        <character name="arrangement" value="singly" />
+        <character name="arrangement" value="in loose , corymbiform arrays" />
+      </structure>
+      <structure id="o12662" name="array">
+        <character name="architecture_or_texture" value="loose" />
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <relation id="r1461" name="in" from="o12661" to="o12662" negation="false" />
+    </statement>
+    <statement id="607.txt-7">
+      <text>Peduncles not inflated distally, sometimes bracteate.</text>
+      <structure id="o12663" name="peduncle">
+        <character name="shape" value="inflated" modifier="not ; distally" />
+        <character name="architecture" value="bracteate" modifier="sometimes" />
+      </structure>
+    </statement>
+    <statement id="607.txt-8">
+      <text>Calyculi of 3–13+, deltate to subulate or filiform bractlets.</text>
+      <structure id="o12664" name="calyculus" />
+      <structure id="o12665" name="bractlet">
+        <character char_type="range_value" name="count" from="3" to="13" upper_restricted="false" />
+        <character char_type="range_value" name="shape" from="deltate" to="subulate or filiform" />
+        <character name="shape" value="deltate" />
+        <character name="shape" value="subulate" />
+        <character name="shape" value="filiform" />
+      </structure>
+      <relation id="r1462" name="consist_of" from="o12664" to="o12665" negation="false" />
+    </statement>
+    <statement id="607.txt-9">
+      <text>Involucres cylindric, 4–5[–8+] mm diam.</text>
+      <structure id="o12666" name="involucre">
+        <character name="shape" value="cylindric" />
+        <character char_type="range_value" name="atypical_size" from="5" to="8" from_unit="mm" to_unit="mm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="607.txt-10">
+      <text>Phyllaries 8–21+ in ± 2 series (reflexed in fruit), linear, equal, margins often scarious, apices acute (often thickened or bearing keel-like flaps near tips).</text>
+      <structure id="o12667" name="phyllary">
+        <character char_type="range_value" name="count" from="8" to="21" upper_restricted="false" constraint="in series" constraintid="o12668" />
+        <character name="arrangement_or_shape" value="linear" />
+        <character name="size" value="equal" />
+      </structure>
+      <structure id="o12668" name="series">
+        <character name="count" value="2" modifier="±" />
+      </structure>
+      <structure id="o12669" name="margin">
+        <character name="texture" value="scarious" modifier="often" />
+      </structure>
+      <structure id="o12670" name="apex">
+        <character name="shape" value="acute" />
+      </structure>
+    </statement>
+    <statement id="607.txt-11">
+      <text>Receptacles ± convex, pitted, glabrous, epaleate.</text>
+      <structure id="o12671" name="receptacle">
+        <character name="shape" value="convex" modifier="±" />
+        <character name="relief" value="pitted" />
+        <character name="pubescence" value="glabrous" />
+        <character name="architecture" value="epaleate" />
+      </structure>
+    </statement>
+    <statement id="607.txt-12">
+      <text>Florets (20–)30–150+;</text>
+      <structure id="o12672" name="floret">
+        <character char_type="range_value" name="atypical_count" from="20" to="30" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="30" to="150" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="607.txt-13">
+      <text>corollas yellow to whitish.</text>
+      <structure id="o12673" name="corolla">
+        <character char_type="range_value" name="coloration" from="yellow" to="whitish" />
+        <character name="coloration" value="yellow" />
+        <character name="coloration" value="whitish" />
+      </structure>
+    </statement>
+    <statement id="607.txt-14">
+      <text>Cypselae reddish brown to stramineous, bodies ± fusiform, beaks (± concolorous with bodies) ± filiform, fragile, grooves (or broad ribs) 5, faces transversely rugulose, glabrous;</text>
+      <structure id="o12674" name="cypsela">
+        <character char_type="range_value" name="coloration" from="reddish-brown" to="stramineous" />
+        <character name="coloration" value="brown" modifier="reddish" />
+        <character name="coloration" value="stramineous" />
+      </structure>
+      <structure id="o12675" name="body">
+        <character name="shape" value="fusiform" modifier="±" />
+      </structure>
+      <structure id="o12676" name="beak">
+        <character name="shape" value="filiform" modifier="±" />
+        <character name="fragility" value="fragile" />
+      </structure>
+      <structure id="o12677" name="groove">
+        <character name="count" value="5" />
+      </structure>
+      <structure id="o12678" name="face">
+        <character name="relief" value="rugulose" modifier="transversely" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="607.txt-15">
+      <text>pappi (borne on discs at tips of beaks) persistent, double:</text>
+      <structure id="o12679" name="pappus">
+        <character name="duration" value="persistent" />
+      </structure>
+    </statement>
+    <statement id="607.txt-16">
+      <text>outer coroniform (of whitish, relatively short, spreading, sometimes curly, hairs), inner of 80–120+, rufous to stramineous, subequal, barbellulate bristles in 2–3+ series.</text>
+      <structure id="o12680" name="pappus" constraint="outer">
+        <character name="shape" value="coroniform" />
+      </structure>
+      <structure id="o12681" name="pappus" constraint="inner" />
+      <structure id="o12682" name="bristle">
+        <character char_type="range_value" name="count" from="80" to="120" upper_restricted="false" />
+        <character char_type="range_value" name="coloration" from="rufous" to="stramineous" />
+        <character name="coloration" value="rufous" />
+        <character name="coloration" value="stramineous" />
+        <character name="size" value="subequal" />
+        <character name="architecture" value="barbellulate" />
+      </structure>
+      <relation id="r1463" name="consist_of" from="o12681" to="o12682" negation="false" />
+      <structure id="o12683" name="series">
+        <character char_type="range_value" name="count" from="2" to="3" upper_restricted="false" />
+      </structure>
+      <relation id="r1464" name="in" from="o12682" to="o12683" negation="false" />
+    </statement>
+    <statement id="607.txt-17">
+      <text>x = 6.</text>
+      <structure id="o12684" name="chromosome">
+        <character name="count" value="6" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species 1, 4, or 5 (4 in the flora):</number_of_infrataxa>
+  <general_distribution>North America</general_distribution>
+  <general_distribution>Mexico.</general_distribution>
+  <discussion>Some plants from Mexico that have been called Pyrrhopappus multicaulis de Candolle (type from Mexico) may be distinct at species rank from P. pauciflorus (see R. McVaugh 1984).</discussion>
+  <discussion>Almost all botanists who have dealt with the biology or floristics of pyrrhopappuses have remarked similarities among the taxa and/or difficulties with identification of some specimens. Some botanists have noted that “interspecific” hybridizations are common (D. K. Northington 1974; B. L. Turner and K. J. Kim 1990; and works cited therein).</discussion>
+  <references>SELECTED REFERENCES Northington, D. K. 1974. Systematic studies of the genus Pyrrhopappus (Compositae, Cichorieae). Special Publ. Mus. Texas Tech Univ. 6: 1–38. Turner, B. L. and K. J. Kim. 1990. An overview of the genus Pyrrhopappus (Asteraceae: Lactuceae) with emphasis on chloroplast DNA restriction site data. Amer. J. Bot. 77: 845–850.</references>
+  <key>1.Perennials (roots or rootstocks producing tuberiform swellings 1–15 cm below soil surface); stems usually scapiform; cauline leaves usually 0, sometimes 1–3; anthers 4.5–5 mm 1. Pyrrhopappus grandiflorus</key>
+  <key>1.Annuals or perennials (not producing tuberiform swellings); stems rarely scapiform; cauline leaves usually 3–9+, seldom 0–2; anthers 2.5–4 mm.</key>
+  <key>2.Stems usually sparsely to densely pilosulous proximally, sometimes glabrous; blades of distal cauline leaves usually pinnately (3–)5–7(–9+)-lobed2. Pyrrhopappus pauciflorus</key>
+  <key>2.Stems usually glabrous proximally, sometimes pilosulous; blades of distal cauline leaves usually entire or with 1–2 lobes near bases, sometimes pinnately 3–5(–7+)-lobed.</key>
+  <key>3.Perennials; involucres 12–15(–17+) mm; florets 30–60+; cypselae stramineous; pappi 6–7 mm3. Pyrrhopappus rothrockii</key>
+  <key>3.Annuals; involucres 17–24 mm; florets 50–150+; cypselae reddish brown; pappi 9–10 mm4. Pyrrhopappus carolinianus</key>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

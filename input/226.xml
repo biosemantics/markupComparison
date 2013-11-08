@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>19.</number>
+  <species_name>Centaurea solstitialis</species_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 917. 1753</place_of_publication>
+  <common_name>Yellow or Barnaby star-thistle, St. Barnaby’s thistle, centauré du solstice</common_name>
+  <description>
+    <statement id="226.txt-0">
+      <text>Annuals , 10–100 cm.</text>
+      <structure id="o3699" name="whole_organism">
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="100" to_unit="cm" />
+        <character name="life_style" value="annual" />
+      </structure>
+    </statement>
+    <statement id="226.txt-1">
+      <text>Stems simple or often branched from base, forming rounded bushy plants, gray-tomentose.</text>
+      <structure id="o3700" name="stem">
+        <character name="architecture" value="simple" />
+        <character name="architecture" value="branched" modifier="often" constraint="from base" constraintid="o3701" />
+      </structure>
+      <structure id="o3701" name="base" />
+      <structure id="o3702" name="whole_organism">
+        <character name="shape" value="rounded" />
+        <character name="habit" value="bushy" />
+        <character name="pubescence" value="gray-tomentose" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="226.txt-2">
+      <text>Leaves gray-tomentose and scabrous to short-bristly;</text>
+      <structure id="o3703" name="leaf">
+        <character name="pubescence" value="gray-tomentose" />
+        <character char_type="range_value" name="pubescence" from="scabrous" to="short-bristly" />
+        <character name="pubescence" value="scabrous" />
+        <character name="pubescence" value="short-bristly" />
+      </structure>
+    </statement>
+    <statement id="226.txt-3">
+      <text>basal and proximal cauline petiolate or tapered to base, usually absent at anthesis, blades 5–15 cm, margins pinnately lobed or dissected;</text>
+      <structure id="o3704" name="leaf" constraint="basal and proximal cauline">
+        <character name="architecture" value="petiolate" />
+        <character name="architecture" value="tapered to base" />
+        <character name="presence" value="absent" modifier="usually" constraint="at anthesis" constraintid="o3706" />
+      </structure>
+      <structure id="o3705" name="base" />
+      <relation id="r530" name="tapered to" from="o3704" to="o3705" negation="false" />
+      <structure id="o3706" name="anthesi" />
+      <structure id="o3707" name="blade">
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="15" to_unit="cm" />
+      </structure>
+      <structure id="o3708" name="margin">
+        <character name="shape" value="lobed" modifier="pinnately" />
+        <character name="shape" value="dissected" modifier="pinnately" />
+      </structure>
+    </statement>
+    <statement id="226.txt-4">
+      <text>cauline long-decurrent, blades linear to oblong, 1–10 cm, entire.</text>
+      <structure id="o3709" name="leaf" constraint="cauline">
+        <character name="shape" value="long-decurrent" />
+      </structure>
+      <structure id="o3710" name="blade">
+        <character char_type="range_value" name="shape" from="linear" to="oblong" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="oblong" />
+        <character char_type="range_value" name="size" from="1" from_unit="cm" to="10" to_unit="cm" />
+        <character name="shape" value="entire" />
+      </structure>
+    </statement>
+    <statement id="226.txt-5">
+      <text>Heads disciform, borne singly or in open leafy arrays, long-pedunculate.</text>
+      <structure id="o3711" name="head">
+        <character name="shape_or_architecture" value="disciform" />
+        <character name="arrangement" value="singly" />
+        <character name="arrangement" value="in open leafy arrays" />
+        <character name="architecture" value="long-pedunculate" />
+      </structure>
+      <structure id="o3712" name="array">
+        <character name="architecture" value="open" />
+        <character name="architecture" value="leafy" />
+      </structure>
+      <relation id="r531" name="in" from="o3711" to="o3712" negation="false" />
+    </statement>
+    <statement id="226.txt-6">
+      <text>Involucres ovoid, 13–17 mm, loosely cobwebby-tomentose or becoming glabrous.</text>
+      <structure id="o3713" name="involucre">
+        <character name="shape" value="ovoid" />
+        <character char_type="range_value" name="size" from="13" from_unit="mm" to="17" to_unit="mm" />
+        <character name="pubescence" value="cobwebby-tomentose" modifier="loosely" />
+        <character name="pubescence" value="glabrous" modifier="becoming" />
+      </structure>
+    </statement>
+    <statement id="226.txt-7">
+      <text>Principal phyllaries:</text>
+      <structure id="o3714" name="phyllary" constraint="principal" />
+    </statement>
+    <statement id="226.txt-8">
+      <text>bodies pale green, ovate, appendages stramineous to brown, each with palmately radiating cluster of spines, and stout central spine 10–25 mm.</text>
+      <structure id="o3715" name="body">
+        <character name="coloration" value="green" modifier="pale" />
+        <character name="shape" value="ovate" />
+      </structure>
+      <structure id="o3716" name="appendage">
+        <character char_type="range_value" name="coloration" from="stramineous" to="brown" />
+        <character name="coloration" value="stramineous" />
+        <character name="coloration" value="brown" />
+      </structure>
+      <structure id="o3717" name="spine" />
+      <relation id="r532" name="with palmately radiating cluster of" from="o3716" to="o3717" negation="false" modifier="each" />
+      <structure id="o3718" name="spine" constraint="central">
+        <character name="fragility" value="stout" />
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="25" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="226.txt-9">
+      <text>Inner phyllaries :</text>
+      <structure id="o3719" name="phyllary" constraint="inner" />
+    </statement>
+    <statement id="226.txt-10">
+      <text>appendages scarious, obtuse or abruptly spine tipped.</text>
+      <structure id="o3720" name="appendage">
+        <character name="texture" value="scarious" />
+        <character name="shape" value="obtuse" />
+        <character name="shape" value="abruptly spine" />
+      </structure>
+      <structure id="o3721" name="spine" />
+    </statement>
+    <statement id="226.txt-11">
+      <text>Florets many ;</text>
+      <structure id="o3722" name="floret">
+        <character name="count" value="many" />
+      </structure>
+    </statement>
+    <statement id="226.txt-12">
+      <text>corollas yellow, all ± equal, 13–20 mm;</text>
+      <structure id="o3723" name="corolla">
+        <character name="coloration" value="yellow" />
+        <character name="size" value="equal" modifier="±" />
+        <character char_type="range_value" name="size" from="13" from_unit="mm" to="20" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="226.txt-13">
+      <text>sterile florets slender, inconspicuous.</text>
+      <structure id="o3724" name="floret" constraint="sterile">
+        <character name="size" value="slender" />
+        <character name="manifestation" value="inconspicuous" />
+      </structure>
+    </statement>
+    <statement id="226.txt-14">
+      <text>Cypselae dimorphic, 2–3 mm, glabrous, outer dark brown, without pappi, inner white or light brown, mottled;</text>
+      <structure id="o3725" name="cypsela">
+        <character name="habit" value="dimorphic" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="3" to_unit="mm" />
+        <character name="pubescence" value="glabrous" />
+        <character name="position" value="outer" />
+        <character name="coloration" value="brown" modifier="dark" />
+        <character name="position" value="inner" />
+        <character name="coloration" value="white" />
+        <character name="coloration" value="brown" modifier="light" />
+        <character name="coloration" value="mottled" />
+      </structure>
+      <structure id="o3726" name="pappus" />
+      <relation id="r533" name="without" from="o3725" to="o3726" negation="false" />
+    </statement>
+    <statement id="226.txt-15">
+      <text>pappi of many white, unequal bristles 2–4 mm, fine.</text>
+      <structure id="o3727" name="pappus">
+        <character name="texture" value="fine" />
+      </structure>
+      <structure id="o3728" name="bristle">
+        <character name="count" value="many" />
+        <character name="coloration" value="white" />
+        <character name="size" value="unequal" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+      <relation id="r534" name="consist_of" from="o3727" to="o3728" negation="false" />
+    </statement>
+    <statement id="226.txt-16">
+      <text>2 n = 16.</text>
+      <structure id="o3729" name="chromosome">
+        <character name="count" value="16" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <habitat>roadsides</habitat>
+  <habitat>fields</habitat>
+  <habitat>pastures</habitat>
+  <habitat>woodlands</habitat>
+  <elevation>0–2000 m;</elevation>
+  <global_distribution>widely introduced</global_distribution>
+  <ca_distribution>Alta.</ca_distribution>
+  <ca_distribution>Man.</ca_distribution>
+  <ca_distribution>Ont.</ca_distribution>
+  <ca_distribution>Sask.</ca_distribution>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Conn.</us_distribution>
+  <us_distribution>Del.</us_distribution>
+  <us_distribution>Fla.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Ill.</us_distribution>
+  <us_distribution>Ind.</us_distribution>
+  <us_distribution>Iowa</us_distribution>
+  <us_distribution>Kans.</us_distribution>
+  <us_distribution>Ky.</us_distribution>
+  <us_distribution>Md.</us_distribution>
+  <us_distribution>Mass.</us_distribution>
+  <us_distribution>Mich.</us_distribution>
+  <us_distribution>Minn.</us_distribution>
+  <us_distribution>Mo.</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>Nebr.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>N.H.</us_distribution>
+  <us_distribution>N.J.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>N.C.</us_distribution>
+  <us_distribution>N.Dak.</us_distribution>
+  <us_distribution>Ohio</us_distribution>
+  <us_distribution>Okla.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <us_distribution>R.I.</us_distribution>
+  <us_distribution>S.C.</us_distribution>
+  <us_distribution>S.Dak.</us_distribution>
+  <us_distribution>Tenn.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Va.</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <us_distribution>W.Va.</us_distribution>
+  <us_distribution>Wis.</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <global_distribution>s Europe.</global_distribution>
+  <discussion>Centaurea solstitialis is a serious weed pest, especially in the western United States, where it has invaded millions of acres of rangelands, and it is listed as a noxious weed in eleven western states and two Canadian provinces. It is a strong competitor in infested areas, often forming dense colonies. It is very difficult to control or eradicate once it becomes established. In addition, yellow star-thistle is poisonous to horses; when ingested over a prolonged period it causes a neurological disorder called equine nigropallidal encephalomalacia, or “chewing disease.” Although its bitter taste and spiny heads usually deter grazing animals, horses sometimes will seek it out. Yellow star-thistle tends to spread in rangelands when more palatable plants are consumed.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

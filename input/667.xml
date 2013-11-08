@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>28.</number>
+  <species_name>Antennaria soliceps</species_name>
+  <authority>S. F. Blake</authority>
+  <place_of_publication>Proc. Biol. Soc. Wash. 51: 7. 1938</place_of_publication>
+  <common_name>Charleston Mountain or Charleston pussytoes</common_name>
+  <description>
+    <statement id="667.txt-0">
+      <text>Gynoecious (staminate plants unknown).</text>
+      <structure id="o13955" name="whole_organism">
+        <character name="reproduction" value="gynoecious" />
+      </structure>
+    </statement>
+    <statement id="667.txt-1">
+      <text>Plants 1–4 cm.</text>
+      <structure id="o13956" name="whole_organism">
+        <character char_type="range_value" name="size" from="1" from_unit="cm" to="4" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="667.txt-2">
+      <text>Stolons 0.5–2 cm.</text>
+      <structure id="o13957" name="stolon">
+        <character char_type="range_value" name="size" from="0.5" from_unit="cm" to="2" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="667.txt-3">
+      <text>Basal leaves 1-nerved, spatulate, rhombic-spatulate, or cuneate, 4–13 × 2–8 mm, tips mucronate, faces densely gray-tomentose.</text>
+      <structure id="o13958" name="leaf" constraint="basal">
+        <character name="architecture" value="1-nerved" />
+        <character name="shape" value="spatulate" />
+        <character name="shape" value="rhombic-spatulate" />
+        <character name="shape" value="cuneate" />
+        <character char_type="range_value" name="length" from="4" from_unit="mm" to="13" to_unit="mm" />
+        <character char_type="range_value" name="width" from="2" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+      <structure id="o13959" name="tip">
+        <character name="shape" value="mucronate" />
+      </structure>
+      <structure id="o13960" name="face">
+        <character name="pubescence" value="gray-tomentose" modifier="densely" />
+      </structure>
+    </statement>
+    <statement id="667.txt-4">
+      <text>Cauline leaves linear, 4–10 mm, distalmost flagged.</text>
+      <structure id="o13961" name="leaf" constraint="cauline">
+        <character name="arrangement_or_shape" value="linear" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="10" to_unit="mm" />
+        <character name="position" value="distalmost" />
+        <character name="orientation" value="flagged" />
+      </structure>
+    </statement>
+    <statement id="667.txt-5">
+      <text>Heads usually borne singly, rarely 2–3 in corymbiform arrays.</text>
+      <structure id="o13962" name="head">
+        <character name="arrangement" value="singly" modifier="usually" />
+        <character char_type="range_value" name="count" from="2" to="3" modifier="rarely" constraint="in arrays" constraintid="o13963" />
+      </structure>
+      <structure id="o13963" name="array">
+        <character name="architecture" value="corymbiform" />
+      </structure>
+    </statement>
+    <statement id="667.txt-6">
+      <text>Involucres staminate unknown;</text>
+      <structure id="o13964" name="involucre">
+        <character name="architecture" value="staminate" />
+        <character name="presence" value="unknown" />
+      </structure>
+    </statement>
+    <statement id="667.txt-7">
+      <text>pistillate 8–11 mm.</text>
+      <structure id="o13965" name="involucre" constraint="pistillate">
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="11" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="667.txt-8">
+      <text>Phyllaries distally white, light brown, dark brown, or olivaceous.</text>
+      <structure id="o13966" name="phyllary">
+        <character name="coloration" value="white" modifier="distally" />
+        <character name="coloration" value="brown" modifier="distally ;light" />
+        <character name="coloration" value="brown" modifier="distally ;dark" />
+        <character name="coloration" value="olivaceous" modifier="distally" />
+      </structure>
+    </statement>
+    <statement id="667.txt-9">
+      <text>Corollas:</text>
+      <structure id="o13967" name="corolla" />
+    </statement>
+    <statement id="667.txt-10">
+      <text>staminate unknown;</text>
+      <structure id="o13968" name="corolla" constraint="staminate">
+        <character name="presence" value="unknown" />
+      </structure>
+    </statement>
+    <statement id="667.txt-11">
+      <text>pistillate 4–5.5 mm.</text>
+      <structure id="o13969" name="corolla" constraint="pistillate">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="5.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="667.txt-12">
+      <text>Cypselae 1.5–1.8 mm, glabrous;</text>
+      <structure id="o13970" name="cypsela">
+        <character char_type="range_value" name="size" from="1.5" from_unit="mm" to="1.8" to_unit="mm" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="667.txt-13">
+      <text>pappi:</text>
+      <structure id="o13971" name="pappus" />
+    </statement>
+    <statement id="667.txt-14">
+      <text>staminate unknown;</text>
+      <structure id="o13972" name="pappus" constraint="staminate">
+        <character name="presence" value="unknown" />
+      </structure>
+    </statement>
+    <statement id="667.txt-15">
+      <text>pistillate 5–6 mm.</text>
+      <structure id="o13973" name="pappus" constraint="pistillate">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="667.txt-16">
+      <text>2 n = ca. 168.</text>
+      <structure id="o13974" name="chromosome">
+        <character name="count" value="168" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>talus areas on limestone ridge at treeline in the subalpine zone</habitat>
+  <elevation>3000–3400 m;</elevation>
+  <us_distribution>Nev.</us_distribution>
+  <discussion>Antennaria soliceps is a high-polyploid apomict known only from limestone talus at treeline in the Spring (Charleston) Mountains, Nevada (R. J. Bayer and T. M. Minish 1993). It is probably most closely related to A. aromatica, an amphimictic species occurring in the northern Rockies, and is characterized by a cushion-plant growth form and heads borne singly (Bayer and Minish).</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

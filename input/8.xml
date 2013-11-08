@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>3.</number>
+  <species_name>Acourtia thurberi</species_name>
+  <authority>(A. Gray) Reveal &amp; R. M. King</authority>
+  <place_of_publication>Phytologia 27: 231. 1973</place_of_publication>
+  <common_name>Thurber’s desertpeony</common_name>
+  <synonym_of_species_name>Perezia thurberi A. Gray, Pl. Nov. Thurber., 324. 1854</synonym_of_species_name>
+  <description>
+    <statement id="8.txt-0">
+      <text>Plants 40–150 cm (stems sulcate to striate distally, densely glan-dular).</text>
+      <structure id="o16853" name="whole_organism">
+        <character char_type="range_value" name="size" from="40" from_unit="cm" to="150" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="8.txt-1">
+      <text>Leaves cauline and/or basal;</text>
+    </statement>
+    <statement id="8.txt-2">
+      <text>sessile;</text>
+      <structure id="o16854" name="leaf">
+        <character name="insertion_or_position" value="cauline" />
+        <character name="insertion_or_position" value="basal" />
+        <character name="architecture" value="sessile" />
+      </structure>
+    </statement>
+    <statement id="8.txt-3">
+      <text>blades ovate to ovate-elliptic, 1.5 (cauline)–18 (basal) cm, bases shortly sagittate or clasping, margins acerose-denticulate, faces densely glandular-puberulent.</text>
+      <structure id="o16855" name="blade">
+        <character char_type="range_value" name="shape" from="ovate" to="ovate-elliptic" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="ovate-elliptic" />
+        <character char_type="range_value" name="size" from="1.5" from_unit="cm" to="18" to_unit="cm" />
+      </structure>
+      <structure id="o16856" name="base">
+        <character name="shape" value="sagittate" modifier="shortly" />
+        <character name="architecture" value="clasping" />
+      </structure>
+      <structure id="o16857" name="margin">
+        <character name="shape" value="acerose-denticulate" />
+      </structure>
+      <structure id="o16858" name="face">
+        <character name="pubescence" value="glandular-puberulent" modifier="densely" />
+      </structure>
+    </statement>
+    <statement id="8.txt-4">
+      <text>Heads in subcongested corymbiform arrays.</text>
+      <structure id="o16859" name="head" />
+      <structure id="o16860" name="array">
+        <character name="architecture" value="subcongested" />
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <relation id="r1814" name="in" from="o16859" to="o16860" negation="false" />
+    </statement>
+    <statement id="8.txt-5">
+      <text>Involucres obconic to campanulate, 7–9 mm.</text>
+      <structure id="o16861" name="involucre">
+        <character char_type="range_value" name="shape" from="obconic" to="campanulate" />
+        <character name="shape" value="obconic" />
+        <character name="shape" value="campanulate" />
+        <character char_type="range_value" name="size" from="7" from_unit="mm" to="9" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="8.txt-6">
+      <text>Phyllaries in 2–3 series, oblong-oblanceolate, apices acuminate, abaxial faces densely glandular-hairy.</text>
+      <structure id="o16862" name="phyllary">
+        <character name="shape" value="oblong-oblanceolate" />
+      </structure>
+      <structure id="o16863" name="series">
+        <character char_type="range_value" name="count" from="2" to="3" />
+      </structure>
+      <relation id="r1815" name="in" from="o16862" to="o16863" negation="false" />
+      <structure id="o16864" name="apex">
+        <character name="shape" value="acuminate" />
+      </structure>
+      <structure id="o16865" name="face" constraint="abaxial">
+        <character name="pubescence" value="glandular-hairy" modifier="densely" />
+      </structure>
+    </statement>
+    <statement id="8.txt-7">
+      <text>Receptacles alveolate, glandular.</text>
+      <structure id="o16866" name="receptacle">
+        <character name="relief" value="alveolate" />
+        <character name="architecture_or_exudation_or_pubescence" value="glandular" />
+      </structure>
+    </statement>
+    <statement id="8.txt-8">
+      <text>Florets 3–6;</text>
+      <structure id="o16867" name="floret">
+        <character char_type="range_value" name="count" from="3" to="6" />
+      </structure>
+    </statement>
+    <statement id="8.txt-9">
+      <text>corollas lavender-pink (purple), 7–12 mm.</text>
+      <structure id="o16868" name="corolla">
+        <character name="coloration" value="pink" modifier="lavender" />
+        <character char_type="range_value" name="size" from="7" from_unit="mm" to="12" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="8.txt-10">
+      <text>Cypselae subcylindric to subfusiform, 3–7 mm, glandular;</text>
+      <structure id="o16869" name="cypsela">
+        <character char_type="range_value" name="shape" from="subcylindric" to="subfusiform" />
+        <character name="shape" value="subcylindric" />
+        <character name="shape" value="subfusiform" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="7" to_unit="mm" />
+        <character name="architecture_or_exudation_or_pubescence" value="glandular" />
+      </structure>
+    </statement>
+    <statement id="8.txt-11">
+      <text>pappi bright white, 8–9 mm (rigid).</text>
+      <structure id="o16870" name="pappus">
+        <character name="coloration" value="white" modifier="bright" />
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="9" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="8.txt-12">
+      <text>2 n = 54.</text>
+      <structure id="o16871" name="chromosome">
+        <character name="count" value="54" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>oct</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>nov</flowering_time>
+  <habitat>gravel and caliche soils in warm sonoran desert scrub</habitat>
+  <elevation>100–200 m;</elevation>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <global_distribution>Mexico (Chihuahua).</global_distribution>
+  <global_distribution>Mexico (Durango).</global_distribution>
+  <global_distribution>Mexico (Sonora).</global_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

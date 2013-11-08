@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>3b.</number>
+  <variety_name>Saussurea angustifolia (Linnaeus) de Candolle var. viscida</variety_name>
+  <authority>(Hultén) S. L. Welsh</authority>
+  <place_of_publication>Great Basin Naturalist 28: 152. 1968</place_of_publication>
+  <common_name>Sticky saw-wort</common_name>
+  <synonym_of_variety_name>Saussurea viscida Hultén, Fl. Alaska Yukon 10: 1627, fig. 6c. 1950</synonym_of_variety_name>
+  <description>
+    <statement id="177.txt-0">
+      <text>Plants 5–15 cm.</text>
+      <structure id="o2236" name="whole_organism">
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="15" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="177.txt-1">
+      <text>Stems simple, lightly arachnoid and villous with viscid hairs.</text>
+      <structure id="o2237" name="stem">
+        <character name="architecture" value="simple" />
+        <character name="pubescence" value="arachnoid" modifier="lightly" />
+        <character name="pubescence" value="villous" constraint="with hairs" constraintid="o2238" />
+      </structure>
+      <structure id="o2238" name="hair">
+        <character name="coating_or_texture" value="viscid" />
+      </structure>
+    </statement>
+    <statement id="177.txt-2">
+      <text>Leaves often wider than 8 mm;</text>
+      <structure id="o2239" name="leaf">
+        <character name="size" value="8" unit="mm" modifier="often wider than" />
+      </structure>
+    </statement>
+    <statement id="177.txt-3">
+      <text>basal lanceolate to elliptic, margins denticulate, arachnoid throughout or viscid-villous on margins and abaxially on midvein;</text>
+      <structure id="o2240" name="leaf" constraint="basal" />
+      <structure id="o2241" name="margin">
+        <character name="shape" value="denticulate" />
+        <character name="pubescence" value="arachnoid" constraint="throughout or viscid-villous on margins" constraintid="o2242" />
+      </structure>
+      <structure id="o2242" name="margin" />
+      <structure id="o2243" name="midvein" />
+      <relation id="r329" name="on" from="o2242" to="o2243" negation="false" modifier="abaxially" />
+    </statement>
+    <statement id="177.txt-4">
+      <text>cauline leaves narrower, crowded, usually surpassing heads.</text>
+      <structure id="o2244" name="leaf" constraint="cauline">
+        <character name="size" value="narrower" />
+        <character name="architecture" value="crowded" />
+      </structure>
+      <structure id="o2245" name="head">
+        <character name="comparison" value="surpassing" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="177.txt-5">
+      <text>Heads crowded.</text>
+      <structure id="o2246" name="head">
+        <character name="architecture" value="crowded" />
+      </structure>
+    </statement>
+    <statement id="177.txt-6">
+      <text>Phyllaries unequal in 2–3 series;</text>
+      <structure id="o2247" name="phyllary">
+        <character name="size" value="unequal" constraint="in series" constraintid="o2248" />
+      </structure>
+      <structure id="o2248" name="series">
+        <character char_type="range_value" name="count" from="2" to="3" />
+      </structure>
+    </statement>
+    <statement id="177.txt-7">
+      <text>outer phyllaries usually 2–4 times longer than wide.</text>
+      <structure id="o2249" name="phyllary" constraint="outer">
+        <character char_type="range_value" name="size" from="2" to="4" modifier="usually;times longer than wide" />
+      </structure>
+    </statement>
+    <statement id="177.txt-8">
+      <text>2 n = unknown.</text>
+      <structure id="o2250" name="chromosome">
+        <character name="presence" value="unknown" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>tundra</habitat>
+  <habitat>insular and coastal regions</habitat>
+  <elevation>10–100 m;</elevation>
+  <us_distribution>Alaska</us_distribution>
+  <global_distribution>Russian Far East (Chukotka).</global_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

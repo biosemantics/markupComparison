@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>5.</number>
+  <species_name>Lygodesmia texana</species_name>
+  <authority>(Torrey &amp; A. Gray) Greene ex Small</authority>
+  <place_of_publication>Fl. S.E. U.S., 1315. 1903</place_of_publication>
+  <common_name>Texas skeletonplant</common_name>
+  <synonym_of_species_name>Lygodesmia aphylla (Nuttall) de Candolle var . texana Torrey &amp; A. Gray, Fl. N. Amer. 2: 485. 1843</synonym_of_species_name>
+  <description>
+    <statement id="601.txt-0">
+      <text>Perennials 25–65 cm (in clumps);</text>
+      <structure id="o12539" name="whole_organism">
+        <character char_type="range_value" name="size" from="25" from_unit="cm" to="65" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="601.txt-1">
+      <text>taproots thick, fleshy or woody, rhizomes spreading.</text>
+      <structure id="o12540" name="taproot">
+        <character name="thickness" value="thick" />
+        <character name="texture" value="fleshy" />
+        <character name="texture" value="woody" />
+      </structure>
+      <structure id="o12541" name="rhizome">
+        <character name="orientation" value="spreading" />
+      </structure>
+    </statement>
+    <statement id="601.txt-2">
+      <text>Stems erect, green, stout, branched from bases and distally, weakly striate, glabrous.</text>
+      <structure id="o12542" name="stem">
+        <character name="orientation" value="erect" />
+        <character name="coloration" value="green" />
+        <character name="fragility" value="stout" />
+        <character name="architecture_or_shape" value="branched" constraint="from bases" constraintid="o12543" />
+        <character name="coloration_or_relief" value="striate" modifier="weakly" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+      <structure id="o12543" name="base" />
+    </statement>
+    <statement id="601.txt-3">
+      <text>Leaves (basal forming rosettes, sometimes withering before flowering) proximal blades linear, 100–200 × 1–8 mm, margins of usually pinnately laciniately lobed, lobes remote and narrow, 1–15 mm ;</text>
+      <structure id="o12544" name="leaf">
+        <character char_type="range_value" name="length" from="100" from_unit="mm" to="200" to_unit="mm" />
+        <character char_type="range_value" name="width" from="1" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+      <structure id="o12545" name="blade" constraint="proximal">
+        <character name="arrangement_or_shape" value="linear" />
+      </structure>
+      <structure id="o12546" name="margin">
+        <character name="arrangement" value="remote" />
+        <character name="size" value="narrow" />
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="15" to_unit="mm" />
+      </structure>
+      <structure id="o12547" name="lobe">
+        <character name="shape" value="lobed" modifier="usually pinnately laciniately" />
+      </structure>
+      <relation id="r1453" name="part_of" from="o12546" to="o12547" negation="false" />
+    </statement>
+    <statement id="601.txt-4">
+      <text>cauline similar, 5–10 mm, reduced to scales distally.</text>
+      <structure id="o12548" name="leaf" constraint="cauline">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+      <structure id="o12549" name="scale" />
+      <relation id="r1454" name="reduced to" from="o12548" to="o12549" negation="false" modifier="distally" />
+    </statement>
+    <statement id="601.txt-5">
+      <text>Heads borne singly.</text>
+      <structure id="o12550" name="head">
+        <character name="arrangement" value="singly" />
+      </structure>
+    </statement>
+    <statement id="601.txt-6">
+      <text>Involucres cylindric, 18–25 mm × 5–8 mm, apices narrow.</text>
+      <structure id="o12551" name="involucre">
+        <character name="shape" value="cylindric" />
+        <character char_type="range_value" name="length" from="18" from_unit="mm" to="25" to_unit="mm" />
+        <character char_type="range_value" name="width" from="5" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+      <structure id="o12552" name="apex">
+        <character name="size" value="narrow" />
+      </structure>
+    </statement>
+    <statement id="601.txt-7">
+      <text>Calyculi of 8–10, ovate bractlets 1–3 mm, margins ciliate-tomentulose.</text>
+      <structure id="o12553" name="calyculus" />
+      <structure id="o12554" name="bractlet">
+        <character char_type="range_value" name="count" from="8" to="10" />
+        <character name="shape" value="ovate" />
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="3" to_unit="mm" />
+      </structure>
+      <relation id="r1455" name="consist_of" from="o12553" to="o12554" negation="false" />
+      <structure id="o12555" name="margin">
+        <character name="pubescence" value="ciliate-tomentulose" />
+      </structure>
+    </statement>
+    <statement id="601.txt-8">
+      <text>Phyllaries 8–10, linear, 18–26 mm, margins scarious, apices appendaged, faces glabrous or tomentulose.</text>
+      <structure id="o12556" name="phyllary">
+        <character char_type="range_value" name="count" from="8" to="10" />
+        <character name="arrangement_or_shape" value="linear" />
+        <character char_type="range_value" name="size" from="18" from_unit="mm" to="26" to_unit="mm" />
+      </structure>
+      <structure id="o12557" name="margin">
+        <character name="texture" value="scarious" />
+      </structure>
+      <structure id="o12558" name="apex">
+        <character name="architecture" value="appendaged" />
+      </structure>
+      <structure id="o12559" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="tomentulose" />
+      </structure>
+    </statement>
+    <statement id="601.txt-9">
+      <text>Florets 8–12;</text>
+      <structure id="o12560" name="floret">
+        <character char_type="range_value" name="count" from="8" to="12" />
+      </structure>
+    </statement>
+    <statement id="601.txt-10">
+      <text>corollas usually pink, purple, or lavender, rarely white, 35–40 mm, ligules 5–6 mm wide.</text>
+      <structure id="o12561" name="corolla">
+        <character name="coloration" value="pink" modifier="usually" />
+        <character name="coloration" value="purple" />
+        <character name="coloration" value="lavender" />
+        <character name="coloration" value="white" modifier="rarely" />
+        <character char_type="range_value" name="size" from="35" from_unit="mm" to="40" to_unit="mm" />
+      </structure>
+      <structure id="o12562" name="ligule">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="601.txt-11">
+      <text>Cypselae 11–17 mm, faces smooth, adaxial not sulcate, glabrous;</text>
+      <structure id="o12563" name="cypsela">
+        <character char_type="range_value" name="size" from="11" from_unit="mm" to="17" to_unit="mm" />
+      </structure>
+      <structure id="o12564" name="face">
+        <character name="architecture_or_relief" value="smooth" />
+        <character name="insertion_or_position" value="adaxial" modifier="not" />
+        <character name="architecture" value="sulcate" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="601.txt-12">
+      <text>pappi 10–15 mm.</text>
+      <structure id="o12565" name="pappus">
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="15" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="601.txt-13">
+      <text>2 n = 18.</text>
+      <structure id="o12566" name="chromosome">
+        <character name="count" value="18" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>rocky, calcareous, alkaline soils in oak-juniper woodlands</habitat>
+  <habitat>mesquite brushlands</habitat>
+  <habitat>open grasslands</habitat>
+  <habitat>red sandy soils</habitat>
+  <habitat>roadsides</habitat>
+  <elevation>100–1800 m;</elevation>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>Okla.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <global_distribution>Mexico (Coahuila).</global_distribution>
+  <discussion>Lygodesmia texana is easily distinguished by its laciniate-lobed basal leaves that form rosettes in younger stages, relatively large involucres and florets, phyllaries with an apical appendage, and smooth cypselae. It is closely related to L. aphylla, which has a more eastern distribution, lacks laciniate leaves in rosettes, and has sulcate cypselae. Lygodesmia texana apparently hybridizes with L. ramossisima in trans-Pecos Texas, and the two species can be difficult to distinguish (A. S. Tomb 1980).</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

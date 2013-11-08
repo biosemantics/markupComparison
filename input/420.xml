@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>33.</number>
+  <species_name>Hieracium traillii</species_name>
+  <authority>Greene</authority>
+  <place_of_publication>Pittonia 4: 226. 1900</place_of_publication>
+  <synonym_of_species_name>Hieracium greenii Porter &amp; Britton, Bull. Torrey Bot. Club 20: 120. 1893 (not H. greenei A. Gray 1883), based on Pilosella spathulata F. W. Schultz &amp; Schultz-Bipontinus, Flora 45: 439. 1862, not H. spathulatum Scheele 1863</synonym_of_species_name>
+  <description>
+    <statement id="420.txt-0">
+      <text>Plants 25–60+ cm.</text>
+      <structure id="o8298" name="whole_organism">
+        <character char_type="range_value" name="size" from="25" from_unit="cm" to="60" to_unit="cm" upper_restricted="false" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="420.txt-1">
+      <text>Stems proximally glabrous or stellate-pubescent, distally glabrous or stellate-pubescent.</text>
+      <structure id="o8299" name="stem">
+        <character name="pubescence" value="glabrous" modifier="proximally" />
+        <character name="pubescence" value="stellate-pubescent" modifier="proximally" />
+        <character name="pubescence" value="glabrous" modifier="distally" />
+        <character name="pubescence" value="stellate-pubescent" modifier="distally" />
+      </structure>
+    </statement>
+    <statement id="420.txt-2">
+      <text>Leaves:</text>
+      <structure id="o8300" name="leaf" />
+    </statement>
+    <statement id="420.txt-3">
+      <text>basal 5–6+, cauline 0(–1+);</text>
+      <structure id="o8301" name="leaf" constraint="basal">
+        <character char_type="range_value" name="count" from="5" to="6" upper_restricted="false" />
+      </structure>
+      <structure id="o8302" name="leaf" constraint="cauline">
+        <character char_type="range_value" name="atypical_count" from="0" to="1" upper_restricted="false" from_inclusive="false" />
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+    <statement id="420.txt-4">
+      <text>blades oblanceolate to spatulate, 40–80 × 18–45+ mm, lengths 3–5+ times widths, bases cuneate, margins usually entire, apices rounded to obtuse, abaxial faces piloso-hirsute (hairs 1–3+ mm), adaxial glabrous.</text>
+      <structure id="o8303" name="blade">
+        <character char_type="range_value" name="shape" from="oblanceolate" to="spatulate" />
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="spatulate" />
+        <character char_type="range_value" name="length" from="40" from_unit="mm" to="80" to_unit="mm" />
+        <character char_type="range_value" name="width" from="18" from_unit="mm" to="45" to_unit="mm" upper_restricted="false" />
+        <character name="size" value="widths" modifier="3-5+ times" />
+      </structure>
+      <structure id="o8304" name="base">
+        <character name="shape" value="cuneate" />
+      </structure>
+      <structure id="o8305" name="margin">
+        <character name="shape" value="entire" modifier="usually" />
+      </structure>
+      <structure id="o8306" name="apex">
+        <character char_type="range_value" name="shape" from="rounded" to="obtuse" />
+        <character name="shape" value="rounded" />
+        <character name="shape" value="obtuse" />
+      </structure>
+      <structure id="o8307" name="face" constraint="abaxial">
+        <character name="pubescence" value="piloso-hirsute" />
+        <character name="insertion_or_position" value="adaxial" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="420.txt-5">
+      <text>Heads 8–12+ in corymbiform arrays.</text>
+      <structure id="o8308" name="head">
+        <character char_type="range_value" name="count" from="8" to="12" upper_restricted="false" constraint="in arrays" constraintid="o8309" />
+      </structure>
+      <structure id="o8309" name="array">
+        <character name="architecture" value="corymbiform" />
+      </structure>
+    </statement>
+    <statement id="420.txt-6">
+      <text>Peduncles stellate-pubescent and stipitate-glandular.</text>
+      <structure id="o8310" name="peduncle">
+        <character name="pubescence" value="stellate-pubescent" />
+        <character name="architecture_or_exudation_or_pubescence" value="stipitate-glandular" />
+      </structure>
+    </statement>
+    <statement id="420.txt-7">
+      <text>Calyculi:</text>
+      <structure id="o8311" name="calyculus" />
+    </statement>
+    <statement id="420.txt-8">
+      <text>bractlets 5–8+.</text>
+      <structure id="o8312" name="bractlet">
+        <character char_type="range_value" name="count" from="5" to="8" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="420.txt-9">
+      <text>Involucres hemispheric to campanulate, 8–10 (× 6–9) mm.</text>
+      <structure id="o8313" name="involucre">
+        <character char_type="range_value" name="shape" from="hemispheric" to="campanulate" />
+        <character name="shape" value="hemispheric" />
+        <character name="shape" value="campanulate" />
+        <character char_type="range_value" name="length" from="8" from_unit="mm" to="10[" to_unit="mm" />
+        <character char_type="range_value" name="width" from="6" from_unit="mm" to="9]" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="420.txt-10">
+      <text>Phyllaries 13–21+, apices acuminate, abaxial faces stellate-pubescent and stipitate-glandular, sometimes piloso-hirsute as well.</text>
+      <structure id="o8314" name="phyllary">
+        <character char_type="range_value" name="count" from="13" to="21" upper_restricted="false" />
+      </structure>
+      <structure id="o8315" name="apex">
+        <character name="shape" value="acuminate" />
+      </structure>
+      <structure id="o8316" name="face" constraint="abaxial">
+        <character name="pubescence" value="stellate-pubescent" />
+        <character name="architecture_or_exudation_or_pubescence" value="stipitate-glandular" />
+        <character name="pubescence" value="piloso-hirsute" modifier="sometimes" />
+      </structure>
+    </statement>
+    <statement id="420.txt-11">
+      <text>Florets 30–60+;</text>
+      <structure id="o8317" name="floret">
+        <character char_type="range_value" name="count" from="30" to="60" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="420.txt-12">
+      <text>corollas yellow, ca. 12 mm.</text>
+      <structure id="o8318" name="corolla">
+        <character name="coloration" value="yellow" />
+        <character name="size" value="12" unit="mm" />
+      </structure>
+    </statement>
+    <statement id="420.txt-13">
+      <text>Cypselae (black or red-brown) columnar, 3–4 mm;</text>
+      <structure id="o8319" name="cypsela">
+        <character name="shape" value="columnar" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="420.txt-14">
+      <text>pappi of ca. 40+, stramineous bristles in ± 2 series, 6–7 mm.</text>
+      <structure id="o8320" name="pappus">
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+      <structure id="o8321" name="bristle">
+        <character name="count" char_type="range_value" from="40" upper_restricted="false" />
+        <character name="coloration" value="stramineous" />
+      </structure>
+      <relation id="r980" name="consist_of" from="o8320" to="o8321" negation="false" />
+      <structure id="o8322" name="series">
+        <character name="count" value="2" modifier="±" />
+      </structure>
+      <relation id="r981" name="in" from="o8321" to="o8322" negation="false" />
+    </statement>
+  </description>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>shaley sites</habitat>
+  <elevation>1000–1300 m;</elevation>
+  <us_distribution>Ky.</us_distribution>
+  <us_distribution>Md.</us_distribution>
+  <us_distribution>Ohio</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <us_distribution>Va.</us_distribution>
+  <us_distribution>W.Va.</us_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

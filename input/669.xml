@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>30.</number>
+  <species_name>Antennaria media</species_name>
+  <authority>Greene</authority>
+  <place_of_publication>Pittonia 3: 286. 1898</place_of_publication>
+  <common_name>Rocky Mountain pussytoes</common_name>
+  <synonym_of_species_name>Antennaria alpina (Linnaeus) Gaertner var. media (Greene) Jepson; A. austromontana E. E. Nelson; A. candida Greene; A. densa Greene; A. modesta Greene; A. mucronata E. E. Nelson</synonym_of_species_name>
+  <description>
+    <statement id="669.txt-0">
+      <text>Dioecious or gynoecious (staminate plants rare or in equal frequency to pistillates, respectively).</text>
+      <structure id="o14011" name="whole_organism">
+        <character name="reproduction" value="dioecious" />
+        <character name="reproduction" value="gynoecious" />
+      </structure>
+    </statement>
+    <statement id="669.txt-1">
+      <text>Plants 5–13 cm.</text>
+      <structure id="o14012" name="whole_organism">
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="13" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="669.txt-2">
+      <text>Stolons 1–4 cm.</text>
+      <structure id="o14013" name="stolon">
+        <character char_type="range_value" name="size" from="1" from_unit="cm" to="4" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="669.txt-3">
+      <text>Basal leaves 1-nerved, spatulate to oblanceolate, 6–19 × 2.5–6 mm, tips mucronate, faces gray-pubescent.</text>
+      <structure id="o14014" name="leaf" constraint="basal">
+        <character name="architecture" value="1-nerved" />
+        <character char_type="range_value" name="shape" from="spatulate" to="oblanceolate" />
+        <character name="shape" value="spatulate" />
+        <character name="shape" value="oblanceolate" />
+        <character char_type="range_value" name="length" from="6" from_unit="mm" to="19" to_unit="mm" />
+        <character char_type="range_value" name="width" from="2.5" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+      <structure id="o14015" name="tip">
+        <character name="shape" value="mucronate" />
+      </structure>
+      <structure id="o14016" name="face">
+        <character name="pubescence" value="gray-pubescent" />
+      </structure>
+    </statement>
+    <statement id="669.txt-4">
+      <text>Cauline leaves linear, 5–20 mm, not flagged (apices acute).</text>
+      <structure id="o14017" name="leaf" constraint="cauline">
+        <character name="arrangement_or_shape" value="linear" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="20" to_unit="mm" />
+        <character name="orientation" value="flagged" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="669.txt-5">
+      <text>Heads 2–5(–9) in corymbiform arrays.</text>
+      <structure id="o14018" name="head">
+        <character char_type="range_value" name="atypical_count" from="5" to="9" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="2" to="5" constraint="in arrays" constraintid="o14019" />
+      </structure>
+      <structure id="o14019" name="array">
+        <character name="architecture" value="corymbiform" />
+      </structure>
+    </statement>
+    <statement id="669.txt-6">
+      <text>Involucres:</text>
+      <structure id="o14020" name="involucre" />
+    </statement>
+    <statement id="669.txt-7">
+      <text>staminate (3.5–)4.5–6.5 mm;</text>
+      <structure id="o14021" name="involucre" constraint="staminate">
+        <character char_type="range_value" name="atypical_size" from="3.5" to="4.5" from_unit="mm" to_unit="mm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="4.5" from_unit="mm" to="6.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="669.txt-8">
+      <text>pistillate 4–8 mm.</text>
+      <structure id="o14022" name="involucre" constraint="pistillate">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="669.txt-9">
+      <text>Phyllaries distally dark brown, black, or olivaceous.</text>
+      <structure id="o14023" name="phyllary">
+        <character name="coloration" value="brown" modifier="distally ;dark" />
+        <character name="coloration" value="black" modifier="distally" />
+        <character name="coloration" value="olivaceous" modifier="distally" />
+      </structure>
+    </statement>
+    <statement id="669.txt-10">
+      <text>Corollas:</text>
+      <structure id="o14024" name="corolla" />
+    </statement>
+    <statement id="669.txt-11">
+      <text>staminate 2.5–4.5 mm;</text>
+      <structure id="o14025" name="corolla" constraint="staminate">
+        <character char_type="range_value" name="size" from="2.5" from_unit="mm" to="4.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="669.txt-12">
+      <text>pistillate 3–4.5 mm.</text>
+      <structure id="o14026" name="corolla" constraint="pistillate">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="4.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="669.txt-13">
+      <text>Cypselae 0.6–1.6 mm, glabrous or papillate;</text>
+      <structure id="o14027" name="cypsela">
+        <character char_type="range_value" name="size" from="0.6" from_unit="mm" to="1.6" to_unit="mm" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="papillate" />
+      </structure>
+    </statement>
+    <statement id="669.txt-14">
+      <text>pappi:</text>
+      <structure id="o14028" name="pappus" />
+    </statement>
+    <statement id="669.txt-15">
+      <text>staminate 2.5–4.5 mm;</text>
+      <structure id="o14029" name="pappus" constraint="staminate">
+        <character char_type="range_value" name="size" from="2.5" from_unit="mm" to="4.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="669.txt-16">
+      <text>pistillate 4–5.5 mm.</text>
+      <structure id="o14030" name="pappus" constraint="pistillate">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="5.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="669.txt-17">
+      <text>2 n = 56, 98, 112.</text>
+      <structure id="o14031" name="chromosome">
+        <character name="count" value="56" />
+        <character name="count" value="98" />
+        <character name="count" value="112" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>dry, rocky to moist alpine tundra</habitat>
+  <elevation>1500–3800 m;</elevation>
+  <ca_distribution>Alta.</ca_distribution>
+  <ca_distribution>B.C.</ca_distribution>
+  <ca_distribution>N.W.T.</ca_distribution>
+  <ca_distribution>Yukon</ca_distribution>
+  <us_distribution>Alaska</us_distribution>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <discussion>Antennaria media ranges from Arizona to Alaska; dioecious and gynoecious populations are encountered (R. J. Bayer and G. L. Stebbins 1987). The dioecious (sexual) populations are restricted primarily to California and Oregon (Bayer et al. 1990). The main distinction between A. media and A. alpina is flags on distal cauline leaves present in A. alpina and mostly absent in A. media (Bayer 1990d). Phyllaries of the pistillate plants in A. alpina tend to be acute; they are blunter in A. media. At some point, it may be preferable to follow W. L. Jepson ([1923–1925]) and some later authors and treat A. media as a subspecies of A. alpina. Antennaria media appears to be an autopolyploid derivative of A. pulchella; genes from A. pulchella may have introgressed into the A. alpina and A. parvifolia complexes indirectly through A. media.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

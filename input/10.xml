@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>5.</number>
+  <species_name>Acourtia microcephala</species_name>
+  <authority>de Candolle</authority>
+  <place_of_publication>in A. P. de Candolle and A. L. P. P. de Candolle, Prodr. 7: 66. 1838</place_of_publication>
+  <synonym_of_species_name>Perezia microcephala (de Candolle) A. Gray</synonym_of_species_name>
+  <description>
+    <statement id="10.txt-0">
+      <text>Plants 60–120 cm.</text>
+      <structure id="o71" name="whole_organism">
+        <character char_type="range_value" name="size" from="60" from_unit="cm" to="120" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="10.txt-1">
+      <text>Leaves cauline;</text>
+    </statement>
+    <statement id="10.txt-2">
+      <text>sessile;</text>
+      <structure id="o72" name="leaf">
+        <character name="insertion_or_position" value="cauline" />
+        <character name="architecture" value="sessile" />
+      </structure>
+    </statement>
+    <statement id="10.txt-3">
+      <text>blades oblong-ovate to elliptic, 5–15 cm, bases cordate, clasping, auriculate, margins spinulose-denticulate, faces densely glandular-scabrid.</text>
+      <structure id="o73" name="blade">
+        <character char_type="range_value" name="shape" from="oblong-ovate" to="elliptic" />
+        <character name="shape" value="oblong-ovate" />
+        <character name="shape" value="elliptic" />
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="15" to_unit="cm" />
+      </structure>
+      <structure id="o74" name="base">
+        <character name="shape" value="cordate" />
+        <character name="architecture" value="clasping" />
+        <character name="shape" value="auriculate" />
+      </structure>
+      <structure id="o75" name="margin">
+        <character name="shape" value="spinulose-denticulate" />
+      </structure>
+      <structure id="o76" name="face">
+        <character name="relief" value="glandular-scabrid" modifier="densely" />
+      </structure>
+    </statement>
+    <statement id="10.txt-4">
+      <text>Heads in paniculiform arrays.</text>
+      <structure id="o77" name="head" />
+      <structure id="o78" name="array">
+        <character name="architecture" value="paniculiform" />
+      </structure>
+      <relation id="r22" name="in" from="o77" to="o78" negation="false" />
+    </statement>
+    <statement id="10.txt-5">
+      <text>Involucres turbinate to campanulate, 6–8( – 10+) mm.</text>
+      <structure id="o79" name="involucre">
+        <character char_type="range_value" name="shape" from="turbinate" to="campanulate" />
+        <character name="shape" value="turbinate" />
+        <character name="shape" value="campanulate" />
+        <character char_type="range_value" name="atypical_size" from="8" to="10" from_unit="mm" to_unit="mm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="10.txt-6">
+      <text>Phyllaries in 3–4 series, linear to oblanceolate, apices acute to acuminate or mucronate, margins and abaxial faces glandular-hairy.</text>
+      <structure id="o80" name="phyllary">
+        <character char_type="range_value" name="shape" from="linear" to="oblanceolate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="oblanceolate" />
+      </structure>
+      <structure id="o81" name="series">
+        <character char_type="range_value" name="count" from="3" to="4" />
+      </structure>
+      <relation id="r23" name="in" from="o80" to="o81" negation="false" />
+      <structure id="o82" name="apex">
+        <character char_type="range_value" name="shape" from="acute" to="acuminate or mucronate" />
+        <character name="shape" value="acute" />
+        <character name="shape" value="acuminate" />
+        <character name="shape" value="mucronate" />
+      </structure>
+      <structure id="o83" name="margin" />
+      <structure id="o84" name="face" constraint="abaxial">
+        <character name="pubescence" value="glandular-hairy" />
+      </structure>
+    </statement>
+    <statement id="10.txt-7">
+      <text>Receptacles alveolate, glandular-hairy.</text>
+      <structure id="o85" name="receptacle">
+        <character name="relief" value="alveolate" />
+        <character name="pubescence" value="glandular-hairy" />
+      </structure>
+    </statement>
+    <statement id="10.txt-8">
+      <text>Florets 10–20;</text>
+      <structure id="o86" name="floret">
+        <character char_type="range_value" name="count" from="10" to="20" />
+      </structure>
+    </statement>
+    <statement id="10.txt-9">
+      <text>corollas lavender-pink, 6–12 mm.</text>
+      <structure id="o87" name="corolla">
+        <character name="coloration" value="pink" modifier="lavender" />
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="12" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="10.txt-10">
+      <text>Cypselae cylindric, 1.5–6 mm, bristly glandular-puberulent;</text>
+      <structure id="o88" name="cypsela">
+        <character name="shape" value="cylindric" />
+        <character char_type="range_value" name="size" from="1.5" from_unit="mm" to="6" to_unit="mm" />
+        <character name="pubescence" value="bristly glandular-puberulent" />
+      </structure>
+    </statement>
+    <statement id="10.txt-11">
+      <text>pappi tawny, 6–10 mm.</text>
+      <structure id="o89" name="pappus">
+        <character name="coloration" value="tawny" />
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="10.txt-12">
+      <text>2 n = 54.</text>
+      <structure id="o90" name="chromosome">
+        <character name="count" value="54" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>may</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <habitat>gravel and caliche soils in scrub oak, oak woodlands</habitat>
+  <habitat>and chaparral</habitat>
+  <elevation>60–1300 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <global_distribution>Mexico (Baja California).</global_distribution>
+  <discussion>In the flora, Acourtia microcephala is restricted to the dry areas of California from Monterey to San Diego counties and on the Channel Islands.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

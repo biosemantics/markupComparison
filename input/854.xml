@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>3b.</number>
+  <subspecies_name>Artemisia campestris Linnaeus subsp. caudata</subspecies_name>
+  <authority>(Michaux) H. M. Hall &amp; Clements</authority>
+  <place_of_publication>Publ. Carnegie Inst. Wash. 326: 122. 1923</place_of_publication>
+  <common_name>Armoise caudée</common_name>
+  <synonym_of_subspecies_name>Artemisia caudata Michaux, Fl. Bor.-Amer. 2: 129. 1803; A. forwoodii A. Gray</synonym_of_subspecies_name>
+  <description>
+    <statement id="854.txt-0">
+      <text>Biennials, 20–80(–150) cm.</text>
+      <structure id="o17911" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="80" to="150" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="20" from_unit="cm" to="80" to_unit="cm" />
+        <character name="life_style" value="biennial" />
+      </structure>
+    </statement>
+    <statement id="854.txt-1">
+      <text>Stems usually 1.</text>
+      <structure id="o17912" name="stem">
+        <character name="count" value="1" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="854.txt-2">
+      <text>Leaves:</text>
+      <structure id="o17913" name="leaf" />
+    </statement>
+    <statement id="854.txt-3">
+      <text>basal rosettes not persistent (faces green and glabrous or sparsely white-pubescent).</text>
+      <structure id="o17914" name="rosette" constraint="basal">
+        <character name="duration" value="persistent" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="854.txt-4">
+      <text>Heads in arrays 12–30(–35) × 1–8(–12) cm.</text>
+      <structure id="o17915" name="head" />
+      <structure id="o17916" name="array">
+        <character char_type="range_value" name="atypical_length" from="30" to="35" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="12" from_unit="cm" to="30" to_unit="cm" />
+        <character char_type="range_value" name="atypical_width" from="8" to="12" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="width" from="1" from_unit="cm" to="8" to_unit="cm" />
+      </structure>
+      <relation id="r1892" name="in" from="o17915" to="o17916" negation="false" />
+    </statement>
+    <statement id="854.txt-5">
+      <text>Involucres turbinate, 2–3 × 2–3 mm.</text>
+      <structure id="o17917" name="involucre">
+        <character name="shape" value="turbinate" />
+        <character char_type="range_value" name="length" from="2" from_unit="mm" to="3" to_unit="mm" />
+        <character char_type="range_value" name="width" from="2" from_unit="mm" to="3" to_unit="mm" />
+      </structure>
+    </statement>
+  </description>
+  <habitat>open meadows</habitat>
+  <habitat>usually moist soils</habitat>
+  <habitat>sometimes sandy or rocky habitats</habitat>
+  <elevation>10–1000;</elevation>
+  <ca_distribution>Ont.</ca_distribution>
+  <ca_distribution>Que.</ca_distribution>
+  <ca_distribution>Sask.</ca_distribution>
+  <us_distribution>Ark.</us_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Conn.</us_distribution>
+  <us_distribution>Fla.</us_distribution>
+  <us_distribution>Ill.</us_distribution>
+  <us_distribution>Ind.</us_distribution>
+  <us_distribution>Iowa</us_distribution>
+  <us_distribution>Kans.</us_distribution>
+  <us_distribution>Maine</us_distribution>
+  <us_distribution>Mass.</us_distribution>
+  <us_distribution>Mich.</us_distribution>
+  <us_distribution>Minn.</us_distribution>
+  <us_distribution>Miss.</us_distribution>
+  <us_distribution>Mo.</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>Nebr.</us_distribution>
+  <us_distribution>N.H.</us_distribution>
+  <us_distribution>N.J.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>N.C.</us_distribution>
+  <us_distribution>N.Dak.</us_distribution>
+  <us_distribution>Ohio</us_distribution>
+  <us_distribution>Okla.</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <us_distribution>R.I.</us_distribution>
+  <us_distribution>S.C.</us_distribution>
+  <us_distribution>S.Dak.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <us_distribution>Vt.</us_distribution>
+  <us_distribution>Wis.</us_distribution>
+  <discussion>A population of Artemisia campestris found in Massachusetts differs from populations of subsp. caudata by its smaller heads and multiple branched stems. That population is typical of subsp. campestris, formerly believed to be restricted to Europe.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

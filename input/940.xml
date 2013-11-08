@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>124.</number>
+  <genus_name>MATRICARIA</genus_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 890. 1753; Gen. Pl. ed. 5, 380. 1754</place_of_publication>
+  <conserved>name conserved ·</conserved>
+  <common_name>Mayweed, chamomile, matricary, matricaire, chamomille</common_name>
+  <derivation>Greek matrix , womb, and - aria , pertaining to; alluding to reputed medicinal properties</derivation>
+  <author_of_tribe_genus>Luc Brouillet</author_of_tribe_genus>
+  <synonym_of_genus_name>Chamomilla Gray</synonym_of_genus_name>
+  <description>
+    <statement id="940.txt-0">
+      <text>Annuals, (1–)10–25(–80) cm (taprooted; often aromatic).</text>
+      <structure id="o19357" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="1" to="10" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_size" from="25" to="80" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="25" to_unit="cm" />
+        <character name="life_style" value="annual" />
+      </structure>
+    </statement>
+    <statement id="940.txt-1">
+      <text>Stems 1–10+, usually erect or ascending, sometimes decumbent, branched or not, glabrous or glabrate to sparsely hairy (hairs basifixed).</text>
+      <structure id="o19358" name="stem">
+        <character char_type="range_value" name="count" from="1" to="10" upper_restricted="false" />
+        <character name="orientation" value="erect" modifier="usually" />
+        <character name="orientation" value="ascending" modifier="usually" />
+        <character name="habit" value="decumbent" modifier="sometimes" />
+        <character name="architecture_or_shape" value="branched" />
+        <character name="architecture_or_shape" value="branched" modifier="not" />
+        <character char_type="range_value" name="pubescence" from="glabrate" to="sparsely hairy" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="glabrate" />
+        <character name="pubescence" value="hairy" modifier="sparsely" />
+      </structure>
+    </statement>
+    <statement id="940.txt-2">
+      <text>Leaves (not marcescent) basal (soon withering) and cauline;</text>
+    </statement>
+    <statement id="940.txt-3">
+      <text>alternate;</text>
+    </statement>
+    <statement id="940.txt-4">
+      <text>subpetiolate or sessile;</text>
+      <structure id="o19359" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="arrangement" value="alternate" />
+        <character name="architecture" value="subpetiolate" />
+        <character name="architecture" value="sessile" />
+      </structure>
+    </statement>
+    <statement id="940.txt-5">
+      <text>blades spatulate to oblong or ovate (bases sheathing or clasping, often pinnately auriculate), (1–)2–3-pinnately lobed (lobes linear, often curved distally), ultimate margins entire (± recurved), mucronate, faces glabrous or glabrate to sparsely hairy (hairs basifixed).</text>
+      <structure id="o19360" name="blade">
+        <character char_type="range_value" name="shape" from="spatulate" to="oblong or ovate" />
+        <character name="shape" value="spatulate" />
+        <character name="shape" value="oblong" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="lobed" modifier="1-2-3-pinnately" />
+      </structure>
+      <structure id="o19361" name="margin" constraint="ultimate">
+        <character name="shape" value="entire" />
+        <character name="shape" value="mucronate" />
+      </structure>
+      <structure id="o19362" name="face">
+        <character char_type="range_value" name="pubescence" from="glabrate" to="sparsely hairy" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="glabrate" />
+        <character name="pubescence" value="hairy" modifier="sparsely" />
+      </structure>
+    </statement>
+    <statement id="940.txt-6">
+      <text>Heads radiate or discoid, borne singly or in open, corymbiform arrays.</text>
+      <structure id="o19363" name="head">
+        <character name="architecture" value="radiate" />
+        <character name="architecture" value="discoid" />
+        <character name="arrangement" value="singly" />
+        <character name="arrangement" value="in open , corymbiform arrays" />
+      </structure>
+      <structure id="o19364" name="array">
+        <character name="architecture" value="open" />
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <relation id="r2035" name="in" from="o19363" to="o19364" negation="false" />
+    </statement>
+    <statement id="940.txt-7">
+      <text>Involucres patelliform, 4–14 mm diam.</text>
+      <structure id="o19365" name="involucre">
+        <character name="shape" value="patelliform" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="14" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="940.txt-8">
+      <text>Phyllaries persistent, 25–50 in [2–]3–4[–5] series, distinct, oblong or ovate to spatulate or linear-spatulate (membranous, not carinate, bases not indurate), subequal, margins and apices (hyaline) scarious (apices rounded to obtuse).</text>
+      <structure id="o19366" name="phyllary">
+        <character name="duration" value="persistent" />
+        <character char_type="range_value" name="count" from="25" to="50" constraint="in 2-, -5 series" constraintid="o19367" />
+        <character name="fusion" value="distinct" />
+        <character char_type="range_value" name="shape" from="ovate" to="spatulate or linear-spatulate" />
+        <character name="shape" value="oblong" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="spatulate" />
+        <character name="shape" value="linear-spatulate" />
+        <character name="size" value="subequal" />
+      </structure>
+      <structure id="o19367" name="series" constraint="2-3-4-5" />
+      <structure id="o19368" name="margin" />
+      <structure id="o19369" name="apex">
+        <character name="texture" value="scarious" />
+      </structure>
+    </statement>
+    <statement id="940.txt-9">
+      <text>Receptacles conic to oblong-ovoid [subulate] (hollow), epaleate.</text>
+      <structure id="o19370" name="receptacle">
+        <character char_type="range_value" name="shape" from="conic" to="oblong-ovoid" />
+        <character name="shape" value="conic" />
+        <character name="shape" value="oblong-ovoid" />
+        <character name="architecture" value="epaleate" />
+      </structure>
+    </statement>
+    <statement id="940.txt-10">
+      <text>Ray florets 0 or 10–22, pistillate, fertile;</text>
+      <structure id="o19371" name="floret" constraint="ray">
+        <character name="count" value="0" />
+        <character char_type="range_value" name="count" from="10" to="22" />
+        <character name="architecture" value="pistillate" />
+        <character name="reproduction" value="fertile" />
+      </structure>
+    </statement>
+    <statement id="940.txt-11">
+      <text>corollas white, laminae elliptic-ovate.</text>
+      <structure id="o19372" name="corolla">
+        <character name="coloration" value="white" />
+      </structure>
+      <structure id="o19373" name="lamina">
+        <character name="shape" value="elliptic-ovate" />
+      </structure>
+    </statement>
+    <statement id="940.txt-12">
+      <text>Disc florets 120–750+, bisexual, fertile;</text>
+      <structure id="o19374" name="floret" constraint="disc">
+        <character char_type="range_value" name="count" from="120" to="750" upper_restricted="false" />
+        <character name="reproduction" value="bisexual" />
+        <character name="reproduction" value="fertile" />
+      </structure>
+    </statement>
+    <statement id="940.txt-13">
+      <text>corollas (persisting in fruit, often slightly asymmetric, sometimes with scattered, sessile, golden glands) yellow to greenish yellow or yellowish green, tubes ± dilated, throats urceolate to campanulate, lobes 4–5 (spreading), deltate [with resin sacs].</text>
+      <structure id="o19375" name="corolla">
+        <character char_type="range_value" name="coloration" from="yellow" to="greenish-yellow or yellowish-green" />
+        <character name="coloration" value="yellow" />
+        <character name="coloration" value="yellow" modifier="greenish" />
+        <character name="coloration" value="green" modifier="yellowish" />
+      </structure>
+      <structure id="o19376" name="tube">
+        <character name="shape" value="dilated" modifier="±" />
+      </structure>
+      <structure id="o19377" name="throat">
+        <character char_type="range_value" name="shape" from="urceolate" to="campanulate" />
+        <character name="shape" value="urceolate" />
+        <character name="shape" value="campanulate" />
+      </structure>
+      <structure id="o19378" name="lobe">
+        <character char_type="range_value" name="count" from="4" to="5" />
+        <character name="shape" value="deltate" />
+      </structure>
+    </statement>
+    <statement id="940.txt-14">
+      <text>Cypselae obconic, slightly compressed (usually asymmetric, apices oblique), ribs [3–]5, faces glabrous, smooth between ribs (pericarps sometimes with myxogenic cells abaxially and/or in ribs; embryo sac development monosporic);</text>
+      <structure id="o19379" name="cypsela">
+        <character name="shape" value="obconic" />
+        <character name="shape" value="compressed" modifier="slightly" />
+      </structure>
+      <structure id="o19380" name="rib">
+        <character char_type="range_value" name="atypical_count" from="3" to="5" to_inclusive="false" />
+        <character name="count" value="5" />
+      </structure>
+      <structure id="o19381" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="architecture_or_relief" value="smooth" constraint="between ribs" constraintid="o19382" />
+      </structure>
+      <structure id="o19382" name="rib" />
+    </statement>
+    <statement id="940.txt-15">
+      <text>pappi 0, coroniform, or (sometimes on ray cypselae) adaxial auricles.</text>
+      <structure id="o19383" name="pappus">
+        <character name="count" value="0" />
+        <character name="shape" value="coroniform" />
+      </structure>
+      <structure id="o19384" name="auricle" constraint="adaxial" />
+    </statement>
+    <statement id="940.txt-16">
+      <text>x = 9.</text>
+      <structure id="o19385" name="chromosome">
+        <character name="count" value="9" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species 7 (3 in the flora):</number_of_infrataxa>
+  <general_distribution>North America</general_distribution>
+  <general_distribution>Eurasia</general_distribution>
+  <general_distribution>North Africa</general_distribution>
+  <general_distribution>some species widespread weeds in the southern hemisphere.</general_distribution>
+  <discussion>Matricaria has been confused with Tripleurospermum (see discussion under the latter). Typification of Matricaria was discussed by K. Bremer and C. J. Humphries (1993), who rejected the arguments of S. Rauschert (1974) in favor of the use of Chamomilla over Matricaria.</discussion>
+  <key>1.Heads radiate (ray corollas white); disc corollas yellow to greenish yellow, lobes 5; cypselae 0.75–0.9 mm; pappi usually 0, sometimes coroniform (entire or lobed) or (on ray cypselae) each a toothed auricle3. Matricaria chamomilla</key>
+  <key>1.Heads discoid; disc corollas greenish yellow, lobes 4(–5); cypselae 1–1.5 mm (ribs, at least 2 lateral, each with longitudinal mucilage gland); pappi coroniform, entire or lobed.</key>
+  <key>2.Heads (1–)4–50(–300); discs 4–7(–11) × 4–7.5(–10) mm; cypselae: 2 lateral ribs each with mucilage gland along ± entire length; pappi coroniform, entire; plants aromatic (pineapple odor when bruised); stems 1–10+, usually erect or ascending, sometimes decumbent, branched from bases1. Matricaria discoidea</key>
+  <key>2.Heads 1–15+; discs 5–12.5 × 6–14 mm; cypselae: 2 lateral ribs each with mucilage gland in distal 1/2 (glands expanding into lobes); pappi coroniform, lobed (lobes 2, abaxio-lateral); plants not notably aromatic; stems usually erect, sometimes ascending, simple or branched mostly distally, sometimes proximally (then ascending)2. Matricaria occidentalis</key>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

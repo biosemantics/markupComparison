@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>4.</number>
+  <species_name>Lactuca graminifolia</species_name>
+  <authority>Michaux</authority>
+  <place_of_publication>Fl. Bor.-Amer. 2: 85. 1803</place_of_publication>
+  <description>
+    <statement id="351.txt-0">
+      <text>Biennials, 25–90(–150+) cm.</text>
+      <structure id="o6550" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="90" to="150" from_unit="cm" to_unit="cm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="25" from_unit="cm" to="90" to_unit="cm" />
+        <character name="life_style" value="biennial" />
+      </structure>
+    </statement>
+    <statement id="351.txt-2">
+      <text>blades of undivided cauline leaves spatulate to lance-linear, margins entire or denticulate, midribs sometimes setose.</text>
+      <structure id="o6551" name="blade">
+        <character char_type="range_value" name="shape" from="spatulate" to="lance-linear" />
+        <character name="shape" value="spatulate" />
+        <character name="shape" value="lance-linear" />
+      </structure>
+      <structure id="o6552" name="leaf" constraint="undivided cauline" />
+      <relation id="r815" name="part_of" from="o6551" to="o6552" negation="false" />
+      <structure id="o6553" name="margin">
+        <character name="shape" value="entire" />
+        <character name="shape" value="denticulate" />
+      </structure>
+      <structure id="o6554" name="midrib">
+        <character name="pubescence" value="setose" modifier="sometimes" />
+      </structure>
+    </statement>
+    <statement id="351.txt-3">
+      <text>Heads in ± paniculiform arrays.</text>
+      <structure id="o6555" name="head" />
+      <structure id="o6556" name="array">
+        <character name="architecture" value="paniculiform" modifier="±" />
+      </structure>
+      <relation id="r816" name="in" from="o6555" to="o6556" negation="false" />
+    </statement>
+    <statement id="351.txt-4">
+      <text>Involucres 12–20+ mm.</text>
+      <structure id="o6557" name="involucre">
+        <character char_type="range_value" name="size" from="12" from_unit="mm" to="20" to_unit="mm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="351.txt-5">
+      <text>Phyllaries usually reflexed in fruit.</text>
+      <structure id="o6558" name="phyllary">
+        <character name="orientation" value="reflexed" modifier="usually" constraint="in fruit" constraintid="o6559" />
+      </structure>
+      <structure id="o6559" name="fruit" />
+    </statement>
+    <statement id="351.txt-6">
+      <text>Florets 15–20+;</text>
+      <structure id="o6560" name="floret">
+        <character char_type="range_value" name="count" from="15" to="20" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="351.txt-7">
+      <text>corollas bluish to purplish, usually deliquescent.</text>
+      <structure id="o6561" name="corolla">
+        <character char_type="range_value" name="coloration" from="bluish" to="purplish" />
+        <character name="coloration" value="bluish" />
+        <character name="coloration" value="purplish" />
+        <character name="architecture_or_texture" value="deliquescent" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="351.txt-8">
+      <text>Cypsela e:</text>
+      <structure id="o6562" name="cypsela" />
+    </statement>
+    <statement id="351.txt-9">
+      <text>bodies brown (often mottled), ± flattened, elliptic, 5–6 mm, beaks ± filiform, 2–4 mm, faces 1(–3)-nerved;</text>
+      <structure id="o6563" name="body">
+        <character name="coloration" value="brown" />
+        <character name="shape" value="flattened" modifier="±" />
+        <character name="arrangement_or_shape" value="elliptic" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+      <structure id="o6564" name="beak">
+        <character name="shape" value="filiform" modifier="±" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+      <structure id="o6565" name="face">
+        <character name="architecture" value="1(-3)-nerved" />
+      </structure>
+    </statement>
+    <statement id="351.txt-10">
+      <text>pappi white, 5–9 mm.</text>
+      <structure id="o6566" name="pappus">
+        <character name="coloration" value="white" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="9" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="351.txt-11">
+      <text>2 n = 34.</text>
+      <structure id="o6567" name="chromosome">
+        <character name="count" value="34" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>feb</flowering_time>
+  <flowering_time>winter</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>sandy ridges</habitat>
+  <habitat>pine forests</habitat>
+  <habitat>canyons</habitat>
+  <elevation>10–1700 m;</elevation>
+  <us_distribution>Ala.</us_distribution>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Fla.</us_distribution>
+  <us_distribution>Ga.</us_distribution>
+  <us_distribution>La.</us_distribution>
+  <us_distribution>Miss.</us_distribution>
+  <us_distribution>N.J.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>N.C.</us_distribution>
+  <us_distribution>S.C.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <global_distribution>Mexico (Chihuahua)</global_distribution>
+  <global_distribution>Central America.</global_distribution>
+  <discussion>Plants in the western populations of Lactuca graminifolia have been called L. graminifolia var. arizonica McVaugh; they may belong to a Mexican species.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

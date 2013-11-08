@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>3a.</number>
+  <subspecies_name>Crepis bakeri Greene subsp. bakeri</subspecies_name>
+  <common_name>Baker’s hawksbeard</common_name>
+  <description>
+    <statement id="278.txt-0">
+      <text>Plants 10–30 cm .</text>
+      <structure id="o4889" name="whole_organism">
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="30" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="278.txt-1">
+      <text>Leaves 8–12 × 3–4 cm, deeply lobed, lobes lanceolate to elliptic, faces canescent-tomentulose.</text>
+      <structure id="o4890" name="leaf">
+        <character char_type="range_value" name="length" from="8" from_unit="cm" to="12" to_unit="cm" />
+        <character char_type="range_value" name="width" from="3" from_unit="cm" to="4" to_unit="cm" />
+        <character name="shape" value="lobed" modifier="deeply" />
+      </structure>
+      <structure id="o4891" name="lobe">
+        <character char_type="range_value" name="shape" from="lanceolate" to="elliptic" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="elliptic" />
+      </structure>
+      <structure id="o4892" name="face">
+        <character name="pubescence" value="canescent-tomentulose" />
+      </structure>
+    </statement>
+    <statement id="278.txt-2">
+      <text>Heads 2–13.</text>
+      <structure id="o4893" name="head">
+        <character char_type="range_value" name="count" from="2" to="13" />
+      </structure>
+    </statement>
+    <statement id="278.txt-3">
+      <text>Calyculi:</text>
+      <structure id="o4894" name="calyculus" />
+    </statement>
+    <statement id="278.txt-4">
+      <text>bractlets lanceolate (longest ± 1 / 2 phyllaries).</text>
+      <structure id="o4895" name="bractlet">
+        <character name="shape" value="lanceolate" />
+      </structure>
+    </statement>
+    <statement id="278.txt-5">
+      <text>Involucres broadly cylindric, 16–20 mm in fruit.</text>
+      <structure id="o4896" name="involucre">
+        <character name="shape" value="cylindric" modifier="broadly" />
+        <character char_type="range_value" name="size" from="16" from_unit="mm" to="20" to_unit="mm" constraint="in fruit" constraintid="o4897" />
+      </structure>
+      <structure id="o4897" name="fruit" />
+    </statement>
+    <statement id="278.txt-6">
+      <text>Cypselae dark brown, 8–10.5 mm, apices slightly tapered;</text>
+      <structure id="o4898" name="cypsela">
+        <character name="coloration" value="brown" modifier="dark" />
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="10.5" to_unit="mm" />
+      </structure>
+      <structure id="o4899" name="apex">
+        <character name="shape" value="tapered" modifier="slightly" />
+      </structure>
+    </statement>
+    <statement id="278.txt-7">
+      <text>pappi 9–10.5 mm.</text>
+      <structure id="o4900" name="pappus">
+        <character char_type="range_value" name="size" from="9" from_unit="mm" to="10.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="278.txt-8">
+      <text>2 n = 44.</text>
+      <structure id="o4901" name="chromosome">
+        <character name="count" value="44" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>may</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <habitat>dry open slopes</habitat>
+  <elevation>500–1900 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

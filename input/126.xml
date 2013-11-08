@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>43b.</number>
+  <variety_name>Cirsium arizonicum (A. Gray) Petrak var. rothrockii</variety_name>
+  <authority>(A. Gray) D. J. Keil</authority>
+  <place_of_publication>Sida 21: 210. 2004</place_of_publication>
+  <common_name>Rothrock’s thistle</common_name>
+  <synonym_of_variety_name>Cnicus rothrockii A. Gray, Proc. Amer. Acad. Arts 17: 220. 1882; Cirsium rothrockii (A. Gray) Petrak</synonym_of_variety_name>
+  <description>
+    <statement id="126.txt-0">
+      <text>Stems glabrous.</text>
+      <structure id="o641" name="stem">
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="126.txt-1">
+      <text>Leaf blades ± deeply divided or the distal unlobed and merely spiny-dentate, faces glabrous or the basal abaxially sometimes thinly tomentose, rarely with septate trichomes abaxially along the midveins;</text>
+      <structure id="o642" name="blade" constraint="leaf">
+        <character name="shape" value="divided" modifier="± deeply" />
+        <character name="insertion_or_position" value="distal" />
+        <character name="shape" value="unlobed" />
+        <character name="shape" value="spiny-dentate" modifier="merely" />
+      </structure>
+      <structure id="o643" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="insertion_or_position" value="basal" modifier="abaxially sometimes thinly" />
+        <character name="pubescence" value="tomentose" />
+      </structure>
+      <structure id="o644" name="trichome">
+        <character name="architecture" value="septate" />
+      </structure>
+      <relation id="r123" name="with" from="o643" to="o644" negation="false" modifier="rarely" />
+      <structure id="o645" name="midvein" />
+      <relation id="r124" name="along" from="o644" to="o645" negation="false" modifier="abaxially" />
+    </statement>
+    <statement id="126.txt-2">
+      <text>main marginal spines often stout, 5–15 mm;</text>
+      <structure id="o646" name="spine" constraint="main marginal">
+        <character name="fragility" value="stout" modifier="often" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="15" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="126.txt-3">
+      <text>cauline bases usually narrowed, not decurrent.</text>
+      <structure id="o647" name="base" constraint="cauline">
+        <character name="size" value="narrowed" modifier="usually" />
+        <character name="shape" value="decurrent" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="126.txt-4">
+      <text>Involucres cylindric to narrowly ovoid.</text>
+      <structure id="o648" name="involucre">
+        <character char_type="range_value" name="shape" from="cylindric" to="narrowly ovoid" />
+        <character name="shape" value="cylindric" />
+        <character name="shape" value="ovoid" modifier="narrowly" />
+      </structure>
+    </statement>
+    <statement id="126.txt-5">
+      <text>Phyllary spines slender to very stout, 5–30 mm.</text>
+      <structure id="o649" name="spine" constraint="phyllary">
+        <character name="size" value="slender" />
+        <character name="fragility" value="stout" modifier="very" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="30" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="126.txt-6">
+      <text>Corollas bright red, 28–32 mm, tubes 10–12, throats 1.5–3 mm, lobes 15–17 mm;</text>
+      <structure id="o650" name="corolla">
+        <character name="coloration" value="red" modifier="bright" />
+        <character char_type="range_value" name="size" from="28" from_unit="mm" to="32" to_unit="mm" />
+      </structure>
+      <structure id="o651" name="tube">
+        <character char_type="range_value" name="count" from="10" to="12" />
+      </structure>
+      <structure id="o652" name="throat">
+        <character char_type="range_value" name="size" from="1.5" from_unit="mm" to="3" to_unit="mm" />
+      </structure>
+      <structure id="o653" name="lobe">
+        <character char_type="range_value" name="size" from="15" from_unit="mm" to="17" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="126.txt-7">
+      <text>style tips 1–2.5 mm.</text>
+      <structure id="o654" name="tip" constraint="style">
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="2.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="126.txt-8">
+      <text>2 n = 30 (as C. rothrockii ).</text>
+      <structure id="o655" name="chromosome">
+        <character name="count" value="30" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>nov</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <habitat>rocky slopes</habitat>
+  <habitat>embankments</habitat>
+  <habitat>pine-oak-juniper-cypress woodlands</habitat>
+  <habitat>montane coniferous forests</habitat>
+  <elevation>1500–2800 m;</elevation>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <discussion>Variety rothrockii is endemic to Chiricahua, Dos Cabseos, Huachuca, Peloncillo, Pinal, Pinaleno, Sierra Ancha, and White mountains of southeastern Arizona and adjacent New Mexico, where it largely replaces var. arizonicum. The name Cirsium rothrockii has been misapplied to similarly glabrous plants of the Four Corners region (e.g., S. L. Welsh 1983), but those plants are assigned here to other varieties.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

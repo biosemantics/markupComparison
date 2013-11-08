@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>6.</number>
+  <species_name>Krigia wrightii</species_name>
+  <authority>(A. Gray) K. L. Chambers ex K. J. Kim</authority>
+  <place_of_publication>Brittonia 44: 195. 1992</place_of_publication>
+  <common_name>Wright’s dwarfdandelion</common_name>
+  <synonym_of_species_name>Apogon wrightii A. Gray in A. Gray et al., Syn. Fl. N. Amer. 1(2): 411. 1884</synonym_of_species_name>
+  <description>
+    <statement id="583.txt-0">
+      <text>Annuals, 4–25 cm ;</text>
+    </statement>
+    <statement id="583.txt-1">
+      <text>taprooted .</text>
+      <structure id="o12091" name="whole_organism">
+        <character char_type="range_value" name="size" from="4" from_unit="cm" to="25" to_unit="cm" />
+        <character name="life_style" value="annual" />
+        <character name="architecture" value="taprooted" />
+      </structure>
+    </statement>
+    <statement id="583.txt-2">
+      <text>Stems erect, branching proximally and distally, leafy, eglandular or stipitate-glandular, especially distally.</text>
+      <structure id="o12092" name="stem">
+        <character name="orientation" value="erect" />
+        <character name="architecture" value="branching" modifier="proximally" />
+        <character name="architecture" value="leafy" />
+        <character name="architecture" value="eglandular" />
+        <character name="architecture" value="stipitate-glandular" />
+      </structure>
+    </statement>
+    <statement id="583.txt-3">
+      <text>Leaves basal (rosettes) and cauline;</text>
+      <structure id="o12093" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+      </structure>
+    </statement>
+    <statement id="583.txt-4">
+      <text>blades broadly to narrowly oblanceolate, 1–10 cm, margins entire or remotely dentate or lobed, lobes acute or rounded, apices acute to obtuse , faces eglandular or lightly glandular-villous.</text>
+      <structure id="o12094" name="blade">
+        <character name="shape" value="oblanceolate" modifier="broadly narrowly" />
+        <character char_type="range_value" name="size" from="1" from_unit="cm" to="10" to_unit="cm" />
+      </structure>
+      <structure id="o12095" name="margin">
+        <character name="shape" value="entire" />
+        <character name="shape" value="dentate" modifier="remotely" />
+        <character name="shape" value="lobed" modifier="remotely" />
+      </structure>
+      <structure id="o12096" name="lobe">
+        <character name="shape" value="acute" />
+        <character name="shape" value="rounded" />
+      </structure>
+      <structure id="o12097" name="apex">
+        <character char_type="range_value" name="shape" from="acute" to="obtuse" />
+        <character name="shape" value="acute" />
+        <character name="shape" value="obtuse" />
+      </structure>
+      <structure id="o12098" name="face">
+        <character name="architecture" value="eglandular" />
+        <character name="pubescence" value="glandular-villous" modifier="lightly" />
+      </structure>
+    </statement>
+    <statement id="583.txt-5">
+      <text>Heads borne singly.</text>
+      <structure id="o12099" name="head">
+        <character name="arrangement" value="singly" />
+      </structure>
+    </statement>
+    <statement id="583.txt-6">
+      <text>Peduncles from branching, leafy stems.</text>
+      <structure id="o12100" name="peduncle" />
+      <structure id="o12101" name="stem">
+        <character name="architecture" value="branching" />
+        <character name="architecture" value="leafy" />
+      </structure>
+      <relation id="r1409" name="from" from="o12100" to="o12101" negation="false" />
+    </statement>
+    <statement id="583.txt-7">
+      <text>Involucres 3.5–5.5 mm.</text>
+      <structure id="o12102" name="involucre">
+        <character char_type="range_value" name="size" from="3.5" from_unit="mm" to="5.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="583.txt-8">
+      <text>Phyllaries 5–9, erect in fruit, narrowly to broadly lanceolate, midveins becoming prominent in fruit, curving inward at bases to form keels, apices acute.</text>
+      <structure id="o12103" name="phyllary">
+        <character char_type="range_value" name="count" from="5" to="9" />
+        <character name="orientation" value="erect" constraint="in fruit" constraintid="o12104" />
+        <character name="shape" value="lanceolate" modifier="narrowly broadly" />
+      </structure>
+      <structure id="o12104" name="fruit" />
+      <structure id="o12105" name="midvein">
+        <character name="prominence" value="prominent" modifier="becoming" constraint="in fruit" constraintid="o12106" />
+        <character name="shape" value="curving" />
+        <character name="orientation" value="inward" constraint="at bases" constraintid="o12107" />
+      </structure>
+      <structure id="o12106" name="fruit" />
+      <structure id="o12107" name="base" />
+      <structure id="o12108" name="keel">
+        <character name="shape" value="lanceolate" modifier="broadly" />
+      </structure>
+      <relation id="r1410" name="to" from="o12107" to="o12108" negation="false" />
+      <structure id="o12109" name="apex">
+        <character name="shape" value="acute" />
+      </structure>
+    </statement>
+    <statement id="583.txt-9">
+      <text>Florets 5–25;</text>
+      <structure id="o12110" name="floret">
+        <character char_type="range_value" name="count" from="5" to="25" />
+      </structure>
+    </statement>
+    <statement id="583.txt-10">
+      <text>corollas yellow, 4–7 mm.</text>
+      <structure id="o12111" name="corolla">
+        <character name="coloration" value="yellow" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="583.txt-11">
+      <text>Cypselae reddish brown, broadly columnar or barrel-shaped, 1.3–1.6 mm (apices slightly constricted, apical areas broader than basal areoles), 15-ribbed;</text>
+      <structure id="o12112" name="cypsela">
+        <character name="coloration" value="brown" modifier="reddish" />
+        <character name="shape" value="columnar" modifier="broadly" />
+        <character name="shape" value="barrel-shaped" modifier="broadly" />
+        <character char_type="range_value" name="size" from="1.3" from_unit="mm" to="1.6" to_unit="mm" />
+        <character name="architecture_or_shape" value="15-ribbed" />
+      </structure>
+    </statement>
+    <statement id="583.txt-12">
+      <text>pappi 0, or coroniform (minute scales, rarely with 1–5 tiny bristles).</text>
+      <structure id="o12113" name="pappus">
+        <character name="count" value="0" />
+        <character name="shape" value="coroniform" />
+      </structure>
+    </statement>
+    <statement id="583.txt-13">
+      <text>2 n = 18.</text>
+      <structure id="o12114" name="chromosome">
+        <character name="count" value="18" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <habitat>sandy, clay</habitat>
+  <habitat>loam, and rocky soils</habitat>
+  <habitat>fields</habitat>
+  <habitat>pastures</habitat>
+  <habitat>prairies</habitat>
+  <habitat>hillsides</habitat>
+  <habitat>and open oak-hickory and pine woods</habitat>
+  <habitat>sometimes in disturbed areas</habitat>
+  <elevation>10–300 m;</elevation>
+  <us_distribution>Ark.</us_distribution>
+  <us_distribution>La.</us_distribution>
+  <us_distribution>Okla.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <discussion>Krigia wrightii grows in the Eastern deciduous forest biome, southeastern Coastal Plain, tallgrass prairie, and mixedgrass prairie. It was confused with K. cespitosa by L. H. Shinners (1947); its cypselae, involucres, and chromosome number set it apart. It often grows sympatrically with K. occidentalis or K. cespitosa, and mixed collections may occur.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

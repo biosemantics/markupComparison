@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>37b.</number>
+  <subspecies_name>Artemisia ludoviciana Nuttall subsp. albula</subspecies_name>
+  <authority>(Wooton) D. D. Keck</authority>
+  <place_of_publication>Proc. Calif. Acad. Sci., ser. 4, 25: 446. 1946</place_of_publication>
+  <common_name>White wormwood</common_name>
+  <synonym_of_subspecies_name>Artemisia albula Wooton, Contr. U.S. Natl. Herb. 16: 193. 1913, based on A. microcephala Wooton, Bull. Torrey Bot. Club 25: 455. 1898, not Hillebrand 1888</synonym_of_subspecies_name>
+  <description>
+    <statement id="910.txt-0">
+      <text>Stems 30–80 cm, widely branched, tomentose or glabrous.</text>
+      <structure id="o18804" name="stem">
+        <character char_type="range_value" name="size" from="30" from_unit="cm" to="80" to_unit="cm" />
+        <character name="architecture_or_shape" value="branched" modifier="widely" />
+        <character name="pubescence" value="tomentose" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="910.txt-1">
+      <text>Leaves uniformly whitish green;</text>
+      <structure id="o18805" name="leaf">
+        <character name="coloration" value="green" modifier="uniformly;whitish" />
+      </structure>
+    </statement>
+    <statement id="910.txt-2">
+      <text>blades lance-linear (and entire), or obovate to elliptic (with antrorse teeth or lobes to 1 / 3 blade lengths, usually 1–2 cm, margins revolute), faces ± tomentose.</text>
+      <structure id="o18806" name="blade">
+        <character char_type="range_value" name="shape" from="obovate" to="elliptic" />
+        <character name="shape" value="lance-linear" />
+        <character name="shape" value="obovate" />
+        <character name="shape" value="elliptic" />
+      </structure>
+      <structure id="o18807" name="face">
+        <character name="pubescence" value="tomentose" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="910.txt-3">
+      <text>Heads in open, paniculiform arrays (9–)15–40 × (4–)8–30 cm.</text>
+      <structure id="o18808" name="head" />
+      <structure id="o18809" name="array">
+        <character name="architecture" value="open" />
+        <character name="architecture" value="paniculiform" />
+        <character char_type="range_value" name="atypical_length" from="9" to="15" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="length" from="15" from_unit="cm" to="40" to_unit="cm" />
+        <character char_type="range_value" name="atypical_width" from="4" to="8" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="width" from="8" from_unit="cm" to="30" to_unit="cm" />
+      </structure>
+      <relation id="r1992" name="in" from="o18808" to="o18809" negation="false" />
+    </statement>
+    <statement id="910.txt-4">
+      <text>Involucres 1–2 × 2–3 mm.</text>
+      <structure id="o18810" name="involucre">
+        <character char_type="range_value" name="length" from="1" from_unit="mm" to="2" to_unit="mm" />
+        <character char_type="range_value" name="width" from="2" from_unit="mm" to="3" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="910.txt-5">
+      <text>Florets:</text>
+      <structure id="o18811" name="floret" />
+    </statement>
+    <statement id="910.txt-6">
+      <text>pistillate 8–11;</text>
+      <structure id="o18812" name="floret" constraint="pistillate">
+        <character char_type="range_value" name="count" from="8" to="11" />
+      </structure>
+    </statement>
+    <statement id="910.txt-7">
+      <text>bisexual 8–13;</text>
+      <structure id="o18813" name="floret" constraint="bisexual">
+        <character char_type="range_value" name="count" from="8" to="13" />
+      </structure>
+    </statement>
+    <statement id="910.txt-8">
+      <text>corollas 1–1.5 mm.</text>
+      <structure id="o18814" name="corolla">
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="1.5" to_unit="mm" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <flowering_time>nov</flowering_time>
+  <habitat>desert drainages</habitat>
+  <habitat>sandy soils</habitat>
+  <elevation>1500–2000 m;</elevation>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <global_distribution>Mexico.</global_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>3.</number>
+  <species_name>Pluchea carolinensis</species_name>
+  <authority>(Jacquin) G. Don</authority>
+  <place_of_publication>in R. Sweet, Hort Brit. ed. 3, 350. 1839</place_of_publication>
+  <common_name>Cure-for-all, cough bush, wild tobacco, sourbush</common_name>
+  <synonym_of_species_name>Conyza carolinensis Jacquin, Collectanea 2: 271. 1789</synonym_of_species_name>
+  <description>
+    <statement id="806.txt-0">
+      <text>Subshrubs, 100–400 cm;</text>
+    </statement>
+    <statement id="806.txt-1">
+      <text>tap-rooted.</text>
+      <structure id="o17039" name="whole_organism">
+        <character char_type="range_value" name="size" from="100" from_unit="cm" to="400" to_unit="cm" />
+        <character name="life_style" value="subshrub" />
+        <character name="architecture" value="tap-rooted" />
+      </structure>
+    </statement>
+    <statement id="806.txt-2">
+      <text>Stems matted-villous with viscid, vitreous hairs, proximally glabrescent, not evidently glandu-lar.</text>
+      <structure id="o17040" name="stem">
+        <character name="pubescence" value="matted-villous" constraint="with hairs" constraintid="o17041" />
+        <character name="pubescence" value="glabrescent" modifier="proximally" />
+        <character name="architecture_or_exudation_or_pubescence" value="glandular" modifier="not evidently" />
+      </structure>
+      <structure id="o17041" name="hair">
+        <character name="coating_or_texture" value="viscid" />
+        <character name="coating" value="vitreous" />
+      </structure>
+    </statement>
+    <statement id="806.txt-3">
+      <text>Leaves petiolate (petioles 10–40 mm);</text>
+      <structure id="o17042" name="leaf">
+        <character name="architecture" value="petiolate" />
+      </structure>
+    </statement>
+    <statement id="806.txt-4">
+      <text>blades (thickish, strongly bicolor) elliptic to oblong-obovate or ovate, 5–16(–20) × 2–6(–8) cm, margins entire or denticulate (teeth callous-tipped), abaxial faces moderately or sparsely matted-villous to crinkly-puberulent, adaxial (green) glabrate.</text>
+      <structure id="o17043" name="blade">
+        <character char_type="range_value" name="shape" from="elliptic" to="oblong-obovate or ovate" />
+        <character name="shape" value="elliptic" />
+        <character name="shape" value="oblong-obovate" />
+        <character name="shape" value="ovate" />
+        <character char_type="range_value" name="atypical_length" from="16" to="20" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="5" from_unit="cm" to="16" to_unit="cm" />
+        <character char_type="range_value" name="atypical_width" from="6" to="8" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="width" from="2" from_unit="cm" to="6" to_unit="cm" />
+      </structure>
+      <structure id="o17044" name="margin">
+        <character name="shape" value="entire" />
+        <character name="shape" value="denticulate" />
+      </structure>
+      <structure id="o17045" name="face" constraint="abaxial">
+        <character char_type="range_value" name="pubescence" from="moderately sparsely matted-villous" to="crinkly-puberulent" />
+        <character name="pubescence" value="matted-villous" modifier="moderately sparsely" />
+        <character name="pubescence" value="crinkly-puberulent" modifier="moderately sparsely" />
+        <character name="insertion_or_position" value="adaxial" />
+        <character name="pubescence" value="glabrate" />
+      </structure>
+    </statement>
+    <statement id="806.txt-5">
+      <text>Heads in dense, corymbiform arrays (held beyond the leaves, axes minutely bracteate, bracts abruptly differentiated from cauline leaves).</text>
+      <structure id="o17046" name="head" />
+      <structure id="o17047" name="array">
+        <character name="texture" value="dense" />
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <relation id="r1837" name="in" from="o17046" to="o17047" negation="false" />
+    </statement>
+    <statement id="806.txt-6">
+      <text>Involucres broadly campanulate to cupulate, 4.5–6 × 5–10 mm.</text>
+      <structure id="o17048" name="involucre">
+        <character char_type="range_value" name="shape" from="broadly campanulate" to="cupulate" />
+        <character name="shape" value="campanulate" modifier="broadly" />
+        <character name="shape" value="cupulate" modifier="broadly" />
+        <character char_type="range_value" name="length" from="4.5" from_unit="mm" to="6" to_unit="mm" />
+        <character char_type="range_value" name="width" from="5" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="806.txt-7">
+      <text>Phyllaries greenish to creamy or tan, sometimes slightly purple, glandular-tomentose.</text>
+      <structure id="o17049" name="phyllary">
+        <character name="coloration" value="greenish" />
+        <character name="coloration" value="creamy" />
+        <character name="coloration" value="tan" />
+        <character name="coloration" value="purple" modifier="sometimes slightly" />
+        <character name="pubescence" value="glandular-tomentose" />
+      </structure>
+    </statement>
+    <statement id="806.txt-8">
+      <text>Corollas whitish to pink-lavender.</text>
+      <structure id="o17050" name="corolla">
+        <character char_type="range_value" name="coloration" from="whitish" to="pink-lavender" />
+        <character name="coloration" value="whitish" />
+        <character name="coloration" value="lavender" modifier="pink" />
+      </structure>
+    </statement>
+    <statement id="806.txt-9">
+      <text>Pappi tardily falling, bristles distinct.</text>
+      <structure id="o17051" name="pappus">
+        <character name="orientation" value="falling" modifier="tardily" />
+      </structure>
+      <structure id="o17052" name="bristle">
+        <character name="fusion" value="distinct" />
+      </structure>
+    </statement>
+    <statement id="806.txt-10">
+      <text>2 n = 20.</text>
+      <structure id="o17053" name="chromosome">
+        <character name="count" value="20" />
+      </structure>
+    </statement>
+  </description>
+  <habitat>late feb–jun. roadsides</habitat>
+  <habitat>borders of hammocks</habitat>
+  <elevation>0 m;</elevation>
+  <us_distribution>introduced</us_distribution>
+  <us_distribution>Fla.</us_distribution>
+  <global_distribution>Mexico</global_distribution>
+  <global_distribution>West Indies</global_distribution>
+  <global_distribution>Bermuda</global_distribution>
+  <global_distribution>Central America</global_distribution>
+  <global_distribution>South America</global_distribution>
+  <global_distribution>introduced in Pacific Islands.</global_distribution>
+  <discussion>Pluchea carolinensis is naturalized in the Hawaiian Islands and other Pacific Islands.</discussion>
+  <discussion>The names Pluchea odorata of authors, not (Linnaeus) Cassini, and P. symphytifolia of authors, not Conyza symphytifolia Miller in the sense of W. T. Gillis (1977), have been used for plants here called Pluchea carolinensis. The taxon was long identified as P. odorata (R. K. Godfrey 1952) and was known as P. [Conyza] symphytifolia (Miller) Gillis for a while. Conyza symphytifolia Miller is a synonym of Neurolaena lobata (Linnaeus) Cassini (R. Khan and C. E. Jarvis 1989).</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

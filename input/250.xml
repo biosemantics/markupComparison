@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>33.</number>
+  <genus_name>VERNONIA</genus_name>
+  <authority>Vernonia Schreber</authority>
+  <place_of_publication>Gen. Pl. 2: 541. 1791</place_of_publication>
+  <conserved>name conserved ·</conserved>
+  <common_name>Ironweed</common_name>
+  <derivation>For William Vernon, d. 1711, English botanist</derivation>
+  <author_of_tribe_genus>John L. Strother</author_of_tribe_genus>
+  <description>
+    <statement id="250.txt-0">
+      <text>Perennials , 2–20(–30+) dm (rhizomatous or not).</text>
+      <structure id="o4267" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="20" to="30" from_unit="dm" to_unit="dm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="2" from_unit="dm" to="20" to_unit="dm" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="250.txt-1">
+      <text>Leaves usually mostly cauline (rarely mostly basal or basal and cauline);</text>
+    </statement>
+    <statement id="250.txt-2">
+      <text>sessile or petiolate;</text>
+      <structure id="o4268" name="leaf">
+        <character name="insertion_or_position" value="cauline" modifier="usually mostly" />
+        <character name="architecture" value="sessile" />
+        <character name="architecture" value="petiolate" />
+      </structure>
+    </statement>
+    <statement id="250.txt-3">
+      <text>blades ovate, elliptic, lanceolate, oblanceolate, spatulate, linear, or filiform, bases usually ± cuneate (rounded-truncate in V. pulchella ), margins usually toothed (rarely entire), apices acute to attenuate, abaxial faces usually ± scabrellous to strigillose or tomentose to pannose, sometimes glabrate or glabrous, usually resin-gland-dotted (sometimes ± pitted), adaxial faces ± scabrellous or glabrate, sometimes resin-gland-dotted (rarely pitted).</text>
+      <structure id="o4269" name="blade">
+        <character name="shape" value="ovate" />
+        <character name="shape" value="elliptic" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="spatulate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="filiform" />
+      </structure>
+      <structure id="o4270" name="base">
+        <character name="shape" value="cuneate" modifier="usually ±" />
+      </structure>
+      <structure id="o4271" name="margin">
+        <character name="shape" value="toothed" modifier="usually" />
+      </structure>
+      <structure id="o4272" name="apex">
+        <character char_type="range_value" name="shape" from="acute" to="attenuate" />
+        <character name="shape" value="acute" />
+        <character name="shape" value="attenuate" />
+      </structure>
+      <structure id="o4273" name="face" constraint="abaxial">
+        <character name="relief" value="scabrellous" modifier="usually ±" />
+        <character char_type="range_value" name="pubescence" from="tomentose" to="pannose , sometimes glabrate or glabrous" />
+        <character name="pubescence" value="strigillose" />
+        <character name="pubescence" value="tomentose" />
+        <character name="pubescence" value="pannose" />
+        <character name="pubescence" value="glabrate" modifier="sometimes" />
+        <character name="pubescence" value="glabrous" modifier="sometimes" />
+        <character name="coloration_or_relief" value="resin-gland-dotted" modifier="usually" />
+      </structure>
+      <structure id="o4274" name="face" constraint="adaxial">
+        <character name="relief" value="scabrellous" modifier="±" />
+        <character name="pubescence" value="glabrate" />
+        <character name="coloration_or_relief" value="resin-gland-dotted" modifier="sometimes" />
+      </structure>
+    </statement>
+    <statement id="250.txt-4">
+      <text>Heads discoid, ± pedunculate, not subtended by foliaceous bracts, (6–)40–100+ in ± corymbiform to paniculiform arrays (6–)10–25+ cm diam.</text>
+      <structure id="o4275" name="head">
+        <character name="shape_or_architecture" value="discoid" />
+        <character name="architecture" value="pedunculate" modifier="±" />
+        <character char_type="range_value" name="atypical_count" from="6" to="40" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="40" to="100" upper_restricted="false" constraint="in arrays" constraintid="o4277" />
+      </structure>
+      <structure id="o4276" name="bract">
+        <character name="architecture" value="foliaceous" />
+      </structure>
+      <relation id="r594" name="subtended by" from="o4275" to="o4276" negation="true" />
+      <structure id="o4277" name="array">
+        <character char_type="range_value" name="architecture" from="corymbiform" to="paniculiform" />
+        <character name="architecture" value="corymbiform" />
+        <character name="architecture" value="paniculiform" />
+        <character char_type="range_value" name="atypical_size" from="6" to="10" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="25" to_unit="cm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="250.txt-5">
+      <text>Involucres ± campanulate to obconic or hemispheric, 3–8(–11+) mm diam.</text>
+      <structure id="o4278" name="involucre">
+        <character char_type="range_value" name="shape" from="campanulate" to="obconic or hemispheric" modifier="±" />
+        <character name="shape" value="campanulate" modifier="±" />
+        <character name="shape" value="obconic" modifier="±" />
+        <character name="shape" value="hemispheric" modifier="±" />
+        <character char_type="range_value" name="atypical_size" from="8" to="11" from_unit="mm" to_unit="mm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="250.txt-6">
+      <text>Phyllaries 18–70+ in 4–7+ series, the outer ovate to lanceolate or subulate, inner ± lanceolate to oblong, all ± chartaceous, margins entire, often ciliolate, tips rounded (then sometimes apiculate), or acuminate, subulate, or filiform, faces glabrous or sparsely strigillose to tomentose, sometimes ± gland-dotted.</text>
+      <structure id="o4279" name="phyllary">
+        <character char_type="range_value" name="count" from="18" to="70" upper_restricted="false" constraint="in series" constraintid="o4280" />
+        <character char_type="range_value" name="shape" from="outer ovate" to="lanceolate or subulate" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="subulate" />
+        <character name="position" value="inner" modifier="±" />
+        <character char_type="range_value" name="shape" from="lanceolate" to="oblong" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="oblong" />
+        <character name="texture" value="chartaceous" modifier="±" />
+      </structure>
+      <structure id="o4280" name="series">
+        <character char_type="range_value" name="count" from="4" to="7" upper_restricted="false" />
+      </structure>
+      <structure id="o4281" name="margin">
+        <character name="shape" value="entire" />
+        <character name="pubescence" value="ciliolate" modifier="often" />
+      </structure>
+      <structure id="o4282" name="tip">
+        <character name="shape" value="rounded" />
+        <character name="shape" value="acuminate" />
+        <character name="shape" value="subulate" />
+        <character name="shape" value="filiform" />
+      </structure>
+      <structure id="o4283" name="face">
+        <character char_type="range_value" name="pubescence" from="sparsely strigillose" to="tomentose" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="strigillose" modifier="sparsely" />
+        <character name="pubescence" value="tomentose" modifier="sparsely" />
+        <character name="coloration_or_relief" value="gland-dotted" modifier="sometimes ±" />
+      </structure>
+    </statement>
+    <statement id="250.txt-7">
+      <text>Florets 9–30(–65+);</text>
+      <structure id="o4284" name="floret">
+        <character char_type="range_value" name="atypical_count" from="30" to="65" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="9" to="30" />
+      </structure>
+    </statement>
+    <statement id="250.txt-8">
+      <text>corollas usually purplish or pink (rarely white), tubes longer than funnelform throats, lobes 5, lance-linear, ± equal.</text>
+      <structure id="o4285" name="corolla">
+        <character name="coloration" value="purplish" modifier="usually" />
+        <character name="coloration" value="pink" modifier="usually" />
+      </structure>
+      <structure id="o4286" name="tube">
+        <character name="size" value="longer" constraint="than funnelform throats" constraintid="o4287" />
+      </structure>
+      <structure id="o4287" name="throat">
+        <character name="shape" value="funnelform" />
+      </structure>
+      <structure id="o4288" name="lobe">
+        <character name="count" value="5" />
+        <character name="arrangement_or_shape" value="lance-linear" />
+        <character name="size" value="equal" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="250.txt-9">
+      <text>Cypselae ± columnar, sometimes arcuate, 8–10-ribbed, glabrous or ± strigillose to hirtellous, often resin-gland-dotted;</text>
+      <structure id="o4289" name="cypsela">
+        <character name="shape" value="columnar" modifier="±" />
+        <character name="course_or_shape" value="arcuate" modifier="sometimes" />
+        <character name="architecture_or_shape" value="8-10-ribbed" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="strigillose to hirtellous" />
+        <character char_type="range_value" name="pubescence" from="strigillose" to="hirtellous" modifier="±" />
+        <character name="pubescence" value="strigillose" modifier="±" />
+        <character name="pubescence" value="hirtellous" modifier="±" />
+        <character name="coloration_or_relief" value="resin-gland-dotted" modifier="often" />
+      </structure>
+    </statement>
+    <statement id="250.txt-10">
+      <text>pappi persistent, of 20–30+ outer, erose to subulate scales or bristles plus 20–40+ inner, longer, subulate to setiform scales or bristles.</text>
+      <structure id="o4290" name="pappus">
+        <character name="duration" value="persistent" />
+        <character name="position" value="inner" />
+        <character name="size" value="longer" />
+      </structure>
+      <structure id="o4291" name="scale">
+        <character char_type="range_value" name="count" from="20" to="30" upper_restricted="false" />
+        <character name="position" value="outer" />
+        <character char_type="range_value" name="shape" from="erose" to="subulate" />
+        <character name="shape" value="erose" />
+        <character name="shape" value="subulate" />
+      </structure>
+      <relation id="r595" name="consist_of" from="o4290" to="o4291" negation="false" />
+      <structure id="o4292" name="bristle">
+        <character char_type="range_value" name="count" from="20" to="40" upper_restricted="false" />
+      </structure>
+      <structure id="o4293" name="scale">
+        <character char_type="range_value" name="shape" from="subulate" to="setiform" />
+        <character name="shape" value="subulate" />
+        <character name="shape" value="setiform" />
+      </structure>
+      <structure id="o4294" name="bristle" />
+    </statement>
+    <statement id="250.txt-11">
+      <text>x = 17.</text>
+      <structure id="o4295" name="chromosome">
+        <character name="count" value="17" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species 20 or so (17 in the flora):</number_of_infrataxa>
+  <general_distribution>mainly c</general_distribution>
+  <general_distribution>e North America</general_distribution>
+  <general_distribution>n Mexico</general_distribution>
+  <general_distribution>2–3 species in South America.</general_distribution>
+  <discussion>The circumscription of Vernonia adopted here follows that of H. Robinson (1999).</discussion>
+  <discussion>Vernonias hybridize; almost every one of the species recognized here has been noted as sometimes hybridizing with one or more others. Putative hybrid plants are usually intermediate between parentals in some traits; such plants may not “key” satisfactorily to any of the species treated here. Some putative hybrids have been named. Vernonia guadalupensis is “without much doubt a hybrid of V. baldwinii Torrey and V. lindheimeri Engelmann &amp; Gray” (L. H. Shinners 1950); V. vulturina Shinners (known only from the type collection) may be a product of V. baldwinii × V. marginata; V. ×georgiana Bartlett may refer to V. acaulis × V. angustifolia. Additional putative hybrids (S. B. Jones 1964) are V. ×concinna Gleason (V. ovalifolia × V. angustifolia), V. ×dissimilis Gleason (V. altissima × V. angustifolia), and V. ×recurva Gleason (V. pulchella × V. angustifolia).</discussion>
+  <discussion>In the key and descriptions, “l/w = ” refers to lengths divided by widths for blades of leaves; lengths of phyllaries include subulate to filiform tips (if any).</discussion>
+  <references>SELECTED REFERENCES Gleason, H. A. 1922b. Vernonia. In: N. L. Britton et al., eds. 1905+. North American Flora…. 47+ vols. New York. Vol. 33, pp. 52–95. Jones, S. B. 1964. Taxonomy of the narrow-leaved Vernonia of the southeastern United States. Rhodora 66: 382–401. Jones, S. B. and W. Z. Faust. 1978. Vernonia. In: N. L. Britton et al., eds. 1905+. North American Flora…. 47+ volumes. New York. Ser. 2, part 10, pp. 180–195. Shinners, L. H. 1950. Notes on Texas Compositae. IV. Field &amp; Lab. 18: 25–32.</references>
+  <key>1.Phyllary tips usually subulate to filiform, sometimes acuminate.</key>
+  <key>2.Leaves mostly basal (cauline leaves much smaller with narrower blades)1. Vernonia acaulis</key>
+  <key>2.Leaves mostly cauline (basal leaves wanting at flowering or ± like cauline).</key>
+  <key>3.Involucres 11–15 mm diam.; phyllaries (50–)60–70+; florets 50–100+2. Vernonia arkansana</key>
+  <key>3.Involucres 4–8(–10) mm diam.; phyllaries 22–46(–60+); florets 12–45(–65).</key>
+  <key>4.Involucres ± campanulate to obconic; florets 12–24(–30+).</key>
+  <key>5.Leaf blades (mid stem) lance-linear to filiform, 5–12 cm × 2–4(–8+) mm 3. Vernonia angustifolia</key>
+  <key>5.Leaf blades (mid stem) oblanceolate to lance-linear, 3–7 cm × (5–)10–20+ mm4. Vernonia pulchella</key>
+  <key>4.Involucres ± hemispheric; florets 30–45(–65).</key>
+  <key>6.Leaf blade l/w = 2.5–3.5(–4); pappi stramineous to whitish, outer bristles or subulate scales intergrading with inner ones5. Vernonia glauca</key>
+  <key>6.Leaf blade l/w = (3.3–)4–6+; pappi fuscous to purplish, outer scales contrasting with inner bristles6. Vernonia noveboracensis</key>
+  <key>1.Phyllary tips usually acute to rounded or rounded-apiculate, seldom acuminate.</key>
+  <key>7.Phyllaries densely sericeo-tomentose to pannose.</key>
+  <key>8.Leaf blades adaxially densely sericeo-tomentose; florets 40–50+7. Vernonia larsenii</key>
+  <key>8.Leaf blades adaxially usually glabrate, sometimes sparsely arachno-tomentose; florets 12–24+8. Vernonia lindheimeri</key>
+  <key>7.Phyllaries usually glabrous or puberulent to scabrellous (rarely sparsely arachno-tomentose).</key>
+  <key>[9. Shifted to left margin.—Ed.]</key>
+  <key>9.Leaf blades abaxially glabrate (and pitted; best seen at 10× or greater, pits containing awl-shaped hairs or glands 0.1–0.5+ mm).</key>
+  <key>10.Involucres obconic to hemispheric; cypselae 2–3 mm9. Vernonia texana</key>
+  <key>10.Involucres campanulate; cypselae 3–5 mm.</key>
+  <key>11.Leaf blades 1–3+ mm wide; florets 10–12+10. Vernonia lettermannii</key>
+  <key>11.Leaf blades (2.5–)5–20(–40) mm wide; florets (10–)15–25+.</key>
+  <key>12.Peduncles (3–)10–35 mm; involucres (7–)9–11 mm; phyllary tips ± acuminate; inner pappi 8–9+ mm11. Vernonia marginata</key>
+  <key>12.Peduncles 1–8(–12+) mm; involucres 5–7(–8+) mm; phyllary tips acute or rounded-apiculate; inner pappi 5–7+ mm12. Vernonia fasciculata</key>
+  <key>9.Leaf blades abaxially scabrellous, scaberulous, or puberulous to tomentose or pannose (not pitted).</key>
+  <key>13.Leaf blades 2–8+ mm wide13. Vernonia blodgettii</key>
+  <key>13.Leaf blades 15–40(–75+) mm wide.</key>
+  <key>14.Stems glabrous14. Vernonia flaccidifolia</key>
+  <key>14.Stems puberulent to tomentose (sometimes glabrescent).</key>
+  <key>15.Leaf blades abaxially usually scabrellous (with appressed, awl-shaped hairs), sometimes glabrescent, not or sparsely resin-gland-dotted15. Vernonia gigantea</key>
+  <key>15.Leaf blades abaxially usually puberulous to tomentose or pannose (with ± erect, ± curled hairs), seldom glabrescent, conspicuously resin-gland-dotted.</key>
+  <key>16.Involucres broadly campanulate to urceolate, (6–)7–10+ × 5–9+ mm; (phyllaries seldom resin-gland-dotted); florets 30–5516. Vernonia missurica</key>
+  <key>16.Involucres broadly campanulate to hemispheric, 4–6(–8+) × 4–7+ mm; (phyllaries often resin-gland-dotted); florets (15–)20–25(–35+)17. Vernonia baldwinii</key>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

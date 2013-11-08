@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>2.</number>
+  <species_name>Micropus californicus</species_name>
+  <authority>Fischer &amp; C. A. Meyer</authority>
+  <place_of_publication>Index Seminum (St. Petersburg) 2: 42. 1836</place_of_publication>
+  <common_name>Slender cottonseed , Q-tips</common_name>
+  <synonym_of_species_name>Bombycilaena californica (Fischer &amp; C. A. Meyer) Holub</synonym_of_species_name>
+  <description>
+    <statement id="755.txt-0">
+      <text>Plants 1–50 cm.</text>
+      <structure id="o15929" name="whole_organism">
+        <character char_type="range_value" name="size" from="1" from_unit="cm" to="50" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="755.txt-1">
+      <text>Heads depressed-spheric, 2–4 × 3–6 mm.</text>
+      <structure id="o15930" name="head">
+        <character name="shape" value="depressed-spheric" />
+        <character char_type="range_value" name="length" from="2" from_unit="mm" to="4" to_unit="mm" />
+        <character char_type="range_value" name="width" from="3" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="755.txt-2">
+      <text>Receptacles depressed-spheric, mostly 0.3–0.6 mm, heights 0.5–0.8 times diams.</text>
+      <structure id="o15931" name="receptacle">
+        <character name="shape" value="depressed-spheric" />
+        <character char_type="range_value" name="size" from="0.3" from_unit="mm" to="0.6" to_unit="mm" modifier="mostly" />
+      </structure>
+    </statement>
+    <statement id="755.txt-3">
+      <text>Pistillate paleae 4–7(–8) in 1 series, longest 2–4 mm;</text>
+      <structure id="o15932" name="palea" constraint="pistillate">
+        <character char_type="range_value" name="atypical_count" from="7" to="8" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="4" to="7" constraint="in series" constraintid="o15933" />
+        <character name="size" value="longest" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+      <structure id="o15933" name="series">
+        <character name="count" value="1" />
+      </structure>
+    </statement>
+    <statement id="755.txt-4">
+      <text>wings obscure, withering, lateral, ± erect, narrowly oblanceolate, involute;</text>
+      <structure id="o15934" name="wing">
+        <character name="manifestation" value="obscure" />
+        <character name="duration" value="withering" />
+        <character name="insertion_or_position" value="lateral" />
+        <character name="orientation" value="erect" modifier="±" />
+        <character name="shape" value="oblanceolate" modifier="narrowly" />
+        <character name="shape_or_vernation" value="involute" />
+      </structure>
+    </statement>
+    <statement id="755.txt-5">
+      <text>bodies galeate, cartilaginous to bony throughout, sericeous to lanuginose.</text>
+      <structure id="o15935" name="body">
+        <character name="shape" value="galeate" />
+        <character char_type="range_value" name="texture" from="cartilaginous" to="bony" />
+        <character name="texture" value="cartilaginous" />
+        <character name="texture" value="bony" />
+        <character char_type="range_value" name="pubescence" from="sericeous" to="lanuginose" />
+        <character name="pubescence" value="sericeous" />
+        <character name="pubescence" value="lanuginose" />
+      </structure>
+    </statement>
+    <statement id="755.txt-6">
+      <text>Staminate paleae 0.</text>
+      <structure id="o15936" name="palea" constraint="staminate">
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+    <statement id="755.txt-7">
+      <text>Staminate corollas 1–2 mm, lobes usually 5.</text>
+      <structure id="o15937" name="corolla" constraint="staminate">
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="2" to_unit="mm" />
+      </structure>
+      <structure id="o15938" name="lobe">
+        <character name="count" value="5" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="755.txt-8">
+      <text>Cypselae 1.4–2.6 mm, corolla scars ± median;</text>
+      <structure id="o15939" name="cypsela">
+        <character char_type="range_value" name="size" from="1.4" from_unit="mm" to="2.6" to_unit="mm" />
+      </structure>
+      <structure id="o15940" name="scar" constraint="corolla">
+        <character name="insertion_or_position" value="median" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="755.txt-9">
+      <text>pappi:</text>
+      <structure id="o15941" name="pappus" />
+    </statement>
+    <statement id="755.txt-10">
+      <text>staminate 0 or of 1, ± smooth bristle 0.9–1.5 mm.</text>
+      <structure id="o15942" name="pappus" constraint="staminate">
+        <character name="count" value="0" />
+        <character name="count" value="of 1 , moreorless smooth bristle" />
+      </structure>
+      <structure id="o15943" name="bristle">
+        <character name="count" value="1" />
+        <character name="architecture_or_relief" value="smooth" modifier="±" />
+        <character char_type="range_value" name="size" from="0.9" from_unit="mm" to="1.5" to_unit="mm" />
+      </structure>
+      <relation id="r1720" name="consist_of" from="o15942" to="o15943" negation="false" />
+    </statement>
+  </description>
+  <number_of_infrataxa>Varieties 2 (2 in the flora):</number_of_infrataxa>
+  <general_distribution>w United States</general_distribution>
+  <general_distribution>nw Mexico.</general_distribution>
+  <discussion>Though common and often found on recent disturbances within its range, Micropus californicus does not appear to be particularly invasive or weedy. The mature pistillate paleae, with roughly the profile of a harp or of an inverted lower-case letter “q,” are distinctive. That shape and the accompanying dense, cottony indument of the common variety explain the vernacular names. By contrast, pistillate paleae of M. amphibolus have roughly the profile of a human head wearing a billed cap.</discussion>
+  <discussion>Within the more limited range of var. subvestitus, the two varieties are broadly sympatric, usually in separate populations, occasionally in mixed populations that sometimes include intermediate plants.</discussion>
+  <couplet>1.Pistillate paleae densely and loosely lanuginose, longest usually 3–4 mm2a. Micropus californicus var. californicus</couplet>
+  <couplet>1.Pistillate paleae thinly sericeous-lanuginose, longest usually 2–3 mm2b. Micropus californicus var. subvestitus</couplet>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

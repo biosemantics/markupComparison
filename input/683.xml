@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>4.</number>
+  <species_name>Pseudognaphalium microcephalum</species_name>
+  <authority>(Nuttall) Anderberg</authority>
+  <place_of_publication>Opera Bot. 104: 147. 1991</place_of_publication>
+  <common_name>San Diego rabbit-tobacco</common_name>
+  <synonym_of_species_name>Gnaphalium microcephalum Nuttall, Trans. Amer. Philos. Soc., n. s. 7: 404. 1841; G. albidum I. M. Johnston; G. canescens de Candolle subsp. microcephalum (Nuttall) Stebbins &amp; D. J. Keil; Pseudognaphalium canescens (de Candolle) Anderberg subsp. microcephalum (Nuttall) Kartesz</synonym_of_species_name>
+  <description>
+    <statement id="683.txt-0">
+      <text>Perennials, (30–)50–100 cm;</text>
+    </statement>
+    <statement id="683.txt-1">
+      <text>taprooted.</text>
+      <structure id="o14264" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="30" to="50" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="50" from_unit="cm" to="100" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+        <character name="architecture" value="taprooted" />
+      </structure>
+    </statement>
+    <statement id="683.txt-2">
+      <text>Stems persistently grayish tomentose, not glandular, (3–5 mm diam. near bases).</text>
+      <structure id="o14265" name="stem">
+        <character name="coloration" value="grayish" modifier="persistently" />
+        <character name="pubescence" value="tomentose" />
+        <character name="architecture_or_exudation_or_pubescence" value="glandular" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="683.txt-3">
+      <text>Leaf blades narrowly oblanceolate, 2–5(–8) cm × 5–10(–18) mm (gradually smaller distally, becoming lanceolate), bases not clasping, not decurrent, margins flat, faces weakly bicolor, tomentose (adaxial less densely), not glandular.</text>
+      <structure id="o14266" name="blade" constraint="leaf">
+        <character name="shape" value="oblanceolate" modifier="narrowly" />
+        <character char_type="range_value" name="atypical_length" from="5" to="8" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="2" from_unit="cm" to="5" to_unit="cm" />
+        <character char_type="range_value" name="atypical_width" from="10" to="18" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="width" from="5" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+      <structure id="o14267" name="base">
+        <character name="architecture" value="clasping" modifier="not" />
+        <character name="shape" value="decurrent" modifier="not" />
+      </structure>
+      <structure id="o14268" name="margin">
+        <character name="shape" value="flat" />
+      </structure>
+      <structure id="o14269" name="face">
+        <character name="coloration" value="bicolor" modifier="weakly" />
+        <character name="pubescence" value="tomentose" />
+        <character name="architecture_or_exudation_or_pubescence" value="glandular" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="683.txt-4">
+      <text>Heads in loose, corymbiform arrays.</text>
+      <structure id="o14270" name="head" />
+      <structure id="o14271" name="array">
+        <character name="architecture_or_texture" value="loose" />
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <relation id="r1522" name="in" from="o14270" to="o14271" negation="false" />
+    </statement>
+    <statement id="683.txt-5">
+      <text>Involucres turbinate-campanulate, 5–6 mm.</text>
+      <structure id="o14272" name="involucre">
+        <character name="shape" value="turbinate-campanulate" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="683.txt-6">
+      <text>Phyllaries in 4–5 series, white (opaque, dull), ovate to oblong-ovate (inner narrower, all usually with filiform but definitely thickened keel and slight apiculum), tomentose (at least bases).</text>
+      <structure id="o14273" name="phyllary">
+        <character name="coloration" value="white" />
+        <character char_type="range_value" name="shape" from="ovate" to="oblong-ovate" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="oblong-ovate" />
+        <character name="pubescence" value="tomentose" />
+      </structure>
+      <structure id="o14274" name="series">
+        <character char_type="range_value" name="count" from="4" to="5" />
+      </structure>
+      <relation id="r1523" name="in" from="o14273" to="o14274" negation="false" />
+    </statement>
+    <statement id="683.txt-7">
+      <text>Pistillate florets 29–49.</text>
+      <structure id="o14275" name="floret" constraint="pistillate">
+        <character char_type="range_value" name="count" from="29" to="49" />
+      </structure>
+    </statement>
+    <statement id="683.txt-8">
+      <text>Bisexual florets 5–9.</text>
+      <structure id="o14276" name="floret" constraint="bisexual">
+        <character char_type="range_value" name="count" from="5" to="9" />
+      </structure>
+    </statement>
+    <statement id="683.txt-9">
+      <text>Cypselae ridged, smooth to weakly papillate-roughened.</text>
+      <structure id="o14277" name="cypsela">
+        <character name="shape" value="ridged" />
+        <character name="architecture_or_relief" value="smooth" />
+        <character name="texture" value="papillate-roughened" modifier="weakly" />
+      </structure>
+    </statement>
+    <statement id="683.txt-10">
+      <text>2 n = 28.</text>
+      <structure id="o14278" name="chromosome">
+        <character name="count" value="28" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>nov</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>grassy hillsides</habitat>
+  <habitat>gravelly canyon bottoms</habitat>
+  <habitat>chaparral</habitat>
+  <habitat>coastal sage scrub</habitat>
+  <elevation>50–900(–1800) m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <global_distribution>Mexico (Baja California).</global_distribution>
+  <discussion>Pseudognaphalium microcephalum is characterized by stems commonly stiffly erect and slightly zigzag distally, relatively thick (3–5 mm diam. near bases), and closely grayish tomentose, leaves oblanceolate, sessile, sometimes clasping, not decurrent, and weakly bicolor, and heads usually in open, corymbiform arrays.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

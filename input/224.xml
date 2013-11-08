@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>17.</number>
+  <species_name>Centaurea diluta</species_name>
+  <authority>Aiton</authority>
+  <place_of_publication>Hort. Kew. 3: 261. 1789</place_of_publication>
+  <common_name>North African knapweed</common_name>
+  <description>
+    <statement id="224.txt-0">
+      <text>Annuals or perennials , to 200 cm.</text>
+      <structure id="o3636" name="whole_organism">
+        <character char_type="range_value" name="size" to="200" to_unit="cm" />
+        <character name="life_style" value="annual" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="224.txt-1">
+      <text>Stems simple proximally, openly branched distally, glabrous or thinly hairy.</text>
+      <structure id="o3638" name="stem">
+        <character name="architecture" value="simple" modifier="proximally" />
+        <character name="architecture_or_shape" value="branched" modifier="openly ; distally" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="hairy" modifier="thinly" />
+      </structure>
+    </statement>
+    <statement id="224.txt-2">
+      <text>Leaves thinly pubescent, basal and proximal cauline petiolate, blades 10–15 cm, margins coarsely pinnately lobed;</text>
+      <structure id="o3639" name="leaf">
+        <character name="pubescence" value="pubescent" modifier="thinly" />
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="proximal cauline" />
+        <character name="architecture" value="petiolate" />
+      </structure>
+      <structure id="o3640" name="blade">
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="15" to_unit="cm" />
+      </structure>
+      <structure id="o3641" name="margin">
+        <character name="shape" value="lobed" modifier="coarsely pinnately" />
+      </structure>
+    </statement>
+    <statement id="224.txt-3">
+      <text>mid cauline sessile or short-petiolate, short-decurrent, blades obovate or narrowly oblong, 2–8 cm, entire to pinnately lobed;</text>
+      <structure id="o3642" name="leaf" constraint="mid cauline">
+        <character name="shape" value="short-decurrent" />
+      </structure>
+      <structure id="o3643" name="blade">
+        <character name="shape" value="obovate" />
+        <character name="shape" value="oblong" modifier="narrowly" />
+        <character char_type="range_value" name="size" from="2" from_unit="cm" to="8" to_unit="cm" />
+        <character char_type="range_value" name="shape" from="entire" to="pinnately lobed" />
+        <character name="shape" value="entire" />
+        <character name="shape" value="lobed" modifier="pinnately" />
+      </structure>
+    </statement>
+    <statement id="224.txt-4">
+      <text>distal cauline oblong, entire to irregularly lobed.</text>
+      <structure id="o3644" name="leaf" constraint="distal cauline" />
+    </statement>
+    <statement id="224.txt-5">
+      <text>Heads radiant, in open cymiform arrays, pedunculate.</text>
+      <structure id="o3645" name="head">
+        <character name="architecture_or_arrangement" value="radiant" />
+        <character name="architecture" value="pedunculate" />
+      </structure>
+      <structure id="o3646" name="array">
+        <character name="architecture" value="open" />
+        <character name="architecture" value="cymiform" />
+      </structure>
+      <relation id="r520" name="in" from="o3645" to="o3646" negation="false" />
+    </statement>
+    <statement id="224.txt-6">
+      <text>Involucres ovoid, 8–15 mm diam.</text>
+      <structure id="o3647" name="involucre">
+        <character name="shape" value="ovoid" />
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="15" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="224.txt-7">
+      <text>Principal phyllaries:</text>
+      <structure id="o3648" name="phyllary" constraint="principal" />
+    </statement>
+    <statement id="224.txt-8">
+      <text>bodies greenish, ovate, scarious-margined, appendages stramineous to brown, scarious, fringed with slender teeth, tipped by slender spines 1–5 mm.</text>
+      <structure id="o3649" name="body">
+        <character name="coloration" value="greenish" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="scarious-margined" />
+      </structure>
+      <structure id="o3650" name="appendage">
+        <character char_type="range_value" name="coloration" from="stramineous" to="brown" />
+        <character name="coloration" value="stramineous" />
+        <character name="coloration" value="brown" />
+        <character name="texture" value="scarious" />
+        <character name="shape" value="fringed" constraint="with teeth" constraintid="o3651" />
+      </structure>
+      <structure id="o3651" name="tooth">
+        <character name="size" value="slender" />
+      </structure>
+      <structure id="o3652" name="spine">
+        <character name="size" value="slender" />
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+      <relation id="r521" name="tipped by" from="o3650" to="o3652" negation="false" />
+    </statement>
+    <statement id="224.txt-9">
+      <text>Innermost phyllaries unarmed with brown, expanded, lacerate appendages.</text>
+      <structure id="o3653" name="phyllary" constraint="innermost">
+        <character name="architecture" value="unarmed" constraint="with appendages" constraintid="o3654" />
+      </structure>
+      <structure id="o3654" name="appendage">
+        <character name="coloration" value="brown" />
+        <character name="size" value="expanded" />
+        <character name="shape" value="lacerate" />
+      </structure>
+    </statement>
+    <statement id="224.txt-10">
+      <text>Florets many;</text>
+      <structure id="o3655" name="floret">
+        <character name="count" value="many" />
+      </structure>
+    </statement>
+    <statement id="224.txt-11">
+      <text>corollas pink-purple, those of sterile florets 25–30 mm, enlarged, raylike, those of fertile florets ± 20 mm.</text>
+      <structure id="o3656" name="corolla">
+        <character name="coloration" value="purple" modifier="pink" />
+      </structure>
+      <structure id="o3657" name="corolla">
+        <character char_type="range_value" name="size" from="25" from_unit="mm" to="30" to_unit="mm" />
+        <character name="size" value="enlarged" />
+        <character name="shape" value="raylike" />
+      </structure>
+      <structure id="o3658" name="floret" constraint="sterile" />
+      <relation id="r522" name="part_of" from="o3657" to="o3658" negation="false" />
+      <structure id="o3659" name="corolla">
+        <character name="size" value="20" unit="mm" modifier="±" />
+      </structure>
+      <structure id="o3660" name="floret" constraint="fertile" />
+      <relation id="r523" name="part_of" from="o3659" to="o3660" negation="false" />
+    </statement>
+    <statement id="224.txt-12">
+      <text>Cypselae tan, 3–3.5 mm;</text>
+      <structure id="o3661" name="cypsela">
+        <character name="coloration" value="tan" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="3.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="224.txt-13">
+      <text>pappi many , white, unequal bristles 3–5 mm.</text>
+      <structure id="o3662" name="pappus">
+        <character name="count" value="many" />
+        <character name="coloration" value="white" />
+      </structure>
+      <structure id="o3663" name="bristle">
+        <character name="size" value="unequal" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="224.txt-14">
+      <text>2 n = 20.</text>
+      <structure id="o3664" name="chromosome">
+        <character name="count" value="20" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <habitat>escaped from cultivation in disturbed sites</habitat>
+  <elevation>0–100 m;</elevation>
+  <introduced>introduced;</introduced>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Mo.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <global_distribution>sw Europe</global_distribution>
+  <global_distribution>n Africa.</global_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

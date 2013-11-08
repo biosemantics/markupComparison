@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>40b.</number>
+  <variety_name>Cirsium occidentale (Nuttall) Jepson var. coulteri</variety_name>
+  <authority>(Harvey &amp; A. Gray) Jepson</authority>
+  <place_of_publication>Fl. W. Calif., 509. 1901</place_of_publication>
+  <common_name>Coulter’s thistle</common_name>
+  <synonym_of_variety_name>Cirsium coulteri Harvey &amp; A. Gray, Mem. Amer. Acad. Arts, n. s. 4: 110. 1849</synonym_of_variety_name>
+  <description>
+    <statement id="116.txt-0">
+      <text>Plants erect or bushy, usually 30–150+ cm, variably tomentose, sometimes ± glabrate.</text>
+      <structure id="o424" name="whole_organism">
+        <character name="orientation" value="erect" />
+        <character name="habit" value="bushy" />
+        <character char_type="range_value" name="size" from="30" from_unit="cm" to="150" to_unit="cm" upper_restricted="false" modifier="usually" />
+        <character name="pubescence" value="tomentose" modifier="variably" />
+        <character name="pubescence" value="glabrate" modifier="sometimes ±" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="116.txt-1">
+      <text>Leaf faces gray-tomentose or adaxial ± glabrate.</text>
+      <structure id="o425" name="face" constraint="leaf">
+        <character name="pubescence" value="gray-tomentose" />
+        <character name="insertion_or_position" value="adaxial" modifier="±" />
+        <character name="pubescence" value="glabrate" />
+      </structure>
+    </statement>
+    <statement id="116.txt-2">
+      <text>Heads sometimes in tight clusters at ends of peduncles, usually long-pedunculate, usually elevated well above proximal leaves.</text>
+      <structure id="o426" name="head">
+        <character name="architecture" value="long-pedunculate" modifier="usually" />
+        <character name="prominence" value="elevated" modifier="usually ; well" constraint="above leaves" constraintid="o430" />
+      </structure>
+      <structure id="o427" name="cluster">
+        <character name="texture" value="tight" />
+      </structure>
+      <relation id="r77" name="in" from="o426" to="o427" negation="false" modifier="sometimes" />
+      <structure id="o428" name="end" />
+      <relation id="r78" name="at" from="o427" to="o428" negation="false" />
+      <structure id="o429" name="peduncle" />
+      <relation id="r79" name="part_of" from="o428" to="o429" negation="false" />
+      <structure id="o430" name="leaf" constraint="proximal" />
+    </statement>
+    <statement id="116.txt-3">
+      <text>Involucres usually about as wide as tall, 4–5 cm diam., densely arachnoid with fine trichomes connecting tips of adjacent phyllaries.</text>
+      <structure id="o431" name="involucre">
+        <character name="size" value="tall" />
+        <character char_type="range_value" name="size" from="4" from_unit="cm" to="5" to_unit="cm" />
+        <character name="pubescence" value="arachnoid" modifier="densely" constraint="with trichomes" constraintid="o432" />
+      </structure>
+      <structure id="o432" name="trichome">
+        <character name="texture" value="fine" />
+      </structure>
+      <structure id="o433" name="tip" />
+      <relation id="r80" name="connecting" from="o431" to="o433" negation="false" />
+      <structure id="o434" name="phyllary" constraint="adjacent" />
+      <relation id="r81" name="part_of" from="o433" to="o434" negation="false" />
+    </statement>
+    <statement id="116.txt-4">
+      <text>Phyllaries subequal, outer ascending to spreading or reflexed, mid apices ascending to stiffly spreading, straight, acicular, usually 1.5–3 × 1–2 mm.</text>
+      <structure id="o435" name="phyllary">
+        <character name="size" value="subequal" />
+        <character char_type="range_value" name="orientation" from="outer ascending" to="spreading or reflexed" />
+        <character name="orientation" value="spreading" />
+        <character name="orientation" value="reflexed" />
+      </structure>
+      <structure id="o436" name="apex" constraint="mid">
+        <character char_type="range_value" name="orientation" from="ascending" to="stiffly spreading" />
+        <character name="orientation" value="ascending" />
+        <character name="orientation" value="spreading" modifier="stiffly" />
+        <character name="course" value="straight" />
+        <character name="shape" value="acicular" />
+        <character name="size" value="] 1.5-3×1-2" unit="mm" />
+      </structure>
+    </statement>
+    <statement id="116.txt-5">
+      <text>Corollas light purple to rich reddish purple, usually 25–33 mm.</text>
+      <structure id="o437" name="corolla">
+        <character char_type="range_value" name="coloration" from="light-purple" to="rich-reddish-purple" />
+        <character name="coloration" value="purple" modifier="light" />
+        <character name="coloration" value="purple" modifier="rich-reddish" />
+        <character char_type="range_value" name="size" from="25" from_unit="mm" to="33" to_unit="mm" modifier="usually" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <habitat>coastal slopes and ridges</habitat>
+  <habitat>dunes</habitat>
+  <habitat>coastal scrub</habitat>
+  <habitat>grassland</habitat>
+  <habitat>oak woodlands</habitat>
+  <conservation>of conservation concern;</conservation>
+  <elevation>0–700 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <discussion>Variety coulteri grows in the coastal zone of central and southern California. The epithet coulteri was for many years misapplied by California botanists. W. L. Jepson ([1923–1925]) used it at the varietal level for a range of plants that included parts of what I am calling vars. venustum and californicum. P. A. Munz (1959) and various other authors recognized Cirsium coulteri as a species, primarily in the context that I recognize as var. venustum. J. T. Howell (1959b) examined the type of C. coulteri and concluded that it and C. occidentale (in the strict sense) are synonymous. I have examined photos of the types of both C. occidentale and C. coulteri and have reached a different conclusion. The type of C. occidentale (BM) has heads with ± imbricate, comparatively short phyllary appendages. The type of C. coulteri (TCD) has long, acicular, subequal phyllaries. D. J. Keil and C. E. Turner (1993) treated the plants with the two head types all as var. occidentale, but I believe it is preferable to recognize separate varieties. Some intermediates are known, but var. coulteri is usually readily separable from var. occidentale.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

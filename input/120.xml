@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>40f.</number>
+  <variety_name>Cirsium occidentale (Nuttall) Jepson var. venustum</variety_name>
+  <authority>(Greene) Jepson</authority>
+  <place_of_publication>Man. Fl. Pl. Calif., 1167. 1925</place_of_publication>
+  <common_name>Venus thistle</common_name>
+  <synonym_of_variety_name>Carduus venustus Greene, Proc. Acad. Nat. Sci. Philadelphia 44: 359. 1893; Cirsium occidentale subsp. venustum (Greene) Petrak; C. proteanum J. T. Howell</synonym_of_variety_name>
+  <description>
+    <statement id="120.txt-0">
+      <text>Plants usually erect, usually 50–300 cm, variably tomentose, sometimes ± glabrate.</text>
+      <structure id="o473" name="whole_organism">
+        <character name="orientation" value="erect" modifier="usually" />
+        <character char_type="range_value" name="size" from="50" from_unit="cm" to="300" to_unit="cm" modifier="usually" />
+        <character name="pubescence" value="tomentose" modifier="variably" />
+        <character name="pubescence" value="glabrate" modifier="sometimes ±" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="120.txt-1">
+      <text>Heads sometimes in tight clusters at ends of peduncles, usually long-pedunculate, elevated well above proximal leaves.</text>
+      <structure id="o474" name="head">
+        <character name="architecture" value="long-pedunculate" modifier="usually" />
+        <character name="prominence" value="elevated" modifier="well" constraint="above leaves" constraintid="o478" />
+      </structure>
+      <structure id="o475" name="cluster">
+        <character name="texture" value="tight" />
+      </structure>
+      <relation id="r90" name="in" from="o474" to="o475" negation="false" modifier="sometimes" />
+      <structure id="o476" name="end" />
+      <relation id="r91" name="at" from="o475" to="o476" negation="false" />
+      <structure id="o477" name="peduncle" />
+      <relation id="r92" name="part_of" from="o476" to="o477" negation="false" />
+      <structure id="o478" name="leaf" constraint="proximal" />
+    </statement>
+    <statement id="120.txt-2">
+      <text>Involucres usually longer than wide, 2–6 cm, subglabrous to densely arachnoid, usually without fine trichomes connecting tips of adjacent phyllaries.</text>
+      <structure id="o479" name="involucre">
+        <character name="size" value="longer than wide" modifier="usually" />
+        <character char_type="range_value" name="size" from="2" from_unit="cm" to="6" to_unit="cm" />
+        <character char_type="range_value" name="pubescence" from="subglabrous" to="densely arachnoid" />
+        <character name="pubescence" value="subglabrous" />
+        <character name="pubescence" value="arachnoid" modifier="densely" />
+      </structure>
+      <structure id="o480" name="trichome">
+        <character name="texture" value="fine" />
+      </structure>
+      <relation id="r93" name="without" from="o479" to="o480" negation="false" modifier="usually" />
+      <structure id="o481" name="tip" />
+      <relation id="r94" name="connecting" from="o479" to="o481" negation="false" />
+      <structure id="o482" name="phyllary" constraint="adjacent" />
+      <relation id="r95" name="part_of" from="o481" to="o482" negation="false" />
+    </statement>
+    <statement id="120.txt-4">
+      <text>Corollas usually ± red (white, pink, rarely purple), 23–35 mm.</text>
+      <structure id="o483" name="corolla">
+        <character name="coloration" value="red" modifier="usually ±" />
+        <character char_type="range_value" name="size" from="23" from_unit="mm" to="35" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="120.txt-5">
+      <text>2 n = 30.</text>
+      <structure id="o484" name="chromosome">
+        <character name="count" value="30" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <habitat>foothill oak-pine woodlands</habitat>
+  <habitat>grasslands</habitat>
+  <habitat>chaparral</habitat>
+  <habitat>pinyon-juniper woodlands</habitat>
+  <habitat>joshua tree woodlands</habitat>
+  <habitat>roadsides</habitat>
+  <elevation>200–2300 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <discussion>Variety venustum has the widest ecological range of the races of C. occidentale. Populations occur within a few miles of the California coast in the North and South Coast Ranges and western Transverse Range and range eastward across the state into scattered sites in the Sierra Nevada to the higher elevations of the arid mountains of the western Mojave Desert and adjacent areas of the southwestern Great Basin Desert. Most populations of these plants can be recognized by their striking red to reddish pink corollas. The heads are sometimes visited by hummingbirds as well as by a variety of insects. Intermediates have been documented between var. venustum and vars. californicum and candidissimum.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

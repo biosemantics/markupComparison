@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>3.</number>
+  <species_name>Carthamus creticus</species_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. ed. 2, 2: 1163. 1763</place_of_publication>
+  <common_name>Smooth distaff thistle</common_name>
+  <synonym_of_species_name>Carthamus baeticus Boissier &amp; Reuter; C. lanatus Linnaeus subsp. baeticus (Boissier &amp; Reuter) Nyman; C. lanatus subsp. creticus (Linnaeus) Holmboe</synonym_of_species_name>
+  <description>
+    <statement id="203.txt-0">
+      <text>Plants 40–100 cm, herbage ± sparsely hairy.</text>
+      <structure id="o3025" name="whole_organism">
+        <character char_type="range_value" name="size" from="40" from_unit="cm" to="100" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+      <structure id="o3026" name="herbage">
+        <character name="pubescence" value="hairy" modifier="± sparsely" />
+      </structure>
+    </statement>
+    <statement id="203.txt-1">
+      <text>Stems rigidly erect, openly branched above, stramineous.</text>
+      <structure id="o3027" name="stem">
+        <character name="orientation" value="erect" modifier="rigidly" />
+        <character name="architecture_or_shape" value="branched" modifier="openly" />
+        <character name="coloration" value="stramineous" />
+      </structure>
+    </statement>
+    <statement id="203.txt-2">
+      <text>Leaves basal and cauline;</text>
+      <structure id="o3028" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+      </structure>
+    </statement>
+    <statement id="203.txt-3">
+      <text>basal often absent at anthesis, petioles winged, blades pinnately 1–2-divided into linear or lanceolate spine-tipped lobes, cauline spreading or recurved, lanceolate to ovate, rigid, clasping, margins spiny-lobed, spine-tipped.</text>
+      <structure id="o3029" name="leaf" constraint="basal">
+        <character name="presence" value="absent" modifier="often" constraint="at anthesis" constraintid="o3030" />
+      </structure>
+      <structure id="o3030" name="anthesi" />
+      <structure id="o3031" name="petiole">
+        <character name="architecture" value="winged" />
+      </structure>
+      <structure id="o3032" name="blade">
+        <character name="shape" value="1-2-divided" modifier="pinnately" constraint="into lobes" constraintid="o3033" />
+      </structure>
+      <structure id="o3033" name="lobe">
+        <character name="arrangement_or_shape" value="linear" />
+        <character name="shape" value="lanceolate" />
+      </structure>
+      <structure id="o3034" name="leaf" constraint="cauline">
+        <character name="orientation" value="spreading" />
+        <character name="orientation" value="recurved" />
+        <character char_type="range_value" name="shape" from="lanceolate" to="ovate" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="ovate" />
+        <character name="texture" value="rigid" />
+        <character name="architecture" value="clasping" />
+      </structure>
+      <structure id="o3035" name="margin">
+        <character name="shape" value="spiny-lobed" />
+      </structure>
+    </statement>
+    <statement id="203.txt-4">
+      <text>Involucres ovoid, 20–25 mm, very thinly cobwebby or becoming glabrous.</text>
+      <structure id="o3036" name="involucre">
+        <character name="shape" value="ovoid" />
+        <character char_type="range_value" name="size" from="20" from_unit="mm" to="25" to_unit="mm" />
+        <character name="pubescence" value="cobwebby" modifier="very thinly" />
+        <character name="pubescence" value="glabrous" modifier="becoming" />
+      </structure>
+    </statement>
+    <statement id="203.txt-5">
+      <text>Outer phyllaries ascending or ± spreading, 35–55 mm, usually 2 times as long as inner, terminal appendages spreading to ascending, spiny-lobed, prominently spine-tipped.</text>
+      <structure id="o3037" name="phyllary" constraint="outer">
+        <character name="orientation" value="ascending" />
+        <character name="orientation" value="spreading" modifier="±" />
+        <character char_type="range_value" name="size" from="35" from_unit="mm" to="55" to_unit="mm" />
+        <character name="position" value="inner" modifier="usually" />
+      </structure>
+      <structure id="o3038" name="appendage" constraint="terminal">
+        <character char_type="range_value" name="orientation" from="spreading" to="ascending" />
+        <character name="orientation" value="spreading" />
+        <character name="orientation" value="ascending" />
+        <character name="shape" value="spiny-lobed" />
+      </structure>
+    </statement>
+    <statement id="203.txt-6">
+      <text>Corollas pale yellow, 25–35 mm, throats abruptly expanded;</text>
+      <structure id="o3039" name="corolla">
+        <character name="coloration" value="yellow" modifier="pale" />
+        <character char_type="range_value" name="size" from="25" from_unit="mm" to="35" to_unit="mm" />
+      </structure>
+      <structure id="o3040" name="throat">
+        <character name="size" value="expanded" modifier="abruptly" />
+      </structure>
+    </statement>
+    <statement id="203.txt-7">
+      <text>anthers white with purple stripes;</text>
+      <structure id="o3041" name="anther" />
+      <structure id="o3042" name="stripe">
+        <character name="coloration" value="white with purple" />
+      </structure>
+    </statement>
+    <statement id="203.txt-8">
+      <text>pollen white.</text>
+      <structure id="o3043" name="pollen">
+        <character name="coloration" value="white" />
+      </structure>
+    </statement>
+    <statement id="203.txt-9">
+      <text>Cypselae brown, 4–6 mm, outer roughened;</text>
+      <structure id="o3044" name="cypsela">
+        <character name="coloration" value="brown" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="6" to_unit="mm" />
+        <character name="position" value="outer" />
+        <character name="texture" value="roughened" />
+      </structure>
+    </statement>
+    <statement id="203.txt-10">
+      <text>pappus scales 1–10 mm.</text>
+      <structure id="o3045" name="scale" constraint="pappus">
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="203.txt-11">
+      <text>2 n = 64.</text>
+      <structure id="o3046" name="chromosome">
+        <character name="count" value="64" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>fields</habitat>
+  <habitat>roadsides</habitat>
+  <elevation>0–500 m;</elevation>
+  <introduced>introduced;</introduced>
+  <ca_distribution>B.C.</ca_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>S.C.</us_distribution>
+  <global_distribution>Europe.</global_distribution>
+  <discussion>Carthamus creticus has been reported for British Columbia in all recent floras, as C. lanatus subsp. baeticus. It is native to the Mediterranean region.</discussion>
+  <discussion>Apparently an allohexaploid derived by hybridization between Carthamus leucocaulos (2n = 20) and C. lanatus (2n = 44) (M. O. Khidir and P. F. Knowles 1970b), C. creticus is similar to C. lanatus and was treated as a subspecies of the latter (P. Hanelt 1963, 1976).</discussion>
+  <discussion>Most American botanists have recognized this taxon at species rank, using the name Carthamus baeticus ascribed to (Boissier &amp; Reuter) Nyman, based on the assumption that Nyman (Consp. Fl. Eur., 419. 1879) had proposed a new combination at the species level based on Kentrophyllum baeticum Boissier &amp; Reuter. P. Hanelt (1963) used the name C. lanatus subsp. creticus for this taxon and treated both C. creticus and C. baeticus as synonyms. However, Hanelt (1976) substituted C. lanatus subsp. baeticus as the name for the taxon, ascribing the combination to the same Nyman publication. Hanelt (pers. comm.) has indicated that the contradictory nomenclatural citations were a result of Nyman’s peculiar way of presenting taxa that he considered to be subspecies: “in the work of Nyman the small-printed taxa subsumed under a ‘true’ species name and characterized by an asterisk had to be accepted as subspecies.” As a subspecific epithet, baeticus (1879) has nomenclatural priority over creticus (1914), hence Hanelt’s 1976 use of the former.</discussion>
+  <discussion>Like Carthamus lanatus, C. creticus is a noxious weed that can severely degrade infested rangelands.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

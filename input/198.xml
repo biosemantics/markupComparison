@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>22.</number>
+  <genus_name>CRUPINA</genus_name>
+  <authority>(Persoon) de Candolle</authority>
+  <place_of_publication>Ann. Mus. Natl. Hist. Nat. 16: 157. 1810</place_of_publication>
+  <common_name />
+  <derivation>Pre-Linnaean generic name of unknown derivation</derivation>
+  <author_of_tribe_genus>David J. Keil</author_of_tribe_genus>
+  <synonym_of_genus_name>Centaurea Linnaeus subg. Crupina Persoon, Syn. Pl. 2: 488. 1807</synonym_of_genus_name>
+  <description>
+    <statement id="198.txt-0">
+      <text>Annuals , 20–100 cm, not spiny.</text>
+      <structure id="o2815" name="whole_organism">
+        <character char_type="range_value" name="size" from="20" from_unit="cm" to="100" to_unit="cm" />
+        <character name="architecture_or_shape" value="spiny" modifier="not" />
+        <character name="life_style" value="annual" />
+      </structure>
+    </statement>
+    <statement id="198.txt-1">
+      <text>Stems erect, openly branched distally.</text>
+      <structure id="o2816" name="stem">
+        <character name="orientation" value="erect" />
+        <character name="architecture_or_shape" value="branched" modifier="openly ; distally" />
+      </structure>
+    </statement>
+    <statement id="198.txt-2">
+      <text>Leaves basal and cauline (distally reduced to bracts);</text>
+    </statement>
+    <statement id="198.txt-3">
+      <text>sessile (basal) or petiolate (cauline);</text>
+      <structure id="o2817" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="architecture" value="sessile" />
+        <character name="architecture" value="petiolate" />
+      </structure>
+    </statement>
+    <statement id="198.txt-4">
+      <text>blade margins entire or toothed to pinnately divided (basal) or 1–2-pinnately divided (cauline).</text>
+      <structure id="o2818" name="margin" constraint="blade">
+        <character char_type="range_value" name="shape" from="toothed" to="pinnately divided" />
+        <character name="shape" value="entire" />
+        <character name="shape" value="toothed" />
+        <character name="shape" value="divided" modifier="pinnately" />
+        <character name="shape" value="divided" modifier="1-2-pinnately" />
+      </structure>
+    </statement>
+    <statement id="198.txt-5">
+      <text>Heads radiant, borne singly or clustered at branch tips.</text>
+      <structure id="o2819" name="head">
+        <character name="arrangement" value="radiant" />
+        <character name="arrangement" value="clustered" constraint="at branch tips" constraintid="o2820" />
+      </structure>
+      <structure id="o2820" name="tip" constraint="branch" />
+    </statement>
+    <statement id="198.txt-6">
+      <text>Involucres cylindric to ovoid.</text>
+      <structure id="o2821" name="involucre">
+        <character char_type="range_value" name="shape" from="cylindric" to="ovoid" />
+        <character name="shape" value="cylindric" />
+        <character name="shape" value="ovoid" />
+      </structure>
+    </statement>
+    <statement id="198.txt-7">
+      <text>Phyllaries overlapping in 4–6 series, unequal, oblong-lanceolate, acute, unappendaged .</text>
+      <structure id="o2822" name="phyllary">
+        <character name="aestivation_or_arrangement" value="overlapping" constraint="in series" constraintid="o2823" />
+        <character name="size" value="unequal" />
+        <character name="shape" value="oblong-lanceolate" />
+        <character name="shape" value="acute" />
+        <character name="architecture" value="unappendaged" />
+      </structure>
+      <structure id="o2823" name="series">
+        <character char_type="range_value" name="count" from="4" to="6" />
+      </structure>
+    </statement>
+    <statement id="198.txt-8">
+      <text>Receptacles flat , epaleate, bearing subulate scales.</text>
+      <structure id="o2824" name="receptacle">
+        <character name="shape" value="flat" />
+        <character name="architecture" value="epaleate" />
+      </structure>
+      <structure id="o2825" name="scale">
+        <character name="shape" value="subulate" />
+      </structure>
+    </statement>
+    <statement id="198.txt-9">
+      <text>Florets 3–15, outer 2–14 neuter, inner 1–2 fertile;</text>
+      <structure id="o2826" name="floret">
+        <character char_type="range_value" name="count" from="3" to="15" />
+        <character name="position" value="outer" />
+        <character char_type="range_value" name="count" from="2" to="14" />
+        <character name="architecture" value="neuter" />
+        <character name="position" value="inner" />
+        <character char_type="range_value" name="count" from="1" to="2" />
+        <character name="reproduction" value="fertile" />
+      </structure>
+    </statement>
+    <statement id="198.txt-10">
+      <text>corollas purple, ± bilateral, tubes slender, gradually expanded into narrowly funnelform throats , lobes linear;</text>
+      <structure id="o2827" name="corolla">
+        <character name="coloration" value="purple" />
+        <character name="arrangement" value="bilateral" modifier="±" />
+      </structure>
+      <structure id="o2828" name="tube">
+        <character name="size" value="slender" />
+        <character name="size" value="expanded" modifier="gradually" constraint="into throats" constraintid="o2829" />
+      </structure>
+      <structure id="o2829" name="throat">
+        <character name="shape" value="funnelform" modifier="narrowly" />
+      </structure>
+      <structure id="o2830" name="lobe">
+        <character name="arrangement_or_shape" value="linear" />
+      </structure>
+    </statement>
+    <statement id="198.txt-11">
+      <text>anther bases short-tailed, apical appendages narrowly triangular;</text>
+      <structure id="o2831" name="base" constraint="anther">
+        <character name="shape" value="short-tailed" />
+      </structure>
+      <structure id="o2832" name="appendage" constraint="apical">
+        <character name="shape" value="triangular" modifier="narrowly" />
+      </structure>
+    </statement>
+    <statement id="198.txt-12">
+      <text>style branches:</text>
+      <structure id="o2833" name="branch" constraint="style" />
+    </statement>
+    <statement id="198.txt-13">
+      <text>fused portions with minutely puberulent nodes, distinct portions very short, triangular.</text>
+      <structure id="o2834" name="portion" constraint="fused" />
+      <structure id="o2835" name="node">
+        <character name="pubescence" value="puberulent" modifier="minutely" />
+      </structure>
+      <relation id="r405" name="with" from="o2834" to="o2835" negation="false" />
+      <structure id="o2836" name="portion">
+        <character name="fusion" value="distinct" />
+        <character name="size" value="short" modifier="very" />
+        <character name="shape" value="triangular" />
+      </structure>
+    </statement>
+    <statement id="198.txt-14">
+      <text>Cypselae cylindric [or ± compressed], bases puberulent, faces smooth, not ribbed, distally softly pubescent, attachment scars basal [ or lateral ] ;</text>
+      <structure id="o2837" name="cypsela">
+        <character name="shape" value="cylindric" />
+      </structure>
+      <structure id="o2838" name="base">
+        <character name="pubescence" value="puberulent" />
+      </structure>
+      <structure id="o2839" name="face">
+        <character name="architecture_or_relief" value="smooth" />
+        <character name="architecture_or_shape" value="ribbed" modifier="not" />
+        <character name="pubescence" value="pubescent" modifier="distally softly" />
+      </structure>
+      <structure id="o2840" name="scar" constraint="attachment">
+        <character name="insertion_or_position" value="basal" />
+      </structure>
+    </statement>
+    <statement id="198.txt-15">
+      <text>pappi persistent , present only on fertile florets, outer 1–2 series of numerous stiff, minutely barbed bristles , inner of 5–10 short lacerate-dentate scales.</text>
+      <structure id="o2841" name="pappus">
+        <character name="duration" value="persistent" />
+        <character name="presence" value="present" modifier="only" constraint="on florets" constraintid="o2842" />
+        <character name="position" value="outer" />
+        <character char_type="range_value" name="count" from="1" to="2" />
+        <character name="position" value="inner" constraint="of scales" constraintid="o2845" />
+      </structure>
+      <structure id="o2842" name="floret" constraint="fertile" />
+      <structure id="o2843" name="series" />
+      <structure id="o2844" name="bristle">
+        <character name="count" value="numerous" />
+        <character name="texture" value="stiff" />
+        <character name="architecture" value="barbed" modifier="minutely" />
+      </structure>
+      <relation id="r406" name="part_of" from="o2843" to="o2844" negation="false" />
+      <structure id="o2845" name="scale">
+        <character char_type="range_value" name="count" from="5" to="10" />
+        <character name="size" value="short" />
+        <character name="shape" value="lacerate-dentate" />
+      </structure>
+    </statement>
+    <statement id="198.txt-16">
+      <text>x = 28, 30.</text>
+      <structure id="o2846" name="chromosome">
+        <character name="count" value="28" />
+        <character name="count" value="30" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species 3–4 (1 in the flora):</number_of_infrataxa>
+  <introduced>introduced;</introduced>
+  <general_distribution>Europe</general_distribution>
+  <general_distribution>Asia</general_distribution>
+  <general_distribution>n Africa.</general_distribution>
+  <discussion>Crupina is a member of subtribe Centaureinae. Molecular phylogenetic studies (A. Susanna et al. 1995; N. Garcia-Jacas et al. 2001) place Crupina in a basal grade of genera related to Centaurea. Crupina differs from Centaurea by having scaly (rather than bristly) receptacles, and in its cypselar structure (J. Briquet 1930), trichome types (J. Briquet 1930b), unique pollen morphology (G. Wagenitz 1955), and high chromosome base number.</discussion>
+  <references>SELECTED REFERENCES Briquet, J. 1930. Carpologie du genre Crupina. Candollea 4: 241–278. Briquet, J. 1930b. Les émergences et trichomes de Crupina. Candollea 4: 191–201.</references>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Microseris borealis</species_name>
+  <authority>(Bongard) Schultz-Bipontinus</authority>
+  <place_of_publication>Jahresber. Pollichia 22–24: 310. 1866</place_of_publication>
+  <past_name>boreale</past_name>
+  <common_name>Apargidium, northern microseris</common_name>
+  <synonym_of_species_name>Apargia borealis Bongard, Mém. Acad. Imp. Sci. St.-Pétersbourg, Sér. 6, Sci. Math. 2: 146. 1832; Apargidium boreale (Bongard) Torrey &amp; A. Gray; Scorzonella borealis (Bongard) Greene</synonym_of_species_name>
+  <description>
+    <statement id="522.txt-0">
+      <text>Perennials, 15–70 cm;</text>
+    </statement>
+    <statement id="522.txt-1">
+      <text>rhizomatous, with fleshy adventitious roots.</text>
+      <structure id="o10727" name="whole_organism">
+        <character char_type="range_value" name="size" from="15" from_unit="cm" to="70" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+        <character name="architecture" value="rhizomatous" />
+      </structure>
+      <structure id="o10728" name="root">
+        <character name="texture" value="fleshy" />
+        <character name="derivation" value="adventitious" />
+      </structure>
+      <relation id="r1232" name="with" from="o10727" to="o10728" negation="false" />
+    </statement>
+    <statement id="522.txt-2">
+      <text>Stems 0.</text>
+      <structure id="o10729" name="stem">
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+    <statement id="522.txt-3">
+      <text>Leaves basal ;</text>
+    </statement>
+    <statement id="522.txt-4">
+      <text>petiolate;</text>
+      <structure id="o10730" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="architecture" value="petiolate" />
+      </structure>
+    </statement>
+    <statement id="522.txt-5">
+      <text>blades mostly oblanceolate, rarely linear, 5–30 cm, margins entire or remotely denticulate , apices acute or acuminate , faces glabrous.</text>
+      <structure id="o10731" name="blade">
+        <character name="shape" value="oblanceolate" modifier="mostly" />
+        <character name="arrangement_or_shape" value="linear" modifier="rarely" />
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="30" to_unit="cm" />
+      </structure>
+      <structure id="o10732" name="margin">
+        <character name="shape" value="entire" />
+        <character name="shape" value="denticulate" modifier="remotely" />
+      </structure>
+      <structure id="o10733" name="apex">
+        <character name="shape" value="acute" />
+        <character name="shape" value="acuminate" />
+      </structure>
+      <structure id="o10734" name="face">
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="522.txt-6">
+      <text>Peduncles erect (15–70 cm) ebracteate.</text>
+      <structure id="o10735" name="peduncle">
+        <character name="orientation" value="erect" />
+        <character name="architecture" value="ebracteate" />
+      </structure>
+    </statement>
+    <statement id="522.txt-7">
+      <text>Involucres broadly to narrowly ovoid in fruit, 10–18 mm.</text>
+      <structure id="o10736" name="involucre">
+        <character name="shape" value="ovoid" modifier="broadly narrowly" constraint="in fruit" constraintid="o10737" />
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="18" to_unit="mm" />
+      </structure>
+      <structure id="o10737" name="fruit" />
+    </statement>
+    <statement id="522.txt-8">
+      <text>Phyllaries:</text>
+      <structure id="o10738" name="phyllary" />
+    </statement>
+    <statement id="522.txt-9">
+      <text>outer lanceolate to linear-lanceolate , apices acuminate , abaxial faces glabrous or black-villous;</text>
+      <structure id="o10739" name="phyllary" constraint="outer" />
+      <structure id="o10740" name="apex">
+        <character name="shape" value="acuminate" />
+      </structure>
+      <structure id="o10741" name="face" constraint="abaxial">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="black-villous" />
+      </structure>
+    </statement>
+    <statement id="522.txt-10">
+      <text>inner lanceolate, apices acute, both faces usually lightly black-villous.</text>
+      <structure id="o10742" name="phyllary" constraint="inner">
+        <character name="shape" value="lanceolate" />
+      </structure>
+      <structure id="o10743" name="apex">
+        <character name="shape" value="acute" />
+      </structure>
+      <structure id="o10744" name="face">
+        <character name="pubescence" value="black-villous" modifier="usually lightly" />
+      </structure>
+    </statement>
+    <statement id="522.txt-11">
+      <text>Florets 18–50;</text>
+      <structure id="o10745" name="floret">
+        <character char_type="range_value" name="count" from="18" to="50" />
+      </structure>
+    </statement>
+    <statement id="522.txt-12">
+      <text>corollas yellow-orange, surpassing phyllaries by 5+ mm.</text>
+      <structure id="o10746" name="corolla">
+        <character name="coloration" value="orange" modifier="yellow" />
+      </structure>
+      <structure id="o10747" name="phyllary" constraint="by 5+ mm">
+        <character name="comparison" value="surpassing" />
+      </structure>
+    </statement>
+    <statement id="522.txt-13">
+      <text>Cypselae columnar or arcuate near bases, 4–8 mm;</text>
+      <structure id="o10748" name="cypsela">
+        <character name="shape" value="columnar" />
+        <character name="shape" value="arcuate" constraint="near bases" constraintid="o10749" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+      <structure id="o10749" name="base" />
+    </statement>
+    <statement id="522.txt-14">
+      <text>pappi of 24–48, brownish, barbellate bristles 5–10 mm (bases of bristles sometimes slightly widened).</text>
+      <structure id="o10750" name="pappus" />
+      <structure id="o10751" name="bristle">
+        <character char_type="range_value" name="count" from="24" to="48" />
+        <character name="coloration" value="brownish" />
+        <character name="architecture" value="barbellate" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+      <relation id="r1233" name="consist_of" from="o10750" to="o10751" negation="false" />
+    </statement>
+    <statement id="522.txt-15">
+      <text>2 n = 18.</text>
+      <structure id="o10752" name="chromosome">
+        <character name="count" value="18" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>mostly coastal and montane sphagnum bogs</habitat>
+  <habitat>other wet sites from lowlands to alpine in n part of range</habitat>
+  <elevation>0–1800 m;</elevation>
+  <ca_distribution>B.C.</ca_distribution>
+  <us_distribution>Alaska</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

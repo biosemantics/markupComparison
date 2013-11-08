@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Arnoseris minima</species_name>
+  <authority>(Linnaeus) Schweigger &amp; Körte</authority>
+  <place_of_publication>Fl. Erlang. 2: 72. 1811</place_of_publication>
+  <synonym_of_species_name>Hyoseris minima Linnaeus, Sp. Pl. 2: 809. 1753</synonym_of_species_name>
+  <description>
+    <statement id="384.txt-1">
+      <text>Peduncles 5–3+ cm.</text>
+      <structure id="o7336" name="peduncle">
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="3" to_unit="cm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="384.txt-2">
+      <text>Phyllaries:</text>
+      <structure id="o7337" name="phyllary" />
+    </statement>
+    <statement id="384.txt-3">
+      <text>keels stramineous and thickened in fruit, abaxial faces scabrellous or glabrate.</text>
+      <structure id="o7338" name="keel">
+        <character name="coloration" value="stramineous" />
+        <character name="thickness" value="thickened" constraint="in fruit" constraintid="o7339" />
+      </structure>
+      <structure id="o7339" name="fruit" />
+      <structure id="o7340" name="face" constraint="abaxial">
+        <character name="relief" value="scabrellous" />
+        <character name="pubescence" value="glabrate" />
+      </structure>
+    </statement>
+    <statement id="384.txt-4">
+      <text>Cypselae 1.5–2+ mm.</text>
+      <structure id="o7341" name="cypsela">
+        <character char_type="range_value" name="size" from="1.5" from_unit="mm" to="2" to_unit="mm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="384.txt-5">
+      <text>2 n = 18.</text>
+      <structure id="o7342" name="chromosome">
+        <character name="count" value="18" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>disturbed sites</habitat>
+  <habitat>sandy soils</habitat>
+  <elevation>10–100 m;</elevation>
+  <introduced>introduced;</introduced>
+  <ca_distribution>N.S.</ca_distribution>
+  <ca_distribution>P.E.I.</ca_distribution>
+  <us_distribution>Maine</us_distribution>
+  <us_distribution>Mich.</us_distribution>
+  <us_distribution>N.H.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>Ohio</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <global_distribution>Europe.</global_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

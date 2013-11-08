@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>2.</number>
+  <species_name>Picris hieracioides</species_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 792. 1753</place_of_publication>
+  <synonym_of_species_name>Picris hieracioides var. alpina Koidzumi; P. hieracioides subsp. kamtschatica (Ledebour) Hultén</synonym_of_species_name>
+  <description>
+    <statement id="446.txt-0">
+      <text>Biennials or perennials .</text>
+      <structure id="o8842" name="whole_organism">
+        <character name="life_style" value="biennial" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="446.txt-1">
+      <text>Leaf blades 50–150(–300) × 10–25(–50+) mm.</text>
+      <structure id="o8844" name="blade" constraint="leaf">
+        <character char_type="range_value" name="atypical_length" from="150" to="300" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="50" from_unit="mm" to="150" to_unit="mm" />
+        <character char_type="range_value" name="atypical_width" from="25" to="50" from_unit="mm" to_unit="mm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="width" from="10" from_unit="mm" to="25" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="446.txt-2">
+      <text>Involucres 8–15 × 10–16+ mm, larger in fruit.</text>
+      <structure id="o8845" name="involucre">
+        <character char_type="range_value" name="length" from="8" from_unit="mm" to="15" to_unit="mm" />
+        <character char_type="range_value" name="width" from="10" from_unit="mm" to="16" to_unit="mm" upper_restricted="false" />
+        <character name="size" value="larger" constraint="in fruit" constraintid="o8846" />
+      </structure>
+      <structure id="o8846" name="fruit" />
+    </statement>
+    <statement id="446.txt-3">
+      <text>Phyllaries proximally ± flat, not each enfolding its subtended floret, usually bristly and/or tomentulose abaxially.</text>
+      <structure id="o8847" name="phyllary">
+        <character name="shape" value="flat" modifier="proximally ±" />
+        <character name="position" value="enfolding" modifier="not each" />
+        <character name="pubescence" value="bristly" modifier="usually" />
+        <character name="pubescence" value="tomentulose" modifier="abaxially" />
+      </structure>
+      <structure id="o8848" name="floret" />
+    </statement>
+    <statement id="446.txt-4">
+      <text>Cypselae 3–4(–6) mm;</text>
+      <structure id="o8849" name="cypsela">
+        <character char_type="range_value" name="atypical_size" from="4" to="6" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="446.txt-5">
+      <text>pappi 5–7 mm.</text>
+      <structure id="o8850" name="pappus">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="446.txt-6">
+      <text>2 n = 10.</text>
+      <structure id="o8851" name="chromosome">
+        <character name="count" value="10" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <habitat>disturbed sites</habitat>
+  <elevation>0–50(–100+) m;</elevation>
+  <introduced>introduced;</introduced>
+  <ca_distribution>Ont.</ca_distribution>
+  <us_distribution>Alaska</us_distribution>
+  <us_distribution>Conn.</us_distribution>
+  <us_distribution>Ill.</us_distribution>
+  <us_distribution>Ky.</us_distribution>
+  <us_distribution>Md.</us_distribution>
+  <us_distribution>Mass.</us_distribution>
+  <us_distribution>Mich.</us_distribution>
+  <us_distribution>Mo.</us_distribution>
+  <us_distribution>N.J.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>N.C.</us_distribution>
+  <us_distribution>Ohio</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <us_distribution>R.I.</us_distribution>
+  <us_distribution>Tenn.</us_distribution>
+  <us_distribution>Vt.</us_distribution>
+  <us_distribution>Va.</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <global_distribution>Europe</global_distribution>
+  <global_distribution>Asia</global_distribution>
+  <global_distribution>also introduced</global_distribution>
+  <global_distribution>Africa</global_distribution>
+  <global_distribution>Australia.</global_distribution>
+  <discussion>In Alaska, Picris hieracioides is known only from the Aleutian Islands, where it may be native. This species is evidently no longer present in British Columbia.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

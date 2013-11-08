@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>2.</number>
+  <species_name>Diaperia verna</species_name>
+  <authority>(Rafinesque) Morefield</authority>
+  <place_of_publication>Novon 14: 468. 2004</place_of_publication>
+  <common_name>Spring or many-stem rabbit-tobacco</common_name>
+  <synonym_of_species_name>Evax verna Rafinesque, Atlantic J. 1: 178. 1833; E. multicaulis de Candolle</synonym_of_species_name>
+  <description>
+    <statement id="768.txt-0">
+      <text>Plants greenish to grayish, 2–15(–25) cm, ± lanuginose.</text>
+      <structure id="o16146" name="whole_organism">
+        <character char_type="range_value" name="coloration" from="greenish" to="grayish" />
+        <character name="coloration" value="greenish" />
+        <character name="coloration" value="grayish" />
+        <character char_type="range_value" name="atypical_size" from="15" to="25" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="2" from_unit="cm" to="15" to_unit="cm" />
+        <character name="pubescence" value="lanuginose" modifier="±" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="768.txt-1">
+      <text>Stems mostly 2–10;</text>
+      <structure id="o16147" name="stem">
+        <character char_type="range_value" name="count" from="2" to="10" modifier="mostly" />
+      </structure>
+    </statement>
+    <statement id="768.txt-2">
+      <text>branches proximal and distal (distal subopposite), rarely none.</text>
+      <structure id="o16148" name="branch">
+        <character name="insertion_or_position" value="proximal" />
+        <character name="insertion_or_position" value="distal" />
+      </structure>
+    </statement>
+    <statement id="768.txt-3">
+      <text>Leaves:</text>
+      <structure id="o16149" name="leaf" />
+    </statement>
+    <statement id="768.txt-4">
+      <text>largest 7–13 × 2–4 mm;</text>
+      <structure id="o16150" name="leaf" constraint="largest">
+        <character char_type="range_value" name="length" from="7" from_unit="mm" to="13" to_unit="mm" />
+        <character char_type="range_value" name="width" from="2" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="768.txt-5">
+      <text>capitular leaves subtending glomerules, also ± hidden between and surpassed by heads.</text>
+      <structure id="o16151" name="leaf" constraint="capitular">
+        <character name="manifestation" value="hidden" modifier="±" constraint="between and surpassed by heads" constraintid="o16153" />
+      </structure>
+      <structure id="o16152" name="glomerule" />
+      <relation id="r1734" name="subtending" from="o16151" to="o16152" negation="false" />
+      <structure id="o16153" name="head" />
+    </statement>
+    <statement id="768.txt-6">
+      <text>Heads mostly distal, in subdichasiform arrays, campanulate to ± spheric, 2–3.3 mm, heights ± equal to diams.</text>
+      <structure id="o16154" name="head">
+        <character name="insertion_or_position" value="distal" modifier="mostly" />
+        <character name="shape" value="campanulate" />
+        <character name="shape" value="spheric" modifier="±" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="3.3" to_unit="mm" />
+        <character name="size" value="equal" modifier="±" />
+      </structure>
+      <structure id="o16155" name="array">
+        <character name="arrangement" value="subdichasiform" />
+      </structure>
+      <relation id="r1735" name="in" from="o16154" to="o16155" negation="false" />
+    </statement>
+    <statement id="768.txt-7">
+      <text>Receptacles pulvinate, 0.3–0.6 mm, heights ± 0.2–0.5 times diams.</text>
+      <structure id="o16156" name="receptacle">
+        <character name="architecture_or_shape" value="pulvinate" />
+        <character char_type="range_value" name="size" from="0.3" from_unit="mm" to="0.6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="768.txt-8">
+      <text>Pistillate paleae scarcely imbricate, longest 1.9–2.7 mm.</text>
+      <structure id="o16157" name="palea" constraint="pistillate">
+        <character name="aestivation_or_arrangement" value="imbricate" modifier="scarcely" />
+        <character name="size" value="longest" />
+        <character char_type="range_value" name="size" from="1.9" from_unit="mm" to="2.7" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="768.txt-9">
+      <text>Staminate paleae mostly 3–5, apices somewhat spreading, ± plane.</text>
+      <structure id="o16158" name="palea" constraint="staminate">
+        <character char_type="range_value" name="count" from="3" to="5" modifier="mostly" />
+      </structure>
+      <structure id="o16159" name="apex">
+        <character name="orientation" value="spreading" modifier="somewhat" />
+      </structure>
+      <structure id="o16160" name="plane" />
+    </statement>
+    <statement id="768.txt-10">
+      <text>Functionally staminate florets 3–5;</text>
+      <structure id="o16161" name="floret" constraint="functionally staminate">
+        <character char_type="range_value" name="count" from="3" to="5" />
+      </structure>
+    </statement>
+    <statement id="768.txt-11">
+      <text>ovaries vestigial, 0–0.1 mm;</text>
+      <structure id="o16162" name="ovary">
+        <character name="manifestation" value="vestigial" />
+        <character char_type="range_value" name="size" from="0" from_unit="mm" to="0.1" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="768.txt-12">
+      <text>corollas hidden in heads, actinomorphic, 1.8–2.5 mm, often ± spreading-arachnoid, lobes equal.</text>
+      <structure id="o16163" name="corolla">
+        <character name="manifestation" value="hidden" constraint="in heads" constraintid="o16164" />
+        <character name="architecture" value="actinomorphic" />
+        <character char_type="range_value" name="size" from="1.8" from_unit="mm" to="2.5" to_unit="mm" />
+        <character name="pubescence" value="spreading-arachnoid" modifier="often ±" />
+      </structure>
+      <structure id="o16164" name="head" />
+      <structure id="o16165" name="lobe">
+        <character name="size" value="equal" />
+      </structure>
+    </statement>
+    <statement id="768.txt-13">
+      <text>Bisexual florets 0.</text>
+      <structure id="o16166" name="floret" constraint="bisexual">
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+    <statement id="768.txt-14">
+      <text>Cypselae rounded, ± terete, mostly 0.7–0.9 mm.</text>
+      <structure id="o16167" name="cypsela">
+        <character name="shape" value="rounded" />
+        <character name="shape" value="terete" modifier="±" />
+        <character char_type="range_value" name="size" from="0.7" from_unit="mm" to="0.9" to_unit="mm" modifier="mostly" />
+      </structure>
+    </statement>
+    <statement id="768.txt-15">
+      <text>2 n = 26.</text>
+      <structure id="o16168" name="chromosome">
+        <character name="count" value="26" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Varieties 2 (2 in the flora):</number_of_infrataxa>
+  <general_distribution>s United States</general_distribution>
+  <general_distribution>n Mexico.</general_distribution>
+  <discussion>The two varieties of Diaperia verna intergrade within a broad band inland from the Gulf of Mexico in southeastern Texas. Though some specimens are difficult to assign with confidence, the varieties show enough correlated geographic and ecologic segregation to warrant taxonomic recognition.</discussion>
+  <discussion>As neotypified by J. D. Morefield (2004), the name Evax verna now applies to the taxon that de Candolle named E. multicaulis.</discussion>
+  <couplet>1.Pistillate paleae collectively hidden by thick lanuginose indument; heads ± campanulate, larg- est mostly 2–2.5 mm2a. Diaperia verna var. verna</couplet>
+  <couplet>1.Pistillate paleae individually visible through thin sericeous indument; heads ± spheric, largest mostly 2.5–3.3 mm2b. Diaperia verna var. drummondii</couplet>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>128.</number>
+  <genus_name>COTA</genus_name>
+  <authority>J. Gay ex Gussone</authority>
+  <place_of_publication>Fl. Sicul. Syn. 2: 866. 1845</place_of_publication>
+  <common_name />
+  <derivation>Possibly from pre-Linnaean generic name used as epithet in Anthemis cota Linnaeus</derivation>
+  <author_of_tribe_genus>Linda E. Watson</author_of_tribe_genus>
+  <description>
+    <statement id="953.txt-0">
+      <text>Perennials [annuals, biennials], [5–]30–90 cm (rhizomatous and/or stoloniferous; not notably aromatic).</text>
+      <structure id="o19661" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="5" to="30" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="30" from_unit="cm" to="90" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="953.txt-1">
+      <text>Stems 1–5+, ascending to erect, not much branched, ± villous to sericeous (hairs usually medifixed, rarely basifixed) [glabrescent, glabrate].</text>
+      <structure id="o19662" name="stem">
+        <character char_type="range_value" name="count" from="1" to="5" upper_restricted="false" />
+        <character char_type="range_value" name="orientation" from="ascending" to="erect" />
+        <character name="orientation" value="ascending" />
+        <character name="orientation" value="erect" />
+        <character name="architecture_or_shape" value="branched" modifier="not much" />
+        <character char_type="range_value" name="pubescence" from="villous" to="sericeous" modifier="±" />
+        <character name="pubescence" value="villous" modifier="±" />
+        <character name="pubescence" value="sericeous" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="953.txt-2">
+      <text>Leaves cauline;</text>
+    </statement>
+    <statement id="953.txt-3">
+      <text>alternate;</text>
+    </statement>
+    <statement id="953.txt-4">
+      <text>petiolate or sessile;</text>
+      <structure id="o19663" name="leaf">
+        <character name="insertion_or_position" value="cauline" />
+        <character name="arrangement" value="alternate" />
+        <character name="architecture" value="petiolate" />
+        <character name="architecture" value="sessile" />
+      </structure>
+    </statement>
+    <statement id="953.txt-5">
+      <text>blades obovate to oblanceolate or spatulate, (1–)2(–3)-pinnately[-subpalmately] lobed (primary lobes often pectinately divided), ultimate margins serrate or entire, faces ± villous to sericeous [glabrescent, glabrate].</text>
+      <structure id="o19664" name="blade">
+        <character char_type="range_value" name="shape" from="obovate" to="oblanceolate or spatulate" />
+        <character name="shape" value="obovate" />
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="spatulate" />
+        <character name="shape" value="lobed" modifier="1-2-3-pinnately" />
+      </structure>
+      <structure id="o19665" name="margin" constraint="ultimate">
+        <character name="shape" value="serrate" />
+        <character name="shape" value="entire" />
+      </structure>
+      <structure id="o19666" name="face">
+        <character char_type="range_value" name="pubescence" from="villous" to="sericeous" modifier="±" />
+        <character name="pubescence" value="villous" modifier="±" />
+        <character name="pubescence" value="sericeous" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="953.txt-6">
+      <text>Heads radiate [discoid], borne singly or in lax, corymbiform arrays (peduncles sometimes distally dilated).</text>
+      <structure id="o19667" name="head">
+        <character name="architecture_or_arrangement" value="radiate" />
+        <character name="arrangement" value="singly" />
+        <character name="arrangement" value="in lax , corymbiform arrays" />
+      </structure>
+      <structure id="o19668" name="array">
+        <character name="architecture" value="lax" />
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <relation id="r2053" name="in" from="o19667" to="o19668" negation="false" />
+    </statement>
+    <statement id="953.txt-7">
+      <text>Involucres hemispheric or broader [obconic], [5–]10–12[–20+] mm diam.</text>
+      <structure id="o19669" name="involucre">
+        <character name="shape" value="hemispheric" />
+        <character name="size" value="broader" />
+        <character char_type="range_value" name="atypical_size" from="5" to="10" from_unit="mm" to_unit="mm" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_size" from="12" to="20" from_unit="mm" to_unit="mm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="12" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="953.txt-8">
+      <text>Phyllaries persistent, 40–75+ in 3–5 series, distinct, deltate to lanceolate (often cartilaginous medially), unequal, margins and apices scarious (apices often mucronate to spinose, abaxial faces usually villous to arachnose).</text>
+      <structure id="o19670" name="phyllary">
+        <character name="duration" value="persistent" />
+        <character char_type="range_value" name="count" from="40" to="75" upper_restricted="false" constraint="in series" constraintid="o19671" />
+        <character name="fusion" value="distinct" />
+        <character char_type="range_value" name="shape" from="deltate" to="lanceolate" />
+        <character name="shape" value="deltate" />
+        <character name="shape" value="lanceolate" />
+        <character name="size" value="unequal" />
+      </structure>
+      <structure id="o19671" name="series">
+        <character char_type="range_value" name="count" from="3" to="5" />
+      </structure>
+      <structure id="o19672" name="margin" />
+      <structure id="o19673" name="apex">
+        <character name="texture" value="scarious" />
+      </structure>
+    </statement>
+    <statement id="953.txt-9">
+      <text>Receptacles ± hemispheric, paleate (throughout);</text>
+      <structure id="o19674" name="receptacle">
+        <character name="shape" value="hemispheric" modifier="±" />
+        <character name="architecture" value="paleate" />
+      </structure>
+    </statement>
+    <statement id="953.txt-10">
+      <text>paleae (persistent) ± flat, often cartilaginous (each proximally elliptic to oblong, distally ± subulate to spinose).</text>
+      <structure id="o19675" name="palea">
+        <character name="shape" value="flat" modifier="±" />
+        <character name="texture" value="cartilaginous" modifier="often" />
+      </structure>
+    </statement>
+    <statement id="953.txt-11">
+      <text>Ray florets [0] 12–21[–35+], pistillate and fertile, or styliferous and sterile;</text>
+      <structure id="o19676" name="floret" constraint="ray">
+        <character name="atypical_count" value="0" />
+        <character char_type="range_value" name="atypical_count" from="21" to="35" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="12" to="21" />
+        <character name="architecture" value="pistillate" />
+        <character name="reproduction" value="fertile" />
+        <character name="architecture" value="styliferous" />
+        <character name="reproduction" value="sterile" />
+      </structure>
+    </statement>
+    <statement id="953.txt-12">
+      <text>corollas yellow [white or pinkish], laminae oblong (often reflexed, marcescent in fruit).</text>
+      <structure id="o19677" name="corolla">
+        <character name="coloration" value="yellow" />
+      </structure>
+      <structure id="o19678" name="lamina">
+        <character name="shape" value="oblong" />
+      </structure>
+    </statement>
+    <statement id="953.txt-13">
+      <text>Disc florets 80–200+, bisexual, fertile;</text>
+      <structure id="o19679" name="floret" constraint="disc">
+        <character char_type="range_value" name="count" from="80" to="200" upper_restricted="false" />
+        <character name="reproduction" value="bisexual" />
+        <character name="reproduction" value="fertile" />
+      </structure>
+    </statement>
+    <statement id="953.txt-14">
+      <text>corollas yellow [white or pinkish], laminae oblong (often reflexed, marcescent in fruit). Disc florets 80–200+, bisexual, fertile; corollas yellow [pinkish], tubes ± compressed (bases not dilated, not clasping cypselae), throats funnelform, lobes 5, deltate (minutely crested abaxially near tips).</text>
+      <structure id="o19680" name="corolla">
+        <character name="coloration" value="yellow" />
+      </structure>
+      <structure id="o19681" name="tube">
+        <character name="shape" value="compressed" modifier="±" />
+      </structure>
+      <structure id="o19682" name="throat">
+        <character name="shape" value="funnelform" />
+      </structure>
+      <structure id="o19683" name="lobe">
+        <character name="count" value="5" />
+        <character name="shape" value="deltate" />
+      </structure>
+    </statement>
+    <statement id="953.txt-15">
+      <text>Cypselae obconic to prismatic (± 4-angled), ± ob-compressed or -flattened, ribs 0 or 2 lateral (sometimes winged) plus 3–10 finer ribs or nerves on each face, faces glabrous (pericarps with myxogenic cells; embryo sac development tetrasporic);</text>
+      <structure id="o19684" name="cypsela">
+        <character char_type="range_value" name="shape" from="obconic" to="prismatic" />
+        <character name="shape" value="obconic" />
+        <character name="shape" value="prismatic" />
+        <character name="shape" value="ob-compressed-or-flattened" modifier="±" />
+      </structure>
+      <structure id="o19685" name="rib">
+        <character name="count" value="0" />
+        <character name="count" value="2" />
+        <character name="insertion_or_position" value="lateral" />
+        <character char_type="range_value" name="count" from="3" to="10" />
+      </structure>
+      <structure id="o19686" name="rib">
+        <character name="texture" value="finer" />
+      </structure>
+      <structure id="o19687" name="nerve" />
+      <structure id="o19688" name="face" />
+      <relation id="r2054" name="on" from="o19687" to="o19688" negation="false" />
+      <structure id="o19689" name="face">
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="953.txt-16">
+      <text>pappi [0] coroniform.</text>
+      <structure id="o19690" name="pappus">
+        <character name="atypical_count" value="0" />
+        <character name="shape" value="coroniform" />
+      </structure>
+    </statement>
+    <statement id="953.txt-17">
+      <text>x = 9.</text>
+      <structure id="o19691" name="chromosome">
+        <character name="count" value="9" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species 40 (1 in the flora):</number_of_infrataxa>
+  <introduced>introduced;</introduced>
+  <general_distribution>Europe</general_distribution>
+  <general_distribution>sw Asia</general_distribution>
+  <general_distribution>n Africa.</general_distribution>
+  <discussion>Cota, sometimes a subgenus of Anthemis, is distinguished by its obcompressed and indistinctly ribbed cypselae; plants of Anthemis in narrow sense usually have ± terete cypselae with 10 distinct ribs. Additional differences include cytological, phytochemical, and molecular traits.</discussion>
+  <discussion>Apparently, Cota altissima (Linnaeus) Gay (Anthemis altissima Linnaeus) was reported from Oregon in error (L. Abrams and R. S. Ferris 1923–1960, vol. 4). No specimens of C. altissima from Oregon have been located, and the taxon has been specifically excluded from the Oregon Flora checklist (K. L. Chambers and S. Sundberg, www.oregonflora.org).</discussion>
+  <discussion>Cota austriaca (Jacquin) Schultz-Bipontinus (Anthemis austriaca Jacquin), a European species, has been reported as established near Pullman, Washington (specimen in UC); it differs from C. tinctoria in having an annual or biennial habit, subhirsute phyllaries, and white ray laminae (R. Fernandes 1976).</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

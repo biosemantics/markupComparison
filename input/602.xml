@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>80.</number>
+  <genus_name>PHALACROSERIS</genus_name>
+  <authority>A. Gray</authority>
+  <place_of_publication>Proc. Amer. Acad. Arts 7: 364. 1868</place_of_publication>
+  <common_name />
+  <derivation>Greek phalakros , bald-headed, and seris , a kind of endive</derivation>
+  <author_of_tribe_genus>Kenton L. Chambers</author_of_tribe_genus>
+  <description>
+    <statement id="602.txt-0">
+      <text>Perennials, 10–45 cm;</text>
+      <structure id="o12567" name="whole_organism">
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="45" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="602.txt-1">
+      <text>caudices and taproots fleshy, with blackish periderms.</text>
+      <structure id="o12568" name="caudex">
+        <character name="texture" value="fleshy" />
+      </structure>
+      <structure id="o12569" name="taproot">
+        <character name="texture" value="fleshy" />
+      </structure>
+      <structure id="o12570" name="periderm">
+        <character name="coloration" value="blackish" />
+      </structure>
+      <relation id="r1456" name="with" from="o12568" to="o12570" negation="false" />
+      <relation id="r1457" name="with" from="o12569" to="o12570" negation="false" />
+    </statement>
+    <statement id="602.txt-2">
+      <text>Stems 1(–5), erect, simple, scapiform, glabrous.</text>
+      <structure id="o12571" name="stem">
+        <character char_type="range_value" name="atypical_count" from="1" to="5" from_inclusive="false" />
+        <character name="count" value="1" />
+        <character name="orientation" value="erect" />
+        <character name="architecture" value="simple" />
+        <character name="shape" value="scapiform" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="602.txt-3">
+      <text>Leaves basal (in rosettes);</text>
+    </statement>
+    <statement id="602.txt-4">
+      <text>petiolate;</text>
+      <structure id="o12572" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="architecture" value="petiolate" />
+      </structure>
+    </statement>
+    <statement id="602.txt-5">
+      <text>blades linear to oblanceolate (± fleshy), margins entire (apices obtuse to acuminate).</text>
+      <structure id="o12573" name="blade">
+        <character char_type="range_value" name="shape" from="linear" to="oblanceolate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="oblanceolate" />
+      </structure>
+      <structure id="o12574" name="margin">
+        <character name="shape" value="entire" />
+      </structure>
+    </statement>
+    <statement id="602.txt-6">
+      <text>Heads borne singly (erect).</text>
+      <structure id="o12575" name="head">
+        <character name="arrangement" value="singly" />
+      </structure>
+    </statement>
+    <statement id="602.txt-7">
+      <text>Calyculi 0.</text>
+      <structure id="o12576" name="calyculus">
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+    <statement id="602.txt-8">
+      <text>Involucres ± campanulate, (3–)5–10 mm diam.</text>
+      <structure id="o12577" name="involucre">
+        <character name="shape" value="campanulate" modifier="±" />
+        <character char_type="range_value" name="atypical_size" from="3" to="5" from_unit="mm" to_unit="mm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="602.txt-9">
+      <text>Phyllaries 8–25 in 2–4 series, basally ± connate, ± lanceolate, equal or some outer shorter, herbaceous, apices acute.</text>
+      <structure id="o12578" name="phyllary">
+        <character char_type="range_value" name="count" from="8" to="25" constraint="in series" constraintid="o12579" />
+        <character name="fusion" value="connate" modifier="basally ±" />
+        <character name="shape" value="lanceolate" modifier="±" />
+        <character name="size" value="equal" />
+        <character name="position" value="outer" />
+        <character name="size" value="shorter" />
+        <character name="habit_or_texture" value="herbaceous" />
+      </structure>
+      <structure id="o12579" name="series">
+        <character char_type="range_value" name="count" from="2" to="4" />
+      </structure>
+      <structure id="o12580" name="apex">
+        <character name="shape" value="acute" />
+      </structure>
+    </statement>
+    <statement id="602.txt-10">
+      <text>Receptacles convex, smooth, glabrous, epaleate.</text>
+      <structure id="o12581" name="receptacle">
+        <character name="shape" value="convex" />
+        <character name="architecture_or_relief" value="smooth" />
+        <character name="pubescence" value="glabrous" />
+        <character name="architecture" value="epaleate" />
+      </structure>
+    </statement>
+    <statement id="602.txt-11">
+      <text>Florets 13–35;</text>
+      <structure id="o12582" name="floret">
+        <character char_type="range_value" name="count" from="13" to="35" />
+      </structure>
+    </statement>
+    <statement id="602.txt-12">
+      <text>corollas yellow.</text>
+      <structure id="o12583" name="corolla">
+        <character name="coloration" value="yellow" />
+      </structure>
+    </statement>
+    <statement id="602.txt-13">
+      <text>Cypselae brown with darker spots, columnar, truncate, not beaked, 4-nerved, smooth, glabrous;</text>
+      <structure id="o12584" name="cypsela">
+        <character name="shape" value="columnar" />
+        <character name="shape" value="truncate" />
+        <character name="shape" value="beaked" modifier="not" />
+        <character name="architecture" value="4-nerved" />
+        <character name="architecture_or_relief" value="smooth" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+      <structure id="o12585" name="spot">
+        <character name="coloration" value="brown with darker" />
+      </structure>
+    </statement>
+    <statement id="602.txt-14">
+      <text>pappi 0, or coroniform (less than 0.5 mm).</text>
+      <structure id="o12586" name="pappus">
+        <character name="count" value="0" />
+        <character name="shape" value="coroniform" />
+      </structure>
+    </statement>
+    <statement id="602.txt-15">
+      <text>x = 9.</text>
+      <structure id="o12587" name="chromosome">
+        <character name="count" value="9" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species 1:</number_of_infrataxa>
+  <general_distribution>California.</general_distribution>
+  <discussion>The simple vegetative and floral morphology, including absence of indument and pappus, have made the subtribal assignment of Phalacroseris somewhat problematic. Most recent authors have followed G. L. Stebbins (1953), placing the genus in Microseridinae (H. J. Price and K. Bachmann 1975; R. K. Jansen et al. 1991b). In current molecular phylogenetic studies (J. Lee et al. 2003), Phalacroseris forms a sister group to a clade containing both Microseridinae and Stephanomeriinae of Stebbins’s classification. It was made a separate subtribe, Phalacroseridinae, by Lee and B. G. Baldwin (2004). The genome of P. bolanderi is unusually large, containing 2.5 times the DNA found in perennial taxa of Microseris having 2n = 18 (Price and Bachmann).</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

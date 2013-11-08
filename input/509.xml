@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>7c.</number>
+  <variety_name>Agoseris apargioides (Lessing) Greene var. maritima</variety_name>
+  <authority>(E. Sheldon) G. I. Baird</authority>
+  <place_of_publication>Sida 21: 716. 2004</place_of_publication>
+  <common_name>Oregon agoseris</common_name>
+  <synonym_of_variety_name>Agoseris maritima E. Sheldon, Bull. Torrey Bot. Club 30: 310. 1903; A. apargioides subsp. maritima (E. Sheldon) Q. Jones</synonym_of_variety_name>
+  <description>
+    <statement id="509.txt-0">
+      <text>Leaves mostly erect;</text>
+      <structure id="o10372" name="leaf">
+        <character name="orientation" value="erect" modifier="mostly" />
+      </structure>
+    </statement>
+    <statement id="509.txt-1">
+      <text>blades oblanceolate, 4–10(–13) cm × 4–20 mm, margins entire, toothed, or lobed, lobes lanceolate to oblanceolate, faces glabrous or sparsely villous.</text>
+      <structure id="o10373" name="blade">
+        <character name="shape" value="oblanceolate" />
+        <character char_type="range_value" name="atypical_length" from="10" to="13" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="4" from_unit="cm" to="10" to_unit="cm" />
+        <character char_type="range_value" name="width" from="4" from_unit="mm" to="20" to_unit="mm" />
+      </structure>
+      <structure id="o10374" name="margin">
+        <character name="shape" value="entire" />
+        <character name="shape" value="toothed" />
+        <character name="shape" value="lobed" />
+      </structure>
+      <structure id="o10375" name="lobe">
+        <character char_type="range_value" name="shape" from="lanceolate" to="oblanceolate" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="oblanceolate" />
+      </structure>
+      <structure id="o10376" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="villous" modifier="sparsely" />
+      </structure>
+    </statement>
+    <statement id="509.txt-2">
+      <text>Phyllaries lanceolate to oblanceolate, margins glabrous or ciliate, faces glabrous or villous (hairs opaque, mostly whitish), mostly eglandular.</text>
+      <structure id="o10377" name="phyllary">
+        <character char_type="range_value" name="shape" from="lanceolate" to="oblanceolate" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="oblanceolate" />
+      </structure>
+      <structure id="o10378" name="margin">
+        <character name="pubescence" value="glabrous" />
+        <character name="architecture_or_shape" value="ciliate" />
+      </structure>
+      <structure id="o10379" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="villous" />
+        <character name="architecture" value="eglandular" modifier="mostly" />
+      </structure>
+    </statement>
+    <statement id="509.txt-3">
+      <text>Corollas ± equal to phyllaries at flowering, ligules 3–6 mm;</text>
+      <structure id="o10380" name="corolla" />
+      <structure id="o10381" name="phyllary" constraint="at flowering" />
+      <relation id="r1192" name="moreorless equal to" from="o10380" to="o10381" negation="false" />
+      <structure id="o10382" name="ligule">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="509.txt-4">
+      <text>anthers 1.5–2.5 mm.</text>
+      <structure id="o10383" name="anther">
+        <character char_type="range_value" name="size" from="1.5" from_unit="mm" to="2.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="509.txt-5">
+      <text>Cypselae ± monomorphic, whitish, not purplish, ribs ± ridged, straight, ± uniform.</text>
+      <structure id="o10384" name="cypsela">
+        <character name="habit" value="monomorphic" modifier="±" />
+        <character name="coloration" value="whitish" />
+        <character name="coloration" value="purplish" modifier="not" />
+      </structure>
+      <structure id="o10385" name="rib">
+        <character name="shape" value="ridged" modifier="±" />
+        <character name="course" value="straight" />
+        <character name="variability" value="uniform" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="509.txt-6">
+      <text>2 n = 36.</text>
+      <structure id="o10386" name="chromosome">
+        <character name="count" value="36" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>coastal dunes</habitat>
+  <habitat>sand hills</habitat>
+  <habitat>and beach heads</habitat>
+  <elevation>0–50 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <discussion>Variety maritima occurs from Humboldt Bay, California, to Neah Bay, Washington.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

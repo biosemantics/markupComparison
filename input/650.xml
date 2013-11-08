@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>17b.</number>
+  <subspecies_name>Antennaria howellii Greene subsp. howellii</subspecies_name>
+  <synonym_of_subspecies_name>Antennaria callilepis Greene; A. exima Greene</synonym_of_subspecies_name>
+  <description>
+    <statement id="650.txt-0">
+      <text>Plants 15–30 cm.</text>
+      <structure id="o13592" name="whole_organism">
+        <character char_type="range_value" name="size" from="15" from_unit="cm" to="30" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="650.txt-1">
+      <text>Stolons 1–4 cm.</text>
+      <structure id="o13593" name="stolon">
+        <character char_type="range_value" name="size" from="1" from_unit="cm" to="4" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="650.txt-2">
+      <text>Basal leaves 1–3-nerved, spatulate to oblanceolate, 25–40 × 9–12 mm, tips mucronate, faces abaxially tomentose, adaxially green-glabrous.</text>
+      <structure id="o13594" name="leaf" constraint="basal">
+        <character name="architecture" value="1-3-nerved" />
+        <character char_type="range_value" name="shape" from="spatulate" to="oblanceolate" />
+        <character name="shape" value="spatulate" />
+        <character name="shape" value="oblanceolate" />
+        <character char_type="range_value" name="length" from="25" from_unit="mm" to="40" to_unit="mm" />
+        <character char_type="range_value" name="width" from="9" from_unit="mm" to="12" to_unit="mm" />
+      </structure>
+      <structure id="o13595" name="tip">
+        <character name="shape" value="mucronate" />
+      </structure>
+      <structure id="o13596" name="face">
+        <character name="pubescence" value="tomentose" modifier="abaxially" />
+        <character name="pubescence" value="green-glabrous" modifier="adaxially" />
+      </structure>
+    </statement>
+    <statement id="650.txt-3">
+      <text>Cauline leaves linear, 20–40 mm, not flagged.</text>
+      <structure id="o13597" name="leaf" constraint="cauline">
+        <character name="arrangement_or_shape" value="linear" />
+        <character char_type="range_value" name="size" from="20" from_unit="mm" to="40" to_unit="mm" />
+        <character name="orientation" value="flagged" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="650.txt-4">
+      <text>Heads 5–12 in corymbiform arrays.</text>
+      <structure id="o13598" name="head">
+        <character char_type="range_value" name="count" from="5" to="12" constraint="in arrays" constraintid="o13599" />
+      </structure>
+      <structure id="o13599" name="array">
+        <character name="architecture" value="corymbiform" />
+      </structure>
+    </statement>
+    <statement id="650.txt-5">
+      <text>Involucres:</text>
+      <structure id="o13600" name="involucre" />
+    </statement>
+    <statement id="650.txt-6">
+      <text>staminate unknown;</text>
+      <structure id="o13601" name="involucre" constraint="staminate">
+        <character name="presence" value="unknown" />
+      </structure>
+    </statement>
+    <statement id="650.txt-7">
+      <text>pistillate 6–7.5 mm.</text>
+      <structure id="o13602" name="involucre" constraint="pistillate">
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="7.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="650.txt-8">
+      <text>Phyllaries distally light brown or white.</text>
+      <structure id="o13603" name="phyllary">
+        <character name="coloration" value="brown" modifier="distally ;light" />
+        <character name="coloration" value="white" modifier="distally" />
+      </structure>
+    </statement>
+    <statement id="650.txt-9">
+      <text>Corollas:</text>
+      <structure id="o13604" name="corolla" />
+    </statement>
+    <statement id="650.txt-10">
+      <text>pistillate 5–6 mm.</text>
+      <structure id="o13605" name="corolla" constraint="pistillate">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="650.txt-11">
+      <text>Cypselae 1.5–2 mm, notably papillate;</text>
+      <structure id="o13606" name="cypsela">
+        <character char_type="range_value" name="size" from="1.5" from_unit="mm" to="2" to_unit="mm" />
+        <character name="relief_or_pubescence" value="papillate" modifier="notably" />
+      </structure>
+    </statement>
+    <statement id="650.txt-12">
+      <text>pappi:</text>
+      <structure id="o13607" name="pappus" />
+    </statement>
+    <statement id="650.txt-13">
+      <text>pistillate 6–8 mm.</text>
+      <structure id="o13608" name="pappus" constraint="pistillate">
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="650.txt-14">
+      <text>2 n = 56, 84, 140 (under A. neodioica ).</text>
+      <structure id="o13609" name="chromosome">
+        <character name="count" value="56" />
+        <character name="count" value="84" />
+        <character name="count" value="140" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>pastures</habitat>
+  <habitat>dry fields</habitat>
+  <habitat>openings in deciduous woodlands and coniferous forests</habitat>
+  <habitat>and rock barrens</habitat>
+  <elevation>0–2200 m;</elevation>
+  <ca_distribution>Alta.</ca_distribution>
+  <ca_distribution>B.C.</ca_distribution>
+  <ca_distribution>Ont.</ca_distribution>
+  <ca_distribution>Sask.</ca_distribution>
+  <ca_distribution>Yukon</ca_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Minn.</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>S.Dak.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <us_distribution>Wis.</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <discussion>Subspecies howellii is most common in the western half of the range of Antennaria howellii. Based on morphology, this group of apomicts is closely related to A. racemosa of the northern Rockies (R. J. Bayer 1985) and, perhaps, to A. marginata of the southern Rockies.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

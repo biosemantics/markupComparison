@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>5.</number>
+  <species_name>Carduus tenuiflorus</species_name>
+  <authority>Curtis</authority>
+  <place_of_publication>Fl. Londin. 2(6,61): plate 55. 1789</place_of_publication>
+  <common_name>Slender-flowered thistle</common_name>
+  <synonym_of_species_name>Carduus pycnocephalus Linnaeus var. tenuiflorus (Curtis) Fiori</synonym_of_species_name>
+  <description>
+    <statement id="50.txt-0">
+      <text>Annuals , 20–200 cm.</text>
+      <structure id="o10077" name="whole_organism">
+        <character char_type="range_value" name="size" from="20" from_unit="cm" to="200" to_unit="cm" />
+        <character name="life_style" value="annual" />
+      </structure>
+    </statement>
+    <statement id="50.txt-1">
+      <text>Stems simple or openly branched, loosely tomentose with fine single-celled hairs and villous with curled, septate hairs;</text>
+      <structure id="o10078" name="stem">
+        <character name="architecture" value="simple" />
+        <character name="architecture" value="branched" modifier="openly" />
+        <character name="pubescence" value="tomentose" modifier="loosely" constraint="with hairs" constraintid="o10079" />
+      </structure>
+      <structure id="o10079" name="hair">
+        <character name="texture" value="fine" />
+        <character name="architecture" value="single-celled" />
+        <character name="pubescence" value="villous" constraint="with hairs" constraintid="o10080" />
+      </structure>
+      <structure id="o10080" name="hair">
+        <character name="shape" value="curled" />
+        <character name="architecture" value="septate" />
+      </structure>
+    </statement>
+    <statement id="50.txt-2">
+      <text>teeth of wings to 25 mm, wing spines to 15 mm.</text>
+      <structure id="o10081" name="tooth">
+        <character char_type="range_value" name="size" to="25" to_unit="mm" />
+      </structure>
+      <structure id="o10082" name="wing" />
+      <relation id="r1166" name="part_of" from="o10081" to="o10082" negation="false" />
+      <structure id="o10083" name="spine" constraint="wing">
+        <character char_type="range_value" name="size" to="15" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="50.txt-3">
+      <text>Leaves:</text>
+      <structure id="o10084" name="leaf" />
+    </statement>
+    <statement id="50.txt-4">
+      <text>basal tapered to winged petioles, blades 10–25 cm, margins pinnately 6–10-lobed, abaxial faces tomentose, adaxial faces loosely tomentose and villous or ± glabrate;</text>
+      <structure id="o10085" name="leaf" constraint="basal">
+        <character name="shape" value="tapered" />
+      </structure>
+      <structure id="o10086" name="petiole">
+        <character name="architecture" value="winged" />
+      </structure>
+      <structure id="o10087" name="blade">
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="25" to_unit="cm" />
+      </structure>
+      <structure id="o10088" name="margin">
+        <character name="shape" value="6-10-lobed" modifier="pinnately" />
+      </structure>
+      <structure id="o10089" name="face" constraint="abaxial">
+        <character name="pubescence" value="tomentose" />
+      </structure>
+      <structure id="o10090" name="face" constraint="adaxial">
+        <character name="pubescence" value="tomentose" modifier="loosely" />
+        <character name="pubescence" value="villous" />
+        <character name="pubescence" value="glabrate" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="50.txt-5">
+      <text>cauline sessile, shorter, less divided.</text>
+      <structure id="o10091" name="leaf" constraint="cauline">
+        <character name="architecture" value="sessile" />
+        <character name="size" value="shorter" />
+        <character name="shape" value="divided" modifier="less" />
+      </structure>
+    </statement>
+    <statement id="50.txt-6">
+      <text>Heads clustered in ± tight arrays of 5–20+ at ends of stems, usually sessile, 15–22 mm × 7–12 mm.</text>
+      <structure id="o10092" name="head">
+        <character name="arrangement_or_habit" value="clustered" constraint="in arrays" constraintid="o10093" />
+        <character name="architecture" value="sessile" modifier="usually" />
+        <character char_type="range_value" name="length" from="15" from_unit="mm" to="22" to_unit="mm" />
+        <character char_type="range_value" name="width" from="7" from_unit="mm" to="12" to_unit="mm" />
+      </structure>
+      <structure id="o10093" name="array">
+        <character name="texture" value="tight" modifier="±" />
+      </structure>
+      <structure id="o10094" name="end" />
+      <relation id="r1167" name="of 5-20+ at" from="o10093" to="o10094" negation="false" />
+      <structure id="o10095" name="stem" />
+      <relation id="r1168" name="part_of" from="o10094" to="o10095" negation="false" />
+    </statement>
+    <statement id="50.txt-7">
+      <text>Involucres cylindric to ellipsoid (appearing campanulate when pressed), 15–20 × 7–12 mm.</text>
+      <structure id="o10096" name="involucre">
+        <character char_type="range_value" name="shape" from="cylindric" to="ellipsoid" />
+        <character name="shape" value="cylindric" />
+        <character name="shape" value="ellipsoid" />
+        <character char_type="range_value" name="length" from="15" from_unit="mm" to="20" to_unit="mm" />
+        <character char_type="range_value" name="width" from="7" from_unit="mm" to="12" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="50.txt-8">
+      <text>Phyllaries linear-lanceolate, bases appressed, 2–2.5 mm wide, ± glabrate, and ascending, appendages 0.5–1.5 mm wide, narrowly scarious-margined, distally glabrous or minutely ciliolate, spine tips 1–2 mm, inner phyllaries with erect, straight, unarmed tips.</text>
+      <structure id="o10097" name="phyllary">
+        <character name="shape" value="linear-lanceolate" />
+      </structure>
+      <structure id="o10098" name="base">
+        <character name="orientation" value="appressed" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="2.5" to_unit="mm" />
+        <character name="pubescence" value="glabrate" modifier="±" />
+        <character name="orientation" value="ascending" />
+      </structure>
+      <structure id="o10099" name="appendage">
+        <character char_type="range_value" name="size" from="0.5" from_unit="mm" to="1.5" to_unit="mm" />
+        <character name="shape" value="scarious-margined" modifier="narrowly" />
+        <character name="pubescence" value="glabrous" modifier="distally" />
+        <character name="pubescence" value="ciliolate" modifier="minutely" />
+      </structure>
+      <structure id="o10100" name="tip" constraint="spine">
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="2" to_unit="mm" />
+      </structure>
+      <structure id="o10101" name="phyllary" constraint="inner" />
+      <structure id="o10102" name="tip">
+        <character name="orientation" value="erect" />
+        <character name="course" value="straight" />
+        <character name="architecture" value="unarmed" />
+      </structure>
+      <relation id="r1169" name="with" from="o10101" to="o10102" negation="false" />
+    </statement>
+    <statement id="50.txt-9">
+      <text>Corollas pinkish, 10–14 mm;</text>
+      <structure id="o10103" name="corolla">
+        <character name="coloration" value="pinkish" />
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="14" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="50.txt-10">
+      <text>lobes 1.5–2.5 times longer than throat.</text>
+      <structure id="o10104" name="lobe" />
+    </statement>
+    <statement id="50.txt-11">
+      <text>Cypselae brown, 4–5 mm, finely 10–13-nerved;</text>
+      <structure id="o10105" name="cypsela">
+        <character name="coloration" value="brown" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="5" to_unit="mm" />
+        <character name="architecture" value="10-13-nerved" modifier="finely" />
+      </structure>
+    </statement>
+    <statement id="50.txt-12">
+      <text>pappus bristles 10–15 mm.</text>
+      <structure id="o10106" name="bristle" constraint="pappus">
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="15" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="50.txt-13">
+      <text>2 n = 54.</text>
+      <structure id="o10107" name="chromosome">
+        <character name="count" value="54" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <habitat>aggressive weed of waste ground</habitat>
+  <habitat>pastures</habitat>
+  <habitat>roadsides</habitat>
+  <habitat>fields</habitat>
+  <elevation>0–1000 m;</elevation>
+  <introduced>introduced;</introduced>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <global_distribution>s Europe (Mediterranean region).</global_distribution>
+  <discussion>Carduus tenuiflorus has been reported from New Jersey, Texas, and Washington; I have not seen specimens from those states.</discussion>
+  <discussion>Carduus pycnocephalus and C. tenuiflorus are similar annuals with small, usually tightly clustered heads. The number of heads per capitulescence is usually ultimately greater in C. tenuiflorus, but early season plants of this species often have only a few heads. At the end of the growing season the fruiting heads of C. tenuiflorus are aggregated in dense, subspheric clusters. Stem wings tend to be more pronounced in C. tenuiflorus. Fresh corollas of C. pycnocephalus are rose-purple whereas those of C. tenuiflorus have a more pinkish tinge, but this difference is subtle and not reliable on herbarium material. The phyllaries of C. tenuiflorus are membranous-margined, more or less glabrate, and lack the short, stiff, upwardly appressed trichomes of C. pycnocephalus. All published chromosome counts for Carduus tenuiflorus from both Old and New World material are the same.</discussion>
+  <discussion>The two species sometimes grow in mixed populations and at times appear to intergrade. Hybridization has been reported in Europe (S. W. T. Batra et al. 1981) and is suspected to occur in California. Hybrids between C. pycnocephalus and C. tenuiflorus have been designated Carduus ×theriotii Rouy.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

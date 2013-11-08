@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>6.</number>
+  <genus_name>CHAPTALIA</genus_name>
+  <authority>Ventenat</authority>
+  <place_of_publication>Descr. Pl. Nouv., plate 61. 1802</place_of_publication>
+  <conserved>name conserved ·</conserved>
+  <common_name />
+  <derivation>For J. A. C. Chaptal, 1756–1831, who invented the wine-making process called chaptalization</derivation>
+  <author_of_tribe_genus>Guy L. Nesom</author_of_tribe_genus>
+  <description>
+    <statement id="19.txt-0">
+      <text>Perennials, 3–40(–100) cm (fibrous-rooted, sometimes rhizomatous; stems ± scapiform).</text>
+      <structure id="o2548" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="40" to="100" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="3" from_unit="cm" to="40" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="19.txt-1">
+      <text>Leaves basal;</text>
+    </statement>
+    <statement id="19.txt-2">
+      <text>sessile or ± petiolate;</text>
+      <structure id="o2549" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="architecture" value="sessile" />
+        <character name="architecture" value="petiolate" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="19.txt-3">
+      <text>blades elliptic or elliptic-obovate to obovate, obovate-elliptic, ovate, or sublyrate, bases cuneate, margins entire or denticulate, serrulate, or dentate to lobed, abaxial faces usually covered with dense wool, adaxial faces glabrous or glabrescent.</text>
+      <structure id="o2550" name="blade">
+        <character char_type="range_value" name="shape" from="elliptic-obovate" to="obovate , obovate-elliptic , ovate , or sublyrate" />
+        <character name="shape" value="elliptic" />
+        <character name="shape" value="elliptic-obovate" />
+        <character name="shape" value="obovate" />
+        <character name="shape" value="obovate-elliptic" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="sublyrate" />
+      </structure>
+      <structure id="o2551" name="base">
+        <character name="shape" value="cuneate" />
+      </structure>
+      <structure id="o2552" name="margin">
+        <character char_type="range_value" name="shape" from="denticulate , serrulate , or dentate" to="lobed" />
+        <character name="shape" value="entire" />
+        <character name="shape" value="denticulate" />
+        <character name="shape" value="serrulate" />
+        <character name="shape" value="dentate" />
+        <character name="shape" value="lobed" />
+      </structure>
+      <structure id="o2553" name="face" constraint="abaxial" />
+      <structure id="o2554" name="wool">
+        <character name="texture" value="dense" />
+      </structure>
+      <relation id="r364" name="covered with" from="o2553" to="o2554" negation="false" />
+      <structure id="o2555" name="face" constraint="adaxial">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="glabrescent" />
+      </structure>
+    </statement>
+    <statement id="19.txt-4">
+      <text>Heads quasi-radiate or ± disciform (see florets; chasmogamous, produced well after rosette leaves, erect in flowering, nodding or erect in bud and again in fruit), borne singly.</text>
+      <structure id="o2556" name="head">
+        <character name="architecture_or_arrangement" value="quasi-radiate" />
+        <character name="shape_or_architecture" value="disciform" modifier="±" />
+        <character name="arrangement" value="singly" />
+      </structure>
+    </statement>
+    <statement id="19.txt-5">
+      <text>Involucres cylindric to campanulate, (7–)9–15+ mm (larger in fruit).</text>
+      <structure id="o2557" name="involucre">
+        <character char_type="range_value" name="shape" from="cylindric" to="campanulate" />
+        <character name="shape" value="cylindric" />
+        <character name="shape" value="campanulate" />
+        <character char_type="range_value" name="atypical_size" from="7" to="9" from_unit="mm" to_unit="mm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="9" from_unit="mm" to="15" to_unit="mm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="19.txt-6">
+      <text>Phyllaries in 2–5+ series, lanceolate to lance-linear, unequal, apices acute.</text>
+      <structure id="o2558" name="phyllary">
+        <character char_type="range_value" name="shape" from="lanceolate" to="lance-linear" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="lance-linear" />
+        <character name="size" value="unequal" />
+      </structure>
+      <structure id="o2559" name="series">
+        <character char_type="range_value" name="count" from="2" to="5" upper_restricted="false" />
+      </structure>
+      <relation id="r365" name="in" from="o2558" to="o2559" negation="false" />
+      <structure id="o2560" name="apex">
+        <character name="shape" value="acute" />
+      </structure>
+    </statement>
+    <statement id="19.txt-7">
+      <text>Receptacles flat to convex, foveolate or smooth, glabrous, epaleate.</text>
+      <structure id="o2561" name="receptacle">
+        <character char_type="range_value" name="shape" from="flat" to="convex" />
+        <character name="shape" value="flat" />
+        <character name="shape" value="convex" />
+        <character name="relief" value="foveolate" />
+        <character name="relief" value="smooth" />
+        <character name="pubescence" value="glabrous" />
+        <character name="architecture" value="epaleate" />
+      </structure>
+    </statement>
+    <statement id="19.txt-8">
+      <text>Florets (dimorphic or trimorphic in 1–2 outer, pistillate zones plus 1 inner, bisexual or functionally staminate zone):</text>
+      <structure id="o2562" name="floret" />
+    </statement>
+    <statement id="19.txt-9">
+      <text>outer pistillate-zone florets 9–38(–90+) in 1–2(–3) series, fertile, corollas creamy white to purple (sometimes with adaxial midstripe), zygomorphic (liguliform or bilabiate, inner lip often bifurcate, limbs sometimes reduced, style branches terete and linear to flattened and oblong);</text>
+      <structure id="o2563" name="floret">
+        <character name="position" value="outer" />
+        <character char_type="range_value" name="atypical_count" from="38" to="90" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="9" to="38" constraint="in -3 series" constraintid="o2564" />
+        <character name="reproduction" value="fertile" />
+      </structure>
+      <structure id="o2564" name="series" constraint="-3">
+        <character char_type="range_value" name="count" from="1" to="2" />
+      </structure>
+      <structure id="o2565" name="corolla">
+        <character char_type="range_value" name="coloration" from="creamy-white" to="purple" />
+        <character name="coloration" value="white" modifier="creamy" />
+        <character name="coloration" value="purple" />
+        <character name="architecture" value="zygomorphic" />
+      </structure>
+    </statement>
+    <statement id="19.txt-10">
+      <text>inner pistillate-zone florets 0 or 3–50 in 1–2 series, fertile, corollas usually ± zygomorphic (with reduced laminae and inner lips), sometimes reduced to tubes;</text>
+      <structure id="o2566" name="floret">
+        <character name="position" value="inner" />
+        <character name="count" value="0" />
+        <character char_type="range_value" name="count" from="3" to="50" constraint="in series" constraintid="o2567" />
+        <character name="reproduction" value="fertile" />
+      </structure>
+      <structure id="o2567" name="series">
+        <character char_type="range_value" name="count" from="1" to="2" />
+      </structure>
+      <structure id="o2568" name="corolla">
+        <character name="architecture" value="zygomorphic" modifier="usually ±" />
+      </structure>
+      <structure id="o2569" name="tube" />
+      <relation id="r366" name="sometimes reduced to" from="o2568" to="o2569" negation="false" />
+    </statement>
+    <statement id="19.txt-11">
+      <text>innermost florets usually bisexual and fertile, sometimes functionally staminate, 15–40, corollas whitish to pinkish, usually zygomorphic (2-lipped, lobes recurved or coiling), sometimes nearly actinomorphic (lobes ± equal or lobes ± 0);</text>
+      <structure id="o2570" name="floret" constraint="innermost">
+        <character name="reproduction" value="bisexual" modifier="usually" />
+        <character name="reproduction" value="fertile" />
+        <character name="architecture" value="staminate" modifier="sometimes functionally" />
+        <character char_type="range_value" name="count" from="15" to="40" />
+      </structure>
+      <structure id="o2571" name="corolla">
+        <character char_type="range_value" name="coloration" from="whitish" to="pinkish" />
+        <character name="coloration" value="whitish" />
+        <character name="coloration" value="pinkish" />
+        <character name="architecture" value="zygomorphic" modifier="usually" />
+        <character name="architecture" value="actinomorphic" modifier="sometimes nearly" />
+      </structure>
+    </statement>
+    <statement id="19.txt-12">
+      <text>anther basal appendages entire, apical appendages lanceolate;</text>
+      <structure id="o2572" name="appendage" constraint="anther basal">
+        <character name="shape" value="entire" />
+      </structure>
+      <structure id="o2573" name="appendage" constraint="apical">
+        <character name="shape" value="lanceolate" />
+      </structure>
+    </statement>
+    <statement id="19.txt-13">
+      <text>style branches relatively short (abaxially pilose).</text>
+      <structure id="o2574" name="branch" constraint="style">
+        <character name="size" value="short" modifier="relatively" />
+      </structure>
+    </statement>
+    <statement id="19.txt-14">
+      <text>Cypselae fusiform, often slightly flattened, distally ± tapered into necks or beaks (0.5–1.6[–3] times bodies), ribs mostly 4–12, faces glabrous or hairy (hairs duplex, relatively short, apices rounded to apiculate), not glandular;</text>
+      <structure id="o2575" name="cypsela">
+        <character name="shape" value="fusiform" />
+        <character name="shape" value="flattened" modifier="often slightly" />
+        <character name="shape" value="tapered" modifier="distally ±" constraint="into necks, beaks" constraintid="o2576  o2577" />
+      </structure>
+      <structure id="o2576" name="neck" />
+      <structure id="o2577" name="beak" />
+      <structure id="o2578" name="rib">
+        <character char_type="range_value" name="count" from="4" to="12" modifier="mostly" />
+      </structure>
+      <structure id="o2579" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="hairy" />
+        <character name="architecture_or_exudation_or_pubescence" value="glandular" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="19.txt-15">
+      <text>pappi of 50+ stramineous to pinkish, barbellulate bristles.</text>
+      <structure id="o2580" name="pappus" />
+      <structure id="o2581" name="bristle">
+        <character name="count" char_type="range_value" from="50" upper_restricted="false" />
+        <character char_type="range_value" name="coloration" from="stramineous" to="pinkish" />
+        <character name="coloration" value="stramineous" />
+        <character name="coloration" value="pinkish" />
+        <character name="architecture" value="barbellulate" />
+      </structure>
+      <relation id="r367" name="consist_of" from="o2580" to="o2581" negation="false" />
+    </statement>
+    <statement id="19.txt-16">
+      <text>x = 24.</text>
+      <structure id="o2582" name="chromosome">
+        <character name="count" value="24" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species ca. 60 (3 in the flora):</number_of_infrataxa>
+  <general_distribution>North America</general_distribution>
+  <general_distribution>Central America</general_distribution>
+  <general_distribution>South America.</general_distribution>
+  <references>SELECTED REFERENCES Nesom, G. L. 1984. Taxonomy and distribution of Chaptalia dentata and C. albicans (Asteraceae: Mutisieae). Brittonia 36: 396–401. Nesom, G. L. 1995. Revision of Chaptalia (Asteraceae: Mutisieae) from North America and continental Central America. Phytologia 78: 153–188.</references>
+  <key>1.Heads erect in bud, flowering, and fruit; peduncles dilated distally; laminae of pistillate corollas 0.2–0.3 mm wide1. Chaptalia albicans</key>
+  <key>1.Heads nodding in bud and fruit, erect in flowering; peduncles not dilated distally; laminae of pistillate corollas 0.2–1.5 mm wide.</key>
+  <key>2.Leaves petiolate, blades mostly obovate to sublyrate; laminae of pistillate corollas evenly cream-colored (turning to crimson); central florets bisexual, fertile; uplands, Texas, New Mexico2. Chaptalia texana</key>
+  <key>2.Leaves sessile, blades elliptic to elliptic-obovate; laminae of pistillate corollas creamy white with purple, abaxial midstripe; central florets functionally staminate; coastal plain, North Carolina to Texas3. Chaptalia tomentosa</key>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

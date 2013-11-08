@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>17.</number>
+  <species_name>Pseudognaphalium californicum</species_name>
+  <authority>(de Candolle) Anderberg</authority>
+  <place_of_publication>Opera Bot. 104: 147. 1991</place_of_publication>
+  <common_name>California rabbit-tobacco</common_name>
+  <synonym_of_species_name>Gnaphalium californicum de Candolle in A. P. de Candolle and A. L. P. P. de Candolle, Prodr. 6: 224. 1838; G. decurrens Ives var. californicum (de Candolle) A. Gray</synonym_of_species_name>
+  <description>
+    <statement id="696.txt-0">
+      <text>Annuals, biennials, or perennials, 20–40 cm;</text>
+    </statement>
+    <statement id="696.txt-1">
+      <text>taprooted.</text>
+      <structure id="o14516" name="whole_organism">
+        <character char_type="range_value" name="size" from="20" from_unit="cm" to="40" to_unit="cm" />
+        <character name="life_style" value="annual" />
+        <character name="life_style" value="biennial" />
+        <character name="life_style" value="perennial" />
+        <character name="architecture" value="taprooted" />
+        <character name="life_style" value="biennial" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="696.txt-2">
+      <text>Stems stipitate-glandular, sometimes lightly villous as well.</text>
+      <structure id="o14519" name="stem">
+        <character name="architecture_or_exudation_or_pubescence" value="stipitate-glandular" />
+        <character name="pubescence" value="villous" modifier="sometimes lightly" />
+      </structure>
+    </statement>
+    <statement id="696.txt-3">
+      <text>Leaf blades mostly narrowly oblong-lanceolate, 4–10 cm × 5–10(–20) mm (relatively even-sized distally), bases auriculate-clasping to subclasping or not, decurrent (2–10 mm) or not, margins flat or slightly revolute, faces concolor, mostly green, stipitate-glandular, viscid, sometimes lightly villous as well.</text>
+      <structure id="o14520" name="blade" constraint="leaf">
+        <character name="shape" value="oblong-lanceolate" modifier="mostly narrowly" />
+        <character char_type="range_value" name="length" from="4" from_unit="cm" to="10" to_unit="cm" />
+        <character char_type="range_value" name="atypical_width" from="10" to="20" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="width" from="5" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+      <structure id="o14521" name="base">
+        <character name="architecture" value="auriculate-clasping" />
+        <character name="orientation" value="subclasping" />
+        <character name="orientation" value="subclasping" modifier="not" />
+        <character name="shape" value="decurrent" />
+        <character name="shape" value="decurrent" modifier="not" />
+      </structure>
+      <structure id="o14522" name="margin">
+        <character name="shape" value="flat" />
+        <character name="shape" value="revolute" modifier="slightly" />
+      </structure>
+      <structure id="o14523" name="face">
+        <character name="coloration" value="concolor" />
+        <character name="coloration" value="green" modifier="mostly" />
+        <character name="architecture_or_exudation_or_pubescence" value="stipitate-glandular" />
+        <character name="coating_or_texture" value="viscid" />
+        <character name="pubescence" value="villous" modifier="sometimes lightly" />
+      </structure>
+    </statement>
+    <statement id="696.txt-4">
+      <text>Heads in corymbiform arrays.</text>
+      <structure id="o14524" name="head" />
+      <structure id="o14525" name="array">
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <relation id="r1559" name="in" from="o14524" to="o14525" negation="false" />
+    </statement>
+    <statement id="696.txt-5">
+      <text>Involucres campanulo-globose, 5.5–7 mm.</text>
+      <structure id="o14526" name="involucre">
+        <character name="shape" value="campanulo-globose" />
+        <character char_type="range_value" name="size" from="5.5" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="696.txt-6">
+      <text>Phyllaries in 7–10 series, white (opaque, shiny or dull), broadly ovate to oblong-obovate, glabrous.</text>
+      <structure id="o14527" name="phyllary">
+        <character name="coloration" value="white" />
+        <character char_type="range_value" name="shape" from="broadly ovate" to="oblong-obovate" />
+        <character name="shape" value="ovate" modifier="broadly" />
+        <character name="shape" value="oblong-obovate" modifier="broadly" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+      <structure id="o14528" name="series">
+        <character char_type="range_value" name="count" from="7" to="10" />
+      </structure>
+      <relation id="r1560" name="in" from="o14527" to="o14528" negation="false" />
+    </statement>
+    <statement id="696.txt-7">
+      <text>Pistillate florets 105–140.</text>
+      <structure id="o14529" name="floret" constraint="pistillate">
+        <character char_type="range_value" name="count" from="105" to="140" />
+      </structure>
+    </statement>
+    <statement id="696.txt-8">
+      <text>Bisexual florets 7–12.</text>
+      <structure id="o14530" name="floret" constraint="bisexual">
+        <character char_type="range_value" name="count" from="7" to="12" />
+      </structure>
+    </statement>
+    <statement id="696.txt-9">
+      <text>Cypselae ridged, smooth.</text>
+      <structure id="o14531" name="cypsela">
+        <character name="shape" value="ridged" />
+        <character name="architecture_or_relief" value="smooth" />
+      </structure>
+    </statement>
+    <statement id="696.txt-10">
+      <text>2 n = 28.</text>
+      <structure id="o14532" name="chromosome">
+        <character name="count" value="28" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <habitat>sandy canyons</habitat>
+  <habitat>dry hills</habitat>
+  <habitat>coastal chaparral</habitat>
+  <elevation>60–800 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <global_distribution>Mexico (Baja California).</global_distribution>
+  <discussion>Leaf insertion in Pseudognaphalium californicum is unusually variable: bases may be clasping to subclasping without decurrent margins or decurrent and not show any clasping tendency.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

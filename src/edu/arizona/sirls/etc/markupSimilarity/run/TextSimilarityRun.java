@@ -31,8 +31,8 @@ public class TextSimilarityRun implements IRun {
 		try {
 			Score ab = similarityCalculator.getSimilarity(a, b);
 			Score ac = similarityCalculator.getSimilarity(a, c);
-			SimilarityResult abResult = new SimilarityResult(a, b, ab);
-			SimilarityResult acResult = new SimilarityResult(a, c, ac);
+			SimilarityResult abResult = new SimilarityResult(a, "a", b, "b", ab);
+			SimilarityResult acResult = new SimilarityResult(a, "a", c, "c", ac);
 			List<SimilarityResult> results = new LinkedList<SimilarityResult>();
 			results.add(abResult);
 			results.add(acResult);

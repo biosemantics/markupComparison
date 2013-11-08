@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Dimorphotheca sinuata</species_name>
+  <authority>de Candolle</authority>
+  <place_of_publication>in A. P. de Candolle and A. L. P. P. de Candolle, Prodr. 6: 72. 1838</place_of_publication>
+  <description>
+    <statement id="616.txt-0">
+      <text>Annuals, 5–30+ cm.</text>
+      <structure id="o12892" name="whole_organism">
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="30" to_unit="cm" upper_restricted="false" />
+        <character name="life_style" value="annual" />
+      </structure>
+    </statement>
+    <statement id="616.txt-1">
+      <text>Leaf blades narrowly oblong or oblanceolate to linear, 10–50(–100+) × 2–20(–30+) mm, margins usually sinuately denticulate, sometimes serrate or entire, rarely pinnati-fid.</text>
+      <structure id="o12893" name="blade" constraint="leaf">
+        <character char_type="range_value" name="shape" from="oblanceolate" to="linear" />
+        <character name="shape" value="oblong" modifier="narrowly" />
+        <character name="shape" value="oblanceolate" modifier="narrowly" />
+        <character name="shape" value="linear" modifier="narrowly" />
+        <character char_type="range_value" name="atypical_length" from="50" to="100" from_unit="mm" to_unit="mm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="10" from_unit="mm" to="50" to_unit="mm" />
+        <character char_type="range_value" name="atypical_width" from="20" to="30" from_unit="mm" to_unit="mm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="width" from="2" from_unit="mm" to="20" to_unit="mm" />
+      </structure>
+      <structure id="o12894" name="margin">
+        <character name="shape" value="denticulate" modifier="usually sinuately" />
+        <character name="shape" value="serrate" modifier="sometimes" />
+        <character name="shape" value="entire" />
+        <character name="shape" value="pinnati-fid" modifier="rarely" />
+      </structure>
+    </statement>
+    <statement id="616.txt-2">
+      <text>Peduncles (2–)5–15+ cm.</text>
+      <structure id="o12895" name="peduncle">
+        <character char_type="range_value" name="atypical_size" from="2" to="5" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="15" to_unit="cm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="616.txt-3">
+      <text>Phyllaries 6–12+ mm.</text>
+      <structure id="o12896" name="phyllary">
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="12" to_unit="mm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="616.txt-4">
+      <text>Ray corolla laminae abaxially yellow to orange (often marked with purple), adaxially mostly yellow to orange (sometimes purplish at bases and/or apices), 15–20(–30+) mm.</text>
+      <structure id="o12897" name="lamina" constraint="ray corolla">
+        <character char_type="range_value" name="coloration" from="abaxially yellow" to="orange , adaxially mostly yellow" />
+        <character name="coloration" value="yellow" modifier="abaxially" />
+        <character name="coloration" value="orange" modifier="abaxially" />
+        <character name="coloration" value="yellow" modifier="adaxially mostly" />
+        <character name="coloration" value="orange" modifier="adaxially mostly" />
+        <character char_type="range_value" name="atypical_size" from="20" to="30" from_unit="mm" to_unit="mm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="15" from_unit="mm" to="20" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="616.txt-5">
+      <text>Disc florets 15–50+;</text>
+      <structure id="o12898" name="floret" constraint="disc">
+        <character char_type="range_value" name="count" from="15" to="50" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="616.txt-6">
+      <text>corollas yellow to orange, usually purplish distally, 4–5 mm (lobe apices acute, terete, or dilated).</text>
+      <structure id="o12899" name="corolla">
+        <character name="coloration" value="yellow" />
+        <character name="coloration" value="orange" />
+        <character name="coloration" value="purplish" modifier="usually ; distally" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="616.txt-7">
+      <text>Ray cypselae 4–5 mm;</text>
+      <structure id="o12900" name="cypsela" constraint="ray">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="616.txt-8">
+      <text>disc cypselae 6–8 mm.</text>
+      <structure id="o12901" name="cypsela" constraint="disc">
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="616.txt-9">
+      <text>2 n = 18.</text>
+      <structure id="o12902" name="chromosome">
+        <character name="count" value="18" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>dec</flowering_time>
+  <flowering_time>winter</flowering_time>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <habitat>disturbed places</habitat>
+  <elevation>0–1000 m;</elevation>
+  <introduced>introduced;</introduced>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <global_distribution>South Africa.</global_distribution>
+  <discussion>Plants treated here (and in horticultural trade) as Dimorphotheca sinuata are sometimes called “D. aurantiaca Hort., non de Candolle” and/or “D. calendulacea Harvey.” But for corolla colors, plants of D. sinuata are not easily distinguished from plants called D. pluvialis. They may prove to be better considered a color form of D. pluvialis.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

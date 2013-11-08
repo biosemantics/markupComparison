@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>3.</number>
+  <species_name>Krigia montana</species_name>
+  <authority>(Michaux) Nuttall</authority>
+  <place_of_publication>Gen. N. Amer. Pl. 2: 127. 1818</place_of_publication>
+  <common_name>Mountain dwarfdandelion</common_name>
+  <synonym_of_species_name>Hyoseris montana Michaux, Fl. Bor.-Amer. 2: 87. 1803; Cynthia montana (Michaux) Standley</synonym_of_species_name>
+  <description>
+    <statement id="580.txt-0">
+      <text>Perennials, 20–50 cm ;</text>
+      <structure id="o12009" name="whole_organism">
+        <character char_type="range_value" name="size" from="20" from_unit="cm" to="50" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="580.txt-1">
+      <text>caudices fibrous-rooted, stout, often branched.</text>
+      <structure id="o12010" name="caudex">
+        <character name="architecture" value="fibrous-rooted" />
+        <character name="fragility" value="stout" />
+        <character name="architecture_or_shape" value="branched" modifier="often" />
+      </structure>
+    </statement>
+    <statement id="580.txt-2">
+      <text>Stems 1–5+, usually decumbent proximally, ascending and branched distally, glabrous, eglandular.</text>
+      <structure id="o12011" name="stem">
+        <character char_type="range_value" name="count" from="1" to="5" upper_restricted="false" />
+        <character name="habit" value="decumbent" modifier="usually ; proximally" />
+        <character name="orientation" value="ascending" />
+        <character name="architecture_or_shape" value="branched" modifier="distally" />
+        <character name="pubescence" value="glabrous" />
+        <character name="architecture" value="eglandular" />
+      </structure>
+    </statement>
+    <statement id="580.txt-3">
+      <text>Leaves basal and cauline;</text>
+    </statement>
+    <statement id="580.txt-4">
+      <text>petiolate ;</text>
+      <structure id="o12012" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="architecture" value="petiolate" />
+      </structure>
+    </statement>
+    <statement id="580.txt-5">
+      <text>blades narrowly oblanceolate, apices acute, faces glabrous, eglandular;</text>
+      <structure id="o12013" name="blade">
+        <character name="shape" value="oblanceolate" modifier="narrowly" />
+      </structure>
+      <structure id="o12014" name="apex">
+        <character name="shape" value="acute" />
+      </structure>
+      <structure id="o12015" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="architecture" value="eglandular" />
+      </structure>
+    </statement>
+    <statement id="580.txt-6">
+      <text>basal 5–30 cm, margins denticulate to pinnately lobed, lobes broad and blunt or narrow, curving, and acute;</text>
+      <structure id="o12016" name="leaf" constraint="basal">
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="30" to_unit="cm" />
+      </structure>
+      <structure id="o12017" name="margin">
+        <character char_type="range_value" name="shape" from="denticulate" to="pinnately lobed" />
+        <character name="shape" value="denticulate" />
+        <character name="shape" value="lobed" modifier="pinnately" />
+      </structure>
+      <structure id="o12018" name="lobe">
+        <character name="shape" value="blunt" />
+        <character name="size" value="narrow" />
+        <character name="shape" value="curving" />
+        <character name="shape" value="acute" />
+      </structure>
+    </statement>
+    <statement id="580.txt-7">
+      <text>cauline becoming linear and reduced distally.</text>
+      <structure id="o12019" name="leaf" constraint="cauline">
+        <character name="arrangement_or_shape" value="linear" modifier="becoming" />
+        <character name="size" value="reduced" modifier="distally" />
+      </structure>
+    </statement>
+    <statement id="580.txt-8">
+      <text>Heads (2–)3–20+.</text>
+      <structure id="o12020" name="head">
+        <character char_type="range_value" name="atypical_count" from="2" to="3" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="3" to="20" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="580.txt-9">
+      <text>Peduncles terminal on leafy branches or in axils of cauline leaves and bracts (first sometimes scapiform from basal rosettes; usually glabrous, sometimes lightly glandular distally).</text>
+      <structure id="o12021" name="peduncle">
+        <character name="insertion_or_position" value="terminal" constraint="on branches" constraintid="o12022" />
+      </structure>
+      <structure id="o12022" name="branch">
+        <character name="architecture" value="leafy" />
+      </structure>
+      <structure id="o12023" name="axil" />
+      <relation id="r1399" name="in" from="o12021" to="o12023" negation="false" />
+      <structure id="o12024" name="leaf" constraint="cauline" />
+      <structure id="o12025" name="bract" />
+      <relation id="r1400" name="part_of" from="o12023" to="o12024" negation="false" />
+      <relation id="r1401" name="part_of" from="o12023" to="o12025" negation="false" />
+    </statement>
+    <statement id="580.txt-10">
+      <text>Involucres 7–12 mm.</text>
+      <structure id="o12026" name="involucre">
+        <character char_type="range_value" name="size" from="7" from_unit="mm" to="12" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="580.txt-11">
+      <text>Phyllaries 8–16, reflexed in fruit, lanceolate, midveins obscure, apices acute, glabrous.</text>
+      <structure id="o12027" name="phyllary">
+        <character char_type="range_value" name="count" from="8" to="16" />
+        <character name="orientation" value="reflexed" constraint="in fruit" constraintid="o12028" />
+        <character name="shape" value="lanceolate" />
+      </structure>
+      <structure id="o12028" name="fruit" />
+      <structure id="o12029" name="midvein">
+        <character name="manifestation" value="obscure" />
+      </structure>
+      <structure id="o12030" name="apex">
+        <character name="shape" value="acute" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="580.txt-12">
+      <text>Florets 25–60;</text>
+      <structure id="o12031" name="floret">
+        <character char_type="range_value" name="count" from="25" to="60" />
+      </structure>
+    </statement>
+    <statement id="580.txt-13">
+      <text>corollas yellow, 15–25 mm.</text>
+      <structure id="o12032" name="corolla">
+        <character name="coloration" value="yellow" />
+        <character char_type="range_value" name="size" from="15" from_unit="mm" to="25" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="580.txt-14">
+      <text>Cypselae brown, columnar, 2–2.8 mm, 12–15-ribbed;</text>
+      <structure id="o12033" name="cypsela">
+        <character name="coloration" value="brown" />
+        <character name="shape" value="columnar" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="2.8" to_unit="mm" />
+        <character name="architecture_or_shape" value="12-15-ribbed" />
+      </structure>
+    </statement>
+    <statement id="580.txt-15">
+      <text>pappi of 10–16 outer scales 0.5–0.8 mm plus 14–20, scabrous inner bristles 4.5–6 mm.</text>
+      <structure id="o12034" name="pappus">
+        <character char_type="range_value" name="count" from="14" to="20" />
+      </structure>
+      <structure id="o12035" name="scale" constraint="outer">
+        <character char_type="range_value" name="count" from="10" to="16" />
+        <character char_type="range_value" name="size" from="0.5" from_unit="mm" to="0.8" to_unit="mm" />
+      </structure>
+      <relation id="r1402" name="consist_of" from="o12034" to="o12035" negation="false" />
+      <structure id="o12036" name="bristle" constraint="inner">
+        <character name="pubescence_or_relief" value="scabrous" />
+        <character char_type="range_value" name="size" from="4.5" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="580.txt-16">
+      <text>2 n = 20.</text>
+      <structure id="o12037" name="chromosome">
+        <character name="count" value="20" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>may</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>gravelly soils and wet mossy crevices on granite cliffs</habitat>
+  <habitat>rock slides</habitat>
+  <habitat>rocky road banks</habitat>
+  <habitat>and heath balds</habitat>
+  <elevation>700–1900 m;</elevation>
+  <us_distribution>Ga.</us_distribution>
+  <us_distribution>N.C.</us_distribution>
+  <us_distribution>S.C.</us_distribution>
+  <us_distribution>Tenn.</us_distribution>
+  <discussion>Krigia montana is known from the high-elevation Appalachian ecosystem. In Buncombe County, North Carolina, there is an established population of the hexaploid hybrid between K. montana and K. biflora, Krigia ×shinnersiana K. L. Chambers (2004). It has been studied extensively on a molecular basis (K. J. Kim and T. J. Mabry 1991; Kim et al. 1992b, 1992c; Kim and R. K. Jansen 1994). Chloroplast and nuclear DNA data indicate that K. biflora was the maternal parent and K. montana the paternal parent. Krigia ×shinnersiana is leafy-stemmed but shows less branching than is typical of K. montana, and its flower color is intermediate between the orange of K. biflora and the yellow of K. montana. The plants propagate extensively by root buds as in the maternal parent.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

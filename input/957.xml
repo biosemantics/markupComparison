@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>2.</number>
+  <species_name>Tripleurospermum maritimum</species_name>
+  <authority>(Linnaeus) W. D. J. Koch</authority>
+  <place_of_publication>Syn. Fl. Germ. Helv. ed. 2, 1026. 1845</place_of_publication>
+  <common_name>False mayweed</common_name>
+  <synonym_of_species_name>Matricaria maritima Linnaeus, Sp. Pl. 2: 891. 1753; Chamomilla maritima (Linnaeus) Rydberg</synonym_of_species_name>
+  <description>
+    <statement id="957.txt-0">
+      <text>Perennials (sometimes biennials), 10–50(–80) cm.</text>
+      <structure id="o19750" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="50" to="80" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="50" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="957.txt-1">
+      <text>Stems 1–5+, usually procumbent, sometimes ascending (± erect), branched distally, glabrous or sparsely hairy.</text>
+      <structure id="o19751" name="stem">
+        <character char_type="range_value" name="count" from="1" to="5" upper_restricted="false" />
+        <character name="habit" value="procumbent" modifier="usually" />
+        <character name="orientation" value="ascending" modifier="sometimes" />
+        <character name="architecture_or_shape" value="branched" modifier="distally" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="hairy" modifier="sparsely" />
+      </structure>
+    </statement>
+    <statement id="957.txt-2">
+      <text>Leaf blades 2–8 cm, ultimate lobes ± cylindric, 4–20 mm, ± fleshy, apices obtuse or mucronate.</text>
+      <structure id="o19752" name="blade" constraint="leaf">
+        <character char_type="range_value" name="size" from="2" from_unit="cm" to="8" to_unit="cm" />
+      </structure>
+      <structure id="o19753" name="lobe" constraint="ultimate">
+        <character name="shape" value="cylindric" modifier="±" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="20" to_unit="mm" />
+        <character name="texture" value="fleshy" modifier="±" />
+      </structure>
+      <structure id="o19754" name="apex">
+        <character name="shape" value="obtuse" />
+        <character name="shape" value="mucronate" />
+      </structure>
+    </statement>
+    <statement id="957.txt-3">
+      <text>Heads (3–)10–50 in corymbiform arrays or borne singly.</text>
+      <structure id="o19755" name="head">
+        <character char_type="range_value" name="atypical_count" from="3" to="10" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="10" to="50" constraint="in arrays" constraintid="o19756" />
+        <character name="arrangement" value="singly" />
+      </structure>
+      <structure id="o19756" name="array">
+        <character name="architecture" value="corymbiform" />
+      </structure>
+    </statement>
+    <statement id="957.txt-4">
+      <text>Phyllaries centrally dark greenish or brownish, oblong to narrowly triangular or broadly triangular, unequal, scarious margins pale to dark brown or blackish brown, 0.2–1 mm wide.</text>
+      <structure id="o19757" name="phyllary">
+        <character name="coloration" value="greenish" modifier="centrally ;dark" />
+        <character name="coloration" value="brownish" modifier="centrally" />
+        <character char_type="range_value" name="shape" from="oblong" to="narrowly triangular or broadly triangular" />
+        <character name="shape" value="oblong" />
+        <character name="shape" value="triangular" modifier="narrowly" />
+        <character name="shape" value="triangular" modifier="broadly" />
+        <character name="size" value="unequal" />
+      </structure>
+      <structure id="o19758" name="margin">
+        <character name="texture" value="scarious" />
+        <character char_type="range_value" name="coloration" from="pale" to="dark-brown or blackish-brown" />
+        <character name="coloration" value="pale" />
+        <character name="coloration" value="brown" modifier="dark" />
+        <character name="coloration" value="brown" modifier="blackish" />
+        <character char_type="range_value" name="size" from="0.2" from_unit="mm" to="1" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="957.txt-5">
+      <text>Ray florets 10–34+;</text>
+      <structure id="o19759" name="floret" constraint="ray">
+        <character char_type="range_value" name="count" from="10" to="34" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="957.txt-6">
+      <text>corollas 10–16[–20] mm.</text>
+      <structure id="o19760" name="corolla">
+        <character char_type="range_value" name="atypical_size" from="16" to="20" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="16" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="957.txt-7">
+      <text>Disc corollas ca. 2.5 mm.</text>
+      <structure id="o19761" name="corolla" constraint="disc">
+        <character name="size" value="2.5" unit="mm" />
+      </structure>
+    </statement>
+    <statement id="957.txt-9">
+      <text>2n = 18, 36.</text>
+      <structure id="o19762" name="chromosome">
+        <character name="count" value="18" />
+        <character name="count" value="36" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Subspecies 3 (2 in the flora):</number_of_infrataxa>
+  <general_distribution>North America</general_distribution>
+  <general_distribution>Eurasia.</general_distribution>
+  <couplet>1.Phyllaries oblong or narrowly triangular, scarious margins pale to dark brown, 0.2–0.4 mm wide; cypselae: resin gland lengths often much more than twice widths; coastal ne North America2a. Tripleurospermum maritimum</couplet>
+  <couplet>subsp. maritimum</couplet>
+  <couplet>1.Phyllaries broadly triangular, scarious margins blackish brown, 0.4–1 mm wide; cypselae: resin gland lengths usually little more than twice widths; coastal arctic2b. Tripleurospermum maritimum</couplet>
+  <couplet>subsp. phaeocephalum</couplet>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

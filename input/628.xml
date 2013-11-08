@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>3.</number>
+  <species_name>Antennaria argentea</species_name>
+  <authority>Bentham</authority>
+  <place_of_publication>Pl. Hartw., 319. 1849</place_of_publication>
+  <common_name>Silver pussytoes</common_name>
+  <description>
+    <statement id="628.txt-0">
+      <text>Dioecious.</text>
+      <structure id="o13159" name="whole_organism">
+        <character name="reproduction" value="dioecious" />
+      </structure>
+    </statement>
+    <statement id="628.txt-1">
+      <text>Plants 18–40 cm.</text>
+      <structure id="o13160" name="whole_organism">
+        <character char_type="range_value" name="size" from="18" from_unit="cm" to="40" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="628.txt-2">
+      <text>Stolons none.</text>
+      <structure id="o13161" name="stolon" />
+    </statement>
+    <statement id="628.txt-3">
+      <text>Basal leaves:</text>
+    </statement>
+    <statement id="628.txt-4">
+      <text>1–3-nerved, oblanceolate to elliptic, 20–50 × 4–15 mm, tips acute, faces ± gray-tomentose.</text>
+      <structure id="o13162" name="leaf" constraint="basal">
+        <character name="architecture" value="1-3-nerved" />
+        <character char_type="range_value" name="shape" from="oblanceolate" to="elliptic" />
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="elliptic" />
+        <character char_type="range_value" name="length" from="20" from_unit="mm" to="50" to_unit="mm" />
+        <character char_type="range_value" name="width" from="4" from_unit="mm" to="15" to_unit="mm" />
+      </structure>
+      <structure id="o13163" name="tip">
+        <character name="shape" value="acute" />
+      </structure>
+      <structure id="o13164" name="face">
+        <character name="pubescence" value="gray-tomentose" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="628.txt-5">
+      <text>Cauline leaves lanceolate, 15–45 mm, not flagged.</text>
+      <structure id="o13165" name="leaf" constraint="cauline">
+        <character name="shape" value="lanceolate" />
+        <character char_type="range_value" name="size" from="15" from_unit="mm" to="45" to_unit="mm" />
+        <character name="orientation" value="flagged" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="628.txt-6">
+      <text>Heads 10–75 in pani-culiform arrays.</text>
+      <structure id="o13166" name="head">
+        <character char_type="range_value" name="count" from="10" to="75" constraint="in arrays" constraintid="o13167" />
+      </structure>
+      <structure id="o13167" name="array">
+        <character name="architecture" value="pani-culiform" />
+      </structure>
+    </statement>
+    <statement id="628.txt-7">
+      <text>Involucres:</text>
+      <structure id="o13168" name="involucre" />
+    </statement>
+    <statement id="628.txt-8">
+      <text>staminate 4–5 mm;</text>
+      <structure id="o13169" name="involucre" constraint="staminate">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="628.txt-9">
+      <text>pistillate 4–5 mm.</text>
+      <structure id="o13170" name="involucre" constraint="pistillate">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="628.txt-10">
+      <text>Phyllaries (relatively broad) distally silvery white.</text>
+      <structure id="o13171" name="phyllary">
+        <character name="coloration" value="white" modifier="distally;silvery" />
+      </structure>
+    </statement>
+    <statement id="628.txt-11">
+      <text>Corollas:</text>
+      <structure id="o13172" name="corolla" />
+    </statement>
+    <statement id="628.txt-12">
+      <text>staminate 2.5–3.5 mm;</text>
+      <structure id="o13173" name="corolla" constraint="staminate">
+        <character char_type="range_value" name="size" from="2.5" from_unit="mm" to="3.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="628.txt-13">
+      <text>pistillate 3–4 mm.</text>
+      <structure id="o13174" name="corolla" constraint="pistillate">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="628.txt-14">
+      <text>Cypselae 1–1.5 mm, glandular;</text>
+      <structure id="o13175" name="cypsela">
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="1.5" to_unit="mm" />
+        <character name="architecture_or_exudation_or_pubescence" value="glandular" />
+      </structure>
+    </statement>
+    <statement id="628.txt-15">
+      <text>pappi:</text>
+      <structure id="o13176" name="pappus" />
+    </statement>
+    <statement id="628.txt-16">
+      <text>staminate 4–5 mm;</text>
+      <structure id="o13177" name="pappus" constraint="staminate">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="628.txt-17">
+      <text>pistillate 3–4 mm.</text>
+      <structure id="o13178" name="pappus" constraint="pistillate">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="628.txt-18">
+      <text>2 n = 28.</text>
+      <structure id="o13179" name="chromosome">
+        <character name="count" value="28" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>openings in dry coniferous forests</habitat>
+  <elevation>600–2000 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <discussion>Antennaria argentea is distinguished by its robustly stoloniferous habit and silvery white phyllaries.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

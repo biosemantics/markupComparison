@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>2a.</number>
+  <variety_name>Filago pyramidata Linnaeus var. pyramidata</variety_name>
+  <description>
+    <statement id="744.txt-0">
+      <text>Leaves:</text>
+      <structure id="o15657" name="leaf" />
+    </statement>
+    <statement id="744.txt-2">
+      <text>longest distal capitular leaves 1.3–2 times head heights, obtuse.</text>
+      <structure id="o15658" name="leaf" constraint="longest distal capitular">
+        <character char_type="range_value" name="size" from="1.3" to="2" constraint="times head" constraintid="o15659" />
+        <character name="shape" value="obtuse" />
+      </structure>
+      <structure id="o15659" name="head" />
+    </statement>
+    <statement id="744.txt-3">
+      <text>Heads in glomerules of (8–)12–16(–20), ± bipyramidal, largest 5–7 × 2.5–4 mm;</text>
+      <structure id="o15660" name="head" />
+      <structure id="o15661" name="glomerule" constraint="of (8-)12-16(-20), ± bipyramidal, largest 5-7×2.5-4 mm" />
+      <relation id="r1690" name="in" from="o15660" to="o15661" negation="false" />
+    </statement>
+    <statement id="744.txt-4">
+      <text>largest glomerules 11–15 mm diam.</text>
+      <structure id="o15662" name="glomerule" constraint="largest">
+        <character char_type="range_value" name="size" from="11" from_unit="mm" to="15" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="744.txt-5">
+      <text>Receptacles filiform-cylindric.</text>
+      <structure id="o15663" name="receptacle">
+        <character name="shape" value="filiform-cylindric" />
+      </structure>
+    </statement>
+    <statement id="744.txt-6">
+      <text>Pistillate paleae (except innermost) (15–)20–25 in (3–)4–5 series, vertically ranked, carinate in cross section, longest 4.5–6 mm;</text>
+      <structure id="o15664" name="palea" constraint="pistillate">
+        <character char_type="range_value" name="atypical_count" from="15" to="20" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="20" to="25" constraint="in 3-, series" constraintid="o15665" />
+        <character name="arrangement" value="ranked" modifier="vertically" />
+        <character name="shape" value="carinate" constraint="in section" constraintid="o15666" />
+        <character name="size" value="longest" />
+        <character char_type="range_value" name="size" from="4.5" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+      <structure id="o15665" name="series" constraint="3-4-5" />
+      <structure id="o15666" name="section" />
+    </statement>
+    <statement id="744.txt-7">
+      <text>wings uniformly yellowish, apices recurved.</text>
+      <structure id="o15667" name="wing">
+        <character name="coloration" value="yellowish" modifier="uniformly" />
+      </structure>
+      <structure id="o15668" name="apex">
+        <character name="orientation" value="recurved" />
+      </structure>
+    </statement>
+    <statement id="744.txt-8">
+      <text>Innermost paleae pistillate and often bisexual, surrounding 8–13 florets.</text>
+      <structure id="o15669" name="palea" constraint="innermost">
+        <character name="architecture" value="pistillate" />
+        <character name="reproduction" value="bisexual" modifier="often" />
+        <character name="architecture" value="surrounding" />
+        <character char_type="range_value" name="count" from="8" to="13" />
+      </structure>
+      <structure id="o15670" name="floret" />
+    </statement>
+    <statement id="744.txt-9">
+      <text>Pistillate florets:</text>
+      <structure id="o15671" name="floret" constraint="pistillate" />
+    </statement>
+    <statement id="744.txt-10">
+      <text>outer (15–)20–25 epappose, inner 2–7 pappose.</text>
+      <structure id="o15672" name="floret" constraint="outer pistillate">
+        <character char_type="range_value" name="atypical_count" from="15" to="20" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="20" to="25" />
+        <character name="architecture" value="epappose" />
+      </structure>
+      <structure id="o15673" name="floret" constraint="inner">
+        <character char_type="range_value" name="count" from="2" to="7" />
+        <character name="architecture" value="pappose" />
+      </structure>
+    </statement>
+    <statement id="744.txt-11">
+      <text>Bisexual florets 5–9(–11).</text>
+      <structure id="o15674" name="floret" constraint="bisexual">
+        <character char_type="range_value" name="atypical_count" from="9" to="11" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="5" to="9" />
+      </structure>
+    </statement>
+    <statement id="744.txt-12">
+      <text>2 n = 28 (Balearic Islands, Canary Islands, Yugoslavia).</text>
+      <structure id="o15675" name="chromosome">
+        <character name="count" value="28" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>mediterranean and cold-temperate climates</habitat>
+  <habitat>dry, open, sometimes rocky slopes</habitat>
+  <habitat>disturbed sites (chaparral burns</habitat>
+  <habitat>roadsides</habitat>
+  <elevation>10–800 m;</elevation>
+  <introduced>introduced;</introduced>
+  <ca_distribution>B.C.</ca_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <global_distribution>Eurasia</global_distribution>
+  <global_distribution>n Africa</global_distribution>
+  <global_distribution>Atlantic Islands</global_distribution>
+  <global_distribution>Australia.</global_distribution>
+  <discussion>Variety pyramidata is also introduced in Australia.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

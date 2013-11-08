@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Calendula arvensis</species_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. ed. 2, 2: 1303. 1763</place_of_publication>
+  <description>
+    <statement id="619.txt-0">
+      <text>Leaf blades (1–)3–8(–10+) cm × 4–15(–20+) mm.</text>
+      <structure id="o12980" name="blade" constraint="leaf">
+        <character char_type="range_value" name="atypical_length" from="1" to="3" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_length" from="8" to="10" from_unit="cm" to_unit="cm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="3" from_unit="cm" to="8" to_unit="cm" />
+        <character char_type="range_value" name="atypical_width" from="15" to="20" from_unit="mm" to_unit="mm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="width" from="4" from_unit="mm" to="15" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="619.txt-1">
+      <text>Peduncles 3–5 cm.</text>
+      <structure id="o12981" name="peduncle">
+        <character char_type="range_value" name="size" from="3" from_unit="cm" to="5" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="619.txt-2">
+      <text>Phyllaries 13–21+, 6–10+ mm.</text>
+      <structure id="o12982" name="phyllary">
+        <character char_type="range_value" name="count" from="13" to="21" upper_restricted="false" />
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="10" to_unit="mm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="619.txt-3">
+      <text>Ray florets 13–18+;</text>
+      <structure id="o12983" name="floret" constraint="ray">
+        <character char_type="range_value" name="count" from="13" to="18" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="619.txt-4">
+      <text>corolla laminae 5–8(–12+) mm.</text>
+      <structure id="o12984" name="lamina" constraint="corolla">
+        <character char_type="range_value" name="atypical_size" from="8" to="12" from_unit="mm" to_unit="mm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="619.txt-5">
+      <text>Disc florets 20–30+;</text>
+      <structure id="o12985" name="floret" constraint="disc">
+        <character char_type="range_value" name="count" from="20" to="30" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="619.txt-6">
+      <text>corollas 2.5–4 mm.</text>
+      <structure id="o12986" name="corolla">
+        <character char_type="range_value" name="size" from="2.5" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="619.txt-7">
+      <text>Cypselae 3–12(–25+) mm.</text>
+      <structure id="o12987" name="cypsela">
+        <character char_type="range_value" name="atypical_size" from="12" to="25" from_unit="mm" to_unit="mm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="12" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="619.txt-8">
+      <text>2 n = 44 (18 and 36 have been reported).</text>
+      <structure id="o12988" name="chromosome">
+        <character name="count" value="44" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>feb</flowering_time>
+  <flowering_time>winter</flowering_time>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <habitat>disturbed places</habitat>
+  <elevation>0–200 m;</elevation>
+  <introduced>introduced;</introduced>
+  <us_distribution>Calif.</us_distribution>
+  <global_distribution>Eurasia</global_distribution>
+  <global_distribution>Africa</global_distribution>
+  <global_distribution>Atlantic Islands.</global_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

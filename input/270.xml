@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Scolymus maculatus</species_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 813. 1753</place_of_publication>
+  <description>
+    <statement id="270.txt-0">
+      <text>Annuals.</text>
+      <structure id="o4719" name="whole_organism">
+        <character name="life_style" value="annual" />
+      </structure>
+    </statement>
+    <statement id="270.txt-1">
+      <text>Stem wings ± con-tinuous, margins spinose, usually white and thickened.</text>
+      <structure id="o4720" name="wing" constraint="stem">
+        <character name="architecture" value="con-tinuous" modifier="±" />
+      </structure>
+      <structure id="o4721" name="margin">
+        <character name="shape_or_architecture" value="spinose" />
+        <character name="coloration" value="white" modifier="usually" />
+        <character name="thickness" value="thickened" />
+      </structure>
+    </statement>
+    <statement id="270.txt-2">
+      <text>Leaf blades 40–200 × 20–80 mm, margins usually white and thickened .</text>
+      <structure id="o4722" name="blade" constraint="leaf">
+        <character char_type="range_value" name="length" from="40" from_unit="mm" to="200" to_unit="mm" />
+        <character char_type="range_value" name="width" from="20" from_unit="mm" to="80" to_unit="mm" />
+      </structure>
+      <structure id="o4723" name="margin">
+        <character name="coloration" value="white" modifier="usually" />
+        <character name="thickness" value="thickened" />
+      </structure>
+    </statement>
+    <statement id="270.txt-3">
+      <text>Involucres 12–18 × 8–12 mm, larger in fruit.</text>
+      <structure id="o4724" name="involucre">
+        <character char_type="range_value" name="length" from="12" from_unit="mm" to="18" to_unit="mm" />
+        <character char_type="range_value" name="width" from="8" from_unit="mm" to="12" to_unit="mm" />
+        <character name="size" value="larger" constraint="in fruit" constraintid="o4725" />
+      </structure>
+      <structure id="o4725" name="fruit" />
+    </statement>
+    <statement id="270.txt-4">
+      <text>Phyllaries ovate-lanceolate to lanceolate, glabrous.</text>
+      <structure id="o4726" name="phyllary">
+        <character char_type="range_value" name="shape" from="ovate-lanceolate" to="lanceolate" />
+        <character name="shape" value="ovate-lanceolate" />
+        <character name="shape" value="lanceolate" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="270.txt-5">
+      <text>Cypsela/palea units ± obovate, 2.5–4 mm;</text>
+      <structure id="o4727" name="unit">
+        <character name="shape" value="obovate" modifier="±" />
+        <character char_type="range_value" name="size" from="2.5" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="270.txt-6">
+      <text>pappi 0. 2 n = 20.</text>
+      <structure id="o4728" name="pappus">
+        <character name="count" value="0" />
+      </structure>
+      <structure name="chromosome" id="o4729">
+        <character name="count" value="20" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <habitat>disturbed sites</habitat>
+  <elevation>0–100 m;</elevation>
+  <introduced>introduced;</introduced>
+  <us_distribution>N.C.</us_distribution>
+  <global_distribution>Europe.</global_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>40c.</number>
+  <variety_name>Cirsium occidentale (Nuttall) Jepson var. compactum</variety_name>
+  <authority>Hoover</authority>
+  <place_of_publication>Vasc. Pl. San Luis Obispo Co., 310. 1970</place_of_publication>
+  <past_name>compacta</past_name>
+  <common_name>Compact cobwebby thistle</common_name>
+  <description>
+    <statement id="117.txt-0">
+      <text>Plants compactly branched, forming low rounded mounds, 5–100 cm, densely gray-tomentose.</text>
+      <structure id="o438" name="whole_organism">
+        <character name="architecture_or_shape" value="branched" modifier="compactly" />
+        <character name="life_style" value="plant" />
+      </structure>
+      <structure id="o439" name="mound">
+        <character name="location" value="low" />
+        <character name="shape" value="rounded" />
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="100" to_unit="cm" />
+        <character name="pubescence" value="gray-tomentose" modifier="densely" />
+      </structure>
+    </statement>
+    <statement id="117.txt-1">
+      <text>Leaf faces gray-tomentose or adaxial ± glabrate.</text>
+      <structure id="o440" name="face" constraint="leaf">
+        <character name="pubescence" value="gray-tomentose" />
+        <character name="insertion_or_position" value="adaxial" modifier="±" />
+        <character name="pubescence" value="glabrate" />
+      </structure>
+    </statement>
+    <statement id="117.txt-2">
+      <text>Heads borne singly or in ± tight clusters, short-pedunculate, closely subtended and often overtopped by basal and large cauline leaves.</text>
+      <structure id="o441" name="head">
+        <character name="arrangement" value="singly" />
+        <character name="arrangement" value="in moreorless tight clusters" />
+        <character name="architecture" value="short-pedunculate" />
+        <character name="position" value="overtopped" modifier="often" constraint="by leaves" constraintid="o443" />
+      </structure>
+      <structure id="o442" name="cluster">
+        <character name="texture" value="tight" modifier="±" />
+      </structure>
+      <relation id="r82" name="in" from="o441" to="o442" negation="false" />
+      <structure id="o443" name="leaf" constraint="cauline">
+        <character name="insertion_or_position" value="basal" />
+        <character name="size" value="large" />
+      </structure>
+    </statement>
+    <statement id="117.txt-3">
+      <text>Involucres wider than long, 5–8 cm diam., densely arachnoid with fine trichomes connecting tips of adjacent phyllaries.</text>
+      <structure id="o444" name="involucre">
+        <character name="size" value="wider than long" />
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="8" to_unit="cm" />
+        <character name="pubescence" value="arachnoid" modifier="densely" constraint="with trichomes" constraintid="o445" />
+      </structure>
+      <structure id="o445" name="trichome">
+        <character name="texture" value="fine" />
+      </structure>
+      <structure id="o446" name="tip" />
+      <relation id="r83" name="connecting" from="o444" to="o446" negation="false" />
+      <structure id="o447" name="phyllary" constraint="adjacent" />
+      <relation id="r84" name="part_of" from="o446" to="o447" negation="false" />
+    </statement>
+    <statement id="117.txt-4">
+      <text>Phyllaries:</text>
+    </statement>
+    <statement id="117.txt-5">
+      <text>imbricate to subequal, outer and mid apices ± spreading, straight, usually 1–2 cm × usually 1–2 mm.</text>
+      <structure id="o448" name="phyllary">
+        <character name="aestivation_or_arrangement" value="imbricate" />
+        <character name="size" value="subequal" />
+        <character name="position" value="outer" />
+        <character name="course" value="straight" />
+      </structure>
+      <structure id="o449" name="apex" constraint="mid">
+        <character name="orientation" value="spreading" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="117.txt-6">
+      <text>Corollas dark rose-purple, 25–30 mm.</text>
+      <structure id="o450" name="corolla">
+        <character name="coloration" value="purple" modifier="dark-rose" />
+        <character char_type="range_value" name="size" from="25" from_unit="mm" to="30" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="117.txt-7">
+      <text>2 n = 30.</text>
+      <structure id="o451" name="chromosome">
+        <character name="count" value="30" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>winter</flowering_time>
+  <flowering_time>dec</flowering_time>
+  <flowering_time>jan</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>feb</flowering_time>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <habitat>coastal sea bluffs</habitat>
+  <habitat>dunes in grassland and coastal scrub</habitat>
+  <elevation>0–50 m;</elevation>
+  <global_distribution>of conservation concern</global_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <discussion>Variety compactum is locally common along the immediate coast of northern San Luis Obispo County and formerly ranged as far north as San Francisco. Populations referable to this race occur on the California Channel Islands and on the mainland in Monterey County. Because of the very narrow ecologic zone occupied by these plants they are particularly vulnerable to habitat loss. Variety compactum is closely related to vars. occidentale and coulteri.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

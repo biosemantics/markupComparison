@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>2.</number>
+  <species_name>Omalotheca norvegica</species_name>
+  <authority>(Gunnerus) Schultz-Bipontinus &amp; F. W. Schultz</authority>
+  <place_of_publication>in F. W. Schultz, Arch. Fl., 311. 1861</place_of_publication>
+  <common_name>Norwegian Arctic-cudweed , gnaphale de Norvège</common_name>
+  <synonym_of_species_name>Gnaphalium norvegicum Gunnerus, Fl. Norveg. 2: 105. 1772</synonym_of_species_name>
+  <description>
+    <statement id="726.txt-0">
+      <text>Plants 10–40 cm.</text>
+      <structure id="o15143" name="whole_organism">
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="40" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="726.txt-1">
+      <text>Leaves basal and cauline, basal petiolate, blades 3-nerved, lanceolate to oblanceolate, 5–12 cm × 6–30 mm, distal cauline slightly smaller, oblanceolate, faces concolor or weakly bicolor, grayish, thinly woolly.</text>
+      <structure id="o15144" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="insertion_or_position" value="basal" />
+        <character name="architecture" value="petiolate" />
+      </structure>
+      <structure id="o15145" name="blade">
+        <character name="architecture" value="3-nerved" />
+        <character char_type="range_value" name="shape" from="lanceolate" to="oblanceolate" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="oblanceolate" />
+        <character char_type="range_value" name="length" from="5" from_unit="cm" to="12" to_unit="cm" />
+        <character char_type="range_value" name="width" from="6" from_unit="mm" to="30" to_unit="mm" />
+        <character name="insertion_or_position" value="distal cauline" modifier="slightly" />
+        <character name="size" value="smaller" />
+        <character name="shape" value="oblanceolate" />
+      </structure>
+      <structure id="o15146" name="face">
+        <character name="coloration" value="concolor" />
+        <character name="coloration" value="bicolor" modifier="weakly" />
+        <character name="coloration" value="grayish" />
+        <character name="pubescence" value="woolly" modifier="thinly" />
+      </structure>
+    </statement>
+    <statement id="726.txt-2">
+      <text>Heads (10–60+) in compact, spiciform (leafy-bracteate, sometimes interrupted) arrays (1.5–14 cm, occupying 1 / 8 – 1 / 4 of plant heights, primary axes usually not visible).</text>
+      <structure id="o15147" name="head">
+        <character char_type="range_value" name="atypical_count" from="10" to="60" upper_restricted="false" constraint="in arrays" constraintid="o15148" />
+      </structure>
+      <structure id="o15148" name="array">
+        <character name="architecture" value="compact" />
+        <character name="architecture" value="spiciform" />
+      </structure>
+    </statement>
+    <statement id="726.txt-3">
+      <text>Involucres cylindro-campanulate, 5.5–6 mm.</text>
+      <structure id="o15149" name="involucre">
+        <character name="shape" value="cylindro-campanulate" />
+        <character char_type="range_value" name="size" from="5.5" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="726.txt-4">
+      <text>Phyllaries brown to reddish brown with narrow pale center and base.</text>
+      <structure id="o15150" name="phyllary">
+        <character char_type="range_value" name="coloration" from="brown" to="reddish-brown" />
+        <character name="coloration" value="brown" />
+        <character name="coloration" value="brown" modifier="reddish" constraint="with center, base" constraintid="o15151  o15152" />
+      </structure>
+      <structure id="o15151" name="center">
+        <character name="size" value="narrow" />
+        <character name="coloration" value="pale" />
+      </structure>
+      <structure id="o15152" name="base">
+        <character name="size" value="narrow" />
+        <character name="coloration" value="pale" />
+      </structure>
+    </statement>
+    <statement id="726.txt-5">
+      <text>Cypselae cylindric, minutely strigose;</text>
+      <structure id="o15153" name="cypsela">
+        <character name="shape" value="cylindric" />
+        <character name="pubescence" value="strigose" modifier="minutely" />
+      </structure>
+    </statement>
+    <statement id="726.txt-6">
+      <text>pappus bristles basally connate, falling together.</text>
+      <structure id="o15154" name="bristle" constraint="pappus">
+        <character name="fusion" value="connate" modifier="basally" />
+        <character name="orientation" value="falling" modifier="together" />
+      </structure>
+    </statement>
+    <statement id="726.txt-7">
+      <text>2 n = 56.</text>
+      <structure id="o15155" name="chromosome">
+        <character name="count" value="56" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>wet or peaty slopes</habitat>
+  <habitat>alpine and subalpine meadows</habitat>
+  <habitat>cliff ledges</habitat>
+  <habitat>rocky slopes</habitat>
+  <elevation>400–1300 m;</elevation>
+  <global_distribution>Greenland</global_distribution>
+  <ca_distribution>Nfld. and Labr.</ca_distribution>
+  <ca_distribution>Que.</ca_distribution>
+  <global_distribution>Europe.</global_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

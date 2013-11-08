@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>59b.</number>
+  <variety_name>Cirsium fontinale (Greene) Jepson var. fontinale</variety_name>
+  <description>
+    <statement id="165.txt-0">
+      <text>Basal leaves:</text>
+      <structure id="o1859" name="leaf" constraint="basal" />
+    </statement>
+    <statement id="165.txt-1">
+      <text>longer spines 4–6 mm;</text>
+      <structure id="o1860" name="spine" constraint="longer">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="165.txt-2">
+      <text>distal faces more densely glandular than tomentose.</text>
+      <structure id="o1861" name="face" constraint="distal">
+        <character name="architecture_or_exudation_or_pubescence" value="more densely glandular than tomentose" />
+      </structure>
+    </statement>
+    <statement id="165.txt-3">
+      <text>Cauline leaves:</text>
+      <structure id="o1862" name="leaf" constraint="cauline" />
+    </statement>
+    <statement id="165.txt-4">
+      <text>longer spines 8–12 mm.</text>
+      <structure id="o1863" name="spine" constraint="longer">
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="12" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="165.txt-5">
+      <text>Distalmost stem bracts usually tightly subtending heads.</text>
+      <structure id="o1864" name="bract" constraint="distalmost stem" />
+      <structure id="o1865" name="head" constraint="subtending" />
+    </statement>
+    <statement id="165.txt-6">
+      <text>Phyllaries 100–120, 35–45 of them reflexed;</text>
+      <structure id="o1866" name="phyllary">
+        <character char_type="range_value" name="count" from="100" to="120" />
+        <character char_type="range_value" name="count" from="35" to="45" constraint="of them" constraintid="o1867" />
+      </structure>
+      <structure id="o1867" name="them">
+        <character name="orientation" value="reflexed" />
+      </structure>
+    </statement>
+    <statement id="165.txt-7">
+      <text>apical spines 1–2 mm;</text>
+      <structure id="o1868" name="spine" constraint="apical">
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="2" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="165.txt-8">
+      <text>marginal spines often present.</text>
+      <structure id="o1869" name="spine" constraint="marginal">
+        <character name="presence" value="present" modifier="often" />
+      </structure>
+    </statement>
+    <statement id="165.txt-9">
+      <text>Cypselae 4.1–5 mm.</text>
+      <structure id="o1870" name="cypsela">
+        <character char_type="range_value" name="size" from="4.1" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="165.txt-10">
+      <text>2 n = 34, 34 + 1B.</text>
+      <structure id="o1871" name="chromosome" />
+    </statement>
+  </description>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>serpentine seeps</habitat>
+  <conservation>of conservation concern;</conservation>
+  <elevation>ca. 120 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <discussion>Variety fontinale is known only from the vicinity of Crystal Springs Reservoir, San Mateo County.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

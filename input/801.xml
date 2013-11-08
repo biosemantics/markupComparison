@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>110.</number>
+  <genus_name>SACHSIA</genus_name>
+  <authority>Grisebach</authority>
+  <place_of_publication>Cat. Pl. Cub., 150. 1866</place_of_publication>
+  <common_name />
+  <derivation>For F. G. J. von Sachs, 1832–1897, German plant physiologist, noted by Grisebach to be “ingeniosi”</derivation>
+  <author_of_tribe_genus>Guy L. Nesom</author_of_tribe_genus>
+  <description>
+    <statement id="801.txt-0">
+      <text>Perennials , 10–60+ cm;</text>
+    </statement>
+    <statement id="801.txt-1">
+      <text>fibrous-rooted, sometimes rhizomatous.</text>
+      <structure id="o16938" name="whole_organism">
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="60" to_unit="cm" upper_restricted="false" />
+        <character name="life_style" value="perennial" />
+        <character name="architecture" value="fibrous-rooted" />
+        <character name="architecture" value="rhizomatous" modifier="sometimes" />
+      </structure>
+    </statement>
+    <statement id="801.txt-2">
+      <text>Stems erect (scapiform), simple or distally branched, finely glandular, bases sericeous-woolly.</text>
+      <structure id="o16939" name="stem">
+        <character name="orientation" value="erect" />
+        <character name="architecture" value="simple" />
+        <character name="architecture" value="branched" modifier="distally" />
+        <character name="architecture_or_exudation_or_pubescence" value="glandular" modifier="finely" />
+      </structure>
+      <structure id="o16940" name="base" />
+    </statement>
+    <statement id="801.txt-3">
+      <text>Leaves all or mostly basal, alternate;</text>
+    </statement>
+    <statement id="801.txt-4">
+      <text>sessile;</text>
+      <structure id="o16941" name="leaf">
+        <character name="insertion_or_position" value="basal" modifier="mostly" />
+        <character name="arrangement" value="alternate" />
+        <character name="architecture" value="sessile" />
+      </structure>
+    </statement>
+    <statement id="801.txt-5">
+      <text>blades obovate to oblanceolate or spatulate, bases not clasping, margins denticulate to dentate [pinnatifid], abaxial faces ± sericeous and glandular, adaxial glabrous (shiny, venation raised, reticulate).</text>
+      <structure id="o16942" name="blade">
+        <character char_type="range_value" name="shape" from="obovate" to="oblanceolate or spatulate" />
+        <character name="shape" value="obovate" />
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="spatulate" />
+      </structure>
+      <structure id="o16943" name="base">
+        <character name="architecture" value="clasping" modifier="not" />
+      </structure>
+      <structure id="o16944" name="margin">
+        <character char_type="range_value" name="shape" from="denticulate" to="dentate" />
+        <character name="shape" value="denticulate" />
+        <character name="shape" value="dentate" />
+      </structure>
+      <structure id="o16945" name="face" constraint="abaxial">
+        <character name="pubescence" value="sericeous" modifier="±" />
+        <character name="architecture_or_exudation_or_pubescence" value="glandular" />
+        <character name="insertion_or_position" value="adaxial" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="801.txt-6">
+      <text>Heads radiate or disciform, in loose, corymbiform to paniculiform arrays.</text>
+      <structure id="o16946" name="head">
+        <character name="architecture" value="radiate" />
+        <character name="architecture" value="disciform" />
+      </structure>
+      <structure id="o16947" name="array">
+        <character char_type="range_value" name="architecture" from="loose , corymbiform" to="paniculiform" />
+        <character name="architecture" value="loose" />
+        <character name="architecture" value="corymbiform" />
+        <character name="architecture" value="paniculiform" />
+      </structure>
+      <relation id="r1825" name="in" from="o16946" to="o16947" negation="false" />
+    </statement>
+    <statement id="801.txt-7">
+      <text>Involucres cylindric-ovoid to urceolate, 2–3 mm diam.</text>
+      <structure id="o16948" name="involucre">
+        <character char_type="range_value" name="shape" from="cylindric-ovoid" to="urceolate" />
+        <character name="shape" value="cylindric-ovoid" />
+        <character name="shape" value="urceolate" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="3" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="801.txt-8">
+      <text>Phyllaries falling in fruit, in 5–6 series, lance-ovate to lance-linear, unequal.</text>
+      <structure id="o16949" name="phyllary">
+        <character name="orientation" value="falling" constraint="in fruit" constraintid="o16950" />
+        <character char_type="range_value" name="shape" from="lance-ovate" to="lance-linear" />
+        <character name="shape" value="lance-ovate" />
+        <character name="shape" value="lance-linear" />
+        <character name="size" value="unequal" />
+      </structure>
+      <structure id="o16950" name="fruit" />
+      <structure id="o16951" name="series">
+        <character char_type="range_value" name="count" from="5" to="6" />
+      </structure>
+      <relation id="r1826" name="in" from="o16949" to="o16951" negation="false" />
+    </statement>
+    <statement id="801.txt-9">
+      <text>Receptacles flat, epaleate.</text>
+      <structure id="o16952" name="receptacle">
+        <character name="shape" value="flat" />
+        <character name="architecture" value="epaleate" />
+      </structure>
+    </statement>
+    <statement id="801.txt-10">
+      <text>Ray or peripheral (pistillate) florets in 1(–3) series, fertile;</text>
+      <structure id="o16953" name="floret" constraint="ray or peripheral">
+        <character name="reproduction" value="fertile" />
+      </structure>
+      <structure id="o16954" name="series" constraint="-3">
+        <character name="count" value="1" />
+      </structure>
+      <relation id="r1827" name="in" from="o16953" to="o16954" negation="false" />
+    </statement>
+    <statement id="801.txt-11">
+      <text>corollas whitish (tubes filiform, laminae absent or ± developed and apically 3-toothed).</text>
+      <structure id="o16955" name="corolla">
+        <character name="coloration" value="whitish" />
+      </structure>
+    </statement>
+    <statement id="801.txt-12">
+      <text>Inner (functionally staminate or bisexual) florets 6–18;</text>
+      <structure id="o16956" name="floret" constraint="inner">
+        <character char_type="range_value" name="count" from="6" to="18" />
+      </structure>
+    </statement>
+    <statement id="801.txt-13">
+      <text>corollas whitish, lobes (4–)5.</text>
+      <structure id="o16957" name="corolla">
+        <character name="coloration" value="whitish" />
+      </structure>
+      <structure id="o16958" name="lobe">
+        <character char_type="range_value" name="atypical_count" from="4" to="5" to_inclusive="false" />
+        <character name="count" value="5" />
+      </structure>
+    </statement>
+    <statement id="801.txt-14">
+      <text>Cypselae cylindric to narrowly ellipsoid, ribs 8–12 (white, raised), faces strigillose;</text>
+      <structure id="o16959" name="cypsela">
+        <character char_type="range_value" name="shape" from="cylindric" to="narrowly ellipsoid" />
+        <character name="shape" value="cylindric" />
+        <character name="shape" value="ellipsoid" modifier="narrowly" />
+      </structure>
+      <structure id="o16960" name="rib">
+        <character char_type="range_value" name="count" from="8" to="12" />
+      </structure>
+      <structure id="o16961" name="face">
+        <character name="pubescence" value="strigillose" />
+      </structure>
+    </statement>
+    <statement id="801.txt-15">
+      <text>pappi persistent (fragile), of distinct or basally connate, smooth or barbellulate bristles in 1 series.</text>
+      <structure id="o16962" name="pappus">
+        <character name="duration" value="persistent" />
+      </structure>
+      <structure id="o16963" name="bristle">
+        <character name="fusion" value="distinct" />
+        <character name="fusion" value="connate" modifier="basally" />
+        <character name="architecture" value="smooth" />
+        <character name="architecture" value="barbellulate" />
+      </structure>
+      <relation id="r1828" name="consist_of" from="o16962" to="o16963" negation="false" />
+      <structure id="o16964" name="series">
+        <character name="count" value="1" />
+      </structure>
+      <relation id="r1829" name="in" from="o16963" to="o16964" negation="false" />
+    </statement>
+    <statement id="801.txt-16">
+      <text>x = 10.</text>
+      <structure id="o16965" name="chromosome">
+        <character name="count" value="10" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species 3 (1 in the flora):</number_of_infrataxa>
+  <general_distribution>Florida</general_distribution>
+  <general_distribution>West Indies (Bahamas).</general_distribution>
+  <general_distribution>West Indies (Cuba).</general_distribution>
+  <general_distribution>West Indies (Hispaniola).</general_distribution>
+  <general_distribution>West Indies (Jamaica).</general_distribution>
+  <discussion>The monotypic Rhodogeron Grisebach was transferred to Sachsia by A. A. Anderberg, who noted (1991b) that “…it is a derived relative of Sachsia. The two differ only in the shape of the leaves and the female florets” (leaves pinnatifid, ray florets with laminae well developed and relatively broad in Rhodogeron). Anderberg placed Sachsia as “Plucheeae insertae sedis,” and noted that “…the genus is anomalous, but could prove to belong in the Plucheeae, in spite of its acute sweeping hairs.” The two species of Sachsia other than S. polycephala are endemic to Cuba.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

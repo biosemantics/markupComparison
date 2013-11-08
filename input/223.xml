@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>16.</number>
+  <species_name>Centaurea benedicta</species_name>
+  <authority>(Linnaeus) Linnaeus</authority>
+  <place_of_publication>Sp. Pl. ed. 2, 2: 1296. 1763</place_of_publication>
+  <common_name>Blessed thistle, chardon bénit</common_name>
+  <synonym_of_species_name>Cnicus benedictus Linnaeus, Sp. Pl. 2: 826. 1753</synonym_of_species_name>
+  <description>
+    <statement id="223.txt-0">
+      <text>Annuals , to 60 cm.</text>
+      <structure id="o3600" name="whole_organism">
+        <character char_type="range_value" name="size" to="60" to_unit="cm" />
+        <character name="life_style" value="annual" />
+      </structure>
+    </statement>
+    <statement id="223.txt-1">
+      <text>Stems often spreading or prostrate, usually branched throughout, usually reddish, ± loosely tomentose.</text>
+      <structure id="o3601" name="stem">
+        <character name="orientation" value="spreading" modifier="often" />
+        <character name="orientation" value="prostrate" modifier="often" />
+        <character name="architecture_or_shape" value="branched" modifier="usually ; throughout" />
+        <character name="coloration" value="reddish" modifier="usually" />
+        <character name="pubescence" value="tomentose" modifier="± loosely" />
+      </structure>
+    </statement>
+    <statement id="223.txt-2">
+      <text>Leaves mostly cauline, sessile and often short-decurrent or proximal tapering to winged petioles, blades lanceolate to oblanceolate, 6–25 cm, margins coarsely dentate or pinnately lobed, lobes and teeth armed with short, weak spines, faces sparsely to densely hairy with jointed multicellular hairs and slender cobwebby hairs, resin-gland-dotted.</text>
+      <structure id="o3602" name="leaf">
+        <character name="insertion_or_position" value="cauline" modifier="mostly" />
+        <character name="architecture" value="sessile" />
+        <character name="shape" value="short-decurrent" modifier="often" constraint="to petioles" constraintid="o3603" />
+      </structure>
+      <structure id="o3603" name="petiole">
+        <character name="architecture" value="winged" />
+      </structure>
+      <structure id="o3604" name="blade">
+        <character char_type="range_value" name="shape" from="lanceolate" to="oblanceolate" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="oblanceolate" />
+        <character char_type="range_value" name="size" from="6" from_unit="cm" to="25" to_unit="cm" />
+      </structure>
+      <structure id="o3605" name="margin">
+        <character name="shape" value="dentate" modifier="coarsely" />
+        <character name="shape" value="lobed" modifier="pinnately" />
+      </structure>
+      <structure id="o3606" name="lobe" />
+      <structure id="o3607" name="tooth">
+        <character name="architecture" value="armed" constraint="with spines" constraintid="o3608" />
+      </structure>
+      <structure id="o3608" name="spine">
+        <character name="size" value="short" />
+        <character name="texture" value="weak" />
+      </structure>
+      <structure id="o3609" name="face">
+        <character name="pubescence" value="hairy" modifier="sparsely densely" constraint="with hairs, hairs" constraintid="o3610  o3611" />
+        <character name="coloration_or_relief" value="resin-gland-dotted" />
+      </structure>
+      <structure id="o3610" name="hair">
+        <character name="architecture" value="jointed" />
+        <character name="architecture" value="multicellular" />
+      </structure>
+      <structure id="o3611" name="hair">
+        <character name="size" value="slender" />
+        <character name="pubescence" value="cobwebby" />
+        <character name="architecture" value="jointed" />
+        <character name="architecture" value="multicellular" />
+      </structure>
+    </statement>
+    <statement id="223.txt-3">
+      <text>Heads disciform, borne singly, sessile, each subtended by involucre-like cluster of leaf-like bracts.</text>
+      <structure id="o3612" name="head">
+        <character name="shape_or_architecture" value="disciform" />
+        <character name="arrangement" value="singly" />
+        <character name="architecture" value="sessile" />
+      </structure>
+      <structure id="o3613" name="bract">
+        <character name="architecture" value="leaf-like" />
+      </structure>
+      <relation id="r511" name="subtended by involucre-like cluster of" from="o3612" to="o3613" negation="false" />
+    </statement>
+    <statement id="223.txt-4">
+      <text>Involucres ± spheric, 20–40 mm.</text>
+      <structure id="o3614" name="involucre">
+        <character name="shape" value="spheric" modifier="±" />
+        <character char_type="range_value" name="size" from="20" from_unit="mm" to="40" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="223.txt-5">
+      <text>Phyllaries in several series, tightly overlapping, outer ovate with tightly appressed bases and spreading spine tips, inner lanceolate, tipped by pinnately divided spines more than 5 mm.</text>
+      <structure id="o3615" name="phyllary">
+        <character name="aestivation_or_arrangement" value="overlapping" modifier="tightly" />
+        <character name="position" value="outer" />
+        <character name="shape" value="ovate" constraint="with bases" constraintid="o3617" />
+        <character name="position" value="inner" />
+        <character name="shape" value="lanceolate" />
+        <character name="size" value="5" unit="mm" modifier="more than" />
+      </structure>
+      <structure id="o3616" name="series">
+        <character name="count" value="several" />
+      </structure>
+      <relation id="r512" name="in" from="o3615" to="o3616" negation="false" />
+      <structure id="o3617" name="base">
+        <character name="orientation" value="appressed" modifier="tightly" />
+      </structure>
+      <structure id="o3618" name="tip" constraint="spine">
+        <character name="orientation" value="spreading" />
+      </structure>
+      <structure id="o3619" name="spine">
+        <character name="shape" value="divided" modifier="pinnately" />
+      </structure>
+      <relation id="r513" name="tipped by" from="o3615" to="o3619" negation="false" />
+    </statement>
+    <statement id="223.txt-6">
+      <text>Florets many;</text>
+      <structure id="o3620" name="floret">
+        <character name="count" value="many" />
+      </structure>
+    </statement>
+    <statement id="223.txt-7">
+      <text>corollas yellow, those of sterile florets linear, 3-lobed, not exceeding disc corollas, very slender, those of disc florets 19–24 mm.</text>
+      <structure id="o3621" name="corolla">
+        <character name="coloration" value="yellow" />
+      </structure>
+      <structure id="o3622" name="corolla">
+        <character name="arrangement_or_shape" value="linear" />
+        <character name="shape" value="3-lobed" />
+        <character name="size" value="slender" modifier="very" />
+      </structure>
+      <structure id="o3623" name="floret" constraint="sterile" />
+      <relation id="r514" name="part_of" from="o3622" to="o3623" negation="false" />
+      <structure id="o3624" name="corolla" constraint="disc" />
+      <structure id="o3625" name="corolla">
+        <character char_type="range_value" name="size" from="19" from_unit="mm" to="24" to_unit="mm" />
+      </structure>
+      <structure id="o3626" name="floret" constraint="disc" />
+      <relation id="r515" name="part_of" from="o3625" to="o3626" negation="false" />
+    </statement>
+    <statement id="223.txt-8">
+      <text>Cypselae cylindric, slightly curved, 8–11 mm, with 20 prominent ribs, tipped by a 10-dentate rim, glabrous, attachment scars lateral;</text>
+      <structure id="o3627" name="cypsela">
+        <character name="shape" value="cylindric" />
+        <character name="shape" value="curved" modifier="slightly" />
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="11" to_unit="mm" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+      <structure id="o3628" name="rib">
+        <character name="count" value="20" />
+        <character name="prominence" value="prominent" />
+      </structure>
+      <relation id="r516" name="with" from="o3627" to="o3628" negation="false" />
+      <structure id="o3629" name="rim">
+        <character name="shape" value="10-dentate" />
+      </structure>
+      <relation id="r517" name="tipped by" from="o3627" to="o3629" negation="false" />
+      <structure id="o3630" name="scar" constraint="attachment">
+        <character name="insertion_or_position" value="lateral" />
+      </structure>
+    </statement>
+    <statement id="223.txt-9">
+      <text>pappi of 2 series of awns, outer 9–10 mm, smooth or ± roughened, inner 2–5 mm, roughened with short spreading hairs.</text>
+      <structure id="o3631" name="pappus">
+        <character name="position" value="outer" />
+        <character char_type="range_value" name="size" from="9" from_unit="mm" to="10" to_unit="mm" />
+        <character name="architecture_or_relief" value="smooth" />
+        <character name="texture" value="roughened" modifier="±" />
+        <character name="position" value="inner" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="5" to_unit="mm" />
+        <character name="texture" value="roughened" constraint="with hairs" constraintid="o3634" />
+      </structure>
+      <structure id="o3632" name="series">
+        <character name="count" value="2" />
+      </structure>
+      <relation id="r518" name="consist_of" from="o3631" to="o3632" negation="false" />
+      <structure id="o3633" name="awn" />
+      <relation id="r519" name="part_of" from="o3632" to="o3633" negation="false" />
+      <structure id="o3634" name="hair">
+        <character name="size" value="short" />
+        <character name="orientation" value="spreading" />
+      </structure>
+    </statement>
+    <statement id="223.txt-10">
+      <text>2 n = 22.</text>
+      <structure id="o3635" name="chromosome">
+        <character name="count" value="22" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>roadsides</habitat>
+  <habitat>fields</habitat>
+  <habitat>waste places</habitat>
+  <habitat>sometimes cultivated</habitat>
+  <elevation>0–1300 introduced;</elevation>
+  <ca_distribution>N.B.</ca_distribution>
+  <ca_distribution>N.S.</ca_distribution>
+  <ca_distribution>Ont.</ca_distribution>
+  <us_distribution>Ala.</us_distribution>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Ark. Calif.</us_distribution>
+  <us_distribution>Conn.</us_distribution>
+  <us_distribution>Fla.</us_distribution>
+  <us_distribution>Ga.</us_distribution>
+  <us_distribution>Ill.</us_distribution>
+  <us_distribution>Md.</us_distribution>
+  <us_distribution>N.J.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>N.C.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>S.C.</us_distribution>
+  <us_distribution>Tenn.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Va.</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <us_distribution>Wis.</us_distribution>
+  <global_distribution>Europe</global_distribution>
+  <global_distribution>Asia</global_distribution>
+  <global_distribution>widely introduced worldwide.</global_distribution>
+  <discussion>Centaurea benedicta is native to the Mediterranean region and Asia Minor. F. K. Kupicha (1975) recognized two varieties of Cnicus benedictus: var. benedictus and var. kotschyi Boissier. A combination apparently has not been made for var. kotschyi in Centaurea. I have not determined whether one or both races are represented in North American plants of Centaurea benedicta.</discussion>
+  <discussion>Blessed thistle is cultivated in many areas of the world as a medicinal herb. The leaves, stems, and flowers are all used in herbal preparations for digestive and liver ailments.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

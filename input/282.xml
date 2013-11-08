@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>5.</number>
+  <species_name>Crepis biennis</species_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 807. 1753</place_of_publication>
+  <common_name>Rough hawksbeard</common_name>
+  <description>
+    <statement id="282.txt-0">
+      <text>Biennials, 20–120 cm (taproots branched).</text>
+      <structure id="o4981" name="whole_organism">
+        <character char_type="range_value" name="size" from="20" from_unit="cm" to="120" to_unit="cm" />
+        <character name="life_style" value="biennial" />
+      </structure>
+    </statement>
+    <statement id="282.txt-1">
+      <text>Stems 1, erect, slender to robust, branched proximally or near middles, ± setulose or glabrescent.</text>
+      <structure id="o4982" name="stem">
+        <character name="count" value="1" />
+        <character name="orientation" value="erect" />
+        <character name="size" value="slender" />
+        <character name="fragility" value="robust" />
+        <character name="architecture_or_shape" value="branched" modifier="proximally" />
+        <character name="architecture_or_shape" value="near middles" />
+        <character name="pubescence" value="setulose" modifier="±" />
+        <character name="pubescence" value="glabrescent" modifier="±" />
+      </structure>
+      <structure id="o4983" name="middle" />
+      <relation id="r675" name="near" from="o4982" to="o4983" negation="false" />
+    </statement>
+    <statement id="282.txt-2">
+      <text>Leaves basal and cauline;</text>
+    </statement>
+    <statement id="282.txt-3">
+      <text>petiolate (at least basal);</text>
+      <structure id="o4984" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="architecture" value="petiolate" />
+      </structure>
+    </statement>
+    <statement id="282.txt-4">
+      <text>blades oblanceolate to runcinate, 5–25 × 1.5–7.5 cm, margins pinnately lobed or dentate (ter-minal lobes triangular), apices ± acute, faces slightly scabrous (hairs yellow, fine).</text>
+      <structure id="o4985" name="blade">
+        <character char_type="range_value" name="shape" from="oblanceolate" to="runcinate" />
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="runcinate" />
+        <character char_type="range_value" name="length" from="5" from_unit="cm" to="25" to_unit="cm" />
+        <character char_type="range_value" name="width" from="1.5" from_unit="cm" to="7.5" to_unit="cm" />
+      </structure>
+      <structure id="o4986" name="margin">
+        <character name="shape" value="lobed" modifier="pinnately" />
+        <character name="shape" value="dentate" modifier="pinnately" />
+      </structure>
+      <structure id="o4987" name="apex">
+        <character name="shape" value="acute" modifier="±" />
+      </structure>
+      <structure id="o4988" name="face">
+        <character name="pubescence_or_relief" value="scabrous" modifier="slightly" />
+      </structure>
+    </statement>
+    <statement id="282.txt-5">
+      <text>Heads 12–14, in simple or compound, corymbiform arrays.</text>
+      <structure id="o4989" name="head">
+        <character char_type="range_value" name="count" from="12" to="14" />
+      </structure>
+      <structure id="o4990" name="array">
+        <character name="architecture" value="simple" />
+        <character name="architecture" value="compound" />
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <relation id="r676" name="in" from="o4989" to="o4990" negation="false" />
+    </statement>
+    <statement id="282.txt-6">
+      <text>Calyculi of 7–9, lance-linear, glabrous or tomentulose bractlets 3–6 mm.</text>
+      <structure id="o4991" name="calyculus" />
+      <structure id="o4992" name="bractlet">
+        <character char_type="range_value" name="count" from="7" to="9" />
+        <character name="arrangement_or_shape" value="lance-linear" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="tomentulose" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+      <relation id="r677" name="consist_of" from="o4991" to="o4992" negation="false" />
+    </statement>
+    <statement id="282.txt-7">
+      <text>Involucres campanulate, 8–13 × 5–9 mm.</text>
+      <structure id="o4993" name="involucre">
+        <character name="shape" value="campanulate" />
+        <character char_type="range_value" name="length" from="8" from_unit="mm" to="13" to_unit="mm" />
+        <character char_type="range_value" name="width" from="5" from_unit="mm" to="9" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="282.txt-8">
+      <text>Phyllaries 10–17 (pale to dark green or nearly black) linear-lanceolate, 10–11 mm, (margins scarious) apices acute to obtuse (ciliate), abaxial faces ± canescent-tomentose, adaxial often with yellowish or black, appressed hairs.</text>
+      <structure id="o4994" name="phyllary">
+        <character char_type="range_value" name="count" from="10" to="17" />
+        <character name="shape" value="linear-lanceolate" />
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="11" to_unit="mm" />
+      </structure>
+      <structure id="o4995" name="apex">
+        <character char_type="range_value" name="shape" from="acute" to="obtuse" />
+        <character name="shape" value="acute" />
+        <character name="shape" value="obtuse" />
+      </structure>
+      <structure id="o4996" name="face" constraint="abaxial">
+        <character name="pubescence" value="canescent-tomentose" modifier="±" />
+        <character name="insertion_or_position" value="adaxial" modifier="often" constraint="with hairs" constraintid="o4997" />
+      </structure>
+      <structure id="o4997" name="hair">
+        <character name="coloration" value="yellowish" />
+        <character name="coloration" value="black" />
+        <character name="orientation" value="appressed" />
+      </structure>
+    </statement>
+    <statement id="282.txt-9">
+      <text>Florets 30–100;</text>
+      <structure id="o4998" name="floret">
+        <character char_type="range_value" name="count" from="30" to="100" />
+      </structure>
+    </statement>
+    <statement id="282.txt-10">
+      <text>corollas yellow, 12–18 mm.</text>
+      <structure id="o4999" name="corolla">
+        <character name="coloration" value="yellow" />
+        <character char_type="range_value" name="size" from="12" from_unit="mm" to="18" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="282.txt-11">
+      <text>Cypselae yellowish or reddish brown, fusiform, 4–7 mm, apices narrowed (not beaked), ribs 13–20;</text>
+      <structure id="o5000" name="cypsela">
+        <character name="coloration" value="yellowish" />
+        <character name="coloration" value="brown" modifier="reddish" />
+        <character name="shape" value="fusiform" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+      <structure id="o5001" name="apex">
+        <character name="size" value="narrowed" />
+      </structure>
+      <structure id="o5002" name="rib">
+        <character char_type="range_value" name="count" from="13" to="20" />
+      </structure>
+    </statement>
+    <statement id="282.txt-12">
+      <text>pappi white, 5–7 mm (somewhat unequal).</text>
+      <structure id="o5003" name="pappus">
+        <character name="coloration" value="white" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="282.txt-13">
+      <text>2 n = 40.</text>
+      <structure id="o5004" name="chromosome">
+        <character name="count" value="40" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>meadows and fields</habitat>
+  <elevation>500–1200 m;</elevation>
+  <introduced>introduced;</introduced>
+  <ca_distribution>Nfld. and Labr. (Nfld.)</ca_distribution>
+  <us_distribution>Mich.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>Ohio</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <us_distribution>Va.</us_distribution>
+  <us_distribution>Vt.</us_distribution>
+  <global_distribution>Europe.</global_distribution>
+  <discussion>Crepis biennis is recognized by its biennial habit, pinnately lobed leaves with triangular lobes, and relatively short hairs on the adaxial faces of the phyllaries. It has been reported from Newfoundland but apparently does not persist there.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>14.</number>
+  <species_name>Pseudognaphalium austrotexanum</species_name>
+  <authority>G. L. Nesom</authority>
+  <place_of_publication>Sida 19: 507, fig. 1. 2001</place_of_publication>
+  <common_name>South Texas rabbit-tobacco</common_name>
+  <description>
+    <statement id="693.txt-0">
+      <text>Annuals, 30–70 cm;</text>
+    </statement>
+    <statement id="693.txt-1">
+      <text>taprooted.</text>
+      <structure id="o14468" name="whole_organism">
+        <character char_type="range_value" name="size" from="30" from_unit="cm" to="70" to_unit="cm" />
+        <character name="life_style" value="annual" />
+        <character name="architecture" value="taprooted" />
+      </structure>
+    </statement>
+    <statement id="693.txt-2">
+      <text>Stems densely and closely white-tomentose-floccose, glabrescent, not glandular.</text>
+      <structure id="o14469" name="stem">
+        <character name="pubescence" value="white-tomentose-floccose" modifier="closely" />
+        <character name="pubescence" value="glabrescent" />
+        <character name="architecture_or_exudation_or_pubescence" value="glandular" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="693.txt-3">
+      <text>Leaf blades (crowded, internodes mostly 1–3, sometimes to 10 mm) linear to linear-lanceolate, 2–5 cm × 1–3 mm, bases subclasping, not decurrent, margins strongly revolute, sometimes closely sinuate, faces bicolor, abaxial densely and closely white-tomentose, adaxial green, densely stipitate-glandular, otherwise glabrate.</text>
+      <structure id="o14470" name="blade" constraint="leaf">
+        <character char_type="range_value" name="shape" from="linear" to="linear-lanceolate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="linear-lanceolate" />
+        <character char_type="range_value" name="length" from="2" from_unit="cm" to="5" to_unit="cm" />
+        <character char_type="range_value" name="width" from="1" from_unit="mm" to="3" to_unit="mm" />
+      </structure>
+      <structure id="o14471" name="base">
+        <character name="orientation" value="subclasping" />
+        <character name="shape" value="decurrent" modifier="not" />
+      </structure>
+      <structure id="o14472" name="margin">
+        <character name="shape_or_vernation" value="revolute" modifier="strongly" />
+        <character name="shape" value="sinuate" modifier="sometimes closely" />
+      </structure>
+      <structure id="o14473" name="face">
+        <character name="coloration" value="bicolor" />
+        <character name="insertion_or_position" value="abaxial" modifier="densely" />
+        <character name="pubescence" value="white-tomentose" modifier="closely" />
+        <character name="insertion_or_position" value="adaxial" />
+        <character name="coloration" value="green" />
+        <character name="architecture_or_exudation_or_pubescence" value="stipitate-glandular" modifier="densely" />
+        <character name="pubescence" value="glabrate" modifier="otherwise" />
+      </structure>
+    </statement>
+    <statement id="693.txt-4">
+      <text>Heads in corymbiform arrays.</text>
+      <structure id="o14474" name="head" />
+      <structure id="o14475" name="array">
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <relation id="r1550" name="in" from="o14474" to="o14475" negation="false" />
+    </statement>
+    <statement id="693.txt-5">
+      <text>Involucres broadly campanulate, 4.5–5 mm.</text>
+      <structure id="o14476" name="involucre">
+        <character name="shape" value="campanulate" modifier="broadly" />
+        <character char_type="range_value" name="size" from="4.5" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="693.txt-6">
+      <text>Phyllaries in 5–7 series, silvery white (hyaline, shiny), narrowly ovate to oblong or elliptic (apices of inner thickened and slightly raised along midribs, apiculate), glabrous.</text>
+      <structure id="o14477" name="phyllary">
+        <character name="coloration" value="white" modifier="silvery" />
+        <character char_type="range_value" name="shape" from="narrowly ovate" to="oblong or elliptic" />
+        <character name="shape" value="ovate" modifier="narrowly" />
+        <character name="shape" value="oblong" modifier="narrowly" />
+        <character name="shape" value="elliptic" modifier="narrowly" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+      <structure id="o14478" name="series">
+        <character char_type="range_value" name="count" from="5" to="7" />
+      </structure>
+      <relation id="r1551" name="in" from="o14477" to="o14478" negation="false" />
+    </statement>
+    <statement id="693.txt-7">
+      <text>Pistillate florets [46–]76–102.</text>
+      <structure id="o14479" name="floret" constraint="pistillate">
+        <character char_type="range_value" name="atypical_count" from="46" to="76" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="76" to="102" />
+      </structure>
+    </statement>
+    <statement id="693.txt-8">
+      <text>Bisexual florets (6–)8–11.</text>
+      <structure id="o14480" name="floret" constraint="bisexual">
+        <character char_type="range_value" name="atypical_count" from="6" to="8" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="8" to="11" />
+      </structure>
+    </statement>
+    <statement id="693.txt-9">
+      <text>Cypselae ridged, papillate-roughened.</text>
+      <structure id="o14481" name="cypsela">
+        <character name="shape" value="ridged" />
+        <character name="texture" value="papillate-roughened" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>oct</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>nov</flowering_time>
+  <flowering_time>dec</flowering_time>
+  <flowering_time>winter</flowering_time>
+  <flowering_time>jan</flowering_time>
+  <habitat>sandy soil in pastures</habitat>
+  <habitat>grasslands</habitat>
+  <habitat>open disturbed sites</habitat>
+  <elevation>0–10[–600] m;</elevation>
+  <us_distribution>Tex.</us_distribution>
+  <global_distribution>Mexico (Nuevo León).</global_distribution>
+  <discussion>Pseudognaphalium austrotexanum is similar to P. viscosum in general appearance: taprooted annuals with stems white-tomentose, strictly erect, and mostly unbranched proximal to heads, leaves linear to linear-lanceolate, strongly bicolor (green and glandular adaxially, white-tomentose abaxially), loosely to strictly ascending, crowded on relatively short internodes and continuing to immediately proximal to the heads, and basally subclasping but not strongly auriculate, phyllaries silvery white, thin, and hyaline, and cypselae minutely papillate-roughened.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

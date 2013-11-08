@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>9a.</number>
+  <variety_name>Agoseris heterophylla (Nuttall) Greene var. heterophylla</variety_name>
+  <synonym_of_variety_name>Agoseris heterophylla var. glabra (Nuttall) Howell; A. heterophylla subsp. glabrata (Suksdorf) Piper; A. heterophylla subsp. normalis Piper; Troximon heterophyllum (Nuttall) Greene var. cryptopleuroides Suksdorf</synonym_of_variety_name>
+  <description>
+    <statement id="512.txt-0">
+      <text>Stems 0 or 1 (internodes much shorter than subtending leaves).</text>
+      <structure id="o10452" name="stem">
+        <character name="count" value="0" />
+        <character name="count" value="1" />
+      </structure>
+    </statement>
+    <statement id="512.txt-1">
+      <text>Leaves erect to spreading;</text>
+      <structure id="o10453" name="leaf">
+        <character char_type="range_value" name="orientation" from="erect" to="spreading" />
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="spreading" />
+      </structure>
+    </statement>
+    <statement id="512.txt-2">
+      <text>blades (1–)3–15(–23) cm × (0.5–)2–10(–16) mm, mostly toothed, rarely lobed, lobes or teeth in 2–3 pairs, faces glabrous or densely, ± uniformly hairy.</text>
+      <structure id="o10454" name="blade">
+        <character char_type="range_value" name="atypical_length" from="1" to="3" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_length" from="15" to="23" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="3" from_unit="cm" to="15" to_unit="cm" />
+        <character char_type="range_value" name="atypical_width" from="]2-10" to="16" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="width" from="0.5" from_unit="mm" to="]2-10" to_unit="mm" />
+        <character name="shape" value="toothed" modifier="mostly" />
+        <character name="shape" value="lobed" modifier="rarely" />
+      </structure>
+      <structure id="o10455" name="lobe" />
+      <structure id="o10456" name="tooth" />
+      <structure id="o10457" name="pair">
+        <character char_type="range_value" name="count" from="2" to="3" />
+      </structure>
+      <relation id="r1197" name="in" from="o10456" to="o10457" negation="false" />
+      <structure id="o10458" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="glabrous" modifier="densely" />
+        <character name="pubescence" value="hairy" modifier="± uniformly" />
+      </structure>
+    </statement>
+    <statement id="512.txt-3">
+      <text>Peduncles 6–53 cm, lengths mostly (0.5–)1.5–4.5 times leaves at flowering, (1.5–)2–5 times leaves in fruit, glabrous or glabrate, or apically puberulent to villous.</text>
+      <structure id="o10459" name="peduncle">
+        <character char_type="range_value" name="size" from="6" from_unit="cm" to="53" to_unit="cm" />
+        <character char_type="range_value" name="atypical_size" from="0.5" to="1.5" to_inclusive="false" modifier="mostly" constraint="times leaves" constraintid="o10460" />
+        <character char_type="range_value" name="size" from="1.5" to="4.5" modifier="mostly" constraint="times leaves" constraintid="o10460" />
+        <character char_type="range_value" name="pubescence" from="glabrate , or apically puberulent" to="villous" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="glabrate" />
+        <character name="pubescence" value="puberulent" modifier="apically" />
+        <character name="pubescence" value="villous" modifier="apically" />
+      </structure>
+      <structure id="o10460" name="leaf" />
+      <structure id="o10461" name="leaf" constraint="flowering 1.5-2-5 times" />
+      <relation id="r1198" name="at" from="o10460" to="o10461" negation="false" />
+      <structure id="o10462" name="fruit" />
+      <relation id="r1199" name="in" from="o10461" to="o10462" negation="false" />
+    </statement>
+    <statement id="512.txt-4">
+      <text>Heads 2–10(–12) mm wide at flowering.</text>
+      <structure id="o10463" name="head">
+        <character char_type="range_value" name="atypical_size" from="10" to="12" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="10" to_unit="mm" modifier="at flowering" />
+      </structure>
+    </statement>
+    <statement id="512.txt-5">
+      <text>Phyllaries green or medially rosy purple, sometimes spotted, margins glabrous or ciliate, faces mostly hairy, occasionally glabrous, or villous, stipitate-glandular, translucent, yellowish or purple-septate and often purple-tipped trichomes, or eglandular with whitish opaque trichomes;</text>
+      <structure id="o10464" name="phyllary">
+        <character name="coloration" value="green" />
+        <character name="coloration" value="purple" modifier="medially;rosy" />
+        <character name="coloration" value="spotted" modifier="sometimes" />
+      </structure>
+      <structure id="o10465" name="margin">
+        <character name="pubescence" value="glabrous" />
+        <character name="architecture_or_shape" value="ciliate" />
+      </structure>
+      <structure id="o10466" name="face">
+        <character name="pubescence" value="hairy" modifier="mostly" />
+        <character name="pubescence" value="glabrous" modifier="occasionally" />
+        <character name="pubescence" value="villous" />
+        <character name="architecture_or_exudation_or_pubescence" value="stipitate-glandular" />
+        <character name="coloration" value="translucent" />
+        <character name="coloration" value="yellowish" />
+        <character name="architecture" value="purple-septate" />
+        <character name="architecture" value="eglandular" constraint="with trichomes" constraintid="o10468" />
+      </structure>
+      <structure id="o10467" name="trichome" />
+      <structure id="o10468" name="trichome">
+        <character name="coloration" value="opaque" modifier="whitish" />
+      </structure>
+    </statement>
+    <statement id="512.txt-6">
+      <text>outer erect to spreading, adaxially glabrous or puberulent and eglandular.</text>
+      <structure id="o10469" name="phyllary" constraint="outer">
+        <character name="pubescence" value="glabrous" modifier="adaxially" />
+        <character name="pubescence" value="puberulent" modifier="adaxially" />
+        <character name="architecture" value="eglandular" />
+      </structure>
+    </statement>
+    <statement id="512.txt-7">
+      <text>Florets (5–)20–50(–100);</text>
+      <structure id="o10470" name="floret">
+        <character char_type="range_value" name="atypical_count" from="5" to="20" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_count" from="50" to="100" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="20" to="50" />
+      </structure>
+    </statement>
+    <statement id="512.txt-8">
+      <text>corollas ± equaling phyllaries at flowering, tubes 1–4 mm, ligules 2–6 × 1–2 mm;</text>
+      <structure id="o10471" name="corolla" />
+      <structure id="o10472" name="phyllary" constraint="at flowering">
+        <character name="comparison" value="equaling" modifier="±" />
+      </structure>
+      <structure id="o10473" name="tube">
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+      <structure id="o10474" name="ligule">
+        <character char_type="range_value" name="length" from="2" from_unit="mm" to="6" to_unit="mm" />
+        <character char_type="range_value" name="width" from="1" from_unit="mm" to="2" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="512.txt-9">
+      <text>anthers 1–1.5 mm.</text>
+      <structure id="o10475" name="anther">
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="1.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="512.txt-10">
+      <text>Cypselae:</text>
+      <structure id="o10476" name="cypsela" />
+    </statement>
+    <statement id="512.txt-11">
+      <text>outermost strongly differing from inner, highly variable in color, shape, ornamentation, and pubescence;</text>
+      <structure id="o10477" name="cypsela" constraint="outermost" />
+      <structure id="o10478" name="color" />
+      <relation id="r1200" name="differing from inner , highly variable in" from="o10477" to="o10478" negation="false" />
+      <structure id="o10479" name="ornamentation" />
+      <structure id="o10480" name="pubescence" />
+    </statement>
+    <statement id="512.txt-12">
+      <text>ribs flattened to alate, or 0, straight to strongly undulate, not diminishing proximally.</text>
+      <structure id="o10481" name="rib">
+        <character name="shape" value="flattened" />
+        <character name="architecture" value="alate" />
+        <character name="count" value="0" />
+        <character name="course" value="straight" />
+        <character name="shape" value="undulate" modifier="strongly" />
+        <character name="manifestation" value="diminishing" modifier="not ; proximally" />
+      </structure>
+    </statement>
+    <statement id="512.txt-13">
+      <text>2 n = 18, 36.</text>
+      <structure id="o10482" name="chromosome">
+        <character name="count" value="18" />
+        <character name="count" value="36" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>wet to dry, mostly seasonal habitats in deserts</habitat>
+  <habitat>grasslands</habitat>
+  <habitat>chaparral</habitat>
+  <habitat>steppe</habitat>
+  <habitat>oak woodlands</habitat>
+  <habitat>and open pine forests</habitat>
+  <habitat>often disturbed sites</habitat>
+  <elevation>0–2300 m;</elevation>
+  <ca_distribution>B.C.</ca_distribution>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <global_distribution>Mexico (Baja California)</global_distribution>
+  <global_distribution>Mexico (Guadalupe Island)</global_distribution>
+  <global_distribution>introduced</global_distribution>
+  <global_distribution>Europe (Sweden).</global_distribution>
+  <discussion>Variety heterophylla is the most widespread of the varieties. It exhibits remarkable variation in cypsela morphology. K. L. Chambers (1963b) demonstrated that this small-flowered variety is strongly autogamous and does not outcross. The same breeding system may be present in other Agoseris taxa that exhibit reduced corolla and anther size (e.g., A. apargioides var. maritima, A. grandiflora, A. aurantiaca). Hybridization does not appear to be common; apparent intermediates with A. apargioides and A. hirsuta are known.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>125.</number>
+  <genus_name>PENTZIA</genus_name>
+  <authority>Thunberg</authority>
+  <place_of_publication>Prodr. Pl. Cap., 145. 1800</place_of_publication>
+  <common_name />
+  <derivation>For Hendrik Christian Pentz, 1738–1803, Swedish plant collector</derivation>
+  <author_of_tribe_genus>David J. Keil</author_of_tribe_genus>
+  <description>
+    <statement id="944.txt-0">
+      <text>Shrubs [subshrubs], [5–]15–35[–50] cm (usually aromatic).</text>
+      <structure id="o19454" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="5" to="15" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_size" from="35" to="50" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="15" from_unit="cm" to="35" to_unit="cm" />
+        <character name="life_style" value="shrub" />
+      </structure>
+    </statement>
+    <statement id="944.txt-1">
+      <text>Stems 1–10+, usually much branched, ± tomentose (hairs medifixed) [glabrate or glabrous].</text>
+      <structure id="o19455" name="stem">
+        <character char_type="range_value" name="count" from="1" to="10" upper_restricted="false" />
+        <character name="architecture_or_shape" value="branched" modifier="usually much" />
+        <character name="pubescence" value="tomentose" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="944.txt-2">
+      <text>Leaves cauline (often fascicled, ± ericoid);</text>
+    </statement>
+    <statement id="944.txt-3">
+      <text>alternate [opposite];</text>
+    </statement>
+    <statement id="944.txt-4">
+      <text>petiolate or sessile;</text>
+      <structure id="o19456" name="leaf">
+        <character name="insertion_or_position" value="cauline" />
+        <character name="arrangement" value="alternate" />
+        <character name="architecture" value="petiolate" />
+        <character name="architecture" value="sessile" />
+      </structure>
+    </statement>
+    <statement id="944.txt-5">
+      <text>blades linear to obovate or cuneate, often 1[–2]-pinnately lobed, ultimate margins entire or toothed, faces ± tomentose [glabrate or glabrous].</text>
+      <structure id="o19457" name="blade">
+        <character char_type="range_value" name="shape" from="linear" to="obovate or cuneate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="obovate" />
+        <character name="shape" value="cuneate" />
+        <character name="shape" value="lobed" modifier="often 1-2-pinnately" />
+      </structure>
+      <structure id="o19458" name="margin" constraint="ultimate">
+        <character name="shape" value="entire" />
+        <character name="shape" value="toothed" />
+      </structure>
+      <structure id="o19459" name="face">
+        <character name="pubescence" value="tomentose" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="944.txt-6">
+      <text>Heads discoid, borne singly or in loose, corymbiform arrays (pedunculate).</text>
+      <structure id="o19460" name="head">
+        <character name="shape_or_architecture" value="discoid" />
+        <character name="arrangement" value="singly" />
+        <character name="arrangement" value="in loose , corymbiform arrays" />
+      </structure>
+      <structure id="o19461" name="array">
+        <character name="architecture_or_texture" value="loose" />
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <relation id="r2038" name="in" from="o19460" to="o19461" negation="false" />
+    </statement>
+    <statement id="944.txt-7">
+      <text>Involucres spheric to hemispheric or broader, 3–6[–12+] mm diam.</text>
+      <structure id="o19462" name="involucre">
+        <character char_type="range_value" name="shape" from="spheric" to="hemispheric" />
+        <character name="shape" value="spheric" />
+        <character name="shape" value="hemispheric" />
+        <character name="size" value="broader" />
+        <character char_type="range_value" name="atypical_size" from="6" to="12" from_unit="mm" to_unit="mm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="944.txt-8">
+      <text>Phyllaries persistent or tardily falling, 22–40[–60+] in 3–4+ series, distinct, deltate-ovate to elliptic or obovate (sometimes each with central resin canal and/or keel), unequal, margins and apices (often hyaline, sometimes brownish) ± scarious (tips of inner ± dilated).</text>
+      <structure id="o19463" name="phyllary">
+        <character name="duration" value="persistent" />
+        <character name="orientation" value="falling" modifier="tardily" />
+        <character char_type="range_value" name="atypical_count" from="40" to="60" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="22" to="40" constraint="in series" constraintid="o19464" />
+        <character name="fusion" value="distinct" />
+        <character char_type="range_value" name="shape" from="deltate-ovate" to="elliptic or obovate" />
+        <character name="shape" value="deltate-ovate" />
+        <character name="shape" value="elliptic" />
+        <character name="shape" value="obovate" />
+        <character name="size" value="unequal" />
+      </structure>
+      <structure id="o19464" name="series">
+        <character char_type="range_value" name="count" from="3" to="4" upper_restricted="false" />
+      </structure>
+      <structure id="o19465" name="margin" />
+      <structure id="o19466" name="apex">
+        <character name="texture" value="scarious" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="944.txt-9">
+      <text>Receptacles conic [convex to hemispheric], epaleate.</text>
+      <structure id="o19467" name="receptacle">
+        <character name="shape" value="conic" />
+        <character name="architecture" value="epaleate" />
+      </structure>
+    </statement>
+    <statement id="944.txt-10">
+      <text>Ray florets 0.</text>
+      <structure id="o19468" name="floret" constraint="ray">
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+    <statement id="944.txt-11">
+      <text>Disc florets 40–100[–200+], bisexual, fertile;</text>
+      <structure id="o19469" name="floret" constraint="disc">
+        <character char_type="range_value" name="atypical_count" from="100" to="200" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="40" to="100" />
+        <character name="reproduction" value="bisexual" />
+        <character name="reproduction" value="fertile" />
+      </structure>
+    </statement>
+    <statement id="944.txt-12">
+      <text>corollas yellow, tubes ± cylindric (usually dilated, with relatively thick vascular strands), throats abruptly dilated, lobes 5, triangular.</text>
+      <structure id="o19470" name="corolla">
+        <character name="coloration" value="yellow" />
+      </structure>
+      <structure id="o19471" name="tube">
+        <character name="shape" value="cylindric" modifier="±" />
+      </structure>
+      <structure id="o19472" name="throat">
+        <character name="shape" value="dilated" modifier="abruptly" />
+      </structure>
+      <structure id="o19473" name="lobe">
+        <character name="count" value="5" />
+        <character name="shape" value="triangular" />
+      </structure>
+    </statement>
+    <statement id="944.txt-13">
+      <text>Cypselae narrowly obovoid to oblong or elliptic, ± terete or flattened, ribs 5, faces gland-dotted between ribs (pericarps with myxogenic cells abaxially and along ribs);</text>
+      <structure id="o19474" name="cypsela">
+        <character char_type="range_value" name="shape" from="narrowly obovoid" to="oblong or elliptic" />
+        <character name="shape" value="obovoid" modifier="narrowly" />
+        <character name="shape" value="oblong" modifier="narrowly" />
+        <character name="shape" value="elliptic" modifier="narrowly" />
+        <character name="shape" value="terete" modifier="±" />
+        <character name="shape" value="flattened" modifier="±" />
+      </structure>
+      <structure id="o19475" name="rib">
+        <character name="count" value="5" />
+      </structure>
+      <structure id="o19476" name="face">
+        <character name="coloration_or_relief" value="gland-dotted" constraint="between ribs" constraintid="o19477" />
+      </structure>
+      <structure id="o19477" name="rib" />
+    </statement>
+    <statement id="944.txt-14">
+      <text>pappi of 1 (often cupped or earlike) or 3–5 (erose to lacerate) scales (usually more developed adaxially) [asymmetrically coroniform or 0].</text>
+      <structure id="o19478" name="pappus" />
+      <structure id="o19479" name="scale">
+        <character name="count" value="1" />
+        <character char_type="range_value" name="count" from="3" to="5" />
+      </structure>
+      <relation id="r2039" name="consist_of" from="o19478" to="o19479" negation="false" />
+    </statement>
+    <statement id="944.txt-15">
+      <text>x = 9.</text>
+      <structure id="o19480" name="chromosome">
+        <character name="count" value="9" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species ± 23 (1 in the flora):</number_of_infrataxa>
+  <introduced>introduced;</introduced>
+  <general_distribution>Africa (mostly South Africa).</general_distribution>
+  <general_distribution>Africa (also Namibia and Mediterranean Africa and adjacent areas).</general_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

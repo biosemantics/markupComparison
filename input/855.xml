@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>3c.</number>
+  <subspecies_name>Artemisia campestris Linnaeus subsp. pacifica</subspecies_name>
+  <authority>( Nuttall) H. M. Hall &amp; Clements</authority>
+  <place_of_publication>Publ. Carnegie Inst. Wash. 326: 122. 1923</place_of_publication>
+  <common_name>Western sagewort</common_name>
+  <synonym_of_subspecies_name>Artemisia pacifica Nuttall, Trans. Amer. Philos. Soc., n. s. 7: 401. 1841; A. campestris var . petiolata S. L. Welsh; A. campestris var. scouleriana (Besser) Cronquist; A. desertorum Sprengel var. scouleriana Besser; Oligosporus campestris (Linnaeus) Cassini subsp. pacificus (Nuttall) W. A. Weber; O. pacificus (Nuttall) Poljakov</synonym_of_subspecies_name>
+  <description>
+    <statement id="855.txt-0">
+      <text>Perennials, 30–100 cm.</text>
+      <structure id="o17918" name="whole_organism">
+        <character char_type="range_value" name="size" from="30" from_unit="cm" to="100" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="855.txt-1">
+      <text>Stems 2–5.</text>
+      <structure id="o17919" name="stem">
+        <character char_type="range_value" name="count" from="2" to="5" />
+      </structure>
+    </statement>
+    <statement id="855.txt-2">
+      <text>Leaves:</text>
+      <structure id="o17920" name="leaf" />
+    </statement>
+    <statement id="855.txt-3">
+      <text>basal rosettes persistent (faces green and glabrous or gray-green and sparsely hairy).</text>
+      <structure id="o17921" name="rosette" constraint="basal">
+        <character name="duration" value="persistent" />
+      </structure>
+    </statement>
+    <statement id="855.txt-4">
+      <text>Heads in arrays 10–22 × 1–3(–7) cm.</text>
+      <structure id="o17922" name="head" />
+      <structure id="o17923" name="array">
+        <character char_type="range_value" name="length" from="10" from_unit="cm" to="22" to_unit="cm" />
+        <character char_type="range_value" name="atypical_width" from="3" to="7" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="width" from="1" from_unit="cm" to="3" to_unit="cm" />
+      </structure>
+      <relation id="r1893" name="in" from="o17922" to="o17923" negation="false" />
+    </statement>
+    <statement id="855.txt-5">
+      <text>Involucres turbinate, 2–3 × 2(–3) mm.</text>
+      <structure id="o17924" name="involucre">
+        <character name="shape" value="turbinate" />
+        <character char_type="range_value" name="length" from="2" from_unit="mm" to="3" to_unit="mm" />
+        <character char_type="range_value" name="atypical_width" from="2" to="3" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character name="width" value="2" unit="mm" />
+      </structure>
+    </statement>
+  </description>
+  <habitat>sandy soils</habitat>
+  <habitat>arid regions</habitat>
+  <elevation>100–2500 m;</elevation>
+  <ca_distribution>Alta.</ca_distribution>
+  <ca_distribution>B.C.</ca_distribution>
+  <ca_distribution>Man.</ca_distribution>
+  <ca_distribution>Sask.</ca_distribution>
+  <us_distribution>Alaska</us_distribution>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>Nebr.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <discussion>Throughout western North America, members of the Artemisia campestris complex can be assigned to subsp. pacifica. Although morphologically distinct through much of its range, subsp. pacifica may intergrade with subsp. canadensis and A. borealis in areas where their ranges overlap.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

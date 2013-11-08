@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>12.</number>
+  <species_name>Taraxacum scopulorum</species_name>
+  <authority>(A. Gray) Rydberg</authority>
+  <place_of_publication>Mem. New York Bot. Gard. 1: 455. 1900</place_of_publication>
+  <common_name>Alpine dandelion</common_name>
+  <synonym_of_species_name>Taraxacum officinale F. H. Wiggers var. scopulorum A. Gray in A. Gray et al., Syn. Fl. N. Amer. 1(2): 440. 1884; Leontodon scopulorum (A. Gray) Rydberg</synonym_of_species_name>
+  <description>
+    <statement id="329.txt-0">
+      <text>Plants 1–5 cm;</text>
+      <structure id="o6052" name="whole_organism">
+        <character char_type="range_value" name="size" from="1" from_unit="cm" to="5" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="329.txt-1">
+      <text>taproots branched.</text>
+      <structure id="o6053" name="taproot">
+        <character name="architecture_or_shape" value="branched" />
+      </structure>
+    </statement>
+    <statement id="329.txt-2">
+      <text>Stems 1–3(–5), ascending to erect, reddish or purplish, glabrous.</text>
+      <structure id="o6054" name="stem">
+        <character char_type="range_value" name="atypical_count" from="3" to="5" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="1" to="3" />
+        <character char_type="range_value" name="orientation" from="ascending" to="erect" />
+        <character name="orientation" value="ascending" />
+        <character name="orientation" value="erect" />
+        <character name="coloration" value="reddish" />
+        <character name="coloration" value="purplish" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="329.txt-3">
+      <text>Leaves fewer than 10, horizontal;</text>
+      <structure id="o6055" name="leaf">
+        <character name="count" value="10]" modifier="fewer than" />
+        <character name="orientation" value="horizontal" />
+      </structure>
+    </statement>
+    <statement id="329.txt-4">
+      <text>petioles ± narrowly winged;</text>
+      <structure id="o6056" name="petiole">
+        <character name="architecture" value="winged" modifier="± narrowly" />
+      </structure>
+    </statement>
+    <statement id="329.txt-5">
+      <text>blades linear-oblanceolate to narrowly oblanceolate (usually runcinate), (1–)1.5–4 × 0.5–1 cm, bases attenuate, margins lobed regularly, deeply, in 3–5(–7) pairs (occasionally dentate, rarely entire or subentire), lobes triangular, straight or often retrorse (also teeth), acute to acuminate or obtuse, teeth 0 or occasionally 1–3 on lobes (or replacing lobes), apices acuminate, faces glabrous or sparsely arachnoid-villous (particularly young).</text>
+      <structure id="o6057" name="blade">
+        <character char_type="range_value" name="shape" from="linear-oblanceolate" to="narrowly oblanceolate" />
+        <character name="shape" value="linear-oblanceolate" />
+        <character name="shape" value="oblanceolate" modifier="narrowly" />
+        <character char_type="range_value" name="atypical_length" from="1" to="1.5" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="length" from="1.5" from_unit="cm" to="4" to_unit="cm" />
+        <character char_type="range_value" name="width" from="0.5" from_unit="cm" to="1" to_unit="cm" />
+      </structure>
+      <structure id="o6058" name="base">
+        <character name="shape" value="attenuate" />
+      </structure>
+      <structure id="o6059" name="margin">
+        <character name="shape" value="lobed" modifier="regularly" />
+      </structure>
+      <structure id="o6060" name="pair" constraint="-7">
+        <character char_type="range_value" name="count" from="3" to="5" />
+      </structure>
+      <relation id="r762" name="in" from="o6059" to="o6060" negation="false" />
+      <structure id="o6061" name="lobe">
+        <character name="shape" value="triangular" />
+        <character name="course" value="straight" />
+        <character name="orientation" value="retrorse" modifier="often" />
+        <character char_type="range_value" name="shape" from="acute" to="acuminate or obtuse" />
+        <character name="shape" value="acute" />
+        <character name="shape" value="acuminate" />
+        <character name="shape" value="obtuse" />
+      </structure>
+      <structure id="o6062" name="tooth">
+        <character name="count" value="0" />
+        <character char_type="range_value" name="count" from="1" to="3" modifier="occasionally" constraint="on lobes" constraintid="o6063" />
+      </structure>
+      <structure id="o6063" name="lobe" />
+      <structure id="o6064" name="apex">
+        <character name="shape" value="acuminate" />
+      </structure>
+      <structure id="o6065" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="arachnoid-villous" modifier="sparsely" />
+      </structure>
+    </statement>
+    <statement id="329.txt-6">
+      <text>Calyculi (6–)8–10, appressed to spreading, soon reflexed or revolute (thinner than phyllaries), pruinose, sometimes purplish (particularly adaxially), narrowly to broadly ovate bractlets in (1–)2 series, 2.5–3.8 × 1.8–2.6 mm, margins not to ± scarious proximally, apices acuminate to broadly, shortly caudate, hornless, not callous, tips slightly scarious (purple), entire or slightly erose.</text>
+      <structure id="o6066" name="calyculus">
+        <character char_type="range_value" name="atypical_count" from="6" to="8" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="8" to="10" />
+        <character char_type="range_value" name="orientation" from="appressed" to="spreading" />
+        <character name="orientation" value="appressed" />
+        <character name="orientation" value="spreading" />
+        <character name="orientation" value="reflexed" modifier="soon" />
+        <character name="shape_or_vernation" value="revolute" />
+        <character name="coating" value="pruinose" />
+        <character name="coloration" value="purplish" modifier="sometimes" />
+        <character char_type="range_value" name="length" from="2.5" from_unit="mm" to="3.8" to_unit="mm" />
+        <character char_type="range_value" name="width" from="1.8" from_unit="mm" to="2.6" to_unit="mm" />
+      </structure>
+      <structure id="o6067" name="bractlet">
+        <character name="shape" value="ovate" modifier="broadly" />
+      </structure>
+      <relation id="r763" name="narrowly to" from="o6066" to="o6067" negation="false" />
+      <structure id="o6068" name="series" constraint="1-2" />
+      <relation id="r764" name="in" from="o6067" to="o6068" negation="false" />
+      <structure id="o6069" name="margin">
+        <character name="texture" value="scarious" modifier="not ± ; proximally" />
+      </structure>
+      <structure id="o6070" name="apex">
+        <character name="shape" value="acuminate" />
+        <character name="shape" value="caudate" modifier="shortly" />
+        <character name="architecture" value="hornless" />
+        <character name="texture" value="callous" modifier="not" />
+      </structure>
+      <structure id="o6071" name="tip">
+        <character name="texture" value="scarious" modifier="slightly" />
+        <character name="shape" value="entire" />
+        <character name="shape" value="erose" modifier="slightly" />
+      </structure>
+    </statement>
+    <statement id="329.txt-7">
+      <text>Involucres dark to blackish green, pruinose, sometimes purplish, narrowly campanulate to cylindro-campanulate or cylindric, (6–)10–12(–14) mm.</text>
+      <structure id="o6072" name="involucre">
+        <character char_type="range_value" name="coloration" from="dark" to="blackish-green" />
+        <character name="coloration" value="dark" />
+        <character name="coloration" value="green" modifier="blackish" />
+        <character name="coating" value="pruinose" />
+        <character name="coloration" value="purplish" modifier="sometimes" />
+        <character char_type="range_value" name="shape" from="narrowly campanulate" to="cylindro-campanulate or cylindric" />
+        <character name="shape" value="campanulate" modifier="narrowly" />
+        <character name="shape" value="cylindro-campanulate" modifier="narrowly" />
+        <character name="shape" value="cylindric" modifier="narrowly" />
+        <character char_type="range_value" name="atypical_size" from="6" to="10" from_unit="mm" to_unit="mm" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_size" from="12" to="14" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="12" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="329.txt-9">
+      <text>Florets (ca. 15–)35–50;</text>
+      <structure id="o6073" name="floret">
+        <character char_type="range_value" name="count" from="35" to="50" />
+      </structure>
+    </statement>
+    <statement id="329.txt-10">
+      <text>corollas yellow (sometimes gray-striped abaxially), 7.5–8.8 × 1.3–2 mm.</text>
+      <structure id="o6074" name="corolla">
+        <character name="coloration" value="yellow" />
+        <character char_type="range_value" name="length" from="7.5" from_unit="mm" to="8.8" to_unit="mm" />
+        <character char_type="range_value" name="width" from="1.3" from_unit="mm" to="2" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="329.txt-12">
+      <text>pappi white, 4.8–5.5 mm.</text>
+      <structure id="o6075" name="pappus">
+        <character name="coloration" value="white" />
+        <character char_type="range_value" name="size" from="4.8" from_unit="mm" to="5.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="329.txt-13">
+      <text>2 n = 16? (as pumilum ).</text>
+      <structure id="o6076" name="chromosome">
+        <character name="count" value="16" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>dry to moderately drained areas</habitat>
+  <habitat>gravel</habitat>
+  <habitat>sand</habitat>
+  <habitat>silt, clay</habitat>
+  <habitat>with low organic content, ridges</habitat>
+  <habitat>arctic seashores</habitat>
+  <habitat>barrens</habitat>
+  <habitat>flood plains</habitat>
+  <habitat>high alpine tundra (south</habitat>
+  <elevation>40–3400 m;</elevation>
+  <global_distribution>Greenland</global_distribution>
+  <ca_distribution>Alta.</ca_distribution>
+  <ca_distribution>B.C.</ca_distribution>
+  <ca_distribution>N.W.T.</ca_distribution>
+  <ca_distribution>Nunavut</ca_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <discussion>Taraxacum scopulorum is known from the western Canadian Arctic Archipelago and from high-alpine summits in the western Cordilleras. This small species is characterized by lobed leaves, yellow ligules, and cypselae that are paler and less muricate than those of T. phymatocarpum.</discussion>
+  <discussion>The name Taraxacum lyratum Ledebour has been used for this species since the work of H. Handel-Mazzetti (1907), who annotated the type of T. scopulorum (GH). That type originated from the mountains of central Asia, and in his monograph Handel-Mazzetti included Kamchatka and northern Alaska in its range; I have not seen specimens of the species from Alaska. Also, his concept of T. lyratum seems to include heterogeneous elements, notably what is called here T. alaskanum. At the present time, I prefer to treat this species as restricted to North America, where the name T. scopulorum clearly applies to this very distinct, diminutive dandelion. It appears to be closely related to T. phymatocarpum, but the latter has mostly entire or slightly dentate leaves (some leaves sometimes slightly deltate-lobed), as opposed to the wholly deltate-lobed ones of T. scopulorum. A. E. Porsild (1957) illustrated this species under the name T. pumilum.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

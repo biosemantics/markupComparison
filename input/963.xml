@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Argyranthemum foeniculaceum</species_name>
+  <authority>(Willdenow) Webb ex Schultz-Bipontinus</authority>
+  <place_of_publication>in P. B. Webb and S. Berthelot, Hist. Nat. Îles Canaries 3(2,75): 262. 1844</place_of_publication>
+  <synonym_of_species_name>Pyrethrum foeniculaceum Willdenow, Enum. Pl., 903. 1809; Argyranthemum anethifolium Webb; Chrysanthemum anethifolium Willdenow; C. foeniculaceum (Willdenow) Steudel</synonym_of_species_name>
+  <description>
+    <statement id="963.txt-0">
+      <text>Leaves scattered or crowded at bases of peduncles, ± succulent;</text>
+      <structure id="o19841" name="leaf">
+        <character name="arrangement" value="scattered" />
+        <character name="architecture" value="crowded" constraint="at bases" constraintid="o19842" />
+        <character name="texture" value="succulent" modifier="±" />
+      </structure>
+      <structure id="o19842" name="base" />
+      <structure id="o19843" name="peduncle" />
+      <relation id="r2061" name="part_of" from="o19842" to="o19843" negation="false" />
+    </statement>
+    <statement id="963.txt-1">
+      <text>blades ± obovate, 20–45(–100) × 10–30(–65) mm, (1–)2–3-pinnately lobed, ultimate margins dentate or entire, faces glabrous, ± glaucous.</text>
+      <structure id="o19844" name="blade">
+        <character name="shape" value="obovate" modifier="±" />
+        <character char_type="range_value" name="atypical_length" from="45" to="100" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="20" from_unit="mm" to="45" to_unit="mm" />
+        <character char_type="range_value" name="atypical_width" from="30" to="65" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="width" from="10" from_unit="mm" to="30" to_unit="mm" />
+        <character name="shape" value="lobed" modifier="1-2-3-pinnately" />
+      </structure>
+      <structure id="o19845" name="margin" constraint="ultimate">
+        <character name="shape" value="dentate" />
+        <character name="shape" value="entire" />
+      </structure>
+      <structure id="o19846" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="coating" value="glaucous" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="963.txt-2">
+      <text>Peduncles 5–10 cm.</text>
+      <structure id="o19847" name="peduncle">
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="10" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="963.txt-3">
+      <text>Cypselae 2–4(–6) mm;</text>
+      <structure id="o19848" name="cypsela">
+        <character char_type="range_value" name="atypical_size" from="4" to="6" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="963.txt-4">
+      <text>pappi 0 (cypselar wall tissue sometimes produced as teeth or crowns at apices of some cypselae). 2 n = 18.</text>
+      <structure id="o19849" name="pappus">
+        <character name="count" value="0" />
+      </structure>
+      <structure name="chromosome" id="o19850">
+        <character name="count" value="18" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>may</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <habitat>disturbed sites</habitat>
+  <elevation>0–10 m;</elevation>
+  <introduced>introduced;</introduced>
+  <us_distribution>Calif.</us_distribution>
+  <global_distribution>Macaronesia.</global_distribution>
+  <discussion>Cultivars of Argyranthemum foeniculaceum and/or A. frutescens (Linnaeus) Schultz-Bipontinus (similar, not glaucous) are widely used horticulturally in landscaping and for cut flowers and are often sold as florists’ daisies, marguerites, or Paris daisies.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

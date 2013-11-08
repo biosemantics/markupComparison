@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>14.</number>
+  <species_name>Taraxacum alaskanum</species_name>
+  <authority>Rydberg</authority>
+  <place_of_publication>Bull. Torrey Bot. Club 28: 512. 1901</place_of_publication>
+  <common_name>Alaska dandelion</common_name>
+  <synonym_of_species_name>Taraxacum kamtschaticum Dahlstedt; T. pseudokamtschaticum Jurtzev</synonym_of_species_name>
+  <description>
+    <statement id="331.txt-0">
+      <text>Plants (1.5–)3–9(–16, mostly in fruit) cm;</text>
+      <structure id="o6099" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="1.5" to="3" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="3" from_unit="cm" to="9" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="331.txt-1">
+      <text>taproots sometimes branched.</text>
+      <structure id="o6100" name="taproot">
+        <character name="architecture_or_shape" value="branched" modifier="sometimes" />
+      </structure>
+    </statement>
+    <statement id="331.txt-2">
+      <text>Stems 1–3+, ascending, proximally purplish, glabrous or glabrate.</text>
+      <structure id="o6101" name="stem">
+        <character char_type="range_value" name="count" from="1" to="3" upper_restricted="false" />
+        <character name="orientation" value="ascending" />
+        <character name="coloration" value="purplish" modifier="proximally" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="glabrate" />
+      </structure>
+    </statement>
+    <statement id="331.txt-3">
+      <text>Leaves fewer than 10, horizontal to patent (green);</text>
+      <structure id="o6102" name="leaf">
+        <character name="count" value="10]" modifier="fewer than" />
+        <character char_type="range_value" name="orientation" from="horizontal" to="patent" />
+        <character name="orientation" value="horizontal" />
+        <character name="orientation" value="patent" />
+      </structure>
+    </statement>
+    <statement id="331.txt-4">
+      <text>petioles slender or decurrent lines from bases;</text>
+      <structure id="o6103" name="petiole">
+        <character name="size" value="slender" />
+        <character name="size" value="decurrent lines" />
+      </structure>
+      <structure id="o6104" name="line">
+        <character name="shape" value="decurrent" />
+      </structure>
+      <structure id="o6105" name="base" />
+      <relation id="r767" name="from" from="o6104" to="o6105" negation="false" />
+    </statement>
+    <statement id="331.txt-5">
+      <text>blades oblanceolate or narrowly oblong (usually runcinate), (1.5–)2.2–11.6 × 0.4–2.2 cm, bases attenuate, margins usually lobed regularly, ± deeply, in 3–5(–6) pairs, occasionally (younger) only toothed or denticulate, lobes usually retrorse, occasionally straight or antrorse, triangular to narrowly triangular, terminals often largest, acuminate to acute-rounded, sometimes toothed, teeth 0(–1) on lobes or sinuses, triangular, apices obtuse to acute, faces glabrous.</text>
+      <structure id="o6106" name="blade">
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="oblong" modifier="narrowly" />
+        <character char_type="range_value" name="atypical_length" from="1.5" to="2.2" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="length" from="2.2" from_unit="cm" to="11.6" to_unit="cm" />
+        <character char_type="range_value" name="width" from="0.4" from_unit="cm" to="2.2" to_unit="cm" />
+      </structure>
+      <structure id="o6107" name="base">
+        <character name="shape" value="attenuate" />
+      </structure>
+      <structure id="o6108" name="margin">
+        <character name="shape" value="lobed" modifier="usually ; regularly" />
+        <character name="shape" value="toothed" modifier="occasionally only" />
+        <character name="shape" value="denticulate" modifier="occasionally only" />
+      </structure>
+      <structure id="o6109" name="pair" constraint="-6">
+        <character char_type="range_value" name="count" from="3" to="5" />
+      </structure>
+      <relation id="r768" name="in" from="o6108" to="o6109" negation="false" />
+      <structure id="o6110" name="lobe">
+        <character name="orientation" value="retrorse" modifier="usually" />
+        <character name="course" value="straight" modifier="occasionally" />
+        <character name="orientation" value="antrorse" />
+        <character char_type="range_value" name="shape" from="triangular" to="narrowly triangular" />
+        <character name="shape" value="triangular" />
+        <character name="shape" value="triangular" modifier="narrowly" />
+      </structure>
+      <structure id="o6111" name="terminal">
+        <character name="size" value="largest" modifier="often" />
+        <character name="shape" value="acuminate" />
+        <character name="shape" value="acute-rounded" />
+        <character name="shape" value="toothed" modifier="sometimes" />
+      </structure>
+      <structure id="o6112" name="tooth">
+        <character char_type="range_value" name="atypical_count" from="0" to="1" from_inclusive="false" />
+        <character name="count" value="0" constraint="on lobes, sinuses" constraintid="o6113  o6114" />
+        <character name="shape" value="triangular" />
+      </structure>
+      <structure id="o6113" name="lobe" />
+      <structure id="o6114" name="sinus" />
+      <structure id="o6115" name="apex">
+        <character char_type="range_value" name="shape" from="obtuse" to="acute" />
+        <character name="shape" value="obtuse" />
+        <character name="shape" value="acute" />
+      </structure>
+      <structure id="o6116" name="face">
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="331.txt-6">
+      <text>Calyculi of 7–9, spreading, becoming reflexed to revolute, often purplish, particularly adaxially, ovate to lance-ovate or elliptic bracklets in 2 series, 2.5–4.5 × 1.7–2.7 mm, margins not or narrowly scarious, hyaline, apices acuminate to caudate, tips sometimes flaring, scarious, erose, hornless.</text>
+      <structure id="o6117" name="calyculus">
+        <character char_type="range_value" name="length" from="2.5" from_unit="mm" to="4.5" to_unit="mm" />
+        <character char_type="range_value" name="width" from="1.7" from_unit="mm" to="2.7" to_unit="mm" />
+      </structure>
+      <structure id="o6118" name="bracklet">
+        <character char_type="range_value" name="count" from="7" to="9" />
+        <character name="orientation" value="spreading" />
+        <character name="orientation" value="reflexed" modifier="becoming" />
+        <character name="shape_or_vernation" value="revolute" />
+        <character name="coloration" value="purplish" modifier="often" />
+        <character char_type="range_value" name="shape" from="ovate" to="lance-ovate or elliptic" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="lance-ovate" />
+        <character name="shape" value="elliptic" />
+      </structure>
+      <relation id="r769" name="consist_of" from="o6117" to="o6118" negation="false" />
+      <structure id="o6119" name="series">
+        <character name="count" value="2" />
+      </structure>
+      <relation id="r770" name="in" from="o6118" to="o6119" negation="false" />
+      <structure id="o6120" name="margin">
+        <character name="texture" value="scarious" modifier="not narrowly" />
+        <character name="coloration" value="hyaline" />
+      </structure>
+      <structure id="o6121" name="apex">
+        <character char_type="range_value" name="shape" from="acuminate" to="caudate" />
+        <character name="shape" value="acuminate" />
+        <character name="shape" value="caudate" />
+      </structure>
+      <structure id="o6122" name="tip">
+        <character name="shape" value="flaring" modifier="sometimes" />
+        <character name="texture" value="scarious" />
+        <character name="shape_or_relief" value="erose" />
+        <character name="architecture" value="hornless" />
+      </structure>
+    </statement>
+    <statement id="331.txt-7">
+      <text>Involucres dark green, often glaucous, often purplish, particularly adaxially, cylindro- to narrowly campanulate, 9–14 mm.</text>
+      <structure id="o6123" name="involucre">
+        <character name="coloration" value="green" modifier="dark" />
+        <character name="coating" value="glaucous" modifier="often" />
+        <character name="coloration" value="purplish" modifier="often" />
+        <character name="shape" value="campanulate" modifier="cylindro-to-narrowly" />
+        <character char_type="range_value" name="size" from="9" from_unit="mm" to="14" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="331.txt-8">
+      <text>Phyllaries 7–8 in 3 series, lanceolate, 1.4–2.6(–4) mm wide, margins not scarious (some outer) to narrowly scarious, apices long-acuminate, tips purplish or grayish, often flared, scarious, hornless.</text>
+      <structure id="o6124" name="phyllary">
+        <character char_type="range_value" name="count" from="7" to="8" constraint="in series" constraintid="o6125" />
+        <character name="shape" value="lanceolate" />
+        <character char_type="range_value" name="atypical_size" from="2.6" to="4" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="1.4" from_unit="mm" to="2.6" to_unit="mm" />
+      </structure>
+      <structure id="o6125" name="series">
+        <character name="count" value="3" />
+      </structure>
+      <structure id="o6126" name="margin">
+        <character char_type="range_value" name="texture" from="scarious" to="narrowly scarious" modifier="not" />
+        <character name="texture" value="scarious" modifier="not" />
+        <character name="texture" value="scarious" modifier="not narrowly" />
+      </structure>
+      <structure id="o6127" name="apex">
+        <character name="shape" value="long-acuminate" />
+      </structure>
+      <structure id="o6128" name="tip">
+        <character name="coloration" value="purplish" />
+        <character name="coloration" value="grayish" />
+        <character name="shape" value="flared" modifier="often" />
+        <character name="texture" value="scarious" />
+        <character name="architecture" value="hornless" />
+      </structure>
+    </statement>
+    <statement id="331.txt-9">
+      <text>Florets 30–55+;</text>
+      <structure id="o6129" name="floret">
+        <character char_type="range_value" name="count" from="30" to="55" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="331.txt-10">
+      <text>corollas yellow (gray-striped abaxially, sometimes becoming orange purplish with age on drying), outer 11–14 × 1.5–2.4 mm.</text>
+      <structure id="o6130" name="corolla">
+        <character name="coloration" value="yellow" />
+        <character name="position" value="outer" />
+        <character char_type="range_value" name="length" from="11" from_unit="mm" to="14" to_unit="mm" />
+        <character char_type="range_value" name="width" from="1.5" from_unit="mm" to="2.4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="331.txt-12">
+      <text>pappi white to yellowish, 4–6.5 mm.</text>
+      <structure id="o6131" name="pappus">
+        <character char_type="range_value" name="coloration" from="white" to="yellowish" />
+        <character name="coloration" value="white" />
+        <character name="coloration" value="yellowish" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="6.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="331.txt-13">
+      <text>2 n = 24, 32 (as T. kamtschaticum ).</text>
+      <structure id="o6132" name="chromosome">
+        <character name="count" value="24" />
+        <character name="count" value="32" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>alpine slopes and tundra</habitat>
+  <habitat>arctic tundra</habitat>
+  <habitat>rich arctic seaside bluffs</habitat>
+  <elevation>0–2200 m;</elevation>
+  <ca_distribution>Yukon</ca_distribution>
+  <us_distribution>Alaska</us_distribution>
+  <global_distribution>Russian Far East.</global_distribution>
+  <discussion>In all the specimens examined from Alaska, it is not possible to find consistent differences between Taraxacum alaskanum and T. kamtschaticum (as applied in Alaska; or T. pseudokamtschaticum). Assignment to one or the other species appears random. The leaf character used in keys to separate the entities does not work, or at least is not matched by specimens as determined; cypsela color varies within species, and the slight difference noted is not sufficient to warrant separation. Neither is there a significant size difference between coastal and inland material. The name T. sibiricum Dahlstedt has been applied mistakenly by American authors to this entity.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

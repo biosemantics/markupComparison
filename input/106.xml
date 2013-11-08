@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>36b.</number>
+  <variety_name>Cirsium douglasii de Candolle var. breweri</variety_name>
+  <authority>(A. Gray) D. J. Keil &amp; C. E. Turner</authority>
+  <place_of_publication>Phytologia 73: 313. 1992</place_of_publication>
+  <common_name>Brewer’s thistle</common_name>
+  <synonym_of_variety_name>Cnicus breweri A. Gray, Proc. Amer. Acad. Arts 10: 43. 1874; Cirsium breweri (A. Gray) Jepson; C. douglasii var. canescens (Petrak) J. T. Howell</synonym_of_variety_name>
+  <description>
+    <statement id="106.txt-0">
+      <text>Plants to 250 cm.</text>
+      <structure id="o203" name="whole_organism">
+        <character char_type="range_value" name="size" to="250" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="106.txt-1">
+      <text>Cauline leaves usually unlobed or shallowly lobed, spines usually less than 2–7 mm.</text>
+      <structure id="o204" name="leaf" constraint="cauline">
+        <character name="shape" value="unlobed" modifier="usually" />
+        <character name="shape" value="lobed" modifier="shallowly" />
+      </structure>
+      <structure id="o205" name="spine">
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="7" to_unit="mm" modifier="usually less than" />
+      </structure>
+    </statement>
+    <statement id="106.txt-2">
+      <text>Heads mostly 2–3 cm.</text>
+      <structure id="o206" name="head">
+        <character char_type="range_value" name="size" from="2" from_unit="cm" to="3" to_unit="cm" modifier="mostly" />
+      </structure>
+    </statement>
+    <statement id="106.txt-3">
+      <text>2 n = 30.</text>
+      <structure id="o207" name="chromosome">
+        <character name="count" value="30" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>wet soil</habitat>
+  <habitat>streams</habitat>
+  <habitat>fens</habitat>
+  <habitat>marshes</habitat>
+  <habitat>springs in montane coniferous forest areas</habitat>
+  <habitat>often on serpentine</habitat>
+  <elevation>1200–1900 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <discussion>Variety breweri grows from the eastern North Coast Ranges of California and the Klamath and Siskiyou ranges east to the northen Sierra Nevada.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

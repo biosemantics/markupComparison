@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>2.</number>
+  <species_name>Carthamus lanatus</species_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 830. 1753</place_of_publication>
+  <common_name>Woolly distaff thistle</common_name>
+  <description>
+    <statement id="202.txt-0">
+      <text>Plants 40–180 cm, herbag e ± densely glandular, loosely cobwebby to ± woolly.</text>
+      <structure id="o3001" name="whole_organism">
+        <character char_type="range_value" name="size" from="40" from_unit="cm" to="180" to_unit="cm" />
+        <character name="architecture_or_exudation_or_pubescence" value="glandular" modifier="± densely" />
+        <character name="pubescence" value="cobwebby" modifier="loosely" />
+        <character name="pubescence" value="woolly" modifier="±" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="202.txt-1">
+      <text>Stems rigidly erect, openly branched distally, stramineous.</text>
+      <structure id="o3002" name="stem">
+        <character name="orientation" value="erect" modifier="rigidly" />
+        <character name="architecture_or_shape" value="branched" modifier="openly ; distally" />
+        <character name="coloration" value="stramineous" />
+      </structure>
+    </statement>
+    <statement id="202.txt-2">
+      <text>Leaves basal and cauline;</text>
+      <structure id="o3003" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+      </structure>
+    </statement>
+    <statement id="202.txt-3">
+      <text>basal often absent at anthesis, petioles winged, blades 10–15 cm, margins pinnately 1–2-divided into linear or lanceolate spine-tipped lobes;</text>
+      <structure id="o3004" name="leaf" constraint="basal">
+        <character name="presence" value="absent" modifier="often" constraint="at anthesis" constraintid="o3005" />
+      </structure>
+      <structure id="o3005" name="anthesi" />
+      <structure id="o3006" name="petiole">
+        <character name="architecture" value="winged" />
+      </structure>
+      <structure id="o3007" name="blade">
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="15" to_unit="cm" />
+      </structure>
+      <structure id="o3008" name="margin">
+        <character name="shape" value="1-2-divided" modifier="pinnately" constraint="into lobes" constraintid="o3009" />
+      </structure>
+      <structure id="o3009" name="lobe">
+        <character name="arrangement_or_shape" value="linear" />
+        <character name="shape" value="lanceolate" />
+      </structure>
+    </statement>
+    <statement id="202.txt-4">
+      <text>cauline spreading or recurved, lanceolate to ovate, rigid, clasping, 3–7-veined from base, margins with narrow spine-tipped lobes, spinose-acuminate.</text>
+      <structure id="o3010" name="leaf" constraint="cauline">
+        <character char_type="range_value" name="shape" from="lanceolate" to="ovate" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="ovate" />
+        <character name="texture" value="rigid" />
+        <character name="architecture" value="clasping" />
+        <character name="architecture" value="3-7-veined" constraint="from base" constraintid="o3011" />
+      </structure>
+      <structure id="o3011" name="base" />
+      <structure id="o3012" name="margin">
+        <character name="shape" value="spinose-acuminate" />
+      </structure>
+      <structure id="o3013" name="lobe">
+        <character name="size" value="narrow" />
+      </structure>
+      <relation id="r424" name="with" from="o3012" to="o3013" negation="false" />
+    </statement>
+    <statement id="202.txt-5">
+      <text>Involucres ovoid, body 25–35 mm, usually ± tomentose.</text>
+      <structure id="o3014" name="involucre">
+        <character name="shape" value="ovoid" />
+      </structure>
+      <structure id="o3015" name="body">
+        <character char_type="range_value" name="size" from="25" from_unit="mm" to="35" to_unit="mm" />
+        <character name="pubescence" value="tomentose" modifier="usually ±" />
+      </structure>
+    </statement>
+    <statement id="202.txt-6">
+      <text>Outer phyllaries ascending or ± spreading, 35–50 mm, usually not more than 1.5 times as long as inner, terminal appendages spreading to ascending, linear-lanceolate, spiny lobed, prominently spine-tipped.</text>
+      <structure id="o3016" name="phyllary" constraint="outer">
+        <character name="orientation" value="ascending" />
+        <character name="orientation" value="spreading" modifier="±" />
+        <character char_type="range_value" name="size" from="35" from_unit="mm" to="50" to_unit="mm" />
+        <character name="size" value="1.5" modifier="usually not more than" constraint="times as-long-as inner" />
+      </structure>
+      <structure id="o3017" name="appendage" constraint="terminal">
+        <character char_type="range_value" name="orientation" from="spreading" to="ascending" />
+        <character name="orientation" value="spreading" />
+        <character name="orientation" value="ascending" />
+        <character name="shape" value="linear-lanceolate" />
+        <character name="architecture_or_shape" value="spiny lobed" />
+      </structure>
+    </statement>
+    <statement id="202.txt-7">
+      <text>Corollas yellow, sometimes red- or black-veined, 25–35 mm, throats gradually expanded;</text>
+      <structure id="o3018" name="corolla">
+        <character name="coloration" value="yellow" />
+        <character name="architecture" value="red-or-black-veined" modifier="sometimes" />
+        <character char_type="range_value" name="size" from="25" from_unit="mm" to="35" to_unit="mm" />
+      </structure>
+      <structure id="o3019" name="throat">
+        <character name="size" value="expanded" modifier="gradually" />
+      </structure>
+    </statement>
+    <statement id="202.txt-8">
+      <text>anthers yellow;</text>
+      <structure id="o3020" name="anther">
+        <character name="coloration" value="yellow" />
+      </structure>
+    </statement>
+    <statement id="202.txt-9">
+      <text>pollen yellow.</text>
+      <structure id="o3021" name="pollen">
+        <character name="coloration" value="yellow" />
+      </structure>
+    </statement>
+    <statement id="202.txt-10">
+      <text>Cypselae brown, 4–6 mm, the outer roughened;</text>
+      <structure id="o3022" name="cypsela">
+        <character name="coloration" value="brown" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="6" to_unit="mm" />
+        <character name="position" value="outer" />
+        <character name="texture" value="roughened" />
+      </structure>
+    </statement>
+    <statement id="202.txt-11">
+      <text>pappus scales 1–13 mm.</text>
+      <structure id="o3023" name="scale" constraint="pappus">
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="13" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="202.txt-12">
+      <text>2 n = 44.</text>
+      <structure id="o3024" name="chromosome">
+        <character name="count" value="44" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>nov</flowering_time>
+  <habitat>roadsides</habitat>
+  <habitat>grain fields</habitat>
+  <habitat>pastures</habitat>
+  <elevation>0–1100 m;</elevation>
+  <introduced>introduced;</introduced>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Mass.</us_distribution>
+  <us_distribution>N.J.</us_distribution>
+  <us_distribution>Okla.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <global_distribution>Europe.</global_distribution>
+  <discussion>Native to the Mediterranean region, Carthamus lanatus is a viciously spiny noxious weed, sometimes forming nearly impenetrable stands. In rangelands it is known to injure the eyes and mouths of livestock, and it tends to spread when more palatable plants are consumed. Because of the close relationship between the cultivated safflower (Carthamus tinctorius) and its weedy relatives, biocontrol has not been an option for controlling weedy species such as C. lanatus.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

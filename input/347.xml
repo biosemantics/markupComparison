@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>45.</number>
+  <genus_name>LACTUCA</genus_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 795. 1753; Gen. Pl. ed. 5, 348. 1754</place_of_publication>
+  <common_name>Lettuce, laitue</common_name>
+  <derivation>No etymology in protologue; traceable to Latin lac , milk, alluding to the milky sap</derivation>
+  <author_of_tribe_genus>John L. Strother</author_of_tribe_genus>
+  <description>
+    <statement id="347.txt-0">
+      <text>Annuals or biennials, 15–450+ cm;</text>
+    </statement>
+    <statement id="347.txt-1">
+      <text>taprooted.</text>
+      <structure id="o6461" name="whole_organism">
+        <character char_type="range_value" name="size" from="15" from_unit="cm" to="450" to_unit="cm" upper_restricted="false" />
+        <character name="life_style" value="annual" />
+        <character name="life_style" value="biennial" />
+        <character name="architecture" value="taprooted" />
+        <character name="life_style" value="biennial" />
+      </structure>
+    </statement>
+    <statement id="347.txt-2">
+      <text>Stems usually 1, usually erect, branched distally or throughout, glabrous or hairy (sometimes hispid to setose).</text>
+      <structure id="o6463" name="stem">
+        <character name="count" value="1" modifier="usually" />
+        <character name="orientation" value="erect" modifier="usually" />
+        <character name="architecture_or_shape" value="branched" modifier="distally" />
+        <character name="architecture_or_shape" value="branched" modifier="distally; throughout" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="hairy" />
+      </structure>
+    </statement>
+    <statement id="347.txt-3">
+      <text>Leaves basal and cauline or mostly cauline (at flowering);</text>
+    </statement>
+    <statement id="347.txt-4">
+      <text>sessile or petiolate;</text>
+      <structure id="o6464" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="insertion_or_position" value="cauline" modifier="mostly" />
+        <character name="architecture" value="sessile" />
+        <character name="architecture" value="petiolate" />
+      </structure>
+    </statement>
+    <statement id="347.txt-5">
+      <text>blades orbiculate, ovate, oblong, or lanceolate to oblanceolate, linear, or filiform, margins entire or denticulate to pinnately lobed (faces glabrous or hairy, often ± setose).</text>
+      <structure id="o6465" name="blade">
+        <character char_type="range_value" name="shape" from="lanceolate" to="oblanceolate , linear , or filiform" />
+        <character name="shape" value="orbiculate" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="oblong" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="filiform" />
+      </structure>
+      <structure id="o6466" name="margin">
+        <character char_type="range_value" name="shape" from="denticulate" to="pinnately lobed" />
+        <character name="shape" value="entire" />
+        <character name="shape" value="denticulate" />
+        <character name="shape" value="lobed" modifier="pinnately" />
+      </structure>
+    </statement>
+    <statement id="347.txt-6">
+      <text>Heads borne singly or in corymbiform to paniculiform arrays.</text>
+      <structure id="o6467" name="head">
+        <character name="arrangement" value="singly" />
+        <character name="arrangement" value="in corymbiform to paniculiform arrays" />
+      </structure>
+      <structure id="o6468" name="array">
+        <character char_type="range_value" name="architecture" from="corymbiform" to="paniculiform" />
+        <character name="architecture" value="corymbiform" />
+        <character name="architecture" value="paniculiform" />
+      </structure>
+      <relation id="r804" name="in" from="o6467" to="o6468" negation="false" />
+    </statement>
+    <statement id="347.txt-7">
+      <text>Peduncles not inflated distally, sometimes bracteate.</text>
+      <structure id="o6469" name="peduncle">
+        <character name="shape" value="inflated" modifier="not ; distally" />
+        <character name="architecture" value="bracteate" modifier="sometimes" />
+      </structure>
+    </statement>
+    <statement id="347.txt-8">
+      <text>Calyculi of 3–10+, deltate to lanceolate bractlets in 2–3 series (sometimes intergrading with phyllaries).</text>
+      <structure id="o6470" name="calyculus" />
+      <structure id="o6471" name="bractlet">
+        <character char_type="range_value" name="count" from="3" to="10" upper_restricted="false" />
+        <character char_type="range_value" name="shape" from="deltate" to="lanceolate" />
+        <character name="shape" value="deltate" />
+        <character name="shape" value="lanceolate" />
+      </structure>
+      <relation id="r805" name="consist_of" from="o6470" to="o6471" negation="false" />
+      <structure id="o6472" name="series">
+        <character char_type="range_value" name="count" from="2" to="3" />
+      </structure>
+      <relation id="r806" name="in" from="o6471" to="o6472" negation="false" />
+    </statement>
+    <statement id="347.txt-9">
+      <text>Involucres campanulate to cylindric, 2–5[–8+] mm diam.</text>
+      <structure id="o6473" name="involucre">
+        <character char_type="range_value" name="shape" from="campanulate" to="cylindric" />
+        <character name="shape" value="campanulate" />
+        <character name="shape" value="cylindric" />
+        <character char_type="range_value" name="atypical_size" from="5" to="8" from_unit="mm" to_unit="mm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="347.txt-10">
+      <text>Phyllaries 5–13+ in ± 2 series (erect or reflexed in fruit), lanceolate to linear, usually subequal to equal, margins sometimes scarious, apices obtuse to acute.</text>
+      <structure id="o6474" name="phyllary">
+        <character char_type="range_value" name="count" from="5" to="13" upper_restricted="false" constraint="in series" constraintid="o6475" />
+        <character char_type="range_value" name="shape" from="lanceolate" to="linear" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="linear" />
+        <character char_type="range_value" name="size" from="usually subequal" to="equal" />
+        <character name="size" value="subequal" modifier="usually" />
+        <character name="size" value="equal" modifier="usually" />
+      </structure>
+      <structure id="o6475" name="series">
+        <character name="count" value="2" modifier="±" />
+      </structure>
+      <structure id="o6476" name="margin">
+        <character name="texture" value="scarious" modifier="sometimes" />
+      </structure>
+      <structure id="o6477" name="apex">
+        <character char_type="range_value" name="shape" from="obtuse" to="acute" />
+        <character name="shape" value="obtuse" />
+        <character name="shape" value="acute" />
+      </structure>
+    </statement>
+    <statement id="347.txt-11">
+      <text>Receptacles flat to convex, pitted, glabrous, epaleate.</text>
+      <structure id="o6478" name="receptacle">
+        <character char_type="range_value" name="shape" from="flat" to="convex" />
+        <character name="shape" value="flat" />
+        <character name="shape" value="convex" />
+        <character name="relief" value="pitted" />
+        <character name="pubescence" value="glabrous" />
+        <character name="architecture" value="epaleate" />
+      </structure>
+    </statement>
+    <statement id="347.txt-12">
+      <text>Florets 6–50+;</text>
+      <structure id="o6479" name="floret">
+        <character char_type="range_value" name="count" from="6" to="50" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="347.txt-13">
+      <text>corollas yellow, bluish, or whitish.</text>
+      <structure id="o6480" name="corolla">
+        <character name="coloration" value="yellow" />
+        <character name="coloration" value="bluish" />
+        <character name="coloration" value="whitish" />
+      </structure>
+    </statement>
+    <statement id="347.txt-14">
+      <text>Cypselae reddish brown, tan, whitish, or purplish to blackish, bodies compressed to flattened, elliptic to oblong, beaks stout (0.1–1 mm, gradually or weakly set off from bodies) or filiform (2–6 mm, sharply set off from bodies), ribs 1–9 on each face, faces often transversely rugulose, usually glabrous;</text>
+      <structure id="o6481" name="cypsela">
+        <character char_type="range_value" name="coloration" from="purplish" to="blackish" />
+        <character name="coloration" value="brown" modifier="reddish" />
+        <character name="coloration" value="tan" />
+        <character name="coloration" value="whitish" />
+        <character name="coloration" value="purplish" />
+        <character name="coloration" value="blackish" />
+      </structure>
+      <structure id="o6482" name="body">
+        <character char_type="range_value" name="shape" from="compressed" to="flattened , elliptic" />
+        <character name="shape" value="compressed" />
+        <character name="shape" value="flattened" />
+        <character name="shape" value="elliptic" />
+        <character name="shape" value="oblong" />
+      </structure>
+      <structure id="o6483" name="beak">
+        <character name="fragility" value="stout" />
+        <character name="shape" value="filiform" />
+      </structure>
+      <structure id="o6484" name="rib">
+        <character char_type="range_value" name="count" from="1" to="9" constraint="on face" constraintid="o6485" />
+      </structure>
+      <structure id="o6485" name="face" />
+      <structure id="o6486" name="face">
+        <character name="relief" value="rugulose" modifier="often transversely" />
+        <character name="pubescence" value="glabrous" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="347.txt-15">
+      <text>pappi persistent (borne on discs at tips of cypselae or beaks), obscurely double (spp. 1–2), each a minute, erose corona 0.05–0.2 mm subtending 40–80+, white or fuscous, ± equal, barbellate to barbellulate bristles in 1–2 series, or simple (spp. 3–10) of 80–120+, white, ± equal, barbellulate to nearly smooth bristles in 2–3+ series.</text>
+      <structure id="o6487" name="pappus">
+        <character name="duration" value="persistent" />
+        <character name="size" value="minute" />
+      </structure>
+      <structure id="o6488" name="corona">
+        <character name="shape_or_relief" value="erose" />
+        <character char_type="range_value" name="size" from="0.05" from_unit="mm" to="0.2" to_unit="mm" />
+        <character name="insertion_or_position" value="subtending" />
+        <character char_type="range_value" name="count" from="40" to="80" upper_restricted="false" />
+        <character name="coloration" value="white" />
+        <character name="coloration" value="fuscous" />
+        <character name="size" value="equal" modifier="±" />
+      </structure>
+      <structure id="o6489" name="bristle">
+        <character char_type="range_value" name="architecture" from="barbellate" to="barbellulate" />
+        <character name="architecture" value="barbellate" />
+        <character name="architecture" value="barbellulate" />
+        <character name="architecture" value="simple" constraint="of bristles" constraintid="o6491" />
+      </structure>
+      <structure id="o6490" name="series">
+        <character char_type="range_value" name="count" from="1" to="2" />
+      </structure>
+      <relation id="r807" name="in" from="o6489" to="o6490" negation="false" />
+      <structure id="o6491" name="bristle">
+        <character char_type="range_value" name="count" from="80" to="120" upper_restricted="false" />
+        <character name="coloration" value="white" />
+        <character name="size" value="equal" modifier="±" />
+        <character char_type="range_value" name="architecture" from="barbellulate" to="nearly smooth" />
+        <character name="architecture" value="barbellulate" />
+        <character name="architecture" value="smooth" modifier="nearly" />
+      </structure>
+      <structure id="o6492" name="series">
+        <character char_type="range_value" name="count" from="2" to="3" upper_restricted="false" />
+      </structure>
+      <relation id="r808" name="in" from="o6491" to="o6492" negation="false" />
+    </statement>
+    <statement id="347.txt-16">
+      <text>x = 9.</text>
+      <structure id="o6493" name="chromosome">
+        <character name="count" value="9" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species ca. 75 (10 in the flora):</number_of_infrataxa>
+  <general_distribution>North America</general_distribution>
+  <general_distribution>Mexico</general_distribution>
+  <general_distribution>Central America</general_distribution>
+  <general_distribution>Eurasia</general_distribution>
+  <general_distribution>Africa.</general_distribution>
+  <discussion>The common head and leaf lettuces of home gardens and commerce are derived from Lactuca sativa.</discussion>
+  <key>1.Corollas usually bluish, sometimes white, rarely yellow, not or seldom deliquescent; cypselae ± compressed-lanceoloid to compressed-fusiform, beaks 0 or ± stout (gradually set off from bodies of cypselae), 0.1–0.5(–1) mm.</key>
+  <key>2.Florets (15–)20–30(–50+); pappi ± fuscous1. Lactuca biennis</key>
+  <key>2.Florets 10–15(–25+); pappi white2. Lactuca floridana</key>
+  <key>1.Corollas usually yellow, sometimes bluish (or drying bluish) or white, usually deliquescent; cypselae ± flattened, ± elliptic to obovate or oblanceolate, beaks ± filiform (sharply set off from bodies of cypselae), 1–4+ mm.</key>
+  <key>3.Faces of cypselae 1(–3)-nerved.</key>
+  <key>4.Involucres 10–12 mm; cypsela bodies 2.5–3.5 mm3. Lactuca canadensis</key>
+  <key>4.Involucres 12–20 mm; cypsela bodies 4.5–6 mm.</key>
+  <key>5.Leaves on proximal 1/3–1/2 of each stem, blades spatulate to lance-linear4. Lactuca graminifolia</key>
+  <key>5.Leaves on proximal (1/3–)1/2–3/4 of each stem, blades ovate or oblanceolate to spatulate.</key>
+  <key>6.Margins of leaf blades entire or denticulate, seldom prickly; florets 12– 24+5. Lactuca hirsuta</key>
+  <key>6.Margins of leaf blades ± toothed, ± prickly; florets 20–50+6. Lactuca ludoviciana</key>
+  <key>3.Faces of cypselae (3–)5–9-nerved.</key>
+  <key>7.Cypselae purplish to blackish, ± elliptic7. Lactuca virosa</key>
+  <key>7.Cypselae pale brown to grayish or whitish, ± obovate or ± oblanceolate.</key>
+  <key>8.Blades of undivided leaves lanceolate to linear or filiform; heads in racemiform or spiciform arrays8. Lactuca saligna</key>
+  <key>8.Blades of undivided leaves mostly ± oblong or mostly obovate to orbiculate; heads in corymbiform or paniculiform arrays.</key>
+  <key>9.Blades of cauline leaves usually ± oblong, sometimes narrowly obovate to lanceolate, midribs usually prickly setose, rarely smooth; phyllaries usually reflexed in fruit9. Lactuca serriola</key>
+  <key>9.Blades of cauline leaves ovate to orbiculate, midribs usually smooth, rarely prickly setose; phyllaries usually erect in fruit10. Lactuca sativa</key>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>187a.</number>
+  <tribe_name>Asteraceae Martinov tribe Mutisieae</tribe_name>
+  <authority>Cassini</authority>
+  <place_of_publication>J. Phys. Chim. Hist. Nat. Arts 88: 199. 1819</place_of_publication>
+  <description>
+    <statement id="2.txt-0">
+      <text>Annuals, perennials, subshrubs, or shrubs (sometimes clambering) [trees, vines].</text>
+      <structure id="o2875" name="whole_organism">
+        <character name="life_style" value="annual" />
+        <character name="life_style" value="perennial" />
+        <character name="life_style" value="subshrub" />
+        <character name="life_style" value="shrub" />
+      </structure>
+    </statement>
+    <statement id="2.txt-1">
+      <text>Leaves basal and/or cauline;</text>
+    </statement>
+    <statement id="2.txt-2">
+      <text>alternate [opposite];</text>
+    </statement>
+    <statement id="2.txt-3">
+      <text>petiolate or sessile;</text>
+      <structure id="o2879" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="arrangement" value="alternate" />
+        <character name="architecture" value="petiolate" />
+        <character name="architecture" value="sessile" />
+      </structure>
+    </statement>
+    <statement id="2.txt-4">
+      <text>margins entire, dentate, pinnately lobed, or pinnatifid [pinnately compound, spiny, tipped with tendrils].</text>
+      <structure id="o2880" name="margin">
+        <character name="shape" value="entire" />
+        <character name="shape" value="dentate" />
+        <character name="shape" value="lobed" modifier="pinnately" />
+        <character name="shape" value="pinnatifid" modifier="pinnately" />
+      </structure>
+    </statement>
+    <statement id="2.txt-5">
+      <text>Heads homogamous (discoid in Gochnatia, Hecastocleis ; quasi-discoid, -radiate, or -liguliflorous in Acourtia, Trixis ) or heterogamous (disciform in Adenocaulon , disciform or quasi-radiate or -liguliflorous in Chaptalia and Leibnitzia ; sometimes cleistogamous in Chaptalia and Leibnitzia );</text>
+    </statement>
+    <statement id="2.txt-6">
+      <text>borne singly (sometimes on scapiform stems) or in corymbiform, paniculiform, or racemiform arrays (aggregated in second-order heads, florets 1–3 per individual head in Hecastocleis ).</text>
+      <structure id="o2881" name="head">
+        <character name="reproduction" value="homogamous" />
+        <character name="reproduction" value="heterogamous" />
+        <character name="arrangement" value="singly" />
+        <character name="arrangement" value="in corymbiform , paniculiform , or racemiform arrays" />
+      </structure>
+      <structure id="o2882" name="array">
+        <character name="architecture" value="corymbiform" />
+        <character name="architecture" value="paniculiform" />
+        <character name="architecture" value="racemiform" />
+      </structure>
+      <relation id="r411" name="in" from="o2881" to="o2882" negation="false" />
+    </statement>
+    <statement id="2.txt-7">
+      <text>Calyculi usually 0 (of 3–7 bractlets in Trixis ; second-order heads subtended by leaflike bracts in Hecastocleis ).</text>
+      <structure id="o2883" name="calyculus">
+        <character name="count" value="0" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="2.txt-8">
+      <text>Phyllaries persistent or tardily falling, in 1–5+ series, distinct or connate, unequal to subequal, usually ± herbaceous, margins and apices seldom notably scarious.</text>
+      <structure id="o2884" name="phyllary">
+        <character name="duration" value="persistent" />
+        <character name="orientation" value="falling" modifier="tardily" />
+        <character name="fusion" value="distinct" />
+        <character name="fusion" value="connate" />
+        <character char_type="range_value" name="size" from="unequal" to="subequal" />
+        <character name="size" value="unequal" />
+        <character name="size" value="subequal" />
+        <character name="habit_or_texture" value="herbaceous" modifier="usually ±" />
+      </structure>
+      <structure id="o2885" name="series">
+        <character char_type="range_value" name="count" from="1" to="5" upper_restricted="false" />
+      </structure>
+      <relation id="r412" name="in" from="o2884" to="o2885" negation="false" />
+      <structure id="o2886" name="margin" />
+      <structure id="o2887" name="apex">
+        <character name="texture" value="scarious" modifier="seldom notably" />
+      </structure>
+    </statement>
+    <statement id="2.txt-9">
+      <text>Receptacles flat to convex, epaleate [paleate] (usually ± foveolate to alveolate, margins of sockets sometimes ± membranous).</text>
+      <structure id="o2888" name="receptacle">
+        <character char_type="range_value" name="shape" from="flat" to="convex" />
+        <character name="shape" value="flat" />
+        <character name="shape" value="convex" />
+        <character name="architecture" value="epaleate" />
+      </structure>
+    </statement>
+    <statement id="2.txt-10">
+      <text>Florets of 1, 2, or 3+ kinds in a head (some not readily assignable to usual ray- and disc-floret categories, ± 3 combinations in the flora):</text>
+      <structure id="o2889" name="floret" />
+      <structure id="o2890" name="kind">
+        <character name="count" value="1" />
+        <character name="count" value="2" />
+        <character name="count" char_type="range_value" from="3" upper_restricted="false" />
+      </structure>
+      <relation id="r413" name="consist_of" from="o2889" to="o2890" negation="false" />
+      <structure id="o2891" name="head" />
+      <relation id="r414" name="in" from="o2890" to="o2891" negation="false" />
+    </statement>
+    <statement id="2.txt-11">
+      <text>(1) all florets bisexual and fertile, corollas actinomorphic ( Gochnatia , Hecastocleis ) or zygomorphic (often 2-lipped; Acourtia, Trixis );</text>
+      <structure id="o2892" name="floret">
+        <character name="reproduction" value="bisexual" />
+        <character name="reproduction" value="fertile" />
+      </structure>
+      <structure id="o2893" name="corolla">
+        <character name="architecture" value="actinomorphic" />
+        <character name="architecture" value="zygomorphic" />
+      </structure>
+    </statement>
+    <statement id="2.txt-12">
+      <text>(2) outer florets pistillate and inner bisexual, corollas actinomorphic ( Adenocaulon );</text>
+      <structure id="o2894" name="floret" constraint="outer">
+        <character name="architecture" value="pistillate" />
+        <character name="position" value="inner" />
+        <character name="reproduction" value="bisexual" />
+      </structure>
+      <structure id="o2895" name="corolla">
+        <character name="architecture" value="actinomorphic" />
+      </structure>
+    </statement>
+    <statement id="2.txt-13">
+      <text>and (3) outer florets pistillate, corollas usually zygomorphic (raylike or liguliform to 2-lipped), sometimes lacking limbs (reduced to tubes), inner florets bisexual or functionally staminate, corollas zygomorphic (2-lipped) or actinomorphic ( Chaptalia , Leibnitzia );</text>
+      <structure id="o2896" name="floret" constraint="outer">
+        <character name="architecture" value="pistillate" />
+      </structure>
+      <structure id="o2897" name="corolla">
+        <character name="architecture" value="zygomorphic" modifier="usually" />
+      </structure>
+      <structure id="o2898" name="limb">
+        <character name="presence" value="lacking" modifier="sometimes" />
+      </structure>
+      <structure id="o2899" name="floret" constraint="inner">
+        <character name="reproduction" value="bisexual" />
+        <character name="architecture" value="staminate" modifier="functionally" />
+      </structure>
+      <structure id="o2900" name="corolla">
+        <character name="architecture" value="zygomorphic" />
+        <character name="architecture" value="actinomorphic" />
+      </structure>
+    </statement>
+    <statement id="2.txt-14">
+      <text>anther bases ± tailed, apical appendages ovate or lanceolate to linear [none];</text>
+      <structure id="o2901" name="base" constraint="anther">
+        <character name="shape" value="tailed" modifier="±" />
+      </structure>
+      <structure id="o2902" name="appendage" constraint="apical">
+        <character char_type="range_value" name="shape" from="lanceolate" to="linear" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="linear" />
+      </structure>
+    </statement>
+    <statement id="2.txt-15">
+      <text>styles (bisexual, fertile florets) abaxially glabrous or papillate to hairy, branches ± linear, adaxially stigmatic in 2 lines from bases nearly to apices (± continuous around apices in Adenocaulon ), apices rounded or truncate, appendages essentially none.</text>
+      <structure id="o2903" name="style">
+        <character char_type="range_value" name="pubescence" from="papillate" to="hairy" />
+        <character name="pubescence" value="glabrous" modifier="abaxially" />
+        <character name="pubescence" value="papillate" modifier="abaxially" />
+        <character name="pubescence" value="hairy" modifier="abaxially" />
+      </structure>
+      <structure id="o2904" name="branch">
+        <character name="arrangement_or_shape" value="linear" modifier="±" />
+        <character name="habit" value="stigmatic" modifier="adaxially" constraint="in lines" constraintid="o2905" />
+      </structure>
+      <structure id="o2905" name="line">
+        <character name="count" value="2" />
+      </structure>
+      <structure id="o2906" name="base" />
+      <relation id="r415" name="from" from="o2905" to="o2906" negation="false" />
+      <structure id="o2907" name="apex" />
+      <relation id="r416" name="nearly to" from="o2906" to="o2907" negation="false" />
+      <structure id="o2908" name="apex">
+        <character name="shape" value="rounded" />
+        <character name="shape" value="truncate" />
+      </structure>
+      <structure id="o2909" name="appendage" />
+    </statement>
+    <statement id="2.txt-16">
+      <text>Cypselae ± monomorphic within heads, usually cylindric, clavate, fusiform, or turbinate, sometimes ± beaked, bodies smooth or ribbed (glabrous, glabrate, sericeous, or velutinous; sometimes distally stipitate-glandular, Adenocaulon );</text>
+      <structure id="o2910" name="cypsela">
+        <character name="habit" value="monomorphic" modifier="±" constraint="within heads" constraintid="o2911" />
+        <character name="shape" value="cylindric" modifier="usually" />
+        <character name="shape" value="clavate" modifier="usually" />
+        <character name="shape" value="fusiform" modifier="usually" />
+        <character name="shape" value="turbinate" modifier="usually" />
+        <character name="shape" value="beaked" modifier="sometimes ±" />
+      </structure>
+      <structure id="o2911" name="head" />
+      <structure id="o2912" name="body">
+        <character name="architecture" value="smooth" />
+        <character name="architecture" value="ribbed" />
+      </structure>
+    </statement>
+    <statement id="2.txt-17">
+      <text>pappi 0 or persistent, of smooth or barbellulate to plumose bristles or subulate to setiform and plumose scales.</text>
+      <structure id="o2913" name="pappus">
+        <character name="count" value="0" />
+        <character name="duration" value="persistent" />
+        <character char_type="range_value" name="shape" from="subulate" to="setiform" />
+        <character name="shape" value="subulate" />
+        <character name="shape" value="setiform" />
+      </structure>
+      <structure id="o2914" name="bristle">
+        <character char_type="range_value" name="architecture" from="barbellulate" to="plumose" />
+        <character name="architecture" value="smooth" />
+        <character name="architecture" value="barbellulate" />
+        <character name="architecture" value="plumose" />
+      </structure>
+      <relation id="r417" name="consist_of" from="o2913" to="o2914" negation="false" />
+      <structure id="o2915" name="scale">
+        <character name="architecture" value="plumose" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Genera ca. 76, species ca. 1000 (7 genera, 14 species in the flora):</number_of_infrataxa>
+  <general_distribution>North America</general_distribution>
+  <general_distribution>mostly South America</general_distribution>
+  <general_distribution>Asia</general_distribution>
+  <general_distribution>Africa</general_distribution>
+  <general_distribution>Pacific Islands (Hawaii)</general_distribution>
+  <general_distribution>Australia.</general_distribution>
+  <discussion>Mutisieae as traditionally circumscribed is now considered to be polyphyletic. Molecular work has shown that Barnadesia and its allies, a South American group formerly placed in Mutisieae, constitute the basal clade of the family; they are now treated as a distinct subfamily, Barnadesioideae (K. Bremer and R. K. Jansen 1992). Similarly, J. L. Panero and V. A. Funk (2002) segregated two additional subfamilies from Mutisieae (based on Gochnatia and on Hecastocleis). Mutisieae in the broad sense are centered in the New World tropics and subtropics and are relatively poorly represented elsewhere.</discussion>
+  <discussion>Gerbera jamesonii Bolus ex Hooker f. (Transvaal Daisy; perennials, leaves in basal rosettes, petioles 10–20+ cm, blades usually pinnately lobed, 12–25+ cm, abaxially lanate, peduncles scapiform, to 50+ cm, ray corollas red to orange, pink, or yellow, laminae 2–3+ cm) has been noted as established in Florida (http://www.plantatlas.usf.edu).</discussion>
+  <references>SELECTED REFERENCES Hansen, H. V. 1990. Phylogenetic studies in the Gerbera-complex (Compositae, tribe Mutisieae, subtribe Mutisiinae). Nordic J. Bot. 9: 469–485. Kim, H. G., D. J. Lookerman, and R. K. Jansen. 2002. Systematic implications of ndhF sequence variation in the Mutisieae (Asteraceae). Syst. Bot. 27: 598–609. Simpson, B. B. and C. E. Anderson. 1978. Mutisieae. In: N. L. Britton et al., eds. 1905+. North American Flora.... 47+ vols. New York. Ser. 2, part 10, pp. 1–13.</references>
+  <key>1.Leaves: abaxial faces glabrous or with scattered, straight, sometimes glandular, hairs and/or double hairs.</key>
+  <key>2.Leaf blades narrowly linear-lanceolate (spiny near bases, ± thickened at margins); corollas actinomorphic; style-branch apices rounded1. Hecastocleis, p. 71</key>
+  <key>2.Leaves broadly lanceolate or ovate (sometimes linear-lanceolate in Trixis; not spiny at bases or thickened at margins); corollas 2-lipped; style-branch apices truncate.</key>
+  <key>3.Perennials (caudices brown-woolly); corollas pink, lavender, or white2. Acourtia, p. 72</key>
+  <key>3.Shrubs; corollas yellow3. Trixis, p. 75</key>
+  <key>1.Leaves: abaxial faces usually tomentose, tomentulose, or covered with dense wool (thinly gray-tomentose in Leibnitzia).</key>
+  <key>4.Shrubs or subshrubs; leaves (stiff): adaxial faces dark green; corollas actinomorphic (heads discoid)4. Gochnatia, p. 76</key>
+  <key>4.Perennials; leaves (soft): adaxial faces light green; corollas actinomorphic (heads discoid or disciform) or actinomorphic and zygomorphic (heads disciform or quasi-radiate).</key>
+  <key>5.Leaf blades triangular to broadly triangular, bases cordate to hastate; heads in paniculiform arrays; corollas of inner florets actinomorphic5. Adenocaulon, p. 77</key>
+  <key>5.Leaf blades elliptic to obovate, bases cuneate; heads borne singly; corollas of inner florets zygomorphic (2-lipped) or nearly actinomorphic.</key>
+  <key>6.Heads chasmogamous (produced well after rosette leaves); cypselae glabrous or pubescent (hairs relatively short, apices rounded or apiculate)6. Chaptalia, p. 78</key>
+  <key>6.Heads chasmogamous (early spring, before and concurrently with first rosette leaves) or cleistogamous (produced after rosette leaves); cypselae strigose to hispid (hairs relatively long, apices sharp-pointed)7. Leibnitzia, p. 80</key>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

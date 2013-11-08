@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>187f.</number>
+  <tribe_name>Asteraceae Martinov tribe Calenduleae</tribe_name>
+  <authority>Cassini</authority>
+  <place_of_publication>J. Phys. Chim. Hist. Nat. Arts 88: 161. 1819</place_of_publication>
+  <description>
+    <statement id="612.txt-0">
+      <text>Annuals, perennials, shrubs, or trees.</text>
+      <structure id="o12807" name="whole_organism">
+        <character name="life_style" value="annual" />
+        <character name="life_style" value="perennial" />
+        <character name="life_style" value="shrub" />
+        <character name="life_style" value="tree" />
+      </structure>
+    </statement>
+    <statement id="612.txt-1">
+      <text>Leaves cauline [rosulate];</text>
+    </statement>
+    <statement id="612.txt-2">
+      <text>usually alternate, sometimes opposite;</text>
+    </statement>
+    <statement id="612.txt-3">
+      <text>petiolate or sessile;</text>
+      <structure id="o12811" name="leaf">
+        <character name="insertion_or_position" value="cauline" />
+        <character name="arrangement" value="alternate" modifier="usually" />
+        <character name="arrangement" value="opposite" modifier="sometimes" />
+        <character name="architecture" value="petiolate" />
+        <character name="architecture" value="sessile" />
+      </structure>
+    </statement>
+    <statement id="612.txt-4">
+      <text>margins usually entire or dentate, sometimes lobed to dissected.</text>
+      <structure id="o12812" name="margin">
+        <character char_type="range_value" name="shape" from="dentate , sometimes lobed" to="dissected" />
+        <character name="shape" value="entire" modifier="usually" />
+        <character name="shape" value="dentate" modifier="usually" />
+        <character name="shape" value="lobed" modifier="sometimes" />
+        <character name="shape" value="dissected" modifier="sometimes" />
+      </structure>
+    </statement>
+    <statement id="612.txt-5">
+      <text>Heads heterogamous (radiate), borne singly or in ± corymbiform arrays.</text>
+      <structure id="o12813" name="head">
+        <character name="reproduction" value="heterogamous" />
+        <character name="arrangement" value="singly" />
+        <character name="arrangement" value="in moreorless corymbiform arrays" />
+      </structure>
+      <structure id="o12814" name="array">
+        <character name="architecture" value="corymbiform" modifier="±" />
+      </structure>
+      <relation id="r1473" name="in" from="o12813" to="o12814" negation="false" />
+    </statement>
+    <statement id="612.txt-6">
+      <text>Calyculi 0 (peduncular bractlets sometimes intergrade with phyllaries).</text>
+      <structure id="o12815" name="calyculus">
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+    <statement id="612.txt-7">
+      <text>Phyllaries persistent, in (1–)2(–3) series, distinct [connate], usually ± equal, usually herbaceous (sometimes fleshy), margins and/or apices ± scarious.</text>
+      <structure id="o12816" name="phyllary">
+        <character name="duration" value="persistent" />
+        <character name="fusion" value="distinct" />
+        <character name="size" value="equal" modifier="usually ±" />
+        <character name="habit_or_texture" value="herbaceous" modifier="usually" />
+      </structure>
+      <structure id="o12817" name="series" constraint="1-2-3" />
+      <relation id="r1474" name="in" from="o12816" to="o12817" negation="false" />
+      <structure id="o12818" name="margin" />
+      <structure id="o12819" name="apex">
+        <character name="texture" value="scarious" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="612.txt-8">
+      <text>Receptacles flat to conic, epaleate (sometimes bristly-setose).</text>
+      <structure id="o12820" name="receptacle">
+        <character char_type="range_value" name="shape" from="flat" to="conic" />
+        <character name="shape" value="flat" />
+        <character name="shape" value="conic" />
+        <character name="architecture" value="epaleate" />
+      </structure>
+    </statement>
+    <statement id="612.txt-9">
+      <text>Ray florets in 1–2+ series (more in horticultural “doubles”), pistillate, fertile [styliferous and sterile or neuter];</text>
+      <structure id="o12821" name="floret" constraint="ray">
+        <character name="architecture" value="pistillate" />
+        <character name="reproduction" value="fertile" />
+      </structure>
+      <structure id="o12822" name="series">
+        <character char_type="range_value" name="count" from="1" to="2" upper_restricted="false" />
+      </structure>
+      <relation id="r1475" name="in" from="o12821" to="o12822" negation="false" />
+    </statement>
+    <statement id="612.txt-10">
+      <text>corollas usually yellow to orange and/or cyanic to white (abaxial and adaxial faces often different colors).</text>
+      <structure id="o12823" name="corolla">
+        <character char_type="range_value" name="coloration" from="usually yellow" to="orange and-or cyanic" />
+        <character name="coloration" value="yellow" modifier="usually" />
+        <character name="coloration" value="cyanic" modifier="usually" />
+        <character name="coloration" value="white" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="612.txt-11">
+      <text>Disc florets usually functionally staminate, sometimes bisexual and fertile;</text>
+      <structure id="o12824" name="floret" constraint="disc">
+        <character name="architecture" value="staminate" modifier="usually functionally" />
+        <character name="reproduction" value="bisexual" modifier="sometimes" />
+        <character name="reproduction" value="fertile" />
+      </structure>
+    </statement>
+    <statement id="612.txt-12">
+      <text>corollas yellow, orange, or cyanic (sometimes combinations within corollas), lobes 5, ± deltate (tips sometimes terete or dilated);</text>
+      <structure id="o12825" name="corolla">
+        <character name="coloration" value="yellow" />
+        <character name="coloration" value="orange" />
+        <character name="coloration" value="cyanic" />
+      </structure>
+      <structure id="o12826" name="lobe">
+        <character name="count" value="5" />
+        <character name="shape" value="deltate" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="612.txt-13">
+      <text>anther bases ± tailed, apical appendages ovate to deltate;</text>
+      <structure id="o12827" name="base" constraint="anther">
+        <character name="shape" value="tailed" modifier="±" />
+      </structure>
+      <structure id="o12828" name="appendage" constraint="apical">
+        <character char_type="range_value" name="shape" from="ovate" to="deltate" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="deltate" />
+      </structure>
+    </statement>
+    <statement id="612.txt-14">
+      <text>styles abaxially papillate (at least near tips), branches sometimes barely discernible (0.5–1 mm), adaxially stigmatic in 2 lines from bases to apices, apices rounded to truncate, appendages penicillate or essentially none.</text>
+      <structure id="o12829" name="style">
+        <character name="relief_or_pubescence" value="papillate" modifier="abaxially" />
+      </structure>
+      <structure id="o12830" name="branch">
+        <character name="manifestation" value="discernible" modifier="sometimes barely" />
+        <character name="habit" value="stigmatic" modifier="adaxially" constraint="in lines" constraintid="o12831" />
+      </structure>
+      <structure id="o12831" name="line">
+        <character name="count" value="2" />
+      </structure>
+      <structure id="o12832" name="base" />
+      <relation id="r1476" name="from" from="o12831" to="o12832" negation="false" />
+      <structure id="o12833" name="apex" />
+      <relation id="r1477" name="to" from="o12832" to="o12833" negation="false" />
+      <structure id="o12834" name="apex">
+        <character char_type="range_value" name="shape" from="rounded" to="truncate" />
+        <character name="shape" value="rounded" />
+        <character name="shape" value="truncate" />
+      </structure>
+      <structure id="o12835" name="appendage">
+        <character name="shape" value="penicillate" />
+        <character name="shape" value="penicillate" modifier="essentially none" />
+      </structure>
+    </statement>
+    <statement id="612.txt-15">
+      <text>Cypselae usually polymorphic within heads (straight, arcuate, contorted, or ± coiled), ± columnar to prismatic, sometimes obcompressed, compressed, or flattened, sometimes ± beaked, bodies usually tuberculate, ridged, and/or winged (usually glabrous; blue-black and drupelike in Chrysanthemoides );</text>
+      <structure id="o12836" name="cypsela">
+        <character name="habit" value="polymorphic" modifier="usually" constraint="within heads" constraintid="o12837" />
+        <character char_type="range_value" name="shape" from="columnar" to="prismatic , sometimes obcompressed , compressed , or flattened" modifier="±" />
+        <character name="shape" value="columnar" modifier="±" />
+        <character name="shape" value="prismatic" modifier="±" />
+        <character name="shape" value="obcompressed" modifier="sometimes" />
+        <character name="shape" value="compressed" modifier="sometimes" />
+        <character name="shape" value="flattened" modifier="sometimes" />
+        <character name="shape" value="beaked" modifier="sometimes ±" />
+      </structure>
+      <structure id="o12837" name="head" />
+      <structure id="o12838" name="body">
+        <character name="relief" value="tuberculate" modifier="usually" />
+        <character name="shape" value="ridged" />
+        <character name="architecture" value="winged" />
+      </structure>
+    </statement>
+    <statement id="612.txt-16">
+      <text>pappi 0 [bristles].</text>
+      <structure id="o12839" name="pappus">
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Genera ca. 8, species 100+ (4 genera, 7 species in the flora):</number_of_infrataxa>
+  <introduced>introduced;</introduced>
+  <general_distribution>most in Africa</general_distribution>
+  <general_distribution>also Atlantic Islands</general_distribution>
+  <general_distribution>Europe</general_distribution>
+  <general_distribution>and sw Asia</general_distribution>
+  <general_distribution>some are widely cultivated and become ± established in local floras.</general_distribution>
+  <discussion>Plants of Dimorphotheca cuneata (Thunberg) Lessing, a native of southern Africa, have been collected outside cultivation in Arizona (Gila County, ca. 1000 m): subshrubs or shrubs to 100 cm, leaves cuneate to obovate, 1–2(–3)cm, margins dentate to denticulate, faces ± glutinous, phyllaries usually 13, 6–9 mm, ray corollas abaxially bluish to violet, adaxially white, disc cypselae obovate to nearly orbiculate, 10 mm.</discussion>
+  <references>SELECTED REFERENCE Norlindh, T. 1943. Studies in the Calenduleae 1. Monograph of the Genera Dimorphotheca, Castalis, Osteospermum, Gibbaria, and Chrysanthemoides. Lund.</references>
+  <key>1.Shrubs or trees; cypselae fleshy (drupelike)83. Chrysanthemoides, p. 379</key>
+  <key>1.Annuals, perennials, or shrubs; cypselae not fleshy (often tuberculate or ridged and/or winged).</key>
+  <key>2.Disc florets bisexual (some or all fertile)84. Dimorphotheca, p. 380</key>
+  <key>2.Disc florets all functionally staminate.</key>
+  <key>3.Cypselae arcuate to ± coiled, abaxially tuberculate, sometimes winged85. Calendula, p. 381</key>
+  <key>3.Cypselae triquetrous-prismatic to clavate, ± tuberculate and/or winged86. Osteospermum, p. 382</key>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

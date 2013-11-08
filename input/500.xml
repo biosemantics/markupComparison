@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>3.</number>
+  <species_name>Agoseris parviflora</species_name>
+  <authority>(Nuttall) D. Dietrich</authority>
+  <place_of_publication>Syn. Pl. 4: 1332. 1847</place_of_publication>
+  <common_name>Steppe agoseris</common_name>
+  <synonym_of_species_name>Troximon parviflorum Nuttall, Trans. Amer. Philos. Soc., n. s. 7: 434. 1841; Agoseris caudata Greene; A. dens-leonis Greene; A. glauca (Pursh) Rafinesque var. laciniata (D. C. Eaton) Kuntze; A. leptocarpa Osterhout; A. rosea (Nuttall) D. Dietrich; A. taraxacoides Greene; A. tomentosa Howell</synonym_of_species_name>
+  <description>
+    <statement id="500.txt-0">
+      <text>Stems 0.</text>
+      <structure id="o10125" name="stem">
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+    <statement id="500.txt-1">
+      <text>Leaves erect to decumbent;</text>
+      <structure id="o10126" name="leaf">
+        <character name="orientation" value="erect" />
+        <character name="habit" value="decumbent" />
+      </structure>
+    </statement>
+    <statement id="500.txt-2">
+      <text>petioles sometimes purplish, margins usually ± hairy, sometimes glabrous or ciliate;</text>
+      <structure id="o10127" name="petiole">
+        <character name="coloration" value="purplish" modifier="sometimes" />
+      </structure>
+      <structure id="o10128" name="margin">
+        <character name="pubescence" value="hairy" modifier="usually ±" />
+        <character name="pubescence" value="glabrous" modifier="sometimes" />
+        <character name="architecture_or_shape" value="ciliate" />
+      </structure>
+    </statement>
+    <statement id="500.txt-3">
+      <text>blades linear-lanceolate to oblanceolate, (5–)10–20(–32) cm, margins usually lobed, sometimes entire (variable within plants, e.g., outer entire, inner lobed), rarely all entire;</text>
+      <structure id="o10129" name="blade">
+        <character char_type="range_value" name="shape" from="linear-lanceolate" to="oblanceolate" />
+        <character name="shape" value="linear-lanceolate" />
+        <character name="shape" value="oblanceolate" />
+        <character char_type="range_value" name="atypical_size" from="5" to="10" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_size" from="20" to="32" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="20" to_unit="cm" />
+      </structure>
+      <structure id="o10130" name="margin">
+        <character name="shape" value="lobed" modifier="usually" />
+        <character name="shape" value="entire" modifier="sometimes" />
+        <character name="shape" value="entire" />
+      </structure>
+    </statement>
+    <statement id="500.txt-4">
+      <text>lobes (3–)5–8 pairs, linear to lanceolate, mostly retrorse, sometimes spreading;</text>
+      <structure id="o10131" name="lobe">
+        <character char_type="range_value" name="atypical_count" from="3" to="5" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="5" to="8" />
+        <character char_type="range_value" name="shape" from="linear" to="lanceolate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="lanceolate" />
+        <character name="orientation" value="retrorse" modifier="mostly" />
+        <character name="orientation" value="spreading" modifier="sometimes" />
+      </structure>
+    </statement>
+    <statement id="500.txt-5">
+      <text>lobules often present, faces glabrous and glaucous or densely tomentose.</text>
+      <structure id="o10132" name="lobule">
+        <character name="presence" value="present" modifier="often" />
+      </structure>
+      <structure id="o10133" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="coating" value="glaucous" />
+        <character name="pubescence" value="tomentose" modifier="densely" />
+      </structure>
+    </statement>
+    <statement id="500.txt-6">
+      <text>Peduncles not notably elongating after flowering, [(6–)10–25(–45) cm in fruit], glabrate, or apically hairy to lanate, eglandular.</text>
+      <structure id="o10134" name="peduncle">
+        <character name="size" value="elongating" modifier="not notably; after flowering" />
+        <character char_type="range_value" name="pubescence" from="apically hairy" to="lanate" />
+        <character name="pubescence" value="glabrate" />
+        <character name="pubescence" value="hairy" modifier="apically" />
+        <character name="pubescence" value="lanate" modifier="apically" />
+        <character name="architecture" value="eglandular" />
+      </structure>
+    </statement>
+    <statement id="500.txt-7">
+      <text>Involucres obconic to hemispheric, 2–3.5 cm in fruit.</text>
+      <structure id="o10135" name="involucre">
+        <character char_type="range_value" name="shape" from="obconic" to="hemispheric" />
+        <character name="shape" value="obconic" />
+        <character name="shape" value="hemispheric" />
+        <character char_type="range_value" name="size" from="2" from_unit="cm" to="3.5" to_unit="cm" constraint="in fruit" constraintid="o10136" />
+      </structure>
+      <structure id="o10136" name="fruit" />
+    </statement>
+    <statement id="500.txt-8">
+      <text>Phyllaries in 2–3 series, usually medially rosy purple, rarely all green or spotted, margins ciliate or lanate, faces glabrous or sparsely villous, eglandular;</text>
+      <structure id="o10137" name="phyllary">
+        <character name="coloration" value="purple" modifier="usually medially;rosy" />
+        <character name="coloration" value="green" />
+        <character name="coloration" value="spotted" />
+      </structure>
+      <structure id="o10138" name="series">
+        <character char_type="range_value" name="count" from="2" to="3" />
+      </structure>
+      <relation id="r1172" name="in" from="o10137" to="o10138" negation="false" />
+      <structure id="o10139" name="margin">
+        <character name="architecture_or_shape" value="ciliate" />
+        <character name="pubescence" value="lanate" />
+      </structure>
+      <structure id="o10140" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="villous" modifier="sparsely" />
+        <character name="architecture" value="eglandular" />
+      </structure>
+    </statement>
+    <statement id="500.txt-9">
+      <text>outer erect or spreading, adaxially ± tomentose (sometimes glabrous);</text>
+      <structure id="o10141" name="phyllary" constraint="outer">
+        <character name="pubescence" value="tomentose" modifier="adaxially ±" />
+      </structure>
+    </statement>
+    <statement id="500.txt-10">
+      <text>inner erect, not notably elongating after flowering.</text>
+      <structure id="o10142" name="phyllary" constraint="inner">
+        <character name="orientation" value="erect" />
+        <character name="size" value="elongating" modifier="not notably; after flowering" />
+      </structure>
+    </statement>
+    <statement id="500.txt-11">
+      <text>Receptacles epaleate.</text>
+      <structure id="o10143" name="receptacle">
+        <character name="architecture" value="epaleate" />
+      </structure>
+    </statement>
+    <statement id="500.txt-12">
+      <text>Florets 30–100;</text>
+      <structure id="o10144" name="floret">
+        <character char_type="range_value" name="count" from="30" to="100" />
+      </structure>
+    </statement>
+    <statement id="500.txt-13">
+      <text>corollas yellow, tubes (4–)6–15 mm, ligules 10–20 × 2–4 mm;</text>
+      <structure id="o10145" name="corolla">
+        <character name="coloration" value="yellow" />
+      </structure>
+      <structure id="o10146" name="tube">
+        <character char_type="range_value" name="atypical_size" from="4" to="6" from_unit="mm" to_unit="mm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="15" to_unit="mm" />
+      </structure>
+      <structure id="o10147" name="ligule">
+        <character char_type="range_value" name="length" from="10" from_unit="mm" to="20" to_unit="mm" />
+        <character char_type="range_value" name="width" from="2" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="500.txt-14">
+      <text>anthers 3–5 mm.</text>
+      <structure id="o10148" name="anther">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="500.txt-16">
+      <text>pappus bristles in ca. 3 series, 10–20 mm.</text>
+      <structure id="o10149" name="bristle" constraint="pappus">
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="20" to_unit="mm" />
+      </structure>
+      <structure id="o10150" name="series">
+        <character name="count" value="3" />
+      </structure>
+      <relation id="r1173" name="in" from="o10149" to="o10150" negation="false" />
+    </statement>
+    <statement id="500.txt-17">
+      <text>2 n = 18.</text>
+      <structure id="o10151" name="chromosome">
+        <character name="count" value="18" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>dry habitats</habitat>
+  <habitat>sandy soils</habitat>
+  <habitat>short-grass prairies</habitat>
+  <habitat>sagebrush steppes</habitat>
+  <habitat>pinyon-juniper woodlands</habitat>
+  <habitat>montane meadows</habitat>
+  <habitat>mixed conifer forests</habitat>
+  <elevation>1000–3400 m;</elevation>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>S.Dak.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <discussion>Agoseris parviflora is found in drier habitats from western Great Plains to eastern foothills of the Cascade Mountains and Sierra Nevada. This is A. glauca var. laciniata of recent authors. The inclusion of A. parviflora within an expanded A. glauca is based partly on the mistaken perception that those two species readily intergrade and that A. parviflora is a xeric variant of the more mesic A. glauca. Although hybrids between the two species occur, frequency of intermediates is no greater than that of any other species in the genus. Agoseris parviflora is known to form intermediates with A. aurantiaca, A. monticola, and A. retrorsa as well. This species exhibits some regional variations. In their extremes, these phases appear more or less distinct but they so completely intergrade that their separation becomes arbitrary.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

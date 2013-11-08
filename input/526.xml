@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>3b.</number>
+  <subspecies_name>Microseris laciniata (Hooker) Schultz-Bipontinus subsp. leptosepala</subspecies_name>
+  <authority>(Nuttall) K. L. Chambers</authority>
+  <place_of_publication>Contr. Dudley Herb. 5: 61. 1957</place_of_publication>
+  <common_name>Slender-bracted silverpuffs</common_name>
+  <synonym_of_subspecies_name>Scorzonella leptosepala Nuttall, Trans. Amer. Philos. Soc., n. s. 7: 426. 1841; Microseris leptosepala (Nuttall) A. Gray</synonym_of_subspecies_name>
+  <description>
+    <statement id="526.txt-0">
+      <text>Stems usually branched.</text>
+      <structure id="o10814" name="stem">
+        <character name="architecture_or_shape" value="branched" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="526.txt-1">
+      <text>Leaves linear to narrowly lanceolate, entire or pinnately lobed.</text>
+      <structure id="o10815" name="leaf">
+        <character char_type="range_value" name="shape" from="linear" to="narrowly lanceolate , entire or pinnately lobed" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="lanceolate" modifier="narrowly" />
+        <character name="shape" value="entire" modifier="narrowly" />
+        <character name="shape" value="lobed" modifier="pinnately" />
+      </structure>
+    </statement>
+    <statement id="526.txt-2">
+      <text>Outer phyllaries rarely purple-spotted , linear to lanceolate or deltate, smallest 0.5–2.5 mm wide, apices (erect) acute to acuminate, abaxial faces often scurfy-puberulent and black-villous.</text>
+      <structure id="o10816" name="phyllary" constraint="outer">
+        <character name="coloration" value="spotted" modifier="rarely;purple" />
+        <character char_type="range_value" name="shape" from="linear" to="lanceolate or deltate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="deltate" />
+        <character name="size" value="smallest" />
+        <character char_type="range_value" name="size" from="0.5" from_unit="mm" to="2.5" to_unit="mm" />
+      </structure>
+      <structure id="o10817" name="apex">
+        <character char_type="range_value" name="shape" from="acute" to="acuminate" />
+        <character name="shape" value="acute" />
+        <character name="shape" value="acuminate" />
+      </structure>
+      <structure id="o10818" name="face" constraint="abaxial">
+        <character name="pubescence" value="scurfy-puberulent" modifier="often" />
+        <character name="pubescence" value="black-villous" />
+      </structure>
+    </statement>
+    <statement id="526.txt-3">
+      <text>Pappi of 5–10, white, glabrous, aristate scales 0.5–2.5 mm, aristae usually barbellulate, rarely barbellate.</text>
+      <structure id="o10819" name="pappus" />
+      <structure id="o10820" name="scale">
+        <character char_type="range_value" name="count" from="5" to="10" />
+        <character name="coloration" value="white" />
+        <character name="pubescence" value="glabrous" />
+        <character name="shape" value="aristate" />
+        <character char_type="range_value" name="size" from="0.5" from_unit="mm" to="2.5" to_unit="mm" />
+      </structure>
+      <relation id="r1237" name="consist_of" from="o10819" to="o10820" negation="false" />
+      <structure id="o10821" name="arista">
+        <character name="architecture" value="barbellulate" modifier="usually" />
+        <character name="architecture" value="barbellate" modifier="rarely" />
+      </structure>
+    </statement>
+    <statement id="526.txt-4">
+      <text>2 n = 18.</text>
+      <structure id="o10822" name="chromosome">
+        <character name="count" value="18" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>may</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>clay</habitat>
+  <habitat>loam, and gravelly, sometimes serpentine-derived soils</habitat>
+  <habitat>open sites</habitat>
+  <habitat>meadows</habitat>
+  <habitat>hillsides</habitat>
+  <habitat>pine</habitat>
+  <habitat>oak and mixed evergreen woods</habitat>
+  <elevation>30–2000 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <discussion>Subspecies leptosepala is known from the Klamath Mountains of California and Oregon and rare northward. It also occurs, intergrading with subsp. laciniata, in the California North Coast Range and east of the Cascade Range in central Oregon and northeastern California. It intergrades with subsp. siskiyouensis in the valleys of the Illinois and Smith rivers, southwestern Oregon and adjacent California (K. L. Chambers 2004b).</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

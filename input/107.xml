@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>37.</number>
+  <species_name>Cirsium mohavense</species_name>
+  <authority>(Greene) Petrak</authority>
+  <place_of_publication>Bot. Tidsskr. 31: 68. 1911</place_of_publication>
+  <common_name>Mojave thistle</common_name>
+  <synonym_of_species_name>Carduus mohavensis Greene, Proc. Acad. Nat. Sci. Philadelphia 44: 361. 1893; Cirsium rusbyi (Greene) Petrak; C. virginense S. L. Welsh</synonym_of_species_name>
+  <description>
+    <statement id="107.txt-0">
+      <text>Biennials or perennials , 30–250 cm;</text>
+    </statement>
+    <statement id="107.txt-1">
+      <text>taprooted.</text>
+      <structure id="o208" name="whole_organism">
+        <character char_type="range_value" name="size" from="30" from_unit="cm" to="250" to_unit="cm" />
+        <character name="life_style" value="biennial" />
+        <character name="life_style" value="perennial" />
+        <character name="architecture" value="taprooted" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="107.txt-2">
+      <text>Stems 1–several, erect, proximally simple, distally branched, ± densely gray-tomentose;</text>
+      <structure id="o210" name="stem">
+        <character char_type="range_value" name="count" from="1" to="several" />
+        <character name="orientation" value="erect" />
+        <character name="architecture" value="simple" modifier="proximally" />
+        <character name="architecture_or_shape" value="branched" modifier="distally" />
+        <character name="pubescence" value="gray-tomentose" modifier="± densely" />
+      </structure>
+    </statement>
+    <statement id="107.txt-3">
+      <text>branches 0–many, ascending to spreading.</text>
+      <structure id="o211" name="branch">
+        <character char_type="range_value" name="count" from="0" to="many" />
+        <character char_type="range_value" name="orientation" from="ascending" to="spreading" />
+        <character name="orientation" value="ascending" />
+        <character name="orientation" value="spreading" />
+      </structure>
+    </statement>
+    <statement id="107.txt-4">
+      <text>Leaves:</text>
+      <structure id="o212" name="leaf" />
+    </statement>
+    <statement id="107.txt-5">
+      <text>blades oblong-elliptic to oblanceolate, 10–60 × 2–15 cm, unlobed and merely spinulose or spiny-dentate or shallowly to deeply pinnatifid, lobes linear-lanceolate to ovate-triangular, spreading, entire to coarsely dentate, main spines slender to stout, 3–30 mm, faces ± gray-tomentose, sometimes ± glabrate;</text>
+      <structure id="o213" name="blade">
+        <character char_type="range_value" name="shape" from="oblong-elliptic" to="oblanceolate" />
+        <character name="shape" value="oblong-elliptic" />
+        <character name="shape" value="oblanceolate" />
+        <character char_type="range_value" name="length" from="10" from_unit="cm" to="60" to_unit="cm" />
+        <character char_type="range_value" name="width" from="2" from_unit="cm" to="15" to_unit="cm" />
+        <character name="shape" value="unlobed" />
+        <character name="shape" value="spinulose" modifier="merely" />
+        <character name="shape" value="spiny-dentate" modifier="merely" />
+        <character name="shape" value="pinnatifid" modifier="shallowly deeply" />
+      </structure>
+      <structure id="o214" name="lobe">
+        <character char_type="range_value" name="shape" from="linear-lanceolate" to="ovate-triangular" />
+        <character name="shape" value="linear-lanceolate" />
+        <character name="shape" value="ovate-triangular" />
+        <character name="orientation" value="spreading" />
+        <character char_type="range_value" name="shape" from="entire" to="coarsely dentate" />
+        <character name="shape" value="entire" />
+        <character name="shape" value="dentate" modifier="coarsely" />
+      </structure>
+      <structure id="o215" name="spine" constraint="main">
+        <character name="size" value="slender" />
+        <character name="fragility" value="stout" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="30" to_unit="mm" />
+      </structure>
+      <structure id="o216" name="face">
+        <character name="pubescence" value="gray-tomentose" modifier="±" />
+        <character name="pubescence" value="glabrate" modifier="sometimes ±" />
+      </structure>
+    </statement>
+    <statement id="107.txt-6">
+      <text>basal often present at flowering, winged-petiolate;</text>
+      <structure id="o217" name="leaf" constraint="basal">
+        <character name="presence" value="present" modifier="often; at flowering" />
+        <character name="architecture" value="winged-petiolate" />
+      </structure>
+    </statement>
+    <statement id="107.txt-7">
+      <text>principal cauline decreasing distally, proximal winged-petiolate, distal sessile, bases decurrent as spiny wings 1–5 cm;</text>
+      <structure id="o218" name="leaf" constraint="principal cauline">
+        <character name="count" value="decreasing" modifier="distally" />
+      </structure>
+      <structure id="o219" name="leaf" constraint="proximal">
+        <character name="architecture" value="winged-petiolate" />
+      </structure>
+      <structure id="o220" name="leaf" constraint="distal">
+        <character name="architecture" value="sessile" />
+      </structure>
+      <structure id="o221" name="base">
+        <character name="shape" value="decurrent" constraint="as wings" constraintid="o222" />
+      </structure>
+      <structure id="o222" name="wing">
+        <character name="architecture_or_shape" value="spiny" />
+        <character char_type="range_value" name="size" from="1" from_unit="cm" to="5" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="107.txt-8">
+      <text>distalmost well separated, bractlike.</text>
+      <structure id="o223" name="leaf" constraint="distalmost">
+        <character name="arrangement" value="separated" modifier="well" />
+        <character name="shape" value="bractlike" />
+      </structure>
+    </statement>
+    <statement id="107.txt-9">
+      <text>Heads 1–many, in corymbiform or paniculiform arrays.</text>
+      <structure id="o224" name="head">
+        <character char_type="range_value" name="count" from="1" to="many" />
+      </structure>
+      <structure id="o225" name="array">
+        <character name="architecture" value="corymbiform" />
+        <character name="architecture" value="paniculiform" />
+      </structure>
+      <relation id="r37" name="in" from="o224" to="o225" negation="false" />
+    </statement>
+    <statement id="107.txt-10">
+      <text>Peduncles 0–15 cm.</text>
+      <structure id="o226" name="peduncle">
+        <character char_type="range_value" name="size" from="0" from_unit="cm" to="15" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="107.txt-11">
+      <text>Involucres ovoid to hemispheric, 1.5–2.5 × 1.5–2 cm, loosely arachnoid on phyllary margins or glabrate.</text>
+      <structure id="o227" name="involucre">
+        <character char_type="range_value" name="shape" from="ovoid" to="hemispheric" />
+        <character name="shape" value="ovoid" />
+        <character name="shape" value="hemispheric" />
+        <character char_type="range_value" name="length" from="1.5" from_unit="cm" to="2.5" to_unit="cm" />
+        <character char_type="range_value" name="width" from="1.5" from_unit="cm" to="2" to_unit="cm" />
+        <character name="pubescence" value="arachnoid" modifier="loosely" constraint="on phyllary margins" constraintid="o228" />
+        <character name="pubescence" value="glabrate" />
+      </structure>
+      <structure id="o228" name="margin" constraint="phyllary" />
+    </statement>
+    <statement id="107.txt-12">
+      <text>Phyllaries in 5–8 series, imbricate, (inner greenish to brown or stramineous ) , lanceolate or ovate (outer) to linear-lanceolate (inner), entire, abaxial faces with narrow glutinous ridge;</text>
+      <structure id="o229" name="phyllary">
+        <character name="aestivation_or_arrangement" value="imbricate" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="linear-lanceolate" />
+        <character name="shape" value="entire" />
+      </structure>
+      <structure id="o230" name="series">
+        <character char_type="range_value" name="count" from="5" to="8" />
+      </structure>
+      <relation id="r38" name="in" from="o229" to="o230" negation="false" />
+      <structure id="o231" name="face" constraint="abaxial" />
+      <structure id="o232" name="ridge">
+        <character name="size" value="narrow" />
+        <character name="coating_or_texture" value="glutinous" />
+      </structure>
+      <relation id="r39" name="with" from="o231" to="o232" negation="false" />
+    </statement>
+    <statement id="107.txt-13">
+      <text>outer and middle appressed, spines spreading, 3–7 mm;</text>
+      <structure id="o233" name="phyllary" constraint="outer and middle">
+        <character name="orientation" value="appressed" />
+      </structure>
+      <structure id="o234" name="spine">
+        <character name="orientation" value="spreading" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="107.txt-14">
+      <text>apices of inner often flexuous, flattened, spineless, scabrid.</text>
+      <structure id="o235" name="apex">
+        <character name="course" value="flexuous" modifier="often" />
+        <character name="shape" value="flattened" />
+        <character name="architecture" value="spineless" />
+        <character name="relief" value="scabrid" />
+      </structure>
+      <structure id="o236" name="phyllary" constraint="inner" />
+      <relation id="r40" name="part_of" from="o235" to="o236" negation="false" />
+    </statement>
+    <statement id="107.txt-15">
+      <text>Corollas white to pink or lavender, 16–25 mm, tubes 7–12 mm, throats 4–7 mm, lobes 4–8 mm, style tips 3–4 mm.</text>
+      <structure id="o237" name="corolla">
+        <character char_type="range_value" name="coloration" from="white" to="pink or lavender" />
+        <character name="coloration" value="white" />
+        <character name="coloration" value="pink" />
+        <character name="coloration" value="lavender" />
+        <character char_type="range_value" name="size" from="16" from_unit="mm" to="25" to_unit="mm" />
+      </structure>
+      <structure id="o238" name="tube">
+        <character char_type="range_value" name="size" from="7" from_unit="mm" to="12" to_unit="mm" />
+      </structure>
+      <structure id="o239" name="throat">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+      <structure id="o240" name="lobe">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+      <structure id="o241" name="tip" constraint="style">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="107.txt-16">
+      <text>Cypselae stramineous to dark brown, 3–6 mm, apical collars 0.2–0.3 mm, yellowish;</text>
+      <structure id="o242" name="cypsela">
+        <character char_type="range_value" name="coloration" from="stramineous" to="dark-brown" />
+        <character name="coloration" value="stramineous" />
+        <character name="coloration" value="brown" modifier="dark" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+      <structure id="o243" name="collar" constraint="apical">
+        <character char_type="range_value" name="size" from="0.2" from_unit="mm" to="0.3" to_unit="mm" />
+        <character name="coloration" value="yellowish" />
+      </structure>
+    </statement>
+    <statement id="107.txt-17">
+      <text>pappi 14–16 mm.</text>
+      <structure id="o244" name="pappus">
+        <character char_type="range_value" name="size" from="14" from_unit="mm" to="16" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="107.txt-18">
+      <text>2 n = 30, 32.</text>
+      <structure id="o245" name="chromosome">
+        <character name="count" value="30" />
+        <character name="count" value="32" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>nov</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <habitat>wet soil</habitat>
+  <habitat>streams</habitat>
+  <habitat>springs</habitat>
+  <habitat>meadows in desert and desert woodland areas</habitat>
+  <conservation>of conservation concern;</conservation>
+  <elevation>-50–2200 m;</elevation>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>Utah.</us_distribution>
+  <discussion>Cirsium mohavense ranges from scattered sites in eastern California east in the Basin and Range Province of southern Nevada to southwestern Utah and nortwestern Arizona, mostly in Mojave Desert region. When Welsh proposed Cirsium virginense for a geographically limited group of plants from southwestern Utah and northwestern Arizona (and subsequently discovered in extreme southeastern Nevada), he indicated that its relationship to other western thistles was unknown. Subsequently, he indicated (S. L. Welsh 1983; Welsh et al. 1993) that the affinities of the taxon apparently lie with C. mohavense, but he did not attempt to distinguish C. virginense from C. mohavense (in the strict sense) because the latter was not known to occur in Utah. A. Cronquist (1994) attempted the distinction. The only character he used in his key was life span of the plants: biennial (C. mohavense) versus perennial, spreading by creeping roots (C. virginense). In the descriptions of the two taxa he elaborated on this character, indicating that C. mohavense is single-stemmed and C. virginense often multistemmed. In the remaining features the plants are very similar or overlap extensively.</discussion>
+  <discussion>Distinction of two taxa on the basis of duration is impractical and probably inaccurate. Specimens commonly lack roots, and in those specimens in which bases are present, I have seldom been able to make any distinction between biennial taproots and perennial taproots. In particular I have seen no evidence of creeping roots. I am not aware of any study of either taxon that documents the life history of the plants. Some specimens of C. mohavense (in the strict sense) appear to have perennial bases like those attributed to C. virginense by Cronquist. For instance, a specimen of C. mohavense from Death Valley (Thorne &amp; Ratcliff 2287, BRY) is indistinguishable from specimens of C. virginense (e.g., Atwood 13374, BRY) from Nevada and Utah. Both have a branched root crown with multiple rosettes and nearly identical leaves and heads.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

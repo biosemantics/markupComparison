@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>98.</number>
+  <genus_name>FILAGO</genus_name>
+  <authority>Filago Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 927, 1199. 1753; Gen. Pl. ed. 5, 397. 1754</place_of_publication>
+  <conserved>name conserved ·</conserved>
+  <common_name>Herba impia , cotonnière , cottonrose</common_name>
+  <derivation>Latin filum , thread, and - ago , possessing or resembling, alluding to abundant cottony indument</derivation>
+  <author_of_tribe_genus>James D. Morefield</author_of_tribe_genus>
+  <description>
+    <statement id="741.txt-0">
+      <text>Annuals, (1–)5–40 cm.</text>
+      <structure id="o15607" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="1" to="5" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="40" to_unit="cm" />
+        <character name="life_style" value="annual" />
+      </structure>
+    </statement>
+    <statement id="741.txt-1">
+      <text>Stems [0] 1, ± erect, or 2–7[–10+], ± ascending [prostrate].</text>
+      <structure id="o15608" name="stem">
+        <character name="atypical_count" value="0" />
+        <character name="count" value="1" />
+        <character name="orientation" value="erect" modifier="±" />
+        <character char_type="range_value" name="atypical_count" from="7" to="10" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="2" to="7" />
+        <character name="orientation" value="ascending" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="741.txt-2">
+      <text>Leaves cauline [basal];</text>
+    </statement>
+    <statement id="741.txt-3">
+      <text>alternate;</text>
+      <structure id="o15609" name="leaf">
+        <character name="insertion_or_position" value="cauline" />
+        <character name="arrangement" value="alternate" />
+      </structure>
+    </statement>
+    <statement id="741.txt-4">
+      <text>blades lanceolate to oblanceolate [spatulate or ± round].</text>
+      <structure id="o15610" name="blade">
+        <character char_type="range_value" name="shape" from="lanceolate" to="oblanceolate" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="oblanceolate" />
+      </structure>
+    </statement>
+    <statement id="741.txt-5">
+      <text>Heads in (dense, spheric [hemispheric]) glomerules of [2–]8–35+ in ± dichasiiform arrays [borne singly].</text>
+      <structure id="o15611" name="head" />
+      <structure id="o15612" name="glomerule" />
+      <relation id="r1685" name="in" from="o15611" to="o15612" negation="false" />
+      <structure id="o15613" name="array">
+        <character char_type="range_value" name="atypical_count" from="2" to="8" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="8" to="35" upper_restricted="false" />
+        <character name="architecture" value="dichasiiform" modifier="±" />
+      </structure>
+      <relation id="r1686" name="consist_of" from="o15612" to="o15613" negation="false" />
+    </statement>
+    <statement id="741.txt-6">
+      <text>Involucres 0 or inconspicuous.</text>
+      <structure id="o15614" name="involucre">
+        <character name="count" value="0" />
+        <character name="manifestation" value="inconspicuous" />
+      </structure>
+    </statement>
+    <statement id="741.txt-7">
+      <text>Phyllaries usually 0, rarely 1–4, unequal (similar to paleae).</text>
+      <structure id="o15615" name="phyllary">
+        <character name="count" value="0" modifier="usually" />
+        <character char_type="range_value" name="count" from="1" to="4" modifier="rarely" />
+        <character name="size" value="unequal" />
+      </structure>
+    </statement>
+    <statement id="741.txt-8">
+      <text>Receptacles cylindric to clavate (heights [2–]5–15 times diams.), glabrous.</text>
+      <structure id="o15616" name="receptacle">
+        <character char_type="range_value" name="shape" from="cylindric" to="clavate" />
+        <character name="shape" value="cylindric" />
+        <character name="shape" value="clavate" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="741.txt-9">
+      <text>Pistillate paleae (except usually innermost) ± persistent [falling], ± erect to ascending;</text>
+      <structure id="o15617" name="palea" constraint="pistillate">
+        <character name="duration" value="persistent" modifier="±" />
+        <character char_type="range_value" name="orientation" from="erect" to="ascending" modifier="±" />
+        <character name="orientation" value="erect" modifier="±" />
+        <character name="orientation" value="ascending" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="741.txt-10">
+      <text>bodies with 5+ nerves (nerves ± parallel, obscure), lanceolate to ovate, open to ± folded (each at most enfolding, not enclosing a floret);</text>
+      <structure id="o15618" name="body">
+        <character char_type="range_value" name="shape" from="lanceolate" to="ovate" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="ovate" />
+        <character name="architecture" value="open" />
+        <character name="shape" value="folded" modifier="±" />
+      </structure>
+      <structure id="o15619" name="nerve">
+        <character name="count" char_type="range_value" from="5" upper_restricted="false" />
+      </structure>
+      <relation id="r1687" name="with" from="o15618" to="o15619" negation="false" />
+    </statement>
+    <statement id="741.txt-11">
+      <text>wings erect to recurved (apices acuminate to aristate).</text>
+      <structure id="o15620" name="wing">
+        <character char_type="range_value" name="orientation" from="erect" to="recurved" />
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="recurved" />
+      </structure>
+    </statement>
+    <statement id="741.txt-12">
+      <text>Innermost paleae usually all pistillate, in some species bisexual and pistillate, persistent or tardily falling, usually 5, erect to ascending [spreading] (scarcely enlarged) in fruit, shorter than other pistillate paleae;</text>
+      <structure id="o15621" name="palea" constraint="innermost">
+        <character name="architecture" value="pistillate" />
+        <character name="architecture" value="pistillate" />
+        <character name="duration" value="persistent" />
+        <character name="orientation" value="falling" modifier="tardily" />
+        <character name="count" value="5" modifier="usually" />
+        <character char_type="range_value" name="orientation" from="erect" to="ascending" />
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="ascending" constraint="in fruit" constraintid="o15623" />
+        <character name="size" value="shorter" constraint="than other pistillate paleae" constraintid="o15624" />
+      </structure>
+      <structure id="o15622" name="species">
+        <character name="reproduction" value="bisexual" />
+      </structure>
+      <relation id="r1688" name="in" from="o15621" to="o15622" negation="false" />
+      <structure id="o15623" name="fruit" />
+      <structure id="o15624" name="palea" constraint="other pistillate" />
+    </statement>
+    <statement id="741.txt-13">
+      <text>bodies lanceolate to ovate.</text>
+      <structure id="o15625" name="body">
+        <character char_type="range_value" name="shape" from="lanceolate" to="ovate" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="ovate" />
+      </structure>
+    </statement>
+    <statement id="741.txt-14">
+      <text>Pistillate florets [12–]27–40+.</text>
+      <structure id="o15626" name="floret" constraint="pistillate">
+        <character char_type="range_value" name="atypical_count" from="12" to="27" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="27" to="40" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="741.txt-15">
+      <text>Functionally staminate florets 0.</text>
+      <structure id="o15627" name="floret" constraint="functionally staminate">
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+    <statement id="741.txt-16">
+      <text>Bisexual florets (1–)2–9(–11);</text>
+      <structure id="o15628" name="floret" constraint="bisexual">
+        <character char_type="range_value" name="atypical_count" from="1" to="2" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_count" from="9" to="11" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="2" to="9" />
+      </structure>
+    </statement>
+    <statement id="741.txt-17">
+      <text>corolla lobes 4, ± equal.</text>
+      <structure id="o15629" name="lobe" constraint="corolla">
+        <character name="count" value="4" />
+        <character name="size" value="equal" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="741.txt-18">
+      <text>Cypselae brown, ± monomorphic:</text>
+    </statement>
+    <statement id="741.txt-19">
+      <text>terete to ± compressed, cylindric to ± obovoid, usually straight, not gibbous, faces papillate to muricate [glabrous, smooth], dull;</text>
+      <structure id="o15630" name="cypsela">
+        <character name="coloration" value="brown" />
+        <character name="habit" value="monomorphic" modifier="±" />
+        <character name="shape" value="terete" />
+        <character name="shape" value="compressed" modifier="±" />
+        <character name="shape" value="cylindric" />
+        <character name="shape" value="obovoid" modifier="±" />
+        <character name="course" value="straight" modifier="usually" />
+        <character name="shape" value="gibbous" modifier="not" />
+      </structure>
+      <structure id="o15631" name="face">
+        <character char_type="range_value" name="relief" from="papillate" to="muricate" />
+        <character name="relief" value="papillate" />
+        <character name="relief" value="muricate" />
+        <character name="reflectance_or_coloration" value="dull" />
+      </structure>
+    </statement>
+    <statement id="741.txt-20">
+      <text>corolla scars apical [subapical];</text>
+      <structure id="o15632" name="scar" constraint="corolla">
+        <character name="insertion_or_position" value="apical" />
+      </structure>
+    </statement>
+    <statement id="741.txt-21">
+      <text>pappi:</text>
+      <structure id="o15633" name="pappus" />
+    </statement>
+    <statement id="741.txt-22">
+      <text>outer pistillate 0, inner pistillate and bisexual of [3–]13–21 bristles (visible in heads).</text>
+      <structure id="o15634" name="pappus" constraint="outer">
+        <character name="architecture" value="pistillate" />
+        <character name="count" value="0" />
+      </structure>
+      <structure id="o15635" name="pappus" constraint="inner">
+        <character name="architecture" value="pistillate" />
+        <character name="reproduction" value="bisexual" constraint="of 3-, bristles" constraintid="o15636" />
+      </structure>
+      <structure id="o15636" name="bristle" constraint="3-13-21" />
+    </statement>
+    <statement id="741.txt-23">
+      <text>x = 14.</text>
+      <structure id="o15637" name="chromosome">
+        <character name="count" value="14" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species 12(–23) (2 in the flora):</number_of_infrataxa>
+  <introduced>introduced;</introduced>
+  <general_distribution>Europe</general_distribution>
+  <general_distribution>w Asia</general_distribution>
+  <general_distribution>n Africa</general_distribution>
+  <general_distribution>Atlantic Islands</general_distribution>
+  <general_distribution>introduced in North America</general_distribution>
+  <general_distribution>Australia.</general_distribution>
+  <discussion>See discussion of Filagininae following the tribal description (p. 385).</discussion>
+  <discussion>The name Filago has been used also for the genus now usually recognized as Evax Gaertner. Here Filago, in the narrow sense, contains twelve Old World species. Six species long included in Filago in North America are here separated as Logfia.</discussion>
+  <discussion>Filago species grow in open, dry or somewhat moist habitats of arid, semiarid, Mediterranean, and humid-temperate to subtropical climates. The species in the flora grow in disturbed habitats; neither appears to be aggressively weedy.</discussion>
+  <discussion>Filago appears to be sister to or derived from Logfia and is probably ancestral to Evacopsis and Evax (J. D. Morefield 1992). Filago is most easily recognized by outer epappose florets subtended by open or ± folded, persistent, acuminate to aristate paleae, and prominent pappi on inner pistillate and bisexual florets.</discussion>
+  <references>SELECTED REFERENCES Wagenitz, G. 1969. Abgrenzung und Gliederung der Gattung Filago L. s.l. (Compositae–Inuleae). Willdenowia 5: 395–444. Wagenitz, G. 1976. Two species of the “Filago germanica” group (Compositae–Inuleae) in the United States. Sida 6: 221–223.</references>
+  <key>1.Largest leaves oblong to lanceolate, widest in proximal 2/3; heads in glomerules of (15–)20–35+, narrowly ± ampulliform, largest 1.5–2 mm diam.; pistillate paleae spirally ranked, longest 3.5–4.2 mm, innermost surrounding 14–25+ florets (10–20+ pistillate); longest dis- tal capitular leaves 0.8–1.1 times head heights, acute1. Filago vulgaris</key>
+  <key>1.Largest leaves oblanceolate to narrowly spatulate, widest in distal 1/3; heads in glomerules of mostly (8–)12–16(–20), ± bipyramidal, largest 2.5–4 mm diam.; pistillate paleae vertically ranked, longest 4.5–6 mm, innermost surrounding 8–13 florets (2–7 pistillate); longest dis- tal capitular leaves 1.3–2 times head heights, obtuse2. Filago pyramidata</key>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

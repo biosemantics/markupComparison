@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>2.</number>
+  <species_name>Pseudognaphalium stramineum</species_name>
+  <authority>(Kunth) Anderberg</authority>
+  <place_of_publication>Opera Bot. 104: 148. 1991</place_of_publication>
+  <common_name>Cotton-batting-plant</common_name>
+  <synonym_of_species_name>Gnaphalium stramineum Kunth in A. von Humboldt et al., Nov. Gen. Sp. 4(fol.): 66. 1818; 4(qto.): 85. 1820; G. chilense Sprengel; G. chilense var. confertifolium Greene; G. gossypinum Nuttall; G. lagopodioides Rydberg; G. proximum Greene; G. sulphurescens Rydberg</synonym_of_species_name>
+  <description>
+    <statement id="681.txt-0">
+      <text>Annuals or biennials, 30–60(–80) cm;</text>
+    </statement>
+    <statement id="681.txt-1">
+      <text>taprooted.</text>
+      <structure id="o14230" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="60" to="80" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="30" from_unit="cm" to="60" to_unit="cm" />
+        <character name="life_style" value="annual" />
+        <character name="life_style" value="biennial" />
+        <character name="architecture" value="taprooted" />
+        <character name="life_style" value="biennial" />
+      </structure>
+    </statement>
+    <statement id="681.txt-2">
+      <text>Stems (1+ from base, erect to ascending) loosely tomentose, not glandular.</text>
+      <structure id="o14232" name="stem">
+        <character name="pubescence" value="tomentose" modifier="loosely" />
+        <character name="architecture_or_exudation_or_pubescence" value="glandular" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="681.txt-3">
+      <text>Leaf blades (crowded, internodes usually 1–5, sometimes to 10 mm) oblong to narrowly oblanceolate or subspatulate, 2–8(–9.5) cm × 2–5(–10) mm (smaller distally, narrowly lanceolate to linear), bases subclasping, usually not decurrent, sometimes decurrent 1–2 mm, margins flat or slightly revolute, faces concolor, loosely and persistently gray-tomentose, not glandular.</text>
+      <structure id="o14233" name="blade" constraint="leaf">
+        <character char_type="range_value" name="shape" from="oblong" to="narrowly oblanceolate or subspatulate" />
+        <character name="shape" value="oblong" />
+        <character name="shape" value="oblanceolate" modifier="narrowly" />
+        <character name="shape" value="subspatulate" modifier="narrowly" />
+        <character char_type="range_value" name="atypical_length" from="8" to="9.5" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="2" from_unit="cm" to="8" to_unit="cm" />
+        <character char_type="range_value" name="atypical_width" from="5" to="10" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="width" from="2" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+      <structure id="o14234" name="base">
+        <character name="orientation" value="subclasping" />
+        <character name="shape" value="decurrent" modifier="usually not" />
+        <character name="shape" value="decurrent" modifier="sometimes" />
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="2" to_unit="mm" />
+      </structure>
+      <structure id="o14235" name="margin">
+        <character name="shape" value="flat" />
+        <character name="shape" value="revolute" modifier="slightly" />
+      </structure>
+      <structure id="o14236" name="face">
+        <character name="coloration" value="concolor" />
+        <character name="pubescence" value="gray-tomentose" modifier="persistently" />
+        <character name="architecture_or_exudation_or_pubescence" value="glandular" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="681.txt-4">
+      <text>Heads in terminal glomerules (1–2 cm diam.).</text>
+      <structure id="o14237" name="head" />
+      <structure id="o14238" name="glomerule" constraint="terminal" />
+      <relation id="r1517" name="in" from="o14237" to="o14238" negation="false" />
+    </statement>
+    <statement id="681.txt-5">
+      <text>Involucres subglobose, 4–6 mm.</text>
+      <structure id="o14239" name="involucre">
+        <character name="shape" value="subglobose" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="681.txt-6">
+      <text>Phyllaries in 4–5 series, whitish (often yellowish with age, hyaline, shiny), ovate to oblong-obovate, glabrous.</text>
+      <structure id="o14240" name="phyllary">
+        <character name="coloration" value="whitish" />
+        <character char_type="range_value" name="shape" from="ovate" to="oblong-obovate" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="oblong-obovate" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+      <structure id="o14241" name="series">
+        <character char_type="range_value" name="count" from="4" to="5" />
+      </structure>
+      <relation id="r1518" name="in" from="o14240" to="o14241" negation="false" />
+    </statement>
+    <statement id="681.txt-7">
+      <text>Pistillate florets 160–200.</text>
+      <structure id="o14242" name="floret" constraint="pistillate">
+        <character char_type="range_value" name="count" from="160" to="200" />
+      </structure>
+    </statement>
+    <statement id="681.txt-8">
+      <text>Bisexual florets [8–]18–28.</text>
+      <structure id="o14243" name="floret" constraint="bisexual">
+        <character char_type="range_value" name="atypical_count" from="8" to="18" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="18" to="28" />
+      </structure>
+    </statement>
+    <statement id="681.txt-9">
+      <text>Cypselae weakly, if at all, ridged (otherwise smooth or papillate-roughened, glabrous, without papilliform hairs; pappus bristles loosely coherent basally, released in clusters or easily fragmented rings).</text>
+      <structure id="o14244" name="cypsela">
+        <character name="shape" value="ridged" />
+      </structure>
+    </statement>
+    <statement id="681.txt-10">
+      <text>2 n = 28.</text>
+      <structure id="o14245" name="chromosome">
+        <character name="count" value="28" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <habitat>sandy fields</habitat>
+  <habitat>streamsides</habitat>
+  <habitat>washes</habitat>
+  <habitat>swales</habitat>
+  <habitat>dunes</habitat>
+  <habitat>chaparral slopes</habitat>
+  <habitat>roadsides</habitat>
+  <habitat>fields</habitat>
+  <habitat>disturbed places</habitat>
+  <habitat>moist disturbed places</habitat>
+  <elevation>10–1600 m;</elevation>
+  <ca_distribution>B.C.</ca_distribution>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>Nebr.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>N.C.</us_distribution>
+  <us_distribution>Okla.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>S.C.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Va.</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <global_distribution>Mexico</global_distribution>
+  <global_distribution>South America</global_distribution>
+  <discussion>Pseudognaphalium stramineum is probably native from South America to western North America; it is adventive in sandy fields on the Atlantic coastal plain, where it flowers May–Aug.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>26.</number>
+  <species_name>Artemisia annua</species_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 847. 1753</place_of_publication>
+  <common_name>Sweet Annie, sweet sagewort, armoise annuelle</common_name>
+  <synonym_of_species_name>Artemisia chamomilla C. Winkler</synonym_of_species_name>
+  <description>
+    <statement id="893.txt-0">
+      <text>Annuals, 30–200(–300) cm, sweetly aromatic.</text>
+      <structure id="o18498" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="200" to="300" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="30" from_unit="cm" to="200" to_unit="cm" />
+        <character name="odor" value="aromatic" modifier="sweetly" />
+        <character name="life_style" value="annual" />
+      </structure>
+    </statement>
+    <statement id="893.txt-1">
+      <text>Stems mostly 1, erect, green, turning to reddish brown with age, simple (smooth or ribbed), glabrous or sparsely hairy.</text>
+      <structure id="o18499" name="stem">
+        <character name="count" value="1" modifier="mostly" />
+        <character name="orientation" value="erect" />
+        <character name="coloration" value="green" />
+        <character name="coloration" value="brown with age" modifier="reddish" />
+        <character name="architecture" value="simple" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="hairy" modifier="sparsely" />
+      </structure>
+    </statement>
+    <statement id="893.txt-2">
+      <text>Leaves cauline, bright green;</text>
+      <structure id="o18500" name="leaf">
+        <character name="insertion_or_position" value="cauline" />
+        <character name="coloration" value="green" modifier="bright" />
+      </structure>
+    </statement>
+    <statement id="893.txt-3">
+      <text>blades triangular to broadly ovate, 2–5(–10) × 2–4 cm, 2–3-pinnatifid (lobes relatively narrow, ± toothed), faces glabrous, gland-dotted.</text>
+      <structure id="o18501" name="blade">
+        <character char_type="range_value" name="shape" from="triangular" to="broadly ovate" />
+        <character name="shape" value="triangular" />
+        <character name="shape" value="ovate" modifier="broadly" />
+        <character char_type="range_value" name="atypical_length" from="5" to="10" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="2" from_unit="cm" to="5" to_unit="cm" />
+        <character char_type="range_value" name="width" from="2" from_unit="cm" to="4" to_unit="cm" />
+        <character name="shape" value="2-3-pinnatifid" />
+      </structure>
+      <structure id="o18502" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="coloration_or_relief" value="gland-dotted" />
+      </structure>
+    </statement>
+    <statement id="893.txt-4">
+      <text>Heads (nodding, peduncles 2–5 mm) in open, (diffusely branched, leafy) arrays 15–30(–40) × 10–20 cm.</text>
+      <structure id="o18503" name="head" />
+      <structure id="o18504" name="array">
+        <character name="architecture" value="open" />
+        <character char_type="range_value" name="atypical_length" from="30" to="40" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="15" from_unit="cm" to="30" to_unit="cm" />
+        <character char_type="range_value" name="width" from="10" from_unit="cm" to="20" to_unit="cm" />
+      </structure>
+      <relation id="r1955" name="in" from="o18503" to="o18504" negation="false" />
+    </statement>
+    <statement id="893.txt-5">
+      <text>Involucres globose, 1.5–2.5 × 1.5–2.5 mm.</text>
+      <structure id="o18505" name="involucre">
+        <character name="shape" value="globose" />
+        <character char_type="range_value" name="length" from="1.5" from_unit="mm" to="2.5" to_unit="mm" />
+        <character char_type="range_value" name="width" from="1.5" from_unit="mm" to="2.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="893.txt-6">
+      <text>Phyllaries (green) lanceolate, glabrous.</text>
+      <structure id="o18506" name="phyllary">
+        <character name="shape" value="lanceolate" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="893.txt-7">
+      <text>Florets:</text>
+      <structure id="o18507" name="floret" />
+    </statement>
+    <statement id="893.txt-8">
+      <text>pistillate (0–)10–20;</text>
+      <structure id="o18508" name="floret" constraint="pistillate">
+        <character char_type="range_value" name="atypical_count" from="0" to="10" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="10" to="20" />
+      </structure>
+    </statement>
+    <statement id="893.txt-9">
+      <text>bisexual 18–24;</text>
+      <structure id="o18509" name="floret" constraint="bisexual">
+        <character char_type="range_value" name="count" from="18" to="24" />
+      </structure>
+    </statement>
+    <statement id="893.txt-10">
+      <text>corollas pale yellow (broadly campanulate), 0.5–1 mm, glabrous.</text>
+      <structure id="o18510" name="corolla">
+        <character name="coloration" value="yellow" modifier="pale" />
+        <character char_type="range_value" name="size" from="0.5" from_unit="mm" to="1" to_unit="mm" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="893.txt-11">
+      <text>Cypselae oblong (flattened), 0.3–0.8 mm, glabrous.</text>
+      <structure id="o18511" name="cypsela">
+        <character name="shape" value="oblong" />
+        <character char_type="range_value" name="size" from="0.3" from_unit="mm" to="0.8" to_unit="mm" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="893.txt-12">
+      <text>2 n = 18.</text>
+      <structure id="o18512" name="chromosome">
+        <character name="count" value="18" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <flowering_time>nov</flowering_time>
+  <habitat>moist waste areas</habitat>
+  <habitat>sandy soils</habitat>
+  <elevation>0–2000 m;</elevation>
+  <introduced>introduced;</introduced>
+  <ca_distribution>N.B.</ca_distribution>
+  <ca_distribution>Ont.</ca_distribution>
+  <ca_distribution>Que.</ca_distribution>
+  <us_distribution>Ala.</us_distribution>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Ark.</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Conn.</us_distribution>
+  <us_distribution>Del.</us_distribution>
+  <us_distribution>D.C.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Ill.</us_distribution>
+  <us_distribution>Ind.</us_distribution>
+  <us_distribution>Iowa</us_distribution>
+  <us_distribution>Kans.</us_distribution>
+  <us_distribution>Ky.</us_distribution>
+  <us_distribution>La.</us_distribution>
+  <us_distribution>Maine</us_distribution>
+  <us_distribution>Md.</us_distribution>
+  <us_distribution>Mass.</us_distribution>
+  <us_distribution>Mich.</us_distribution>
+  <us_distribution>Miss.</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>Nebr.</us_distribution>
+  <us_distribution>N.H.</us_distribution>
+  <us_distribution>N.J.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>N.C.</us_distribution>
+  <us_distribution>Ohio</us_distribution>
+  <us_distribution>Okla.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <us_distribution>Tenn.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <us_distribution>Vt.</us_distribution>
+  <us_distribution>Va.</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <us_distribution>W.Va.</us_distribution>
+  <us_distribution>Wis.</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <global_distribution>Eurasia.</global_distribution>
+  <discussion>Widely cultivated for aromatic oils, Artemisia annua often persists in gardens, becoming naturalized in moist-temperate areas (especially in eastern United States). Reports of naturalization may be exaggerated (reported for Prince Edward Island, but not established).</discussion>
+  <discussion>The systematic placement of this species appears to align most closely with species of the Eurasian subg. Seriphidium (L. E. Watson et al. 2002). Molecular evidence suggests that the Artemisia annua lineage may be ancestral to woody species in the Old World.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

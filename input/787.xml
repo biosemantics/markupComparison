@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>3.</number>
+  <species_name>Hesperevax caulescens</species_name>
+  <authority>(Bentham) A. Gray</authority>
+  <place_of_publication>Proc. Amer. Acad. Arts 7: 356. 1868</place_of_publication>
+  <common_name>Hogwallow starfish , involucrate evax</common_name>
+  <synonym_of_species_name>Psilocarphus caulescens Bentham, Pl. Hartw., 319. 1849; Evax caulescens (Bentham) A. Gray; E. caulescens var. humilis (Greene) Jepson; E. involucrata Greene</synonym_of_species_name>
+  <description>
+    <statement id="787.txt-0">
+      <text>Plants (2–)3–8(–17) cm.</text>
+      <structure id="o16551" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="2" to="3" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_size" from="8" to="17" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="3" from_unit="cm" to="8" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="787.txt-1">
+      <text>Stems usually 0, sometimes 1–4, erect to decumbent;</text>
+      <structure id="o16552" name="stem">
+        <character name="count" value="0" modifier="usually" />
+        <character char_type="range_value" name="count" from="1" to="4" modifier="sometimes" />
+        <character name="orientation" value="erect" />
+        <character name="habit" value="decumbent" />
+      </structure>
+    </statement>
+    <statement id="787.txt-2">
+      <text>branches 0 or proximal.</text>
+      <structure id="o16553" name="branch">
+        <character name="count" value="0" />
+        <character name="insertion_or_position" value="proximal" />
+      </structure>
+    </statement>
+    <statement id="787.txt-3">
+      <text>Leaves basal or cauline, petiolate, distal congested, larger than proximal (if any), largest (25–)33–90 × 7–20 mm;</text>
+      <structure id="o16554" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="architecture" value="petiolate" />
+        <character name="insertion_or_position" value="distal" />
+        <character name="architecture" value="congested" />
+        <character name="size" value="larger than proximal" />
+        <character name="size" value="largest" />
+        <character char_type="range_value" name="atypical_length" from="25" to="33" from_unit="mm" to_unit="mm" to_inclusive="false" />
+        <character char_type="range_value" name="length" from="33" from_unit="mm" to="90" to_unit="mm" />
+        <character char_type="range_value" name="width" from="7" from_unit="mm" to="20" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="787.txt-4">
+      <text>petioles:</text>
+    </statement>
+    <statement id="787.txt-5">
+      <text>lengths 2–3 times blade lengths, bases thickened, indurate;</text>
+      <structure id="o16555" name="petiole">
+        <character char_type="range_value" name="size" from="2" to="3" constraint="times blade" constraintid="o16556" />
+      </structure>
+      <structure id="o16556" name="blade" />
+      <structure id="o16557" name="base">
+        <character name="thickness" value="thickened" />
+        <character name="texture" value="indurate" />
+      </structure>
+    </statement>
+    <statement id="787.txt-6">
+      <text>capitular leaves (6–)10–20 per glomerule, whorled, mostly spreading, unlike pistillate paleae.</text>
+      <structure id="o16558" name="leaf" constraint="capitular">
+        <character char_type="range_value" name="atypical_count" from="6" to="10" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="10" to="20" constraint="per glomerule" constraintid="o16559" />
+        <character name="arrangement" value="whorled" />
+        <character name="orientation" value="spreading" modifier="mostly" />
+      </structure>
+      <structure id="o16559" name="glomerule" />
+      <structure id="o16560" name="palea" constraint="pistillate" />
+    </statement>
+    <statement id="787.txt-7">
+      <text>Heads terminal in dense glomerules (10–25 mm diam.) of 10–40+ not mixed with leaves, never in axils, ± obpyramidal, 3–5 × 2.5–4 mm, heights 1–1.5 times diams.</text>
+      <structure id="o16561" name="head">
+        <character name="insertion_or_position" value="terminal" constraint="in glomerules" constraintid="o16562" />
+        <character name="shape" value="obpyramidal" modifier="±" />
+        <character char_type="range_value" name="length" from="3" from_unit="mm" to="5" to_unit="mm" />
+        <character char_type="range_value" name="width" from="2.5" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+      <structure id="o16562" name="glomerule">
+        <character name="texture" value="dense" />
+      </structure>
+      <structure id="o16563" name="leaf" />
+      <relation id="r1777" name="of 10-40+  mixed with" from="o16562" to="o16563" negation="true" />
+      <structure id="o16564" name="axil" />
+      <relation id="r1778" name="in" from="o16561" to="o16564" negation="false" modifier="never" />
+    </statement>
+    <statement id="787.txt-8">
+      <text>Receptacles of adjacent heads proximally connate, 0.4–0.7 × 0.5–0.7 mm.</text>
+      <structure id="o16565" name="receptacle">
+        <character name="fusion" value="connate" modifier="proximally" />
+        <character char_type="range_value" name="length" from="0.4" from_unit="mm" to="0.7" to_unit="mm" />
+        <character char_type="range_value" name="width" from="0.5" from_unit="mm" to="0.7" to_unit="mm" />
+      </structure>
+      <structure id="o16566" name="head" constraint="adjacent" />
+      <relation id="r1779" name="part_of" from="o16565" to="o16566" negation="false" />
+    </statement>
+    <statement id="787.txt-9">
+      <text>Pistillate paleae in 2–4 series, ± vertically ranked, broadly spatulate, 2.5–4.5 mm.</text>
+      <structure id="o16567" name="palea" constraint="pistillate">
+        <character name="arrangement" value="ranked" modifier="± vertically" />
+        <character name="shape" value="spatulate" modifier="broadly" />
+        <character char_type="range_value" name="size" from="2.5" from_unit="mm" to="4.5" to_unit="mm" />
+      </structure>
+      <structure id="o16568" name="series">
+        <character char_type="range_value" name="count" from="2" to="4" />
+      </structure>
+      <relation id="r1780" name="in" from="o16567" to="o16568" negation="false" />
+    </statement>
+    <statement id="787.txt-10">
+      <text>Staminate paleae surpassing pistillate, 3–3.9 mm, lengths 0.7–0.9 times head heights, apices spreading.</text>
+      <structure id="o16569" name="palea" constraint="staminate">
+        <character name="comparison" value="surpassing" />
+        <character name="architecture" value="pistillate" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="3.9" to_unit="mm" />
+        <character char_type="range_value" name="size" from="0.7" to="0.9" constraint="times head" constraintid="o16570" />
+      </structure>
+      <structure id="o16570" name="head" />
+      <structure id="o16571" name="apex">
+        <character name="orientation" value="spreading" />
+      </structure>
+    </statement>
+    <statement id="787.txt-11">
+      <text>Functionally staminate florets 3–6;</text>
+      <structure id="o16572" name="floret" constraint="functionally staminate">
+        <character char_type="range_value" name="count" from="3" to="6" />
+      </structure>
+    </statement>
+    <statement id="787.txt-12">
+      <text>corollas 1.1–1.6 mm.</text>
+      <structure id="o16573" name="corolla">
+        <character char_type="range_value" name="size" from="1.1" from_unit="mm" to="1.6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="787.txt-13">
+      <text>Cypselae mostly 1.5–2 mm.</text>
+      <structure id="o16574" name="cypsela">
+        <character char_type="range_value" name="size" from="1.5" from_unit="mm" to="2" to_unit="mm" modifier="mostly" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <habitat>drying shrink-swell clay soils</habitat>
+  <habitat>vernal pools</habitat>
+  <habitat>other vernally moist places</habitat>
+  <elevation>0–200(–500) m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <discussion>Hesperevax caulescens occurs mainly in the Sacramento and northern San Joaquin valleys, with southern outliers in the southern San Joaquin and upper Salinas River valleys and the Otay Mesa area of San Diego County. The Otay Mesa populations are thought to have been naturalized (R. M. Beauchamp 1986) and are now considered extirpated. An 1869 specimen from northern Oregon is likely either mislabeled or from an introduction that did not persist.</discussion>
+  <discussion>Caulescent forms are scattered among predominantly stemless populations throughout the northern range of Hesperevax caulescens. The tallest forms (Evax involucrata) are often grayer and more densely lanuginose. The various growth forms appear to be environmentally induced and taxonomically insignificant. Plants from the southern outliers are all stemless, tend to be smaller in sizes and numbers of structures, and may warrant varietal status (J. D. Morefield 1992c). A malformed plant from Merced County appears to have been a hybrid between H. caulescens and Psilocarphus oregonus.</discussion>
+  <discussion>Hesperevax caulescens may soon be of conservation concern in California as its vernal pool habitats continue to decline. The vernacular “hogwallow starfish” is widely used for H. caulescens by students and enthusiasts of California’s vernal pools.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>2.</number>
+  <species_name>Krigia biflora</species_name>
+  <authority>(Walter) S. F. Blake</authority>
+  <place_of_publication>Rhodora 17: 135. 1915</place_of_publication>
+  <common_name>Orange dwarfdandelion</common_name>
+  <synonym_of_species_name>Hyoseris biflora Walter, Fl. Carol., 194. 1788; Cynthia virginica (Linnaeus) D. Don ex de Candolle; C. viridis Standley; H. amplexicaulis Michaux; Krigia amplexicaulis (Michaux) Nuttall; K. biflora var. viridis (Standley) K. J. Kim; Tragopogon virginicus Linnaeus</synonym_of_species_name>
+  <description>
+    <statement id="579.txt-0">
+      <text>Perennials, 10–70 cm;</text>
+      <structure id="o11978" name="whole_organism">
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="70" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="579.txt-1">
+      <text>caudices stout, fibrous-rooted (sometimes propagating by adventitious buds on roots).</text>
+      <structure id="o11979" name="caudex">
+        <character name="fragility" value="stout" />
+        <character name="architecture" value="fibrous-rooted" />
+      </structure>
+    </statement>
+    <statement id="579.txt-2">
+      <text>Stems 1–5+, erect, scapiform, eglandular or glandular-villous distally.</text>
+      <structure id="o11980" name="stem">
+        <character char_type="range_value" name="count" from="1" to="5" upper_restricted="false" />
+        <character name="orientation" value="erect" />
+        <character name="shape" value="scapiform" />
+        <character name="architecture" value="eglandular" />
+        <character name="pubescence" value="glandular-villous" modifier="distally" />
+      </structure>
+    </statement>
+    <statement id="579.txt-3">
+      <text>Leaves mostly basal (rosettes), some cauline (proximal);</text>
+      <structure id="o11981" name="leaf">
+        <character name="insertion_or_position" value="basal" modifier="mostly" />
+        <character name="insertion_or_position" value="cauline" />
+      </structure>
+    </statement>
+    <statement id="579.txt-4">
+      <text>petioles ± winged;</text>
+      <structure id="o11982" name="petiole">
+        <character name="architecture" value="winged" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="579.txt-5">
+      <text>blades oblance-olate to obovate or spatulate, 5–25 cm, margins entire or remotely dentate to pinnately lobed, lobes narrow to bluntly triangular or rounded, apices acute to obtuse or rounded, faces glabrous , eglandular (usually glaucous);</text>
+      <structure id="o11983" name="blade">
+        <character char_type="range_value" name="shape" from="oblance-olate" to="obovate or spatulate" />
+        <character name="shape" value="oblance-olate" />
+        <character name="shape" value="obovate" />
+        <character name="shape" value="spatulate" />
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="25" to_unit="cm" />
+      </structure>
+      <structure id="o11984" name="margin">
+        <character char_type="range_value" name="shape" from="remotely dentate" to="pinnately lobed" />
+        <character name="shape" value="entire" />
+        <character name="shape" value="dentate" modifier="remotely" />
+        <character name="shape" value="lobed" modifier="pinnately" />
+      </structure>
+      <structure id="o11985" name="lobe">
+        <character name="size" value="narrow" />
+        <character name="shape" value="triangular" modifier="bluntly" />
+        <character name="shape" value="rounded" modifier="bluntly" />
+      </structure>
+      <structure id="o11986" name="apex">
+        <character char_type="range_value" name="shape" from="acute" to="obtuse or rounded" />
+        <character name="shape" value="acute" />
+        <character name="shape" value="obtuse" />
+        <character name="shape" value="rounded" />
+      </structure>
+      <structure id="o11987" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="architecture" value="eglandular" />
+      </structure>
+    </statement>
+    <statement id="579.txt-6">
+      <text>cauline 1–4, sessile, lanceolate, bases sheathing or auriculate-clasping, usually entire, distalmost sometimes reduced, bractlike.</text>
+      <structure id="o11988" name="leaf" constraint="cauline">
+        <character char_type="range_value" name="count" from="1" to="4" />
+        <character name="architecture" value="sessile" />
+        <character name="shape" value="lanceolate" />
+      </structure>
+      <structure id="o11989" name="base">
+        <character name="architecture" value="sheathing" />
+        <character name="architecture" value="auriculate-clasping" />
+        <character name="shape" value="entire" modifier="usually" />
+      </structure>
+      <structure id="o11990" name="leaf" constraint="distalmost">
+        <character name="size" value="reduced" modifier="sometimes" />
+        <character name="shape" value="bractlike" />
+      </structure>
+    </statement>
+    <statement id="579.txt-7">
+      <text>Heads (2–)3–20+.</text>
+      <structure id="o11991" name="head">
+        <character char_type="range_value" name="atypical_count" from="2" to="3" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="3" to="20" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="579.txt-8">
+      <text>Peduncles usually in groups of 2–6 from axils of single or paired distal cauline bracts.</text>
+      <structure id="o11992" name="peduncle" />
+      <structure id="o11993" name="group" />
+      <relation id="r1395" name="in" from="o11992" to="o11993" negation="false" modifier="usually" />
+      <structure id="o11994" name="axil" />
+      <relation id="r1396" name="of 2-6 from" from="o11993" to="o11994" negation="false" />
+      <structure id="o11995" name="bract" constraint="distal cauline">
+        <character name="count" value="single" />
+        <character name="arrangement" value="paired" />
+      </structure>
+      <relation id="r1397" name="part_of" from="o11994" to="o11995" negation="false" />
+    </statement>
+    <statement id="579.txt-9">
+      <text>Involucres 7–11 mm.</text>
+      <structure id="o11996" name="involucre">
+        <character char_type="range_value" name="size" from="7" from_unit="mm" to="11" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="579.txt-10">
+      <text>Phyllaries 8–18, reflexed in fruit , lanceolate, midveins obscure, apices acute, faces glabrous.</text>
+      <structure id="o11997" name="phyllary">
+        <character char_type="range_value" name="count" from="8" to="18" />
+        <character name="orientation" value="reflexed" constraint="in fruit" constraintid="o11998" />
+        <character name="shape" value="lanceolate" />
+      </structure>
+      <structure id="o11998" name="fruit" />
+      <structure id="o11999" name="midvein">
+        <character name="manifestation" value="obscure" />
+      </structure>
+      <structure id="o12000" name="apex">
+        <character name="shape" value="acute" />
+      </structure>
+      <structure id="o12001" name="face">
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="579.txt-11">
+      <text>Florets 25–60;</text>
+      <structure id="o12002" name="floret">
+        <character char_type="range_value" name="count" from="25" to="60" />
+      </structure>
+    </statement>
+    <statement id="579.txt-12">
+      <text>corollas orange or yellow-orange, 15–25 mm.</text>
+      <structure id="o12003" name="corolla">
+        <character name="coloration" value="orange" />
+        <character name="coloration" value="orange" modifier="yellow" />
+        <character char_type="range_value" name="size" from="15" from_unit="mm" to="25" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="579.txt-13">
+      <text>Cypselae reddish brown, columnar, 2–2.5 mm, 12–15-ribbed;</text>
+      <structure id="o12004" name="cypsela">
+        <character name="coloration" value="brown" modifier="reddish" />
+        <character name="shape" value="columnar" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="2.5" to_unit="mm" />
+        <character name="architecture_or_shape" value="12-15-ribbed" />
+      </structure>
+    </statement>
+    <statement id="579.txt-14">
+      <text>pappi of ca. 10 outer scales 0.3–0.5 mm plus 20–40, barbellulate inner bristles 4.5–5.5 mm.</text>
+      <structure id="o12005" name="pappus">
+        <character char_type="range_value" name="count" from="20" to="40" />
+      </structure>
+      <structure id="o12006" name="scale" constraint="outer">
+        <character name="count" value="10" />
+        <character char_type="range_value" name="size" from="0.3" from_unit="mm" to="0.5" to_unit="mm" />
+      </structure>
+      <relation id="r1398" name="consist_of" from="o12005" to="o12006" negation="false" />
+      <structure id="o12007" name="bristle" constraint="inner">
+        <character name="architecture" value="barbellulate" />
+        <character char_type="range_value" name="size" from="4.5" from_unit="mm" to="5.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="579.txt-15">
+      <text>2 n = 10, 20.</text>
+      <structure id="o12008" name="chromosome">
+        <character name="count" value="10" />
+        <character name="count" value="20" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>sandy, loam, or humus soils</habitat>
+  <habitat>shaded mixed mesophytic, beach-maple, oak-pine</habitat>
+  <habitat>and oak-hickory woods</habitat>
+  <habitat>often near streams</habitat>
+  <habitat>meadows</habitat>
+  <habitat>moist prairies</habitat>
+  <habitat>and madrean woodlands</habitat>
+  <elevation>10–2300 m;</elevation>
+  <ca_distribution>Man.</ca_distribution>
+  <ca_distribution>Ont.</ca_distribution>
+  <us_distribution>Ala.</us_distribution>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Ark.</us_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Conn.</us_distribution>
+  <us_distribution>Del.</us_distribution>
+  <us_distribution>Ga.</us_distribution>
+  <us_distribution>Ill.</us_distribution>
+  <us_distribution>Ind.</us_distribution>
+  <us_distribution>Iowa</us_distribution>
+  <us_distribution>Kans.</us_distribution>
+  <us_distribution>Ky.</us_distribution>
+  <us_distribution>Md.</us_distribution>
+  <us_distribution>Mass.</us_distribution>
+  <us_distribution>Mich.</us_distribution>
+  <us_distribution>Minn.</us_distribution>
+  <us_distribution>Miss.</us_distribution>
+  <us_distribution>Mo.</us_distribution>
+  <us_distribution>N.J.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>N.C.</us_distribution>
+  <us_distribution>Ohio</us_distribution>
+  <us_distribution>Okla.</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <us_distribution>R.I.</us_distribution>
+  <us_distribution>Tenn.</us_distribution>
+  <us_distribution>Va.</us_distribution>
+  <us_distribution>W.Va.</us_distribution>
+  <us_distribution>Wis.</us_distribution>
+  <discussion>Krigia biflora is known from the Eastern deciduous forest biome, tallgrass prairie, Rocky Mountain forest, and Madrean woodlands. It appears to spread clonally by adventitious buds on the roots. It is related to the more leafy-stemmed, freely branching K. montana (K. J. Kim and B. L. Turner 1992); their habital differences are less clear where they are sympatric in the southern Appalachians. An alloploid hybrid between them has become established (see 3. K. montana).</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

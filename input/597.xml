@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>2d.</number>
+  <variety_name>Lygodesmia grandiflora (Nuttall) Torrey &amp; A. Gray var. doloresensis</variety_name>
+  <authority>(Tomb) S. L. Welsh</authority>
+  <place_of_publication>Rhodora 95: 399. 1993</place_of_publication>
+  <common_name>Dolores River skeletonplant</common_name>
+  <synonym_of_variety_name>Lygodesmia doloresensis Tomb, Syst. Bot. Monogr. 1: 48, fig. 49. 1980</synonym_of_variety_name>
+  <description>
+    <statement id="597.txt-0">
+      <text>Plants (solitary) 15–30 cm.</text>
+      <structure id="o12395" name="whole_organism">
+        <character char_type="range_value" name="size" from="15" from_unit="cm" to="30" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="597.txt-1">
+      <text>Stems erect, much branched proximally, weakly striate proximally.</text>
+      <structure id="o12396" name="stem">
+        <character name="orientation" value="erect" />
+        <character name="architecture_or_shape" value="branched" modifier="much ; proximally" />
+        <character name="coloration_or_relief" value="striate" modifier="weakly ; proximally" />
+      </structure>
+    </statement>
+    <statement id="597.txt-2">
+      <text>Leaves:</text>
+      <structure id="o12397" name="leaf" />
+    </statement>
+    <statement id="597.txt-3">
+      <text>proximal blades linear-filiform , 30–140 × 1–3 mm;</text>
+      <structure id="o12398" name="blade" constraint="proximal">
+        <character name="shape" value="linear-filiform" />
+        <character char_type="range_value" name="length" from="30" from_unit="mm" to="140" to_unit="mm" />
+        <character char_type="range_value" name="width" from="1" from_unit="mm" to="3" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="597.txt-4">
+      <text>distal similar.</text>
+      <structure id="o12399" name="leaf" constraint="distal" />
+    </statement>
+    <statement id="597.txt-5">
+      <text>Heads 2–5, borne singly.</text>
+      <structure id="o12400" name="head">
+        <character char_type="range_value" name="count" from="2" to="5" />
+        <character name="arrangement" value="singly" />
+      </structure>
+    </statement>
+    <statement id="597.txt-6">
+      <text>Involucres subcylindric, 18–20 × 4–5 mm, apices narrow.</text>
+      <structure id="o12401" name="involucre">
+        <character name="shape" value="subcylindric" />
+        <character char_type="range_value" name="length" from="18" from_unit="mm" to="20" to_unit="mm" />
+        <character char_type="range_value" name="width" from="4" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+      <structure id="o12402" name="apex">
+        <character name="size" value="narrow" />
+      </structure>
+    </statement>
+    <statement id="597.txt-7">
+      <text>Phyllaries 5.</text>
+      <structure id="o12403" name="phyllary">
+        <character name="count" value="5" />
+      </structure>
+    </statement>
+    <statement id="597.txt-8">
+      <text>Florets 5;</text>
+      <structure id="o12404" name="floret">
+        <character name="count" value="5" />
+      </structure>
+    </statement>
+    <statement id="597.txt-9">
+      <text>corollas lavender, rose, or white.</text>
+      <structure id="o12405" name="corolla">
+        <character name="coloration" value="lavender" />
+        <character name="coloration" value="rose" />
+        <character name="coloration" value="white" />
+      </structure>
+    </statement>
+    <statement id="597.txt-10">
+      <text>Cypselae 18 mm, abaxial faces smooth, adaxial weakly rugose bisulcate with ridge separating sulci.</text>
+      <structure id="o12406" name="cypsela">
+        <character name="size" value="18" unit="mm" />
+      </structure>
+      <structure id="o12407" name="face" constraint="abaxial">
+        <character name="architecture_or_relief" value="smooth" />
+        <character name="insertion_or_position" value="adaxial" modifier="weakly" />
+        <character name="relief" value="rugose" />
+        <character name="architecture" value="bisulcate" constraint="with ridge" constraintid="o12408" />
+      </structure>
+      <structure id="o12408" name="ridge" />
+      <structure id="o12409" name="sulcus" />
+      <relation id="r1441" name="separating" from="o12407" to="o12409" negation="false" />
+    </statement>
+    <statement id="597.txt-11">
+      <text>2 n = 18.</text>
+      <structure id="o12410" name="chromosome">
+        <character name="count" value="18" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <habitat>alluvial soil in juniper grassland</habitat>
+  <conservation>of conservation concern;</conservation>
+  <elevation>1300–1500 m;</elevation>
+  <us_distribution>Colo.</us_distribution>
+  <discussion>Variety doloresensis is distinguished by its much-branched stems, almost filiform leaves, and smooth cypselae. It is known only from the Dolores River valley and is similar to var. dianthopsis, which is distinguished by being less branched and by having broader leaves.</discussion>
+  <discussion>Variety doloresensis is in the Center for Plant Conservation’s National Collection of Endangered Plants.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

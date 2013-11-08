@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>11.</number>
+  <species_name>Antennaria plantaginifolia</species_name>
+  <authority>(Linnaeus) Hooker</authority>
+  <place_of_publication>Fl. Bor.-Amer. 1: 330. 1834</place_of_publication>
+  <common_name>Plantain-leaved pussytoes , antennaire à feuilles de plantain</common_name>
+  <synonym_of_species_name>Gnaphalium plantaginifolium Linnaeus, Sp. Pl. 2: 850. 1753; Antennaria caroliniana Rydberg; A. decipiens Greene; A. denikeana B. Boivin; A. nemoralis Greene; A. pinetorum Greene; A. plantaginifolia var. petiolata (Fernald) A. Heller</synonym_of_species_name>
+  <description>
+    <statement id="640.txt-0">
+      <text>Dioecious.</text>
+      <structure id="o13413" name="whole_organism">
+        <character name="reproduction" value="dioecious" />
+      </structure>
+    </statement>
+    <statement id="640.txt-1">
+      <text>Plants 6.5–20(–25) cm.</text>
+      <structure id="o13414" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="20" to="25" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="6.5" from_unit="cm" to="20" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="640.txt-2">
+      <text>Stolons 2.5–7.5 cm (mostly ascending when young).</text>
+      <structure id="o13415" name="stolon">
+        <character char_type="range_value" name="size" from="2.5" from_unit="cm" to="7.5" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="640.txt-3">
+      <text>Basal leaves (petiolate) 3–5(–7)-nerved, obovate to suborbiculate, 35–75 × 15–35 mm, tips minutely mucronate, abaxially tomentose, adaxially green-glabrescent to gray-pubescent.</text>
+      <structure id="o13416" name="leaf" constraint="basal">
+        <character name="architecture" value="3-5(-7)-nerved" />
+        <character char_type="range_value" name="shape" from="obovate" to="suborbiculate" />
+        <character name="shape" value="obovate" />
+        <character name="shape" value="suborbiculate" />
+        <character char_type="range_value" name="length" from="35" from_unit="mm" to="75" to_unit="mm" />
+        <character char_type="range_value" name="width" from="15" from_unit="mm" to="35" to_unit="mm" />
+      </structure>
+      <structure id="o13417" name="tip">
+        <character name="shape" value="mucronate" modifier="minutely" />
+        <character char_type="range_value" name="pubescence" from="abaxially tomentose , adaxially green-glabrescent" to="gray-pubescent" />
+        <character name="pubescence" value="tomentose" modifier="abaxially" />
+        <character name="pubescence" value="green-glabrescent" modifier="adaxially" />
+        <character name="pubescence" value="gray-pubescent" modifier="adaxially" />
+      </structure>
+    </statement>
+    <statement id="640.txt-4">
+      <text>Cauline leaves linear, 6.5–35 mm, distal flagged.</text>
+      <structure id="o13418" name="leaf" constraint="cauline">
+        <character name="arrangement_or_shape" value="linear" />
+        <character char_type="range_value" name="size" from="6.5" from_unit="mm" to="35" to_unit="mm" />
+        <character name="insertion_or_position" value="distal" />
+        <character name="orientation" value="flagged" />
+      </structure>
+    </statement>
+    <statement id="640.txt-5">
+      <text>Heads 4–17(–30) in tight corymbiform arrays.</text>
+      <structure id="o13419" name="head">
+        <character char_type="range_value" name="atypical_count" from="17" to="30" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="4" to="17" constraint="in arrays" constraintid="o13420" />
+      </structure>
+      <structure id="o13420" name="array">
+        <character name="texture" value="tight" />
+        <character name="architecture" value="corymbiform" />
+      </structure>
+    </statement>
+    <statement id="640.txt-6">
+      <text>Involucres:</text>
+      <structure id="o13421" name="involucre" />
+    </statement>
+    <statement id="640.txt-7">
+      <text>staminate 5–7(–8) mm;</text>
+      <structure id="o13422" name="involucre" constraint="staminate">
+        <character char_type="range_value" name="atypical_size" from="7" to="8" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="640.txt-8">
+      <text>pistillate 5–7 mm.</text>
+      <structure id="o13423" name="involucre" constraint="pistillate">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="640.txt-9">
+      <text>Phyllaries distally white.</text>
+      <structure id="o13424" name="phyllary">
+        <character name="coloration" value="white" modifier="distally" />
+      </structure>
+    </statement>
+    <statement id="640.txt-10">
+      <text>Corollas:</text>
+      <structure id="o13425" name="corolla" />
+    </statement>
+    <statement id="640.txt-11">
+      <text>staminate 2–3.5 mm;</text>
+      <structure id="o13426" name="corolla" constraint="staminate">
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="3.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="640.txt-12">
+      <text>pistillate 3–4 mm.</text>
+      <structure id="o13427" name="corolla" constraint="pistillate">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="640.txt-13">
+      <text>Cypselae 0.5–1.6 mm, slightly papillate;</text>
+      <structure id="o13428" name="cypsela">
+        <character char_type="range_value" name="size" from="0.5" from_unit="mm" to="1.6" to_unit="mm" />
+        <character name="relief_or_pubescence" value="papillate" modifier="slightly" />
+      </structure>
+    </statement>
+    <statement id="640.txt-14">
+      <text>pappi:</text>
+      <structure id="o13429" name="pappus" />
+    </statement>
+    <statement id="640.txt-15">
+      <text>staminate 2.5–4 mm;</text>
+      <structure id="o13430" name="pappus" constraint="staminate">
+        <character char_type="range_value" name="size" from="2.5" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="640.txt-16">
+      <text>pistillate 3.5–5.5 mm.</text>
+      <structure id="o13431" name="pappus" constraint="pistillate">
+        <character char_type="range_value" name="size" from="3.5" from_unit="mm" to="5.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="640.txt-17">
+      <text>2 n = 28.</text>
+      <structure id="o13432" name="chromosome">
+        <character name="count" value="28" />
+      </structure>
+    </statement>
+  </description>
+  <habitat>dry, open, deciduous woodlands</habitat>
+  <habitat>tops of banks</habitat>
+  <habitat>ridges</habitat>
+  <habitat>and bluffs</habitat>
+  <habitat>sandstone formations</habitat>
+  <habitat>slopes in openings in woodlands</habitat>
+  <elevation>0–1500 m;</elevation>
+  <ca_distribution>Man.</ca_distribution>
+  <ca_distribution>N.B.</ca_distribution>
+  <ca_distribution>N.S.</ca_distribution>
+  <ca_distribution>Que.</ca_distribution>
+  <us_distribution>Ala.</us_distribution>
+  <us_distribution>Ark.</us_distribution>
+  <us_distribution>Conn.</us_distribution>
+  <us_distribution>Del.</us_distribution>
+  <us_distribution>Fla.</us_distribution>
+  <us_distribution>Ga.</us_distribution>
+  <us_distribution>Ill.</us_distribution>
+  <us_distribution>Ind.</us_distribution>
+  <us_distribution>Iowa</us_distribution>
+  <us_distribution>Ky.</us_distribution>
+  <us_distribution>Maine</us_distribution>
+  <us_distribution>Md.</us_distribution>
+  <us_distribution>Mass.</us_distribution>
+  <us_distribution>Minn.</us_distribution>
+  <us_distribution>Miss.</us_distribution>
+  <us_distribution>Mo.</us_distribution>
+  <us_distribution>N.H.</us_distribution>
+  <us_distribution>N.J.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>N.C.</us_distribution>
+  <us_distribution>Okla.</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <us_distribution>R.I.</us_distribution>
+  <us_distribution>S.C.</us_distribution>
+  <us_distribution>Tenn.</us_distribution>
+  <us_distribution>Vt.</us_distribution>
+  <us_distribution>Va.</us_distribution>
+  <us_distribution>W.Va.</us_distribution>
+  <us_distribution>Wis.</us_distribution>
+  <discussion>Antennaria plantaginifolia is a diploid progenitor of the A. parlinii complex and is similar to that species except for smaller heads and adaxially gray-pubescent basal leaves (R. J. Bayer and G. L. Stebbins 1982; Bayer 1985b; Bayer and D. J. Crawford 1986). It is a diploid ancestor of the A. howellii complex. It is found in the Appalachian region; disjunct populations occur in the driftless area of Wisconsin and Minnesota (Bayer and Stebbins).</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

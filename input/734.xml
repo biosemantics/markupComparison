@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>97.</number>
+  <genus_name>LOGFIA</genus_name>
+  <authority>Logfia Cassini</authority>
+  <place_of_publication>Bull. Sci. Soc. Philom. Paris 1819: 143. 1819 (as “genre ou sous-genre”); in F. Cuvier, Dict. Sci. Nat. ed. 2, 23: 564. 1822</place_of_publication>
+  <common_name>Cottonrose , cotonnière , filzkraut , fluffweed , cottonweed</common_name>
+  <derivation>anagram of generic name Filago</derivation>
+  <author_of_tribe_genus>James D. Morefield</author_of_tribe_genus>
+  <synonym_of_genus_name>Oglifa (Cassini) Cassini</synonym_of_genus_name>
+  <description>
+    <statement id="734.txt-0">
+      <text>Annuals, 1–50(–70) cm.</text>
+      <structure id="o15338" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="50" to="70" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="1" from_unit="cm" to="50" to_unit="cm" />
+        <character name="life_style" value="annual" />
+      </structure>
+    </statement>
+    <statement id="734.txt-1">
+      <text>Stems 1, erect, or 2–10+, ascending to prostrate.</text>
+      <structure id="o15339" name="stem">
+        <character name="count" value="1" />
+        <character name="orientation" value="erect" />
+        <character char_type="range_value" name="count" from="2" to="10" upper_restricted="false" />
+        <character char_type="range_value" name="orientation" from="ascending" to="prostrate" />
+        <character name="orientation" value="ascending" />
+        <character name="orientation" value="prostrate" />
+      </structure>
+    </statement>
+    <statement id="734.txt-2">
+      <text>Leaves cauline;</text>
+    </statement>
+    <statement id="734.txt-3">
+      <text>alternate;</text>
+      <structure id="o15340" name="leaf">
+        <character name="insertion_or_position" value="cauline" />
+        <character name="arrangement" value="alternate" />
+      </structure>
+    </statement>
+    <statement id="734.txt-4">
+      <text>blades subulate to obovate.</text>
+      <structure id="o15341" name="blade">
+        <character char_type="range_value" name="shape" from="subulate" to="obovate" />
+        <character name="shape" value="subulate" />
+        <character name="shape" value="obovate" />
+      </structure>
+    </statement>
+    <statement id="734.txt-5">
+      <text>Heads usually in glomerules of 2–10(–14) in racemiform to paniculiform or dichasiiform arrays, or some [all] borne singly.</text>
+      <structure id="o15342" name="head">
+        <character name="arrangement" value="singly" />
+      </structure>
+      <structure id="o15343" name="glomerule" />
+      <relation id="r1656" name="in" from="o15342" to="o15343" negation="false" modifier="usually" />
+      <structure id="o15344" name="array">
+        <character name="count" value="14]" />
+        <character char_type="range_value" name="architecture" from="racemiform" to="paniculiform or dichasiiform" />
+        <character name="architecture" value="racemiform" />
+        <character name="architecture" value="paniculiform" />
+        <character name="architecture" value="dichasiiform" />
+        <character char_type="range_value" name="count" from="2" to="10" />
+      </structure>
+      <relation id="r1657" name="consist_of" from="o15343" to="o15344" negation="false" />
+    </statement>
+    <statement id="734.txt-6">
+      <text>Involucres 0 or inconspicuous.</text>
+      <structure id="o15345" name="involucre">
+        <character name="count" value="0" />
+        <character name="manifestation" value="inconspicuous" />
+      </structure>
+    </statement>
+    <statement id="734.txt-7">
+      <text>Phyllaries 0, vestigial, 1–4 (unequal), or 4–6 (equal).</text>
+      <structure id="o15346" name="phyllary">
+        <character name="count" value="0" />
+        <character name="manifestation" value="vestigial" />
+        <character char_type="range_value" name="count" from="1" to="4" />
+        <character char_type="range_value" name="count" from="4" to="6" />
+      </structure>
+    </statement>
+    <statement id="734.txt-8">
+      <text>Receptacles fungiform to obovoid (heights 0.4–1.6 times diams.), glabrous.</text>
+      <structure id="o15347" name="receptacle">
+        <character char_type="range_value" name="shape" from="fungiform" to="obovoid" />
+        <character name="shape" value="fungiform" />
+        <character name="shape" value="obovoid" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="734.txt-9">
+      <text>Pistillate paleae (except usually innermost) readily or tardily falling, erect to ascending;</text>
+      <structure id="o15348" name="palea" constraint="pistillate">
+        <character char_type="range_value" name="orientation" from="readily tardily falling , erect" to="ascending" />
+        <character name="orientation" value="falling" modifier="readily tardily" />
+        <character name="orientation" value="erect" modifier="readily tardily" />
+        <character name="orientation" value="ascending" modifier="readily tardily" />
+      </structure>
+    </statement>
+    <statement id="734.txt-10">
+      <text>bodies with 5+ nerves (nerves ± parallel, obscure), lanceolate to ovate or boat-shaped, ± saccate most of lengths (obcompressed to terete, sometimes ± galeate, each ± enclosing a floret);</text>
+      <structure id="o15349" name="body">
+        <character char_type="range_value" name="shape" from="lanceolate" to="ovate or boat-shaped" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="boat-shaped" />
+        <character name="architecture_or_shape" value="saccate" modifier="±" constraint="of lengths" constraintid="o15351" />
+      </structure>
+      <structure id="o15350" name="nerve">
+        <character name="count" char_type="range_value" from="5" upper_restricted="false" />
+      </structure>
+      <relation id="r1658" name="with" from="o15349" to="o15350" negation="false" />
+      <structure id="o15351" name="length" />
+    </statement>
+    <statement id="734.txt-11">
+      <text>wings erect to incurved (apices blunt).</text>
+      <structure id="o15352" name="wing">
+        <character char_type="range_value" name="orientation" from="erect" to="incurved" />
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="incurved" />
+      </structure>
+    </statement>
+    <statement id="734.txt-12">
+      <text>Innermost paleae usually all pistillate, in some species bisexual and pistillate, persistent, usually 5 or 8, spreading (and enlarged) in fruit, surpassing other pistillate paleae;</text>
+      <structure id="o15353" name="palea" constraint="innermost">
+        <character name="architecture" value="pistillate" />
+        <character name="architecture" value="pistillate" />
+        <character name="duration" value="persistent" />
+        <character name="count" value="5" modifier="usually" />
+        <character name="count" value="8" />
+        <character name="orientation" value="spreading" constraint="in fruit" constraintid="o15355" />
+        <character name="comparison" value="surpassing" constraint="other paleae" constraintid="o15356" />
+      </structure>
+      <structure id="o15354" name="species">
+        <character name="reproduction" value="bisexual" />
+      </structure>
+      <relation id="r1659" name="in" from="o15353" to="o15354" negation="false" />
+      <structure id="o15355" name="fruit" />
+      <structure id="o15356" name="palea" constraint="pistillate" />
+    </statement>
+    <statement id="734.txt-13">
+      <text>bodies lanceolate to ovate.</text>
+      <structure id="o15357" name="body">
+        <character char_type="range_value" name="shape" from="lanceolate" to="ovate" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="ovate" />
+      </structure>
+    </statement>
+    <statement id="734.txt-14">
+      <text>Pistillate florets 14–45+.</text>
+      <structure id="o15358" name="floret" constraint="pistillate">
+        <character char_type="range_value" name="count" from="14" to="45" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="734.txt-15">
+      <text>Functionally staminate florets 0.</text>
+      <structure id="o15359" name="floret" constraint="functionally staminate">
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+    <statement id="734.txt-16">
+      <text>Bisexual florets 2–10;</text>
+      <structure id="o15360" name="floret" constraint="bisexual">
+        <character char_type="range_value" name="count" from="2" to="10" />
+      </structure>
+    </statement>
+    <statement id="734.txt-17">
+      <text>corolla lobes 4–5, ± equal.</text>
+      <structure id="o15361" name="lobe" constraint="corolla">
+        <character char_type="range_value" name="count" from="4" to="5" />
+        <character name="size" value="equal" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="734.txt-18">
+      <text>Cypselae brown, dimorphic:</text>
+      <structure id="o15362" name="cypsela">
+        <character name="coloration" value="brown" />
+        <character name="habit" value="dimorphic" />
+      </structure>
+    </statement>
+    <statement id="734.txt-19">
+      <text>outer compressed to obcompressed, obovoid to ± cylindric, straight or curved, longer than inner, abaxially gibbous, faces glabrous, smooth, shiny;</text>
+      <structure id="o15363" name="cypsela" constraint="outer">
+        <character name="shape" value="compressed" />
+        <character name="shape" value="obcompressed" />
+        <character name="shape" value="obovoid" />
+        <character name="shape" value="cylindric" modifier="±" />
+        <character name="course" value="straight" />
+        <character name="shape" value="curved" />
+        <character name="size" value="longer" constraint="than inner cypsela" constraintid="o15364" />
+        <character name="shape" value="gibbous" modifier="abaxially" />
+      </structure>
+      <structure id="o15364" name="cypsela" constraint="inner" />
+      <structure id="o15365" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="architecture_or_relief" value="smooth" />
+        <character name="reflectance" value="shiny" />
+      </structure>
+    </statement>
+    <statement id="734.txt-20">
+      <text>inner ± terete, faces glabrous, usually papillate to muriculate, sometimes smooth, dull;</text>
+      <structure id="o15366" name="cypsela" constraint="inner">
+        <character name="shape" value="terete" modifier="±" />
+      </structure>
+      <structure id="o15367" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="relief_or_pubescence" value="papillate" modifier="usually" />
+        <character name="relief" value="muriculate" />
+        <character name="architecture_or_relief" value="smooth" modifier="sometimes" />
+        <character name="reflectance_or_coloration" value="dull" />
+      </structure>
+    </statement>
+    <statement id="734.txt-21">
+      <text>corolla scars apical to subapical;</text>
+      <structure id="o15368" name="scar" constraint="corolla">
+        <character char_type="range_value" name="insertion_or_position" from="apical" to="subapical" />
+        <character name="insertion_or_position" value="apical" />
+        <character name="insertion_or_position" value="subapical" />
+      </structure>
+    </statement>
+    <statement id="734.txt-22">
+      <text>pappi:</text>
+      <structure id="o15369" name="pappus" />
+    </statement>
+    <statement id="734.txt-23">
+      <text>outer pistillate 0, inner pistillate and bisexual of (11–)13–28+ bristles (visible in heads).</text>
+      <structure id="o15370" name="pappus" constraint="outer">
+        <character name="architecture" value="pistillate" />
+        <character name="count" value="0" />
+      </structure>
+      <structure id="o15371" name="pappus" constraint="inner">
+        <character name="architecture" value="pistillate" />
+        <character name="reproduction" value="bisexual" constraint="of 11-, bristles" constraintid="o15372" />
+      </structure>
+      <structure id="o15372" name="bristle" constraint="11-13-28+" />
+    </statement>
+    <statement id="734.txt-24">
+      <text>x = 14.</text>
+      <structure id="o15373" name="chromosome">
+        <character name="count" value="14" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species 12 (6 in the flora):</number_of_infrataxa>
+  <general_distribution>North America</general_distribution>
+  <general_distribution>n Mexico</general_distribution>
+  <general_distribution>Europe</general_distribution>
+  <general_distribution>Asia</general_distribution>
+  <general_distribution>n Africa</general_distribution>
+  <general_distribution>introduced in South America</general_distribution>
+  <general_distribution>Pacific Islands</general_distribution>
+  <general_distribution>probably elsewhere.</general_distribution>
+  <discussion>See discussion of Filagininae following the tribal description (p. 385).</discussion>
+  <discussion>Logfia occurs in dry open habitats of Mediterranean, semiarid, arid, and, sometimes, humid temperate climates. The three introduced species (L. arvensis, L. gallica, L. minima) do not appear to be aggressively invasive. Logfia filaginoides (formerly known as Filago californica) is somewhat weedy in the more mesic, coastal portions of its range, where it often mixes about equally with L. gallica. Some specimens of L. filaginoides, L. depressa, and L. minima may be difficult to identify without full comparison to descriptions.</discussion>
+  <discussion>Usually included in Filago in North America, Logfia (including Oglifa) has been separated for some decades in Old World treatments. Contrary to G. Wagenitz (1969), I agree with J. Holub (1976, 1998) that the two genera warrant separation. Priority of Logfia over Oglifa at generic rank is ambiguous, however, depending on whether Logfia was validated in 1819 or 1822 (J. D. Morefield 2004). Because uncertainty remains, I here preserve current usage of Logfia, pending a proposal to conserve the name.</discussion>
+  <discussion>Morphologic evidence suggests Logfia is basal in Filagininae, with ancestral, sister, and/or reticulate relationships to Filago and Stylocline (J. D. Morefield 1992). Logfia depressa appears to be transitional toward Stylocline. Ancestors of Logfia probably resembled Gnaphalium palustre Nuttall, which is frequently misidentified as a member of Filagininae. Logfia is most easily recognized by outer epappose florets subtended by saccate paleae, prominent pappi on inner pistillate and bisexual florets, and innermost paleae open, persistent, spreading.</discussion>
+  <key>1.Pistillate florets: inner (0–)1–2 pappose; branches usually leafless between proximal forks, becoming purplish to black, glabrescent (longest capitular leaves ± linear, 2–5 times head heights)4. Logfia arizonica</key>
+  <key>1.Pistillate florets: inner (4–)8–35 pappose; branches ± leafy between proximal forks, remaining greenish to grayish or whitish, arachnoid-sericeous to lanuginose.</key>
+  <key>2.Pistillate paleae ± vertically ranked, outer inflexed 70–90° proximally, gibbous, ± galeate, bodies ± bony; leaves subulate or broader; phyllaries usually 5, equal.</key>
+  <key>3.Leaves narrowly elliptic to narrowly ovate; longest capitular leaves 0.8–1.5 times head heights; innermost paleae ± 8, spreading in 2 series; bisexual corollas 1.6–2.1 mm; pappi mostly of 13–16 bristles falling in 1s or 2s5. Logfia minima</key>
+  <key>3.Leaves mostly subulate; longest capitular leaves 2–5 times head heights; innermost paleae ± 5, spreading in 1 series; bisexual corollas 2.2–3 mm; pappi of 18–28+ bristles falling in complete or partial rings6. Logfia gallica</key>
+  <key>2.Pistillate paleae spirally ranked, outer incurved 20–60°, somewhat gibbous, not galeate, bodies ± cartilaginous or chartaceous; leaves not subulate; phyllaries 0, vestigial, or 1–4, unequal.</key>
+  <key>4.Outer pistillate paleae: distal 5–10% of lengths glabrous abaxially, wings obscured by indument; outer 2–4(–6) pistillate florets epappose; innermost paleae ± 8, spread- ing in 2 series1. Logfia arvensis</key>
+  <key>4.Outer pistillate paleae: distal 15–50% of lengths glabrous abaxially; wings prominent; outer 7–13 pistillate florets epappose; innermost paleae ± 5, spreading in 1 series.</key>
+  <key>5.Outer pistillate paleae: bodies ± cartilaginous; bisexual corolla lobes mostly 4, bright reddish to purplish; inner cypselae mostly papillate, pappi of 17–23+ bristles falling in complete or partial rings; stems typically ± erect; capitular leaves mostly acute2. Logfia filaginoides</key>
+  <key>5.Outer pistillate paleae: bodies (except midnerves) chartaceous; bisexual corolla lobes mostly 5, yellowish to brownish; inner cypselae mostly smooth, pappi of 11–15 bristles falling in 1s or 2s; stems typically ± prostrate; capitular leaves obtuse3. Logfia depressa</key>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

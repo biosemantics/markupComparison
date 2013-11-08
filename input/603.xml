@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Phalacroseris bolanderi</species_name>
+  <authority>A. Gray</authority>
+  <place_of_publication>Proc. Amer. Acad. Arts 7: 364. 1868</place_of_publication>
+  <common_name>Bolander dandelion</common_name>
+  <synonym_of_species_name>Phalacroseris bolanderi var. coronata H. M. Hall</synonym_of_species_name>
+  <description>
+    <statement id="603.txt-0">
+      <text>Leaves 6–20 cm, faces glabrous.</text>
+      <structure id="o12588" name="leaf">
+        <character char_type="range_value" name="size" from="6" from_unit="cm" to="20" to_unit="cm" />
+      </structure>
+      <structure id="o12589" name="face">
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="603.txt-1">
+      <text>Involucres 7–13 mm after flowering.</text>
+      <structure id="o12590" name="involucre">
+        <character char_type="range_value" name="size" from="7" from_unit="mm" to="13" to_unit="mm" modifier="after flowering" />
+      </structure>
+    </statement>
+    <statement id="603.txt-2">
+      <text>Phyllaries not reflexed in fruit, margins often red distally, glabrous or minutely puberulent apically.</text>
+      <structure id="o12591" name="phyllary">
+        <character name="orientation" value="reflexed" modifier="not" constraint="in fruit" constraintid="o12592" />
+      </structure>
+      <structure id="o12592" name="fruit" />
+      <structure id="o12593" name="margin">
+        <character name="coloration" value="red" modifier="often ; distally" />
+        <character name="pubescence" value="glabrous" modifier="apically" />
+        <character name="pubescence" value="puberulent" modifier="minutely apically" />
+      </structure>
+    </statement>
+    <statement id="603.txt-3">
+      <text>Florets 10–18 mm, much surpassing phyllaries at flowering, glabrous.</text>
+      <structure id="o12594" name="floret">
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="18" to_unit="mm" />
+      </structure>
+      <structure id="o12595" name="phyllary" constraint="at flowering">
+        <character name="comparison" value="surpassing" modifier="much" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="603.txt-4">
+      <text>Cypselae straight or slightly curved on one side, 3–4 mm, obtusely 3-angled at 1 adaxial and 2 lateral nerves.</text>
+      <structure id="o12596" name="cypsela">
+        <character name="course" value="straight" />
+        <character name="shape" value="curved" modifier="slightly" constraint="on side" constraintid="o12597" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="4" to_unit="mm" />
+        <character name="shape" value="3-angled" modifier="obtusely" constraint="at nerves" constraintid="o12598" />
+      </structure>
+      <structure id="o12597" name="side" />
+      <structure id="o12598" name="nerve" constraint="lateral">
+        <character name="count" value="1" />
+        <character name="insertion_or_position" value="adaxial" />
+        <character name="count" value="2" />
+      </structure>
+    </statement>
+    <statement id="603.txt-5">
+      <text>2 n = 18.</text>
+      <structure id="o12599" name="chromosome">
+        <character name="count" value="18" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>wet meadows and sphagnum bogs</habitat>
+  <habitat>coniferous upper montane forests and mixed subalpine woodlands</habitat>
+  <elevation>1800–3000 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <discussion>A vestigial coroniform pappus found in some individuals is too minor a feature to merit varietal designation.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

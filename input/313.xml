@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>21.</number>
+  <species_name>Crepis setosa</species_name>
+  <authority>Haller f.</authority>
+  <place_of_publication>Arch. Bot. (Leipzig): 1(2): 1. 1797</place_of_publication>
+  <common_name>Bristly hawksbeard</common_name>
+  <description>
+    <statement id="313.txt-0">
+      <text>Annuals, 8–80 cm (taproots shallow).</text>
+      <structure id="o5630" name="whole_organism">
+        <character char_type="range_value" name="size" from="8" from_unit="cm" to="80" to_unit="cm" />
+        <character name="life_style" value="annual" />
+      </structure>
+    </statement>
+    <statement id="313.txt-1">
+      <text>Stems 1, erect (often reddish), stout (fistulose), simple or branched proximally, coarsely setose or hispid (at least distally, setae yellowish).</text>
+      <structure id="o5631" name="stem">
+        <character name="count" value="1" />
+        <character name="orientation" value="erect" />
+        <character name="fragility" value="stout" />
+        <character name="architecture" value="simple" modifier="proximally" />
+        <character name="architecture" value="branched" modifier="proximally" />
+        <character name="pubescence" value="setose" modifier="coarsely" />
+        <character name="pubescence" value="hispid" modifier="coarsely" />
+      </structure>
+    </statement>
+    <statement id="313.txt-2">
+      <text>Leaves basal and cauline;</text>
+    </statement>
+    <statement id="313.txt-3">
+      <text>petiolate;</text>
+      <structure id="o5632" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="architecture" value="petiolate" />
+      </structure>
+    </statement>
+    <statement id="313.txt-4">
+      <text>blades oblan-ceolate, often runcinate or lyrate, 5–30 × 1–8 cm, margins dentate to pinnately lobed (terminal lobes often relatively large), apices acute to obtuse, faces finely hispid (coarsely setose along midribs; cauline leaves lanceolate, bases sagittate with acuminate lobes, margins dentate to deeply laciniate proximally).</text>
+      <structure id="o5633" name="blade">
+        <character name="shape" value="oblan-ceolate" />
+        <character name="shape" value="runcinate" modifier="often" />
+        <character name="shape" value="lyrate" modifier="often" />
+        <character char_type="range_value" name="length" from="5" from_unit="cm" to="30" to_unit="cm" />
+        <character char_type="range_value" name="width" from="1" from_unit="cm" to="8" to_unit="cm" />
+      </structure>
+      <structure id="o5634" name="margin">
+        <character char_type="range_value" name="shape" from="dentate" to="pinnately lobed" />
+        <character name="shape" value="dentate" />
+        <character name="shape" value="lobed" modifier="pinnately" />
+      </structure>
+      <structure id="o5635" name="apex">
+        <character char_type="range_value" name="shape" from="acute" to="obtuse" />
+        <character name="shape" value="acute" />
+        <character name="shape" value="obtuse" />
+      </structure>
+      <structure id="o5636" name="face">
+        <character name="pubescence" value="hispid" modifier="finely" />
+      </structure>
+    </statement>
+    <statement id="313.txt-5">
+      <text>Heads 10–20, in paniculiform or cymiform arrays.</text>
+      <structure id="o5637" name="head">
+        <character char_type="range_value" name="count" from="10" to="20" />
+      </structure>
+      <structure id="o5638" name="array">
+        <character name="architecture" value="paniculiform" />
+        <character name="architecture" value="cymiform" />
+      </structure>
+      <relation id="r721" name="in" from="o5637" to="o5638" negation="false" />
+    </statement>
+    <statement id="313.txt-6">
+      <text>Calyculi of 10–14, linear, coarsely setose bractlets 2–4 mm.</text>
+      <structure id="o5639" name="calyculus" />
+      <structure id="o5640" name="bractlet">
+        <character char_type="range_value" name="count" from="10" to="14" />
+        <character name="arrangement_or_shape" value="linear" />
+        <character name="pubescence" value="setose" modifier="coarsely" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+      <relation id="r722" name="consist_of" from="o5639" to="o5640" negation="false" />
+    </statement>
+    <statement id="313.txt-7">
+      <text>Involucres cylindro-campanulate, 6–10 × 4–10 mm.</text>
+      <structure id="o5641" name="involucre">
+        <character name="shape" value="cylindro-campanulate" />
+        <character char_type="range_value" name="length" from="6" from_unit="mm" to="10" to_unit="mm" />
+        <character char_type="range_value" name="width" from="4" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="313.txt-8">
+      <text>Phyllaries 12–16, lanceolate, 6–7 mm, (bases strongly keeled and thickened, margins green to yellowish), apices acuminate, abaxial faces coarsely setose or hispid, adaxial with fine hairs.</text>
+      <structure id="o5642" name="phyllary">
+        <character char_type="range_value" name="count" from="12" to="16" />
+        <character name="shape" value="lanceolate" />
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+      <structure id="o5643" name="apex">
+        <character name="shape" value="acuminate" />
+      </structure>
+      <structure id="o5644" name="face" constraint="abaxial">
+        <character name="pubescence" value="setose" modifier="coarsely" />
+        <character name="pubescence" value="hispid" modifier="coarsely" />
+        <character name="insertion_or_position" value="adaxial" constraint="with hairs" constraintid="o5645" />
+      </structure>
+      <structure id="o5645" name="hair">
+        <character name="texture" value="fine" />
+      </structure>
+    </statement>
+    <statement id="313.txt-9">
+      <text>Florets 10–20;</text>
+      <structure id="o5646" name="floret">
+        <character char_type="range_value" name="count" from="10" to="20" />
+      </structure>
+    </statement>
+    <statement id="313.txt-10">
+      <text>corollas yellow, sometimes reddish abaxially, 8–10 mm.</text>
+      <structure id="o5647" name="corolla">
+        <character name="coloration" value="yellow" />
+        <character name="coloration" value="reddish" modifier="sometimes ; abaxially" />
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="313.txt-11">
+      <text>Cypselae reddish brown, fusiform, 3–5 mm, beaked (beaks 1–2 mm), ribs 10 (rounded, spiculate near bases of beaks);</text>
+      <structure id="o5648" name="cypsela">
+        <character name="coloration" value="brown" modifier="reddish" />
+        <character name="shape" value="fusiform" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="5" to_unit="mm" />
+        <character name="shape" value="beaked" />
+      </structure>
+      <structure id="o5649" name="rib">
+        <character name="count" value="10" />
+      </structure>
+    </statement>
+    <statement id="313.txt-12">
+      <text>pappi white (fine, soft), 4 mm.</text>
+      <structure id="o5650" name="pappus">
+        <character name="coloration" value="white" />
+        <character name="size" value="4" unit="mm" />
+      </structure>
+    </statement>
+    <statement id="313.txt-13">
+      <text>2 n = 8.</text>
+      <structure id="o5651" name="chromosome">
+        <character name="count" value="8" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>may</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <flowering_time>nov</flowering_time>
+  <habitat>openings in mixed conifer forest</habitat>
+  <habitat>disturbed areas</habitat>
+  <habitat>lawns</habitat>
+  <elevation>50–500 m;</elevation>
+  <introduced>introduced;</introduced>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Conn.</us_distribution>
+  <us_distribution>Mo.</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>Ohio</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <us_distribution>Tenn.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <us_distribution>Vt.</us_distribution>
+  <us_distribution>Wis.</us_distribution>
+  <global_distribution>Europe.</global_distribution>
+  <discussion>Crepis setosa is recognized by its annual habit, shallow roots, coarsely setose stems, leaves, and involucres, the relatively large runcinate leaves, sagittate-laciniate cauline leaves, finely beaked cypselae, and white, fine pappus bristles.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

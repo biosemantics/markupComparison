@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Ancistrocarphus filagineus</species_name>
+  <authority>A. Gray</authority>
+  <place_of_publication>Proc. Amer. Acad. Arts 7: 356. 1868</place_of_publication>
+  <common_name>Hooked groundstar , woolly fishhooks</common_name>
+  <synonym_of_species_name>Stylocline filaginea (A. Gray) A. Gray</synonym_of_species_name>
+  <description>
+    <statement id="777.txt-0">
+      <text>Plants 2–10(–14) cm.</text>
+      <structure id="o16325" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="10" to="14" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="2" from_unit="cm" to="10" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="777.txt-1">
+      <text>Stems usually 2–10, ascending to prostrate, sometimes 1, ± erect;</text>
+      <structure id="o16326" name="stem">
+        <character char_type="range_value" name="count" from="2" to="10" modifier="usually" />
+        <character char_type="range_value" name="orientation" from="ascending" to="prostrate" />
+        <character name="orientation" value="ascending" />
+        <character name="orientation" value="prostrate" />
+        <character name="count" value="1" modifier="sometimes" />
+        <character name="orientation" value="erect" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="777.txt-2">
+      <text>branches mostly distal (sometimes absent).</text>
+      <structure id="o16327" name="branch">
+        <character name="insertion_or_position" value="distal" modifier="mostly" />
+      </structure>
+    </statement>
+    <statement id="777.txt-3">
+      <text>Leaves basal and cauline, sessile or obscurely petiolate, largest 8–16(–28) × 2–3(–4) mm, very unlike pistillate paleae;</text>
+      <structure id="o16328" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="architecture" value="sessile" />
+        <character name="architecture" value="petiolate" modifier="obscurely" />
+      </structure>
+      <structure id="o16329" name="palea" constraint="pistillate" />
+    </statement>
+    <statement id="777.txt-4">
+      <text>bases (of leaves or petioles) ± attenuate, 1-nerved, greenish, herbaceous, scarcely involucral.</text>
+      <structure id="o16330" name="base">
+        <character name="shape" value="attenuate" modifier="±" />
+        <character name="architecture" value="1-nerved" />
+        <character name="coloration" value="greenish" />
+        <character name="habit_or_texture" value="herbaceous" />
+        <character name="derivation" value="involucral" modifier="scarcely" />
+      </structure>
+    </statement>
+    <statement id="777.txt-5">
+      <text>Heads in glomerules of 2–5 in ± cymiform arrays, 3.5–5 mm (excluding staminate paleae).</text>
+      <structure id="o16331" name="head">
+        <character char_type="range_value" name="size" from="3.5" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+      <structure id="o16332" name="glomerule" />
+      <relation id="r1750" name="in" from="o16331" to="o16332" negation="false" />
+      <structure id="o16333" name="array">
+        <character char_type="range_value" name="count" from="2" to="5" />
+        <character name="architecture" value="cymiform" modifier="±" />
+      </structure>
+      <relation id="r1751" name="consist_of" from="o16332" to="o16333" negation="false" />
+    </statement>
+    <statement id="777.txt-6">
+      <text>Phyllaries usually 3–6, minute, ± equal, hyaline, unlike pistillate paleae, sometimes vestigial or apparently 0.</text>
+      <structure id="o16334" name="phyllary">
+        <character char_type="range_value" name="count" from="3" to="6" modifier="usually" />
+        <character name="size" value="minute" />
+        <character name="size" value="equal" modifier="±" />
+        <character name="coloration" value="hyaline" />
+        <character name="manifestation" value="vestigial" modifier="sometimes" />
+        <character name="count" value="0" modifier="apparently" />
+      </structure>
+      <structure id="o16335" name="palea" constraint="pistillate" />
+    </statement>
+    <statement id="777.txt-7">
+      <text>Receptacles fungiform, 0.9–1.5 mm.</text>
+      <structure id="o16336" name="receptacle">
+        <character name="shape" value="fungiform" />
+        <character char_type="range_value" name="size" from="0.9" from_unit="mm" to="1.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="777.txt-8">
+      <text>Pistillate paleae:</text>
+      <structure id="o16337" name="palea" constraint="pistillate" />
+    </statement>
+    <statement id="777.txt-9">
+      <text>wings prominent, erect, ovate, ± plane.</text>
+      <structure id="o16338" name="wing">
+        <character name="prominence" value="prominent" />
+        <character name="orientation" value="erect" />
+        <character name="shape" value="ovate" />
+      </structure>
+      <structure id="o16339" name="plane" />
+    </statement>
+    <statement id="777.txt-10">
+      <text>Staminate paleae 5, broadly lanceolate, 2.7–4.1 mm, surpassing pistillate;</text>
+      <structure id="o16340" name="palea" constraint="staminate">
+        <character name="count" value="5" />
+        <character name="shape" value="lanceolate" modifier="broadly" />
+        <character char_type="range_value" name="size" from="2.7" from_unit="mm" to="4.1" to_unit="mm" />
+        <character name="comparison" value="surpassing" />
+        <character name="architecture" value="pistillate" />
+      </structure>
+    </statement>
+    <statement id="777.txt-11">
+      <text>apices uncinate, terete, acuminate, cartilaginous, spinose.</text>
+      <structure id="o16341" name="apex">
+        <character name="shape" value="uncinate" />
+        <character name="shape" value="terete" />
+        <character name="shape" value="acuminate" />
+        <character name="texture" value="cartilaginous" />
+        <character name="shape_or_architecture" value="spinose" />
+      </structure>
+    </statement>
+    <statement id="777.txt-12">
+      <text>Staminate corollas actinomorphic, 1–1.5 mm, lobes (4–)5(–6), ± equal.</text>
+      <structure id="o16342" name="corolla" constraint="staminate">
+        <character name="architecture" value="actinomorphic" />
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="1.5" to_unit="mm" />
+      </structure>
+      <structure id="o16343" name="lobe">
+        <character char_type="range_value" name="atypical_count" from="4" to="5" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_count" from="5" to="6" from_inclusive="false" />
+        <character name="count" value="5" />
+        <character name="size" value="equal" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="777.txt-13">
+      <text>Cypselae 1.4–2 × 0.6–0.9 mm, transverse bands 1, proximal, black.</text>
+      <structure id="o16344" name="cypsela">
+        <character char_type="range_value" name="length" from="1.4" from_unit="mm" to="2" to_unit="mm" />
+        <character char_type="range_value" name="width" from="0.6" from_unit="mm" to="0.9" to_unit="mm" />
+      </structure>
+      <structure id="o16345" name="band">
+        <character name="dehiscence_or_orientation" value="transverse" />
+        <character name="count" value="1" />
+        <character name="insertion_or_position" value="proximal" />
+        <character name="coloration" value="black" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <habitat>open, dry or vernally moist slopes</habitat>
+  <habitat>flats</habitat>
+  <habitat>drainages</habitat>
+  <habitat>shallow rocky to deep sandy or clay soils (often over serpentine or basalt), sometimes disturbed sites (burns</habitat>
+  <habitat>road beds</habitat>
+  <elevation>60–1900(–2100) m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <global_distribution>Mexico (Baja California).</global_distribution>
+  <discussion>Ancistrocarphus filagineus occurs nearly throughout the Californian Floristic Province inland from the immediate coast; in the south, it stops at the western fringes of the Mojave and Sonoran deserts; farther north, it continues into the northern Great Basin and Columbia Plateau of Oregon, northern Nevada, and southwestern Idaho. The rigid whorl of inwardly-hooked staminate paleae holds tenaciously to clothing, skin, animal coats, even vehicle tires, providing an effective dispersal mechanism. It is surprising that it has not spread farther.</discussion>
+  <discussion>Plants of populations farther inland, on drier sites and/or in deeper sandy soils, tend to be more compact with leaves shorter, more rounded, and indument denser and whitish. Stylocline filaginea var. depressa has sometimes been misapplied to these unnamed forms. The two forms intermingle enough so as not to warrant formal taxonomic status.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>3.</number>
+  <species_name>Euchiton sphaericus</species_name>
+  <authority>(Willdenow) Anderberg</authority>
+  <place_of_publication>Opera Bot. 104: 167. 1991</place_of_publication>
+  <common_name>Star-cudweed</common_name>
+  <synonym_of_species_name>Gnaphalium sphaericum Willdenow, Enum. Pl., 867. 1809</synonym_of_species_name>
+  <description>
+    <statement id="731.txt-0">
+      <text>Annuals, 5–80 cm;</text>
+    </statement>
+    <statement id="731.txt-1">
+      <text>taprooted;</text>
+      <structure id="o15279" name="whole_organism">
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="80" to_unit="cm" />
+        <character name="life_style" value="annual" />
+        <character name="architecture" value="taprooted" />
+      </structure>
+    </statement>
+    <statement id="731.txt-2">
+      <text>stolons absent.</text>
+      <structure id="o15280" name="stolon">
+        <character name="presence" value="absent" />
+      </structure>
+    </statement>
+    <statement id="731.txt-3">
+      <text>Aerial stems simple or branched from bases (sometimes branched from leaf axils), thinly and persistently white-tomentose.</text>
+      <structure id="o15281" name="stem" constraint="aerial">
+        <character name="architecture" value="simple" />
+        <character name="architecture" value="branched" constraint="from bases" constraintid="o15282" />
+        <character name="pubescence" value="white-tomentose" modifier="persistently" />
+      </structure>
+      <structure id="o15282" name="base" />
+    </statement>
+    <statement id="731.txt-4">
+      <text>Leaves:</text>
+      <structure id="o15283" name="leaf" />
+    </statement>
+    <statement id="731.txt-5">
+      <text>basal and proximal cauline withering before flowering (blades 1-nerved, oblanceolate to spatulate);</text>
+      <structure id="o15284" name="leaf" constraint="basal and proximal cauline">
+        <character name="duration" value="withering" modifier="before flowering" />
+      </structure>
+    </statement>
+    <statement id="731.txt-6">
+      <text>cauline 8–12, blades linear, 2–4 cm × 1–2 mm (largest at midstem), bases not clasping, margins revolute, sometimes undulate, abaxial faces white, tomentose, adaxial faces green, glabrous.</text>
+      <structure id="o15285" name="leaf" constraint="cauline">
+        <character char_type="range_value" name="count" from="8" to="12" />
+      </structure>
+      <structure id="o15286" name="blade">
+        <character name="arrangement_or_shape" value="linear" />
+        <character char_type="range_value" name="length" from="2" from_unit="cm" to="4" to_unit="cm" />
+        <character char_type="range_value" name="width" from="1" from_unit="mm" to="2" to_unit="mm" />
+      </structure>
+      <structure id="o15287" name="base">
+        <character name="architecture" value="clasping" modifier="not" />
+      </structure>
+      <structure id="o15288" name="margin">
+        <character name="shape_or_vernation" value="revolute" />
+        <character name="shape" value="undulate" modifier="sometimes" />
+      </structure>
+      <structure id="o15289" name="face" constraint="abaxial">
+        <character name="coloration" value="white" />
+        <character name="pubescence" value="tomentose" />
+      </structure>
+      <structure id="o15290" name="face" constraint="adaxial">
+        <character name="coloration" value="green" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="731.txt-7">
+      <text>Bracts subtending heads 4–8, 10–30 mm, surpassing heads.</text>
+      <structure id="o15291" name="bract">
+        <character char_type="range_value" name="count" from="4" to="8" modifier="heads&gt;" />
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="30" to_unit="mm" />
+      </structure>
+      <structure id="o15292" name="head">
+        <character name="comparison" value="surpassing" />
+      </structure>
+    </statement>
+    <statement id="731.txt-8">
+      <text>Heads in globose clusters 10–20 mm diam.</text>
+      <structure id="o15293" name="head" />
+      <structure id="o15294" name="cluster">
+        <character name="shape" value="globose" />
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="20" to_unit="mm" />
+      </structure>
+      <relation id="r1649" name="in" from="o15293" to="o15294" negation="false" />
+    </statement>
+    <statement id="731.txt-9">
+      <text>Involucres 3.5–4 mm.</text>
+      <structure id="o15295" name="involucre">
+        <character char_type="range_value" name="size" from="3.5" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="731.txt-10">
+      <text>Phyllaries brownish to tawny, sometimes purple-tinged (shiny), elliptic-lanceolate, apices acute.</text>
+      <structure id="o15296" name="phyllary">
+        <character name="coloration" value="brownish" />
+        <character name="coloration" value="tawny" />
+        <character name="coloration" value="tinged" modifier="sometimes;purple" />
+        <character name="shape" value="elliptic-lanceolate" />
+      </structure>
+      <structure id="o15297" name="apex">
+        <character name="shape" value="acute" />
+      </structure>
+    </statement>
+    <statement id="731.txt-11">
+      <text>Pistillate florets 16–26.</text>
+      <structure id="o15298" name="floret" constraint="pistillate">
+        <character char_type="range_value" name="count" from="16" to="26" />
+      </structure>
+    </statement>
+    <statement id="731.txt-12">
+      <text>Bisexual florets 1.</text>
+      <structure id="o15299" name="floret" constraint="bisexual">
+        <character name="count" value="1" />
+      </structure>
+    </statement>
+    <statement id="731.txt-13">
+      <text>Pappus bristles distinct or basally coherent (falling in groups).</text>
+      <structure id="o15300" name="bristle" constraint="pappus">
+        <character name="fusion" value="distinct" />
+        <character name="fusion" value="coherent" modifier="basally" />
+      </structure>
+    </statement>
+    <statement id="731.txt-14">
+      <text>2 n = 28.</text>
+      <structure id="o15301" name="chromosome">
+        <character name="count" value="28" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <habitat>grassy open places in wooded areas</habitat>
+  <habitat>disturbed soils</habitat>
+  <habitat>recent clearings</habitat>
+  <elevation>30–700 m;</elevation>
+  <introduced>introduced;</introduced>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <global_distribution>se Asia</global_distribution>
+  <global_distribution>Pacific Islands (Hawaii)</global_distribution>
+  <global_distribution>Pacific Islands (New Guinea)</global_distribution>
+  <global_distribution>Pacific Islands (New Zealand)</global_distribution>
+  <global_distribution>Australia.</global_distribution>
+  <discussion>In California and Hawaii, plants of Euchiton sphaericus have been identified as Gnaphalium japonicum; annual duration, slender taproots, non-clasping leaf bases, and single bisexual florets establish the correct identity of E. sphaericus. It “varies enormously in length, position and degree of branching, and the branches may be either vegetative or flower-bearing” (D. G. Drury 1972).</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

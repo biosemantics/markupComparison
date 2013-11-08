@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>13a.</number>
+  <subspecies_name>Centaurea virgata Lamarck subsp. squarrosa</subspecies_name>
+  <authority>(Boissier) Gugler</authority>
+  <place_of_publication>Ann. Hist.-Nat. Mus. Natl. Hung. 6: 248. 1908</place_of_publication>
+  <common_name>Squarrose knapweed</common_name>
+  <synonym_of_subspecies_name>Centaurea virgata var. squarrosa Boissier, Fl. Orient. 3: 651. 1875, based on C. squarrosa Willdenow, Sp. Pl. 3: 2319. 1803, not Roth 1800</synonym_of_subspecies_name>
+  <description>
+    <statement id="220.txt-0">
+      <text>Perennials , 20–50 cm, scabrous.</text>
+      <structure id="o3509" name="whole_organism">
+        <character char_type="range_value" name="size" from="20" from_unit="cm" to="50" to_unit="cm" />
+        <character name="pubescence_or_relief" value="scabrous" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="220.txt-1">
+      <text>Stems several, diffusely much-branched distally, finely tomentose, minutely resin-gland-dotted.</text>
+      <structure id="o3510" name="stem">
+        <character name="count" value="several" />
+        <character name="architecture_or_shape" value="much-branched" modifier="diffusely ; distally" />
+        <character name="pubescence" value="tomentose" modifier="finely" />
+        <character name="coloration_or_relief" value="resin-gland-dotted" modifier="minutely" />
+      </structure>
+    </statement>
+    <statement id="220.txt-2">
+      <text>Leaves finely tomentose, minutely resin-gland-dotted;</text>
+      <structure id="o3511" name="leaf">
+        <character name="pubescence" value="tomentose" modifier="finely" />
+        <character name="coloration_or_relief" value="resin-gland-dotted" modifier="minutely" />
+      </structure>
+    </statement>
+    <statement id="220.txt-3">
+      <text>basal and proximal cauline petiolate, often absent at anthesis, blades 10–15 cm, margins 1–2 times pinnately divided into linear segments;</text>
+      <structure id="o3512" name="leaf" constraint="basal and proximal cauline">
+        <character name="architecture" value="petiolate" />
+        <character name="presence" value="absent" modifier="often" constraint="at anthesis" constraintid="o3513" />
+      </structure>
+      <structure id="o3513" name="anthesi" />
+      <structure id="o3514" name="blade">
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="15" to_unit="cm" />
+      </structure>
+      <structure id="o3515" name="margin">
+        <character name="shape" value="divided" modifier="1-2 times pinnately" constraint="into segments" constraintid="o3516" />
+      </structure>
+      <structure id="o3516" name="segment">
+        <character name="arrangement_or_shape" value="linear" />
+      </structure>
+    </statement>
+    <statement id="220.txt-4">
+      <text>mid and distal cauline sessile, smaller, pinnately divided or simple.</text>
+      <structure id="o3517" name="leaf" constraint="mid and distal cauline">
+        <character name="architecture" value="sessile" />
+        <character name="size" value="smaller" />
+        <character name="shape" value="divided" modifier="pinnately" />
+        <character name="architecture" value="simple" />
+      </structure>
+    </statement>
+    <statement id="220.txt-5">
+      <text>Heads disciform, in paniculiform arrays, sessile or short-pedunculate.</text>
+      <structure id="o3518" name="head">
+        <character name="shape_or_architecture" value="disciform" />
+        <character name="architecture" value="sessile" />
+        <character name="architecture" value="short-pedunculate" />
+      </structure>
+      <structure id="o3519" name="array">
+        <character name="architecture" value="paniculiform" />
+      </structure>
+      <relation id="r497" name="in" from="o3518" to="o3519" negation="false" />
+    </statement>
+    <statement id="220.txt-6">
+      <text>Involucres narrowly ovoid or cylindric, 7–8 × 3–5 mm, falling at maturity with enclosed cypselae.</text>
+      <structure id="o3520" name="involucre">
+        <character name="shape" value="ovoid" modifier="narrowly" />
+        <character name="shape" value="cylindric" modifier="narrowly" />
+        <character char_type="range_value" name="length" from="7" from_unit="mm" to="8" to_unit="mm" />
+        <character char_type="range_value" name="width" from="3" from_unit="mm" to="5" to_unit="mm" />
+        <character name="orientation" value="falling" constraint="at maturity with cypselae" constraintid="o3521" />
+      </structure>
+      <structure id="o3521" name="cypsela" constraint="enclosed" />
+    </statement>
+    <statement id="220.txt-7">
+      <text>Principal phyllaries:</text>
+      <structure id="o3522" name="phyllary" constraint="principal" />
+    </statement>
+    <statement id="220.txt-8">
+      <text>bodies pale green or stramineous, ovate to lanceolate, sometimes purple-tinged, glabrous or finely tomentose, sparsely resin-gland-dotted, margins scarious, appendages spreading, fringed with slender stramineous spines, each tipped by spreading to reflexed spine 1–3 mm.</text>
+      <structure id="o3523" name="body">
+        <character name="coloration" value="green" modifier="pale" />
+        <character name="coloration" value="stramineous" />
+        <character char_type="range_value" name="shape" from="ovate" to="lanceolate" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="lanceolate" />
+        <character name="coloration" value="tinged" modifier="sometimes;purple" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="tomentose" modifier="finely" />
+        <character name="coloration_or_relief" value="resin-gland-dotted" modifier="sparsely" />
+      </structure>
+      <structure id="o3524" name="margin">
+        <character name="texture" value="scarious" />
+      </structure>
+      <structure id="o3525" name="appendage">
+        <character name="orientation" value="spreading" />
+        <character name="shape" value="fringed" constraint="with spines" constraintid="o3526" />
+      </structure>
+      <structure id="o3526" name="spine">
+        <character name="size" value="slender" />
+        <character name="coloration" value="stramineous" />
+      </structure>
+      <structure id="o3527" name="spine">
+        <character char_type="range_value" name="orientation" from="spreading" to="reflexed" />
+        <character name="orientation" value="spreading" />
+        <character name="orientation" value="reflexed" />
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="3" to_unit="mm" />
+      </structure>
+      <relation id="r498" name="tipped by" from="o3525" to="o3527" negation="false" />
+    </statement>
+    <statement id="220.txt-9">
+      <text>Inner phyllaries lanceolate, ± acute.</text>
+      <structure id="o3528" name="phyllary" constraint="inner">
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="acute" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="220.txt-10">
+      <text>Florets 10–14(–16);</text>
+      <structure id="o3529" name="floret">
+        <character char_type="range_value" name="atypical_count" from="14" to="16" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="10" to="14" />
+      </structure>
+    </statement>
+    <statement id="220.txt-11">
+      <text>corollas pink or pale purple, those of sterile florets very slender, 3-lobed, linear, not exceeding disc corollas, those of fertile florets 7–9 mm.</text>
+      <structure id="o3530" name="corolla">
+        <character name="coloration" value="pink" />
+        <character name="coloration" value="purple" modifier="pale" />
+      </structure>
+      <structure id="o3531" name="corolla">
+        <character name="size" value="slender" modifier="very" />
+        <character name="shape" value="3-lobed" />
+        <character name="arrangement_or_shape" value="linear" />
+      </structure>
+      <structure id="o3532" name="floret" constraint="sterile" />
+      <relation id="r499" name="part_of" from="o3531" to="o3532" negation="false" />
+      <structure id="o3533" name="corolla" constraint="disc" />
+      <structure id="o3534" name="corolla">
+        <character char_type="range_value" name="size" from="7" from_unit="mm" to="9" to_unit="mm" />
+      </structure>
+      <structure id="o3535" name="floret" constraint="fertile" />
+      <relation id="r500" name="part_of" from="o3534" to="o3535" negation="false" />
+    </statement>
+    <statement id="220.txt-12">
+      <text>Cypselae light brown or stramineous, 2.5–3.5 mm, glabrous;</text>
+      <structure id="o3536" name="cypsela">
+        <character name="coloration" value="brown" modifier="light" />
+        <character name="coloration" value="stramineous" />
+        <character char_type="range_value" name="size" from="2.5" from_unit="mm" to="3.5" to_unit="mm" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="220.txt-13">
+      <text>pappi of white bristles 1–2.5 mm or sometimes very reduced.</text>
+      <structure id="o3537" name="pappus">
+        <character name="size" value="reduced" modifier="sometimes very" />
+      </structure>
+      <structure id="o3538" name="bristle">
+        <character name="coloration" value="white" />
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="2.5" to_unit="mm" />
+      </structure>
+      <relation id="r501" name="consist_of" from="o3537" to="o3538" negation="false" />
+    </statement>
+    <statement id="220.txt-14">
+      <text>2 n = 36.</text>
+      <structure id="o3539" name="chromosome">
+        <character name="count" value="36" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>rangelands</habitat>
+  <habitat>pastures</habitat>
+  <habitat>open forests</habitat>
+  <habitat>roadsides</habitat>
+  <elevation>1000–2000 m;</elevation>
+  <introduced>introduced;</introduced>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Mich.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <global_distribution>w Asia.</global_distribution>
+  <discussion>Squarrose knapweed is an invasive pest in rangelands of western North America. At maturity the fruiting heads readily fall from the plant and can become lodged in the fur of animals. Centaurea virgata subsp. squarrosa has been declared a noxious weed in several western states.</discussion>
+  <discussion>In the Synthesis of the North American Flora (J. T. Kartesz and C. A. Meacham 1999) Centaurea virgata is incorrectly listed as a synonym of C. triumfettii Allioni, a very different plant. This was apparently based on a misreading of C. variegata Lamarck (not a legitimate name), a synonym of C. triumfettii, as C. virgata.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

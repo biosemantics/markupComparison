@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1b.</number>
+  <variety_name>Psilocarphus brevissimus Nuttall var. multiflorus</variety_name>
+  <authority>Cronquist</authority>
+  <place_of_publication>Res. Stud. State Coll. Wash. 18: 80. 1950</place_of_publication>
+  <common_name>Delta woolly marbles</common_name>
+  <description>
+    <statement id="761.txt-0">
+      <text>Plants ± thinly arachnoid-sericeous.</text>
+      <structure id="o16046" name="whole_organism">
+        <character name="pubescence" value="arachnoid-sericeous" modifier="± thinly" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="761.txt-1">
+      <text>Stems usually 1, erect.</text>
+      <structure id="o16047" name="stem">
+        <character name="count" value="1" modifier="usually" />
+        <character name="orientation" value="erect" />
+      </structure>
+    </statement>
+    <statement id="761.txt-2">
+      <text>Capitular leaves:</text>
+      <structure id="o16048" name="leaf" constraint="capitular" />
+    </statement>
+    <statement id="761.txt-3">
+      <text>longest mostly 14–25 mm, lengths 3–6 times widths.</text>
+      <structure id="o16049" name="leaf" constraint="longest capitular">
+        <character char_type="range_value" name="size" from="14" from_unit="mm" to="25" to_unit="mm" modifier="mostly" />
+        <character name="size" value="widths" modifier="3-6 times" />
+      </structure>
+    </statement>
+    <statement id="761.txt-4">
+      <text>Heads ovoid, largest 9–14 mm, ± sericeous.</text>
+      <structure id="o16050" name="head">
+        <character name="shape" value="ovoid" />
+        <character name="size" value="largest" />
+        <character char_type="range_value" name="size" from="9" from_unit="mm" to="14" to_unit="mm" />
+        <character name="pubescence" value="sericeous" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="761.txt-5">
+      <text>Receptacles deep-ly lobed.</text>
+      <structure id="o16051" name="receptacle">
+        <character name="shape" value="lobed" modifier="deep-ly" />
+      </structure>
+    </statement>
+    <statement id="761.txt-6">
+      <text>Pistillate paleae ± cylin-dric, lengths mostly 3.5–6 times longest diams.;</text>
+      <structure id="o16052" name="palea" constraint="pistillate">
+        <character name="shape" value="cylin-dric" modifier="±" />
+        <character name="size" value="longest" modifier="mostly" />
+      </structure>
+    </statement>
+    <statement id="761.txt-7">
+      <text>wings ± median.</text>
+      <structure id="o16053" name="wing">
+        <character name="insertion_or_position" value="median" modifier="±" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>may</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <habitat>drying margins of vernal pools</habitat>
+  <habitat>seasonally moist flats</habitat>
+  <elevation>10–100(–500) m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <discussion>Variety multiflorus is known from the San Francisco Bay area and adjacent Central Valley delta and may soon warrant conservation concern. Its deeply lobed receptacles, each lobe bearing a set of staminate florets, appear to represent fusion of multiple heads into second-order heads (A. Cronquist 1950). Less fusion occurs in plants intermediate with var. brevissimus.</discussion>
+  <discussion>Variety multiflorus shares traits with Psilocarphus elatior. An Idaho specimen from within the range of P. elatior was cited (but not mapped) as P. brevissimus var. multiflorus by A. Cronquist (1950); it was probably either mislabeled or from an introduction that did not persist.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>9b.</number>
+  <variety_name>Agoseris heterophylla (Nuttall) Greene var. cryptopleura</variety_name>
+  <authority>Greene</authority>
+  <place_of_publication>Pittonia 2: 179. 1891</place_of_publication>
+  <common_name>California agoseris</common_name>
+  <synonym_of_variety_name>Agoseris californica (Nuttall) Hoover; A. heterophylla subsp. californica (Nuttall) Piper; A. heterophylla var. californica (Nuttall) Davidson &amp; Moxley; A. heterophylla var. crenulata (H. M. Hall) Jepson; A. heterophylla var. turgida (H. M. Hall) Jepson; A. major Jepson ex Greene; Cryptopleura californica Nuttall</synonym_of_variety_name>
+  <description>
+    <statement id="513.txt-0">
+      <text>Stems 0 or 1 (internodes to 1 / 2 times lengths of subtending leaves).</text>
+      <structure id="o10483" name="stem">
+        <character name="count" value="0" />
+        <character name="count" value="1" />
+      </structure>
+    </statement>
+    <statement id="513.txt-1">
+      <text>Leaves erect to spreading;</text>
+      <structure id="o10484" name="leaf">
+        <character char_type="range_value" name="orientation" from="erect" to="spreading" />
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="spreading" />
+      </structure>
+    </statement>
+    <statement id="513.txt-2">
+      <text>blades (2–)5–15(–24) cm × (1.5–)2–10(–16) mm, mostly toothed to lobed, rarely entire, teeth or lobes (2–)3–5 pairs, faces usually densely, ± uniformly hairy, rarely glabrous.</text>
+      <structure id="o10485" name="blade">
+        <character char_type="range_value" name="atypical_length" from="2" to="5" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_length" from="15" to="24" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="5" from_unit="cm" to="15" to_unit="cm" />
+        <character char_type="range_value" name="atypical_width" from="]2-10" to="16" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="width" from="1.5" from_unit="mm" to="]2-10" to_unit="mm" />
+        <character name="shape" value="toothed" modifier="mostly" />
+        <character name="shape" value="lobed" />
+        <character name="shape" value="entire" modifier="rarely" />
+      </structure>
+      <structure id="o10486" name="tooth">
+        <character char_type="range_value" name="atypical_count" from="2" to="3" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="3" to="5" />
+      </structure>
+      <structure id="o10487" name="lobe">
+        <character char_type="range_value" name="atypical_count" from="2" to="3" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="3" to="5" />
+      </structure>
+      <structure id="o10488" name="face">
+        <character name="pubescence" value="hairy" modifier="± uniformly" />
+        <character name="pubescence" value="glabrous" modifier="rarely" />
+      </structure>
+    </statement>
+    <statement id="513.txt-3">
+      <text>Peduncles 6–60 cm, lengths mostly 1.5–4 times leaves at flowering, 2–5 times length of leaves in fruit, glabrous or glabrate, or apically hairy to tomentose.</text>
+      <structure id="o10489" name="peduncle">
+        <character char_type="range_value" name="size" from="6" from_unit="cm" to="60" to_unit="cm" />
+        <character char_type="range_value" name="size" from="1.5" to="4" modifier="mostly" constraint="times leaves" constraintid="o10490" />
+        <character char_type="range_value" name="pubescence" from="glabrate , or apically hairy" to="tomentose" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="glabrate" />
+        <character name="pubescence" value="hairy" modifier="apically" />
+        <character name="pubescence" value="tomentose" modifier="apically" />
+      </structure>
+      <structure id="o10490" name="leaf" />
+      <structure id="o10491" name="time">
+        <character char_type="range_value" name="count" from="2" to="5" />
+      </structure>
+      <relation id="r1201" name="at" from="o10490" to="o10491" negation="false" />
+      <structure id="o10492" name="leaf" />
+      <relation id="r1202" name="part_of" from="o10491" to="o10492" negation="false" />
+      <structure id="o10493" name="fruit" />
+      <relation id="r1203" name="in" from="o10491" to="o10493" negation="false" />
+    </statement>
+    <statement id="513.txt-4">
+      <text>Heads (7–)10–18 mm wide (flowering).</text>
+      <structure id="o10494" name="head">
+        <character char_type="range_value" name="atypical_size" from="7" to="10" from_unit="mm" to_unit="mm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="18" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="513.txt-5">
+      <text>Phyllaries green or medially rosy purple, sometimes spotted, margins glabrous or ciliate, faces mostly hairy, occasionally glabrous or villous, stipitate-glandular, with translucent, yellowish or purple-septate, often purple-tipped hairs or eglandular with whitish-opaque hairs;</text>
+      <structure id="o10495" name="phyllary">
+        <character name="coloration" value="green" />
+        <character name="coloration" value="purple" modifier="medially;rosy" />
+        <character name="coloration" value="spotted" modifier="sometimes" />
+      </structure>
+      <structure id="o10496" name="margin">
+        <character name="pubescence" value="glabrous" />
+        <character name="architecture_or_shape" value="ciliate" />
+      </structure>
+      <structure id="o10497" name="face">
+        <character name="pubescence" value="hairy" modifier="mostly" />
+        <character name="pubescence" value="glabrous" modifier="occasionally" />
+        <character name="pubescence" value="villous" />
+        <character name="architecture_or_exudation_or_pubescence" value="stipitate-glandular" />
+        <character name="architecture" value="eglandular" constraint="with hairs" constraintid="o10499" />
+      </structure>
+      <structure id="o10498" name="hair">
+        <character name="coloration" value="translucent" />
+        <character name="coloration" value="yellowish" />
+        <character name="architecture" value="purple-septate" />
+      </structure>
+      <relation id="r1204" name="with" from="o10497" to="o10498" negation="false" />
+      <structure id="o10499" name="hair">
+        <character name="coloration" value="opaque" modifier="whitish" />
+      </structure>
+    </statement>
+    <statement id="513.txt-6">
+      <text>outer erect to spreading, adaxially glabrous or pubescent and eglandular.</text>
+      <structure id="o10500" name="phyllary" constraint="outer">
+        <character name="pubescence" value="glabrous" modifier="adaxially" />
+        <character name="pubescence" value="pubescent" modifier="adaxially" />
+        <character name="architecture" value="eglandular" />
+      </structure>
+    </statement>
+    <statement id="513.txt-7">
+      <text>Florets 20–100(–300);</text>
+      <structure id="o10501" name="floret">
+        <character char_type="range_value" name="atypical_count" from="100" to="300" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="20" to="100" />
+      </structure>
+    </statement>
+    <statement id="513.txt-8">
+      <text>corollas much surpassing phyllaries at flowering, tubes 2–5 mm, ligules 10–15 × 2–3 mm;</text>
+      <structure id="o10502" name="corolla" />
+      <structure id="o10503" name="phyllary" constraint="at flowering">
+        <character name="comparison" value="surpassing" modifier="much" />
+      </structure>
+      <structure id="o10504" name="tube">
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+      <structure id="o10505" name="ligule">
+        <character char_type="range_value" name="length" from="10" from_unit="mm" to="15" to_unit="mm" />
+        <character char_type="range_value" name="width" from="2" from_unit="mm" to="3" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="513.txt-9">
+      <text>anthers 2–4 mm.</text>
+      <structure id="o10506" name="anther">
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="513.txt-10">
+      <text>Cypselae:</text>
+      <structure id="o10507" name="cypsela" />
+    </statement>
+    <statement id="513.txt-11">
+      <text>outermost strongly differing from inner, highly variable as to color, shape, ornamentation, and pubescence, ribs flattened to alate, or 0, straight to strongly undulate, often strongly diminishing proximally.</text>
+      <structure id="o10508" name="cypsela" constraint="outermost" />
+      <structure id="o10509" name="color">
+        <character name="position" value="inner" />
+        <character name="variability" value="variable" modifier="highly" />
+      </structure>
+      <structure id="o10510" name="ornamentation">
+        <character name="position" value="inner" />
+        <character name="variability" value="variable" modifier="highly" />
+      </structure>
+      <structure id="o10511" name="pubescence" constraint="and">
+        <character name="position" value="inner" />
+        <character name="variability" value="variable" modifier="highly" />
+      </structure>
+      <relation id="r1205" name="differing from" from="o10508" to="o10509" negation="false" />
+      <relation id="r1206" name="differing from" from="o10508" to="o10510" negation="false" />
+      <relation id="r1207" name="differing from" from="o10508" to="o10511" negation="false" />
+      <structure id="o10512" name="rib">
+        <character name="shape" value="flattened" />
+        <character name="architecture" value="alate" />
+        <character name="count" value="0" />
+        <character name="course" value="straight" />
+        <character name="shape" value="undulate" modifier="strongly" />
+        <character name="manifestation" value="diminishing" modifier="often strongly ; proximally" />
+      </structure>
+    </statement>
+    <statement id="513.txt-12">
+      <text>2 n = 18.</text>
+      <structure id="o10513" name="chromosome">
+        <character name="count" value="18" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>mesic to dry habitats in grasslands</habitat>
+  <habitat>chaparral</habitat>
+  <habitat>oak woodlands</habitat>
+  <habitat>and open pine forests</habitat>
+  <elevation>150–2100 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <discussion>Variety cryptopleura occurs on hills and ranges surrounding the Great Central Valley (it appears to be absent from the valley itself). It is ± sympatric with var. heterophylla, except that var. cryptopleura almost completely supplants var. heterophylla in the south Coast Ranges of California. Older floras treated this taxon as var. californica; more recent works have not recognized it at all. K. L. Chambers (1963b) demonstrated that var. cryptopleura is strictly allogamous and is not self-fertile. Varieties heterophylla and cryptopleura are differentiated almost entirely by corolla size, which appears to be correlated with breeding system; otherwise the two exhibit almost complete morphologic overlap. Corolla size in depauperate specimens of var. cryptopleura approaches that found in robust specimens of var. heterophylla. The two varieties still separate on corollas longer than the phyllaries in var. cryptopleura versus subequaling the phyllaries in var. heterophylla. The degree of introgression, if any, between var. cryptopleura and var. heterophylla is not known.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

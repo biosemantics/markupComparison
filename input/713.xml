@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>2.</number>
+  <species_name>Gamochaeta sphacelata</species_name>
+  <authority>(Kunth) Cabrera</authority>
+  <place_of_publication>Bol. Soc. Argent. Bot. 9: 380. 1961</place_of_publication>
+  <past_name>sphacilata</past_name>
+  <common_name>Owl’s crown</common_name>
+  <synonym_of_species_name>Gnaphalium sphacelatum Kunth in A. von Humboldt et al., Nov. Gen. Sp. 4(fol.): 67. 1818; 4(qto.): 86. 1820 (as sphacilatum)</synonym_of_species_name>
+  <description>
+    <statement id="713.txt-0">
+      <text>Annuals, 10–35(–50) cm;</text>
+    </statement>
+    <statement id="713.txt-1">
+      <text>usually taprooted, rarely fibrous-rooted.</text>
+      <structure id="o14916" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="35" to="50" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="35" to_unit="cm" />
+        <character name="life_style" value="annual" />
+        <character name="architecture" value="taprooted" modifier="usually" />
+        <character name="architecture" value="fibrous-rooted" modifier="rarely" />
+      </structure>
+    </statement>
+    <statement id="713.txt-2">
+      <text>Stems erect to ascending, densely gray-white pannose.</text>
+      <structure id="o14917" name="stem">
+        <character char_type="range_value" name="orientation" from="erect" to="ascending" />
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="ascending" />
+        <character name="coloration" value="white" modifier="densely;gray" />
+        <character name="pubescence" value="pannose" />
+      </structure>
+    </statement>
+    <statement id="713.txt-3">
+      <text>Leaves basal and cauline, basal usually withering before flowering;</text>
+      <structure id="o14918" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="insertion_or_position" value="basal" modifier="usually" />
+        <character name="duration" value="withering" modifier="before flowering" />
+      </structure>
+    </statement>
+    <statement id="713.txt-4">
+      <text>blades linear to narrowly oblanceolate (often folded along midveins), 1–4 cm × 1–3(–5) mm (distally becoming ± patent, arcuate bracts surpassing the heads), faces concolor or weakly bicolor, pannose-tomentose (± equally grayish to whitish, basal cells of hairs on adaxial faces persistent, expanded, glassy).</text>
+      <structure id="o14919" name="blade">
+        <character char_type="range_value" name="shape" from="linear" to="narrowly oblanceolate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="oblanceolate" modifier="narrowly" />
+        <character char_type="range_value" name="length" from="1" from_unit="cm" to="4" to_unit="cm" />
+        <character char_type="range_value" name="atypical_width" from="3" to="5" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="width" from="1" from_unit="mm" to="3" to_unit="mm" />
+      </structure>
+      <structure id="o14920" name="face">
+        <character name="coloration" value="concolor" />
+        <character name="coloration" value="bicolor" modifier="weakly" />
+        <character name="pubescence" value="pannose-tomentose" />
+      </structure>
+    </statement>
+    <statement id="713.txt-5">
+      <text>Heads in terminal glomerules 1 cm or in interrupted, spiciform arrays 2–14 cm × 10–12(–14) mm (pressed; glomerules sometimes axillary).</text>
+      <structure id="o14921" name="head" />
+      <structure id="o14922" name="glomerule" constraint="terminal">
+        <character name="size" value="1" unit="cm" />
+        <character name="size" value="in interrupted , spiciform arrays" />
+      </structure>
+      <relation id="r1613" name="in" from="o14921" to="o14922" negation="false" />
+      <structure id="o14923" name="array">
+        <character name="architecture" value="interrupted" />
+        <character name="architecture" value="spiciform" />
+        <character char_type="range_value" name="length" from="2" from_unit="cm" to="14" to_unit="cm" />
+        <character char_type="range_value" name="atypical_width" from="12" to="14" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="width" from="10" from_unit="mm" to="12" to_unit="mm" />
+      </structure>
+      <relation id="r1614" name="in" from="o14921" to="o14923" negation="false" />
+    </statement>
+    <statement id="713.txt-6">
+      <text>Involucres cylindro-campanulate, 3.5–4(–5) mm, sparsely arachnose.</text>
+      <structure id="o14924" name="involucre">
+        <character name="shape" value="cylindro-campanulate" />
+        <character char_type="range_value" name="atypical_size" from="4" to="5" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="3.5" from_unit="mm" to="4" to_unit="mm" />
+        <character name="pubescence" value="arachnose" modifier="sparsely" />
+      </structure>
+    </statement>
+    <statement id="713.txt-8">
+      <text>Florets:</text>
+      <structure id="o14925" name="floret" />
+    </statement>
+    <statement id="713.txt-9">
+      <text>bisexual 3–5;</text>
+      <structure id="o14926" name="floret" constraint="bisexual">
+        <character char_type="range_value" name="count" from="3" to="5" />
+      </structure>
+    </statement>
+    <statement id="713.txt-10">
+      <text>all corollas usually purplish distally.</text>
+      <structure id="o14927" name="corolla">
+        <character name="coloration" value="purplish" modifier="usually ; distally" />
+      </structure>
+    </statement>
+    <statement id="713.txt-11">
+      <text>Cypselae (tan) 0.5–0.6 mm.</text>
+      <structure id="o14928" name="cypsela">
+        <character char_type="range_value" name="size" from="0.5" from_unit="mm" to="0.6" to_unit="mm" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>grasslands</habitat>
+  <habitat>pine-oak woodlands</habitat>
+  <habitat>dry and wet sites</habitat>
+  <elevation>2000–2800 m;</elevation>
+  <us_distribution>Tex.</us_distribution>
+  <global_distribution>Mexico</global_distribution>
+  <global_distribution>South America (scattered).</global_distribution>
+  <global_distribution>South America (fide A. L. Cabrera 1977+).</global_distribution>
+  <global_distribution>South America (part 10).</global_distribution>
+  <discussion>Gamochaeta sphacelata is recognized by its linear to narrowly oblanceolate, concolor leaves, interrupted, spiciform arrays of heads in compact axillary glomerules or on lateral branches, glomerules subtended by ± patent, arcuate bracts, dark brown involucres, and acute-acuminate, recurving tips of outer and mid phyllaries. Roots are typically lignescent taproots. As in G. purpurea, the basal cells of each hair on adaxial leaf faces are persistent, expanded, and glassy.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

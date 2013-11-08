@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>21.</number>
+  <species_name>Hieracium longiberbe</species_name>
+  <authority>Howell</authority>
+  <place_of_publication>Fl. N.W. Amer., 395. 1901</place_of_publication>
+  <description>
+    <statement id="408.txt-0">
+      <text>Plants 25–50+ cm.</text>
+      <structure id="o7978" name="whole_organism">
+        <character char_type="range_value" name="size" from="25" from_unit="cm" to="50" to_unit="cm" upper_restricted="false" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="408.txt-1">
+      <text>Stems proximally piloso-hirsute (hairs 2–8+ mm), sometimes glabrate, distally glabrous or piloso-hirsute (hairs 2–5+ mm).</text>
+      <structure id="o7979" name="stem">
+        <character name="pubescence" value="piloso-hirsute" modifier="proximally" />
+        <character name="pubescence" value="glabrate" modifier="sometimes" />
+        <character name="pubescence" value="glabrous" modifier="distally" />
+        <character name="pubescence" value="piloso-hirsute" modifier="distally" />
+      </structure>
+    </statement>
+    <statement id="408.txt-2">
+      <text>Leaves:</text>
+      <structure id="o7980" name="leaf" />
+    </statement>
+    <statement id="408.txt-3">
+      <text>basal 0(–3+), cauline 6–12+;</text>
+      <structure id="o7981" name="leaf" constraint="basal">
+        <character char_type="range_value" name="atypical_count" from="0" to="3" upper_restricted="false" from_inclusive="false" />
+        <character name="count" value="0" />
+      </structure>
+      <structure id="o7982" name="leaf" constraint="cauline">
+        <character char_type="range_value" name="count" from="6" to="12" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="408.txt-4">
+      <text>blades spatulate to oblanceolate, 25–80(–100+) × 8–15(–25+) mm, lengths 3–5 times widths, bases ± cuneate, margins usually entire, rarely denticulate, apices obtuse to acute, abaxial faces piloso-hirsute (hairs 2–5+ mm), adaxial usually piloso-hirsute at margins (hairs 2–5+ mm), rarely glabrous.</text>
+      <structure id="o7983" name="blade">
+        <character char_type="range_value" name="shape" from="spatulate" to="oblanceolate" />
+        <character name="shape" value="spatulate" />
+        <character name="shape" value="oblanceolate" />
+        <character char_type="range_value" name="atypical_length" from="80" to="100" from_unit="mm" to_unit="mm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="25" from_unit="mm" to="80" to_unit="mm" />
+        <character char_type="range_value" name="atypical_width" from="15" to="25" from_unit="mm" to_unit="mm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="width" from="8" from_unit="mm" to="15" to_unit="mm" />
+        <character name="size" value="widths" modifier="3-5 times" />
+      </structure>
+      <structure id="o7984" name="base">
+        <character name="shape" value="cuneate" modifier="±" />
+      </structure>
+      <structure id="o7985" name="margin">
+        <character name="shape" value="entire" modifier="usually" />
+        <character name="shape" value="denticulate" modifier="rarely" />
+      </structure>
+      <structure id="o7986" name="apex">
+        <character char_type="range_value" name="shape" from="obtuse" to="acute" />
+        <character name="shape" value="obtuse" />
+        <character name="shape" value="acute" />
+      </structure>
+      <structure id="o7987" name="face" constraint="abaxial">
+        <character name="pubescence" value="piloso-hirsute" />
+        <character name="insertion_or_position" value="adaxial" modifier="usually" />
+        <character name="pubescence" value="piloso-hirsute" constraint="at margins" constraintid="o7988" />
+        <character name="pubescence" value="glabrous" modifier="rarely" />
+      </structure>
+      <structure id="o7988" name="margin" />
+    </statement>
+    <statement id="408.txt-5">
+      <text>Heads (3–)6–12+ in corymbiform arrays.</text>
+      <structure id="o7989" name="head">
+        <character char_type="range_value" name="atypical_count" from="3" to="6" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="6" to="12" upper_restricted="false" constraint="in arrays" constraintid="o7990" />
+      </structure>
+      <structure id="o7990" name="array">
+        <character name="architecture" value="corymbiform" />
+      </structure>
+    </statement>
+    <statement id="408.txt-6">
+      <text>Peduncles usually stellate-pubescent, sometimes piloso-hirsute and/or stipitate-glandular as well, rarely glabrous.</text>
+      <structure id="o7991" name="peduncle">
+        <character name="pubescence" value="stellate-pubescent" modifier="usually" />
+        <character name="pubescence" value="piloso-hirsute" modifier="sometimes" />
+        <character name="architecture_or_exudation_or_pubescence" value="stipitate-glandular" />
+        <character name="pubescence" value="glabrous" modifier="rarely" />
+      </structure>
+    </statement>
+    <statement id="408.txt-7">
+      <text>Calyculi:</text>
+      <structure id="o7992" name="calyculus" />
+    </statement>
+    <statement id="408.txt-8">
+      <text>bractlets 9–13+.</text>
+      <structure id="o7993" name="bractlet">
+        <character char_type="range_value" name="count" from="9" to="13" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="408.txt-9">
+      <text>Involucres campanulate, 7–10 mm.</text>
+      <structure id="o7994" name="involucre">
+        <character name="shape" value="campanulate" />
+        <character char_type="range_value" name="size" from="7" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="408.txt-10">
+      <text>Phyllaries 12–15+, apices ± rounded, abaxial faces piloso-hirsute and stellate-pubescent.</text>
+      <structure id="o7995" name="phyllary">
+        <character char_type="range_value" name="count" from="12" to="15" upper_restricted="false" />
+      </structure>
+      <structure id="o7996" name="apex">
+        <character name="shape" value="rounded" modifier="±" />
+      </structure>
+      <structure id="o7997" name="face" constraint="abaxial">
+        <character name="pubescence" value="piloso-hirsute" />
+        <character name="pubescence" value="stellate-pubescent" />
+      </structure>
+    </statement>
+    <statement id="408.txt-11">
+      <text>Florets 12–24+;</text>
+      <structure id="o7998" name="floret">
+        <character char_type="range_value" name="count" from="12" to="24" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="408.txt-12">
+      <text>corollas yellow, 7–12 mm.</text>
+      <structure id="o7999" name="corolla">
+        <character name="coloration" value="yellow" />
+        <character char_type="range_value" name="size" from="7" from_unit="mm" to="12" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="408.txt-13">
+      <text>Cypselae columnar, ca. 3.5 mm;</text>
+      <structure id="o8000" name="cypsela">
+        <character name="shape" value="columnar" />
+        <character name="size" value="3.5" unit="mm" />
+      </structure>
+    </statement>
+    <statement id="408.txt-14">
+      <text>pappi of 32–40+, white or stramineous bristles in ± 2 series, 5–6 mm.</text>
+      <structure id="o8001" name="pappus">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+      <structure id="o8002" name="bristle">
+        <character char_type="range_value" name="count" from="32" to="40" upper_restricted="false" />
+        <character name="coloration" value="white" />
+        <character name="coloration" value="stramineous" />
+      </structure>
+      <relation id="r950" name="consist_of" from="o8001" to="o8002" negation="false" />
+      <structure id="o8003" name="series">
+        <character name="count" value="2" modifier="±" />
+      </structure>
+      <relation id="r951" name="in" from="o8002" to="o8003" negation="false" />
+    </statement>
+  </description>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <habitat>cliffs</habitat>
+  <elevation>30–100 m;</elevation>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <discussion>Hieracium longiberbe is known only from along the Columbia River.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

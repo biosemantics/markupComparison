@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>17c.</number>
+  <subspecies_name>Antennaria howellii Greene subsp. neodioica</subspecies_name>
+  <authority>(Greene) R. J. Bayer</authority>
+  <place_of_publication>Brittonia 41: 397. 1989</place_of_publication>
+  <common_name>Antennaire néodioïque</common_name>
+  <synonym_of_subspecies_name>Antennaria neodioica Greene, Pittonia 3: 184. 1897; A. alsinoides Greene; A. grandis (Fernald) House; A. neglecta Greene var. attenuata (Fernald) Cronquist; A. neglecta var . neodioica (Greene) Cronquist; A. neodioica var. attenuata Fernald; A. neodioica var. chlorophylla Fernald; A. neodioica var. grandis Fernald; A. neodioica var. interjecta Fernald; A. neodioica var. rupicola (Fernald) Fernald; A. obovata E. E. Nelson; A. rupicola Fernald</synonym_of_subspecies_name>
+  <description>
+    <statement id="651.txt-0">
+      <text>Plants (6–)15–35 cm.</text>
+      <structure id="o13610" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="6" to="15" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="15" from_unit="cm" to="35" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="651.txt-1">
+      <text>Stolons 3–8(–12) cm (leaves along stolons almost equal to those of rosettes at ends).</text>
+      <structure id="o13611" name="stolon">
+        <character char_type="range_value" name="atypical_size" from="8" to="12" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="3" from_unit="cm" to="8" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="651.txt-2">
+      <text>Basal leaves 1-nerved (sometimes obscurely 3-nerved), spatulate to narrowly or broadly obovate (petiolate), 14–48 × 2.5–20 mm, tips mucronate, faces abaxially tomentose, adaxially gray-pubescent to floccose-glabrescent.</text>
+      <structure id="o13612" name="leaf" constraint="basal">
+        <character name="architecture" value="1-nerved" />
+        <character name="shape" value="spatulate" />
+        <character name="shape" value="obovate" modifier="narrowly broadly" />
+        <character char_type="range_value" name="length" from="14" from_unit="mm" to="48" to_unit="mm" />
+        <character char_type="range_value" name="width" from="2.5" from_unit="mm" to="20" to_unit="mm" />
+      </structure>
+      <structure id="o13613" name="tip">
+        <character name="shape" value="mucronate" />
+      </structure>
+      <structure id="o13614" name="face">
+        <character char_type="range_value" name="pubescence" from="abaxially tomentose , adaxially gray-pubescent" to="floccose-glabrescent" />
+        <character name="pubescence" value="tomentose" modifier="abaxially" />
+        <character name="pubescence" value="gray-pubescent" modifier="adaxially" />
+        <character name="pubescence" value="floccose-glabrescent" modifier="adaxially" />
+      </structure>
+    </statement>
+    <statement id="651.txt-3">
+      <text>Cauline leaves linear, 8–35 mm, distal flagged.</text>
+      <structure id="o13615" name="leaf" constraint="cauline">
+        <character name="arrangement_or_shape" value="linear" />
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="35" to_unit="mm" />
+        <character name="insertion_or_position" value="distal" />
+        <character name="orientation" value="flagged" />
+      </structure>
+    </statement>
+    <statement id="651.txt-4">
+      <text>Heads 4–8(–13) in corymbiform arrays.</text>
+      <structure id="o13616" name="head">
+        <character char_type="range_value" name="atypical_count" from="8" to="13" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="4" to="8" constraint="in arrays" constraintid="o13617" />
+      </structure>
+      <structure id="o13617" name="array">
+        <character name="architecture" value="corymbiform" />
+      </structure>
+    </statement>
+    <statement id="651.txt-5">
+      <text>Involucres:</text>
+      <structure id="o13618" name="involucre" />
+    </statement>
+    <statement id="651.txt-6">
+      <text>staminate (very uncommon) 6 mm;</text>
+      <structure id="o13619" name="involucre" constraint="staminate">
+        <character name="size" value="6" unit="mm" />
+      </structure>
+    </statement>
+    <statement id="651.txt-7">
+      <text>pistillate 6–9 mm.</text>
+      <structure id="o13620" name="involucre" constraint="pistillate">
+        <character char_type="range_value" name="size" from="6" from_unit="mm" to="9" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="651.txt-8">
+      <text>Phyllaries distally white or cream Corollas:</text>
+      <structure id="o13621" name="phyllary" />
+      <structure id="o13622" name="corolla">
+        <character name="coloration" value="white" modifier="distally" />
+        <character name="coloration" value="cream" modifier="distally" />
+      </structure>
+    </statement>
+    <statement id="651.txt-9">
+      <text>staminate 3.5 mm;</text>
+      <structure id="o13623" name="phyllary" constraint="staminate">
+        <character name="size" value="3.5" unit="mm" />
+      </structure>
+    </statement>
+    <statement id="651.txt-10">
+      <text>pistillate 3.5–6 mm.</text>
+      <structure id="o13624" name="phyllary" constraint="pistillate">
+        <character char_type="range_value" name="size" from="3.5" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="651.txt-11">
+      <text>Cypselae 0.9–1.5 mm, minutely papillate;</text>
+      <structure id="o13625" name="cypsela">
+        <character char_type="range_value" name="size" from="0.9" from_unit="mm" to="1.5" to_unit="mm" />
+        <character name="relief_or_pubescence" value="papillate" modifier="minutely" />
+      </structure>
+    </statement>
+    <statement id="651.txt-12">
+      <text>pappi:</text>
+      <structure id="o13626" name="pappus" />
+    </statement>
+    <statement id="651.txt-13">
+      <text>staminate 4 mm;</text>
+      <structure id="o13627" name="pappus" constraint="staminate">
+        <character name="size" value="4" unit="mm" />
+      </structure>
+    </statement>
+    <statement id="651.txt-14">
+      <text>pistillate 5.5–7 mm.</text>
+      <structure id="o13628" name="pappus" constraint="pistillate">
+        <character char_type="range_value" name="size" from="5.5" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="651.txt-15">
+      <text>2 n = 56, 84 (under A. neodioica ).</text>
+      <structure id="o13629" name="chromosome">
+        <character name="count" value="56" />
+        <character name="count" value="84" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>pastures</habitat>
+  <habitat>dry fields</habitat>
+  <habitat>openings in woodlands and forests</habitat>
+  <habitat>and rock barrens and dry lake shores</habitat>
+  <elevation>0–2200 m;</elevation>
+  <global_distribution>St. Pierre and Miquelon</global_distribution>
+  <ca_distribution>Alta.</ca_distribution>
+  <ca_distribution>B.C.</ca_distribution>
+  <ca_distribution>Man.</ca_distribution>
+  <ca_distribution>N.B.</ca_distribution>
+  <ca_distribution>Nfld. and Labr. (Nfld.)</ca_distribution>
+  <ca_distribution>N.W.T.</ca_distribution>
+  <ca_distribution>N.S.</ca_distribution>
+  <ca_distribution>Ont.</ca_distribution>
+  <ca_distribution>P.E.I.</ca_distribution>
+  <ca_distribution>Que.</ca_distribution>
+  <ca_distribution>Sask.</ca_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Conn.</us_distribution>
+  <us_distribution>Del.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Ill.</us_distribution>
+  <us_distribution>Ind.</us_distribution>
+  <us_distribution>Iowa</us_distribution>
+  <us_distribution>Kans.</us_distribution>
+  <us_distribution>Ky.</us_distribution>
+  <us_distribution>Maine</us_distribution>
+  <us_distribution>Md.</us_distribution>
+  <us_distribution>Mass.</us_distribution>
+  <us_distribution>Mich.</us_distribution>
+  <us_distribution>Minn.</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>Nebr.</us_distribution>
+  <us_distribution>N.H.</us_distribution>
+  <us_distribution>N.J.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>N.C.</us_distribution>
+  <us_distribution>N.Dak.</us_distribution>
+  <us_distribution>Ohio</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <us_distribution>R.I.</us_distribution>
+  <us_distribution>S.Dak.</us_distribution>
+  <us_distribution>Tenn.</us_distribution>
+  <us_distribution>Vt.</us_distribution>
+  <us_distribution>Va.</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <us_distribution>W.Va.</us_distribution>
+  <us_distribution>Wis.</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <discussion>Subspecies neodioica is most common in the eastern half of the range of Antennaria howellii; it is also found sporadically as far west as Washington and British Columbia. Antennaria virginica is likely the primary sexual progenitor of apomicts in subsp. neodioica (R. J. Bayer 1985).</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

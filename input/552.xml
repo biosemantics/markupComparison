@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>4.</number>
+  <species_name>Stephanomeria exigua</species_name>
+  <authority>Nuttall</authority>
+  <place_of_publication>Trans. Amer. Philos. Soc., n. s. 7: 428. 1841</place_of_publication>
+  <common_name>Small wirelettuce, skeletonplant</common_name>
+  <description>
+    <statement id="552.txt-0">
+      <text>Annuals , 10–200 cm (taproots relatively large).</text>
+      <structure id="o11386" name="whole_organism">
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="200" to_unit="cm" />
+        <character name="life_style" value="annual" />
+      </structure>
+    </statement>
+    <statement id="552.txt-1">
+      <text>Stems single, branches divaricately or freely spreading, glabrous or sparsely pubescent.</text>
+      <structure id="o11387" name="stem">
+        <character name="count" value="single" />
+      </structure>
+      <structure id="o11388" name="branch">
+        <character name="orientation" value="spreading" modifier="divaricately freely" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="pubescent" modifier="sparsely" />
+      </structure>
+    </statement>
+    <statement id="552.txt-2">
+      <text>Leaves withered at flowering;</text>
+      <structure id="o11389" name="leaf">
+        <character name="duration" value="withered" modifier="at flowering" />
+      </structure>
+    </statement>
+    <statement id="552.txt-3">
+      <text>basal blades linear to oblanceolate, runcinate, 3–10 cm, margins pinnately lobed;</text>
+      <structure id="o11390" name="blade" constraint="basal">
+        <character name="arrangement_or_shape" value="linear" />
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="runcinate" />
+        <character char_type="range_value" name="size" from="3" from_unit="cm" to="10" to_unit="cm" />
+      </structure>
+      <structure id="o11391" name="margin">
+        <character name="shape" value="lobed" modifier="pinnately" />
+      </structure>
+    </statement>
+    <statement id="552.txt-4">
+      <text>cauline much reduced, bractlike .</text>
+      <structure id="o11392" name="leaf" constraint="cauline">
+        <character name="size" value="reduced" modifier="much" />
+        <character name="shape" value="bractlike" />
+      </structure>
+    </statement>
+    <statement id="552.txt-5">
+      <text>Heads borne singly or clustered along branches or in paniculiform arrays.</text>
+      <structure id="o11393" name="head">
+        <character name="arrangement" value="clustered" constraint="along branches" constraintid="o11394" />
+      </structure>
+      <structure id="o11394" name="branch" />
+      <structure id="o11395" name="array">
+        <character name="architecture" value="paniculiform" />
+      </structure>
+      <relation id="r1302" name="in" from="o11393" to="o11395" negation="false" />
+    </statement>
+    <statement id="552.txt-6">
+      <text>Peduncles 2–10 mm (along branches), or 10–40 mm (in paniculiform arrays).</text>
+      <structure id="o11396" name="peduncle">
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="10" to_unit="mm" />
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="40" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="552.txt-7">
+      <text>Calyculi of appressed or reflexed bractlets (glabrous, pubescent, or stipitate-glandular).</text>
+      <structure id="o11397" name="calyculus" />
+      <structure id="o11398" name="bractlet">
+        <character name="orientation" value="appressed" />
+        <character name="orientation" value="reflexed" />
+      </structure>
+      <relation id="r1303" name="consist_of" from="o11397" to="o11398" negation="false" />
+    </statement>
+    <statement id="552.txt-8">
+      <text>Involucres 5–7 mm (glabrous, puberulent, or densely stipitate-glandular).</text>
+      <structure id="o11399" name="involucre">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="7" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="552.txt-9">
+      <text>Florets 5–11.</text>
+      <structure id="o11400" name="floret">
+        <character char_type="range_value" name="count" from="5" to="11" />
+      </structure>
+    </statement>
+    <statement id="552.txt-10">
+      <text>Cypselae light tan to dark brown, 2.1–6.8 mm, faces smooth to tuberculate, grooved;</text>
+      <structure id="o11401" name="cypsela">
+        <character char_type="range_value" name="coloration" from="light-tan" to="dark-brown" />
+        <character name="coloration" value="tan" modifier="light" />
+        <character name="coloration" value="brown" modifier="dark" />
+        <character char_type="range_value" name="size" from="2.1" from_unit="mm" to="6.8" to_unit="mm" />
+      </structure>
+      <structure id="o11402" name="face">
+        <character char_type="range_value" name="relief" from="smooth" to="tuberculate" />
+        <character name="relief" value="smooth" />
+        <character name="relief" value="tuberculate" />
+        <character name="architecture" value="grooved" />
+      </structure>
+    </statement>
+    <statement id="552.txt-11">
+      <text>pappi of 5–24 tan or white bristles (falling or widened bases persistent, bases connate in groups of 2–4 distal portions breaking off), plumose on distal 50–85%.</text>
+      <structure id="o11403" name="pappus">
+        <character name="architecture" value="plumose" modifier="on distal 50-85%" />
+      </structure>
+      <structure id="o11404" name="bristle">
+        <character char_type="range_value" name="count" from="5" to="24" />
+        <character name="coloration" value="tan" />
+        <character name="coloration" value="white" />
+      </structure>
+      <relation id="r1304" name="consist_of" from="o11403" to="o11404" negation="false" />
+    </statement>
+    <statement id="552.txt-12">
+      <text>2 n = 16.</text>
+      <structure id="o11405" name="chromosome">
+        <character name="count" value="16" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Subspecies 5 (5 in the flora):</number_of_infrataxa>
+  <general_distribution>w United States</general_distribution>
+  <general_distribution>nw Mexico.</general_distribution>
+  <couplet>1.Heads borne singly or clustered along branches; peduncles 2–10 mm.</couplet>
+  <couplet>2.Calyculus bractlets appressed; peduncles 2–5 mm4b. Stephanomeria exigua subsp. coronaria</couplet>
+  <couplet>2.Calyculus bractlets reflexed; peduncles 5–10 mm4e. Stephanomeria exigua</couplet>
+  <couplet>subsp. macrocarpa</couplet>
+  <couplet>1.Heads in paniculiform arrays; peduncles 10–40 mm.</couplet>
+  <couplet>3.Calyculus bractlets reflexed4a. Stephanomeria exigua subsp. carotifera</couplet>
+  <couplet>3.Calyculus bractlets appressed.</couplet>
+  <couplet>4.Peduncles and involucres densely glandular 4c. Stephanomeria exigua subsp. deanei</couplet>
+  <couplet>4.Peduncles and involucres glabrous or sparsely glandular4d. Stephanomeria exigua subsp. exigua</couplet>
+  <couplet />
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

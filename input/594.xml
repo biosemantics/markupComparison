@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>2a.</number>
+  <variety_name>Lygodesmia grandiflora ( Nuttall) Torrey &amp; A. Gray var. grandiflora</variety_name>
+  <synonym_of_variety_name>Lygodesmia grandiflora var. stricta Maguire</synonym_of_variety_name>
+  <description>
+    <statement id="594.txt-0">
+      <text>Plants 5–40 cm.</text>
+      <structure id="o12345" name="whole_organism">
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="40" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="594.txt-1">
+      <text>Stems erect, simple or sparingly branched from bases, obscurely striate.</text>
+      <structure id="o12346" name="stem">
+        <character name="orientation" value="erect" />
+        <character name="architecture" value="simple" />
+        <character name="architecture" value="branched" modifier="sparingly" constraint="from bases" constraintid="o12347" />
+        <character name="coloration_or_relief" value="striate" modifier="obscurely" />
+      </structure>
+      <structure id="o12347" name="base" />
+    </statement>
+    <statement id="594.txt-2">
+      <text>Leaves:</text>
+      <structure id="o12348" name="leaf" />
+    </statement>
+    <statement id="594.txt-3">
+      <text>proximal blades linear , 50–150 × 1–3 mm, ± lax (margins entire or rarely laciniately-lobed);</text>
+      <structure id="o12349" name="blade" constraint="proximal">
+        <character name="arrangement_or_shape" value="linear" />
+        <character char_type="range_value" name="length" from="50" from_unit="mm" to="150" to_unit="mm" />
+        <character char_type="range_value" name="width" from="1" from_unit="mm" to="3" to_unit="mm" />
+        <character name="architecture" value="lax" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="594.txt-4">
+      <text>cauline similar, reduced to scales distally.</text>
+      <structure id="o12350" name="leaf" constraint="cauline" />
+      <structure id="o12351" name="scale" />
+      <relation id="r1437" name="reduced to" from="o12350" to="o12351" negation="false" modifier="distally" />
+    </statement>
+    <statement id="594.txt-5">
+      <text>Heads 1–5(–30), in loose, corymbiform arrays.</text>
+      <structure id="o12352" name="head">
+        <character char_type="range_value" name="atypical_count" from="5" to="30" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="1" to="5" />
+      </structure>
+      <structure id="o12353" name="array">
+        <character name="architecture_or_texture" value="loose" />
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <relation id="r1438" name="in" from="o12352" to="o12353" negation="false" />
+    </statement>
+    <statement id="594.txt-6">
+      <text>Involucres subcylindric, 18–21 × 6–8 mm, apices narrow.</text>
+      <structure id="o12354" name="involucre">
+        <character name="shape" value="subcylindric" />
+        <character char_type="range_value" name="length" from="18" from_unit="mm" to="21" to_unit="mm" />
+        <character char_type="range_value" name="width" from="6" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+      <structure id="o12355" name="apex">
+        <character name="size" value="narrow" />
+      </structure>
+    </statement>
+    <statement id="594.txt-7">
+      <text>Florets 6–12;</text>
+      <structure id="o12356" name="floret">
+        <character char_type="range_value" name="count" from="6" to="12" />
+      </structure>
+    </statement>
+    <statement id="594.txt-8">
+      <text>corollas pink to lavender.</text>
+      <structure id="o12357" name="corolla">
+        <character char_type="range_value" name="coloration" from="pink" to="lavender" />
+        <character name="coloration" value="pink" />
+        <character name="coloration" value="lavender" />
+      </structure>
+    </statement>
+    <statement id="594.txt-9">
+      <text>Cypselae 10–13 mm, faces smooth, not sulcate.</text>
+      <structure id="o12358" name="cypsela">
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="13" to_unit="mm" />
+      </structure>
+      <structure id="o12359" name="face">
+        <character name="architecture_or_relief" value="smooth" />
+        <character name="architecture" value="sulcate" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="594.txt-10">
+      <text>2 n = 18.</text>
+      <structure id="o12360" name="chromosome">
+        <character name="count" value="18" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>may</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <habitat>open sites</habitat>
+  <habitat>alluvial, sandy, or gravelly soils</habitat>
+  <habitat>juniper-sagebrush scrub</habitat>
+  <elevation>1200–2800 m;</elevation>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <discussion>Variety grandiflora is recognized by its relatively large, pink corollas and 8–12 phyllaries. The size of the plants varies and stems are often somewhat woody near the bases. This variety appears to intergrade with var. arizonica and var. dianthopsis (S. L. Welsh et al. 2003).</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

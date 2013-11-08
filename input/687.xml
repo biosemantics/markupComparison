@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>8.</number>
+  <species_name>Pseudognaphalium saxicola</species_name>
+  <authority>(Fassett) H. E. Ballard &amp; Feller</authority>
+  <place_of_publication>Sida 21: 777. 2004</place_of_publication>
+  <common_name>Cliff cudweed</common_name>
+  <synonym_of_species_name>Gnaphalium saxicola Fassett, Rhodora 33: 75. 1931; G. obtusifolium Linnaeus var. saxicola (Fassett) Cronquist; Pseudognaphalium obtusifolium (Linnaeus) Hilliard &amp; B. L. Burtt var. saxicola (Fassett) Kartesz</synonym_of_species_name>
+  <description>
+    <statement id="687.txt-0">
+      <text>Annuals, 4–15(–30) cm;</text>
+    </statement>
+    <statement id="687.txt-1">
+      <text>tap rooted.</text>
+      <structure id="o14327" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="15" to="30" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="4" from_unit="cm" to="15" to_unit="cm" />
+        <character name="life_style" value="annual" />
+      </structure>
+      <structure id="o14328" name="tap">
+        <character name="architecture" value="rooted" />
+      </structure>
+    </statement>
+    <statement id="687.txt-2">
+      <text>Stems (filiform) persistently tomentose (indument a loose, envelope-like, transparent haze of extremely thin hairs, doubling apparent stem width), not glandular.</text>
+      <structure id="o14329" name="stem">
+        <character name="pubescence" value="tomentose" modifier="persistently" />
+        <character name="architecture_or_exudation_or_pubescence" value="glandular" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="687.txt-3">
+      <text>Leaf blades elliptic-oblanceolate to oblanceolate, 0.5–3 cm × 2–6 mm (largest at midstem), bases not clasping, not decurrent, margins flat, faces concolor, green, thinly arachnoid-tomentose to glabrate, not glandular (veiny reticulum evident).</text>
+      <structure id="o14330" name="blade" constraint="leaf">
+        <character char_type="range_value" name="shape" from="elliptic-oblanceolate" to="oblanceolate" />
+        <character name="shape" value="elliptic-oblanceolate" />
+        <character name="shape" value="oblanceolate" />
+        <character char_type="range_value" name="length" from="0.5" from_unit="cm" to="3" to_unit="cm" />
+        <character char_type="range_value" name="width" from="2" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+      <structure id="o14331" name="base">
+        <character name="architecture" value="clasping" modifier="not" />
+        <character name="shape" value="decurrent" modifier="not" />
+      </structure>
+      <structure id="o14332" name="margin">
+        <character name="shape" value="flat" />
+      </structure>
+      <structure id="o14333" name="face">
+        <character name="coloration" value="concolor" />
+        <character name="coloration" value="green" />
+        <character char_type="range_value" name="pubescence" from="thinly arachnoid-tomentose" to="glabrate" />
+        <character name="pubescence" value="arachnoid-tomentose" modifier="thinly" />
+        <character name="pubescence" value="glabrate" modifier="thinly" />
+        <character name="architecture_or_exudation_or_pubescence" value="glandular" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="687.txt-4">
+      <text>Heads (2–4) in terminal, capitate clusters (usually immediately subtended by distalmost cauline leaf, clusters sometimes in subcorymbiform arrays).</text>
+      <structure id="o14334" name="head">
+        <character char_type="range_value" name="atypical_count" from="2" to="4" constraint="in clusters" constraintid="o14335" />
+      </structure>
+      <structure id="o14335" name="cluster">
+        <character name="insertion_or_position" value="terminal" />
+        <character name="architecture_or_shape" value="capitate" />
+      </structure>
+    </statement>
+    <statement id="687.txt-5">
+      <text>Involucres turbinate, 4–5 mm.</text>
+      <structure id="o14336" name="involucre">
+        <character name="shape" value="turbinate" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="687.txt-6">
+      <text>Phyllaries in 3(–4) series, whitish to slightly tawny (hyaline, shiny), narrowly triangular to narrowly oblong-triangular, glabrous.</text>
+      <structure id="o14337" name="phyllary">
+        <character char_type="range_value" name="coloration" from="whitish" to="slightly tawny" />
+        <character name="coloration" value="whitish" />
+        <character name="coloration" value="tawny" modifier="slightly" />
+        <character char_type="range_value" name="shape" from="narrowly triangular" to="narrowly oblong-triangular" />
+        <character name="shape" value="triangular" modifier="narrowly" />
+        <character name="shape" value="oblong-triangular" modifier="narrowly" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+      <structure id="o14338" name="series" constraint="-4">
+        <character name="count" value="3" />
+      </structure>
+      <relation id="r1531" name="in" from="o14337" to="o14338" negation="false" />
+    </statement>
+    <statement id="687.txt-7">
+      <text>Pistillate florets 25–28.</text>
+      <structure id="o14339" name="floret" constraint="pistillate">
+        <character char_type="range_value" name="count" from="25" to="28" />
+      </structure>
+    </statement>
+    <statement id="687.txt-8">
+      <text>Bisexual florets 6–7.</text>
+      <structure id="o14340" name="floret" constraint="bisexual">
+        <character char_type="range_value" name="count" from="6" to="7" />
+      </structure>
+    </statement>
+    <statement id="687.txt-9">
+      <text>Cypselae not ridged, smooth.</text>
+      <structure id="o14341" name="cypsela">
+        <character name="shape" value="ridged" modifier="not" />
+        <character name="architecture_or_relief" value="smooth" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>mostly bare sandstone cliff faces</habitat>
+  <habitat>ledges</habitat>
+  <habitat>and cracks</habitat>
+  <habitat>s- to e-facing, commonly shaded</habitat>
+  <elevation>200–300 m;</elevation>
+  <us_distribution>Wis.</us_distribution>
+  <discussion>Pseudognaphalium saxicola probably is an evolutionary derivative of P. obtusifolium. Plants of P. saxicola are relatively small and have relatively few, relatively small heads and occur in a specialized habitat; they constitute the only narrowly endemic species of Pseudognaphalium in the United States. Depauperate individuals of P. obtusifolium from localities over its whole geographic range may sometimes be as short as 5–10 cm and similar in habit to P. saxicola; such plants differ from P. saxicola in their close and denser stem vestiture, bicolor and relatively narrow leaves, larger heads with greater numbers of pistillate florets, and broader phyllaries with rounded apices.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

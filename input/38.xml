@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>3.</number>
+  <species_name>Onopordum tauricum</species_name>
+  <authority>Willdenow</authority>
+  <place_of_publication>Sp. Pl. 3: 1687. 1803</place_of_publication>
+  <common_name>Taurian thistle, bull cottonthistle</common_name>
+  <description>
+    <statement id="38.txt-0">
+      <text>Plants 50–200 cm, herbage glandular-puberulent, sticky throughout.</text>
+      <structure id="o7199" name="whole_organism">
+        <character char_type="range_value" name="size" from="50" from_unit="cm" to="200" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+      <structure id="o7200" name="herbage">
+        <character name="pubescence" value="glandular-puberulent" />
+        <character name="coating" value="sticky" modifier="throughout" />
+      </structure>
+    </statement>
+    <statement id="38.txt-1">
+      <text>Stems:</text>
+      <structure id="o7201" name="stem" />
+    </statement>
+    <statement id="38.txt-2">
+      <text>wings 0.5–2 cm wide.</text>
+      <structure id="o7202" name="wing">
+        <character char_type="range_value" name="size" from="0.5" from_unit="cm" to="2" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="38.txt-3">
+      <text>Leaves 10–30 cm, margins shallowly to deeply 1–2-pinnatifid, with 6–8 pairs of acutely triangular lobes, thinly arachnoid tomentose when young.</text>
+      <structure id="o7203" name="leaf">
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="30" to_unit="cm" />
+      </structure>
+      <structure id="o7204" name="margin">
+        <character name="shape" value="1-2-pinnatifid" modifier="shallowly deeply" />
+        <character name="pubescence" value="arachnoid tomentose" modifier="thinly" />
+        <character name="age" value="young" />
+      </structure>
+      <structure id="o7205" name="pair">
+        <character char_type="range_value" name="count" from="6" to="8" />
+      </structure>
+      <relation id="r882" name="with" from="o7204" to="o7205" negation="false" />
+      <structure id="o7206" name="lobe">
+        <character name="shape" value="triangular" modifier="acutely" />
+      </structure>
+      <relation id="r883" name="part_of" from="o7205" to="o7206" negation="false" />
+    </statement>
+    <statement id="38.txt-4">
+      <text>Heads mostly borne singly at branch tips.</text>
+      <structure id="o7207" name="head" />
+      <structure id="o7208" name="tip" constraint="branch" />
+      <relation id="r884" name="borne at" from="o7207" to="o7208" negation="false" />
+    </statement>
+    <statement id="38.txt-5">
+      <text>Involucres ± spheric, 20–50 mm diam (excluding spines), base truncate to concave.</text>
+      <structure id="o7209" name="involucre">
+        <character name="shape" value="spheric" modifier="±" />
+        <character char_type="range_value" name="size" from="20" from_unit="mm" to="50" to_unit="mm" />
+      </structure>
+      <structure id="o7210" name="base">
+        <character char_type="range_value" name="shape" from="truncate" to="concave" />
+        <character name="shape" value="truncate" />
+        <character name="shape" value="concave" />
+      </structure>
+    </statement>
+    <statement id="38.txt-6">
+      <text>Phyllaries lanceolate, bases 3–4 mm wide, glabrous or glandular-puberulent, sometimes ± cobwebby-tomentose, spines to 4 mm.</text>
+      <structure id="o7211" name="phyllary">
+        <character name="shape" value="lanceolate" />
+      </structure>
+      <structure id="o7212" name="base">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="4" to_unit="mm" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="glandular-puberulent" />
+        <character name="pubescence" value="cobwebby-tomentose" modifier="sometimes ±" />
+      </structure>
+      <structure id="o7213" name="spine">
+        <character char_type="range_value" name="size" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="38.txt-7">
+      <text>Corollas purplish pink, 25–30 mm.</text>
+      <structure id="o7214" name="corolla">
+        <character name="coloration" value="pink" modifier="purplish" />
+        <character char_type="range_value" name="size" from="25" from_unit="mm" to="30" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="38.txt-8">
+      <text>Cypselae 5–6 mm;</text>
+      <structure id="o7215" name="cypsela">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="38.txt-9">
+      <text>pappi of many whitish to tan, scabrous or minutely barbed bristles 8–10 mm.</text>
+      <structure id="o7216" name="pappus" />
+      <structure id="o7217" name="bristle">
+        <character char_type="range_value" name="coloration" from="many whitish" to="tan" />
+        <character name="coloration" value="tan" />
+        <character name="pubescence_or_relief" value="scabrous" />
+        <character name="architecture" value="barbed" modifier="minutely" />
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+      <relation id="r885" name="consist_of" from="o7216" to="o7217" negation="false" />
+    </statement>
+    <statement id="38.txt-10">
+      <text>2 n = 34 (Russia).</text>
+      <structure id="o7218" name="chromosome">
+        <character name="count" value="34" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>grasslands</habitat>
+  <habitat>arid woodlands</habitat>
+  <habitat>riparian areas</habitat>
+  <habitat>roadsides</habitat>
+  <habitat>agricultural lands</habitat>
+  <elevation>600–2200 m;</elevation>
+  <introduced>introduced;</introduced>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <global_distribution>s Europe</global_distribution>
+  <global_distribution>sw Asia.</global_distribution>
+  <discussion>Taurian thistle is a noxious weed in California and Colorado. In southeastern Colorado it sometimes grows with Onopordum acanthium. Putative hybrids have been observed in this area.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

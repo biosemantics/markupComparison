@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>25.</number>
+  <species_name>Antennaria suffrutescens</species_name>
+  <authority>Greene</authority>
+  <place_of_publication>Pittonia 3: 277. 1898</place_of_publication>
+  <common_name>Evergreen or everlasting pussytoes</common_name>
+  <description>
+    <statement id="660.txt-0">
+      <text>Dioecious.</text>
+      <structure id="o13839" name="whole_organism">
+        <character name="reproduction" value="dioecious" />
+      </structure>
+    </statement>
+    <statement id="660.txt-1">
+      <text>Plants 5–12 cm (densely tufted, bases woody; root crowns relatively slender).</text>
+      <structure id="o13840" name="whole_organism">
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="12" to_unit="cm" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="660.txt-2">
+      <text>Stolons none.</text>
+      <structure id="o13841" name="stolon" />
+    </statement>
+    <statement id="660.txt-3">
+      <text>Basal leaves absent at flowering.</text>
+      <structure id="o13842" name="leaf" constraint="basal">
+        <character name="presence" value="absent" modifier="at flowering" />
+      </structure>
+    </statement>
+    <statement id="660.txt-4">
+      <text>Cauline leaves spatulate, 5–12 × 2–4 mm, not flagged (apices emarginate or obtuse, abaxial faces tomentose, adaxial green).</text>
+      <structure id="o13843" name="leaf" constraint="cauline">
+        <character name="shape" value="spatulate" />
+        <character char_type="range_value" name="length" from="5" from_unit="mm" to="12" to_unit="mm" />
+        <character char_type="range_value" name="width" from="2" from_unit="mm" to="4" to_unit="mm" />
+        <character name="orientation" value="flagged" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="660.txt-5">
+      <text>Heads borne singly.</text>
+      <structure id="o13844" name="head">
+        <character name="arrangement" value="singly" />
+      </structure>
+    </statement>
+    <statement id="660.txt-6">
+      <text>Involucres:</text>
+      <structure id="o13845" name="involucre" />
+    </statement>
+    <statement id="660.txt-7">
+      <text>staminate 5–9 mm;</text>
+      <structure id="o13846" name="involucre" constraint="staminate">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="9" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="660.txt-8">
+      <text>pistillate 10–15 mm.</text>
+      <structure id="o13847" name="involucre" constraint="pistillate">
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="15" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="660.txt-9">
+      <text>Phyllaries (relatively wide) distally white.</text>
+      <structure id="o13848" name="phyllary">
+        <character name="coloration" value="white" modifier="distally" />
+      </structure>
+    </statement>
+    <statement id="660.txt-10">
+      <text>Corollas:</text>
+      <structure id="o13849" name="corolla" />
+    </statement>
+    <statement id="660.txt-11">
+      <text>staminate 4–5 mm;</text>
+      <structure id="o13850" name="corolla" constraint="staminate">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="660.txt-12">
+      <text>pistillate 5–8 mm.</text>
+      <structure id="o13851" name="corolla" constraint="pistillate">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="660.txt-13">
+      <text>Cypselae 1–2 mm, papillate;</text>
+      <structure id="o13852" name="cypsela">
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="2" to_unit="mm" />
+        <character name="relief_or_pubescence" value="papillate" />
+      </structure>
+    </statement>
+    <statement id="660.txt-14">
+      <text>pappi:</text>
+      <structure id="o13853" name="pappus" />
+    </statement>
+    <statement id="660.txt-15">
+      <text>staminate 4.5–5.5 mm;</text>
+      <structure id="o13854" name="pappus" constraint="staminate">
+        <character char_type="range_value" name="size" from="4.5" from_unit="mm" to="5.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="660.txt-16">
+      <text>pistillate 7–9 mm.</text>
+      <structure id="o13855" name="pappus" constraint="pistillate">
+        <character char_type="range_value" name="size" from="7" from_unit="mm" to="9" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="660.txt-17">
+      <text>2 n = 28.</text>
+      <structure id="o13856" name="chromosome">
+        <character name="count" value="28" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>early summer</flowering_time>
+  <habitat>dry, open coniferous woods or barren slopes on serpentine</habitat>
+  <elevation>500–1600 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <discussion>Antennaria suffrutescens is characterized by suffrutescent growth form, relatively small, emarginate, adaxially glabrous, coriaceous leaves, and relatively large heads borne singly. It is known only from serpentine soils in open montane pine forests in Curry and Josephine counties, Oregon, and neighboring Del Norte and Humboldt counties, California (R. J. Bayer and G. L. Stebbins 1987). Antennaria suffrutescens may have contributed to the origin of some of the clones of the A. rosea complex (e.g., J. T. Howell 27718, NY).</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

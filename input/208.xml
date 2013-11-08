@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>3.</number>
+  <species_name>Centaurea montana</species_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 911. 1753</place_of_publication>
+  <common_name>Mountain cornflower or bluet, centaurée des montagnes</common_name>
+  <description>
+    <statement id="208.txt-0">
+      <text>Perennials, 25–80 cm, from rhizomes or stolons.</text>
+      <structure id="o3163" name="whole_organism">
+        <character char_type="range_value" name="size" from="25" from_unit="cm" to="80" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+      </structure>
+      <structure id="o3164" name="rhizome" />
+      <structure id="o3165" name="stolon" />
+      <relation id="r444" name="from" from="o3163" to="o3164" negation="false" />
+      <relation id="r445" name="from" from="o3163" to="o3165" negation="false" />
+    </statement>
+    <statement id="208.txt-1">
+      <text>Stems 1–several, erect, simple or sparingly branched, villous with septate hairs and thinly arachnoid-tomentose with long, simple hairs.</text>
+      <structure id="o3166" name="stem">
+        <character char_type="range_value" name="count" from="1" to="several" />
+        <character name="orientation" value="erect" />
+        <character name="architecture" value="simple" />
+        <character name="architecture" value="branched" modifier="sparingly" />
+        <character name="pubescence" value="villous" constraint="with hairs" constraintid="o3167" />
+      </structure>
+      <structure id="o3167" name="hair">
+        <character name="architecture" value="septate" />
+        <character name="pubescence" value="arachnoid-tomentose" modifier="thinly" constraint="with hairs" constraintid="o3168" />
+      </structure>
+      <structure id="o3168" name="hair">
+        <character name="size" value="long" />
+        <character name="architecture" value="simple" />
+      </structure>
+    </statement>
+    <statement id="208.txt-2">
+      <text>Leaves thinly villous and ± tomentose, glabrate;</text>
+      <structure id="o3169" name="leaf">
+        <character name="pubescence" value="villous" modifier="thinly" />
+        <character name="pubescence" value="tomentose" modifier="±" />
+        <character name="pubescence" value="glabrate" />
+      </structure>
+    </statement>
+    <statement id="208.txt-3">
+      <text>proximal leaves winged-petiolate, blades 10–30 cm, margins entire or remotely dentate to pinnately lobed;</text>
+      <structure id="o3170" name="leaf" constraint="proximal">
+        <character name="architecture" value="winged-petiolate" />
+      </structure>
+      <structure id="o3171" name="blade">
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="30" to_unit="cm" />
+      </structure>
+      <structure id="o3172" name="margin">
+        <character char_type="range_value" name="shape" from="remotely dentate" to="pinnately lobed" />
+        <character name="shape" value="entire" />
+        <character name="shape" value="dentate" modifier="remotely" />
+        <character name="shape" value="lobed" modifier="pinnately" />
+      </structure>
+    </statement>
+    <statement id="208.txt-4">
+      <text>mid and distal leaves sessile, blades decurrent, ovate to oblong or lanceolate, entire or remotely denticulate.</text>
+      <structure id="o3173" name="leaf" constraint="mid and distal">
+        <character name="architecture" value="sessile" />
+      </structure>
+      <structure id="o3174" name="blade">
+        <character char_type="range_value" name="shape" from="decurrent , ovate" to="oblong or lanceolate , entire or remotely denticulate" />
+        <character name="shape" value="decurrent" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="oblong" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="entire" />
+        <character name="shape" value="denticulate" modifier="remotely" />
+      </structure>
+    </statement>
+    <statement id="208.txt-5">
+      <text>Heads radiant, borne singly or in few-headed corymbiform arrays; (peduncles to 7 cm).</text>
+      <structure id="o3175" name="head">
+        <character name="architecture_or_arrangement" value="radiant" />
+        <character name="arrangement" value="singly" />
+        <character name="arrangement" value="in few-headed corymbiform arrays" />
+      </structure>
+      <structure id="o3176" name="array">
+        <character name="architecture_or_shape" value="few-headed" />
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <relation id="r446" name="in" from="o3175" to="o3176" negation="false" />
+    </statement>
+    <statement id="208.txt-6">
+      <text>Involucres ovoid to ± campanulate, 20–25 mm.</text>
+      <structure id="o3177" name="involucre">
+        <character name="shape" value="ovoid" />
+        <character name="shape" value="campanulate" modifier="±" />
+        <character char_type="range_value" name="size" from="20" from_unit="mm" to="25" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="208.txt-7">
+      <text>Principal phyllaries:</text>
+      <structure id="o3178" name="phyllary" constraint="principal" />
+    </statement>
+    <statement id="208.txt-8">
+      <text>bodies greenish, ovate to lanceolate, scarious-margined, appendages appressed, brown to black, unarmed, decurrent on phyllary margins, pectinate-fringed, puberulent;</text>
+      <structure id="o3179" name="body">
+        <character name="coloration" value="greenish" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="scarious-margined" />
+      </structure>
+      <structure id="o3180" name="appendage">
+        <character name="orientation" value="appressed" />
+        <character char_type="range_value" name="coloration" from="brown" to="black" />
+        <character name="coloration" value="brown" />
+        <character name="coloration" value="black" />
+        <character name="architecture" value="unarmed" />
+        <character name="shape" value="decurrent" constraint="on phyllary margins" constraintid="o3181" />
+        <character name="shape" value="pectinate-fringed" />
+        <character name="pubescence" value="puberulent" />
+      </structure>
+      <structure id="o3181" name="margin" constraint="phyllary" />
+    </statement>
+    <statement id="208.txt-9">
+      <text>innermost phyllaries sometimes unappendaged.</text>
+      <structure id="o3182" name="phyllary" constraint="innermost">
+        <character name="architecture" value="unappendaged" modifier="sometimes" />
+      </structure>
+    </statement>
+    <statement id="208.txt-10">
+      <text>Florets 35–60+;</text>
+      <structure id="o3183" name="floret">
+        <character char_type="range_value" name="count" from="35" to="60" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="208.txt-11">
+      <text>sterile florets 10–20, corollas blue (white, purple, or pink), 2.5–4.5 cm, corolla tube elongate.</text>
+      <structure id="o3184" name="floret" constraint="sterile">
+        <character char_type="range_value" name="count" from="10" to="20" />
+      </structure>
+      <structure id="o3185" name="corolla">
+        <character name="coloration" value="blue" />
+        <character char_type="range_value" name="size" from="2.5" from_unit="cm" to="4.5" to_unit="cm" />
+      </structure>
+      <structure id="o3186" name="tube" constraint="corolla">
+        <character name="shape" value="elongate" />
+      </structure>
+    </statement>
+    <statement id="208.txt-12">
+      <text>Disc florets 25–40+;</text>
+      <structure id="o3187" name="floret" constraint="disc">
+        <character char_type="range_value" name="count" from="25" to="40" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="208.txt-13">
+      <text>corollas purple, ca. 20 mm;</text>
+      <structure id="o3188" name="corolla">
+        <character name="coloration" value="purple" />
+        <character name="size" value="20" unit="mm" />
+      </structure>
+    </statement>
+    <statement id="208.txt-14">
+      <text>anthers dark blue-purple.</text>
+      <structure id="o3189" name="anther">
+        <character name="coloration" value="purple" modifier="dark-blue" />
+      </structure>
+    </statement>
+    <statement id="208.txt-15">
+      <text>Cypselae ± brown, 5–6 mm, sericeous;</text>
+      <structure id="o3190" name="cypsela">
+        <character name="coloration" value="brown" modifier="±" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="6" to_unit="mm" />
+        <character name="pubescence" value="sericeous" />
+      </structure>
+    </statement>
+    <statement id="208.txt-16">
+      <text>pappi of bristles 0.5–1.5 mm.</text>
+      <structure id="o3191" name="pappus" />
+      <structure id="o3192" name="bristle">
+        <character char_type="range_value" name="size" from="0.5" from_unit="mm" to="1.5" to_unit="mm" />
+      </structure>
+      <relation id="r447" name="consist_of" from="o3191" to="o3192" negation="false" />
+    </statement>
+    <statement id="208.txt-17">
+      <text>2 n = 24 (Germany), 40 (Russia), 44 (France).</text>
+      <structure id="o3193" name="chromosome">
+        <character name="count" value="24" />
+        <character name="count" value="40" />
+        <character name="count" value="44" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>escaped from cultivation</habitat>
+  <habitat>roadsides</habitat>
+  <habitat>woodlands</habitat>
+  <habitat>sagebrush scrub</habitat>
+  <elevation>0–1400 m;</elevation>
+  <introduced>introduced;</introduced>
+  <global_distribution>St. Pierre and Miquelon</global_distribution>
+  <ca_distribution>B.C.</ca_distribution>
+  <ca_distribution>N.B.</ca_distribution>
+  <ca_distribution>Nfld. and Labr. (Nfld.)</ca_distribution>
+  <ca_distribution>Ont.</ca_distribution>
+  <ca_distribution>Que.</ca_distribution>
+  <us_distribution>Alaska</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Maine</us_distribution>
+  <us_distribution>Mich.</us_distribution>
+  <us_distribution>Minn.</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>N.H.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <us_distribution>Wis.</us_distribution>
+  <global_distribution>Europe.</global_distribution>
+  <discussion>Centaurea montana is a very handsome plant, native to the mountains of Europe, now widely cultivated as an ornamental.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

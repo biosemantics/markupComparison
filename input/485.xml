@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>13.</number>
+  <species_name>Malacothrix similis</species_name>
+  <authority>W. S. Davis &amp; P. H. Raven</authority>
+  <place_of_publication>Madroño 16: 262, fig. 2c. 1962</place_of_publication>
+  <description>
+    <statement id="485.txt-0">
+      <text>Annuals, 5–30+ cm.</text>
+      <structure id="o9669" name="whole_organism">
+        <character char_type="range_value" name="size" from="5" from_unit="cm" to="30" to_unit="cm" upper_restricted="false" />
+        <character name="life_style" value="annual" />
+      </structure>
+    </statement>
+    <statement id="485.txt-1">
+      <text>Stems 1–11, erect or ascending, branched mostly proximally, glabrous or sparsely arachnose to puberulent and glabrescent.</text>
+      <structure id="o9670" name="stem">
+        <character char_type="range_value" name="count" from="1" to="11" />
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="ascending" />
+        <character name="architecture_or_shape" value="branched" modifier="mostly proximally" />
+        <character char_type="range_value" name="pubescence" from="sparsely arachnose" to="puberulent" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="arachnose" modifier="sparsely" />
+        <character name="pubescence" value="puberulent" modifier="sparsely" />
+        <character name="pubescence" value="glabrescent" />
+      </structure>
+    </statement>
+    <statement id="485.txt-2">
+      <text>Cauline leaves:</text>
+      <structure id="o9671" name="leaf" constraint="cauline" />
+    </statement>
+    <statement id="485.txt-3">
+      <text>proximal mostly lance-linear, sometimes pinnately lobed, not fleshy, ultimate margins dentate or entire, faces glabrous or sparsely arachnose to puberulent and glabrescent;</text>
+      <structure id="o9672" name="leaf" constraint="proximal cauline">
+        <character name="arrangement_or_shape" value="lance-linear" modifier="mostly" />
+        <character name="shape" value="lobed" modifier="sometimes pinnately" />
+        <character name="texture" value="fleshy" modifier="not" />
+      </structure>
+      <structure id="o9673" name="margin" constraint="ultimate">
+        <character name="shape" value="dentate" />
+        <character name="shape" value="entire" />
+      </structure>
+      <structure id="o9674" name="face">
+        <character char_type="range_value" name="pubescence" from="sparsely arachnose" to="puberulent" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="arachnose" modifier="sparsely" />
+        <character name="pubescence" value="puberulent" modifier="sparsely" />
+        <character name="pubescence" value="glabrescent" />
+      </structure>
+    </statement>
+    <statement id="485.txt-4">
+      <text>distal reduced subentire.</text>
+      <structure id="o9675" name="leaf" constraint="distal cauline">
+        <character name="size" value="reduced" />
+        <character name="shape" value="subentire" />
+      </structure>
+    </statement>
+    <statement id="485.txt-5">
+      <text>Calyculi of 8–12+ lance-deltate to lanceolate bractlets, hyaline margins 0.05–0.3 mm wide.</text>
+      <structure id="o9676" name="calyculus" />
+      <structure id="o9677" name="bractlet">
+        <character char_type="range_value" name="count" from="8" to="12" upper_restricted="false" />
+        <character char_type="range_value" name="shape" from="lance-deltate" to="lanceolate" />
+        <character name="shape" value="lance-deltate" />
+        <character name="shape" value="lanceolate" />
+      </structure>
+      <relation id="r1119" name="consist_of" from="o9676" to="o9677" negation="false" />
+      <structure id="o9678" name="margin">
+        <character name="coloration" value="hyaline" />
+        <character char_type="range_value" name="size" from="0.05" from_unit="mm" to="0.3" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="485.txt-6">
+      <text>Involucres narrowly campanulate, 6–10 × 3–6 mm.</text>
+      <structure id="o9679" name="involucre">
+        <character name="shape" value="campanulate" modifier="narrowly" />
+        <character char_type="range_value" name="length" from="6" from_unit="mm" to="10" to_unit="mm" />
+        <character char_type="range_value" name="width" from="3" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="485.txt-7">
+      <text>Phyllaries 18–21+ in ± 2 series, lance-linear to linear, ± equal, hyaline margins 0.05–0.2 mm wide, faces glabrous.</text>
+      <structure id="o9680" name="phyllary">
+        <character char_type="range_value" name="count" from="18" to="21" upper_restricted="false" constraint="in series" constraintid="o9681" />
+        <character char_type="range_value" name="arrangement_or_shape" from="lance-linear" to="linear" />
+        <character name="arrangement_or_shape" value="lance-linear" />
+        <character name="arrangement_or_shape" value="linear" />
+        <character name="size" value="equal" modifier="±" />
+      </structure>
+      <structure id="o9681" name="series">
+        <character name="count" value="2" modifier="±" />
+      </structure>
+      <structure id="o9682" name="margin">
+        <character name="coloration" value="hyaline" />
+        <character char_type="range_value" name="size" from="0.05" from_unit="mm" to="0.2" to_unit="mm" />
+      </structure>
+      <structure id="o9683" name="face">
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="485.txt-8">
+      <text>Receptacles not bristly.</text>
+      <structure id="o9684" name="receptacle">
+        <character name="pubescence" value="bristly" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="485.txt-9">
+      <text>Florets 32–73:</text>
+      <structure id="o9685" name="floret">
+        <character char_type="range_value" name="count" from="32" to="73" />
+      </structure>
+    </statement>
+    <statement id="485.txt-10">
+      <text>corollas yellow, 4–9 mm;</text>
+      <structure id="o9686" name="corolla">
+        <character name="coloration" value="yellow" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="9" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="485.txt-11">
+      <text>outer ligules exserted 2–4 mm.</text>
+      <structure id="o9687" name="ligule" constraint="outer">
+        <character name="position" value="exserted" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="485.txt-12">
+      <text>Cypselae ± cylindro-fusiform to prismatic, 1.4–1.7 mm, ribs extending to apices, 5 more prominent than others;</text>
+      <structure id="o9688" name="cypsela">
+        <character char_type="range_value" name="shape" from="cylindro-fusiform" to="prismatic" modifier="±" />
+        <character name="shape" value="cylindro-fusiform" modifier="±" />
+        <character name="shape" value="prismatic" modifier="±" />
+        <character char_type="range_value" name="size" from="1.4" from_unit="mm" to="1.7" to_unit="mm" />
+      </structure>
+      <structure id="o9689" name="rib">
+        <character name="count" value="5" />
+        <character name="prominence" value="prominent" modifier="more" constraint="than others" constraintid="o9691" />
+      </structure>
+      <structure id="o9690" name="apex" />
+      <relation id="r1120" name="extending to" from="o9689" to="o9690" negation="false" />
+      <structure id="o9691" name="other" />
+    </statement>
+    <statement id="485.txt-13">
+      <text>pappi persistent, of ca. 18, irregular needlelike teeth plus 1 bristle.</text>
+      <structure id="o9692" name="pappus">
+        <character name="duration" value="persistent" />
+      </structure>
+      <structure id="o9693" name="tooth">
+        <character name="count" value="18" />
+        <character name="architecture_or_course" value="irregular" />
+        <character name="shape" value="needlelike" />
+        <character name="count" value="1" />
+      </structure>
+      <relation id="r1121" name="consist_of" from="o9692" to="o9693" negation="false" />
+      <structure id="o9694" name="bristle" />
+    </statement>
+    <statement id="485.txt-14">
+      <text>Pollen mostly 4-porate (mean diam. 30 µm).</text>
+      <structure id="o9695" name="pollen">
+        <character name="architecture" value="4-porate" modifier="mostly" />
+      </structure>
+    </statement>
+    <statement id="485.txt-15">
+      <text>2 n = 28.</text>
+      <structure id="o9696" name="chromosome">
+        <character name="count" value="28" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>may</flowering_time>
+  <habitat>coastal plains</habitat>
+  <habitat>beaches</habitat>
+  <habitat>dunes</habitat>
+  <conservation>of conservation concern;</conservation>
+  <elevation>0–40 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <global_distribution>Mexico (Baja California).</global_distribution>
+  <discussion>Malacothrix similis has been collected on Santa Cruz Island (in 1888) and at Hueneme Beach (in 1925).</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>37a.</number>
+  <subspecies_name>Artemisia ludoviciana Nuttall subsp. ludoviciana</subspecies_name>
+  <common_name>Armoise de l’ouest</common_name>
+  <synonym_of_subspecies_name>Artemisia brittonii Rydberg; A. cuneata Rydberg; A. diversifolia Rydberg, A. falcata Rydberg; A. gnaphaloides Nuttall; A. herriotii Rydberg; A. lindheimeriana Scheele; A. pabularis (A. Nelson) Rydberg; A. paucicephala A. Nelson; A. pudica Rydberg; A. purshiana Besser; A. rhizomata A. Nelson</synonym_of_subspecies_name>
+  <description>
+    <statement id="909.txt-0">
+      <text>Stems (gray to white) mostly simple, 30–80 cm, tomentose.</text>
+      <structure id="o18791" name="stem">
+        <character name="architecture" value="simple" modifier="mostly" />
+        <character char_type="range_value" name="size" from="30" from_unit="cm" to="80" to_unit="cm" />
+        <character name="pubescence" value="tomentose" />
+      </structure>
+    </statement>
+    <statement id="909.txt-1">
+      <text>Leaves gray;</text>
+      <structure id="o18792" name="leaf">
+        <character name="coloration" value="gray" />
+      </structure>
+    </statement>
+    <statement id="909.txt-2">
+      <text>blades linear to narrowly elliptic, 3–11 cm, margins plane (proximalmost entire or apically lobed, lobes to 1 / 3 blade lengths; cauline 1.5–11 × 1–1.5 cm, entire or lobed to pinnatifid), faces densely tomentose.</text>
+      <structure id="o18793" name="blade">
+        <character char_type="range_value" name="arrangement_or_shape" from="linear" to="narrowly elliptic" />
+        <character name="arrangement_or_shape" value="linear" />
+        <character name="arrangement_or_shape" value="elliptic" modifier="narrowly" />
+        <character char_type="range_value" name="size" from="3" from_unit="cm" to="11" to_unit="cm" />
+      </structure>
+      <structure id="o18794" name="plane" constraint="margins" />
+      <structure id="o18795" name="face">
+        <character name="pubescence" value="tomentose" modifier="densely" />
+      </structure>
+    </statement>
+    <statement id="909.txt-3">
+      <text>Heads in congested, paniculiform or racemiform arrays 5–30 × 1–4 cm.</text>
+      <structure id="o18796" name="head" />
+      <structure id="o18797" name="array">
+        <character name="architecture" value="congested" />
+        <character name="architecture" value="paniculiform" />
+        <character name="architecture" value="racemiform" />
+        <character char_type="range_value" name="length" from="5" from_unit="cm" to="30" to_unit="cm" />
+        <character char_type="range_value" name="width" from="1" from_unit="cm" to="4" to_unit="cm" />
+      </structure>
+      <relation id="r1991" name="in" from="o18796" to="o18797" negation="false" />
+    </statement>
+    <statement id="909.txt-4">
+      <text>Involucres 3–4 × 2–4 mm.</text>
+      <structure id="o18798" name="involucre">
+        <character char_type="range_value" name="length" from="3" from_unit="mm" to="4" to_unit="mm" />
+        <character char_type="range_value" name="width" from="2" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="909.txt-5">
+      <text>Florets:</text>
+      <structure id="o18799" name="floret" />
+    </statement>
+    <statement id="909.txt-6">
+      <text>pistillate 5–12;</text>
+      <structure id="o18800" name="floret" constraint="pistillate">
+        <character char_type="range_value" name="count" from="5" to="12" />
+      </structure>
+    </statement>
+    <statement id="909.txt-7">
+      <text>bisexual 6–30;</text>
+      <structure id="o18801" name="floret" constraint="bisexual">
+        <character char_type="range_value" name="count" from="6" to="30" />
+      </structure>
+    </statement>
+    <statement id="909.txt-8">
+      <text>corollas 1.9–2.8 mm.</text>
+      <structure id="o18802" name="corolla">
+        <character char_type="range_value" name="size" from="1.9" from_unit="mm" to="2.8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="909.txt-9">
+      <text>2 n = 18, 36.</text>
+      <structure id="o18803" name="chromosome">
+        <character name="count" value="18" />
+        <character name="count" value="36" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <flowering_time>nov</flowering_time>
+  <habitat>disturbed roadsides</habitat>
+  <habitat>open meadows</habitat>
+  <habitat>rocky slopes</habitat>
+  <elevation>100–3000 m;</elevation>
+  <ca_distribution>Alta.</ca_distribution>
+  <ca_distribution>B.C.</ca_distribution>
+  <ca_distribution>Man.</ca_distribution>
+  <ca_distribution>N.B.</ca_distribution>
+  <ca_distribution>Ont.</ca_distribution>
+  <ca_distribution>P.E.I.</ca_distribution>
+  <ca_distribution>Que.</ca_distribution>
+  <ca_distribution>Sask.</ca_distribution>
+  <us_distribution>Ala.</us_distribution>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Ark.</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Conn.</us_distribution>
+  <us_distribution>Del.</us_distribution>
+  <us_distribution>Ga.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Ill.</us_distribution>
+  <us_distribution>Ind.</us_distribution>
+  <us_distribution>Iowa</us_distribution>
+  <us_distribution>Kans.</us_distribution>
+  <us_distribution>Ky.</us_distribution>
+  <us_distribution>La.</us_distribution>
+  <us_distribution>Maine</us_distribution>
+  <us_distribution>Md.</us_distribution>
+  <us_distribution>Mass.</us_distribution>
+  <us_distribution>Mich.</us_distribution>
+  <us_distribution>Minn.</us_distribution>
+  <us_distribution>Miss.</us_distribution>
+  <us_distribution>Mo.</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>Nebr.</us_distribution>
+  <us_distribution>N.H.</us_distribution>
+  <us_distribution>N.J.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>N.C.</us_distribution>
+  <us_distribution>N.Dak.</us_distribution>
+  <us_distribution>Ohio</us_distribution>
+  <us_distribution>Okla.</us_distribution>
+  <us_distribution>Penn.</us_distribution>
+  <us_distribution>R.I.</us_distribution>
+  <us_distribution>S.C.</us_distribution>
+  <us_distribution>S.Dak.</us_distribution>
+  <us_distribution>Tenn.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Vt.</us_distribution>
+  <us_distribution>Va.</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <us_distribution>Wis.</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <discussion>Subspecies ludoviciana is widespread in North America in diverse habitats. It is the most common subspecies and the most variable morphologically.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

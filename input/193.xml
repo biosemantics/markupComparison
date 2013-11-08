@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>20.</number>
+  <genus_name>VOLUTARIA</genus_name>
+  <authority>Cassini</authority>
+  <place_of_publication>Bull. Sci. Soc. Philom. Paris 1816: 200. 1816</place_of_publication>
+  <common_name />
+  <derivation>Latin voluta , twisted, spiral, and - aria , possession, alluding to spirally coiled corolla lobes of original species</derivation>
+  <author_of_tribe_genus>David J. Keil</author_of_tribe_genus>
+  <synonym_of_genus_name>Cyanopsis Cassini; Volutarella Cassini</synonym_of_genus_name>
+  <description>
+    <statement id="193.txt-0">
+      <text>Annuals, to 50 cm ;</text>
+    </statement>
+    <statement id="193.txt-1">
+      <text>taprooted, not spiny.</text>
+      <structure id="o2653" name="whole_organism">
+        <character char_type="range_value" name="size" to="50" to_unit="cm" />
+        <character name="life_style" value="annual" />
+        <character name="architecture" value="taprooted" />
+        <character name="architecture_or_shape" value="spiny" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="193.txt-2">
+      <text>Stems erect, branched, leafy ;</text>
+      <structure id="o2654" name="stem">
+        <character name="orientation" value="erect" />
+        <character name="architecture_or_shape" value="branched" />
+        <character name="architecture" value="leafy" />
+      </structure>
+    </statement>
+    <statement id="193.txt-3">
+      <text>branches few–many , ascending.</text>
+      <structure id="o2655" name="branch">
+        <character char_type="range_value" name="count" from="few" to="many" />
+        <character name="orientation" value="ascending" />
+      </structure>
+    </statement>
+    <statement id="193.txt-4">
+      <text>Leaves basal and cauline;</text>
+    </statement>
+    <statement id="193.txt-5">
+      <text>winged-petiolate (basal and proximal cauline ) or sessile (mid and distal cauline ) ;</text>
+      <structure id="o2656" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="architecture" value="winged-petiolate" />
+        <character name="architecture" value="sessile" />
+      </structure>
+    </statement>
+    <statement id="193.txt-6">
+      <text>blade margins entire to dentate or pinnately divided, faces villous (hairs septate), minutely glandular.</text>
+      <structure id="o2657" name="margin" constraint="blade">
+        <character char_type="range_value" name="shape" from="entire" to="dentate or pinnately divided" />
+        <character name="shape" value="entire" />
+        <character name="shape" value="dentate" />
+        <character name="shape" value="divided" modifier="pinnately" />
+      </structure>
+      <structure id="o2658" name="face">
+        <character name="pubescence" value="villous" />
+        <character name="architecture_or_exudation_or_pubescence" value="glandular" modifier="minutely" />
+      </structure>
+    </statement>
+    <statement id="193.txt-7">
+      <text>Heads radiant, borne singly or in few-headed corymbiform arrays.</text>
+      <structure id="o2659" name="head">
+        <character name="architecture_or_arrangement" value="radiant" />
+        <character name="arrangement" value="singly" />
+        <character name="arrangement" value="in few-headed corymbiform arrays" />
+      </structure>
+      <structure id="o2660" name="array">
+        <character name="architecture_or_shape" value="few-headed" />
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <relation id="r374" name="in" from="o2659" to="o2660" negation="false" />
+    </statement>
+    <statement id="193.txt-8">
+      <text>Involucres ovoid, 10–15 mm diam.</text>
+      <structure id="o2661" name="involucre">
+        <character name="shape" value="ovoid" />
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="15" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="193.txt-9">
+      <text>Phyllaries many in several series, unequal, appressed, ovate to lanceolate, margins entire, apices acute, tipped by ascending, spreading or reflexed, flattened spines.</text>
+      <structure id="o2662" name="phyllary">
+        <character name="count" value="many" constraint="in series" constraintid="o2663" />
+        <character name="size" value="unequal" />
+        <character name="orientation" value="appressed" />
+        <character char_type="range_value" name="shape" from="ovate" to="lanceolate" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="lanceolate" />
+      </structure>
+      <structure id="o2663" name="series">
+        <character name="count" value="several" />
+      </structure>
+      <structure id="o2664" name="margin">
+        <character name="shape" value="entire" />
+      </structure>
+      <structure id="o2665" name="apex">
+        <character name="shape" value="acute" />
+      </structure>
+      <structure id="o2666" name="spine">
+        <character name="orientation" value="ascending" />
+        <character name="orientation" value="spreading" />
+        <character name="orientation" value="reflexed" />
+        <character name="shape" value="flattened" />
+      </structure>
+      <relation id="r375" name="tipped by" from="o2665" to="o2666" negation="false" />
+    </statement>
+    <statement id="193.txt-10">
+      <text>Receptacles flat, epaleate, bristly.</text>
+      <structure id="o2667" name="receptacle">
+        <character name="shape" value="flat" />
+        <character name="architecture" value="epaleate" />
+        <character name="pubescence" value="bristly" />
+      </structure>
+    </statement>
+    <statement id="193.txt-11">
+      <text>Florets:</text>
+      <structure id="o2668" name="floret" />
+    </statement>
+    <statement id="193.txt-12">
+      <text>peripheral neuter ;</text>
+      <structure id="o2669" name="floret" constraint="peripheral">
+        <character name="architecture" value="neuter" />
+      </structure>
+    </statement>
+    <statement id="193.txt-13">
+      <text>corollas pink to purple, [blue, or yellow] , spreading, lobes (5–6), linear;</text>
+      <structure id="o2670" name="corolla">
+        <character char_type="range_value" name="coloration" from="pink" to="purple" />
+        <character name="coloration" value="pink" />
+        <character name="coloration" value="purple" />
+        <character name="orientation" value="spreading" />
+      </structure>
+      <structure id="o2671" name="lobe">
+        <character char_type="range_value" name="atypical_count" from="5" to="6" />
+        <character name="arrangement_or_shape" value="linear" />
+      </structure>
+    </statement>
+    <statement id="193.txt-14">
+      <text>inner fertile, corollas pink to purple, [blue, yellow, or oarea, colored like the outer or not], tubes slender, throats narrowly cylindric, lobes linear-oblong;</text>
+      <structure id="o2672" name="floret" constraint="inner">
+        <character name="reproduction" value="fertile" />
+      </structure>
+      <structure id="o2673" name="corolla">
+        <character char_type="range_value" name="coloration" from="pink" to="purple" />
+        <character name="coloration" value="pink" />
+        <character name="coloration" value="purple" />
+      </structure>
+      <structure id="o2674" name="tube">
+        <character name="size" value="slender" />
+      </structure>
+      <structure id="o2675" name="throat">
+        <character name="shape" value="cylindric" modifier="narrowly" />
+      </structure>
+      <structure id="o2676" name="lobe">
+        <character name="shape" value="linear-oblong" />
+      </structure>
+    </statement>
+    <statement id="193.txt-15">
+      <text>anther bases tailed, apical appendages lanceolate;</text>
+      <structure id="o2677" name="base" constraint="anther">
+        <character name="shape" value="tailed" />
+      </structure>
+      <structure id="o2678" name="appendage" constraint="apical">
+        <character name="shape" value="lanceolate" />
+      </structure>
+    </statement>
+    <statement id="193.txt-16">
+      <text>style branches:</text>
+      <structure id="o2679" name="branch" constraint="style" />
+    </statement>
+    <statement id="193.txt-17">
+      <text>fused portions with minutely hairy nodes, distinct portions short, linear.</text>
+      <structure id="o2680" name="portion" constraint="fused" />
+      <structure id="o2681" name="node">
+        <character name="pubescence" value="hairy" modifier="minutely" />
+      </structure>
+      <relation id="r376" name="with" from="o2680" to="o2681" negation="false" />
+      <structure id="o2682" name="portion">
+        <character name="fusion" value="distinct" />
+        <character name="size" value="short" />
+        <character name="arrangement_or_shape" value="linear" />
+      </structure>
+    </statement>
+    <statement id="193.txt-18">
+      <text>Cypselae ± barrel-shaped , weakly compressed, ribbed, apices with prominent collars, faces pitted, attachment scars lateral (excavated, surrounded by prominent rims, with eliasomes) ;</text>
+      <structure id="o2683" name="cypsela">
+        <character name="shape" value="barrel-shaped" modifier="±" />
+        <character name="shape" value="compressed" modifier="weakly" />
+        <character name="architecture_or_shape" value="ribbed" />
+      </structure>
+      <structure id="o2684" name="apex" />
+      <structure id="o2685" name="collar">
+        <character name="prominence" value="prominent" />
+      </structure>
+      <relation id="r377" name="with" from="o2684" to="o2685" negation="false" />
+      <structure id="o2686" name="face">
+        <character name="relief" value="pitted" />
+      </structure>
+      <structure id="o2687" name="scar" constraint="attachment">
+        <character name="insertion_or_position" value="lateral" />
+      </structure>
+    </statement>
+    <statement id="193.txt-19">
+      <text>pappi persistent, of several series of many distinct , white to tawny, narrow scales.</text>
+      <structure id="o2688" name="pappus">
+        <character name="duration" value="persistent" />
+      </structure>
+      <structure id="o2689" name="series">
+        <character name="count" value="several" />
+      </structure>
+      <relation id="r378" name="consist_of" from="o2688" to="o2689" negation="false" />
+      <structure id="o2690" name="scale">
+        <character name="count" value="many" />
+        <character name="fusion" value="distinct" />
+        <character char_type="range_value" name="coloration" from="white" to="tawny" />
+        <character name="coloration" value="white" />
+        <character name="coloration" value="tawny" />
+        <character name="size" value="narrow" />
+      </structure>
+      <relation id="r379" name="part_of" from="o2689" to="o2690" negation="false" />
+    </statement>
+    <statement id="193.txt-20">
+      <text>x = 8, 12, 13, 14.</text>
+      <structure id="o2691" name="chromosome">
+        <character name="count" value="8" />
+        <character name="count" value="12" />
+        <character name="count" value="13" />
+        <character name="count" value="14" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species 16 (1 in the flora):</number_of_infrataxa>
+  <introduced>introduced;</introduced>
+  <general_distribution>Europe (Mediterranean region)</general_distribution>
+  <general_distribution>w Asia</general_distribution>
+  <general_distribution>Macaronesia</general_distribution>
+  <general_distribution>ne Africa.</general_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

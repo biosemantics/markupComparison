@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>4.</number>
+  <species_name>Cirsium helenioides</species_name>
+  <authority>(Linnaeus) Hill</authority>
+  <place_of_publication>Hort. Kew., 64. 1768</place_of_publication>
+  <past_name>helenoides</past_name>
+  <common_name>Melancholy thistle</common_name>
+  <synonym_of_species_name>Carduus helenioides Linnaeus, Sp. Pl. 2: 825. 1753; Cirsium heterophyllum (Linnaeus) Hill</synonym_of_species_name>
+  <description>
+    <statement id="55.txt-0">
+      <text>Perennials , 40–120 cm;</text>
+      <structure id="o11291" name="whole_organism">
+        <character char_type="range_value" name="size" from="40" from_unit="cm" to="120" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="55.txt-1">
+      <text>runner roots.</text>
+      <structure id="o11292" name="root" constraint="runner" />
+    </statement>
+    <statement id="55.txt-2">
+      <text>Stems single, erect, ± arachnoid-tomentose;</text>
+      <structure id="o11293" name="stem">
+        <character name="count" value="single" />
+        <character name="orientation" value="erect" />
+        <character name="pubescence" value="arachnoid-tomentose" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="55.txt-3">
+      <text>branches 0 or few, ascending.</text>
+      <structure id="o11294" name="branch">
+        <character name="count" value="0" />
+        <character name="count" value="few" />
+        <character name="orientation" value="ascending" />
+      </structure>
+    </statement>
+    <statement id="55.txt-4">
+      <text>Leaves oblong to broadly lanceolate, 20–40 × 4–8 cm, finely spinulose-dentate or proximal cauline pinnatifid, lobes undivided, finely spinulose-dentate, main spines 1–2 mm, abaxial faces white-tomentose (with non-septate trichomes), adaxial glabrous;</text>
+      <structure id="o11295" name="leaf">
+        <character char_type="range_value" name="shape" from="oblong" to="broadly lanceolate" />
+        <character name="shape" value="oblong" />
+        <character name="shape" value="lanceolate" modifier="broadly" />
+        <character char_type="range_value" name="length" from="20" from_unit="cm" to="40" to_unit="cm" />
+        <character char_type="range_value" name="width" from="4" from_unit="cm" to="8" to_unit="cm" />
+        <character name="shape" value="spinulose-dentate" modifier="finely" />
+      </structure>
+      <structure id="o11296" name="lobe">
+        <character name="shape" value="undivided" />
+        <character name="shape" value="spinulose-dentate" modifier="finely" />
+      </structure>
+      <structure id="o11297" name="spine" constraint="main">
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="2" to_unit="mm" />
+      </structure>
+      <structure id="o11298" name="face" constraint="abaxial">
+        <character name="pubescence" value="white-tomentose" />
+        <character name="insertion_or_position" value="adaxial" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="55.txt-5">
+      <text>basal present at flowering, petiolate, bases tapered;</text>
+      <structure id="o11299" name="leaf" constraint="basal">
+        <character name="presence" value="present" constraint="at bases" constraintid="o11300" />
+      </structure>
+      <structure id="o11300" name="base">
+        <character name="architecture" value="petiolate" />
+        <character name="shape" value="tapered" />
+      </structure>
+    </statement>
+    <statement id="55.txt-6">
+      <text>cauline sessile, reduced distally, bases clasping, not decurrent;</text>
+      <structure id="o11301" name="leaf" constraint="cauline">
+        <character name="architecture" value="sessile" />
+        <character name="size" value="reduced" modifier="distally" />
+      </structure>
+    </statement>
+    <statement id="55.txt-7">
+      <text>distal (few, well separated), oblong or linear, the uppermost reduced to linear bracts.</text>
+      <structure id="o11302" name="base">
+        <character name="architecture" value="clasping" />
+        <character name="shape" value="decurrent" modifier="not" />
+        <character name="insertion_or_position" value="distal" />
+        <character name="shape" value="oblong" />
+        <character name="shape" value="linear" />
+      </structure>
+      <structure id="o11303" name="bract">
+        <character name="arrangement_or_shape" value="linear" />
+      </structure>
+      <relation id="r1291" name="the uppermost reduced to" from="o11302" to="o11303" negation="false" />
+    </statement>
+    <statement id="55.txt-8">
+      <text>Heads borne singly or less commonly 2–5 in terminal clusters.</text>
+      <structure id="o11304" name="head">
+        <character name="arrangement" value="singly" />
+        <character char_type="range_value" name="count" from="2" to="5" modifier="less commonly" constraint="in clusters" constraintid="o11305" />
+      </structure>
+      <structure id="o11305" name="cluster" constraint="terminal" />
+    </statement>
+    <statement id="55.txt-9">
+      <text>Peduncles 2–10(–30) cm (elevated above distal leaves).</text>
+      <structure id="o11306" name="peduncle">
+        <character char_type="range_value" name="atypical_size" from="10" to="30" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="2" from_unit="cm" to="10" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="55.txt-10">
+      <text>Involucres broadly ovoid, 2–3 × 2–3.5 cm, glabrous or loosely arachnoid.</text>
+      <structure id="o11307" name="involucre">
+        <character name="shape" value="ovoid" modifier="broadly" />
+        <character char_type="range_value" name="length" from="2" from_unit="cm" to="3" to_unit="cm" />
+        <character char_type="range_value" name="width" from="2" from_unit="cm" to="3.5" to_unit="cm" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="arachnoid" modifier="loosely" />
+      </structure>
+    </statement>
+    <statement id="55.txt-11">
+      <text>Phyllaries in 8–10 series, imbricate, green, ovate or lanceolate (outer) to linear-lanceolate (inner), abaxial faces with a prominent elongate glutinous ridge, outer and middle tightly appressed, margins entire, apices with ascending, weak spines 0–1 mm;</text>
+      <structure id="o11308" name="phyllary">
+        <character name="aestivation_or_arrangement" value="imbricate" />
+        <character name="coloration" value="green" />
+        <character char_type="range_value" name="shape" from="lanceolate" to="linear-lanceolate" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="linear-lanceolate" />
+      </structure>
+      <structure id="o11309" name="series">
+        <character char_type="range_value" name="count" from="8" to="10" />
+      </structure>
+      <relation id="r1292" name="in" from="o11308" to="o11309" negation="false" />
+      <structure id="o11310" name="face" constraint="abaxial">
+        <character name="position" value="outer" />
+      </structure>
+      <structure id="o11311" name="ridge">
+        <character name="prominence" value="prominent" />
+        <character name="shape" value="elongate" />
+        <character name="coating_or_texture" value="glutinous" />
+      </structure>
+      <relation id="r1293" name="with" from="o11310" to="o11311" negation="false" />
+      <structure id="o11312" name="middle">
+        <character name="orientation" value="appressed" modifier="tightly" />
+      </structure>
+      <structure id="o11313" name="margin">
+        <character name="shape" value="entire" />
+      </structure>
+      <structure id="o11314" name="apex" />
+      <structure id="o11315" name="spine">
+        <character name="orientation" value="ascending" />
+        <character name="texture" value="weak" />
+        <character char_type="range_value" name="size" from="0" from_unit="mm" to="1" to_unit="mm" />
+      </structure>
+      <relation id="r1294" name="with" from="o11314" to="o11315" negation="false" />
+    </statement>
+    <statement id="55.txt-12">
+      <text>apices of inner phyllaries attenuate, flat.</text>
+      <structure id="o11316" name="apex">
+        <character name="shape" value="attenuate" />
+        <character name="shape" value="flat" />
+      </structure>
+      <structure id="o11317" name="phyllary" constraint="inner" />
+      <relation id="r1295" name="part_of" from="o11316" to="o11317" negation="false" />
+    </statement>
+    <statement id="55.txt-13">
+      <text>Corollas red-purple, 25–30 mm, tubes 10–23 mm, throats 8–14 mm (noticeably wider than tubes ) , lobes 7–10 mm;</text>
+      <structure id="o11318" name="corolla">
+        <character name="coloration" value="purple" modifier="red" />
+        <character char_type="range_value" name="size" from="25" from_unit="mm" to="30" to_unit="mm" />
+      </structure>
+      <structure id="o11319" name="tube">
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="23" to_unit="mm" />
+      </structure>
+      <structure id="o11320" name="throat">
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="14" to_unit="mm" />
+      </structure>
+      <structure id="o11321" name="lobe">
+        <character char_type="range_value" name="size" from="7" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="55.txt-14">
+      <text>style tips 4–5 mm.</text>
+      <structure id="o11322" name="tip" constraint="style">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="55.txt-15">
+      <text>Cypselae light brown, 3–5 mm, bodies and apical collars concolorous;</text>
+      <structure id="o11323" name="cypsela">
+        <character name="coloration" value="brown" modifier="light" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+      <structure id="o11324" name="body" />
+      <structure id="o11325" name="collar" constraint="apical">
+        <character name="coloration" value="concolorous" />
+      </structure>
+    </statement>
+    <statement id="55.txt-16">
+      <text>pappi 20–30 mm.</text>
+      <structure id="o11326" name="pappus">
+        <character char_type="range_value" name="size" from="20" from_unit="mm" to="30" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="55.txt-17">
+      <text>2 n = 34.</text>
+      <structure id="o11327" name="chromosome">
+        <character name="count" value="34" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>fjordlands</habitat>
+  <elevation>0–50 m;</elevation>
+  <global_distribution>of conservation concern</global_distribution>
+  <global_distribution>Greenland</global_distribution>
+  <global_distribution>Iceland</global_distribution>
+  <global_distribution>Europe</global_distribution>
+  <global_distribution>Asia.</global_distribution>
+  <discussion>Cirsium helenioides is one of only two species of the genus that have native populations in the Old World and the flora area. Neither reaches the North American mainland.</discussion>
+  <discussion>The conservation status of Cirsium helenioides is not known; it is known in the flora area only from a single fjord and possibly should be considered of conservation concern.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>4c.</number>
+  <subspecies_name>Stephanomeria exigua Nuttall subsp. deanei</subspecies_name>
+  <authority>(J. F. Macbride) Gottlieb</authority>
+  <place_of_publication>Madroño 21: 470. 1972</place_of_publication>
+  <common_name>Deane’s wirelettuce</common_name>
+  <synonym_of_subspecies_name>Stephanomeria exigua var. deanei J. F. Macbride, Contr. Gray Herb. 53: 22. 1918</synonym_of_subspecies_name>
+  <description>
+    <statement id="555.txt-0">
+      <text>Heads borne in small pani-culiform arrays along branches.</text>
+      <structure id="o11428" name="head" />
+      <structure id="o11429" name="array">
+        <character name="size" value="small" />
+        <character name="architecture" value="pani-culiform" />
+      </structure>
+      <relation id="r1310" name="borne in" from="o11428" to="o11429" negation="false" />
+      <structure id="o11430" name="branch" />
+      <relation id="r1311" name="along" from="o11429" to="o11430" negation="false" />
+    </statement>
+    <statement id="555.txt-1">
+      <text>Peduncles 10–40 mm, densely glandular .</text>
+      <structure id="o11431" name="peduncle">
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="40" to_unit="mm" />
+        <character name="architecture_or_exudation_or_pubescence" value="glandular" modifier="densely" />
+      </structure>
+    </statement>
+    <statement id="555.txt-2">
+      <text>Calyculi of appressed bractlets.</text>
+      <structure id="o11432" name="calyculus" />
+      <structure id="o11433" name="bractlet">
+        <character name="orientation" value="appressed" />
+      </structure>
+      <relation id="r1312" name="consist_of" from="o11432" to="o11433" negation="false" />
+    </statement>
+    <statement id="555.txt-3">
+      <text>Involucres densely glandular.</text>
+      <structure id="o11434" name="involucre">
+        <character name="architecture_or_exudation_or_pubescence" value="glandular" modifier="densely" />
+      </structure>
+    </statement>
+    <statement id="555.txt-4">
+      <text>Florets 7–9.</text>
+      <structure id="o11435" name="floret">
+        <character char_type="range_value" name="count" from="7" to="9" />
+      </structure>
+    </statement>
+    <statement id="555.txt-5">
+      <text>Cypselae light to dark tan, 2.1–2.4 mm, faces tuberculate, grooved;</text>
+      <structure id="o11436" name="cypsela">
+        <character char_type="range_value" name="coloration" from="light" to="dark-tan" />
+        <character name="coloration" value="light" />
+        <character name="coloration" value="tan" modifier="dark" />
+        <character char_type="range_value" name="size" from="2.1" from_unit="mm" to="2.4" to_unit="mm" />
+      </structure>
+      <structure id="o11437" name="face">
+        <character name="relief" value="tuberculate" />
+        <character name="architecture" value="grooved" />
+      </structure>
+    </statement>
+    <statement id="555.txt-6">
+      <text>pappi of 9–14, white to light tan bristles, bases persistent, connate in groups of 2–4, plumose on distal 55–60%.</text>
+      <structure id="o11438" name="pappus" />
+      <structure id="o11439" name="bristle">
+        <character char_type="range_value" name="count" from="9" to="14" />
+        <character char_type="range_value" name="coloration" from="white" to="light-tan" />
+        <character name="coloration" value="white" />
+        <character name="coloration" value="tan" modifier="light" />
+      </structure>
+      <relation id="r1313" name="consist_of" from="o11438" to="o11439" negation="false" />
+      <structure id="o11440" name="base">
+        <character name="duration" value="persistent" />
+        <character name="fusion" value="connate" constraint="in groups" constraintid="o11441" />
+        <character name="architecture" value="plumose" modifier="on distal 55-60%" />
+      </structure>
+      <structure id="o11441" name="group">
+        <character char_type="range_value" name="count" from="2" to="4" modifier="of" />
+      </structure>
+    </statement>
+    <statement id="555.txt-7">
+      <text>2 n = 16.</text>
+      <structure id="o11442" name="chromosome">
+        <character name="count" value="16" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <habitat>sandy fields and chaparral</habitat>
+  <elevation>0–1700 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <global_distribution>Mexico (Baja California).</global_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

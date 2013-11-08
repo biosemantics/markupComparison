@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>38.</number>
+  <species_name>Artemisia michauxiana</species_name>
+  <authority>Besser</authority>
+  <place_of_publication>in W. J. Hooker, Fl. Bor.-Amer. 1: 324. 1833</place_of_publication>
+  <common_name>Lemon sagewort</common_name>
+  <synonym_of_species_name>Artemisia discolor Douglas ex Besser; A. vulgaris Linnaeus subsp. michauxiana (Besser) H. St. John</synonym_of_species_name>
+  <description>
+    <statement id="915.txt-0">
+      <text>Perennials, 30–100 cm, strongly aromatic (lemon-scented; rhizomatous).</text>
+      <structure id="o18860" name="whole_organism">
+        <character char_type="range_value" name="size" from="30" from_unit="cm" to="100" to_unit="cm" />
+        <character name="odor" value="aromatic" modifier="strongly" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="915.txt-1">
+      <text>Stems relatively many, erect, green, simple, glabrous.</text>
+      <structure id="o18861" name="stem">
+        <character name="count" value="many" modifier="relatively" />
+        <character name="orientation" value="erect" />
+        <character name="coloration" value="green" />
+        <character name="architecture" value="simple" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="915.txt-2">
+      <text>Leaves cauline, green;</text>
+      <structure id="o18862" name="leaf">
+        <character name="insertion_or_position" value="cauline" />
+        <character name="coloration" value="green" />
+      </structure>
+    </statement>
+    <statement id="915.txt-3">
+      <text>blades broadly lanceolate to narrowly elliptic, 1.5–11 × 1–1.5 cm, 2-pinnately lobed, (ultimate lobes toothed), faces white-tomentose (abaxial) or glabrous (adaxial), yellow-gland-dotted.</text>
+      <structure id="o18863" name="blade">
+        <character char_type="range_value" name="shape" from="broadly lanceolate" to="narrowly elliptic" />
+        <character name="shape" value="lanceolate" modifier="broadly" />
+        <character name="shape" value="elliptic" modifier="narrowly" />
+        <character char_type="range_value" name="length" from="1.5" from_unit="cm" to="11" to_unit="cm" />
+        <character char_type="range_value" name="width" from="1" from_unit="cm" to="1.5" to_unit="cm" />
+        <character name="shape" value="lobed" modifier="2-pinnately" />
+      </structure>
+      <structure id="o18864" name="face">
+        <character name="pubescence" value="white-tomentose" />
+        <character name="pubescence" value="glabrous" />
+        <character name="coloration_or_relief" value="yellow-gland-dotted" />
+      </structure>
+    </statement>
+    <statement id="915.txt-4">
+      <text>Heads (erect to nodding, peduncles 0 or to 10 mm) in paniculiform to spiciform arrays 8–15 × 1–1.5 cm.</text>
+      <structure id="o18865" name="head" />
+      <structure id="o18866" name="array">
+        <character char_type="range_value" name="architecture" from="paniculiform" to="spiciform" />
+        <character name="architecture" value="paniculiform" />
+        <character name="architecture" value="spiciform" />
+        <character char_type="range_value" name="length" from="8" from_unit="cm" to="15" to_unit="cm" />
+        <character char_type="range_value" name="width" from="1" from_unit="cm" to="1.5" to_unit="cm" />
+      </structure>
+      <relation id="r1997" name="in" from="o18865" to="o18866" negation="false" />
+    </statement>
+    <statement id="915.txt-5">
+      <text>Involucres campanulate, 3(–4) × 2–5.5 mm.</text>
+      <structure id="o18867" name="involucre">
+        <character name="shape" value="campanulate" />
+        <character char_type="range_value" name="atypical_length" from="3" to="4" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character name="length" value="3" unit="mm" />
+        <character char_type="range_value" name="width" from="2" from_unit="mm" to="5.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="915.txt-6">
+      <text>Phyllaries (yellow-green, rarely purplish) broadly ovate, glabrous or sparsely hairy, yellow-gland-dotted.</text>
+      <structure id="o18868" name="phyllary">
+        <character name="shape" value="ovate" modifier="broadly" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="hairy" modifier="sparsely" />
+        <character name="coloration_or_relief" value="yellow-gland-dotted" />
+      </structure>
+    </statement>
+    <statement id="915.txt-7">
+      <text>Florets:</text>
+      <structure id="o18869" name="floret" />
+    </statement>
+    <statement id="915.txt-8">
+      <text>pistillate 9–12;</text>
+      <structure id="o18870" name="floret" constraint="pistillate">
+        <character char_type="range_value" name="count" from="9" to="12" />
+      </structure>
+    </statement>
+    <statement id="915.txt-9">
+      <text>bisexual 15–35;</text>
+      <structure id="o18871" name="floret" constraint="bisexual">
+        <character char_type="range_value" name="count" from="15" to="35" />
+      </structure>
+    </statement>
+    <statement id="915.txt-10">
+      <text>corollas yellow, 1–1.5 mm, glandular.</text>
+      <structure id="o18872" name="corolla">
+        <character name="coloration" value="yellow" />
+        <character char_type="range_value" name="size" from="1" from_unit="mm" to="1.5" to_unit="mm" />
+        <character name="architecture_or_exudation_or_pubescence" value="glandular" />
+      </structure>
+    </statement>
+    <statement id="915.txt-11">
+      <text>Cypselae (yellow to light brown) ellipsoid, ca. 0.5 mm, glabrous or glandular.</text>
+      <structure id="o18873" name="cypsela">
+        <character name="shape" value="ellipsoid" />
+        <character name="size" value="0.5" unit="mm" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="glandular" />
+      </structure>
+    </statement>
+    <statement id="915.txt-12">
+      <text>2 n = 18, 36.</text>
+      <structure id="o18874" name="chromosome">
+        <character name="count" value="18" />
+        <character name="count" value="36" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <flowering_time>nov</flowering_time>
+  <habitat>talus slopes</habitat>
+  <habitat>alpine and subalpine drainages</habitat>
+  <elevation>1900–3700 m;</elevation>
+  <ca_distribution>Alta.</ca_distribution>
+  <ca_distribution>B.C.</ca_distribution>
+  <ca_distribution>Yukon</ca_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Colo.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Mont.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <us_distribution>Wyo.</us_distribution>
+  <discussion>Members of the Artemisia ludoviciana complex with deeply lobed leaves are sometimes confused with A. michauxiana, and there is evidence that plants hybridize in some locations. Artemisia michauxiana is distinguished by its glabrous, bright green to yellow-green foliage and lemony-sweet fragrance.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

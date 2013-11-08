@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>34.</number>
+  <genus_name>SCOLYMUS</genus_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 813. 1753; Gen. Pl. ed. 5, 355. 1754</place_of_publication>
+  <common_name />
+  <derivation>Greek skolymus , a kind of thistle or artichoke; allusion unclear, perhaps for perceived similarity to Cynara , globe artichoke</derivation>
+  <author_of_tribe_genus>John L. Strother</author_of_tribe_genus>
+  <description>
+    <statement id="269.txt-0">
+      <text>Annuals, biennials, or perennials, 10–80(–200+) cm;</text>
+    </statement>
+    <statement id="269.txt-1">
+      <text>taprooted.</text>
+      <structure id="o4690" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="80" to="200" from_unit="cm" to_unit="cm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="80" to_unit="cm" />
+        <character name="life_style" value="annual" />
+        <character name="life_style" value="biennial" />
+        <character name="life_style" value="perennial" />
+        <character name="architecture" value="taprooted" />
+        <character name="life_style" value="biennial" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="269.txt-2">
+      <text>Stems usually 1, erect, branched distally, glabrous or hairy (internodes winged, margins spiny, faces ± scabrellous and/or sparsely arachnose).</text>
+      <structure id="o4693" name="stem">
+        <character name="count" value="1" modifier="usually" />
+        <character name="orientation" value="erect" />
+        <character name="architecture_or_shape" value="branched" modifier="distally" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="hairy" />
+      </structure>
+    </statement>
+    <statement id="269.txt-3">
+      <text>Leaves basal and cauline (mostly cauline at flowering);</text>
+      <structure id="o4694" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+      </structure>
+    </statement>
+    <statement id="269.txt-4">
+      <text>basal ± petiolate, distal sessile;</text>
+      <structure id="o4695" name="leaf" constraint="basal">
+        <character name="architecture" value="petiolate" modifier="±" />
+      </structure>
+      <structure id="o4696" name="leaf" constraint="distal">
+        <character name="architecture" value="sessile" />
+      </structure>
+    </statement>
+    <statement id="269.txt-5">
+      <text>blades oblong or lanceolate to oblanceolate or linear, margins pinnately lobed to dentate, usually strongly spiny (faces ± scabrellous and/or sparsely arachnose).</text>
+      <structure id="o4697" name="blade">
+        <character char_type="range_value" name="shape" from="lanceolate" to="oblanceolate or linear" />
+        <character name="shape" value="oblong" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="linear" />
+      </structure>
+      <structure id="o4698" name="margin">
+        <character name="shape" value="lobed" modifier="pinnately" />
+        <character name="shape" value="dentate" />
+        <character name="architecture_or_shape" value="spiny" modifier="usually strongly" />
+      </structure>
+    </statement>
+    <statement id="269.txt-6">
+      <text>Heads borne singly (axillary and terminal) or in ± spiciform arrays.</text>
+      <structure id="o4699" name="head">
+        <character name="arrangement" value="singly" />
+        <character name="arrangement" value="in moreorless spiciform arrays" />
+      </structure>
+      <structure id="o4700" name="array">
+        <character name="architecture" value="spiciform" modifier="±" />
+      </structure>
+      <relation id="r640" name="in" from="o4699" to="o4700" negation="false" />
+    </statement>
+    <statement id="269.txt-7">
+      <text>Peduncles usually 0 (heads in axils of ± foliaceous bracts; if peduncles produced, not inflated, strongly bracteate).</text>
+      <structure id="o4701" name="peduncle">
+        <character name="count" value="0" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="269.txt-8">
+      <text>Calyculi 0.</text>
+      <structure id="o4702" name="calyculus">
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+    <statement id="269.txt-9">
+      <text>Involucres campanulate to urceolate, 8–12[–16] mm diam. (larger in fruit).</text>
+      <structure id="o4703" name="involucre">
+        <character char_type="range_value" name="shape" from="campanulate" to="urceolate" />
+        <character name="shape" value="campanulate" />
+        <character name="shape" value="urceolate" />
+        <character char_type="range_value" name="atypical_size" from="12" to="16" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="8" from_unit="mm" to="12" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="269.txt-10">
+      <text>Phyllaries 24–30+ in 3+ series, lanceolate to lance-linear (± flat proximally), unequal to subequal, margins little, if at all, scarious, apices spine-tipped.</text>
+      <structure id="o4704" name="phyllary">
+        <character char_type="range_value" name="count" from="24" to="30" upper_restricted="false" constraint="in series" constraintid="o4705" />
+        <character char_type="range_value" name="shape" from="lanceolate" to="lance-linear" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="lance-linear" />
+        <character char_type="range_value" name="size" from="unequal" to="subequal" />
+        <character name="size" value="unequal" />
+        <character name="size" value="subequal" />
+      </structure>
+      <structure id="o4705" name="series">
+        <character name="count" char_type="range_value" from="3" upper_restricted="false" />
+      </structure>
+      <structure id="o4706" name="margin">
+        <character name="texture" value="scarious" />
+      </structure>
+      <structure id="o4707" name="apex" />
+    </statement>
+    <statement id="269.txt-11">
+      <text>Receptacles conic to hemispheric, smooth, glabrous, paleate;</text>
+      <structure id="o4708" name="receptacle">
+        <character char_type="range_value" name="shape" from="conic" to="hemispheric" />
+        <character name="shape" value="conic" />
+        <character name="shape" value="hemispheric" />
+        <character name="architecture_or_relief" value="smooth" />
+        <character name="pubescence" value="glabrous" />
+        <character name="architecture" value="paleate" />
+      </structure>
+    </statement>
+    <statement id="269.txt-12">
+      <text>paleae winged (each palea enfolding, adnate to, and shed with cypsela).</text>
+      <structure id="o4709" name="palea">
+        <character name="architecture" value="winged" />
+      </structure>
+    </statement>
+    <statement id="269.txt-13">
+      <text>Florets 30–60+;</text>
+      <structure id="o4710" name="floret">
+        <character char_type="range_value" name="count" from="30" to="60" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="269.txt-14">
+      <text>corollas yellow.</text>
+      <structure id="o4711" name="corolla">
+        <character name="coloration" value="yellow" />
+      </structure>
+    </statement>
+    <statement id="269.txt-15">
+      <text>Cypselae (each shed with its enfolding palea) brownish, obcompressed, ± obovoid, not beaked, ribs 0, glabrous;</text>
+      <structure id="o4712" name="cypsela">
+        <character name="coloration" value="brownish" />
+        <character name="shape" value="obcompressed" />
+        <character name="shape" value="obovoid" modifier="±" />
+        <character name="shape" value="beaked" modifier="not" />
+      </structure>
+      <structure id="o4713" name="rib">
+        <character name="count" value="0" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="269.txt-16">
+      <text>pappi 0 or persistent (fragile), of 2–4[–5] whitish to stramineous, subequal, setiform-aristate scales plus 0–4 muticous to lanceolate scales in ± 1 series .</text>
+      <structure id="o4714" name="pappus">
+        <character name="count" value="0" />
+        <character name="duration" value="persistent" />
+      </structure>
+      <structure id="o4715" name="scale">
+        <character name="count" value="5]" />
+        <character char_type="range_value" name="coloration" from="whitish" to="stramineous" />
+        <character name="coloration" value="whitish" />
+        <character name="coloration" value="stramineous" />
+        <character name="size" value="subequal" />
+        <character name="shape" value="setiform-aristate" />
+        <character char_type="range_value" name="count" from="2" to="4" />
+        <character char_type="range_value" name="count" from="0" to="4" />
+      </structure>
+      <relation id="r641" name="consist_of" from="o4714" to="o4715" negation="false" />
+      <structure id="o4716" name="scale">
+        <character char_type="range_value" name="shape" from="muticous" to="lanceolate" />
+        <character name="shape" value="muticous" />
+        <character name="shape" value="lanceolate" />
+      </structure>
+      <structure id="o4717" name="series">
+        <character name="count" value="1" modifier="±" />
+      </structure>
+      <relation id="r642" name="in" from="o4716" to="o4717" negation="false" />
+    </statement>
+    <statement id="269.txt-17">
+      <text>x = 10.</text>
+      <structure id="o4718" name="chromosome">
+        <character name="count" value="10" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species 3 (2 in the flora):</number_of_infrataxa>
+  <introduced>introduced;</introduced>
+  <general_distribution>Europe</general_distribution>
+  <general_distribution>Middle East</general_distribution>
+  <general_distribution>n Africa</general_distribution>
+  <general_distribution>Atlantic Islands.</general_distribution>
+  <key>1.Annuals; margins of stem wings and leaf blades usually white and thickened; pappi 0 1. Scolymus maculatus</key>
+  <key>1.Biennials or perennials; margins of stem wings and leaf blades little, if at all, white or thickened; pappi of 2–4 setiform-aristate scales plus 0–4 muticous to lanceolate scales 2. Scolymus hispanicus</key>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

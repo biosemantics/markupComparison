@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Xerochrysum bracteatum</species_name>
+  <authority>(Ventenat) Tzvelev</authority>
+  <place_of_publication>Novosti Sist. Vyssh. Rast. 27: 151. 1990</place_of_publication>
+  <common_name>Strawflower , golden everlasting , paper daisy</common_name>
+  <synonym_of_species_name>Xeranthemum bracteatum Ventenat, Jard. Malmaison 1: plate 2. 1803; Bracteantha bracteata (Ventenat) Anderberg &amp; Haegi; Helichrysum bracteatum (Ventenat) Andrews</synonym_of_species_name>
+  <description>
+    <statement id="706.txt-0">
+      <text>Annuals or perennials, 20–90 cm (dwarf varieties mostly less than 30 cm);</text>
+    </statement>
+    <statement id="706.txt-1">
+      <text>taprooted.</text>
+      <structure id="o14752" name="whole_organism">
+        <character char_type="range_value" name="size" from="20" from_unit="cm" to="90" to_unit="cm" />
+        <character name="life_style" value="annual" />
+        <character name="life_style" value="perennial" />
+        <character name="architecture" value="taprooted" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="706.txt-2">
+      <text>Stems scabrellous and minutely glandular, sometimes lightly arachnoid as well.</text>
+      <structure id="o14754" name="stem">
+        <character name="relief" value="scabrellous" />
+        <character name="architecture_or_exudation_or_pubescence" value="glandular" modifier="minutely" />
+        <character name="pubescence" value="arachnoid" modifier="sometimes lightly" />
+      </structure>
+    </statement>
+    <statement id="706.txt-3">
+      <text>Leaf blades narrowly elliptic or oblong to oblong-lanceolate, 2–5(–10) cm, sometimes slightly fleshy, vestiture like stems.</text>
+      <structure id="o14755" name="blade" constraint="leaf">
+        <character char_type="range_value" name="shape" from="oblong" to="oblong-lanceolate" />
+        <character name="shape" value="elliptic" modifier="narrowly" />
+        <character name="shape" value="oblong" modifier="narrowly" />
+        <character name="shape" value="oblong-lanceolate" modifier="narrowly" />
+        <character char_type="range_value" name="atypical_size" from="5" to="10" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="2" from_unit="cm" to="5" to_unit="cm" />
+        <character name="texture" value="fleshy" modifier="sometimes slightly" />
+      </structure>
+      <structure id="o14756" name="vestiture" />
+      <structure id="o14757" name="stem" />
+      <relation id="r1587" name="like" from="o14756" to="o14757" negation="false" />
+    </statement>
+    <statement id="706.txt-4">
+      <text>Heads 3–5 cm diam. (across open involucres).</text>
+      <structure id="o14758" name="head">
+        <character char_type="range_value" name="size" from="3" from_unit="cm" to="5" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="706.txt-5">
+      <text>Phyllaries yellow (wild form) or white to pink, red, and purple (cultivars), 10–20 mm.</text>
+      <structure id="o14759" name="phyllary">
+        <character name="coloration" value="yellow" />
+        <character name="coloration" value="white" />
+        <character name="coloration" value="pink" />
+        <character name="coloration" value="red" />
+        <character name="coloration" value="purple" />
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="20" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="706.txt-6">
+      <text>2 n = 24, 26, 28.</text>
+      <structure id="o14760" name="chromosome">
+        <character name="count" value="24" />
+        <character name="count" value="26" />
+        <character name="count" value="28" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>disturbed sites</habitat>
+  <elevation>20–50 m;</elevation>
+  <introduced>introduced;</introduced>
+  <us_distribution>Conn.</us_distribution>
+  <us_distribution>Mass.</us_distribution>
+  <global_distribution>Australia.</global_distribution>
+  <discussion>Known in horticulture as Helichrysum bracteatum, Xerochrysum bracteatum is widely cultivated for its relatively large, spreading, and spectacularly colored involucral bracts. It apparently rarely escapes from cultivation.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

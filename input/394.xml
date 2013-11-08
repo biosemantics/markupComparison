@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>7.</number>
+  <species_name>Hieracium bolanderi</species_name>
+  <authority>A. Gray</authority>
+  <place_of_publication>Proc. Amer. Acad. Arts 7: 365. 1868</place_of_publication>
+  <synonym_of_species_name>Hieracium siskiyouense M. Peck</synonym_of_species_name>
+  <description>
+    <statement id="394.txt-0">
+      <text>Plants 10–60+ cm.</text>
+      <structure id="o7593" name="whole_organism">
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="60" to_unit="cm" upper_restricted="false" />
+        <character name="life_style" value="plant" />
+      </structure>
+    </statement>
+    <statement id="394.txt-1">
+      <text>Stems glabrous or nearly so.</text>
+      <structure id="o7594" name="stem">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="glabrous" modifier="nearly" />
+      </structure>
+    </statement>
+    <statement id="394.txt-2">
+      <text>Leaves:</text>
+      <structure id="o7595" name="leaf" />
+    </statement>
+    <statement id="394.txt-3">
+      <text>basal 5–9+, cauline 0–3;</text>
+      <structure id="o7596" name="leaf" constraint="basal">
+        <character char_type="range_value" name="count" from="5" to="9" upper_restricted="false" />
+      </structure>
+      <structure id="o7597" name="leaf" constraint="cauline">
+        <character char_type="range_value" name="count" from="0" to="3" />
+      </structure>
+    </statement>
+    <statement id="394.txt-5">
+      <text>Heads (3–)15–15(–40+) in corymbiform arrays.</text>
+      <structure id="o7598" name="head">
+        <character char_type="range_value" name="atypical_count" from="3" to="15" to_inclusive="false" />
+        <character char_type="range_value" name="atypical_count" from="15" to="40" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="15" to="15" constraint="in arrays" constraintid="o7599" />
+      </structure>
+      <structure id="o7599" name="array">
+        <character name="architecture" value="corymbiform" />
+      </structure>
+    </statement>
+    <statement id="394.txt-6">
+      <text>Peduncles glabrous or stipitate-glandular.</text>
+      <structure id="o7600" name="peduncle">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="stipitate-glandular" />
+      </structure>
+    </statement>
+    <statement id="394.txt-7">
+      <text>Calyculi:</text>
+      <structure id="o7601" name="calyculus" />
+    </statement>
+    <statement id="394.txt-8">
+      <text>bractlets 3–5+.</text>
+      <structure id="o7602" name="bractlet">
+        <character char_type="range_value" name="count" from="3" to="5" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="394.txt-9">
+      <text>Involucres campanulate to cylindric, (7–)9–10 mm.</text>
+      <structure id="o7603" name="involucre">
+        <character char_type="range_value" name="shape" from="campanulate" to="cylindric" />
+        <character name="shape" value="campanulate" />
+        <character name="shape" value="cylindric" />
+        <character char_type="range_value" name="atypical_size" from="7" to="9" from_unit="mm" to_unit="mm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="9" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="394.txt-10">
+      <text>Phyllaries 8–13+, apices obtuse to acute, abaxial faces glabrous or stipitate-glandular.</text>
+      <structure id="o7604" name="phyllary">
+        <character char_type="range_value" name="count" from="8" to="13" upper_restricted="false" />
+      </structure>
+      <structure id="o7605" name="apex">
+        <character char_type="range_value" name="shape" from="obtuse" to="acute" />
+        <character name="shape" value="obtuse" />
+        <character name="shape" value="acute" />
+      </structure>
+      <structure id="o7606" name="face" constraint="abaxial">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="stipitate-glandular" />
+      </structure>
+    </statement>
+    <statement id="394.txt-11">
+      <text>Florets 6–12;</text>
+      <structure id="o7607" name="floret">
+        <character char_type="range_value" name="count" from="6" to="12" />
+      </structure>
+    </statement>
+    <statement id="394.txt-12">
+      <text>corollas yellow, 8.5–10 mm.</text>
+      <structure id="o7608" name="corolla">
+        <character name="coloration" value="yellow" />
+        <character char_type="range_value" name="size" from="8.5" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="394.txt-13">
+      <text>Cypselae urceolate, 5–5.5 mm;</text>
+      <structure id="o7609" name="cypsela">
+        <character name="shape" value="urceolate" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="5.5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="394.txt-14">
+      <text>pappi of 50–60+, stramineous to rufous bristles in 2+ series, 5–8 mm.</text>
+      <structure id="o7610" name="pappus">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+      <structure id="o7611" name="bristle">
+        <character char_type="range_value" name="count" from="50" to="60" upper_restricted="false" />
+        <character char_type="range_value" name="coloration" from="stramineous" to="rufous" />
+        <character name="coloration" value="stramineous" />
+        <character name="coloration" value="rufous" />
+      </structure>
+      <relation id="r917" name="consist_of" from="o7610" to="o7611" negation="false" />
+      <structure id="o7612" name="series">
+        <character name="count" char_type="range_value" from="2" upper_restricted="false" />
+      </structure>
+      <relation id="r918" name="in" from="o7611" to="o7612" negation="false" />
+    </statement>
+  </description>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <habitat>pine forests</habitat>
+  <habitat>serpentines</habitat>
+  <elevation>300–1700 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <global_distribution>Mexico (Baja California).</global_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

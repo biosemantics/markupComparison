@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>12.</number>
+  <species_name>Gamochaeta stachydifolia</species_name>
+  <authority>(Lamarck) Cabrera</authority>
+  <place_of_publication>Bol. Soc. Argent. Bot. 9: 382. 1961</place_of_publication>
+  <synonym_of_species_name>Gnaphalium stachydifolium Lamarck in J. Lamarck et al., Encycl. 2: 757. 1788; G. purpureum Linnaeus var. stachydifolium (Lamarck) Baker</synonym_of_species_name>
+  <description>
+    <statement id="723.txt-0">
+      <text>Annuals , 4–15 cm;</text>
+    </statement>
+    <statement id="723.txt-1">
+      <text>taprooted.</text>
+      <structure id="o15093" name="whole_organism">
+        <character char_type="range_value" name="size" from="4" from_unit="cm" to="15" to_unit="cm" />
+        <character name="life_style" value="annual" />
+        <character name="architecture" value="taprooted" />
+      </structure>
+    </statement>
+    <statement id="723.txt-2">
+      <text>Stems erect, densely and loosely gray-white tomentose-arachnose.</text>
+      <structure id="o15094" name="stem">
+        <character name="orientation" value="erect" />
+        <character name="coloration" value="white" modifier="loosely;gray" />
+        <character name="pubescence" value="tomentose-arachnose" />
+      </structure>
+    </statement>
+    <statement id="723.txt-3">
+      <text>Leaves basal and cauline, basal mostly withering before flowering, blades oblanceolate, 1–3 cm × 2–6 mm (usually folded along midveins, bases subclasping, not auriculate; nearly unreduced among proximal heads, none longer than glomerules), faces concolor, tomentose-arachnose.</text>
+      <structure id="o15095" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="insertion_or_position" value="basal" modifier="mostly" />
+        <character name="duration" value="withering" modifier="before flowering" />
+      </structure>
+      <structure id="o15096" name="blade">
+        <character name="shape" value="oblanceolate" />
+        <character char_type="range_value" name="length" from="1" from_unit="cm" to="3" to_unit="cm" />
+        <character char_type="range_value" name="width" from="2" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+      <structure id="o15097" name="face">
+        <character name="coloration" value="concolor" />
+        <character name="pubescence" value="tomentose-arachnose" />
+      </structure>
+    </statement>
+    <statement id="723.txt-4">
+      <text>Heads in continuous cylindric arrays 2–3(–4) cm × 10–12 mm (pressed).</text>
+      <structure id="o15098" name="head" />
+      <structure id="o15099" name="array">
+        <character name="architecture" value="continuous" />
+        <character name="shape" value="cylindric" />
+        <character char_type="range_value" name="atypical_length" from="3" to="4" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="2" from_unit="cm" to="3" to_unit="cm" />
+        <character char_type="range_value" name="width" from="10" from_unit="mm" to="12" to_unit="mm" />
+      </structure>
+      <relation id="r1630" name="in" from="o15098" to="o15099" negation="false" />
+    </statement>
+    <statement id="723.txt-5">
+      <text>Involucres campanulate, 3.5–4 mm, bases sparsely tomentose.</text>
+      <structure id="o15100" name="involucre">
+        <character name="shape" value="campanulate" />
+        <character char_type="range_value" name="size" from="3.5" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+      <structure id="o15101" name="base">
+        <character name="pubescence" value="tomentose" modifier="sparsely" />
+      </structure>
+    </statement>
+    <statement id="723.txt-7">
+      <text>Florets:</text>
+      <structure id="o15102" name="floret" />
+    </statement>
+    <statement id="723.txt-8">
+      <text>bisexual 2–4;</text>
+      <structure id="o15103" name="floret" constraint="bisexual">
+        <character char_type="range_value" name="count" from="2" to="4" />
+      </structure>
+    </statement>
+    <statement id="723.txt-9">
+      <text>all corollas yellowish.</text>
+      <structure id="o15104" name="corolla">
+        <character name="coloration" value="yellowish" />
+      </structure>
+    </statement>
+    <statement id="723.txt-10">
+      <text>Cypselae:</text>
+    </statement>
+    <statement id="723.txt-11">
+      <text>not seen.</text>
+      <structure id="o15105" name="cypsela" />
+    </statement>
+  </description>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <habitat>hillsides</habitat>
+  <habitat>riparian woodlands</habitat>
+  <habitat>disturbed sites</habitat>
+  <habitat>sandy soils</habitat>
+  <elevation>30–500 m;</elevation>
+  <introduced>introduced;</introduced>
+  <us_distribution>Calif.</us_distribution>
+  <global_distribution>South America.</global_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

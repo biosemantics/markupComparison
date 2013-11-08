@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>18.</number>
+  <species_name>Centaurea melitensis</species_name>
+  <authority>Linnaeus</authority>
+  <place_of_publication>Sp. Pl. 2: 917. 1753</place_of_publication>
+  <common_name>Tocalote, Maltese star thistle or centaury, Napa thistle, croix de Malte</common_name>
+  <description>
+    <statement id="225.txt-0">
+      <text>Annuals , 10–100 cm, herbage loosely gray-tomentose and villous with jointed multicellular hairs, sometimes minutely scabrous, minutely resin-gland-dotted.</text>
+      <structure id="o3665" name="whole_organism">
+        <character char_type="range_value" name="size" from="10" from_unit="cm" to="100" to_unit="cm" />
+        <character name="life_style" value="annual" />
+      </structure>
+      <structure id="o3666" name="herbage">
+        <character name="pubescence" value="gray-tomentose" modifier="loosely" />
+        <character name="pubescence" value="villous" constraint="with hairs" constraintid="o3667" />
+        <character name="pubescence_or_relief" value="scabrous" modifier="sometimes minutely" />
+        <character name="coloration_or_relief" value="resin-gland-dotted" modifier="minutely" />
+      </structure>
+      <structure id="o3667" name="hair">
+        <character name="architecture" value="jointed" />
+        <character name="architecture" value="multicellular" />
+      </structure>
+    </statement>
+    <statement id="225.txt-1">
+      <text>Stems 1–few, few–many branched distally.</text>
+      <structure id="o3668" name="stem">
+        <character char_type="range_value" name="count" from="1" to="few" />
+        <character char_type="range_value" name="count" from="few" to="many" />
+        <character name="architecture_or_shape" value="branched" modifier="distally" />
+      </structure>
+    </statement>
+    <statement id="225.txt-2">
+      <text>Leaves:</text>
+      <structure id="o3669" name="leaf" />
+    </statement>
+    <statement id="225.txt-3">
+      <text>basal and proximal cauline petiolate or tapering to base, usually absent at anthesis, blades oblong to oblanceolate, 2–15 cm, margins entire to dentate or pinnately lobed;</text>
+      <structure id="o3670" name="leaf" constraint="basal and proximal cauline">
+        <character name="architecture" value="petiolate" />
+        <character name="architecture" value="tapering to base" />
+        <character name="presence" value="absent" modifier="usually" constraint="at anthesis" constraintid="o3672" />
+      </structure>
+      <structure id="o3671" name="base" />
+      <relation id="r524" name="tapering to" from="o3670" to="o3671" negation="false" />
+      <structure id="o3672" name="anthesi" />
+      <structure id="o3673" name="blade">
+        <character char_type="range_value" name="shape" from="oblong" to="oblanceolate" />
+        <character name="shape" value="oblong" />
+        <character name="shape" value="oblanceolate" />
+        <character char_type="range_value" name="size" from="2" from_unit="cm" to="15" to_unit="cm" />
+      </structure>
+      <structure id="o3674" name="margin">
+        <character char_type="range_value" name="shape" from="entire" to="dentate or pinnately lobed" />
+        <character name="shape" value="entire" />
+        <character name="shape" value="dentate" />
+        <character name="shape" value="lobed" modifier="pinnately" />
+      </structure>
+    </statement>
+    <statement id="225.txt-4">
+      <text>cauline long-decurrent, blades linear to oblong or oblanceolate, 1–5 cm, entire or dentate.</text>
+      <structure id="o3675" name="leaf" constraint="cauline">
+        <character name="shape" value="long-decurrent" />
+      </structure>
+      <structure id="o3676" name="blade">
+        <character char_type="range_value" name="shape" from="linear" to="oblong or oblanceolate" />
+        <character name="shape" value="linear" />
+        <character name="shape" value="oblong" />
+        <character name="shape" value="oblanceolate" />
+        <character char_type="range_value" name="size" from="1" from_unit="cm" to="5" to_unit="cm" />
+        <character name="shape" value="entire" />
+        <character name="shape" value="dentate" />
+      </structure>
+    </statement>
+    <statement id="225.txt-5">
+      <text>Heads disciform, 1–few at branch tips, borne singly or in open leafy corymbiform arrays, sometimes clustered in distal axils, sessile or pedunculate.</text>
+      <structure id="o3677" name="head">
+        <character name="shape_or_architecture" value="disciform" />
+        <character char_type="range_value" name="count" from="1" to="few" constraint="at branch tips" constraintid="o3678" />
+        <character name="arrangement" value="singly" />
+        <character name="arrangement" value="in open leafy corymbiform arrays" />
+        <character name="arrangement_or_habit" value="clustered" modifier="sometimes" constraint="in axils" constraintid="o3680" />
+        <character name="architecture" value="sessile" />
+        <character name="architecture" value="pedunculate" />
+      </structure>
+      <structure id="o3678" name="tip" constraint="branch" />
+      <structure id="o3679" name="array">
+        <character name="architecture" value="open" />
+        <character name="architecture" value="leafy" />
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <relation id="r525" name="in" from="o3677" to="o3679" negation="false" />
+      <structure id="o3680" name="axil" constraint="distal" />
+    </statement>
+    <statement id="225.txt-6">
+      <text>Involucres ovoid, 10–15 mm, loosely cobwebby-tomentose or becoming glabrous.</text>
+      <structure id="o3681" name="involucre">
+        <character name="shape" value="ovoid" />
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="15" to_unit="mm" />
+        <character name="pubescence" value="cobwebby-tomentose" modifier="loosely" />
+        <character name="pubescence" value="glabrous" modifier="becoming" />
+      </structure>
+    </statement>
+    <statement id="225.txt-7">
+      <text>Principal phyllaries:</text>
+      <structure id="o3682" name="phyllary" constraint="principal" />
+    </statement>
+    <statement id="225.txt-8">
+      <text>bodies ± stramineous, ovate, appendages purplish, spiny-fringed at base, each tipped by slender spine 5–10 mm.</text>
+      <structure id="o3683" name="body">
+        <character name="coloration" value="stramineous" modifier="±" />
+        <character name="shape" value="ovate" />
+      </structure>
+      <structure id="o3684" name="appendage">
+        <character name="coloration" value="purplish" />
+        <character name="shape" value="spiny-fringed" constraint="at base" constraintid="o3685" />
+      </structure>
+      <structure id="o3685" name="base" />
+      <structure id="o3686" name="spine">
+        <character name="size" value="slender" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="10" to_unit="mm" />
+      </structure>
+      <relation id="r526" name="tipped by" from="o3684" to="o3686" negation="false" />
+    </statement>
+    <statement id="225.txt-9">
+      <text>Inner phyllaries :</text>
+      <structure id="o3687" name="phyllary" constraint="inner" />
+    </statement>
+    <statement id="225.txt-10">
+      <text>appendages entire, acute or spine-tipped.</text>
+      <structure id="o3688" name="appendage">
+        <character name="shape" value="entire" />
+        <character name="shape" value="acute" />
+        <character name="shape" value="acute" modifier="spine tipped" />
+      </structure>
+    </statement>
+    <statement id="225.txt-11">
+      <text>Florets many;</text>
+      <structure id="o3689" name="floret">
+        <character name="count" value="many" />
+      </structure>
+    </statement>
+    <statement id="225.txt-12">
+      <text>corollas yellow, those of sterile florets 10–12 mm, slender, inconspicuous, those of fertile florets 10–12 mm.</text>
+      <structure id="o3690" name="corolla">
+        <character name="coloration" value="yellow" />
+      </structure>
+      <structure id="o3691" name="corolla">
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="12" to_unit="mm" />
+        <character name="size" value="slender" />
+        <character name="manifestation" value="inconspicuous" />
+      </structure>
+      <structure id="o3692" name="floret" constraint="sterile" />
+      <relation id="r527" name="part_of" from="o3691" to="o3692" negation="false" />
+      <structure id="o3693" name="corolla">
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="12" to_unit="mm" />
+      </structure>
+      <structure id="o3694" name="floret" constraint="fertile" />
+      <relation id="r528" name="part_of" from="o3693" to="o3694" negation="false" />
+    </statement>
+    <statement id="225.txt-13">
+      <text>Cypselae dull white or light brown, ca. 2.5 mm, finely hairy;</text>
+      <structure id="o3695" name="cypsela">
+        <character name="coloration" value="white" modifier="dull" />
+        <character name="coloration" value="brown" modifier="light" />
+        <character name="size" value="2.5" unit="mm" />
+        <character name="pubescence" value="hairy" modifier="finely" />
+      </structure>
+    </statement>
+    <statement id="225.txt-14">
+      <text>pappi of many white, unequal, stiff bristles 2.5–3 mm.</text>
+      <structure id="o3696" name="pappus" />
+      <structure id="o3697" name="bristle">
+        <character name="count" value="many" />
+        <character name="coloration" value="white" />
+        <character name="size" value="unequal" />
+        <character name="texture" value="stiff" />
+        <character char_type="range_value" name="size" from="2.5" from_unit="mm" to="3" to_unit="mm" />
+      </structure>
+      <relation id="r529" name="consist_of" from="o3696" to="o3697" negation="false" />
+    </statement>
+    <statement id="225.txt-15">
+      <text>2 n = 24.</text>
+      <structure id="o3698" name="chromosome">
+        <character name="count" value="24" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <habitat>roadsides</habitat>
+  <habitat>fields</habitat>
+  <habitat>pine-oak woodlands</habitat>
+  <habitat>chaparral</habitat>
+  <habitat>agricultural areas</habitat>
+  <elevation>0–1500 m;</elevation>
+  <global_distribution>widely introduced</global_distribution>
+  <ca_distribution>B.C.</ca_distribution>
+  <us_distribution>Ala.</us_distribution>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Calif.</us_distribution>
+  <us_distribution>Ga.</us_distribution>
+  <us_distribution>Idaho</us_distribution>
+  <us_distribution>Ill.</us_distribution>
+  <us_distribution>Mass.</us_distribution>
+  <us_distribution>Miss.</us_distribution>
+  <us_distribution>Mo.</us_distribution>
+  <us_distribution>Nev.</us_distribution>
+  <us_distribution>N.J.</us_distribution>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>Oreg.</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <us_distribution>Utah</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <us_distribution>Wis.</us_distribution>
+  <global_distribution>Mexico (Baja California)</global_distribution>
+  <global_distribution>Europe</global_distribution>
+  <global_distribution>Asia</global_distribution>
+  <global_distribution>Africa.</global_distribution>
+  <discussion>Centaurea melitensis is native to the Mediterranean region. It is listed as a noxious weed in New Mexico.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

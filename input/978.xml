@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>3.</number>
+  <species_name>Leucanthemum lacustre</species_name>
+  <authority>(Brotero) Sampaio</authority>
+  <place_of_publication>Lista Espécies Herb. Português, 132. 1913</place_of_publication>
+  <common_name>Portugese daisy</common_name>
+  <synonym_of_species_name>Chrysanthemum lacustre Brotero, Fl. Lusit. 1: 379. 1804</synonym_of_species_name>
+  <description>
+    <statement id="978.txt-0">
+      <text>Perennials, 30–120(–200+) cm.</text>
+      <structure id="o20081" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="120" to="200" from_unit="cm" to_unit="cm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="30" from_unit="cm" to="120" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="978.txt-1">
+      <text>Stems simple or distally branched.</text>
+      <structure id="o20082" name="stem">
+        <character name="architecture" value="simple" />
+        <character name="architecture" value="branched" modifier="distally" />
+      </structure>
+    </statement>
+    <statement id="978.txt-2">
+      <text>Basal leaves:</text>
+      <structure id="o20083" name="leaf" constraint="basal" />
+    </statement>
+    <statement id="978.txt-4">
+      <text>Cauline leaves ± petiolate or sessile;</text>
+      <structure id="o20084" name="leaf" constraint="cauline">
+        <character name="architecture" value="petiolate" modifier="±" />
+        <character name="architecture" value="sessile" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="978.txt-6">
+      <text>Involucres (18–)25–35 mm diam.</text>
+      <structure id="o20085" name="involucre">
+        <character char_type="range_value" name="atypical_size" from="18" to="25" from_unit="mm" to_unit="mm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="25" from_unit="mm" to="35" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="978.txt-7">
+      <text>Phyllaries (the larger) 3–5 mm wide.</text>
+      <structure id="o20086" name="phyllary">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="978.txt-8">
+      <text>Ray florets 21–34+;</text>
+      <structure id="o20087" name="floret" constraint="ray">
+        <character char_type="range_value" name="count" from="21" to="34" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="978.txt-9">
+      <text>laminae 20–25(–35) mm.</text>
+      <structure id="o20088" name="lamina">
+        <character char_type="range_value" name="atypical_size" from="25" to="35" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="20" from_unit="mm" to="25" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="978.txt-10">
+      <text>Ray cypselae 3–4 mm, apices usually auriculate adaxially.</text>
+      <structure id="o20089" name="cypsela" constraint="ray">
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+      <structure id="o20090" name="apex">
+        <character name="shape" value="auriculate" modifier="usually ; adaxially" />
+      </structure>
+    </statement>
+    <statement id="978.txt-11">
+      <text>2 n = 198.</text>
+      <structure id="o20091" name="chromosome">
+        <character name="count" value="198" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>disturbed places</habitat>
+  <habitat>meadows</habitat>
+  <habitat>seeps</habitat>
+  <habitat>clearings</habitat>
+  <elevation>0–50 m;</elevation>
+  <introduced>introduced;</introduced>
+  <us_distribution>Calif.</us_distribution>
+  <global_distribution>Europe (Portugal).</global_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

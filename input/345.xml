@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>44.</number>
+  <genus_name>MULGEDIUM</genus_name>
+  <authority>Cassini</authority>
+  <place_of_publication>in F. Cuvier, Dict. Sci. Nat. ed. 2, 33: 296. 1824</place_of_publication>
+  <common_name />
+  <derivation>Latin mulgere , to milk, alluding to milky sap</derivation>
+  <author_of_tribe_genus>John L. Strother</author_of_tribe_genus>
+  <description>
+    <statement id="345.txt-0">
+      <text>Perennials [annuals or biennials], 15–100+ cm;</text>
+    </statement>
+    <statement id="345.txt-1">
+      <text>± rhizomatous.</text>
+      <structure id="o6426" name="whole_organism">
+        <character char_type="range_value" name="size" from="15" from_unit="cm" to="100" to_unit="cm" upper_restricted="false" />
+        <character name="life_style" value="perennial" />
+        <character name="architecture" value="rhizomatous" modifier="±" />
+      </structure>
+    </statement>
+    <statement id="345.txt-2">
+      <text>Stems usually 1, usually erect, branched distally, glabrous or glabrate.</text>
+      <structure id="o6427" name="stem">
+        <character name="count" value="1" modifier="usually" />
+        <character name="orientation" value="erect" modifier="usually" />
+        <character name="architecture_or_shape" value="branched" modifier="distally" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="glabrate" />
+      </structure>
+    </statement>
+    <statement id="345.txt-3">
+      <text>Leaves basal and cauline or mostly cauline;</text>
+    </statement>
+    <statement id="345.txt-4">
+      <text>petiolate (basal) or sessile;</text>
+      <structure id="o6428" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="insertion_or_position" value="cauline" modifier="mostly" />
+        <character name="architecture" value="petiolate" />
+        <character name="architecture" value="sessile" />
+      </structure>
+    </statement>
+    <statement id="345.txt-5">
+      <text>blades oblong, elliptic, or ovate to lanceolate or linear, margins entire or dentate to pinnately lobed (faces glabrous, often glaucous).</text>
+      <structure id="o6429" name="blade">
+        <character char_type="range_value" name="shape" from="ovate" to="lanceolate or linear" />
+        <character name="shape" value="oblong" />
+        <character name="shape" value="elliptic" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="linear" />
+      </structure>
+      <structure id="o6430" name="margin">
+        <character char_type="range_value" name="shape" from="dentate" to="pinnately lobed" />
+        <character name="shape" value="entire" />
+        <character name="shape" value="dentate" />
+        <character name="shape" value="lobed" modifier="pinnately" />
+      </structure>
+    </statement>
+    <statement id="345.txt-6">
+      <text>Heads borne singly or in corymbiform to paniculiform arrays.</text>
+      <structure id="o6431" name="head">
+        <character name="arrangement" value="singly" />
+        <character name="arrangement" value="in corymbiform to paniculiform arrays" />
+      </structure>
+      <structure id="o6432" name="array">
+        <character char_type="range_value" name="architecture" from="corymbiform" to="paniculiform" />
+        <character name="architecture" value="corymbiform" />
+        <character name="architecture" value="paniculiform" />
+      </structure>
+      <relation id="r800" name="in" from="o6431" to="o6432" negation="false" />
+    </statement>
+    <statement id="345.txt-7">
+      <text>Peduncles not inflated distally, usually bracteate.</text>
+      <structure id="o6433" name="peduncle">
+        <character name="shape" value="inflated" modifier="not ; distally" />
+        <character name="architecture" value="bracteate" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="345.txt-8">
+      <text>Calyculi of 3–13+, deltate to lanceolate bractlets (sometimes intergrading with phyllaries).</text>
+      <structure id="o6434" name="calyculus" />
+      <structure id="o6435" name="bractlet">
+        <character char_type="range_value" name="count" from="3" to="13" upper_restricted="false" />
+        <character char_type="range_value" name="shape" from="deltate" to="lanceolate" />
+        <character name="shape" value="deltate" />
+        <character name="shape" value="lanceolate" />
+      </structure>
+      <relation id="r801" name="consist_of" from="o6434" to="o6435" negation="false" />
+    </statement>
+    <statement id="345.txt-9">
+      <text>Involucres cylindric, 2–5[–8+] mm diam.</text>
+      <structure id="o6436" name="involucre">
+        <character name="shape" value="cylindric" />
+        <character char_type="range_value" name="atypical_size" from="5" to="8" from_unit="mm" to_unit="mm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="2" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="345.txt-10">
+      <text>Phyllaries 8–13+ in 1–2 series, lanceolate to linear, subequal to equal, margins little, if at all, scarious, apices acute.</text>
+      <structure id="o6437" name="phyllary">
+        <character char_type="range_value" name="count" from="8" to="13" upper_restricted="false" constraint="in series" constraintid="o6438" />
+        <character char_type="range_value" name="shape" from="lanceolate" to="linear" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="linear" />
+        <character char_type="range_value" name="size" from="subequal" to="equal" />
+        <character name="size" value="subequal" />
+        <character name="size" value="equal" />
+      </structure>
+      <structure id="o6438" name="series">
+        <character char_type="range_value" name="count" from="1" to="2" />
+      </structure>
+      <structure id="o6439" name="margin">
+        <character name="texture" value="scarious" />
+      </structure>
+      <structure id="o6440" name="apex">
+        <character name="shape" value="acute" />
+      </structure>
+    </statement>
+    <statement id="345.txt-11">
+      <text>Receptacles flat, pitted, glabrous, epaleate.</text>
+      <structure id="o6441" name="receptacle">
+        <character name="shape" value="flat" />
+        <character name="relief" value="pitted" />
+        <character name="pubescence" value="glabrous" />
+        <character name="architecture" value="epaleate" />
+      </structure>
+    </statement>
+    <statement id="345.txt-12">
+      <text>Florets (10–)15–50+;</text>
+      <structure id="o6442" name="floret">
+        <character char_type="range_value" name="atypical_count" from="10" to="15" to_inclusive="false" />
+        <character char_type="range_value" name="count" from="15" to="50" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="345.txt-13">
+      <text>corollas usually bluish [yellow].</text>
+      <structure id="o6443" name="corolla">
+        <character name="coloration" value="bluish" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="345.txt-14">
+      <text>Cypselae reddish brown to brown-mottled or slatey [blackish], bodies ± compressed, lanceoloid, beaks 0 (or gradually set off from and ± concolorous with bodies), ribs 4–6 on each face, faces glabrous [scabrid];</text>
+      <structure id="o6444" name="cypsela">
+        <character char_type="range_value" name="coloration" from="reddish-brown" to="brown-mottled or slatey" />
+        <character name="coloration" value="brown" modifier="reddish" />
+        <character name="coloration" value="mottled" modifier="brown" />
+        <character name="coloration" value="slatey" />
+      </structure>
+      <structure id="o6445" name="body">
+        <character name="shape" value="compressed" modifier="±" />
+        <character name="shape" value="lanceoloid" />
+      </structure>
+      <structure id="o6446" name="beak">
+        <character name="count" value="0" />
+      </structure>
+      <structure id="o6447" name="rib">
+        <character char_type="range_value" name="count" from="4" to="6" constraint="on face" constraintid="o6448" />
+      </structure>
+      <structure id="o6448" name="face" />
+      <structure id="o6449" name="face">
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="345.txt-15">
+      <text>pappi persistent (borne on discs at tips of cypselae or beaks), of 80–120+, whitish, ± equal, barbellulate to nearly smooth bristles in 2–3+ series.</text>
+      <structure id="o6450" name="pappus">
+        <character name="duration" value="persistent" />
+      </structure>
+      <structure id="o6451" name="bristle">
+        <character char_type="range_value" name="count" from="80" to="120" upper_restricted="false" />
+        <character name="coloration" value="whitish" />
+        <character name="size" value="equal" modifier="±" />
+        <character char_type="range_value" name="architecture" from="barbellulate" to="nearly smooth" />
+        <character name="architecture" value="barbellulate" />
+        <character name="architecture" value="smooth" modifier="nearly" />
+      </structure>
+      <relation id="r802" name="consist_of" from="o6450" to="o6451" negation="false" />
+      <structure id="o6452" name="series">
+        <character char_type="range_value" name="count" from="2" to="3" upper_restricted="false" />
+      </structure>
+      <relation id="r803" name="in" from="o6451" to="o6452" negation="false" />
+    </statement>
+    <statement id="345.txt-16">
+      <text>x = 9.</text>
+      <structure id="o6453" name="chromosome">
+        <character name="count" value="9" />
+      </structure>
+    </statement>
+  </description>
+  <number_of_infrataxa>Species 15 or so (1 in the flora):</number_of_infrataxa>
+  <general_distribution>North America</general_distribution>
+  <general_distribution>Europe</general_distribution>
+  <general_distribution>Asia.</general_distribution>
+  <discussion>In referring a species long included in Lactuca to Mulgedium, I was influenced by K. Bremer (1994).</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>4.</number>
+  <species_name>Krigia virginica</species_name>
+  <authority>(Linnaeus) Willdenow</authority>
+  <place_of_publication>Sp. Pl. 3: 1618. 1803</place_of_publication>
+  <common_name>Virginia dwarfdandelion</common_name>
+  <synonym_of_species_name>Hyoseris virginica Linnaeus, Sp. Pl. 2: 809. 1753</synonym_of_species_name>
+  <description>
+    <statement id="581.txt-0">
+      <text>Annuals, 4–30 cm ;</text>
+    </statement>
+    <statement id="581.txt-1">
+      <text>taprooted.</text>
+      <structure id="o12038" name="whole_organism">
+        <character char_type="range_value" name="size" from="4" from_unit="cm" to="30" to_unit="cm" />
+        <character name="life_style" value="annual" />
+        <character name="architecture" value="taprooted" />
+      </structure>
+    </statement>
+    <statement id="581.txt-2">
+      <text>Stems 1–50+, initially scapiform, later elongate and leafy (after rosette leaves wither), erect, eglandular or stipitate-glandular, especially near heads.</text>
+      <structure id="o12039" name="stem">
+        <character char_type="range_value" name="count" from="1" to="50" upper_restricted="false" />
+        <character name="shape" value="scapiform" modifier="initially" />
+        <character name="shape" value="elongate" modifier="later" />
+        <character name="architecture" value="leafy" />
+        <character name="orientation" value="erect" />
+        <character name="architecture" value="eglandular" />
+        <character name="architecture" value="stipitate-glandular" />
+      </structure>
+      <structure id="o12040" name="head" />
+      <relation id="r1403" name="near" from="o12039" to="o12040" negation="false" modifier="especially" />
+    </statement>
+    <statement id="581.txt-3">
+      <text>Leaves initially produced basally (rosettes);</text>
+      <structure id="o12041" name="leaf" />
+    </statement>
+    <statement id="581.txt-4">
+      <text>later leaves cauline ;</text>
+    </statement>
+    <statement id="581.txt-5">
+      <text>sessile or petiolate;</text>
+      <structure id="o12042" name="leaf" constraint="later">
+        <character name="insertion_or_position" value="cauline" />
+        <character name="architecture" value="sessile" />
+        <character name="architecture" value="petiolate" />
+      </structure>
+    </statement>
+    <statement id="581.txt-6">
+      <text>blades oblanceolate to spatulate, 1.5–18 cm, usually irregularly pinnately lobed, terminal lobes often denticulate, faces glabrous, eglandular or loosely glandular-villous;</text>
+      <structure id="o12043" name="blade">
+        <character char_type="range_value" name="shape" from="oblanceolate" to="spatulate" />
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="spatulate" />
+        <character char_type="range_value" name="size" from="1.5" from_unit="cm" to="18" to_unit="cm" />
+        <character name="shape" value="lobed" modifier="usually irregularly pinnately" />
+      </structure>
+      <structure id="o12044" name="lobe" constraint="terminal">
+        <character name="shape" value="denticulate" modifier="often" />
+      </structure>
+    </statement>
+    <statement id="581.txt-7">
+      <text>cauline (appearing opposite on late-season stems), narrowly oblanceolate to linear, mostly entire.</text>
+      <structure id="o12045" name="face">
+        <character name="pubescence" value="glabrous" />
+        <character name="architecture" value="eglandular" />
+        <character name="pubescence" value="glandular-villous" modifier="loosely" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="shape" value="oblanceolate" modifier="narrowly" />
+        <character name="arrangement_or_shape" value="linear" />
+        <character name="shape" value="entire" modifier="mostly" />
+      </structure>
+    </statement>
+    <statement id="581.txt-8">
+      <text>Heads borne singly.</text>
+      <structure id="o12046" name="head">
+        <character name="arrangement" value="singly" />
+      </structure>
+    </statement>
+    <statement id="581.txt-9">
+      <text>Peduncles from rosettes (early) or axillary or terminal on stems (later).</text>
+      <structure id="o12047" name="peduncle">
+        <character name="insertion_or_position" value="axillary" />
+        <character name="insertion_or_position" value="terminal" constraint="on stems" constraintid="o12049" />
+      </structure>
+      <structure id="o12048" name="rosette" />
+      <relation id="r1404" name="from" from="o12047" to="o12048" negation="false" />
+      <structure id="o12049" name="stem" />
+    </statement>
+    <statement id="581.txt-10">
+      <text>Involucres 4.5–8 mm.</text>
+      <structure id="o12050" name="involucre">
+        <character char_type="range_value" name="size" from="4.5" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="581.txt-11">
+      <text>Phyllaries 9–15, reflexed in fruit , lanceolate, midveins obscure, apices acute.</text>
+      <structure id="o12051" name="phyllary">
+        <character char_type="range_value" name="count" from="9" to="15" />
+        <character name="orientation" value="reflexed" constraint="in fruit" constraintid="o12052" />
+        <character name="shape" value="lanceolate" />
+      </structure>
+      <structure id="o12052" name="fruit" />
+      <structure id="o12053" name="midvein">
+        <character name="manifestation" value="obscure" />
+      </structure>
+      <structure id="o12054" name="apex">
+        <character name="shape" value="acute" />
+      </structure>
+    </statement>
+    <statement id="581.txt-12">
+      <text>Florets 8–35;</text>
+      <structure id="o12055" name="floret">
+        <character char_type="range_value" name="count" from="8" to="35" />
+      </structure>
+    </statement>
+    <statement id="581.txt-13">
+      <text>corollas yellow, often purplish abaxially, 5–12 mm.</text>
+      <structure id="o12056" name="corolla">
+        <character name="coloration" value="yellow" />
+        <character name="coloration" value="purplish" modifier="often ; abaxially" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="12" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="581.txt-14">
+      <text>Cypselae dark reddish brown, narrowly obconic, 1.5–2.3 mm, 15–20-ribbed;</text>
+      <structure id="o12057" name="cypsela">
+        <character name="coloration" value="brown" modifier="dark-reddish" />
+        <character name="shape" value="obconic" modifier="narrowly" />
+        <character char_type="range_value" name="size" from="1.5" from_unit="mm" to="2.3" to_unit="mm" />
+        <character name="architecture_or_shape" value="15-20-ribbed" />
+      </structure>
+    </statement>
+    <statement id="581.txt-15">
+      <text>pappi of 5, hyaline, rounded outer scales 0.5–1 mm plus 5, scabrous inner bristles 4–6 mm.</text>
+      <structure id="o12058" name="pappus">
+        <character name="count" value="5" />
+      </structure>
+      <structure id="o12059" name="scale" constraint="outer">
+        <character name="count" value="5" />
+        <character name="coloration" value="hyaline" />
+        <character name="shape" value="rounded" />
+        <character char_type="range_value" name="size" from="0.5" from_unit="mm" to="1" to_unit="mm" />
+      </structure>
+      <relation id="r1405" name="consist_of" from="o12058" to="o12059" negation="false" />
+      <structure id="o12060" name="bristle" constraint="inner">
+        <character name="pubescence_or_relief" value="scabrous" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="581.txt-16">
+      <text>2 n = 10, 20.</text>
+      <structure id="o12061" name="chromosome">
+        <character name="count" value="10" />
+        <character name="count" value="20" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>feb</flowering_time>
+  <flowering_time>winter</flowering_time>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <flowering_time>oct</flowering_time>
+  <flowering_time>nov</flowering_time>
+  <habitat>sandy, silty, or loam soils</habitat>
+  <habitat>rock outcrops</habitat>
+  <habitat>open mixed mesophytic, northern hardwoods</habitat>
+  <habitat>beach-maple, oak-pine</habitat>
+  <habitat>and oak-hickory woods</habitat>
+  <habitat>pastures</habitat>
+  <habitat>prairies</habitat>
+  <habitat>and roadsides</habitat>
+  <habitat>often in disturbed</habitat>
+  <habitat>weedy sites</habitat>
+  <elevation>0–1200 m;</elevation>
+  <ca_distribution>B.C.</ca_distribution>
+  <us_distribution>Ala.</us_distribution>
+  <us_distribution>Ark.</us_distribution>
+  <us_distribution>Conn.</us_distribution>
+  <us_distribution>Del.</us_distribution>
+  <us_distribution>Fla.</us_distribution>
+  <us_distribution>Ga.</us_distribution>
+  <us_distribution>Ill.</us_distribution>
+  <us_distribution>Ind.</us_distribution>
+  <us_distribution>Iowa</us_distribution>
+  <us_distribution>Ky.</us_distribution>
+  <us_distribution>La.</us_distribution>
+  <us_distribution>Maine</us_distribution>
+  <us_distribution>Md.</us_distribution>
+  <us_distribution>Mass.</us_distribution>
+  <us_distribution>Mich.</us_distribution>
+  <us_distribution>Minn.</us_distribution>
+  <us_distribution>Miss.</us_distribution>
+  <us_distribution>Mo.</us_distribution>
+  <us_distribution>N.H.</us_distribution>
+  <us_distribution>N.J.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>N.C.</us_distribution>
+  <us_distribution>Ohio</us_distribution>
+  <us_distribution>Okla.</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <us_distribution>R.I.</us_distribution>
+  <us_distribution>S.C.</us_distribution>
+  <us_distribution>Tenn.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <us_distribution>Vt.</us_distribution>
+  <us_distribution>Va.</us_distribution>
+  <us_distribution>W.Va.</us_distribution>
+  <us_distribution>Wis.</us_distribution>
+  <discussion>Krigia virginica is introduced in British Columbia. It grows in the Eastern deciduous forest biome, tallgrass prairie, and southeastern Coastal Plain. Its weedy habit may lead to introductions outside the present range.</discussion>
+  <discussion>The tetraploid populations of Krigia virginica are believed to have arisen through autoploidy; they are morphologically indistinguishable from the diploids. A single origin for this autoploid event is suggested by the chloroplast DNA studies by K. J. Kim et al. (1992b, 1992c), with marked genetic divergence of the tetraploids having occurred since their origination. Plants collected late in the season have a branching habit remarkably unlike the scapiform vernal form.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

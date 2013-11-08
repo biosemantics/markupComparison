@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>2.</number>
+  <species_name>Chaptalia texana</species_name>
+  <authority>Greene</authority>
+  <place_of_publication>Leafl. Bot. Observ. Crit. 1: 191. 1906</place_of_publication>
+  <common_name>Silverpuff</common_name>
+  <synonym_of_species_name>Chaptalia nutans (Linnaeus) Polakowski var. texana (Greene) Burkart</synonym_of_species_name>
+  <description>
+    <statement id="21.txt-0">
+      <text>Leaves petiolate (petioles 1 / 8 – 1 / 3 lengths of blades);</text>
+      <structure id="o3225" name="leaf">
+        <character name="architecture" value="petiolate" />
+      </structure>
+    </statement>
+    <statement id="21.txt-1">
+      <text>blades obovate to ovate or elliptic or sublyrate, 3–21 cm, margins lobed to denticulate, abaxial faces thinly gray-tomentose, adaxial faces green-glabrate.</text>
+      <structure id="o3226" name="blade">
+        <character char_type="range_value" name="shape" from="obovate" to="ovate or elliptic or sublyrate" />
+        <character name="shape" value="obovate" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="elliptic" />
+        <character name="shape" value="sublyrate" />
+        <character char_type="range_value" name="size" from="3" from_unit="cm" to="21" to_unit="cm" />
+      </structure>
+      <structure id="o3227" name="margin">
+        <character char_type="range_value" name="shape" from="lobed" to="denticulate" />
+        <character name="shape" value="lobed" />
+        <character name="shape" value="denticulate" />
+      </structure>
+      <structure id="o3228" name="face" constraint="abaxial">
+        <character name="pubescence" value="gray-tomentose" modifier="thinly" />
+      </structure>
+      <structure id="o3229" name="face" constraint="adaxial">
+        <character name="pubescence" value="green-glabrate" />
+      </structure>
+    </statement>
+    <statement id="21.txt-2">
+      <text>Heads nodding in bud and fruit, erect in flowering.</text>
+      <structure id="o3230" name="head">
+        <character name="orientation" value="nodding" constraint="in bud, fruit" constraintid="o3231  o3232" />
+        <character name="orientation" value="erect" modifier="in flowering" />
+      </structure>
+      <structure id="o3231" name="bud" />
+      <structure id="o3232" name="fruit" />
+    </statement>
+    <statement id="21.txt-3">
+      <text>Peduncles ebracteate or bracts 1–2, 13–34 cm at flowering, 16–46 cm in fruit, not dilated distally.</text>
+      <structure id="o3233" name="peduncle">
+        <character name="architecture" value="ebracteate" />
+        <character name="architecture" value="bracts" />
+        <character char_type="range_value" name="size" from="13" from_unit="cm" to="34" to_unit="cm" constraint="at flowering, 16-46 cm in fruit" constraintid="o3235" />
+        <character name="shape" value="dilated" modifier="not ; distally" />
+      </structure>
+      <structure id="o3234" name="bract">
+        <character char_type="range_value" name="count" from="1" to="2" />
+      </structure>
+      <structure id="o3235" name="fruit" />
+    </statement>
+    <statement id="21.txt-4">
+      <text>Florets :</text>
+      <structure id="o3236" name="floret" />
+    </statement>
+    <statement id="21.txt-5">
+      <text>outer pistillate, corollas evenly cream colored, turning crimson, laminae 0.2–0.8 mm wide;</text>
+      <structure id="o3237" name="floret" constraint="outer">
+        <character name="architecture" value="pistillate" />
+      </structure>
+      <structure id="o3238" name="corolla">
+        <character name="coloration" value="colored" modifier="evenly;cream" />
+        <character name="coloration" value="crimson" />
+      </structure>
+      <structure id="o3239" name="lamina">
+        <character char_type="range_value" name="size" from="0.2" from_unit="mm" to="0.8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="21.txt-6">
+      <text>inner florets bisexual, fertile.</text>
+      <structure id="o3240" name="floret" constraint="inner">
+        <character name="reproduction" value="bisexual" />
+        <character name="reproduction" value="fertile" />
+      </structure>
+    </statement>
+    <statement id="21.txt-7">
+      <text>Cypselae 11.5–13 mm, beaks filiform, lengths 1–1.6 times bodies, faces sparsely to moderately papillate (bodies and beaks).</text>
+      <structure id="o3241" name="cypsela">
+        <character char_type="range_value" name="size" from="11.5" from_unit="mm" to="13" to_unit="mm" />
+      </structure>
+      <structure id="o3242" name="beak">
+        <character name="shape" value="filiform" />
+        <character char_type="range_value" name="size" from="1" to="1.6" constraint="times bodies" constraintid="o3243" />
+      </structure>
+      <structure id="o3243" name="body" />
+      <structure id="o3244" name="face">
+        <character name="relief_or_pubescence" value="papillate" modifier="sparsely moderately" />
+      </structure>
+    </statement>
+    <statement id="21.txt-8">
+      <text>2 n = 24.</text>
+      <structure id="o3245" name="chromosome">
+        <character name="count" value="24" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <habitat>slopes in thin, rocky (limestone) soils</habitat>
+  <habitat>usually in woods with abundant oaks</habitat>
+  <elevation>200–1500 m;</elevation>
+  <us_distribution>N.Mex.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <global_distribution>Mexico (Chihuahua).</global_distribution>
+  <global_distribution>Mexico (Coahuila).</global_distribution>
+  <global_distribution>Mexico (Nuevo León).</global_distribution>
+  <global_distribution>Mexico (San Luis Potosí).</global_distribution>
+  <global_distribution>Mexico (Tamaulipas).</global_distribution>
+  <global_distribution>Mexico (and others).</global_distribution>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

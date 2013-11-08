@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>1.</number>
+  <species_name>Picris rhagadioloides</species_name>
+  <authority>(Linnaeus) Desfontaines</authority>
+  <place_of_publication>Tabl. École Bot., 89. 1804</place_of_publication>
+  <past_name>rhagadialoides</past_name>
+  <synonym_of_species_name>Crepis rhagadioloides Linnaeus, Syst. Nat. ed. 12, 2: 527. 1767; Mant. Pl., 108. 1767</synonym_of_species_name>
+  <description>
+    <statement id="445.txt-0">
+      <text>Annuals.</text>
+      <structure id="o8835" name="whole_organism">
+        <character name="life_style" value="annual" />
+      </structure>
+    </statement>
+    <statement id="445.txt-1">
+      <text>Leaf blades 20–60(–90) × 5–20+ mm.</text>
+      <structure id="o8836" name="blade" constraint="leaf">
+        <character char_type="range_value" name="atypical_length" from="60" to="90" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="20" from_unit="mm" to="60" to_unit="mm" />
+        <character char_type="range_value" name="width" from="5" from_unit="mm" to="20" to_unit="mm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="445.txt-3">
+      <text>Phyllaries proximally navicular, each enfolding its subtended floret, usually bristly and/or tomentulose abaxially.</text>
+      <structure id="o8837" name="phyllary">
+        <character name="shape" value="navicular" modifier="proximally" />
+        <character name="position" value="enfolding" modifier="each" />
+        <character name="pubescence" value="bristly" modifier="usually" />
+        <character name="pubescence" value="tomentulose" modifier="abaxially" />
+      </structure>
+      <structure id="o8838" name="floret" />
+    </statement>
+    <statement id="445.txt-4">
+      <text>Cypselae (outer often arcuate) 2.5–3 mm;</text>
+      <structure id="o8839" name="cypsela">
+        <character char_type="range_value" name="size" from="2.5" from_unit="mm" to="3" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="445.txt-5">
+      <text>pappi 1–1.5 (outer cypselae) or 5–6 mm (inner cypselae).</text>
+      <structure id="o8840" name="pappus">
+        <character char_type="range_value" name="size" from="1" to="1.5" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="445.txt-6">
+      <text>2 n = 10.</text>
+      <structure id="o8841" name="chromosome">
+        <character name="count" value="10" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <habitat>disturbed sites</habitat>
+  <elevation>100–200 m;</elevation>
+  <introduced>introduced;</introduced>
+  <us_distribution>Mo.</us_distribution>
+  <global_distribution>Europe.</global_distribution>
+  <discussion>The single report of Picris rhagadioloides for the flora area (as P. sprengerana from St. Louis; G. Yatskievych, pers. comm.) was confirmed for this study. Picris sprengerana (Linnaeus) Poiret has been misapplied to plants here called P. rhagadioloides (see W. Greuter 2003).</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

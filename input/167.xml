@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>60.</number>
+  <species_name>Cirsium rydbergii</species_name>
+  <authority>Petrak</authority>
+  <place_of_publication>Beih. Bot. Centralbl. 35(2): 315. 1917</place_of_publication>
+  <common_name>Rydberg’s or alcove thistle</common_name>
+  <synonym_of_species_name>Cirsium lactucinum Rydberg</synonym_of_species_name>
+  <description>
+    <statement id="167.txt-0">
+      <text>Perennials , 100–300 cm;</text>
+      <structure id="o1886" name="whole_organism">
+        <character char_type="range_value" name="size" from="100" from_unit="cm" to="300" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="167.txt-1">
+      <text>caudices and taproots, spreading by creeping roots.</text>
+      <structure id="o1887" name="caudex">
+        <character name="orientation" value="spreading" />
+      </structure>
+      <structure id="o1888" name="taproot">
+        <character name="orientation" value="spreading" constraint="by roots" constraintid="o1889" />
+      </structure>
+      <structure id="o1889" name="root" constraint="creeping" />
+    </statement>
+    <statement id="167.txt-2">
+      <text>Stems 1–several, erect or ascending to lax and hanging, glabrous or thinly tomentose;</text>
+      <structure id="o1890" name="stem">
+        <character char_type="range_value" name="count" from="1" to="several" />
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="ascending" />
+        <character name="architecture" value="lax" />
+        <character name="orientation" value="hanging" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="tomentose" modifier="thinly" />
+      </structure>
+    </statement>
+    <statement id="167.txt-3">
+      <text>branches 0–few, ascending.</text>
+      <structure id="o1891" name="branch">
+        <character char_type="range_value" name="count" from="0" to="few" />
+        <character name="orientation" value="ascending" />
+      </structure>
+    </statement>
+    <statement id="167.txt-4">
+      <text>Leaves:</text>
+      <structure id="o1892" name="leaf" />
+    </statement>
+    <statement id="167.txt-6">
+      <text>basal present at flowering, petiolate or winged-petiolate;</text>
+      <structure id="o1893" name="leaf" constraint="basal">
+        <character name="presence" value="present" modifier="at flowering" />
+        <character name="architecture" value="petiolate" />
+        <character name="architecture" value="winged-petiolate" />
+      </structure>
+    </statement>
+    <statement id="167.txt-7">
+      <text>proximal cauline winged-petiolate;</text>
+      <structure id="o1894" name="leaf" constraint="proximal cauline">
+        <character name="architecture" value="winged-petiolate" />
+      </structure>
+    </statement>
+    <statement id="167.txt-8">
+      <text>mid sessile, much reduced, less deeply lobed, bases clasping, short-decurrent 0–2 cm;</text>
+      <structure id="o1895" name="leaf" constraint="mid">
+        <character name="architecture" value="sessile" />
+        <character name="size" value="reduced" modifier="much" />
+        <character name="shape" value="lobed" modifier="less deeply" />
+      </structure>
+      <structure id="o1896" name="base">
+        <character name="architecture" value="clasping" />
+        <character name="shape" value="short-decurrent" />
+        <character char_type="range_value" name="size" from="0" from_unit="cm" to="2" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="167.txt-9">
+      <text>distal linear or lanceolate, bractlike, very spiny.</text>
+      <structure id="o1897" name="leaf" constraint="distal">
+        <character name="arrangement_or_shape" value="linear" />
+        <character name="shape" value="lanceolate" />
+        <character name="shape" value="bractlike" />
+        <character name="architecture_or_shape" value="spiny" modifier="very" />
+      </structure>
+    </statement>
+    <statement id="167.txt-10">
+      <text>Heads few–many, erect or nodding in clusters at tips of distal branches in paniculiform arrays, not closely subtended by clustered leafy bracts.</text>
+      <structure id="o1898" name="head">
+        <character char_type="range_value" name="count" from="few" to="many" />
+        <character name="orientation" value="erect" />
+        <character name="orientation" value="nodding" constraint="in clusters" constraintid="o1899" />
+      </structure>
+      <structure id="o1899" name="cluster" />
+      <structure id="o1900" name="tip" />
+      <relation id="r287" name="at" from="o1899" to="o1900" negation="false" />
+      <structure id="o1901" name="branch" constraint="distal" />
+      <relation id="r288" name="part_of" from="o1900" to="o1901" negation="false" />
+      <structure id="o1902" name="array">
+        <character name="architecture" value="paniculiform" />
+      </structure>
+      <relation id="r289" name="in" from="o1900" to="o1902" negation="false" />
+      <structure id="o1903" name="bract">
+        <character name="arrangement_or_habit" value="clustered" />
+        <character name="architecture" value="leafy" />
+      </structure>
+      <relation id="r290" name="subtended by" from="o1898" to="o1903" negation="true" />
+    </statement>
+    <statement id="167.txt-11">
+      <text>Peduncles 0.5–6 cm.</text>
+      <structure id="o1904" name="peduncle">
+        <character char_type="range_value" name="size" from="0.5" from_unit="cm" to="6" to_unit="cm" />
+      </structure>
+    </statement>
+    <statement id="167.txt-12">
+      <text>Involucres hemispheric, 1.4–2 × 1–2 cm, phyllary margins thinly tomentose or glabrate.</text>
+      <structure id="o1905" name="involucre">
+        <character name="shape" value="hemispheric" />
+        <character char_type="range_value" name="length" from="1.4" from_unit="cm" to="2" to_unit="cm" />
+        <character char_type="range_value" name="width" from="1" from_unit="cm" to="2" to_unit="cm" />
+      </structure>
+      <structure id="o1906" name="margin" constraint="phyllary">
+        <character name="pubescence" value="tomentose" modifier="thinly" />
+        <character name="pubescence" value="glabrate" modifier="thinly" />
+      </structure>
+    </statement>
+    <statement id="167.txt-13">
+      <text>Phyllaries in 5–8 series, strongly imbricate, ( green, drying green or light brown), ovate to lance-oblong, abaxial faces with or without poorly developed glutinous ridge;</text>
+      <structure id="o1907" name="phyllary">
+        <character name="aestivation_or_arrangement" value="imbricate" modifier="strongly" />
+        <character char_type="range_value" name="shape" from="ovate" to="lance-oblong" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="lance-oblong" />
+      </structure>
+      <structure id="o1908" name="series">
+        <character char_type="range_value" name="count" from="5" to="8" />
+      </structure>
+      <relation id="r291" name="in" from="o1907" to="o1908" negation="false" />
+      <structure id="o1909" name="face" constraint="abaxial" />
+      <structure id="o1910" name="ridge">
+        <character name="development" value="developed" modifier="poorly" />
+        <character name="coating_or_texture" value="glutinous" />
+      </structure>
+      <relation id="r292" name="with or without" from="o1909" to="o1910" negation="false" />
+    </statement>
+    <statement id="167.txt-14">
+      <text>outer and mid bases appressed, margins entire, not scabridulous-ciliolate, apices spreading or reflexed, green to brownish, lance-ovate, elongate, flattened, spines slender, 3–25 mm;</text>
+      <structure id="o1911" name="base" constraint="outer and mid">
+        <character name="orientation" value="appressed" />
+      </structure>
+      <structure id="o1912" name="margin">
+        <character name="shape" value="entire" />
+        <character name="pubescence" value="scabridulous-ciliolate" modifier="not" />
+      </structure>
+      <structure id="o1913" name="apex">
+        <character name="orientation" value="spreading" />
+        <character name="orientation" value="reflexed" />
+        <character char_type="range_value" name="coloration" from="green" to="brownish" />
+        <character name="coloration" value="green" />
+        <character name="coloration" value="brownish" />
+        <character name="shape" value="lance-ovate" />
+        <character name="shape" value="elongate" />
+        <character name="shape" value="flattened" />
+      </structure>
+      <structure id="o1914" name="spine">
+        <character name="size" value="slender" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="25" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="167.txt-15">
+      <text>apices of inner straight, entire.</text>
+      <structure id="o1915" name="apex">
+        <character name="course" value="straight" />
+        <character name="shape" value="entire" />
+      </structure>
+      <structure id="o1916" name="phyllary" constraint="inner" />
+      <relation id="r293" name="part_of" from="o1915" to="o1916" negation="false" />
+    </statement>
+    <statement id="167.txt-16">
+      <text>Corollas dull white to pink or purple, 16–20 mm, tubes 7–8.5 mm, throats 4–6.5 mm, lobes 4.5–6 mm;</text>
+      <structure id="o1917" name="corolla">
+        <character char_type="range_value" name="coloration" from="dull-white" to="pink or purple" />
+        <character name="coloration" value="white" modifier="dull" />
+        <character name="coloration" value="pink" />
+        <character name="coloration" value="purple" />
+        <character char_type="range_value" name="size" from="16" from_unit="mm" to="20" to_unit="mm" />
+      </structure>
+      <structure id="o1918" name="tube">
+        <character char_type="range_value" name="size" from="7" from_unit="mm" to="8.5" to_unit="mm" />
+      </structure>
+      <structure id="o1919" name="throat">
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="6.5" to_unit="mm" />
+      </structure>
+      <structure id="o1920" name="lobe">
+        <character char_type="range_value" name="size" from="4.5" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="167.txt-17">
+      <text>style tips 2.5 mm.</text>
+      <structure id="o1921" name="tip" constraint="style">
+        <character name="size" value="2.5" unit="mm" />
+      </structure>
+    </statement>
+    <statement id="167.txt-18">
+      <text>Cypselae gray or brown, 3.7–4.5 mm, apical collars not differentiated;</text>
+      <structure id="o1922" name="cypsela">
+        <character name="coloration" value="gray" />
+        <character name="coloration" value="brown" />
+        <character char_type="range_value" name="size" from="3.7" from_unit="mm" to="4.5" to_unit="mm" />
+      </structure>
+      <structure id="o1923" name="collar" constraint="apical">
+        <character name="differentiation" value="differentiated" modifier="not" />
+      </structure>
+    </statement>
+    <statement id="167.txt-19">
+      <text>pappi 10–15 mm.</text>
+      <structure id="o1924" name="pappus">
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="15" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="167.txt-20">
+      <text>2 n = 34.</text>
+      <structure id="o1925" name="chromosome">
+        <character name="count" value="34" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>mar</flowering_time>
+  <flowering_time>apr</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>may</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>hanging gardens</habitat>
+  <habitat>seeps</habitat>
+  <habitat>stream banks</habitat>
+  <elevation>1000–1500 m;</elevation>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>Utah.</us_distribution>
+  <discussion>Cirsium rydbergii is endemic to the Colorado Plateau of northern Arizona and southeastern Utah.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

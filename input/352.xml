@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>5.</number>
+  <species_name>Lactuca hirsuta</species_name>
+  <authority>Muhlenberg ex Nuttall</authority>
+  <place_of_publication>Gen. N. Amer. Pl. 2: 124. 1818</place_of_publication>
+  <synonym_of_species_name>Lactuca hirsuta var. albiflora (Torrey &amp; A. Gray) Shinners; L. hirsuta var. sanguinea (Bigelow) Fernald</synonym_of_species_name>
+  <description>
+    <statement id="352.txt-0">
+      <text>Biennials, 15–80(–120) cm.</text>
+      <structure id="o6568" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="80" to="120" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="15" from_unit="cm" to="80" to_unit="cm" />
+        <character name="life_style" value="biennial" />
+      </structure>
+    </statement>
+    <statement id="352.txt-2">
+      <text>blades of undivided cauline leaves ± ovate, margins denticu-late (sometimes ± ciliate), midribs usually piloso-setose.</text>
+      <structure id="o6569" name="blade">
+        <character name="shape" value="ovate" modifier="±" />
+      </structure>
+      <structure id="o6570" name="leaf" constraint="undivided cauline" />
+      <relation id="r817" name="part_of" from="o6569" to="o6570" negation="false" />
+      <structure id="o6571" name="margin">
+        <character name="shape" value="denticu-late" />
+      </structure>
+      <structure id="o6572" name="midrib">
+        <character name="pubescence" value="piloso-setose" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="352.txt-3">
+      <text>Heads in corymbiform to paniculiform arrays.</text>
+      <structure id="o6573" name="head" />
+      <structure id="o6574" name="array">
+        <character char_type="range_value" name="architecture" from="corymbiform" to="paniculiform" />
+        <character name="architecture" value="corymbiform" />
+        <character name="architecture" value="paniculiform" />
+      </structure>
+      <relation id="r818" name="in" from="o6573" to="o6574" negation="false" />
+    </statement>
+    <statement id="352.txt-4">
+      <text>Involucres 12–18+ mm.</text>
+      <structure id="o6575" name="involucre">
+        <character char_type="range_value" name="size" from="12" from_unit="mm" to="18" to_unit="mm" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="352.txt-5">
+      <text>Phyllaries usually reflexed in fruit.</text>
+      <structure id="o6576" name="phyllary">
+        <character name="orientation" value="reflexed" modifier="usually" constraint="in fruit" constraintid="o6577" />
+      </structure>
+      <structure id="o6577" name="fruit" />
+    </statement>
+    <statement id="352.txt-6">
+      <text>Florets 12–24+;</text>
+      <structure id="o6578" name="floret">
+        <character char_type="range_value" name="count" from="12" to="24" upper_restricted="false" />
+      </structure>
+    </statement>
+    <statement id="352.txt-7">
+      <text>corollas usually yellow, sometimes drying bluish, usually deliquescent.</text>
+      <structure id="o6579" name="corolla">
+        <character name="coloration" value="yellow" modifier="usually" />
+        <character name="wetness" value="drying" modifier="sometimes" />
+        <character name="coloration" value="bluish" />
+        <character name="architecture_or_texture" value="deliquescent" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="352.txt-8">
+      <text>Cypselae:</text>
+      <structure id="o6580" name="cypsela" />
+    </statement>
+    <statement id="352.txt-9">
+      <text>bodies brown, ± flattened, elliptic, 4.5–5+ mm, beaks ± filiform, 2.5–3.5 mm, faces 1(–3)-nerved;</text>
+      <structure id="o6581" name="body">
+        <character name="coloration" value="brown" />
+        <character name="shape" value="flattened" modifier="±" />
+        <character name="arrangement_or_shape" value="elliptic" />
+        <character char_type="range_value" name="size" from="4.5" from_unit="mm" to="5" to_unit="mm" upper_restricted="false" />
+      </structure>
+      <structure id="o6582" name="beak">
+        <character name="shape" value="filiform" modifier="±" />
+        <character char_type="range_value" name="size" from="2.5" from_unit="mm" to="3.5" to_unit="mm" />
+      </structure>
+      <structure id="o6583" name="face">
+        <character name="architecture" value="1(-3)-nerved" />
+      </structure>
+    </statement>
+    <statement id="352.txt-10">
+      <text>pappi white, 6.5–8(–10+) mm.</text>
+      <structure id="o6584" name="pappus">
+        <character name="coloration" value="white" />
+        <character char_type="range_value" name="atypical_size" from="8" to="10" from_unit="mm" to_unit="mm" upper_restricted="false" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="6.5" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="352.txt-11">
+      <text>2 n = 34.</text>
+      <structure id="o6585" name="chromosome">
+        <character name="count" value="34" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>openings in woods</habitat>
+  <elevation>10–100 m;</elevation>
+  <ca_distribution>N.S.</ca_distribution>
+  <ca_distribution>Ont.</ca_distribution>
+  <ca_distribution>P.E.I.</ca_distribution>
+  <ca_distribution>Que.</ca_distribution>
+  <us_distribution>Ala.</us_distribution>
+  <us_distribution>Ark.</us_distribution>
+  <us_distribution>Conn.</us_distribution>
+  <us_distribution>D.C.</us_distribution>
+  <us_distribution>Ga.</us_distribution>
+  <us_distribution>Ill.</us_distribution>
+  <us_distribution>Ind.</us_distribution>
+  <us_distribution>Ky.</us_distribution>
+  <us_distribution>La.</us_distribution>
+  <us_distribution>Maine</us_distribution>
+  <us_distribution>Md.</us_distribution>
+  <us_distribution>Mass.</us_distribution>
+  <us_distribution>Mich.</us_distribution>
+  <us_distribution>Miss.</us_distribution>
+  <us_distribution>Mo.</us_distribution>
+  <us_distribution>N.H.</us_distribution>
+  <us_distribution>N.J.</us_distribution>
+  <us_distribution>N.Y.</us_distribution>
+  <us_distribution>N.C.</us_distribution>
+  <us_distribution>Ohio</us_distribution>
+  <us_distribution>Pa.</us_distribution>
+  <us_distribution>R.I.</us_distribution>
+  <us_distribution>S.C.</us_distribution>
+  <us_distribution>Tenn.</us_distribution>
+  <us_distribution>Tex.</us_distribution>
+  <us_distribution>Vt.</us_distribution>
+  <us_distribution>Va.</us_distribution>
+  <us_distribution>W.Va.</us_distribution>
+  <discussion>The type of Lactuca hirsuta may be conspecific with that of L. graminifolia.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>28.</number>
+  <species_name>Artemisia californica</species_name>
+  <authority>Lessing</authority>
+  <place_of_publication>Linnaea 6: 523. 1831</place_of_publication>
+  <common_name>California sagebrush</common_name>
+  <synonym_of_species_name>Artemisia abrotanoides Nuttall; A. fischeriana Besser; A. foliosa Nuttall; Crossostephium californicum (Lessing) Rydberg</synonym_of_species_name>
+  <description>
+    <statement id="895.txt-0">
+      <text>Shrubs, (20–)150–250 cm (rounded), pungently aromatic.</text>
+      <structure id="o18529" name="whole_organism">
+        <character char_type="range_value" name="atypical_size" from="20" to="150" from_unit="cm" to_unit="cm" to_inclusive="false" />
+        <character char_type="range_value" name="size" from="150" from_unit="cm" to="250" to_unit="cm" />
+        <character name="odor" value="aromatic" modifier="pungently" />
+        <character name="life_style" value="shrub" />
+      </structure>
+    </statement>
+    <statement id="895.txt-1">
+      <text>Stems relatively numerous, arched, green or brown, branched (slender, wandlike, bases brittle), densely canescent to glabrate.</text>
+      <structure id="o18530" name="stem">
+        <character name="count" value="numerous" modifier="relatively" />
+        <character name="orientation" value="arched" />
+        <character name="coloration" value="green" />
+        <character name="coloration" value="brown" />
+        <character name="architecture_or_shape" value="branched" />
+        <character char_type="range_value" name="pubescence" from="densely canescent" to="glabrate" />
+        <character name="pubescence" value="canescent" modifier="densely" />
+        <character name="pubescence" value="glabrate" modifier="densely" />
+      </structure>
+    </statement>
+    <statement id="895.txt-2">
+      <text>Leaves cauline, light green to gray;</text>
+      <structure id="o18531" name="leaf">
+        <character name="insertion_or_position" value="cauline" />
+        <character char_type="range_value" name="coloration" from="light-green" to="gray" />
+        <character name="coloration" value="green" modifier="light" />
+        <character name="coloration" value="gray" />
+      </structure>
+    </statement>
+    <statement id="895.txt-3">
+      <text>blades filiform or spatulate to obovate, 3–5(–9) × 0.5–2 cm, sometimes pinnately lobed (lobes filiform, 0.5–1 mm wide), faces sparsely to densely hairy.</text>
+      <structure id="o18532" name="blade">
+        <character char_type="range_value" name="shape" from="spatulate" to="obovate" />
+        <character name="shape" value="filiform" />
+        <character name="shape" value="spatulate" />
+        <character name="shape" value="obovate" />
+        <character char_type="range_value" name="atypical_length" from="5" to="9" from_unit="cm" to_unit="cm" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="3" from_unit="cm" to="5" to_unit="cm" />
+        <character char_type="range_value" name="width" from="0.5" from_unit="cm" to="2" to_unit="cm" />
+        <character name="shape" value="lobed" modifier="sometimes pinnately" />
+      </structure>
+      <structure id="o18533" name="face">
+        <character name="pubescence" value="hairy" modifier="sparsely densely" />
+      </structure>
+    </statement>
+    <statement id="895.txt-4">
+      <text>Heads (nodding at maturity, pedunculate) in paniculiform arrays 6–20 × 1–3 cm (branches erect to broadly spreading).</text>
+      <structure id="o18534" name="head" />
+      <structure id="o18535" name="array">
+        <character name="architecture" value="paniculiform" />
+        <character char_type="range_value" name="length" from="6" from_unit="cm" to="20" to_unit="cm" />
+        <character char_type="range_value" name="width" from="1" from_unit="cm" to="3" to_unit="cm" />
+      </structure>
+      <relation id="r1957" name="in" from="o18534" to="o18535" negation="false" />
+    </statement>
+    <statement id="895.txt-5">
+      <text>Involucres globose, 2–3(–4) × 2–4(–5) mm.</text>
+      <structure id="o18536" name="involucre">
+        <character name="shape" value="globose" />
+        <character char_type="range_value" name="atypical_length" from="3" to="4" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="length" from="2" from_unit="mm" to="3" to_unit="mm" />
+        <character char_type="range_value" name="atypical_width" from="4" to="5" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="width" from="2" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="895.txt-6">
+      <text>Phyllaries broadly ovate, sparsely canescent.</text>
+      <structure id="o18537" name="phyllary">
+        <character name="shape" value="ovate" modifier="broadly" />
+        <character name="pubescence" value="canescent" modifier="sparsely" />
+      </structure>
+    </statement>
+    <statement id="895.txt-7">
+      <text>Florets:</text>
+      <structure id="o18538" name="floret" />
+    </statement>
+    <statement id="895.txt-8">
+      <text>pistillate 6–10;</text>
+      <structure id="o18539" name="floret" constraint="pistillate">
+        <character char_type="range_value" name="count" from="6" to="10" />
+      </structure>
+    </statement>
+    <statement id="895.txt-9">
+      <text>bisexual 18–25;</text>
+      <structure id="o18540" name="floret" constraint="bisexual">
+        <character char_type="range_value" name="count" from="18" to="25" />
+      </structure>
+    </statement>
+    <statement id="895.txt-10">
+      <text>corollas pale yellow, 0.8–1.2 mm, glabrous.</text>
+      <structure id="o18541" name="corolla">
+        <character name="coloration" value="yellow" modifier="pale" />
+        <character char_type="range_value" name="size" from="0.8" from_unit="mm" to="1.2" to_unit="mm" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="895.txt-11">
+      <text>Cypselae ellipsoid, 0.5–1.5 mm, resinous (pappi coroniform).</text>
+      <structure id="o18542" name="cypsela">
+        <character name="shape" value="ellipsoid" />
+        <character char_type="range_value" name="size" from="0.5" from_unit="mm" to="1.5" to_unit="mm" />
+        <character name="coating_or_texture" value="resinous" />
+      </structure>
+    </statement>
+    <statement id="895.txt-12">
+      <text>2 n = 18.</text>
+      <structure id="o18543" name="chromosome">
+        <character name="count" value="18" />
+      </structure>
+    </statement>
+  </description>
+  <habitat>coastal scrub</habitat>
+  <habitat>dry foothills</habitat>
+  <elevation>0–800 m;</elevation>
+  <us_distribution>Calif.</us_distribution>
+  <global_distribution>Mexico (Baja California).</global_distribution>
+  <discussion>Artemisia californica is the common sagebrush of chaparral in southern California. Its threadlike leaves and green flowering heads distinguish it from any other shrub in California. Artemisia nesiotica, an endemic of the Channel Islands that was initially considered a morphologic variant of A. californica, is distinct in size and form. Systematic placement of the complex may be problematic. The molecular phylogeny of L. E. Watson et al. (2002) suggests an alignment of A. californica within subg. Tridentatae. Based on this finding, a subgeneric realignment of this species may be in order. The odor of A. californica is markedly like that of the culinary mints known as common sage (Salvia species).</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

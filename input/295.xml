@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>14.</number>
+  <species_name>Crepis nicaeënsis</species_name>
+  <authority>Balbis ex Persoon</authority>
+  <place_of_publication>Syn. Pl. 2: 376. 1807</place_of_publication>
+  <common_name>Turkish hawksbeard</common_name>
+  <description>
+    <statement id="295.txt-0">
+      <text>Annuals or biennials, 25–110 cm (taproots shallow).</text>
+      <structure id="o5271" name="whole_organism">
+        <character char_type="range_value" name="size" from="25" from_unit="cm" to="110" to_unit="cm" />
+        <character name="life_style" value="annual" />
+        <character name="life_style" value="biennial" />
+      </structure>
+    </statement>
+    <statement id="295.txt-1">
+      <text>Stems usually 1, erect, branched from middles or distally, densely hispidulous proximally.</text>
+      <structure id="o5273" name="stem">
+        <character name="count" value="1" modifier="usually" />
+        <character name="orientation" value="erect" />
+        <character name="architecture_or_shape" value="branched" constraint="from middles" constraintid="o5274" />
+        <character name="pubescence" value="hispidulous" modifier="densely ; proximally" />
+      </structure>
+      <structure id="o5274" name="middle" />
+    </statement>
+    <statement id="295.txt-2">
+      <text>Leaves basal and cauline ;</text>
+    </statement>
+    <statement id="295.txt-3">
+      <text>petiolate (petioles winged, bases clasping);</text>
+      <structure id="o5275" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="architecture" value="petiolate" />
+      </structure>
+    </statement>
+    <statement id="295.txt-4">
+      <text>blades oblance-olate, runcinate, 16–19 × 2–4 cm, margins pinnately lobed, dentate, or finely denticulate, apices obtuse, faces finely hispidulous (hairs yellowish).</text>
+      <structure id="o5276" name="blade">
+        <character name="shape" value="oblance-olate" />
+        <character name="shape" value="runcinate" />
+        <character char_type="range_value" name="length" from="16" from_unit="cm" to="19" to_unit="cm" />
+        <character char_type="range_value" name="width" from="2" from_unit="cm" to="4" to_unit="cm" />
+      </structure>
+      <structure id="o5277" name="margin">
+        <character name="shape" value="lobed" modifier="pinnately" />
+        <character name="shape" value="dentate" modifier="pinnately" />
+        <character name="shape" value="denticulate" modifier="finely" />
+      </structure>
+      <structure id="o5278" name="apex">
+        <character name="shape" value="obtuse" />
+      </structure>
+      <structure id="o5279" name="face">
+        <character name="pubescence" value="hispidulous" modifier="finely" />
+      </structure>
+    </statement>
+    <statement id="295.txt-5">
+      <text>Heads 2–15, in corymbiform arrays.</text>
+      <structure id="o5280" name="head">
+        <character char_type="range_value" name="count" from="2" to="15" />
+      </structure>
+      <structure id="o5281" name="array">
+        <character name="architecture" value="corymbiform" />
+      </structure>
+      <relation id="r702" name="in" from="o5280" to="o5281" negation="false" />
+    </statement>
+    <statement id="295.txt-6">
+      <text>Calyculi of 7–9, linear, glabrous or glabrate bractlets 3–6 mm.</text>
+      <structure id="o5282" name="calyculus" />
+      <structure id="o5283" name="bractlet">
+        <character char_type="range_value" name="count" from="7" to="9" />
+        <character name="arrangement_or_shape" value="linear" />
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="glabrate" />
+        <character char_type="range_value" name="size" from="3" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+      <relation id="r703" name="consist_of" from="o5282" to="o5283" negation="false" />
+    </statement>
+    <statement id="295.txt-7">
+      <text>Involucres campanulate, 8–10 × 4–6 mm.</text>
+      <structure id="o5284" name="involucre">
+        <character name="shape" value="campanulate" />
+        <character char_type="range_value" name="length" from="8" from_unit="mm" to="10" to_unit="mm" />
+        <character char_type="range_value" name="width" from="4" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="295.txt-8">
+      <text>Phyllaries 10–15, lanceolate (strongly tapered), 7–8 mm (bases strongly keeled, partly enclosing marginal cypselae, margins scarious), apices obtuse (ciliate), abaxial faces glabrous or glabrate, adaxial glabrous.</text>
+      <structure id="o5285" name="phyllary">
+        <character char_type="range_value" name="count" from="10" to="15" />
+        <character name="shape" value="lanceolate" />
+        <character char_type="range_value" name="size" from="7" from_unit="mm" to="8" to_unit="mm" />
+      </structure>
+      <structure id="o5286" name="apex">
+        <character name="shape" value="obtuse" />
+      </structure>
+      <structure id="o5287" name="face" constraint="abaxial">
+        <character name="pubescence" value="glabrous" />
+        <character name="pubescence" value="glabrate" />
+        <character name="insertion_or_position" value="adaxial" />
+        <character name="pubescence" value="glabrous" />
+      </structure>
+    </statement>
+    <statement id="295.txt-9">
+      <text>Florets 50–60;</text>
+      <structure id="o5288" name="floret">
+        <character char_type="range_value" name="count" from="50" to="60" />
+      </structure>
+    </statement>
+    <statement id="295.txt-10">
+      <text>corollas yellow (sometimes reddish distally), 10–11 mm.</text>
+      <structure id="o5289" name="corolla">
+        <character name="coloration" value="yellow" />
+        <character char_type="range_value" name="size" from="10" from_unit="mm" to="11" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="295.txt-11">
+      <text>Cypselae golden brown, fusiform, 2.5–4 mm, ribs 10 (broad);</text>
+      <structure id="o5290" name="cypsela">
+        <character name="coloration" value="brown" modifier="golden" />
+        <character name="shape" value="fusiform" />
+        <character char_type="range_value" name="size" from="2.5" from_unit="mm" to="4" to_unit="mm" />
+      </structure>
+      <structure id="o5291" name="rib">
+        <character name="count" value="10" />
+      </structure>
+    </statement>
+    <statement id="295.txt-12">
+      <text>pappi bright white, 4–5 mm.</text>
+      <structure id="o5292" name="pappus">
+        <character name="coloration" value="white" modifier="bright" />
+        <character char_type="range_value" name="size" from="4" from_unit="mm" to="5" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="295.txt-13">
+      <text>2 n = 8.</text>
+      <structure id="o5293" name="chromosome">
+        <character name="count" value="8" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>may</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <habitat>waste places</habitat>
+  <habitat>meadows</habitat>
+  <elevation>1400–1600 m;</elevation>
+  <introduced>introduced;</introduced>
+  <ca_distribution>B.C.</ca_distribution>
+  <us_distribution>Mass.</us_distribution>
+  <us_distribution>Mich.</us_distribution>
+  <us_distribution>Ohio</us_distribution>
+  <us_distribution>Vt.</us_distribution>
+  <us_distribution>Wash.</us_distribution>
+  <global_distribution>Europe.</global_distribution>
+  <discussion>Crepis nicaeënsis is distinguished by the annual or biennial habit, shallow root system, hispid stems, and glabrate phyllaries enclosing outer cypselae. It is similar in habit to C. biennis, which differs in its larger heads and 13–20-ribbed cypselae; it is considered closely related to C. capillaris (E. B. Babcock 1947).</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

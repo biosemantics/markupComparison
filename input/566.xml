@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>13.</number>
+  <species_name>Stephanomeria thurberi</species_name>
+  <authority>A. Gray</authority>
+  <place_of_publication>Pl. Nov. Thurb., 325. 1854</place_of_publication>
+  <common_name>Thurber’s wirelettuce , skeletonplant</common_name>
+  <description>
+    <statement id="566.txt-0">
+      <text>Perennials, 20–50 cm (rhizomes slender).</text>
+      <structure id="o11652" name="whole_organism">
+        <character char_type="range_value" name="size" from="20" from_unit="cm" to="50" to_unit="cm" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="566.txt-2">
+      <text>Leaves green at flowering (at least on plants of spring and early summer, frequently absent in plants of late summer);</text>
+      <structure id="o11653" name="leaf">
+        <character name="coloration" value="green" modifier="at flowering" />
+      </structure>
+    </statement>
+    <statement id="566.txt-3">
+      <text>basal blades oblanceolate to spatulate, runcinate, 4–7 cm, margins pinnately lobed (faces glabrous or sparsely puberulent) ;</text>
+      <structure id="o11654" name="blade" constraint="basal">
+        <character name="shape" value="oblanceolate" />
+        <character name="shape" value="spatulate" />
+        <character name="shape" value="runcinate" />
+        <character char_type="range_value" name="size" from="4" from_unit="cm" to="7" to_unit="cm" />
+      </structure>
+      <structure id="o11655" name="margin">
+        <character name="shape" value="lobed" modifier="pinnately" />
+      </structure>
+    </statement>
+    <statement id="566.txt-4">
+      <text>cauline reduced, scalelike on plants of spring and early summer, linear and threadlike (to 3 cm) on plants of late summer.</text>
+      <structure id="o11656" name="leaf" constraint="cauline">
+        <character name="size" value="reduced" />
+        <character name="archiecture" value="scalelike" constraint="on plants" constraintid="o11657" />
+      </structure>
+      <structure id="o11657" name="whole_organism">
+        <character name="life_style" value="plant" />
+        <character name="life_style" value="plant" />
+        <character name="life_style" value="summer" />
+      </structure>
+      <relation id="r1350" name="of spring and early summer , linear and threadlike on" from="o11657" to="o11658" negation="false" />
+      <relation id="r1351" name="part_of" from="o11658" to="o11659" negation="false" />
+    </statement>
+    <statement id="566.txt-5">
+      <text>Heads borne singly on branch tips.</text>
+      <structure id="o11660" name="head" />
+      <structure id="o11661" name="tip" constraint="branch" />
+      <relation id="r1352" name="borne on" from="o11660" to="o11661" negation="false" />
+    </statement>
+    <statement id="566.txt-6">
+      <text>Peduncles mostly 5–100+ mm (bracteolate).</text>
+      <structure id="o11662" name="peduncle">
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="100" to_unit="mm" upper_restricted="false" modifier="mostly" />
+      </structure>
+    </statement>
+    <statement id="566.txt-7">
+      <text>Calyculi of (4–6) appressed bractlets (unequal, lengths to 1 / 2 phyllaries).</text>
+      <structure id="o11663" name="calyculus" />
+      <structure id="o11664" name="bractlet">
+        <character char_type="range_value" name="atypical_count" from="4" to="6" />
+        <character name="orientation" value="appressed" />
+      </structure>
+      <relation id="r1353" name="consist_of" from="o11663" to="o11664" negation="false" />
+    </statement>
+    <statement id="566.txt-8">
+      <text>Involucres 9–11(–12) mm (phyllaries 6–8, glabrous).</text>
+      <structure id="o11665" name="involucre">
+        <character char_type="range_value" name="atypical_size" from="11" to="12" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="9" from_unit="mm" to="11" to_unit="mm" />
+      </structure>
+    </statement>
+    <statement id="566.txt-9">
+      <text>Florets 10–16(–20).</text>
+      <structure id="o11666" name="floret">
+        <character char_type="range_value" name="atypical_count" from="16" to="20" from_inclusive="false" />
+        <character char_type="range_value" name="count" from="10" to="16" />
+      </structure>
+    </statement>
+    <statement id="566.txt-10">
+      <text>Cypselae tan, 5–6 mm, faces smooth, grooved;</text>
+      <structure id="o11667" name="cypsela">
+        <character name="coloration" value="tan" />
+        <character char_type="range_value" name="size" from="5" from_unit="mm" to="6" to_unit="mm" />
+      </structure>
+      <structure id="o11668" name="face">
+        <character name="architecture_or_relief" value="smooth" />
+        <character name="architecture" value="grooved" />
+      </structure>
+    </statement>
+    <statement id="566.txt-11">
+      <text>pappi of 30–40, white bristles (persistent), wholly plumose.</text>
+      <structure id="o11669" name="pappus">
+        <character name="architecture" value="plumose" modifier="wholly" />
+      </structure>
+      <structure id="o11670" name="bristle">
+        <character char_type="range_value" name="count" from="30" to="40" />
+        <character name="coloration" value="white" />
+      </structure>
+      <relation id="r1354" name="consist_of" from="o11669" to="o11670" negation="false" />
+    </statement>
+    <statement id="566.txt-12">
+      <text>2 n = 16.</text>
+      <structure id="o11671" name="chromosome">
+        <character name="count" value="16" />
+      </structure>
+    </statement>
+  </description>
+  <flowering_time>may</flowering_time>
+  <flowering_time>spring</flowering_time>
+  <flowering_time>jun</flowering_time>
+  <flowering_time>summer</flowering_time>
+  <flowering_time>jul</flowering_time>
+  <flowering_time>aug</flowering_time>
+  <flowering_time>sep</flowering_time>
+  <flowering_time>fall</flowering_time>
+  <habitat>open, sandy sites in juniper-mesquite grasslands and in yellow pine forests</habitat>
+  <habitat>sometimes growing as weed along roadsides</habitat>
+  <elevation>1200–2500 m;</elevation>
+  <us_distribution>Ariz.</us_distribution>
+  <us_distribution>N.Mex. Tex.</us_distribution>
+  <global_distribution>Mexico (Sonora).</global_distribution>
+  <discussion>Stephanomeria thurberi has been collected most often in May, June, and early July. These specimens have well developed basal rosettes, stems with nodes 3+ cm apart, relatively short branches, usually only on the distal 30–50%, and scalelike, cauline leaves. That is the form described by Gray. Another form has been collected from late July into early September that is morphologically distinct, as first pointed out by A. S. Tomb on the labels of specimens he collected in 1968 and 1970 (see below). That “summer form” lacks basal rosettes, the stems have more numerous nodes, about 1 per cm, beginning at ground level, and threadlike cauline leaves 3–4 cm. Those specimens usually have relatively few heads. Some specimens collected in July are intermediate, having basal rosettes and relatively long, threadlike cauline leaves, or no rosettes and relatively short, scalelike cauline leaves.</discussion>
+  <discussion>It is not known if the different growth forms represent distinct genotypes that initiate growth at different times, or if the same individual produces aboveground parts with differing appearances during the growth season. It is also not known if the two forms commonly grow together as they do in Coconino County, Arizona (Tomb 280, August 10, 1968, and Tomb 631, June 12, 1970), or if they generally occupy different habitats. The unusual situation calls for study.</discussion>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->

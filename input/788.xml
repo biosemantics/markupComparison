@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <number>187h.</number>
+  <tribe_name>Asteraceae Martinov tribe Inuleae</tribe_name>
+  <authority>Cassini</authority>
+  <place_of_publication>J. Phys. Chim. Hist. Nat. Arts 88: 193. 1819</place_of_publication>
+  <description>
+    <statement id="788.txt-0">
+      <text>Annuals or perennials [subshrubs, shrubs, or trees].</text>
+      <structure id="o16575" name="whole_organism">
+        <character name="life_style" value="annual" />
+        <character name="life_style" value="perennial" />
+      </structure>
+    </statement>
+    <statement id="788.txt-1">
+      <text>Leaves basal and/or cauline (basal often withering before flowering);</text>
+    </statement>
+    <statement id="788.txt-2">
+      <text>alternate [opposite];</text>
+    </statement>
+    <statement id="788.txt-3">
+      <text>petiolate or sessile;</text>
+      <structure id="o16577" name="leaf">
+        <character name="insertion_or_position" value="basal" />
+        <character name="insertion_or_position" value="cauline" />
+        <character name="arrangement" value="alternate" />
+        <character name="architecture" value="petiolate" />
+        <character name="architecture" value="sessile" />
+      </structure>
+    </statement>
+    <statement id="788.txt-4">
+      <text>margins entire or dentate to serrate [pinnately divided].</text>
+      <structure id="o16578" name="margin">
+        <character char_type="range_value" name="shape" from="dentate" to="serrate" />
+        <character name="shape" value="entire" />
+        <character name="shape" value="dentate" />
+        <character name="shape" value="serrate" />
+      </structure>
+    </statement>
+    <statement id="788.txt-5">
+      <text>Heads heterogamous (radiate [disciform]) [homogamous (discoid)], usually in corymbiform, paniculiform, or racemiform arrays, sometimes borne singly (on ± leafy stems).</text>
+      <structure id="o16579" name="head">
+        <character name="reproduction" value="heterogamous" />
+        <character name="arrangement" value="singly" modifier="sometimes" />
+      </structure>
+      <structure id="o16580" name="array">
+        <character name="architecture" value="corymbiform" />
+        <character name="architecture" value="paniculiform" />
+        <character name="architecture" value="racemiform" />
+      </structure>
+      <relation id="r1781" name="in" from="o16579" to="o16580" negation="false" modifier="usually" />
+    </statement>
+    <statement id="788.txt-6">
+      <text>Calyculi 0.</text>
+      <structure id="o16581" name="calyculus">
+        <character name="count" value="0" />
+      </structure>
+    </statement>
+    <statement id="788.txt-7">
+      <text>Phyllaries persistent [falling], in (2–)3–7+ series, distinct, unequal to subequal, herbaceous to chartaceous or membranous, margins and/or apices usually scarious.</text>
+      <structure id="o16582" name="phyllary">
+        <character name="duration" value="persistent" />
+        <character name="fusion" value="distinct" />
+        <character char_type="range_value" name="size" from="unequal" to="subequal" />
+        <character name="size" value="unequal" />
+        <character name="size" value="subequal" />
+        <character char_type="range_value" name="texture" from="herbaceous" to="chartaceous or membranous" />
+        <character name="texture" value="herbaceous" />
+        <character name="texture" value="chartaceous" />
+        <character name="texture" value="membranous" />
+      </structure>
+      <structure id="o16583" name="series" constraint="2-3-7+" />
+      <relation id="r1782" name="in" from="o16582" to="o16583" negation="false" />
+      <structure id="o16584" name="margin" />
+      <structure id="o16585" name="apex">
+        <character name="texture" value="scarious" modifier="usually" />
+      </structure>
+    </statement>
+    <statement id="788.txt-8">
+      <text>Receptacles flat to convex [concave], epaleate [paleate].</text>
+      <structure id="o16586" name="receptacle">
+        <character char_type="range_value" name="shape" from="flat" to="convex" />
+        <character name="shape" value="flat" />
+        <character name="shape" value="convex" />
+        <character name="architecture" value="epaleate" />
+      </structure>
+    </statement>
+    <statement id="788.txt-9">
+      <text>Ray florets [0] in 1(–2+) series, pistillate and fertile [neuter];</text>
+      <structure id="o16587" name="floret" constraint="ray">
+        <character name="atypical_count" value="0" constraint="in -2+ series" constraintid="o16588" />
+        <character name="architecture" value="pistillate" />
+        <character name="reproduction" value="fertile" />
+      </structure>
+      <structure id="o16588" name="series" constraint="-2+">
+        <character name="count" value="1" />
+      </structure>
+    </statement>
+    <statement id="788.txt-10">
+      <text>corollas usually yellow, sometimes reddish [ochroleucous or purplish] (laminae often linear).</text>
+      <structure id="o16589" name="corolla">
+        <character name="coloration" value="yellow" modifier="usually" />
+        <character name="coloration" value="reddish" modifier="sometimes" />
+      </structure>
+    </statement>
+    <statement id="788.txt-11">
+      <text>Disc florets bisexual, fertile;</text>
+      <structure id="o16590" name="floret" constraint="disc">
+        <character name="reproduction" value="bisexual" />
+        <character name="reproduction" value="fertile" />
+      </structure>
+    </statement>
+    <statement id="788.txt-12">
+      <text>corollas usually yellow, sometimes reddish [ochroleucous or purplish] (laminae often linear). Disc florets bisexual, fertile; corollas usually yellow, sometimes reddish [ochroleucous or purplish], not 2-lipped, lobes (4–)5, usually ± deltate;</text>
+      <structure id="o16591" name="corolla">
+        <character name="coloration" value="yellow" modifier="usually" />
+        <character name="coloration" value="reddish" modifier="sometimes" />
+        <character name="architecture" value="2-lipped" modifier="not" />
+      </structure>
+      <structure id="o16592" name="lobe">
+        <character char_type="range_value" name="atypical_count" from="4" to="5" to_inclusive="false" />
+        <character name="count" value="5" />
+        <character name="shape" value="deltate" modifier="usually ±" />
+      </structure>
+    </statement>
+    <statement id="788.txt-13">
+      <text>anther bases ± tailed, apical appendages ovate to lance-ovate or linear;</text>
+      <structure id="o16593" name="base" constraint="anther">
+        <character name="shape" value="tailed" modifier="±" />
+      </structure>
+      <structure id="o16594" name="appendage" constraint="apical">
+        <character char_type="range_value" name="shape" from="ovate" to="lance-ovate or linear" />
+        <character name="shape" value="ovate" />
+        <character name="shape" value="lance-ovate" />
+        <character name="shape" value="linear" />
+      </structure>
+    </statement>
+    <statement id="788.txt-14">
+      <text>styles abaxially glabrous or papillate (distally), branches ± linear, adaxially stigmatic in 2 lines from bases to apices (lines often confluent distally), apices rounded to truncate, appendages essentially none.</text>
+      <structure id="o16595" name="style">
+        <character name="pubescence" value="glabrous" modifier="abaxially" />
+        <character name="pubescence" value="papillate" modifier="abaxially" />
+      </structure>
+      <structure id="o16596" name="branch">
+        <character name="arrangement_or_shape" value="linear" modifier="±" />
+        <character name="habit" value="stigmatic" modifier="adaxially" constraint="in lines" constraintid="o16597" />
+      </structure>
+      <structure id="o16597" name="line">
+        <character name="count" value="2" />
+      </structure>
+      <structure id="o16598" name="base" />
+      <relation id="r1783" name="from" from="o16597" to="o16598" negation="false" />
+      <structure id="o16599" name="apex" />
+      <relation id="r1784" name="to" from="o16598" to="o16599" negation="false" />
+      <structure id="o16600" name="apex">
+        <character char_type="range_value" name="shape" from="rounded" to="truncate" />
+        <character name="shape" value="rounded" />
+        <character name="shape" value="truncate" />
+      </structure>
+      <structure id="o16601" name="appendage" />
+    </statement>
+    <statement id="788.txt-15">
+      <text>Cypselae usually monomorphic within heads, usually ellipsoid or columnar to prismatic [compressed or obcompressed], not beaked (sometimes abruptly constricted at each end), bodies often ribbed (glabrous or hairy, often glandular, hairs not myxogenic);</text>
+      <structure id="o16602" name="cypsela">
+        <character name="habit" value="monomorphic" modifier="usually" constraint="within heads" constraintid="o16603" />
+        <character char_type="range_value" name="shape" from="columnar" to="prismatic" />
+        <character name="shape" value="ellipsoid" modifier="usually" />
+        <character name="shape" value="columnar" modifier="usually" />
+        <character name="shape" value="prismatic" modifier="usually" />
+        <character name="shape" value="beaked" modifier="not" />
+      </structure>
+      <structure id="o16603" name="head" />
+      <structure id="o16604" name="body">
+        <character name="architecture_or_shape" value="ribbed" modifier="often" />
+      </structure>
+    </statement>
+    <statement id="788.txt-16">
+      <text>pappi persistent (fragile), of ± barbellate [plumose] scales (sometimes setiform or aristate) and/or bristles.</text>
+      <structure id="o16605" name="pappus">
+        <character name="duration" value="persistent" />
+      </structure>
+      <structure id="o16606" name="scale">
+        <character name="architecture" value="barbellate" modifier="±" />
+      </structure>
+      <relation id="r1785" name="consist_of" from="o16605" to="o16606" negation="false" />
+      <structure id="o16607" name="bristle" />
+    </statement>
+  </description>
+  <number_of_infrataxa>Genera ca. 40, species ca. 500 (3 genera, 5 species in the flora):</number_of_infrataxa>
+  <introduced>introduced;</introduced>
+  <general_distribution>Old World</general_distribution>
+  <general_distribution>especially Eurasia and n Africa</general_distribution>
+  <general_distribution>some species widely introduced and established in local floras.</general_distribution>
+  <discussion>Following A. A. Anderberg (1994) and others, some 180 genera and 2000 species have been segregated from traditionally circumscribed Inuleae as Gnaphalieae, and another 25+ genera and 200+ species as Plucheeae.</discussion>
+  <references>SELECTED REFERENCES Anderberg, A. A. 1994. Tribe Inuleae. In: K. Bremer. 1994. Asteraceae: Cladistics &amp; Classification. Portland. Pp. 273–291. Arriagada, J. E. 1998. The genera of Inuleae (Compositae: Asteraceae) in the southeastern United States. Harvard Pap. Bot. 3: 1–48.</references>
+  <key>1.Pappi of outer, ± connate, ± erose scales in 1 series and inner, distinct bristles in 1 series 106. Pulicaria, p. 471</key>
+  <key>1.Pappi of distinct or basally connate bristles and/or setiform-scales in 1 series.</key>
+  <key>2.Annuals (pilosulous to hispid and stipitate-glandular, viscid); involucres 3–8 mm diam.; laminae of ray corollas 2–5(–7) mm107. Dittrichia, p. 473</key>
+  <key>2.Perennials; involucres 10–40 mm diam.; laminae of ray corollas 10–30+ mm108. Inula, p. 473</key>
+</treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 794 2011-04-14 02:35:22Z hong1.cui $
+-->
