@@ -1,7 +1,7 @@
 package edu.arizona.sirls.etc.markupSimilarity.algorithm.treatment;
 
 import edu.arizona.sirls.etc.markupSimilarity.algorithm.ISimilarity;
-import edu.arizona.sirls.etc.markupSimilarity.io.Score;
+import edu.arizona.sirls.etc.markupSimilarity.algorithm.Score;
 import edu.arizona.sirls.etc.markupSimilarity.model.Description;
 import edu.arizona.sirls.etc.markupSimilarity.model.Statement;
 import edu.arizona.sirls.etc.markupSimilarity.model.TreatmentRoot;

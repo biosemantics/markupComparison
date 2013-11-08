@@ -1,7 +1,7 @@
 package edu.arizona.sirls.etc.markupSimilarity.algorithm.character;
 
 import edu.arizona.sirls.etc.markupSimilarity.algorithm.ISimilarity;
-import edu.arizona.sirls.etc.markupSimilarity.io.Score;
+import edu.arizona.sirls.etc.markupSimilarity.algorithm.Score;
 
 
 public class SomeSimilarity implements ISimilarity<edu.arizona.sirls.etc.markupSimilarity.model.Character> {

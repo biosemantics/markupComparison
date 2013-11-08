@@ -1,7 +1,7 @@
 package edu.arizona.sirls.etc.markupSimilarity.algorithm.description;
 
 import edu.arizona.sirls.etc.markupSimilarity.algorithm.ISimilarity;
-import edu.arizona.sirls.etc.markupSimilarity.io.Score;
+import edu.arizona.sirls.etc.markupSimilarity.algorithm.Score;
 import edu.arizona.sirls.etc.markupSimilarity.model.Description;
 
 public class CosineSimilarity implements ISimilarity<Description> {

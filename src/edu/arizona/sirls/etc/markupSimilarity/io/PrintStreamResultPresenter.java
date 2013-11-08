@@ -5,6 +5,8 @@ import java.util.List;
 
 import com.google.inject.Inject;
 
+import edu.arizona.sirls.etc.markupSimilarity.algorithm.SimilarityResult;
+
 public class PrintStreamResultPresenter implements IResultPresenter {
 
 	private PrintStream printStream;

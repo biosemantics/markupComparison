@@ -20,11 +20,11 @@ import com.google.inject.Inject;
 import com.google.inject.name.Named;
 
 import edu.arizona.sirls.etc.markupSimilarity.algorithm.ISimilarity;
+import edu.arizona.sirls.etc.markupSimilarity.algorithm.Score;
 import edu.arizona.sirls.etc.markupSimilarity.algorithm.SimilarityCalculation;
+import edu.arizona.sirls.etc.markupSimilarity.algorithm.SimilarityResult;
 import edu.arizona.sirls.etc.markupSimilarity.io.IResultPresenter;
 import edu.arizona.sirls.etc.markupSimilarity.io.ITreatmentReader;
-import edu.arizona.sirls.etc.markupSimilarity.io.Score;
-import edu.arizona.sirls.etc.markupSimilarity.io.SimilarityResult;
 import edu.arizona.sirls.etc.markupSimilarity.model.DescriptionsFile;
 import edu.arizona.sirls.etc.markupSimilarity.model.DescriptionsFileList;
 import edu.arizona.sirls.etc.markupSimilarity.model.TreatmentRoot;

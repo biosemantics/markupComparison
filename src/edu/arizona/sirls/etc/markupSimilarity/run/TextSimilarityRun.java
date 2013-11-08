@@ -6,9 +6,9 @@ import java.util.List;
 import com.google.inject.Inject;
 
 import edu.arizona.sirls.etc.markupSimilarity.algorithm.ISimilarity;
+import edu.arizona.sirls.etc.markupSimilarity.algorithm.Score;
+import edu.arizona.sirls.etc.markupSimilarity.algorithm.SimilarityResult;
 import edu.arizona.sirls.etc.markupSimilarity.io.IResultPresenter;
-import edu.arizona.sirls.etc.markupSimilarity.io.Score;
-import edu.arizona.sirls.etc.markupSimilarity.io.SimilarityResult;
 
 public class TextSimilarityRun implements IRun {
 

@@ -1,4 +1,5 @@
-package edu.arizona.sirls.etc.markupSimilarity.io;
+package edu.arizona.sirls.etc.markupSimilarity.algorithm;
+
 
 public class SimilarityResult implements Comparable<SimilarityResult> {
 

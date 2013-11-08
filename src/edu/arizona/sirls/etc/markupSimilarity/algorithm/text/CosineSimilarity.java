@@ -25,7 +25,7 @@ import org.apache.lucene.util.BytesRef;
 import org.apache.lucene.util.Version;
 
 import edu.arizona.sirls.etc.markupSimilarity.algorithm.ISimilarity;
-import edu.arizona.sirls.etc.markupSimilarity.io.Score;
+import edu.arizona.sirls.etc.markupSimilarity.algorithm.Score;
 
 public class CosineSimilarity implements ISimilarity<String> {
 

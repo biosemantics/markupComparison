@@ -2,7 +2,6 @@ package edu.arizona.sirls.etc.markupSimilarity.algorithm;
 
 import java.util.concurrent.Callable;
 
-import edu.arizona.sirls.etc.markupSimilarity.io.Score;
 
 public class SimilarityCalculation<T> implements Callable<Score> {
 
