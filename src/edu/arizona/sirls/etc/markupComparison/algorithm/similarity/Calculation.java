@@ -1,8 +1,8 @@
 package edu.arizona.sirls.etc.markupComparison.algorithm.similarity;
 
 import edu.arizona.sirls.etc.markupComparison.algorithm.AbstractCalculation;
-import edu.arizona.sirls.etc.markupComparison.io.ICalculation;
-import edu.arizona.sirls.etc.markupComparison.io.IResult;
+import edu.arizona.sirls.etc.markupComparison.algorithm.ICalculation;
+import edu.arizona.sirls.etc.markupComparison.algorithm.IResult;
 
 
 public class Calculation<T> extends AbstractCalculation<T> implements ICalculation<Result> {

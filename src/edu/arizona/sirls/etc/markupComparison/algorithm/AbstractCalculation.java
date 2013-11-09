@@ -1,7 +1,5 @@
 package edu.arizona.sirls.etc.markupComparison.algorithm;
 
-import edu.arizona.sirls.etc.markupComparison.io.ICalculation;
-import edu.arizona.sirls.etc.markupComparison.io.IResult;
 
 public abstract class AbstractCalculation<T> implements Comparable<AbstractCalculation<T>> {
 

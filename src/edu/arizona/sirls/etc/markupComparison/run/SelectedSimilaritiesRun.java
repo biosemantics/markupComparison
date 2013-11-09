@@ -17,13 +17,13 @@ import com.google.common.util.concurrent.MoreExecutors;
 import com.google.inject.Inject;
 import com.google.inject.name.Named;
 
+import edu.arizona.sirls.etc.markupComparison.algorithm.ICalculation;
+import edu.arizona.sirls.etc.markupComparison.algorithm.IResult;
 import edu.arizona.sirls.etc.markupComparison.algorithm.similarity.ISimilarity;
 import edu.arizona.sirls.etc.markupComparison.algorithm.similarity.Result;
 import edu.arizona.sirls.etc.markupComparison.algorithm.similarity.Calculation;
 import edu.arizona.sirls.etc.markupComparison.algorithm.similarity.Result;
-import edu.arizona.sirls.etc.markupComparison.io.ICalculation;
 import edu.arizona.sirls.etc.markupComparison.io.ICalculationPresenter;
-import edu.arizona.sirls.etc.markupComparison.io.IResult;
 import edu.arizona.sirls.etc.markupComparison.io.ITreatmentReader;
 import edu.arizona.sirls.etc.markupComparison.model.DescriptionsFile;
 import edu.arizona.sirls.etc.markupComparison.model.DescriptionsFileList;

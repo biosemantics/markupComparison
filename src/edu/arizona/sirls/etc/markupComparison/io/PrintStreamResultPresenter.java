@@ -5,6 +5,9 @@ import java.util.List;
 
 import com.google.inject.Inject;
 
+import edu.arizona.sirls.etc.markupComparison.algorithm.ICalculation;
+import edu.arizona.sirls.etc.markupComparison.algorithm.IResult;
+
 public class PrintStreamResultPresenter implements ICalculationPresenter {
 
 	private PrintStream printStream;

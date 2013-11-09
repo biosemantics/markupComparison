@@ -1,6 +1,6 @@
 package edu.arizona.sirls.etc.markupComparison.algorithm.setRelation;
 
-import edu.arizona.sirls.etc.markupComparison.io.IResult;
+import edu.arizona.sirls.etc.markupComparison.algorithm.IResult;
 
 public class Result implements IResult {
 

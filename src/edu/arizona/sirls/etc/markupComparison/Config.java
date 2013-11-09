@@ -18,7 +18,7 @@ import edu.arizona.sirls.etc.markupComparison.io.ITreatmentReader;
 import edu.arizona.sirls.etc.markupComparison.io.MOXyTreatmentReader;
 import edu.arizona.sirls.etc.markupComparison.io.PrintStreamResultPresenter;
 import edu.arizona.sirls.etc.markupComparison.model.TreatmentRoot;
-import edu.arizona.sirls.etc.markupComparison.run.DescriptionsComparisonRun;
+import edu.arizona.sirls.etc.markupComparison.run.DescriptionsSimilarityRun;
 import edu.arizona.sirls.etc.markupComparison.run.IRun;
 import edu.arizona.sirls.etc.markupComparison.run.SelectedSimilaritiesRun;
 
