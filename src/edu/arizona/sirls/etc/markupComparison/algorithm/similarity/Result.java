@@ -1,0 +1,23 @@
+package edu.arizona.sirls.etc.markupComparison.algorithm.similarity;
+
+import edu.arizona.sirls.etc.markupComparison.io.IResult;
+
+public class Result implements IResult {
+
+	private double similarity;
+	public Result(double similarity) {
+		super();
+		this.similarity = similarity;
+	}
+	public double getSimilarity() {
+		return similarity;
+	}
+	public void setSimilarity(double similarity) {
+		this.similarity = similarity;
+	}
+	
+	public String toString() {
+		return String.valueOf(similarity);
+	}
+	
+}
