@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <xml-bindings
     xmlns="http://www.eclipse.org/eclipselink/xsds/persistence/oxm"
-    package-name="edu.arizona.sirls.etc.markupSimilarity.model">
+    package-name="edu.arizona.sirls.etc.markupComparison.model">
     <java-types>
         <!-- 
         recall that later definitions can and will override previous definitions 
@@ -16,20 +16,20 @@
         </java-type>
         <java-type name="TreatmentRoot">
             <java-attributes>
-                                <xml-element java-attribute="descriptions" xml-path="description" type="edu.arizona.sirls.etc.markupSimilarity.model.Description" container-type="java.util.List" />
+                                <xml-element java-attribute="descriptions" xml-path="description" type="edu.arizona.sirls.etc.markupComparison.model.Description" container-type="java.util.List" />
             </java-attributes>
         </java-type>
         <java-type name="Description">
             <java-attributes>                        
                 <xml-element java-attribute="text" xml-path="text()"/>
-                <xml-element java-attribute="statements" xml-path="statement/" type="edu.arizona.sirls.etc.markupSimilarity.model.Statement" container-type="java.util.List"/>
+                <xml-element java-attribute="statements" xml-path="statement/" type="edu.arizona.sirls.etc.markupComparison.model.Statement" container-type="java.util.List"/>
             </java-attributes>
         </java-type>
                    <java-type name="Statement">
             <java-attributes>                        
                 <xml-element java-attribute="text" xml-path="text/text()"/>
-                                <xml-element java-attribute="structures" xml-path="structure/" type="edu.arizona.sirls.etc.markupSimilarity.model.Structure" container-type="java.util.List"/>
-                                <xml-element java-attribute="relations" xml-path="relation/" type="edu.arizona.sirls.etc.markupSimilarity.model.Relation" container-type="java.util.List"/>
+                                <xml-element java-attribute="structures" xml-path="structure/" type="edu.arizona.sirls.etc.markupComparison.model.Structure" container-type="java.util.List"/>
+                                <xml-element java-attribute="relations" xml-path="relation/" type="edu.arizona.sirls.etc.markupComparison.model.Relation" container-type="java.util.List"/>
             </java-attributes>
         </java-type>
                 <java-type name="Character">

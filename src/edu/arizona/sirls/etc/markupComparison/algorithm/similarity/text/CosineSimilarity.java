@@ -26,13 +26,14 @@ import org.apache.lucene.util.Version;
 
 import edu.arizona.sirls.etc.markupComparison.algorithm.similarity.ISimilarity;
 import edu.arizona.sirls.etc.markupComparison.algorithm.similarity.Result;
+import edu.arizona.sirls.etc.markupComparison.model.StringComparable;
 
-public class CosineSimilarity implements ISimilarity<String> {
+public class CosineSimilarity implements ISimilarity<StringComparable> {
 
 	@Override
-	public Result getSimilarity(String a, String b) {
+	public Result getResult(StringComparable a, StringComparable b) {
 		try {
-	        Directory directory = createIndex(a, b);
+	        Directory directory = createIndex(a.getString(), b.getString());
 	        IndexReader reader = DirectoryReader.open(directory);
 	
 	        Set<String> terms = new HashSet<>();

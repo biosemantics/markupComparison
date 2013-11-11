@@ -2,23 +2,27 @@ package edu.arizona.sirls.etc.markupComparison.algorithm.setRelation;
 
 import edu.arizona.sirls.etc.markupComparison.algorithm.IResult;
 
-public class Result implements IResult {
+public class ProbabilisticResult implements IResult {
 
 	private double congruent;
 	private double subset; 
+	private double superset;
 	private double overlap;
 	private double distinct;
 	
-	public Result(double congruent, double subset, double overlap, double distinct) {
+	public ProbabilisticResult(double congruent, double subset, double superset, 
+			double overlap, double distinct) {
 		this.congruent = congruent;
 		this.subset = subset;
+		this.superset = superset;
 		this.overlap = overlap;
 		this.distinct = distinct;
 	}
 	
 	@Override
-	public String toString() {
+	public String getResult() {
 		return "Congruent: " + congruent + " Subset: " + subset + 
+				" Superset: " + superset + 
 				" Overlap: " + overlap + " Distinct: " + distinct;
 	}
 
@@ -53,5 +57,15 @@ public class Result implements IResult {
 	public void setDistinct(double distinct) {
 		this.distinct = distinct;
 	}
+
+	public double getSuperset() {
+		return superset;
+	}
+
+	public void setSuperset(double superset) {
+		this.superset = superset;
+	}
+	
+	
 }
 

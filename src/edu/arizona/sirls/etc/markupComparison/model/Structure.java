@@ -344,4 +344,13 @@ public class Structure extends NamedElement {
 				character.removeElementRecursively(element);
 		}
 	}
+
+
+	public void setToRelations(LinkedHashSet<Relation> toRelations) {
+		this.toRelations = toRelations;
+	}
+	
+	public void setFromRelations(LinkedHashSet<Relation> fromRelations) {
+		this.fromRelations = fromRelations;
+	}
 }

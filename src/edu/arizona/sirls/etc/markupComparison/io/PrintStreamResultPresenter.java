@@ -5,8 +5,10 @@ import java.util.List;
 
 import com.google.inject.Inject;
 
-import edu.arizona.sirls.etc.markupComparison.algorithm.ICalculation;
+import edu.arizona.sirls.etc.markupComparison.algorithm.Calculation;
+import edu.arizona.sirls.etc.markupComparison.algorithm.IComparable;
 import edu.arizona.sirls.etc.markupComparison.algorithm.IResult;
+import edu.arizona.sirls.etc.markupComparison.algorithm.IResultAlgorithm;
 
 public class PrintStreamResultPresenter implements ICalculationPresenter {
 
@@ -16,13 +18,13 @@ public class PrintStreamResultPresenter implements ICalculationPresenter {
 	public PrintStreamResultPresenter(PrintStream printStream) {
 		this.printStream = printStream;
 	}
-	
+
 	@Override
 	public void present(
-			List<? extends ICalculation<? extends IResult>> calculations) {
-		for(ICalculation<? extends IResult> calculation : calculations) {
+			List<? extends Calculation<? extends IResultAlgorithm<? extends IResult, ? extends IComparable>, ? extends IResult, ? extends IComparable>> calculations) {
+		for(Calculation calculation : calculations) {
 			printStream.println(calculation.toString());
 		}
 	}
-
+	
 }

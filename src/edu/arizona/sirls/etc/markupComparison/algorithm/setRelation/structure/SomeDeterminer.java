@@ -5,25 +5,29 @@ import java.util.Set;
 
 import org.tartarus.snowball.ext.PorterStemmer;
 
-import edu.arizona.sirls.etc.markupComparison.algorithm.setRelation.ISetRelationDeterminer;
-import edu.arizona.sirls.etc.markupComparison.algorithm.setRelation.Result;
+import edu.arizona.sirls.etc.markupComparison.algorithm.setRelation.DeterministicResult;
+import edu.arizona.sirls.etc.markupComparison.algorithm.setRelation.IDeterministicSetRelationDeterminer;
+import edu.arizona.sirls.etc.markupComparison.algorithm.setRelation.IProbabilisticSetRelationDeterminer;
+import edu.arizona.sirls.etc.markupComparison.algorithm.setRelation.ProbabilisticResult;
 import edu.arizona.sirls.etc.markupComparison.model.Structure;
 
-public class SomeDeterminer implements ISetRelationDeterminer<Structure> {
+public class SomeDeterminer implements IDeterministicSetRelationDeterminer<Structure> {
 
 	@Override
-	public Result getSetRelation(Structure a, Structure b) {
+	public DeterministicResult getResult(Structure a, Structure b) {
 		Set<String> aCharacters = new HashSet<String>();
 		for(edu.arizona.sirls.etc.markupComparison.model.Character character : a.getCharacters()) {
-			if(!character.getCharType().equals("range_value")) {
-				aCharacters.add(normalize(character.getValue() + normalize(character.getName())));
+			if((character.getCharType()==null || !character.getCharType().equals("range_value")) &&
+					!character.getName().equals("atypical_size")) {
+				aCharacters.add(normalize(character.getValue()) + normalize(character.getName()));
 			}
 		}
 		
 		Set<String> bCharacters = new HashSet<String>();
 		for(edu.arizona.sirls.etc.markupComparison.model.Character character : b.getCharacters()) {
-			if(!character.getCharType().equals("range_value")) {
-				bCharacters.add(normalize(character.getValue() + normalize(character.getName())));
+			if((character.getCharType()==null || !character.getCharType().equals("range_value")) &&
+					!character.getName().equals("atypical_size")) {
+				bCharacters.add(normalize(character.getValue()) + normalize(character.getName()));
 			}
 		}
 		
@@ -39,7 +43,19 @@ public class SomeDeterminer implements ISetRelationDeterminer<Structure> {
 		int bCharactersNotACharacters = bCharacters.size();
 		int bCharactersACharacters = numberBCharacters - bCharactersNotACharacters;
 		
-		return null;
+		if(aCharactersBCharacters > 0)
+			if(numberACharacters == aCharactersBCharacters)
+				if(numberACharacters == numberBCharacters) 
+					return DeterministicResult.CONGRUENT;
+				else
+					return DeterministicResult.SUPERSET;
+			else
+				if(numberBCharacters > aCharactersBCharacters) 
+					return DeterministicResult.OVERLAP;
+				else 
+					return DeterministicResult.SUBSET;
+		else
+			return DeterministicResult.DISTINCT;
 	}
 	
 	private String normalize(String term) {

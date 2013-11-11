@@ -16,7 +16,7 @@ public class Result implements IResult {
 		this.similarity = similarity;
 	}
 	
-	public String toString() {
+	public String getResult() {
 		return String.valueOf(similarity);
 	}
 	

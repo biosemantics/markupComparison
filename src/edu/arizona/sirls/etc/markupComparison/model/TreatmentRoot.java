@@ -2,7 +2,9 @@ package edu.arizona.sirls.etc.markupComparison.model;
 
 import java.util.List;
 
-public class TreatmentRoot {
+import edu.arizona.sirls.etc.markupComparison.algorithm.IComparable;
+
+public class TreatmentRoot implements IComparable {
 
 	private List<Description> descriptions;
 

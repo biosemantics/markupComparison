@@ -1,9 +1,12 @@
 package edu.arizona.sirls.etc.markupComparison.model;
 
 
+import java.util.HashMap;
 import java.util.Iterator;
+import java.util.LinkedHashSet;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Map;
 
 
 public class Description extends Element {
@@ -39,6 +42,39 @@ public class Description extends Element {
 
 	public void setStatements(List<Statement> statements) {
 		this.statements = statements;
+		
+		Map<String, Structure> structuresMap = new HashMap<String, Structure>();
+		for(Statement statement : statements) {
+			for(Structure structure : statement.getStructures()) {
+				structuresMap.put(structure.getId(), structure);
+			}
+		}
+		
+		Map<String, LinkedHashSet<Relation>> fromRelationMap = new HashMap<String, LinkedHashSet<Relation>>();
+		Map<String, LinkedHashSet<Relation>> toRelationMap = new HashMap<String, LinkedHashSet<Relation>>();
+		for(Statement statement : statements) {
+			for(Relation relation : statement.getRelations()) {
+				relation.setFromStructure(structuresMap.get(relation.getFrom()));
+				if(!fromRelationMap.containsKey(relation.getFrom()))
+					fromRelationMap.put(relation.getFrom(), new LinkedHashSet<Relation>());
+				fromRelationMap.get(relation.getFrom()).add(relation);
+				relation.setToStructure(structuresMap.get(relation.getTo()));
+				if(!toRelationMap.containsKey(relation.getTo()))
+					toRelationMap.put(relation.getTo(), new LinkedHashSet<Relation>());
+				toRelationMap.get(relation.getTo()).add(relation);
+			}
+		}
+		
+		for(Statement statement : statements) {
+			for(Structure structure : statement.getStructures()) {
+				if(fromRelationMap.containsKey(structure.getId())) {
+					structure.setFromRelations(fromRelationMap.get(structure.getId()));
+				}
+				if(toRelationMap.containsKey(structure.getId())) {
+					structure.setToRelations(toRelationMap.get(structure.getId()));
+				}
+			}
+		}
 	}
 
 	public void addStatement(Statement statement) {

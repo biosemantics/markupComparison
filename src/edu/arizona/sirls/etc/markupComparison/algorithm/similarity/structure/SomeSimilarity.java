@@ -8,7 +8,7 @@ import edu.arizona.sirls.etc.markupComparison.model.Structure;
 public class SomeSimilarity implements ISimilarity<Structure> {
 
 	@Override
-	public Result getSimilarity(Structure a, Structure b) {
+	public Result getResult(Structure a, Structure b) {
 		// TODO Auto-generated method stub
 		return null;
 	}

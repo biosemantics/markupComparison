@@ -7,7 +7,9 @@ import javax.xml.bind.Marshaller;
 
 import org.eclipse.persistence.jaxb.JAXBContextFactory;
 
-public abstract class Element {
+import edu.arizona.sirls.etc.markupComparison.algorithm.IComparable;
+
+public abstract class Element implements IComparable {
 	
 	private static Marshaller marshaller = null; 
 	

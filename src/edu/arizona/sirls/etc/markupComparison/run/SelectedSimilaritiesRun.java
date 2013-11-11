@@ -2,14 +2,12 @@ package edu.arizona.sirls.etc.markupComparison.run;
 
 import java.io.File;
 import java.util.Collections;
-import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.Executors;
-import java.util.concurrent.Future;
 
 import com.google.common.util.concurrent.ListenableFuture;
 import com.google.common.util.concurrent.ListeningExecutorService;
@@ -17,12 +15,9 @@ import com.google.common.util.concurrent.MoreExecutors;
 import com.google.inject.Inject;
 import com.google.inject.name.Named;
 
-import edu.arizona.sirls.etc.markupComparison.algorithm.ICalculation;
-import edu.arizona.sirls.etc.markupComparison.algorithm.IResult;
 import edu.arizona.sirls.etc.markupComparison.algorithm.similarity.ISimilarity;
 import edu.arizona.sirls.etc.markupComparison.algorithm.similarity.Result;
 import edu.arizona.sirls.etc.markupComparison.algorithm.similarity.Calculation;
-import edu.arizona.sirls.etc.markupComparison.algorithm.similarity.Result;
 import edu.arizona.sirls.etc.markupComparison.io.ICalculationPresenter;
 import edu.arizona.sirls.etc.markupComparison.io.ITreatmentReader;
 import edu.arizona.sirls.etc.markupComparison.model.DescriptionsFile;
@@ -86,7 +81,7 @@ public class SelectedSimilaritiesRun implements IRun {
 					@Override
 					public void run() {
 						calculationsLatch.countDown();
-						System.out.println(calculationsLatch.getCount());
+						System.out.println("remaining calculations: " + calculationsLatch.getCount());
 					} 
 				}, executorService);
 				results.add(calculation);

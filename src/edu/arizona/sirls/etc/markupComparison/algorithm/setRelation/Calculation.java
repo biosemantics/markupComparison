@@ -1,24 +1,12 @@
 package edu.arizona.sirls.etc.markupComparison.algorithm.setRelation;
 
-import edu.arizona.sirls.etc.markupComparison.algorithm.AbstractCalculation;
-import edu.arizona.sirls.etc.markupComparison.algorithm.ICalculation;
-import edu.arizona.sirls.etc.markupComparison.algorithm.IResult;
+import edu.arizona.sirls.etc.markupComparison.algorithm.IComparable;
 
-public class Calculation<T> extends AbstractCalculation<T> implements ICalculation<Result> {
-	
+public class Calculation<V extends IComparable>
+	extends edu.arizona.sirls.etc.markupComparison.algorithm.Calculation<
+	IDeterministicSetRelationDeterminer<V>, DeterministicResult, V> {
 
-	private ISetRelationDeterminer<T> determiner;
-
-	public Calculation(ISetRelationDeterminer<T> determiner, T a, String aLabel, T b, String bLabel) {
-		super(a, aLabel, b, bLabel);
-		this.determiner = determiner;
+	public Calculation(IDeterministicSetRelationDeterminer<V> determiner, V a, String aLabel, V b, String bLabel) {
+		super(determiner, a, aLabel, b, bLabel);
 	}
-
-	@Override
-	public Result call() throws Exception {
-		// TODO Auto-generated method stub
-		return null;
-	}
-	
-
 }

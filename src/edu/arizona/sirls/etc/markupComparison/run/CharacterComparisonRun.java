@@ -6,10 +6,8 @@ import java.util.List;
 
 import com.google.inject.Inject;
 
-import edu.arizona.sirls.etc.markupComparison.algorithm.ICalculation;
 import edu.arizona.sirls.etc.markupComparison.algorithm.similarity.ISimilarity;
 import edu.arizona.sirls.etc.markupComparison.algorithm.similarity.Calculation;
-import edu.arizona.sirls.etc.markupComparison.algorithm.similarity.Result;
 import edu.arizona.sirls.etc.markupComparison.algorithm.similarity.Result;
 import edu.arizona.sirls.etc.markupComparison.io.ICalculationPresenter;
 import edu.arizona.sirls.etc.markupComparison.io.ITreatmentReader;

@@ -1,14 +1,15 @@
 package edu.arizona.sirls.etc.markupComparison.algorithm;
 
 
-public abstract class AbstractCalculation<T> implements Comparable<AbstractCalculation<T>> {
+public abstract class ComparableValuePair<V extends IComparable> 
+	implements Comparable<ComparableValuePair<V>> {
 
-	protected T a;
-	protected T b;
+	protected V a;
+	protected V b;
 	protected String aLabel;
 	protected String bLabel;
 	
-	public AbstractCalculation(T a, String aLabel, T b, String bLabel) {
+	public ComparableValuePair(V a, String aLabel, V b, String bLabel) {
 		this.a = a;
 		this.b = b;
 		this.aLabel = aLabel;
@@ -16,9 +17,9 @@ public abstract class AbstractCalculation<T> implements Comparable<AbstractCalcu
 	}
 
 	@Override
-	public int compareTo(AbstractCalculation<T> o) {
-		if(o instanceof AbstractCalculation) {
-			AbstractCalculation calculation = (AbstractCalculation)o;
+	public int compareTo(ComparableValuePair<V> o) {
+		if(o instanceof ComparableValuePair) {
+			ComparableValuePair calculation = (ComparableValuePair)o;
 			if(this.aLabel.compareTo(calculation.aLabel) == 0)
 				return this.bLabel.compareTo(calculation.bLabel);
 			return this.aLabel.compareTo(calculation.aLabel);
@@ -26,19 +27,19 @@ public abstract class AbstractCalculation<T> implements Comparable<AbstractCalcu
 		return -1;
 	}
 
-	public T getA() {
+	public V getA() {
 		return a;
 	}
 
-	public void setA(T a) {
+	public void setA(V a) {
 		this.a = a;
 	}
 
-	public T getB() {
+	public V getB() {
 		return b;
 	}
 
-	public void setB(T b) {
+	public void setB(V b) {
 		this.b = b;
 	}
 

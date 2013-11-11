@@ -7,7 +7,7 @@ import edu.arizona.sirls.etc.markupComparison.model.Relation;
 public class SomeSimilarity implements ISimilarity<Relation>{
 
 	@Override
-	public Result getSimilarity(Relation a, Relation b) {
+	public Result getResult(Relation a, Relation b) {
 		// TODO Auto-generated method stub
 		return null;
 	}
