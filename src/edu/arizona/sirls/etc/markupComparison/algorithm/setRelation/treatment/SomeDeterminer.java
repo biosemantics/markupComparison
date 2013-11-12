@@ -33,7 +33,15 @@ public class SomeDeterminer implements IDeterministicSetRelationDeterminer<Treat
 		Set<Relation> aRelations = getNormalizedRelations(a);
 		Set<Relation> bRelations = getNormalizedRelations(b);
 		
-		Set<DeterministicResult> childResults = getStructureResults(aStructures, bStructures);
+		List<DeterministicResult> childResults = getStructureResults(aStructures, bStructures);
+		if(childResults.size() == 0) 
+			childResults.add(DeterministicResult.DISTINCT);
+		else if(childResults.size() < aStructures.size() && childResults.size() < bStructures.size()) 
+			childResults.add(DeterministicResult.OVERLAP);
+		else if(childResults.size() < aStructures.size()) 
+			childResults.add(DeterministicResult.SUBSET);
+		else if(childResults.size() < bStructures.size())
+			childResults.add(DeterministicResult.SUPERSET);
 		childResults.add(getRelationsResult(aRelations, bRelations));
 	
 		boolean congruent = true;
@@ -146,16 +154,12 @@ public class SomeDeterminer implements IDeterministicSetRelationDeterminer<Treat
 		return results;
 	}
 
-	private Set<DeterministicResult> getStructureResults(
+	private List<DeterministicResult> getStructureResults(
 			Set<Structure> aStructures, Set<Structure> bStructures) {
-		Set<DeterministicResult> results = new HashSet<DeterministicResult>();
+		List<DeterministicResult> results = new LinkedList<DeterministicResult>();
 		
 		for(Structure aStructure : aStructures) {	
-			if(aStructure.getName().equals("chromosome"))
-				continue;
-			for(Structure bStructure : bStructures) {	
-				if(bStructure.getName().equals("chromosome"))
-					continue;
+			for(Structure bStructure : bStructures) {
 				//can only be equal to one bStructure since bStructure have been normalized
 				if(isEqualStructures(aStructure, bStructure)) {
 					DeterministicResult result = structureDeterminer.getResult(aStructure, bStructure);
@@ -225,6 +229,10 @@ public class SomeDeterminer implements IDeterministicSetRelationDeterminer<Treat
 		Set<Structure> toRemoveStructures = new HashSet<Structure>();
 		for(int i=0; i<structuresList.size(); i++) {
 			Structure baseStructure = structuresList.get(i);
+			if(baseStructure.getName().equals("chromosome")) {
+				toRemoveStructures.add(baseStructure);
+				continue;
+			}
 			
 			if(!toRemoveStructures.contains(baseStructure)) {
 				for(int j=i+1; j<structuresList.size(); j++) {
