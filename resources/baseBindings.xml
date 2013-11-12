@@ -14,9 +14,10 @@
                                 <xml-element java-attribute="charaparserVersion" xml-path="charaparserVersion/text()" />
             </java-attributes>
         </java-type>
+ 
         <java-type name="TreatmentRoot">
             <java-attributes>
-                                <xml-element java-attribute="descriptions" xml-path="description" type="edu.arizona.sirls.etc.markupComparison.model.Description" container-type="java.util.List" />
+                <xml-element java-attribute="descriptions" xml-path="description" type="edu.arizona.sirls.etc.markupComparison.model.Description" container-type="java.util.List" />
             </java-attributes>
         </java-type>
         <java-type name="Description">

@@ -76,10 +76,18 @@ public class DescriptionsComparisonRun implements IRun {
 				TreatmentRoot a = iterationList.get(i);
 				for(int j=i+1; j<descriptionsFileList.getDescriptionsFiles().size(); j++) { 
 					TreatmentRoot b = iterationList.get(j);	
+					
+					String aLabel = treatmentRootsMap.get(a);
+					String bLabel = treatmentRootsMap.get(b);
+					if(a.getTaxonIdentification() != null)
+						aLabel = a.getTaxonIdentification().toString();
+					if(b.getTaxonIdentification() != null)
+						bLabel = b.getTaxonIdentification().toString();
+					
 					//Calculation calculation = null;
 					Calculation<IResultAlgorithm<IResult, TreatmentRoot>, IResult, TreatmentRoot> calculation = 
 							new Calculation<IResultAlgorithm<IResult, TreatmentRoot>, IResult, TreatmentRoot>(
-							(IResultAlgorithm<IResult, TreatmentRoot>)algorithm, a, treatmentRootsMap.get(a), b, treatmentRootsMap.get(b)); 
+							(IResultAlgorithm<IResult, TreatmentRoot>)algorithm, a, aLabel, b, bLabel); 
 					ListenableFuture<IResult> futureScore = executorService.submit(calculation);
 					futureScore.addListener(new Runnable() {
 						@Override

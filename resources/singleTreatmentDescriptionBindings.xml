@@ -3,12 +3,25 @@
     xmlns="http://www.eclipse.org/eclipselink/xsds/persistence/oxm"
     package-name="edu.arizona.sirls.etc.markupComparison.model">
     <java-types>
-                   <java-type name="DescriptionsFile">
-                        <xml-root-element name="treatment"/>
+        <java-type name="DescriptionsFile">
+            <xml-root-element name="treatment"/>
             <java-attributes>
                 <xml-element java-attribute="meta" xml-path="meta" type="edu.arizona.sirls.etc.markupComparison.model.Meta"/>
-                                <xml-element java-attribute="treatmentRoot" xml-path="." type="edu.arizona.sirls.etc.markupComparison.model.TreatmentRoot" />
+                <xml-element java-attribute="treatmentRoot" xml-path="." type="edu.arizona.sirls.etc.markupComparison.model.TreatmentRoot" />
             </java-attributes>
+        </java-type>
+        <java-type name="TreatmentRoot">
+            <java-attributes>
+                <xml-element java-attribute="descriptions" xml-path="description" type="edu.arizona.sirls.etc.markupComparison.model.Description" container-type="java.util.List" />
+               	<xml-element java-attribute="taxonIdentification" xml-path="TaxonIdentification" type="edu.arizona.sirls.etc.markupComparison.model.TaxonIdentification"/>
+                <xml-element java-attribute="taxonHierarchy" xml-path="TaxonHierarchy/text()" />
+            </java-attributes>
+        </java-type>
+        <java-type name="TaxonIdentification">
+            <java-attributes>
+                <xml-element java-attribute="genusName" xml-path="genus_name/text()" />
+                <xml-element java-attribute="speciesName" xml-path="species_name/text()" />
+         	</java-attributes>
         </java-type>
     </java-types>
 </xml-bindings>
