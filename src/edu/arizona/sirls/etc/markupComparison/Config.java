@@ -53,7 +53,7 @@ public class Config extends AbstractModule {
 	}
 
 	private PrintStream createPrintStream() {
-		File file = new File("output2.txt");
+		File file = new File("output.txt");
 		FileOutputStream fos;
 		try {
 			fos = new FileOutputStream(file, true);

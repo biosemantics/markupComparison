@@ -15,47 +15,54 @@ public class SomeDeterminer implements IDeterministicSetRelationDeterminer<Struc
 
 	@Override
 	public DeterministicResult getResult(Structure a, Structure b) {
-		Set<String> aCharacters = new HashSet<String>();
-		for(edu.arizona.sirls.etc.markupComparison.model.Character character : a.getCharacters()) {
-			if((character.getCharType()==null || !character.getCharType().equals("range_value")) &&
-					!character.getName().equals("atypical_size")) {
-				aCharacters.add(normalize(character.getValue()) + normalize(character.getName()));
+		if(this.normalize(a.getName()).equals(this.normalize(b.getName()))) {
+			Set<String> aCharacters = new HashSet<String>();
+			for(edu.arizona.sirls.etc.markupComparison.model.Character character : a.getCharacters()) {
+				if((character.getCharType()==null || !character.getCharType().equals("range_value")) &&
+						!character.getName().equals("atypical_size")) {
+					aCharacters.add(normalize(character.getValue()) + normalize(character.getName()));
+				}
 			}
-		}
-		
-		Set<String> bCharacters = new HashSet<String>();
-		for(edu.arizona.sirls.etc.markupComparison.model.Character character : b.getCharacters()) {
-			if((character.getCharType()==null || !character.getCharType().equals("range_value")) &&
-					!character.getName().equals("atypical_size")) {
-				bCharacters.add(normalize(character.getValue()) + normalize(character.getName()));
+			
+			Set<String> bCharacters = new HashSet<String>();
+			for(edu.arizona.sirls.etc.markupComparison.model.Character character : b.getCharacters()) {
+				if((character.getCharType()==null || !character.getCharType().equals("range_value")) &&
+						!character.getName().equals("atypical_size")) {
+					bCharacters.add(normalize(character.getValue()) + normalize(character.getName()));
+				}
 			}
-		}
-		
-		Set<String> aCharactersCopy = new HashSet<String>(aCharacters);
-		int numberACharacters = aCharacters.size();
-		aCharacters.removeAll(bCharacters);
-		int aCharactersNotBCharacters = aCharacters.size();
-		int aCharactersBCharacters = numberACharacters - aCharactersNotBCharacters;
-		
-		Set<String> bCharactersCopy = new HashSet<String>(bCharacters);
-		int numberBCharacters = bCharacters.size();
-		bCharacters.removeAll(aCharactersCopy);
-		int bCharactersNotACharacters = bCharacters.size();
-		int bCharactersACharacters = numberBCharacters - bCharactersNotACharacters;
-		
-		if(aCharactersBCharacters > 0)
-			if(numberACharacters == aCharactersBCharacters)
-				if(numberACharacters == numberBCharacters) 
-					return DeterministicResult.CONGRUENT;
+			
+			Set<String> aCharactersCopy = new HashSet<String>(aCharacters);
+			int numberACharacters = aCharacters.size();
+			aCharacters.removeAll(bCharacters);
+			int aCharactersNotBCharacters = aCharacters.size();
+			int aCharactersBCharacters = numberACharacters - aCharactersNotBCharacters;
+			
+			Set<String> bCharactersCopy = new HashSet<String>(bCharacters);
+			int numberBCharacters = bCharacters.size();
+			bCharacters.removeAll(aCharactersCopy);
+			int bCharactersNotACharacters = bCharacters.size();
+			int bCharactersACharacters = numberBCharacters - bCharactersNotACharacters;
+			
+			if(numberACharacters == 0 && numberBCharacters == 0)
+				return DeterministicResult.CONGRUENT;
+			
+			if(aCharactersBCharacters > 0)
+				if(numberACharacters == aCharactersBCharacters)
+					if(numberACharacters == numberBCharacters) 
+						return DeterministicResult.CONGRUENT;
+					else
+						return DeterministicResult.SUPERSET;
 				else
-					return DeterministicResult.SUPERSET;
+					if(numberBCharacters > aCharactersBCharacters) 
+						return DeterministicResult.OVERLAP;
+					else 
+						return DeterministicResult.SUBSET;
 			else
-				if(numberBCharacters > aCharactersBCharacters) 
-					return DeterministicResult.OVERLAP;
-				else 
-					return DeterministicResult.SUBSET;
-		else
+				return DeterministicResult.DISTINCT;
+		} else {
 			return DeterministicResult.DISTINCT;
+		}
 	}
 	
 	private String normalize(String term) {

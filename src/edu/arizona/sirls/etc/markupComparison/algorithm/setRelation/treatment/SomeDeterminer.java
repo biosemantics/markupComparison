@@ -91,6 +91,9 @@ public class SomeDeterminer implements IDeterministicSetRelationDeterminer<Treat
 		int bRelationsNotARelations = bRelationStrings.size();
 		int bRelationsARelations = numberBRelations - bRelationsNotARelations;
 		
+		if(numberARelations == 0 && numberBRelations == 0) 
+			return DeterministicResult.CONGRUENT;
+		
 		if(aRelationsBRelations > 0)
 			if(numberARelations == aRelationsBRelations)
 				if(numberARelations == numberBRelations) 
@@ -148,7 +151,11 @@ public class SomeDeterminer implements IDeterministicSetRelationDeterminer<Treat
 		Set<DeterministicResult> results = new HashSet<DeterministicResult>();
 		
 		for(Structure aStructure : aStructures) {	
-			for(Structure bStructure : bStructures) {				
+			if(aStructure.getName().equals("chromosome"))
+				continue;
+			for(Structure bStructure : bStructures) {	
+				if(bStructure.getName().equals("chromosome"))
+					continue;
 				//can only be equal to one bStructure since bStructure have been normalized
 				if(isEqualStructures(aStructure, bStructure)) {
 					DeterministicResult result = structureDeterminer.getResult(aStructure, bStructure);
